@@ -1,0 +1,16 @@
+{
+  "id": "dimensity-7300e",
+  "name": "Dimensity 7300e",
+  "vendor": "mediatek",
+  "family": "Dimensity 7000",
+  "summary": "Name recorded from phone makers' specification pages and launch reports. Chip details have not been compiled yet.",
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "vivo",
+      "url": "https://www.vivo.com/my/products/param/v80-lite-5g",
+      "checked": "2026-09-18",
+      "note": "Chip name as given for the vivo V80 Lite 5G."
+    }
+  }
+}

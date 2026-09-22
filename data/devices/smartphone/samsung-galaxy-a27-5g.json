@@ -1,0 +1,166 @@
+{
+  "id": "samsung-galaxy-a27-5g",
+  "name": "Galaxy A27 5G",
+  "brand": "samsung",
+  "category": "smartphone",
+  "series": "Galaxy A",
+  "form": "bar",
+  "status": "released",
+  "announced": "2026-06-30",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1399,
+      "config": "8 GB / 128 GB",
+      "date": "2026-06-30",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2026/06/30/samsung-galaxy-a27-5g-snapdragon-6-gen-3-malaysia-launch-price-specs/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1499,
+      "config": "8 GB / 256 GB",
+      "date": "2026-06-30",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2026/06/30/samsung-galaxy-a27-5g-snapdragon-6-gen-3-malaysia-launch-price-specs/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://images.samsung.com/is/image/samsung/p6pim/my/sm-a276bzkgxme/gallery/my-galaxy-a27-5g-sm-a276-sm-a276bzkgxme-thumb-553560827?$650_519_PNG$",
+    "page": "https://www.samsung.com/my/smartphones/galaxy-a/galaxy-a27-5g-black-128gb-sm-a276bzkgxme/",
+    "credit": "Samsung Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.7,
+      "type": "Super AMOLED",
+      "resolution": "2340 × 1080",
+      "refresh_hz": 120,
+      "ppi": 385
+    },
+    "memory": {
+      "ram_gb": [
+        8
+      ],
+      "storage_gb": [
+        128,
+        256
+      ],
+      "card": "MicroSD (Up to 2TB)"
+    },
+    "battery": {
+      "capacity_mah": 5000,
+      "video_h": 23
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "aperture": "f/1.8",
+          "ois": true
+        }
+      ],
+      "rear_text": "Rear: 50.0 MP + 5.0 MP + 2.0 MP",
+      "front": "12 MP",
+      "rear_detail": [
+        "50 MP, f/1.8, OIS",
+        "5 MP, f/2.2",
+        "2 MP, f/2.4"
+      ],
+      "features": "Digital Zoom up to 10x",
+      "front_detail": [
+        "12 MP, f/2.2"
+      ],
+      "video": "UHD 4K (3840 x 2160)@30fps"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true,
+      "bands_2g": "GSM850, GSM900, DCS1800, PCS1900",
+      "bands_3g": "B1(2100), B2(1900), B4(AWS), B5(850), B8(900)",
+      "bands_4g": "4G FDD LTE: B1(2100), B2(1900), B3(1800), B4(AWS), B5(850), B7(2600), B8(900), B12(700), B13(700), B17(700), B20(800), B26(850), B28(700), B66(AWS-3); 4G TDD LTE: B38(2600), B40(2300), B41(2500)",
+      "bands_5g": "5G FDD Sub6: N1(2100), N3(1800), N5(850), N7(2600), N8(900), N20(800), N26(850), N28(700), N66(AWS-3); 5G TDD Sub6: N38(2600), N40(2300), N41(2500), N77(3700), N78(3500)",
+      "technology": "GSM / HSPA / LTE / 5G",
+      "sim": "Dual-SIM; Nano-SIM (4FF); SIM 1 + Hybrid (SIM or MicroSD)",
+      "wifi": "802.11a/b/g/n/ac 2.4GHz+5GHz, VHT80",
+      "bluetooth": "Bluetooth v5.1",
+      "positioning": "GPS, Glonass, Beidou, Galileo, QZSS",
+      "usb": "USB Type-C, USB 2.0"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 162.4,
+        "width_mm": 78.2,
+        "depth_mm": 7.8
+      },
+      "weight_g": 200.0,
+      "ip": "IP64"
+    },
+    "software": {
+      "launch_os": "Android 16, One UI 2.1",
+      "security_updates_years": 6,
+      "security_until": "2032-07-31"
+    },
+    "platform": {
+      "chipset": "snapdragon-6-gen-3",
+      "cpu": "Octa-Core; 2.4GHz, 1.8GHz"
+    },
+    "audio": {
+      "speakers": "Mono speaker",
+      "jack": false
+    },
+    "sensors": "Accelerometer, Fingerprint Sensor, Gyro Sensor, Geomagnetic Sensor, Light Sensor, Virtual Proximity Sensing",
+    "misc": {
+      "colors": "Light Pink, Blue, Black"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "samsung",
+      "url": "https://www.samsung.com/my/smartphones/galaxy-a/galaxy-a27-5g-black-128gb-sm-a276bzkgxme/",
+      "checked": "2026-09-18",
+      "note": "Read from Samsung Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "specs.platform": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2026/06/30/samsung-galaxy-a27-5g-snapdragon-6-gen-3-malaysia-launch-price-specs/",
+        "note": "Chip named in SoyaCincau's Malaysian coverage; the maker's own specification data for this model does not name it.",
+        "checked": "2026-09-18"
+      },
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2026/06/30/samsung-galaxy-a27-5g-snapdragon-6-gen-3-malaysia-launch-price-specs/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      },
+      "specs.platform.cpu": {
+        "class": "official",
+        "source": "samsung",
+        "url": "https://www.samsung.com/my/smartphones/galaxy-a/galaxy-a27-5g-black-128gb-sm-a276bzkgxme/",
+        "checked": "2026-09-18",
+        "note": "Read from Samsung Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

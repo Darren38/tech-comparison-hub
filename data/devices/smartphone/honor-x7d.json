@@ -1,0 +1,104 @@
+{
+  "id": "honor-x7d",
+  "name": "HONOR X7d",
+  "brand": "honor",
+  "category": "smartphone",
+  "series": "X",
+  "form": "bar",
+  "status": "released",
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-18",
+      "source": "honor",
+      "url": "https://www.honor.com/my/phones/honor-x7d/spec/",
+      "note": "Sold in Malaysia, but no launch price was found in Malaysian launch coverage."
+    }
+  },
+  "image": {
+    "kind": "official",
+    "src": "https://www.honor.com/content/dam/honor/common/product-list/product-series/honor-x7d/honor-x7d-gold-list.png",
+    "page": "https://www.honor.com/my/phones/honor-x7d/spec/",
+    "credit": "HONOR Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.77,
+      "type": "LCD",
+      "resolution": "1610 × 720",
+      "ppi": 261
+    },
+    "platform": {
+      "chipset": "snapdragon-685",
+      "gpu": "Adreno GPU A610",
+      "cpu": "Octa-core; 4xCortex-A73 2.8GHz +4xCortex-A53 1.9GHz"
+    },
+    "battery": {
+      "capacity_mah": 6500,
+      "chemistry": "Li-ion Polymer"
+    },
+    "charging": {
+      "wired_w": 35,
+      "claim": "Support up to 35W (11V/3.2A) super charge"
+    },
+    "camera": {
+      "rear_text": "Rear: 2 MP",
+      "front": "8 MP",
+      "rear_detail": [
+        "108M Main camera(f1.75)",
+        "2MP Depth Camera(f/2.4)"
+      ],
+      "features": "Up to 8X Digital zoom",
+      "video": "1080p",
+      "front_detail": [
+        "8 MP Camera (f/2.0)"
+      ]
+    },
+    "connectivity": {
+      "cellular": "4G",
+      "nfc": true,
+      "technology": "GSM / HSPA / LTE",
+      "sim": "Nano Card",
+      "wifi": "Support 802.11 a/b/g/n/ac; Support 2.4GHz and 5GHz WLAN; Support WLAN Hotspot and WLAN Direct",
+      "usb": "Type-C, USB 2.0",
+      "positioning": "Support GPS/AGPS/Glonass/BeiDou/Galileo",
+      "bluetooth": "Bluetooth"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 166.89,
+        "width_mm": 76.8,
+        "depth_mm": 8.24
+      },
+      "weight_g": 208.0
+    },
+    "software": {
+      "launch_os": "MagicOS 9.0(Android 15)"
+    },
+    "biometrics": {
+      "face": "Yes"
+    },
+    "audio": {
+      "jack": false
+    },
+    "sensors": "Gravity Sensor, Fingerprint Sensor, Compass, Acceleration Sensor, Ambient Light Sensor, Proximity Sensor"
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "honor",
+      "url": "https://www.honor.com/my/phones/honor-x7d/spec/",
+      "checked": "2026-09-18",
+      "note": "Read from HONOR Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

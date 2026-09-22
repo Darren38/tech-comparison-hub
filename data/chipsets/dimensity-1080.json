@@ -1,0 +1,16 @@
+{
+  "id": "dimensity-1080",
+  "name": "Dimensity 1080",
+  "vendor": "mediatek",
+  "family": "Dimensity 1000",
+  "summary": "Name recorded from phone makers' specification pages and launch reports. Chip details have not been compiled yet.",
+  "provenance": {
+    "default": {
+      "class": "news",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2023/03/24/samsung-galaxy-a34-a54-5g-malaysia-launch-price-preorder/",
+      "checked": "2026-09-18",
+      "note": "Chip name as given for the Galaxy A34 5G."
+    }
+  }
+}

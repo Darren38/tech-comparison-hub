@@ -1,0 +1,129 @@
+{
+  "id": "vivo-y36",
+  "name": "vivo Y36",
+  "brand": "vivo",
+  "category": "smartphone",
+  "series": "Y",
+  "form": "bar",
+  "status": "released",
+  "announced": "2023-07-26",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 999,
+      "date": "2023-07-26",
+      "type": "launch",
+      "source": "nasilemaktech",
+      "url": "https://nasilemaktech.com/vivo-y36-4g-malaysia-price/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 6.64,
+      "type": "LCD",
+      "resolution": "2388 × 1080",
+      "ppi": 395
+    },
+    "platform": {
+      "chipset": "snapdragon-680"
+    },
+    "memory": {
+      "ram_gb": [
+        8
+      ],
+      "storage_gb": [
+        256
+      ]
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "charging": {
+      "wired_w": 44,
+      "claim": "44W"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50
+        },
+        {
+          "role": "depth",
+          "mp": 2
+        }
+      ],
+      "rear_text": "Rear: 50 MP + 2 MP Bokeh",
+      "front": "16 MP",
+      "front_detail": [
+        "16 MP"
+      ],
+      "rear_detail": [
+        "50 MP",
+        "2 MP Bokeh"
+      ]
+    },
+    "connectivity": {
+      "cellular": "4G",
+      "bands_2g": "850/900/1800MHz",
+      "bands_3g": "B1/B5/B8",
+      "bands_4g": "4G TDD-LTE: B38/B40/B41(194M; 4G FDD-LTE: B1/B3/B5/B7/B8/B20/B28",
+      "technology": "GSM / HSPA / LTE",
+      "sim": "2 nano SIMs + 1 microSD",
+      "wifi": "2.4 GHz/5 GHz",
+      "bluetooth": "Bluetooth 5.0",
+      "usb": "Type-C",
+      "radio": "Yes",
+      "positioning": "GPS, BeiDou, GLONASS, Galileo, QZSS"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 164.06,
+        "width_mm": 76.17,
+        "depth_mm": 8.07
+      },
+      "weight_g": 202.0
+    },
+    "software": {
+      "launch_os": "Funtouch OS 13 (Based on Android 13)"
+    },
+    "misc": {
+      "colors": "Semporna Green, Meteor Black, Body"
+    },
+    "sensors": "Fingerprint, Accelerometer, Ambient Light Sensor, Proximity Sensor, E-compass, Gyroscope"
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "vivo",
+      "url": "https://www.vivo.com/my/products/param/y36",
+      "checked": "2026-09-18",
+      "note": "Read from vivo Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "nasilemaktech",
+        "url": "https://nasilemaktech.com/vivo-y36-4g-malaysia-price/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (Nasi Lemak Tech). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1683798040450/3894d6d94061925ca0317a0fbbd9f537.png",
+    "page": "https://www.vivo.com/my/products/param/y36",
+    "credit": "vivo Malaysia",
+    "checked": "2026-09-19"
+  }
+}

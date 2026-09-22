@@ -1,0 +1,16 @@
+{
+  "id": "snapdragon-4-gen-5",
+  "name": "Snapdragon 4 Gen 5",
+  "vendor": "qualcomm",
+  "family": "Snapdragon 4 series",
+  "summary": "Name recorded from phone makers' specification pages and launch reports. Chip details have not been compiled yet.",
+  "provenance": {
+    "default": {
+      "class": "news",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2026/09/14/oppo-a7-pro-a7-pro-max-5g-malaysia-launch-specs-promo/",
+      "checked": "2026-09-18",
+      "note": "Chip name as given for the OPPO A7 Pro Max."
+    }
+  }
+}

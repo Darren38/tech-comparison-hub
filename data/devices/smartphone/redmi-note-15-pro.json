@@ -1,0 +1,134 @@
+{
+  "id": "redmi-note-15-pro",
+  "name": "Redmi Note 15 Pro",
+  "brand": "redmi",
+  "category": "smartphone",
+  "series": "Redmi Note",
+  "form": "bar",
+  "status": "released",
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-18",
+      "source": "redmi",
+      "url": "https://www.mi.com/global/product/redmi-note-15-pro/specs/",
+      "note": "Sold in Malaysia, but no launch price was found in Malaysian launch coverage."
+    }
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.77,
+      "type": "AMOLED",
+      "resolution": "2392 × 1080",
+      "refresh_hz": 120,
+      "peak_nits": 3200,
+      "ppi": 388
+    },
+    "platform": {
+      "chipset": "helio-g200",
+      "gpu": "Mali-G57 MC2",
+      "cpu": "Octa-core processor, up to 2.2GHz"
+    },
+    "memory": {
+      "ram_gb": [
+        8,
+        12
+      ],
+      "storage_gb": [
+        256,
+        512
+      ],
+      "ram_type": "LPDDR4X",
+      "storage_type": "UFS2.2"
+    },
+    "battery": {
+      "capacity_mah": 6500
+    },
+    "charging": {
+      "wired_w": 45,
+      "claim": "45W turbo charging; 45W In-box charger"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 200,
+          "sensor": "1/1.4\"",
+          "aperture": "f/1.7",
+          "ois": true
+        },
+        {
+          "role": "ultrawide",
+          "mp": 8
+        }
+      ],
+      "front": "32 MP",
+      "rear_detail": [
+        "200MP ultimate-clarity camera, OIS, f/1.7, 16-in-1 binning into one large 2.24μm pixel, 1/1.4\" sensor size, 7P lens",
+        "8MP ultra-wide camera, f/2.2"
+      ],
+      "video": "1080p@60fps",
+      "front_detail": [
+        "32MP front camera, 1/3.6\" sensor size, f/2.2, 4P lens"
+      ],
+      "front_video": "1080p@30fps"
+    },
+    "connectivity": {
+      "cellular": "4G",
+      "nfc": true,
+      "bands_3g": "1/2/4/5/8/6/19",
+      "bands_4g": "LTE FDD: 1/2/3/4/5/7/8/12/13/17/18/19/20/26/28/66; LTE TDD: 38/40/41",
+      "technology": "HSPA / LTE",
+      "wifi": "802.11a/b/g/n/ac; Supports 2.4GHz Wi-Fi; 5GHz Wi-Fi",
+      "positioning": "Beidou:B1I; GPS:L1; Galileo:E1; GLONASS:G1; QZSS:L1; A-GPS supplementary positioning; Wireless network; Data network; Sensor Assisted Positioning",
+      "bluetooth": "Bluetooth 5.3",
+      "usb": "USB Type-C"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 163.22,
+        "width_mm": 76.29,
+        "depth_mm": 7.96
+      },
+      "weight_g": 195.0,
+      "ip": "IP65"
+    },
+    "software": {
+      "launch_os": "Xiaomi HyperOS 2"
+    },
+    "sensors": "Proximity sensor, Ambient light sensor, Accelerometer, Electronic compass, IR blaster, Gyroscope, Z-axis linear vibration motor",
+    "audio": {
+      "speakers": "Dual speakers"
+    },
+    "biometrics": {
+      "fingerprint": "In-screen fingerprint sensor"
+    },
+    "misc": {
+      "colors": "Black, Glacier Blue, Titanium Color"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "redmi",
+      "url": "https://www.mi.com/global/product/redmi-note-15-pro/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from Xiaomi Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://i02.appmifile.com/139_operatorx_operatorx_opx/08/01/2026/a277a33b5b40a10292c428d138853406.png",
+    "page": "https://www.mi.com/global/product/redmi-note-15-pro/specs/",
+    "credit": "Xiaomi",
+    "checked": "2026-09-19"
+  }
+}

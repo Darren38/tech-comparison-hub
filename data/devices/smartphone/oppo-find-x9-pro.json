@@ -1,0 +1,144 @@
+{
+  "id": "oppo-find-x9-pro",
+  "name": "OPPO Find X9 Pro",
+  "brand": "oppo",
+  "category": "smartphone",
+  "series": "Find X",
+  "form": "bar",
+  "status": "released",
+  "announced": "2025-10-28",
+  "released": "2025-10-28",
+  "segment": "camera-flagship",
+  "aliases": [
+    "Find X9 Pro",
+    "FX9 Pro"
+  ],
+  "summary": "Hasselblad camera flagship with a 7,500 mAh silicon-carbon battery, the longest GSMArena Active Use Score recorded at its launch.",
+  "highlights": [
+    "7,500 mAh battery",
+    "200 MP Hasselblad telephoto",
+    "Optional Hasselblad teleconverter"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 5099,
+      "config": "16 GB / 512 GB",
+      "date": "2025-10-29",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/10/29/oppo-find-x9-series-malaysia-price-launch-availability/",
+      "class": "news",
+      "accessed": "2026-09-16"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 6.78,
+      "type": "LTPO AMOLED",
+      "resolution": "2772 × 1272",
+      "ppi": 450,
+      "refresh_hz": 120,
+      "peak_nits": 1800,
+      "pwm": "Not specified"
+    },
+    "platform": {
+      "chipset": "dimensity-9500"
+    },
+    "memory": {
+      "ram_gb": [
+        16
+      ],
+      "storage_gb": [
+        512
+      ],
+      "storage_type": "UFS 4.1"
+    },
+    "battery": {
+      "capacity_mah": 7500,
+      "rated_mah": 7290,
+      "chemistry": "Silicon-carbon"
+    },
+    "charging": {
+      "wired_w": 80,
+      "wireless_w": 50,
+      "claim": "80 W SUPERVOOC / 80 W UFCS; 50 W AIRVOOC"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "sensor": "1/1.28\"",
+          "aperture": "f/1.5"
+        },
+        {
+          "role": "ultrawide",
+          "mp": 50,
+          "aperture": "f/2.0"
+        },
+        {
+          "role": "periscope",
+          "mp": 200,
+          "aperture": "f/2.1",
+          "zoom_x": 3
+        }
+      ],
+      "zoom_optical_x": 3,
+      "front": "50 MP, f/2.0",
+      "accessories": "Hasselblad Teleconverter (10× optical with the accessory)"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 161.26,
+        "width_mm": 76.46,
+        "depth_mm": 8.25
+      },
+      "weight_g": 224
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "wifi": "Wi-Fi 7",
+      "bluetooth": "6.0",
+      "usb": "USB-C 3.2 Gen 1",
+      "nfc": true
+    },
+    "software": {
+      "launch_os": "Android 16, ColorOS 16"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "oppo",
+      "url": "https://www.oppo.com/en/smartphones/series-find-x/find-x9-pro/specs/",
+      "checked": "2026-09-15"
+    },
+    "fields": {
+      "specs.display.peak_nits": {
+        "class": "official",
+        "source": "oppo",
+        "note": "OPPO lists 1,800 nits typical in high-brightness mode."
+      },
+      "specs.camera.rear": {
+        "class": "official",
+        "source": "oppo",
+        "note": "Sensor size of the main camera from launch coverage."
+      },
+      "specs.camera.zoom_optical_x": {
+        "class": "official",
+        "source": "oppo",
+        "note": "3× native optical zoom per OPPO's launch material."
+      }
+    }
+  },
+  "dataStatus": "checked",
+  "image": {
+    "kind": "official",
+    "src": "https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/find-x9-series-en/listpage/find-x9-pro/480-600-white-v2.png",
+    "page": "https://www.oppo.com/en/smartphones/series-find-x/find-x9-pro/",
+    "credit": "OPPO",
+    "checked": "2026-09-19"
+  }
+}

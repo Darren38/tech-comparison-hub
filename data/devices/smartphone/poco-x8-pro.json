@@ -1,0 +1,176 @@
+{
+  "id": "poco-x8-pro",
+  "name": "POCO X8 Pro",
+  "brand": "poco",
+  "category": "smartphone",
+  "series": "X",
+  "form": "bar",
+  "status": "released",
+  "announced": "2026-03-17",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1499,
+      "config": "8 GB / 256 GB",
+      "date": "2026-03-17",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2026/03/17/poco-x8-pro-pro-max-malaysia-dimensity-9500s-specs-price/",
+      "class": "news",
+      "accessed": "2026-09-18",
+      "note": "Recommended retail price; RM200 lower during the launch promotion."
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1699,
+      "config": "8 GB / 512 GB",
+      "date": "2026-03-17",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2026/03/17/poco-x8-pro-pro-max-malaysia-dimensity-9500s-specs-price/",
+      "class": "news",
+      "accessed": "2026-09-18",
+      "note": "Recommended retail price; RM200 lower during the launch promotion."
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1899,
+      "config": "12 GB / 512 GB",
+      "date": "2026-03-17",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2026/03/17/poco-x8-pro-pro-max-malaysia-dimensity-9500s-specs-price/",
+      "class": "news",
+      "accessed": "2026-09-18",
+      "note": "Recommended retail price; RM200 lower during the launch promotion."
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 6.59,
+      "type": "AMOLED",
+      "resolution": "2756 × 1268",
+      "refresh_hz": 120,
+      "peak_nits": 3500,
+      "protection": "Corning Gorilla Glass 7i",
+      "ppi": 460
+    },
+    "platform": {
+      "chipset": "dimensity-8500-ultra"
+    },
+    "memory": {
+      "ram_gb": [
+        8,
+        12
+      ],
+      "storage_gb": [
+        256,
+        512
+      ],
+      "ram_type": "LPDDR5X",
+      "storage_type": "UFS 4.1"
+    },
+    "battery": {
+      "capacity_mah": 6500
+    },
+    "charging": {
+      "wired_w": 100,
+      "claim": "100W HyperCharge; Up to 27W reverse charging",
+      "reverse_w": 27
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "sensor": "1/1.95\"",
+          "aperture": "f/1.5",
+          "ois": true
+        },
+        {
+          "role": "ultrawide",
+          "mp": 8
+        }
+      ],
+      "front": "20 MP",
+      "rear_detail": [
+        "50MP main camera, Sony IMX882 image sensor, 1.6μm 4-in-1 Super Pixel, f/1.5, 1/1.95'' sensor size, 6P lens, OIS",
+        "8MP ultra-wide camera, f/2.2"
+      ],
+      "video": "4K@60fps; 1080p",
+      "front_detail": [
+        "20MP front camera"
+      ],
+      "front_video": "1080p@60fps"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true,
+      "bands_2g": "5G S",
+      "bands_3g": "1/2/4/5/6/8/19",
+      "bands_4g": "4G LTE TDD: B38/40/41/42/48; 4G LTE FDD: B1/2/3/4/5/7/8/18/19/20/26/28/66",
+      "bands_5g": "5G SA: n1/2/3/5/7/8/20/26/28/38/40/41/66*(70M)/71/77/78/48; 5G NSA: n1/3/5/7/8/20/28/38/40/41/66*(70M)/71/77/78",
+      "technology": "GSM / HSPA / LTE / 5G",
+      "wifi": "Wi-Fi Protocol; Wi-Fi 6/ Wi-Fi 5/ Wi-Fi 4 and 802.11a/b/g",
+      "bluetooth": "Bluetooth 6.0",
+      "usb": "USB Type-C"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 157.53,
+        "width_mm": 75.19,
+        "depth_mm": 8.38
+      },
+      "weight_g": 201.47,
+      "ip": "IP69K"
+    },
+    "software": {
+      "launch_os": "Powered by Xiaomi HyperOS 3"
+    },
+    "sensors": "Proximity sensor, Ambient light sensor, Accelerometer, Electronic compass, Gyroscope, IR blaster, Flicker sensor, X-axis linear vibration motor",
+    "biometrics": {
+      "fingerprint": "In-screen fingerprint sensor",
+      "face": "AI Face Unlock"
+    },
+    "audio": {
+      "speakers": "Stereo speakers"
+    },
+    "misc": {
+      "colors": "Mint Green, White, Black"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "poco",
+      "url": "https://www.mi.com/my/product/poco-x8-pro/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from Xiaomi Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2026/03/17/poco-x8-pro-pro-max-malaysia-dimensity-9500s-specs-price/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://i02.appmifile.com/785_item_my/09/03/2026/36a4dbe74c685556aa77f4c4b9f7af0a.png",
+    "page": "https://www.mi.com/my/product/poco-x8-pro/specs/",
+    "credit": "Xiaomi",
+    "checked": "2026-09-19"
+  }
+}

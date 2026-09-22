@@ -1,0 +1,150 @@
+{
+  "id": "google-pixel-11-pro-xl",
+  "name": "Pixel 11 Pro XL",
+  "brand": "google",
+  "category": "smartphone",
+  "series": "Pixel",
+  "form": "bar",
+  "status": "released",
+  "announced": "2026-08-12",
+  "released": "2026-08-20",
+  "segment": "flagship",
+  "aliases": [
+    "Pixel 11 XL",
+    "P11 Pro XL"
+  ],
+  "summary": "Google's August 2026 flagship with Tensor G6, a 3,600-nit display and Qi2.2 magnetic charging. Early tests show a CPU gain but little GPU progress.",
+  "highlights": [
+    "Tensor G6",
+    "3,600-nit peak display",
+    "Qi2.2 magnetic wireless charging",
+    "7 years of updates"
+  ],
+  "prices": [
+    {
+      "region": "US",
+      "currency": "USD",
+      "amount": 1299,
+      "config": "12 GB / 256 GB",
+      "date": "2026-08-12",
+      "type": "launch",
+      "source": "google",
+      "url": "https://www.notebookcheck.net/Google-Pixel-11-Pro-series-debuts-with-Tensor-G6-new-cameras-and-Qi2-2-charging.1366782.0.html",
+      "class": "official"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 5999,
+      "config": "12 GB / 256 GB",
+      "date": "2026-08-13",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2026/08/13/google-pixel-11-series-malaysia-price-specs/",
+      "class": "news",
+      "accessed": "2026-09-16"
+    }
+  ],
+  "image": {
+    "kind": "drawing",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Pixel_11_Pro_XL_back_%28Olive%29.svg/500px-Pixel_11_Pro_XL_back_%28Olive%29.svg.png",
+    "page": "https://commons.wikimedia.org/wiki/File:Pixel_11_Pro_XL_back_(Olive).svg",
+    "title": "Pixel 11 Pro XL back (Olive)",
+    "author": "DM115Wiki",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "checked": "2026-09-17"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.8,
+      "type": "Super Actua LTPO OLED",
+      "resolution": "2992 × 1344",
+      "ppi": 482,
+      "refresh_hz": 120,
+      "peak_nits": 3600,
+      "protection": "Corning Gorilla Glass Victus 2"
+    },
+    "platform": {
+      "chipset": "google-tensor-g6"
+    },
+    "memory": {
+      "ram_gb": [
+        12,
+        16
+      ],
+      "storage_gb": [
+        256,
+        512,
+        1024
+      ]
+    },
+    "battery": {
+      "capacity_mah": 5115
+    },
+    "charging": {
+      "wired_w": 45,
+      "wireless_w": 25,
+      "claim": "About 75% in 30 min with a 45 W or faster charger; Qi2.2"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "sensor": "1/1.3\"",
+          "aperture": "f/1.68"
+        },
+        {
+          "role": "ultrawide",
+          "mp": 48,
+          "aperture": "f/1.7"
+        },
+        {
+          "role": "periscope",
+          "mp": 48,
+          "aperture": "f/2.8",
+          "zoom_x": 5
+        }
+      ],
+      "zoom_optical_x": 5,
+      "front": "42 MP ultrawide",
+      "video": "4K @ 60 fps; 8K 24/30 fps via Video Boost"
+    },
+    "build": {
+      "ip": "IP68"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "sim": "Dual eSIM (US)",
+      "nfc": true
+    },
+    "software": {
+      "launch_os": "Android 17",
+      "os_updates_years": 7,
+      "security_updates_years": 7
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "google",
+      "url": "https://store.google.com",
+      "checked": "2026-09-15",
+      "note": "As announced; cross-checked against Notebookcheck's launch report (12 Aug 2026): https://www.notebookcheck.net/Google-Pixel-11-Pro-series-debuts-with-Tensor-G6-new-cameras-and-Qi2-2-charging.1366782.0.html"
+    },
+    "fields": {
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      },
+      "specs.charging.wired_w": {
+        "class": "estimated",
+        "source": "google",
+        "note": "Google states a charge-time claim with a recommended charger rating; the phone's maximum input is not published."
+      }
+    }
+  },
+  "dataStatus": "checked"
+}

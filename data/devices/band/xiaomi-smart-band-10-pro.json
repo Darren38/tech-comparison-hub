@@ -1,0 +1,77 @@
+{
+  "id": "xiaomi-smart-band-10-pro",
+  "name": "Xiaomi Smart Band 10 Pro",
+  "brand": "xiaomi",
+  "category": "band",
+  "series": "Band",
+  "form": "band",
+  "status": "released",
+  "announced": "2026-05-28",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 399,
+      "date": "2026-05-28",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2026/394120/xiaomi-watch-s5-smart-band-10-pro-and-buds-6/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://i02.appmifile.com/747_item_my/18/05/2026/5b9ad90a99c5f4770926ca65a7dd5ac3.png",
+    "page": "https://www.mi.com/my/product/xiaomi-smart-band-10-pro/specs/",
+    "credit": "Xiaomi Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 1.74,
+      "type": "AMOLED",
+      "resolution": "480 × 336",
+      "peak_nits": 2000
+    },
+    "battery": {
+      "life_h": 504,
+      "capacity_mah": 350
+    },
+    "connectivity": {
+      "gps": "Built-in GNSS",
+      "bluetooth": "Bluetooth 5.4"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 42.83,
+        "width_mm": 32.16,
+        "depth_mm": 9.7
+      },
+      "weight_g": 28.7,
+      "water": "5 ATM",
+      "water_m": 50,
+      "frame": "High-strength aluminum; Strap Material; Standard: TPU; Ceramic: Fluororubber; Cover Material: 2.5D curved glass; 200+ watch faces"
+    },
+    "sensors": "Heart rate sensor (with blood oxygen sensor), Accelerometer, Gyroscope, Electronic compass, Ambient light sensor, Connectivity & Compatibility, Mi Fitness app, Bluetooth 5.4, Android 8.0 and above, iOS 14 and above, Package Includes, Band body x 1, Band strap x 1, Dedicated charging cable x 1, User manual x 1"
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "xiaomi",
+      "url": "https://www.mi.com/my/product/xiaomi-smart-band-10-pro/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from Xiaomi Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "lowyat",
+        "url": "https://www.lowyat.net/2026/394120/xiaomi-watch-s5-smart-band-10-pro-and-buds-6/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (Lowyat.NET). The global announcement can be earlier."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

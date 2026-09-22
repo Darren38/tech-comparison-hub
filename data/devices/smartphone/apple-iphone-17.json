@@ -1,0 +1,158 @@
+{
+  "id": "apple-iphone-17",
+  "name": "iPhone 17",
+  "brand": "apple",
+  "category": "smartphone",
+  "series": "iPhone",
+  "form": "bar",
+  "status": "released",
+  "announced": "2025-09-09",
+  "released": "2025-09-19",
+  "segment": "flagship",
+  "aliases": [
+    "iPhone 17 base"
+  ],
+  "summary": "The standard iPhone, now with a 120 Hz ProMotion display and 256 GB base storage. It has no telephoto camera.",
+  "highlights": [
+    "120 Hz ProMotion comes to the base iPhone",
+    "256 GB base storage",
+    "A19"
+  ],
+  "prices": [
+    {
+      "region": "US",
+      "currency": "USD",
+      "amount": 799,
+      "config": "256 GB",
+      "date": "2025-09-09",
+      "type": "launch",
+      "source": "apple"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 3999,
+      "config": "256 GB",
+      "date": "2025-09-10",
+      "type": "launch",
+      "source": "malaymail",
+      "url": "https://www.malaymail.com/news/tech-gadgets/2025/09/10/iphone-17-and-iphone-17-pro-malaysia-heres-the-official-pricing-pre-order-opens-september-12/190591",
+      "class": "news",
+      "accessed": "2026-09-16"
+    }
+  ],
+  "image": {
+    "kind": "photo",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/White_iPhone_17.jpg/500px-White_iPhone_17.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:White_iPhone_17.jpg",
+    "title": "White iPhone 17",
+    "author": "Ahmad Ali Karim",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "checked": "2026-09-17"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.3,
+      "type": "Super Retina XDR OLED, ProMotion",
+      "resolution": "2622 × 1206",
+      "ppi": 460,
+      "refresh_hz": 120,
+      "peak_nits": 3000,
+      "protection": "Ceramic Shield 2"
+    },
+    "platform": {
+      "chipset": "apple-a19"
+    },
+    "memory": {
+      "ram_gb": [
+        8
+      ],
+      "storage_gb": [
+        256,
+        512
+      ],
+      "expandable": false
+    },
+    "battery": {
+      "video_h": 30
+    },
+    "charging": {
+      "wired_w": 40,
+      "wireless_w": 25,
+      "claim": "Up to 50% in 20 min with a 40 W adapter"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 48,
+          "aperture": "f/1.6",
+          "focal_mm": 26
+        },
+        {
+          "role": "ultrawide",
+          "mp": 48,
+          "aperture": "f/2.2",
+          "focal_mm": 13
+        }
+      ],
+      "zoom_optical_x": 1,
+      "front": "18 MP Center Stage"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 149.6,
+        "width_mm": 71.5,
+        "depth_mm": 7.95
+      },
+      "weight_g": 177,
+      "frame": "Aluminum",
+      "ip": "IP68 (6 m, 30 min)"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true
+    },
+    "biometrics": {
+      "face": "Face ID"
+    },
+    "software": {
+      "launch_os": "iOS 26",
+      "os_updates_years": 6,
+      "security_updates_years": 7,
+      "policy_note": "Apple publishes no fixed upgrade commitment. Recent iPhones have received about six years of major iOS releases plus further security fixes, so the figures here are platform estimates."
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "apple",
+      "url": "https://support.apple.com/en-us/125089",
+      "note": "Compiled from Apple's specifications; not re-checked this session."
+    },
+    "fields": {
+      "specs.memory.ram_gb": {
+        "class": "database",
+        "source": "gsmarena",
+        "note": "Apple does not list RAM; figure reported in reviews."
+      },
+      "specs.charging.wired_w": {
+        "class": "estimated",
+        "source": "apple",
+        "note": "Apple gives a time-based claim and an adapter rating, not the phone's maximum input. The adapter rating is used as an estimate."
+      },
+      "specs.software.os_updates_years": {
+        "class": "estimated",
+        "source": "apple",
+        "note": "Apple publishes no fixed upgrade commitment. Recent iPhones have received about six years of major iOS releases plus further security fixes, so the figures here are platform estimates."
+      },
+      "specs.software.security_updates_years": {
+        "class": "estimated",
+        "source": "apple",
+        "note": "Apple publishes no fixed upgrade commitment. Recent iPhones have received about six years of major iOS releases plus further security fixes, so the figures here are platform estimates."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

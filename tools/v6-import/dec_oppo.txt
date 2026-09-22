@@ -1,0 +1,64 @@
+oppo-reno8-t-5g | 8/256=1799 @soya |
+oppo-reno8-t | 8/256=1399 @soya |
+oppo-find-n2-flip | -=3999 @lowy |
+oppo-a78-5g | 8/128=1099 @soya |
+oppo-a78 | -=999 @nasi | pnote=Sold through OPPO's Shopee store.
+oppo-a98-5g | 8/256=1399 @soya |
+oppo-a58 | -=699 @lowy |
+oppo-a38 | -=599 @lowy |
+oppo-a18 | -=499 @nasi |
+oppo-a79-5g | 8/256=1199 @soya |
+oppo-a60 | 8/128=699, 8/256=799 @nasi |
+oppo-reno10 | -=1799 @lowy |
+oppo-reno10-pro | -=2199 @soya |
+oppo-reno10-pro-plus | -=3499 @lowy | src=https://www.lowyat.net/2023/303207/oppo-reno10-series-malaysia/
+oppo-find-n3 | |
+oppo-find-n3-flip | -=4399 @soya |
+oppo-reno11 | 12/256=1899 @soya |
+oppo-reno11-pro | 12/512=2499 @soya |
+oppo-reno11-f-5g | -=1399 @lowy |
+oppo-a3-pro-5g | -=1099 @soya |
+oppo-a3 | |
+oppo-a3x | |
+oppo-a3-5g | |
+oppo-reno12 | -=2199 @lowy |
+oppo-reno12-pro | -=2599 @nasi |
+oppo-reno12-f-5g | 12/256=1399, 12/512=1799 @soya | pnote=The 12 GB / 512 GB model was sold through telco partners only.
+oppo-find-x8 | 16/512=3699 @soya |
+oppo-find-x8-pro | 16/512=4999 @soya |
+oppo-reno13 | 12/256=2299, 12/512=2599 @soya |
+oppo-reno13-pro | 12/512=2999 @soya |
+oppo-reno13-f-5g | 8/256=1399, 12/256=1499 @soya |
+oppo-find-n5 | 16/512=7999 @nasi |
+oppo-a5-pro | 8/256=899 @soya |
+oppo-a5-pro-5g | 8/256=1099 @lowy |
+oppo-a5 | |
+oppo-a5-5g | -=1099 @lowy | src=https://www.lowyat.net/2025/351933/oppo-a5-5g-price/; pnote=Retail price as listed on a telco's website at launch, reported by Lowyat.NET.
+oppo-a5i | 4/128=399, 6/128=499 @lowy | pnote=Retailer listing reported by Lowyat.NET at launch.
+oppo-a5i-pro-5g | |
+oppo-reno14 | 12/256=2199, 12/512=2599 @soya |
+oppo-reno14-pro | 12/512=2999 @soya |
+oppo-reno14-f-5g | 8/256=1399, 12/256=1599, 12/512=1799 @soya |
+oppo-find-x9 | 16/512=3699 @soya |
+oppo-a6-pro-5g | -=1199 @nasi | src=https://nasilemaktech.com/oppo-a6-pro-5g-malaysia-price/
+oppo-a6x | |
+oppo-a6x-5g | |
+oppo-a6t-5g | |
+oppo-a6-5g | |
+oppo-a6c | |
+oppo-reno15 | 12/256=1999, 12/512=2399 @soya |
+oppo-reno15-pro | 12/512=2999 @soya |
+oppo-reno15-f | 8/256=1499, 12/256=1599 @soya |
+oppo-find-n6 | 16/512=8699 @lowy |
+oppo-find-x9-ultra | 12/512=6799, 16/1T=7799 @nasi |
+oppo-find-x9s | 12/512=3899 @soya |
+oppo-reno16 | 8/256=2699, 12/256=2999 @nasi | pnote=Recommended retail price; launch promotion RM400 lower.
+oppo-reno16-pro | 12/256=3699 @nasi | pnote=Recommended retail price; launch promotion RM3,299.
+oppo-reno16-f | 8/128=1999, 8/256=2299 @nasi | pnote=Recommended retail price; launch promotion RM300 lower.
+oppo-a7-pro-max | | status=pre-order; ann=2026-09-14; annsrc=https://soyacincau.com/2026/09/14/oppo-a7-pro-a7-pro-max-5g-malaysia-launch-specs-promo/
+oppo-watch-x | -=1399 @lowy |
+oppo-watch-x2 | "Lava Black"=1399, "Summit Blue"=1499 @soya |
+oppo-watch-x2-mini | "Nebula Black"=999, "Glimmer Gold"=1099 @lowy |
+oppo-watch-s | -=799 @nasi | pnote=Regular price quoted in OPPO's Reno15 pre-order offer.
+oppo-watch-x3 | "Obsidian Black"=1499, "Misty Titanium"=1599 @lowy |
+oppo-band-2 | |

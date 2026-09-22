@@ -1,0 +1,94 @@
+{
+  "id": "oneplus-pad-3",
+  "name": "OnePlus Pad 3",
+  "brand": "oneplus",
+  "category": "tablet",
+  "series": "OnePlus Pad",
+  "form": "tablet",
+  "status": "released",
+  "announced": "2025-06-05",
+  "released": "2025-06",
+  "segment": "upper-mid",
+  "aliases": [
+    "Pad 3"
+  ],
+  "summary": "A 13.2-inch 144 Hz tablet with the Snapdragon 8 Elite and a 12,140 mAh battery at a mid-range tablet price.",
+  "highlights": [
+    "Snapdragon 8 Elite",
+    "13.2-inch 3.4K 144 Hz",
+    "80 W charging"
+  ],
+  "prices": [
+    {
+      "region": "US",
+      "currency": "USD",
+      "amount": 699.99,
+      "config": "12 GB / 256 GB",
+      "date": "2025-06-05",
+      "type": "launch",
+      "source": "oneplus"
+    }
+  ],
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-16",
+      "source": "oneplus",
+      "url": "https://www.oneplus.com/my/oneplus-pad-3",
+      "note": "It is on OnePlus Malaysia's website, but no official ringgit price was published. Estimates on price-comparison sites are not used."
+    }
+  },
+  "specs": {
+    "display": {
+      "size_in": 13.2,
+      "type": "LCD",
+      "resolution": "3392 × 2400",
+      "ppi": 315,
+      "refresh_hz": 144
+    },
+    "platform": {
+      "chipset": "snapdragon-8-elite"
+    },
+    "memory": {
+      "ram_gb": [
+        12,
+        16
+      ],
+      "storage_gb": [
+        256,
+        512
+      ]
+    },
+    "battery": {
+      "capacity_mah": 12140
+    },
+    "charging": {
+      "wired_w": 80
+    },
+    "input": {
+      "stylus": "OnePlus Stylo 2",
+      "keyboard": "OnePlus Pad 3 Smart Keyboard"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 289.6,
+        "width_mm": 209.7,
+        "depth_mm": 5.97
+      },
+      "weight_g": 675
+    },
+    "software": {
+      "launch_os": "Android 15, OxygenOS 15"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "oneplus",
+      "url": "https://www.oneplus.com/global",
+      "note": "Compiled from OnePlus's launch specifications; not re-checked this session."
+    },
+    "fields": {}
+  },
+  "dataStatus": "compiled"
+}

@@ -1,0 +1,75 @@
+{
+  "id": "xiaomi-smart-band-8-pro",
+  "name": "Xiaomi Smart Band 8 Pro",
+  "brand": "xiaomi",
+  "category": "band",
+  "series": "Band",
+  "form": "band",
+  "status": "released",
+  "announced": "2024-03-04",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 339,
+      "date": "2024-03-04",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2024/317765/xiaomi-smart-band-8-pro-priced-at-rm339/",
+      "class": "news",
+      "accessed": "2026-09-18",
+      "note": "Recommended retail price; RM40 lower until 7 March 2024."
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://i02.appmifile.com/695_item_my/02/04/2024/9383b736c07b27ac5dc510edc8ca734b.png",
+    "page": "https://www.mi.com/my/product/xiaomi-smart-band-8-pro/specs/",
+    "credit": "Xiaomi Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 1.74,
+      "type": "AMOLED",
+      "resolution": "480 × 336",
+      "peak_nits": 600
+    },
+    "battery": {
+      "capacity_mah": 289,
+      "chemistry": "Lithium-ion polymer battery; Charging Time; Approx. 80min"
+    },
+    "connectivity": {
+      "gps": "Built-in GNSS",
+      "bluetooth": "Bluetooth 5.3"
+    },
+    "build": {
+      "weight_g": 22.5,
+      "water": "5 ATM",
+      "water_m": 50
+    },
+    "software": {
+      "launch_os": "Android 8.0 or"
+    },
+    "sensors": "Accelerometer, Gyroscope, Optical heart rate and pulse oximeter, Ambient light sensor, Water Resistance Rating, 5ATM, *The 5ATM water resistance rating (equivalent to a depth of 50 meters) means it can be worn in swimming pools, while swimming near the shore, and during other shallow water activities. It is not suitable for wearing in hot showers, saunas, or while diving. Make sure to avoid direct"
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "xiaomi",
+      "url": "https://www.mi.com/my/product/xiaomi-smart-band-8-pro/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from Xiaomi Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "lowyat",
+        "url": "https://www.lowyat.net/2024/317765/xiaomi-smart-band-8-pro-priced-at-rm339/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (Lowyat.NET). The global announcement can be earlier."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

@@ -1,0 +1,145 @@
+{
+  "id": "samsung-galaxy-m34-5g",
+  "name": "Galaxy M34 5G",
+  "brand": "samsung",
+  "category": "smartphone",
+  "series": "Galaxy M",
+  "form": "bar",
+  "status": "released",
+  "announced": "2023-10-10",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1399,
+      "config": "8 GB / 128 GB",
+      "date": "2023-10-10",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2023/308816/samsung-galaxy-m34-5g-malaysia/",
+      "class": "news",
+      "accessed": "2026-09-18",
+      "note": "Sold through Samsung's official Shopee store; RM999 introductory price on launch day."
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 6.5,
+      "type": "Super AMOLED",
+      "resolution": "2340 × 1080",
+      "refresh_hz": 120,
+      "ppi": 396
+    },
+    "memory": {
+      "ram_gb": [
+        8
+      ],
+      "storage_gb": [
+        128
+      ],
+      "card": "MicroSD (Up to 1TB)"
+    },
+    "battery": {
+      "capacity_mah": 6000,
+      "video_h": 24
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "aperture": "f/1.8",
+          "ois": true
+        }
+      ],
+      "rear_text": "Rear: 50.0 MP + 8.0 MP + 2.0 MP",
+      "front": "13 MP",
+      "rear_detail": [
+        "50 MP, f/1.8, OIS",
+        "8 MP, f/2.2",
+        "2 MP, f/2.4"
+      ],
+      "features": "Digital Zoom up to 10x",
+      "front_detail": [
+        "13 MP, f/2.2"
+      ],
+      "video": "UHD 4K (3840 x 2160)@30fps"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true,
+      "bands_2g": "GSM850, GSM900, DCS1800, PCS1900",
+      "bands_3g": "B1(2100), B2(1900), B4(AWS), B5(850), B8(900)",
+      "bands_4g": "4G FDD LTE: B1(2100), B2(1900), B3(1800), B4(AWS), B5(850), B7(2600), B8(900), B12(700), B17(700), B20(800), B26(850), B28(700), B66(AWS-3); 4G TDD LTE: B38(2600), B40(2300), B41(2500)",
+      "bands_5g": "5G FDD Sub6: N1(2100), N3(1800), N5(850), N7(2600), N8(900), N28(700); 5G TDD Sub6: N38(2600), N40(2300), N41(2500), N77(3700), N78(3500)",
+      "technology": "GSM / HSPA / LTE / 5G",
+      "sim": "Dual-SIM; Nano-SIM (4FF); SIM 1 + Hybrid (SIM or MicroSD)",
+      "wifi": "802.11 a/b/g/n/ac 2.4G+5GHz, VHT80",
+      "bluetooth": "Bluetooth v5.3",
+      "positioning": "GPS, Glonass, Beidou, Galileo, QZSS",
+      "usb": "USB Type-C, USB 2.0"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 161.7,
+        "width_mm": 77.2,
+        "depth_mm": 8.8
+      },
+      "weight_g": 208.0
+    },
+    "platform": {
+      "chipset": "exynos-1280",
+      "cpu": "Octa-Core; 2.4GHz, 2GHz"
+    },
+    "audio": {
+      "speakers": "Mono speaker",
+      "jack": true
+    },
+    "sensors": "Accelerometer, Fingerprint Sensor, Gyro Sensor, Geomagnetic Sensor, Light Sensor, Virtual Proximity Sensing"
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "samsung",
+      "url": "https://www.samsung.com/my/support/model/SM-M346BDBGXME/",
+      "checked": "2026-09-18",
+      "note": "Read from Samsung's own specification data for the Malaysian model SM-M346BDBGXME (the data samsung.com/my shows on its spec pages); the link goes to Samsung Malaysia's page for that model. Values were extracted automatically and reviewed."
+    },
+    "fields": {
+      "specs.platform": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2023/10/10/samsung-galaxy-m34-5g-malaysia-6-5-120hz-amoled-50mp-ois-camera-and-6000mah-battery-now-going-for-rm999/",
+        "note": "Chip named in SoyaCincau's Malaysian coverage; the maker's own specification data for this model does not name it.",
+        "checked": "2026-09-18"
+      },
+      "announced": {
+        "class": "news",
+        "source": "lowyat",
+        "url": "https://www.lowyat.net/2023/308816/samsung-galaxy-m34-5g-malaysia/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (Lowyat.NET). The global announcement can be earlier."
+      },
+      "specs.platform.cpu": {
+        "class": "official",
+        "source": "samsung",
+        "url": "https://www.samsung.com/my/support/model/SM-M346BDBGXME/",
+        "checked": "2026-09-18",
+        "note": "Read from Samsung's own specification data for the Malaysian model SM-M346BDBGXME (the data samsung.com/my shows on its spec pages); the link goes to Samsung Malaysia's page for that model. Values were extracted automatically and reviewed."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://images.samsung.com/is/image/samsung/p6pim/my/sm-m346bdbgxme/gallery/my-galaxy-m34-5g-sm-m346-sm-m346bdbgxme-538340438?$624_624_PNG$",
+    "page": "https://www.samsung.com/my/support/model/SM-M346BDBGXME/",
+    "credit": "Samsung Malaysia",
+    "checked": "2026-09-19"
+  }
+}

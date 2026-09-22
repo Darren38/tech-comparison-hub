@@ -1,0 +1,62 @@
+{
+  "id": "honor-watch-x5i",
+  "name": "HONOR Watch X5i",
+  "brand": "honor",
+  "category": "smartwatch",
+  "series": "Watch",
+  "form": "watch",
+  "status": "released",
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-18",
+      "source": "honor",
+      "url": "https://www.honor.com/my/wearables/honor-watch-x5i/spec/",
+      "note": "Sold in Malaysia, but no launch price was found in Malaysian launch coverage."
+    }
+  },
+  "specs": {
+    "display": {
+      "size_in": 1.97,
+      "type": "AMOLED",
+      "resolution": "450 × 390"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 46.73,
+        "width_mm": 40.54,
+        "depth_mm": 10.9
+      },
+      "weight_g": 28.1,
+      "water": "1 ATM",
+      "water_m": 10,
+      "ip": "IP68"
+    },
+    "connectivity": {
+      "usb": "Magnetic charging port; Compatibility; Android 9.0 or later and iOS 15.1 or later; Water Resistance Level; 1ATM",
+      "bluetooth": "2.4 GHz, BT 5.4"
+    },
+    "audio": {
+      "speakers": "Microphone; Charger Voltage and Current; 5V 1A"
+    },
+    "sensors": "Accelerometer sensor, Optical heart rate sensor"
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "honor",
+      "url": "https://www.honor.com/my/wearables/honor-watch-x5i/spec/",
+      "checked": "2026-09-18",
+      "note": "Read from HONOR Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {}
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://www.honor.com/content/dam/honor/common/product-list/wearables/product-series/honor-watch-x5i/honor-watch-x5i-w-list.png",
+    "page": "https://www.honor.com/my/wearables/honor-watch-x5i/spec/",
+    "credit": "HONOR",
+    "checked": "2026-09-19"
+  }
+}

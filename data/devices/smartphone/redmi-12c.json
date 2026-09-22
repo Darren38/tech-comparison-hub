@@ -1,0 +1,144 @@
+{
+  "id": "redmi-12c",
+  "name": "Redmi 12C",
+  "brand": "redmi",
+  "category": "smartphone",
+  "series": "Redmi",
+  "form": "bar",
+  "status": "released",
+  "announced": "2023-03-09",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 599,
+      "config": "4 GB / 128 GB",
+      "date": "2023-03-09",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2023/03/09/redmi-12c-malaysia-launch-price-xiaomi-malaysia-smartphone-rm599/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 699,
+      "config": "6 GB / 128 GB",
+      "date": "2023-03-09",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2023/03/09/redmi-12c-malaysia-launch-price-xiaomi-malaysia-smartphone-rm599/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 6.71,
+      "resolution": "1650 × 720",
+      "ppi": 268
+    },
+    "platform": {
+      "chipset": "helio-g85",
+      "cpu": "up to 2.0GHz"
+    },
+    "memory": {
+      "ram_gb": [
+        3,
+        4,
+        6
+      ],
+      "storage_gb": [
+        32,
+        64,
+        128
+      ],
+      "ram_type": "LPDDR4X"
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "charging": {
+      "wired_w": 10,
+      "claim": "10W fast charging; 10W in-box charger"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "aperture": "f/1.8"
+        }
+      ],
+      "front": "5 MP",
+      "rear_detail": [
+        "50MP main camera, f/1.8, Auxiliary lens"
+      ],
+      "video": "1080p@30fps",
+      "front_detail": [
+        "5MP front camera, f/2.2"
+      ],
+      "front_video": "1080p@30fps"
+    },
+    "connectivity": {
+      "cellular": "4G",
+      "bands_3g": "1/5/8",
+      "bands_4g": "LTE FDD: 1/3/5/7/8/20/28; LTE TDD: 38/40/41",
+      "technology": "HSPA / LTE",
+      "wifi": "802.11a/b/g/n/ac",
+      "positioning": "GPS; Glonass; Galileo; Beidou",
+      "sim": "Dual SIM + MicroSD",
+      "bluetooth": "Bluetooth 5.1"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 168.76,
+        "width_mm": 76.41,
+        "depth_mm": 8.77
+      },
+      "weight_g": 192.0
+    },
+    "software": {
+      "launch_os": "MIUI 13 based on Android 12"
+    },
+    "sensors": "Virtual Proximity, Accelerometer",
+    "audio": {
+      "jack": true
+    },
+    "misc": {
+      "colors": "Graphite Gray, Ocean Blue, Mint Green, Lavender Purple"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "redmi",
+      "url": "https://www.mi.com/my/product/redmi-12c/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from Xiaomi Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2023/03/09/redmi-12c-malaysia-launch-price-xiaomi-malaysia-smartphone-rm599/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://i02.appmifile.com/350_operatorx_operatorx_opx/21/09/2023/d9e2c589a76bd5db5f826557505dce64.png",
+    "page": "https://www.mi.com/global/product/redmi-12c/specs/",
+    "credit": "Xiaomi",
+    "checked": "2026-09-19"
+  }
+}

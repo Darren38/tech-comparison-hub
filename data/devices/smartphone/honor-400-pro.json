@@ -1,0 +1,135 @@
+{
+  "id": "honor-400-pro",
+  "name": "HONOR 400 Pro",
+  "brand": "honor",
+  "category": "smartphone",
+  "series": "Number",
+  "form": "bar",
+  "status": "released",
+  "announced": "2025-05-22",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 2699,
+      "config": "12 GB / 512 GB",
+      "date": "2025-05-22",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/05/22/honor-400-pro-series-launch-malaysia-price-specs/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://www.honor.com/content/dam/honor/common/product-list/product-series/honor-400-pro/honor-400-pro-gray-list.png",
+    "page": "https://www.honor.com/my/phones/honor-400-pro/spec/",
+    "credit": "HONOR Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.7,
+      "type": "AMOLED",
+      "resolution": "2800 × 1280",
+      "ppi": 460
+    },
+    "platform": {
+      "chipset": "snapdragon-8-gen-3",
+      "gpu": "Adreno 750",
+      "cpu": "Octa-core"
+    },
+    "battery": {
+      "capacity_mah": 6000,
+      "chemistry": "Lithium polymer"
+    },
+    "charging": {
+      "wired_w": 100,
+      "wireless_w": 50,
+      "claim": "Supports up to 20V/5A SuperCharge, compatible with 11V/6A,10V/4A"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 200,
+          "aperture": "f/1.9",
+          "ois": true
+        },
+        {
+          "role": "telephoto",
+          "mp": 50
+        },
+        {
+          "role": "ultrawide",
+          "mp": 12
+        }
+      ],
+      "front": "50 MP",
+      "rear_detail": [
+        "200MP Super Sensing AI Camera System (f/1.9, OIS)",
+        "50MP Telephoto Camera (f/2.4 , OIS)",
+        "12MP Ultra Wide & Macro Camera (f/2.2)"
+      ],
+      "features": "Up to 50x digital zoom",
+      "video": "4K",
+      "front_detail": [
+        "50MP Portrait Selfie Camera (f/2.0)"
+      ]
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true,
+      "technology": "GSM / HSPA / LTE / 5G",
+      "sim": "Nano SIM card",
+      "wifi": "802.11 a/b/g/n/ac/ax/be, 2x2 MIMO; 2.4GHz and 5GHz and 6GHz",
+      "usb": "USB Type-C, USB 2.0",
+      "positioning": "GPS/AGPS/GLONASS/BeiDou/Galileo/QZSS; Network-Based Positioning; WLAN-Based Positioning",
+      "bluetooth": "Bluetooth"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 160.8,
+        "width_mm": 76.1,
+        "depth_mm": 8.1
+      },
+      "weight_g": 205.0,
+      "ip": "IP69"
+    },
+    "software": {
+      "launch_os": "MagicOS 9.0 (Based on Android 15)"
+    },
+    "biometrics": {
+      "face": "Supported 2D face unlock"
+    },
+    "audio": {
+      "jack": false
+    },
+    "sensors": "Gravity Sensor, Fingerprint Sensor, Compass, Ambient Light Sensor, Proximity Sensor(Ultrasonic approach, non-physical approach sensor)"
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "honor",
+      "url": "https://www.honor.com/my/phones/honor-400-pro/spec/",
+      "checked": "2026-09-18",
+      "note": "Read from HONOR Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2025/05/22/honor-400-pro-series-launch-malaysia-price-specs/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

@@ -1,0 +1,10 @@
+{
+  "json.schemas": [
+    { "fileMatch": ["/data/devices/*/*.json"], "url": "./data/schema/device.schema.json" },
+    { "fileMatch": ["/data/chipsets/*.json"], "url": "./data/schema/chipset.schema.json" },
+    {
+      "fileMatch": ["/data/reviews/*.json", "/data/benchmarks/*.json", "/data/videos/*.json", "/data/news/*.json"],
+      "url": "./data/schema/documents.schema.json"
+    }
+  ]
+}

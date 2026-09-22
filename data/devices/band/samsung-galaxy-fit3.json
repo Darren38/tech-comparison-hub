@@ -1,0 +1,77 @@
+{
+  "id": "samsung-galaxy-fit3",
+  "name": "Galaxy Fit3",
+  "brand": "samsung",
+  "category": "band",
+  "series": "Galaxy Fit",
+  "form": "band",
+  "status": "released",
+  "announced": "2024-02-23",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 299,
+      "date": "2024-02-23",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2024/02/23/the-new-samsung-galaxy-fit3-is-now-available-in-malaysia-for-rm299/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://images.samsung.com/is/image/samsung/p6pim/my/sm-r390nzaaxme/gallery/my-galaxy-fit3-r390-sm-r390nzaaxme-thumb-540117682?$650_519_PNG$",
+    "page": "https://www.samsung.com/my/watches/galaxy-fit/galaxy-fit3-gray-connectivity-sm-r390nzaaxme/",
+    "credit": "Samsung Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 1.6,
+      "type": "AMOLED",
+      "resolution": "402 × 256"
+    },
+    "battery": {
+      "life_h": 312
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 42.9,
+        "width_mm": 28.8,
+        "depth_mm": 9.9
+      },
+      "weight_g": 18.5
+    },
+    "software": {
+      "launch_os": "FreeRTOS"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth v5.3; Size (Main Display); 1.6\" (40.0mm)"
+    },
+    "sensors": "Accelerometer, Barometer, Gyro Sensor, Optical Heart Rate Sensor, Light Sensor, Physical specification, 42.9 x 28.8 x 9.9 mm",
+    "misc": {
+      "colors": "Gray"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "samsung",
+      "url": "https://www.samsung.com/my/watches/galaxy-fit/galaxy-fit3-gray-connectivity-sm-r390nzaaxme/",
+      "checked": "2026-09-18",
+      "note": "Read from Samsung Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2024/02/23/the-new-samsung-galaxy-fit3-is-now-available-in-malaysia-for-rm299/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

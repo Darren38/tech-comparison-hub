@@ -1,0 +1,147 @@
+{
+  "id": "google-pixel-10-pro-xl",
+  "name": "Pixel 10 Pro XL",
+  "brand": "google",
+  "category": "smartphone",
+  "series": "Pixel",
+  "form": "bar",
+  "status": "released",
+  "announced": "2025-08-20",
+  "released": "2025-08-28",
+  "segment": "flagship",
+  "aliases": [
+    "Pixel 10 XL",
+    "P10 Pro XL"
+  ],
+  "summary": "2025 Pixel flagship: excellent display and seven years of updates, held back by Tensor G5's weak GPU and slow charging.",
+  "highlights": [
+    "Tensor G5",
+    "Qi2.2 Pixelsnap charging",
+    "7 years of updates"
+  ],
+  "prices": [
+    {
+      "region": "US",
+      "currency": "USD",
+      "amount": 1199,
+      "config": "16 GB / 256 GB",
+      "date": "2025-08-20",
+      "type": "launch",
+      "source": "google"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 5999,
+      "config": "16 GB / 256 GB",
+      "date": "2025-08-21",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/08/21/google-pixel-10-pro-10-pro-fold-pixel-watch-4-buds-2a-malaysia-price/",
+      "class": "news",
+      "accessed": "2026-09-16"
+    }
+  ],
+  "image": {
+    "kind": "drawing",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Pixel_10_Pro_XL_back_%28Moonstone%29.svg/500px-Pixel_10_Pro_XL_back_%28Moonstone%29.svg.png",
+    "page": "https://commons.wikimedia.org/wiki/File:Pixel_10_Pro_XL_back_(Moonstone).svg",
+    "title": "Pixel 10 Pro XL back (Moonstone)",
+    "author": "Mliu92",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "checked": "2026-09-17"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.8,
+      "type": "Super Actua LTPO OLED",
+      "resolution": "2992 × 1344",
+      "ppi": 486,
+      "refresh_hz": 120,
+      "peak_nits": 3300,
+      "protection": "Corning Gorilla Glass Victus 2"
+    },
+    "platform": {
+      "chipset": "google-tensor-g5"
+    },
+    "memory": {
+      "ram_gb": [
+        16
+      ],
+      "storage_gb": [
+        256,
+        512,
+        1024
+      ]
+    },
+    "battery": {
+      "capacity_mah": 5200
+    },
+    "charging": {
+      "wired_w": 45,
+      "wireless_w": 25,
+      "claim": "Up to 70% in 30 min (Google claim); Qi2.2"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "sensor": "1/1.31\"",
+          "aperture": "f/1.68"
+        },
+        {
+          "role": "ultrawide",
+          "mp": 48,
+          "aperture": "f/1.7"
+        },
+        {
+          "role": "periscope",
+          "mp": 48,
+          "aperture": "f/2.8",
+          "zoom_x": 5
+        }
+      ],
+      "zoom_optical_x": 5,
+      "front": "42 MP",
+      "video": "8K via Video Boost"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 162.8,
+        "width_mm": 76.6,
+        "depth_mm": 8.5
+      },
+      "weight_g": 232,
+      "frame": "Aluminum",
+      "ip": "IP68"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "wifi": "Wi-Fi 7",
+      "nfc": true,
+      "uwb": true,
+      "satellite": true
+    },
+    "biometrics": {
+      "fingerprint": "Ultrasonic, under display",
+      "face": "Face Unlock"
+    },
+    "software": {
+      "launch_os": "Android 16",
+      "os_updates_years": 7,
+      "security_updates_years": 7
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "google",
+      "url": "https://store.google.com",
+      "note": "Compiled from Google's specifications; charging and display cross-checked against GSMArena's review."
+    },
+    "fields": {}
+  },
+  "dataStatus": "compiled"
+}

@@ -1,0 +1,147 @@
+{
+  "id": "honor-magic7-rsr-porsche-design",
+  "name": "HONOR Magic7 RSR Porsche Design",
+  "brand": "honor",
+  "category": "smartphone",
+  "series": "Magic",
+  "form": "bar",
+  "status": "released",
+  "announced": "2025-01-09",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 6999,
+      "config": "24 GB / 1 TB",
+      "date": "2025-01-09",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2025/340604/honor-magic7-pro-malaysia/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://www.honor.com/content/dam/honor/my/product-list/smartphone/honor-magic7-rsr-porsche-design/honor-magic7-rs-populer-list.png",
+    "page": "https://www.honor.com/my/phones/honor-magic7-rsr-porsche-design/spec/",
+    "credit": "HONOR Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.8,
+      "type": "OLED",
+      "resolution": "2800 × 1280",
+      "peak_nits": 5000,
+      "protection": "NanoCrystal Shield",
+      "ppi": 453
+    },
+    "platform": {
+      "chipset": "snapdragon-8-elite",
+      "gpu": "Adreno830",
+      "cpu": "Octa-core; 2×Prime 4.32GHz+6×Performance 3.53GHz"
+    },
+    "memory": {
+      "ram_gb": [
+        24
+      ],
+      "storage_gb": [
+        1024
+      ]
+    },
+    "battery": {
+      "capacity_mah": 5850,
+      "chemistry": "Lithium polymer"
+    },
+    "charging": {
+      "wired_w": 100,
+      "wireless_w": 80,
+      "claim": "100W HONOR SuperCharge; The phone supports up to 20V/5A SuperCharge, compatible with 11V/6A,10V/4A, 10V/2.25A, 10V/2A."
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "aperture": "f/1.4",
+          "ois": true
+        },
+        {
+          "role": "ultrawide",
+          "mp": 50
+        },
+        {
+          "role": "telephoto",
+          "mp": 200
+        }
+      ],
+      "front": "50 MP",
+      "rear_detail": [
+        "50MP Wide Main Camera (f/1.4-f/2.0, OIS)",
+        "50MP Ultra Wide Camera (f/2.0)",
+        "200MP Telephoto Camera (f/1.88, 3x Optical Zoom, 100x Digital Zoom, OIS)"
+      ],
+      "features": "3x Optical Zoom, 100x Digital Zoom",
+      "video": "4K",
+      "front_detail": [
+        "50MP Front Camera(f/2.0)",
+        "3D Depth Camera"
+      ],
+      "zoom_optical_x": 3
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true,
+      "technology": "GSM / HSPA / LTE / 5G",
+      "sim": "SIM1+SIM2 / SIM1+eSIM / eSIM1+eSIM2",
+      "wifi": "802.11 a/b/g/n/ac/ax/be, 2x2 MIMO",
+      "positioning": "Support GPS /AGPS/GLONASS/BeiDou/Galileo; Network-Based Positioning; Wi-Fi-Based Positioning",
+      "usb": "Type-C, USB 3.2 GEN1",
+      "bluetooth": "BT5.4"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 162.7,
+        "width_mm": 77.1,
+        "depth_mm": 8.8
+      },
+      "weight_g": 228.0,
+      "ip": "IP69"
+    },
+    "software": {
+      "launch_os": "MagicOS 9.0 (Based on Android 15)"
+    },
+    "biometrics": {
+      "face": "3D face unlock"
+    },
+    "sensors": "Gravity Sensor, Infrared Sensor, Fingerprint Sensor, Acceleration Sensor, Barometric Pressure Sensor, Gyroscope, Compass",
+    "audio": {
+      "jack": false
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "honor",
+      "url": "https://www.honor.com/my/phones/honor-magic7-rsr-porsche-design/spec/",
+      "note": "Read from HONOR Malaysia's specification page. Values were extracted automatically and reviewed.",
+      "checked": "2026-09-18"
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "lowyat",
+        "url": "https://www.lowyat.net/2025/340604/honor-magic7-pro-malaysia/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (Lowyat.NET). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

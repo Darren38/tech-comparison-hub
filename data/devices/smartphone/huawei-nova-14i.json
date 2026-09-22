@@ -1,0 +1,279 @@
+{
+  "id": "huawei-nova-14i",
+  "name": "Huawei nova 14i",
+  "brand": "huawei",
+  "category": "smartphone",
+  "series": "nova",
+  "form": "bar",
+  "status": "released",
+  "announced": "2025-11-03",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1299,
+      "date": "2025-11-03",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2025/371944/huawei-nova-14-series-pre-orders-available-in-malaysia/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 6.95,
+      "type": "LCD",
+      "refresh_hz": 90
+    },
+    "platform": {
+      "chipset": "snapdragon-680",
+      "cpu": "4 × Cortex-A73@2.4 GHz + 4 × Cortex-A53@1.9 GHz"
+    },
+    "memory": {
+      "ram_gb": [
+        8
+      ],
+      "storage_gb": [
+        256
+      ]
+    },
+    "battery": {
+      "capacity_mah": 7000
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50
+        },
+        {
+          "role": "depth",
+          "mp": 2
+        }
+      ],
+      "front": "8 MP",
+      "rear_detail": [
+        "50 MP High-res Camera (F1.8 aperture)",
+        "2 MP Depth Camera (F2.4 aperture)"
+      ],
+      "features": "Digital Zoom",
+      "video": "1080p",
+      "front_detail": [
+        "8 MP Selfie Camera (F2.0 aperture)"
+      ]
+    },
+    "connectivity": {
+      "bands_2g": "Bands B2/B3/B5/B8",
+      "bands_3g": "Bands B1/B2/B4/B5/B8",
+      "bands_4g": "4G LTE FDD: B1/B2/B3/B4/B5/B7/B8/B13/B20/B26/B28/B66; 4G LTE TDD: Bands B38/B40/B41",
+      "technology": "GSM / HSPA / LTE",
+      "wifi": "2.4 GHz and 5 GHz; 802.11a/b/g/n/ac",
+      "bluetooth": "Bluetooth 5.0, Support BLE, SBC, AAC",
+      "usb": "USB Type-C, USB 2.0",
+      "positioning": "GPS/AGPS/Glonass/BeiDou/GALILEO/QZSS"
+    },
+    "audio": {
+      "jack": false
+    },
+    "sensors": "Gravity Sensor, Fingerprint Sensor (Side-mounted), Compass, Ambient Light Sensor, Proximity Sensor",
+    "misc": {
+      "models": "STG-LX2 (Dual SIM model)",
+      "colors": "Blue, Black"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "news",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2025/371944/huawei-nova-14-series-pre-orders-available-in-malaysia/",
+      "note": "The maker no longer publishes a specification page for this model. Key specs were taken from this Malaysian launch report, which gives the maker's figures.",
+      "checked": "2026-09-18"
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "lowyat",
+        "url": "https://www.lowyat.net/2025/371944/huawei-nova-14-series-pre-orders-available-in-malaysia/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (Lowyat.NET). The global announcement can be earlier."
+      },
+      "specs.audio.jack": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20251209014132/https://consumer.huawei.com/en/phones/nova-14i/specs/",
+        "checked": "2026-09-19",
+        "note": "The maker's own specification page (https://consumer.huawei.com/en/phones/nova-14i/specs/) is no longer online; read from the Internet Archive copy captured 2025-12-09."
+      },
+      "specs.camera.features": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20251209014132/https://consumer.huawei.com/en/phones/nova-14i/specs/",
+        "checked": "2026-09-19",
+        "note": "The maker's own specification page (https://consumer.huawei.com/en/phones/nova-14i/specs/) is no longer online; read from the Internet Archive copy captured 2025-12-09."
+      },
+      "specs.camera.front_detail": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20251209014132/https://consumer.huawei.com/en/phones/nova-14i/specs/",
+        "checked": "2026-09-19",
+        "note": "The maker's own specification page (https://consumer.huawei.com/en/phones/nova-14i/specs/) is no longer online; read from the Internet Archive copy captured 2025-12-09."
+      },
+      "specs.camera.rear_detail": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20251209014132/https://consumer.huawei.com/en/phones/nova-14i/specs/",
+        "checked": "2026-09-19",
+        "note": "The maker's own specification page (https://consumer.huawei.com/en/phones/nova-14i/specs/) is no longer online; read from the Internet Archive copy captured 2025-12-09."
+      },
+      "specs.camera.video": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20251209014132/https://consumer.huawei.com/en/phones/nova-14i/specs/",
+        "checked": "2026-09-19",
+        "note": "The maker's own specification page (https://consumer.huawei.com/en/phones/nova-14i/specs/) is no longer online; read from the Internet Archive copy captured 2025-12-09."
+      },
+      "specs.connectivity.bands_2g": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20251209014132/https://consumer.huawei.com/en/phones/nova-14i/specs/",
+        "checked": "2026-09-19",
+        "note": "The maker's own specification page (https://consumer.huawei.com/en/phones/nova-14i/specs/) is no longer online; read from the Internet Archive copy captured 2025-12-09."
+      },
+      "specs.connectivity.bands_3g": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20251209014132/https://consumer.huawei.com/en/phones/nova-14i/specs/",
+        "checked": "2026-09-19",
+        "note": "The maker's own specification page (https://consumer.huawei.com/en/phones/nova-14i/specs/) is no longer online; read from the Internet Archive copy captured 2025-12-09."
+      },
+      "specs.connectivity.bands_4g": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20251209014132/https://consumer.huawei.com/en/phones/nova-14i/specs/",
+        "checked": "2026-09-19",
+        "note": "The maker's own specification page (https://consumer.huawei.com/en/phones/nova-14i/specs/) is no longer online; read from the Internet Archive copy captured 2025-12-09."
+      },
+      "specs.connectivity.bluetooth": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20251209014132/https://consumer.huawei.com/en/phones/nova-14i/specs/",
+        "checked": "2026-09-19",
+        "note": "The maker's own specification page (https://consumer.huawei.com/en/phones/nova-14i/specs/) is no longer online; read from the Internet Archive copy captured 2025-12-09."
+      },
+      "specs.connectivity.positioning": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20251209014132/https://consumer.huawei.com/en/phones/nova-14i/specs/",
+        "checked": "2026-09-19",
+        "note": "The maker's own specification page (https://consumer.huawei.com/en/phones/nova-14i/specs/) is no longer online; read from the Internet Archive copy captured 2025-12-09."
+      },
+      "specs.connectivity.technology": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20251209014132/https://consumer.huawei.com/en/phones/nova-14i/specs/",
+        "checked": "2026-09-19",
+        "note": "The maker's own specification page (https://consumer.huawei.com/en/phones/nova-14i/specs/) is no longer online; read from the Internet Archive copy captured 2025-12-09."
+      },
+      "specs.connectivity.usb": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20251209014132/https://consumer.huawei.com/en/phones/nova-14i/specs/",
+        "checked": "2026-09-19",
+        "note": "The maker's own specification page (https://consumer.huawei.com/en/phones/nova-14i/specs/) is no longer online; read from the Internet Archive copy captured 2025-12-09."
+      },
+      "specs.connectivity.wifi": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20251209014132/https://consumer.huawei.com/en/phones/nova-14i/specs/",
+        "checked": "2026-09-19",
+        "note": "The maker's own specification page (https://consumer.huawei.com/en/phones/nova-14i/specs/) is no longer online; read from the Internet Archive copy captured 2025-12-09."
+      },
+      "specs.misc.colors": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20251209014132/https://consumer.huawei.com/en/phones/nova-14i/specs/",
+        "checked": "2026-09-19",
+        "note": "The maker's own specification page (https://consumer.huawei.com/en/phones/nova-14i/specs/) is no longer online; read from the Internet Archive copy captured 2025-12-09."
+      },
+      "specs.misc.models": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20251209014132/https://consumer.huawei.com/en/phones/nova-14i/specs/",
+        "checked": "2026-09-19",
+        "note": "The maker's own specification page (https://consumer.huawei.com/en/phones/nova-14i/specs/) is no longer online; read from the Internet Archive copy captured 2025-12-09."
+      },
+      "specs.platform.cpu": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20251209014132/https://consumer.huawei.com/en/phones/nova-14i/specs/",
+        "checked": "2026-09-19",
+        "note": "The maker's own specification page (https://consumer.huawei.com/en/phones/nova-14i/specs/) is no longer online; read from the Internet Archive copy captured 2025-12-09."
+      },
+      "specs.sensors": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20251209014132/https://consumer.huawei.com/en/phones/nova-14i/specs/",
+        "checked": "2026-09-19",
+        "note": "The maker's own specification page (https://consumer.huawei.com/en/phones/nova-14i/specs/) is no longer online; read from the Internet Archive copy captured 2025-12-09."
+      },
+      "specs.battery.capacity_mah": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20251209014132/https://consumer.huawei.com/en/phones/nova-14i/specs/",
+        "checked": "2026-09-19",
+        "note": "Matches the maker's own specification page (https://consumer.huawei.com/en/phones/nova-14i/specs/), which is no longer online; checked against the Internet Archive copy captured 2025-12-09."
+      },
+      "specs.display.size_in": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20251209014132/https://consumer.huawei.com/en/phones/nova-14i/specs/",
+        "checked": "2026-09-19",
+        "note": "Matches the maker's own specification page (https://consumer.huawei.com/en/phones/nova-14i/specs/), which is no longer online; checked against the Internet Archive copy captured 2025-12-09."
+      },
+      "specs.display.refresh_hz": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20251209014132/https://consumer.huawei.com/en/phones/nova-14i/specs/",
+        "checked": "2026-09-19",
+        "note": "Matches the maker's own specification page (https://consumer.huawei.com/en/phones/nova-14i/specs/), which is no longer online; checked against the Internet Archive copy captured 2025-12-09."
+      },
+      "specs.camera.rear": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20251209014132/https://consumer.huawei.com/en/phones/nova-14i/specs/",
+        "checked": "2026-09-19",
+        "note": "Matches the maker's own specification page (https://consumer.huawei.com/en/phones/nova-14i/specs/), which is no longer online; checked against the Internet Archive copy captured 2025-12-09."
+      },
+      "specs.memory.ram_gb": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20251209014132/https://consumer.huawei.com/en/phones/nova-14i/specs/",
+        "checked": "2026-09-19",
+        "note": "Matches the maker's own specification page (https://consumer.huawei.com/en/phones/nova-14i/specs/), which is no longer online; checked against the Internet Archive copy captured 2025-12-09."
+      },
+      "specs.memory.storage_gb": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20251209014132/https://consumer.huawei.com/en/phones/nova-14i/specs/",
+        "checked": "2026-09-19",
+        "note": "Matches the maker's own specification page (https://consumer.huawei.com/en/phones/nova-14i/specs/), which is no longer online; checked against the Internet Archive copy captured 2025-12-09."
+      },
+      "specs.display.type": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20251209014132/https://consumer.huawei.com/en/phones/nova-14i/specs/",
+        "checked": "2026-09-19",
+        "note": "Matches the maker's own specification page (https://consumer.huawei.com/en/phones/nova-14i/specs/), which is no longer online; checked against the Internet Archive copy captured 2025-12-09."
+      }
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/phones/nova-14i/specs-blue.png",
+    "page": "https://web.archive.org/web/20251209014132/https://consumer.huawei.com/en/phones/nova-14i/specs/",
+    "credit": "Huawei",
+    "checked": "2026-09-19"
+  }
+}

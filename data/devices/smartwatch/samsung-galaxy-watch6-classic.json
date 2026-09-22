@@ -1,0 +1,117 @@
+{
+  "id": "samsung-galaxy-watch6-classic",
+  "name": "Galaxy Watch6 Classic",
+  "brand": "samsung",
+  "category": "smartwatch",
+  "series": "Galaxy Watch",
+  "form": "watch",
+  "status": "released",
+  "announced": "2023-07-26",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1399,
+      "config": "43 mm, Bluetooth",
+      "date": "2023-07-26",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2023/07/26/samsung-galaxy-watch-6-series-specs-price-malaysia/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1499,
+      "config": "47 mm, Bluetooth",
+      "date": "2023-07-26",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2023/07/26/samsung-galaxy-watch-6-series-specs-price-malaysia/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1699,
+      "config": "43 mm, LTE",
+      "date": "2023-07-26",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2023/07/26/samsung-galaxy-watch-6-series-specs-price-malaysia/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1799,
+      "config": "47 mm, LTE",
+      "date": "2023-07-26",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2023/07/26/samsung-galaxy-watch-6-series-specs-price-malaysia/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 1.3,
+      "type": "Super AMOLED",
+      "resolution": "432 × 432"
+    },
+    "battery": {
+      "life_h": 40,
+      "capacity_mah": 300
+    },
+    "connectivity": {
+      "gps": "Built-in GNSS",
+      "nfc": true,
+      "cellular": "LTE option",
+      "wifi": "802.11 a/b/g/n 2.4+5GHz",
+      "bluetooth": "Bluetooth v5.3",
+      "positioning": "GPS,Glonass,Beidou,Galileo"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 42.5,
+        "width_mm": 42.5,
+        "depth_mm": 10.9
+      },
+      "weight_g": 52.0
+    },
+    "software": {
+      "launch_os": "Wear OS Powered by Samsung"
+    },
+    "sensors": "Accelerometer,Barometer,Bioelectrical Impedance Analysis Sensor,Electrical Heart Sensor,Gyro Sensor,Geomagnetic Sensor,Hall Sensor,Infrared Temperature Sensor,Light Sensor,Optical Heart Rate Sensor"
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "samsung",
+      "url": "https://www.samsung.com/my/support/model/SM-R950NZKAXME/",
+      "checked": "2026-09-18",
+      "note": "Read from Samsung's own specification data for the Malaysian model SM-R950NZKAXME (the data samsung.com/my shows on its spec pages); the link goes to Samsung Malaysia's page for that model. Values were extracted automatically and reviewed."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2023/07/26/samsung-galaxy-watch-6-series-specs-price-malaysia/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      }
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://images.samsung.com/is/image/samsung/p6pim/my/2307/gallery/my-galaxy-watch6-classic-r955-sm-r950nzkaxme-537410440?$624_624_PNG$",
+    "page": "https://www.samsung.com/my/support/model/SM-R950NZKAXME/",
+    "credit": "Samsung Malaysia",
+    "checked": "2026-09-19"
+  }
+}

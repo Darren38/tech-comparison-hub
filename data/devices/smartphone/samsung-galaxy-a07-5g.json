@@ -1,0 +1,164 @@
+{
+  "id": "samsung-galaxy-a07-5g",
+  "name": "Galaxy A07 5G",
+  "brand": "samsung",
+  "category": "smartphone",
+  "series": "Galaxy A",
+  "form": "bar",
+  "status": "released",
+  "announced": "2026-01-30",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 699,
+      "config": "6 GB / 128 GB",
+      "date": "2026-01-30",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2026/379860/samsung-galaxy-a07-5g/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 949,
+      "config": "8 GB / 256 GB",
+      "date": "2026-01-30",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2026/379860/samsung-galaxy-a07-5g/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 6.7,
+      "type": "LCD",
+      "resolution": "1600 × 720",
+      "refresh_hz": 120,
+      "peak_nits": 800,
+      "ppi": 262
+    },
+    "memory": {
+      "ram_gb": [
+        6,
+        8
+      ],
+      "storage_gb": [
+        128,
+        256
+      ],
+      "card": "MicroSD (Up to 2TB)"
+    },
+    "battery": {
+      "capacity_mah": 6000
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "aperture": "f/1.8"
+        }
+      ],
+      "rear_text": "Rear: 50.0 MP + 2.0 MP",
+      "front": "8 MP",
+      "rear_detail": [
+        "50 MP, f/1.8",
+        "2 MP, f/2.4"
+      ],
+      "features": "Digital Zoom up to 10x",
+      "front_detail": [
+        "8 MP, f/2.0"
+      ],
+      "video": "FHD (1920 x 1080)@30fps"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "bands_2g": "GSM850, GSM900, DCS1800, PCS1900",
+      "bands_3g": "B1(2100), B2(1900), B4(AWS), B5(850), B8(900)",
+      "bands_4g": "4G FDD LTE: B1(2100), B2(1900), B3(1800), B4(AWS), B5(850), B7(2600), B8(900), B12(700), B17(700), B20(800), B26(850), B28(700), B66(AWS-3); 4G TDD LTE: B38(2600), B40(2300), B41(2500)",
+      "bands_5g": "5G FDD Sub6: N1(2100), N3(1800), N5(850), N7(2600), N8(900), N26(850), N28(700), N66(AWS-3); 5G TDD Sub6: N40(2300), N41(2500), N77(3700), N78(3500)",
+      "technology": "GSM / HSPA / LTE / 5G",
+      "sim": "Dual-SIM; Nano-SIM (4FF); SIM 1 + Hybrid (SIM or MicroSD)",
+      "wifi": "802.11a/b/g/n/ac 2.4GHz+5GHz, VHT80",
+      "bluetooth": "Bluetooth v5.3",
+      "positioning": "GPS, Glonass, Beidou, Galileo, QZSS",
+      "usb": "USB Type-C, USB 2.0"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 167.4,
+        "width_mm": 77.4,
+        "depth_mm": 8.2
+      },
+      "weight_g": 199.0,
+      "ip": "IP54"
+    },
+    "software": {
+      "launch_os": "One UI.",
+      "security_updates_years": 6,
+      "security_until": "2032-01-31"
+    },
+    "platform": {
+      "chipset": "dimensity-6300",
+      "cpu": "Octa-Core; 2.4GHz, 2GHz"
+    },
+    "audio": {
+      "speakers": "Mono speaker",
+      "jack": true
+    },
+    "sensors": "Accelerometer, Fingerprint Sensor, Gyro Sensor, Geomagnetic Sensor, Light Sensor, Proximity Sensor",
+    "misc": {
+      "colors": "Light Green, Light Violet, Black"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "samsung",
+      "url": "https://www.samsung.com/my/smartphones/galaxy-a/galaxy-a07-5g-black-128gb-sm-a076bzkcxme/",
+      "checked": "2026-09-18",
+      "note": "Read from Samsung Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "specs.platform": {
+        "class": "news",
+        "source": "lowyat",
+        "url": "https://www.lowyat.net/2026/379860/samsung-galaxy-a07-5g/",
+        "note": "Chip named in Lowyat.NET's Malaysian coverage; the maker's own specification data for this model does not name it.",
+        "checked": "2026-09-18"
+      },
+      "announced": {
+        "class": "news",
+        "source": "lowyat",
+        "url": "https://www.lowyat.net/2026/379860/samsung-galaxy-a07-5g/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (Lowyat.NET). The global announcement can be earlier."
+      },
+      "specs.platform.cpu": {
+        "class": "official",
+        "source": "samsung",
+        "url": "https://www.samsung.com/my/smartphones/galaxy-a/galaxy-a07-5g-black-128gb-sm-a076bzkcxme/",
+        "checked": "2026-09-18",
+        "note": "Read from Samsung Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://images.samsung.com/is/image/samsung/p6pim/my/feature/166830379/my-feature-sleek-and-stylish-design-550536770?$624_624_PNG$",
+    "page": "https://www.samsung.com/my/smartphones/galaxy-a/galaxy-a07-5g-black-128gb-sm-a076bzkcxme/",
+    "credit": "Samsung Malaysia",
+    "checked": "2026-09-19"
+  }
+}

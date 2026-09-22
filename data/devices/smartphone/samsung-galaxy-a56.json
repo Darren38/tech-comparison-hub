@@ -1,0 +1,135 @@
+{
+  "id": "samsung-galaxy-a56",
+  "name": "Galaxy A56",
+  "brand": "samsung",
+  "category": "smartphone",
+  "series": "Galaxy A",
+  "form": "bar",
+  "status": "released",
+  "announced": "2025-03-02",
+  "released": "2025-03-20",
+  "segment": "mid-range",
+  "aliases": [
+    "A56",
+    "Galaxy A56 5G"
+  ],
+  "summary": "Samsung's upper mid-ranger: a big battery, IP67 and six years of updates at a mid-range price, but no wireless charging.",
+  "highlights": [
+    "6 years of OS and security updates",
+    "45 W charging",
+    "IP67"
+  ],
+  "prices": [
+    {
+      "region": "US",
+      "currency": "USD",
+      "amount": 499.99,
+      "config": "8 GB / 128 GB",
+      "date": "2025-03-02",
+      "type": "launch",
+      "source": "samsung"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1999,
+      "config": "8 GB / 128 GB",
+      "date": "2025-03-13",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/03/13/samsung-galaxy-a56-a36-a26-5g-malaysia-launch-price-specs/",
+      "class": "news",
+      "accessed": "2026-09-16",
+      "note": "Recommended retail price; RM1,799 during the 18–31 March 2025 launch promotion."
+    }
+  ],
+  "image": {
+    "kind": "photo",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Samsung_Galaxy_A56_5G_2025_%282%29.jpg/500px-Samsung_Galaxy_A56_5G_2025_%282%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_A56_5G_2025_(2).jpg",
+    "title": "Samsung Galaxy A56 5G 2025 (2)",
+    "author": "Captainmorlypogi1959",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "checked": "2026-09-17"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.7,
+      "type": "Super AMOLED",
+      "resolution": "2340 × 1080",
+      "ppi": 385,
+      "refresh_hz": 120,
+      "peak_nits": 1900,
+      "protection": "Corning Gorilla Glass Victus+"
+    },
+    "platform": {
+      "chipset": "exynos-1580"
+    },
+    "memory": {
+      "ram_gb": [
+        8,
+        12
+      ],
+      "storage_gb": [
+        128,
+        256
+      ]
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "charging": {
+      "wired_w": 45,
+      "wireless_w": 0
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "ois": true
+        },
+        {
+          "role": "ultrawide",
+          "mp": 12
+        },
+        {
+          "role": "macro",
+          "mp": 5
+        }
+      ],
+      "zoom_optical_x": 1,
+      "front": "12 MP"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 162.2,
+        "width_mm": 77.5,
+        "depth_mm": 7.4
+      },
+      "weight_g": 198,
+      "frame": "Aluminum",
+      "ip": "IP67"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true
+    },
+    "software": {
+      "launch_os": "Android 15, One UI 7",
+      "os_updates_years": 6,
+      "security_updates_years": 6
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "samsung",
+      "url": "https://www.samsung.com",
+      "note": "Compiled from Samsung's launch specifications; not re-checked this session."
+    },
+    "fields": {}
+  },
+  "dataStatus": "compiled"
+}

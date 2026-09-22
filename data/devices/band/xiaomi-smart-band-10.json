@@ -1,0 +1,96 @@
+{
+  "id": "xiaomi-smart-band-10",
+  "name": "Xiaomi Smart Band 10",
+  "brand": "xiaomi",
+  "category": "band",
+  "series": "Band",
+  "form": "band",
+  "status": "released",
+  "announced": "2025-06-30",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 219,
+      "config": "Standard",
+      "date": "2025-06-30",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/06/30/xiaomi-smart-band-10-malaysia-launch-price-specs/",
+      "class": "news",
+      "accessed": "2026-09-18",
+      "note": "Recommended retail price; lower during the launch promotion."
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 299,
+      "config": "Ceramic Edition",
+      "date": "2025-06-30",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/06/30/xiaomi-smart-band-10-malaysia-launch-price-specs/",
+      "class": "news",
+      "accessed": "2026-09-18",
+      "note": "Recommended retail price; lower during the launch promotion."
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 1.72,
+      "type": "AMOLED",
+      "resolution": "520 × 212",
+      "peak_nits": 1500
+    },
+    "battery": {
+      "capacity_mah": 233,
+      "chemistry": "Li-Po"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 46.57,
+        "width_mm": 22.54,
+        "depth_mm": 10.95
+      },
+      "weight_g": 15.95,
+      "water": "5 ATM",
+      "water_m": 50
+    },
+    "software": {
+      "launch_os": "Android 8.0 or"
+    },
+    "misc": {
+      "colors": "Band 10: Midnight Black, Glacier Silver, Mystic Rose, Band 10 Glimmer Edition: Glimmer Gold, Band 10 Ceramic Edition: Pearl White, Display Size and Type, 1.72-inch AMOLED Touch Display, Display Resolution"
+    },
+    "sensors": "Accelerometer, Gyroscope, Electronic compass, Optical heart rate and pulse oximeter, Ambient light sensor, Water Resistance Rating, 5ATM, *Water-resistant to 50m: Based on the ISO 22810 First edition: 2010 test standard, the Xiaomi Smart Band 10 has been certified water-resistant by TÜV SÜD. Water resistance rating report number: 68.189.24.0798.01. Rated 5ATM water-resistant (equivalent to a subme",
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.4"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "xiaomi",
+      "url": "https://www.mi.com/my/product/xiaomi-smart-band-10/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from Xiaomi Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2025/06/30/xiaomi-smart-band-10-malaysia-launch-price-specs/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      }
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://i02.appmifile.com/315_item_my/24/06/2025/e092fdf6d5a048f2911eff5b85699865.png",
+    "page": "https://www.mi.com/my/product/xiaomi-smart-band-10/specs/",
+    "credit": "Xiaomi",
+    "checked": "2026-09-19"
+  }
+}

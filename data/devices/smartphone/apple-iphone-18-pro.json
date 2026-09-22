@@ -1,0 +1,173 @@
+{
+  "id": "apple-iphone-18-pro",
+  "name": "iPhone 18 Pro",
+  "brand": "apple",
+  "category": "smartphone",
+  "series": "iPhone",
+  "form": "bar",
+  "status": "released",
+  "announced": "2026-09-09",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 5499,
+      "config": "256 GB",
+      "date": "2026-06-19",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2026/06/19/wsj-report-iphone-18-pro-price-increase-to-cost-over-rm6300/",
+      "class": "news",
+      "accessed": "2026-09-18",
+      "note": "Starting price; configurations up to 2 TB."
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/iphone-18-pro.png",
+    "page": "https://support.apple.com/en-my/148590",
+    "credit": "Apple",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.3,
+      "type": "OLED",
+      "resolution": "2622 × 1206",
+      "refresh_hz": 120,
+      "peak_nits": 3000,
+      "ppi": 458
+    },
+    "platform": {
+      "chipset": "apple-a20-pro",
+      "cpu": "6-core CPU with 2 super cores and 4 efficiency cores",
+      "gpu": "7-core GPU with Neural Accelerators"
+    },
+    "memory": {
+      "storage_gb": [
+        256,
+        512
+      ]
+    },
+    "charging": {
+      "wired_w": 60,
+      "wireless_w": 25,
+      "claim": "Up to 50% in around 15 min wired (60 W adapter or higher); up to 50% in 30 min on MagSafe (35 W adapter or higher)"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 48,
+          "aperture": "f/1.48–f/4.0 variable"
+        },
+        {
+          "role": "ultrawide",
+          "mp": 48
+        },
+        {
+          "role": "telephoto",
+          "mp": 48,
+          "zoom_x": 4
+        }
+      ],
+      "front": "18 MP",
+      "rear_detail": [
+        "48MP Fusion Main with variable aperture (ƒ/1.48, ƒ/1.8, ƒ/2.8, ƒ/4.0): 24mm, second-generation sensor-shift optical image stabilisation, 100% Focus Pixels, super-high-resolution photos (24MP and 48MP)",
+        "Also enables 12MP optical-quality 2x Telephoto: 48mm, second-generation sensor-shift optical image stabilisation, 100% Focus Pixels",
+        "48MP Fusion Ultra Wide: 13mm, ƒ/2.2 aperture and 120° field of view, Hybrid Focus Pixels, super-high-resolution photos (24MP and 48MP)",
+        "48MP Fusion Telephoto: 100mm (4x), ƒ/2.8 aperture, Hybrid Focus Pixels, 3D sensor-shift optical image stabilisation and autofocus, tetraprism design, super-high-resolution photos (24MP and 48MP)",
+        "Also enables 12MP optical-quality 8x Telephoto: 200mm, ƒ/2.8 aperture, Hybrid Focus Pixels, 3D sensor-shift optical image stabilisation and autofocus, tetraprism design"
+      ],
+      "features": "8x optical-quality zoom in, 2x optical zoom out; 16x optical-quality zoom range; Digital zoom up to 40x",
+      "video": "4K@120fps; 1080p",
+      "front_detail": [
+        "18MP Center Stage camera, ƒ/1.9 aperture"
+      ],
+      "front_video": "4K@60fps; 1080p",
+      "zoom_optical_x": 4
+    },
+    "battery": {
+      "video_h": 34,
+      "chemistry": "Built-in rechargeable lithium-ion battery"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true,
+      "wifi": "Wi-Fi 7 (802.11be) with 2x2 MIMO",
+      "bluetooth": "6",
+      "bands_2g": "GSM/EDGE (850, 900, 1800, 1900 MHz); GSM/EDGE (850, 900, 1800, 1900 MHz)",
+      "bands_3g": "UMTS/HSPA+ (850, 900, 1700/2100, 1900, 2100 MHz); UMTS/HSPA+ (850, 900, 1700/2100, 1900, 2100 MHz)",
+      "bands_4g": "FDD-LTE (Bands 1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 25, 26, 28, 30, 32, 66, 106); TDD-LTE (Bands 34, 38, 39, 40, 41, 42, 48, 53); FDD-LTE (Bands 1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 25, 26, 28, 30, 32, 66, 106); TDD-LTE (Bands 34, 38, 39, 40, 41, 42, 48, 53)",
+      "bands_5g": "FDD-5G NR (Bands n1, n2, n3, n5, n7, n8, n12, n20, n25, n26, n28, n30, n66, n70, n75); TDD-5G NR (Bands n38, n40, n41, n48, n53, n77, n78, n79); FDD-5G NR (Bands n1, n2, n3, n5, n7, n8, n12, n20, n25, n26, n28, n30, n66, n70, n75); TDD-5G NR (Bands n38, n40, n41, n48, n53, n77, n78, n79)",
+      "technology": "GSM / HSPA / LTE / 5G",
+      "positioning": "Precision dual-frequency GPS (GPS, GLONASS, Galileo, QZSS, BeiDou and NavIC); Digital compass; Wi-Fi; Mobile Data",
+      "sim": "Dual SIM (nano-SIM and eSIM); Dual eSIM support",
+      "usb": "USB-C connector; USB 3 (up to 10Gb/s)"
+    },
+    "build": {
+      "weight_g": 211.0,
+      "ip": "IP68"
+    },
+    "software": {
+      "launch_os": "iOS 27"
+    },
+    "sensors": "Face ID, LiDAR scanner, Barometer, High dynamic range gyro, High-g accelerometer, Proximity sensor, Dual ambient light sensors",
+    "audio": {
+      "speakers": "Built-in stereo speaker"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "apple",
+      "url": "https://support.apple.com/en-my/148590",
+      "checked": "2026-09-18",
+      "note": "Read from Apple Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "official",
+        "source": "apple",
+        "url": "https://www.apple.com/newsroom/2026/09/apple-debuts-iphone-18-pro-and-iphone-18-pro-max/",
+        "checked": "2026-09-22",
+        "note": "Apple's announcement (9 September 2026): pre-orders from 12 September and availability from 18 September in more than 65 countries including Malaysia."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      },
+      "released": {
+        "class": "official",
+        "source": "apple",
+        "url": "https://www.apple.com/newsroom/2026/09/apple-debuts-iphone-18-pro-and-iphone-18-pro-max/",
+        "checked": "2026-09-22",
+        "note": "Apple's announcement (9 September 2026): pre-orders from 12 September and availability from 18 September in more than 65 countries including Malaysia."
+      },
+      "specs.camera.rear": {
+        "class": "official",
+        "source": "apple",
+        "url": "https://support.apple.com/en-my/148590",
+        "checked": "2026-09-22",
+        "note": "Corrected in Version 10 after re-reading Apple Malaysia's specification page: three 48 MP rear cameras (the 12 MP \"2x\" and \"8x\" telephotos are crops of the main and telephoto cameras, not cameras), Bluetooth 6, and the fast-charge wording without its footnote number."
+      },
+      "specs.connectivity.bluetooth": {
+        "class": "official",
+        "source": "apple",
+        "url": "https://support.apple.com/en-my/148590",
+        "checked": "2026-09-22",
+        "note": "Corrected in Version 10 after re-reading Apple Malaysia's specification page: three 48 MP rear cameras (the 12 MP \"2x\" and \"8x\" telephotos are crops of the main and telephoto cameras, not cameras), Bluetooth 6, and the fast-charge wording without its footnote number."
+      },
+      "specs.charging.claim": {
+        "class": "official",
+        "source": "apple",
+        "url": "https://support.apple.com/en-my/148590",
+        "checked": "2026-09-22",
+        "note": "Corrected in Version 10 after re-reading Apple Malaysia's specification page: three 48 MP rear cameras (the 12 MP \"2x\" and \"8x\" telephotos are crops of the main and telephoto cameras, not cameras), Bluetooth 6, and the fast-charge wording without its footnote number."
+      }
+    }
+  },
+  "dataStatus": "compiled",
+  "released": "2026-09-18"
+}

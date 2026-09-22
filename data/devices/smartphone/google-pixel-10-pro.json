@@ -1,0 +1,135 @@
+{
+  "id": "google-pixel-10-pro",
+  "name": "Pixel 10 Pro",
+  "brand": "google",
+  "category": "smartphone",
+  "series": "Pixel",
+  "form": "bar",
+  "status": "released",
+  "announced": "2025-08-20",
+  "released": "2025-08-28",
+  "segment": "flagship",
+  "aliases": [
+    "P10 Pro"
+  ],
+  "summary": "Compact Pro Pixel with the full triple camera and 16 GB of RAM.",
+  "highlights": [
+    "Tensor G5",
+    "5× telephoto in a 6.3-inch body",
+    "7 years of updates"
+  ],
+  "prices": [
+    {
+      "region": "US",
+      "currency": "USD",
+      "amount": 999,
+      "config": "16 GB / 128 GB",
+      "date": "2025-08-20",
+      "type": "launch",
+      "source": "google"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 4999,
+      "config": "16 GB / 256 GB",
+      "date": "2025-08-21",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/08/21/google-pixel-10-pro-10-pro-fold-pixel-watch-4-buds-2a-malaysia-price/",
+      "class": "news",
+      "accessed": "2026-09-16"
+    }
+  ],
+  "image": {
+    "kind": "photo",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Avant_du_Google_Pixel_10_Pro_pierre_de_lune_de_256_Go.jpg/500px-Avant_du_Google_Pixel_10_Pro_pierre_de_lune_de_256_Go.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Avant_du_Google_Pixel_10_Pro_pierre_de_lune_de_256_Go.jpg",
+    "title": "Avant du Google Pixel 10 Pro pierre de lune de 256 Go",
+    "author": "Fabe56",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "checked": "2026-09-17"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.3,
+      "type": "Super Actua LTPO OLED",
+      "resolution": "2856 × 1280",
+      "ppi": 495,
+      "refresh_hz": 120,
+      "peak_nits": 3300
+    },
+    "platform": {
+      "chipset": "google-tensor-g5"
+    },
+    "memory": {
+      "ram_gb": [
+        16
+      ],
+      "storage_gb": [
+        128,
+        256,
+        512,
+        1024
+      ]
+    },
+    "battery": {
+      "capacity_mah": 4870
+    },
+    "charging": {
+      "wired_w": 30,
+      "wireless_w": 15
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "sensor": "1/1.31\"",
+          "aperture": "f/1.68"
+        },
+        {
+          "role": "ultrawide",
+          "mp": 48
+        },
+        {
+          "role": "periscope",
+          "mp": 48,
+          "zoom_x": 5
+        }
+      ],
+      "zoom_optical_x": 5,
+      "front": "42 MP"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 152.8,
+        "width_mm": 72.0,
+        "depth_mm": 8.6
+      },
+      "weight_g": 207,
+      "ip": "IP68"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true,
+      "uwb": true
+    },
+    "software": {
+      "launch_os": "Android 16",
+      "os_updates_years": 7,
+      "security_updates_years": 7
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "google",
+      "url": "https://store.google.com",
+      "note": "Compiled from Google's specifications; not re-checked this session."
+    },
+    "fields": {}
+  },
+  "dataStatus": "compiled"
+}

@@ -1,0 +1,64 @@
+# Reviewed against the article sentences (review_show.py / ctx_show.py). Format: id | CFG=RM[@site], ... [@site] | opts
+samsung-galaxy-s23 | 8/128=3899, 8/256=4199 @soya |
+samsung-galaxy-s23-plus | 8/256=4699, 8/512=5199 @soya |
+samsung-galaxy-s23-ultra | 12/256=5699@soya, 12/512=6199@lowy, 12/1T=7199@lowy |
+samsung-galaxy-a14 | 6/128=799 @soya |
+samsung-galaxy-a14-5g | 6/128=949 @soya | pnote=Price from reseller listings reported by SoyaCincau.
+samsung-galaxy-a34-5g | 8/256=1599 @lowy |
+samsung-galaxy-a54-5g | 8/256=1899 @lowy |
+samsung-galaxy-a24 | 8/128=999 @soya |
+samsung-galaxy-m14-5g | | ann=2023-05-23
+samsung-galaxy-z-flip5 | 8/256=4499, 8/512=4999 @soya |
+samsung-galaxy-z-fold5 | 12/256=6799, 12/512=7299, 12/1T=8299 @lowy |
+samsung-galaxy-s23-fe | 8/128=2999, 8/256=3299 @soya |
+samsung-galaxy-m34-5g | 8/128=1399 @lowy | pnote=Sold through Samsung's official Shopee store; RM999 introductory price on launch day.
+samsung-galaxy-a05 | -=649 @lowy |
+samsung-galaxy-a05s | -=799 @lowy |
+samsung-galaxy-m54-5g | drop: Samsung's spec service returns no specifications for the Malaysian model codes and no Malaysian launch coverage was found.
+samsung-galaxy-a15 | -=999 @soya | pnote=Starting price.
+samsung-galaxy-a15-5g | 8/256=1199 @soya |
+samsung-galaxy-a25-5g | |
+samsung-galaxy-s24 | 8/256=4099, 8/512=4599 @soya |
+samsung-galaxy-s24-plus | 12/256=4899, 12/512=5399 @soya |
+samsung-galaxy-s24-ultra | 12/256=6299, 12/512=6799, 12/1T=7799 @soya |
+samsung-galaxy-a35-5g | 8/256=1699 @soya |
+samsung-galaxy-a55-5g | 256=1999 @nasi |
+samsung-galaxy-z-fold6 | 12/256=7299, 12/512=7899, 12/1T=9099 @soya |
+samsung-galaxy-z-flip6 | 12/256=4999, 12/512=5599 @soya |
+samsung-galaxy-s24-fe | 8/256=3299, 8/512=3899 @lowy |
+samsung-galaxy-a06 | 4/128=449 @nasi |
+samsung-galaxy-a16-5g | 8/256=899 @soya |
+samsung-galaxy-a16 | |
+samsung-galaxy-s25 | 256=3999, 512=4599 @nasi |
+samsung-galaxy-s25-plus | 256=4999, 512=5599 @nasi |
+samsung-galaxy-s25-edge | drop: Not sold in Malaysia (SoyaCincau, 13 May 2025) and no Malaysian model code on Samsung Malaysia's support site.
+samsung-galaxy-a36-5g | |
+samsung-galaxy-a26-5g | |
+samsung-galaxy-z-fold7 | 12/256=7799, 12/512=8399, 16/1T=9899 @soya |
+samsung-galaxy-z-flip7 | 12/256=4999, 12/512=5599 @lowy |
+samsung-galaxy-z-flip7-fe | 8/128=3999, 8/256=4299 @soya |
+samsung-galaxy-s25-fe | 8/256=3099, 8/512=3699 @soya |
+samsung-galaxy-a06-5g | -=699 @lowy |
+samsung-galaxy-a07 | 6/128=549, 8/256=599 @lowy |
+samsung-galaxy-a07-5g | 6/128=699, 8/256=949 @lowy |
+samsung-galaxy-a17 | |
+samsung-galaxy-a17-5g | 8/128=899, 8/256=999 @lowy | src=https://www.lowyat.net/2025/364917/samsung-galaxy-a17-a07-available-5-september/
+samsung-galaxy-s26-plus | -=6199 @lowy | pnote=Starting price.
+samsung-galaxy-a57-5g | 8/256=1899, 12/256=2399, 12/512=2699 @soya |
+samsung-galaxy-a37-5g | 8/256=1899 @soya | pnote=Price as listed on 26 August 2026, unchanged from launch.
+samsung-galaxy-a27-5g | 8/128=1399, 8/256=1499 @soya |
+samsung-galaxy-z-fold8-ultra | 12/256=8099@soya, 12/512=8899@soya, 1T=10499@lowy |
+samsung-galaxy-z-flip8 | -=5399 @soya | pnote=Starting price.
+samsung-galaxy-s26-fe | 8/128=2899, 8/256=3299, 8/512=4099 @soya |
+samsung-galaxy-a08 | | status=announced
+samsung-galaxy-a07s | drop: Launched in the Levant region; no Malaysian launch yet (Lowyat.NET, 8 September 2026).
+samsung-galaxy-watch6 | "40 mm, Bluetooth"=1099, "44 mm, Bluetooth"=1199, "40 mm, LTE"=1399, "44 mm, LTE"=1499 @soya |
+samsung-galaxy-watch6-classic | "43 mm, Bluetooth"=1399, "47 mm, Bluetooth"=1499, "43 mm, LTE"=1699, "47 mm, LTE"=1799 @soya |
+samsung-galaxy-fit3 | -=299 @soya |
+samsung-galaxy-watch7 | "40 mm, Bluetooth"=1199, "40 mm, LTE"=1499, "44 mm, Bluetooth"=1299, "44 mm, LTE"=1599 @lowy |
+samsung-galaxy-watch-ultra | "47 mm, LTE"=3399 @soya |
+samsung-galaxy-watch-fe | -=799 @lowy |
+samsung-galaxy-watch8 | "40 mm, Bluetooth"=1299, "40 mm, LTE"=1599, "44 mm, Bluetooth"=1399, "44 mm, LTE"=1699 @soya |
+samsung-galaxy-watch-ultra-2025 | "47 mm, LTE"=3399 @soya | src=https://soyacincau.com/2025/07/09/samsung-galaxy-watch-8-watch-8-classic-watch-ultra-2025-launch-unpacked-malaysia-pricing/
+samsung-galaxy-watch9 | "40 mm, Bluetooth"=1499, "40 mm, LTE"=1799, "44 mm, Bluetooth"=1599, "44 mm, LTE"=1899 @lowy |
+samsung-galaxy-watch-ultra2 | "47 mm, LTE"=3399 @soya |

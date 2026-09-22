@@ -1,0 +1,164 @@
+{
+  "id": "xiaomi-17-ultra",
+  "name": "Xiaomi 17 Ultra",
+  "brand": "xiaomi",
+  "category": "smartphone",
+  "series": "Xiaomi Ultra",
+  "form": "bar",
+  "status": "released",
+  "announced": "2026-02-28",
+  "released": "2026-03",
+  "segment": "camera-flagship",
+  "aliases": [
+    "17 Ultra",
+    "Xiaomi 17U",
+    "Xiaomi 16 Ultra"
+  ],
+  "summary": "Leica co-engineered camera flagship with a 1-inch main sensor and a 200 MP periscope with continuous optical zoom. Global launch at MWC 2026. Xiaomi skipped the number 16, so this is the successor to the 15 Ultra.",
+  "highlights": [
+    "1-inch 50 MP main sensor",
+    "200 MP continuous-zoom periscope",
+    "3,500-nit display",
+    "Leica Edition with a zoom ring"
+  ],
+  "prices": [
+    {
+      "region": "UK",
+      "currency": "GBP",
+      "amount": 1299,
+      "config": "16 GB / 512 GB",
+      "date": "2026-02-28",
+      "type": "launch",
+      "source": "engadget",
+      "url": "https://www.engadget.com/mobile/smartphones/xiaomi-17-ultra-global-launch-hands-on-leica-camera-143006810.html",
+      "class": "news"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 5499,
+      "config": "16 GB / 512 GB",
+      "date": "2026-03-01",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2026/03/01/xiaomi-17-and-17-ultra-malaysia-launch-price-specs-preorder/",
+      "class": "news",
+      "accessed": "2026-09-16"
+    }
+  ],
+  "image": {
+    "kind": "photo",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Xiaomi_17_Ultra.jpg/500px-Xiaomi_17_Ultra.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Xiaomi_17_Ultra.jpg",
+    "title": "Xiaomi 17 Ultra",
+    "author": "茅野ふたば",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "checked": "2026-09-17"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.9,
+      "type": "LTPO AMOLED (flat)",
+      "resolution": "2608 × 1200",
+      "ppi": 416,
+      "refresh_hz": 120,
+      "peak_nits": 3500
+    },
+    "platform": {
+      "chipset": "snapdragon-8-elite-gen-5"
+    },
+    "memory": {
+      "ram_gb": [
+        16
+      ],
+      "storage_gb": [
+        512,
+        1024
+      ]
+    },
+    "battery": {
+      "capacity_mah": 6000,
+      "chemistry": "Silicon-carbon",
+      "variants": "China: 6,800 mAh"
+    },
+    "charging": {
+      "wired_w": 90,
+      "wireless_w": 50
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "sensor": "1\"",
+          "note": "Light Fusion 1050L"
+        },
+        {
+          "role": "periscope",
+          "mp": 200,
+          "sensor": "1/1.4\"",
+          "zoom_x": 4.3,
+          "note": "75–100 mm continuous optical zoom (about 3–4.3×)"
+        },
+        {
+          "role": "ultrawide",
+          "mp": 50,
+          "note": "Autofocus"
+        }
+      ],
+      "zoom_optical_x": 4.3
+    },
+    "build": {
+      "ip": "IP68"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true
+    },
+    "software": {
+      "launch_os": "Android 16, HyperOS 3",
+      "os_updates_years": 5,
+      "security_updates_years": 6
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "xiaomi",
+      "url": "https://www.mi.com/global/product/xiaomi-17-ultra/",
+      "checked": "2026-09-15",
+      "note": "Key specifications cross-checked against GSMArena and Engadget launch coverage; Xiaomi's own page blocks automated access."
+    },
+    "fields": {
+      "specs.camera.zoom_optical_x": {
+        "class": "database",
+        "source": "gizmochina",
+        "url": "https://www.gizmochina.com/2025/12/24/xiaomi-17-ultras-3x-4-3x-continuous-optical-zoom-impresses-in-side-by-side-comparison-test/",
+        "note": "Upper end of the 75–100 mm continuous optical zoom, relative to the main camera.",
+        "checked": "2026-09-15"
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      },
+      "specs.software.os_updates_years": {
+        "class": "database",
+        "source": "gsmarena",
+        "url": "https://www.gsmarena.com/xiaomi_17_ultra_global-review-2933p4.php"
+      },
+      "specs.software.security_updates_years": {
+        "class": "database",
+        "source": "gsmarena",
+        "url": "https://www.gsmarena.com/xiaomi_17_ultra_global-review-2933p4.php"
+      },
+      "specs.battery.chemistry": {
+        "class": "database",
+        "source": "gsmarena",
+        "note": "Reported in launch coverage."
+      }
+    }
+  },
+  "dataStatus": "checked"
+}

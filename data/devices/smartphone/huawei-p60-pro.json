@@ -1,0 +1,363 @@
+{
+  "id": "huawei-p60-pro",
+  "name": "Huawei P60 Pro",
+  "brand": "huawei",
+  "category": "smartphone",
+  "series": "P",
+  "form": "bar",
+  "status": "released",
+  "announced": "2023-05-11",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 4699,
+      "config": "8 GB / 256 GB",
+      "date": "2023-05-11",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2023/05/11/huawei-p60-pro-malaysia-official-price-specs/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 5499,
+      "config": "12 GB / 512 GB",
+      "date": "2023-05-11",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2023/05/11/huawei-p60-pro-malaysia-official-price-specs/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 6.67,
+      "type": "LTPO OLED",
+      "resolution": "2700 × 1220",
+      "refresh_hz": 120,
+      "ppi": 444
+    },
+    "platform": {
+      "chipset": "snapdragon-8-plus-gen-1",
+      "gpu": "Adreno",
+      "cpu": "Octa-core, 1 × Cortex-X2@3.2 GHz + 3 × Cortex-A710@2.75 GHz + 4 × Cortex-A510@2.0 GHz"
+    },
+    "memory": {
+      "ram_gb": [
+        8,
+        12
+      ],
+      "storage_gb": [
+        256,
+        512
+      ]
+    },
+    "battery": {
+      "capacity_mah": 4815
+    },
+    "charging": {
+      "wired_w": 88,
+      "wireless_w": 50,
+      "claim": "HUAWEI SuperCharge (Max 88 W); The phone supports 20V/4.4A (Max 88 W) super-fast charging and is compatible with 11V/6A or 10V/4A or 10V/2.25A or 4.5V/5A or 5V/4.5A super-fast char"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 48
+        },
+        {
+          "role": "ultrawide",
+          "mp": 13
+        },
+        {
+          "role": "periscope",
+          "mp": 48
+        }
+      ],
+      "zoom_optical_x": 3.5,
+      "front": "13 MP",
+      "rear_detail": [
+        "48 MP Ultra Lighting Camera (F1.4~F4.0 aperture, OIS)",
+        "13 MP Ultra-Wide Angle Camera (F2.2 aperture)",
+        "48 MP Ultra Lighting Telephoto Camera (F2.1 aperture, OIS)"
+      ],
+      "features": "3.5x optical zoom (3.5x zoom is an approximate value, the lens focal lengths are 24.5 mm, 13 mm, 90 mm), and 100x digital zoom.",
+      "video": "4K",
+      "front_detail": [
+        "13 MP Selfie Camera (Wide Angle, F2.4)"
+      ]
+    },
+    "build": {
+      "ip": "IP68"
+    },
+    "connectivity": {
+      "cellular": "4G",
+      "bands_2g": "Bands 2/3/5/8 (850/900/1800/1900 MHz",
+      "bands_3g": "Bands 1/2/4/5/6/8/19",
+      "bands_4g": "4G LTE FDD: Bands 1/2/3/4/5/7/8/12/13/17/18/19/20/26/28/32/66; 4G LTE TDD: Bands 34/38/39/40/41; 4G LTE FDD: Bands 1/2/3/4/5/7/8/12/13/17/18/19/20/26/28/66",
+      "technology": "GSM / HSPA / LTE",
+      "wifi": "2.4 GHz and 5 GHz; 802.11a/b/g/n/ac/ax, 2 × 2 MIMO, HE160, 4096 QAM, 8 Spatial-stream Sounding MU-MIMO",
+      "bluetooth": "Bluetooth 5.2, Support BLE, SBC, AAC, LDAC and L2HC.",
+      "usb": "USB Type-C, USB 3.1 GEN1",
+      "positioning": "GPS (L1 + L5 Dual band)/AGPS/GLONASS/BeiDou (B1I + B1C + B2a Tri-band)/GALILEO (E1 + E5a Dual band)/QZSS (L1 + L5 Dual band)/NavIC",
+      "nfc": true
+    },
+    "software": {
+      "launch_os": "EMUI 13.1 (Android 13 base)"
+    },
+    "audio": {
+      "jack": false
+    },
+    "sensors": "Gravity Sensor, Infrared Sensor, Fingerprint Sensor, Hall Sensor, Gyroscope, Compass, Ambient Light Sensor, Proximity Sensor, Laser Sensor, Colour Temperature Sensor",
+    "misc": {
+      "models": "MNA-LX9 (Dual SIM model)",
+      "colors": "Rococo Pearl, Black"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "news",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2023/05/11/huawei-p60-pro-malaysia-official-price-specs/",
+      "note": "The maker no longer publishes a specification page for this model. Key specs were taken from this Malaysian launch report, which gives the maker's figures.",
+      "checked": "2026-09-18"
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2023/05/11/huawei-p60-pro-malaysia-official-price-specs/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      },
+      "specs.audio.jack": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20260616181932/https://consumer.huawei.com/my/phones/p60-pro/specs/",
+        "checked": "2026-09-19",
+        "note": "The maker's own specification page (https://consumer.huawei.com/my/phones/p60-pro/specs/) is no longer online; read from the Internet Archive copy captured 2026-06-16."
+      },
+      "specs.camera.features": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20260616181932/https://consumer.huawei.com/my/phones/p60-pro/specs/",
+        "checked": "2026-09-19",
+        "note": "The maker's own specification page (https://consumer.huawei.com/my/phones/p60-pro/specs/) is no longer online; read from the Internet Archive copy captured 2026-06-16."
+      },
+      "specs.camera.front_detail": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20260616181932/https://consumer.huawei.com/my/phones/p60-pro/specs/",
+        "checked": "2026-09-19",
+        "note": "The maker's own specification page (https://consumer.huawei.com/my/phones/p60-pro/specs/) is no longer online; read from the Internet Archive copy captured 2026-06-16."
+      },
+      "specs.camera.rear_detail": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20260616181932/https://consumer.huawei.com/my/phones/p60-pro/specs/",
+        "checked": "2026-09-19",
+        "note": "The maker's own specification page (https://consumer.huawei.com/my/phones/p60-pro/specs/) is no longer online; read from the Internet Archive copy captured 2026-06-16."
+      },
+      "specs.camera.video": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20260616181932/https://consumer.huawei.com/my/phones/p60-pro/specs/",
+        "checked": "2026-09-19",
+        "note": "The maker's own specification page (https://consumer.huawei.com/my/phones/p60-pro/specs/) is no longer online; read from the Internet Archive copy captured 2026-06-16."
+      },
+      "specs.charging.claim": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20260616181932/https://consumer.huawei.com/my/phones/p60-pro/specs/",
+        "checked": "2026-09-19",
+        "note": "The maker's own specification page (https://consumer.huawei.com/my/phones/p60-pro/specs/) is no longer online; read from the Internet Archive copy captured 2026-06-16."
+      },
+      "specs.connectivity.bands_2g": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20260616181932/https://consumer.huawei.com/my/phones/p60-pro/specs/",
+        "checked": "2026-09-19",
+        "note": "The maker's own specification page (https://consumer.huawei.com/my/phones/p60-pro/specs/) is no longer online; read from the Internet Archive copy captured 2026-06-16."
+      },
+      "specs.connectivity.bands_3g": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20260616181932/https://consumer.huawei.com/my/phones/p60-pro/specs/",
+        "checked": "2026-09-19",
+        "note": "The maker's own specification page (https://consumer.huawei.com/my/phones/p60-pro/specs/) is no longer online; read from the Internet Archive copy captured 2026-06-16."
+      },
+      "specs.connectivity.bands_4g": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20260616181932/https://consumer.huawei.com/my/phones/p60-pro/specs/",
+        "checked": "2026-09-19",
+        "note": "The maker's own specification page (https://consumer.huawei.com/my/phones/p60-pro/specs/) is no longer online; read from the Internet Archive copy captured 2026-06-16."
+      },
+      "specs.connectivity.bluetooth": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20260616181932/https://consumer.huawei.com/my/phones/p60-pro/specs/",
+        "checked": "2026-09-19",
+        "note": "The maker's own specification page (https://consumer.huawei.com/my/phones/p60-pro/specs/) is no longer online; read from the Internet Archive copy captured 2026-06-16."
+      },
+      "specs.connectivity.nfc": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20260616181932/https://consumer.huawei.com/my/phones/p60-pro/specs/",
+        "checked": "2026-09-19",
+        "note": "The maker's own specification page (https://consumer.huawei.com/my/phones/p60-pro/specs/) is no longer online; read from the Internet Archive copy captured 2026-06-16."
+      },
+      "specs.connectivity.positioning": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20260616181932/https://consumer.huawei.com/my/phones/p60-pro/specs/",
+        "checked": "2026-09-19",
+        "note": "The maker's own specification page (https://consumer.huawei.com/my/phones/p60-pro/specs/) is no longer online; read from the Internet Archive copy captured 2026-06-16."
+      },
+      "specs.connectivity.technology": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20260616181932/https://consumer.huawei.com/my/phones/p60-pro/specs/",
+        "checked": "2026-09-19",
+        "note": "The maker's own specification page (https://consumer.huawei.com/my/phones/p60-pro/specs/) is no longer online; read from the Internet Archive copy captured 2026-06-16."
+      },
+      "specs.connectivity.usb": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20260616181932/https://consumer.huawei.com/my/phones/p60-pro/specs/",
+        "checked": "2026-09-19",
+        "note": "The maker's own specification page (https://consumer.huawei.com/my/phones/p60-pro/specs/) is no longer online; read from the Internet Archive copy captured 2026-06-16."
+      },
+      "specs.connectivity.wifi": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20260616181932/https://consumer.huawei.com/my/phones/p60-pro/specs/",
+        "checked": "2026-09-19",
+        "note": "The maker's own specification page (https://consumer.huawei.com/my/phones/p60-pro/specs/) is no longer online; read from the Internet Archive copy captured 2026-06-16."
+      },
+      "specs.misc.colors": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20260616181932/https://consumer.huawei.com/my/phones/p60-pro/specs/",
+        "checked": "2026-09-19",
+        "note": "The maker's own specification page (https://consumer.huawei.com/my/phones/p60-pro/specs/) is no longer online; read from the Internet Archive copy captured 2026-06-16."
+      },
+      "specs.misc.models": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20260616181932/https://consumer.huawei.com/my/phones/p60-pro/specs/",
+        "checked": "2026-09-19",
+        "note": "The maker's own specification page (https://consumer.huawei.com/my/phones/p60-pro/specs/) is no longer online; read from the Internet Archive copy captured 2026-06-16."
+      },
+      "specs.platform.cpu": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20260616181932/https://consumer.huawei.com/my/phones/p60-pro/specs/",
+        "checked": "2026-09-19",
+        "note": "The maker's own specification page (https://consumer.huawei.com/my/phones/p60-pro/specs/) is no longer online; read from the Internet Archive copy captured 2026-06-16."
+      },
+      "specs.platform.gpu": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20260616181932/https://consumer.huawei.com/my/phones/p60-pro/specs/",
+        "checked": "2026-09-19",
+        "note": "The maker's own specification page (https://consumer.huawei.com/my/phones/p60-pro/specs/) is no longer online; read from the Internet Archive copy captured 2026-06-16."
+      },
+      "specs.sensors": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20260616181932/https://consumer.huawei.com/my/phones/p60-pro/specs/",
+        "checked": "2026-09-19",
+        "note": "The maker's own specification page (https://consumer.huawei.com/my/phones/p60-pro/specs/) is no longer online; read from the Internet Archive copy captured 2026-06-16."
+      },
+      "specs.battery.capacity_mah": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20260616181932/https://consumer.huawei.com/my/phones/p60-pro/specs/",
+        "checked": "2026-09-19",
+        "note": "Matches the maker's own specification page (https://consumer.huawei.com/my/phones/p60-pro/specs/), which is no longer online; checked against the Internet Archive copy captured 2026-06-16."
+      },
+      "specs.display.size_in": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20260616181932/https://consumer.huawei.com/my/phones/p60-pro/specs/",
+        "checked": "2026-09-19",
+        "note": "Matches the maker's own specification page (https://consumer.huawei.com/my/phones/p60-pro/specs/), which is no longer online; checked against the Internet Archive copy captured 2026-06-16."
+      },
+      "specs.display.refresh_hz": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20260616181932/https://consumer.huawei.com/my/phones/p60-pro/specs/",
+        "checked": "2026-09-19",
+        "note": "Matches the maker's own specification page (https://consumer.huawei.com/my/phones/p60-pro/specs/), which is no longer online; checked against the Internet Archive copy captured 2026-06-16."
+      },
+      "specs.charging.wired_w": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20260616181932/https://consumer.huawei.com/my/phones/p60-pro/specs/",
+        "checked": "2026-09-19",
+        "note": "Matches the maker's own specification page (https://consumer.huawei.com/my/phones/p60-pro/specs/), which is no longer online; checked against the Internet Archive copy captured 2026-06-16."
+      },
+      "specs.display.resolution": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20260616181932/https://consumer.huawei.com/my/phones/p60-pro/specs/",
+        "checked": "2026-09-19",
+        "note": "Matches the maker's own specification page (https://consumer.huawei.com/my/phones/p60-pro/specs/), which is no longer online; checked against the Internet Archive copy captured 2026-06-16."
+      },
+      "specs.camera.rear": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20260616181932/https://consumer.huawei.com/my/phones/p60-pro/specs/",
+        "checked": "2026-09-19",
+        "note": "Matches the maker's own specification page (https://consumer.huawei.com/my/phones/p60-pro/specs/), which is no longer online; checked against the Internet Archive copy captured 2026-06-16."
+      },
+      "specs.memory.ram_gb": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20260616181932/https://consumer.huawei.com/my/phones/p60-pro/specs/",
+        "checked": "2026-09-19",
+        "note": "Matches the maker's own specification page (https://consumer.huawei.com/my/phones/p60-pro/specs/), which is no longer online; checked against the Internet Archive copy captured 2026-06-16."
+      },
+      "specs.memory.storage_gb": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20260616181932/https://consumer.huawei.com/my/phones/p60-pro/specs/",
+        "checked": "2026-09-19",
+        "note": "Matches the maker's own specification page (https://consumer.huawei.com/my/phones/p60-pro/specs/), which is no longer online; checked against the Internet Archive copy captured 2026-06-16."
+      },
+      "specs.platform.chipset": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20260616181932/https://consumer.huawei.com/my/phones/p60-pro/specs/",
+        "checked": "2026-09-19",
+        "note": "Matches the maker's own specification page (https://consumer.huawei.com/my/phones/p60-pro/specs/), which is no longer online; checked against the Internet Archive copy captured 2026-06-16."
+      },
+      "specs.display.type": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20260616181932/https://consumer.huawei.com/my/phones/p60-pro/specs/",
+        "checked": "2026-09-19",
+        "note": "Matches the maker's own specification page (https://consumer.huawei.com/my/phones/p60-pro/specs/), which is no longer online; checked against the Internet Archive copy captured 2026-06-16."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/admin-image/phones/p60-pro/specs/rococo-pearl.png",
+    "page": "https://web.archive.org/web/20260616181932/https://consumer.huawei.com/my/phones/p60-pro/specs/",
+    "credit": "Huawei",
+    "checked": "2026-09-19"
+  }
+}

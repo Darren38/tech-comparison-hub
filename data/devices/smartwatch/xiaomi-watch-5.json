@@ -1,0 +1,67 @@
+{
+  "id": "xiaomi-watch-5",
+  "name": "Xiaomi Watch 5",
+  "brand": "xiaomi",
+  "category": "smartwatch",
+  "series": "Watch",
+  "form": "watch",
+  "status": "released",
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-18",
+      "source": "xiaomi",
+      "url": "https://www.mi.com/my/product/xiaomi-watch-5/specs/",
+      "note": "Sold in Malaysia, but no launch price was found in Malaysian launch coverage."
+    }
+  },
+  "specs": {
+    "display": {
+      "size_in": 1.54,
+      "type": "AMOLED",
+      "resolution": "480 × 480",
+      "peak_nits": 1500
+    },
+    "battery": {
+      "life_h": 144,
+      "capacity_mah": 930
+    },
+    "connectivity": {
+      "gps": "Built-in GNSS",
+      "nfc": true,
+      "cellular": "LTE option",
+      "wifi": "2.4GHz Wi-Fi; BT/BLE 5.4; Specifications",
+      "positioning": "Dual band : L1+L5 GPS; Galileo; Glonass; Beidou; QZSS; Package contents; Xiaomi Watch 5 / Charging Dock / User Manual (including warranty notice)"
+    },
+    "build": {
+      "weight_g": 56.0,
+      "water": "5 ATM",
+      "water_m": 50
+    },
+    "audio": {
+      "speakers": "Microphone: Supported"
+    },
+    "sensors": "PPG sensor, Accelerometer sensor, Gyroscope sensor, Ambient light sensor, Electronic compass sensor, Barometer sensor, EMG sensor",
+    "misc": {
+      "colors": "Black, Juniper Green"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "xiaomi",
+      "url": "https://www.mi.com/my/product/xiaomi-watch-5/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from Xiaomi Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {}
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://i02.appmifile.com/991_item_my/09/02/2026/efd100302101c1637757b14a8c935ba9.png",
+    "page": "https://www.mi.com/my/product/xiaomi-watch-5/specs/",
+    "credit": "Xiaomi",
+    "checked": "2026-09-19"
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "id": "vivo-v80-lite-5g",
+  "name": "vivo V80 Lite 5G",
+  "brand": "vivo",
+  "category": "smartphone",
+  "series": "V",
+  "form": "bar",
+  "status": "released",
+  "announced": "2026-09-04",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1499,
+      "config": "6 GB / 128 GB",
+      "date": "2026-09-04",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2026/09/04/vivo-v80-lite-5g-malaysia-mid-ranger-with-massive-10000mah-battery-promo-priced-from-rm1399/",
+      "class": "news",
+      "accessed": "2026-09-18",
+      "note": "Recommended retail price; RM100 lower at launch."
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1799,
+      "config": "6 GB / 256 GB",
+      "date": "2026-09-04",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2026/09/04/vivo-v80-lite-5g-malaysia-mid-ranger-with-massive-10000mah-battery-promo-priced-from-rm1399/",
+      "class": "news",
+      "accessed": "2026-09-18",
+      "note": "Recommended retail price; RM100 lower at launch."
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1999,
+      "config": "8 GB / 256 GB",
+      "date": "2026-09-04",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2026/09/04/vivo-v80-lite-5g-malaysia-mid-ranger-with-massive-10000mah-battery-promo-priced-from-rm1399/",
+      "class": "news",
+      "accessed": "2026-09-18",
+      "note": "Recommended retail price; RM100 lower at launch."
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 6.83,
+      "type": "AMOLED",
+      "resolution": "2800 × 1260",
+      "refresh_hz": 120,
+      "peak_nits": 2000,
+      "ppi": 450
+    },
+    "platform": {
+      "chipset": "dimensity-7300e",
+      "process": "6 nm",
+      "cpu": "8 cores; 4 × 2.5 GHz + 4 × 2.0 GHz"
+    },
+    "memory": {
+      "ram_gb": [
+        6,
+        8
+      ],
+      "storage_gb": [
+        128,
+        256
+      ],
+      "ram_type": "LPDDR4X",
+      "storage_type": "UFS 3.1",
+      "card": "No"
+    },
+    "battery": {
+      "capacity_mah": 10000,
+      "chemistry": "Li-ion battery"
+    },
+    "charging": {
+      "wired_w": 44,
+      "claim": "44W"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "aperture": "f/1.8"
+        }
+      ],
+      "rear_text": "Rear: 50 MP + 2 MP",
+      "front": "32 MP",
+      "rear_detail": [
+        "50 MP, f/1.8",
+        "2 MP, f/2.4"
+      ],
+      "front_detail": [
+        "32 MP, f/2.0"
+      ]
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true,
+      "bands_2g": "850/900/1800/1900MHz",
+      "bands_3g": "B1/B2/B4/B5/B6/B8/B19",
+      "bands_4g": "4G FDD-LTE: B1/B2/B3/B4/B5/B7/B8/B19/B20/B28/B32/B66/B71",
+      "bands_5g": "5G: n1/n3/n5/n7/n8/n20/n28/n38/n40/n41/n48/n66/n71/n75/n77/n78",
+      "technology": "GSM / HSPA / LTE / 5G",
+      "sim": "2 nano SIMs",
+      "wifi": "2.4 GHz /5 GHz",
+      "bluetooth": "Bluetooth 5.4",
+      "usb": "USB 2.0; USB Port; Type-C",
+      "radio": "No",
+      "positioning": "GPS, BeiDou, GLONASS, GALILEO, QZSS"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 163.9,
+        "width_mm": 76.5,
+        "depth_mm": 8.59
+      },
+      "weight_g": 224.0,
+      "ip": "IP69",
+      "back": "Plastic composite sheet"
+    },
+    "software": {
+      "launch_os": "OriginOS 6"
+    },
+    "misc": {
+      "colors": "Pink, Green, Black"
+    },
+    "biometrics": {
+      "fingerprint": "In-display optical fingerprint sensor"
+    },
+    "sensors": "Accelerometer, Ambient Light Sensor, Proximity Sensor, E-compass, Gyroscope, Motor, Conventional"
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "vivo",
+      "url": "https://www.vivo.com/my/products/param/v80-lite-5g",
+      "checked": "2026-09-18",
+      "note": "Read from vivo Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2026/09/04/vivo-v80-lite-5g-malaysia-mid-ranger-with-massive-10000mah-battery-promo-priced-from-rm1399/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1788336609213/f501075a66795747c4cb416dfd045488.png",
+    "page": "https://www.vivo.com/my/products/param/v80-lite-5g",
+    "credit": "vivo Malaysia",
+    "checked": "2026-09-19"
+  }
+}

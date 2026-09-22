@@ -1,0 +1,163 @@
+{
+  "id": "apple-iphone-air",
+  "name": "iPhone Air",
+  "brand": "apple",
+  "category": "smartphone",
+  "series": "iPhone",
+  "form": "bar",
+  "status": "released",
+  "announced": "2025-09-10",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 4999,
+      "config": "256 GB",
+      "date": "2025-09-10",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/09/10/iphone-air-malaysia-19-sept-price/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 5999,
+      "config": "512 GB",
+      "date": "2025-09-10",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/09/10/iphone-air-malaysia-19-sept-price/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 6999,
+      "config": "1 TB",
+      "date": "2025-09-10",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/09/10/iphone-air-malaysia-19-sept-price/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/iphone-air-hero.png",
+    "page": "https://support.apple.com/en-my/125092",
+    "credit": "Apple",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.5,
+      "type": "OLED",
+      "resolution": "2736 × 1260",
+      "refresh_hz": 120,
+      "peak_nits": 3000,
+      "ppi": 463
+    },
+    "platform": {
+      "chipset": "apple-a19-pro",
+      "cpu": "6-core CPU with 2 performance and 4 efficiency cores",
+      "gpu": "5-core GPU with Neural Accelerators"
+    },
+    "memory": {
+      "storage_gb": [
+        256,
+        512
+      ]
+    },
+    "charging": {
+      "wired_w": 60,
+      "wireless_w": 20,
+      "claim": "Fast-charge capable: Up to 50% charge in 30 minutes with 20W adapter or higher (available separately) paired with USB-C charging cable, or 30W adapter or higher paired with MagSafe"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 48,
+          "aperture": "f/1.6"
+        },
+        {
+          "role": "telephoto",
+          "mp": 12
+        }
+      ],
+      "front": "18 MP",
+      "rear_detail": [
+        "48MP Fusion Main: 26mm, ƒ/1.6 aperture, sensor-shift optical image stabilisation, 100% Focus Pixels, support for super-high-resolution photos (24MP and 48MP)",
+        "Also enables 12MP optical-quality 2x Telephoto: 52mm, ƒ/1.6 aperture, sensor-shift optical image stabilisation, 100% Focus Pixels"
+      ],
+      "features": "Digital zoom up to 10x",
+      "video": "4K@60fps; 1080p",
+      "front_detail": [
+        "18MP Center Stage camera, ƒ/1.9 aperture"
+      ],
+      "front_video": "4K@60fps; 1080p"
+    },
+    "battery": {
+      "video_h": 27,
+      "chemistry": "Built-in rechargeable lithium-ion battery"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true,
+      "wifi": "Wi-Fi 7 (802.11be) with 2x2 MIMO",
+      "bluetooth": "Bluetooth",
+      "bands_2g": "GSM/EDGE (850, 900, 1800, 1900 MHz)",
+      "bands_3g": "UMTS/HSPA+ (850, 900, 1700/2100, 1900, 2100 MHz)",
+      "bands_4g": "FDD-LTE (Bands 1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 25, 26, 28, 30, 32, 66); TDD-LTE (Bands 34, 38, 39, 40, 41, 42, 48, 53)",
+      "bands_5g": "FDD-5G NR (Bands n1, n2, n3, n5, n7, n8, n12, n20, n25, n26, n28, n30, n66, n70, n75); TDD-5G NR (Bands n38, n40, n41, n48, n53, n77, n78, n79)",
+      "technology": "GSM / HSPA / LTE / 5G",
+      "positioning": "Precision dual-frequency GPS (GPS, GLONASS, Galileo, QZSS, BeiDou and NavIC); Digital compass; Wi-Fi; Mobile data",
+      "sim": "Dual eSIM (two active eSIMs; stores eight or more eSIMs); iPhone Air uses advanced eSIM technology for more convenience and security (not compatible with physical SIM cards).",
+      "usb": "USB-C connector; USB 2 (up to 480Mb/s)"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 156.2,
+        "width_mm": 74.7,
+        "depth_mm": 5.64
+      },
+      "weight_g": 165.0,
+      "ip": "IP68"
+    },
+    "software": {
+      "launch_os": "iOS"
+    },
+    "sensors": "Face ID, Barometer, High dynamic range gyro, High-g accelerometer, Proximity sensor, Dual ambient light sensors",
+    "audio": {
+      "speakers": "Built-in speaker"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "apple",
+      "url": "https://support.apple.com/en-my/125092",
+      "checked": "2026-09-18",
+      "note": "Read from Apple Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2025/09/10/iphone-air-malaysia-19-sept-price/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

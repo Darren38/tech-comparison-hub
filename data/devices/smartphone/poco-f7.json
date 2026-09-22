@@ -1,0 +1,159 @@
+{
+  "id": "poco-f7",
+  "name": "POCO F7",
+  "brand": "poco",
+  "category": "smartphone",
+  "series": "F",
+  "form": "bar",
+  "status": "released",
+  "announced": "2025-03-21",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1799,
+      "config": "12 GB / 256 GB",
+      "date": "2025-03-21",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/03/21/poco-f7-pro-f7-ultra-global-launch-27-march-snapdragon-8-elite/",
+      "class": "news",
+      "accessed": "2026-09-18",
+      "note": "Recommended retail price; lower during the early-bird sale."
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1999,
+      "config": "12 GB / 512 GB",
+      "date": "2025-06-24",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/06/24/poco-f7-snapdragon-8s-gen-4-launch-malaysia-price-specs/",
+      "class": "news",
+      "accessed": "2026-09-18",
+      "note": "Recommended retail price; lower during the early-bird sale."
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://i02.appmifile.com/120_item_my/16/06/2025/5b0bba6475533554c0ec97a6f529be0e.png",
+    "page": "https://www.mi.com/my/product/poco-f7/specs/",
+    "credit": "Xiaomi Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.83,
+      "resolution": "2772 × 1280",
+      "refresh_hz": 120,
+      "peak_nits": 3200,
+      "protection": "Corning Gorilla Glass 7i",
+      "ppi": 447
+    },
+    "platform": {
+      "chipset": "snapdragon-8s-gen-4",
+      "gpu": "Adreno 825; Al Engine: Qualcomm Hexagon NPU",
+      "cpu": "Octa-core processor, up to 3.21GHz"
+    },
+    "memory": {
+      "ram_gb": [
+        12
+      ],
+      "storage_gb": [
+        256,
+        512
+      ],
+      "ram_type": "LPDDR5X",
+      "storage_type": "UFS 4.1"
+    },
+    "battery": {
+      "capacity_mah": 6500
+    },
+    "charging": {
+      "wired_w": 90,
+      "claim": "90W HyperCharge"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "aperture": "f/1.5"
+        },
+        {
+          "role": "ultrawide",
+          "mp": 8
+        }
+      ],
+      "front": "20 MP",
+      "rear_detail": [
+        "50MP main camera, Sony IMX882, f/1.5, 1.6μm super pixel (4-in-1), 6p",
+        "8MP ultra-wide camera, OV08F"
+      ],
+      "video": "4K@60fps; 1080p",
+      "front_detail": [
+        "20MP front camera, OV20B(1/4\" sensor size), f/2.2, 4p lens, Portrait mode, HDR, Palm Shutter, Voice Shutter, Dynamic shot, Selfie timer"
+      ],
+      "front_video": "1080p@60fps"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true,
+      "bands_2g": "2G GSM",
+      "bands_3g": "B1/2/4/5/6/8/19",
+      "bands_4g": "4G LTE FDD: B1/2/3/4/5/7/8/18/19/20/26/28/66; 4G LTE TDD: B38/40/41/42/48",
+      "bands_5g": "5G NSA: n1/3/5/7/8/20/28/38/40/41/66/77/78",
+      "technology": "GSM / HSPA / LTE / 5G",
+      "positioning": "L1+L5; Beidou:B1I+B1C+B2a; Galileo:E1+E5a; GLONASS:G1; QZSS:L1+L5; NavIC:L5",
+      "sim": "Dual SIM (nano SIM + nano SIM)",
+      "wifi": "Wi-Fi Protocol; Wi-Fi 7/ Wi-Fi 6/ Wi-Fi 5/ Wi-Fi 4 and 802.11a/b/g",
+      "bluetooth": "Bluetooth 6.0",
+      "usb": "USB Type-C"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 163.1,
+        "width_mm": 77.9,
+        "depth_mm": 8.2
+      }
+    },
+    "software": {
+      "launch_os": "Powered by Xiaomi HyperOS 2"
+    },
+    "sensors": "Proximity sensor, Ambient light sensor, Accelerometer, Electronic compass, IR blaster, Gyroscope, Flicker sensor, Vibration motor, X-axis linear vibration motor",
+    "audio": {
+      "speakers": "Dual speakers"
+    },
+    "biometrics": {
+      "fingerprint": "In-screen fingerprint sensor"
+    },
+    "misc": {
+      "colors": "White, Black, Silver"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "poco",
+      "url": "https://www.mi.com/my/product/poco-f7/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from Xiaomi Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2025/03/21/poco-f7-pro-f7-ultra-global-launch-27-march-snapdragon-8-elite/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

@@ -1,0 +1,105 @@
+{
+  "id": "oppo-watch-x3",
+  "name": "OPPO Watch X3",
+  "brand": "oppo",
+  "category": "smartwatch",
+  "series": "Watch",
+  "form": "watch",
+  "status": "released",
+  "announced": "2026-04-22",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1499,
+      "config": "Obsidian Black",
+      "date": "2026-04-22",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2026/390561/oppo-launches-enco-clip2-open-earbuds-watch-x3-in-malaysia/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1599,
+      "config": "Misty Titanium",
+      "date": "2026-04-22",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2026/390561/oppo-launches-enco-clip2-open-earbuds-watch-x3-in-malaysia/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-watch-x3-en/listpage/600-600-grey.png",
+    "page": "https://www.oppo.com/my/accessories/watch-x3/",
+    "credit": "OPPO Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 1.5,
+      "type": "LTPO AMOLED",
+      "resolution": "466 × 466",
+      "peak_nits": 3000,
+      "protection": "2D Sapphire crystal"
+    },
+    "battery": {
+      "life_h": 120,
+      "capacity_mah": 646
+    },
+    "connectivity": {
+      "gps": "Built-in GNSS",
+      "nfc": true,
+      "cellular": "LTE option",
+      "wifi": "WLAN 2.4G/5G",
+      "bluetooth": "Bluetooth 5.2; Call Performance; Bluetooth answering; Bluetooth dialing; Bluetooth calling; Device Requirements",
+      "positioning": "Dual band L1+L5: Beidou, GPS, Galileo, GLONASS, QZSS; Durability; MIL-STD-810H, 5ATM, IP69, IP68; Support operating system; ColorOS Watch 8.0, WearOS 6.0",
+      "usb": "USB-C"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 47.4,
+        "width_mm": 47.4,
+        "depth_mm": 11.0
+      },
+      "weight_g": 43.0,
+      "water": "5 ATM",
+      "water_m": 50,
+      "ip": "IP69"
+    },
+    "software": {
+      "launch_os": "ColorOS 15"
+    },
+    "charging": {
+      "claim": "Watch VOOC Flash Charge; 10mins charge for 1 day using; Max charging time: About 75 mins"
+    },
+    "sensors": "Acceleration sensor, Gyroscope sensor, Optical heart rate sensor, Optical blood oxygen sensor, Wrist temperature sensor, Geomagnetic sensor, Ambient light sensor, Barometer sensor",
+    "misc": {
+      "colors": "Titanium alloy (TC4)"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "oppo",
+      "url": "https://www.oppo.com/my/accessories/watch-x3/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from OPPO Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "lowyat",
+        "url": "https://www.lowyat.net/2026/390561/oppo-launches-enco-clip2-open-earbuds-watch-x3-in-malaysia/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (Lowyat.NET). The global announcement can be earlier."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

@@ -1,0 +1,378 @@
+{
+ "huawei-mate-x6": {
+  "url": "https://consumer.huawei.com/my/phones/mate-x6/specs/",
+  "final": "https://consumer.huawei.com/my/phones/mate-x6/specs/",
+  "status": 200,
+  "title": "HUAWEI Mate X6 Specifications - HUAWEI Malaysia",
+  "ok": true,
+  "bytes": 212397
+ },
+ "huawei-mate-xt-ultimate-design": {
+  "url": "https://consumer.huawei.com/my/phones/mate-xt-ultimate-design/specs/",
+  "final": "https://consumer.huawei.com/my/phones/mate-xt-ultimate-design/specs/",
+  "status": 200,
+  "title": "HUAWEI Mate XT ULTIMATE DESIGN Specifications - HUAWEI Malaysia",
+  "ok": true,
+  "bytes": 211311
+ },
+ "huawei-pura-80": {
+  "url": "https://consumer.huawei.com/my/phones/pura80/specs/",
+  "final": "https://consumer.huawei.com/my/phones/pura80/specs/",
+  "status": 200,
+  "title": "HUAWEI Pura 80 Specifications - HUAWEI Malaysia",
+  "ok": true,
+  "bytes": 211637
+ },
+ "huawei-pura-80-pro": {
+  "url": "https://consumer.huawei.com/my/phones/pura80-pro/specs/",
+  "final": "https://consumer.huawei.com/my/phones/pura80-pro/specs/",
+  "status": 200,
+  "title": "HUAWEI Pura 80 Pro Specifications - HUAWEI Malaysia",
+  "ok": true,
+  "bytes": 211803
+ },
+ "huawei-nova-14": {
+  "url": "https://consumer.huawei.com/my/phones/nova14/specs/",
+  "final": "https://consumer.huawei.com/my/phones/nova14/specs/",
+  "status": 200,
+  "title": "HUAWEI nova 14 Specifications - HUAWEI Malaysia",
+  "ok": true,
+  "bytes": 210209
+ },
+ "huawei-nova-14-pro": {
+  "url": "https://consumer.huawei.com/my/phones/nova14-pro/specs/",
+  "final": "https://consumer.huawei.com/my/phones/nova14-pro/specs/",
+  "status": 200,
+  "title": "HUAWEI nova 14 Pro Specifications - HUAWEI Malaysia",
+  "ok": true,
+  "bytes": 210842
+ },
+ "huawei-mate-x7": {
+  "url": "https://consumer.huawei.com/my/phones/mate-x7/specs/",
+  "final": "https://consumer.huawei.com/my/phones/mate-x7/specs/",
+  "status": 200,
+  "title": "HUAWEI Mate X7 Specifications - HUAWEI Malaysia",
+  "ok": true,
+  "bytes": 213840
+ },
+ "huawei-mate-80-pro": {
+  "url": "https://consumer.huawei.com/my/phones/mate80-pro/specs/",
+  "final": "https://consumer.huawei.com/my/phones/mate80-pro/specs/",
+  "status": 200,
+  "title": "HUAWEI Mate 80 Pro Specifications - HUAWEI Malaysia",
+  "ok": true,
+  "bytes": 211448
+ },
+ "huawei-nova-15-max": {
+  "url": "https://consumer.huawei.com/my/phones/nova15-max/specs/",
+  "final": "https://consumer.huawei.com/my/phones/nova15-max/specs/",
+  "status": 200,
+  "title": "HUAWEI nova 15 Max Specifications - HUAWEI Malaysia",
+  "ok": true,
+  "bytes": 205588
+ },
+ "huawei-pura-90s-pro": {
+  "url": "https://consumer.huawei.com/my/phones/pura90s-pro/specs/",
+  "final": "https://consumer.huawei.com/my/phones/pura90s-pro/specs/",
+  "status": 200,
+  "title": "HUAWEI Pura 90s Pro Specifications - HUAWEI Malaysia",
+  "ok": true,
+  "bytes": 211864
+ },
+ "huawei-pura-90s-pro-max": {
+  "url": "https://consumer.huawei.com/my/phones/pura90s-pro-max/specs/",
+  "final": "https://consumer.huawei.com/my/phones/pura90s-pro-max/specs/",
+  "status": 200,
+  "title": "HUAWEI Pura 90s Pro Max Specifications - HUAWEI Malaysia",
+  "ok": true,
+  "bytes": 212471
+ },
+ "huawei-watch-4-series": {
+  "url": "https://consumer.huawei.com/my/wearables/watch-4-series/specs/",
+  "final": "https://consumer.huawei.com/my/wearables/watch-4-series/specs/",
+  "status": 200,
+  "title": "HUAWEI WATCH 4 Series Specifications - HUAWEI Malaysia",
+  "ok": true,
+  "bytes": 212959
+ },
+ "huawei-band-8": {
+  "url": "https://consumer.huawei.com/my/wearables/band8/specs/",
+  "final": "https://consumer.huawei.com/my/wearables/band8/specs/",
+  "status": 200,
+  "title": "HUAWEI Band 8 Specifications - HUAWEI Malaysia",
+  "ok": true,
+  "bytes": 195484
+ },
+ "huawei-watch-d2": {
+  "url": "https://consumer.huawei.com/my/wearables/watch-d2/specs/",
+  "final": "https://consumer.huawei.com/my/wearables/watch-d2/specs/",
+  "status": 200,
+  "title": "HUAWEI WATCH D2 Specifications - HUAWEI Malaysia",
+  "ok": true,
+  "bytes": 203807
+ },
+ "huawei-band-10": {
+  "url": "https://consumer.huawei.com/my/wearables/band10/specs/",
+  "final": "https://consumer.huawei.com/my/wearables/band10/specs/",
+  "status": 200,
+  "title": "HUAWEI Band 10 Specifications - HUAWEI Malaysia",
+  "ok": true,
+  "bytes": 200195
+ },
+ "huawei-watch-fit-4": {
+  "url": "https://consumer.huawei.com/my/wearables/watch-fit4/specs/",
+  "final": "https://consumer.huawei.com/my/wearables/watch-fit4/specs/",
+  "status": 200,
+  "title": "HUAWEI WATCH FIT 4 Specifications - HUAWEI Global",
+  "ok": true,
+  "bytes": 205396
+ },
+ "huawei-watch-fit-4-pro": {
+  "url": "https://consumer.huawei.com/my/wearables/watch-fit4-pro/specs/",
+  "final": "https://consumer.huawei.com/my/wearables/watch-fit4-pro/specs/",
+  "status": 200,
+  "title": "HUAWEI WATCH FIT 4 Pro Specifications - HUAWEI Malaysia",
+  "ok": true,
+  "bytes": 206058
+ },
+ "huawei-watch-5": {
+  "url": "https://consumer.huawei.com/my/wearables/watch-5/specs/",
+  "final": "https://consumer.huawei.com/my/wearables/watch-5/specs/",
+  "status": 200,
+  "title": "HUAWEI WATCH 5 Specifications - HUAWEI Malaysia",
+  "ok": true,
+  "bytes": 228917
+ },
+ "huawei-watch-gt-6": {
+  "url": "https://consumer.huawei.com/my/wearables/watch-gt6/specs/",
+  "final": "https://consumer.huawei.com/my/wearables/watch-gt6/specs/",
+  "status": 200,
+  "title": "HUAWEI WATCH GT 6 Specifications - HUAWEI Malaysia",
+  "ok": true,
+  "bytes": 225471
+ },
+ "huawei-watch-gt-6-pro": {
+  "url": "https://consumer.huawei.com/my/wearables/watch-gt6-pro/specs/",
+  "final": "https://consumer.huawei.com/my/wearables/watch-gt6-pro/specs/",
+  "status": 200,
+  "title": "HUAWEI WATCH GT 6 Pro Specifications - HUAWEI Malaysia",
+  "ok": true,
+  "bytes": 206306
+ },
+ "huawei-watch-ultimate-2": {
+  "url": "https://consumer.huawei.com/my/wearables/watch-ultimate-2/specs/",
+  "final": "https://consumer.huawei.com/my/wearables/watch-ultimate-2/specs/",
+  "status": 200,
+  "title": "HUAWEI WATCH Ultimate 2 Specifications - HUAWEI Malaysia",
+  "ok": true,
+  "bytes": 211981
+ },
+ "huawei-watch-fit-5": {
+  "url": "https://consumer.huawei.com/my/wearables/watch-fit5/specs/",
+  "final": "https://consumer.huawei.com/my/wearables/watch-fit5/specs/",
+  "status": 200,
+  "title": "HUAWEI WATCH FIT 5 Specifications - HUAWEI Malaysia",
+  "ok": true,
+  "bytes": 207798
+ },
+ "huawei-watch-fit-5-pro": {
+  "url": "https://consumer.huawei.com/my/wearables/watch-fit5-pro/specs/",
+  "final": "https://consumer.huawei.com/my/wearables/watch-fit5-pro/specs/",
+  "status": 200,
+  "title": "HUAWEI WATCH FIT 5 Pro Specifications - HUAWEI Malaysia",
+  "ok": true,
+  "bytes": 207573
+ },
+ "huawei-band-11": {
+  "url": "https://consumer.huawei.com/my/wearables/band11/specs/",
+  "final": "https://consumer.huawei.com/my/wearables/band11/specs/",
+  "status": 200,
+  "title": "HUAWEI Band 11 Specifications - HUAWEI Malaysia",
+  "ok": true,
+  "bytes": 202319
+ },
+ "huawei-band-11-pro": {
+  "url": "https://consumer.huawei.com/my/wearables/band11-pro/specs/",
+  "final": "https://consumer.huawei.com/my/wearables/band11-pro/specs/",
+  "status": 200,
+  "title": "HUAWEI Band 11 Pro Specifications - HUAWEI Malaysia",
+  "ok": true,
+  "bytes": 201037
+ },
+ "huawei-watch-gt-runner-2": {
+  "url": "https://consumer.huawei.com/my/wearables/watch-gt-runner-2/specs/",
+  "final": "https://consumer.huawei.com/my/wearables/watch-gt-runner-2/specs/",
+  "status": 200,
+  "title": "HUAWEI WATCH GT Runner 2 Specifications - HUAWEI Malaysia",
+  "ok": true,
+  "bytes": 207034
+ },
+ "huawei-p60-pro": {
+  "url": "https://consumer.huawei.com/en/phones/p60-pro/specs/",
+  "final": "https://consumer.huawei.com/en/phones/",
+  "status": 200,
+  "title": "HUAWEI Phones - HUAWEI Global",
+  "ok": false,
+  "bytes": 236410
+ },
+ "huawei-mate-x3": {
+  "url": "https://consumer.huawei.com/en/phones/mate-x3/specs/",
+  "final": "https://consumer.huawei.com/en/phones/mate-x3/specs/",
+  "status": 404,
+  "title": "",
+  "ok": false,
+  "bytes": 0
+ },
+ "huawei-nova-11": {
+  "url": "https://consumer.huawei.com/en/phones/nova11/specs/",
+  "final": "https://consumer.huawei.com/en/phones/nova11/specs/",
+  "status": 404,
+  "title": "",
+  "ok": false,
+  "bytes": 0
+ },
+ "huawei-nova-11-pro": {
+  "url": "https://consumer.huawei.com/en/phones/nova11-pro/specs/",
+  "final": "https://consumer.huawei.com/en/phones/nova11-pro/specs/",
+  "status": 404,
+  "title": "",
+  "ok": false,
+  "bytes": 0
+ },
+ "huawei-nova-11i": {
+  "url": "https://consumer.huawei.com/en/phones/nova-11i/specs/",
+  "final": "https://consumer.huawei.com/en/phones/nova-11i/specs/",
+  "status": 404,
+  "title": "",
+  "ok": false,
+  "bytes": 0
+ },
+ "huawei-nova-y72": {
+  "url": "https://consumer.huawei.com/en/phones/nova-y72/specs/",
+  "final": "https://consumer.huawei.com/en/phones/",
+  "status": 200,
+  "title": "HUAWEI Phones - HUAWEI Global",
+  "ok": false,
+  "bytes": 236410
+ },
+ "huawei-nova-12i": {
+  "url": "https://consumer.huawei.com/en/phones/nova-12i/specs/",
+  "final": "https://consumer.huawei.com/en/phones/",
+  "status": 200,
+  "title": "HUAWEI Phones - HUAWEI Global",
+  "ok": false,
+  "bytes": 236410
+ },
+ "huawei-nova-12s": {
+  "url": "https://consumer.huawei.com/en/phones/nova-12s/specs/",
+  "final": "https://consumer.huawei.com/en/phones/",
+  "status": 200,
+  "title": "HUAWEI Phones - HUAWEI Global",
+  "ok": false,
+  "bytes": 236410
+ },
+ "huawei-nova-12-se": {
+  "url": "https://consumer.huawei.com/en/phones/nova12-se/specs/",
+  "final": "https://consumer.huawei.com/en/phones/",
+  "status": 200,
+  "title": "HUAWEI Phones - HUAWEI Global",
+  "ok": false,
+  "bytes": 236410
+ },
+ "huawei-pura-70": {
+  "url": "https://consumer.huawei.com/en/phones/pura70/specs/",
+  "final": "https://consumer.huawei.com/en/phones/",
+  "status": 200,
+  "title": "HUAWEI Phones - HUAWEI Global",
+  "ok": false,
+  "bytes": 236410
+ },
+ "huawei-pura-70-pro": {
+  "url": "https://consumer.huawei.com/en/phones/pura70-pro/specs/",
+  "final": "https://consumer.huawei.com/en/phones/",
+  "status": 200,
+  "title": "HUAWEI Phones - HUAWEI Global",
+  "ok": false,
+  "bytes": 236410
+ },
+ "huawei-pura-70-ultra": {
+  "url": "https://consumer.huawei.com/en/phones/pura70-ultra/specs/",
+  "final": "https://consumer.huawei.com/en/phones/",
+  "status": 200,
+  "title": "HUAWEI Phones - HUAWEI Global",
+  "ok": false,
+  "bytes": 236410
+ },
+ "huawei-nova-13": {
+  "url": "https://consumer.huawei.com/en/phones/nova13/specs/",
+  "final": "https://consumer.huawei.com/en/phones/nova13/specs/",
+  "status": 200,
+  "title": "HUAWEI nova 13 Specifications – HUAWEI Global",
+  "ok": true,
+  "bytes": 142334
+ },
+ "huawei-nova-13-pro": {
+  "url": "https://consumer.huawei.com/en/phones/nova13-pro/specs/",
+  "final": "https://consumer.huawei.com/en/phones/nova13-pro/specs/",
+  "status": 200,
+  "title": "HUAWEI nova 13 Pro Specifications – HUAWEI Global",
+  "ok": true,
+  "bytes": 143141
+ },
+ "huawei-nova-14i": {
+  "url": "https://consumer.huawei.com/en/phones/nova-14i/specs/",
+  "final": "https://consumer.huawei.com/en/phones/",
+  "status": 200,
+  "title": "HUAWEI Phones - HUAWEI Global",
+  "ok": false,
+  "bytes": 236410
+ },
+ "huawei-watch-gt-cyber": {
+  "url": "https://consumer.huawei.com/en/wearables/watch-gt-cyber/specs/",
+  "final": "https://consumer.huawei.com/en/wearables/watch-gt-cyber/specs/",
+  "status": 404,
+  "title": "",
+  "ok": false,
+  "bytes": 0
+ },
+ "huawei-watch-gt-4": {
+  "url": "https://consumer.huawei.com/en/wearables/watch-gt4/specs/",
+  "final": "https://consumer.huawei.com/en/wearables/",
+  "status": 200,
+  "title": "HUAWEI Wearables - HUAWEI Global",
+  "ok": false,
+  "bytes": 252222
+ },
+ "huawei-watch-fit-3": {
+  "url": "https://consumer.huawei.com/en/wearables/watch-fit3/specs/",
+  "final": "https://consumer.huawei.com/en/wearables/",
+  "status": 200,
+  "title": "HUAWEI Wearables - HUAWEI Global",
+  "ok": false,
+  "bytes": 252222
+ },
+ "huawei-watch-gt-5": {
+  "url": "https://consumer.huawei.com/en/wearables/watch-gt5/specs/",
+  "final": "https://consumer.huawei.com/en/wearables/",
+  "status": 200,
+  "title": "HUAWEI Wearables - HUAWEI Global",
+  "ok": false,
+  "bytes": 252222
+ },
+ "huawei-watch-gt-5-pro": {
+  "url": "https://consumer.huawei.com/en/wearables/watch-gt5-pro/specs/",
+  "final": "https://consumer.huawei.com/en/wearables/",
+  "status": 200,
+  "title": "HUAWEI Wearables - HUAWEI Global",
+  "ok": false,
+  "bytes": 252222
+ },
+ "huawei-band-9": {
+  "url": "https://consumer.huawei.com/en/wearables/band9/specs/",
+  "final": "https://consumer.huawei.com/en/wearables/",
+  "status": 200,
+  "title": "HUAWEI Wearables - HUAWEI Global",
+  "ok": false,
+  "bytes": 252222
+ }
+}

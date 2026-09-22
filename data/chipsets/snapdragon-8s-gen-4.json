@@ -1,0 +1,63 @@
+{
+  "id": "snapdragon-8s-gen-4",
+  "name": "Snapdragon 8s Gen 4",
+  "vendor": "qualcomm",
+  "family": "Snapdragon 8",
+  "tier": "upper-mid",
+  "announced": "2025-04-02",
+  "aliases": [
+    "SD 8s Gen 4",
+    "8s Gen 4",
+    "SM8735"
+  ],
+  "summary": "Cut-down 'flagship-lite' chip with Arm Cortex cores, used in upper mid-range phones such as the Nothing Phone (3).",
+  "process": {
+    "node": "4 nm",
+    "foundry": "TSMC",
+    "name": "N4P"
+  },
+  "cpu": {
+    "cores": 8,
+    "clusters": [
+      {
+        "count": 1,
+        "core": "Cortex-X4",
+        "ghz": 3.21
+      },
+      {
+        "count": 3,
+        "core": "Cortex-A720",
+        "ghz": 3.0
+      },
+      {
+        "count": 2,
+        "core": "Cortex-A720",
+        "ghz": 2.8
+      },
+      {
+        "count": 2,
+        "core": "Cortex-A720",
+        "ghz": 2.0
+      }
+    ]
+  },
+  "gpu": {
+    "name": "Adreno 825"
+  },
+  "npu": "Hexagon NPU",
+  "variants": [],
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "qualcomm",
+      "url": "https://www.qualcomm.com/smartphones/products/8-series"
+    },
+    "fields": {
+      "process.name": {
+        "class": "database",
+        "source": "notebookcheck",
+        "note": "Node reported by the press."
+      }
+    }
+  }
+}

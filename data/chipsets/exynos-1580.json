@@ -1,0 +1,49 @@
+{
+  "id": "exynos-1580",
+  "name": "Exynos 1580",
+  "vendor": "samsung",
+  "family": "Exynos",
+  "tier": "mid",
+  "announced": "2025-02-26",
+  "aliases": [
+    "E1580"
+  ],
+  "summary": "Mid-range chip in the Galaxy A56.",
+  "process": {
+    "node": "4 nm",
+    "foundry": "Samsung"
+  },
+  "cpu": {
+    "cores": 8,
+    "clusters": [
+      {
+        "count": 1,
+        "core": "Cortex-A720",
+        "ghz": 2.9
+      },
+      {
+        "count": 3,
+        "core": "Cortex-A720",
+        "ghz": 2.6
+      },
+      {
+        "count": 4,
+        "core": "Cortex-A520",
+        "ghz": 1.95
+      }
+    ]
+  },
+  "gpu": {
+    "name": "Xclipse 540"
+  },
+  "variants": [],
+  "provenance": {
+    "default": {
+      "class": "database",
+      "source": "samsung",
+      "url": "https://semiconductor.samsung.com",
+      "note": "Compiled; not re-checked this session."
+    },
+    "fields": {}
+  }
+}

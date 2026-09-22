@@ -1,0 +1,45 @@
+{
+  "id": "exynos-w1000",
+  "name": "Exynos W1000",
+  "vendor": "samsung",
+  "family": "Exynos W",
+  "tier": "wearable",
+  "announced": "2024-07-03",
+  "aliases": [
+    "W1000"
+  ],
+  "summary": "3 nm wearable chip in the Galaxy Watch7 and Watch8 families.",
+  "process": {
+    "node": "3 nm",
+    "foundry": "Samsung",
+    "name": "GAA"
+  },
+  "cpu": {
+    "cores": 5,
+    "clusters": [
+      {
+        "count": 1,
+        "core": "Cortex-A78",
+        "ghz": 1.6
+      },
+      {
+        "count": 4,
+        "core": "Cortex-A55",
+        "ghz": 1.5
+      }
+    ]
+  },
+  "gpu": {
+    "name": "Mali-G68 MP2"
+  },
+  "variants": [],
+  "provenance": {
+    "default": {
+      "class": "database",
+      "source": "samsung",
+      "url": "https://semiconductor.samsung.com",
+      "note": "Compiled; not re-checked this session."
+    },
+    "fields": {}
+  }
+}

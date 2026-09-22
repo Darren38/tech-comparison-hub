@@ -1,0 +1,126 @@
+{
+  "id": "poco-x6-5g",
+  "name": "POCO X6 5G",
+  "brand": "poco",
+  "category": "smartphone",
+  "series": "X",
+  "form": "bar",
+  "status": "released",
+  "announced": "2024-01-11",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1199,
+      "config": "8 GB / 256 GB",
+      "date": "2024-01-11",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2024/01/11/poco-x6-pro-x6-malaysia-xiaomi-hyperos-official-price-specs/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1299,
+      "config": "12 GB / 256 GB",
+      "date": "2024-01-11",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2024/01/11/poco-x6-pro-x6-malaysia-xiaomi-hyperos-official-price-specs/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1499,
+      "config": "12 GB / 512 GB",
+      "date": "2024-01-11",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2024/01/11/poco-x6-pro-x6-malaysia-xiaomi-hyperos-official-price-specs/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 6.67,
+      "type": "AMOLED",
+      "refresh_hz": 120
+    },
+    "platform": {
+      "chipset": "snapdragon-7s-gen-2"
+    },
+    "memory": {
+      "ram_gb": [
+        8,
+        12
+      ],
+      "storage_gb": [
+        256,
+        512
+      ]
+    },
+    "battery": {
+      "capacity_mah": 5100
+    },
+    "charging": {
+      "wired_w": 67
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 64
+        },
+        {
+          "role": "ultrawide",
+          "mp": 8
+        },
+        {
+          "role": "macro",
+          "mp": 2
+        }
+      ],
+      "front": "16 MP"
+    },
+    "build": {
+      "ip": "IP54"
+    },
+    "connectivity": {
+      "cellular": "5G"
+    },
+    "software": {
+      "launch_os": "Xiaomi HyperOS (Android 14 base)"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "news",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2024/01/11/poco-x6-pro-x6-malaysia-xiaomi-hyperos-official-price-specs/",
+      "note": "The maker no longer publishes a specification page for this model. Key specs were taken from this Malaysian launch report, which gives the maker's figures.",
+      "checked": "2026-09-18"
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2024/01/11/poco-x6-pro-x6-malaysia-xiaomi-hyperos-official-price-specs/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      }
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://i02.appmifile.com/848_item_my/02/04/2024/6960ae2c166a4f8676fd24686d5d9772.png",
+    "page": "https://www.mi.com/my/product/poco-x6/",
+    "credit": "Xiaomi Malaysia",
+    "checked": "2026-09-19"
+  }
+}

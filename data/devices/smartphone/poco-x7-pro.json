@@ -1,0 +1,163 @@
+{
+  "id": "poco-x7-pro",
+  "name": "POCO X7 Pro",
+  "brand": "poco",
+  "category": "smartphone",
+  "series": "X",
+  "form": "bar",
+  "status": "released",
+  "announced": "2025-01-09",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1499,
+      "config": "8 GB / 256 GB",
+      "date": "2025-01-09",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/01/09/poco-x7-x7-pro-malaysia-price-specs-features/",
+      "class": "news",
+      "accessed": "2026-09-18",
+      "note": "Recommended retail price; RM200 lower during the early-bird sale."
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1599,
+      "config": "12 GB / 256 GB",
+      "date": "2025-01-09",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/01/09/poco-x7-x7-pro-malaysia-price-specs-features/",
+      "class": "news",
+      "accessed": "2026-09-18",
+      "note": "Recommended retail price; RM200 lower during the early-bird sale."
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 6.67,
+      "type": "AMOLED",
+      "resolution": "2712 × 1220",
+      "refresh_hz": 120,
+      "peak_nits": 3200,
+      "protection": "Corning Gorilla Glass 7i",
+      "ppi": 446
+    },
+    "platform": {
+      "chipset": "dimensity-8400-ultra",
+      "gpu": "Mali-G720",
+      "cpu": "Octa-core CPU, up to 3.25GHz"
+    },
+    "memory": {
+      "ram_gb": [
+        8,
+        12
+      ],
+      "storage_gb": [
+        256,
+        512
+      ],
+      "ram_type": "LPDDR5X",
+      "storage_type": "UFS 4.0"
+    },
+    "battery": {
+      "capacity_mah": 6000
+    },
+    "charging": {
+      "wired_w": 90,
+      "claim": "90W HyperCharge; 90W in-box charger"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "sensor": "1/1.95\"",
+          "aperture": "f/1.5",
+          "ois": true
+        },
+        {
+          "role": "ultrawide",
+          "mp": 8
+        }
+      ],
+      "front": "20 MP",
+      "rear_detail": [
+        "50MP main camera with OIS, OIS, f/1.5, 4-in-1 binning into one large 1.6μm pixel, 1/1.95'' sensor size, 6P lens",
+        "8MP ultra-wide camera, f/2.2"
+      ],
+      "video": "4K@60fps; 1080p",
+      "front_detail": [
+        "20MP front camera, OV20B(1/4\" sensor size), f/2.2, 4p lens, Soft-light ring; AI beautify; Night mode; Portrait mode"
+      ],
+      "front_video": "1080p@30fps"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true,
+      "bands_3g": "B1/2/4/5/6/8/19",
+      "bands_4g": "LTE FDD: B1/2/3/4/5/7/8/18/19/20/26/28/66; LTE TDD: B38/40/41/42/48",
+      "bands_5g": "5G SA: n1/2/3/5/7/8/20/26/28/38/40/41/48/66(NarrowBand)/77/78; 5G NSA: n1/3/5/7/8/28/38/40/41/77/78",
+      "technology": "HSPA / LTE / 5G",
+      "wifi": "802.11a/b/g/n/ac/ax",
+      "positioning": "L1+L5; Galileo: E1+E5a; GLONASS: G1; Beidou: B1I+B2a+B1C; NavIC: L5A-GPS supplementary positioning; Electronic compass; Wireless network; Data network; MPE",
+      "sim": "Dual SIM，dual standby（5G+5G，5G+4G）",
+      "bluetooth": "Bluetooth 6.0",
+      "usb": "USB-C"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 160.75,
+        "width_mm": 75.24,
+        "depth_mm": 8.29
+      },
+      "weight_g": 195.0
+    },
+    "software": {
+      "launch_os": "Xiaomi HyperOS 2"
+    },
+    "sensors": "Proximity sensor, 360° Ambient light sensor, Accelerometer, Flicker Senor, Electronic compass, IR blaster, Gyroscope, X-axis linear vibration motor",
+    "audio": {
+      "speakers": "Dual speakers"
+    },
+    "biometrics": {
+      "fingerprint": "In-screen fingerprint sensor"
+    },
+    "misc": {
+      "colors": "Black, Green, Yellow"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "poco",
+      "url": "https://www.mi.com/my/product/poco-x7-pro/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from Xiaomi Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2025/01/09/poco-x7-x7-pro-malaysia-price-specs-features/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://i02.appmifile.com/836_item_my/07/01/2025/65eed94ff7f14f10d7aacb0c1f4b5e89.png",
+    "page": "https://www.mi.com/my/product/poco-x7-pro/specs/",
+    "credit": "Xiaomi",
+    "checked": "2026-09-19"
+  }
+}

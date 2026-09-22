@@ -1,0 +1,78 @@
+{
+  "id": "oppo-watch-s",
+  "name": "OPPO Watch S",
+  "brand": "oppo",
+  "category": "smartwatch",
+  "series": "Watch",
+  "form": "watch",
+  "status": "released",
+  "announced": "2025-12-22",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 799,
+      "date": "2025-12-22",
+      "type": "launch",
+      "source": "nasilemaktech",
+      "url": "https://nasilemaktech.com/oppo-reno15-series-malaysia-preorder-deals/",
+      "class": "news",
+      "accessed": "2026-09-18",
+      "note": "Regular price quoted in OPPO's Reno15 pre-order offer."
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-watch-s-en/listpage/600-600-silver.png",
+    "page": "https://www.oppo.com/my/accessories/watch-s/",
+    "credit": "OPPO Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 1.46,
+      "type": "AMOLED",
+      "resolution": "464 × 464",
+      "peak_nits": 3000,
+      "protection": "Glass"
+    },
+    "battery": {
+      "life_h": 168,
+      "capacity_mah": 339
+    },
+    "connectivity": {
+      "gps": "Built-in GNSS",
+      "nfc": true,
+      "cellular": "LTE option",
+      "bluetooth": "Bluetooth 5.2; classical BT, BLE, Profile; HFP v1.6, HSP v1.2, A2DP v1.2, AVRCP v1.5 SPP v1.1 and later version; Call Performance; Bluetooth answering; Bluetooth dialing",
+      "positioning": "Dual band L1 + L5: Beidou, GPS, Galileo, GLONASS, QZSS; Durability; 5ATM, IP68; Support operating system; ColorOS Watch 7.1"
+    },
+    "build": {
+      "weight_g": 35.0,
+      "water": "5 ATM",
+      "water_m": 50,
+      "ip": "IP68",
+      "frame": "stainless steel; Rear shell: PA + 55% fiberglass; Bottom Case; PA + 55% fiberglass; Wrist Size; 140 - 210 mm"
+    },
+    "sensors": "Accelerometer, Gyroscope sensor, Geomagnetic sensor, Air pressure sensor, Optical heart rate sensor, Optical blood oxygen sensor, ECG sensor, Wrist temperature sensor, Ambient light sensor"
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "oppo",
+      "url": "https://www.oppo.com/my/accessories/watch-s/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from OPPO Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "nasilemaktech",
+        "url": "https://nasilemaktech.com/oppo-reno15-series-malaysia-preorder-deals/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (Nasi Lemak Tech). The global announcement can be earlier."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

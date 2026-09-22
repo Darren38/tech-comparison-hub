@@ -1,0 +1,167 @@
+{
+  "id": "oppo-reno13-f-5g",
+  "name": "OPPO Reno13 F 5G",
+  "brand": "oppo",
+  "category": "smartphone",
+  "series": "Reno",
+  "form": "bar",
+  "status": "released",
+  "announced": "2025-01-07",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1399,
+      "config": "8 GB / 256 GB",
+      "date": "2025-01-07",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/01/07/oppo-reno-13-series-malaysia-launch-price/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1499,
+      "config": "12 GB / 256 GB",
+      "date": "2025-01-07",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/01/07/oppo-reno-13-series-malaysia-launch-price/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/reno13-series/list-page/reno13-f-5g/purple-v1.png",
+    "page": "https://www.oppo.com/my/smartphones/series-reno/reno13-f-5g/",
+    "credit": "OPPO Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.67,
+      "type": "AMOLED",
+      "resolution": "2400 × 1080",
+      "refresh_hz": 120,
+      "peak_nits": 1200,
+      "protection": "AGC DT STAR2",
+      "ppi": 395
+    },
+    "platform": {
+      "chipset": "snapdragon-6-gen-1",
+      "gpu": "Adreno 710@676MHz",
+      "cpu": "8 cores"
+    },
+    "memory": {
+      "ram_gb": [
+        8,
+        12
+      ],
+      "storage_gb": [
+        256,
+        512
+      ],
+      "ram_type": "LPDDR4X@2133MHz 2 × 16 bits",
+      "storage_type": "UFS 3.1",
+      "card": "Yes"
+    },
+    "battery": {
+      "capacity_mah": 5800
+    },
+    "charging": {
+      "wired_w": 45,
+      "claim": "45W (MAX) , 11V/4.1A (MAX); Support SUPERVOOC 2.0, SUPERVOOC , VOOC 3.0, PD, QC, PPS fast charging protocols"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "aperture": "f/1.8",
+          "ois": true
+        },
+        {
+          "role": "ultrawide",
+          "mp": 8
+        },
+        {
+          "role": "macro",
+          "mp": 2
+        }
+      ],
+      "front": "32 MP",
+      "rear_detail": [
+        "Wide angle: 50MP; f/1.8; FOV 78°; 5P lens; AF; OIS supported",
+        "Ultra-wide angle: 8MP; f/2.2; FOV 112°; 5P lens; EIS supported",
+        "Macro: 2MP; f/2.4; FOV 89°"
+      ],
+      "front_detail": [
+        "32 MP, f/2.4, FOV 82°; 5P lens"
+      ],
+      "video": "4K@60fps; 1080p",
+      "front_video": "1080p@30fps"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true,
+      "bands_2g": "850/900/1800/1900",
+      "bands_3g": "1/2/4/5/6/8/19",
+      "bands_4g": "4G LTE FDD: 1/2/3/4/5/7/8/12/13/17/18/19/20/26/28/66; 4G LTE TDD: 38/39/40/41",
+      "technology": "GSM / HSPA / LTE",
+      "sim": "Nano-SIM card",
+      "wifi": "WiFi 2.4G, WiFi 5G, WiFi 5 (802.11ac) , 802.11b/g/a/n; WLAN 2.4G, WLAN 5.1G, WLAN 5G, WLAN 5.4G, WLAN 5.8G; WLAN Display, WLAN tethering",
+      "bluetooth": "Bluetooth 5.1, Low Energy",
+      "usb": "USB Type-C",
+      "positioning": "Single band: Beidou, GPS, GLONASS, Galileo, QZSS"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 162.2,
+        "width_mm": 75.05,
+        "depth_mm": 7.76
+      },
+      "weight_g": 192.0
+    },
+    "software": {
+      "launch_os": "ColorOS 15.0"
+    },
+    "biometrics": {
+      "face": "Yes",
+      "fingerprint": "In-display optical fingerprint sensor"
+    },
+    "sensors": "Proximity sensor, Accelerometer, Gyroscope, In-display optical fingerprint sensor",
+    "audio": {
+      "jack": false
+    },
+    "misc": {
+      "colors": "about 7.82mm (Luminous Blue)"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "oppo",
+      "url": "https://www.oppo.com/my/smartphones/series-reno/reno13-f-5g/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from OPPO Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2025/01/07/oppo-reno-13-series-malaysia-launch-price/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

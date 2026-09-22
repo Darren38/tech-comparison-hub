@@ -1,0 +1,136 @@
+{
+  "id": "huawei-nova-14-pro",
+  "name": "Huawei nova 14 Pro",
+  "brand": "huawei",
+  "category": "smartphone",
+  "series": "nova",
+  "form": "bar",
+  "status": "released",
+  "announced": "2025-11-03",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 2399,
+      "date": "2025-11-03",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2025/371944/huawei-nova-14-series-pre-orders-available-in-malaysia/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/phones/nova14-pro/specs-crystal-blue.png",
+    "page": "https://consumer.huawei.com/my/phones/nova14-pro/specs/",
+    "credit": "Huawei Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.78,
+      "type": "OLED",
+      "resolution": "2776 × 1224",
+      "ppi": 447
+    },
+    "platform": {
+      "chipset": "kirin-8020"
+    },
+    "memory": {
+      "storage_gb": [
+        512
+      ]
+    },
+    "battery": {
+      "capacity_mah": 5500
+    },
+    "charging": {
+      "wired_w": 100,
+      "claim": "100 W HUAWEI SuperCharge Turbo"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50
+        },
+        {
+          "role": "telephoto",
+          "mp": 12
+        },
+        {
+          "role": "ultrawide",
+          "mp": 8
+        }
+      ],
+      "front": "50 MP",
+      "rear_detail": [
+        "50 MP RYYB Adjustable Aperture Camera (F1.4-F4.0)",
+        "12 MP RYYB Optical Zoom Telephoto Portrait Camera (F2.4, 3x Optical Zoom, Optical and AI Image Stabilisation)",
+        "8 MP Ultra-Wide Macro Camera (F2.2)"
+      ],
+      "features": "Supports 3x optical zoom (3x zoom is an approximate value, with focal lengths of 16 mm, 24 mm, and 69 mm) and 30x digital zoom",
+      "video": "4K",
+      "front_detail": [
+        "50 MP Ultra Portrait Autofocus Camera (F2.0)",
+        "8 MP Close-Up Portrait Front Camera (F2.2)"
+      ],
+      "zoom_optical_x": 3
+    },
+    "connectivity": {
+      "cellular": "4G",
+      "nfc": true,
+      "bands_2g": "Bands 2/3/5/8",
+      "bands_3g": "Bands 1/2/4/5/8/19",
+      "bands_4g": "FDD-LTE: Bands 1/2/3/4/5/7/8/12/13/17/18/19/20/26/28/66; TDD-LTE: Bands 38/40/41",
+      "technology": "GSM / HSPA / LTE",
+      "wifi": "2.4 GHz and 5 GHz, IEEE 802.11a/b/g/n/ac/ax/be, 2 × 2 MIMO, HE160, 8 Spatial-stream Sounding MU-MIMO",
+      "bluetooth": "Bluetooth 5.2, Support BLE, SBC, AAC, LDAC and L2HC",
+      "usb": "USB Type-C, USB 2.0",
+      "positioning": "GPS (L1 + L5 Dual band) /AGPS/GLONASS/BeiDou (B1I + B1C + B2a + B2b 4 frequency) /GALILEO (E1 + E5a + E5b Tri-band) /QZSS (L1 + L5 Dual band)"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 163.4,
+        "width_mm": 75.0,
+        "depth_mm": 7.78
+      },
+      "weight_g": 207.0
+    },
+    "software": {
+      "launch_os": "EMUI 15.0"
+    },
+    "audio": {
+      "jack": false
+    },
+    "sensors": "Gravity sensor, Infrared sensor, Fingerprint sensor, Gyroscope, Compass, Ambient light sensor, Proximity sensor (Functions are implemented through software solutions.), Flicker sensor, Color temperature sensor",
+    "misc": {
+      "colors": "Crystal Blue, White, Black"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "huawei",
+      "url": "https://consumer.huawei.com/my/phones/nova14-pro/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from Huawei Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "lowyat",
+        "url": "https://www.lowyat.net/2025/371944/huawei-nova-14-series-pre-orders-available-in-malaysia/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (Lowyat.NET). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

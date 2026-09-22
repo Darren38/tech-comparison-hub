@@ -1,0 +1,85 @@
+{
+  "id": "redmi-watch-5",
+  "name": "Redmi Watch 5",
+  "brand": "redmi",
+  "category": "smartwatch",
+  "series": "Watch",
+  "form": "watch",
+  "status": "released",
+  "announced": "2025-01-24",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 459,
+      "date": "2025-01-24",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/01/24/xiaomi-affordable-iot-range-redmi-buds-6-redmi-watch-5-and-power-bank-starting-from-rm109-malaysia/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://i02.appmifile.com/625_item_my/06/01/2025/9ab5cb2ae06ae5caabc1b15e1fd56dcb.png",
+    "page": "https://www.mi.com/my/product/redmi-watch-5/specs/",
+    "credit": "Xiaomi Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 2.07,
+      "type": "AMOLED",
+      "resolution": "514 × 432",
+      "peak_nits": 1500
+    },
+    "battery": {
+      "life_h": 576,
+      "capacity_mah": 550
+    },
+    "connectivity": {
+      "gps": "Built-in GNSS",
+      "bluetooth": "Bluetooth 5.3"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 47.5,
+        "width_mm": 41.1,
+        "depth_mm": 11.3
+      },
+      "water": "5 ATM",
+      "water_m": 50,
+      "frame": "Aluminum alloy frame; Strap; Obsidian Black: TPU strap"
+    },
+    "software": {
+      "launch_os": "Xiaomi HyperOS"
+    },
+    "sensors": "Heart rate sensor (with blood oxygen sensor), Accelerometer, Gyroscope, Ambient light sensor, Electronic compass, Satellite positioning systems, GPS, Galileo, Glonass, BeiDou, QZSS",
+    "audio": {
+      "speakers": "Microphone: 2 mics"
+    },
+    "misc": {
+      "colors": "Obsidian Black, Silver Gray, Lavender Purple"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "redmi",
+      "url": "https://www.mi.com/my/product/redmi-watch-5/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from Xiaomi Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2025/01/24/xiaomi-affordable-iot-range-redmi-buds-6-redmi-watch-5-and-power-bank-starting-from-rm109-malaysia/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

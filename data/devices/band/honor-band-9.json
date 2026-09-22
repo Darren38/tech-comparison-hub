@@ -1,0 +1,64 @@
+{
+  "id": "honor-band-9",
+  "name": "HONOR Band 9",
+  "brand": "honor",
+  "category": "band",
+  "series": "Band",
+  "form": "band",
+  "status": "released",
+  "announced": "2024-04-22",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 199,
+      "date": "2024-04-22",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2024/320860/honor-band-9-2/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 1.57,
+      "resolution": "402 × 256"
+    },
+    "build": {
+      "weight_g": 16.3,
+      "water": "5 ATM",
+      "water_m": 50
+    },
+    "connectivity": {
+      "usb": "Magnetic charging port; Compatibility; Android 9.0 or later, iOS 11.0 or later; Water Resistance Level; 5ATM",
+      "bluetooth": "2.4 GHz, BLE 5.3; Charger Voltage and Current; 5V 1A"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "honor",
+      "url": "https://www.honor.com/my/wearables/honor-band-9/spec/",
+      "checked": "2026-09-18",
+      "note": "Read from HONOR Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "lowyat",
+        "url": "https://www.lowyat.net/2024/320860/honor-band-9-2/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (Lowyat.NET). The global announcement can be earlier."
+      }
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://www.honor.com/content/dam/honor/my/product-list/wearables/honor-band-9/honor-band-9-list.png",
+    "page": "https://www.honor.com/my/wearables/honor-band-9/spec/",
+    "credit": "HONOR",
+    "checked": "2026-09-19"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "kirin-9030",
+  "name": "Kirin 9030",
+  "vendor": "hisilicon",
+  "family": "Kirin",
+  "summary": "Name recorded from phone makers' specification pages and launch reports. Chip details have not been compiled yet.",
+  "provenance": {
+    "default": {
+      "class": "news",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2026/383231/huawei-mate-80-pro-global-launch/",
+      "checked": "2026-09-18",
+      "note": "Chip name as given for the Huawei Mate 80 Pro."
+    }
+  }
+}

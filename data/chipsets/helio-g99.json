@@ -1,0 +1,16 @@
+{
+  "id": "helio-g99",
+  "name": "Helio G99",
+  "vendor": "mediatek",
+  "family": "Helio G",
+  "summary": "Name recorded from phone makers' specification pages and launch reports. Chip details have not been compiled yet.",
+  "provenance": {
+    "default": {
+      "class": "news",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2023/299985/samsung-galaxy-a24-malaysia/",
+      "checked": "2026-09-18",
+      "note": "Chip name as given for the Galaxy A24."
+    }
+  }
+}

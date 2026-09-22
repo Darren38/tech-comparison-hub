@@ -1,0 +1,105 @@
+{
+  "id": "xiaomi-17-pro-max",
+  "name": "Xiaomi 17 Pro Max",
+  "brand": "xiaomi",
+  "category": "smartphone",
+  "series": "Xiaomi",
+  "form": "bar",
+  "status": "released",
+  "announced": "2025-09-25",
+  "released": "2025-10",
+  "segment": "flagship",
+  "aliases": [
+    "17 Pro Max"
+  ],
+  "summary": "China-market flagship with a 2.9-inch rear display beside the cameras and a 7,500 mAh battery.",
+  "highlights": [
+    "2.9-inch rear display",
+    "7,500 mAh battery",
+    "100 W wired charging"
+  ],
+  "prices": [],
+  "availability": {
+    "MY": {
+      "status": "not-launched",
+      "checked": "2026-09-16",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2026/03/01/xiaomi-17-and-17-ultra-malaysia-launch-price-specs-preorder/",
+      "note": "Xiaomi's global markets, including Malaysia, get only the Xiaomi 17 and 17 Ultra, not the 17 Pro or 17 Pro Max."
+    }
+  },
+  "image": {
+    "kind": "photo",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Xiaomi_17_Pro_Max_backside_%28Black%29.jpg/500px-Xiaomi_17_Pro_Max_backside_%28Black%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Xiaomi_17_Pro_Max_backside_(Black).jpg",
+    "title": "Xiaomi 17 Pro Max backside (Black)",
+    "author": "茅野ふたば",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "checked": "2026-09-17"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.9,
+      "type": "LTPO AMOLED",
+      "resolution": "2608 × 1200",
+      "ppi": 416,
+      "refresh_hz": 120,
+      "peak_nits": 3500,
+      "secondary": "2.9-inch rear display (976 × 596)"
+    },
+    "platform": {
+      "chipset": "snapdragon-8-elite-gen-5"
+    },
+    "memory": {
+      "ram_gb": [
+        12,
+        16
+      ],
+      "storage_gb": [
+        256,
+        512,
+        1024
+      ]
+    },
+    "battery": {
+      "capacity_mah": 7500
+    },
+    "charging": {
+      "wired_w": 100,
+      "wireless_w": 50
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "note": "Light Fusion 950L"
+        },
+        {
+          "role": "ultrawide",
+          "mp": 50
+        },
+        {
+          "role": "periscope",
+          "mp": 50,
+          "zoom_x": 5
+        }
+      ],
+      "zoom_optical_x": 5
+    },
+    "software": {
+      "launch_os": "Android 16, HyperOS 3"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "xiaomi",
+      "url": "https://www.mi.com",
+      "note": "Compiled from launch coverage (TechRadar, GSMArena); China-market model."
+    },
+    "fields": {}
+  },
+  "dataStatus": "compiled"
+}

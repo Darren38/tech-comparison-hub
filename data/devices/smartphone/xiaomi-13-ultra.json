@@ -1,0 +1,134 @@
+{
+  "id": "xiaomi-13-ultra",
+  "name": "Xiaomi 13 Ultra",
+  "brand": "xiaomi",
+  "category": "smartphone",
+  "series": "Number",
+  "form": "bar",
+  "status": "released",
+  "announced": "2023-06-20",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 5199,
+      "config": "12 GB / 512 GB",
+      "date": "2023-06-20",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2023/06/20/xiaomi-13-ultra-malaysia-leica-camera-official-launch-specs/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 6.73,
+      "type": "AMOLED",
+      "resolution": "3200 × 1440",
+      "peak_nits": 2600,
+      "protection": "Corning Gorilla Glass Victus",
+      "ppi": 521
+    },
+    "platform": {
+      "chipset": "snapdragon-8-gen-2",
+      "cpu": "1x Prime core (X3-based), up to 3.19GHz; 2x Performance cores (A715-based), up to 2.8GHz; 2x Performance cores (A710-based), up to 2.8GHz; 3x Efficiency cores (A510-based), up to 2.0GHz"
+    },
+    "memory": {
+      "ram_gb": [
+        12
+      ],
+      "storage_gb": [
+        512
+      ],
+      "ram_type": "LPDDR5X",
+      "storage_type": "UFS 4.0"
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "charging": {
+      "wired_w": 90,
+      "wireless_w": 80,
+      "claim": "90W wired turbo charging; 50W wireless turbo charging; Inbox 90W charger"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "sensor": "1\""
+        }
+      ],
+      "front": "32 MP",
+      "rear_detail": [
+        "Leica 1\" main camera, 1” sensor size, 50MP"
+      ],
+      "front_detail": [
+        "32MP in-display selfie camera, f/2.0"
+      ]
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true,
+      "positioning": "L1+L5; Galileo: E1+E5a; GLONASS: G1; Beidou; NavIC: L5A-GPS supplementary positioning; Electronic compass; Wireless network; Data network; SAP",
+      "sim": "Dual SIM (nano SIM + nano SIM)",
+      "wifi": "Wi-Fi 6E",
+      "bluetooth": "Bluetooth 5.3",
+      "usb": "USB-C"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 163.18,
+        "width_mm": 74.64,
+        "depth_mm": 9.06
+      },
+      "weight_g": 227.0,
+      "ip": "IP68"
+    },
+    "software": {
+      "launch_os": "MIUI 14 based on Android 13"
+    },
+    "sensors": "Proximity sensor, Ambient light sensor, Accelerometer, Gyroscope, Electronic compass, Linear motor, IR blaster, Barometer, Flicker sensor, Laser autofocus, Vibration motor, X-axis linear motor",
+    "audio": {
+      "speakers": "Dual speakers"
+    },
+    "biometrics": {
+      "fingerprint": "In-screen fingerprint sensor"
+    },
+    "misc": {
+      "colors": "Black, Olive Green"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "xiaomi",
+      "url": "https://www.mi.com/my/product/xiaomi-13-ultra/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from Xiaomi Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2023/06/20/xiaomi-13-ultra-malaysia-leica-camera-official-launch-specs/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://i02.appmifile.com/57_operator_sg/23/05/2023/e0f444f190acfcb56bdf2d77d8f4f9ea.png",
+    "page": "https://www.mi.com/my/product/xiaomi-13-ultra/specs/",
+    "credit": "Xiaomi",
+    "checked": "2026-09-19"
+  }
+}

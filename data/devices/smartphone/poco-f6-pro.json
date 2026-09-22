@@ -1,0 +1,199 @@
+{
+  "id": "poco-f6-pro",
+  "name": "POCO F6 Pro",
+  "brand": "poco",
+  "category": "smartphone",
+  "series": "F",
+  "form": "bar",
+  "status": "released",
+  "announced": "2024-05-23",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 2299,
+      "config": "12 GB / 256 GB",
+      "date": "2024-05-23",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2024/05/23/poco-f6-pro-malaysia-official-price-specs/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 2499,
+      "config": "12 GB / 512 GB",
+      "date": "2024-05-23",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2024/05/23/poco-f6-pro-malaysia-official-price-specs/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 2899,
+      "config": "16 GB / 1 TB",
+      "date": "2024-05-23",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2024/05/23/poco-f6-pro-malaysia-official-price-specs/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://i02.appmifile.com/360_item_my/20/05/2024/4f76d380fdd22e76b29f5480609762f0.png",
+    "page": "https://www.mi.com/my/product/poco-f6-pro/specs/",
+    "credit": "Xiaomi Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.67,
+      "type": "AMOLED",
+      "resolution": "3200 × 1440",
+      "refresh_hz": 120,
+      "peak_nits": 4000,
+      "ppi": 526
+    },
+    "platform": {
+      "chipset": "snapdragon-8-gen-2",
+      "gpu": "Adreno GPU",
+      "cpu": "Octa-core CPU; 1 x Cortex-X3, up to 3.19GHz; 2x Cortex-A715, up to 2.8Ghz; 2 x Cortex-A710, up to 2.8Ghz"
+    },
+    "memory": {
+      "ram_gb": [
+        12,
+        16
+      ],
+      "storage_gb": [
+        256,
+        512,
+        1024
+      ],
+      "ram_type": "LPDDR5X",
+      "storage_type": "UFS 4.0"
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "charging": {
+      "wired_w": 120,
+      "claim": "120W HyperCharge; 120W in-box charger"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "sensor": "1/1.55\"",
+          "aperture": "f/1.6",
+          "ois": true
+        },
+        {
+          "role": "ultrawide",
+          "mp": 8
+        },
+        {
+          "role": "macro",
+          "mp": 2
+        }
+      ],
+      "front": "16 MP",
+      "rear_detail": [
+        "50MP main camera, Light Fusion 800 image sensor, 2.0μm 4-in-1 Super Pixel, f/1.6, 1/1.55\" sensor size, 6P lens, OIS",
+        "8MP ultra-wide camera, f/2.2, FOV 119°",
+        "2MP macro camera, f/2.4"
+      ],
+      "video": "8K@24fps; 1080p",
+      "front_detail": [
+        "16MP front camera"
+      ],
+      "front_video": "1080p@60fps"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true,
+      "bands_2g": "5G S",
+      "bands_3g": "Band 1/2/4/5/6/8/19",
+      "bands_4g": "4G LTE TDD: Band 38/40/41; 4G LTE FDD: Band 1/2/3/4/5/7/8/18/19/20/28/66",
+      "technology": "GSM / HSPA / LTE",
+      "positioning": "Beidou: B1I+B1C+B2a; GPS: L1+L5; Galileo: E1+E5a; GLONASS: G1; QZSS: L1+L5; NavIC: L5; AGNSS; Data network; Wireless network; Sensor Assisted Positioning",
+      "sim": "Dual SIM (nano SIM + nano SIM)",
+      "wifi": "Wi-Fi Protocol; Wi-Fi 7/ Wi-Fi 6*/ Wi-Fi 5/ Wi-Fi 4 and 802.11a/b/g",
+      "bluetooth": "Bluetooth 5.3",
+      "usb": "USB Type-C"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 160.86,
+        "width_mm": 74.95,
+        "depth_mm": 8.21
+      },
+      "weight_g": 209.0
+    },
+    "software": {
+      "launch_os": "Powered by Xiaomi HyperOS"
+    },
+    "sensors": "Proximity sensor, 360° Ambient light sensor, Accelerometer, Electronic compass, Gyroscope, IR blaster, Flicker sensor, Vibration motor, X-axis linear vibration motor",
+    "audio": {
+      "speakers": "Stereo Dual speakers"
+    },
+    "biometrics": {
+      "fingerprint": "In-screen fingerprint sensor"
+    },
+    "misc": {
+      "colors": "White, Black"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "poco",
+      "url": "https://www.mi.com/my/product/poco-f6-pro/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from Xiaomi Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "specs.memory": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2024/05/23/poco-f6-pro-malaysia-official-price-specs/",
+        "note": "Memory options as listed in Malaysian launch pricing; the maker's current Malaysian specification data lists fewer.",
+        "checked": "2026-09-18"
+      },
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2024/05/23/poco-f6-pro-malaysia-official-price-specs/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      },
+      "specs.memory.ram_type": {
+        "class": "official",
+        "source": "poco",
+        "url": "https://www.mi.com/my/product/poco-f6-pro/specs/",
+        "checked": "2026-09-18",
+        "note": "Read from Xiaomi Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+      },
+      "specs.memory.storage_type": {
+        "class": "official",
+        "source": "poco",
+        "url": "https://www.mi.com/my/product/poco-f6-pro/specs/",
+        "checked": "2026-09-18",
+        "note": "Read from Xiaomi Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

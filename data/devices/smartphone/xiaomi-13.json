@@ -1,0 +1,141 @@
+{
+  "id": "xiaomi-13",
+  "name": "Xiaomi 13",
+  "brand": "xiaomi",
+  "category": "smartphone",
+  "series": "Number",
+  "form": "bar",
+  "status": "released",
+  "announced": "2023-02-27",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 3499,
+      "config": "12 GB / 256 GB",
+      "date": "2023-02-27",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2023/02/27/xiaomi-13-and-xiaomi-13-pro-malaysia-everything-you-need-to-know/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 6.36,
+      "type": "AMOLED",
+      "resolution": "2400 × 1080",
+      "peak_nits": 1900,
+      "ppi": 414
+    },
+    "platform": {
+      "chipset": "snapdragon-8-gen-2",
+      "gpu": "Qualcomm Adreno GPU"
+    },
+    "memory": {
+      "ram_gb": [
+        12
+      ],
+      "storage_gb": [
+        256
+      ],
+      "ram_type": "LPDDR5X",
+      "storage_type": "UFS 4.0"
+    },
+    "battery": {
+      "capacity_mah": 4500
+    },
+    "charging": {
+      "wired_w": 67,
+      "wireless_w": 50,
+      "claim": "67W wired turbo charging; 50W wireless turbo charging; 10W reverse wireless charging",
+      "reverse_w": 10
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "aperture": "f/1.8"
+        }
+      ],
+      "front": "32 MP",
+      "rear_detail": [
+        "Leica main camera, 50MP, 1.0μm pixel size, 2.0μm 4-in-1 Super Pixel, 23mm equivalent focal length, f/1.8, HyperOIS, 7P lens",
+        "Leica telephoto camera, 10MP"
+      ],
+      "video": "8K@24fps; 1080p",
+      "front_detail": [
+        "32MP in-display selfie camera, f/2.0, 0.7μm pixel size, 1.4μm 4-in-1 Super Pixel, 89.6° FOV, 5P lens"
+      ]
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true,
+      "bands_3g": "B1/2/4/5/6/8/19",
+      "bands_4g": "LTE FDD: B1/2/3/4/5/7/8/12/13/17/18/19/20/25/26/28/32/66; LTE TDD: B38/39/40/41/42/48",
+      "bands_5g": "5G: n1/n3/n5/n7/n8/n20/n28/n38/n40/n41/n66/n71/n75/n77/n78",
+      "technology": "HSPA / LTE / 5G",
+      "positioning": "L1+L5; Galileo: E1+E5a; GLONASS: G1; Beidou; NavIC: L5",
+      "sim": "Dual SIM (nano SIM + nano SIM or nano SIM + eSIM)",
+      "wifi": "Wi-Fi 6E",
+      "bluetooth": "Bluetooth 5.3",
+      "usb": "USB type-c"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 152.8,
+        "width_mm": 71.5,
+        "depth_mm": 7.98
+      },
+      "weight_g": 189.0,
+      "ip": "IP68"
+    },
+    "software": {
+      "launch_os": "MIUI 14"
+    },
+    "sensors": "Proximity sensor, Ambient light sensor, Accelerometer, Gyroscope, Electronic compass, Linear motor, IR blaster, Flicker sensor",
+    "biometrics": {
+      "fingerprint": "In-screen fingerprint sensor",
+      "face": "AI face unlock"
+    },
+    "audio": {
+      "speakers": "Dual speakers"
+    },
+    "misc": {
+      "colors": "White, Black, Flora Green"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "xiaomi",
+      "url": "https://www.mi.com/my/product/xiaomi-13/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from Xiaomi Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2023/02/27/xiaomi-13-and-xiaomi-13-pro-malaysia-everything-you-need-to-know/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://i02.appmifile.com/158_operator_sg/08/02/2023/3436112edf5d104a191c22576c6506bf.png",
+    "page": "https://www.mi.com/my/product/xiaomi-13/specs/",
+    "credit": "Xiaomi",
+    "checked": "2026-09-19"
+  }
+}

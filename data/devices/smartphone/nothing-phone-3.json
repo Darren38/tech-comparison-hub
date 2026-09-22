@@ -1,0 +1,135 @@
+{
+  "id": "nothing-phone-3",
+  "name": "Nothing Phone (3)",
+  "brand": "nothing",
+  "category": "smartphone",
+  "series": "Phone",
+  "form": "bar",
+  "status": "released",
+  "announced": "2025-07-01",
+  "released": "2025-07",
+  "segment": "upper-mid",
+  "aliases": [
+    "Phone 3",
+    "Nothing Phone 3",
+    "CMF"
+  ],
+  "summary": "Nothing's first 'true flagship' attempt, with a Glyph Matrix LED display on the back and the Snapdragon 8s Gen 4.",
+  "highlights": [
+    "Glyph Matrix rear display",
+    "3× periscope",
+    "5 OS upgrades, 7 years of security"
+  ],
+  "prices": [
+    {
+      "region": "US",
+      "currency": "USD",
+      "amount": 799,
+      "config": "12 GB / 256 GB",
+      "date": "2025-07-01",
+      "type": "launch",
+      "source": "nothing"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 3299,
+      "config": "12 GB / 256 GB",
+      "date": "2025-07-11",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/07/11/nothing-phone-3-malaysia-specs-price-features-launch/",
+      "class": "news",
+      "accessed": "2026-09-16"
+    }
+  ],
+  "image": {
+    "kind": "photo",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/%E5%8D%8A%E5%A4%9C%E9%A6%96%E5%8F%91%EF%BC%81%E7%AC%AC%E4%B8%80%E6%89%8B%E6%8B%BF%E5%88%B0%E4%BA%86Nothing_Phone_%283%29_%EF%BC%81%E7%81%AF%E6%9D%A1%E6%B2%A1%E4%BA%86%E3%80%81%E8%83%8C%E5%90%8E%E5%A4%9A%E4%B8%80%E4%B8%AAscreen%EF%BC%81-00.00.10.500.png/500px-%E5%8D%8A%E5%A4%9C%E9%A6%96%E5%8F%91%EF%BC%81%E7%AC%AC%E4%B8%80%E6%89%8B%E6%8B%BF%E5%88%B0%E4%BA%86Nothing_Phone_%283%29_%EF%BC%81%E7%81%AF%E6%9D%A1%E6%B2%A1%E4%BA%86%E3%80%81%E8%83%8C%E5%90%8E%E5%A4%9A%E4%B8%80%E4%B8%AAscreen%EF%BC%81-00.00.10.500.png",
+    "page": "https://commons.wikimedia.org/wiki/File:%E5%8D%8A%E5%A4%9C%E9%A6%96%E5%8F%91%EF%BC%81%E7%AC%AC%E4%B8%80%E6%89%8B%E6%8B%BF%E5%88%B0%E4%BA%86Nothing_Phone_(3)_%EF%BC%81%E7%81%AF%E6%9D%A1%E6%B2%A1%E4%BA%86%E3%80%81%E8%83%8C%E5%90%8E%E5%A4%9A%E4%B8%80%E4%B8%AAscreen%EF%BC%81-00.00.10.500.png",
+    "title": "半夜首发！第一手拿到了Nothing Phone (3) ！灯条没了、背后多一个screen！-00.00.10.500",
+    "author": "可恩Ke En",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "focus": "62% 45%",
+    "checked": "2026-09-17"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.67,
+      "type": "AMOLED",
+      "resolution": "2800 × 1260",
+      "ppi": 460,
+      "refresh_hz": 120,
+      "peak_nits": 4500
+    },
+    "platform": {
+      "chipset": "snapdragon-8s-gen-4"
+    },
+    "memory": {
+      "ram_gb": [
+        12,
+        16
+      ],
+      "storage_gb": [
+        256,
+        512
+      ]
+    },
+    "battery": {
+      "capacity_mah": 5150,
+      "variants": "India: 5,500 mAh"
+    },
+    "charging": {
+      "wired_w": 65,
+      "wireless_w": 15
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50
+        },
+        {
+          "role": "ultrawide",
+          "mp": 50
+        },
+        {
+          "role": "periscope",
+          "mp": 50,
+          "zoom_x": 3
+        }
+      ],
+      "zoom_optical_x": 3,
+      "front": "50 MP"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 160.6,
+        "width_mm": 75.6,
+        "depth_mm": 9.0
+      },
+      "weight_g": 218,
+      "ip": "IP68"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true
+    },
+    "software": {
+      "launch_os": "Android 15, Nothing OS 3.5",
+      "os_updates_years": 5,
+      "security_updates_years": 7
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "nothing",
+      "url": "https://nothing.tech",
+      "note": "Compiled from Nothing's launch specifications; not re-checked this session."
+    },
+    "fields": {}
+  },
+  "dataStatus": "compiled"
+}

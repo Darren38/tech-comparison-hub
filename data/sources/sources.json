@@ -1,0 +1,438 @@
+[
+  {
+    "id": "samsung",
+    "name": "Samsung",
+    "type": "manufacturer",
+    "tier": "O",
+    "url": "https://www.samsung.com"
+  },
+  {
+    "id": "apple",
+    "name": "Apple",
+    "type": "manufacturer",
+    "tier": "O",
+    "url": "https://www.apple.com"
+  },
+  {
+    "id": "google",
+    "name": "Google",
+    "type": "manufacturer",
+    "tier": "O",
+    "url": "https://store.google.com"
+  },
+  {
+    "id": "xiaomi",
+    "name": "Xiaomi",
+    "type": "manufacturer",
+    "tier": "O",
+    "url": "https://www.mi.com/global"
+  },
+  {
+    "id": "vivo",
+    "name": "vivo",
+    "type": "manufacturer",
+    "tier": "O",
+    "url": "https://www.vivo.com/en"
+  },
+  {
+    "id": "iqoo",
+    "name": "iQOO",
+    "type": "manufacturer",
+    "tier": "O",
+    "url": "https://www.iqoo.com"
+  },
+  {
+    "id": "oppo",
+    "name": "OPPO",
+    "type": "manufacturer",
+    "tier": "O",
+    "url": "https://www.oppo.com/en"
+  },
+  {
+    "id": "oneplus",
+    "name": "OnePlus",
+    "type": "manufacturer",
+    "tier": "O",
+    "url": "https://www.oneplus.com/global"
+  },
+  {
+    "id": "realme",
+    "name": "realme",
+    "type": "manufacturer",
+    "tier": "O",
+    "url": "https://www.realme.com/global"
+  },
+  {
+    "id": "honor",
+    "name": "HONOR",
+    "type": "manufacturer",
+    "tier": "O",
+    "url": "https://www.honor.com/global"
+  },
+  {
+    "id": "huawei",
+    "name": "Huawei",
+    "type": "manufacturer",
+    "tier": "O",
+    "url": "https://consumer.huawei.com/en"
+  },
+  {
+    "id": "asus",
+    "name": "ASUS",
+    "type": "manufacturer",
+    "tier": "O",
+    "url": "https://www.asus.com"
+  },
+  {
+    "id": "sony",
+    "name": "Sony",
+    "type": "manufacturer",
+    "tier": "O",
+    "url": "https://electronics.sony.com"
+  },
+  {
+    "id": "motorola",
+    "name": "Motorola",
+    "type": "manufacturer",
+    "tier": "O",
+    "url": "https://www.motorola.com"
+  },
+  {
+    "id": "nothing",
+    "name": "Nothing",
+    "type": "manufacturer",
+    "tier": "O",
+    "url": "https://nothing.tech"
+  },
+  {
+    "id": "redmagic",
+    "name": "REDMAGIC",
+    "type": "manufacturer",
+    "tier": "O",
+    "url": "https://global.redmagic.gg"
+  },
+  {
+    "id": "poco",
+    "name": "POCO",
+    "type": "manufacturer",
+    "tier": "O",
+    "url": "https://www.po.co/global"
+  },
+  {
+    "id": "redmi",
+    "name": "Redmi",
+    "type": "manufacturer",
+    "tier": "O",
+    "url": "https://www.mi.com/global"
+  },
+  {
+    "id": "qualcomm",
+    "name": "Qualcomm",
+    "type": "manufacturer",
+    "tier": "O",
+    "url": "https://www.qualcomm.com"
+  },
+  {
+    "id": "mediatek",
+    "name": "MediaTek",
+    "type": "manufacturer",
+    "tier": "O",
+    "url": "https://www.mediatek.com"
+  },
+  {
+    "id": "hisilicon",
+    "name": "HiSilicon (Huawei)",
+    "type": "manufacturer",
+    "tier": "O",
+    "url": "https://www.hisilicon.com"
+  },
+  {
+    "id": "unisoc",
+    "name": "Unisoc",
+    "type": "manufacturer",
+    "tier": "O",
+    "url": "https://www.unisoc.com/en"
+  },
+  {
+    "id": "gsmarena",
+    "name": "GSMArena",
+    "type": "lab",
+    "tier": "A",
+    "url": "https://www.gsmarena.com",
+    "methodology": "In-house reviews on retail or review units. Battery: Active Use Score, an estimate of runtime under a mix of calls, web browsing, video and gaming. Charging: from empty with the maker's charger, recorded at 15 and 30 minutes and at full. Display: light-meter readings of a 75% white patch in manual and auto modes, plus a small-patch peak. Benchmarks: highest of several runs.",
+    "notes": "Test methods changed in 2025 (the Active Use Score replaced the older Endurance rating), so scores are only compared within the current method."
+  },
+  {
+    "id": "notebookcheck",
+    "name": "Notebookcheck",
+    "type": "publication",
+    "tier": "A",
+    "url": "https://www.notebookcheck.net",
+    "methodology": "Processor pages list the median and range of results gathered from Notebookcheck's own reviews and verified benchmark databases. News articles often summarise tests by other labs and credit them."
+  },
+  {
+    "id": "ul-benchmarks",
+    "name": "UL Benchmarks (3DMark)",
+    "type": "database",
+    "tier": "A",
+    "url": "https://benchmarks.ul.com",
+    "methodology": "Official 3DMark device database maintained by UL, the benchmark's developer. Device pages report scores aggregated from submitted runs."
+  },
+  {
+    "id": "geekbench-browser",
+    "name": "Geekbench Browser",
+    "type": "database",
+    "tier": "B",
+    "url": "https://browser.geekbench.com",
+    "methodology": "Public database of user-submitted Geekbench runs from Primate Labs. Individual listings are unverified and can come from pre-release units, so single results carry low weight."
+  },
+  {
+    "id": "geekerwan",
+    "name": "Geekerwan",
+    "type": "lab",
+    "tier": "A",
+    "url": null,
+    "platforms": [
+      "YouTube",
+      "Bilibili"
+    ],
+    "methodology": "Chinese hardware lab channel known for SoC analysis: SPEC CPU2017 performance-per-watt curves, GPU power measured at the board, and sustained gaming frame-rate and power logging.",
+    "notes": "Records are currently entered from reports that credit Geekerwan (for example Notebookcheck). Direct extraction from Geekerwan videos is planned. Channel URL not recorded."
+  },
+  {
+    "id": "mrwhosetheboss",
+    "name": "Mrwhosetheboss",
+    "type": "youtube",
+    "tier": "B",
+    "url": "https://www.youtube.com/@Mrwhosetheboss",
+    "methodology": "Real-world battery rundowns that run several phones side by side through the same scripted routine, plus thermal checks with a thermal camera. Runs are single passes, so results are only compared within the same test."
+  },
+  {
+    "id": "mkbhd",
+    "name": "Marques Brownlee (MKBHD)",
+    "type": "youtube",
+    "tier": "A",
+    "url": "https://www.youtube.com/@mkbhd",
+    "methodology": "Long-form experience reviews. Findings are qualitative observations rather than measurements."
+  },
+  {
+    "id": "jerryrigeverything",
+    "name": "JerryRigEverything",
+    "type": "youtube",
+    "tier": "A",
+    "url": "https://www.youtube.com/@JerryRigEverything",
+    "methodology": "Durability tests: Mohs hardness picks on the display, scratch tests on the frame and camera, burn and bend tests. Repeatable procedure, one unit per test."
+  },
+  {
+    "id": "phonebuff",
+    "name": "PhoneBuff",
+    "type": "youtube",
+    "tier": "B",
+    "url": "https://www.youtube.com/@PhoneBuff",
+    "methodology": "Side-by-side drop tests using a drop rig; one unit per phone."
+  },
+  {
+    "id": "matthew-moniz",
+    "name": "Matthew Moniz",
+    "type": "youtube",
+    "tier": "B",
+    "url": "https://www.youtube.com/@MatthewMoniz",
+    "methodology": "Experience and long-term reviews. Qualitative."
+  },
+  {
+    "id": "gizmochina",
+    "name": "Gizmochina",
+    "type": "publication",
+    "tier": "B",
+    "url": "https://www.gizmochina.com",
+    "methodology": "Publishes benchmark comparisons that combine its own runs with results from other outlets. The method is not always documented, so its scores count as secondary database evidence."
+  },
+  {
+    "id": "beebom",
+    "name": "Beebom",
+    "type": "publication",
+    "tier": "B",
+    "url": "https://beebom.com",
+    "methodology": "In-house benchmark runs (Geekbench, 3DMark stress tests) on retail phones; the test device is not always named."
+  },
+  {
+    "id": "android-headlines",
+    "name": "Android Headlines",
+    "type": "publication",
+    "tier": "B",
+    "url": "https://www.androidheadlines.com"
+  },
+  {
+    "id": "android-police",
+    "name": "Android Police",
+    "type": "publication",
+    "tier": "A",
+    "url": "https://www.androidpolice.com"
+  },
+  {
+    "id": "macrumors",
+    "name": "MacRumors",
+    "type": "publication",
+    "tier": "A",
+    "url": "https://www.macrumors.com"
+  },
+  {
+    "id": "9to5mac",
+    "name": "9to5Mac",
+    "type": "publication",
+    "tier": "A",
+    "url": "https://9to5mac.com"
+  },
+  {
+    "id": "engadget",
+    "name": "Engadget",
+    "type": "publication",
+    "tier": "A",
+    "url": "https://www.engadget.com"
+  },
+  {
+    "id": "sammobile",
+    "name": "SamMobile",
+    "type": "publication",
+    "tier": "B",
+    "url": "https://www.sammobile.com"
+  },
+  {
+    "id": "sammyfans",
+    "name": "Sammy Fans",
+    "type": "publication",
+    "tier": "C",
+    "url": "https://www.sammyfans.com"
+  },
+  {
+    "id": "lowyat",
+    "name": "Lowyat.NET",
+    "type": "publication",
+    "tier": "B",
+    "url": "https://www.lowyat.net",
+    "notes": "Malaysian technology news; useful for local pricing and availability."
+  },
+  {
+    "id": "forbes",
+    "name": "Forbes (contributor)",
+    "type": "publication",
+    "tier": "B",
+    "url": "https://www.forbes.com"
+  },
+  {
+    "id": "fonearena",
+    "name": "FoneArena",
+    "type": "publication",
+    "tier": "B",
+    "url": "https://www.fonearena.com"
+  },
+  {
+    "id": "soyacincau",
+    "name": "SoyaCincau",
+    "type": "publication",
+    "tier": "B",
+    "url": "https://soyacincau.com",
+    "notes": "Malaysian technology news; publishes official Malaysian launch prices and dates."
+  },
+  {
+    "id": "malaymail",
+    "name": "Malay Mail",
+    "type": "publication",
+    "tier": "B",
+    "url": "https://www.malaymail.com",
+    "notes": "Malaysian national news outlet; its tech section reports official local pricing."
+  },
+  {
+    "id": "nasilemaktech",
+    "name": "Nasi Lemak Tech",
+    "type": "publication",
+    "tier": "C",
+    "url": "https://nasilemaktech.com",
+    "notes": "Malaysian technology blog; used for local prices where larger outlets could not be read."
+  },
+  {
+    "id": "nanoreview",
+    "name": "NanoReview",
+    "type": "database",
+    "tier": "B",
+    "url": "https://nanoreview.net",
+    "status": "planned",
+    "methodology": "SoC and phone comparison database (AnTuTu, Geekbench, 3DMark, and its own ratings).",
+    "notes": "Registered but holds no records yet. Automated access is blocked, so data must be entered by hand with attribution, following the site's terms."
+  },
+  {
+    "id": "socpk",
+    "name": "SoCPK",
+    "type": "database",
+    "tier": "B",
+    "url": "https://www.socpk.com",
+    "status": "planned",
+    "methodology": "Chinese SoC performance and efficiency database (CPU and GPU energy-efficiency curves).",
+    "notes": "Registered but holds no records yet. Planned for chipset efficiency data."
+  },
+  {
+    "id": "dxomark",
+    "name": "DXOMARK",
+    "type": "lab",
+    "tier": "A",
+    "url": "https://www.dxomark.com",
+    "methodology": "Lab and field protocol for camera, display, audio and battery scoring.",
+    "notes": "Camera scores recorded for the latest flagships from Version 10 (shown as evidence, not yet part of the site's camera score)."
+  },
+  {
+    "id": "tomsguide",
+    "name": "Tom's Guide",
+    "type": "publication",
+    "tier": "A",
+    "url": "https://www.tomsguide.com",
+    "methodology": "Standard battery test: continuous web surfing over a cellular connection at 150 nits until empty."
+  },
+  {
+    "id": "androidauthority",
+    "name": "Android Authority",
+    "type": "publication",
+    "tier": "A",
+    "url": "https://www.androidauthority.com",
+    "methodology": "Long-form reviews after at least a week of use, with benchmark, stress-test and charging measurements."
+  },
+  {
+    "id": "9to5google",
+    "name": "9to5Google",
+    "type": "publication",
+    "tier": "B",
+    "url": "https://9to5google.com",
+    "methodology": "Experience-based reviews after daily use."
+  },
+  {
+    "id": "trustedreviews",
+    "name": "Trusted Reviews",
+    "type": "publication",
+    "tier": "A",
+    "url": "https://www.trustedreviews.com",
+    "notes": "Linked here through its YouTube video reviews."
+  },
+  {
+    "id": "dave2d",
+    "name": "Dave2D",
+    "type": "youtube",
+    "tier": "A",
+    "url": "https://www.youtube.com/@Dave2D",
+    "methodology": "Experience-based video reviews and first impressions."
+  },
+  {
+    "id": "bensgadgetreviews",
+    "name": "Ben's Gadget Reviews (Ben Sin)",
+    "type": "youtube",
+    "tier": "B",
+    "url": "https://www.youtube.com/@bensgadgetreviews",
+    "methodology": "Video reviews with a focus on Chinese-market and global flagships and their cameras."
+  },
+  {
+    "id": "somegadgetguy",
+    "name": "SomeGadgetGuy (Juan Bagnell)",
+    "type": "youtube",
+    "tier": "B",
+    "url": "https://www.youtube.com/@SomeGadgetGuy",
+    "methodology": "Experience-based video reviews."
+  }
+]

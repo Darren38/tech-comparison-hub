@@ -1,0 +1,198 @@
+{
+  "id": "apple-iphone-18-pro-max",
+  "name": "iPhone 18 Pro Max",
+  "brand": "apple",
+  "category": "smartphone",
+  "series": "iPhone Pro",
+  "form": "bar",
+  "status": "released",
+  "announced": "2026-09-09",
+  "released": "2026-09-18",
+  "segment": "flagship",
+  "aliases": [
+    "18 Pro Max",
+    "iPhone 18PM"
+  ],
+  "summary": "Announced 9 September 2026 and on sale from 18 September, with the 2 nm A20 Pro, a variable-aperture main camera and Apple's C2 modem. Early reviews (Engadget, 9to5Mac) describe a strong but incremental update; no independent benchmark of retail units is recorded here yet, so performance confidence stays low.",
+  "highlights": [
+    "A20 Pro (2 nm)",
+    "Variable-aperture 48 MP main camera",
+    "Up to 45 h video playback (eSIM models)",
+    "Apple C2 modem"
+  ],
+  "prices": [
+    {
+      "region": "US",
+      "currency": "USD",
+      "amount": 1299,
+      "config": "256 GB",
+      "date": "2026-09-09",
+      "type": "launch",
+      "source": "apple",
+      "url": "https://www.apple.com/newsroom/2026/09/apple-debuts-iphone-18-pro-and-iphone-18-pro-max/",
+      "class": "official"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 5999,
+      "config": "256 GB",
+      "date": "2026-09-10",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2026/09/10/apple-iphone-18-pro-malaysia-launch-price-specs-rm5499/",
+      "class": "news",
+      "accessed": "2026-09-16"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 6.9,
+      "type": "Super Retina XDR OLED, ProMotion",
+      "resolution": "2868 × 1320",
+      "ppi": 460,
+      "refresh_hz": 120,
+      "peak_nits": 3000
+    },
+    "platform": {
+      "chipset": "apple-a20-pro"
+    },
+    "memory": {
+      "ram_gb": [
+        12
+      ],
+      "storage_gb": [
+        256,
+        512,
+        1024,
+        2048
+      ],
+      "expandable": false
+    },
+    "battery": {
+      "video_h": 45
+    },
+    "charging": {
+      "wired_w": 60,
+      "wireless_w": 25,
+      "claim": "Up to 50% in about 15 min wired; 50% in 30 min on MagSafe"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 48,
+          "aperture": "f/1.48–f/4.0 variable"
+        },
+        {
+          "role": "telephoto",
+          "zoom_x": 4,
+          "mp": 48
+        },
+        {
+          "role": "ultrawide",
+          "mp": 48
+        }
+      ],
+      "zoom_optical_x": 4
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 163.3,
+        "width_mm": 78.0,
+        "depth_mm": 8.6
+      },
+      "weight_g": 249,
+      "frame": "Aluminum unibody",
+      "ip": "IP68 (6 m, 30 min)"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "modem": "Apple C2",
+      "wifi": "Wi-Fi 7 (802.11be) with 2x2 MIMO",
+      "bluetooth": "6",
+      "nfc": true
+    },
+    "biometrics": {
+      "face": "Face ID"
+    },
+    "software": {
+      "launch_os": "iOS 27",
+      "os_updates_years": 6,
+      "security_updates_years": 7,
+      "policy_note": "Apple publishes no fixed upgrade commitment. Recent iPhones have received about six years of major iOS releases plus further security fixes, so the figures here are platform estimates."
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "apple",
+      "url": "https://www.apple.com/iphone-18-pro/specs/",
+      "checked": "2026-09-15"
+    },
+    "fields": {
+      "specs.memory.ram_gb": {
+        "class": "database",
+        "source": "gsmarena",
+        "url": "https://www.gsmarena.com/here_are_the_iphone_18_pro_and_iphone_18_pro_max_geekbench_scores-news-74559.php",
+        "note": "Read from a pre-release Geekbench listing."
+      },
+      "specs.build.dimensions": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Converted from Apple's published inch values."
+      },
+      "specs.charging.wired_w": {
+        "class": "estimated",
+        "source": "apple",
+        "note": "Apple gives a time-based claim and an adapter rating, not the phone's maximum input. The adapter rating is used as an estimate."
+      },
+      "specs.software.os_updates_years": {
+        "class": "estimated",
+        "source": "apple",
+        "note": "Apple publishes no fixed upgrade commitment. Recent iPhones have received about six years of major iOS releases plus further security fixes, so the figures here are platform estimates."
+      },
+      "specs.software.security_updates_years": {
+        "class": "estimated",
+        "source": "apple",
+        "note": "Apple publishes no fixed upgrade commitment. Recent iPhones have received about six years of major iOS releases plus further security fixes, so the figures here are platform estimates."
+      },
+      "announced": {
+        "class": "official",
+        "source": "apple",
+        "url": "https://www.apple.com/newsroom/2026/09/apple-debuts-iphone-18-pro-and-iphone-18-pro-max/",
+        "checked": "2026-09-22",
+        "note": "Apple's announcement (9 September 2026): pre-orders from 12 September and availability from 18 September in more than 65 countries including Malaysia."
+      },
+      "released": {
+        "class": "official",
+        "source": "apple",
+        "url": "https://www.apple.com/newsroom/2026/09/apple-debuts-iphone-18-pro-and-iphone-18-pro-max/",
+        "checked": "2026-09-22",
+        "note": "Apple's announcement (9 September 2026): pre-orders from 12 September and availability from 18 September in more than 65 countries including Malaysia."
+      },
+      "specs.camera.rear": {
+        "class": "official",
+        "source": "apple",
+        "url": "https://support.apple.com/en-my/148591",
+        "checked": "2026-09-22",
+        "note": "Added in Version 10 from Apple Malaysia's iPhone 18 Pro Max specification page: 48 MP Ultra Wide and 48 MP 4x Telephoto cameras, Wi-Fi 7 (802.11be) with 2x2 MIMO."
+      },
+      "specs.connectivity.wifi": {
+        "class": "official",
+        "source": "apple",
+        "url": "https://support.apple.com/en-my/148591",
+        "checked": "2026-09-22",
+        "note": "Added in Version 10 from Apple Malaysia's iPhone 18 Pro Max specification page: 48 MP Ultra Wide and 48 MP 4x Telephoto cameras, Wi-Fi 7 (802.11be) with 2x2 MIMO."
+      }
+    }
+  },
+  "dataStatus": "checked",
+  "image": {
+    "kind": "official",
+    "src": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/iphone-18-pro-max.png",
+    "page": "https://www.apple.com/iphone-18-pro/specs/",
+    "credit": "Apple",
+    "checked": "2026-09-19"
+  }
+}

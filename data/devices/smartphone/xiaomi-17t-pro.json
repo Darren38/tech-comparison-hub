@@ -1,0 +1,197 @@
+{
+  "id": "xiaomi-17t-pro",
+  "name": "Xiaomi 17T Pro",
+  "brand": "xiaomi",
+  "category": "smartphone",
+  "series": "T",
+  "form": "bar",
+  "status": "released",
+  "announced": "2026-05-28",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 2899,
+      "config": "12 GB / 256 GB",
+      "date": "2026-05-28",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2026/394119/xiaomi-17t-series-officially-launches-pre-orders-now-available-in-malaysia/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 3199,
+      "config": "12 GB / 512 GB",
+      "date": "2026-05-28",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2026/394119/xiaomi-17t-series-officially-launches-pre-orders-now-available-in-malaysia/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 3499,
+      "config": "12 GB / 1 TB",
+      "date": "2026-05-28",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2026/394119/xiaomi-17t-series-officially-launches-pre-orders-now-available-in-malaysia/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://i02.appmifile.com/44_item_my/18/05/2026/bf8cf4046f4cfc5159e09879ba7cf2d2.png",
+    "page": "https://www.mi.com/my/product/xiaomi-17t-pro/specs/",
+    "credit": "Xiaomi Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.83,
+      "type": "AMOLED",
+      "resolution": "2772 × 1280",
+      "refresh_hz": 144,
+      "peak_nits": 3500,
+      "protection": "Corning Gorilla Glass 7i",
+      "ppi": 447
+    },
+    "platform": {
+      "chipset": "dimensity-9500",
+      "gpu": "Mali G1-Ultra",
+      "cpu": "1 x C1-Ultra, up to 4.21GHz; 3 x C1-Premium, up to 3.5GHz; 4 x C1-Pro, up to 2.7GHz"
+    },
+    "memory": {
+      "ram_gb": [
+        12
+      ],
+      "storage_gb": [
+        256,
+        512,
+        1024
+      ],
+      "ram_type": "LPDDR5X",
+      "storage_type": "UFS 4.1"
+    },
+    "battery": {
+      "capacity_mah": 7000,
+      "chemistry": "silicon-carbon"
+    },
+    "charging": {
+      "wired_w": 100,
+      "wireless_w": 50,
+      "claim": "100W wired HyperCharge; 50W wireless Hyper Charge"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "aperture": "f/1.67",
+          "ois": true
+        },
+        {
+          "role": "telephoto",
+          "mp": 50
+        }
+      ],
+      "front": "32 MP",
+      "rear_detail": [
+        "Leica 23mm main camera, 50MP, Light Fusion 950, 2.4μm 4-in-1 Super Pixel, f/1.67, OIS, 23mm equivalent focal length",
+        "Leica 115mm periscope telephoto, 50MP, f/3.0, OIS, 115mm equivalent focal length",
+        "Leica 15mm ultra-wide camera, 12MP, f/2.2, 15mm equivalent focal length, 120º FOV"
+      ],
+      "video": "8K@30fps; 1080p",
+      "front_detail": [
+        "32MP in-display selfie camera, 32MP, f/2.2, 21mm equivalent focal length, 90° FOV"
+      ],
+      "front_video": "4K@30fps; 1080p"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true,
+      "bands_3g": "B1/2/4/5/8",
+      "bands_4g": "LTE FDD: B1/2/3/4/5/7/8/12/13/17/18/19/20/25/26/28/32/66/71; LTE TDD: B34/38/39/40/41/42/48",
+      "bands_5g": "5G: SA: n1/2/3/5/7/8/12/20/25/26/28/34/38/39/40/41/48/; 5G: NSA: n1/2/3/5/7/8/20/28/38/40/41/66/71/75/77/78",
+      "technology": "HSPA / LTE / 5G",
+      "positioning": "L1+ L5; GLONASS: G1; Beidou: B1I + B1C + B2a + B2b; Galileo: E1 + E5a + E5b; NavIC: L5; QZSS: L1+L5; A-GPS supplementary positioning; Wireless network; Data network; Audio & Video Playback; Dual stereo speakers; Dolby Atmos, Hi-Res & Hi-Res Wireless; Supports audio formats: MP3, FLAC, APE, AAC, OGG,",
+      "sim": "Dual SIM (nano SIM + nano SIM or nano SIM + eSIM or eSIM + eSIM)",
+      "wifi": "Wi-Fi 7 capability",
+      "bluetooth": "Bluetooth 6.0",
+      "usb": "USB-C"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 162.2,
+        "width_mm": 77.5,
+        "depth_mm": 8.25
+      },
+      "weight_g": 219.0,
+      "ip": "IP68"
+    },
+    "software": {
+      "launch_os": "Xiaomi HyperOS 3"
+    },
+    "sensors": "Proximity sensor, Ambient light sensor, Accelerometer, Gyroscope, Electronic compass, IR blaster, Flicker sensor, X-axis linear vibration motor, Color temperature sensor",
+    "audio": {
+      "speakers": "Dual stereo speakers"
+    },
+    "biometrics": {
+      "fingerprint": "In-screen fingerprint sensor"
+    },
+    "misc": {
+      "colors": "Black, Deep Violet, Deep Blue"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "xiaomi",
+      "url": "https://www.mi.com/my/product/xiaomi-17t-pro/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from Xiaomi Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "specs.memory": {
+        "class": "news",
+        "source": "lowyat",
+        "url": "https://www.lowyat.net/2026/394119/xiaomi-17t-series-officially-launches-pre-orders-now-available-in-malaysia/",
+        "note": "Memory options as listed in Malaysian launch pricing; the maker's current Malaysian specification data lists fewer.",
+        "checked": "2026-09-18"
+      },
+      "announced": {
+        "class": "news",
+        "source": "lowyat",
+        "url": "https://www.lowyat.net/2026/394119/xiaomi-17t-series-officially-launches-pre-orders-now-available-in-malaysia/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (Lowyat.NET). The global announcement can be earlier."
+      },
+      "specs.memory.ram_type": {
+        "class": "official",
+        "source": "xiaomi",
+        "url": "https://www.mi.com/my/product/xiaomi-17t-pro/specs/",
+        "checked": "2026-09-18",
+        "note": "Read from Xiaomi Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+      },
+      "specs.memory.storage_type": {
+        "class": "official",
+        "source": "xiaomi",
+        "url": "https://www.mi.com/my/product/xiaomi-17t-pro/specs/",
+        "checked": "2026-09-18",
+        "note": "Read from Xiaomi Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

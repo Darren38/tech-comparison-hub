@@ -1,0 +1,146 @@
+{
+  "id": "iqoo-13",
+  "name": "iQOO 13",
+  "brand": "iqoo",
+  "category": "smartphone",
+  "series": "iQOO",
+  "form": "bar",
+  "status": "released",
+  "announced": "2024-12-05",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 3499,
+      "config": "12 GB / 256 GB",
+      "date": "2024-12-05",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2024/12/05/iqoo-13-malaysia-launch-price-specs/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 3699,
+      "config": "16 GB / 512 GB",
+      "date": "2024-12-05",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2024/12/05/iqoo-13-malaysia-launch-price-specs/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 6.82,
+      "type": "AMOLED",
+      "resolution": "3168 × 1440",
+      "refresh_hz": 144,
+      "ppi": 510
+    },
+    "platform": {
+      "chipset": "snapdragon-8-elite",
+      "process": "3nm",
+      "cpu": "8 cores; 4.32 GHz × 2 + 3.53 GHz × 6"
+    },
+    "memory": {
+      "ram_gb": [
+        12,
+        16
+      ],
+      "storage_gb": [
+        256,
+        512
+      ],
+      "ram_type": "LPDDR5X Ultra",
+      "storage_type": "UFS4.1"
+    },
+    "battery": {
+      "capacity_mah": 6150,
+      "chemistry": "Li-ion battery"
+    },
+    "charging": {
+      "wired_w": 120,
+      "claim": "120W FlashCharge"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50
+        }
+      ],
+      "rear_text": "Rear: 50 MP + 50 MP + 50 MP",
+      "front": "32 MP",
+      "rear_detail": [
+        "50 MP",
+        "50 MP",
+        "50 MP"
+      ],
+      "front_detail": [
+        "32 MP"
+      ]
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true,
+      "bands_2g": "850/900/1800/1900MHz",
+      "bands_3g": "B1/B2/B4/B5/B6/B8/B19",
+      "bands_4g": "4G FDD-LTE: B1/B2/B3/B4/B5/B7/B8/B18/B19/B20/B26/B28",
+      "bands_5g": "5G: n1/n3/n5/n7/n8/n20/n28A/n28B/n38/n40/n41/n77/n78",
+      "technology": "GSM / HSPA / LTE / 5G",
+      "sim": "2 nano SIMs",
+      "bluetooth": "Bluetooth 5.4",
+      "usb": "USB 3.2 Gen1",
+      "positioning": "L1, L5",
+      "radio": "No",
+      "wifi": "Wi-Fi; Wi-Fi Display, 2×2 MIMO, MU-MIMO, Wi-Fi 6, Wi-Fi 7, 2.4G&5G dual band, 2.4G&6G dual band"
+    },
+    "build": {
+      "weight_g": 213.0,
+      "ip": "IP69",
+      "back": "Glass (Legend), fiberglass (Alpha)"
+    },
+    "software": {
+      "launch_os": "Funtouch OS 15"
+    },
+    "biometrics": {
+      "fingerprint": "3D ultrasonic single fingerprint sensor"
+    },
+    "sensors": "Accelerometer, Ambient Light Sensor, Proximity Sensor, E-compass, Gyroscope, Color Temperature Sensor, Front color temperature sensor, Rear color temperature sensor, Motor, Linear"
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "iqoo",
+      "url": "https://www.iqoo.com/my/products/param/iqoo-13",
+      "checked": "2026-09-18",
+      "note": "Read from iQOO Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2024/12/05/iqoo-13-malaysia-launch-price-specs/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1733211065324/c68213a8297cb7415d7043c86b0ad6dd.png",
+    "page": "https://www.iqoo.com/my/products/param/iqoo-13",
+    "credit": "vivo Malaysia",
+    "checked": "2026-09-19"
+  }
+}

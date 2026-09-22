@@ -1,0 +1,117 @@
+{
+  "id": "motorola-edge-60-pro",
+  "name": "Motorola Edge 60 Pro",
+  "brand": "motorola",
+  "category": "smartphone",
+  "series": "Edge",
+  "form": "bar",
+  "status": "released",
+  "announced": "2025-04-24",
+  "released": "2025-05",
+  "segment": "mid-range",
+  "aliases": [
+    "Edge 60 Pro"
+  ],
+  "summary": "Upper mid-ranger with a curved pOLED display, a 3× telephoto and 90 W charging.",
+  "highlights": [
+    "3× telephoto at a mid-range price",
+    "IP68 + IP69 and MIL-STD-810H",
+    "90 W charging"
+  ],
+  "prices": [],
+  "availability": {
+    "MY": {
+      "status": "not-found",
+      "checked": "2026-09-16",
+      "note": "Searched Malaysian tech media and Motorola's websites."
+    }
+  },
+  "image": {
+    "kind": "photo",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Motorola_Edge_60_Pro_%28cropped%29.jpg/500px-Motorola_Edge_60_Pro_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Motorola_Edge_60_Pro_(cropped).jpg",
+    "title": "Motorola Edge 60 Pro (cropped)",
+    "author": "Meniirtjakarintan",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "checked": "2026-09-17"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.7,
+      "type": "pOLED (curved)",
+      "resolution": "2712 × 1220",
+      "ppi": 444,
+      "refresh_hz": 120,
+      "peak_nits": 4500
+    },
+    "platform": {
+      "chipset": "dimensity-8350",
+      "chipset_note": "Dimensity 8350 Extreme"
+    },
+    "memory": {
+      "ram_gb": [
+        8,
+        12
+      ],
+      "storage_gb": [
+        256,
+        512
+      ]
+    },
+    "battery": {
+      "capacity_mah": 6000
+    },
+    "charging": {
+      "wired_w": 90,
+      "wireless_w": 15
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50
+        },
+        {
+          "role": "ultrawide",
+          "mp": 50
+        },
+        {
+          "role": "telephoto",
+          "mp": 10,
+          "zoom_x": 3
+        }
+      ],
+      "zoom_optical_x": 3,
+      "front": "50 MP"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 160.7,
+        "width_mm": 73.1,
+        "depth_mm": 8.2
+      },
+      "weight_g": 186,
+      "ip": "IP68 + IP69"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true
+    },
+    "software": {
+      "launch_os": "Android 15, Hello UI",
+      "os_updates_years": 3,
+      "security_updates_years": 4
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "motorola",
+      "url": "https://www.motorola.com",
+      "note": "Compiled from Motorola's launch specifications; not re-checked this session."
+    },
+    "fields": {}
+  },
+  "dataStatus": "compiled"
+}

@@ -1,0 +1,84 @@
+{
+  "id": "huawei-watch-5",
+  "name": "Huawei Watch 5",
+  "brand": "huawei",
+  "category": "smartwatch",
+  "series": "Watch",
+  "form": "watch",
+  "status": "released",
+  "announced": "2025-05-23",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1799,
+      "date": "2025-05-23",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/05/23/huawei-watch-fit-4-fit-4-pro-watch-5-malaysia-launch-price/",
+      "class": "news",
+      "accessed": "2026-09-18",
+      "note": "Starting price."
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 1.5,
+      "type": "AMOLED",
+      "resolution": "466 × 466"
+    },
+    "battery": {
+      "life_h": 72
+    },
+    "connectivity": {
+      "gps": "Built-in GNSS",
+      "nfc": true,
+      "cellular": "LTE option",
+      "usb": "Wireless charging; System Requirements; Android 9.0 or later; iOS 13.0 or later; Waterproof Level",
+      "positioning": "L1: GPS + GLONASS + GALILEO + BeiDou + QZSS; L5: GPS + GALILEO + BeiDou + QZSS",
+      "wifi": "2.4 GHz + 5 GHz; IEEE 802.11a/b/g/n/ac/ax 1 × 1; Environment",
+      "bluetooth": "Bluetooth"
+    },
+    "build": {
+      "water": "5 ATM",
+      "water_m": 50,
+      "ip": "IP69"
+    },
+    "sensors": "HUAWEI WATCH 5 46 mm, Acceleration sensor, Gyroscope sensor, Compass sensor, Optical heart rate sensor 6.0, Barometer sensor, Ambient light sensor, Body temperature sensor, ECG sensor, Depth sensor, X-TAP sensor, HUAWEI WATCH 5 42 mm, Tactile Sensor, Button, Up button (Rotating Crown) + Down button + HUAWEI X-TAP",
+    "audio": {
+      "speakers": "Microphone"
+    },
+    "charging": {
+      "claim": "Charger Voltage and Current Requirements; 5V-10V DC/2A MAX"
+    },
+    "misc": {
+      "colors": "Purple, Silver"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "huawei",
+      "url": "https://consumer.huawei.com/my/wearables/watch-5/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from Huawei Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2025/05/23/huawei-watch-fit-4-fit-4-pro-watch-5-malaysia-launch-price/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      }
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/wearables/watch-5/img/kv/kv-xs.webp",
+    "page": "https://consumer.huawei.com/my/wearables/watch-5/",
+    "credit": "Huawei",
+    "checked": "2026-09-19"
+  }
+}

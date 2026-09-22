@@ -1,0 +1,15 @@
+{
+  "id": "unisoc-t7225",
+  "name": "Unisoc T7225",
+  "vendor": "unisoc",
+  "summary": "Name recorded from phone makers' specification pages and launch reports. Chip details have not been compiled yet.",
+  "provenance": {
+    "default": {
+      "class": "news",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2025/348706/vivo-y04-officially-lands-in-malaysia-priced-at-rm399/",
+      "checked": "2026-09-18",
+      "note": "Chip name as given for the vivo Y04."
+    }
+  }
+}

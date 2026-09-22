@@ -1,0 +1,70 @@
+{
+  "id": "xiaomi-smart-band-8",
+  "name": "Xiaomi Smart Band 8",
+  "brand": "xiaomi",
+  "category": "band",
+  "series": "Band",
+  "form": "band",
+  "status": "released",
+  "announced": "2023-09-27",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 199,
+      "date": "2023-09-27",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2023/308130/xiaomi-watch-2-pro-smart-band-8/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://i02.appmifile.com/596_item_my/13/05/2024/d88411e309976844aedd16d2c2666994.png",
+    "page": "https://www.mi.com/my/product/xiaomi-smart-band-8/specs/",
+    "credit": "Xiaomi Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 1.62,
+      "type": "AMOLED",
+      "resolution": "490 × 192",
+      "peak_nits": 600
+    },
+    "battery": {
+      "life_h": 384,
+      "capacity_mah": 190
+    },
+    "build": {
+      "weight_g": 27.0,
+      "water": "5 ATM",
+      "water_m": 50
+    },
+    "sensors": "High precision 6-axis senser, PPG heart rate sensor, Ambient light sensor",
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.1"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "xiaomi",
+      "url": "https://www.mi.com/my/product/xiaomi-smart-band-8/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from Xiaomi Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "lowyat",
+        "url": "https://www.lowyat.net/2023/308130/xiaomi-watch-2-pro-smart-band-8/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (Lowyat.NET). The global announcement can be earlier."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

@@ -1,0 +1,64 @@
+{
+  "id": "vivo-watch-gt",
+  "name": "vivo Watch GT",
+  "brand": "vivo",
+  "category": "smartwatch",
+  "series": "Watch",
+  "form": "watch",
+  "status": "released",
+  "announced": "2025-06-30",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 499,
+      "config": "Summer Black",
+      "date": "2025-06-30",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2025/357149/vivo-x200-fe-official-malaysia-for-rm3199/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 549,
+      "config": "Cloud White",
+      "date": "2025-06-30",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2025/357149/vivo-x200-fe-official-malaysia-for-rm3199/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "specs": {
+    "battery": {
+      "life_h": 504,
+      "claim": "Up to 21 days"
+    },
+    "connectivity": {
+      "nfc": true
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "news",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2025/357149/vivo-x200-fe-official-malaysia-for-rm3199/",
+      "note": "The maker no longer publishes a specification page for this model. Key specs were taken from this Malaysian launch report, which gives the maker's figures.",
+      "checked": "2026-09-18"
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "lowyat",
+        "url": "https://www.lowyat.net/2025/357149/vivo-x200-fe-official-malaysia-for-rm3199/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (Lowyat.NET). The global announcement can be earlier."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

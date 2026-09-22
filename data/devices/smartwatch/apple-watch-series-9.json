@@ -1,0 +1,113 @@
+{
+  "id": "apple-watch-series-9",
+  "name": "Apple Watch Series 9",
+  "brand": "apple",
+  "category": "smartwatch",
+  "series": "Apple Watch",
+  "form": "watch",
+  "status": "released",
+  "announced": "2023-09-13",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1899,
+      "config": "41 mm, aluminium, GPS",
+      "date": "2023-09-13",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2023/09/13/apple-watch-series-9-more-environmentally-focused-a-brighter-screen-and-new-s9-chip/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 2399,
+      "config": "41 mm, aluminium, GPS + Cellular",
+      "date": "2023-09-13",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2023/09/13/apple-watch-series-9-more-environmentally-focused-a-brighter-screen-and-new-s9-chip/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 2049,
+      "config": "45 mm, aluminium, GPS",
+      "date": "2023-09-13",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2023/09/13/apple-watch-series-9-more-environmentally-focused-a-brighter-screen-and-new-s9-chip/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 2549,
+      "config": "45 mm, aluminium, GPS + Cellular",
+      "date": "2023-09-13",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2023/09/13/apple-watch-series-9-more-environmentally-focused-a-brighter-screen-and-new-s9-chip/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/apple-watch-series-9.png",
+    "page": "https://support.apple.com/en-my/111833",
+    "credit": "Apple",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "type": "LTPO OLED",
+      "peak_nits": 2000
+    },
+    "battery": {
+      "life_h": 36
+    },
+    "connectivity": {
+      "gps": "Built-in GNSS",
+      "cellular": "LTE option"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 45.0,
+        "width_mm": 38.0,
+        "depth_mm": 10.7
+      },
+      "weight_g": 38.7,
+      "water": "50 m",
+      "water_m": 50
+    },
+    "software": {
+      "launch_os": "watchOS"
+    },
+    "sensors": "Electrical heart sensor, Third-generation optical heart sensor, Temperature sensing, Compass, Always-on altimeter, High-g accelerometer, High dynamic range gyroscope, Ambient light sensor, Health and Wellness, ECG app, Cycle Tracking app with retrospective ovulation estimates, Heart Rate app"
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "apple",
+      "url": "https://support.apple.com/en-my/111833",
+      "checked": "2026-09-18",
+      "note": "Read from Apple Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2023/09/13/apple-watch-series-9-more-environmentally-focused-a-brighter-screen-and-new-s9-chip/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

@@ -1,0 +1,132 @@
+{
+  "id": "vivo-x90",
+  "name": "vivo X90",
+  "brand": "vivo",
+  "category": "smartphone",
+  "series": "X",
+  "form": "bar",
+  "status": "released",
+  "announced": "2023-02-03",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 3699,
+      "config": "12 GB / 256 GB",
+      "date": "2023-02-03",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2023/02/03/vivo-x90-5g-now-available-from-celcom-and-digi-available-from-as-low-as-rm58-month/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/product/1681294232760/zip/img/vivo-x90-series-mobi.jpg.webp",
+    "page": "https://www.vivo.com/my/products/x90",
+    "credit": "vivo Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.78,
+      "type": "AMOLED",
+      "resolution": "2800 × 1260",
+      "refresh_hz": 120,
+      "ppi": 453
+    },
+    "platform": {
+      "chipset": "dimensity-9200"
+    },
+    "memory": {
+      "ram_gb": [
+        12
+      ],
+      "storage_gb": [
+        256
+      ]
+    },
+    "battery": {
+      "capacity_mah": 4810
+    },
+    "charging": {
+      "wired_w": 120,
+      "claim": "120W FlashCharge"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "aperture": "f/1.75"
+        }
+      ],
+      "rear_text": "Rear: 50MP + 12MP + 12MP",
+      "front": "32 MP",
+      "rear_detail": [
+        "50MP, f/1.75",
+        "12MP, f/2.0",
+        "12MP, f/1.98"
+      ],
+      "front_detail": [
+        "32MP, f/2.45"
+      ]
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true,
+      "bands_2g": "850/900/1800/1900MHz",
+      "bands_3g": "B1/B2/B4/B5/B8",
+      "bands_4g": "4G TDD-LTE: B34/B38/B39/B40/B41; 4G FDD-LTE: B1/B2/B3/B4/B5/B7/B8/B18/B19/B20/B26/B28",
+      "bands_5g": "5G: n1/n3/n5/n7/n8/n28/n38/n40/n41/n77/n78",
+      "technology": "GSM / HSPA / LTE / 5G",
+      "bluetooth": "Bluetooth 5.3",
+      "usb": "USB Type-C, USB 2.0",
+      "positioning": "GPS, BEIDOU, GLONASS, GALILEO, QZSS, NavIC, A-GPS, Cellular positioning, WLAN positioning",
+      "wifi": "Wi-Fi; Wi-Fi 6, Wi-Fi 5, 2.4G/5G, Wi-Fi Display, 2×2 MIMO, MU MIMO"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 164.1,
+        "width_mm": 74.44,
+        "depth_mm": 8.48
+      },
+      "weight_g": 200.0
+    },
+    "software": {
+      "launch_os": "Funtouch OS 13 (Based on Android 13.0)"
+    },
+    "misc": {
+      "colors": "Breeze Blue, Asteroid Black, Body"
+    },
+    "sensors": "Fingerprint, In-display fingerprint sensor, Accelerometer, Color Temperature Sensor, Ambient Light Sensor, Proximity Sensor, E-compass, Gyroscope, Motor, Linear motor, Laser focusing sensor, Infrared blaster",
+    "biometrics": {
+      "fingerprint": "In-display fingerprint sensor"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "vivo",
+      "url": "https://www.vivo.com/my/products/param/x90",
+      "checked": "2026-09-18",
+      "note": "Read from vivo Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2023/02/03/vivo-x90-5g-now-available-from-celcom-and-digi-available-from-as-low-as-rm58-month/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

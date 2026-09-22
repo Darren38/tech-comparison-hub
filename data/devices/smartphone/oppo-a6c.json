@@ -1,0 +1,122 @@
+{
+  "id": "oppo-a6c",
+  "name": "OPPO A6c",
+  "brand": "oppo",
+  "category": "smartphone",
+  "series": "A",
+  "form": "bar",
+  "status": "released",
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-18",
+      "source": "oppo",
+      "url": "https://www.oppo.com/my/smartphones/series-a/a6c/specs/",
+      "note": "Sold in Malaysia, but no launch price was found in Malaysian launch coverage."
+    }
+  },
+  "image": {
+    "kind": "official",
+    "src": "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/a6c-en/list-page/480-600-purple.png",
+    "page": "https://www.oppo.com/my/smartphones/series-a/a6c/",
+    "credit": "OPPO Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.75,
+      "type": "LCD",
+      "resolution": "1570 × 720",
+      "refresh_hz": 120,
+      "peak_nits": 900,
+      "ppi": 256
+    },
+    "platform": {
+      "chipset": "unisoc-t7250",
+      "gpu": "Mali-G57@850MHz",
+      "cpu": "8-core"
+    },
+    "memory": {
+      "ram_gb": [
+        4
+      ],
+      "storage_gb": [
+        64,
+        128
+      ],
+      "ram_type": "LPDDR4X",
+      "storage_type": "UFS 2.2",
+      "card": "Yes"
+    },
+    "battery": {
+      "capacity_mah": 7000
+    },
+    "charging": {
+      "wired_w": 15,
+      "claim": "Supports(Max): 15 W Normal Charge, 15 W PD"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 13,
+          "aperture": "f/2.2"
+        }
+      ],
+      "front": "5 MP",
+      "rear_detail": [
+        "Wide angle: 13MP; f/2.2; FOV 81°; 4P lens; AF supported"
+      ],
+      "front_detail": [
+        "5MP; f/2.2; FOV 77°; 3P lens"
+      ],
+      "video": "1080p@30fps"
+    },
+    "connectivity": {
+      "cellular": "4G",
+      "nfc": true,
+      "bands_2g": "850/900/1800MHz",
+      "bands_3g": "Band 1/5/8",
+      "bands_4g": "LTE FDD: Band 1/3/5/7/8/20/28; LTE TDD: Band 38/40/41",
+      "technology": "GSM / HSPA / LTE",
+      "sim": "Nano-SIM card, Nano-USIM card; eSIM",
+      "bluetooth": "Bluetooth 5.2, Low Energy",
+      "usb": "USB Type-C",
+      "positioning": "Beidou, GPS, GLONASS, Galileo, QZSS",
+      "wifi": "Wi-Fi 5 (802.11ac) supported; 802.11a/b/g/n supported"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 166.48,
+        "width_mm": 78.23,
+        "depth_mm": 8.95
+      },
+      "weight_g": 215.0
+    },
+    "biometrics": {
+      "fingerprint": "Side fingerprint",
+      "face": "Yes"
+    },
+    "sensors": "Proximity sensor, Ambient light sensor, E-compass, Accelerometer, Side fingerprint sensor",
+    "misc": {
+      "colors": "Stone Brown, Feather Purple"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "oppo",
+      "url": "https://www.oppo.com/my/smartphones/series-a/a6c/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from OPPO Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

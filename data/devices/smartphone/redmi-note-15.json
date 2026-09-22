@@ -1,0 +1,145 @@
+{
+  "id": "redmi-note-15",
+  "name": "Redmi Note 15",
+  "brand": "redmi",
+  "category": "smartphone",
+  "series": "Redmi Note",
+  "form": "bar",
+  "status": "released",
+  "announced": "2026-01-15",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 799,
+      "config": "8 GB / 256 GB",
+      "date": "2026-01-15",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2026/01/15/redmi-note-15-series-price-specs-launch-malaysia/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 6.77,
+      "type": "AMOLED",
+      "resolution": "2392 × 1080",
+      "refresh_hz": 120,
+      "peak_nits": 3200,
+      "ppi": 388
+    },
+    "platform": {
+      "chipset": "helio-g100",
+      "gpu": "Mali-G57 MC2",
+      "cpu": "Octa-core processor, up to 2.2GHz"
+    },
+    "memory": {
+      "ram_gb": [
+        8
+      ],
+      "storage_gb": [
+        256
+      ],
+      "ram_type": "LPDDR4X",
+      "storage_type": "UFS2.2"
+    },
+    "battery": {
+      "capacity_mah": 6000
+    },
+    "charging": {
+      "wired_w": 33,
+      "claim": "33W turbo charging"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 108,
+          "sensor": "1/1.67\"",
+          "aperture": "f/1.7"
+        },
+        {
+          "role": "depth",
+          "mp": 2
+        }
+      ],
+      "front": "20 MP",
+      "rear_detail": [
+        "108MP main camera, 0.64μm, 9in1 1.92μm, f/1.7, 6P lens, 1/1.67\" sensor size",
+        "2MP depth camera, f/2.4"
+      ],
+      "video": "1080p@60fps",
+      "front_detail": [
+        "20MP front camera, sensor size 1/4'', f/2.2, 4P lens"
+      ],
+      "front_video": "1080p@30fps"
+    },
+    "connectivity": {
+      "cellular": "4G",
+      "nfc": true,
+      "bands_3g": "1/5/8",
+      "bands_4g": "LTE FDD: 1/3/5/7/8/20/28; LTE TDD: 1/2/3/4/5/7/8/12/13/17/18/19/26/28/66; LTE FDD: 38/40/41",
+      "technology": "HSPA / LTE",
+      "wifi": "802.11a/b/g/n/ac; Supports 2.4GHz Wi-Fi; 5GHz Wi-Fi; Supports Wi-Fi Direct",
+      "positioning": "L1; A-GPS supplementary positioning; GLONASS: G1; BDS: B1I; Galileo E1; Electronic compass; Wireless network; Data network; Sensor Assisted Positioning",
+      "sim": "SIM 1 + Hybrid (SIM or microSD) Dual standby",
+      "bluetooth": "Bluetooth 5.3",
+      "usb": "USB Type-C"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 164.03,
+        "width_mm": 75.42,
+        "depth_mm": 7.94
+      },
+      "weight_g": 183.7,
+      "ip": "IP64"
+    },
+    "software": {
+      "launch_os": "Xiaomi HyperOS 2"
+    },
+    "sensors": "Proximity sensor, Ambient light sensor, Accelerometer, Electronic compass, IR blaster, Gyroscope",
+    "audio": {
+      "speakers": "Dual speakers"
+    },
+    "biometrics": {
+      "fingerprint": "In-screen fingerprint sensor"
+    },
+    "misc": {
+      "colors": "Black, Purple, Glacier Blue"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "redmi",
+      "url": "https://www.mi.com/my/product/redmi-note-15/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from Xiaomi Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2026/01/15/redmi-note-15-series-price-specs-launch-malaysia/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://i02.appmifile.com/800_operatorx_operatorx_opx/08/01/2026/b79aa1573cae4278dd0c344f406337ce.png",
+    "page": "https://www.mi.com/global/product/redmi-note-15/specs/",
+    "credit": "Xiaomi",
+    "checked": "2026-09-19"
+  }
+}

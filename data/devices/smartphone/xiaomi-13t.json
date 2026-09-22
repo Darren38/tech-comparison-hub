@@ -1,0 +1,124 @@
+{
+  "id": "xiaomi-13t",
+  "name": "Xiaomi 13T",
+  "brand": "xiaomi",
+  "category": "smartphone",
+  "series": "T",
+  "form": "bar",
+  "status": "released",
+  "announced": "2023-09-05",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1799,
+      "config": "8 GB / 256 GB",
+      "date": "2023-09-26",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2023/09/26/xiaomi-13t-malaysia-144hz-display-leica-cameras-and-ip68-rating-on-a-budget/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1999,
+      "config": "12 GB / 256 GB",
+      "date": "2023-09-05",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2023/09/05/xiaomi-13t-and-13t-pro-leica-cameras-26-sept-malaysia-soon/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "photo",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Xiaomi_13T_XIG04%28%E3%82%A2%E3%83%AB%E3%83%91%E3%82%A4%E3%83%B3%E3%83%96%E3%83%AB%E3%83%BC%29.jpg/500px-Xiaomi_13T_XIG04%28%E3%82%A2%E3%83%AB%E3%83%91%E3%82%A4%E3%83%B3%E3%83%96%E3%83%AB%E3%83%BC%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Xiaomi_13T_XIG04(%E3%82%A2%E3%83%AB%E3%83%91%E3%82%A4%E3%83%B3%E3%83%96%E3%83%AB%E3%83%BC).jpg",
+    "title": "Xiaomi 13T XIG04(アルパインブルー)",
+    "author": "けいあ",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "checked": "2026-09-19"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.67,
+      "type": "AMOLED",
+      "resolution": "2712 × 1220",
+      "refresh_hz": 144,
+      "peak_nits": 2600,
+      "ppi": 446
+    },
+    "platform": {
+      "chipset": "dimensity-8200-ultra"
+    },
+    "memory": {
+      "ram_gb": [
+        8,
+        12
+      ],
+      "storage_gb": [
+        256
+      ]
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "charging": {
+      "wired_w": 67
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50
+        },
+        {
+          "role": "ultrawide",
+          "mp": 12
+        },
+        {
+          "role": "telephoto",
+          "mp": 50
+        }
+      ]
+    },
+    "build": {
+      "ip": "IP68"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true
+    },
+    "software": {
+      "launch_os": "MIUI 14 (Android 13 base)"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "news",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2023/09/26/xiaomi-13t-malaysia-144hz-display-leica-cameras-and-ip68-rating-on-a-budget/",
+      "note": "The maker no longer publishes a specification page for this model. Key specs were taken from this Malaysian launch report, which gives the maker's figures.",
+      "checked": "2026-09-18"
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2023/09/05/xiaomi-13t-and-13t-pro-leica-cameras-26-sept-malaysia-soon/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

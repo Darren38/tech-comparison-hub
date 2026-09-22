@@ -1,0 +1,139 @@
+[
+  {
+    "id": "gizmochina-8eg5-d9500-a19pro",
+    "kind": "analysis",
+    "source": "gizmochina",
+    "title": "Snapdragon 8 Elite Gen 5 vs Dimensity 9500 vs Apple A19 Pro: Benchmarks and specs",
+    "url": "https://www.gizmochina.com/2025/10/20/snapdragon-8-elite-gen-5-vs-dimensity-9500-vs-apple-a19-pro-benchmarks-and-specs/",
+    "published": "2025-10-20",
+    "accessed": "2026-09-15",
+    "class": "database",
+    "devices": ["vivo-x300-pro", "apple-iphone-17-pro"],
+    "chipsets": ["snapdragon-8-elite-gen-5", "dimensity-9500", "apple-a19-pro"],
+    "facets": ["performance"],
+    "method": "Compiled comparison. The Snapdragon result was tested on the HONOR Magic8 (not in this database), the Dimensity on the vivo X300 Pro and the A19 Pro on the iPhone 17 Pro. The run method is not documented.",
+    "records": [
+      { "subject": "snapdragon-8-elite-gen-5", "metric": "gb6_single", "value": 3634, "note": "Tested on HONOR Magic8" },
+      { "subject": "snapdragon-8-elite-gen-5", "metric": "gb6_multi", "value": 10813, "note": "Tested on HONOR Magic8" },
+      { "subject": "snapdragon-8-elite-gen-5", "metric": "antutu_v11", "value": 4166339, "note": "Tested on HONOR Magic8" },
+      { "subject": "vivo-x300-pro", "metric": "gb6_single", "value": 3177 },
+      { "subject": "vivo-x300-pro", "metric": "gb6_multi", "value": 9701 },
+      { "subject": "vivo-x300-pro", "metric": "antutu_v11", "value": 4011932 },
+      { "subject": "apple-iphone-17-pro", "metric": "gb6_single", "value": 3784 },
+      { "subject": "apple-iphone-17-pro", "metric": "gb6_multi", "value": 9752 },
+      { "subject": "apple-iphone-17-pro", "metric": "antutu_v10", "value": 2431628 }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "nbc-geekerwan-efficiency-2025",
+    "kind": "analysis",
+    "type": "analysis",
+    "source": "notebookcheck",
+    "testedBy": "geekerwan",
+    "title": "Qualcomm Snapdragon 8 Elite Gen 5 vs Dimensity 9500 and Apple A19 Pro in efficiency analysis",
+    "url": "https://www.notebookcheck.net/Qualcomm-Snapdragon-8-Elite-Gen-5-vs-Dimensity-9500-and-Apple-A19-Pro-in-efficiency-analysis.1123883.0.html",
+    "author": "Hannes Brecher",
+    "published": "2025-09-25",
+    "accessed": "2026-09-15",
+    "class": "measured",
+    "chipsets": ["snapdragon-8-elite-gen-5", "apple-a19-pro", "snapdragon-8-elite", "dimensity-9500"],
+    "facets": ["efficiency", "performance"],
+    "method": "Power measurements by Geekerwan, as reported by Notebookcheck. CPU power at full load; GPU power during 3DMark Steel Nomad Light. Figures are approximate ('around') in the report.",
+    "summary": "Geekerwan's measurements show the Snapdragon 8 Elite Gen 5 drawing about 19 W at full CPU load, against 12 W for the A19 Pro. On the GPU side it draws 1–3 W less than the Apple and MediaTek chips in Steel Nomad Light.",
+    "records": [
+      { "subject": "snapdragon-8-elite-gen-5", "metric": "cpu_power", "value": 19, "note": "About 19 W at full CPU load" },
+      { "subject": "apple-a19-pro", "metric": "cpu_power", "value": 12 },
+      { "subject": "snapdragon-8-elite", "metric": "cpu_power", "value": 17 },
+      { "subject": "snapdragon-8-elite-gen-5", "metric": "gpu_power", "value": 12, "note": "About 12 W; 1–3 W below the Apple and MediaTek competitors" }
+    ],
+    "findings": [
+      { "subject": "snapdragon-8-elite-gen-5", "facet": "efficiency", "stance": "negative", "text": "At full CPU load it draws about 58% more power than the A19 Pro (19 W vs 12 W)." },
+      { "subject": "snapdragon-8-elite-gen-5", "facet": "efficiency", "stance": "positive", "text": "In the Steel Nomad Light GPU test it draws 1–3 W less than the Apple and MediaTek flagships." }
+    ],
+    "extraction": "partial"
+  },
+  {
+    "id": "nbc-mrwhosetheboss-battery-2026",
+    "kind": "analysis",
+    "type": "analysis",
+    "source": "notebookcheck",
+    "testedBy": "mrwhosetheboss",
+    "title": "Galaxy S26 Ultra proves specs aren't everything as testing reveals cool thermals and 12% longer battery vs Galaxy S25 Ultra",
+    "url": "https://www.notebookcheck.net/Galaxy-S26-Ultra-proves-specs-aren-t-everything-as-testing-reveals-cool-thermals-and-12-longer-battery-vs-Galaxy-S25-Ultra.1239338.0.html",
+    "author": "Fawad Murtaza",
+    "published": "2026-03-02",
+    "accessed": "2026-09-15",
+    "class": "measured",
+    "devices": ["oppo-find-x9-pro", "oneplus-15", "samsung-galaxy-s26-ultra", "apple-iphone-17-pro-max", "xiaomi-17-ultra", "samsung-galaxy-s25-ultra", "google-pixel-10-pro-xl"],
+    "facets": ["battery", "thermals"],
+    "method": "Mrwhosetheboss side-by-side battery rundown (single pass, identical scripted routine) and thermal checks, as reported by Notebookcheck. Results are only comparable within this test.",
+    "summary": "In Mrwhosetheboss's side-by-side rundown the Galaxy S26 Ultra lasted 12 hours, about 12% longer than the S25 Ultra, and ran coolest under extreme load.",
+    "records": [
+      { "subject": "oppo-find-x9-pro", "metric": "battery_rundown", "value": 14.267 },
+      { "subject": "oneplus-15", "metric": "battery_rundown", "value": 12.917 },
+      { "subject": "samsung-galaxy-s26-ultra", "metric": "battery_rundown", "value": 12.0 },
+      { "subject": "apple-iphone-17-pro-max", "metric": "battery_rundown", "value": 11.533 },
+      { "subject": "xiaomi-17-ultra", "metric": "battery_rundown", "value": 11.45 },
+      { "subject": "samsung-galaxy-s25-ultra", "metric": "battery_rundown", "value": 10.717 },
+      { "subject": "google-pixel-10-pro-xl", "metric": "battery_rundown", "value": 9.883 }
+    ],
+    "findings": [
+      { "subject": "samsung-galaxy-s26-ultra", "facet": "thermals", "stance": "positive", "text": "Coolest phone under extreme load (gaming plus three Geekbench runs)." },
+      { "subject": "apple-iphone-17-pro-max", "facet": "thermals", "stance": "positive", "text": "Among the coolest phones in both routine use and extreme load." },
+      { "subject": "oppo-find-x9-pro", "facet": "thermals", "stance": "negative", "text": "Hottest under extreme load, reaching 42 °C." },
+      { "subject": "google-pixel-10-pro-xl", "facet": "thermals", "stance": "negative", "text": "Reached 32 °C in routine use, the warmest of the group." },
+      { "subject": "samsung-galaxy-s26-ultra", "facet": "battery", "stance": "positive", "text": "Outlasted rivals with much bigger batteries except the Find X9 Pro and OnePlus 15, despite its 5,000 mAh cell." }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "beebom-8elite-vs-d9400",
+    "kind": "analysis",
+    "source": "beebom",
+    "title": "Snapdragon 8 Elite vs Dimensity 9400: Benchmark Comparison",
+    "url": "https://beebom.com/snapdragon-8-elite-vs-dimensity-9400-benchmark-comparison/",
+    "published": "2024-11",
+    "publishedApprox": true,
+    "accessed": "2026-09-15",
+    "class": "measured",
+    "chipsets": ["snapdragon-8-elite", "dimensity-9400"],
+    "facets": ["performance", "gaming", "thermals"],
+    "method": "In-house Geekbench 6 and 3DMark Wild Life Extreme Stress Test runs. Test phones are not named in the excerpt. Wild Life Extreme values are best loops from the stress test.",
+    "verification": "excerpt",
+    "records": [
+      { "subject": "snapdragon-8-elite", "metric": "gb6_single", "value": 3033 },
+      { "subject": "snapdragon-8-elite", "metric": "gb6_multi", "value": 9271 },
+      { "subject": "snapdragon-8-elite", "metric": "wle", "value": 6311, "note": "Best loop (lowest 5,258)" },
+      { "subject": "snapdragon-8-elite", "metric": "wle_stability", "value": 83.3 },
+      { "subject": "dimensity-9400", "metric": "gb6_single", "value": 2618 },
+      { "subject": "dimensity-9400", "metric": "gb6_multi", "value": 8291 },
+      { "subject": "dimensity-9400", "metric": "wle", "value": 5839, "note": "Best loop (lowest 2,306)" },
+      { "subject": "dimensity-9400", "metric": "wle_stability", "value": 39.5 }
+    ],
+    "findings": [
+      { "subject": "dimensity-9400", "facet": "thermals", "stance": "negative", "text": "Throttled heavily in the 3DMark stress test, holding only 39.5% of its best loop." },
+      { "subject": "snapdragon-8-elite", "facet": "gaming", "stance": "positive", "text": "Held 83% of its best loop in the 3DMark stress test." }
+    ],
+    "extraction": "partial"
+  },
+  {
+    "id": "beebom-8elite-vs-a18pro",
+    "kind": "analysis",
+    "source": "beebom",
+    "title": "Snapdragon 8 Elite vs A18 Pro: Benchmark Comparison",
+    "url": "https://beebom.com/snapdragon-8-elite-vs-a18-pro-benchmark-comparison/",
+    "published": "2024-11",
+    "publishedApprox": true,
+    "accessed": "2026-09-15",
+    "class": "measured",
+    "chipsets": ["apple-a18-pro", "snapdragon-8-elite"],
+    "facets": ["performance"],
+    "method": "In-house Geekbench 6 runs.",
+    "verification": "excerpt",
+    "records": [
+      { "subject": "apple-a18-pro", "metric": "gb6_single", "value": 3358 }
+    ],
+    "extraction": "partial"
+  }
+]

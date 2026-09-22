@@ -1,0 +1,16 @@
+{
+  "id": "kirin-9010",
+  "name": "Kirin 9010",
+  "vendor": "hisilicon",
+  "family": "Kirin",
+  "summary": "Name recorded from phone makers' specification pages and launch reports. Chip details have not been compiled yet.",
+  "provenance": {
+    "default": {
+      "class": "news",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2024/321475/huawei-pura-70-series-malaysia/",
+      "checked": "2026-09-18",
+      "note": "Chip name as given for the Huawei Pura 70."
+    }
+  }
+}

@@ -1,0 +1,337 @@
+{
+  "version": 1,
+  "verdict": {
+    "tieMargin": 3,
+    "minCoverage": 0.34,
+    "note": "Scores are 0–100, relative to the best consensus value in the same device category. A lead smaller than the tie margin is reported as too close to call."
+  },
+  "categories": [
+    {
+      "id": "performance",
+      "label": "Performance",
+      "facet": "performance",
+      "question": "Which is faster in everyday and heavy CPU work?",
+      "metrics": {
+        "default": [
+          {
+            "id": "gb6_single",
+            "w": 0.3
+          },
+          {
+            "id": "gb6_multi",
+            "w": 0.35
+          },
+          {
+            "alt": [
+              "antutu_v11",
+              "antutu_v10"
+            ],
+            "w": 0.35
+          }
+        ]
+      }
+    },
+    {
+      "id": "gaming",
+      "label": "Gaming",
+      "facet": "gaming",
+      "question": "Which is better for demanding games, including long sessions?",
+      "metrics": {
+        "default": [
+          {
+            "id": "wle",
+            "w": 0.45
+          },
+          {
+            "id": "wle_stability",
+            "w": 0.35
+          },
+          {
+            "id": "solar_bay",
+            "w": 0.2
+          }
+        ]
+      }
+    },
+    {
+      "id": "battery",
+      "label": "Battery life",
+      "facet": "battery",
+      "question": "Which lasts longer on a charge?",
+      "metrics": {
+        "default": [
+          {
+            "id": "gsma_active_use",
+            "w": 0.7
+          },
+          {
+            "id": "spec_battery_mah",
+            "w": 0.3
+          }
+        ],
+        "tablet": [
+          {
+            "id": "spec_battery_wh",
+            "w": 1
+          }
+        ],
+        "smartwatch": [
+          {
+            "id": "spec_battery_life",
+            "w": 1
+          }
+        ],
+        "band": [
+          {
+            "id": "spec_battery_life",
+            "w": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "charging",
+      "label": "Charging",
+      "facet": "charging",
+      "question": "Which refills faster?",
+      "metrics": {
+        "default": [
+          {
+            "id": "charge_full",
+            "w": 0.45
+          },
+          {
+            "id": "spec_wired_w",
+            "w": 0.35
+          },
+          {
+            "id": "spec_wireless_w",
+            "w": 0.2
+          }
+        ],
+        "tablet": [
+          {
+            "id": "spec_wired_w",
+            "w": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "display",
+      "label": "Display",
+      "facet": "display",
+      "question": "Which screen is brighter and sharper?",
+      "metrics": {
+        "default": [
+          {
+            "id": "nits_auto",
+            "w": 0.25
+          },
+          {
+            "id": "nits_peak",
+            "w": 0.15
+          },
+          {
+            "id": "nits_manual",
+            "w": 0.15
+          },
+          {
+            "id": "spec_peak_nits",
+            "w": 0.1
+          },
+          {
+            "id": "spec_refresh",
+            "w": 0.15
+          },
+          {
+            "id": "spec_ppi",
+            "w": 0.2
+          }
+        ],
+        "tablet": [
+          {
+            "id": "spec_peak_nits",
+            "w": 0.35
+          },
+          {
+            "id": "spec_refresh",
+            "w": 0.35
+          },
+          {
+            "id": "spec_ppi",
+            "w": 0.3
+          }
+        ],
+        "smartwatch": [
+          {
+            "id": "spec_peak_nits",
+            "w": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "camera",
+      "label": "Camera hardware",
+      "facet": "camera",
+      "question": "Which has the more capable camera hardware?",
+      "specOnly": true,
+      "note": "Based on hardware specifications only (sensor size and optical reach). No image-quality lab data is in the database yet, so this is not a verdict on photo quality.",
+      "metrics": {
+        "default": [
+          {
+            "id": "spec_main_sensor",
+            "w": 0.55
+          },
+          {
+            "id": "spec_zoom",
+            "w": 0.45
+          }
+        ]
+      }
+    },
+    {
+      "id": "software",
+      "label": "Software support",
+      "facet": "software",
+      "question": "Which will be supported with updates for longer?",
+      "metrics": {
+        "default": [
+          {
+            "id": "spec_os_years",
+            "w": 0.6
+          },
+          {
+            "id": "spec_security_years",
+            "w": 0.4
+          }
+        ]
+      }
+    },
+    {
+      "id": "build",
+      "label": "Build & portability",
+      "facet": "build",
+      "question": "Which is tougher and easier to carry?",
+      "metrics": {
+        "default": [
+          {
+            "id": "spec_ip",
+            "w": 0.6
+          },
+          {
+            "id": "spec_weight",
+            "w": 0.4
+          }
+        ]
+      }
+    },
+    {
+      "id": "durability",
+      "label": "Durability",
+      "facet": "durability",
+      "question": "Which is better protected for sport and outdoor use?",
+      "metrics": {
+        "default": [
+          {
+            "id": "spec_water_m",
+            "w": 0.7
+          },
+          {
+            "id": "spec_weight",
+            "w": 0.3
+          }
+        ]
+      }
+    }
+  ],
+  "profiles": [
+    {
+      "id": "balanced",
+      "label": "Balanced",
+      "description": "An all-rounder weighting for most buyers.",
+      "weights": {
+        "performance": 0.15,
+        "gaming": 0.1,
+        "battery": 0.2,
+        "charging": 0.1,
+        "display": 0.15,
+        "camera": 0.15,
+        "software": 0.1,
+        "build": 0.05,
+        "durability": 0.1
+      }
+    },
+    {
+      "id": "gaming",
+      "label": "Gaming",
+      "description": "Sustained GPU performance first, then CPU speed, battery and screen.",
+      "weights": {
+        "gaming": 0.4,
+        "performance": 0.2,
+        "battery": 0.15,
+        "display": 0.15,
+        "charging": 0.1
+      }
+    },
+    {
+      "id": "photography",
+      "label": "Photography",
+      "description": "Camera hardware first. Spec-based until image-quality lab data is added.",
+      "weights": {
+        "camera": 0.55,
+        "display": 0.15,
+        "battery": 0.1,
+        "performance": 0.1,
+        "software": 0.1
+      }
+    },
+    {
+      "id": "battery",
+      "label": "Battery life",
+      "description": "Endurance and charging speed above everything else.",
+      "weights": {
+        "battery": 0.6,
+        "charging": 0.25,
+        "software": 0.1,
+        "build": 0.05
+      }
+    },
+    {
+      "id": "student",
+      "label": "Student / value",
+      "description": "Price-to-capability, battery and years of updates.",
+      "weights": {
+        "value": 0.35,
+        "battery": 0.2,
+        "software": 0.2,
+        "performance": 0.1,
+        "build": 0.1,
+        "charging": 0.05
+      }
+    },
+    {
+      "id": "longterm",
+      "label": "Long-term use",
+      "description": "Update commitments, toughness, battery and performance headroom.",
+      "weights": {
+        "software": 0.4,
+        "build": 0.2,
+        "durability": 0.2,
+        "battery": 0.2,
+        "performance": 0.2
+      }
+    },
+    {
+      "id": "performance",
+      "label": "Raw performance",
+      "description": "Fastest CPU and GPU, with battery as a tiebreaker.",
+      "weights": {
+        "performance": 0.55,
+        "gaming": 0.3,
+        "battery": 0.15
+      }
+    }
+  ]
+}

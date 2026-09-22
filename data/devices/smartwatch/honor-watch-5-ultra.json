@@ -1,0 +1,63 @@
+{
+  "id": "honor-watch-5-ultra",
+  "name": "HONOR Watch 5 Ultra",
+  "brand": "honor",
+  "category": "smartwatch",
+  "series": "Watch",
+  "form": "watch",
+  "status": "released",
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-18",
+      "source": "honor",
+      "url": "https://www.honor.com/my/wearables/honor-watch-5-ultra/spec/",
+      "note": "Sold in Malaysia, but no launch price was found in Malaysian launch coverage."
+    }
+  },
+  "specs": {
+    "display": {
+      "size_in": 1.5,
+      "resolution": "466 × 466"
+    },
+    "connectivity": {
+      "gps": "Built-in GNSS",
+      "usb": "Wireless charging; Compatibility; Android 9.0 or later and iOS 13.0 or later; Water Resistance Level; 5ATM, IP68",
+      "positioning": "GPS+GLONASS+GALILEO+BDS+QZSS",
+      "bluetooth": "2.4 GHz, BT 5.2, supports BLE/BR/EDR"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 46.3,
+        "width_mm": 46.3,
+        "depth_mm": 11.4
+      },
+      "weight_g": 51.8,
+      "water": "5 ATM",
+      "water_m": 50,
+      "ip": "IP68"
+    },
+    "audio": {
+      "speakers": "Microphone; Charger Voltage and Current; 5V-9V DC / 2A"
+    },
+    "sensors": "Accelerometer sensor, Gyroscope sensor, Magnetometer sensor, Optical heart rate sensor, Barometer sensor, Ambient light sensor"
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "honor",
+      "url": "https://www.honor.com/my/wearables/honor-watch-5-ultra/spec/",
+      "checked": "2026-09-18",
+      "note": "Read from HONOR Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {}
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://www.honor.com/content/dam/honor/common/product-list/wearables/product-series/honor-watch-5-ultra/honor-watch-5-ultra-brown-500.png",
+    "page": "https://www.honor.com/my/wearables/honor-watch-5-ultra/spec/",
+    "credit": "HONOR",
+    "checked": "2026-09-19"
+  }
+}

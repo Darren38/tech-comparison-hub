@@ -1,0 +1,146 @@
+{
+  "id": "oppo-reno8-t-5g",
+  "name": "OPPO Reno8 T 5G",
+  "brand": "oppo",
+  "category": "smartphone",
+  "series": "Reno",
+  "form": "bar",
+  "status": "released",
+  "announced": "2023-02-22",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1799,
+      "config": "8 GB / 256 GB",
+      "date": "2023-02-22",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2023/02/22/oppo-reno8-t-5g-3-phone-under-rm2000-microscope-lens-108mp-camera-curved-display/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/reno8-t-5g-en/listpage/reno8-t-5g_sunrise-gold_427_600.png",
+    "page": "https://www.oppo.com/my/smartphones/series-reno/reno8-t-5g/",
+    "credit": "OPPO Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.7,
+      "type": "AMOLED",
+      "resolution": "2412 × 1080",
+      "refresh_hz": 120,
+      "peak_nits": 950,
+      "protection": "AGC DT-Star2",
+      "ppi": 394
+    },
+    "platform": {
+      "chipset": "snapdragon-695",
+      "gpu": "Adreno 619 @ 840MHz",
+      "cpu": "8 cores, up to 2.2GHz"
+    },
+    "memory": {
+      "ram_gb": [
+        8
+      ],
+      "storage_gb": [
+        256
+      ],
+      "ram_type": "LPDDR4X",
+      "storage_type": "UFS2.2",
+      "card": "Yes"
+    },
+    "battery": {
+      "capacity_mah": 4800
+    },
+    "charging": {
+      "wired_w": 67,
+      "claim": "SUPERVOOC 67W; SUPERVOOC 60W/50W/33W and USB-PD (9V, 1.5A); OTG reverse charging"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 108,
+          "aperture": "f/1.7"
+        },
+        {
+          "role": "depth",
+          "mp": 2
+        }
+      ],
+      "front": "32 MP",
+      "rear_detail": [
+        "108MP; f/1.7; FOV 84°; 6P lens; AF",
+        "Depth camera: 2MP; f/2.4; FOV 89°; 3P lens; FF",
+        "Microlens: 2MP; f/3.3; FOV 65°; 3P lens; FF"
+      ],
+      "front_detail": [
+        "32MP; f/2.4; FOV 89°; 5P lens; FF"
+      ],
+      "video": "1080p@30fps",
+      "front_video": "1080p"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true,
+      "bands_2g": "850/900/1800/1900MHz",
+      "bands_5g": "5G NR: n1/n3/n5/n7/n8/n20/n28/n38/n40/n41/n66/n77/n78",
+      "technology": "GSM / 5G",
+      "sim": "Nano-SIM card",
+      "bluetooth": "Bluetooth v5.1, Low Energy TWS",
+      "usb": "USB Type-C",
+      "positioning": "GPS, BDS, GLONASS, Galileo, and QZSS",
+      "wifi": "Wi-Fi 5 (802.11ac) and 802.11a/b/g/n; 2.4GHz, 5.1GHz, and 5.8GHz Wi-Fi"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 162.3,
+        "width_mm": 74.3,
+        "depth_mm": 7.7
+      },
+      "weight_g": 171.0
+    },
+    "software": {
+      "launch_os": "ColorOS 13"
+    },
+    "biometrics": {
+      "face": "Yes"
+    },
+    "sensors": "Geomagnetic sensor, Ambient light sensor, Proximity sensor, Accelerometer, Gravity sensor, Gyroscope, Pedometer, * In order to make the front of the phone more compact, the light sensor hole is hidden at the top of the screen. Screen protectors with poor light transmission, such as those that are colored or darkened, may block the light sensor hole and affect the normal use of the phone.",
+    "audio": {
+      "jack": false
+    },
+    "misc": {
+      "colors": "Midnight Black, Sunrise Gold"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "oppo",
+      "url": "https://www.oppo.com/my/smartphones/series-reno/reno8-t-5g/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from OPPO Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2023/02/22/oppo-reno8-t-5g-3-phone-under-rm2000-microscope-lens-108mp-camera-curved-display/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

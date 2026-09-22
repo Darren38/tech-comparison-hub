@@ -1,0 +1,122 @@
+{
+  "id": "apple-watch-ultra-3",
+  "name": "Apple Watch Ultra 3",
+  "brand": "apple",
+  "category": "smartwatch",
+  "series": "Apple Watch Ultra",
+  "form": "watch",
+  "status": "released",
+  "announced": "2025-09-09",
+  "released": "2025-09-19",
+  "segment": "flagship",
+  "aliases": [
+    "Watch Ultra 3",
+    "AWU3"
+  ],
+  "summary": "Apple's rugged watch with a larger wide-angle OLED, 42-hour battery life, 5G and satellite SOS.",
+  "highlights": [
+    "42 h battery (72 h low power)",
+    "Satellite SOS and 5G",
+    "100 m water rating"
+  ],
+  "prices": [
+    {
+      "region": "US",
+      "currency": "USD",
+      "amount": 799,
+      "config": "49 mm",
+      "date": "2025-09-09",
+      "type": "launch",
+      "source": "apple"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 3699,
+      "config": "49 mm",
+      "date": "2025-09-10",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/09/10/apple-watch-se-3-series-11-ultra-3-malaysia-price-availability-specs/",
+      "class": "news",
+      "accessed": "2026-09-16"
+    }
+  ],
+  "image": {
+    "kind": "photo",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Apple_Watch_Ultra_3_Ti_Ocean_Band_%282026%29_06.jpg/500px-Apple_Watch_Ultra_3_Ti_Ocean_Band_%282026%29_06.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Apple_Watch_Ultra_3_Ti_Ocean_Band_(2026)_06.jpg",
+    "title": "Apple Watch Ultra 3 Ti Ocean Band (2026) 06",
+    "author": "Gpkp",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "checked": "2026-09-17"
+  },
+  "specs": {
+    "display": {
+      "size_mm": "49 mm",
+      "type": "LTPO3 wide-angle OLED, always-on",
+      "peak_nits": 3000
+    },
+    "platform": {
+      "chipset": "apple-s10"
+    },
+    "memory": {
+      "storage_gb": [
+        64
+      ]
+    },
+    "battery": {
+      "life_h": 42,
+      "life_low_power_h": 72
+    },
+    "health": {
+      "sensors": [
+        "Optical heart rate",
+        "Electrical heart (ECG)",
+        "Blood oxygen",
+        "Skin temperature",
+        "Depth gauge",
+        "Water temperature"
+      ],
+      "features": [
+        "Hypertension notifications",
+        "Sleep score",
+        "Fall and crash detection"
+      ]
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 49,
+        "width_mm": 44,
+        "depth_mm": 12
+      },
+      "weight_g": 61.6,
+      "case": "Titanium",
+      "water": "WR100, EN13319 (dive to 40 m)",
+      "water_m": 100,
+      "ip": "IP6X"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "satellite": true,
+      "nfc": true,
+      "gps": "Dual-frequency (L1 + L5)",
+      "compatibility": "iPhone only"
+    },
+    "software": {
+      "launch_os": "watchOS 26"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "apple",
+      "url": "https://support.apple.com/en-us/125095",
+      "checked": "2026-09-15",
+      "note": "Cross-checked against 9to5Mac launch coverage."
+    },
+    "fields": {}
+  },
+  "dataStatus": "checked"
+}

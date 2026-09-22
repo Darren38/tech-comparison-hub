@@ -1,0 +1,150 @@
+{
+  "id": "oppo-reno12-pro",
+  "name": "OPPO Reno12 Pro 5G",
+  "brand": "oppo",
+  "category": "smartphone",
+  "series": "Reno",
+  "form": "bar",
+  "status": "released",
+  "announced": "2024-06-27",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 2599,
+      "date": "2024-06-27",
+      "type": "launch",
+      "source": "nasilemaktech",
+      "url": "https://nasilemaktech.com/oppo-reno12-series-malaysia-price/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/reno-12-pro-en/listpage/427-600-silver.png",
+    "page": "https://www.oppo.com/my/smartphones/series-reno/reno12-pro/",
+    "credit": "OPPO Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.7,
+      "type": "AMOLED",
+      "resolution": "2412 × 1080",
+      "refresh_hz": 120,
+      "peak_nits": 1200,
+      "protection": "Corning Gorilla Glass Victus 2 (GGV2)",
+      "ppi": 394
+    },
+    "platform": {
+      "chipset": "dimensity-7300",
+      "gpu": "Arm Mali-G615",
+      "cpu": "8 cores"
+    },
+    "memory": {
+      "ram_gb": [
+        12
+      ],
+      "storage_gb": [
+        512
+      ],
+      "ram_type": "LPDDR4X@2133MHz, 2 × 16 bits",
+      "storage_type": "UFS 3.1"
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "aperture": "f/1.8",
+          "ois": true
+        },
+        {
+          "role": "ultrawide",
+          "mp": 8
+        },
+        {
+          "role": "telephoto",
+          "mp": 50
+        }
+      ],
+      "front": "50 MP",
+      "rear_detail": [
+        "Main: 50MP; f/1.8; FOV 79°; 5P lens; AF; OIS supported",
+        "Ultra-wide angle: 8MP; f/2.2; FOV 112°; 5P lens",
+        "Telephoto: 50MP; f/2.0; FOV 50°; 5P lens; AF supported"
+      ],
+      "front_detail": [
+        "50MP, f/2.0, FOV 90°; 5P lens; AF supported"
+      ],
+      "video": "4K@60fps; 1080p",
+      "front_video": "4K@30fps; 1080p"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true,
+      "bands_2g": "850/900/1800/1900MHz",
+      "bands_3g": "Bands 1/2/4/5/6/8/19",
+      "bands_4g": "LTE FDD: Bands 1/2/3/4/5/7/8/12/13/17/18/19/20/26/28/66; LTE TDD: Bands 38/39/40/41",
+      "bands_5g": "5G NR: n77/n78/n38/n40/n41/n1/n2/n3/n5/n7/n8/n12/n20/n26/n28/n66",
+      "technology": "GSM / HSPA / LTE / 5G",
+      "sim": "Nano-SIM card",
+      "bluetooth": "Bluetooth 5.4",
+      "usb": "USB Type-C",
+      "positioning": "Beidou, GPS, GLONASS, Galileo, and QZSS",
+      "wifi": "Wi-Fi 6 (802.11ax), Wi-Fi 5 (802.11ac), 802.11a/b/g/n"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 161.5,
+        "width_mm": 74.8,
+        "depth_mm": 7.4
+      },
+      "weight_g": 180.0
+    },
+    "software": {
+      "launch_os": "ColorOS 14.1"
+    },
+    "charging": {
+      "claim": "Protocols supported: SUPERVOOC 2.0, SUPERVOOC , VOOC 3.0, and PD2.0 (9 V, 1.5 A)"
+    },
+    "biometrics": {
+      "face": "Yes"
+    },
+    "sensors": "Geomagnetic sensor, In-display proximity sensor, In-display optical sensor, Acceleration sensor, Gravity sensor, Color temperature sensor, Gyroscope, Step counting, Infrared remote control",
+    "audio": {
+      "jack": false
+    },
+    "misc": {
+      "colors": "Space Brown, Nebula Silver"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "oppo",
+      "url": "https://www.oppo.com/my/smartphones/series-reno/reno12-pro/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from OPPO Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "nasilemaktech",
+        "url": "https://nasilemaktech.com/oppo-reno12-series-malaysia-price/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (Nasi Lemak Tech). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

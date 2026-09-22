@@ -1,0 +1,121 @@
+{
+  "id": "vivo-x200-pro",
+  "name": "vivo X200 Pro",
+  "brand": "vivo",
+  "category": "smartphone",
+  "series": "vivo X",
+  "form": "bar",
+  "status": "released",
+  "announced": "2024-10-14",
+  "released": "2024-11",
+  "segment": "camera-flagship",
+  "aliases": [
+    "X200 Pro"
+  ],
+  "summary": "Late-2024 ZEISS flagship on the Dimensity 9400, with a 200 MP 3.7× periscope.",
+  "highlights": [
+    "200 MP 3.7× periscope",
+    "6,000 mAh battery",
+    "Dimensity 9400"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 4699,
+      "config": "16 GB / 512 GB",
+      "date": "2024-11-19",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2024/11/19/vivo-x200-series-launch-malaysia-price/",
+      "class": "news",
+      "accessed": "2026-09-16"
+    }
+  ],
+  "image": {
+    "kind": "photo",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Vivo_X200_Pro_blue.png/500px-Vivo_X200_Pro_blue.png",
+    "page": "https://commons.wikimedia.org/wiki/File:Vivo_X200_Pro_blue.png",
+    "title": "Vivo X200 Pro blue",
+    "author": "X-SHLIED",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "checked": "2026-09-17"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.78,
+      "type": "LTPO AMOLED",
+      "resolution": "2800 × 1260",
+      "ppi": 453,
+      "refresh_hz": 120,
+      "peak_nits": 4500
+    },
+    "platform": {
+      "chipset": "dimensity-9400"
+    },
+    "memory": {
+      "ram_gb": [
+        12,
+        16
+      ],
+      "storage_gb": [
+        256,
+        512,
+        1024
+      ]
+    },
+    "battery": {
+      "capacity_mah": 6000
+    },
+    "charging": {
+      "wired_w": 90,
+      "wireless_w": 30
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "sensor": "1/1.28\"",
+          "note": "LYT-818"
+        },
+        {
+          "role": "ultrawide",
+          "mp": 50
+        },
+        {
+          "role": "periscope",
+          "mp": 200,
+          "sensor": "1/1.4\"",
+          "zoom_x": 3.7,
+          "note": "HP9"
+        }
+      ],
+      "zoom_optical_x": 3.7,
+      "front": "32 MP"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 162.4,
+        "width_mm": 75.9,
+        "depth_mm": 8.2
+      },
+      "weight_g": 223,
+      "ip": "IP68 + IP69"
+    },
+    "software": {
+      "launch_os": "Android 15, Funtouch OS 15"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "vivo",
+      "url": "https://www.vivo.com/en",
+      "note": "Compiled from vivo's launch specifications; not re-checked this session."
+    },
+    "fields": {}
+  },
+  "dataStatus": "compiled"
+}

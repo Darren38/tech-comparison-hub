@@ -1,0 +1,665 @@
+{
+  "id": "smartphone",
+  "name": "Smartphones",
+  "singular": "Smartphone",
+  "order": 1,
+  "schematic": "slab",
+  "scoreCategories": [
+    "performance",
+    "gaming",
+    "battery",
+    "charging",
+    "display",
+    "camera",
+    "software",
+    "build"
+  ],
+  "cardFields": [
+    "display.size_in",
+    "platform.chipset",
+    "battery.capacity_mah",
+    "charging.wired_w"
+  ],
+  "specSections": [
+    {
+      "id": "network",
+      "label": "Network",
+      "facet": "connectivity",
+      "fields": [
+        {
+          "key": "connectivity.technology",
+          "label": "Technology",
+          "type": "text"
+        },
+        {
+          "key": "connectivity.cellular",
+          "label": "Fastest network",
+          "type": "text"
+        },
+        {
+          "key": "connectivity.bands_2g",
+          "label": "2G bands",
+          "type": "text"
+        },
+        {
+          "key": "connectivity.bands_3g",
+          "label": "3G bands",
+          "type": "text"
+        },
+        {
+          "key": "connectivity.bands_4g",
+          "label": "4G bands",
+          "type": "text"
+        },
+        {
+          "key": "connectivity.bands_5g",
+          "label": "5G bands",
+          "type": "text"
+        },
+        {
+          "key": "connectivity.modem",
+          "label": "Modem",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": "launch",
+      "label": "Launch",
+      "facet": "software",
+      "fields": [
+        {
+          "key": "@announced",
+          "label": "Announced",
+          "type": "date"
+        },
+        {
+          "key": "@released",
+          "label": "On sale",
+          "type": "date"
+        }
+      ]
+    },
+    {
+      "id": "body",
+      "label": "Body",
+      "facet": "build",
+      "fields": [
+        {
+          "key": "build.dimensions",
+          "label": "Dimensions",
+          "type": "dimensions"
+        },
+        {
+          "key": "build.weight_g",
+          "label": "Weight",
+          "type": "number",
+          "unit": "g",
+          "better": "lower"
+        },
+        {
+          "key": "build.front",
+          "label": "Front",
+          "type": "text"
+        },
+        {
+          "key": "build.back",
+          "label": "Back",
+          "type": "text"
+        },
+        {
+          "key": "build.frame",
+          "label": "Frame",
+          "type": "text"
+        },
+        {
+          "key": "build.ip",
+          "label": "Ingress protection",
+          "type": "text"
+        },
+        {
+          "key": "build.durability",
+          "label": "Durability",
+          "type": "text"
+        },
+        {
+          "key": "build.stylus",
+          "label": "Stylus",
+          "type": "text"
+        },
+        {
+          "key": "connectivity.sim",
+          "label": "SIM",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": "display",
+      "label": "Display",
+      "facet": "display",
+      "fields": [
+        {
+          "key": "display.type",
+          "label": "Type",
+          "type": "text"
+        },
+        {
+          "key": "display.size_in",
+          "label": "Size",
+          "type": "number",
+          "unit": "in",
+          "digits": 2
+        },
+        {
+          "key": "display.resolution",
+          "label": "Resolution",
+          "type": "text"
+        },
+        {
+          "key": "display.ppi",
+          "label": "Pixel density",
+          "type": "number",
+          "unit": "ppi",
+          "better": "higher"
+        },
+        {
+          "key": "display.refresh_hz",
+          "label": "Max refresh rate",
+          "type": "number",
+          "unit": "Hz",
+          "better": "higher"
+        },
+        {
+          "key": "display.peak_nits",
+          "label": "Peak brightness (claimed)",
+          "type": "number",
+          "unit": "nits",
+          "better": "higher"
+        },
+        {
+          "key": "display.pwm",
+          "label": "Dimming",
+          "type": "text"
+        },
+        {
+          "key": "display.protection",
+          "label": "Protection",
+          "type": "text"
+        },
+        {
+          "key": "display.secondary",
+          "label": "Second display",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": "platform",
+      "label": "Platform",
+      "facet": "performance",
+      "fields": [
+        {
+          "key": "software.launch_os",
+          "label": "OS at launch",
+          "type": "text"
+        },
+        {
+          "key": "platform.chipset",
+          "label": "Chipset",
+          "type": "chipset"
+        },
+        {
+          "key": "platform.chipset_note",
+          "label": "Chipset variant",
+          "type": "text"
+        },
+        {
+          "key": "platform.process",
+          "label": "Process",
+          "type": "text"
+        },
+        {
+          "key": "platform.cpu",
+          "label": "CPU",
+          "type": "text"
+        },
+        {
+          "key": "platform.gpu",
+          "label": "GPU",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": "memory",
+      "label": "Memory",
+      "facet": "performance",
+      "fields": [
+        {
+          "key": "memory.ram_gb",
+          "label": "RAM",
+          "type": "list",
+          "unit": "GB",
+          "better": "higher"
+        },
+        {
+          "key": "memory.storage_gb",
+          "label": "Storage",
+          "type": "storage",
+          "better": "higher"
+        },
+        {
+          "key": "memory.ram_type",
+          "label": "RAM type",
+          "type": "text"
+        },
+        {
+          "key": "memory.storage_type",
+          "label": "Storage type",
+          "type": "text"
+        },
+        {
+          "key": "memory.card",
+          "label": "Card slot",
+          "type": "text"
+        },
+        {
+          "key": "memory.expandable",
+          "label": "Card slot",
+          "type": "bool"
+        }
+      ]
+    },
+    {
+      "id": "camera",
+      "label": "Main camera",
+      "facet": "camera",
+      "fields": [
+        {
+          "key": "camera.rear",
+          "label": "Cameras",
+          "type": "cameras"
+        },
+        {
+          "key": "camera.rear_detail",
+          "label": "Module details",
+          "type": "lines"
+        },
+        {
+          "key": "camera.zoom_optical_x",
+          "label": "Longest optical zoom",
+          "type": "number",
+          "unit": "x",
+          "digits": 1,
+          "better": "higher"
+        },
+        {
+          "key": "camera.features",
+          "label": "Features",
+          "type": "text"
+        },
+        {
+          "key": "camera.video",
+          "label": "Video",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": "selfie",
+      "label": "Selfie camera",
+      "facet": "camera",
+      "fields": [
+        {
+          "key": "camera.front",
+          "label": "Camera",
+          "type": "text"
+        },
+        {
+          "key": "camera.front_detail",
+          "label": "Module details",
+          "type": "lines"
+        },
+        {
+          "key": "camera.front_video",
+          "label": "Video",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": "sound",
+      "label": "Sound",
+      "facet": "build",
+      "fields": [
+        {
+          "key": "audio.speakers",
+          "label": "Loudspeaker",
+          "type": "text"
+        },
+        {
+          "key": "audio.jack",
+          "label": "3.5 mm jack",
+          "type": "bool"
+        }
+      ]
+    },
+    {
+      "id": "comms",
+      "label": "Comms",
+      "facet": "connectivity",
+      "fields": [
+        {
+          "key": "connectivity.wifi",
+          "label": "Wi-Fi",
+          "type": "text"
+        },
+        {
+          "key": "connectivity.bluetooth",
+          "label": "Bluetooth",
+          "type": "text"
+        },
+        {
+          "key": "connectivity.positioning",
+          "label": "Positioning",
+          "type": "text"
+        },
+        {
+          "key": "connectivity.nfc",
+          "label": "NFC",
+          "type": "bool"
+        },
+        {
+          "key": "connectivity.uwb",
+          "label": "UWB",
+          "type": "bool"
+        },
+        {
+          "key": "connectivity.satellite",
+          "label": "Satellite messaging",
+          "type": "bool"
+        },
+        {
+          "key": "connectivity.radio",
+          "label": "Radio",
+          "type": "text"
+        },
+        {
+          "key": "connectivity.usb",
+          "label": "USB",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": "features",
+      "label": "Features",
+      "facet": "build",
+      "fields": [
+        {
+          "key": "sensors",
+          "label": "Sensors",
+          "type": "text"
+        },
+        {
+          "key": "biometrics.fingerprint",
+          "label": "Fingerprint",
+          "type": "text"
+        },
+        {
+          "key": "biometrics.face",
+          "label": "Face unlock",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": "battery",
+      "label": "Battery",
+      "facet": "battery",
+      "fields": [
+        {
+          "key": "battery.capacity_mah",
+          "label": "Capacity",
+          "type": "number",
+          "unit": "mAh",
+          "better": "higher"
+        },
+        {
+          "key": "battery.rated_mah",
+          "label": "Rated capacity",
+          "type": "number",
+          "unit": "mAh",
+          "better": "higher"
+        },
+        {
+          "key": "battery.chemistry",
+          "label": "Type",
+          "type": "text"
+        },
+        {
+          "key": "battery.variants",
+          "label": "Regional variants",
+          "type": "text"
+        },
+        {
+          "key": "battery.video_h",
+          "label": "Video playback (claimed)",
+          "type": "number",
+          "unit": "h",
+          "better": "higher"
+        },
+        {
+          "key": "charging.wired_w",
+          "label": "Wired charging",
+          "type": "number",
+          "unit": "W",
+          "better": "higher"
+        },
+        {
+          "key": "charging.wireless_w",
+          "label": "Wireless charging",
+          "type": "number",
+          "unit": "W",
+          "better": "higher"
+        },
+        {
+          "key": "charging.reverse_w",
+          "label": "Reverse charging",
+          "type": "number",
+          "unit": "W",
+          "better": "higher"
+        },
+        {
+          "key": "charging.claim",
+          "label": "Charging (maker's wording)",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": "misc",
+      "label": "Misc",
+      "facet": "software",
+      "fields": [
+        {
+          "key": "misc.colors",
+          "label": "Colours",
+          "type": "text"
+        },
+        {
+          "key": "misc.models",
+          "label": "Models",
+          "type": "text"
+        },
+        {
+          "key": "software.os_updates_years",
+          "label": "OS upgrade commitment",
+          "type": "number",
+          "unit": "years",
+          "better": "higher"
+        },
+        {
+          "key": "software.security_updates_years",
+          "label": "Security update commitment",
+          "type": "number",
+          "unit": "years",
+          "better": "higher"
+        },
+        {
+          "key": "software.policy_note",
+          "label": "Support note",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "filters": [
+    {
+      "id": "brand",
+      "label": "Brand",
+      "type": "multi"
+    },
+    {
+      "id": "price",
+      "label": "Launch price",
+      "type": "range",
+      "unit": "currency",
+      "step": 100
+    },
+    {
+      "id": "soldMY",
+      "label": "Sold in Malaysia",
+      "type": "bool"
+    },
+    {
+      "id": "year",
+      "label": "Release year",
+      "type": "multi"
+    },
+    {
+      "id": "form",
+      "label": "Form factor",
+      "type": "multi"
+    },
+    {
+      "id": "chipsetVendor",
+      "label": "Chipset maker",
+      "type": "multi"
+    },
+    {
+      "id": "chipset",
+      "label": "Chipset",
+      "type": "multi"
+    },
+    {
+      "id": "osFamily",
+      "label": "Operating system",
+      "type": "multi"
+    },
+    {
+      "id": "ramMax",
+      "label": "RAM (max)",
+      "type": "min",
+      "unit": "GB",
+      "options": [
+        8,
+        12,
+        16,
+        24
+      ]
+    },
+    {
+      "id": "storageMax",
+      "label": "Storage (max)",
+      "type": "min",
+      "unit": "GB",
+      "options": [
+        256,
+        512,
+        1024
+      ]
+    },
+    {
+      "id": "displayIn",
+      "label": "Screen size",
+      "type": "range",
+      "unit": "in",
+      "step": 0.1
+    },
+    {
+      "id": "refreshHz",
+      "label": "Refresh rate",
+      "type": "min",
+      "unit": "Hz",
+      "options": [
+        90,
+        120,
+        144,
+        165
+      ]
+    },
+    {
+      "id": "batteryMah",
+      "label": "Battery",
+      "type": "min",
+      "unit": "mAh",
+      "options": [
+        4500,
+        5000,
+        6000,
+        7000
+      ]
+    },
+    {
+      "id": "wiredW",
+      "label": "Wired charging",
+      "type": "min",
+      "unit": "W",
+      "options": [
+        30,
+        45,
+        65,
+        90,
+        120
+      ]
+    },
+    {
+      "id": "wireless",
+      "label": "Wireless charging",
+      "type": "bool"
+    },
+    {
+      "id": "mainMp",
+      "label": "Main camera",
+      "type": "min",
+      "unit": "MP",
+      "options": [
+        48,
+        50,
+        200
+      ]
+    },
+    {
+      "id": "telephoto",
+      "label": "Telephoto camera",
+      "type": "bool"
+    },
+    {
+      "id": "ip",
+      "label": "IP rating",
+      "type": "multi"
+    },
+    {
+      "id": "g5",
+      "label": "5G",
+      "type": "bool"
+    },
+    {
+      "id": "hasTests",
+      "label": "Independent test data",
+      "type": "bool"
+    }
+  ]
+}

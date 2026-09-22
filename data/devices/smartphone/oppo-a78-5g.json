@@ -1,0 +1,137 @@
+{
+  "id": "oppo-a78-5g",
+  "name": "OPPO A78 5G",
+  "brand": "oppo",
+  "category": "smartphone",
+  "series": "A",
+  "form": "bar",
+  "status": "released",
+  "announced": "2023-01-13",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1099,
+      "config": "8 GB / 128 GB",
+      "date": "2023-01-13",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2023/01/13/the-oppo-a78-5g-costs-over-rm1000-but-has-a-3-year-old-processor-and-only-a-hd-screen/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/a78-5g-en/navigation/a78-5g-427x600_Purple.png",
+    "page": "https://www.oppo.com/my/smartphones/series-a/a78-5g/",
+    "credit": "OPPO Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.56,
+      "type": "LCD",
+      "resolution": "1612 × 720",
+      "refresh_hz": 90,
+      "peak_nits": 600,
+      "protection": "Panda glass (Reinforced once)/Caihong glass (Reinforced once)",
+      "ppi": 269
+    },
+    "platform": {
+      "chipset": "dimensity-700",
+      "gpu": "Mali-G57 MC2 @950Mhz",
+      "cpu": "8 cores, up to 2.2GHz"
+    },
+    "memory": {
+      "ram_gb": [
+        8
+      ],
+      "storage_gb": [
+        128
+      ],
+      "ram_type": "LPDDR4X (2133MHz 2 x 16-bit)",
+      "storage_type": "UFS2.2 @ 2Lanes HS-Gear3",
+      "card": "Yes"
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "charging": {
+      "wired_w": 33,
+      "claim": "33W SUPERVOOC , VOOC, and PD (9 V/2 A) fast charging protocols are supported"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "aperture": "f/1.8"
+        }
+      ],
+      "front": "8 MP",
+      "rear_detail": [
+        "50MP, f/1.8, FOV 77.07°, 5P lens, AF, open-loop focus motor",
+        "Black and white camera: 2MP, f/2.4; FOV 88.8°; lens: 3P + IR; zoom focus"
+      ],
+      "front_detail": [
+        "8MP, f/2.0; FOV 77°; lens: 4P, FF"
+      ],
+      "video": "1080p@30fps",
+      "front_video": "1080p@30fps"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true,
+      "bands_2g": "GSM 850/900/1800/1900MHz",
+      "technology": "GSM",
+      "sim": "Nano-SIM card",
+      "wifi": "Supports Wi-Fi 5 (802.11ac), 802.11a/b/g/n",
+      "bluetooth": "Bluetooth v5.3, Bluetooth Low Energy (Bluetooth Low Energy)",
+      "usb": "USB Type-C",
+      "positioning": "Built-in GPS, A-GPS, BeiDou, GLONASS, GALILEO and QZSS positioning systems"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 163.8,
+        "width_mm": 75.1,
+        "depth_mm": 7.99
+      },
+      "weight_g": 188.0
+    },
+    "software": {
+      "launch_os": "ColorOS 13"
+    },
+    "biometrics": {
+      "face": "Yes"
+    },
+    "sensors": "Ambient light sensor, Proximity sensor, Geomagnetic sensor, Accelerometer, Gravity sensor, Pedometer",
+    "audio": {
+      "jack": true
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "oppo",
+      "url": "https://www.oppo.com/my/smartphones/series-a/a78-5g/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from OPPO Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2023/01/13/the-oppo-a78-5g-costs-over-rm1000-but-has-a-3-year-old-processor-and-only-a-hd-screen/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

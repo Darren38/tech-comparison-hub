@@ -1,0 +1,15 @@
+{
+  "id": "apple-a17-pro",
+  "name": "Apple A17 Pro",
+  "vendor": "apple",
+  "summary": "Name recorded from phone makers' specification pages and launch reports. Chip details have not been compiled yet.",
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "apple",
+      "url": "https://support.apple.com/en-my/111829",
+      "checked": "2026-09-18",
+      "note": "Chip name as given for the iPhone 15 Pro."
+    }
+  }
+}

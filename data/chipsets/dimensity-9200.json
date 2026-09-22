@@ -1,0 +1,16 @@
+{
+  "id": "dimensity-9200",
+  "name": "Dimensity 9200",
+  "vendor": "mediatek",
+  "family": "Dimensity 9000",
+  "summary": "Name recorded from phone makers' specification pages and launch reports. Chip details have not been compiled yet.",
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "oppo",
+      "url": "https://www.oppo.com/my/smartphones/series-find-n/find-n3-flip/specs/",
+      "checked": "2026-09-18",
+      "note": "Chip name as given for the OPPO Find N3 Flip."
+    }
+  }
+}

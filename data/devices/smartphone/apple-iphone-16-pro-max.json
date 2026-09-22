@@ -1,0 +1,175 @@
+{
+  "id": "apple-iphone-16-pro-max",
+  "name": "iPhone 16 Pro Max",
+  "brand": "apple",
+  "category": "smartphone",
+  "series": "iPhone Pro",
+  "form": "bar",
+  "status": "released",
+  "announced": "2024-09-09",
+  "released": "2024-09-20",
+  "segment": "flagship",
+  "aliases": [
+    "16 Pro Max",
+    "16PM"
+  ],
+  "summary": "The 2024 Pro Max with a titanium frame and 5× telephoto. A baseline for the A19 Pro generation.",
+  "highlights": [
+    "Titanium frame",
+    "5× tetraprism telephoto",
+    "A18 Pro"
+  ],
+  "prices": [
+    {
+      "region": "US",
+      "currency": "USD",
+      "amount": 1199,
+      "config": "256 GB",
+      "date": "2024-09-09",
+      "type": "launch",
+      "source": "apple"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 5999,
+      "config": "256 GB",
+      "date": "2024-09-10",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2024/09/10/iphone-16-pro-pro-max-malaysia-launch-price-specs/",
+      "class": "news",
+      "accessed": "2026-09-16"
+    }
+  ],
+  "image": {
+    "kind": "photo",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Back_view_of_iPhone_16_Pro_Max_Natural_Titanium.jpg/500px-Back_view_of_iPhone_16_Pro_Max_Natural_Titanium.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Back_view_of_iPhone_16_Pro_Max_Natural_Titanium.jpg",
+    "title": "Back view of iPhone 16 Pro Max Natural Titanium",
+    "author": "メイド理世",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "checked": "2026-09-17"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.9,
+      "type": "Super Retina XDR OLED, ProMotion",
+      "resolution": "2868 × 1320",
+      "ppi": 460,
+      "refresh_hz": 120,
+      "peak_nits": 2000
+    },
+    "platform": {
+      "chipset": "apple-a18-pro"
+    },
+    "memory": {
+      "ram_gb": [
+        8
+      ],
+      "storage_gb": [
+        256,
+        512,
+        1024
+      ],
+      "expandable": false
+    },
+    "battery": {
+      "capacity_mah": 4685,
+      "video_h": 33
+    },
+    "charging": {
+      "wired_w": 30,
+      "wireless_w": 25,
+      "claim": "Up to 50% in 30 min with a 20 W adapter or higher"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 48,
+          "aperture": "f/1.78",
+          "focal_mm": 24
+        },
+        {
+          "role": "ultrawide",
+          "mp": 48,
+          "aperture": "f/2.2",
+          "focal_mm": 13
+        },
+        {
+          "role": "telephoto",
+          "mp": 12,
+          "aperture": "f/2.8",
+          "focal_mm": 120,
+          "zoom_x": 5
+        }
+      ],
+      "zoom_optical_x": 5,
+      "front": "12 MP"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 163.0,
+        "width_mm": 77.6,
+        "depth_mm": 8.25
+      },
+      "weight_g": 227,
+      "frame": "Titanium",
+      "ip": "IP68 (6 m, 30 min)"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "usb": "USB-C, USB 3",
+      "nfc": true,
+      "uwb": true,
+      "satellite": true
+    },
+    "biometrics": {
+      "face": "Face ID"
+    },
+    "software": {
+      "launch_os": "iOS 18",
+      "os_updates_years": 6,
+      "security_updates_years": 7,
+      "policy_note": "Apple publishes no fixed upgrade commitment. Recent iPhones have received about six years of major iOS releases plus further security fixes, so the figures here are platform estimates."
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "apple",
+      "url": "https://www.apple.com",
+      "note": "Compiled from Apple's specifications; not re-checked this session."
+    },
+    "fields": {
+      "specs.memory.ram_gb": {
+        "class": "database",
+        "source": "gsmarena",
+        "note": "Apple does not list RAM."
+      },
+      "specs.battery.capacity_mah": {
+        "class": "database",
+        "source": "gsmarena",
+        "note": "From regulatory filings reported by the press."
+      },
+      "specs.charging.wired_w": {
+        "class": "estimated",
+        "source": "apple",
+        "note": "Measured peaks of about 30 W are widely reported; Apple lists only a time-based claim."
+      },
+      "specs.software.os_updates_years": {
+        "class": "estimated",
+        "source": "apple",
+        "note": "Apple publishes no fixed upgrade commitment. Recent iPhones have received about six years of major iOS releases plus further security fixes, so the figures here are platform estimates."
+      },
+      "specs.software.security_updates_years": {
+        "class": "estimated",
+        "source": "apple",
+        "note": "Apple publishes no fixed upgrade commitment. Recent iPhones have received about six years of major iOS releases plus further security fixes, so the figures here are platform estimates."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

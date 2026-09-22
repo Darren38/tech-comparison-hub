@@ -1,0 +1,116 @@
+{
+ "huawei-p60-pro": [
+  "https://consumer.huawei.com/my/phones/p60-pro/specs/",
+  "https://consumer.huawei.com/en/phones/p60-pro/specs/"
+ ],
+ "huawei-mate-x3": [
+  "https://consumer.huawei.com/my/phones/mate-x3/specs/",
+  "https://consumer.huawei.com/en/phones/mate-x3/specs/"
+ ],
+ "huawei-nova-11": [
+  "https://consumer.huawei.com/my/phones/nova11/specs/",
+  "https://consumer.huawei.com/en/phones/nova11/specs/"
+ ],
+ "huawei-nova-11-pro": [
+  "https://consumer.huawei.com/my/phones/nova11-pro/specs/",
+  "https://consumer.huawei.com/en/phones/nova11-pro/specs/"
+ ],
+ "huawei-nova-11i": [
+  "https://consumer.huawei.com/my/phones/nova-11i/specs/",
+  "https://consumer.huawei.com/en/phones/nova-11i/specs/"
+ ],
+ "huawei-nova-y72": [
+  "https://consumer.huawei.com/my/phones/nova-y72/specs/",
+  "https://consumer.huawei.com/en/phones/nova-y72/specs/"
+ ],
+ "huawei-nova-12i": [
+  "https://consumer.huawei.com/my/phones/nova-12i/specs/",
+  "https://consumer.huawei.com/en/phones/nova-12i/specs/"
+ ],
+ "huawei-nova-12s": [
+  "https://consumer.huawei.com/my/phones/nova-12s/specs/",
+  "https://consumer.huawei.com/en/phones/nova-12s/specs/"
+ ],
+ "huawei-nova-12-se": [
+  "https://consumer.huawei.com/my/phones/nova12-se/specs/",
+  "https://consumer.huawei.com/en/phones/nova12-se/specs/"
+ ],
+ "huawei-pura-70": [
+  "https://consumer.huawei.com/my/phones/pura70/specs/",
+  "https://consumer.huawei.com/en/phones/pura70/specs/"
+ ],
+ "huawei-pura-70-pro": [
+  "https://consumer.huawei.com/my/phones/pura70-pro/specs/",
+  "https://consumer.huawei.com/en/phones/pura70-pro/specs/"
+ ],
+ "huawei-pura-70-ultra": [
+  "https://consumer.huawei.com/my/phones/pura70-ultra/specs/",
+  "https://consumer.huawei.com/en/phones/pura70-ultra/specs/"
+ ],
+ "huawei-nova-14i": [
+  "https://consumer.huawei.com/my/phones/nova-14i/specs/",
+  "https://consumer.huawei.com/en/phones/nova-14i/specs/"
+ ],
+ "huawei-watch-gt-cyber": [
+  "https://consumer.huawei.com/my/wearables/watch-gt-cyber/specs/",
+  "https://consumer.huawei.com/en/wearables/watch-gt-cyber/specs/"
+ ],
+ "huawei-band-9": [
+  "https://consumer.huawei.com/my/wearables/band9/specs/",
+  "https://consumer.huawei.com/en/wearables/band9/specs/"
+ ],
+ "oppo-reno11-f-5g": [
+  "https://www.oppo.com/my/smartphones/series-reno/reno11-f-5g/specs/"
+ ],
+ "oppo-a7-pro-max": [
+  "https://www.oppo.com/my/smartphones/series-a/a7-pro-max/specs/"
+ ],
+ "vivo-y29": [
+  "https://www.vivo.com/my/products/param/y29"
+ ],
+ "vivo-watch-gt": [
+  "https://www.vivo.com/my/products/param/watch-gt"
+ ],
+ "iqoo-z9": [
+  "https://www.iqoo.com/my/products/param/z9"
+ ],
+ "iqoo-z9x": [
+  "https://www.iqoo.com/my/products/param/z9x"
+ ],
+ "redmi-note-12": [
+  "https://www.mi.com/my/product/redmi-note-12/specs/",
+  "https://www.mi.com/global/product/redmi-note-12/specs/"
+ ],
+ "redmi-note-12-5g": [
+  "https://www.mi.com/my/product/redmi-note-12-5g/specs/",
+  "https://www.mi.com/global/product/redmi-note-12-5g/specs/"
+ ],
+ "xiaomi-13t": [
+  "https://www.mi.com/my/product/xiaomi-13t/specs/",
+  "https://www.mi.com/global/product/xiaomi-13t/specs/"
+ ],
+ "xiaomi-13t-pro": [
+  "https://www.mi.com/my/product/xiaomi-13t-pro/specs/",
+  "https://www.mi.com/global/product/xiaomi-13t-pro/specs/"
+ ],
+ "poco-x6-5g": [
+  "https://www.mi.com/my/product/poco-x6-5g/specs/",
+  "https://www.mi.com/global/product/poco-x6-5g/specs/"
+ ],
+ "poco-x6-pro-5g": [
+  "https://www.mi.com/my/product/poco-x6-pro-5g/specs/",
+  "https://www.mi.com/global/product/poco-x6-pro-5g/specs/"
+ ],
+ "redmi-14c": [
+  "https://www.mi.com/my/product/redmi-14c/specs/",
+  "https://www.mi.com/global/product/redmi-14c/specs/"
+ ],
+ "poco-m8": [
+  "https://www.mi.com/my/product/poco-m8/specs/",
+  "https://www.mi.com/global/product/poco-m8/specs/"
+ ],
+ "poco-m8-pro": [
+  "https://www.mi.com/my/product/poco-m8-pro/specs/",
+  "https://www.mi.com/global/product/poco-m8-pro/specs/"
+ ]
+}

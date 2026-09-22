@@ -1,0 +1,16 @@
+{
+  "id": "helio-g100",
+  "name": "Helio G100",
+  "vendor": "mediatek",
+  "family": "Helio G",
+  "summary": "Name recorded from phone makers' specification pages and launch reports. Chip details have not been compiled yet.",
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "redmi",
+      "url": "https://www.mi.com/global/product/redmi-note-14-pro/specs/",
+      "checked": "2026-09-18",
+      "note": "Chip name as given for the Redmi Note 14 Pro."
+    }
+  }
+}

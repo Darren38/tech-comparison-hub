@@ -1,0 +1,129 @@
+{
+  "id": "redmi-a2-plus",
+  "name": "Redmi A2+",
+  "brand": "redmi",
+  "category": "smartphone",
+  "series": "Redmi A",
+  "form": "bar",
+  "status": "released",
+  "announced": "2023-04-28",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 399,
+      "date": "2023-04-28",
+      "type": "launch",
+      "source": "nasilemaktech",
+      "url": "https://nasilemaktech.com/redmi-a2-plus-malaysia-price/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1679650002.01092930.png",
+    "page": "https://www.mi.com/global/product/redmi-a2-plus/specs/",
+    "credit": "Xiaomi",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.52,
+      "resolution": "1600 × 720",
+      "ppi": 269
+    },
+    "platform": {
+      "chipset": "helio-g36",
+      "cpu": "Up to 2.2GHz"
+    },
+    "memory": {
+      "ram_gb": [
+        2,
+        3
+      ],
+      "storage_gb": [
+        32
+      ],
+      "ram_type": "LPDDR4X"
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "charging": {
+      "wired_w": 10,
+      "claim": "10W fast charging; 10W in-box charger"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 8,
+          "aperture": "f/2.0"
+        }
+      ],
+      "front": "5 MP",
+      "rear_detail": [
+        "8MP main camera, f/2.0, Auxiliary lens"
+      ],
+      "video": "1080p",
+      "front_detail": [
+        "5MP, f/2.2"
+      ],
+      "front_video": "1080p"
+    },
+    "connectivity": {
+      "cellular": "4G",
+      "bands_2g": "850 900 1800 1900MHz",
+      "bands_3g": "1/5/8",
+      "bands_4g": "LTE FDD: B1/3/5/7/8/20/28; LTE TDD: B38/40/41",
+      "technology": "GSM / HSPA / LTE",
+      "wifi": "Supports 2.4GHz Wi-Fi; Supports FM radio (with headphones)",
+      "positioning": "GPS L1; Glonass G1; BDS B1I; Galileo E1",
+      "sim": "Dual SIM + microSD",
+      "bluetooth": "Bluetooth 5.0"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 164.9,
+        "width_mm": 76.75,
+        "depth_mm": 9.09
+      },
+      "weight_g": 192.0
+    },
+    "software": {
+      "launch_os": "Android 12 (Go Edition)"
+    },
+    "sensors": "Accelerometer",
+    "audio": {
+      "jack": true
+    },
+    "misc": {
+      "colors": "Light Blue, Light Green, Black"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "redmi",
+      "url": "https://www.mi.com/global/product/redmi-a2-plus/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from Xiaomi Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "nasilemaktech",
+        "url": "https://nasilemaktech.com/redmi-a2-plus-malaysia-price/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (Nasi Lemak Tech). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

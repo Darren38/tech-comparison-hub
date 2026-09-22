@@ -1,0 +1,141 @@
+{
+  "id": "honor-x9d",
+  "name": "HONOR X9d",
+  "brand": "honor",
+  "category": "smartphone",
+  "series": "X",
+  "form": "bar",
+  "status": "released",
+  "announced": "2025-09-24",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1499,
+      "config": "12 GB / 256 GB",
+      "date": "2025-09-24",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/09/24/honor-x9d-5g-malaysia-launch-price-specs/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1699,
+      "config": "12 GB / 512 GB",
+      "date": "2025-09-24",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/09/24/honor-x9d-5g-malaysia-launch-price-specs/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://www.honor.com/content/dam/honor/common/product-list/product-series/honor-x9d/honor-x9d-red-list.png",
+    "page": "https://www.honor.com/my/phones/honor-x9d/spec/",
+    "credit": "HONOR Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.79,
+      "type": "OLED",
+      "resolution": "2640 × 1200",
+      "peak_nits": 6000,
+      "ppi": 427
+    },
+    "platform": {
+      "chipset": "snapdragon-6-gen-4",
+      "gpu": "Adreno A810",
+      "cpu": "Octa-core; 1× A720*2.3GHz + 3× A720*2.2GHz+ 4× A520*1.8GHz"
+    },
+    "battery": {
+      "capacity_mah": 8300,
+      "chemistry": "Li-ion Polymer"
+    },
+    "charging": {
+      "wired_w": 66,
+      "claim": "Supported 66W"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 108
+        },
+        {
+          "role": "main",
+          "mp": 5
+        }
+      ],
+      "rear_text": "Rear: 108MP Main Camera (F1.75) + 5MP Wide (F2.2)",
+      "front": "16 MP",
+      "rear_detail": [
+        "108MP Main Camera (F1.75)",
+        "5MP Wide (F2.2)"
+      ],
+      "features": "10X Digital zoom",
+      "video": "4K",
+      "front_detail": [
+        "16MP (F2.45)"
+      ]
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true,
+      "technology": "GSM / HSPA / LTE / 5G",
+      "sim": "Nano SIM card",
+      "wifi": "Support Wi-Fi 6 (802.11 ax) and 802.11 a/b/g/n/ac; Support 1024 QAM, 80MHz; Support 2.4GHz and 5GHz",
+      "usb": "Type-C, USB 2.0",
+      "positioning": "GPS/AGPS/Glonass/BeiDou/Galileo",
+      "bluetooth": "Bluetooth"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 161.9,
+        "width_mm": 76.1,
+        "depth_mm": 7.76
+      },
+      "weight_g": 193.0,
+      "ip": "IP69K"
+    },
+    "software": {
+      "launch_os": "MagicOS 9.0(Android 15)"
+    },
+    "biometrics": {
+      "face": "Yes"
+    },
+    "audio": {
+      "jack": false
+    },
+    "sensors": "Gravity Sensor, Fingerprint Sensor, Gyroscope, Compass, Acceleration Sensor, Ambient Light Sensor, Proximity Sensor"
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "honor",
+      "url": "https://www.honor.com/my/phones/honor-x9d/spec/",
+      "checked": "2026-09-18",
+      "note": "Read from HONOR Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2025/09/24/honor-x9d-5g-malaysia-launch-price-specs/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

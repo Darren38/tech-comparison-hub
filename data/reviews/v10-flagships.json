@@ -1,0 +1,1175 @@
+[
+  {
+    "id": "engadget-iphone-18-pro-review",
+    "kind": "review",
+    "source": "engadget",
+    "title": "iPhone 18 Pro review: The standard setter",
+    "url": "https://www.engadget.com/2259790/apple-iphone-18-pro-review-cameras-performance-variable-aperture-siri-ai/",
+    "published": "2026-09-16",
+    "accessed": "2026-09-22",
+    "class": "reviewer",
+    "devices": [
+      "apple-iphone-18-pro",
+      "apple-iphone-18-pro-max"
+    ],
+    "facets": [
+      "camera",
+      "thermals",
+      "battery",
+      "build",
+      "ai"
+    ],
+    "method": "Experience review of both models; score 9 out of 10.",
+    "findings": [
+      {
+        "subject": "apple-iphone-18-pro",
+        "facet": "camera",
+        "stance": "positive",
+        "text": "Scored 9/10. The variable aperture on the main camera (f/1.48 to f/4.0) gives real control over background blur, and the cameras were judged excellent and versatile."
+      },
+      {
+        "subject": "apple-iphone-18-pro",
+        "facet": "thermals",
+        "stance": "positive",
+        "text": "The redesigned vapour chamber kept heat in check; one warm spell during demanding video testing cooled down quickly."
+      },
+      {
+        "subject": "apple-iphone-18-pro",
+        "facet": "battery",
+        "stance": "positive",
+        "text": "Battery life ran from about a day and a half to two days depending on use."
+      },
+      {
+        "subject": "apple-iphone-18-pro",
+        "facet": "ai",
+        "stance": "negative",
+        "text": "The new AI-powered Siri was still in beta and struggled with complex requests."
+      },
+      {
+        "subject": "apple-iphone-18-pro",
+        "facet": "build",
+        "stance": "neutral",
+        "text": "Same size as the iPhone 17 Pro but slightly heavier; the smaller Dynamic Island can show three Live Activities at once."
+      }
+    ],
+    "extraction": "partial"
+  },
+  {
+    "id": "9to5mac-iphone-18-pro-review",
+    "kind": "review",
+    "source": "9to5mac",
+    "title": "iPhone 18 Pro review: More of a great thing",
+    "url": "https://9to5mac.com/2026/09/16/iphone-18-pro-review/",
+    "published": "2026-09-16",
+    "accessed": "2026-09-22",
+    "class": "reviewer",
+    "devices": [
+      "apple-iphone-18-pro",
+      "apple-iphone-18-pro-max"
+    ],
+    "facets": [
+      "build",
+      "display",
+      "performance",
+      "battery",
+      "camera",
+      "value"
+    ],
+    "method": "Experience review of both models by Chance Miller.",
+    "findings": [
+      {
+        "subject": "apple-iphone-18-pro",
+        "facet": "build",
+        "stance": "negative",
+        "text": "Heavier than the iPhone 17 Pro; the new colour-matched back replaces last year's two-tone look."
+      },
+      {
+        "subject": "apple-iphone-18-pro-max",
+        "facet": "build",
+        "stance": "negative",
+        "text": "At 249 g the Pro Max reached the reviewer's limit for a comfortable phone to hold."
+      },
+      {
+        "subject": "apple-iphone-18-pro",
+        "facet": "display",
+        "stance": "positive",
+        "text": "The Dynamic Island is about a quarter smaller because part of Face ID moved under the display."
+      },
+      {
+        "subject": "apple-iphone-18-pro",
+        "facet": "camera",
+        "stance": "positive",
+        "text": "The variable-aperture main camera gave cleaner low-light shots and creative options such as starbursts; the new Pro controls add shutter speed and a histogram."
+      },
+      {
+        "subject": "apple-iphone-18-pro-max",
+        "facet": "battery",
+        "stance": "positive",
+        "text": "The reviewer comfortably got more than a full day from the Pro Max."
+      },
+      {
+        "subject": "apple-iphone-18-pro",
+        "facet": "value",
+        "stance": "neutral",
+        "text": "An incremental update: not a must-upgrade from the iPhone 17 Pro, but worthwhile coming from an iPhone 16 Pro or older. US prices rose by $100."
+      }
+    ],
+    "extraction": "partial"
+  },
+  {
+    "id": "macrumors-iphone-18-pro-reviews",
+    "kind": "review",
+    "source": "macrumors",
+    "testedBy": "tomsguide",
+    "title": "iPhone 18 Pro Reviews: Excellent Yet... Meh?",
+    "url": "https://www.macrumors.com/review/iphone-18-pro/",
+    "published": "2026-09-16",
+    "accessed": "2026-09-22",
+    "class": "measured",
+    "devices": [
+      "apple-iphone-18-pro",
+      "apple-iphone-18-pro-max",
+      "apple-iphone-17-pro",
+      "apple-iphone-17-pro-max"
+    ],
+    "facets": [
+      "battery",
+      "value"
+    ],
+    "method": "Review roundup. The battery results are Tom's Guide's standard battery test as reported by MacRumors.",
+    "records": [
+      {
+        "subject": "apple-iphone-18-pro-max",
+        "metric": "tg_web",
+        "value": 18.45,
+        "note": "18 h 27 min"
+      },
+      {
+        "subject": "apple-iphone-17-pro-max",
+        "metric": "tg_web",
+        "value": 17.9,
+        "note": "17 h 54 min"
+      },
+      {
+        "subject": "apple-iphone-18-pro",
+        "metric": "tg_web",
+        "value": 16.283,
+        "note": "16 h 17 min"
+      },
+      {
+        "subject": "apple-iphone-17-pro",
+        "metric": "tg_web",
+        "value": 15.35,
+        "note": "15 h 21 min"
+      }
+    ],
+    "findings": [
+      {
+        "subject": "apple-iphone-18-pro",
+        "facet": "value",
+        "stance": "neutral",
+        "text": "Across the reviews collected, the common view was a strong but incremental update: good for owners of older iPhones, hard to justify for iPhone 17 Pro owners."
+      }
+    ],
+    "extraction": "partial"
+  },
+  {
+    "id": "aa-galaxy-s26-plus-review",
+    "kind": "review",
+    "source": "androidauthority",
+    "title": "Samsung Galaxy S26 and S26 Plus review: Don't buy the wrong one",
+    "url": "https://www.androidauthority.com/samsung-galaxy-s26-review-3650267/",
+    "published": "2026-04-04",
+    "accessed": "2026-09-22",
+    "class": "reviewer",
+    "devices": [
+      "samsung-galaxy-s26",
+      "samsung-galaxy-s26-plus"
+    ],
+    "facets": [
+      "value",
+      "camera",
+      "charging",
+      "performance",
+      "software"
+    ],
+    "method": "Experience review of both models by Joe Maring.",
+    "findings": [
+      {
+        "subject": "samsung-galaxy-s26-plus",
+        "facet": "value",
+        "stance": "negative",
+        "text": "Judged no longer worth buying: it adds only a bigger screen over the S26 yet sits close in price to the S26 Ultra."
+      },
+      {
+        "subject": "samsung-galaxy-s26-plus",
+        "facet": "camera",
+        "stance": "negative",
+        "text": "The camera hardware is largely unchanged from earlier generations, and the main camera struggled with close subjects, low light and motion."
+      },
+      {
+        "subject": "samsung-galaxy-s26-plus",
+        "facet": "charging",
+        "stance": "negative",
+        "text": "Charging is slow next to rivals such as the OnePlus 15."
+      },
+      {
+        "subject": "samsung-galaxy-s26",
+        "facet": "value",
+        "stance": "neutral",
+        "text": "The S26 was called perfectly serviceable for Samsung owners upgrading, with 256 GB base storage and seven years of updates, though the Pixel 10 or OnePlus 15 offer better value."
+      },
+      {
+        "subject": "samsung-galaxy-s26-plus",
+        "facet": "performance",
+        "stance": "positive",
+        "text": "The Snapdragon 8 Elite Gen 5 led its rivals in CPU and GPU benchmarks."
+      }
+    ],
+    "extraction": "partial"
+  },
+  {
+    "id": "engadget-galaxy-z-fold8-review",
+    "kind": "review",
+    "source": "engadget",
+    "title": "Samsung Galaxy Z Fold 8 review: Wider really is better",
+    "url": "https://www.engadget.com/2225231/samsung-galaxy-z-fold-8-review/",
+    "published": "2026-07-28",
+    "accessed": "2026-09-22",
+    "class": "measured",
+    "devices": [
+      "samsung-galaxy-z-fold8"
+    ],
+    "facets": [
+      "display",
+      "camera",
+      "battery",
+      "charging",
+      "value"
+    ],
+    "method": "Experience review by Sam Rutherford; score 8.9 out of 10. Battery: Engadget's local video rundown on the cover screen.",
+    "records": [
+      {
+        "subject": "samsung-galaxy-z-fold8",
+        "metric": "engadget_video",
+        "value": 28.233,
+        "note": "28 h 14 min, on the smaller cover screen"
+      }
+    ],
+    "findings": [
+      {
+        "subject": "samsung-galaxy-z-fold8",
+        "facet": "display",
+        "stance": "positive",
+        "text": "Scored 8.9/10. The wider shape and 4:3 inner screen cut letterboxing for videos and suit landscape games; the anti-glare coating helps."
+      },
+      {
+        "subject": "samsung-galaxy-z-fold8",
+        "facet": "camera",
+        "stance": "negative",
+        "text": "The biggest drawback is the missing telephoto camera: only a main and an ultra-wide camera."
+      },
+      {
+        "subject": "samsung-galaxy-z-fold8",
+        "facet": "charging",
+        "stance": "positive",
+        "text": "Wired charging rises to 45 W and wireless to 20 W."
+      },
+      {
+        "subject": "samsung-galaxy-z-fold8",
+        "facet": "build",
+        "stance": "neutral",
+        "text": "It now opens flat to 180 degrees but loses the half-open tabletop position."
+      },
+      {
+        "subject": "samsung-galaxy-z-fold8",
+        "facet": "value",
+        "stance": "positive",
+        "text": "Matches the Fold8 Ultra for performance and brightness for $200 less, so the reviewer found it the better buy unless zoom matters."
+      }
+    ],
+    "extraction": "partial"
+  },
+  {
+    "id": "lowyat-galaxy-z-fold8-review",
+    "kind": "review",
+    "source": "lowyat",
+    "title": "Samsung Galaxy Z Fold8 Review: Bigger Changes, Bigger Compromises",
+    "url": "https://www.lowyat.net/2026/403159/samsung-galaxy-z-fold8-review/",
+    "published": "2026-09-07",
+    "accessed": "2026-09-22",
+    "class": "reviewer",
+    "devices": [
+      "samsung-galaxy-z-fold8"
+    ],
+    "facets": [
+      "build",
+      "display",
+      "thermals",
+      "battery",
+      "audio",
+      "value"
+    ],
+    "method": "Malaysian review by Kiran Ganesan of the RM7,299 model.",
+    "findings": [
+      {
+        "subject": "samsung-galaxy-z-fold8",
+        "facet": "build",
+        "stance": "positive",
+        "text": "Light and pocketable, with a barely visible crease and a responsive fingerprint sensor."
+      },
+      {
+        "subject": "samsung-galaxy-z-fold8",
+        "facet": "build",
+        "stance": "negative",
+        "text": "The wide body is awkward one-handed and the glass back is slippery."
+      },
+      {
+        "subject": "samsung-galaxy-z-fold8",
+        "facet": "display",
+        "stance": "neutral",
+        "text": "The 4:3 inner screen is excellent for video, but apps such as Instagram and Facebook are not yet optimised for it."
+      },
+      {
+        "subject": "samsung-galaxy-z-fold8",
+        "facet": "thermals",
+        "stance": "negative",
+        "text": "It heats up under sustained load, especially in a case."
+      },
+      {
+        "subject": "samsung-galaxy-z-fold8",
+        "facet": "battery",
+        "stance": "negative",
+        "text": "Battery life disappointed the reviewer, at roughly nine and a half hours of screen time on the inner display."
+      },
+      {
+        "subject": "samsung-galaxy-z-fold8",
+        "facet": "audio",
+        "stance": "negative",
+        "text": "Sound from the speakers felt unbalanced."
+      },
+      {
+        "subject": "samsung-galaxy-z-fold8",
+        "facet": "value",
+        "stance": "neutral",
+        "text": "Called an effective first foldable, but features such as the telephoto camera and Flex mode seem held back for the Ultra."
+      }
+    ],
+    "extraction": "partial"
+  },
+  {
+    "id": "engadget-galaxy-z-fold8-ultra-review",
+    "kind": "review",
+    "source": "engadget",
+    "title": "Samsung Galaxy Z Fold 8 Ultra review: Nice upgrades, but not quite ultra",
+    "url": "https://www.engadget.com/2228942/samsung-galaxy-z-fold-8-ultra-review/",
+    "published": "2026-08-03",
+    "accessed": "2026-09-22",
+    "class": "measured",
+    "devices": [
+      "samsung-galaxy-z-fold8-ultra",
+      "samsung-galaxy-z-fold8",
+      "samsung-galaxy-z-fold7"
+    ],
+    "facets": [
+      "display",
+      "camera",
+      "battery",
+      "charging",
+      "value"
+    ],
+    "method": "Experience review by Sam Rutherford; score 8.8 out of 10. Battery: Engadget's local video rundown on the cover screen.",
+    "records": [
+      {
+        "subject": "samsung-galaxy-z-fold8-ultra",
+        "metric": "engadget_video",
+        "value": 32.183,
+        "note": "32 h 11 min, on the smaller cover screen"
+      },
+      {
+        "subject": "samsung-galaxy-z-fold7",
+        "metric": "engadget_video",
+        "value": 26.367,
+        "note": "26 h 22 min, as quoted for comparison"
+      }
+    ],
+    "findings": [
+      {
+        "subject": "samsung-galaxy-z-fold8-ultra",
+        "facet": "battery",
+        "stance": "positive",
+        "text": "Scored 8.8/10. The larger battery gave one of the longest video rundowns the reviewer had recorded on any phone."
+      },
+      {
+        "subject": "samsung-galaxy-z-fold8-ultra",
+        "facet": "display",
+        "stance": "positive",
+        "text": "The crease is faint enough to go unnoticed, and an anti-reflective coating reduces glare on the 8-inch inner screen."
+      },
+      {
+        "subject": "samsung-galaxy-z-fold8-ultra",
+        "facet": "camera",
+        "stance": "positive",
+        "text": "Keeps the 3x telephoto the standard Fold8 lacks; photos were excellent in all lighting, though the reviewer still preferred Pixel results."
+      },
+      {
+        "subject": "samsung-galaxy-z-fold8-ultra",
+        "facet": "value",
+        "stance": "negative",
+        "text": "The Ultra name felt unearned: performance matches the cheaper Fold8, which the reviewer recommends unless multitasking space or zoom matter."
+      }
+    ],
+    "extraction": "partial"
+  },
+  {
+    "id": "sammobile-galaxy-z-flip8-review",
+    "kind": "review",
+    "source": "sammobile",
+    "title": "Samsung Galaxy Z Flip 8 review",
+    "url": "https://www.sammobile.com/samsung/galaxy-z-flip-8/review",
+    "published": "2026-09-18",
+    "accessed": "2026-09-22",
+    "class": "reviewer",
+    "devices": [
+      "samsung-galaxy-z-flip8"
+    ],
+    "facets": [
+      "display",
+      "thermals",
+      "charging",
+      "camera",
+      "software",
+      "value"
+    ],
+    "method": "Experience review by Abhijeet Mishra.",
+    "findings": [
+      {
+        "subject": "samsung-galaxy-z-flip8",
+        "facet": "display",
+        "stance": "positive",
+        "text": "The cover screen is the highlight: bright, and with One UI 9's home screen, dock and app drawer it is practical to use without opening the phone."
+      },
+      {
+        "subject": "samsung-galaxy-z-flip8",
+        "facet": "thermals",
+        "stance": "negative",
+        "text": "A conservative heat limit makes performance drop noticeably during long gaming sessions."
+      },
+      {
+        "subject": "samsung-galaxy-z-flip8",
+        "facet": "charging",
+        "stance": "negative",
+        "text": "Charging stays at 25 W and felt slow for 2026."
+      },
+      {
+        "subject": "samsung-galaxy-z-flip8",
+        "facet": "camera",
+        "stance": "negative",
+        "text": "The cameras are unchanged from the Flip7 and there is no zoom camera."
+      },
+      {
+        "subject": "samsung-galaxy-z-flip8",
+        "facet": "software",
+        "stance": "positive",
+        "text": "Seven years of OS updates are promised."
+      },
+      {
+        "subject": "samsung-galaxy-z-flip8",
+        "facet": "value",
+        "stance": "neutral",
+        "text": "Too similar to the Flip7 to justify upgrading from it; better for owners of older flip phones or regular phones."
+      }
+    ],
+    "extraction": "partial"
+  },
+  {
+    "id": "9to5google-pixel-11-pro-xl-review",
+    "kind": "review",
+    "source": "9to5google",
+    "title": "Review: The Pixel 11 Pro XL is great, but a little too early for Google's futuristic vision",
+    "url": "https://9to5google.com/2026/08/28/google-pixel-11-pro-xl-review/",
+    "published": "2026-08-28",
+    "accessed": "2026-09-22",
+    "class": "reviewer",
+    "devices": [
+      "google-pixel-11-pro-xl"
+    ],
+    "facets": [
+      "display",
+      "camera",
+      "battery",
+      "performance",
+      "ai",
+      "durability"
+    ],
+    "method": "Experience review by Will Sattelberg.",
+    "findings": [
+      {
+        "subject": "google-pixel-11-pro-xl",
+        "facet": "display",
+        "stance": "positive",
+        "text": "Very bright and easy to read outdoors."
+      },
+      {
+        "subject": "google-pixel-11-pro-xl",
+        "facet": "camera",
+        "stance": "positive",
+        "text": "The refreshed main sensor and upgraded 5x telephoto impressed, Night Sight became much faster, and the new Camera Looks were the reviewer's favourite addition in years."
+      },
+      {
+        "subject": "google-pixel-11-pro-xl",
+        "facet": "camera",
+        "stance": "negative",
+        "text": "Night Sight sometimes brightens dark scenes unrealistically."
+      },
+      {
+        "subject": "google-pixel-11-pro-xl",
+        "facet": "battery",
+        "stance": "positive",
+        "text": "Days often ended with around 40% left."
+      },
+      {
+        "subject": "google-pixel-11-pro-xl",
+        "facet": "performance",
+        "stance": "negative",
+        "text": "The Tensor G6 still trails Snapdragon chips in GPU power, and the base 256 GB model has 12 GB of RAM."
+      },
+      {
+        "subject": "google-pixel-11-pro-xl",
+        "facet": "ai",
+        "stance": "negative",
+        "text": "The rear HiLight notification light was judged a poor idea that also dims the flashlight, and the proactive AI features rarely helped."
+      },
+      {
+        "subject": "google-pixel-11-pro-xl",
+        "facet": "durability",
+        "stance": "negative",
+        "text": "A deep scratch appeared on the screen within a week despite the scratch-resistance claims."
+      }
+    ],
+    "extraction": "partial"
+  },
+  {
+    "id": "aa-vivo-x300-ultra-review",
+    "kind": "review",
+    "source": "androidauthority",
+    "title": "vivo X300 Ultra review: Pricey camera phone colossus",
+    "url": "https://www.androidauthority.com/vivo-x300-ultra-review-3659010/",
+    "published": "2026-05-01",
+    "accessed": "2026-09-22",
+    "class": "reviewer",
+    "devices": [
+      "vivo-x300-ultra"
+    ],
+    "facets": [
+      "camera",
+      "battery",
+      "thermals",
+      "build",
+      "value"
+    ],
+    "method": "Experience review by Hadlee Simons.",
+    "findings": [
+      {
+        "subject": "vivo-x300-ultra",
+        "facet": "camera",
+        "stance": "positive",
+        "text": "A distinctive camera system with a 35mm main camera and extensive video tools, including log recording, aimed at enthusiasts."
+      },
+      {
+        "subject": "vivo-x300-ultra",
+        "facet": "battery",
+        "stance": "positive",
+        "text": "Battery endurance was impressive, at around seven to eight hours of screen time in typical use."
+      },
+      {
+        "subject": "vivo-x300-ultra",
+        "facet": "thermals",
+        "stance": "negative",
+        "text": "Sustained performance was poor: it ran hotter than rivals in the GPU stress test."
+      },
+      {
+        "subject": "vivo-x300-ultra",
+        "facet": "build",
+        "stance": "negative",
+        "text": "Heavy, with a very thick camera bump."
+      },
+      {
+        "subject": "vivo-x300-ultra",
+        "facet": "value",
+        "stance": "neutral",
+        "text": "Very expensive, but recommended to camera enthusiasts as an alternative to the Galaxy S26 Ultra or OPPO Find X9 Ultra."
+      }
+    ],
+    "extraction": "partial"
+  },
+  {
+    "id": "dxomark-vivo-x300-ultra-camera",
+    "kind": "review",
+    "source": "dxomark",
+    "title": "vivo X300 Ultra Camera test",
+    "url": "https://www.dxomark.com/vivo-x300-ultra-camera-test/",
+    "published": "2026-06-01",
+    "accessed": "2026-09-22",
+    "class": "measured",
+    "devices": [
+      "vivo-x300-ultra"
+    ],
+    "facets": [
+      "camera"
+    ],
+    "method": "DXOMARK camera protocol (lab and field). Overall score 170, 4th in DXOMARK's global ranking at the time.",
+    "records": [
+      {
+        "subject": "vivo-x300-ultra",
+        "metric": "dxomark_camera",
+        "value": 170,
+        "note": "Photo 174, Video 162"
+      }
+    ],
+    "findings": [
+      {
+        "subject": "vivo-x300-ultra",
+        "facet": "camera",
+        "stance": "positive",
+        "text": "Strong portraits with natural skin tones, excellent zoom detail and sharp, low-noise results in bright light."
+      },
+      {
+        "subject": "vivo-x300-ultra",
+        "facet": "camera",
+        "stance": "negative",
+        "text": "Exposure, colour and sharpness can vary in difficult scenes, low light brings noise and ghosting, and AI processing sometimes looks unnatural."
+      }
+    ],
+    "extraction": "partial"
+  },
+  {
+    "id": "lowyat-oppo-find-x9-ultra-review",
+    "kind": "review",
+    "source": "lowyat",
+    "title": "Oppo Find X9 Ultra Review: The Camera Alone Is Stunning",
+    "url": "https://www.lowyat.net/2026/396209/oppo-find-x9-ultra-review-the-camera-alone-is-stunning/",
+    "published": "2026-06-19",
+    "accessed": "2026-09-22",
+    "class": "reviewer",
+    "devices": [
+      "oppo-find-x9-ultra"
+    ],
+    "facets": [
+      "camera",
+      "battery",
+      "build",
+      "value"
+    ],
+    "method": "Malaysian review by John Law.",
+    "findings": [
+      {
+        "subject": "oppo-find-x9-ultra",
+        "facet": "camera",
+        "stance": "positive",
+        "text": "Very detailed photos with vivid colours; the optional Hasselblad kit suits architectural shots."
+      },
+      {
+        "subject": "oppo-find-x9-ultra",
+        "facet": "camera",
+        "stance": "negative",
+        "text": "Quality falls off beyond 10x zoom, and the camera is sluggish with the add-on lens kit."
+      },
+      {
+        "subject": "oppo-find-x9-ultra",
+        "facet": "battery",
+        "stance": "positive",
+        "text": "Battery life went beyond two days of typical use."
+      },
+      {
+        "subject": "oppo-find-x9-ultra",
+        "facet": "build",
+        "stance": "positive",
+        "text": "The textured back is secure in the hand, though the shutter button sits awkwardly far from the edge."
+      },
+      {
+        "subject": "oppo-find-x9-ultra",
+        "facet": "value",
+        "stance": "negative",
+        "text": "Expensive for general buyers; best for photographers willing to pay a premium."
+      }
+    ],
+    "extraction": "partial"
+  },
+  {
+    "id": "dxomark-oppo-find-x9-ultra-camera",
+    "kind": "review",
+    "source": "dxomark",
+    "title": "Oppo Find X9 Ultra Camera test",
+    "url": "https://www.dxomark.com/oppo-find-x9-ultra-camera-test/",
+    "published": "2026-07-28",
+    "accessed": "2026-09-22",
+    "class": "measured",
+    "devices": [
+      "oppo-find-x9-ultra"
+    ],
+    "facets": [
+      "camera"
+    ],
+    "method": "DXOMARK camera protocol (lab and field). Overall score 170, 4th in DXOMARK's global ranking at the time.",
+    "records": [
+      {
+        "subject": "oppo-find-x9-ultra",
+        "metric": "dxomark_camera",
+        "value": 170,
+        "note": "Photo 175, Video 161, Bokeh 185, Tele 173, Ultra-wide 166"
+      }
+    ],
+    "findings": [
+      {
+        "subject": "oppo-find-x9-ultra",
+        "facet": "camera",
+        "stance": "positive",
+        "text": "Bright, natural-looking photos and video, high detail across zoom ranges, very low noise and natural portrait mode; its bokeh and telephoto sub-scores were the highest DXOMARK had recorded."
+      },
+      {
+        "subject": "oppo-find-x9-ultra",
+        "facet": "camera",
+        "stance": "negative",
+        "text": "Focus can shift or pick the wrong subject in video, noise shows in backlit and low-light scenes, and colour casts can be strong in low light."
+      }
+    ],
+    "extraction": "partial"
+  },
+  {
+    "id": "9to5google-oppo-find-n6",
+    "kind": "review",
+    "source": "9to5google",
+    "title": "The Oppo Find N6 is the best foldable you can't buy, again",
+    "url": "https://9to5google.com/2026/04/16/the-oppo-find-n6-is-the-best-foldable-you-cant-buy-again/",
+    "published": "2026-04-16",
+    "accessed": "2026-09-22",
+    "class": "reviewer",
+    "devices": [
+      "oppo-find-n6"
+    ],
+    "facets": [
+      "display",
+      "build",
+      "battery",
+      "thermals",
+      "software"
+    ],
+    "method": "Experience piece by Ben Schoon after several weeks as a daily phone.",
+    "findings": [
+      {
+        "subject": "oppo-find-n6",
+        "facet": "display",
+        "stance": "positive",
+        "text": "The crease is nearly invisible and held up better than on rival foldables, though it still shows in some light."
+      },
+      {
+        "subject": "oppo-find-n6",
+        "facet": "build",
+        "stance": "positive",
+        "text": "Light and thin for a book-style foldable, with better dust resistance than other foldables."
+      },
+      {
+        "subject": "oppo-find-n6",
+        "facet": "battery",
+        "stance": "positive",
+        "text": "Battery life gave roughly five to seven hours or more of screen time, and heat stayed well controlled."
+      },
+      {
+        "subject": "oppo-find-n6",
+        "facet": "software",
+        "stance": "negative",
+        "text": "ColorOS felt less polished than rivals' software, and there is no Qi2 magnetic charging."
+      },
+      {
+        "subject": "oppo-find-n6",
+        "facet": "value",
+        "stance": "neutral",
+        "text": "Called the best foldable on the market, held back mainly by limited availability outside Asia."
+      }
+    ],
+    "extraction": "partial"
+  },
+  {
+    "id": "engadget-honor-magic-v6-review",
+    "kind": "review",
+    "source": "engadget",
+    "title": "Honor Magic V6 review: A mechanical marvel",
+    "url": "https://www.engadget.com/2190531/honor-magic-v6-review/",
+    "published": "2026-06-10",
+    "accessed": "2026-09-22",
+    "class": "measured",
+    "devices": [
+      "honor-magic-v6"
+    ],
+    "facets": [
+      "battery",
+      "build",
+      "performance",
+      "camera",
+      "software"
+    ],
+    "method": "Experience review by Daniel Cooper; score 8.2 out of 10. Battery: Engadget's video rundown on the main (inner) screen.",
+    "records": [
+      {
+        "subject": "honor-magic-v6",
+        "metric": "engadget_video",
+        "value": 30.2,
+        "note": "30 h 12 min, on the main (inner) screen"
+      }
+    ],
+    "findings": [
+      {
+        "subject": "honor-magic-v6",
+        "facet": "battery",
+        "stance": "positive",
+        "text": "Scored 8.2/10. Outstanding battery life: in normal use it rarely dropped below half."
+      },
+      {
+        "subject": "honor-magic-v6",
+        "facet": "build",
+        "stance": "positive",
+        "text": "Slim yet sturdier than the Magic V5, now rated IP68 and IP69, with a tougher cover screen."
+      },
+      {
+        "subject": "honor-magic-v6",
+        "facet": "performance",
+        "stance": "positive",
+        "text": "Smooth in everything the reviewer tried, including gaming, without troublesome heat."
+      },
+      {
+        "subject": "honor-magic-v6",
+        "facet": "camera",
+        "stance": "negative",
+        "text": "Portrait edges looked harsh and the AI-assisted 100x zoom promised more than it delivered."
+      },
+      {
+        "subject": "honor-magic-v6",
+        "facet": "software",
+        "stance": "negative",
+        "text": "MagicOS showed many interface inconsistencies, which held back otherwise excellent hardware; seven years of updates are promised."
+      }
+    ],
+    "extraction": "partial"
+  },
+  {
+    "id": "aa-realme-gt8-pro-review",
+    "kind": "review",
+    "source": "androidauthority",
+    "title": "realme GT8 Pro review: The OnePlus 15 that never was",
+    "url": "https://www.androidauthority.com/realme-gt8-pro-review-3622055/",
+    "published": "2026-01-17",
+    "accessed": "2026-09-22",
+    "class": "reviewer",
+    "devices": [
+      "realme-gt-8-pro"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "camera",
+      "thermals",
+      "software",
+      "value"
+    ],
+    "method": "Experience review by Hadlee Simons.",
+    "findings": [
+      {
+        "subject": "realme-gt-8-pro",
+        "facet": "battery",
+        "stance": "positive",
+        "text": "Excellent endurance of about two days of typical use, and very fast wired and wireless charging."
+      },
+      {
+        "subject": "realme-gt-8-pro",
+        "facet": "camera",
+        "stance": "positive",
+        "text": "The 200MP telephoto out-zooms the OnePlus 15."
+      },
+      {
+        "subject": "realme-gt-8-pro",
+        "facet": "camera",
+        "stance": "negative",
+        "text": "Main and ultra-wide shots were oversaturated and inconsistent, with noisy ultra-wide photos."
+      },
+      {
+        "subject": "realme-gt-8-pro",
+        "facet": "thermals",
+        "stance": "negative",
+        "text": "Severe throttling under sustained load, only partly improved by software updates."
+      },
+      {
+        "subject": "realme-gt-8-pro",
+        "facet": "software",
+        "stance": "negative",
+        "text": "Four OS upgrades and five years of security patches trail OnePlus and Samsung, and the AI notification summaries were more annoying than useful."
+      },
+      {
+        "subject": "realme-gt-8-pro",
+        "facet": "value",
+        "stance": "neutral",
+        "text": "Undercuts the OnePlus 15 in Europe with a sharper screen and better zoom, but sustained performance and camera consistency hold it back."
+      }
+    ],
+    "extraction": "partial"
+  },
+  {
+    "id": "nlt-iqoo-15-review",
+    "kind": "review",
+    "source": "nasilemaktech",
+    "title": "iQOO 15 review - 3 great aspects alongside a reasonable price",
+    "url": "https://nasilemaktech.com/iqoo-15-review/",
+    "published": "2025-12-15",
+    "accessed": "2026-09-22",
+    "class": "reviewer",
+    "devices": [
+      "iqoo-15"
+    ],
+    "facets": [
+      "gaming",
+      "display",
+      "battery",
+      "thermals",
+      "software",
+      "value"
+    ],
+    "method": "Malaysian review by Kok Kee of the RM3,699 model.",
+    "findings": [
+      {
+        "subject": "iqoo-15",
+        "facet": "gaming",
+        "stance": "positive",
+        "text": "Demanding games held close to 60 fps at their highest settings, helped by iQOO's extra graphics chip."
+      },
+      {
+        "subject": "iqoo-15",
+        "facet": "display",
+        "stance": "positive",
+        "text": "A very bright, wide-colour 2K display; the flat design is easier to use."
+      },
+      {
+        "subject": "iqoo-15",
+        "facet": "battery",
+        "stance": "positive",
+        "text": "Long battery life in the reviewer's standard test, and fast charging with the 90W charger in the box."
+      },
+      {
+        "subject": "iqoo-15",
+        "facet": "thermals",
+        "stance": "negative",
+        "text": "Performance roughly halves once it throttles in the most demanding games, worse with a case on."
+      },
+      {
+        "subject": "iqoo-15",
+        "facet": "software",
+        "stance": "negative",
+        "text": "Ads in notifications, preinstalled apps, and an auto-brightness bug that capped peak brightness."
+      },
+      {
+        "subject": "iqoo-15",
+        "facet": "value",
+        "stance": "positive",
+        "text": "Called a great phone for gaming at a very reasonable price."
+      }
+    ],
+    "extraction": "partial"
+  },
+  {
+    "id": "aa-redmagic-11-pro-benchmarks",
+    "kind": "analysis",
+    "source": "androidauthority",
+    "title": "I benchmarked my first Snapdragon 8 Elite Gen 5 phone and it (almost) lives up to the hype",
+    "url": "https://www.androidauthority.com/redmagic-11-pro-benchmarks-3612342/",
+    "published": "2025-11-04",
+    "accessed": "2026-09-22",
+    "class": "reviewer",
+    "devices": [
+      "redmagic-11-pro"
+    ],
+    "facets": [
+      "performance",
+      "thermals"
+    ],
+    "method": "Benchmark session by Robert Triggs with the phone's gaming mode off. Scores are not recorded here because the device was later delisted from 3DMark (see the related report).",
+    "findings": [
+      {
+        "subject": "redmagic-11-pro",
+        "facet": "performance",
+        "stance": "positive",
+        "text": "Clearly faster than the REDMAGIC 10 Pro in CPU and graphics tests, though a few per cent short of Qualcomm's own reference results."
+      },
+      {
+        "subject": "redmagic-11-pro",
+        "facet": "thermals",
+        "stance": "neutral",
+        "text": "Runs very hot; the cooling keeps performance more consistent over long sessions rather than raising peak frame rates."
+      }
+    ],
+    "extraction": "partial",
+    "related": [
+      "aa-redmagic-benchmark-delisting"
+    ]
+  },
+  {
+    "id": "aa-redmagic-benchmark-delisting",
+    "kind": "news",
+    "type": "issue",
+    "source": "androidauthority",
+    "class": "news",
+    "title": "REDMAGIC 11 Pro phones have cooling fans, but they just got busted for cheating",
+    "url": "https://www.androidauthority.com/redmagic-cheating-2026-3655697/",
+    "published": "2026-04-08",
+    "accessed": "2026-09-22",
+    "devices": [
+      "redmagic-11-pro"
+    ],
+    "facets": [
+      "performance"
+    ],
+    "summary": "UL removed the REDMAGIC 11 Pro and Pro+ from several 3DMark rankings after finding that the phones recognised benchmark apps and ran them at higher performance than other apps."
+  },
+  {
+    "id": "aa-huawei-mate-x7-hands-on",
+    "kind": "review",
+    "source": "androidauthority",
+    "title": "The HUAWEI Mate X7 has the best cameras I've ever used on a foldable",
+    "url": "https://www.androidauthority.com/huawei-mate-x7-hands-on-preview-3633553/",
+    "published": "2026-01-20",
+    "accessed": "2026-09-22",
+    "class": "reviewer",
+    "devices": [
+      "huawei-mate-x7"
+    ],
+    "facets": [
+      "camera",
+      "build",
+      "connectivity",
+      "software",
+      "battery"
+    ],
+    "method": "Hands-on by Paul Jones and Andy Walker after about a day of use (not a full review).",
+    "findings": [
+      {
+        "subject": "huawei-mate-x7",
+        "facet": "camera",
+        "stance": "positive",
+        "text": "Hands-on: camera quality rivals regular flagships, with wide dynamic range, accurate colour and steady video; low-light food shots were slightly soft."
+      },
+      {
+        "subject": "huawei-mate-x7",
+        "facet": "build",
+        "stance": "positive",
+        "text": "Hands-on: thin, light and durable, with IP58/IP59 ratings and a less visible crease than rivals, though the hinge felt looser."
+      },
+      {
+        "subject": "huawei-mate-x7",
+        "facet": "connectivity",
+        "stance": "negative",
+        "text": "Hands-on: its chip limits it to 4G, not 5G."
+      },
+      {
+        "subject": "huawei-mate-x7",
+        "facet": "software",
+        "stance": "negative",
+        "text": "Hands-on: no official Google services, so Google Wallet and RCS chats don't work and apps need workarounds."
+      }
+    ],
+    "extraction": "partial"
+  },
+  {
+    "id": "aa-huawei-pura-90s-pro-max-hands-on",
+    "kind": "review",
+    "source": "androidauthority",
+    "title": "HUAWEI Pura 90s Pro Max hands-on: Amazing, but Googleless",
+    "url": "https://www.androidauthority.com/huawei-pura-90s-pro-max-hands-on-3700133/",
+    "published": "2026-08-26",
+    "accessed": "2026-09-22",
+    "class": "reviewer",
+    "devices": [
+      "huawei-pura-90s-pro-max"
+    ],
+    "facets": [
+      "camera",
+      "display",
+      "battery",
+      "software",
+      "build"
+    ],
+    "method": "Extended hands-on by Edgar Cervantes after several weeks of use.",
+    "findings": [
+      {
+        "subject": "huawei-pura-90s-pro-max",
+        "facet": "camera",
+        "stance": "positive",
+        "text": "Outstanding cameras, especially in daylight, at night and for close-ups; it won the reviewer's camera award."
+      },
+      {
+        "subject": "huawei-pura-90s-pro-max",
+        "facet": "camera",
+        "stance": "negative",
+        "text": "Some detail is lost when zooming in low light, a light-painting mode kept failing, and the camera bump is enormous."
+      },
+      {
+        "subject": "huawei-pura-90s-pro-max",
+        "facet": "battery",
+        "stance": "positive",
+        "text": "Battery life was exceptional, with fast wired and wireless charging."
+      },
+      {
+        "subject": "huawei-pura-90s-pro-max",
+        "facet": "software",
+        "stance": "negative",
+        "text": "No Google services and a lot of preinstalled apps; recommended only for tech-savvy users willing to use workarounds."
+      }
+    ],
+    "extraction": "partial"
+  },
+  {
+    "id": "lowyat-huawei-mate-80-pro-hands-on",
+    "kind": "review",
+    "source": "lowyat",
+    "title": "Huawei Mate 80 Pro Hands On: The Return Of The Mate Series",
+    "url": "https://www.lowyat.net/2026/384960/huawei-mate-80-pro-hands-on-the-return-of-the-mate-series/",
+    "published": "2026-03-03",
+    "accessed": "2026-09-22",
+    "class": "reviewer",
+    "devices": [
+      "huawei-mate-80-pro"
+    ],
+    "facets": [
+      "display",
+      "camera",
+      "build",
+      "charging",
+      "software"
+    ],
+    "method": "Malaysian hands-on by John Law before the local launch (limited testing; not a full review).",
+    "findings": [
+      {
+        "subject": "huawei-mate-80-pro",
+        "facet": "display",
+        "stance": "positive",
+        "text": "Hands-on: a sharp, smooth 120 Hz display."
+      },
+      {
+        "subject": "huawei-mate-80-pro",
+        "facet": "camera",
+        "stance": "positive",
+        "text": "Hands-on: the triple camera looked promising, with an AI feature that helps frame shots; low light was not yet tested."
+      },
+      {
+        "subject": "huawei-mate-80-pro",
+        "facet": "build",
+        "stance": "neutral",
+        "text": "Hands-on: solid yet light, though the design closely resembles recent OPPO and Samsung flagships."
+      },
+      {
+        "subject": "huawei-mate-80-pro",
+        "facet": "software",
+        "stance": "negative",
+        "text": "Hands-on: no Google services, as on all Huawei phones since 2019."
+      }
+    ],
+    "extraction": "partial"
+  }
+]

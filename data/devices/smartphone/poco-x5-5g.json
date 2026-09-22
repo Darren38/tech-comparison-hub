@@ -1,0 +1,156 @@
+{
+  "id": "poco-x5-5g",
+  "name": "POCO X5 5G",
+  "brand": "poco",
+  "category": "smartphone",
+  "series": "X",
+  "form": "bar",
+  "status": "released",
+  "announced": "2023-02-06",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1099,
+      "config": "6 GB / 128 GB",
+      "date": "2023-02-06",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2023/02/06/poco-x5-and-x5-pro-malaysia-official-launch-price-specs/",
+      "class": "news",
+      "accessed": "2026-09-18",
+      "note": "Recommended retail price; RM100 lower during the early-bird sale."
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1199,
+      "config": "8 GB / 256 GB",
+      "date": "2023-02-06",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2023/02/06/poco-x5-and-x5-pro-malaysia-official-launch-price-specs/",
+      "class": "news",
+      "accessed": "2026-09-18",
+      "note": "Recommended retail price; RM100 lower during the early-bird sale."
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 6.67,
+      "type": "AMOLED",
+      "resolution": "2400 × 1080",
+      "refresh_hz": 120,
+      "peak_nits": 1200,
+      "ppi": 395
+    },
+    "platform": {
+      "chipset": "snapdragon-695",
+      "gpu": "Qualcomm Adreno 619",
+      "cpu": "Octa-core CPU, up to 2.2GHz"
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "charging": {
+      "wired_w": 33,
+      "claim": "33W fast charging; 33W in-box charger"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 48,
+          "sensor": "1/2.76\"",
+          "aperture": "f/1.8"
+        },
+        {
+          "role": "ultrawide",
+          "mp": 8
+        },
+        {
+          "role": "macro",
+          "mp": 2
+        }
+      ],
+      "video": "1080p",
+      "front_video": "1080p",
+      "rear_detail": [
+        "48MP triple camera, f/1.8, 0.64μm, 1/2.76” sensor size",
+        "8MP ultra-wide camera, f/2.2, FOV 118°",
+        "2MP macro camera, f/2.4"
+      ],
+      "front_detail": [
+        "13MP front camera, f/2.45"
+      ]
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true,
+      "bands_3g": "B1/2/4/5/8",
+      "bands_4g": "LTE FDD: B1/2/3/4/5/7/8/20/28/66; LTE TDD: B38/40/41",
+      "technology": "HSPA / LTE",
+      "wifi": "802.11a/b/g/n/ac",
+      "positioning": "L1; GLONASS: G1; Compass: B1; Galileo E1",
+      "sim": "SIM 1 + Hybrid (SIM or MicroSD)",
+      "bluetooth": "Bluetooth 5.1",
+      "usb": "USB-C"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 165.88,
+        "width_mm": 76.21,
+        "depth_mm": 7.98
+      },
+      "weight_g": 189.0
+    },
+    "software": {
+      "launch_os": "MIUI 13"
+    },
+    "sensors": "Proximity sensor, Ambient light sensor, Accelerometer, Electronic compass, IR blaster, Gyroscope, Vibration motor, Coin motor",
+    "audio": {
+      "jack": true
+    },
+    "memory": {
+      "ram_type": "LPDDR4X",
+      "storage_type": "UFS2.2"
+    },
+    "biometrics": {
+      "fingerprint": "Side fingerprint sensor"
+    },
+    "misc": {
+      "colors": "Black, Green, Blue"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "poco",
+      "url": "https://www.mi.com/my/product/poco-x5-5g/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from Xiaomi Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2023/02/06/poco-x5-and-x5-pro-malaysia-official-launch-price-specs/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1675669255.82325730.png",
+    "page": "https://www.mi.com/global/product/poco-x5-5g/specs/",
+    "credit": "Xiaomi",
+    "checked": "2026-09-19"
+  }
+}

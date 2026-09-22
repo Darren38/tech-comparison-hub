@@ -1,0 +1,16 @@
+{
+  "id": "snapdragon-7-gen-1-accelerated-edition",
+  "name": "Snapdragon 7 Gen 1 Accelerated Edition",
+  "vendor": "qualcomm",
+  "family": "Snapdragon 7 series",
+  "summary": "Name recorded from phone makers' specification pages and launch reports. Chip details have not been compiled yet.",
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "honor",
+      "url": "https://www.honor.com/my/phones/honor-90/spec/",
+      "checked": "2026-09-18",
+      "note": "Chip name as given for the HONOR 90."
+    }
+  }
+}

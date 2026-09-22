@@ -1,0 +1,16 @@
+{
+  "id": "snapdragon-8-gen-3",
+  "name": "Snapdragon 8 Gen 3",
+  "vendor": "qualcomm",
+  "family": "Snapdragon 8 series",
+  "summary": "Name recorded from phone makers' specification pages and launch reports. Chip details have not been compiled yet.",
+  "provenance": {
+    "default": {
+      "class": "news",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2024/314739/samsung-galaxy-s24-series/",
+      "checked": "2026-09-18",
+      "note": "Chip name as given for the Galaxy S24 Ultra."
+    }
+  }
+}

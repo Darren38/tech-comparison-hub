@@ -1,0 +1,65 @@
+{
+  "id": "honor-watch-6",
+  "name": "HONOR Watch 6",
+  "brand": "honor",
+  "category": "smartwatch",
+  "series": "Watch",
+  "form": "watch",
+  "status": "released",
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-18",
+      "source": "honor",
+      "url": "https://www.honor.com/my/wearables/honor-watch-6/spec/",
+      "note": "Sold in Malaysia, but no launch price was found in Malaysian launch coverage."
+    }
+  },
+  "specs": {
+    "display": {
+      "size_in": 1.46,
+      "type": "AMOLED",
+      "resolution": "464 × 464"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 46.5,
+        "width_mm": 46.5,
+        "depth_mm": 10.8
+      },
+      "weight_g": 41.0,
+      "water": "5 ATM",
+      "water_m": 50,
+      "ip": "IP69"
+    },
+    "connectivity": {
+      "usb": "Magnetic charging port; Compatibility; Android 9.0 or later; IOS 15.1 or later; Water Resistance Level; 5ATM, IP69",
+      "bluetooth": "Bluetooth"
+    },
+    "audio": {
+      "speakers": "Microphone; Charger Voltage and Current; 5V/2A or more"
+    },
+    "sensors": "Accelerometer sensor, Gyroscope sensor, Magnetometer sensor, Optical heart rate sensor, Barometer sensor, Ambient light sensor",
+    "misc": {
+      "colors": "Shadow Black"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "honor",
+      "url": "https://www.honor.com/my/wearables/honor-watch-6/spec/",
+      "checked": "2026-09-18",
+      "note": "Read from HONOR Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {}
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://www.honor.com/content/dam/honor/common/product-list/wearables/product-series/honor-watch-6/honor-watch-6-black-list.png",
+    "page": "https://www.honor.com/my/wearables/honor-watch-6/spec/",
+    "credit": "HONOR",
+    "checked": "2026-09-19"
+  }
+}

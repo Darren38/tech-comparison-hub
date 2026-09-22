@@ -1,0 +1,128 @@
+{
+  "id": "honor-600-lite",
+  "name": "HONOR 600 Lite",
+  "brand": "honor",
+  "category": "smartphone",
+  "series": "Number",
+  "form": "bar",
+  "status": "released",
+  "announced": "2026-03-05",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1399,
+      "date": "2026-03-05",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2026/385401/honor-600-lite-malaysia/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://www.honor.com/content/dam/honor/common/products/honor-600-lite/imgs/gold/share.jpg",
+    "page": "https://www.honor.com/my/phones/honor-600-lite/spec/",
+    "credit": "HONOR Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.6,
+      "type": "AMOLED",
+      "resolution": "2600 × 1200",
+      "peak_nits": 6500,
+      "ppi": 434
+    },
+    "platform": {
+      "chipset": "dimensity-7100-e",
+      "gpu": "G610 MC2",
+      "cpu": "Octa-core; 4*A78 2.4Ghz + 4*A55 2.0Ghz"
+    },
+    "battery": {
+      "capacity_mah": 6520,
+      "chemistry": "Li-ion Polymer"
+    },
+    "charging": {
+      "wired_w": 45,
+      "claim": "Support 45W"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 108,
+          "aperture": "f/1.75"
+        },
+        {
+          "role": "ultrawide",
+          "mp": 5
+        }
+      ],
+      "front": "16 MP",
+      "rear_detail": [
+        "108MP Main Camera(f/1.75)",
+        "5MP Ultra Wide Camera(f/2.2)"
+      ],
+      "features": "Up to 10X Digital zoom",
+      "front_detail": [
+        "16MP Camera (f/2.45)"
+      ],
+      "video": "1080p"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true,
+      "technology": "GSM / HSPA / LTE / 5G",
+      "sim": "SIM1+SIM2",
+      "wifi": "Support 802.11 a/b/g/n/ac，2.4GHz and 5GHz; Support WiFi hotspot/Wi-Fi Direct",
+      "usb": "Type-C, USB 2.0",
+      "positioning": "GPS/AGPS/Glonass/BeiDou/Galileo",
+      "bluetooth": "Bluetooth"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 157.43,
+        "width_mm": 75.35,
+        "depth_mm": 7.34
+      },
+      "weight_g": 180.0,
+      "ip": "IP66"
+    },
+    "software": {
+      "launch_os": "MagicOS 10 (Based on Android 16)"
+    },
+    "biometrics": {
+      "face": "Support 2D Face Recognition"
+    },
+    "audio": {
+      "jack": false
+    },
+    "sensors": "Gravity Sensor, Fingerprint Sensor, Compass, Ambient Light Sensor, Proximity Sensor (Ultrasonic approach, non-physical approach sensor)"
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "honor",
+      "url": "https://www.honor.com/my/phones/honor-600-lite/spec/",
+      "checked": "2026-09-18",
+      "note": "Read from HONOR Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "lowyat",
+        "url": "https://www.lowyat.net/2026/385401/honor-600-lite-malaysia/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (Lowyat.NET). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

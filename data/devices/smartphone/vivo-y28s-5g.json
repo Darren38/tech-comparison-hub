@@ -1,0 +1,142 @@
+{
+  "id": "vivo-y28s-5g",
+  "name": "vivo Y28s 5G",
+  "brand": "vivo",
+  "category": "smartphone",
+  "series": "Y",
+  "form": "bar",
+  "status": "released",
+  "announced": "2024-07-03",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 799,
+      "config": "6 GB / 128 GB",
+      "date": "2024-07-03",
+      "type": "launch",
+      "source": "nasilemaktech",
+      "url": "https://nasilemaktech.com/vivo-y28s-5g-malaysia-price/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 999,
+      "config": "8 GB / 256 GB",
+      "date": "2024-07-03",
+      "type": "launch",
+      "source": "nasilemaktech",
+      "url": "https://nasilemaktech.com/vivo-y28s-5g-malaysia-price/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 6.56,
+      "type": "LCD",
+      "resolution": "1612 × 720",
+      "refresh_hz": 90,
+      "peak_nits": 840,
+      "ppi": 269
+    },
+    "platform": {
+      "chipset": "dimensity-6300",
+      "process": "6 nm",
+      "cpu": "8 cores; 2 × 2.4 GHz + 6 × 2.0 GHz"
+    },
+    "memory": {
+      "ram_gb": [
+        6,
+        8
+      ],
+      "storage_gb": [
+        128,
+        256
+      ],
+      "ram_type": "LPDDR4X",
+      "storage_type": "eMMC 5.1",
+      "card": "1 TB"
+    },
+    "battery": {
+      "capacity_mah": 5000,
+      "chemistry": "Li-ion battery"
+    },
+    "charging": {
+      "wired_w": 15,
+      "claim": "15W"
+    },
+    "camera": {
+      "front": "8 MP",
+      "rear_detail": [
+        "Night, Portrait, Photo, Video, 50 MP, Pano, Documents, Slo-mo, Time-lapse, Pro, Live Photo"
+      ],
+      "front_detail": [
+        "8 MP, f/2.0"
+      ]
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "bands_2g": "850/900/1800/1900 MHz",
+      "bands_3g": "B1/B2/B4/B5/B8",
+      "bands_4g": "4G FDD-LTE: B1/B2/B3/B4/B5/B7/B8/B20/B28",
+      "bands_5g": "5G: n1/n3/n5/n7/n8/n20/n28/n38/n40/n41/n77/n78",
+      "technology": "GSM / HSPA / LTE / 5G",
+      "sim": "1 nano SIM + 1 nano SIM / microSD",
+      "wifi": "2.4 GHz, 5 GHz",
+      "bluetooth": "Bluetooth 5.4",
+      "usb": "USB 2.0",
+      "radio": "Not supported (Europe), supported (others)",
+      "nfc": false,
+      "positioning": "GPS, BeiDou, GLONASS, Galileo, QZSS"
+    },
+    "build": {
+      "weight_g": 185.0,
+      "ip": "IP64",
+      "back": "Composite plastic sheet"
+    },
+    "software": {
+      "launch_os": "Funtouch OS 14"
+    },
+    "misc": {
+      "colors": "Mocha Brown, Twinkling Purple"
+    },
+    "biometrics": {
+      "fingerprint": "Side-mounted capacitive fingerprint sensor"
+    },
+    "sensors": "Accelerometer, Ambient Light Sensor, Proximity Sensor, E-compass, Motor"
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "vivo",
+      "url": "https://www.vivo.com/my/products/param/y28s-5g",
+      "checked": "2026-09-18",
+      "note": "Read from vivo Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "nasilemaktech",
+        "url": "https://nasilemaktech.com/vivo-y28s-5g-malaysia-price/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (Nasi Lemak Tech). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1719306462199/874f0f0f265e0bbda9f8c90a879257cb.png",
+    "page": "https://www.vivo.com/my/products/param/y28s-5g",
+    "credit": "vivo Malaysia",
+    "checked": "2026-09-19"
+  }
+}

@@ -1,0 +1,322 @@
+{
+  "id": "huawei-pura-70-pro",
+  "name": "Huawei Pura 70 Pro",
+  "brand": "huawei",
+  "category": "smartphone",
+  "series": "Pura",
+  "form": "bar",
+  "status": "released",
+  "announced": "2024-05-02",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 4899,
+      "date": "2024-05-02",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2024/321475/huawei-pura-70-series-malaysia/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 6.8,
+      "type": "LTPO OLED",
+      "refresh_hz": 120,
+      "peak_nits": 2500
+    },
+    "platform": {
+      "chipset": "kirin-9010"
+    },
+    "memory": {
+      "ram_gb": [
+        12
+      ],
+      "storage_gb": [
+        512
+      ],
+      "card": "No"
+    },
+    "battery": {
+      "capacity_mah": 5050
+    },
+    "charging": {
+      "wired_w": 100,
+      "wireless_w": 80,
+      "claim": "HUAWEI SuperCharge (Max 100 W); The phone supports 20V/5A (Max 100 W) super-fast charging and is compatible with 20V/4.4A or 10V/4A or 10V/2.25A or 4.5V/5A or 5V/4.5A super-fast ch"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50
+        },
+        {
+          "role": "ultrawide",
+          "mp": 12.5
+        },
+        {
+          "role": "telephoto",
+          "mp": 48
+        }
+      ],
+      "zoom_optical_x": 3.5,
+      "rear_detail": [
+        "50 MP Ultra Lighting Camera (F1.4~F4.0 aperture, OIS)",
+        "12.5 MP Ultra-Wide Angle Camera (F2.2 aperture)",
+        "48 MP Ultra Lighting Macro Telephoto Camera (F2.1 aperture, OIS)"
+      ],
+      "features": "3.5x optical zoom (3.5x zoom is an approximate value, the lens focal lengths are 24.5 mm, 13 mm, 92.5 mm), and 100x digital zoom.",
+      "video": "4K",
+      "front_detail": [
+        "13 MP Selfie Camera (Wide Angle, F2.4, Autofocus)"
+      ]
+    },
+    "build": {
+      "ip": "IP68"
+    },
+    "connectivity": {
+      "bands_2g": "Bands 2/3/5/8 (850/900/1800/1900 MHz",
+      "bands_3g": "Bands 1/2/4/5/6/8/19",
+      "bands_4g": "4G LTE FDD: Bands 1/2/3/4/5/6/7/8/9/12/13/17/18/19/20/26/28/66; 4G LTE TDD: Bands 34/38/39/40/41/42",
+      "technology": "GSM / HSPA / LTE",
+      "wifi": "2.4 GHz and 5 GHz; 802.11 a/b/g/n/ac/ax, 2 × 2 MIMO, HE160, 1024 QAM, 8 Spatial-stream Sounding MU-MIMO",
+      "bluetooth": "Bluetooth 5.2, Support BLE, SBC, AAC, LDAC and L2HC.",
+      "usb": "USB Type-C, USB 3.1 GEN1",
+      "positioning": "GPS (L1 + L5 Dual band)/AGPS/GLONASS/BeiDou (B1I + B1C + B2a + B2b Quad-band)/GALILEO (E1 + E5a + E5b Tri-band)/QZSS (L1 + L5 Dual band)/NavIC",
+      "sim": "Single SIM model",
+      "nfc": true
+    },
+    "audio": {
+      "jack": false
+    },
+    "sensors": "Gesture Sensor, Gravity Sensor, Infrared Sensor, Fingerprint Sensor, Hall Sensor, Gyroscope, Compass, Ambient Light Sensor, Proximity Sensor, Laser Sensor, Colour Temperature Sensor",
+    "misc": {
+      "colors": "White, Black"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "news",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2024/321475/huawei-pura-70-series-malaysia/",
+      "note": "The maker no longer publishes a specification page for this model. Key specs were taken from this Malaysian launch report, which gives the maker's figures.",
+      "checked": "2026-09-18"
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "lowyat",
+        "url": "https://www.lowyat.net/2024/321475/huawei-pura-70-series-malaysia/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (Lowyat.NET). The global announcement can be earlier."
+      },
+      "specs.audio.jack": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20250920151814/https://consumer.huawei.com/my/phones/pura70-pro/specs/",
+        "checked": "2026-09-19",
+        "note": "The maker's own specification page (https://consumer.huawei.com/my/phones/pura70-pro/specs/) is no longer online; read from the Internet Archive copy captured 2025-09-20."
+      },
+      "specs.camera.features": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20250920151814/https://consumer.huawei.com/my/phones/pura70-pro/specs/",
+        "checked": "2026-09-19",
+        "note": "The maker's own specification page (https://consumer.huawei.com/my/phones/pura70-pro/specs/) is no longer online; read from the Internet Archive copy captured 2025-09-20."
+      },
+      "specs.camera.front_detail": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20250920151814/https://consumer.huawei.com/my/phones/pura70-pro/specs/",
+        "checked": "2026-09-19",
+        "note": "The maker's own specification page (https://consumer.huawei.com/my/phones/pura70-pro/specs/) is no longer online; read from the Internet Archive copy captured 2025-09-20."
+      },
+      "specs.camera.rear_detail": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20250920151814/https://consumer.huawei.com/my/phones/pura70-pro/specs/",
+        "checked": "2026-09-19",
+        "note": "The maker's own specification page (https://consumer.huawei.com/my/phones/pura70-pro/specs/) is no longer online; read from the Internet Archive copy captured 2025-09-20."
+      },
+      "specs.camera.video": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20250920151814/https://consumer.huawei.com/my/phones/pura70-pro/specs/",
+        "checked": "2026-09-19",
+        "note": "The maker's own specification page (https://consumer.huawei.com/my/phones/pura70-pro/specs/) is no longer online; read from the Internet Archive copy captured 2025-09-20."
+      },
+      "specs.charging.claim": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20250920151814/https://consumer.huawei.com/my/phones/pura70-pro/specs/",
+        "checked": "2026-09-19",
+        "note": "The maker's own specification page (https://consumer.huawei.com/my/phones/pura70-pro/specs/) is no longer online; read from the Internet Archive copy captured 2025-09-20."
+      },
+      "specs.connectivity.bands_2g": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20250920151814/https://consumer.huawei.com/my/phones/pura70-pro/specs/",
+        "checked": "2026-09-19",
+        "note": "The maker's own specification page (https://consumer.huawei.com/my/phones/pura70-pro/specs/) is no longer online; read from the Internet Archive copy captured 2025-09-20."
+      },
+      "specs.connectivity.bands_3g": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20250920151814/https://consumer.huawei.com/my/phones/pura70-pro/specs/",
+        "checked": "2026-09-19",
+        "note": "The maker's own specification page (https://consumer.huawei.com/my/phones/pura70-pro/specs/) is no longer online; read from the Internet Archive copy captured 2025-09-20."
+      },
+      "specs.connectivity.bands_4g": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20250920151814/https://consumer.huawei.com/my/phones/pura70-pro/specs/",
+        "checked": "2026-09-19",
+        "note": "The maker's own specification page (https://consumer.huawei.com/my/phones/pura70-pro/specs/) is no longer online; read from the Internet Archive copy captured 2025-09-20."
+      },
+      "specs.connectivity.bluetooth": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20250920151814/https://consumer.huawei.com/my/phones/pura70-pro/specs/",
+        "checked": "2026-09-19",
+        "note": "The maker's own specification page (https://consumer.huawei.com/my/phones/pura70-pro/specs/) is no longer online; read from the Internet Archive copy captured 2025-09-20."
+      },
+      "specs.connectivity.nfc": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20250920151814/https://consumer.huawei.com/my/phones/pura70-pro/specs/",
+        "checked": "2026-09-19",
+        "note": "The maker's own specification page (https://consumer.huawei.com/my/phones/pura70-pro/specs/) is no longer online; read from the Internet Archive copy captured 2025-09-20."
+      },
+      "specs.connectivity.positioning": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20250920151814/https://consumer.huawei.com/my/phones/pura70-pro/specs/",
+        "checked": "2026-09-19",
+        "note": "The maker's own specification page (https://consumer.huawei.com/my/phones/pura70-pro/specs/) is no longer online; read from the Internet Archive copy captured 2025-09-20."
+      },
+      "specs.connectivity.sim": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20250920151814/https://consumer.huawei.com/my/phones/pura70-pro/specs/",
+        "checked": "2026-09-19",
+        "note": "The maker's own specification page (https://consumer.huawei.com/my/phones/pura70-pro/specs/) is no longer online; read from the Internet Archive copy captured 2025-09-20."
+      },
+      "specs.connectivity.technology": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20250920151814/https://consumer.huawei.com/my/phones/pura70-pro/specs/",
+        "checked": "2026-09-19",
+        "note": "The maker's own specification page (https://consumer.huawei.com/my/phones/pura70-pro/specs/) is no longer online; read from the Internet Archive copy captured 2025-09-20."
+      },
+      "specs.connectivity.usb": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20250920151814/https://consumer.huawei.com/my/phones/pura70-pro/specs/",
+        "checked": "2026-09-19",
+        "note": "The maker's own specification page (https://consumer.huawei.com/my/phones/pura70-pro/specs/) is no longer online; read from the Internet Archive copy captured 2025-09-20."
+      },
+      "specs.connectivity.wifi": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20250920151814/https://consumer.huawei.com/my/phones/pura70-pro/specs/",
+        "checked": "2026-09-19",
+        "note": "The maker's own specification page (https://consumer.huawei.com/my/phones/pura70-pro/specs/) is no longer online; read from the Internet Archive copy captured 2025-09-20."
+      },
+      "specs.memory.card": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20250920151814/https://consumer.huawei.com/my/phones/pura70-pro/specs/",
+        "checked": "2026-09-19",
+        "note": "The maker's own specification page (https://consumer.huawei.com/my/phones/pura70-pro/specs/) is no longer online; read from the Internet Archive copy captured 2025-09-20."
+      },
+      "specs.misc.colors": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20250920151814/https://consumer.huawei.com/my/phones/pura70-pro/specs/",
+        "checked": "2026-09-19",
+        "note": "The maker's own specification page (https://consumer.huawei.com/my/phones/pura70-pro/specs/) is no longer online; read from the Internet Archive copy captured 2025-09-20."
+      },
+      "specs.sensors": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20250920151814/https://consumer.huawei.com/my/phones/pura70-pro/specs/",
+        "checked": "2026-09-19",
+        "note": "The maker's own specification page (https://consumer.huawei.com/my/phones/pura70-pro/specs/) is no longer online; read from the Internet Archive copy captured 2025-09-20."
+      },
+      "specs.battery.capacity_mah": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20250920151814/https://consumer.huawei.com/my/phones/pura70-pro/specs/",
+        "checked": "2026-09-19",
+        "note": "Matches the maker's own specification page (https://consumer.huawei.com/my/phones/pura70-pro/specs/), which is no longer online; checked against the Internet Archive copy captured 2025-09-20."
+      },
+      "specs.display.size_in": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20250920151814/https://consumer.huawei.com/my/phones/pura70-pro/specs/",
+        "checked": "2026-09-19",
+        "note": "Matches the maker's own specification page (https://consumer.huawei.com/my/phones/pura70-pro/specs/), which is no longer online; checked against the Internet Archive copy captured 2025-09-20."
+      },
+      "specs.display.refresh_hz": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20250920151814/https://consumer.huawei.com/my/phones/pura70-pro/specs/",
+        "checked": "2026-09-19",
+        "note": "Matches the maker's own specification page (https://consumer.huawei.com/my/phones/pura70-pro/specs/), which is no longer online; checked against the Internet Archive copy captured 2025-09-20."
+      },
+      "specs.charging.wired_w": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20250920151814/https://consumer.huawei.com/my/phones/pura70-pro/specs/",
+        "checked": "2026-09-19",
+        "note": "Matches the maker's own specification page (https://consumer.huawei.com/my/phones/pura70-pro/specs/), which is no longer online; checked against the Internet Archive copy captured 2025-09-20."
+      },
+      "specs.camera.rear": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20250920151814/https://consumer.huawei.com/my/phones/pura70-pro/specs/",
+        "checked": "2026-09-19",
+        "note": "Matches the maker's own specification page (https://consumer.huawei.com/my/phones/pura70-pro/specs/), which is no longer online; checked against the Internet Archive copy captured 2025-09-20."
+      },
+      "specs.memory.ram_gb": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20250920151814/https://consumer.huawei.com/my/phones/pura70-pro/specs/",
+        "checked": "2026-09-19",
+        "note": "Matches the maker's own specification page (https://consumer.huawei.com/my/phones/pura70-pro/specs/), which is no longer online; checked against the Internet Archive copy captured 2025-09-20."
+      },
+      "specs.memory.storage_gb": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20250920151814/https://consumer.huawei.com/my/phones/pura70-pro/specs/",
+        "checked": "2026-09-19",
+        "note": "Matches the maker's own specification page (https://consumer.huawei.com/my/phones/pura70-pro/specs/), which is no longer online; checked against the Internet Archive copy captured 2025-09-20."
+      },
+      "specs.platform.chipset": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20250920151814/https://consumer.huawei.com/my/phones/pura70-pro/specs/",
+        "checked": "2026-09-19",
+        "note": "Matches the maker's own specification page (https://consumer.huawei.com/my/phones/pura70-pro/specs/), which is no longer online; checked against the Internet Archive copy captured 2025-09-20."
+      },
+      "specs.display.type": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20250920151814/https://consumer.huawei.com/my/phones/pura70-pro/specs/",
+        "checked": "2026-09-19",
+        "note": "Matches the maker's own specification page (https://consumer.huawei.com/my/phones/pura70-pro/specs/), which is no longer online; checked against the Internet Archive copy captured 2025-09-20."
+      }
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/admin-image/phones/pura70-pro/specs-white.png",
+    "page": "https://web.archive.org/web/20250920151814/https://consumer.huawei.com/my/phones/pura70-pro/specs/",
+    "credit": "Huawei",
+    "checked": "2026-09-19"
+  }
+}

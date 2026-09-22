@@ -1,0 +1,127 @@
+{
+  "id": "iqoo-15",
+  "name": "iQOO 15",
+  "brand": "iqoo",
+  "category": "smartphone",
+  "series": "iQOO",
+  "form": "bar",
+  "status": "released",
+  "announced": "2025-10",
+  "released": "2025-11",
+  "segment": "gaming",
+  "aliases": [
+    "iQOO15"
+  ],
+  "summary": "vivo's performance sub-brand flagship with a 2K 144 Hz Samsung M14 panel and a 7,000 mAh battery.",
+  "highlights": [
+    "2K 144 Hz Samsung M14 OLED",
+    "7,000 mAh battery",
+    "IP68 + IP69"
+  ],
+  "prices": [
+    {
+      "region": "IN",
+      "currency": "INR",
+      "amount": 72999,
+      "config": "12 GB / 256 GB",
+      "date": "2025-11",
+      "type": "launch",
+      "source": "fonearena",
+      "url": "https://www.fonearena.com/blog/469632/iqoo-15-price-india-specifications.html",
+      "class": "news"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 3699,
+      "config": "12 GB / 256 GB",
+      "date": "2025-12",
+      "type": "launch",
+      "source": "nasilemaktech",
+      "url": "https://nasilemaktech.com/iqoo-15-malaysia-launch-price/",
+      "class": "news",
+      "accessed": "2026-09-16",
+      "note": "Sold online only."
+    }
+  ],
+  "image": {
+    "kind": "photo",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Vivo_iQOO_15_%22Lingyun%22_Back_Panel.jpg/500px-Vivo_iQOO_15_%22Lingyun%22_Back_Panel.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Vivo_iQOO_15_%22Lingyun%22_Back_Panel.jpg",
+    "title": "Vivo iQOO 15 \"Lingyun\" Back Panel",
+    "author": "X-SHLIED",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "checked": "2026-09-17"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.85,
+      "type": "LTPO OLED (Samsung M14)",
+      "resolution": "3168 × 1440",
+      "ppi": 508,
+      "refresh_hz": 144
+    },
+    "platform": {
+      "chipset": "snapdragon-8-elite-gen-5"
+    },
+    "memory": {
+      "ram_gb": [
+        12,
+        16
+      ],
+      "storage_gb": [
+        256,
+        512
+      ]
+    },
+    "battery": {
+      "capacity_mah": 7000
+    },
+    "charging": {
+      "wired_w": 100,
+      "wireless_w": 40,
+      "claim": "About 50 min to full (reported)"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50
+        },
+        {
+          "role": "ultrawide",
+          "mp": 50
+        },
+        {
+          "role": "periscope",
+          "mp": 50,
+          "zoom_x": 3
+        }
+      ],
+      "zoom_optical_x": 3,
+      "front": "32 MP"
+    },
+    "build": {
+      "ip": "IP68 + IP69"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true
+    },
+    "software": {
+      "launch_os": "Android 16, OriginOS 6"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "iqoo",
+      "url": "https://shop.iqoo.com/in/product/2067",
+      "checked": "2026-09-15",
+      "note": "Cross-checked against iQOO India listing and FoneArena."
+    },
+    "fields": {}
+  },
+  "dataStatus": "checked"
+}

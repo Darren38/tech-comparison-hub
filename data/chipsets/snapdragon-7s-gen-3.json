@@ -1,0 +1,50 @@
+{
+  "id": "snapdragon-7s-gen-3",
+  "name": "Snapdragon 7s Gen 3",
+  "vendor": "qualcomm",
+  "family": "Snapdragon 7",
+  "tier": "mid",
+  "announced": "2024-08-20",
+  "aliases": [
+    "SD 7s Gen 3",
+    "7s Gen 3",
+    "SM7635"
+  ],
+  "summary": "Mid-range chip used in Redmi Note 14 Pro+ class phones.",
+  "process": {
+    "node": "4 nm"
+  },
+  "cpu": {
+    "cores": 8,
+    "clusters": [
+      {
+        "count": 1,
+        "core": "Cortex-A720",
+        "ghz": 2.5
+      },
+      {
+        "count": 3,
+        "core": "Cortex-A720",
+        "ghz": 2.4
+      },
+      {
+        "count": 4,
+        "core": "Cortex-A520",
+        "ghz": 1.8
+      }
+    ]
+  },
+  "gpu": {
+    "name": "Adreno 810"
+  },
+  "variants": [],
+  "provenance": {
+    "default": {
+      "class": "database",
+      "source": "qualcomm",
+      "url": "https://www.qualcomm.com/smartphones/products/7-series",
+      "note": "Compiled from Qualcomm's announcement; clocks not re-checked this session."
+    },
+    "fields": {}
+  }
+}

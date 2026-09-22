@@ -1,0 +1,154 @@
+{
+  "id": "poco-c85",
+  "name": "POCO C85",
+  "brand": "poco",
+  "category": "smartphone",
+  "series": "C",
+  "form": "bar",
+  "status": "released",
+  "announced": "2025-09-02",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 439,
+      "config": "6 GB / 128 GB",
+      "date": "2025-09-02",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/09/02/poco-c85-malaysia-official-price-specs-early-bird-promo/",
+      "class": "news",
+      "accessed": "2026-09-18",
+      "note": "Recommended retail price; RM40 lower during the launch promotion."
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 499,
+      "config": "8 GB / 256 GB",
+      "date": "2025-09-02",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/09/02/poco-c85-malaysia-official-price-specs-early-bird-promo/",
+      "class": "news",
+      "accessed": "2026-09-18",
+      "note": "Recommended retail price; RM40 lower during the launch promotion."
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 6.9,
+      "resolution": "1600 × 720",
+      "refresh_hz": 120,
+      "peak_nits": 810,
+      "ppi": 254
+    },
+    "platform": {
+      "chipset": "helio-g81",
+      "gpu": "Mali-G52 MC2",
+      "cpu": "Cortex-A75+Cortex-A55; Max CPU frequency: 2.0GHz"
+    },
+    "memory": {
+      "ram_gb": [
+        6,
+        8
+      ],
+      "storage_gb": [
+        128,
+        256
+      ],
+      "ram_type": "LPDDR4X"
+    },
+    "battery": {
+      "capacity_mah": 6000
+    },
+    "charging": {
+      "wired_w": 33,
+      "claim": "Supports 33W fast charging"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "aperture": "f/1.8"
+        }
+      ],
+      "front": "8 MP",
+      "rear_detail": [
+        "50MP main camera, 5P lens, f/1.8, Auxiliary lens"
+      ],
+      "video": "1080p@30fps",
+      "front_detail": [
+        "8MP front camera, f/2.0"
+      ],
+      "front_video": "1080p@30fps"
+    },
+    "connectivity": {
+      "cellular": "4G",
+      "nfc": true,
+      "bands_2g": "2/3/5/8",
+      "bands_3g": "1/2/4/5/8/6/19",
+      "bands_4g": "LTE FDD: B1/2/3/4/5/7/8/18/19/20/26/28/66; LTE TDD: B38/40/41",
+      "technology": "GSM / HSPA / LTE",
+      "wifi": "2.4GHz; 5GHz; Supports FM radio (with headphone jack)",
+      "positioning": "GPS; Glonass; Galileo; Beidou",
+      "sim": "Dual SIM + microSD",
+      "bluetooth": "Bluetooth 5.4",
+      "usb": "USB Type-C"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 171.56,
+        "width_mm": 79.47,
+        "depth_mm": 7.99
+      },
+      "weight_g": 205.0,
+      "ip": "IP64"
+    },
+    "software": {
+      "launch_os": "Xiaomi HyperOS 2"
+    },
+    "sensors": "Virtual proximity sensor, Ambient light sensor, Accelerometer, Electronic compass",
+    "audio": {
+      "jack": true
+    },
+    "biometrics": {
+      "fingerprint": "Side fingerprint sensor"
+    },
+    "misc": {
+      "colors": "Purple, Black, Green"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "poco",
+      "url": "https://www.mi.com/my/product/poco-c85/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from Xiaomi Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2025/09/02/poco-c85-malaysia-official-price-specs-early-bird-promo/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://i02.appmifile.com/872_operatorx_operatorx_opx/01/09/2025/4218764363094fcccaeb2e81a22cfea8.png",
+    "page": "https://www.mi.com/global/product/poco-c85/specs/",
+    "credit": "Xiaomi",
+    "checked": "2026-09-19"
+  }
+}

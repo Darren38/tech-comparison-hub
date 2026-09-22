@@ -1,0 +1,134 @@
+{
+  "id": "honor-400-lite",
+  "name": "HONOR 400 Lite",
+  "brand": "honor",
+  "category": "smartphone",
+  "series": "Number",
+  "form": "bar",
+  "status": "released",
+  "announced": "2025-04-25",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1299,
+      "config": "12 GB / 256 GB",
+      "date": "2025-04-25",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/04/25/honor-400-lite-malaysia-launch-price-specs-promo/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://www.honor.com/content/dam/honor/common/product-list/product-series/honor-400-lite/list/honor-400-lite-gray-list.png",
+    "page": "https://www.honor.com/my/phones/honor-400-lite/spec/",
+    "credit": "HONOR Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.7,
+      "type": "AMOLED",
+      "resolution": "2412 × 1080",
+      "ppi": 394
+    },
+    "platform": {
+      "chipset": "dimensity-7025-ultra",
+      "gpu": "IMG BXM-8-256",
+      "cpu": "Octa-core; 2xA78 2.5GHz + 6xA55 2.0Ghz"
+    },
+    "memory": {
+      "ram_gb": [
+        12
+      ],
+      "storage_gb": [
+        256
+      ]
+    },
+    "battery": {
+      "capacity_mah": 5230,
+      "chemistry": "Li-ion Polymer"
+    },
+    "charging": {
+      "wired_w": 35,
+      "claim": "Support up to 11V/3.2A super charge"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 108,
+          "aperture": "f/1.75"
+        },
+        {
+          "role": "depth",
+          "mp": 5
+        }
+      ],
+      "rear_text": "Rear: 108MP Main Camera(f/1.75) + 5MP Wide&Depth Camera(f/2.2)",
+      "front": "16 MP",
+      "rear_detail": [
+        "108MP Main Camera(f/1.75)",
+        "5MP Wide&Depth Camera(f/2.2)"
+      ],
+      "features": "Up to 10x digital zoom",
+      "front_detail": [
+        "16MP Camera (f/2.45), Selfie Light"
+      ],
+      "video": "1080p"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true,
+      "technology": "GSM / HSPA / LTE / 5G",
+      "sim": "Nano SIM card",
+      "wifi": "802.11 a/b/g/n/ac; 2.4 GHz and 5 GHz",
+      "usb": "USB Type-C, USB 2.0",
+      "positioning": "GPS/AGPS/GLONASS/BeiDou/Galileo; Network-Based Positioning; WLAN-Based Positioning",
+      "bluetooth": "Bluetooth"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 161.0,
+        "width_mm": 74.55,
+        "depth_mm": 7.29
+      },
+      "weight_g": 171.0,
+      "ip": "IP65"
+    },
+    "software": {
+      "launch_os": "MagicOS 9.0 (Based on Android 15)"
+    },
+    "biometrics": {
+      "face": "Support 2D Face Recognition"
+    },
+    "sensors": "Gravity Sensor, Fingerprint Sensor, Compass, Ambient Light Sensor, Proximity Sensor (Ultrasonic approach, non-physical approach sensor)"
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "honor",
+      "url": "https://www.honor.com/my/phones/honor-400-lite/spec/",
+      "checked": "2026-09-18",
+      "note": "Read from HONOR Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2025/04/25/honor-400-lite-malaysia-launch-price-specs-promo/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

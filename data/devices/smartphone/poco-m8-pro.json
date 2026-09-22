@@ -1,0 +1,109 @@
+{
+  "id": "poco-m8-pro",
+  "name": "POCO M8 Pro",
+  "brand": "poco",
+  "category": "smartphone",
+  "series": "M",
+  "form": "bar",
+  "status": "released",
+  "announced": "2026-01-08",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1199,
+      "config": "8 GB / 256 GB",
+      "date": "2026-01-08",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2026/01/08/poco-m8-and-m8-pro-malaysia-launch-price-specs/",
+      "class": "news",
+      "accessed": "2026-09-18",
+      "note": "Recommended retail price; lower during the launch promotion."
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1499,
+      "config": "12 GB / 512 GB",
+      "date": "2026-01-08",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2026/01/08/poco-m8-and-m8-pro-malaysia-launch-price-specs/",
+      "class": "news",
+      "accessed": "2026-09-18",
+      "note": "Recommended retail price; lower during the launch promotion."
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 6.83,
+      "type": "AMOLED",
+      "resolution": "2772 × 1280",
+      "refresh_hz": 120,
+      "peak_nits": 3200,
+      "ppi": 447
+    },
+    "platform": {
+      "chipset": "snapdragon-7s-gen-4"
+    },
+    "memory": {
+      "ram_gb": [
+        8,
+        12
+      ],
+      "storage_gb": [
+        256,
+        512
+      ]
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50
+        },
+        {
+          "role": "ultrawide",
+          "mp": 8
+        }
+      ],
+      "front": "32 MP"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "news",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2026/01/08/poco-m8-and-m8-pro-malaysia-launch-price-specs/",
+      "note": "The maker no longer publishes a specification page for this model. Key specs were taken from this Malaysian launch report, which gives the maker's figures.",
+      "checked": "2026-09-18"
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2026/01/08/poco-m8-and-m8-pro-malaysia-launch-price-specs/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://i02.appmifile.com/802_item_my/04/01/2026/a220ae802ec0cd9d6b05122559c46ea1.png",
+    "page": "https://www.mi.com/my/product/poco-m8-pro-5g/",
+    "credit": "Xiaomi Malaysia",
+    "checked": "2026-09-19"
+  }
+}

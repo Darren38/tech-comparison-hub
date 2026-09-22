@@ -1,0 +1,155 @@
+{
+  "id": "redmi-note-12-pro-5g",
+  "name": "Redmi Note 12 Pro 5G",
+  "brand": "redmi",
+  "category": "smartphone",
+  "series": "Redmi Note",
+  "form": "bar",
+  "status": "released",
+  "announced": "2023-05-11",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1299,
+      "config": "8 GB / 256 GB",
+      "date": "2023-05-11",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2023/05/11/redmi-note-12-series-gets-three-new-members-in-malaysia-priced-from-rm999/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 6.67,
+      "type": "AMOLED",
+      "resolution": "2400 × 1080",
+      "refresh_hz": 120,
+      "peak_nits": 900,
+      "protection": "Corning Gorilla Glass 5 protection",
+      "ppi": 395
+    },
+    "platform": {
+      "chipset": "dimensity-1080",
+      "gpu": "Mali-G68",
+      "cpu": "Octa-core CPU, up to 2.6GHz"
+    },
+    "memory": {
+      "ram_gb": [
+        6,
+        8
+      ],
+      "storage_gb": [
+        128,
+        256
+      ],
+      "ram_type": "LPDDR4X",
+      "storage_type": "UFS2.2"
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "charging": {
+      "wired_w": 67,
+      "claim": "67W turbo charging; 67W in-box charger"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "sensor": "1/1.56\"",
+          "aperture": "f/1.88",
+          "ois": true
+        },
+        {
+          "role": "ultrawide",
+          "mp": 8
+        },
+        {
+          "role": "macro",
+          "mp": 2
+        }
+      ],
+      "front": "16 MP",
+      "rear_detail": [
+        "IMX766 50MP wide camera, OIS, f/1.88, 4-in-1 binning into one large 2μm pixel, 1/1.56” sensor size, 6p lens",
+        "8MP ultra-wide camera, f/2.2, FOV 119°",
+        "2MP macro camera, f/2.4"
+      ],
+      "video": "4K@30fps; 1080p",
+      "front_detail": [
+        "16MP front camera"
+      ],
+      "front_video": "1080p@60fps"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true,
+      "bands_3g": "1/2/4/5/6/8/19",
+      "bands_4g": "LTE FDD: 1/2/3/4/5/7/8/12/13/17/18/19/20/26/28/32/66; LTE TDD: 38/40/41",
+      "bands_5g": "5G: n1/3/5/7/8/20/28/38/40/41/66/77/78",
+      "technology": "HSPA / LTE / 5G",
+      "positioning": "GPS L1; Glonass G1; BDS B1I; Galileo E1",
+      "wifi": "Wi-Fi; Wi-Fi 6/Wi-Fi 5/Wi-Fi 4/802.11a/b/g/n/ac",
+      "bluetooth": "Bluetooth 5.2",
+      "usb": "USB Type-C"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 162.9,
+        "width_mm": 76.0,
+        "depth_mm": 7.9
+      },
+      "weight_g": 187.0
+    },
+    "software": {
+      "launch_os": "MIUI 14, based on Android S"
+    },
+    "sensors": "Proximity sensor, Ambient light sensor, Accelerometer, Electronic compass, IR blaster, Gyroscope, Vibration motor, X-axis linear motor",
+    "biometrics": {
+      "fingerprint": "Side fingerprint sensor",
+      "face": "AI Face Unlock"
+    },
+    "audio": {
+      "speakers": "Dual speakers",
+      "jack": true
+    },
+    "misc": {
+      "colors": "Polar White, Midnight Black, Sky Blue"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "redmi",
+      "url": "https://www.mi.com/my/product/redmi-note-12-pro-5g/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from Xiaomi Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2023/05/11/redmi-note-12-series-gets-three-new-members-in-malaysia-priced-from-rm999/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://i02.appmifile.com/859_operatorx_operatorx_opx/06/08/2024/318bdfdf898def1dd06f83a039ce4470.png",
+    "page": "https://web.archive.org/web/20260519160420/https://www.mi.com/global/product/redmi-note-12-pro-5g/",
+    "credit": "Xiaomi",
+    "checked": "2026-09-19"
+  }
+}

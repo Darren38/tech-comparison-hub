@@ -1,0 +1,145 @@
+{
+  "id": "asus-rog-phone-9-pro",
+  "name": "ROG Phone 9 Pro",
+  "brand": "asus",
+  "category": "smartphone",
+  "series": "ROG Phone",
+  "form": "bar",
+  "status": "released",
+  "announced": "2024-11-19",
+  "released": "2024-12",
+  "segment": "gaming",
+  "aliases": [
+    "ROG 9 Pro",
+    "ROG Phone 9"
+  ],
+  "summary": "ASUS's gaming phone with a 185 Hz display, AirTrigger shoulder buttons, a headphone jack and a rear AniMe Vision LED panel.",
+  "highlights": [
+    "185 Hz display (game mode)",
+    "AirTrigger ultrasonic triggers",
+    "3.5 mm headphone jack"
+  ],
+  "prices": [
+    {
+      "region": "US",
+      "currency": "USD",
+      "amount": 1199.99,
+      "config": "24 GB / 1 TB",
+      "date": "2024-11-19",
+      "type": "launch",
+      "source": "asus"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 4999,
+      "config": "16 GB / 512 GB",
+      "date": "2024-12-10",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2024/12/10/asus-rog-phone-9-malaysia-price/",
+      "class": "news",
+      "accessed": "2026-09-16"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 5999,
+      "config": "24 GB / 1 TB",
+      "date": "2024-12-10",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2024/12/10/asus-rog-phone-9-malaysia-price/",
+      "class": "news",
+      "accessed": "2026-09-16",
+      "note": "ROG Phone 9 Pro Edition."
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 6.78,
+      "type": "AMOLED",
+      "resolution": "2400 × 1080",
+      "ppi": 388,
+      "refresh_hz": 185,
+      "peak_nits": 2500
+    },
+    "platform": {
+      "chipset": "snapdragon-8-elite"
+    },
+    "memory": {
+      "ram_gb": [
+        16,
+        24
+      ],
+      "storage_gb": [
+        512,
+        1024
+      ]
+    },
+    "battery": {
+      "capacity_mah": 5800
+    },
+    "charging": {
+      "wired_w": 65,
+      "wireless_w": 15
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "sensor": "1/1.56\""
+        },
+        {
+          "role": "ultrawide",
+          "mp": 13
+        },
+        {
+          "role": "telephoto",
+          "mp": 32,
+          "zoom_x": 3
+        }
+      ],
+      "zoom_optical_x": 3,
+      "front": "32 MP"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 163.8,
+        "width_mm": 76.8,
+        "depth_mm": 8.9
+      },
+      "weight_g": 227,
+      "ip": "IP68"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true
+    },
+    "audio": {
+      "speakers": "Stereo",
+      "jack": true
+    },
+    "software": {
+      "launch_os": "Android 15, ROG UI"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "asus",
+      "url": "https://rog.asus.com",
+      "note": "Compiled from ASUS launch specifications; not re-checked this session."
+    },
+    "fields": {}
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://dlcdnwebimgs.asus.com/gain/8D85BFE0-F7E5-406E-96D7-79D35CB96648",
+    "page": "https://rog.asus.com/phones/rog-phone-9-pro/",
+    "credit": "ASUS ROG",
+    "checked": "2026-09-19"
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "id": "honor-play10",
+  "name": "HONOR Play10",
+  "brand": "honor",
+  "category": "smartphone",
+  "series": "Play",
+  "form": "bar",
+  "status": "released",
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-18",
+      "source": "honor",
+      "url": "https://www.honor.com/my/phones/honor-play10/spec/",
+      "note": "Sold in Malaysia, but no launch price was found in Malaysian launch coverage."
+    }
+  },
+  "image": {
+    "kind": "official",
+    "src": "https://www.honor.com/content/dam/honor/common/product-list/product-series/honor-play10/list/honor-play10-purple-list.png",
+    "page": "https://www.honor.com/my/phones/honor-play10/spec/",
+    "credit": "HONOR Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.74,
+      "type": "LCD",
+      "resolution": "1600 × 720",
+      "ppi": 260
+    },
+    "platform": {
+      "chipset": "helio-g81",
+      "gpu": "Mali-G52 MC",
+      "cpu": "Octa-core; 2xA75@2.0GHz + 6xA55@1.7GHz"
+    },
+    "memory": {
+      "ram_gb": [
+        4
+      ],
+      "storage_gb": [
+        128
+      ]
+    },
+    "battery": {
+      "capacity_mah": 5000,
+      "chemistry": "Li-ion Polymer"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 13,
+          "aperture": "f/2.2"
+        }
+      ],
+      "front": "5 MP",
+      "rear_detail": [
+        "13MP Main Camera(f/2.2)"
+      ],
+      "features": "Up to 4x digital zoom",
+      "video": "1080p",
+      "front_detail": [
+        "5MP Camera (f/2.2)"
+      ]
+    },
+    "connectivity": {
+      "cellular": "4G",
+      "technology": "GSM / HSPA / LTE",
+      "sim": "Nano SIM card",
+      "wifi": "Support 802.11 a/b/g/n/ac; Support 2.4 GHz and 5 GHz",
+      "usb": "USB Type-C, USB 2.0",
+      "positioning": "Support GPS/AGPS/GLONASS/BeiDou/Galileo; Support Network-Based Positioning; Support WLAN-Based Positioning",
+      "bluetooth": "Bluetooth"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 167.69,
+        "width_mm": 77.69,
+        "depth_mm": 8.55
+      },
+      "weight_g": 189.0,
+      "ip": "IP52"
+    },
+    "software": {
+      "launch_os": "Android 15 (Go edition)"
+    },
+    "biometrics": {
+      "face": "support face unlock."
+    },
+    "charging": {
+      "claim": "Support up to 5V/2A charge",
+      "wired_w": 10
+    },
+    "audio": {
+      "jack": true
+    },
+    "sensors": "Support Gravity Sensor, Support Fingerprint Sensor, Support Ambient Light Sensor, Support Proximity Sensor, Media and Audio"
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "honor",
+      "url": "https://www.honor.com/my/phones/honor-play10/spec/",
+      "checked": "2026-09-18",
+      "note": "Read from HONOR Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

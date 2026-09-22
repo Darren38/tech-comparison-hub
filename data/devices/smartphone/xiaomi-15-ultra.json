@@ -1,0 +1,141 @@
+{
+  "id": "xiaomi-15-ultra",
+  "name": "Xiaomi 15 Ultra",
+  "brand": "xiaomi",
+  "category": "smartphone",
+  "series": "Xiaomi Ultra",
+  "form": "bar",
+  "status": "released",
+  "announced": "2025-03-02",
+  "released": "2025-03",
+  "segment": "camera-flagship",
+  "aliases": [
+    "15 Ultra"
+  ],
+  "summary": "2025 Leica camera flagship with four rear cameras, including a 200 MP 4.3× periscope.",
+  "highlights": [
+    "1-inch main sensor",
+    "200 MP 4.3× periscope",
+    "80 W wireless charging"
+  ],
+  "prices": [
+    {
+      "region": "EU",
+      "currency": "EUR",
+      "amount": 1499,
+      "config": "16 GB / 512 GB",
+      "date": "2025-03-02",
+      "type": "launch",
+      "source": "xiaomi"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 5199,
+      "config": "16 GB / 512 GB",
+      "date": "2025-03-02",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/03/02/xiaomi-15-ultra-malaysia-official-launch-price-specs/",
+      "class": "news",
+      "accessed": "2026-09-16"
+    }
+  ],
+  "image": {
+    "kind": "photo",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Xiaomi_15_Ultra_001.jpg/500px-Xiaomi_15_Ultra_001.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Xiaomi_15_Ultra_001.jpg",
+    "title": "Xiaomi 15 Ultra 001",
+    "author": "毕明明",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "checked": "2026-09-17"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.73,
+      "type": "LTPO AMOLED",
+      "resolution": "3200 × 1440",
+      "ppi": 522,
+      "refresh_hz": 120,
+      "peak_nits": 3200
+    },
+    "platform": {
+      "chipset": "snapdragon-8-elite"
+    },
+    "memory": {
+      "ram_gb": [
+        16
+      ],
+      "storage_gb": [
+        512,
+        1024
+      ]
+    },
+    "battery": {
+      "capacity_mah": 5410,
+      "variants": "China: 6,000 mAh"
+    },
+    "charging": {
+      "wired_w": 90,
+      "wireless_w": 80
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "sensor": "1\"",
+          "aperture": "f/1.63",
+          "focal_mm": 23,
+          "note": "LYT-900"
+        },
+        {
+          "role": "ultrawide",
+          "mp": 50
+        },
+        {
+          "role": "telephoto",
+          "mp": 50,
+          "zoom_x": 3
+        },
+        {
+          "role": "periscope",
+          "mp": 200,
+          "sensor": "1/1.4\"",
+          "zoom_x": 4.3
+        }
+      ],
+      "zoom_optical_x": 4.3,
+      "front": "32 MP"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 161.3,
+        "width_mm": 75.3,
+        "depth_mm": 9.35
+      },
+      "weight_g": 226,
+      "ip": "IP68"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true
+    },
+    "software": {
+      "launch_os": "Android 15, HyperOS 2",
+      "os_updates_years": 4,
+      "security_updates_years": 6
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "xiaomi",
+      "url": "https://www.mi.com/global",
+      "note": "Compiled from Xiaomi's launch specifications; not re-checked this session."
+    },
+    "fields": {}
+  },
+  "dataStatus": "compiled"
+}

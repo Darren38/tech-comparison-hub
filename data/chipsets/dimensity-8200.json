@@ -1,0 +1,16 @@
+{
+  "id": "dimensity-8200",
+  "name": "Dimensity 8200",
+  "vendor": "mediatek",
+  "family": "Dimensity 8000",
+  "summary": "Name recorded from phone makers' specification pages and launch reports. Chip details have not been compiled yet.",
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "oppo",
+      "url": "https://www.oppo.com/my/smartphones/series-reno/reno11-pro/specs/",
+      "checked": "2026-09-18",
+      "note": "Chip name as given for the OPPO Reno11 Pro 5G."
+    }
+  }
+}

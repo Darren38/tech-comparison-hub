@@ -1,0 +1,114 @@
+{
+  "id": "apple-watch-se-3",
+  "name": "Apple Watch SE 3",
+  "brand": "apple",
+  "category": "smartwatch",
+  "series": "Apple Watch",
+  "form": "watch",
+  "status": "released",
+  "announced": "2025-09-10",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1049,
+      "config": "40 mm, GPS",
+      "date": "2025-09-10",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/09/10/apple-watch-se-3-series-11-ultra-3-malaysia-price-availability-specs/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1299,
+      "config": "40 mm, GPS + Cellular",
+      "date": "2025-09-10",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/09/10/apple-watch-se-3-series-11-ultra-3-malaysia-price-availability-specs/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1199,
+      "config": "44 mm, GPS",
+      "date": "2025-09-10",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/09/10/apple-watch-se-3-series-11-ultra-3-malaysia-price-availability-specs/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1449,
+      "config": "44 mm, GPS + Cellular",
+      "date": "2025-09-10",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/09/10/apple-watch-se-3-series-11-ultra-3-malaysia-price-availability-specs/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/apple-watch-se-3-hero.png",
+    "page": "https://support.apple.com/en-my/125094",
+    "credit": "Apple",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "type": "OLED",
+      "resolution": "448 × 368",
+      "peak_nits": 1000
+    },
+    "battery": {
+      "life_h": 32
+    },
+    "connectivity": {
+      "gps": "Built-in GNSS",
+      "cellular": "LTE option"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 44.0,
+        "width_mm": 38.0,
+        "depth_mm": 10.7
+      },
+      "weight_g": 32.9,
+      "water": "50 m",
+      "water_m": 50
+    },
+    "software": {
+      "launch_os": "watchOS"
+    },
+    "sensors": "Second-generation optical heart sensor, Temperature sensor, Compass, Always-on altimeter, High-g accelerometer, High dynamic range gyroscope, Ambient light sensor, Health and Wellness, Cycle Tracking app with retrospective ovulation estimates, Heart Rate app, High and low heart rate notifications, Irregular rhythm notifications"
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "apple",
+      "url": "https://support.apple.com/en-my/125094",
+      "checked": "2026-09-18",
+      "note": "Read from Apple Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2025/09/10/apple-watch-se-3-series-11-ultra-3-malaysia-price-availability-specs/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

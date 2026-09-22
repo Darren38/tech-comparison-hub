@@ -1,0 +1,140 @@
+{
+  "id": "redmi-17",
+  "name": "Redmi 17",
+  "brand": "redmi",
+  "category": "smartphone",
+  "series": "Redmi",
+  "form": "bar",
+  "status": "released",
+  "announced": "2026-08-06",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 699,
+      "config": "4 GB / 128 GB",
+      "date": "2026-08-06",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2026/400726/redmi-17-available-malaysia-from-rm699/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://i02.appmifile.com/228_operatorx_operatorx_xm/28/07/2026/586d3c3533c76c05b95ec77e7cf8876b.png",
+    "page": "https://www.mi.com/my/product/redmi-17/specs/",
+    "credit": "Xiaomi Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.9,
+      "resolution": "1600 × 720",
+      "refresh_hz": 120,
+      "peak_nits": 825,
+      "protection": "Corning Gorilla Glass 7i",
+      "ppi": 254
+    },
+    "platform": {
+      "chipset": "helio-g91",
+      "gpu": "Mali-G52 MC2",
+      "cpu": "Cortex-A75+Cortex-A55; Max CPU frequency: 2.0GHz"
+    },
+    "memory": {
+      "ram_gb": [
+        4,
+        6
+      ],
+      "storage_gb": [
+        128,
+        256
+      ],
+      "ram_type": "LPDDR4X"
+    },
+    "battery": {
+      "capacity_mah": 7500
+    },
+    "charging": {
+      "wired_w": 45,
+      "claim": "Supports 45W turbo charging"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "aperture": "f/1.8"
+        }
+      ],
+      "front": "8 MP",
+      "rear_detail": [
+        "50MP main camera, 5P lens, f/1.8, Auxiliary lens"
+      ],
+      "video": "1080p@30fps",
+      "front_detail": [
+        "8MP front camera, f/2.05"
+      ],
+      "front_video": "1080p@30fps"
+    },
+    "connectivity": {
+      "cellular": "4G",
+      "nfc": true,
+      "bands_2g": "2/3/5/8",
+      "bands_3g": "B1/5/8",
+      "bands_4g": "LTE FDD: B1/3/5/7/8/20/28; LTE TDD: B38/40/41",
+      "technology": "GSM / HSPA / LTE",
+      "wifi": "2.4GHz; 5GHz; Supports FM radio (with headphone jack)",
+      "positioning": "GPS; Glonass; Galileo; Beidou",
+      "bluetooth": "Bluetooth 5.4",
+      "usb": "USB Type-C"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 170.12,
+        "width_mm": 78.42,
+        "depth_mm": 8.8
+      },
+      "weight_g": 232.0,
+      "ip": "IP64"
+    },
+    "software": {
+      "launch_os": "Xiaomi HyperOS 3"
+    },
+    "sensors": "Virtual proximity sensor, Ambient light sensor, Accelerometer, Electronic compass",
+    "audio": {
+      "jack": true
+    },
+    "biometrics": {
+      "fingerprint": "Side fingerprint sensor"
+    },
+    "misc": {
+      "colors": "Black, Lotus Purple, Oak Green"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "redmi",
+      "url": "https://www.mi.com/my/product/redmi-17/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from Xiaomi Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "lowyat",
+        "url": "https://www.lowyat.net/2026/400726/redmi-17-available-malaysia-from-rm699/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (Lowyat.NET). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

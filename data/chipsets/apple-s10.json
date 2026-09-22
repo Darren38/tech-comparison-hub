@@ -1,0 +1,32 @@
+{
+  "id": "apple-s10",
+  "name": "Apple S10 SiP",
+  "vendor": "apple",
+  "family": "S-series",
+  "tier": "wearable",
+  "announced": "2024-09-09",
+  "aliases": [
+    "S10"
+  ],
+  "summary": "System-in-package used across Apple Watch Series 10, Series 11 and Ultra 3.",
+  "cpu": {
+    "cores": 2,
+    "clusters": [
+      {
+        "count": 2,
+        "core": "64-bit"
+      }
+    ]
+  },
+  "npu": "4-core Neural Engine",
+  "variants": [],
+  "provenance": {
+    "default": {
+      "class": "database",
+      "source": "apple",
+      "url": "https://support.apple.com/en-us/125095",
+      "note": "Compiled from Apple's announcement."
+    },
+    "fields": {}
+  }
+}

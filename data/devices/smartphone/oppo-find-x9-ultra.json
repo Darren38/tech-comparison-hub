@@ -1,0 +1,179 @@
+{
+  "id": "oppo-find-x9-ultra",
+  "name": "OPPO Find X9 Ultra",
+  "brand": "oppo",
+  "category": "smartphone",
+  "series": "Find X",
+  "form": "bar",
+  "status": "released",
+  "announced": "2026-04-29",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 6799,
+      "config": "12 GB / 512 GB",
+      "date": "2026-04-29",
+      "type": "launch",
+      "source": "nasilemaktech",
+      "url": "https://nasilemaktech.com/oppo-find-x9-ultra-and-x9s-malaysia-launch/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 7799,
+      "config": "16 GB / 1 TB",
+      "date": "2026-04-29",
+      "type": "launch",
+      "source": "nasilemaktech",
+      "url": "https://nasilemaktech.com/oppo-find-x9-ultra-and-x9s-malaysia-launch/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/find-x9-ultra-x9s-en/find-x9-ultra/list-page/480-600-brown.png",
+    "page": "https://www.oppo.com/my/smartphones/series-find-x/find-x9-ultra/",
+    "credit": "OPPO Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.82,
+      "type": "AMOLED",
+      "resolution": "3168 × 1440",
+      "refresh_hz": 144,
+      "peak_nits": 1800,
+      "protection": "Corning Gorilla Glass Victus 2",
+      "ppi": 510
+    },
+    "platform": {
+      "chipset": "snapdragon-8-elite-gen-5",
+      "gpu": "Adreno 840@1200MHz",
+      "cpu": "8-core"
+    },
+    "memory": {
+      "ram_gb": [
+        12,
+        16
+      ],
+      "storage_gb": [
+        512,
+        1024
+      ],
+      "ram_type": "LPDDR5X",
+      "storage_type": "UFS 4.1",
+      "card": "No"
+    },
+    "battery": {
+      "capacity_mah": 7050
+    },
+    "charging": {
+      "wired_w": 100,
+      "wireless_w": 50,
+      "claim": "Supports(Max): 100 W SUPERVOOC; Compatible with: 80 W and below SUPERVOOC , 18 W PD, 18 W QC, 55 W PPS; Supports: 50 W AIRVOOC"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "ultrawide",
+          "mp": 50
+        },
+        {
+          "role": "main",
+          "mp": 200,
+          "aperture": "f/1.5",
+          "ois": true
+        },
+        {
+          "role": "telephoto",
+          "mp": 200
+        },
+        {
+          "role": "telephoto",
+          "mp": 50
+        },
+        {
+          "role": "monochrome",
+          "mp": 3.2
+        }
+      ],
+      "front": "50 MP",
+      "rear_detail": [
+        "Ultra-wide angle: 50MP; f/2.0; FOV 123°; 6P lens; AF supported",
+        "Wide angle: 200MP; f/1.5; FOV 84°; 7P lens; AF supported; Supports 2-axis OIS",
+        "Telephoto: 200MP; f/2.2; FOV 34°; Prism(OIS)+3P+3P(AF) lens; AF supported; Supports 2-axis OIS",
+        "Ultra telephoto: 50MP; f/3.5; FOV 11°; 1G3P+PRISM lens; AF supported; Supports 2-axis OIS",
+        "Monochrome: 3.2MP; f/2.4; FOV 95°; 3P lens"
+      ],
+      "front_detail": [
+        "50MP; f/2.4; FOV 90°; 5P lens; AF supported"
+      ],
+      "video": "8K@30fps; 1080p",
+      "front_video": "4K@60fps; 1080p"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true,
+      "bands_2g": "850/900/1800/1900MHz",
+      "bands_3g": "Band 1/2/4/5/6/8/19",
+      "bands_4g": "LTE FDD: Band 1/2/3/4/5/7/8/12/13/17/18/19/20/25/26/28/32/66/71; LTE TDD: Band 38/39/40/41/42",
+      "bands_5g": "5G NR: n1/n2/n3/n5/n7/n8/n12/n20/n25/n26/n28/n38/n40/n41/n66/n71/n75/n77/n78/n79",
+      "technology": "GSM / HSPA / LTE / 5G",
+      "sim": "Nano-SIM card, Nano-USIM card; eSIM",
+      "bluetooth": "Bluetooth 6.0, Low Energy",
+      "usb": "USB Type-C, USB 3.2 Gen 1",
+      "positioning": "GPS(L1+L5), GLONASS(G1), BDS(B1I+B1C+B2a), Galileo(E1+E5a), QZSS(L1+L5), NavIC(L5)",
+      "wifi": "Wi-Fi 7 (802.11be) supported; Wi-Fi 6 (802.11ax) supported"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 163.16,
+        "width_mm": 76.97,
+        "depth_mm": 8.65
+      },
+      "weight_g": 235.0
+    },
+    "software": {
+      "launch_os": "ColorOS 16.0"
+    },
+    "biometrics": {
+      "fingerprint": "Under-screen fingerprint",
+      "face": "Yes"
+    },
+    "sensors": "Proximity sensor, Ambient light sensor, Colour temperature sensor, E-compass, Accelerometer, Gyroscope, In-display ultrasound fingerprint sensor, Hall sensor, Pressure sensor, Laser focusing sensor, Spectral sensor, Infrared remote control, * The Hall sensor is used for magnetic accessory identification and cannot be used for flip cover identification.",
+    "audio": {
+      "jack": false
+    },
+    "misc": {
+      "colors": "Canyon Orange, Tundra Umber"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "oppo",
+      "url": "https://www.oppo.com/my/smartphones/series-find-x/find-x9-ultra/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from OPPO Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "nasilemaktech",
+        "url": "https://nasilemaktech.com/oppo-find-x9-ultra-and-x9s-malaysia-launch/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (Nasi Lemak Tech). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

@@ -1,0 +1,123 @@
+{
+  "id": "huawei-band-9",
+  "name": "Huawei Band 9",
+  "brand": "huawei",
+  "category": "band",
+  "series": "Band",
+  "form": "band",
+  "status": "released",
+  "announced": "2024-03-26",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 219,
+      "date": "2024-03-26",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2024/319440/huawei-band-9-malaysia/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 1.47,
+      "type": "AMOLED"
+    },
+    "battery": {
+      "life_h": 336,
+      "claim": "9 to 14 days"
+    },
+    "build": {
+      "water": "Water resistant to 50 m",
+      "water_m": 50
+    },
+    "sensors": "9-axis IMU sensor (Accelerometer sensor, Gyroscope sensor, Magnetometer sensor), Optical heart rate sensor, Ambient light sensor, Button, Full-screen touch + side button",
+    "connectivity": {
+      "usb": "Magnetic charging port; System Requirements; Android 8.0 or later; iOS 13.0 or later; Waterproof Level; 5 ATM",
+      "bluetooth": "BT 5.0"
+    },
+    "charging": {
+      "claim": "Charger voltage and current requirements; 5V/1A"
+    },
+    "misc": {
+      "colors": "White, Starry Black, Charm Pink, Lemon Yellow, Blue"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "news",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2024/319440/huawei-band-9-malaysia/",
+      "note": "The maker no longer publishes a specification page for this model. Key specs were taken from this Malaysian launch report, which gives the maker's figures.",
+      "checked": "2026-09-18"
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "lowyat",
+        "url": "https://www.lowyat.net/2024/319440/huawei-band-9-malaysia/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (Lowyat.NET). The global announcement can be earlier."
+      },
+      "specs.charging.claim": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20260512005839/https://consumer.huawei.com/my/wearables/band9/specs/",
+        "checked": "2026-09-19",
+        "note": "The maker's own specification page (https://consumer.huawei.com/my/wearables/band9/specs/) is no longer online; read from the Internet Archive copy captured 2026-05-12."
+      },
+      "specs.connectivity.bluetooth": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20260512005839/https://consumer.huawei.com/my/wearables/band9/specs/",
+        "checked": "2026-09-19",
+        "note": "The maker's own specification page (https://consumer.huawei.com/my/wearables/band9/specs/) is no longer online; read from the Internet Archive copy captured 2026-05-12."
+      },
+      "specs.connectivity.usb": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20260512005839/https://consumer.huawei.com/my/wearables/band9/specs/",
+        "checked": "2026-09-19",
+        "note": "The maker's own specification page (https://consumer.huawei.com/my/wearables/band9/specs/) is no longer online; read from the Internet Archive copy captured 2026-05-12."
+      },
+      "specs.misc.colors": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20260512005839/https://consumer.huawei.com/my/wearables/band9/specs/",
+        "checked": "2026-09-19",
+        "note": "The maker's own specification page (https://consumer.huawei.com/my/wearables/band9/specs/) is no longer online; read from the Internet Archive copy captured 2026-05-12."
+      },
+      "specs.sensors": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20260512005839/https://consumer.huawei.com/my/wearables/band9/specs/",
+        "checked": "2026-09-19",
+        "note": "The maker's own specification page (https://consumer.huawei.com/my/wearables/band9/specs/) is no longer online; read from the Internet Archive copy captured 2026-05-12."
+      },
+      "specs.display.size_in": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20260512005839/https://consumer.huawei.com/my/wearables/band9/specs/",
+        "checked": "2026-09-19",
+        "note": "Matches the maker's own specification page (https://consumer.huawei.com/my/wearables/band9/specs/), which is no longer online; checked against the Internet Archive copy captured 2026-05-12."
+      },
+      "specs.display.type": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20260512005839/https://consumer.huawei.com/my/wearables/band9/specs/",
+        "checked": "2026-09-19",
+        "note": "Matches the maker's own specification page (https://consumer.huawei.com/my/wearables/band9/specs/), which is no longer online; checked against the Internet Archive copy captured 2026-05-12."
+      }
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/admin-image/wearables/band9/specs/specs.png",
+    "page": "https://web.archive.org/web/20260512005839/https://consumer.huawei.com/my/wearables/band9/specs/",
+    "credit": "Huawei",
+    "checked": "2026-09-19"
+  }
+}

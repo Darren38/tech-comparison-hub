@@ -1,0 +1,135 @@
+{
+  "id": "redmi-15-5g",
+  "name": "Redmi 15 5G",
+  "brand": "redmi",
+  "category": "smartphone",
+  "series": "Redmi",
+  "form": "bar",
+  "status": "released",
+  "announced": "2025-08-08",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 729,
+      "config": "8 GB / 256 GB",
+      "date": "2025-08-08",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/08/08/redmi-15-5g-malaysia-price-specs/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 6.9,
+      "resolution": "2340 × 1080",
+      "refresh_hz": 144,
+      "peak_nits": 850,
+      "ppi": 374
+    },
+    "platform": {
+      "chipset": "snapdragon-6s-gen-3",
+      "gpu": "Adreno",
+      "cpu": "Kryo, up to 2.3GHz"
+    },
+    "memory": {
+      "ram_gb": [
+        8
+      ],
+      "storage_gb": [
+        256
+      ],
+      "ram_type": "LPDDR4X",
+      "storage_type": "UFS2.2"
+    },
+    "battery": {
+      "capacity_mah": 7000
+    },
+    "charging": {
+      "wired_w": 33,
+      "claim": "33W fast charging; 33W in-box charger"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "aperture": "f/1.8"
+        }
+      ],
+      "front": "8 MP",
+      "rear_detail": [
+        "50MP main camera, 5P lens, f/1.8, Auxiliary lens"
+      ],
+      "video": "1080p@30fps",
+      "front_detail": [
+        "8MP front camera, f/2"
+      ],
+      "front_video": "1080p@30fps"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true,
+      "bands_3g": "1/2/4/5/8/6/19",
+      "bands_4g": "LTE TDD: 38/40/41/42/48",
+      "bands_5g": "5G: SA: n1/3/5/7/8/20/28/38/40/41/66/77/78/71/2/12/26/48; 5G: NSA: n1/3/5/7/8/20/28/38/40/41/66/77/78/71",
+      "technology": "HSPA / LTE / 5G",
+      "wifi": "2.4GHz; 5GHz",
+      "positioning": "GPS; Glonass; Galileo; Beidou",
+      "bluetooth": "Bluetooth 5.1",
+      "usb": "USB Type-C"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 169.48,
+        "width_mm": 80.45,
+        "depth_mm": 8.4
+      },
+      "weight_g": 217.0,
+      "ip": "IP64"
+    },
+    "software": {
+      "launch_os": "Xiaomi HyperOS 2"
+    },
+    "sensors": "Virtual proximity sensor, Ambient light sensor, Accelerometer, Electronic compass, IR blaster",
+    "biometrics": {
+      "fingerprint": "Side fingerprint sensor"
+    },
+    "misc": {
+      "colors": "Ripple Green, Titan Gray, Midnight Black"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "redmi",
+      "url": "https://www.mi.com/my/product/redmi-15-5g/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from Xiaomi Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2025/08/08/redmi-15-5g-malaysia-price-specs/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://i02.appmifile.com/347_item_my/05/08/2025/41eeaf247482e72c8c773aaa9f5e13a2.png",
+    "page": "https://www.mi.com/my/product/redmi-15-5g/specs/",
+    "credit": "Xiaomi",
+    "checked": "2026-09-19"
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "id": "vivo-v29",
+  "name": "vivo V29",
+  "brand": "vivo",
+  "category": "smartphone",
+  "series": "V",
+  "form": "bar",
+  "status": "released",
+  "announced": "2023-09-20",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1899,
+      "config": "12 GB / 256 GB",
+      "date": "2023-09-20",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2023/09/20/vivo-v29-5g-malaysia-everything-you-need-to-know/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 2099,
+      "config": "12 GB / 512 GB",
+      "date": "2023-09-20",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2023/09/20/vivo-v29-5g-malaysia-everything-you-need-to-know/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 6.78,
+      "type": "AMOLED",
+      "resolution": "2800 × 1260",
+      "ppi": 453
+    },
+    "platform": {
+      "chipset": "snapdragon-778"
+    },
+    "memory": {
+      "ram_gb": [
+        12
+      ],
+      "storage_gb": [
+        256,
+        512
+      ]
+    },
+    "battery": {
+      "capacity_mah": 4600
+    },
+    "charging": {
+      "wired_w": 80,
+      "claim": "80W (11V/7.3A)"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50
+        },
+        {
+          "role": "ultrawide",
+          "mp": 8
+        },
+        {
+          "role": "monochrome",
+          "mp": 2
+        }
+      ],
+      "rear_text": "Rear: 50 MP OIS + 8 MP wide-angle + 2 MP monochrome *The pixel value may vary under d",
+      "front": "50 MP",
+      "rear_detail": [
+        "50 MP"
+      ],
+      "front_detail": [
+        "50 MP"
+      ]
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true,
+      "bands_2g": "GSM850/900/1800/1900MHz",
+      "bands_3g": "B1/B2/B4/B5/B8",
+      "bands_4g": "4G FDD-LTE: B1/B2/B3/B4/B5/B7/B8/B12/B17/B18/B19/B20/B26/B28/B66",
+      "technology": "GSM / HSPA / LTE",
+      "sim": "2 nano SIMs",
+      "wifi": "2.4 G, 5 G",
+      "bluetooth": "Bluetooth 5.2",
+      "usb": "Type-C",
+      "positioning": "GPS, Beidou, GLONASS, Galileo, QZSS, GNSS"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 164.18,
+        "width_mm": 74.37,
+        "depth_mm": 7.46
+      },
+      "weight_g": 186.0
+    },
+    "software": {
+      "launch_os": "Funtouch OS 13 Global"
+    },
+    "misc": {
+      "colors": "Noble Black, Starry Purple, First Love, Body"
+    },
+    "sensors": "Fingerprint, In-display fingerprint sensor, Accelerometer, Ambient Light Sensor, Proximity Sensor, E-compass, Gyroscope",
+    "biometrics": {
+      "fingerprint": "In-display fingerprint sensor"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "vivo",
+      "url": "https://www.vivo.com/my/products/param/v29",
+      "checked": "2026-09-18",
+      "note": "Read from vivo Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2023/09/20/vivo-v29-5g-malaysia-everything-you-need-to-know/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1694501030630/70c4a3c003cb8d36110f961546fa90c1.png",
+    "page": "https://www.vivo.com/my/products/param/v29",
+    "credit": "vivo Malaysia",
+    "checked": "2026-09-19"
+  }
+}

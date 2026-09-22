@@ -1,0 +1,51 @@
+{
+  "id": "google-tensor-g5",
+  "name": "Google Tensor G5",
+  "vendor": "google",
+  "family": "Tensor",
+  "tier": "flagship",
+  "announced": "2025-08-20",
+  "aliases": [
+    "Tensor G5"
+  ],
+  "summary": "First Tensor made by TSMC. Efficient and cool, but GPU performance trails every other flagship chip here by a wide margin.",
+  "process": {
+    "node": "3 nm",
+    "foundry": "TSMC",
+    "name": "N3E"
+  },
+  "cpu": {
+    "cores": 8,
+    "clusters": [
+      {
+        "count": 1,
+        "core": "Cortex-X4",
+        "ghz": 3.78
+      },
+      {
+        "count": 5,
+        "core": "Cortex-A725",
+        "ghz": 3.05
+      },
+      {
+        "count": 2,
+        "core": "Cortex-A520",
+        "ghz": 2.25
+      }
+    ]
+  },
+  "gpu": {
+    "name": "PowerVR IMG DXT-48-1536"
+  },
+  "npu": "TPU (4th gen)",
+  "variants": [],
+  "provenance": {
+    "default": {
+      "class": "database",
+      "source": "google",
+      "url": "https://store.google.com",
+      "note": "Compiled from Google's announcement and launch coverage."
+    },
+    "fields": {}
+  }
+}

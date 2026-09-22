@@ -1,0 +1,100 @@
+{
+  "id": "oppo-watch-x2",
+  "name": "OPPO Watch X2",
+  "brand": "oppo",
+  "category": "smartwatch",
+  "series": "Watch",
+  "form": "watch",
+  "status": "released",
+  "announced": "2025-02-21",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1399,
+      "config": "Lava Black",
+      "date": "2025-02-21",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/02/21/oppo-watch-x2-wear-os-smartwatch-malaysia-price-specs/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1499,
+      "config": "Summit Blue",
+      "date": "2025-02-21",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/02/21/oppo-watch-x2-wear-os-smartwatch-malaysia-price-specs/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/oppo-watch-x2/list-page/blue-427-600.png",
+    "page": "https://www.oppo.com/my/accessories/watch-x2/",
+    "credit": "OPPO Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 1.5,
+      "type": "LTPO AMOLED",
+      "resolution": "466 × 466",
+      "peak_nits": 2200,
+      "protection": "2D Sapphire crystal"
+    },
+    "battery": {
+      "life_h": 120,
+      "capacity_mah": 648
+    },
+    "connectivity": {
+      "gps": "Built-in GNSS",
+      "nfc": true,
+      "cellular": "LTE option",
+      "bluetooth": "Bluetooth 5.2; Classical BT, BLE, Profile; HFP v1.6, HSP v1.2, A2DP v1.2, AVRCP v1.5 SPP v1.1 and later version; Call Performance; Smart mode: Bluetooth calling; Power saver mode: Bluetooth calling",
+      "wifi": "WiFi 5G/2.4G, 802.11 a/b/g/n",
+      "positioning": "Dual band L1 + L5; Beidou, GPS, Galileo, GLONASS, QZSS; Durability; MIL-STD-810H, 5ATM, IP68",
+      "usb": "USB-C"
+    },
+    "build": {
+      "weight_g": 49.7,
+      "water": "5 ATM",
+      "water_m": 50,
+      "ip": "IP68"
+    },
+    "software": {
+      "launch_os": "ColorOS Watch 7.0 + Wear OS 5.0"
+    },
+    "charging": {
+      "claim": "10mins charge for 1 day using; Watch VOOC Flash Charge: up to 80mins"
+    },
+    "sensors": "Acceleration sensor + gyroscope sensor + optical heart rate sensor + optical pulse oximeter sensor + geomagnetic sensor + light sensor+barometer + wrist temperature sensor",
+    "misc": {
+      "colors": "Lava Black, Summit Blue"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "oppo",
+      "url": "https://www.oppo.com/my/accessories/watch-x2/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from OPPO Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2025/02/21/oppo-watch-x2-wear-os-smartwatch-malaysia-price-specs/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

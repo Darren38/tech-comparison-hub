@@ -1,0 +1,87 @@
+{
+  "id": "huawei-band-11-pro",
+  "name": "Huawei Band 11 Pro",
+  "brand": "huawei",
+  "category": "band",
+  "series": "Band",
+  "form": "band",
+  "status": "released",
+  "announced": "2026-02-23",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 239,
+      "date": "2026-02-23",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2026/383914/huawei-launches-band-11-series-retails-from-rm189/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 269,
+      "config": "Aluminium",
+      "date": "2026-02-24",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2026/02/24/huawei-band-11-and-11-pro-malaysia-fitness-band-price-specs/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/wearables/band11-pro/specs-green.png",
+    "page": "https://consumer.huawei.com/my/wearables/band11-pro/specs/",
+    "credit": "Huawei Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 1.62,
+      "type": "AMOLED",
+      "resolution": "482 × 286"
+    },
+    "battery": {
+      "life_h": 192
+    },
+    "build": {
+      "weight_g": 18.0,
+      "water": "5 ATM",
+      "water_m": 50
+    },
+    "sensors": "9-axis IMU sensor (Accelerometer sensor, Gyroscope sensor, Magnetometer sensor), Optical heart rate sensor, Ambient light sensor, Button, Full-screen touch + side button",
+    "connectivity": {
+      "usb": "Magnetic charging port; System Requirements; Android 9.0 or later; iOS 13.0 or later; Waterproof Level; 5 ATM",
+      "bluetooth": "BT 6.0"
+    },
+    "charging": {
+      "claim": "Charger voltage and current requirements; 5V/1A"
+    },
+    "misc": {
+      "colors": "Green, Blue, Black"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "huawei",
+      "url": "https://consumer.huawei.com/my/wearables/band11-pro/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from Huawei Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "lowyat",
+        "url": "https://www.lowyat.net/2026/383914/huawei-launches-band-11-series-retails-from-rm189/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (Lowyat.NET). The global announcement can be earlier."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

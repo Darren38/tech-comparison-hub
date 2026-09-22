@@ -1,0 +1,143 @@
+{
+  "id": "redmi-12-5g",
+  "name": "Redmi 12 5G",
+  "brand": "redmi",
+  "category": "smartphone",
+  "series": "Redmi",
+  "form": "bar",
+  "status": "released",
+  "announced": "2023-09-07",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1099,
+      "date": "2023-09-07",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2023/306834/redmi-12-5g-celcomdigi-exclusive/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://i02.appmifile.com/274_operatorx_operatorx_opx/01/09/2023/935bb43c65b07d96c13ed1a03e95ad2a.png",
+    "page": "https://www.mi.com/global/product/redmi-12-5g/specs/",
+    "credit": "Xiaomi",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.79,
+      "resolution": "2460 × 1080",
+      "refresh_hz": 90,
+      "peak_nits": 550,
+      "ppi": 396
+    },
+    "platform": {
+      "chipset": "snapdragon-4-gen-2",
+      "gpu": "Qualcomm Adreno"
+    },
+    "memory": {
+      "ram_gb": [
+        4,
+        8
+      ],
+      "storage_gb": [
+        128,
+        256
+      ],
+      "ram_type": "LPDDR4X",
+      "storage_type": "UFS 2.2"
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "charging": {
+      "wired_w": 18,
+      "claim": "Supports 18W fast charging"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "aperture": "f/1.8"
+        },
+        {
+          "role": "depth",
+          "mp": 2
+        }
+      ],
+      "front": "5 MP",
+      "rear_detail": [
+        "50MP main camera, f/1.8",
+        "2MP depth camera, f/2.4"
+      ],
+      "video": "1080p@30fps",
+      "front_detail": [
+        "5MP camera, f/2.2"
+      ],
+      "front_video": "1080p@30fps"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true,
+      "bands_3g": "1/2/4/5/8/6/19",
+      "bands_4g": "LTE FDD: 1/2/3/4/5/7/8/12/13/17/18/19/20/26/28/32/66; LTE TDD: 38/40/41",
+      "technology": "HSPA / LTE",
+      "wifi": "2.4GHz; 5GHz",
+      "positioning": "GPS; Glonass; Galileo; Beidou",
+      "sim": "SIM1 + Hybrid (SIM or MicroSD)",
+      "bluetooth": "Bluetooth 5.0",
+      "usb": "USB-C"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 168.6,
+        "width_mm": 76.28,
+        "depth_mm": 8.17
+      },
+      "weight_g": 199.0,
+      "ip": "IP53"
+    },
+    "software": {
+      "launch_os": "MIUI 14 based on Android 13"
+    },
+    "sensors": "Virtual proximity sensor, Ambient light sensor, Accelerometer, Electronic compass, IR blaster, Virtual gyroscope",
+    "audio": {
+      "jack": true
+    },
+    "biometrics": {
+      "fingerprint": "Side fingerprint sensor"
+    },
+    "misc": {
+      "colors": "Midnight Black, Sky Blue, Polar Silver"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "redmi",
+      "url": "https://www.mi.com/global/product/redmi-12-5g/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from Xiaomi Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "lowyat",
+        "url": "https://www.lowyat.net/2023/306834/redmi-12-5g-celcomdigi-exclusive/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (Lowyat.NET). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

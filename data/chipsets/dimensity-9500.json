@@ -1,0 +1,53 @@
+{
+  "id": "dimensity-9500",
+  "name": "Dimensity 9500",
+  "vendor": "mediatek",
+  "family": "Dimensity 9000",
+  "tier": "flagship",
+  "announced": "2025-09-22",
+  "aliases": [
+    "D9500",
+    "MT6993"
+  ],
+  "summary": "MediaTek's 2025–26 flagship with Arm C1 cores and a Mali-G1-Ultra GPU. Top-tier peak GPU scores, but results vary widely between phones in sustained tests.",
+  "process": {
+    "node": "3 nm",
+    "foundry": "TSMC",
+    "name": "N3P"
+  },
+  "cpu": {
+    "cores": 8,
+    "clusters": [
+      {
+        "count": 1,
+        "core": "Arm C1-Ultra",
+        "ghz": 4.21
+      },
+      {
+        "count": 3,
+        "core": "Arm C1-Premium",
+        "ghz": 3.5
+      },
+      {
+        "count": 4,
+        "core": "Arm C1-Pro",
+        "ghz": 2.7
+      }
+    ]
+  },
+  "gpu": {
+    "name": "Mali-G1-Ultra MC12"
+  },
+  "npu": "MediaTek NPU 990",
+  "memory": "LPDDR5X",
+  "storage": "UFS 4.1",
+  "variants": [],
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "mediatek",
+      "url": "https://www.mediatek.com/products/smartphones/mediatek-dimensity-9500"
+    },
+    "fields": {}
+  }
+}

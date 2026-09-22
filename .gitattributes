@@ -1,0 +1,7 @@
+# Normalise line endings so Windows and Linux contributors do not fight
+* text=auto eol=lf
+
+*.bat text eol=crlf
+*.png binary
+*.jpg binary
+*.ico binary

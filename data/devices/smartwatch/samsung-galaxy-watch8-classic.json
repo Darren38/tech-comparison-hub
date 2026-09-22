@@ -1,0 +1,119 @@
+{
+  "id": "samsung-galaxy-watch8-classic",
+  "name": "Galaxy Watch8 Classic",
+  "brand": "samsung",
+  "category": "smartwatch",
+  "series": "Galaxy Watch",
+  "form": "watch",
+  "status": "released",
+  "announced": "2025-07-09",
+  "released": "2025-07-25",
+  "segment": "flagship",
+  "aliases": [
+    "Watch8 Classic",
+    "Watch 8 Classic"
+  ],
+  "summary": "Samsung's rotating-bezel smartwatch on Wear OS 6 with the 3 nm Exynos W1000.",
+  "highlights": [
+    "Rotating bezel",
+    "3,000-nit display",
+    "5ATM + IP68 + MIL-STD-810H"
+  ],
+  "prices": [
+    {
+      "region": "US",
+      "currency": "USD",
+      "amount": 499.99,
+      "config": "46 mm, Bluetooth",
+      "date": "2025-07-09",
+      "type": "launch",
+      "source": "samsung"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1799,
+      "config": "46 mm, Wi-Fi",
+      "date": "2025-07-09",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/07/09/samsung-galaxy-watch-8-watch-8-classic-watch-ultra-2025-launch-unpacked-malaysia-pricing/",
+      "class": "news",
+      "accessed": "2026-09-16"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_mm": "46 mm",
+      "size_in": 1.34,
+      "type": "Super AMOLED",
+      "resolution": "438 × 438",
+      "peak_nits": 3000
+    },
+    "platform": {
+      "chipset": "exynos-w1000"
+    },
+    "memory": {
+      "ram_gb": [
+        2
+      ],
+      "storage_gb": [
+        64
+      ]
+    },
+    "battery": {
+      "capacity_mah": 445,
+      "life_h": 30,
+      "claim": "Up to 30 h with always-on display"
+    },
+    "health": {
+      "sensors": [
+        "BioActive (optical heart rate, electrical heart, bioelectrical impedance)",
+        "Skin temperature"
+      ],
+      "features": [
+        "Antioxidant Index",
+        "Bedtime Guidance",
+        "Vascular Load"
+      ]
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 46.4,
+        "width_mm": 46.0,
+        "depth_mm": 10.6
+      },
+      "weight_g": 63.5,
+      "case": "Stainless steel, rotating bezel",
+      "water": "5ATM + IP68, MIL-STD-810H",
+      "water_m": 50,
+      "ip": "IP68"
+    },
+    "connectivity": {
+      "cellular": "LTE (optional)",
+      "nfc": true,
+      "compatibility": "Android only"
+    },
+    "software": {
+      "launch_os": "Wear OS 6, One UI 8 Watch"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "samsung",
+      "url": "https://www.samsung.com",
+      "checked": "2026-09-15",
+      "note": "Cross-checked against SamMobile and PhoneArena coverage."
+    },
+    "fields": {}
+  },
+  "dataStatus": "checked",
+  "image": {
+    "kind": "official",
+    "src": "https://images.samsung.com/is/image/samsung/p6pim/my/f2507/gallery/my-galaxy-watch8-classic-l500-sm-l500nzkaxme-547651138?$624_624_PNG$",
+    "page": "https://www.samsung.com/my/support/model/SM-L500NZKAXME/",
+    "credit": "Samsung Malaysia",
+    "checked": "2026-09-19"
+  }
+}

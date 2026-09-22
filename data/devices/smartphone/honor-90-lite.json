@@ -1,0 +1,133 @@
+{
+  "id": "honor-90-lite",
+  "name": "HONOR 90 Lite",
+  "brand": "honor",
+  "category": "smartphone",
+  "series": "Number",
+  "form": "bar",
+  "status": "released",
+  "announced": "2023-07-21",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1099,
+      "config": "8 GB / 256 GB",
+      "date": "2023-07-21",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2023/07/21/honor-90-lite-a-midranger-with-a-100mp-camera-and-90hz-display-priced-at-rm1099/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://www.honor.com/content/dam/honor/my/products/smartphone/honor-90-lite/honor-90lite-fb-img.jpg",
+    "page": "https://www.honor.com/my/phones/honor-90-lite/spec/",
+    "credit": "HONOR Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.7,
+      "type": "LCD",
+      "resolution": "2388 × 1080",
+      "ppi": 391
+    },
+    "platform": {
+      "chipset": "dimensity-6020",
+      "gpu": "Mali-G57 MC2",
+      "cpu": "Octa-core; 2xA76 2.2GHz + 6xA55 2.0Ghz"
+    },
+    "battery": {
+      "capacity_mah": 4500,
+      "chemistry": "Li-ion Polymer"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 100,
+          "aperture": "f/1.9"
+        },
+        {
+          "role": "depth",
+          "mp": 5
+        },
+        {
+          "role": "macro",
+          "mp": 2
+        }
+      ],
+      "front": "16 MP",
+      "rear_detail": [
+        "100MP Main Camera(f/1.9)+",
+        "5MP Wide&Depth Camera(f/2.2)+",
+        "2MP Macro Camera(f/2.4)"
+      ],
+      "features": "Up to 10X digital zoom",
+      "video": "1080p",
+      "front_detail": [
+        "16MP (f/2.45)"
+      ]
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true,
+      "technology": "GSM / HSPA / LTE / 5G",
+      "sim": "Nano Card",
+      "wifi": "802.11 a/b/g/n/ac",
+      "positioning": "Support GPS/AGPS/GLONASS/BeiDou/ Galileo; Network-Based Positioning; Wi-Fi-Based Positioning",
+      "usb": "Type-C, USB 2.0",
+      "bluetooth": "Bluetooth"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 162.9,
+        "width_mm": 74.5,
+        "depth_mm": 7.48
+      },
+      "weight_g": 179.0
+    },
+    "software": {
+      "launch_os": "MagicOS 7.1(based on Android 13)"
+    },
+    "biometrics": {
+      "face": "Support 2D Face Recognition",
+      "fingerprint": "side fingerprint"
+    },
+    "charging": {
+      "claim": "22.5W",
+      "wired_w": 22.5
+    },
+    "sensors": "Gravity Sensor, Fingerprint Sensor, Support (side fingerprint), Compass",
+    "audio": {
+      "jack": true
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "honor",
+      "url": "https://www.honor.com/my/phones/honor-90-lite/spec/",
+      "checked": "2026-09-18",
+      "note": "Read from HONOR Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2023/07/21/honor-90-lite-a-midranger-with-a-100mp-camera-and-90hz-display-priced-at-rm1099/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

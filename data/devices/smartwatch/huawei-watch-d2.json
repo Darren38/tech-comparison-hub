@@ -1,0 +1,78 @@
+{
+  "id": "huawei-watch-d2",
+  "name": "Huawei Watch D2",
+  "brand": "huawei",
+  "category": "smartwatch",
+  "series": "Watch",
+  "form": "watch",
+  "status": "released",
+  "announced": "2024-12-02",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1999,
+      "date": "2024-12-02",
+      "type": "launch",
+      "source": "nasilemaktech",
+      "url": "https://nasilemaktech.com/huawei-matepad-12-x-watch-d2-malaysia-price/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/admin-image/wearables/watch-d2/specs/specs-blue.png",
+    "page": "https://consumer.huawei.com/my/wearables/watch-d2/specs/",
+    "credit": "Huawei Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 1.82,
+      "type": "AMOLED",
+      "resolution": "480 × 408"
+    },
+    "battery": {
+      "life_h": 144
+    },
+    "connectivity": {
+      "nfc": true,
+      "usb": "Wireless charging; System Requirements; Android 8.0 or later; iOS 13.0 or later; Waterproof Level; IP68",
+      "bluetooth": "2.4 GHz, Bluetooth 5.2 supporting BR and BLE; Environment; Operating Temperature; 5℃ to 40℃; Storage / Transport Temperature; -20℃ to 55℃"
+    },
+    "build": {
+      "weight_g": 40.0,
+      "ip": "IP68"
+    },
+    "sensors": "9-axis IMU sensor (Accelerometer sensor, Gyroscope sensor, Magnetometer sensor), Optical heart rate sensor, ECG sensor, Ambient light sensor, Barometer sensor, Temperature sensor, Differential pressure sensor, Hall sensor, Button, Rotating crown, Function and ECG button",
+    "audio": {
+      "speakers": "Microphone"
+    },
+    "charging": {
+      "claim": "Charger voltage and current requirements; 5V/1A"
+    },
+    "misc": {
+      "colors": "Blue, Black, Gold"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "huawei",
+      "url": "https://consumer.huawei.com/my/wearables/watch-d2/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from Huawei Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "nasilemaktech",
+        "url": "https://nasilemaktech.com/huawei-matepad-12-x-watch-d2-malaysia-price/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (Nasi Lemak Tech). The global announcement can be earlier."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

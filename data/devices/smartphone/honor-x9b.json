@@ -1,0 +1,125 @@
+{
+  "id": "honor-x9b",
+  "name": "HONOR X9b",
+  "brand": "honor",
+  "category": "smartphone",
+  "series": "X",
+  "form": "bar",
+  "status": "released",
+  "announced": "2023-10-12",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1499,
+      "date": "2023-10-12",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2023/308963/honor-x9b-coming-soon/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://www.honor.com/content/dam/honor/my/products/smartphone/honor-x9b/fb.png",
+    "page": "https://www.honor.com/my/phones/honor-x9b/spec/",
+    "credit": "HONOR Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.78,
+      "type": "AMOLED",
+      "resolution": "2652 × 1200",
+      "ppi": 429
+    },
+    "platform": {
+      "chipset": "snapdragon-6-gen-1",
+      "gpu": "Adreno A710",
+      "cpu": "Octa-core; 4xA78 *2.2GHz+4xA55*1.8GHz"
+    },
+    "battery": {
+      "capacity_mah": 5800,
+      "chemistry": "Lithium Polymer"
+    },
+    "charging": {
+      "wired_w": 35,
+      "claim": "35w"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 108
+        }
+      ],
+      "front": "16 MP",
+      "rear_detail": [
+        "108MP Main Camera (F1.75)",
+        "5MP Ultra Wide&Depth Camera(F2.2)",
+        "2MP Macro Camera(f2.4)"
+      ],
+      "features": "Up to 8x digital zoom",
+      "video": "4K",
+      "front_detail": [
+        "16MP (F2.45)"
+      ]
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true,
+      "technology": "GSM / HSPA / LTE / 5G",
+      "sim": "Nano Card",
+      "wifi": "802.11 a/b/g/n/ac",
+      "positioning": "Support GPS/AGPS/GLONASS/BeiDou/ Galileo; Network-Based Positioning; Wi-Fi-Based Positioning",
+      "usb": "USB Type-C, USB 2.0",
+      "bluetooth": "Bluetooth"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 163.6,
+        "width_mm": 75.5,
+        "depth_mm": 7.98
+      },
+      "weight_g": 185.0
+    },
+    "software": {
+      "launch_os": "MagicOS 7.2 (based on Android 13)"
+    },
+    "biometrics": {
+      "face": "Support 2D Face Recognition"
+    },
+    "sensors": "Gravity Sensor, Fingerprint Sensor, Support, support fingerprint unlock, Gyroscope, Compass",
+    "audio": {
+      "jack": false
+    },
+    "memory": {
+      "storage_type": "UFS 3.1"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "honor",
+      "url": "https://www.honor.com/my/phones/honor-x9b/spec/",
+      "checked": "2026-09-18",
+      "note": "Read from HONOR Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "lowyat",
+        "url": "https://www.lowyat.net/2023/308963/honor-x9b-coming-soon/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (Lowyat.NET). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

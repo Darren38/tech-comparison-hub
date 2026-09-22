@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "tch/chipset.schema.json",
+  "title": "Chipset",
+  "description": "One chipset file in data/chipsets/<id>.json.",
+  "type": "object",
+  "required": ["id", "name", "vendor", "provenance"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+    "name": { "type": "string" },
+    "vendor": { "type": "string", "description": "Manufacturer source id (qualcomm, mediatek, apple, google, samsung, hisilicon)." },
+    "family": { "type": "string" },
+    "tier": { "enum": ["flagship", "upper-mid", "mid", "entry", "wearable"] },
+    "announced": { "type": "string", "pattern": "^\\d{4}(-\\d{2}(-\\d{2})?)?$" },
+    "aliases": { "type": "array", "items": { "type": "string" } },
+    "summary": { "type": "string" },
+    "process": {
+      "type": "object",
+      "properties": { "node": { "type": "string" }, "foundry": { "type": "string" }, "name": { "type": "string" } }
+    },
+    "cpu": {
+      "type": "object",
+      "properties": {
+        "cores": { "type": "integer", "minimum": 1 },
+        "clusters": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["count", "core"],
+            "properties": { "count": { "type": "integer", "minimum": 1 }, "core": { "type": "string" }, "ghz": { "type": "number" } }
+          }
+        },
+        "note": { "type": "string" }
+      }
+    },
+    "gpu": { "type": "object", "properties": { "name": { "type": "string" }, "note": { "type": "string" } } },
+    "npu": { "type": "string" },
+    "modem": { "type": "string" },
+    "memory": { "type": "string" },
+    "storage": { "type": "string" },
+    "variants": {
+      "type": "array",
+      "items": { "type": "object", "required": ["name"], "properties": { "name": { "type": "string" }, "note": { "type": "string" } } }
+    },
+    "provenance": {
+      "type": "object",
+      "required": ["default"],
+      "properties": { "default": { "type": "object", "required": ["class", "source"] }, "fields": { "type": "object" } }
+    }
+  }
+}

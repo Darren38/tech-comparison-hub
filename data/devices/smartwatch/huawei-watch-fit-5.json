@@ -1,0 +1,87 @@
+{
+  "id": "huawei-watch-fit-5",
+  "name": "Huawei Watch Fit 5",
+  "brand": "huawei",
+  "category": "smartwatch",
+  "series": "Watch",
+  "form": "watch",
+  "status": "released",
+  "announced": "2026-05-19",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 799,
+      "date": "2026-05-19",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2026/393051/huawei-watch-fit-5-series-malaysia/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/wearables/watch-fit5/specs-silver.png",
+    "page": "https://consumer.huawei.com/my/wearables/watch-fit5/specs/",
+    "credit": "Huawei Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 1.82,
+      "type": "AMOLED",
+      "resolution": "480 × 408",
+      "peak_nits": 2500
+    },
+    "battery": {
+      "life_h": 240
+    },
+    "connectivity": {
+      "gps": "Built-in GNSS",
+      "nfc": true,
+      "usb": "Wireless charging; System Requirements; Android 9.0 or later; iOS 13.0 or later; Waterproof Level; 5 ATM water-resistant",
+      "bluetooth": "2.4 GHz, supports BT6.0 and BR + BLE",
+      "positioning": "GPS (L1 + L5 Dual-band)/GLONASS/BeiDou (B1I + B1C + B2a Tri-band)/GALILEO (E1 + E5a Dual-band)/QZSS (L1 + L5 Dual-band)/NavIC; Environment; Temperature; –20℃ to +45℃; Battery Life; The battery can last for up to 10 days with light usage, up to 7 days with typical usage, or up to 4 days with AOD enab"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 42.9,
+        "width_mm": 38.2,
+        "depth_mm": 9.5
+      },
+      "weight_g": 27.0,
+      "water": "5 ATM",
+      "water_m": 50
+    },
+    "sensors": "Accelerometer sensor, Gyroscope sensor, Magnetometer sensor, Ambient light sensor, Optical heart rate sensor, Barometer sensor, Temperature sensor, *The temperature sensor does not actively measure temperature or display specific temperature readings., Button, Home Button (Rotating Crown) and Side Button",
+    "audio": {
+      "speakers": "Microphone"
+    },
+    "charging": {
+      "claim": "Charger Voltage and Current Requirements; 5V-10V DC/2A"
+    },
+    "misc": {
+      "colors": "Silver, Purple, Green, White, Black"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "huawei",
+      "url": "https://consumer.huawei.com/my/wearables/watch-fit5/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from Huawei Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "lowyat",
+        "url": "https://www.lowyat.net/2026/393051/huawei-watch-fit-5-series-malaysia/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (Lowyat.NET). The global announcement can be earlier."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

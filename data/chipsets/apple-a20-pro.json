@@ -1,0 +1,51 @@
+{
+  "id": "apple-a20-pro",
+  "name": "Apple A20 Pro",
+  "vendor": "apple",
+  "family": "A-series",
+  "tier": "flagship",
+  "announced": "2026-09-09",
+  "aliases": [
+    "A20 Pro"
+  ],
+  "summary": "Apple's first 2 nm phone chip, in the iPhone 18 Pro and Pro Max. Only pre-release benchmark listings exist so far.",
+  "process": {
+    "node": "2 nm"
+  },
+  "cpu": {
+    "cores": 6,
+    "clusters": [
+      {
+        "count": 2,
+        "core": "Performance",
+        "ghz": 4.93
+      },
+      {
+        "count": 4,
+        "core": "Efficiency"
+      }
+    ]
+  },
+  "gpu": {
+    "name": "Apple GPU, 7-core",
+    "note": "Apple claims up to 40% faster than A19 Pro"
+  },
+  "npu": "Neural Engine (Apple lists it as dual 16-core)",
+  "variants": [],
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "apple",
+      "url": "https://www.apple.com/newsroom/2026/09/apple-debuts-iphone-18-pro-and-iphone-18-pro-max/",
+      "checked": "2026-09-15"
+    },
+    "fields": {
+      "cpu.clusters": {
+        "class": "database",
+        "source": "gsmarena",
+        "url": "https://www.gsmarena.com/here_are_the_iphone_18_pro_and_iphone_18_pro_max_geekbench_scores-news-74559.php",
+        "note": "4.93 GHz clock read from a pre-release Geekbench listing; Apple does not publish clocks."
+      }
+    }
+  }
+}

@@ -1,0 +1,901 @@
+[
+ {
+  "id": "samsung-galaxy-s23",
+  "brand": "samsung",
+  "name": "Samsung Galaxy S23",
+  "category": "smartphone",
+  "series": "Galaxy S",
+  "form": "bar",
+  "spec": [
+   "https://www.samsung.com/my/smartphones/galaxy-s23/specs/",
+   "https://www.samsung.com/my/smartphones/galaxy-s23/"
+  ],
+  "q": "Samsung Galaxy S23",
+  "must": "galaxy-s23"
+ },
+ {
+  "id": "samsung-galaxy-s23-plus",
+  "brand": "samsung",
+  "name": "Samsung Galaxy S23+",
+  "category": "smartphone",
+  "series": "Galaxy S",
+  "form": "bar",
+  "spec": [
+   "https://www.samsung.com/my/smartphones/galaxy-s23-plus/specs/",
+   "https://www.samsung.com/my/smartphones/galaxy-s23-plus/"
+  ],
+  "q": "Samsung Galaxy S23+",
+  "must": "galaxy-s23-plus"
+ },
+ {
+  "id": "samsung-galaxy-s23-ultra",
+  "brand": "samsung",
+  "name": "Samsung Galaxy S23 Ultra",
+  "category": "smartphone",
+  "series": "Galaxy S",
+  "form": "bar",
+  "spec": [
+   "https://www.samsung.com/my/smartphones/galaxy-s23-ultra/specs/",
+   "https://www.samsung.com/my/smartphones/galaxy-s23-ultra/"
+  ],
+  "q": "Samsung Galaxy S23 Ultra",
+  "must": "galaxy-s23-ultra"
+ },
+ {
+  "id": "samsung-galaxy-a14",
+  "brand": "samsung",
+  "name": "Samsung Galaxy A14",
+  "category": "smartphone",
+  "series": "Galaxy A",
+  "form": "bar",
+  "spec": [
+   "https://www.samsung.com/my/smartphones/galaxy-a14/specs/",
+   "https://www.samsung.com/my/smartphones/galaxy-a14/"
+  ],
+  "q": "Samsung Galaxy A14",
+  "must": "galaxy-a14"
+ },
+ {
+  "id": "samsung-galaxy-a14-5g",
+  "brand": "samsung",
+  "name": "Samsung Galaxy A14 5G",
+  "category": "smartphone",
+  "series": "Galaxy A",
+  "form": "bar",
+  "spec": [
+   "https://www.samsung.com/my/smartphones/galaxy-a14-5g/specs/",
+   "https://www.samsung.com/my/smartphones/galaxy-a14-5g/"
+  ],
+  "q": "Samsung Galaxy A14 5G",
+  "must": "galaxy-a14-5g"
+ },
+ {
+  "id": "samsung-galaxy-a34-5g",
+  "brand": "samsung",
+  "name": "Samsung Galaxy A34 5G",
+  "category": "smartphone",
+  "series": "Galaxy A",
+  "form": "bar",
+  "spec": [
+   "https://www.samsung.com/my/smartphones/galaxy-a34-5g/specs/",
+   "https://www.samsung.com/my/smartphones/galaxy-a34-5g/"
+  ],
+  "q": "Samsung Galaxy A34 5G",
+  "must": "galaxy-a34-5g"
+ },
+ {
+  "id": "samsung-galaxy-a54-5g",
+  "brand": "samsung",
+  "name": "Samsung Galaxy A54 5G",
+  "category": "smartphone",
+  "series": "Galaxy A",
+  "form": "bar",
+  "spec": [
+   "https://www.samsung.com/my/smartphones/galaxy-a54-5g/specs/",
+   "https://www.samsung.com/my/smartphones/galaxy-a54-5g/"
+  ],
+  "q": "Samsung Galaxy A54 5G",
+  "must": "galaxy-a54-5g"
+ },
+ {
+  "id": "samsung-galaxy-a24",
+  "brand": "samsung",
+  "name": "Samsung Galaxy A24",
+  "category": "smartphone",
+  "series": "Galaxy A",
+  "form": "bar",
+  "spec": [
+   "https://www.samsung.com/my/smartphones/galaxy-a24/specs/",
+   "https://www.samsung.com/my/smartphones/galaxy-a24/"
+  ],
+  "q": "Samsung Galaxy A24",
+  "must": "galaxy-a24"
+ },
+ {
+  "id": "samsung-galaxy-m14-5g",
+  "brand": "samsung",
+  "name": "Samsung Galaxy M14 5G",
+  "category": "smartphone",
+  "series": "Galaxy M",
+  "form": "bar",
+  "spec": [
+   "https://www.samsung.com/my/smartphones/galaxy-m14-5g/specs/",
+   "https://www.samsung.com/my/smartphones/galaxy-m14-5g/"
+  ],
+  "q": "Samsung Galaxy M14 5G",
+  "must": "galaxy-m14-5g"
+ },
+ {
+  "id": "samsung-galaxy-z-flip5",
+  "brand": "samsung",
+  "name": "Samsung Galaxy Z Flip5",
+  "category": "smartphone",
+  "series": "Galaxy Z",
+  "form": "foldable",
+  "spec": [
+   "https://www.samsung.com/my/smartphones/galaxy-z-flip5/specs/",
+   "https://www.samsung.com/my/smartphones/galaxy-z-flip5/"
+  ],
+  "q": "Samsung Galaxy Z Flip5",
+  "must": "galaxy-z-flip5"
+ },
+ {
+  "id": "samsung-galaxy-z-fold5",
+  "brand": "samsung",
+  "name": "Samsung Galaxy Z Fold5",
+  "category": "smartphone",
+  "series": "Galaxy Z",
+  "form": "foldable",
+  "spec": [
+   "https://www.samsung.com/my/smartphones/galaxy-z-fold5/specs/",
+   "https://www.samsung.com/my/smartphones/galaxy-z-fold5/"
+  ],
+  "q": "Samsung Galaxy Z Fold5",
+  "must": "galaxy-z-fold5"
+ },
+ {
+  "id": "samsung-galaxy-s23-fe",
+  "brand": "samsung",
+  "name": "Samsung Galaxy S23 FE",
+  "category": "smartphone",
+  "series": "Galaxy S",
+  "form": "bar",
+  "spec": [
+   "https://www.samsung.com/my/smartphones/galaxy-s23-fe/specs/",
+   "https://www.samsung.com/my/smartphones/galaxy-s23-fe/"
+  ],
+  "q": "Samsung Galaxy S23 FE",
+  "must": "galaxy-s23-fe"
+ },
+ {
+  "id": "samsung-galaxy-m34-5g",
+  "brand": "samsung",
+  "name": "Samsung Galaxy M34 5G",
+  "category": "smartphone",
+  "series": "Galaxy M",
+  "form": "bar",
+  "spec": [
+   "https://www.samsung.com/my/smartphones/galaxy-m34-5g/specs/",
+   "https://www.samsung.com/my/smartphones/galaxy-m34-5g/"
+  ],
+  "q": "Samsung Galaxy M34 5G",
+  "must": "galaxy-m34-5g"
+ },
+ {
+  "id": "samsung-galaxy-a05",
+  "brand": "samsung",
+  "name": "Samsung Galaxy A05",
+  "category": "smartphone",
+  "series": "Galaxy A",
+  "form": "bar",
+  "spec": [
+   "https://www.samsung.com/my/smartphones/galaxy-a05/specs/",
+   "https://www.samsung.com/my/smartphones/galaxy-a05/"
+  ],
+  "q": "Samsung Galaxy A05",
+  "must": "galaxy-a05"
+ },
+ {
+  "id": "samsung-galaxy-a05s",
+  "brand": "samsung",
+  "name": "Samsung Galaxy A05s",
+  "category": "smartphone",
+  "series": "Galaxy A",
+  "form": "bar",
+  "spec": [
+   "https://www.samsung.com/my/smartphones/galaxy-a05s/specs/",
+   "https://www.samsung.com/my/smartphones/galaxy-a05s/"
+  ],
+  "q": "Samsung Galaxy A05s",
+  "must": "galaxy-a05s"
+ },
+ {
+  "id": "samsung-galaxy-m54-5g",
+  "brand": "samsung",
+  "name": "Samsung Galaxy M54 5G",
+  "category": "smartphone",
+  "series": "Galaxy M",
+  "form": "bar",
+  "spec": [
+   "https://www.samsung.com/my/smartphones/galaxy-m54-5g/specs/",
+   "https://www.samsung.com/my/smartphones/galaxy-m54-5g/"
+  ],
+  "q": "Samsung Galaxy M54 5G",
+  "must": "galaxy-m54-5g"
+ },
+ {
+  "id": "samsung-galaxy-a15",
+  "brand": "samsung",
+  "name": "Samsung Galaxy A15",
+  "category": "smartphone",
+  "series": "Galaxy A",
+  "form": "bar",
+  "spec": [
+   "https://www.samsung.com/my/smartphones/galaxy-a15/specs/",
+   "https://www.samsung.com/my/smartphones/galaxy-a15/"
+  ],
+  "q": "Samsung Galaxy A15",
+  "must": "galaxy-a15"
+ },
+ {
+  "id": "samsung-galaxy-a15-5g",
+  "brand": "samsung",
+  "name": "Samsung Galaxy A15 5G",
+  "category": "smartphone",
+  "series": "Galaxy A",
+  "form": "bar",
+  "spec": [
+   "https://www.samsung.com/my/smartphones/galaxy-a15-5g/specs/",
+   "https://www.samsung.com/my/smartphones/galaxy-a15-5g/"
+  ],
+  "q": "Samsung Galaxy A15 5G",
+  "must": "galaxy-a15-5g"
+ },
+ {
+  "id": "samsung-galaxy-a25-5g",
+  "brand": "samsung",
+  "name": "Samsung Galaxy A25 5G",
+  "category": "smartphone",
+  "series": "Galaxy A",
+  "form": "bar",
+  "spec": [
+   "https://www.samsung.com/my/smartphones/galaxy-a25-5g/specs/",
+   "https://www.samsung.com/my/smartphones/galaxy-a25-5g/"
+  ],
+  "q": "Samsung Galaxy A25 5G",
+  "must": "galaxy-a25-5g"
+ },
+ {
+  "id": "samsung-galaxy-s24",
+  "brand": "samsung",
+  "name": "Samsung Galaxy S24",
+  "category": "smartphone",
+  "series": "Galaxy S",
+  "form": "bar",
+  "spec": [
+   "https://www.samsung.com/my/smartphones/galaxy-s24/specs/",
+   "https://www.samsung.com/my/smartphones/galaxy-s24/"
+  ],
+  "q": "Samsung Galaxy S24",
+  "must": "galaxy-s24"
+ },
+ {
+  "id": "samsung-galaxy-s24-plus",
+  "brand": "samsung",
+  "name": "Samsung Galaxy S24+",
+  "category": "smartphone",
+  "series": "Galaxy S",
+  "form": "bar",
+  "spec": [
+   "https://www.samsung.com/my/smartphones/galaxy-s24-plus/specs/",
+   "https://www.samsung.com/my/smartphones/galaxy-s24-plus/"
+  ],
+  "q": "Samsung Galaxy S24+",
+  "must": "galaxy-s24-plus"
+ },
+ {
+  "id": "samsung-galaxy-s24-ultra",
+  "brand": "samsung",
+  "name": "Samsung Galaxy S24 Ultra",
+  "category": "smartphone",
+  "series": "Galaxy S",
+  "form": "bar",
+  "spec": [
+   "https://www.samsung.com/my/smartphones/galaxy-s24-ultra/specs/",
+   "https://www.samsung.com/my/smartphones/galaxy-s24-ultra/"
+  ],
+  "q": "Samsung Galaxy S24 Ultra",
+  "must": "galaxy-s24-ultra"
+ },
+ {
+  "id": "samsung-galaxy-a35-5g",
+  "brand": "samsung",
+  "name": "Samsung Galaxy A35 5G",
+  "category": "smartphone",
+  "series": "Galaxy A",
+  "form": "bar",
+  "spec": [
+   "https://www.samsung.com/my/smartphones/galaxy-a35-5g/specs/",
+   "https://www.samsung.com/my/smartphones/galaxy-a35-5g/"
+  ],
+  "q": "Samsung Galaxy A35 5G",
+  "must": "galaxy-a35-5g"
+ },
+ {
+  "id": "samsung-galaxy-a55-5g",
+  "brand": "samsung",
+  "name": "Samsung Galaxy A55 5G",
+  "category": "smartphone",
+  "series": "Galaxy A",
+  "form": "bar",
+  "spec": [
+   "https://www.samsung.com/my/smartphones/galaxy-a55-5g/specs/",
+   "https://www.samsung.com/my/smartphones/galaxy-a55-5g/"
+  ],
+  "q": "Samsung Galaxy A55 5G",
+  "must": "galaxy-a55-5g"
+ },
+ {
+  "id": "samsung-galaxy-z-fold6",
+  "brand": "samsung",
+  "name": "Samsung Galaxy Z Fold6",
+  "category": "smartphone",
+  "series": "Galaxy Z",
+  "form": "foldable",
+  "spec": [
+   "https://www.samsung.com/my/smartphones/galaxy-z-fold6/specs/",
+   "https://www.samsung.com/my/smartphones/galaxy-z-fold6/"
+  ],
+  "q": "Samsung Galaxy Z Fold6",
+  "must": "galaxy-z-fold6"
+ },
+ {
+  "id": "samsung-galaxy-z-flip6",
+  "brand": "samsung",
+  "name": "Samsung Galaxy Z Flip6",
+  "category": "smartphone",
+  "series": "Galaxy Z",
+  "form": "foldable",
+  "spec": [
+   "https://www.samsung.com/my/smartphones/galaxy-z-flip6/specs/",
+   "https://www.samsung.com/my/smartphones/galaxy-z-flip6/"
+  ],
+  "q": "Samsung Galaxy Z Flip6",
+  "must": "galaxy-z-flip6"
+ },
+ {
+  "id": "samsung-galaxy-s24-fe",
+  "brand": "samsung",
+  "name": "Samsung Galaxy S24 FE",
+  "category": "smartphone",
+  "series": "Galaxy S",
+  "form": "bar",
+  "spec": [
+   "https://www.samsung.com/my/smartphones/galaxy-s24-fe/specs/",
+   "https://www.samsung.com/my/smartphones/galaxy-s24-fe/"
+  ],
+  "q": "Samsung Galaxy S24 FE",
+  "must": "galaxy-s24-fe"
+ },
+ {
+  "id": "samsung-galaxy-a06",
+  "brand": "samsung",
+  "name": "Samsung Galaxy A06",
+  "category": "smartphone",
+  "series": "Galaxy A",
+  "form": "bar",
+  "spec": [
+   "https://www.samsung.com/my/smartphones/galaxy-a06/specs/",
+   "https://www.samsung.com/my/smartphones/galaxy-a06/"
+  ],
+  "q": "Samsung Galaxy A06",
+  "must": "galaxy-a06"
+ },
+ {
+  "id": "samsung-galaxy-a16-5g",
+  "brand": "samsung",
+  "name": "Samsung Galaxy A16 5G",
+  "category": "smartphone",
+  "series": "Galaxy A",
+  "form": "bar",
+  "spec": [
+   "https://www.samsung.com/my/smartphones/galaxy-a16-5g/specs/",
+   "https://www.samsung.com/my/smartphones/galaxy-a16-5g/"
+  ],
+  "q": "Samsung Galaxy A16 5G",
+  "must": "galaxy-a16-5g"
+ },
+ {
+  "id": "samsung-galaxy-a16",
+  "brand": "samsung",
+  "name": "Samsung Galaxy A16",
+  "category": "smartphone",
+  "series": "Galaxy A",
+  "form": "bar",
+  "spec": [
+   "https://www.samsung.com/my/smartphones/galaxy-a16/specs/",
+   "https://www.samsung.com/my/smartphones/galaxy-a16/"
+  ],
+  "q": "Samsung Galaxy A16",
+  "must": "galaxy-a16"
+ },
+ {
+  "id": "samsung-galaxy-s25",
+  "brand": "samsung",
+  "name": "Samsung Galaxy S25",
+  "category": "smartphone",
+  "series": "Galaxy S",
+  "form": "bar",
+  "spec": [
+   "https://www.samsung.com/my/smartphones/galaxy-s25/specs/",
+   "https://www.samsung.com/my/smartphones/galaxy-s25/"
+  ],
+  "q": "Samsung Galaxy S25",
+  "must": "galaxy-s25"
+ },
+ {
+  "id": "samsung-galaxy-s25-plus",
+  "brand": "samsung",
+  "name": "Samsung Galaxy S25+",
+  "category": "smartphone",
+  "series": "Galaxy S",
+  "form": "bar",
+  "spec": [
+   "https://www.samsung.com/my/smartphones/galaxy-s25-plus/specs/",
+   "https://www.samsung.com/my/smartphones/galaxy-s25-plus/"
+  ],
+  "q": "Samsung Galaxy S25+",
+  "must": "galaxy-s25-plus"
+ },
+ {
+  "id": "samsung-galaxy-s25-edge",
+  "brand": "samsung",
+  "name": "Samsung Galaxy S25 Edge",
+  "category": "smartphone",
+  "series": "Galaxy S",
+  "form": "bar",
+  "spec": [
+   "https://www.samsung.com/my/smartphones/galaxy-s25-edge/specs/",
+   "https://www.samsung.com/my/smartphones/galaxy-s25-edge/"
+  ],
+  "q": "Samsung Galaxy S25 Edge",
+  "must": "galaxy-s25-edge"
+ },
+ {
+  "id": "samsung-galaxy-a36-5g",
+  "brand": "samsung",
+  "name": "Samsung Galaxy A36 5G",
+  "category": "smartphone",
+  "series": "Galaxy A",
+  "form": "bar",
+  "spec": [
+   "https://www.samsung.com/my/smartphones/galaxy-a36-5g/specs/",
+   "https://www.samsung.com/my/smartphones/galaxy-a36-5g/"
+  ],
+  "q": "Samsung Galaxy A36 5G",
+  "must": "galaxy-a36-5g"
+ },
+ {
+  "id": "samsung-galaxy-a26-5g",
+  "brand": "samsung",
+  "name": "Samsung Galaxy A26 5G",
+  "category": "smartphone",
+  "series": "Galaxy A",
+  "form": "bar",
+  "spec": [
+   "https://www.samsung.com/my/smartphones/galaxy-a26-5g/specs/",
+   "https://www.samsung.com/my/smartphones/galaxy-a26-5g/"
+  ],
+  "q": "Samsung Galaxy A26 5G",
+  "must": "galaxy-a26-5g"
+ },
+ {
+  "id": "samsung-galaxy-z-fold7",
+  "brand": "samsung",
+  "name": "Samsung Galaxy Z Fold7",
+  "category": "smartphone",
+  "series": "Galaxy Z",
+  "form": "foldable",
+  "spec": [
+   "https://www.samsung.com/my/smartphones/galaxy-z-fold7/specs/",
+   "https://www.samsung.com/my/smartphones/galaxy-z-fold7/"
+  ],
+  "q": "Samsung Galaxy Z Fold7",
+  "must": "galaxy-z-fold7"
+ },
+ {
+  "id": "samsung-galaxy-z-flip7",
+  "brand": "samsung",
+  "name": "Samsung Galaxy Z Flip7",
+  "category": "smartphone",
+  "series": "Galaxy Z",
+  "form": "foldable",
+  "spec": [
+   "https://www.samsung.com/my/smartphones/galaxy-z-flip7/specs/",
+   "https://www.samsung.com/my/smartphones/galaxy-z-flip7/"
+  ],
+  "q": "Samsung Galaxy Z Flip7",
+  "must": "galaxy-z-flip7"
+ },
+ {
+  "id": "samsung-galaxy-z-flip7-fe",
+  "brand": "samsung",
+  "name": "Samsung Galaxy Z Flip7 FE",
+  "category": "smartphone",
+  "series": "Galaxy Z",
+  "form": "foldable",
+  "spec": [
+   "https://www.samsung.com/my/smartphones/galaxy-z-flip7-fe/specs/",
+   "https://www.samsung.com/my/smartphones/galaxy-z-flip7-fe/"
+  ],
+  "q": "Samsung Galaxy Z Flip7 FE",
+  "must": "galaxy-z-flip7-fe"
+ },
+ {
+  "id": "samsung-galaxy-s25-fe",
+  "brand": "samsung",
+  "name": "Samsung Galaxy S25 FE",
+  "category": "smartphone",
+  "series": "Galaxy S",
+  "form": "bar",
+  "spec": [
+   "https://www.samsung.com/my/smartphones/galaxy-s/galaxy-s25-fe-icyblue-128gb-sm-s731blbbxme/",
+   "https://www.samsung.com/my/smartphones/galaxy-s25-fe/specs/",
+   "https://www.samsung.com/my/smartphones/galaxy-s25-fe/"
+  ],
+  "q": "Samsung Galaxy S25 FE",
+  "must": "galaxy-s25-fe"
+ },
+ {
+  "id": "samsung-galaxy-a06-5g",
+  "brand": "samsung",
+  "name": "Samsung Galaxy A06 5G",
+  "category": "smartphone",
+  "series": "Galaxy A",
+  "form": "bar",
+  "spec": [
+   "https://www.samsung.com/my/smartphones/galaxy-a/galaxy-a06-5g-black-128gb-sm-a066bzkhxme/",
+   "https://www.samsung.com/my/smartphones/galaxy-a06-5g/specs/",
+   "https://www.samsung.com/my/smartphones/galaxy-a06-5g/"
+  ],
+  "q": "Samsung Galaxy A06 5G",
+  "must": "galaxy-a06-5g"
+ },
+ {
+  "id": "samsung-galaxy-a07",
+  "brand": "samsung",
+  "name": "Samsung Galaxy A07",
+  "category": "smartphone",
+  "series": "Galaxy A",
+  "form": "bar",
+  "spec": [
+   "https://www.samsung.com/my/smartphones/galaxy-a/galaxy-a07-black-128gb-sm-a075fzkhxme/",
+   "https://www.samsung.com/my/smartphones/galaxy-a07/specs/",
+   "https://www.samsung.com/my/smartphones/galaxy-a07/"
+  ],
+  "q": "Samsung Galaxy A07",
+  "must": "galaxy-a07"
+ },
+ {
+  "id": "samsung-galaxy-a07-5g",
+  "brand": "samsung",
+  "name": "Samsung Galaxy A07 5G",
+  "category": "smartphone",
+  "series": "Galaxy A",
+  "form": "bar",
+  "spec": [
+   "https://www.samsung.com/my/smartphones/galaxy-a/galaxy-a07-5g-black-128gb-sm-a076bzkcxme/",
+   "https://www.samsung.com/my/smartphones/galaxy-a07-5g/specs/",
+   "https://www.samsung.com/my/smartphones/galaxy-a07-5g/"
+  ],
+  "q": "Samsung Galaxy A07 5G",
+  "must": "galaxy-a07-5g"
+ },
+ {
+  "id": "samsung-galaxy-a17",
+  "brand": "samsung",
+  "name": "Samsung Galaxy A17",
+  "category": "smartphone",
+  "series": "Galaxy A",
+  "form": "bar",
+  "spec": [
+   "https://www.samsung.com/my/smartphones/galaxy-a/galaxy-a17-black-256gb-sm-a175fzkoxme/",
+   "https://www.samsung.com/my/smartphones/galaxy-a17/specs/",
+   "https://www.samsung.com/my/smartphones/galaxy-a17/"
+  ],
+  "q": "Samsung Galaxy A17",
+  "must": "galaxy-a17"
+ },
+ {
+  "id": "samsung-galaxy-a17-5g",
+  "brand": "samsung",
+  "name": "Samsung Galaxy A17 5G",
+  "category": "smartphone",
+  "series": "Galaxy A",
+  "form": "bar",
+  "spec": [
+   "https://www.samsung.com/my/smartphones/galaxy-a/galaxy-a17-5g-black-128gb-sm-a176bzkjxme/",
+   "https://www.samsung.com/my/smartphones/galaxy-a17-5g/specs/",
+   "https://www.samsung.com/my/smartphones/galaxy-a17-5g/"
+  ],
+  "q": "Samsung Galaxy A17 5G",
+  "must": "galaxy-a17-5g"
+ },
+ {
+  "id": "samsung-galaxy-s26-plus",
+  "brand": "samsung",
+  "name": "Samsung Galaxy S26+",
+  "category": "smartphone",
+  "series": "Galaxy S",
+  "form": "bar",
+  "spec": [
+   "https://www.samsung.com/my/smartphones/galaxy-s26-plus/specs/",
+   "https://www.samsung.com/my/smartphones/galaxy-s26-plus/"
+  ],
+  "q": "Samsung Galaxy S26+",
+  "must": "galaxy-s26-plus"
+ },
+ {
+  "id": "samsung-galaxy-a57-5g",
+  "brand": "samsung",
+  "name": "Samsung Galaxy A57 5G",
+  "category": "smartphone",
+  "series": "Galaxy A",
+  "form": "bar",
+  "spec": [
+   "https://www.samsung.com/my/smartphones/galaxy-a/galaxy-a57-5g-awesome-gray-256gb-sm-a576bzasxme/",
+   "https://www.samsung.com/my/smartphones/galaxy-a57-5g/specs/",
+   "https://www.samsung.com/my/smartphones/galaxy-a57-5g/"
+  ],
+  "q": "Samsung Galaxy A57 5G",
+  "must": "galaxy-a57-5g"
+ },
+ {
+  "id": "samsung-galaxy-a37-5g",
+  "brand": "samsung",
+  "name": "Samsung Galaxy A37 5G",
+  "category": "smartphone",
+  "series": "Galaxy A",
+  "form": "bar",
+  "spec": [
+   "https://www.samsung.com/my/smartphones/galaxy-a/galaxy-a37-5g-awesome-charcoal-256gb-sm-a376bzatxme/",
+   "https://www.samsung.com/my/smartphones/galaxy-a37-5g/specs/",
+   "https://www.samsung.com/my/smartphones/galaxy-a37-5g/"
+  ],
+  "q": "Samsung Galaxy A37 5G",
+  "must": "galaxy-a37-5g"
+ },
+ {
+  "id": "samsung-galaxy-a27-5g",
+  "brand": "samsung",
+  "name": "Samsung Galaxy A27 5G",
+  "category": "smartphone",
+  "series": "Galaxy A",
+  "form": "bar",
+  "spec": [
+   "https://www.samsung.com/my/smartphones/galaxy-a/galaxy-a27-5g-black-128gb-sm-a276bzkgxme/",
+   "https://www.samsung.com/my/smartphones/galaxy-a27-5g/specs/",
+   "https://www.samsung.com/my/smartphones/galaxy-a27-5g/"
+  ],
+  "q": "Samsung Galaxy A27 5G",
+  "must": "galaxy-a27-5g"
+ },
+ {
+  "id": "samsung-galaxy-z-fold8-ultra",
+  "brand": "samsung",
+  "name": "Samsung Galaxy Z Fold8 Ultra",
+  "category": "smartphone",
+  "series": "Galaxy Z",
+  "form": "foldable",
+  "spec": [
+   "https://www.samsung.com/my/smartphones/galaxy-z-fold8-ultra/specs/",
+   "https://www.samsung.com/my/smartphones/galaxy-z-fold8-ultra/"
+  ],
+  "q": "Samsung Galaxy Z Fold8 Ultra",
+  "must": "galaxy-z-fold8-ultra"
+ },
+ {
+  "id": "samsung-galaxy-z-flip8",
+  "brand": "samsung",
+  "name": "Samsung Galaxy Z Flip8",
+  "category": "smartphone",
+  "series": "Galaxy Z",
+  "form": "foldable",
+  "spec": [
+   "https://www.samsung.com/my/smartphones/galaxy-z-flip8/specs/",
+   "https://www.samsung.com/my/smartphones/galaxy-z-flip8/"
+  ],
+  "q": "Samsung Galaxy Z Flip8",
+  "must": "galaxy-z-flip8"
+ },
+ {
+  "id": "samsung-galaxy-s26-fe",
+  "brand": "samsung",
+  "name": "Samsung Galaxy S26 FE",
+  "category": "smartphone",
+  "series": "Galaxy S",
+  "form": "bar",
+  "spec": [
+   "https://www.samsung.com/my/smartphones/galaxy-s/galaxy-s26-fe-blueberry-128gb-sm-s741bzvbxme/",
+   "https://www.samsung.com/my/smartphones/galaxy-s26-fe/specs/",
+   "https://www.samsung.com/my/smartphones/galaxy-s26-fe/"
+  ],
+  "q": "Samsung Galaxy S26 FE",
+  "must": "galaxy-s26-fe"
+ },
+ {
+  "id": "samsung-galaxy-a08",
+  "brand": "samsung",
+  "name": "Samsung Galaxy A08",
+  "category": "smartphone",
+  "series": "Galaxy A",
+  "form": "bar",
+  "spec": [
+   "https://www.samsung.com/my/smartphones/galaxy-a/galaxy-a08-dark-blue-128gb-sm-a085fdbhxme/",
+   "https://www.samsung.com/my/smartphones/galaxy-a08/specs/",
+   "https://www.samsung.com/my/smartphones/galaxy-a08/"
+  ],
+  "q": "Samsung Galaxy A08",
+  "must": "galaxy-a08"
+ },
+ {
+  "id": "samsung-galaxy-a07s",
+  "brand": "samsung",
+  "name": "Samsung Galaxy A07s",
+  "category": "smartphone",
+  "series": "Galaxy A",
+  "form": "bar",
+  "spec": [
+   "https://www.samsung.com/my/smartphones/galaxy-a/galaxy-a07s-black-64gb-sm-a077fzkdxme/",
+   "https://www.samsung.com/my/smartphones/galaxy-a07s/specs/",
+   "https://www.samsung.com/my/smartphones/galaxy-a07s/"
+  ],
+  "q": "Samsung Galaxy A07s",
+  "must": "galaxy-a07s"
+ },
+ {
+  "id": "samsung-galaxy-watch6",
+  "brand": "samsung",
+  "name": "Samsung Galaxy Watch6",
+  "category": "smartwatch",
+  "series": "Galaxy Watch",
+  "form": "watch",
+  "spec": [
+   "https://www.samsung.com/my/watches/galaxy-watch6/specs/",
+   "https://www.samsung.com/my/watches/galaxy-watch6/"
+  ],
+  "q": "Samsung Galaxy Watch6",
+  "must": "galaxy-watch6"
+ },
+ {
+  "id": "samsung-galaxy-watch6-classic",
+  "brand": "samsung",
+  "name": "Samsung Galaxy Watch6 Classic",
+  "category": "smartwatch",
+  "series": "Galaxy Watch",
+  "form": "watch",
+  "spec": [
+   "https://www.samsung.com/my/watches/galaxy-watch6-classic/specs/",
+   "https://www.samsung.com/my/watches/galaxy-watch6-classic/"
+  ],
+  "q": "Samsung Galaxy Watch6 Classic",
+  "must": "galaxy-watch6-classic"
+ },
+ {
+  "id": "samsung-galaxy-fit3",
+  "brand": "samsung",
+  "name": "Samsung Galaxy Fit3",
+  "category": "band",
+  "series": "Galaxy Fit",
+  "form": "band",
+  "spec": [
+   "https://www.samsung.com/my/watches/galaxy-fit/galaxy-fit3-gray-connectivity-sm-r390nzaaxme/",
+   "https://www.samsung.com/my/watches/galaxy-fit3/specs/",
+   "https://www.samsung.com/my/watches/galaxy-fit3/"
+  ],
+  "q": "Samsung Galaxy Fit3",
+  "must": "galaxy-fit3"
+ },
+ {
+  "id": "samsung-galaxy-watch7",
+  "brand": "samsung",
+  "name": "Samsung Galaxy Watch7",
+  "category": "smartwatch",
+  "series": "Galaxy Watch",
+  "form": "watch",
+  "spec": [
+   "https://www.samsung.com/my/watches/galaxy-watch7/specs/",
+   "https://www.samsung.com/my/watches/galaxy-watch7/"
+  ],
+  "q": "Samsung Galaxy Watch7",
+  "must": "galaxy-watch7"
+ },
+ {
+  "id": "samsung-galaxy-watch-ultra",
+  "brand": "samsung",
+  "name": "Samsung Galaxy Watch Ultra",
+  "category": "smartwatch",
+  "series": "Galaxy Watch",
+  "form": "watch",
+  "spec": [
+   "https://www.samsung.com/my/watches/galaxy-watch-ultra/specs/",
+   "https://www.samsung.com/my/watches/galaxy-watch-ultra/"
+  ],
+  "q": "Samsung Galaxy Watch Ultra",
+  "must": "galaxy-watch-ultra"
+ },
+ {
+  "id": "samsung-galaxy-watch-fe",
+  "brand": "samsung",
+  "name": "Samsung Galaxy Watch FE",
+  "category": "smartwatch",
+  "series": "Galaxy Watch",
+  "form": "watch",
+  "spec": [
+   "https://www.samsung.com/my/watches/galaxy-watch-fe/specs/",
+   "https://www.samsung.com/my/watches/galaxy-watch-fe/"
+  ],
+  "q": "Samsung Galaxy Watch FE",
+  "must": "galaxy-watch-fe"
+ },
+ {
+  "id": "samsung-galaxy-watch8",
+  "brand": "samsung",
+  "name": "Samsung Galaxy Watch8",
+  "category": "smartwatch",
+  "series": "Galaxy Watch",
+  "form": "watch",
+  "spec": [
+   "https://www.samsung.com/my/watches/galaxy-watch/galaxy-watch8-40mm-graphite-bluetooth-sm-l320ndaaxme/",
+   "https://www.samsung.com/my/watches/galaxy-watch8/specs/",
+   "https://www.samsung.com/my/watches/galaxy-watch8/"
+  ],
+  "q": "Samsung Galaxy Watch8",
+  "must": "galaxy-watch8"
+ },
+ {
+  "id": "samsung-galaxy-watch-ultra-2025",
+  "brand": "samsung",
+  "name": "Samsung Galaxy Watch Ultra (2025)",
+  "category": "smartwatch",
+  "series": "Galaxy Watch",
+  "form": "watch",
+  "spec": [
+   "https://www.samsung.com/my/watches/galaxy-watch/galaxy-watch-ultra-2025-47mm-titanium-blue-lte-sm-l705fzb1xme/",
+   "https://www.samsung.com/my/watches/galaxy-watch-ultra-2025/specs/",
+   "https://www.samsung.com/my/watches/galaxy-watch-ultra-2025/"
+  ],
+  "q": "Samsung Galaxy Watch Ultra (2025)",
+  "must": "galaxy-watch-ultra-2025"
+ },
+ {
+  "id": "samsung-galaxy-watch9",
+  "brand": "samsung",
+  "name": "Samsung Galaxy Watch9",
+  "category": "smartwatch",
+  "series": "Galaxy Watch",
+  "form": "watch",
+  "spec": [
+   "https://www.samsung.com/my/watches/galaxy-watch/galaxy-watch9-40mm-cream-bluetooth-sm-l340nzeaxme/",
+   "https://www.samsung.com/my/watches/galaxy-watch9/specs/",
+   "https://www.samsung.com/my/watches/galaxy-watch9/"
+  ],
+  "q": "Samsung Galaxy Watch9",
+  "must": "galaxy-watch9"
+ },
+ {
+  "id": "samsung-galaxy-watch-ultra2",
+  "brand": "samsung",
+  "name": "Samsung Galaxy Watch Ultra 2",
+  "category": "smartwatch",
+  "series": "Galaxy Watch",
+  "form": "watch",
+  "spec": [
+   "https://www.samsung.com/my/watches/galaxy-watch/galaxy-watch-ultra2-titanium-gray-lte-sm-l715fzkaxme/",
+   "https://www.samsung.com/my/watches/galaxy-watch-ultra2/specs/",
+   "https://www.samsung.com/my/watches/galaxy-watch-ultra2/"
+  ],
+  "q": "Samsung Galaxy Watch Ultra 2",
+  "must": "galaxy-watch-ultra2"
+ }
+]

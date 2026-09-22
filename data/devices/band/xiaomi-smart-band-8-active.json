@@ -1,0 +1,62 @@
+{
+  "id": "xiaomi-smart-band-8-active",
+  "name": "Xiaomi Smart Band 8 Active",
+  "brand": "xiaomi",
+  "category": "band",
+  "series": "Band",
+  "form": "band",
+  "status": "released",
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-18",
+      "source": "xiaomi",
+      "url": "https://www.mi.com/my/product/xiaomi-smart-band-8-active/specs/",
+      "note": "Sold in Malaysia, but no launch price was found in Malaysian launch coverage."
+    }
+  },
+  "image": {
+    "kind": "official",
+    "src": "https://i02.appmifile.com/145_item_my/02/04/2024/aa36d45c05b83fe0a4199b364bd72922.png",
+    "page": "https://www.mi.com/my/product/xiaomi-smart-band-8-active/specs/",
+    "credit": "Xiaomi Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 1.47,
+      "type": "TFT",
+      "resolution": "320 × 172",
+      "peak_nits": 450
+    },
+    "battery": {
+      "life_h": 336,
+      "capacity_mah": 210
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 42.81,
+        "width_mm": 25.42,
+        "depth_mm": 9.99
+      },
+      "weight_g": 14.9,
+      "water": "5 ATM",
+      "water_m": 50
+    },
+    "sensors": "PPG sensor, Accelerometer, Motor: ERM",
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.1"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "xiaomi",
+      "url": "https://www.mi.com/my/product/xiaomi-smart-band-8-active/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from Xiaomi Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {}
+  },
+  "dataStatus": "compiled"
+}

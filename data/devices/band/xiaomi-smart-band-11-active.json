@@ -1,0 +1,77 @@
+{
+  "id": "xiaomi-smart-band-11-active",
+  "name": "Xiaomi Smart Band 11 Active",
+  "brand": "xiaomi",
+  "category": "band",
+  "series": "Band",
+  "form": "band",
+  "status": "released",
+  "announced": "2026-09-03",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 199,
+      "date": "2026-09-03",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2026/403058/xiaomi-smart-band-11-active-redmi-watch-6-active-watch-6-lite/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://i02.appmifile.com/797_operatorx_operatorx_xm/13/08/2026/38137598e29647f215675b8d5e9417ea.png",
+    "page": "https://www.mi.com/my/product/xiaomi-smart-band-11-active/specs/",
+    "credit": "Xiaomi Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 1.47,
+      "type": "TFT",
+      "resolution": "320 × 172"
+    },
+    "battery": {
+      "life_h": 504,
+      "capacity_mah": 300
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 43.5,
+        "width_mm": 25.8,
+        "depth_mm": 10.2
+      },
+      "weight_g": 18.0,
+      "water": "5 ATM",
+      "water_m": 50
+    },
+    "misc": {
+      "colors": "Black,Gray,Pomelo Pink"
+    },
+    "sensors": "PPG sensor, Accelerometer, Motor: ERM",
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.3"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "xiaomi",
+      "url": "https://www.mi.com/my/product/xiaomi-smart-band-11-active/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from Xiaomi Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "lowyat",
+        "url": "https://www.lowyat.net/2026/403058/xiaomi-smart-band-11-active-redmi-watch-6-active-watch-6-lite/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (Lowyat.NET). The global announcement can be earlier."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

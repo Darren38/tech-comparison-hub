@@ -1,0 +1,16 @@
+{
+  "id": "exynos-1480",
+  "name": "Exynos 1480",
+  "vendor": "samsung",
+  "family": "Exynos",
+  "summary": "Name recorded from phone makers' specification pages and launch reports. Chip details have not been compiled yet.",
+  "provenance": {
+    "default": {
+      "class": "news",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2024/318881/local-retailer-samsung-a55-a35-pricing/",
+      "checked": "2026-09-18",
+      "note": "Chip name as given for the Galaxy A55 5G."
+    }
+  }
+}

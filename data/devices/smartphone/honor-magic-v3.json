@@ -1,0 +1,140 @@
+{
+  "id": "honor-magic-v3",
+  "name": "HONOR Magic V3",
+  "brand": "honor",
+  "category": "smartphone",
+  "series": "Magic V",
+  "form": "foldable",
+  "status": "released",
+  "announced": "2024-09-05",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 6999,
+      "date": "2024-09-05",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2024/09/05/honor-magic-v3-now-in-malaysia-to-battle-the-galaxy-z-fold-6-heres-all-you-need-to-know/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://www.honor.com/content/dam/honor/my/product-list/smartphone/honor-magic-v3/honor-magic-v3-list-red.png",
+    "page": "https://www.honor.com/my/phones/honor-magic-v3/spec/",
+    "credit": "HONOR Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 7.92,
+      "type": "OLED",
+      "resolution": "2344 × 2156",
+      "peak_nits": 5000,
+      "protection": "NanoCrystal Shield",
+      "ppi": 402
+    },
+    "platform": {
+      "chipset": "snapdragon-8-gen-3",
+      "gpu": "Adreno 750",
+      "cpu": "Octa-core; 1×Cortex-X4 3.3GHz+3×Cortex-A720 3.2GHz+2×Cortex-A720 3.0GHz+2×Cortex-A520 2.3GHz"
+    },
+    "battery": {
+      "capacity_mah": 5150,
+      "chemistry": "Lithium polymer"
+    },
+    "charging": {
+      "wired_w": 66,
+      "wireless_w": 50,
+      "claim": "66W HONOR SuperCharge; The phone supports up to 11V/6A SuperCharge, compatible with 10V/4A and 5V/2A."
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "ultrawide",
+          "mp": 40
+        },
+        {
+          "role": "main",
+          "mp": 50,
+          "aperture": "f/1.6",
+          "ois": true
+        },
+        {
+          "role": "telephoto",
+          "mp": 50
+        }
+      ],
+      "front": "20 MP",
+      "rear_detail": [
+        "40MP Ultra Wide Camera (f/2.2)",
+        "50MP Wide Camera (f/1.6, OIS)",
+        "50MP Telephoto Lens Camera (f/3.0, OIS)"
+      ],
+      "features": "100x Digital zoom",
+      "video": "4K",
+      "front_detail": [
+        "20MP Wide Camera (f/2.2) (Interior screen)",
+        "20MP Wide Camera (f/2.2) (Exterior screen)"
+      ]
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true,
+      "technology": "GSM / HSPA / LTE / 5G",
+      "sim": "Nano SIM card",
+      "wifi": "802.11 a/b/g/n/ac/ax/be; WLAN Frequency: 2.4GHz and 5GHz; Support WLAN Hotspot and WLAN Direct",
+      "bluetooth": "Bluetooth 5.3, Support Bluetooth Low Energy, SBC, AAC, LDAC , AptX, AptX HD.",
+      "usb": "USB Type-C, USB 3.1 GEN1",
+      "positioning": "Support GPS(L1+L5) /AGPS/GLONASS/BeiDou(B1I+B1C+B2a)/Galileo(E1 + E5a) /QZSS (L1 + L5); Support Cellular Network Positioning/Wi-Fi Network Positioning"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 156.6,
+        "width_mm": 74.0,
+        "depth_mm": 9.2
+      },
+      "weight_g": 226.0,
+      "ip": "IPX8"
+    },
+    "software": {
+      "launch_os": "MagicOS 8.0.1 (Based on Android 14)"
+    },
+    "biometrics": {
+      "face": "Supported 2D face unlock"
+    },
+    "audio": {
+      "jack": false
+    },
+    "sensors": "Gravity Sensor, Infrared Sensor, Hall sensor, Fingerprint Sensor, Gyroscope, Compass, Barometer sensor, Color temperature sensor, Ambient Light Sensor, Proximity Sensor",
+    "misc": {
+      "colors": "Black Version"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "honor",
+      "url": "https://www.honor.com/my/phones/honor-magic-v3/spec/",
+      "checked": "2026-09-18",
+      "note": "Read from HONOR Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2024/09/05/honor-magic-v3-now-in-malaysia-to-battle-the-galaxy-z-fold-6-heres-all-you-need-to-know/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

@@ -1,0 +1,73 @@
+{
+  "id": "apple-watch-ultra-4",
+  "name": "Apple Watch Ultra 4",
+  "brand": "apple",
+  "category": "smartwatch",
+  "series": "Apple Watch",
+  "form": "watch",
+  "status": "released",
+  "announced": "2026-09-10",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 3699,
+      "config": "49 mm, GPS + Cellular",
+      "date": "2026-09-10",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2026/09/10/apple-watch-ultra-4-specs-price/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/apple-watch-ultra-4.png",
+    "page": "https://support.apple.com/en-my/148758",
+    "credit": "Apple",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "type": "OLED",
+      "resolution": "514 × 422",
+      "peak_nits": 3000
+    },
+    "battery": {
+      "life_h": 84
+    },
+    "connectivity": {
+      "gps": "Built-in GNSS",
+      "cellular": "LTE option"
+    },
+    "build": {
+      "weight_g": 63.0,
+      "water": "100 m",
+      "water_m": 100
+    },
+    "software": {
+      "launch_os": "watchOS"
+    },
+    "sensors": "Health Sensing System: third-generation electrical heart sensor, always-on optical heart sensor, blood oxygen sensor, 3 temperature sensor, Depth gauge, Water temperature sensor, Compass, Always-on altimeter, High-g accelerometer, High dynamic range gyroscope, Ambient light sensor, Health and Wellness, Readiness app, Vitals app with heart rate, respiratory rate, wrist temperature, blood oxygen, sleep duration and heart rate variability (HRV), Blood Oxygen app"
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "apple",
+      "url": "https://support.apple.com/en-my/148758",
+      "checked": "2026-09-18",
+      "note": "Read from Apple Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2026/09/10/apple-watch-ultra-4-specs-price/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

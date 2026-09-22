@@ -1,0 +1,116 @@
+{
+  "id": "apple-watch-series-11",
+  "name": "Apple Watch Series 11",
+  "brand": "apple",
+  "category": "smartwatch",
+  "series": "Apple Watch",
+  "form": "watch",
+  "status": "released",
+  "announced": "2025-09-09",
+  "released": "2025-09-19",
+  "segment": "flagship",
+  "aliases": [
+    "Watch Series 11",
+    "AW11"
+  ],
+  "summary": "Apple's mainstream watch with 24-hour battery life, hypertension notifications and a sleep score.",
+  "highlights": [
+    "24 h battery (38 h low power)",
+    "Hypertension notifications",
+    "Optional 5G"
+  ],
+  "prices": [
+    {
+      "region": "US",
+      "currency": "USD",
+      "amount": 399,
+      "config": "42 mm, GPS",
+      "date": "2025-09-09",
+      "type": "launch",
+      "source": "apple"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1799,
+      "config": "42 mm aluminium, GPS",
+      "date": "2025-09-10",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/09/10/apple-watch-se-3-series-11-ultra-3-malaysia-price-availability-specs/",
+      "class": "news",
+      "accessed": "2026-09-16"
+    }
+  ],
+  "image": {
+    "kind": "photo",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Two_Apple_Watch_Series_11_%28cropped%29.png/500px-Two_Apple_Watch_Series_11_%28cropped%29.png",
+    "page": "https://commons.wikimedia.org/wiki/File:Two_Apple_Watch_Series_11_(cropped).png",
+    "title": "Two Apple Watch Series 11 (cropped)",
+    "author": "极客湾Geekerwan",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "focus": "72% 50%",
+    "checked": "2026-09-17"
+  },
+  "specs": {
+    "display": {
+      "size_mm": "42 / 46 mm",
+      "type": "LTPO3 OLED, always-on",
+      "peak_nits": 2000
+    },
+    "platform": {
+      "chipset": "apple-s10"
+    },
+    "memory": {
+      "storage_gb": [
+        64
+      ]
+    },
+    "battery": {
+      "life_h": 24,
+      "life_low_power_h": 38
+    },
+    "health": {
+      "sensors": [
+        "Optical heart rate",
+        "Electrical heart (ECG)",
+        "Blood oxygen",
+        "Skin temperature"
+      ],
+      "features": [
+        "Hypertension notifications",
+        "Sleep score"
+      ]
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 46,
+        "width_mm": 39,
+        "depth_mm": 9.7
+      },
+      "case": "Aluminum or titanium",
+      "water": "WR50",
+      "water_m": 50,
+      "ip": "IP6X"
+    },
+    "connectivity": {
+      "cellular": "5G (cellular models)",
+      "nfc": true,
+      "compatibility": "iPhone only"
+    },
+    "software": {
+      "launch_os": "watchOS 26"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "apple",
+      "url": "https://www.apple.com",
+      "note": "Compiled from Apple's specifications; not re-checked this session. Dimensions are for the 46 mm case."
+    },
+    "fields": {}
+  },
+  "dataStatus": "compiled"
+}

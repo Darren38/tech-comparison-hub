@@ -1,0 +1,136 @@
+{
+  "id": "vivo-x200",
+  "name": "vivo X200",
+  "brand": "vivo",
+  "category": "smartphone",
+  "series": "X",
+  "form": "bar",
+  "status": "released",
+  "announced": "2024-11-19",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 3599,
+      "config": "16 GB / 512 GB",
+      "date": "2024-11-19",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2024/11/19/vivo-x200-series-launch-malaysia-price/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 6.67,
+      "type": "AMOLED",
+      "resolution": "2800 × 1260",
+      "refresh_hz": 120,
+      "ppi": 460
+    },
+    "platform": {
+      "chipset": "dimensity-9400",
+      "process": "3 nm",
+      "cpu": "Octa-core; 1 × 3.626 GHz + 3 × 3.3 GHz + 4 × 2.4 GHz"
+    },
+    "battery": {
+      "capacity_mah": 5800,
+      "chemistry": "Li-ion battery"
+    },
+    "charging": {
+      "wired_w": 90,
+      "claim": "90W"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "aperture": "f/1.57"
+        }
+      ],
+      "rear_text": "Rear: 50 MP + 50 MP + 50 MP",
+      "front": "32 MP",
+      "rear_detail": [
+        "50 MP, f/1.57",
+        "50 MP, f/2.0",
+        "50 MP, f/2.57"
+      ],
+      "front_detail": [
+        "32 MP, f/2.0"
+      ]
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true,
+      "bands_2g": "850/900/1800/1900 MHz",
+      "bands_3g": "B1/B2/B4/B5/B8",
+      "bands_4g": "4G FDD-LTE: B1/B2/B3/B4/B5/B7/B8/B12/B17/B18/B19/B20/B26/B28/B32",
+      "bands_5g": "5G: n1/n3/n5/n7/n8/n20/n26/n28/n38/n40/n41/n75/n77/n78",
+      "technology": "GSM / HSPA / LTE / 5G",
+      "sim": "2 nano SIMs + ESIM",
+      "bluetooth": "Bluetooth 5.4",
+      "usb": "USB 2.0",
+      "radio": "No",
+      "positioning": "GPS, BeiDou, GLONASS, Galileo, QZSS, NavIC, A-GPS, cellular network positioning, Wi-Fi positioning",
+      "wifi": "Wi-Fi; Wi-Fi Display; 2×2 MIMO; MU-MIMO; Wi-Fi 6; Wi-Fi 7; 2.4G & 5G dual-channel concurrent; 2.4G & 6G dual-channel concurrent"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 160.27,
+        "width_mm": 74.81,
+        "depth_mm": 7.99
+      },
+      "weight_g": 197.0,
+      "ip": "IP69",
+      "back": "Glass fiber (Black), Glass (Green)"
+    },
+    "software": {
+      "launch_os": "Android 15"
+    },
+    "misc": {
+      "colors": "Green, Black"
+    },
+    "memory": {
+      "ram_type": "LPDDR5X",
+      "storage_type": "UFS 4.0",
+      "card": "No"
+    },
+    "biometrics": {
+      "fingerprint": "In-display optical fingerprint sensor"
+    },
+    "sensors": "Accelerometer, Color Temperature Sensor, Front color temperature sensor, Rear color temperature sensor, Ambient Light Sensor, Proximity Sensor, E-compass, Gyroscope, Gyroscope supported, Motor, Linear motor"
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "vivo",
+      "url": "https://www.vivo.com/my/products/param/x200",
+      "checked": "2026-09-18",
+      "note": "Read from vivo Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2024/11/19/vivo-x200-series-launch-malaysia-price/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1731663753870/82d60af9a082916d8876b9c70c2f39eb.png",
+    "page": "https://www.vivo.com/my/products/param/x200",
+    "credit": "vivo Malaysia",
+    "checked": "2026-09-19"
+  }
+}

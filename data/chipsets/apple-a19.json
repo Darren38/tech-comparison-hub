@@ -1,0 +1,49 @@
+{
+  "id": "apple-a19",
+  "name": "Apple A19",
+  "vendor": "apple",
+  "family": "A-series",
+  "tier": "flagship",
+  "announced": "2025-09-09",
+  "aliases": [
+    "A19"
+  ],
+  "summary": "The standard iPhone 17's chip: same CPU layout as the A19 Pro with a 5-core GPU.",
+  "process": {
+    "node": "3 nm",
+    "foundry": "TSMC",
+    "name": "N3P"
+  },
+  "cpu": {
+    "cores": 6,
+    "clusters": [
+      {
+        "count": 2,
+        "core": "Performance"
+      },
+      {
+        "count": 4,
+        "core": "Efficiency"
+      }
+    ]
+  },
+  "gpu": {
+    "name": "Apple GPU, 5-core with Neural Accelerators"
+  },
+  "npu": "16-core Neural Engine",
+  "variants": [],
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "apple",
+      "url": "https://support.apple.com/en-us/125089"
+    },
+    "fields": {
+      "process.name": {
+        "class": "database",
+        "source": "notebookcheck",
+        "note": "Node reported by the press."
+      }
+    }
+  }
+}

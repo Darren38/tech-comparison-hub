@@ -1,0 +1,514 @@
+{
+ "oppo-reno8-t-5g": {
+  "url": "https://www.oppo.com/my/smartphones/series-reno/reno8-t-5g/specs/",
+  "final": "https://www.oppo.com/my/smartphones/series-reno/reno8-t-5g/specs/",
+  "status": 200,
+  "title": "OPPO Reno8 T 5G - Specifications | OPPO Malaysia",
+  "ok": true,
+  "bytes": 208701
+ },
+ "oppo-reno8-t": {
+  "url": "https://www.oppo.com/my/smartphones/series-reno/reno8-t/specs/",
+  "final": "https://www.oppo.com/my/smartphones/series-reno/reno8-t/specs/",
+  "status": 200,
+  "title": "OPPO Reno8 T - Specifications | OPPO Malaysia",
+  "ok": true,
+  "bytes": 208860
+ },
+ "oppo-find-n2-flip": {
+  "url": "https://www.oppo.com/my/smartphones/series-find-n/find-n2-flip/specs/",
+  "final": "https://www.oppo.com/my/smartphones/series-find-n/find-n2-flip/specs/",
+  "status": 200,
+  "title": "OPPO Find N2 Flip Specs | OPPO Malaysia",
+  "ok": true,
+  "bytes": 212878
+ },
+ "oppo-a78-5g": {
+  "url": "https://www.oppo.com/my/smartphones/series-a/a78-5g/specs/",
+  "final": "https://www.oppo.com/my/smartphones/series-a/a78-5g/specs/",
+  "status": 200,
+  "title": "OPPO A78 5G - Specifications | OPPO Malaysia",
+  "ok": true,
+  "bytes": 207939
+ },
+ "oppo-a78": {
+  "url": "https://www.oppo.com/my/smartphones/series-a/a78/specs/",
+  "final": "https://www.oppo.com/my/smartphones/series-a/a78/specs/",
+  "status": 200,
+  "title": "OPPO A78 - Specifications | OPPO Malaysia",
+  "ok": true,
+  "bytes": 210588
+ },
+ "oppo-a98-5g": {
+  "url": "https://www.oppo.com/my/smartphones/series-a/a98-5g/specs/",
+  "final": "https://www.oppo.com/my/smartphones/series-a/a98-5g/specs/",
+  "status": 200,
+  "title": "OPPO A98 5G - Specifications | OPPO Malaysia",
+  "ok": true,
+  "bytes": 208468
+ },
+ "oppo-a58": {
+  "url": "https://www.oppo.com/my/smartphones/series-a/a58/specs/",
+  "final": "https://www.oppo.com/my/smartphones/series-a/a58/specs/",
+  "status": 200,
+  "title": "OPPO A58 - Specifications | OPPO Malaysia",
+  "ok": true,
+  "bytes": 209318
+ },
+ "oppo-a38": {
+  "url": "https://www.oppo.com/my/smartphones/series-a/a38/specs/",
+  "final": "https://www.oppo.com/my/smartphones/series-a/a38/specs/",
+  "status": 200,
+  "title": "OPPO A38 - Specifications | OPPO Malaysia",
+  "ok": true,
+  "bytes": 209503
+ },
+ "oppo-a18": {
+  "url": "https://www.oppo.com/my/smartphones/series-a/a18/specs/",
+  "final": "https://www.oppo.com/my/smartphones/series-a/a18/specs/",
+  "status": 200,
+  "title": "OPPO A18 - Specifications | OPPO Malaysia",
+  "ok": true,
+  "bytes": 206986
+ },
+ "oppo-a79-5g": {
+  "url": "https://www.oppo.com/my/smartphones/series-a/a79-5g/specs/",
+  "final": "https://www.oppo.com/my/smartphones/series-a/a79-5g/specs/",
+  "status": 200,
+  "title": "OPPO A79 5G - Specifications | OPPO Malaysia",
+  "ok": true,
+  "bytes": 208560
+ },
+ "oppo-a60": {
+  "url": "https://www.oppo.com/my/smartphones/series-a/a60/specs/",
+  "final": "https://www.oppo.com/my/smartphones/series-a/a60/specs/",
+  "status": 200,
+  "title": "OPPO A60 - Specifications | OPPO Malaysia",
+  "ok": true,
+  "bytes": 210050
+ },
+ "oppo-reno10": {
+  "url": "https://www.oppo.com/my/smartphones/series-reno/reno10/specs/",
+  "final": "https://www.oppo.com/my/smartphones/series-reno/reno10/specs/",
+  "status": 200,
+  "title": "OPPO Reno10 - Specifications | OPPO Malaysia",
+  "ok": true,
+  "bytes": 216633
+ },
+ "oppo-reno10-pro": {
+  "url": "https://www.oppo.com/my/smartphones/series-reno/reno10-pro/specs/",
+  "final": "https://www.oppo.com/my/smartphones/series-reno/reno10-pro/specs/",
+  "status": 200,
+  "title": "OPPO Reno10 Pro - Specifications | OPPO Malaysia",
+  "ok": true,
+  "bytes": 216013
+ },
+ "oppo-reno10-pro-plus": {
+  "url": "https://www.oppo.com/my/smartphones/series-reno/reno10-pro-plus/specs/",
+  "final": "https://www.oppo.com/my/smartphones/series-reno/reno10-pro-plus/specs/",
+  "status": 200,
+  "title": "OPPO Reno10 Pro+ - Specifications | OPPO Malaysia",
+  "ok": true,
+  "bytes": 198214
+ },
+ "oppo-find-n3": {
+  "url": "https://www.oppo.com/my/smartphones/series-find-n/find-n3/specs/",
+  "final": "https://www.oppo.com/my/smartphones/series-find-n/find-n3/specs/",
+  "status": 200,
+  "title": "OPPO Find N3 Specs | OPPO Malaysia",
+  "ok": true,
+  "bytes": 218050
+ },
+ "oppo-find-n3-flip": {
+  "url": "https://www.oppo.com/my/smartphones/series-find-n/find-n3-flip/specs/",
+  "final": "https://www.oppo.com/my/smartphones/series-find-n/find-n3-flip/specs/",
+  "status": 200,
+  "title": "OPPO Find N3 Flip Specs | OPPO Malaysia",
+  "ok": true,
+  "bytes": 216916
+ },
+ "oppo-reno11": {
+  "url": "https://www.oppo.com/my/smartphones/series-reno/reno11/specs/",
+  "final": "https://www.oppo.com/my/smartphones/series-reno/reno11/specs/",
+  "status": 200,
+  "title": "OPPO Reno11 5G Spec | OPPO Malaysia",
+  "ok": true,
+  "bytes": 212251
+ },
+ "oppo-reno11-pro": {
+  "url": "https://www.oppo.com/my/smartphones/series-reno/reno11-pro/specs/",
+  "final": "https://www.oppo.com/my/smartphones/series-reno/reno11-pro/specs/",
+  "status": 200,
+  "title": "OPPO Reno11 Pro Spec | OPPO Malaysia",
+  "ok": true,
+  "bytes": 210226
+ },
+ "oppo-reno11-f-5g": {
+  "url": "https://www.oppo.com/my/smartphones/series-reno/reno11-f-5g/specs/",
+  "final": "https://www.oppo.com/my/smartphones/series-reno/reno11-f-5g/specs/",
+  "status": 404,
+  "title": "",
+  "ok": false,
+  "bytes": 0
+ },
+ "oppo-a3-pro-5g": {
+  "url": "https://www.oppo.com/my/smartphones/series-a/a3-pro-5g/specs/",
+  "final": "https://www.oppo.com/my/smartphones/series-a/a3-pro-5g/specs/",
+  "status": 200,
+  "title": "OPPO A3 Pro 5G - Specifications | OPPO Malaysia",
+  "ok": true,
+  "bytes": 207447
+ },
+ "oppo-a3": {
+  "url": "https://www.oppo.com/my/smartphones/series-a/a3/specs/",
+  "final": "https://www.oppo.com/my/smartphones/series-a/a3/specs/",
+  "status": 200,
+  "title": "OPPO A3 - Specifications | OPPO Malaysia",
+  "ok": true,
+  "bytes": 209818
+ },
+ "oppo-a3x": {
+  "url": "https://www.oppo.com/my/smartphones/series-a/a3x/specs/",
+  "final": "https://www.oppo.com/my/smartphones/series-a/a3x/specs/",
+  "status": 200,
+  "title": "OPPO A3x - Specifications | OPPO Malaysia",
+  "ok": true,
+  "bytes": 209807
+ },
+ "oppo-a3-5g": {
+  "url": "https://www.oppo.com/my/smartphones/series-a/a3-5g/specs/",
+  "final": "https://www.oppo.com/my/smartphones/series-a/a3-5g/specs/",
+  "status": 200,
+  "title": "OPPO A3 5G Specs: Camera, Display | OPPO Malaysia",
+  "ok": true,
+  "bytes": 207052
+ },
+ "oppo-reno12": {
+  "url": "https://www.oppo.com/my/smartphones/series-reno/reno12/specs/",
+  "final": "https://www.oppo.com/my/smartphones/series-reno/reno12/specs/",
+  "status": 200,
+  "title": "OPPO Reno12 - OPPO AI Smartphone Specs | OPPO Malaysia",
+  "ok": true,
+  "bytes": 215381
+ },
+ "oppo-reno12-pro": {
+  "url": "https://www.oppo.com/my/smartphones/series-reno/reno12-pro/specs/",
+  "final": "https://www.oppo.com/my/smartphones/series-reno/reno12-pro/specs/",
+  "status": 200,
+  "title": "OPPO Reno12 Pro - OPPO AI Phone Specs | OPPO Malaysia",
+  "ok": true,
+  "bytes": 213456
+ },
+ "oppo-reno12-f-5g": {
+  "url": "https://www.oppo.com/my/smartphones/series-reno/reno12-f-5g/specs/",
+  "final": "https://www.oppo.com/my/smartphones/series-reno/reno12-f-5g/specs/",
+  "status": 200,
+  "title": "OPPO Reno 12 F 5G - Reno AI Smartphone Overview, Specs and More | OPPO Malaysia",
+  "ok": true,
+  "bytes": 213153
+ },
+ "oppo-find-x8": {
+  "url": "https://www.oppo.com/my/smartphones/series-find-x/find-x8/specs/",
+  "final": "https://www.oppo.com/my/smartphones/series-find-x/find-x8/specs/",
+  "status": 200,
+  "title": "OPPO Find X8 Specs | OPPO Malaysia",
+  "ok": true,
+  "bytes": 212001
+ },
+ "oppo-find-x8-pro": {
+  "url": "https://www.oppo.com/my/smartphones/series-find-x/find-x8-pro/specs/",
+  "final": "https://www.oppo.com/my/smartphones/series-find-x/find-x8-pro/specs/",
+  "status": 200,
+  "title": "OPPO Find X8 Pro Specs | OPPO Malaysia",
+  "ok": true,
+  "bytes": 214238
+ },
+ "oppo-reno13": {
+  "url": "https://www.oppo.com/my/smartphones/series-reno/reno13/specs/",
+  "final": "https://www.oppo.com/my/smartphones/series-reno/reno13/specs/",
+  "status": 200,
+  "title": "OPPO Reno13 Specs | OPPO Malaysia",
+  "ok": true,
+  "bytes": 219689
+ },
+ "oppo-reno13-pro": {
+  "url": "https://www.oppo.com/my/smartphones/series-reno/reno13-pro/specs/",
+  "final": "https://www.oppo.com/my/smartphones/series-reno/reno13-pro/specs/",
+  "status": 200,
+  "title": "OPPO Reno13 Pro Specs | OPPO Malaysia",
+  "ok": true,
+  "bytes": 217794
+ },
+ "oppo-reno13-f-5g": {
+  "url": "https://www.oppo.com/my/smartphones/series-reno/reno13-f-5g/specs/",
+  "final": "https://www.oppo.com/my/smartphones/series-reno/reno13-f-5g/specs/",
+  "status": 200,
+  "title": "OPPO Reno13 F 5G Specs | OPPO Malaysia",
+  "ok": true,
+  "bytes": 220786
+ },
+ "oppo-find-n5": {
+  "url": "https://www.oppo.com/my/smartphones/series-find-n/find-n5/specs/",
+  "final": "https://www.oppo.com/my/smartphones/series-find-n/find-n5/specs/",
+  "status": 200,
+  "title": "OPPO Find N5 Specs | OPPO Malaysia",
+  "ok": true,
+  "bytes": 213955
+ },
+ "oppo-a5-pro": {
+  "url": "https://www.oppo.com/my/smartphones/series-a/a5-pro/specs/",
+  "final": "https://www.oppo.com/my/smartphones/series-a/a5-pro/specs/",
+  "status": 200,
+  "title": "OPPO A5 Pro Specifications | OPPO Malaysia",
+  "ok": true,
+  "bytes": 213994
+ },
+ "oppo-a5-pro-5g": {
+  "url": "https://www.oppo.com/my/smartphones/series-a/a5-pro-5g/specs/",
+  "final": "https://www.oppo.com/my/smartphones/series-a/a5-pro-5g/specs/",
+  "status": 200,
+  "title": "OPPO A5 Pro 5G Specifications | OPPO Malaysia",
+  "ok": true,
+  "bytes": 213858
+ },
+ "oppo-a5": {
+  "url": "https://www.oppo.com/my/smartphones/series-a/a5/specs/",
+  "final": "https://www.oppo.com/my/smartphones/series-a/a5/specs/",
+  "status": 200,
+  "title": "OPPO A5 Specifications | OPPO Malaysia",
+  "ok": true,
+  "bytes": 215629
+ },
+ "oppo-a5-5g": {
+  "url": "https://www.oppo.com/my/smartphones/series-a/a5-5g/specs/",
+  "final": "https://www.oppo.com/my/smartphones/series-a/a5-5g/specs/",
+  "status": 200,
+  "title": "OPPO A5 5G Specifications | OPPO Malaysia",
+  "ok": true,
+  "bytes": 213612
+ },
+ "oppo-a5i": {
+  "url": "https://www.oppo.com/my/smartphones/series-a/a5i/specs/",
+  "final": "https://www.oppo.com/my/smartphones/series-a/a5i/specs/",
+  "status": 200,
+  "title": "OPPO A5i Specifications | OPPO Malaysia",
+  "ok": true,
+  "bytes": 211578
+ },
+ "oppo-a5i-pro-5g": {
+  "url": "https://www.oppo.com/my/smartphones/series-a/a5i-pro-5g/specs/",
+  "final": "https://www.oppo.com/my/smartphones/series-a/a5i-pro-5g/specs/",
+  "status": 200,
+  "title": "OPPO A5i Pro 5G Specifications | OPPO Malaysia",
+  "ok": true,
+  "bytes": 204326
+ },
+ "oppo-reno14": {
+  "url": "https://www.oppo.com/my/smartphones/series-reno/reno14/specs/",
+  "final": "https://www.oppo.com/my/smartphones/series-reno/reno14/specs/",
+  "status": 200,
+  "title": "OPPO Reno14 Specs | OPPO Malaysia",
+  "ok": true,
+  "bytes": 222430
+ },
+ "oppo-reno14-pro": {
+  "url": "https://www.oppo.com/my/smartphones/series-reno/reno14-pro/specs/",
+  "final": "https://www.oppo.com/my/smartphones/series-reno/reno14-pro/specs/",
+  "status": 200,
+  "title": "OPPO Reno14 Pro Specs | OPPO Malaysia",
+  "ok": true,
+  "bytes": 218156
+ },
+ "oppo-reno14-f-5g": {
+  "url": "https://www.oppo.com/my/smartphones/series-reno/reno14-f-5g/specs/",
+  "final": "https://www.oppo.com/my/smartphones/series-reno/reno14-f-5g/specs/",
+  "status": 200,
+  "title": "OPPO Reno14 F 5G Specs | OPPO Malaysia",
+  "ok": true,
+  "bytes": 222764
+ },
+ "oppo-find-x9": {
+  "url": "https://www.oppo.com/my/smartphones/series-find-x/find-x9/specs/",
+  "final": "https://www.oppo.com/my/smartphones/series-find-x/find-x9/specs/",
+  "status": 200,
+  "title": "OPPO Find X9 - Specifications | OPPO Malaysia",
+  "ok": true,
+  "bytes": 218559
+ },
+ "oppo-a6-pro-5g": {
+  "url": "https://www.oppo.com/my/smartphones/series-a/a6-pro-5g/specs/",
+  "final": "https://www.oppo.com/my/smartphones/series-a/a6-pro-5g/specs/",
+  "status": 200,
+  "title": "OPPO A6 Pro 5G - Specifications | OPPO Malaysia",
+  "ok": true,
+  "bytes": 211536
+ },
+ "oppo-a6x": {
+  "url": "https://www.oppo.com/my/smartphones/series-a/a6x/specs/",
+  "final": "https://www.oppo.com/my/smartphones/series-a/a6x/specs/",
+  "status": 200,
+  "title": "OPPO A6x - Specifications | OPPO Malaysia",
+  "ok": true,
+  "bytes": 218359
+ },
+ "oppo-a6x-5g": {
+  "url": "https://www.oppo.com/my/smartphones/series-a/a6x-5g/specs/",
+  "final": "https://www.oppo.com/my/smartphones/series-a/a6x-5g/specs/",
+  "status": 200,
+  "title": "OPPO A6x 5G - Specifications | OPPO Malaysia",
+  "ok": true,
+  "bytes": 216432
+ },
+ "oppo-a6t-5g": {
+  "url": "https://www.oppo.com/my/smartphones/series-a/a6t-5g/specs/",
+  "final": "https://www.oppo.com/my/smartphones/series-a/a6t-5g/specs/",
+  "status": 200,
+  "title": "OPPO A6t 5G - Specifications | OPPO Malaysia",
+  "ok": true,
+  "bytes": 209223
+ },
+ "oppo-a6-5g": {
+  "url": "https://www.oppo.com/my/smartphones/series-a/a6-5g/specs/",
+  "final": "https://www.oppo.com/my/smartphones/series-a/a6-5g/specs/",
+  "status": 200,
+  "title": "OPPO A6 5G - Specifications | OPPO Malaysia",
+  "ok": true,
+  "bytes": 215770
+ },
+ "oppo-a6c": {
+  "url": "https://www.oppo.com/my/smartphones/series-a/a6c/specs/",
+  "final": "https://www.oppo.com/my/smartphones/series-a/a6c/specs/",
+  "status": 200,
+  "title": "OPPO A6c - Specifications | OPPO Malaysia",
+  "ok": true,
+  "bytes": 208830
+ },
+ "oppo-reno15": {
+  "url": "https://www.oppo.com/my/smartphones/series-reno/reno15/specs/",
+  "final": "https://www.oppo.com/my/smartphones/series-reno/reno15/specs/",
+  "status": 200,
+  "title": "OPPO Reno15 5G Specs | OPPO Malaysia",
+  "ok": true,
+  "bytes": 221298
+ },
+ "oppo-reno15-pro": {
+  "url": "https://www.oppo.com/my/smartphones/series-reno/reno15-pro/specs/",
+  "final": "https://www.oppo.com/my/smartphones/series-reno/reno15-pro/specs/",
+  "status": 200,
+  "title": "OPPO Reno15 Pro 5G Specs | OPPO Malaysia",
+  "ok": true,
+  "bytes": 219353
+ },
+ "oppo-reno15-f": {
+  "url": "https://www.oppo.com/my/smartphones/series-reno/reno15-f/specs/",
+  "final": "https://www.oppo.com/my/smartphones/series-reno/reno15-f/specs/",
+  "status": 200,
+  "title": "OPPO Reno15 F 5G Specs | OPPO Malaysia",
+  "ok": true,
+  "bytes": 221175
+ },
+ "oppo-find-n6": {
+  "url": "https://www.oppo.com/my/smartphones/series-find-n/find-n6/specs/",
+  "final": "https://www.oppo.com/my/smartphones/series-find-n/find-n6/specs/",
+  "status": 200,
+  "title": "OPPO Find N6 - Specifications | OPPO Malaysia",
+  "ok": true,
+  "bytes": 215827
+ },
+ "oppo-find-x9-ultra": {
+  "url": "https://www.oppo.com/my/smartphones/series-find-x/find-x9-ultra/specs/",
+  "final": "https://www.oppo.com/my/smartphones/series-find-x/find-x9-ultra/specs/",
+  "status": 200,
+  "title": "OPPO Find X9 Ultra - Specifications | OPPO Malaysia",
+  "ok": true,
+  "bytes": 219854
+ },
+ "oppo-find-x9s": {
+  "url": "https://www.oppo.com/my/smartphones/series-find-x/find-x9s/specs/",
+  "final": "https://www.oppo.com/my/smartphones/series-find-x/find-x9s/specs/",
+  "status": 200,
+  "title": "OPPO Find X9s - Specifications | OPPO Malaysia",
+  "ok": true,
+  "bytes": 214382
+ },
+ "oppo-reno16": {
+  "url": "https://www.oppo.com/my/smartphones/series-reno/reno16/specs/",
+  "final": "https://www.oppo.com/my/smartphones/series-reno/reno16/specs/",
+  "status": 200,
+  "title": "OPPO Reno16 5G Specs | OPPO Malaysia",
+  "ok": true,
+  "bytes": 224460
+ },
+ "oppo-reno16-pro": {
+  "url": "https://www.oppo.com/my/smartphones/series-reno/reno16-pro/specs/",
+  "final": "https://www.oppo.com/my/smartphones/series-reno/reno16-pro/specs/",
+  "status": 200,
+  "title": "OPPO Reno16 Pro 5G Specs | OPPO Malaysia",
+  "ok": true,
+  "bytes": 222779
+ },
+ "oppo-reno16-f": {
+  "url": "https://www.oppo.com/my/smartphones/series-reno/reno16-f/specs/",
+  "final": "https://www.oppo.com/my/smartphones/series-reno/reno16-f/specs/",
+  "status": 200,
+  "title": "OPPO Reno16 F 5G Specs | OPPO Malaysia",
+  "ok": true,
+  "bytes": 224132
+ },
+ "oppo-a7-pro-max": {
+  "url": "https://www.oppo.com/my/smartphones/series-a/a7-pro-max/specs/",
+  "final": "https://www.oppo.com/my/smartphones/series-a/a7-pro-max/specs/",
+  "status": 404,
+  "title": "",
+  "ok": false,
+  "bytes": 0
+ },
+ "oppo-watch-x": {
+  "url": "https://www.oppo.com/my/accessories/watch-x/specs/",
+  "final": "https://www.oppo.com/my/accessories/watch-x/specs/",
+  "status": 200,
+  "title": "OPPO Watch X - Specifications | OPPO Malaysia",
+  "ok": true,
+  "bytes": 203306
+ },
+ "oppo-watch-x2": {
+  "url": "https://www.oppo.com/my/accessories/watch-x2/specs/",
+  "final": "https://www.oppo.com/my/accessories/watch-x2/specs/",
+  "status": 200,
+  "title": "OPPO Watch X2 Specifications | OPPO Malaysia",
+  "ok": true,
+  "bytes": 207445
+ },
+ "oppo-watch-x2-mini": {
+  "url": "https://www.oppo.com/my/accessories/watch-x2-mini/specs/",
+  "final": "https://www.oppo.com/my/accessories/watch-x2-mini/specs/",
+  "status": 200,
+  "title": "OPPO Watch X2 Mini Specifications | OPPO Malaysia",
+  "ok": true,
+  "bytes": 210306
+ },
+ "oppo-watch-s": {
+  "url": "https://www.oppo.com/my/accessories/watch-s/specs/",
+  "final": "https://www.oppo.com/my/accessories/watch-s/specs/",
+  "status": 200,
+  "title": "OPPO Watch S - Specifications | OPPO Malaysia",
+  "ok": true,
+  "bytes": 207225
+ },
+ "oppo-watch-x3": {
+  "url": "https://www.oppo.com/my/accessories/watch-x3/specs/",
+  "final": "https://www.oppo.com/my/accessories/watch-x3/specs/",
+  "status": 200,
+  "title": "OPPO Watch X3 - Specifications | OPPO Malaysia",
+  "ok": true,
+  "bytes": 210561
+ },
+ "oppo-band-2": {
+  "url": "https://www.oppo.com/my/accessories/band2/specs/",
+  "final": "https://www.oppo.com/my/accessories/band2/specs/",
+  "status": 404,
+  "title": "",
+  "ok": false,
+  "bytes": 0
+ }
+}

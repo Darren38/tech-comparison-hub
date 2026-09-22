@@ -1,0 +1,16 @@
+{
+  "id": "dimensity-8300-ultra",
+  "name": "Dimensity 8300-Ultra",
+  "vendor": "mediatek",
+  "family": "Dimensity 8000",
+  "summary": "Name recorded from phone makers' specification pages and launch reports. Chip details have not been compiled yet.",
+  "provenance": {
+    "default": {
+      "class": "news",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2024/01/11/poco-x6-pro-x6-malaysia-xiaomi-hyperos-official-price-specs/",
+      "checked": "2026-09-18",
+      "note": "Chip name as given for the POCO X6 Pro 5G."
+    }
+  }
+}

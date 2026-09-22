@@ -1,0 +1,27 @@
+{
+  "maxAgeDays": 45,
+  "perFeed": 20,
+  "maxItems": 240,
+  "note": "Feeds the Latest headlines panels on the News and Reviews pages. Only title, link, source and date are stored; items are matched to devices automatically and are not part of the evidence database until reviewed and added as documents.",
+  "feeds": [
+    { "source": "gsmarena", "kind": "news", "url": "https://www.gsmarena.com/rss-news-reviews.php3" },
+    { "source": "notebookcheck", "kind": "news", "url": "https://www.notebookcheck.net/News.152.100.html?tag=RSS" },
+    { "source": "lowyat", "kind": "news", "url": "https://www.lowyat.net/feed/" },
+    { "source": "soyacincau", "kind": "news", "url": "https://soyacincau.com/feed/" },
+    { "source": "malaymail", "kind": "news", "url": "https://www.malaymail.com/feed/rss/tech-gadgets" },
+    { "source": "sammobile", "kind": "news", "url": "https://www.sammobile.com/feed/" },
+    { "source": "sammyfans", "kind": "news", "url": "https://www.sammyfans.com/feed/" },
+    { "source": "9to5mac", "kind": "news", "url": "https://9to5mac.com/feed/" },
+    { "source": "macrumors", "kind": "news", "url": "https://feeds.macrumors.com/MacRumors-All" },
+    { "source": "android-police", "kind": "news", "url": "https://www.androidpolice.com/feed/" },
+    { "source": "engadget", "kind": "news", "url": "https://www.engadget.com/rss.xml" },
+    { "source": "gizmochina", "kind": "news", "url": "https://www.gizmochina.com/feed/" },
+    { "source": "fonearena", "kind": "news", "url": "https://www.fonearena.com/blog/feed" },
+    { "source": "beebom", "kind": "news", "url": "https://beebom.com/feed/" },
+    { "source": "mrwhosetheboss", "kind": "video", "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCMiJRAwDNSNzuYeN2uWa0pA" },
+    { "source": "mkbhd", "kind": "video", "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCG7J20LhUeLl6y_Emi7OJrA" },
+    { "source": "jerryrigeverything", "kind": "video", "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCWFKCr40YwOZQx8FHU_ZqqQ" },
+    { "source": "phonebuff", "kind": "video", "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC10jOU_-x6XGe3YQcvGkIVA" },
+    { "source": "matthew-moniz", "kind": "video", "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCKIHsw5_zcCDyHItVXm-mMA" }
+  ]
+}

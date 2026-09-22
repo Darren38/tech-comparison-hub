@@ -1,0 +1,16 @@
+{
+  "id": "snapdragon-6s-4g-gen-1",
+  "name": "Snapdragon 6s 4G Gen 1",
+  "vendor": "qualcomm",
+  "family": "Snapdragon 6 series",
+  "summary": "Name recorded from phone makers' specification pages and launch reports. Chip details have not been compiled yet.",
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "oppo",
+      "url": "https://www.oppo.com/my/smartphones/series-a/a3/specs/",
+      "checked": "2026-09-18",
+      "note": "Chip name as given for the OPPO A3."
+    }
+  }
+}

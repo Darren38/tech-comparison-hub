@@ -1,0 +1,506 @@
+{
+ "samsung-galaxy-s23": {
+  "url": "https://www.samsung.com/my/smartphones/galaxy-s23/",
+  "final": "https://www.samsung.com/my/smartphones/galaxy-s/",
+  "status": 200,
+  "title": "Explore Samsung Galaxy S Series - Prices &amp; Specs | Samsung Malaysia",
+  "ok": false,
+  "bytes": 377323
+ },
+ "samsung-galaxy-s23-plus": {
+  "url": "https://www.samsung.com/my/smartphones/galaxy-s23-plus/",
+  "final": "https://www.samsung.com/my/smartphones/galaxy-s23-plus/",
+  "status": 404,
+  "title": "",
+  "ok": false,
+  "bytes": 0
+ },
+ "samsung-galaxy-s23-ultra": {
+  "url": "https://www.samsung.com/my/smartphones/galaxy-s23-ultra/",
+  "final": "https://www.samsung.com/my/smartphones/galaxy-s/",
+  "status": 200,
+  "title": "Explore Samsung Galaxy S Series - Prices &amp; Specs | Samsung Malaysia",
+  "ok": false,
+  "bytes": 377323
+ },
+ "samsung-galaxy-a14": {
+  "url": "https://www.samsung.com/my/smartphones/galaxy-a14/",
+  "final": "https://www.samsung.com/my/smartphones/galaxy-a14/",
+  "status": 404,
+  "title": "",
+  "ok": false,
+  "bytes": 0
+ },
+ "samsung-galaxy-a14-5g": {
+  "url": "https://www.samsung.com/my/smartphones/galaxy-a14-5g/",
+  "final": "https://www.samsung.com/my/smartphones/galaxy-a14-5g/",
+  "status": 404,
+  "title": "",
+  "ok": false,
+  "bytes": 0
+ },
+ "samsung-galaxy-a34-5g": {
+  "url": "https://www.samsung.com/my/smartphones/galaxy-a34-5g/",
+  "final": "https://www.samsung.com/my/smartphones/galaxy-a34-5g/",
+  "status": 404,
+  "title": "",
+  "ok": false,
+  "bytes": 0
+ },
+ "samsung-galaxy-a54-5g": {
+  "url": "https://www.samsung.com/my/smartphones/galaxy-a54-5g/",
+  "final": "https://www.samsung.com/my/smartphones/galaxy-a54-5g/",
+  "status": 404,
+  "title": "",
+  "ok": false,
+  "bytes": 0
+ },
+ "samsung-galaxy-a24": {
+  "url": "https://www.samsung.com/my/smartphones/galaxy-a24/",
+  "final": "https://www.samsung.com/my/smartphones/galaxy-a24/",
+  "status": 404,
+  "title": "",
+  "ok": false,
+  "bytes": 0
+ },
+ "samsung-galaxy-m14-5g": {
+  "url": "https://www.samsung.com/my/smartphones/galaxy-m14-5g/",
+  "final": "https://www.samsung.com/my/smartphones/galaxy-m14-5g/",
+  "status": 404,
+  "title": "",
+  "ok": false,
+  "bytes": 0
+ },
+ "samsung-galaxy-z-flip5": {
+  "url": "https://www.samsung.com/my/smartphones/galaxy-z-flip5/",
+  "final": "https://www.samsung.com/my/smartphones/galaxy-z/",
+  "status": 200,
+  "title": "Explore Samsung Galaxy Z Series - Prices &amp; Specs | Samsung Malaysia",
+  "ok": false,
+  "bytes": 373142
+ },
+ "samsung-galaxy-z-fold5": {
+  "url": "https://www.samsung.com/my/smartphones/galaxy-z-fold5/",
+  "final": "https://www.samsung.com/my/smartphones/galaxy-z/",
+  "status": 200,
+  "title": "Explore Samsung Galaxy Z Series - Prices &amp; Specs | Samsung Malaysia",
+  "ok": false,
+  "bytes": 373142
+ },
+ "samsung-galaxy-s23-fe": {
+  "url": "https://www.samsung.com/my/smartphones/galaxy-s23-fe/",
+  "final": "https://www.samsung.com/my/smartphones/galaxy-s23-fe/",
+  "status": 404,
+  "title": "",
+  "ok": false,
+  "bytes": 0
+ },
+ "samsung-galaxy-m34-5g": {
+  "url": "https://www.samsung.com/my/smartphones/galaxy-m34-5g/",
+  "final": "https://www.samsung.com/my/smartphones/galaxy-m34-5g/",
+  "status": 404,
+  "title": "",
+  "ok": false,
+  "bytes": 0
+ },
+ "samsung-galaxy-a05": {
+  "url": "https://www.samsung.com/my/smartphones/galaxy-a05/",
+  "final": "https://www.samsung.com/my/smartphones/galaxy-a05/",
+  "status": 404,
+  "title": "",
+  "ok": false,
+  "bytes": 0
+ },
+ "samsung-galaxy-a05s": {
+  "url": "https://www.samsung.com/my/smartphones/galaxy-a05s/",
+  "final": "https://www.samsung.com/my/smartphones/galaxy-a05s/",
+  "status": 404,
+  "title": "",
+  "ok": false,
+  "bytes": 0
+ },
+ "samsung-galaxy-m54-5g": {
+  "url": "https://www.samsung.com/my/smartphones/galaxy-m54-5g/",
+  "final": "https://www.samsung.com/my/smartphones/galaxy-m54-5g/",
+  "status": 404,
+  "title": "",
+  "ok": false,
+  "bytes": 0
+ },
+ "samsung-galaxy-a15": {
+  "url": "https://www.samsung.com/my/smartphones/galaxy-a15/",
+  "final": "https://www.samsung.com/my/smartphones/galaxy-a15/",
+  "status": 404,
+  "title": "",
+  "ok": false,
+  "bytes": 0
+ },
+ "samsung-galaxy-a15-5g": {
+  "url": "https://www.samsung.com/my/smartphones/galaxy-a15-5g/",
+  "final": "https://www.samsung.com/my/smartphones/galaxy-a15-5g/",
+  "status": 404,
+  "title": "",
+  "ok": false,
+  "bytes": 0
+ },
+ "samsung-galaxy-a25-5g": {
+  "url": "https://www.samsung.com/my/smartphones/galaxy-a25-5g/",
+  "final": "https://www.samsung.com/my/smartphones/galaxy-a25-5g/",
+  "status": 404,
+  "title": "",
+  "ok": false,
+  "bytes": 0
+ },
+ "samsung-galaxy-s24": {
+  "url": "https://www.samsung.com/my/smartphones/galaxy-s24/specs/",
+  "final": "https://www.samsung.com/my/smartphones/galaxy-s24/specs/",
+  "status": 200,
+  "title": "Samsung Galaxy S24 &amp; S24+ Specs | Samsung Malaysia",
+  "ok": false,
+  "bytes": 350222
+ },
+ "samsung-galaxy-s24-plus": {
+  "url": "https://www.samsung.com/my/smartphones/galaxy-s24-plus/",
+  "final": "https://www.samsung.com/my/smartphones/galaxy-s24-plus/",
+  "status": 404,
+  "title": "",
+  "ok": false,
+  "bytes": 0
+ },
+ "samsung-galaxy-s24-ultra": {
+  "url": "https://www.samsung.com/my/smartphones/galaxy-s24-ultra/specs/",
+  "final": "https://www.samsung.com/my/smartphones/galaxy-s24-ultra/specs/",
+  "status": 200,
+  "title": "Samsung Galaxy S24 Ultra Specs | Samsung Malaysia",
+  "ok": false,
+  "bytes": 350553
+ },
+ "samsung-galaxy-a35-5g": {
+  "url": "https://www.samsung.com/my/smartphones/galaxy-a35-5g/",
+  "final": "https://www.samsung.com/my/smartphones/galaxy-a35-5g/",
+  "status": 404,
+  "title": "",
+  "ok": false,
+  "bytes": 0
+ },
+ "samsung-galaxy-a55-5g": {
+  "url": "https://www.samsung.com/my/smartphones/galaxy-a55-5g/",
+  "final": "https://www.samsung.com/my/smartphones/galaxy-a55-5g/",
+  "status": 404,
+  "title": "",
+  "ok": false,
+  "bytes": 0
+ },
+ "samsung-galaxy-z-fold6": {
+  "url": "https://www.samsung.com/my/smartphones/galaxy-z-fold6/specs/",
+  "final": "https://www.samsung.com/my/smartphones/galaxy-z-fold6/specs/",
+  "status": 200,
+  "title": "Samsung Galaxy Z Fold 6 Specs | Samsung Malaysia",
+  "ok": false,
+  "bytes": 332731
+ },
+ "samsung-galaxy-z-flip6": {
+  "url": "https://www.samsung.com/my/smartphones/galaxy-z-flip6/specs/",
+  "final": "https://www.samsung.com/my/smartphones/galaxy-z-flip6/specs/",
+  "status": 200,
+  "title": "Samsung Galaxy Z Flip6 Specs | Samsung Malaysia",
+  "ok": false,
+  "bytes": 333575
+ },
+ "samsung-galaxy-s24-fe": {
+  "url": "https://www.samsung.com/my/smartphones/galaxy-s24-fe/",
+  "final": "https://www.samsung.com/my/smartphones/galaxy-s24-fe/",
+  "status": 404,
+  "title": "",
+  "ok": false,
+  "bytes": 0
+ },
+ "samsung-galaxy-a06": {
+  "url": "https://www.samsung.com/my/smartphones/galaxy-a06/",
+  "final": "https://www.samsung.com/my/smartphones/galaxy-a06/",
+  "status": 404,
+  "title": "",
+  "ok": false,
+  "bytes": 0
+ },
+ "samsung-galaxy-a16-5g": {
+  "url": "https://www.samsung.com/my/smartphones/galaxy-a16-5g/",
+  "final": "https://www.samsung.com/my/smartphones/galaxy-a16-5g/",
+  "status": 404,
+  "title": "",
+  "ok": false,
+  "bytes": 0
+ },
+ "samsung-galaxy-a16": {
+  "url": "https://www.samsung.com/my/smartphones/galaxy-a16/",
+  "final": "https://www.samsung.com/my/smartphones/galaxy-a16/",
+  "status": 404,
+  "title": "",
+  "ok": false,
+  "bytes": 0
+ },
+ "samsung-galaxy-s25": {
+  "url": "https://www.samsung.com/my/smartphones/galaxy-s25/specs/",
+  "final": "https://www.samsung.com/my/smartphones/galaxy-s25/specs/",
+  "status": 200,
+  "title": "Samsung Galaxy S25 &amp; S25+ Specs | Samsung Malaysia",
+  "ok": true,
+  "bytes": 355608
+ },
+ "samsung-galaxy-s25-plus": {
+  "url": "https://www.samsung.com/my/smartphones/galaxy-s25-plus/",
+  "final": "https://www.samsung.com/my/smartphones/galaxy-s25-plus/",
+  "status": 404,
+  "title": "",
+  "ok": false,
+  "bytes": 0
+ },
+ "samsung-galaxy-s25-edge": {
+  "url": "https://www.samsung.com/my/smartphones/galaxy-s25-edge/",
+  "final": "https://www.samsung.com/my/smartphones/galaxy-s25-edge/",
+  "status": 404,
+  "title": "",
+  "ok": false,
+  "bytes": 0
+ },
+ "samsung-galaxy-a36-5g": {
+  "url": "https://www.samsung.com/my/smartphones/galaxy-a36-5g/",
+  "final": "https://www.samsung.com/my/smartphones/galaxy-a36-5g/",
+  "status": 404,
+  "title": "",
+  "ok": false,
+  "bytes": 0
+ },
+ "samsung-galaxy-a26-5g": {
+  "url": "https://www.samsung.com/my/smartphones/galaxy-a26-5g/",
+  "final": "https://www.samsung.com/my/smartphones/galaxy-a26-5g/",
+  "status": 404,
+  "title": "",
+  "ok": false,
+  "bytes": 0
+ },
+ "samsung-galaxy-z-fold7": {
+  "url": "https://www.samsung.com/my/smartphones/galaxy-z-fold7/specs/",
+  "final": "https://www.samsung.com/my/smartphones/galaxy-z-fold7/specs/",
+  "status": 200,
+  "title": "Specs | Samsung Galaxy Z Fold7 | Samsung Malaysia",
+  "ok": false,
+  "bytes": 332288
+ },
+ "samsung-galaxy-z-flip7": {
+  "url": "https://www.samsung.com/my/smartphones/galaxy-z-flip7/specs/",
+  "final": "https://www.samsung.com/my/smartphones/galaxy-z-flip7/specs/",
+  "status": 200,
+  "title": "Specs | Samsung Galaxy Z Flip7 | Samsung Malaysia",
+  "ok": false,
+  "bytes": 331957
+ },
+ "samsung-galaxy-z-flip7-fe": {
+  "url": "https://www.samsung.com/my/smartphones/galaxy-z-flip7-fe/specs/",
+  "final": "https://www.samsung.com/my/smartphones/galaxy-z-flip7-fe/specs/",
+  "status": 200,
+  "title": "Specs | Samsung Galaxy Z Flip7 FE | Samsung Malaysia",
+  "ok": false,
+  "bytes": 330205
+ },
+ "samsung-galaxy-s25-fe": {
+  "url": "https://www.samsung.com/my/smartphones/galaxy-s/galaxy-s25-fe-icyblue-128gb-sm-s731blbbxme/",
+  "final": "https://www.samsung.com/my/smartphones/galaxy-s/galaxy-s25-fe-icyblue-128gb-sm-s731blbbxme/",
+  "status": 200,
+  "title": "Samsung Galaxy S25 FE",
+  "ok": true,
+  "bytes": 868143
+ },
+ "samsung-galaxy-a06-5g": {
+  "url": "https://www.samsung.com/my/smartphones/galaxy-a/galaxy-a06-5g-black-128gb-sm-a066bzkhxme/",
+  "final": "https://www.samsung.com/my/smartphones/galaxy-a/galaxy-a06-5g-black-128gb-sm-a066bzkhxme/",
+  "status": 200,
+  "title": "Samsung Galaxy A06 5G (Black, 128GB) Specs | Samsung Malaysia",
+  "ok": true,
+  "bytes": 492915
+ },
+ "samsung-galaxy-a07": {
+  "url": "https://www.samsung.com/my/smartphones/galaxy-a/galaxy-a07-black-128gb-sm-a075fzkhxme/",
+  "final": "https://www.samsung.com/my/smartphones/galaxy-a/galaxy-a07-black-128gb-sm-a075fzkhxme/",
+  "status": 200,
+  "title": "Samsung Galaxy A07 LTE Black 128GB | Samsung Malaysia",
+  "ok": true,
+  "bytes": 662448
+ },
+ "samsung-galaxy-a07-5g": {
+  "url": "https://www.samsung.com/my/smartphones/galaxy-a/galaxy-a07-5g-black-128gb-sm-a076bzkcxme/",
+  "final": "https://www.samsung.com/my/smartphones/galaxy-a/galaxy-a07-5g-black-128gb-sm-a076bzkcxme/",
+  "status": 200,
+  "title": "Galaxy A07 5G Black 128 GB | Samsung Malaysia",
+  "ok": true,
+  "bytes": 491563
+ },
+ "samsung-galaxy-a17": {
+  "url": "https://www.samsung.com/my/smartphones/galaxy-a/galaxy-a17-black-256gb-sm-a175fzkoxme/",
+  "final": "https://www.samsung.com/my/smartphones/galaxy-a/galaxy-a17-black-256gb-sm-a175fzkoxme/",
+  "status": 200,
+  "title": "Samsung Galaxy A17 LTE Black 256GB | Samsung Malaysia",
+  "ok": true,
+  "bytes": 522513
+ },
+ "samsung-galaxy-a17-5g": {
+  "url": "https://www.samsung.com/my/smartphones/galaxy-a/galaxy-a17-5g-black-128gb-sm-a176bzkjxme/",
+  "final": "https://www.samsung.com/my/smartphones/galaxy-a/galaxy-a17-5g-black-128gb-sm-a176bzkjxme/",
+  "status": 200,
+  "title": "Galaxy A17 5G Black 128 GB | Samsung Malaysia",
+  "ok": true,
+  "bytes": 659328
+ },
+ "samsung-galaxy-s26-plus": {
+  "url": "https://www.samsung.com/my/smartphones/galaxy-s26-plus/",
+  "final": "https://www.samsung.com/my/smartphones/galaxy-s26-plus/",
+  "status": 404,
+  "title": "",
+  "ok": false,
+  "bytes": 0
+ },
+ "samsung-galaxy-a57-5g": {
+  "url": "https://www.samsung.com/my/smartphones/galaxy-a/galaxy-a57-5g-awesome-gray-256gb-sm-a576bzasxme/",
+  "final": "https://www.samsung.com/my/smartphones/galaxy-a/galaxy-a57-5g-awesome-gray-256gb-sm-a576bzasxme/",
+  "status": 200,
+  "title": "Galaxy A57 5G Awesome Gray 256 GB | Samsung Malaysia",
+  "ok": true,
+  "bytes": 2870051
+ },
+ "samsung-galaxy-a37-5g": {
+  "url": "https://www.samsung.com/my/smartphones/galaxy-a/galaxy-a37-5g-awesome-charcoal-256gb-sm-a376bzatxme/",
+  "final": "https://www.samsung.com/my/smartphones/galaxy-a/galaxy-a37-5g-awesome-charcoal-256gb-sm-a376bzatxme/",
+  "status": 200,
+  "title": "Samsung Galaxy A37 5G Awesome Charcoal 256 GB | Samsung Malaysia",
+  "ok": true,
+  "bytes": 1815165
+ },
+ "samsung-galaxy-a27-5g": {
+  "url": "https://www.samsung.com/my/smartphones/galaxy-a/galaxy-a27-5g-black-128gb-sm-a276bzkgxme/",
+  "final": "https://www.samsung.com/my/smartphones/galaxy-a/galaxy-a27-5g-black-128gb-sm-a276bzkgxme/",
+  "status": 200,
+  "title": "Samsung Galaxy A27 5G | Samsung Malaysia",
+  "ok": true,
+  "bytes": 557063
+ },
+ "samsung-galaxy-z-fold8-ultra": {
+  "url": "https://www.samsung.com/my/smartphones/galaxy-z-fold8-ultra/specs/",
+  "final": "https://www.samsung.com/my/smartphones/galaxy-z-fold8-ultra/specs/",
+  "status": 200,
+  "title": "Samsung Galaxy Z Fold8 Ultra Specs: Display, Camera &amp; Battery | Samsung Malaysia",
+  "ok": true,
+  "bytes": 369263
+ },
+ "samsung-galaxy-z-flip8": {
+  "url": "https://www.samsung.com/my/smartphones/galaxy-z-flip8/specs/",
+  "final": "https://www.samsung.com/my/smartphones/galaxy-z-flip8/specs/",
+  "status": 200,
+  "title": "Samsung Galaxy Z Flip8 Specs: Display, Camera &amp; Battery | Samsung Malaysia",
+  "ok": true,
+  "bytes": 358416
+ },
+ "samsung-galaxy-s26-fe": {
+  "url": "https://www.samsung.com/my/smartphones/galaxy-s/galaxy-s26-fe-blueberry-128gb-sm-s741bzvbxme/",
+  "final": "https://www.samsung.com/my/smartphones/galaxy-s/galaxy-s26-fe-blueberry-128gb-sm-s741bzvbxme/",
+  "status": 200,
+  "title": "Galaxy S26 FE",
+  "ok": true,
+  "bytes": 689305
+ },
+ "samsung-galaxy-a08": {
+  "url": "https://www.samsung.com/my/smartphones/galaxy-a/galaxy-a08-dark-blue-128gb-sm-a085fdbhxme/",
+  "final": "https://www.samsung.com/my/smartphones/galaxy-a/galaxy-a08-dark-blue-128gb-sm-a085fdbhxme/",
+  "status": 200,
+  "title": "Galaxy A08 Dark Blue 128 GB | Samsung Malaysia",
+  "ok": true,
+  "bytes": 498032
+ },
+ "samsung-galaxy-a07s": {
+  "url": "https://www.samsung.com/my/smartphones/galaxy-a/galaxy-a07s-black-64gb-sm-a077fzkdxme/",
+  "final": "https://www.samsung.com/my/smartphones/galaxy-a/galaxy-a07s-black-64gb-sm-a077fzkdxme/",
+  "status": 200,
+  "title": "Samsung Galaxy A07s | Samsung Malaysia",
+  "ok": true,
+  "bytes": 489063
+ },
+ "samsung-galaxy-watch6": {
+  "url": "https://www.samsung.com/my/watches/galaxy-watch6/",
+  "final": "https://www.samsung.com/my/watches/galaxy-watch6/",
+  "status": 404,
+  "title": "",
+  "ok": false,
+  "bytes": 0
+ },
+ "samsung-galaxy-watch6-classic": {
+  "url": "https://www.samsung.com/my/watches/galaxy-watch6-classic/",
+  "final": "https://www.samsung.com/my/watches/galaxy-watch6-classic/",
+  "status": 404,
+  "title": "",
+  "ok": false,
+  "bytes": 0
+ },
+ "samsung-galaxy-fit3": {
+  "url": "https://www.samsung.com/my/watches/galaxy-fit/galaxy-fit3-gray-connectivity-sm-r390nzaaxme/",
+  "final": "https://www.samsung.com/my/watches/galaxy-fit/galaxy-fit3-gray-connectivity-sm-r390nzaaxme/",
+  "status": 200,
+  "title": "Samsung Galaxy Fit3 (SM-R390NZAAXME) in Gray Color | Samsung MY",
+  "ok": true,
+  "bytes": 871008
+ },
+ "samsung-galaxy-watch7": {
+  "url": "https://www.samsung.com/my/watches/galaxy-watch7/",
+  "final": "https://www.samsung.com/my/watches/galaxy-watch7/",
+  "status": 404,
+  "title": "",
+  "ok": false,
+  "bytes": 0
+ },
+ "samsung-galaxy-watch-ultra": {
+  "url": "https://www.samsung.com/my/watches/galaxy-watch-ultra/",
+  "final": "https://www.samsung.com/my/watches/galaxy-watch-ultra/",
+  "status": 404,
+  "title": "",
+  "ok": false,
+  "bytes": 0
+ },
+ "samsung-galaxy-watch-fe": {
+  "url": "https://www.samsung.com/my/watches/galaxy-watch-fe/",
+  "final": "https://www.samsung.com/my/watches/galaxy-watch-fe/",
+  "status": 404,
+  "title": "",
+  "ok": false,
+  "bytes": 0
+ },
+ "samsung-galaxy-watch8": {
+  "url": "https://www.samsung.com/my/watches/galaxy-watch/galaxy-watch8-40mm-graphite-bluetooth-sm-l320ndaaxme/",
+  "final": "https://www.samsung.com/my/watches/galaxy-watch/galaxy-watch8-40mm-graphite-bluetooth-sm-l320ndaaxme/",
+  "status": 200,
+  "title": "Samsung Galaxy Watch8 Bluetooth 40mm Graphite | Samsung Malaysia",
+  "ok": true,
+  "bytes": 2966341
+ },
+ "samsung-galaxy-watch-ultra-2025": {
+  "url": "https://www.samsung.com/my/watches/galaxy-watch/galaxy-watch-ultra-2025-47mm-titanium-blue-lte-sm-l705fzb1xme/",
+  "final": "https://www.samsung.com/my/watches/galaxy-watch/galaxy-watch-ultra-2025-47mm-titanium-blue-lte-sm-l705fzb1xme/",
+  "status": 200,
+  "title": "Samsung Galaxy Watch Ultra 2025 LTE 47mm Titanium Blue | Samsung Malaysia",
+  "ok": true,
+  "bytes": 1903752
+ },
+ "samsung-galaxy-watch9": {
+  "url": "https://www.samsung.com/my/watches/galaxy-watch/galaxy-watch9-40mm-cream-bluetooth-sm-l340nzeaxme/",
+  "final": "https://www.samsung.com/my/watches/galaxy-watch/galaxy-watch9-40mm-cream-bluetooth-sm-l340nzeaxme/",
+  "status": 200,
+  "title": "Galaxy Watch9 (Bluetooth, 40 mm) Cream | Samsung Malaysia",
+  "ok": true,
+  "bytes": 4760682
+ },
+ "samsung-galaxy-watch-ultra2": {
+  "url": "https://www.samsung.com/my/watches/galaxy-watch/galaxy-watch-ultra2-titanium-gray-lte-sm-l715fzkaxme/",
+  "final": "https://www.samsung.com/my/watches/galaxy-watch/galaxy-watch-ultra2-titanium-gray-lte-sm-l715fzkaxme/",
+  "status": 200,
+  "title": "Galaxy Watch Ultra2 Titanium Gray | Samsung Malaysia",
+  "ok": true,
+  "bytes": 5010553
+ }
+}

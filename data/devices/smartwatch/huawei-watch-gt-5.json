@@ -1,0 +1,101 @@
+{
+  "id": "huawei-watch-gt-5",
+  "name": "Huawei Watch GT 5",
+  "brand": "huawei",
+  "category": "smartwatch",
+  "series": "Watch",
+  "form": "watch",
+  "status": "released",
+  "announced": "2024-09-26",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1099,
+      "config": "41 mm, fluoroelastomer strap",
+      "date": "2024-09-26",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2024/09/26/huawei-watch-gt-5-gt-5-pro-malaysia-price-specs/",
+      "class": "news",
+      "accessed": "2026-09-18",
+      "note": "Starting price for each size."
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1099,
+      "config": "46 mm, fluoroelastomer strap",
+      "date": "2024-09-26",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2024/09/26/huawei-watch-gt-5-gt-5-pro-malaysia-price-specs/",
+      "class": "news",
+      "accessed": "2026-09-18",
+      "note": "Starting price for each size."
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_mm": "46 mm",
+      "size_in": 1.43,
+      "type": "AMOLED",
+      "resolution": "466 × 466"
+    },
+    "battery": {
+      "life_h": 336,
+      "claim": "Up to 14 days"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 45.8,
+        "width_mm": 45.8,
+        "depth_mm": 10.7
+      },
+      "weight_g": 48,
+      "water": "5 ATM, IP69K",
+      "water_m": 50,
+      "ip": "IP69K"
+    },
+    "connectivity": {
+      "gps": "Dual-band GNSS",
+      "nfc": true,
+      "usb": "Wireless charging; System Requirements; Android 9.0 or later; iOS 13.0 or later; Water-resistant Level; 5 ATM",
+      "bluetooth": "2.4 GHz, supports BT5.2 and BR + BLE",
+      "positioning": "L1: GPS + GLONASS + GALILEO + BDS + QZSS; L5: GPS + GALILEO + BDS + QZSS; Environment; Ambient Operating Temperature; -20℃–+45℃; Battery Life"
+    },
+    "sensors": "Accelerometer sensor, Gyroscope sensor, Magnetometer sensor, Optical heart rate sensor, Barometer sensor, Temperature sensor, Ambient light sensor, Button, Home Button (Rotating Crown) and Side Button",
+    "charging": {
+      "claim": "Charger Voltage and Current Requirements; 5V-9V DC/2A"
+    },
+    "misc": {
+      "colors": "Blue"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "huawei",
+      "url": "https://consumer.huawei.com/ph/wearables/watch-gt5/specs/",
+      "note": "Read from Huawei's Philippines specification page, because Huawei Malaysia no longer lists this model; it is the same hardware. Values are for the 46 mm model.",
+      "checked": "2026-09-18"
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2024/09/26/huawei-watch-gt-5-gt-5-pro-malaysia-price-specs/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      }
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/admin-image/wearables/watch-gt5/list/46mm-blue.png",
+    "page": "https://consumer.huawei.com/sg/wearables/watch-gt5/specs/",
+    "credit": "Huawei",
+    "checked": "2026-09-19"
+  }
+}

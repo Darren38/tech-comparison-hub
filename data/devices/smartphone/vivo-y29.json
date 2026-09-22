@@ -1,0 +1,55 @@
+{
+  "id": "vivo-y29",
+  "name": "vivo Y29",
+  "brand": "vivo",
+  "category": "smartphone",
+  "series": "Y",
+  "form": "bar",
+  "status": "released",
+  "announced": "2025-02-27",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 799,
+      "date": "2025-02-27",
+      "type": "launch",
+      "source": "nasilemaktech",
+      "url": "https://nasilemaktech.com/vivo-y29-y39-malaysia-price/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 6.68,
+      "type": "LCD",
+      "refresh_hz": 120
+    },
+    "platform": {
+      "chipset": "snapdragon-4-gen-2"
+    },
+    "connectivity": {
+      "cellular": "4G"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "news",
+      "source": "nasilemaktech",
+      "url": "https://nasilemaktech.com/vivo-y29-y39-malaysia-price/",
+      "note": "The maker no longer publishes a specification page for this model. Key specs were taken from this Malaysian launch report, which gives the maker's figures.",
+      "checked": "2026-09-18"
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "nasilemaktech",
+        "url": "https://nasilemaktech.com/vivo-y29-y39-malaysia-price/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (Nasi Lemak Tech). The global announcement can be earlier."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

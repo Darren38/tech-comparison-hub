@@ -1,0 +1,147 @@
+{
+  "id": "redmi-a5",
+  "name": "Redmi A5",
+  "brand": "redmi",
+  "category": "smartphone",
+  "series": "Redmi A",
+  "form": "bar",
+  "status": "released",
+  "announced": "2025-04-18",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 299,
+      "config": "3 GB / 64 GB",
+      "date": "2025-04-18",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/04/18/redmi-a5-4g-malaysia-price-specs/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 349,
+      "config": "4 GB / 128 GB",
+      "date": "2025-04-18",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/04/18/redmi-a5-4g-malaysia-price-specs/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://i02.appmifile.com/444_item_my/15/04/2025/4bb52c9f070e9f08a8f22be7b020e138.png",
+    "page": "https://www.mi.com/my/product/redmi-a5/specs/",
+    "credit": "Xiaomi Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.88,
+      "resolution": "1640 × 720",
+      "refresh_hz": 120,
+      "peak_nits": 450,
+      "ppi": 260
+    },
+    "platform": {
+      "chipset": "unisoc-t7250",
+      "cpu": "Up to 1.8GHz"
+    },
+    "memory": {
+      "ram_gb": [
+        3,
+        4
+      ],
+      "storage_gb": [
+        64,
+        128
+      ],
+      "ram_type": "LPDDR4X"
+    },
+    "battery": {
+      "capacity_mah": 5200
+    },
+    "charging": {
+      "wired_w": 15,
+      "claim": "Supports 15W fast charging"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 32,
+          "aperture": "f/2.0"
+        }
+      ],
+      "rear_detail": [
+        "filmCamera; HDR mode; Ultra HD; Night mode, 32MP main camera, 4P lens, f/2.0, Auxiliary lens"
+      ],
+      "video": "1080p@30fps",
+      "front_detail": [
+        "8MP front camera, 4P lens, f/2.0"
+      ],
+      "front_video": "1080p@30fps"
+    },
+    "connectivity": {
+      "cellular": "4G",
+      "bands_3g": "B1/5/8",
+      "bands_4g": "LTE TDD: B38/40/41; LTE FDD: B1/3/5/7/8/20/28",
+      "technology": "HSPA / LTE",
+      "wifi": "2.4GHz/5GHz Wi-Fi",
+      "positioning": "GPS; Glonass; Galileo; BDS (only B1C）",
+      "sim": "Dual SIM + microSD",
+      "bluetooth": "Bluetooth 5.2",
+      "usb": "USB Type-C"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 171.7,
+        "width_mm": 77.8,
+        "depth_mm": 8.26
+      },
+      "weight_g": 193.0
+    },
+    "software": {
+      "launch_os": "Android 15"
+    },
+    "sensors": "Virtual proximity sensor, Virtual ambient light sensor, Accelerometer, Electronic compass",
+    "audio": {
+      "jack": true
+    },
+    "biometrics": {
+      "fingerprint": "Side fingerprint sensor"
+    },
+    "misc": {
+      "colors": "Ocean Blue, Sandy Gold, Midnight Black"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "redmi",
+      "url": "https://www.mi.com/my/product/redmi-a5/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from Xiaomi Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2025/04/18/redmi-a5-4g-malaysia-price-specs/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

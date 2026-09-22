@@ -1,0 +1,154 @@
+{
+  "id": "oppo-reno15-pro",
+  "name": "OPPO Reno15 Pro 5G",
+  "brand": "oppo",
+  "category": "smartphone",
+  "series": "Reno",
+  "form": "bar",
+  "status": "released",
+  "announced": "2026-01-06",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 2999,
+      "config": "12 GB / 512 GB",
+      "date": "2026-01-06",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2026/01/06/oppo-reno-15-series-5g-launch-malaysia-specs-price/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/reno15-series-en/list-page/reno15-pro/480-600-blue.png",
+    "page": "https://www.oppo.com/my/smartphones/series-reno/reno15-pro/",
+    "credit": "OPPO Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.32,
+      "type": "AMOLED",
+      "resolution": "2640 × 1216",
+      "refresh_hz": 120,
+      "peak_nits": 1800,
+      "protection": "Corning Gorilla Glass 7i",
+      "ppi": 460
+    },
+    "platform": {
+      "chipset": "dimensity-8450",
+      "gpu": "ARM G720 MC7@1300MHz",
+      "cpu": "8 cores"
+    },
+    "memory": {
+      "ram_gb": [
+        12
+      ],
+      "storage_gb": [
+        512
+      ],
+      "ram_type": "LPDDR5X",
+      "storage_type": "UFS 3.1",
+      "card": "No"
+    },
+    "battery": {
+      "capacity_mah": 6200
+    },
+    "charging": {
+      "wired_w": 80,
+      "claim": "Supports (Max): 80W SUPERVOOC; Compatible with: 67W and below SUPERVOOC , 55W PPS, 13.5W PD"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "ultrawide",
+          "mp": 50
+        },
+        {
+          "role": "main",
+          "mp": 200,
+          "aperture": "f/1.8",
+          "ois": true
+        },
+        {
+          "role": "telephoto",
+          "mp": 50
+        }
+      ],
+      "front": "50 MP",
+      "rear_detail": [
+        "Ultra-wide angle: 50MP; f/2.0; FOV 116°; 6P lens; AF supported",
+        "Wide angle: 200MP; f/1.8; FOV 84°; 6P lens; AF supported; Supports 2-axis OIS",
+        "Telephoto: 50MP; f/2.8; FOV 30°; 4P lens; AF supported; Supports 2-axis OIS"
+      ],
+      "front_detail": [
+        "50MP; f/2.0; FOV 100°; 5P lens; AF supported"
+      ],
+      "video": "4K@60fps; 1080p",
+      "front_video": "4K@60fps; 1080p"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true,
+      "bands_2g": "850/900/1800/1900MHz",
+      "bands_3g": "Band 1/2/4/5/6/8/19",
+      "bands_4g": "LTE FDD: Band 1/2/3/4/5/7/8/12/17/18/19/20/26/28/32/66/71; LTE TDD: Band 38/39/40/41/42/48",
+      "bands_5g": "5G NR: n1/n2/n3/n5/n7/n8/n12/n20/n26/n28/n38/n40/n41/n48/n66/n71/n77/n78",
+      "technology": "GSM / HSPA / LTE / 5G",
+      "sim": "Nano-SIM card, Nano-USIM card; eSIM",
+      "bluetooth": "Bluetooth 5.4, Low Energy, BLE Audio",
+      "usb": "USB Type-C",
+      "positioning": "GPS, GLONASS, BDS, Galileo, QZSS",
+      "wifi": "Wi-Fi 6 (802.11ax); Wi-Fi 5 (802.11ac)"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 151.21,
+        "width_mm": 72.42,
+        "depth_mm": 7.99
+      },
+      "weight_g": 187.0
+    },
+    "software": {
+      "launch_os": "ColorOS 16.0"
+    },
+    "biometrics": {
+      "face": "Yes",
+      "fingerprint": "In-display optical fingerprint sensor"
+    },
+    "sensors": "Proximity sensor, Ambient light sensor, Color temperature sensor, E-compass, Accelerometer, Gyroscope, In-display optical fingerprint sensor, Infrared remote control",
+    "audio": {
+      "jack": false
+    },
+    "misc": {
+      "colors": "Dusk Brown, Aurora Blue"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "oppo",
+      "url": "https://www.oppo.com/my/smartphones/series-reno/reno15-pro/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from OPPO Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2026/01/06/oppo-reno-15-series-5g-launch-malaysia-specs-price/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

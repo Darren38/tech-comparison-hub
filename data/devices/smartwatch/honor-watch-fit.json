@@ -1,0 +1,59 @@
+{
+  "id": "honor-watch-fit",
+  "name": "HONOR Watch Fit",
+  "brand": "honor",
+  "category": "smartwatch",
+  "series": "Watch",
+  "form": "watch",
+  "status": "released",
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-18",
+      "source": "honor",
+      "url": "https://www.honor.com/my/wearables/honor-watch-fit/spec/",
+      "note": "Sold in Malaysia, but no launch price was found in Malaysian launch coverage."
+    }
+  },
+  "specs": {
+    "display": {
+      "size_in": 1.32,
+      "type": "AMOLED",
+      "resolution": "466 × 466"
+    },
+    "connectivity": {
+      "gps": "Built-in GNSS",
+      "usb": "Connect USB charging port to charge through charging dock.; Compatibility; Android 9.0 or later; IOS 13.0 or later; Water Resistance Level; 5ATM, IP68",
+      "positioning": "GPS+GLONASS+GALILEO+BDS+QZSS",
+      "bluetooth": "Bluetooth"
+    },
+    "build": {
+      "weight_g": 27.0,
+      "water": "5 ATM",
+      "water_m": 50,
+      "ip": "IP68"
+    },
+    "audio": {
+      "speakers": "Microphone; Charger Voltage and Current; 5V/2A or more"
+    },
+    "sensors": "Accelerometer sensor, Gyroscope sensor, Magnetometer sensor, Optical heart rate sensor, Ambient light sensor"
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "honor",
+      "url": "https://www.honor.com/my/wearables/honor-watch-fit/spec/",
+      "checked": "2026-09-18",
+      "note": "Read from HONOR Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {}
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://www.honor.com/content/dam/honor/common/product-list/wearables/product-series/honor-watch-fit/global/honor-watch-fit-d-list.png",
+    "page": "https://www.honor.com/my/wearables/honor-watch-fit/spec/",
+    "credit": "HONOR",
+    "checked": "2026-09-19"
+  }
+}

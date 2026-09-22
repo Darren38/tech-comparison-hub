@@ -1,0 +1,83 @@
+{
+  "id": "redmi-watch-5-active",
+  "name": "Redmi Watch 5 Active",
+  "brand": "redmi",
+  "category": "smartwatch",
+  "series": "Watch",
+  "form": "watch",
+  "status": "released",
+  "announced": "2024-09-30",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 199,
+      "date": "2024-09-30",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2024/333687/redmi-watch-5-lite-watch-5-active/",
+      "class": "news",
+      "accessed": "2026-09-18",
+      "note": "Recommended retail price; RM129 early-bird price online."
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://i02.appmifile.com/124_item_my/23/09/2024/07e3c1b25d95701f6343c2998b59dfbb.png",
+    "page": "https://www.mi.com/my/product/redmi-watch-5-active/specs/",
+    "credit": "Xiaomi Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "type": "LCD",
+      "resolution": "385 × 320"
+    },
+    "battery": {
+      "life_h": 432,
+      "capacity_mah": 470
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 49.1,
+        "width_mm": 40.4,
+        "depth_mm": 11.4
+      },
+      "water": "5 ATM",
+      "water_m": 50,
+      "frame": "Plastic (with metal spray coating); Strap; Midnight Black: TPU strap"
+    },
+    "software": {
+      "launch_os": "Xiaomi HyperOS"
+    },
+    "sensors": "Heart rate sensor (with blood oxygen sensor), Accelerometer",
+    "audio": {
+      "speakers": "5ATM water resistance; Wireless connectivity: Bluetooth 5.3"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.3"
+    },
+    "misc": {
+      "colors": "Midnight Black, Matte Silver"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "redmi",
+      "url": "https://www.mi.com/my/product/redmi-watch-5-active/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from Xiaomi Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "lowyat",
+        "url": "https://www.lowyat.net/2024/333687/redmi-watch-5-lite-watch-5-active/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (Lowyat.NET). The global announcement can be earlier."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

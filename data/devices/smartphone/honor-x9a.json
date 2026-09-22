@@ -1,0 +1,131 @@
+{
+  "id": "honor-x9a",
+  "name": "HONOR X9a",
+  "brand": "honor",
+  "category": "smartphone",
+  "series": "X",
+  "form": "bar",
+  "status": "released",
+  "announced": "2023-01-04",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1499,
+      "config": "8 GB / 256 GB",
+      "date": "2023-01-04",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2023/01/04/honor-x9a-5g-malaysia-everything-you-need-to-know/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://www.honor.com/content/dam/honor/my/product-list/smartphone/honor-x9a/honor-x9a-shou.png",
+    "page": "https://www.honor.com/my/phones/honor-x9a/spec/",
+    "credit": "HONOR Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.67,
+      "type": "AMOLED",
+      "resolution": "2400 × 1080",
+      "ppi": 395
+    },
+    "platform": {
+      "chipset": "snapdragon-695",
+      "gpu": "Adreno 619",
+      "cpu": "Octa-core processors; 2*A78*2.2GHz+6*A55*1.8GHz"
+    },
+    "memory": {
+      "ram_gb": [
+        8
+      ],
+      "storage_gb": [
+        256
+      ]
+    },
+    "battery": {
+      "capacity_mah": 5100,
+      "chemistry": "Lithium Polymer"
+    },
+    "charging": {
+      "wired_w": 40,
+      "claim": "40W"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 64
+        }
+      ],
+      "front": "16 MP",
+      "rear_detail": [
+        "64MP Main Camera （F1.8）",
+        "5MP Ultra Wide&Depth Camera(F2.2)",
+        "2MP Macro Camera（f2.4）"
+      ],
+      "features": "Up to 8x digital zoom",
+      "video": "1080p",
+      "front_detail": [
+        "16MP (F2.45)"
+      ]
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true,
+      "technology": "GSM / HSPA / LTE / 5G",
+      "sim": "Nano Card",
+      "wifi": "802.11 a/b/g/n/ac",
+      "positioning": "Support GPS/AGPS/GLONASS/BeiDou/ Galileo; Network-Based Positioning; Wi-Fi-Based Positioning",
+      "usb": "USB Type-C, USB 2.0",
+      "bluetooth": "Bluetooth"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 161.6,
+        "width_mm": 73.9,
+        "depth_mm": 7.9
+      },
+      "weight_g": 175.0
+    },
+    "software": {
+      "launch_os": "MagicUI 6.1 (based on Android 12）"
+    },
+    "biometrics": {
+      "face": "Support 2D Face Recognition"
+    },
+    "sensors": "Gravity Sensor, Fingerprint Sensor, Support, support fingerprint unlock, Gyroscope, Compass",
+    "audio": {
+      "jack": false
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "honor",
+      "url": "https://www.honor.com/my/phones/honor-x9a/spec/",
+      "checked": "2026-09-18",
+      "note": "Read from HONOR Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2023/01/04/honor-x9a-5g-malaysia-everything-you-need-to-know/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

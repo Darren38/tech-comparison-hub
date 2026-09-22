@@ -1,0 +1,134 @@
+{
+  "id": "apple-ipad-air-13-m3",
+  "name": "iPad Air 13-inch (M3)",
+  "brand": "apple",
+  "category": "tablet",
+  "series": "iPad Air",
+  "form": "tablet",
+  "status": "released",
+  "announced": "2025-03-04",
+  "released": "2025-03-12",
+  "segment": "upper-mid",
+  "aliases": [
+    "iPad Air M3",
+    "iPad Air 13"
+  ],
+  "summary": "The large iPad Air, with M3 performance and a 60 Hz LCD. A value alternative to the Pro.",
+  "highlights": [
+    "M3 chip",
+    "13-inch Liquid Retina display",
+    "Apple Pencil Pro support"
+  ],
+  "prices": [
+    {
+      "region": "US",
+      "currency": "USD",
+      "amount": 799,
+      "config": "Wi-Fi, 128 GB",
+      "date": "2025-03-04",
+      "type": "launch",
+      "source": "apple"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 3699,
+      "config": "Wi-Fi, 128 GB",
+      "date": "2025-03-05",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/03/05/apple-ipad-air-2025-m3-malaysia-price-specs/",
+      "class": "news",
+      "accessed": "2026-09-16"
+    }
+  ],
+  "image": {
+    "kind": "drawing",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/IPad_Air_M3.svg/500px-IPad_Air_M3.svg.png",
+    "page": "https://commons.wikimedia.org/wiki/File:IPad_Air_M3.svg",
+    "title": "IPad Air M3",
+    "author": "Valentinys",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "checked": "2026-09-17"
+  },
+  "specs": {
+    "display": {
+      "size_in": 13,
+      "type": "Liquid Retina (LCD)",
+      "resolution": "2732 × 2048",
+      "ppi": 264,
+      "refresh_hz": 60,
+      "peak_nits": 600
+    },
+    "platform": {
+      "chipset": "apple-m3"
+    },
+    "memory": {
+      "ram_gb": [
+        8
+      ],
+      "storage_gb": [
+        128,
+        256,
+        512,
+        1024
+      ]
+    },
+    "battery": {
+      "capacity_wh": 36.59,
+      "claim": "Up to 10 h web browsing or video on Wi-Fi"
+    },
+    "charging": {
+      "wired_w": 20,
+      "claim": "USB-C; 20 W adapter recommended"
+    },
+    "input": {
+      "stylus": "Apple Pencil Pro, Apple Pencil (USB-C)",
+      "keyboard": "Magic Keyboard for iPad Air"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 280.6,
+        "width_mm": 214.9,
+        "depth_mm": 6.1
+      },
+      "weight_g": 616
+    },
+    "connectivity": {
+      "cellular": "5G (optional)",
+      "usb": "USB-C"
+    },
+    "software": {
+      "launch_os": "iPadOS 18",
+      "os_updates_years": 6,
+      "security_updates_years": 7
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "apple",
+      "url": "https://www.apple.com",
+      "note": "Compiled from Apple's specifications; not re-checked this session."
+    },
+    "fields": {
+      "specs.charging.wired_w": {
+        "class": "estimated",
+        "source": "apple",
+        "note": "Recommended adapter rating, not the tablet's maximum input."
+      },
+      "specs.software.os_updates_years": {
+        "class": "estimated",
+        "source": "apple",
+        "note": "Apple publishes no fixed update commitment; estimated from the support history of recent devices."
+      },
+      "specs.software.security_updates_years": {
+        "class": "estimated",
+        "source": "apple",
+        "note": "Apple publishes no fixed update commitment; estimated from the support history of recent devices."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

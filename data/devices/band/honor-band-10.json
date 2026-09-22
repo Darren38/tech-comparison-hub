@@ -1,0 +1,58 @@
+{
+  "id": "honor-band-10",
+  "name": "HONOR Band 10",
+  "brand": "honor",
+  "category": "band",
+  "series": "Band",
+  "form": "band",
+  "status": "released",
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-18",
+      "source": "honor",
+      "url": "https://www.honor.com/my/wearables/honor-band-10/spec/",
+      "note": "Sold in Malaysia, but no launch price was found in Malaysian launch coverage."
+    }
+  },
+  "specs": {
+    "display": {
+      "size_in": 1.57,
+      "type": "AMOLED",
+      "resolution": "402 × 256"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 43.2,
+        "width_mm": 28.2,
+        "depth_mm": 8.99
+      },
+      "weight_g": 14.7,
+      "water": "5 ATM",
+      "water_m": 50
+    },
+    "connectivity": {
+      "usb": "Magnetic charging port; Compatibility; Android 9.0 or later and iOS 13.0 or later; Water Resistance Level; 5ATM",
+      "bluetooth": "2.4 GHz, BLE 5.3; Charger Voltage and Current; 5V 1A"
+    },
+    "sensors": "Accelerometer sensor, Gyroscope sensor, Optical heart rate sensor, Ambient light sensor"
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "honor",
+      "url": "https://www.honor.com/my/wearables/honor-band-10/spec/",
+      "checked": "2026-09-18",
+      "note": "Read from HONOR Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {}
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://www.honor.com/content/dam/honor/common/product-list/wearables/product-series/honor-band-10/global/honor-band-10-blue-list.png",
+    "page": "https://www.honor.com/my/wearables/honor-band-10/spec/",
+    "credit": "HONOR",
+    "checked": "2026-09-19"
+  }
+}

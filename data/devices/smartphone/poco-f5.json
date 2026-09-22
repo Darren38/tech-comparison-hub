@@ -1,0 +1,163 @@
+{
+  "id": "poco-f5",
+  "name": "POCO F5",
+  "brand": "poco",
+  "category": "smartphone",
+  "series": "F",
+  "form": "bar",
+  "status": "released",
+  "announced": "2023-05-09",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1699,
+      "config": "8 GB / 256 GB",
+      "date": "2023-05-09",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2023/05/09/poco-f5-malaysia-first-snapdragon-7-gen-2-smartphone-malaysia-price-specs/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1799,
+      "config": "12 GB / 256 GB",
+      "date": "2023-05-09",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2023/05/09/poco-f5-malaysia-first-snapdragon-7-gen-2-smartphone-malaysia-price-specs/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 6.67,
+      "type": "AMOLED",
+      "resolution": "2400 × 1080",
+      "refresh_hz": 120,
+      "peak_nits": 1000,
+      "protection": "Corning Gorilla Glass 5",
+      "ppi": 395
+    },
+    "platform": {
+      "chipset": "snapdragon-7-plus-gen-2",
+      "gpu": "Qualcomm Adreno GPU; TSMC 4nm manufacturing process",
+      "cpu": "1 x Cortex-X2, up to 2.91GHz; 3 x A710, up to 2.49GHz; 4 x A510, up to 1.8GHz"
+    },
+    "memory": {
+      "ram_gb": [
+        8,
+        12
+      ],
+      "storage_gb": [
+        256
+      ],
+      "ram_type": "LPDDR5",
+      "storage_type": "UFS 3.1"
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "charging": {
+      "wired_w": 67,
+      "claim": "67W turbo charging; 67W in-box charger"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 64,
+          "aperture": "f/1.79"
+        },
+        {
+          "role": "ultrawide",
+          "mp": 8
+        },
+        {
+          "role": "macro",
+          "mp": 2
+        }
+      ],
+      "video": "4K; 1080p",
+      "front_video": "1080p",
+      "rear_detail": [
+        "64MP main camera, f/1.79, 1.4μm large pixel(4-in-1)",
+        "8MP ultra-wide camera, f/2.2, FOV 119°",
+        "2MP macro camera, f/2.4"
+      ],
+      "front_detail": [
+        "16MP front camera, f/2.45"
+      ]
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true,
+      "bands_2g": "5G S",
+      "bands_3g": "B1/2/4/5/8",
+      "bands_4g": "4G LTE FDD: B1/2/3/4/5/7/8/20/28/66; 4G LTE TDD: B38/40/41",
+      "technology": "GSM / HSPA / LTE",
+      "positioning": "L1; GLONASS: G1; Beidou: B1; Galileo E1; QZSS L1",
+      "sim": "Dual SIM, dual standby（5G+5G）",
+      "wifi": "Wi-Fi Pro-tocol: 802.11a/b/g/n/ac/ax",
+      "bluetooth": "Bluetooth 5.3",
+      "usb": "USB-C"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 161.11,
+        "width_mm": 74.95,
+        "depth_mm": 7.9
+      },
+      "weight_g": 181.0
+    },
+    "software": {
+      "launch_os": "MIUI 14"
+    },
+    "sensors": "Proximity sensor, Ambient light sensor, Accelerometer, Electronic compass, IR blaster, Gyroscope",
+    "audio": {
+      "speakers": "Dual speakers",
+      "jack": true
+    },
+    "biometrics": {
+      "fingerprint": "Side fingerprint sensor"
+    },
+    "misc": {
+      "colors": "Black, White, Blue"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "poco",
+      "url": "https://www.mi.com/my/product/poco-f5/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from Xiaomi Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2023/05/09/poco-f5-malaysia-first-snapdragon-7-gen-2-smartphone-malaysia-price-specs/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://i02.appmifile.com/390_operatorx_operatorx_opx/20/08/2024/c81518450813c64feb06e2cf2bbb006d.png",
+    "page": "https://www.mi.com/global/product/poco-f5/specs/",
+    "credit": "Xiaomi",
+    "checked": "2026-09-19"
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "id": "huawei-pura-80-ultra",
+  "name": "Huawei Pura 80 Ultra",
+  "brand": "huawei",
+  "category": "smartphone",
+  "series": "Pura",
+  "form": "bar",
+  "status": "released",
+  "announced": "2025-06-11",
+  "released": "2025-06",
+  "segment": "camera-flagship",
+  "aliases": [
+    "Pura 80 Ultra",
+    "P80 Ultra"
+  ],
+  "summary": "Huawei's camera flagship with a 1-inch main sensor and a switchable dual-focal periscope, running on the in-house Kirin 9020.",
+  "highlights": [
+    "1-inch variable-aperture main camera",
+    "Switchable 3.7× / 9.4× periscope",
+    "Kirin 9020"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 6599,
+      "config": "16 GB / 512 GB",
+      "date": "2025-07-24",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/07/24/huawei-pura-80-series-pro-ultra-malaysia-price-specs-promo-launch/",
+      "class": "news",
+      "accessed": "2026-09-16"
+    }
+  ],
+  "image": {
+    "kind": "photo",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Huawei_Pura80_Ultra_back.jpg/500px-Huawei_Pura80_Ultra_back.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Huawei_Pura80_Ultra_back.jpg",
+    "title": "Huawei Pura80 Ultra back",
+    "author": "Maksdroider",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "checked": "2026-09-19"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.8,
+      "type": "LTPO OLED",
+      "resolution": "2848 × 1276",
+      "ppi": 459,
+      "refresh_hz": 120
+    },
+    "platform": {
+      "chipset": "kirin-9020"
+    },
+    "memory": {
+      "ram_gb": [
+        16
+      ],
+      "storage_gb": [
+        512,
+        1024
+      ]
+    },
+    "battery": {
+      "capacity_mah": 5700
+    },
+    "charging": {
+      "wired_w": 100,
+      "wireless_w": 80
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "sensor": "1\"",
+          "aperture": "f/1.6–f/4.0 variable"
+        },
+        {
+          "role": "ultrawide",
+          "mp": 40
+        },
+        {
+          "role": "periscope",
+          "mp": 50,
+          "zoom_x": 3.7,
+          "note": "Switchable dual-focal periscope"
+        },
+        {
+          "role": "periscope",
+          "mp": 12.5,
+          "zoom_x": 9.4
+        }
+      ],
+      "zoom_optical_x": 9.4,
+      "front": "13 MP"
+    },
+    "build": {
+      "ip": "IP68 + IP69"
+    },
+    "connectivity": {
+      "cellular": "5G (China) / 4G (global)",
+      "satellite": true
+    },
+    "software": {
+      "launch_os": "HarmonyOS 5.1 (China) / EMUI 15 (global)"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "huawei",
+      "url": "https://consumer.huawei.com/en",
+      "note": "Compiled from Huawei's launch specifications; not re-checked this session."
+    },
+    "fields": {
+      "specs.connectivity.cellular": {
+        "class": "database",
+        "source": "huawei",
+        "note": "Global units ship without 5G; reported in launch coverage."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

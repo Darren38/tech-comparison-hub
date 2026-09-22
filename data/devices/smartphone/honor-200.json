@@ -1,0 +1,146 @@
+{
+  "id": "honor-200",
+  "name": "HONOR 200",
+  "brand": "honor",
+  "category": "smartphone",
+  "series": "Number",
+  "form": "bar",
+  "status": "released",
+  "announced": "2024-06-21",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1899,
+      "config": "12 GB / 256 GB",
+      "date": "2024-06-21",
+      "type": "launch",
+      "source": "nasilemaktech",
+      "url": "https://nasilemaktech.com/honor-200-series-malaysia-price/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 2199,
+      "config": "12 GB / 512 GB",
+      "date": "2024-06-21",
+      "type": "launch",
+      "source": "nasilemaktech",
+      "url": "https://nasilemaktech.com/honor-200-series-malaysia-price/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://www.honor.com/content/dam/honor/my/product-list/smartphone/honor-200/honor-200-white-list.png",
+    "page": "https://www.honor.com/my/phones/honor-200/spec/",
+    "credit": "HONOR Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.7,
+      "type": "AMOLED",
+      "resolution": "2664 × 1200",
+      "ppi": 436
+    },
+    "platform": {
+      "chipset": "snapdragon-7-gen-3",
+      "gpu": "Adreno 720",
+      "cpu": "Octa-core; 1×Cortex-A715 2.63GHz + 3×Cortex-A715 2.4GHz + 4×Cortex-A510 1.8GHz"
+    },
+    "battery": {
+      "capacity_mah": 5200,
+      "chemistry": "Lithium polymer"
+    },
+    "charging": {
+      "wired_w": 100,
+      "claim": "The phone supports up to 20V/5A SuperCharge, compatible with 11V/6A,5V/2A"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "aperture": "f/1.95",
+          "ois": true
+        },
+        {
+          "role": "telephoto",
+          "mp": 50
+        },
+        {
+          "role": "ultrawide",
+          "mp": 12
+        }
+      ],
+      "front": "50 MP",
+      "rear_detail": [
+        "50MP Portrait Main Camera (f/1.95 aperture, OIS)",
+        "50MP Telephoto Camera (f/2.4 aperture, OIS)",
+        "12MP Ultra Wide & Macro (f/2.2 aperture)"
+      ],
+      "features": "Optical zoom 2.5x, Digital zoom 50x",
+      "video": "4K",
+      "front_detail": [
+        "50MP Front Camera(f/2.1 aperture)"
+      ],
+      "zoom_optical_x": 2.5
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true,
+      "technology": "GSM / HSPA / LTE / 5G",
+      "sim": "Nano SIM card",
+      "wifi": "802.11 a/b/g/n/ac/ax, 2.4G /5G Hz 2X2 MIMO",
+      "positioning": "Support GPS /AGPS/BeiDou/GLONASS/Galileo/QZSS; Network-Based Positioning; Wi-Fi-Based Positioning",
+      "usb": "USB Type-C, USB 2.0",
+      "bluetooth": "Bluetooth"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 161.5,
+        "width_mm": 74.6,
+        "depth_mm": 7.7
+      },
+      "weight_g": 187.0
+    },
+    "software": {
+      "launch_os": "MagicOS 8.0 (Based on Android 14)"
+    },
+    "biometrics": {
+      "face": "Supported 2D face unlock"
+    },
+    "sensors": "Gravity Sensor, Infrared Sensor, Fingerprint Sensor, Gyroscope, Compass",
+    "audio": {
+      "jack": false
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "honor",
+      "url": "https://www.honor.com/my/phones/honor-200/spec/",
+      "checked": "2026-09-18",
+      "note": "Read from HONOR Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "nasilemaktech",
+        "url": "https://nasilemaktech.com/honor-200-series-malaysia-price/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (Nasi Lemak Tech). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

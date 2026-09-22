@@ -1,0 +1,16 @@
+{
+  "id": "exynos-2400",
+  "name": "Exynos 2400",
+  "vendor": "samsung",
+  "family": "Exynos",
+  "summary": "Name recorded from phone makers' specification pages and launch reports. Chip details have not been compiled yet.",
+  "provenance": {
+    "default": {
+      "class": "news",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2024/314739/samsung-galaxy-s24-series/",
+      "checked": "2026-09-18",
+      "note": "Chip name as given for the Galaxy S24."
+    }
+  }
+}

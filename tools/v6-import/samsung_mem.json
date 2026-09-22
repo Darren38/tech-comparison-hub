@@ -1,0 +1,154 @@
+{
+ "samsung-galaxy-s25": {
+  "ram_gb": [
+   12
+  ],
+  "storage_gb": [
+   256,
+   512
+  ],
+  "codes": 14
+ },
+ "samsung-galaxy-s25-fe": {
+  "ram_gb": [
+   8
+  ],
+  "storage_gb": [
+   128,
+   256,
+   512
+  ],
+  "codes": 12
+ },
+ "samsung-galaxy-a06-5g": {
+  "ram_gb": [
+   6
+  ],
+  "storage_gb": [
+   128
+  ],
+  "codes": 3
+ },
+ "samsung-galaxy-a07": {
+  "ram_gb": [
+   6,
+   8
+  ],
+  "storage_gb": [
+   128,
+   256
+  ],
+  "codes": 9
+ },
+ "samsung-galaxy-a07-5g": {
+  "ram_gb": [
+   6,
+   8
+  ],
+  "storage_gb": [
+   128,
+   256
+  ],
+  "codes": 6
+ },
+ "samsung-galaxy-a17": {
+  "ram_gb": [
+   8
+  ],
+  "storage_gb": [
+   256
+  ],
+  "codes": 3
+ },
+ "samsung-galaxy-a17-5g": {
+  "ram_gb": [
+   8
+  ],
+  "storage_gb": [
+   128,
+   256
+  ],
+  "codes": 6
+ },
+ "samsung-galaxy-a57-5g": {
+  "ram_gb": [
+   8,
+   12
+  ],
+  "storage_gb": [
+   256,
+   512
+  ],
+  "codes": 9
+ },
+ "samsung-galaxy-a37-5g": {
+  "ram_gb": [
+   8,
+   12
+  ],
+  "storage_gb": [
+   256
+  ],
+  "codes": 6
+ },
+ "samsung-galaxy-a27-5g": {
+  "ram_gb": [
+   8
+  ],
+  "storage_gb": [
+   128,
+   256
+  ],
+  "codes": 6
+ },
+ "samsung-galaxy-z-fold8-ultra": {
+  "ram_gb": [
+   12,
+   16
+  ],
+  "storage_gb": [
+   256,
+   512
+  ],
+  "codes": 12
+ },
+ "samsung-galaxy-z-flip8": {
+  "ram_gb": [
+   12
+  ],
+  "storage_gb": [
+   256,
+   512
+  ],
+  "codes": 8
+ },
+ "samsung-galaxy-s26-fe": {
+  "ram_gb": [
+   8
+  ],
+  "storage_gb": [
+   128,
+   256,
+   512
+  ],
+  "codes": 9
+ },
+ "samsung-galaxy-a08": {
+  "ram_gb": [
+   6
+  ],
+  "storage_gb": [
+   128
+  ],
+  "codes": 3
+ },
+ "samsung-galaxy-a07s": {
+  "ram_gb": [
+   4
+  ],
+  "storage_gb": [
+   64
+  ],
+  "codes": 3
+ }
+}

@@ -1,0 +1,137 @@
+{
+  "id": "huawei-nova-14",
+  "name": "Huawei nova 14",
+  "brand": "huawei",
+  "category": "smartphone",
+  "series": "nova",
+  "form": "bar",
+  "status": "released",
+  "announced": "2025-11-03",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1799,
+      "config": "12 GB / 256 GB",
+      "date": "2025-11-03",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/11/03/huawei-nova-14-malaysia-price-specs-launch-preorder/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/phones/nova14/specs-crystal-blue.png",
+    "page": "https://consumer.huawei.com/my/phones/nova14/specs/",
+    "credit": "Huawei Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.7,
+      "type": "OLED",
+      "resolution": "2412 × 1084",
+      "refresh_hz": 120,
+      "ppi": 395
+    },
+    "platform": {
+      "chipset": "kirin-8000"
+    },
+    "memory": {
+      "storage_gb": [
+        256
+      ]
+    },
+    "battery": {
+      "capacity_mah": 5500
+    },
+    "charging": {
+      "wired_w": 100,
+      "claim": "100 W HUAWEI SuperCharge Turbo"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50
+        },
+        {
+          "role": "telephoto",
+          "mp": 12
+        },
+        {
+          "role": "ultrawide",
+          "mp": 8
+        }
+      ],
+      "front": "50 MP",
+      "rear_detail": [
+        "50 MP Ultra Vision Camera (F1.9)",
+        "12 MP RYYB Optical Zoom Telephoto Portrait Camera (F2.4, 3x Optical Zoom, Optical and AI Image Stabilisation)",
+        "8 MP Ultra-Wide Macro Camera (F2.2)"
+      ],
+      "features": "Supports 3x optical zoom (3x zoom is an approximate value, with focal lengths of 16 mm, 23 mm, and 69 mm) and 30x digital zoom",
+      "video": "4K",
+      "front_detail": [
+        "50MP Ultra Portrait Camera (F2.4)"
+      ],
+      "zoom_optical_x": 3
+    },
+    "connectivity": {
+      "cellular": "4G",
+      "nfc": true,
+      "bands_2g": "Bands 2/3/5/8",
+      "bands_3g": "Bands 1/2/4/5/8/19",
+      "bands_4g": "FDD-LTE: Bands 1/2/3/4/5/7/8/12/13/17/18/19/20/26/28/66; TDD-LTE: Bands 38/40/41",
+      "technology": "GSM / HSPA / LTE",
+      "wifi": "2.4 GHz and 5 GHz,802.11a/b/g/n/ac/ax, 2 × 2 MIMO, HE160, 1024 QAM, 8 Spatial-stream Sounding MU-MIMO.",
+      "bluetooth": "Bluetooth 5.2, Support BLE, SBC, AAC, LDAC and L2HC",
+      "usb": "USB Type-C, USB 2.0",
+      "positioning": "GPS/AGPS/GLONASS/BeiDou/GALILEO/QZSS"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 161.73,
+        "width_mm": 75.48,
+        "depth_mm": 7.18
+      },
+      "weight_g": 192.0
+    },
+    "software": {
+      "launch_os": "EMUI 14.2"
+    },
+    "audio": {
+      "jack": false
+    },
+    "sensors": "Gravity sensor, Infrared sensor, Fingerprint sensor, Gyroscope, Compass, Ambient light sensor, Proximity sensor (Functions are implemented through software solutions.), Flicker sensor, Color temperature sensor",
+    "misc": {
+      "colors": "Crystal Blue, White, Black"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "huawei",
+      "url": "https://consumer.huawei.com/my/phones/nova14/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from Huawei Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2025/11/03/huawei-nova-14-malaysia-price-specs-launch-preorder/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

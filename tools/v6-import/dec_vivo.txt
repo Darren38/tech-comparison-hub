@@ -1,0 +1,66 @@
+vivo-x90 | 12/256=3699 @soya |
+vivo-x90-pro | 12/256=4999 @soya |
+vivo-v27e | -=1299 @lowy |
+vivo-v27 | 8/256=1799, 12/256=1999 @soya |
+vivo-y02t | -=499 @lowy |
+vivo-y36 | -=999 @nasi |
+vivo-y36-5g | 8/256=1099 @soya |
+vivo-y27 | -=699 @lowy |
+vivo-y27-5g | -=899 @lowy |
+vivo-y78-5g | 8/256=1399 @soya |
+vivo-y17s | -=599 @lowy |
+vivo-v29 | 12/256=1899, 12/512=2099 @soya |
+vivo-v29e | drop: Only an Indian launch was found; no vivo Malaysia page or Malaysian launch coverage.
+vivo-y27s | -=799 @nasi |
+vivo-y03 | -=399 @lowy |
+vivo-x100 | 16/512=3499 @soya |
+vivo-x100-pro | 16/512=4599 @soya |
+vivo-y100-5g | 8/256=1199 @soya |
+vivo-v30 | 12/256=1999 @soya |
+vivo-v30-pro | 12/512=2599 @soya |
+vivo-v30e | -=1399 @lowy |
+vivo-y18 | -=599 @lowy | src=https://www.lowyat.net/2024/321752/vivo-y18-malaysia/
+vivo-y28 | drop: No vivo Malaysia page and no Malaysian launch coverage found.
+vivo-y38-5g | drop: No vivo Malaysia page and no Malaysian launch coverage found.
+vivo-v40 | 8/256=1999, 8/512=2399 @nasi |
+vivo-v40-pro | -=3299 @nasi |
+vivo-v40e | drop: No vivo Malaysia page and no Malaysian launch coverage found.
+vivo-v40-lite | 12/256=1299, 12/512=1499 @nasi |
+vivo-y19s | 6/128=499, 8/256=599 @lowy |
+vivo-y28s-5g | 6/128=799, 8/256=999 @nasi |
+vivo-x200 | 16/512=3599 @soya |
+vivo-v50 | 8/256=1899, 12/256=1999, 12/512=2399 @soya |
+vivo-v50-lite-5g | 8/256=1299, 12/256=1499, 12/512=1699 @soya | src=https://soyacincau.com/2025/04/29/vivo-v50-lite-malaysia-launch-price-specs-promo/
+vivo-v50-lite | drop: Malaysia sells one V50 Lite, the 5G model listed on vivo Malaysia's website.
+vivo-y04 | -=399 @nasi |
+vivo-y29 | -=799 @nasi |
+vivo-y39-5g | -=999 @lowy |
+vivo-y19e | drop: No vivo Malaysia page and no Malaysian launch coverage found.
+vivo-x200-fe | 12/512=3199 @soya |
+vivo-x-fold5 | 16/512=6999 @soya |
+vivo-v60 | 8/256=1899, 12/256=1999, 12/512=2399 @soya |
+vivo-v60-lite-5g | 8/256=1399, 12/512=1799 @soya | src=https://soyacincau.com/2025/10/09/vivo-v60-lite-5g-malaysia-launch-price-specs-promo/
+vivo-v60-lite | drop: Malaysia sells one V60 Lite, the 5G model listed on vivo Malaysia's website.
+vivo-y29s | drop: No vivo Malaysia page and no Malaysian launch coverage found.
+vivo-y21d | |
+vivo-v70 | 8/256=1999, 12/512=2599 @soya |
+vivo-v70-fe | 8/256=1599, 12/256=1799 @soya |
+vivo-x300-ultra | 16/512=6799, 16/1T=7799 @lowy |
+vivo-x300-fe | -=3299 @lowy | pnote=Starting price.
+vivo-y31s-5g | -=1199 @nasi | src=https://nasilemaktech.com/vivo-y31s-5g-malaysia-launch/
+vivo-v80-lite-5g | 6/128=1499, 6/256=1799, 8/256=1999 @soya | pnote=Recommended retail price; RM100 lower at launch.
+vivo-watch-gt | "Summer Black"=499, "Cloud White"=549 @lowy | src=https://www.lowyat.net/2025/357149/vivo-x200-fe-official-malaysia-for-rm3199/
+vivo-watch-gt-2 | drop: No vivo Malaysia page and no Malaysian launch coverage found.
+iqoo-11 | -=3499 @soya |
+iqoo-z7 | 8/128=1299, 12/256=1499 @soya |
+iqoo-z7x | |
+iqoo-12 | 16/512=3399 @soya |
+iqoo-z9 | 8/256=1399, 12/256=1499 @soya |
+iqoo-z9x | |
+iqoo-13 | 12/256=3499, 16/512=3699 @soya |
+iqoo-neo-10 | 12/256=1999, 16/512=2199 @soya |
+iqoo-z10 | 12/256=1399, 12/512=1599 @soya |
+iqoo-z10x | drop: No vivo/iQOO Malaysia page and no Malaysian launch coverage found.
+iqoo-z11 | 8/256=1899, 12/256=2199 @nasi | src=https://nasilemaktech.com/iqoo-z11-series-malaysia-launch/
+iqoo-z11x | 8/128=1299, 8/256=1599 @lowy | src=https://www.lowyat.net/2026/391960/iqoo-z11-and-z11x-lands-in-malaysia/
+iqoo-15r | -=2499 @nasi | pnote=Starting price.

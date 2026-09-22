@@ -1,0 +1,169 @@
+{
+  "id": "redmi-note-14-5g",
+  "name": "Redmi Note 14 5G",
+  "brand": "redmi",
+  "category": "smartphone",
+  "series": "Redmi Note",
+  "form": "bar",
+  "status": "released",
+  "announced": "2025-01-10",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 799,
+      "config": "6 GB / 128 GB",
+      "date": "2025-01-10",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/01/10/redmi-note-14-4g-5g-xiaomi-malaysia-price-specs/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 899,
+      "config": "8 GB / 256 GB",
+      "date": "2025-01-10",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/01/10/redmi-note-14-4g-5g-xiaomi-malaysia-price-specs/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://i02.appmifile.com/384_item_my/06/01/2025/b190b32e2999e88c53f065e04d421cb0.png",
+    "page": "https://www.mi.com/my/product/redmi-note-14-5g/specs/",
+    "credit": "Xiaomi Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.67,
+      "type": "AMOLED",
+      "resolution": "2400 × 1080",
+      "refresh_hz": 120,
+      "peak_nits": 2100,
+      "protection": "Corning Gorilla Glass 5",
+      "ppi": 395
+    },
+    "platform": {
+      "chipset": "dimensity-7025-ultra",
+      "gpu": "IMG BXM-8-256",
+      "cpu": "Octa-core processor, up to 2.5GHz"
+    },
+    "memory": {
+      "ram_gb": [
+        6,
+        8,
+        12
+      ],
+      "storage_gb": [
+        128,
+        256,
+        512
+      ],
+      "ram_type": "LPDDR4X",
+      "storage_type": "UFS2.2"
+    },
+    "battery": {
+      "capacity_mah": 5110
+    },
+    "charging": {
+      "wired_w": 45,
+      "claim": "45W turbo charging; 45W In-box charger"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 108,
+          "sensor": "1/1.67\"",
+          "aperture": "f/1.7",
+          "ois": true
+        },
+        {
+          "role": "ultrawide",
+          "mp": 8
+        },
+        {
+          "role": "macro",
+          "mp": 2
+        }
+      ],
+      "front": "20 MP",
+      "rear_detail": [
+        "108MP main camera, Optical Image Stabilization (OIS), 0.64μm, 9in1 1.92μm, f/1.7, 6P lens, 1/1.67” sensor size",
+        "8MP ultra-wide camera, f/2.2",
+        "2MP macro camera, f/2.4"
+      ],
+      "video": "1080p@30fps",
+      "front_detail": [
+        "20MP front camera, 1/4.0\" sensor size, f/2.2, 4P lens"
+      ],
+      "front_video": "1080p@30fps"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true,
+      "bands_4g": "LTE FDD: B1/2/3/4/5/7/8/12/13/17/18/19/20/26/28/32/66; LTE TDD: B38/40/41/42/48",
+      "bands_5g": "5G: n1/2/3/5/7/8/12/20/26/28/38/40/41/48/66/77/78",
+      "technology": "LTE / 5G",
+      "wifi": "802.11a/b/g/n/ac; Supports 2.4GHz Wi-Fi; 5GHz Wi-Fi",
+      "positioning": "L1; GLONASS: G1; BDS: B1I; Galileo E1",
+      "sim": "SIM 1 + Hybrid (SIM or microSD) Dual standby",
+      "bluetooth": "Bluetooth 5.3",
+      "usb": "USB Type-C"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 162.4,
+        "width_mm": 75.7,
+        "depth_mm": 7.99
+      },
+      "weight_g": 190.0,
+      "ip": "IP64"
+    },
+    "software": {
+      "launch_os": "Xiaomi HyperOS"
+    },
+    "sensors": "Virtual proximity sensor, Ambient light sensor, Accelerometer, Electronic compass, IR blaster, Gyroscope",
+    "audio": {
+      "speakers": "Dual speakers",
+      "jack": true
+    },
+    "biometrics": {
+      "fingerprint": "In-screen fingerprint sensor"
+    },
+    "misc": {
+      "colors": "Midnight Black, Coral Green, Lavender Purple"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "redmi",
+      "url": "https://www.mi.com/my/product/redmi-note-14-5g/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from Xiaomi Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2025/01/10/redmi-note-14-4g-5g-xiaomi-malaysia-price-specs/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

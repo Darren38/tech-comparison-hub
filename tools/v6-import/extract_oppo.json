@@ -1,0 +1,3229 @@
+{
+ "oppo-reno8-t-5g": {
+  "display": {
+   "size_in": 6.7,
+   "type": "AMOLED",
+   "resolution": "2412 × 1080",
+   "refresh_hz": 120,
+   "peak_nits": 950
+  },
+  "platform": {
+   "chipset_name": "Snapdragon 695"
+  },
+  "memory": {
+   "ram_gb": [
+    8
+   ],
+   "storage_gb": [
+    256
+   ]
+  },
+  "battery": {
+   "capacity_mah": 4800
+  },
+  "charging": {
+   "wired_w": 67
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 108
+    },
+    {
+     "role": "depth",
+     "mp": 2
+    }
+   ],
+   "front": "32 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 162.3,
+    "width_mm": 74.3,
+    "depth_mm": 7.7
+   },
+   "weight_g": 171.0
+  },
+  "software": {
+   "launch_os": "ColorOS 13"
+  }
+ },
+ "oppo-reno8-t": {
+  "display": {
+   "size_in": 6.43,
+   "type": "AMOLED",
+   "resolution": "2400 × 1080",
+   "refresh_hz": 90,
+   "peak_nits": 800
+  },
+  "platform": {
+   "chipset_name": "Helio G99"
+  },
+  "memory": {
+   "ram_gb": [
+    8
+   ],
+   "storage_gb": [
+    256
+   ]
+  },
+  "battery": {
+   "capacity_mah": 5000
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 100
+    },
+    {
+     "role": "depth",
+     "mp": 2
+    }
+   ],
+   "front": "32 MP"
+  },
+  "connectivity": {
+   "cellular": "4G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 160.8,
+    "width_mm": 73.84,
+    "depth_mm": 7.8
+   },
+   "weight_g": 180.0
+  },
+  "software": {
+   "launch_os": "ColorOS 13.0"
+  }
+ },
+ "oppo-find-n2-flip": {
+  "display": {
+   "size_in": 6.8,
+   "type": "AMOLED",
+   "resolution": "2520 × 1080",
+   "refresh_hz": 120,
+   "peak_nits": 1600
+  },
+  "platform": {
+   "chipset_name": "Dimensity 9000+"
+  },
+  "memory": {
+   "ram_gb": [
+    8
+   ],
+   "storage_gb": [
+    256
+   ]
+  },
+  "battery": {
+   "capacity_mah": 4300
+  },
+  "charging": {
+   "wired_w": 44
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    },
+    {
+     "role": "ultrawide",
+     "mp": 8
+    }
+   ],
+   "front": "32 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "weight_g": 191.0
+  },
+  "software": {
+   "launch_os": "ColorOS 13.0"
+  }
+ },
+ "oppo-a78-5g": {
+  "display": {
+   "size_in": 6.56,
+   "type": "LCD",
+   "resolution": "1612 × 720",
+   "refresh_hz": 90,
+   "peak_nits": 600
+  },
+  "platform": {
+   "chipset_name": "Dimensity 700"
+  },
+  "memory": {
+   "ram_gb": [
+    8
+   ],
+   "storage_gb": [
+    128
+   ]
+  },
+  "battery": {
+   "capacity_mah": 5000
+  },
+  "charging": {
+   "wired_w": 33
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    }
+   ],
+   "front": "8 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 163.8,
+    "width_mm": 75.1,
+    "depth_mm": 7.99
+   },
+   "weight_g": 188.0
+  },
+  "software": {
+   "launch_os": "ColorOS 13"
+  }
+ },
+ "oppo-a78": {
+  "display": {
+   "size_in": 6.43,
+   "type": "AMOLED",
+   "resolution": "2400 × 1080",
+   "refresh_hz": 90,
+   "peak_nits": 430
+  },
+  "platform": {
+   "chipset_name": "Snapdragon 680"
+  },
+  "memory": {
+   "ram_gb": [
+    8
+   ],
+   "storage_gb": [
+    256
+   ]
+  },
+  "battery": {
+   "capacity_mah": 5000
+  },
+  "charging": {
+   "wired_w": 67
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    }
+   ],
+   "front": "8 MP"
+  },
+  "connectivity": {
+   "cellular": "4G"
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 160.01,
+    "width_mm": 73.23,
+    "depth_mm": 7.93
+   },
+   "weight_g": 180.0
+  },
+  "software": {
+   "launch_os": "ColorOS 13.1"
+  }
+ },
+ "oppo-a98-5g": {
+  "display": {
+   "size_in": 6.72,
+   "type": "LCD",
+   "resolution": "2400 × 1080",
+   "refresh_hz": 120,
+   "peak_nits": 680
+  },
+  "platform": {
+   "chipset_name": "Snapdragon 695"
+  },
+  "memory": {
+   "ram_gb": [
+    8
+   ],
+   "storage_gb": [
+    256
+   ]
+  },
+  "battery": {
+   "capacity_mah": 5000
+  },
+  "charging": {
+   "wired_w": 67
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 64
+    },
+    {
+     "role": "monochrome",
+     "mp": 2
+    }
+   ],
+   "front": "32 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 165.6,
+    "width_mm": 76.1,
+    "depth_mm": 8.2
+   },
+   "weight_g": 192.0
+  },
+  "software": {
+   "launch_os": "ColorOS 13.1"
+  }
+ },
+ "oppo-a58": {
+  "display": {
+   "size_in": 6.72,
+   "type": "LCD",
+   "resolution": "2400 × 1080",
+   "peak_nits": 680
+  },
+  "platform": {
+   "chipset_name": "Helio G85"
+  },
+  "memory": {
+   "ram_gb": [
+    6,
+    8
+   ],
+   "storage_gb": [
+    128
+   ]
+  },
+  "battery": {
+   "capacity_mah": 5000
+  },
+  "charging": {
+   "wired_w": 33
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    },
+    {
+     "role": "monochrome",
+     "mp": 2
+    }
+   ],
+   "front": "8 MP"
+  },
+  "connectivity": {
+   "cellular": "4G"
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 165.65,
+    "width_mm": 75.98,
+    "depth_mm": 7.99
+   },
+   "weight_g": 192.0
+  },
+  "software": {
+   "launch_os": "ColorOS 13.1"
+  }
+ },
+ "oppo-a38": {
+  "display": {
+   "size_in": 6.56,
+   "type": "LCD",
+   "resolution": "1612 × 720",
+   "refresh_hz": 90,
+   "peak_nits": 720
+  },
+  "platform": {
+   "chipset_name": "Helio G85"
+  },
+  "memory": {
+   "ram_gb": [
+    6
+   ],
+   "storage_gb": [
+    128
+   ]
+  },
+  "battery": {
+   "capacity_mah": 5000
+  },
+  "charging": {
+   "wired_w": 33
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    },
+    {
+     "role": "monochrome",
+     "mp": 2
+    }
+   ],
+   "front": "5 MP"
+  },
+  "connectivity": {
+   "cellular": "4G"
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 163.74,
+    "width_mm": 75.03,
+    "depth_mm": 8.16
+   },
+   "weight_g": 190.0
+  },
+  "software": {
+   "launch_os": "ColorOS 13.1"
+  }
+ },
+ "oppo-a18": {
+  "display": {
+   "size_in": 6.56,
+   "type": "LCD",
+   "resolution": "1612 × 720",
+   "refresh_hz": 90,
+   "peak_nits": 720
+  },
+  "platform": {
+   "chipset_name": "Helio G85"
+  },
+  "memory": {
+   "ram_gb": [
+    4
+   ],
+   "storage_gb": [
+    128
+   ]
+  },
+  "battery": {
+   "capacity_mah": 5000
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 8
+    },
+    {
+     "role": "monochrome",
+     "mp": 2
+    }
+   ],
+   "front": "5 MP"
+  },
+  "connectivity": {
+   "cellular": "4G"
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 163.74,
+    "width_mm": 75.03,
+    "depth_mm": 8.16
+   },
+   "weight_g": 188.0
+  },
+  "software": {
+   "launch_os": "ColorOS 13.1"
+  }
+ },
+ "oppo-a79-5g": {
+  "display": {
+   "size_in": 6.72,
+   "type": "LCD",
+   "resolution": "2400 × 1080",
+   "refresh_hz": 90,
+   "peak_nits": 680
+  },
+  "platform": {
+   "chipset_name": "MT6833"
+  },
+  "memory": {
+   "ram_gb": [
+    8
+   ],
+   "storage_gb": [
+    256
+   ]
+  },
+  "battery": {
+   "capacity_mah": 5000
+  },
+  "charging": {
+   "wired_w": 33
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    }
+   ],
+   "front": "8 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 165.6,
+    "width_mm": 76.0,
+    "depth_mm": 7.99
+   },
+   "weight_g": 193.0
+  },
+  "software": {
+   "launch_os": "ColorOS 13.1"
+  }
+ },
+ "oppo-a60": {
+  "display": {
+   "size_in": 6.67,
+   "type": "LCD",
+   "resolution": "1604 × 720",
+   "refresh_hz": 90,
+   "peak_nits": 950
+  },
+  "platform": {
+   "chipset_name": "Snapdragon 680"
+  },
+  "memory": {
+   "ram_gb": [
+    8
+   ],
+   "storage_gb": [
+    128,
+    256
+   ]
+  },
+  "battery": {
+   "capacity_mah": 5000
+  },
+  "charging": {
+   "wired_w": 45
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    }
+   ],
+   "front": "8 MP"
+  },
+  "connectivity": {
+   "cellular": "4G"
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 165.71,
+    "width_mm": 76.02,
+    "depth_mm": 7.68
+   },
+   "weight_g": 186.0
+  },
+  "software": {
+   "launch_os": "ColorOS 14.0.1"
+  }
+ },
+ "oppo-reno10": {
+  "display": {
+   "size_in": 6.7,
+   "type": "AMOLED",
+   "resolution": "2412 × 1080",
+   "refresh_hz": 120,
+   "peak_nits": 950
+  },
+  "platform": {
+   "chipset_name": "Dimensity 7050"
+  },
+  "memory": {
+   "ram_gb": [
+    8
+   ],
+   "storage_gb": [
+    256
+   ]
+  },
+  "battery": {
+   "capacity_mah": 5000
+  },
+  "charging": {
+   "wired_w": 67
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 64
+    },
+    {
+     "role": "telephoto",
+     "mp": 32
+    },
+    {
+     "role": "ultrawide",
+     "mp": 8
+    }
+   ],
+   "front": "32 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 162.43,
+    "width_mm": 74.19,
+    "depth_mm": 7.99
+   },
+   "weight_g": 185.0
+  },
+  "software": {
+   "launch_os": "ColorOS 13.1"
+  }
+ },
+ "oppo-reno10-pro": {
+  "display": {
+   "size_in": 6.7,
+   "type": "AMOLED",
+   "resolution": "2412 × 1080",
+   "refresh_hz": 120,
+   "peak_nits": 950
+  },
+  "platform": {
+   "chipset_name": "Snapdragon 778"
+  },
+  "memory": {
+   "ram_gb": [
+    12
+   ],
+   "storage_gb": [
+    256
+   ]
+  },
+  "battery": {
+   "capacity_mah": 4600
+  },
+  "charging": {
+   "wired_w": 80
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    },
+    {
+     "role": "telephoto",
+     "mp": 32
+    },
+    {
+     "role": "ultrawide",
+     "mp": 8
+    }
+   ],
+   "front": "32 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 162.3,
+    "width_mm": 74.2,
+    "depth_mm": 7.89
+   },
+   "weight_g": 185.0
+  },
+  "software": {
+   "launch_os": "ColorOS 13.1"
+  }
+ },
+ "oppo-reno10-pro-plus": {
+  "display": {
+   "size_in": 6.74,
+   "type": "AMOLED",
+   "resolution": "2772 × 1240",
+   "refresh_hz": 120,
+   "peak_nits": 1400
+  },
+  "platform": {
+   "chipset_name": "Snapdragon 8+ Gen 1"
+  },
+  "memory": {
+   "ram_gb": [
+    12
+   ],
+   "storage_gb": [
+    256
+   ]
+  },
+  "battery": {
+   "capacity_mah": 4700
+  },
+  "charging": {
+   "wired_w": 100
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    },
+    {
+     "role": "telephoto",
+     "mp": 64
+    },
+    {
+     "role": "ultrawide",
+     "mp": 8
+    }
+   ],
+   "front": "32 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 162.9,
+    "width_mm": 74.0,
+    "depth_mm": 8.28
+   },
+   "weight_g": 194.0
+  },
+  "software": {
+   "launch_os": "ColorOS 13.1"
+  }
+ },
+ "oppo-find-n3": {
+  "display": {
+   "size_in": 7.82,
+   "type": "OLED",
+   "resolution": "2440 × 2268",
+   "refresh_hz": 120,
+   "peak_nits": 2800
+  },
+  "platform": {
+   "chipset_name": "Snapdragon 8 Gen 2"
+  },
+  "memory": {
+   "ram_gb": [
+    16
+   ],
+   "storage_gb": [
+    512
+   ]
+  },
+  "battery": {
+   "capacity_mah": 4805
+  },
+  "charging": {
+   "wired_w": 67
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 48
+    },
+    {
+     "role": "telephoto",
+     "mp": 64
+    },
+    {
+     "role": "telephoto",
+     "mp": 16
+    },
+    {
+     "role": "ultrawide",
+     "mp": 48
+    }
+   ],
+   "front": "20 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "weight_g": 245.0
+  },
+  "software": {
+   "launch_os": "ColorOS 13.2"
+  }
+ },
+ "oppo-find-n3-flip": {
+  "display": {
+   "size_in": 6.8,
+   "type": "AMOLED",
+   "resolution": "2520 × 1080",
+   "refresh_hz": 120,
+   "peak_nits": 1600
+  },
+  "platform": {
+   "chipset_name": "Dimensity 9200"
+  },
+  "memory": {
+   "ram_gb": [
+    12
+   ],
+   "storage_gb": [
+    256
+   ]
+  },
+  "battery": {
+   "capacity_mah": 4300
+  },
+  "charging": {
+   "wired_w": 44
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    },
+    {
+     "role": "telephoto",
+     "mp": 32
+    },
+    {
+     "role": "ultrawide",
+     "mp": 48
+    }
+   ],
+   "front": "32 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "weight_g": 198.0
+  },
+  "software": {
+   "launch_os": "ColorOS 13.2"
+  }
+ },
+ "oppo-reno11": {
+  "display": {
+   "size_in": 6.7,
+   "type": "OLED",
+   "resolution": "2412 × 1080",
+   "refresh_hz": 120,
+   "peak_nits": 800
+  },
+  "platform": {
+   "chipset_name": "Dimensity 7050"
+  },
+  "memory": {
+   "ram_gb": [
+    12
+   ],
+   "storage_gb": [
+    256
+   ]
+  },
+  "battery": {
+   "capacity_mah": 5000
+  },
+  "charging": {
+   "wired_w": 67
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    },
+    {
+     "role": "telephoto",
+     "mp": 32
+    }
+   ],
+   "front": "32 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 162.4,
+    "width_mm": 74.3,
+    "depth_mm": 7.99
+   },
+   "weight_g": 182.0
+  },
+  "software": {
+   "launch_os": "ColorOS 14.0"
+  }
+ },
+ "oppo-reno11-pro": {
+  "display": {
+   "size_in": 6.7,
+   "type": "OLED",
+   "resolution": "2412 × 1080",
+   "refresh_hz": 120,
+   "peak_nits": 950
+  },
+  "platform": {
+   "chipset_name": "Dimensity 8200"
+  },
+  "memory": {
+   "ram_gb": [
+    12
+   ],
+   "storage_gb": [
+    512
+   ]
+  },
+  "battery": {
+   "capacity_mah": 4600
+  },
+  "charging": {
+   "wired_w": 80
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    },
+    {
+     "role": "ultrawide",
+     "mp": 8
+    },
+    {
+     "role": "telephoto",
+     "mp": 32
+    }
+   ],
+   "front": "32 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 162.4,
+    "width_mm": 74.1,
+    "depth_mm": 7.59
+   },
+   "weight_g": 181.0
+  },
+  "software": {
+   "launch_os": "ColorOS 14.0"
+  }
+ },
+ "oppo-a3-pro-5g": {
+  "display": {
+   "size_in": 6.67,
+   "type": "LCD",
+   "resolution": "1604 × 720",
+   "refresh_hz": 120,
+   "peak_nits": 1000
+  },
+  "platform": {
+   "chipset_name": "Dimensity 6300"
+  },
+  "memory": {
+   "ram_gb": [
+    6,
+    8
+   ],
+   "storage_gb": [
+    128,
+    256
+   ]
+  },
+  "battery": {
+   "capacity_mah": 5100
+  },
+  "charging": {
+   "wired_w": 45
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    }
+   ],
+   "front": "8 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 165.79,
+    "width_mm": 76.14,
+    "depth_mm": 7.68
+   },
+   "weight_g": 186.0
+  },
+  "software": {
+   "launch_os": "ColorOS 14.0.1"
+  }
+ },
+ "oppo-a3": {
+  "display": {
+   "size_in": 6.67,
+   "type": "LCD",
+   "resolution": "1604 × 720",
+   "refresh_hz": 90,
+   "peak_nits": 1000
+  },
+  "platform": {
+   "chipset_name": "Snapdragon 6s 4G Gen1"
+  },
+  "memory": {
+   "ram_gb": [
+    8
+   ],
+   "storage_gb": [
+    128,
+    256
+   ]
+  },
+  "battery": {
+   "capacity_mah": 5100
+  },
+  "charging": {
+   "wired_w": 45
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    }
+   ],
+   "front": "5 MP"
+  },
+  "connectivity": {
+   "cellular": "4G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 165.77,
+    "width_mm": 76.08,
+    "depth_mm": 7.68
+   },
+   "weight_g": 186.0
+  },
+  "software": {
+   "launch_os": "ColorOS 14.0"
+  }
+ },
+ "oppo-a3x": {
+  "display": {
+   "size_in": 6.67,
+   "type": "LCD",
+   "resolution": "1604 × 720",
+   "refresh_hz": 90,
+   "peak_nits": 1000
+  },
+  "platform": {
+   "chipset_name": "Snapdragon 6s 4G Gen1"
+  },
+  "memory": {
+   "ram_gb": [
+    4,
+    6
+   ],
+   "storage_gb": [
+    64,
+    128
+   ]
+  },
+  "battery": {
+   "capacity_mah": 5100
+  },
+  "charging": {
+   "wired_w": 45
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 8
+    }
+   ],
+   "front": "5 MP"
+  },
+  "connectivity": {
+   "cellular": "4G"
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 165.77,
+    "width_mm": 76.08,
+    "depth_mm": 7.68
+   },
+   "weight_g": 186.0
+  },
+  "software": {
+   "launch_os": "ColorOS 14.0"
+  }
+ },
+ "oppo-a3-5g": {
+  "display": {
+   "size_in": 6.67,
+   "type": "LCD",
+   "resolution": "1604 × 720",
+   "refresh_hz": 120,
+   "peak_nits": 1000
+  },
+  "platform": {
+   "chipset_name": "Dimensity 6300"
+  },
+  "memory": {
+   "ram_gb": [
+    6
+   ],
+   "storage_gb": [
+    128
+   ]
+  },
+  "battery": {
+   "capacity_mah": 5100
+  },
+  "charging": {
+   "wired_w": 45
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    }
+   ],
+   "front": "5 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 165.71,
+    "width_mm": 76.02,
+    "depth_mm": 7.68
+   },
+   "weight_g": 187.0
+  },
+  "software": {
+   "launch_os": "ColorOS 14.0.1"
+  }
+ },
+ "oppo-reno12": {
+  "display": {
+   "size_in": 6.7,
+   "type": "AMOLED",
+   "resolution": "2412 × 1080",
+   "refresh_hz": 120,
+   "peak_nits": 1200
+  },
+  "platform": {
+   "chipset_name": "Dimensity 7300"
+  },
+  "memory": {
+   "ram_gb": [
+    12
+   ],
+   "storage_gb": [
+    512
+   ]
+  },
+  "battery": {
+   "capacity_mah": 5000
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    },
+    {
+     "role": "ultrawide",
+     "mp": 8
+    },
+    {
+     "role": "macro",
+     "mp": 2
+    }
+   ],
+   "front": "32 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 161.4,
+    "width_mm": 74.1,
+    "depth_mm": 7.57
+   },
+   "weight_g": 177.0
+  },
+  "software": {
+   "launch_os": "ColorOS 14.1"
+  }
+ },
+ "oppo-reno12-pro": {
+  "display": {
+   "size_in": 6.7,
+   "type": "AMOLED",
+   "resolution": "2412 × 1080",
+   "refresh_hz": 120,
+   "peak_nits": 1200
+  },
+  "platform": {
+   "chipset_name": "Dimensity 7300"
+  },
+  "memory": {
+   "ram_gb": [
+    12
+   ],
+   "storage_gb": [
+    512
+   ]
+  },
+  "battery": {
+   "capacity_mah": 5000
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    },
+    {
+     "role": "ultrawide",
+     "mp": 8
+    },
+    {
+     "role": "telephoto",
+     "mp": 50
+    }
+   ],
+   "front": "50 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 161.5,
+    "width_mm": 74.8,
+    "depth_mm": 7.4
+   },
+   "weight_g": 180.0
+  },
+  "software": {
+   "launch_os": "ColorOS 14.1"
+  }
+ },
+ "oppo-reno12-f-5g": {
+  "display": {
+   "size_in": 6.67,
+   "type": "OLED",
+   "resolution": "2400 × 1080",
+   "refresh_hz": 120,
+   "peak_nits": 2100
+  },
+  "platform": {
+   "chipset_name": "Dimensity 6300"
+  },
+  "memory": {
+   "ram_gb": [
+    12
+   ],
+   "storage_gb": [
+    256,
+    512
+   ]
+  },
+  "battery": {
+   "capacity_mah": 5000
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    },
+    {
+     "role": "ultrawide",
+     "mp": 8
+    },
+    {
+     "role": "macro",
+     "mp": 2
+    }
+   ],
+   "front": "32 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 163.1,
+    "width_mm": 75.8,
+    "depth_mm": 7.76
+   },
+   "weight_g": 187.0
+  },
+  "software": {
+   "launch_os": "ColorOS 14.0"
+  }
+ },
+ "oppo-find-x8": {
+  "display": {
+   "size_in": 6.59,
+   "type": "AMOLED",
+   "resolution": "2760 × 1256",
+   "refresh_hz": 120,
+   "peak_nits": 4500
+  },
+  "platform": {
+   "chipset_name": "Dimensity 9400"
+  },
+  "memory": {
+   "ram_gb": [
+    16
+   ],
+   "storage_gb": [
+    512
+   ]
+  },
+  "battery": {
+   "capacity_mah": 5630
+  },
+  "charging": {
+   "wired_w": 80,
+   "wireless_w": 50
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "ultrawide",
+     "mp": 50
+    },
+    {
+     "role": "main",
+     "mp": 50
+    },
+    {
+     "role": "telephoto",
+     "mp": 50
+    }
+   ],
+   "front": "32 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 157.35,
+    "width_mm": 74.33,
+    "depth_mm": 7.85
+   },
+   "weight_g": 193.0
+  },
+  "software": {
+   "launch_os": "ColorOS 15.0"
+  }
+ },
+ "oppo-find-x8-pro": {
+  "display": {
+   "size_in": 6.78,
+   "type": "AMOLED",
+   "resolution": "2780 × 1264",
+   "refresh_hz": 120,
+   "peak_nits": 4500
+  },
+  "platform": {
+   "chipset_name": "Dimensity 9400"
+  },
+  "memory": {
+   "ram_gb": [
+    16
+   ],
+   "storage_gb": [
+    512
+   ]
+  },
+  "battery": {
+   "capacity_mah": 5910
+  },
+  "charging": {
+   "wired_w": 80,
+   "wireless_w": 50
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "ultrawide",
+     "mp": 50
+    },
+    {
+     "role": "main",
+     "mp": 50
+    },
+    {
+     "role": "telephoto",
+     "mp": 50
+    }
+   ],
+   "front": "32 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 162.27,
+    "width_mm": 76.67,
+    "depth_mm": 8.24
+   },
+   "weight_g": 215.0
+  },
+  "software": {
+   "launch_os": "ColorOS 15.0"
+  }
+ },
+ "oppo-reno13": {
+  "display": {
+   "size_in": 6.59,
+   "type": "AMOLED",
+   "resolution": "2760 × 1256",
+   "refresh_hz": 120,
+   "peak_nits": 1200
+  },
+  "platform": {
+   "chipset_name": "Dimensity 8350"
+  },
+  "memory": {
+   "ram_gb": [
+    12
+   ],
+   "storage_gb": [
+    256,
+    512
+   ]
+  },
+  "battery": {
+   "capacity_mah": 5600
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    },
+    {
+     "role": "ultrawide",
+     "mp": 8
+    },
+    {
+     "role": "monochrome",
+     "mp": 2
+    }
+   ],
+   "front": "50 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 157.9,
+    "width_mm": 74.73,
+    "depth_mm": 7.24
+   },
+   "weight_g": 181.0
+  },
+  "software": {
+   "launch_os": "ColorOS 15.0"
+  }
+ },
+ "oppo-reno13-pro": {
+  "display": {
+   "size_in": 6.83,
+   "type": "AMOLED",
+   "resolution": "2800 × 1272",
+   "refresh_hz": 120,
+   "peak_nits": 1200
+  },
+  "platform": {
+   "chipset_name": "Dimensity 8350"
+  },
+  "memory": {
+   "ram_gb": [
+    12
+   ],
+   "storage_gb": [
+    512
+   ]
+  },
+  "battery": {
+   "capacity_mah": 5800
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    },
+    {
+     "role": "ultrawide",
+     "mp": 8
+    },
+    {
+     "role": "telephoto",
+     "mp": 50
+    }
+   ],
+   "front": "50 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 162.73,
+    "width_mm": 76.55,
+    "depth_mm": 7.55
+   },
+   "weight_g": 195.0
+  },
+  "software": {
+   "launch_os": "ColorOS 15.0"
+  }
+ },
+ "oppo-reno13-f-5g": {
+  "display": {
+   "size_in": 6.67,
+   "type": "AMOLED",
+   "resolution": "2400 × 1080",
+   "refresh_hz": 120,
+   "peak_nits": 1200
+  },
+  "platform": {
+   "chipset_name": "Snapdragon 6 Gen 1"
+  },
+  "memory": {
+   "ram_gb": [
+    8,
+    12
+   ],
+   "storage_gb": [
+    256,
+    512
+   ]
+  },
+  "battery": {
+   "capacity_mah": 5800
+  },
+  "charging": {
+   "wired_w": 45
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    },
+    {
+     "role": "ultrawide",
+     "mp": 8
+    },
+    {
+     "role": "macro",
+     "mp": 2
+    }
+   ],
+   "front": "32 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 162.2,
+    "width_mm": 75.05,
+    "depth_mm": 7.76
+   },
+   "weight_g": 192.0
+  },
+  "software": {
+   "launch_os": "ColorOS 15.0"
+  }
+ },
+ "oppo-find-n5": {
+  "display": {
+   "size_in": 8.12,
+   "type": "AMOLED",
+   "resolution": "2480 × 2248",
+   "refresh_hz": 120,
+   "peak_nits": 2450
+  },
+  "platform": {
+   "chipset_name": "Snapdragon 8 Elite"
+  },
+  "memory": {
+   "ram_gb": [
+    16
+   ],
+   "storage_gb": [
+    512
+   ]
+  },
+  "battery": {
+   "capacity_mah": 5600
+  },
+  "charging": {
+   "wired_w": 80,
+   "wireless_w": 50
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    },
+    {
+     "role": "telephoto",
+     "mp": 50
+    },
+    {
+     "role": "ultrawide",
+     "mp": 8
+    }
+   ],
+   "front": "8 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 160.87,
+    "width_mm": 74.42,
+    "depth_mm": 8.93
+   },
+   "weight_g": 229.0
+  },
+  "software": {
+   "launch_os": "ColorOS 15.0.1"
+  }
+ },
+ "oppo-a5-pro": {
+  "display": {
+   "size_in": 6.67,
+   "type": "LCD",
+   "resolution": "1604 × 720",
+   "refresh_hz": 90,
+   "peak_nits": 1000
+  },
+  "platform": {
+   "chipset_name": "Snapdragon 6s 4G Gen1"
+  },
+  "memory": {
+   "ram_gb": [
+    8
+   ],
+   "storage_gb": [
+    256
+   ]
+  },
+  "battery": {
+   "capacity_mah": 5800
+  },
+  "charging": {
+   "wired_w": 45
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    },
+    {
+     "role": "monochrome",
+     "mp": 2
+    }
+   ],
+   "front": "8 MP"
+  },
+  "connectivity": {
+   "cellular": "4G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 164.82,
+    "width_mm": 75.53,
+    "depth_mm": 7.76
+   },
+   "weight_g": 194.0
+  },
+  "software": {
+   "launch_os": "ColorOS 15.0"
+  }
+ },
+ "oppo-a5-pro-5g": {
+  "display": {
+   "size_in": 6.67,
+   "type": "LCD",
+   "resolution": "1604 × 720",
+   "refresh_hz": 120,
+   "peak_nits": 1000
+  },
+  "platform": {
+   "chipset_name": "Dimensity 6300"
+  },
+  "memory": {
+   "ram_gb": [
+    8
+   ],
+   "storage_gb": [
+    256
+   ]
+  },
+  "battery": {
+   "capacity_mah": 5800
+  },
+  "charging": {
+   "wired_w": 45
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    },
+    {
+     "role": "monochrome",
+     "mp": 2
+    }
+   ],
+   "front": "8 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 164.82,
+    "width_mm": 75.53,
+    "depth_mm": 7.76
+   },
+   "weight_g": 194.0
+  },
+  "software": {
+   "launch_os": "ColorOS 15.0"
+  }
+ },
+ "oppo-a5": {
+  "display": {
+   "size_in": 6.67,
+   "type": "LCD",
+   "resolution": "1604 × 720",
+   "refresh_hz": 90,
+   "peak_nits": 1000
+  },
+  "platform": {
+   "chipset_name": "Snapdragon 6s 4G Gen 1"
+  },
+  "memory": {
+   "ram_gb": [
+    8
+   ],
+   "storage_gb": [
+    128,
+    256
+   ]
+  },
+  "battery": {
+   "capacity_mah": 6000
+  },
+  "charging": {
+   "wired_w": 45
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    },
+    {
+     "role": "monochrome",
+     "mp": 2
+    }
+   ],
+   "front": "5 MP"
+  },
+  "connectivity": {
+   "cellular": "4G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 165.71,
+    "width_mm": 76.24,
+    "depth_mm": 7.99
+   },
+   "weight_g": 193.0
+  },
+  "software": {
+   "launch_os": "ColorOS 15.0"
+  }
+ },
+ "oppo-a5-5g": {
+  "display": {
+   "size_in": 6.67,
+   "type": "LCD",
+   "resolution": "1604 × 720",
+   "refresh_hz": 120,
+   "peak_nits": 1000
+  },
+  "platform": {
+   "chipset_name": "Dimensity 6300"
+  },
+  "memory": {
+   "ram_gb": [
+    8
+   ],
+   "storage_gb": [
+    256
+   ]
+  },
+  "battery": {
+   "capacity_mah": 6000
+  },
+  "charging": {
+   "wired_w": 45
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    },
+    {
+     "role": "monochrome",
+     "mp": 2
+    }
+   ],
+   "front": "8 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 165.71,
+    "width_mm": 76.24,
+    "depth_mm": 7.99
+   },
+   "weight_g": 194.0
+  },
+  "software": {
+   "launch_os": "ColorOS 15.0"
+  }
+ },
+ "oppo-a5i": {
+  "display": {
+   "size_in": 6.67,
+   "type": "LCD",
+   "resolution": "1604 × 720",
+   "refresh_hz": 90,
+   "peak_nits": 1000
+  },
+  "platform": {
+   "chipset_name": "Snapdragon 6s 4G Gen1"
+  },
+  "memory": {
+   "ram_gb": [
+    4,
+    6
+   ],
+   "storage_gb": [
+    128
+   ]
+  },
+  "battery": {
+   "capacity_mah": 5100
+  },
+  "charging": {
+   "wired_w": 45
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 8
+    }
+   ],
+   "front": "5 MP"
+  },
+  "connectivity": {
+   "cellular": "4G"
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 165.77,
+    "width_mm": 76.08,
+    "depth_mm": 7.68
+   },
+   "weight_g": 186.0
+  },
+  "software": {
+   "launch_os": "ColorOS 14.0"
+  }
+ },
+ "oppo-a5i-pro-5g": {
+  "display": {
+   "size_in": 6.67,
+   "type": "LCD",
+   "resolution": "1604 × 720",
+   "refresh_hz": 120,
+   "peak_nits": 1000
+  },
+  "platform": {
+   "chipset_name": "Dimensity 6300"
+  },
+  "memory": {
+   "ram_gb": [
+    8
+   ],
+   "storage_gb": [
+    256
+   ]
+  },
+  "battery": {
+   "capacity_mah": 6000
+  },
+  "charging": {
+   "wired_w": 45
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    },
+    {
+     "role": "monochrome",
+     "mp": 2
+    }
+   ],
+   "front": "8 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 165.71,
+    "width_mm": 76.24,
+    "depth_mm": 7.99
+   },
+   "weight_g": 194.0
+  },
+  "software": {
+   "launch_os": "ColorOS 15.0.1"
+  }
+ },
+ "oppo-reno14": {
+  "display": {
+   "size_in": 6.59,
+   "type": "AMOLED",
+   "resolution": "2760 × 1256",
+   "refresh_hz": 120,
+   "peak_nits": 1200
+  },
+  "platform": {
+   "chipset_name": "Dimensity 8350"
+  },
+  "memory": {
+   "ram_gb": [
+    12
+   ],
+   "storage_gb": [
+    256,
+    512
+   ]
+  },
+  "battery": {
+   "capacity_mah": 6000
+  },
+  "charging": {
+   "wired_w": 80
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    },
+    {
+     "role": "ultrawide",
+     "mp": 8
+    },
+    {
+     "role": "telephoto",
+     "mp": 50
+    }
+   ],
+   "front": "50 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 157.9,
+    "width_mm": 74.73,
+    "depth_mm": 7.42
+   },
+   "weight_g": 187.0
+  },
+  "software": {
+   "launch_os": "ColorOS 15.0"
+  }
+ },
+ "oppo-reno14-pro": {
+  "display": {
+   "size_in": 6.83,
+   "type": "AMOLED",
+   "resolution": "2800 × 1272",
+   "refresh_hz": 120,
+   "peak_nits": 1200
+  },
+  "platform": {
+   "chipset_name": "Dimensity 8450"
+  },
+  "memory": {
+   "ram_gb": [
+    12
+   ],
+   "storage_gb": [
+    512
+   ]
+  },
+  "battery": {
+   "capacity_mah": 6200
+  },
+  "charging": {
+   "wired_w": 80,
+   "wireless_w": 50
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    },
+    {
+     "role": "ultrawide",
+     "mp": 50
+    },
+    {
+     "role": "telephoto",
+     "mp": 50
+    }
+   ],
+   "front": "50 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 163.35,
+    "width_mm": 76.98,
+    "depth_mm": 7.48
+   },
+   "weight_g": 201.0
+  },
+  "software": {
+   "launch_os": "ColorOS 15.0"
+  }
+ },
+ "oppo-reno14-f-5g": {
+  "display": {
+   "size_in": 6.57,
+   "type": "AMOLED",
+   "resolution": "2372 × 1080",
+   "refresh_hz": 120,
+   "peak_nits": 1400
+  },
+  "platform": {
+   "chipset_name": "Snapdragon 6 Gen 1"
+  },
+  "memory": {
+   "ram_gb": [
+    8,
+    12
+   ],
+   "storage_gb": [
+    256,
+    512
+   ]
+  },
+  "battery": {
+   "capacity_mah": 6000
+  },
+  "charging": {
+   "wired_w": 45
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    },
+    {
+     "role": "ultrawide",
+     "mp": 8
+    },
+    {
+     "role": "macro",
+     "mp": 2
+    }
+   ],
+   "front": "32 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 158.12,
+    "width_mm": 74.97,
+    "depth_mm": 7.78
+   },
+   "weight_g": 180.0
+  },
+  "software": {
+   "launch_os": "ColorOS 15.0"
+  }
+ },
+ "oppo-find-x9": {
+  "display": {
+   "size_in": 6.59,
+   "type": "AMOLED",
+   "resolution": "2760 × 1256",
+   "refresh_hz": 120,
+   "peak_nits": 1800
+  },
+  "platform": {
+   "chipset_name": "Dimensity 9500"
+  },
+  "memory": {
+   "ram_gb": [
+    16
+   ],
+   "storage_gb": [
+    512
+   ]
+  },
+  "battery": {
+   "capacity_mah": 7025
+  },
+  "charging": {
+   "wired_w": 80,
+   "wireless_w": 50
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "ultrawide",
+     "mp": 50
+    },
+    {
+     "role": "main",
+     "mp": 50
+    },
+    {
+     "role": "telephoto",
+     "mp": 50
+    },
+    {
+     "role": "monochrome",
+     "mp": 2
+    }
+   ],
+   "front": "32 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 156.98,
+    "width_mm": 73.93,
+    "depth_mm": 7.99
+   },
+   "weight_g": 203.0
+  },
+  "software": {
+   "launch_os": "ColorOS 16.0"
+  }
+ },
+ "oppo-a6-pro-5g": {
+  "display": {
+   "size_in": 6.57,
+   "type": "AMOLED",
+   "resolution": "2372 × 1080",
+   "refresh_hz": 120,
+   "peak_nits": 1400
+  },
+  "platform": {
+   "chipset_name": "Dimensity 6300"
+  },
+  "memory": {
+   "ram_gb": [
+    8
+   ],
+   "storage_gb": [
+    256
+   ]
+  },
+  "battery": {
+   "capacity_mah": 6500
+  },
+  "charging": {
+   "wired_w": 80
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    },
+    {
+     "role": "monochrome",
+     "mp": 2
+    }
+   ],
+   "front": "16 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 158.2,
+    "width_mm": 75.02,
+    "depth_mm": 8.0
+   },
+   "weight_g": 185.0
+  },
+  "software": {
+   "launch_os": "ColorOS 15.0"
+  }
+ },
+ "oppo-a6x": {
+  "display": {
+   "size_in": 6.75,
+   "type": "LCD",
+   "resolution": "1570 × 720",
+   "refresh_hz": 120,
+   "peak_nits": 1125
+  },
+  "platform": {
+   "chipset_name": "Snapdragon 685"
+  },
+  "memory": {
+   "ram_gb": [
+    4,
+    6
+   ],
+   "storage_gb": [
+    64,
+    128,
+    256
+   ]
+  },
+  "battery": {
+   "capacity_mah": 6500
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 13
+    }
+   ],
+   "front": "5 MP"
+  },
+  "connectivity": {
+   "cellular": "4G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 166.61,
+    "width_mm": 78.51,
+    "depth_mm": 8.61
+   },
+   "weight_g": 210.0
+  },
+  "software": {
+   "launch_os": "ColorOS 15.0"
+  }
+ },
+ "oppo-a6x-5g": {
+  "display": {
+   "size_in": 6.75,
+   "type": "LCD",
+   "resolution": "1570 × 720",
+   "refresh_hz": 120,
+   "peak_nits": 1125
+  },
+  "platform": {
+   "chipset_name": "Dimensity 6300"
+  },
+  "memory": {
+   "ram_gb": [
+    6
+   ],
+   "storage_gb": [
+    256
+   ]
+  },
+  "battery": {
+   "capacity_mah": 6500
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    },
+    {
+     "role": "monochrome",
+     "mp": 2
+    }
+   ],
+   "front": "5 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 166.61,
+    "width_mm": 78.51,
+    "depth_mm": 8.61
+   },
+   "weight_g": 212.0
+  },
+  "software": {
+   "launch_os": "ColorOS 15.0"
+  }
+ },
+ "oppo-a6t-5g": {
+  "display": {
+   "size_in": 6.75,
+   "type": "LCD",
+   "resolution": "1570 × 720",
+   "refresh_hz": 120,
+   "peak_nits": 1125
+  },
+  "platform": {
+   "chipset_name": "Dimensity 6300"
+  },
+  "memory": {
+   "ram_gb": [
+    6
+   ],
+   "storage_gb": [
+    256
+   ]
+  },
+  "battery": {
+   "capacity_mah": 6500
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    },
+    {
+     "role": "monochrome",
+     "mp": 2
+    }
+   ],
+   "front": "5 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 166.61,
+    "width_mm": 78.51,
+    "depth_mm": 8.61
+   },
+   "weight_g": 212.0
+  },
+  "software": {
+   "launch_os": "ColorOS 15.0"
+  }
+ },
+ "oppo-a6-5g": {
+  "display": {
+   "size_in": 6.75,
+   "type": "LCD",
+   "resolution": "1570 × 720",
+   "refresh_hz": 120,
+   "peak_nits": 1125
+  },
+  "platform": {
+   "chipset_name": "Dimensity 6300"
+  },
+  "memory": {
+   "ram_gb": [
+    8
+   ],
+   "storage_gb": [
+    256,
+    512
+   ]
+  },
+  "battery": {
+   "capacity_mah": 7000
+  },
+  "charging": {
+   "wired_w": 45
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    },
+    {
+     "role": "monochrome",
+     "mp": 2
+    }
+   ],
+   "front": "8 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 166.61,
+    "width_mm": 78.51,
+    "depth_mm": 8.61
+   },
+   "weight_g": 216.0
+  },
+  "software": {
+   "launch_os": "ColorOS 15.0"
+  }
+ },
+ "oppo-a6c": {
+  "display": {
+   "size_in": 6.75,
+   "type": "LCD",
+   "resolution": "1570 × 720",
+   "refresh_hz": 120,
+   "peak_nits": 900
+  },
+  "platform": {
+   "chipset_name": "UNISOC T7250"
+  },
+  "memory": {
+   "ram_gb": [
+    4
+   ],
+   "storage_gb": [
+    64,
+    128
+   ]
+  },
+  "battery": {
+   "capacity_mah": 7000
+  },
+  "charging": {
+   "wired_w": 15
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 13
+    }
+   ],
+   "front": "5 MP"
+  },
+  "connectivity": {
+   "cellular": "4G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 166.48,
+    "width_mm": 78.23,
+    "depth_mm": 8.95
+   },
+   "weight_g": 215.0
+  }
+ },
+ "oppo-reno15": {
+  "display": {
+   "size_in": 6.59,
+   "type": "AMOLED",
+   "resolution": "2760 × 1256",
+   "refresh_hz": 120,
+   "peak_nits": 1200
+  },
+  "platform": {
+   "chipset_name": "Snapdragon 7 Gen 4"
+  },
+  "memory": {
+   "ram_gb": [
+    12
+   ],
+   "storage_gb": [
+    256,
+    512
+   ]
+  },
+  "battery": {
+   "capacity_mah": 6500
+  },
+  "charging": {
+   "wired_w": 80
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "ultrawide",
+     "mp": 8
+    },
+    {
+     "role": "main",
+     "mp": 50
+    },
+    {
+     "role": "telephoto",
+     "mp": 50
+    }
+   ],
+   "front": "50 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 158.0,
+    "width_mm": 74.83,
+    "depth_mm": 7.77
+   },
+   "weight_g": 197.0
+  },
+  "software": {
+   "launch_os": "ColorOS 16.0"
+  }
+ },
+ "oppo-reno15-pro": {
+  "display": {
+   "size_in": 6.32,
+   "type": "AMOLED",
+   "resolution": "2640 × 1216",
+   "refresh_hz": 120,
+   "peak_nits": 1800
+  },
+  "platform": {
+   "chipset_name": "Dimensity 8450"
+  },
+  "memory": {
+   "ram_gb": [
+    12
+   ],
+   "storage_gb": [
+    512
+   ]
+  },
+  "battery": {
+   "capacity_mah": 6200
+  },
+  "charging": {
+   "wired_w": 80
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "ultrawide",
+     "mp": 50
+    },
+    {
+     "role": "main",
+     "mp": 200
+    },
+    {
+     "role": "telephoto",
+     "mp": 50
+    }
+   ],
+   "front": "50 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 151.21,
+    "width_mm": 72.42,
+    "depth_mm": 7.99
+   },
+   "weight_g": 187.0
+  },
+  "software": {
+   "launch_os": "ColorOS 16.0"
+  }
+ },
+ "oppo-reno15-f": {
+  "display": {
+   "size_in": 6.57,
+   "type": "AMOLED",
+   "resolution": "2372 × 1080",
+   "refresh_hz": 120,
+   "peak_nits": 1400
+  },
+  "platform": {
+   "chipset_name": "Snapdragon 6 Gen 1"
+  },
+  "memory": {
+   "ram_gb": [
+    8,
+    12
+   ],
+   "storage_gb": [
+    256
+   ]
+  },
+  "battery": {
+   "capacity_mah": 7000
+  },
+  "charging": {
+   "wired_w": 80
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "ultrawide",
+     "mp": 8
+    },
+    {
+     "role": "main",
+     "mp": 50
+    },
+    {
+     "role": "macro",
+     "mp": 2
+    }
+   ],
+   "front": "50 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 158.18,
+    "width_mm": 74.93,
+    "depth_mm": 8.14
+   },
+   "weight_g": 195.0
+  },
+  "software": {
+   "launch_os": "ColorOS 16.0"
+  }
+ },
+ "oppo-find-n6": {
+  "display": {
+   "size_in": 8.12,
+   "type": "AMOLED",
+   "resolution": "2480 × 2248",
+   "refresh_hz": 120,
+   "peak_nits": 1800
+  },
+  "platform": {
+   "chipset_name": "Snapdragon 8 Elite Gen 5"
+  },
+  "memory": {
+   "ram_gb": [
+    16
+   ],
+   "storage_gb": [
+    512
+   ]
+  },
+  "battery": {
+   "capacity_mah": 6000
+  },
+  "charging": {
+   "wired_w": 80,
+   "wireless_w": 50
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "ultrawide",
+     "mp": 50
+    },
+    {
+     "role": "main",
+     "mp": 200
+    },
+    {
+     "role": "telephoto",
+     "mp": 50
+    },
+    {
+     "role": "monochrome",
+     "mp": 2
+    }
+   ],
+   "front": "20 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 159.87,
+    "width_mm": 74.12,
+    "depth_mm": 8.93
+   },
+   "weight_g": 225.0
+  },
+  "software": {
+   "launch_os": "ColorOS 16.0"
+  }
+ },
+ "oppo-find-x9-ultra": {
+  "display": {
+   "size_in": 6.82,
+   "type": "AMOLED",
+   "resolution": "3168 × 1440",
+   "refresh_hz": 144,
+   "peak_nits": 1800
+  },
+  "platform": {
+   "chipset_name": "Snapdragon 8 Elite Gen 5"
+  },
+  "memory": {
+   "ram_gb": [
+    12,
+    16
+   ],
+   "storage_gb": [
+    512,
+    1024
+   ]
+  },
+  "battery": {
+   "capacity_mah": 7050
+  },
+  "charging": {
+   "wired_w": 100,
+   "wireless_w": 50
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "ultrawide",
+     "mp": 50
+    },
+    {
+     "role": "main",
+     "mp": 200
+    },
+    {
+     "role": "telephoto",
+     "mp": 200
+    },
+    {
+     "role": "telephoto",
+     "mp": 50
+    },
+    {
+     "role": "monochrome",
+     "mp": 3.2
+    }
+   ],
+   "front": "50 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 163.16,
+    "width_mm": 76.97,
+    "depth_mm": 8.65
+   },
+   "weight_g": 235.0
+  },
+  "software": {
+   "launch_os": "ColorOS 16.0"
+  }
+ },
+ "oppo-find-x9s": {
+  "display": {
+   "size_in": 6.59,
+   "type": "AMOLED",
+   "resolution": "2760 × 1256",
+   "refresh_hz": 120,
+   "peak_nits": 1800
+  },
+  "platform": {
+   "chipset_name": "Dimensity 9500"
+  },
+  "memory": {
+   "ram_gb": [
+    12
+   ],
+   "storage_gb": [
+    512
+   ]
+  },
+  "battery": {
+   "capacity_mah": 7025
+  },
+  "charging": {
+   "wired_w": 80
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "ultrawide",
+     "mp": 50
+    },
+    {
+     "role": "main",
+     "mp": 50
+    },
+    {
+     "role": "telephoto",
+     "mp": 50
+    }
+   ],
+   "front": "32 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 156.98,
+    "width_mm": 73.93,
+    "depth_mm": 7.99
+   },
+   "weight_g": 202.0
+  },
+  "software": {
+   "launch_os": "ColorOS 16.0"
+  }
+ },
+ "oppo-reno16": {
+  "display": {
+   "size_in": 6.32,
+   "type": "AMOLED",
+   "resolution": "2640 × 1216",
+   "refresh_hz": 120,
+   "peak_nits": 1800
+  },
+  "platform": {
+   "chipset_name": "Snapdragon 7 Gen 4"
+  },
+  "memory": {
+   "ram_gb": [
+    8,
+    12
+   ],
+   "storage_gb": [
+    256,
+    512
+   ]
+  },
+  "battery": {
+   "capacity_mah": 6700
+  },
+  "charging": {
+   "wired_w": 80
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "ultrawide",
+     "mp": 50
+    },
+    {
+     "role": "main",
+     "mp": 50
+    },
+    {
+     "role": "telephoto",
+     "mp": 50
+    }
+   ],
+   "front": "50 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 151.21,
+    "width_mm": 72.42,
+    "depth_mm": 8.36
+   },
+   "weight_g": 193.0
+  },
+  "software": {
+   "launch_os": "ColorOS 16.0"
+  }
+ },
+ "oppo-reno16-pro": {
+  "display": {
+   "size_in": 6.32,
+   "type": "AMOLED",
+   "resolution": "2640 × 1216",
+   "refresh_hz": 144,
+   "peak_nits": 1800
+  },
+  "platform": {
+   "chipset_name": "Dimensity 8550"
+  },
+  "memory": {
+   "ram_gb": [
+    12
+   ],
+   "storage_gb": [
+    256
+   ]
+  },
+  "battery": {
+   "capacity_mah": 6700
+  },
+  "charging": {
+   "wired_w": 80
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "ultrawide",
+     "mp": 50
+    },
+    {
+     "role": "main",
+     "mp": 200
+    },
+    {
+     "role": "telephoto",
+     "mp": 50
+    }
+   ],
+   "front": "50 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 151.21,
+    "width_mm": 72.42,
+    "depth_mm": 8.36
+   },
+   "weight_g": 191.0
+  },
+  "software": {
+   "launch_os": "ColorOS 16.0"
+  }
+ },
+ "oppo-reno16-f": {
+  "display": {
+   "size_in": 6.57,
+   "type": "AMOLED",
+   "resolution": "2372 × 1080",
+   "refresh_hz": 120,
+   "peak_nits": 1400
+  },
+  "platform": {
+   "chipset_name": "Dimensity 7300"
+  },
+  "memory": {
+   "ram_gb": [
+    8
+   ],
+   "storage_gb": [
+    128,
+    256
+   ]
+  },
+  "battery": {
+   "capacity_mah": 7000
+  },
+  "charging": {
+   "wired_w": 80
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "ultrawide",
+     "mp": 8
+    },
+    {
+     "role": "main",
+     "mp": 50
+    },
+    {
+     "role": "telephoto",
+     "mp": 50
+    }
+   ],
+   "front": "50 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 158.16,
+    "width_mm": 74.93,
+    "depth_mm": 8.58
+   },
+   "weight_g": 197.0
+  },
+  "software": {
+   "launch_os": "ColorOS 16.0"
+  }
+ },
+ "oppo-watch-x": {
+  "display": {
+   "size_in": 1.43,
+   "type": "AMOLED",
+   "resolution": "466 × 466"
+  },
+  "battery": {
+   "life_h": 100,
+   "capacity_mah": 500
+  },
+  "connectivity": {
+   "gps": "Built-in GNSS",
+   "nfc": true,
+   "cellular": "LTE option"
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 47.0,
+    "width_mm": 46.6,
+    "depth_mm": 12.1
+   },
+   "weight_g": 49.0,
+   "water": "5 ATM",
+   "water_m": 50,
+   "ip": "IP68"
+  },
+  "software": {
+   "launch_os": "Wear OS 4 + RTOS"
+  }
+ },
+ "oppo-watch-x2": {
+  "display": {
+   "size_in": 1.5,
+   "type": "LTPO AMOLED",
+   "resolution": "466 × 466",
+   "peak_nits": 2200
+  },
+  "battery": {
+   "life_h": 120,
+   "capacity_mah": 648
+  },
+  "connectivity": {
+   "gps": "Built-in GNSS",
+   "nfc": true,
+   "cellular": "LTE option"
+  },
+  "build": {
+   "weight_g": 49.7,
+   "water": "5 ATM",
+   "water_m": 50,
+   "ip": "IP68"
+  },
+  "software": {
+   "launch_os": "ColorOS Watch 7.0 + Wear OS 5.0"
+  }
+ },
+ "oppo-watch-x2-mini": {
+  "display": {
+   "size_in": 1.32,
+   "type": "AMOLED",
+   "resolution": "466 × 466",
+   "peak_nits": 1000
+  },
+  "battery": {
+   "life_h": 60,
+   "capacity_mah": 354
+  },
+  "connectivity": {
+   "gps": "Built-in GNSS",
+   "nfc": true,
+   "cellular": "LTE option"
+  },
+  "build": {
+   "weight_g": 37.8,
+   "water": "5 ATM",
+   "water_m": 50,
+   "ip": "IP68"
+  },
+  "software": {
+   "launch_os": "Wear OS by Google + RTOS"
+  }
+ },
+ "oppo-watch-s": {
+  "display": {
+   "size_in": 1.46,
+   "type": "AMOLED",
+   "resolution": "464 × 464",
+   "peak_nits": 3000
+  },
+  "battery": {
+   "life_h": 168,
+   "capacity_mah": 339
+  },
+  "connectivity": {
+   "gps": "Built-in GNSS",
+   "nfc": true,
+   "cellular": "LTE option"
+  },
+  "build": {
+   "weight_g": 35.0,
+   "water": "5 ATM",
+   "water_m": 50,
+   "ip": "IP68"
+  }
+ },
+ "oppo-watch-x3": {
+  "display": {
+   "size_in": 1.5,
+   "type": "LTPO AMOLED",
+   "resolution": "466 × 466",
+   "peak_nits": 3000
+  },
+  "battery": {
+   "life_h": 120,
+   "capacity_mah": 646
+  },
+  "connectivity": {
+   "gps": "Built-in GNSS",
+   "nfc": true,
+   "cellular": "LTE option"
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 47.4,
+    "width_mm": 47.4,
+    "depth_mm": 11.0
+   },
+   "weight_g": 43.0,
+   "water": "5 ATM",
+   "water_m": 50,
+   "ip": "IP69"
+  },
+  "software": {
+   "launch_os": "ColorOS 15"
+  }
+ }
+}

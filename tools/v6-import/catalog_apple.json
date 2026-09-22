@@ -1,0 +1,236 @@
+[
+ {
+  "id": "apple-iphone-15",
+  "brand": "apple",
+  "name": "Apple iPhone 15",
+  "category": "smartphone",
+  "series": "iPhone",
+  "form": "bar",
+  "spec": [
+   "https://support.apple.com/en-my/111831"
+  ],
+  "q": "iPhone 15",
+  "year": null
+ },
+ {
+  "id": "apple-iphone-15-plus",
+  "brand": "apple",
+  "name": "Apple iPhone 15 Plus",
+  "category": "smartphone",
+  "series": "iPhone",
+  "form": "bar",
+  "spec": [
+   "https://support.apple.com/en-my/111830"
+  ],
+  "q": "iPhone 15 Plus",
+  "year": null
+ },
+ {
+  "id": "apple-iphone-15-pro",
+  "brand": "apple",
+  "name": "Apple iPhone 15 Pro",
+  "category": "smartphone",
+  "series": "iPhone",
+  "form": "bar",
+  "spec": [
+   "https://support.apple.com/en-my/111829"
+  ],
+  "q": "iPhone 15 Pro",
+  "year": null
+ },
+ {
+  "id": "apple-iphone-15-pro-max",
+  "brand": "apple",
+  "name": "Apple iPhone 15 Pro Max",
+  "category": "smartphone",
+  "series": "iPhone",
+  "form": "bar",
+  "spec": [
+   "https://support.apple.com/en-my/111828"
+  ],
+  "q": "iPhone 15 Pro Max",
+  "year": null
+ },
+ {
+  "id": "apple-iphone-16",
+  "brand": "apple",
+  "name": "Apple iPhone 16",
+  "category": "smartphone",
+  "series": "iPhone",
+  "form": "bar",
+  "spec": [
+   "https://support.apple.com/en-my/121029"
+  ],
+  "q": "iPhone 16",
+  "year": null
+ },
+ {
+  "id": "apple-iphone-16-plus",
+  "brand": "apple",
+  "name": "Apple iPhone 16 Plus",
+  "category": "smartphone",
+  "series": "iPhone",
+  "form": "bar",
+  "spec": [
+   "https://support.apple.com/en-my/121030"
+  ],
+  "q": "iPhone 16 Plus",
+  "year": null
+ },
+ {
+  "id": "apple-iphone-16-pro",
+  "brand": "apple",
+  "name": "Apple iPhone 16 Pro",
+  "category": "smartphone",
+  "series": "iPhone",
+  "form": "bar",
+  "spec": [
+   "https://support.apple.com/en-my/121031"
+  ],
+  "q": "iPhone 16 Pro",
+  "year": null
+ },
+ {
+  "id": "apple-iphone-16e",
+  "brand": "apple",
+  "name": "Apple iPhone 16e",
+  "category": "smartphone",
+  "series": "iPhone",
+  "form": "bar",
+  "spec": [
+   "https://support.apple.com/en-my/122208"
+  ],
+  "q": "iPhone 16e",
+  "year": null
+ },
+ {
+  "id": "apple-iphone-air",
+  "brand": "apple",
+  "name": "Apple iPhone Air",
+  "category": "smartphone",
+  "series": "iPhone",
+  "form": "bar",
+  "spec": [
+   "https://support.apple.com/en-my/125092"
+  ],
+  "q": "iPhone Air",
+  "year": null
+ },
+ {
+  "id": "apple-iphone-17e",
+  "brand": "apple",
+  "name": "Apple iPhone 17e",
+  "category": "smartphone",
+  "series": "iPhone",
+  "form": "bar",
+  "spec": [
+   "https://support.apple.com/en-my/126470"
+  ],
+  "q": "iPhone 17e",
+  "year": null
+ },
+ {
+  "id": "apple-iphone-18-pro",
+  "brand": "apple",
+  "name": "Apple iPhone 18 Pro",
+  "category": "smartphone",
+  "series": "iPhone",
+  "form": "bar",
+  "spec": [
+   "https://support.apple.com/en-my/148590"
+  ],
+  "q": "iPhone 18 Pro",
+  "year": null
+ },
+ {
+  "id": "apple-iphone-duo",
+  "brand": "apple",
+  "name": "Apple iPhone Duo",
+  "category": "smartphone",
+  "series": "iPhone",
+  "form": "foldable",
+  "spec": [
+   "https://www.apple.com/my/iphone-duo/specs/"
+  ],
+  "q": "iPhone Duo",
+  "must": "iphone-duo"
+ },
+ {
+  "id": "apple-watch-series-9",
+  "brand": "apple",
+  "name": "Apple Watch Series 9",
+  "category": "smartwatch",
+  "series": "Apple Watch",
+  "form": "watch",
+  "spec": [
+   "https://support.apple.com/en-my/111833"
+  ],
+  "q": "Apple Watch Series 9",
+  "year": null
+ },
+ {
+  "id": "apple-watch-ultra-2",
+  "brand": "apple",
+  "name": "Apple Watch Ultra 2",
+  "category": "smartwatch",
+  "series": "Apple Watch",
+  "form": "watch",
+  "spec": [
+   "https://support.apple.com/en-my/111832"
+  ],
+  "q": "Apple Watch Ultra 2",
+  "year": null
+ },
+ {
+  "id": "apple-watch-series-10",
+  "brand": "apple",
+  "name": "Apple Watch Series 10",
+  "category": "smartwatch",
+  "series": "Apple Watch",
+  "form": "watch",
+  "spec": [
+   "https://support.apple.com/en-my/121202"
+  ],
+  "q": "Apple Watch Series 10",
+  "year": null
+ },
+ {
+  "id": "apple-watch-se-3",
+  "brand": "apple",
+  "name": "Apple Watch SE 3",
+  "category": "smartwatch",
+  "series": "Apple Watch",
+  "form": "watch",
+  "spec": [
+   "https://support.apple.com/en-my/125094"
+  ],
+  "q": "Apple Watch SE 3",
+  "year": null
+ },
+ {
+  "id": "apple-watch-series-12",
+  "brand": "apple",
+  "name": "Apple Watch Series 12",
+  "category": "smartwatch",
+  "series": "Apple Watch",
+  "form": "watch",
+  "spec": [
+   "https://support.apple.com/en-my/148589"
+  ],
+  "q": "Apple Watch Series 12",
+  "year": null
+ },
+ {
+  "id": "apple-watch-ultra-4",
+  "brand": "apple",
+  "name": "Apple Watch Ultra 4",
+  "category": "smartwatch",
+  "series": "Apple Watch",
+  "form": "watch",
+  "spec": [
+   "https://support.apple.com/en-my/148758"
+  ],
+  "q": "Apple Watch Ultra 4",
+  "year": null
+ }
+]

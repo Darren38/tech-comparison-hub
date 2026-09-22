@@ -1,0 +1,64 @@
+{
+  "id": "xiaomi-smart-band-9-active",
+  "name": "Xiaomi Smart Band 9 Active",
+  "brand": "xiaomi",
+  "category": "band",
+  "series": "Band",
+  "form": "band",
+  "status": "released",
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-18",
+      "source": "xiaomi",
+      "url": "https://www.mi.com/my/product/xiaomi-smart-band-9-active/specs/",
+      "note": "Sold in Malaysia, but no launch price was found in Malaysian launch coverage."
+    }
+  },
+  "image": {
+    "kind": "official",
+    "src": "https://i02.appmifile.com/487_item_my/29/08/2025/dc5bef0ad15cbebba46574360f9af398.png",
+    "page": "https://www.mi.com/my/product/xiaomi-smart-band-9-active/specs/",
+    "credit": "Xiaomi Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 1.47,
+      "type": "TFT",
+      "resolution": "320 × 172"
+    },
+    "battery": {
+      "life_h": 432,
+      "capacity_mah": 300
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 45.9,
+        "width_mm": 26.94,
+        "depth_mm": 9.99
+      },
+      "weight_g": 16.5,
+      "water": "5 ATM",
+      "water_m": 50
+    },
+    "misc": {
+      "colors": "Black, Beige White, Pink, Purple, Green, DisplayDisplay, 1.47\" TFT display"
+    },
+    "sensors": "PPG sensor, Accelerometer, Motor: ERM",
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.3"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "xiaomi",
+      "url": "https://www.mi.com/my/product/xiaomi-smart-band-9-active/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from Xiaomi Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {}
+  },
+  "dataStatus": "compiled"
+}

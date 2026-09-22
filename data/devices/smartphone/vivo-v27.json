@@ -1,0 +1,150 @@
+{
+  "id": "vivo-v27",
+  "name": "vivo V27",
+  "brand": "vivo",
+  "category": "smartphone",
+  "series": "V",
+  "form": "bar",
+  "status": "released",
+  "announced": "2023-03-31",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1799,
+      "config": "8 GB / 256 GB",
+      "date": "2023-03-31",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2023/03/31/vivo-v27-malaysia-50mp-selfie-camera-huge-6-78-screen-and-mediatek-dimensity-7200/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1999,
+      "config": "12 GB / 256 GB",
+      "date": "2023-03-31",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2023/03/31/vivo-v27-malaysia-50mp-selfie-camera-huge-6-78-screen-and-mediatek-dimensity-7200/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 6.78,
+      "type": "AMOLED",
+      "resolution": "2400 × 1080",
+      "ppi": 388
+    },
+    "platform": {
+      "chipset": "dimensity-7200"
+    },
+    "memory": {
+      "ram_gb": [
+        8,
+        12
+      ],
+      "storage_gb": [
+        256
+      ]
+    },
+    "battery": {
+      "capacity_mah": 4600
+    },
+    "charging": {
+      "wired_w": 66,
+      "claim": "66W (11V/6A)"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50
+        },
+        {
+          "role": "ultrawide",
+          "mp": 8
+        },
+        {
+          "role": "macro",
+          "mp": 2
+        }
+      ],
+      "rear_text": "Rear: 50 MP OIS + 8 MP wide-angle + 2 MP macro",
+      "front": "50 MP",
+      "rear_detail": [
+        "50 MP"
+      ],
+      "front_detail": [
+        "50 MP"
+      ]
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true,
+      "bands_2g": "GSM850/900/1800/1900 MHz",
+      "bands_3g": "B1/B2/B4/B5/B8",
+      "bands_4g": "4G TDD-LTE: B38/B39/B40/B41; 4G FDD-LTE: B1/B2/B3/B4/B5/B7/B8/B18/B19/B20/B26/B28",
+      "bands_5g": "5G: n1/n3/n5/n7/n8/n20/n28/n38/n40/n41/n77/n78",
+      "technology": "GSM / HSPA / LTE / 5G",
+      "sim": "2 nano SIMs",
+      "wifi": "2.4 GHz, 5 GHz",
+      "bluetooth": "Bluetooth 5.3",
+      "usb": "Type-C",
+      "positioning": "GPS, BEIDOU, GLONASS, GALILEO, QZSS"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 164.1,
+        "width_mm": 74.8,
+        "depth_mm": 7.36
+      },
+      "weight_g": 180.0
+    },
+    "software": {
+      "launch_os": "Funtouch OS 13 Global"
+    },
+    "misc": {
+      "colors": "Noble Black, Flowing Gold, Emerald Green, Body"
+    },
+    "sensors": "Fingerprint, In-display fingerprint sensor, Accelerometer, Ambient Light Sensor, Proximity Sensor, E-compass, Gyroscope",
+    "biometrics": {
+      "fingerprint": "In-display fingerprint sensor"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "vivo",
+      "url": "https://www.vivo.com/my/products/param/v27",
+      "checked": "2026-09-18",
+      "note": "Read from vivo Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2023/03/31/vivo-v27-malaysia-50mp-selfie-camera-huge-6-78-screen-and-mediatek-dimensity-7200/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1677483569524/b46fae449c0d665e4235dd3a2d5aa548.png",
+    "page": "https://www.vivo.com/my/products/param/v27",
+    "credit": "vivo Malaysia",
+    "checked": "2026-09-19"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "snapdragon-4-gen-4",
+  "name": "Snapdragon 4 Gen 4",
+  "vendor": "qualcomm",
+  "family": "Snapdragon 4 series",
+  "summary": "Name recorded from phone makers' specification pages and launch reports. Chip details have not been compiled yet.",
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "redmi",
+      "url": "https://www.mi.com/my/product/redmi-note-17-5g/specs/",
+      "checked": "2026-09-18",
+      "note": "Chip name as given for the Redmi Note 17 5G."
+    }
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "id": "redmi-note-13",
+  "name": "Redmi Note 13",
+  "brand": "redmi",
+  "category": "smartphone",
+  "series": "Redmi Note",
+  "form": "bar",
+  "status": "released",
+  "announced": "2024-01-15",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 749,
+      "config": "6 GB / 128 GB",
+      "date": "2024-01-15",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2024/01/15/redmi-note-13-malaysia-price-specs-freebies/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 899,
+      "config": "8 GB / 256 GB",
+      "date": "2024-01-15",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2024/01/15/redmi-note-13-malaysia-price-specs-freebies/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://i02.appmifile.com/696_item_my/02/04/2024/9b4bdd6ff845d55644d83034f898e796.png",
+    "page": "https://www.mi.com/my/product/redmi-note-13/specs/",
+    "credit": "Xiaomi Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.67,
+      "type": "AMOLED",
+      "resolution": "2400 × 1080",
+      "refresh_hz": 120,
+      "peak_nits": 1800,
+      "protection": "Corning Gorilla Glass 3",
+      "ppi": 395
+    },
+    "platform": {
+      "chipset": "snapdragon-685",
+      "gpu": "Adreno 610",
+      "cpu": "Octa-core CPU, up to 2.8GHz"
+    },
+    "memory": {
+      "ram_gb": [
+        6,
+        8
+      ],
+      "storage_gb": [
+        128,
+        256
+      ],
+      "ram_type": "LPDDR4X",
+      "storage_type": "UFS2.2"
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "charging": {
+      "wired_w": 33,
+      "claim": "Supports 33W fast charging; 33W fast charger in box"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 108,
+          "aperture": "f/1.75"
+        },
+        {
+          "role": "ultrawide",
+          "mp": 8
+        },
+        {
+          "role": "macro",
+          "mp": 2
+        }
+      ],
+      "front": "16 MP",
+      "rear_detail": [
+        "108MP main camera, 0.64μm, 9in1 1.92μm, f/1.75",
+        "8MP ultra-wide camera, f/2.2",
+        "2MP macro camera"
+      ],
+      "video": "1080p@30fps",
+      "front_detail": [
+        "16MP front camera, f/2.4"
+      ],
+      "front_video": "1080p@30fps"
+    },
+    "connectivity": {
+      "cellular": "4G",
+      "bands_3g": "1/5/8",
+      "bands_4g": "LTE FDD: 1/3/5/7/8/20/28; LTE TDD: 38/40/41",
+      "technology": "HSPA / LTE",
+      "wifi": "802.11a/b/g/n/ac",
+      "positioning": "L1; GLONASS: G1; BDS: B1I; Galileo E1",
+      "sim": "SIM 1 + Hybrid (SIM or MicroSD)",
+      "bluetooth": "Bluetooth 5.1",
+      "usb": "USB-C"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 162.24,
+        "width_mm": 75.55,
+        "depth_mm": 7.97
+      },
+      "weight_g": 188.5,
+      "ip": "IP54"
+    },
+    "software": {
+      "launch_os": "MIUI 14"
+    },
+    "sensors": "Proximity sensor, Ambient light sensor, Accelerometer, Electronic compass, IR blaster, Gyroscope",
+    "audio": {
+      "speakers": "Dual speakers",
+      "jack": true
+    },
+    "biometrics": {
+      "fingerprint": "In-screen fingerprint sensor"
+    },
+    "misc": {
+      "colors": "Midnight Black, Mint Green, Ocean Sunset"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "redmi",
+      "url": "https://www.mi.com/my/product/redmi-note-13/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from Xiaomi Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2024/01/15/redmi-note-13-malaysia-price-specs-freebies/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

@@ -1,0 +1,110 @@
+{
+  "id": "vivo-x300",
+  "name": "vivo X300",
+  "brand": "vivo",
+  "category": "smartphone",
+  "series": "vivo X",
+  "form": "bar",
+  "status": "released",
+  "announced": "2025-10-13",
+  "released": "2025-10",
+  "segment": "flagship",
+  "aliases": [
+    "X300"
+  ],
+  "summary": "Compact 6.3-inch sibling of the X300 Pro, with a 200 MP main camera and the same Dimensity 9500.",
+  "highlights": [
+    "Compact 6.31-inch body",
+    "200 MP main camera",
+    "Dimensity 9500"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 3599,
+      "config": "12 GB / 256 GB",
+      "date": "2025-11-13",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/11/13/vivo-x300-series-pro-malaysia-price-specs-launch/",
+      "class": "news",
+      "accessed": "2026-09-16"
+    }
+  ],
+  "image": {
+    "kind": "photo",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/The_back_of_the_colorful_vivo_X300.jpg/500px-The_back_of_the_colorful_vivo_X300.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:The_back_of_the_colorful_vivo_X300.jpg",
+    "title": "The back of the colorful vivo X300",
+    "author": "X-SHLIED",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "checked": "2026-09-17"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.31,
+      "type": "LTPO AMOLED",
+      "resolution": "2640 × 1216",
+      "ppi": 460,
+      "refresh_hz": 120
+    },
+    "platform": {
+      "chipset": "dimensity-9500"
+    },
+    "memory": {
+      "ram_gb": [
+        12,
+        16
+      ],
+      "storage_gb": [
+        256,
+        512
+      ]
+    },
+    "battery": {
+      "capacity_mah": 6040
+    },
+    "charging": {
+      "wired_w": 90,
+      "wireless_w": 40
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 200,
+          "sensor": "1/1.4\"",
+          "note": "Samsung HPB"
+        },
+        {
+          "role": "ultrawide",
+          "mp": 50
+        },
+        {
+          "role": "periscope",
+          "mp": 50,
+          "zoom_x": 3
+        }
+      ],
+      "zoom_optical_x": 3
+    },
+    "build": {
+      "ip": "IP68 + IP69"
+    },
+    "software": {
+      "launch_os": "Android 16, OriginOS"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "database",
+      "source": "vivo",
+      "url": "https://www.vivo.com/en",
+      "note": "Compiled from launch coverage; not re-checked against vivo's page."
+    },
+    "fields": {}
+  },
+  "dataStatus": "compiled"
+}

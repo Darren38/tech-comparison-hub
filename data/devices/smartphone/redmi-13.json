@@ -1,0 +1,142 @@
+{
+  "id": "redmi-13",
+  "name": "Redmi 13",
+  "brand": "redmi",
+  "category": "smartphone",
+  "series": "Redmi",
+  "form": "bar",
+  "status": "released",
+  "announced": "2024-06-07",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 699,
+      "date": "2024-06-07",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2024/324079/xiaomi-redmi-13-launch-malaysia/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://i02.appmifile.com/939_item_my/06/06/2024/742c0bea2e407385b2bf34a262b9885f.png",
+    "page": "https://www.mi.com/my/product/redmi-13/specs/",
+    "credit": "Xiaomi Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.79,
+      "resolution": "2460 × 1080",
+      "refresh_hz": 90,
+      "peak_nits": 550,
+      "ppi": 396
+    },
+    "platform": {
+      "chipset": "helio-g91",
+      "gpu": "Mali-G52 MC2",
+      "cpu": "Cortex-A55+Cortex-A75; Max CPU frequency: 2.0GHz"
+    },
+    "memory": {
+      "ram_gb": [
+        6,
+        8
+      ],
+      "storage_gb": [
+        128,
+        256
+      ],
+      "ram_type": "LPDDR4X"
+    },
+    "battery": {
+      "capacity_mah": 5030
+    },
+    "charging": {
+      "wired_w": 33,
+      "claim": "Supports 33W fast charging"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 108,
+          "aperture": "f/1.75"
+        },
+        {
+          "role": "macro",
+          "mp": 2
+        }
+      ],
+      "front": "13 MP",
+      "rear_detail": [
+        "108MP super-clear main camera, 6P lens, f/1.75",
+        "2MP macro camera, f/2.4",
+        "filmCamera; Custom Frame; 108MP mode; HDR mode; Night mode, Portrait mode; Time-lapse"
+      ],
+      "video": "1080p@30fps",
+      "front_detail": [
+        "13MP front camera, f/2.45"
+      ],
+      "front_video": "1080p@30fps"
+    },
+    "connectivity": {
+      "cellular": "4G",
+      "bands_3g": "1/5/8",
+      "bands_4g": "LTE FDD: 1/3/5/7/8/20/28; LTE TDD: 38/40/41",
+      "technology": "HSPA / LTE",
+      "wifi": "2.4GHz; 5GHz; Supports FM radio(with headphone jack)",
+      "positioning": "GPS; Glonass; Galileo; Beidou",
+      "sim": "SIM1 + Hybrid (SIM or microSD)",
+      "bluetooth": "Bluetooth 5.4",
+      "usb": "USB Type-C"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 168.6,
+        "width_mm": 76.28,
+        "depth_mm": 8.3
+      },
+      "weight_g": 205.0
+    },
+    "software": {
+      "launch_os": "Xiaomi HyperOS"
+    },
+    "sensors": "Virtual proximity sensor, Ambient light sensor, Accelerometer, Electronic compass",
+    "audio": {
+      "jack": true
+    },
+    "biometrics": {
+      "fingerprint": "Side fingerprint sensor"
+    },
+    "misc": {
+      "colors": "Midnight Black, Sandy Gold, Pearl Pink, Ocean Blue"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "redmi",
+      "url": "https://www.mi.com/my/product/redmi-13/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from Xiaomi Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "lowyat",
+        "url": "https://www.lowyat.net/2024/324079/xiaomi-redmi-13-launch-malaysia/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (Lowyat.NET). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

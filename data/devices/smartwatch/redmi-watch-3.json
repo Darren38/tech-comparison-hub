@@ -1,0 +1,81 @@
+{
+  "id": "redmi-watch-3",
+  "name": "Redmi Watch 3",
+  "brand": "redmi",
+  "category": "smartwatch",
+  "series": "Watch",
+  "form": "watch",
+  "status": "released",
+  "announced": "2023-04-06",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 429,
+      "date": "2023-04-06",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2023/298041/redmi-watch-3-now-available-in-malaysia-for-rm429/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 1.75,
+      "type": "AMOLED",
+      "resolution": "450 × 390",
+      "peak_nits": 600
+    },
+    "battery": {
+      "life_h": 288,
+      "capacity_mah": 289
+    },
+    "connectivity": {
+      "gps": "Built-in GNSS",
+      "bluetooth": "Bluetooth 5.2"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 42.58,
+        "width_mm": 36.56,
+        "depth_mm": 9.99
+      },
+      "water": "5 ATM",
+      "water_m": 50
+    },
+    "sensors": "Heart rate sensor (with blood oxygen sensor), accelerometer, gyroscope, geomagnetic sensor, Satellite positioning systems, Beidou/GPS/GLONASS/Galileo/QZSS",
+    "audio": {
+      "speakers": "5ATM water resistant"
+    },
+    "misc": {
+      "colors": "Black, Ivory"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "redmi",
+      "url": "https://www.mi.com/my/product/redmi-watch-3/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from Xiaomi Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "lowyat",
+        "url": "https://www.lowyat.net/2023/298041/redmi-watch-3-now-available-in-malaysia-for-rm429/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (Lowyat.NET). The global announcement can be earlier."
+      }
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://i02.appmifile.com/423_operator_sg/10/03/2023/735f791f42e2d7e7db17f8b0b777965e.png",
+    "page": "https://www.mi.com/my/product/redmi-watch-3/specs/",
+    "credit": "Xiaomi",
+    "checked": "2026-09-19"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "id": "huawei-watch-fit-4",
+  "name": "Huawei Watch Fit 4",
+  "brand": "huawei",
+  "category": "smartwatch",
+  "series": "Watch",
+  "form": "watch",
+  "status": "released",
+  "announced": "2025-05-22",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 599,
+      "config": "Black, White or Purple",
+      "date": "2025-05-22",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2025/353414/huawei-watch-fit-4-series-watch-5-malaysia-rm599/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 699,
+      "config": "Grey",
+      "date": "2025-05-22",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2025/353414/huawei-watch-fit-4-series-watch-5-malaysia-rm599/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/wearables/watch-fit4/specs-purple.png",
+    "page": "https://consumer.huawei.com/my/wearables/watch-fit4/specs/",
+    "credit": "Huawei Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 1.82,
+      "type": "AMOLED",
+      "resolution": "480 × 408",
+      "peak_nits": 2000
+    },
+    "connectivity": {
+      "gps": "Built-in GNSS",
+      "nfc": true,
+      "usb": "Wireless charging; System Requirements; Android 8.0 or later; iOS 13.0 or later; Waterproof Level; 5 ATM water-resistant",
+      "bluetooth": "2.4 GHz, supports BT5.2 and BR + BLE",
+      "positioning": "L1: GPS + GLONASS + GALILEO + BDS + QZSS; L5: GPS + GALILEO + BDS +QZSS; Environment; Temperature; –20°C to +45°C; Battery Life"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 43.0,
+        "width_mm": 38.0,
+        "depth_mm": 9.5
+      },
+      "weight_g": 27.0,
+      "water": "5 ATM",
+      "water_m": 50
+    },
+    "sensors": "Accelerometer sensor, Gyroscope sensor, Magnetometer sensor, Ambient light sensor, Optical heart rate sensor, Barometer sensor, Button, Home Button (Rotating Crown) and Side Button",
+    "audio": {
+      "speakers": "Microphone"
+    },
+    "charging": {
+      "claim": "Charger Voltage and Current Requirements; 5V-9V DC/2A"
+    },
+    "misc": {
+      "colors": "Purple, Grey, White, Black"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "huawei",
+      "url": "https://consumer.huawei.com/my/wearables/watch-fit4/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from Huawei Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "lowyat",
+        "url": "https://www.lowyat.net/2025/353414/huawei-watch-fit-4-series-watch-5-malaysia-rm599/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (Lowyat.NET). The global announcement can be earlier."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

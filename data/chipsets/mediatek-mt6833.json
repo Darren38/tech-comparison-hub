@@ -1,0 +1,15 @@
+{
+  "id": "mediatek-mt6833",
+  "name": "MediaTek MT6833",
+  "vendor": "mediatek",
+  "summary": "Name recorded from phone makers' specification pages and launch reports. Chip details have not been compiled yet.",
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "oppo",
+      "url": "https://www.oppo.com/my/smartphones/series-a/a79-5g/specs/",
+      "checked": "2026-09-18",
+      "note": "Chip name as given for the OPPO A79 5G."
+    }
+  }
+}

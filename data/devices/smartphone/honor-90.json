@@ -1,0 +1,153 @@
+{
+  "id": "honor-90",
+  "name": "HONOR 90",
+  "brand": "honor",
+  "category": "smartphone",
+  "series": "Number",
+  "form": "bar",
+  "status": "released",
+  "announced": "2023-07-20",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1799,
+      "config": "256 GB",
+      "date": "2023-07-20",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2023/303982/honor-90-series-malaysia/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 2099,
+      "config": "512 GB",
+      "date": "2023-07-20",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2023/303982/honor-90-series-malaysia/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://www.honor.com/content/dam/honor/my/products/smartphone/honor-90/honor-90-share-facebook.jpg",
+    "page": "https://www.honor.com/my/phones/honor-90/spec/",
+    "credit": "HONOR Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.7,
+      "type": "AMOLED",
+      "resolution": "2664 × 1200",
+      "ppi": 436
+    },
+    "platform": {
+      "chipset": "snapdragon-7-gen-1-accelerated-edition",
+      "gpu": "Adreno 644",
+      "cpu": "Octa-core; 1×Cortex-A710 2.5GHz + 3×Cortex-A710 2.36GHz + 4×Cortex-A510 1.8GHz"
+    },
+    "memory": {
+      "ram_gb": [
+        12
+      ],
+      "storage_gb": [
+        256,
+        512
+      ]
+    },
+    "battery": {
+      "capacity_mah": 5000,
+      "chemistry": "Lithium polymer"
+    },
+    "charging": {
+      "wired_w": 66,
+      "claim": "The phone supports up to 11V/6A SuperCharge, compatible with 10V/4A,5V/2A"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 200,
+          "aperture": "f/1.9"
+        },
+        {
+          "role": "ultrawide",
+          "mp": 12
+        },
+        {
+          "role": "depth",
+          "mp": 2
+        }
+      ],
+      "front": "50 MP",
+      "rear_detail": [
+        "200MP Ultra-Clear Camera (f/1.9)",
+        "12MP Ultra Wide and Macro Camera (f/2.2)",
+        "2MP Depth Camera (f/2.4)"
+      ],
+      "features": "Digital zoom; 10x",
+      "video": "4K",
+      "front_detail": [
+        "50MP Camera(f/2.4)"
+      ]
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true,
+      "technology": "GSM / HSPA / LTE / 5G",
+      "sim": "Nano SIM Card",
+      "wifi": "802.11 a/b/g/n/ac/ax, 2x2 MIMO",
+      "bluetooth": "Bluetooth 5.2, Support Bluetooth Low Energy, SBC, AAC, LDAC, aptX, aptX HD are supported.; PC Data Sync; Supported (Computer need install HonorSuite)",
+      "positioning": "Support GPS /AGPS/GLONASS/BeiDou/Galileo; Network-Based Positioning; Wi-Fi-Based Positioning",
+      "usb": "Type-C"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 161.9,
+        "width_mm": 74.1,
+        "depth_mm": 7.8
+      },
+      "weight_g": 183.0
+    },
+    "software": {
+      "launch_os": "MagicOS 7.1 (Based on Android 13)"
+    },
+    "biometrics": {
+      "face": "Supported 2D face unlock"
+    },
+    "sensors": "Gravity Sensor, Fingerprint Sensor, Gyroscope, Compass",
+    "audio": {
+      "jack": false
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "honor",
+      "url": "https://www.honor.com/my/phones/honor-90/spec/",
+      "checked": "2026-09-18",
+      "note": "Read from HONOR Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "lowyat",
+        "url": "https://www.lowyat.net/2023/303982/honor-90-series-malaysia/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (Lowyat.NET). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

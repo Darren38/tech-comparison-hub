@@ -1,0 +1,156 @@
+/* Design tokens. Light palette on :root; dark palette via prefers-color-scheme or [data-theme="dark"]. */
+:root {
+  color-scheme: light;
+  --font-sans: "Archivo", "Segoe UI", "Helvetica Neue", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", "Cascadia Mono", "SFMono-Regular", Consolas, ui-monospace, monospace;
+
+  --bg: #f2f0eb;
+  --bg-grid: rgba(20, 22, 26, 0.05);
+  --surface: #ffffff;
+  --surface-2: #f8f7f3;
+  --surface-3: #eeebe4;
+  --ink: #14161a;
+  --ink-2: #393d45;
+  --muted: #5f646d;
+  --faint: #686d76;
+  --rule: #e0dcd3;
+  --rule-strong: #c8c2b6;
+
+  --accent: #ff4d17;
+  --accent-ink: #b8340a;
+  --accent-soft: #ffe7dd;
+  --focus: #1f5bd8;
+  --on-accent: #ffffff;
+  /* Filled accent surfaces (buttons, badges) need a darker orange to keep white text at WCAG AA. */
+  --accent-strong: #d63a0b;
+
+  /* Comparison series A–D (also marked with letters, never colour alone). */
+  --s1: #1f5bd8;
+  --s2: #c24812;
+  --s3: #0e8573;
+  --s4: #946a00;
+  --series-ink: #ffffff;
+
+  --good: #0b6f60;
+  --good-soft: #def2ec;
+  --warn: #8a5a00;
+  --warn-soft: #faefd8;
+  --bad: #b0380a;
+  --bad-soft: #fce5da;
+
+  /* Evidence classes (all at least 4.5:1 on the card surface) */
+  --c-official: #14161a;
+  --c-measured: #0b6f60;
+  --c-database: #1f5bd8;
+  --c-reviewer: #7043c4;
+  --c-news: #8a5a00;
+  --c-community: #736859;
+  --c-estimated: #b0306a;
+  --c-platform: #b8340a;
+
+  --radius: 12px;
+  --radius-sm: 7px;
+  --radius-xs: 4px;
+  --shadow: 0 1px 0 rgba(20, 22, 26, 0.04), 0 1px 3px rgba(20, 22, 26, 0.06);
+  --shadow-lg: 0 18px 50px -12px rgba(20, 22, 26, 0.22);
+
+  --sp-1: 4px;
+  --sp-2: 8px;
+  --sp-3: 12px;
+  --sp-4: 16px;
+  --sp-5: 24px;
+  --sp-6: 32px;
+  --sp-7: 48px;
+  --sp-8: 72px;
+
+  --maxw: 1320px;
+  --gutter: clamp(16px, 3.2vw, 36px);
+  --header-h: 60px;
+  --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --bg: #0d0f12;
+    --bg-grid: rgba(255, 255, 255, 0.035);
+    --surface: #15181d;
+    --surface-2: #1a1e24;
+    --surface-3: #22272e;
+    --ink: #eceef2;
+    --ink-2: #c4c8cf;
+    --muted: #8d939d;
+    --faint: #838993;
+    --rule: #272c34;
+    --rule-strong: #394049;
+    --accent: #ff6a3d;
+    --accent-ink: #ff8f69;
+    --accent-soft: rgba(255, 106, 61, 0.14);
+    --accent-strong: #ff6a3d;
+    --on-accent: #14161a;
+    --series-ink: #0d0f12;
+    --focus: #6c9bff;
+    --s1: #6392ff;
+    --s2: #ff7d4a;
+    --s3: #34c6ab;
+    --s4: #ddb13f;
+    --good: #3cc8ab;
+    --good-soft: rgba(60, 200, 171, 0.13);
+    --warn: #e2b049;
+    --warn-soft: rgba(226, 176, 73, 0.13);
+    --bad: #ff8a5c;
+    --bad-soft: rgba(255, 138, 92, 0.13);
+    --c-official: #e6e8ec;
+    --c-measured: #3cc8ab;
+    --c-database: #6f9cff;
+    --c-reviewer: #a98bf0;
+    --c-news: #e2b049;
+    --c-community: #b3a794;
+    --c-estimated: #f07aa8;
+    --c-platform: #ff6a3d;
+    --shadow: 0 1px 0 rgba(0, 0, 0, 0.3), 0 1px 3px rgba(0, 0, 0, 0.4);
+    --shadow-lg: 0 18px 50px -12px rgba(0, 0, 0, 0.7);
+  }
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #0d0f12;
+  --bg-grid: rgba(255, 255, 255, 0.035);
+  --surface: #15181d;
+  --surface-2: #1a1e24;
+  --surface-3: #22272e;
+  --ink: #eceef2;
+  --ink-2: #c4c8cf;
+  --muted: #8d939d;
+  --faint: #838993;
+  --rule: #272c34;
+  --rule-strong: #394049;
+  --accent: #ff6a3d;
+  --accent-ink: #ff8f69;
+  --accent-soft: rgba(255, 106, 61, 0.14);
+    --accent-strong: #ff6a3d;
+    --on-accent: #14161a;
+    --series-ink: #0d0f12;
+  --focus: #6c9bff;
+  --s1: #6392ff;
+  --s2: #ff7d4a;
+  --s3: #34c6ab;
+  --s4: #ddb13f;
+  --good: #3cc8ab;
+  --good-soft: rgba(60, 200, 171, 0.13);
+  --warn: #e2b049;
+  --warn-soft: rgba(226, 176, 73, 0.13);
+  --bad: #ff8a5c;
+  --bad-soft: rgba(255, 138, 92, 0.13);
+  --c-official: #e6e8ec;
+  --c-measured: #3cc8ab;
+  --c-database: #6f9cff;
+  --c-reviewer: #a98bf0;
+  --c-news: #e2b049;
+  --c-community: #b3a794;
+  --c-estimated: #f07aa8;
+  --c-platform: #ff6a3d;
+  --shadow: 0 1px 0 rgba(0, 0, 0, 0.3), 0 1px 3px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 18px 50px -12px rgba(0, 0, 0, 0.7);
+}

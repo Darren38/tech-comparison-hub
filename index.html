@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tech Comparison Hub</title>
+    <meta name="description" content="Source-aware technology comparison: specifications, independent benchmarks, reviewer findings and news for phones, tablets and watches, with every number attributed and rated for confidence." />
+    <meta name="color-scheme" content="light dark" />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&family=JetBrains+Mono:wght@400;500;600;700&display=swap" />
+    <link rel="stylesheet" href="assets/css/tokens.css" />
+    <link rel="stylesheet" href="assets/css/base.css" />
+    <link rel="stylesheet" href="assets/css/components.css" />
+    <link rel="stylesheet" href="assets/css/pages.css" />
+    <script>
+      // Apply the saved theme before first paint to avoid a flash.
+      try {
+        var t = JSON.parse(localStorage.getItem('tch.theme.v1'));
+        if (t === 'light' || t === 'dark') document.documentElement.dataset.theme = t;
+      } catch (e) {}
+    </script>
+    <script type="module" src="src/main.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#app">Skip to content</a>
+    <header class="site-header" id="site-header"></header>
+    <main id="app" class="wrap" tabindex="-1">
+      <noscript>
+        <div class="state state--error">
+          <h3>JavaScript is required</h3>
+          <p class="muted">This research hub renders its data in the browser. Enable JavaScript and reload.</p>
+        </div>
+      </noscript>
+    </main>
+    <footer class="site-footer" id="site-footer"></footer>
+    <div class="tray" id="compare-tray" hidden></div>
+    <div id="toast-root" aria-live="polite"></div>
+  </body>
+</html>

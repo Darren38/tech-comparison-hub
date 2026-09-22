@@ -1,0 +1,162 @@
+{
+  "id": "poco-m6-pro",
+  "name": "POCO M6 Pro",
+  "brand": "poco",
+  "category": "smartphone",
+  "series": "M",
+  "form": "bar",
+  "status": "released",
+  "announced": "2024-01-12",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 999,
+      "config": "8 GB / 256 GB",
+      "date": "2024-01-12",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2024/01/12/poco-m6-pro-4g-only-midranger-with-helio-g99-ultra-and-hyperos-priced-from-rm999/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1199,
+      "config": "12 GB / 512 GB",
+      "date": "2024-01-12",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2024/01/12/poco-m6-pro-4g-only-midranger-with-helio-g99-ultra-and-hyperos-priced-from-rm999/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://i02.appmifile.com/449_item_my/02/04/2024/11eeefd226e5018b72c85a6ac5831ac8.png",
+    "page": "https://www.mi.com/my/product/poco-m6-pro/specs/",
+    "credit": "Xiaomi Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.67,
+      "type": "AMOLED",
+      "resolution": "2400 × 1080",
+      "refresh_hz": 120,
+      "peak_nits": 1300,
+      "protection": "Corning Gorilla Glass 5",
+      "ppi": 395
+    },
+    "platform": {
+      "chipset": "helio-g99"
+    },
+    "memory": {
+      "ram_gb": [
+        8,
+        12
+      ],
+      "storage_gb": [
+        256,
+        512
+      ],
+      "ram_type": "LPDDR4X",
+      "storage_type": "UFS 2.2"
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "charging": {
+      "wired_w": 67,
+      "claim": "67W wired turbo charging; 67W in-box charger"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 64,
+          "sensor": "1/2\"",
+          "aperture": "f/1.79",
+          "ois": true
+        },
+        {
+          "role": "ultrawide",
+          "mp": 8
+        },
+        {
+          "role": "macro",
+          "mp": 2
+        }
+      ],
+      "front": "16 MP",
+      "rear_detail": [
+        "64MP main camera, 1/2\" sensor size, f/1.79, OIS",
+        "8MP ultra-wide camera, 118° FOV, f/2.2",
+        "2MP macro camera, f/2.4"
+      ],
+      "video": "1080p@60fps",
+      "front_detail": [
+        "16MP front camera, f/2.45"
+      ],
+      "front_video": "1080p@60fps"
+    },
+    "connectivity": {
+      "cellular": "4G",
+      "nfc": true,
+      "wifi": "802.11a/b/g/n/ac 2.4G+5GHz",
+      "positioning": "L1; GLONASS: G1; BDS: B1; Galileo: E1",
+      "sim": "SIM1 + Hybrid (SIM or MicroSD), supports dual 4G",
+      "bluetooth": "Bluetooth 5.2",
+      "usb": "USB-C"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 161.1,
+        "width_mm": 74.95,
+        "depth_mm": 7.98
+      },
+      "weight_g": 179.0,
+      "ip": "IP54"
+    },
+    "software": {
+      "launch_os": "MIUI 14"
+    },
+    "sensors": "Proximity sensor, Ambient light sensor, Accelerometer, Electronic compass, IR blaster, Gyroscope, Z-axis linear vibration motor",
+    "audio": {
+      "speakers": "Dual speakers",
+      "jack": true
+    },
+    "biometrics": {
+      "fingerprint": "In-screen fingerprint sensor"
+    },
+    "misc": {
+      "colors": "Black, Blue, Purple"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "poco",
+      "url": "https://www.mi.com/my/product/poco-m6-pro/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from Xiaomi Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2024/01/12/poco-m6-pro-4g-only-midranger-with-helio-g99-ultra-and-hyperos-priced-from-rm999/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

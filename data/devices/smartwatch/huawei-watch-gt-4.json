@@ -1,0 +1,110 @@
+{
+  "id": "huawei-watch-gt-4",
+  "name": "Huawei Watch GT 4",
+  "brand": "huawei",
+  "category": "smartwatch",
+  "series": "Watch",
+  "form": "watch",
+  "status": "released",
+  "announced": "2023-10-07",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1099,
+      "config": "46 mm, Black",
+      "date": "2023-10-07",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2023/10/07/huawei-watch-gt-4-malaysia-stylish-smartwatch-with-14-day-battery-life-starts-at-rm1099/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1199,
+      "config": "46 mm, Brown",
+      "date": "2023-10-07",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2023/10/07/huawei-watch-gt-4-malaysia-stylish-smartwatch-with-14-day-battery-life-starts-at-rm1099/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1199,
+      "config": "46 mm, Green",
+      "date": "2023-10-07",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2023/10/07/huawei-watch-gt-4-malaysia-stylish-smartwatch-with-14-day-battery-life-starts-at-rm1099/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_mm": "46 mm",
+      "size_in": 1.43,
+      "type": "AMOLED",
+      "resolution": "466 × 466"
+    },
+    "battery": {
+      "life_h": 336,
+      "claim": "Up to 14 days"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 46.0,
+        "width_mm": 46.0,
+        "depth_mm": 10.9
+      },
+      "weight_g": 48,
+      "case": "Stainless steel",
+      "water": "5 ATM",
+      "water_m": 50
+    },
+    "connectivity": {
+      "gps": "Built-in GNSS",
+      "nfc": true,
+      "usb": "Wireless charging; System Requirements; Android 8.0 or later; iOS 13.0 or later; Water-resistant Level; 5 ATM water-resistant",
+      "bluetooth": "2.4 GHz, supports BT5.2 and BR + BLE; Environment; Ambient Operating Temperature; -20℃–+45℃; Battery Life; HUAWEI WATCH GT 4 41 mm"
+    },
+    "sensors": "Accelerometer sensor, Gyroscope sensor, Magnetometer sensor, Optical heart rate sensor, Barometer sensor, Temperature sensor, Button, Home Button (Rotating Crown) and Side Button",
+    "charging": {
+      "claim": "Charger Voltage and Current Requirements; 5V-9V DC/2A"
+    },
+    "misc": {
+      "colors": "Green"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "huawei",
+      "url": "https://consumer.huawei.com/ph/wearables/watch-gt4/specs/",
+      "note": "Read from Huawei's Philippines specification page, because Huawei Malaysia no longer lists this model; it is the same hardware. Values are for the 46 mm model.",
+      "checked": "2026-09-18"
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2023/10/07/huawei-watch-gt-4-malaysia-stylish-smartwatch-with-14-day-battery-life-starts-at-rm1099/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      }
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/wearables/watch-gt4/watch-gt4/list/46mm-green.png",
+    "page": "https://consumer.huawei.com/ph/wearables/watch-gt4/specs/",
+    "credit": "Huawei",
+    "checked": "2026-09-19"
+  }
+}

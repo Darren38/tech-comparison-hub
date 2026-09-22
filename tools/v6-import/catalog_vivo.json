@@ -1,0 +1,794 @@
+[
+ {
+  "id": "vivo-x90",
+  "brand": "vivo",
+  "name": "vivo X90",
+  "category": "smartphone",
+  "series": "X",
+  "form": "bar",
+  "spec": [
+   "https://www.vivo.com/my/products/param/x90"
+  ],
+  "q": "vivo X90"
+ },
+ {
+  "id": "vivo-x90-pro",
+  "brand": "vivo",
+  "name": "vivo X90 Pro",
+  "category": "smartphone",
+  "series": "X",
+  "form": "bar",
+  "spec": [
+   "https://www.vivo.com/my/products/param/x90-pro"
+  ],
+  "q": "vivo X90 Pro"
+ },
+ {
+  "id": "vivo-v27e",
+  "brand": "vivo",
+  "name": "vivo V27e",
+  "category": "smartphone",
+  "series": "V",
+  "form": "bar",
+  "spec": [
+   "https://www.vivo.com/my/products/param/v27e"
+  ],
+  "q": "vivo V27e"
+ },
+ {
+  "id": "vivo-v27",
+  "brand": "vivo",
+  "name": "vivo V27",
+  "category": "smartphone",
+  "series": "V",
+  "form": "bar",
+  "spec": [
+   "https://www.vivo.com/my/products/param/v27"
+  ],
+  "q": "vivo V27"
+ },
+ {
+  "id": "vivo-y02t",
+  "brand": "vivo",
+  "name": "vivo Y02t",
+  "category": "smartphone",
+  "series": "Y",
+  "form": "bar",
+  "spec": [
+   "https://www.vivo.com/my/products/param/y02t"
+  ],
+  "q": "vivo Y02t"
+ },
+ {
+  "id": "vivo-y36",
+  "brand": "vivo",
+  "name": "vivo Y36",
+  "category": "smartphone",
+  "series": "Y",
+  "form": "bar",
+  "spec": [
+   "https://www.vivo.com/my/products/param/y36"
+  ],
+  "q": "vivo Y36"
+ },
+ {
+  "id": "vivo-y36-5g",
+  "brand": "vivo",
+  "name": "vivo Y36 5G",
+  "category": "smartphone",
+  "series": "Y",
+  "form": "bar",
+  "spec": [
+   "https://www.vivo.com/my/products/param/y36-5g"
+  ],
+  "q": "vivo Y36 5G"
+ },
+ {
+  "id": "vivo-y27",
+  "brand": "vivo",
+  "name": "vivo Y27",
+  "category": "smartphone",
+  "series": "Y",
+  "form": "bar",
+  "spec": [
+   "https://www.vivo.com/my/products/param/y27"
+  ],
+  "q": "vivo Y27"
+ },
+ {
+  "id": "vivo-y27-5g",
+  "brand": "vivo",
+  "name": "vivo Y27 5G",
+  "category": "smartphone",
+  "series": "Y",
+  "form": "bar",
+  "spec": [
+   "https://www.vivo.com/my/products/param/y27-5g"
+  ],
+  "q": "vivo Y27 5G"
+ },
+ {
+  "id": "vivo-y78-5g",
+  "brand": "vivo",
+  "name": "vivo Y78 5G",
+  "category": "smartphone",
+  "series": "Y",
+  "form": "bar",
+  "spec": [
+   "https://www.vivo.com/my/products/param/y78-5g"
+  ],
+  "q": "vivo Y78 5G"
+ },
+ {
+  "id": "vivo-y17s",
+  "brand": "vivo",
+  "name": "vivo Y17s",
+  "category": "smartphone",
+  "series": "Y",
+  "form": "bar",
+  "spec": [
+   "https://www.vivo.com/my/products/param/y17s"
+  ],
+  "q": "vivo Y17s"
+ },
+ {
+  "id": "vivo-v29",
+  "brand": "vivo",
+  "name": "vivo V29",
+  "category": "smartphone",
+  "series": "V",
+  "form": "bar",
+  "spec": [
+   "https://www.vivo.com/my/products/param/v29"
+  ],
+  "q": "vivo V29"
+ },
+ {
+  "id": "vivo-v29e",
+  "brand": "vivo",
+  "name": "vivo V29e",
+  "category": "smartphone",
+  "series": "V",
+  "form": "bar",
+  "spec": [
+   "https://www.vivo.com/my/products/param/v29e"
+  ],
+  "q": "vivo V29e"
+ },
+ {
+  "id": "vivo-y27s",
+  "brand": "vivo",
+  "name": "vivo Y27s",
+  "category": "smartphone",
+  "series": "Y",
+  "form": "bar",
+  "spec": [
+   "https://www.vivo.com/my/products/param/y27s"
+  ],
+  "q": "vivo Y27s"
+ },
+ {
+  "id": "vivo-y03",
+  "brand": "vivo",
+  "name": "vivo Y03",
+  "category": "smartphone",
+  "series": "Y",
+  "form": "bar",
+  "spec": [
+   "https://www.vivo.com/my/products/param/y03"
+  ],
+  "q": "vivo Y03"
+ },
+ {
+  "id": "vivo-x100",
+  "brand": "vivo",
+  "name": "vivo X100",
+  "category": "smartphone",
+  "series": "X",
+  "form": "bar",
+  "spec": [
+   "https://www.vivo.com/my/products/param/x100"
+  ],
+  "q": "vivo X100"
+ },
+ {
+  "id": "vivo-x100-pro",
+  "brand": "vivo",
+  "name": "vivo X100 Pro",
+  "category": "smartphone",
+  "series": "X",
+  "form": "bar",
+  "spec": [
+   "https://www.vivo.com/my/products/param/x100pro"
+  ],
+  "q": "vivo X100 Pro"
+ },
+ {
+  "id": "vivo-y100-5g",
+  "brand": "vivo",
+  "name": "vivo Y100 5G",
+  "category": "smartphone",
+  "series": "Y",
+  "form": "bar",
+  "spec": [
+   "https://www.vivo.com/my/products/param/y100-5g"
+  ],
+  "q": "vivo Y100 5G"
+ },
+ {
+  "id": "vivo-v30",
+  "brand": "vivo",
+  "name": "vivo V30",
+  "category": "smartphone",
+  "series": "V",
+  "form": "bar",
+  "spec": [
+   "https://www.vivo.com/my/products/param/v30"
+  ],
+  "q": "vivo V30"
+ },
+ {
+  "id": "vivo-v30-pro",
+  "brand": "vivo",
+  "name": "vivo V30 Pro",
+  "category": "smartphone",
+  "series": "V",
+  "form": "bar",
+  "spec": [
+   "https://www.vivo.com/my/products/param/v30pro"
+  ],
+  "q": "vivo V30 Pro"
+ },
+ {
+  "id": "vivo-v30e",
+  "brand": "vivo",
+  "name": "vivo V30e",
+  "category": "smartphone",
+  "series": "V",
+  "form": "bar",
+  "spec": [
+   "https://www.vivo.com/my/products/param/v30e"
+  ],
+  "q": "vivo V30e"
+ },
+ {
+  "id": "vivo-y18",
+  "brand": "vivo",
+  "name": "vivo Y18",
+  "category": "smartphone",
+  "series": "Y",
+  "form": "bar",
+  "spec": [
+   "https://www.vivo.com/my/products/param/y18"
+  ],
+  "q": "vivo Y18"
+ },
+ {
+  "id": "vivo-y28",
+  "brand": "vivo",
+  "name": "vivo Y28",
+  "category": "smartphone",
+  "series": "Y",
+  "form": "bar",
+  "spec": [
+   "https://www.vivo.com/my/products/param/y28"
+  ],
+  "q": "vivo Y28"
+ },
+ {
+  "id": "vivo-y38-5g",
+  "brand": "vivo",
+  "name": "vivo Y38 5G",
+  "category": "smartphone",
+  "series": "Y",
+  "form": "bar",
+  "spec": [
+   "https://www.vivo.com/my/products/param/y38-5g"
+  ],
+  "q": "vivo Y38 5G"
+ },
+ {
+  "id": "vivo-v40",
+  "brand": "vivo",
+  "name": "vivo V40",
+  "category": "smartphone",
+  "series": "V",
+  "form": "bar",
+  "spec": [
+   "https://www.vivo.com/my/products/param/v40"
+  ],
+  "q": "vivo V40"
+ },
+ {
+  "id": "vivo-v40-pro",
+  "brand": "vivo",
+  "name": "vivo V40 Pro",
+  "category": "smartphone",
+  "series": "V",
+  "form": "bar",
+  "spec": [
+   "https://www.vivo.com/my/products/param/v40-pro"
+  ],
+  "q": "vivo V40 Pro"
+ },
+ {
+  "id": "vivo-v40e",
+  "brand": "vivo",
+  "name": "vivo V40e",
+  "category": "smartphone",
+  "series": "V",
+  "form": "bar",
+  "spec": [
+   "https://www.vivo.com/my/products/param/v40e"
+  ],
+  "q": "vivo V40e"
+ },
+ {
+  "id": "vivo-v40-lite",
+  "brand": "vivo",
+  "name": "vivo V40 Lite",
+  "category": "smartphone",
+  "series": "V",
+  "form": "bar",
+  "spec": [
+   "https://www.vivo.com/my/products/param/v40-lite"
+  ],
+  "q": "vivo V40 Lite"
+ },
+ {
+  "id": "vivo-y19s",
+  "brand": "vivo",
+  "name": "vivo Y19s",
+  "category": "smartphone",
+  "series": "Y",
+  "form": "bar",
+  "spec": [
+   "https://www.vivo.com/my/products/param/y19s"
+  ],
+  "q": "vivo Y19s"
+ },
+ {
+  "id": "vivo-y28s-5g",
+  "brand": "vivo",
+  "name": "vivo Y28s 5G",
+  "category": "smartphone",
+  "series": "Y",
+  "form": "bar",
+  "spec": [
+   "https://www.vivo.com/my/products/param/y28s-5g"
+  ],
+  "q": "vivo Y28s 5G"
+ },
+ {
+  "id": "vivo-x200",
+  "brand": "vivo",
+  "name": "vivo X200",
+  "category": "smartphone",
+  "series": "X",
+  "form": "bar",
+  "spec": [
+   "https://www.vivo.com/my/products/param/x200"
+  ],
+  "q": "vivo X200"
+ },
+ {
+  "id": "vivo-v50",
+  "brand": "vivo",
+  "name": "vivo V50",
+  "category": "smartphone",
+  "series": "V",
+  "form": "bar",
+  "spec": [
+   "https://www.vivo.com/my/products/param/v50"
+  ],
+  "q": "vivo V50"
+ },
+ {
+  "id": "vivo-v50-lite-5g",
+  "brand": "vivo",
+  "name": "vivo V50 Lite 5G",
+  "category": "smartphone",
+  "series": "V",
+  "form": "bar",
+  "spec": [
+   "https://www.vivo.com/my/products/param/v50-lite-5g"
+  ],
+  "q": "vivo V50 Lite 5G"
+ },
+ {
+  "id": "vivo-v50-lite",
+  "brand": "vivo",
+  "name": "vivo V50 Lite",
+  "category": "smartphone",
+  "series": "V",
+  "form": "bar",
+  "spec": [
+   "https://www.vivo.com/my/products/param/v50-lite"
+  ],
+  "q": "vivo V50 Lite"
+ },
+ {
+  "id": "vivo-y04",
+  "brand": "vivo",
+  "name": "vivo Y04",
+  "category": "smartphone",
+  "series": "Y",
+  "form": "bar",
+  "spec": [
+   "https://www.vivo.com/my/products/param/y04"
+  ],
+  "q": "vivo Y04"
+ },
+ {
+  "id": "vivo-y29",
+  "brand": "vivo",
+  "name": "vivo Y29",
+  "category": "smartphone",
+  "series": "Y",
+  "form": "bar",
+  "spec": [
+   "https://www.vivo.com/my/products/param/y29"
+  ],
+  "q": "vivo Y29"
+ },
+ {
+  "id": "vivo-y39-5g",
+  "brand": "vivo",
+  "name": "vivo Y39 5G",
+  "category": "smartphone",
+  "series": "Y",
+  "form": "bar",
+  "spec": [
+   "https://www.vivo.com/my/products/param/y39-5g"
+  ],
+  "q": "vivo Y39 5G"
+ },
+ {
+  "id": "vivo-y19e",
+  "brand": "vivo",
+  "name": "vivo Y19e",
+  "category": "smartphone",
+  "series": "Y",
+  "form": "bar",
+  "spec": [
+   "https://www.vivo.com/my/products/param/y19e"
+  ],
+  "q": "vivo Y19e"
+ },
+ {
+  "id": "vivo-x200-fe",
+  "brand": "vivo",
+  "name": "vivo X200 FE",
+  "category": "smartphone",
+  "series": "X",
+  "form": "bar",
+  "spec": [
+   "https://www.vivo.com/my/products/param/x200-fe"
+  ],
+  "q": "vivo X200 FE"
+ },
+ {
+  "id": "vivo-x-fold5",
+  "brand": "vivo",
+  "name": "vivo X Fold5",
+  "category": "smartphone",
+  "series": "X Fold",
+  "form": "foldable",
+  "spec": [
+   "https://www.vivo.com/my/products/param/x-fold5"
+  ],
+  "q": "vivo X Fold5"
+ },
+ {
+  "id": "vivo-v60",
+  "brand": "vivo",
+  "name": "vivo V60",
+  "category": "smartphone",
+  "series": "V",
+  "form": "bar",
+  "spec": [
+   "https://www.vivo.com/my/products/param/v60"
+  ],
+  "q": "vivo V60"
+ },
+ {
+  "id": "vivo-v60-lite-5g",
+  "brand": "vivo",
+  "name": "vivo V60 Lite 5G",
+  "category": "smartphone",
+  "series": "V",
+  "form": "bar",
+  "spec": [
+   "https://www.vivo.com/my/products/param/v60-lite-5g"
+  ],
+  "q": "vivo V60 Lite 5G"
+ },
+ {
+  "id": "vivo-v60-lite",
+  "brand": "vivo",
+  "name": "vivo V60 Lite",
+  "category": "smartphone",
+  "series": "V",
+  "form": "bar",
+  "spec": [
+   "https://www.vivo.com/my/products/param/v60-lite"
+  ],
+  "q": "vivo V60 Lite"
+ },
+ {
+  "id": "vivo-y29s",
+  "brand": "vivo",
+  "name": "vivo Y29s",
+  "category": "smartphone",
+  "series": "Y",
+  "form": "bar",
+  "spec": [
+   "https://www.vivo.com/my/products/param/y29s"
+  ],
+  "q": "vivo Y29s"
+ },
+ {
+  "id": "vivo-y21d",
+  "brand": "vivo",
+  "name": "vivo Y21d",
+  "category": "smartphone",
+  "series": "Y",
+  "form": "bar",
+  "spec": [
+   "https://www.vivo.com/my/products/param/y21d"
+  ],
+  "q": "vivo Y21d"
+ },
+ {
+  "id": "vivo-v70",
+  "brand": "vivo",
+  "name": "vivo V70",
+  "category": "smartphone",
+  "series": "V",
+  "form": "bar",
+  "spec": [
+   "https://www.vivo.com/my/products/param/v70"
+  ],
+  "q": "vivo V70"
+ },
+ {
+  "id": "vivo-v70-fe",
+  "brand": "vivo",
+  "name": "vivo V70 FE",
+  "category": "smartphone",
+  "series": "V",
+  "form": "bar",
+  "spec": [
+   "https://www.vivo.com/my/products/param/v70-fe"
+  ],
+  "q": "vivo V70 FE"
+ },
+ {
+  "id": "vivo-x300-ultra",
+  "brand": "vivo",
+  "name": "vivo X300 Ultra",
+  "category": "smartphone",
+  "series": "X",
+  "form": "bar",
+  "spec": [
+   "https://www.vivo.com/my/products/param/x300-ultra"
+  ],
+  "q": "vivo X300 Ultra"
+ },
+ {
+  "id": "vivo-x300-fe",
+  "brand": "vivo",
+  "name": "vivo X300 FE",
+  "category": "smartphone",
+  "series": "X",
+  "form": "bar",
+  "spec": [
+   "https://www.vivo.com/my/products/param/x300-fe"
+  ],
+  "q": "vivo X300 FE"
+ },
+ {
+  "id": "vivo-y31s-5g",
+  "brand": "vivo",
+  "name": "vivo Y31s 5G",
+  "category": "smartphone",
+  "series": "Y",
+  "form": "bar",
+  "spec": [
+   "https://www.vivo.com/my/products/param/y31s-5g"
+  ],
+  "q": "vivo Y31s 5G"
+ },
+ {
+  "id": "vivo-v80-lite-5g",
+  "brand": "vivo",
+  "name": "vivo V80 Lite 5G",
+  "category": "smartphone",
+  "series": "V",
+  "form": "bar",
+  "spec": [
+   "https://www.vivo.com/my/products/param/v80-lite-5g"
+  ],
+  "q": "vivo V80 Lite 5G"
+ },
+ {
+  "id": "vivo-watch-gt",
+  "brand": "vivo",
+  "name": "vivo Watch GT",
+  "category": "smartwatch",
+  "series": "Watch",
+  "form": "watch",
+  "spec": [
+   "https://www.vivo.com/my/products/param/watch-gt"
+  ],
+  "q": "vivo Watch GT"
+ },
+ {
+  "id": "vivo-watch-gt-2",
+  "brand": "vivo",
+  "name": "vivo Watch GT 2",
+  "category": "smartwatch",
+  "series": "Watch",
+  "form": "watch",
+  "spec": [
+   "https://www.vivo.com/my/products/param/watch-gt-2"
+  ],
+  "q": "vivo Watch GT 2"
+ },
+ {
+  "id": "iqoo-11",
+  "brand": "iqoo",
+  "name": "iQOO 11",
+  "category": "smartphone",
+  "series": "iQOO",
+  "form": "bar",
+  "spec": [
+   "https://www.iqoo.com/my/products/param/iqoo-11"
+  ],
+  "q": "iQOO 11"
+ },
+ {
+  "id": "iqoo-z7",
+  "brand": "iqoo",
+  "name": "iQOO Z7",
+  "category": "smartphone",
+  "series": "iQOO",
+  "form": "bar",
+  "spec": [
+   "https://www.iqoo.com/my/products/param/z7"
+  ],
+  "q": "iQOO Z7"
+ },
+ {
+  "id": "iqoo-z7x",
+  "brand": "iqoo",
+  "name": "iQOO Z7x",
+  "category": "smartphone",
+  "series": "iQOO",
+  "form": "bar",
+  "spec": [
+   "https://www.iqoo.com/my/products/param/z7x"
+  ],
+  "q": "iQOO Z7x"
+ },
+ {
+  "id": "iqoo-12",
+  "brand": "iqoo",
+  "name": "iQOO 12",
+  "category": "smartphone",
+  "series": "iQOO",
+  "form": "bar",
+  "spec": [
+   "https://www.iqoo.com/my/products/param/iqoo-12"
+  ],
+  "q": "iQOO 12"
+ },
+ {
+  "id": "iqoo-z9",
+  "brand": "iqoo",
+  "name": "iQOO Z9",
+  "category": "smartphone",
+  "series": "iQOO",
+  "form": "bar",
+  "spec": [
+   "https://www.iqoo.com/my/products/param/z9"
+  ],
+  "q": "iQOO Z9"
+ },
+ {
+  "id": "iqoo-z9x",
+  "brand": "iqoo",
+  "name": "iQOO Z9x",
+  "category": "smartphone",
+  "series": "iQOO",
+  "form": "bar",
+  "spec": [
+   "https://www.iqoo.com/my/products/param/z9x"
+  ],
+  "q": "iQOO Z9x"
+ },
+ {
+  "id": "iqoo-13",
+  "brand": "iqoo",
+  "name": "iQOO 13",
+  "category": "smartphone",
+  "series": "iQOO",
+  "form": "bar",
+  "spec": [
+   "https://www.iqoo.com/my/products/param/iqoo-13"
+  ],
+  "q": "iQOO 13"
+ },
+ {
+  "id": "iqoo-neo-10",
+  "brand": "iqoo",
+  "name": "iQOO Neo 10",
+  "category": "smartphone",
+  "series": "iQOO",
+  "form": "bar",
+  "spec": [
+   "https://www.iqoo.com/my/products/param/neo-10"
+  ],
+  "q": "iQOO Neo 10"
+ },
+ {
+  "id": "iqoo-z10",
+  "brand": "iqoo",
+  "name": "iQOO Z10",
+  "category": "smartphone",
+  "series": "iQOO",
+  "form": "bar",
+  "spec": [
+   "https://www.iqoo.com/my/products/param/z10-5g"
+  ],
+  "q": "iQOO Z10"
+ },
+ {
+  "id": "iqoo-z10x",
+  "brand": "iqoo",
+  "name": "iQOO Z10x",
+  "category": "smartphone",
+  "series": "iQOO",
+  "form": "bar",
+  "spec": [
+   "https://www.iqoo.com/my/products/param/z10x"
+  ],
+  "q": "iQOO Z10x"
+ },
+ {
+  "id": "iqoo-z11",
+  "brand": "iqoo",
+  "name": "iQOO Z11",
+  "category": "smartphone",
+  "series": "iQOO",
+  "form": "bar",
+  "spec": [
+   "https://www.iqoo.com/my/products/param/z11"
+  ],
+  "q": "iQOO Z11"
+ },
+ {
+  "id": "iqoo-z11x",
+  "brand": "iqoo",
+  "name": "iQOO Z11x",
+  "category": "smartphone",
+  "series": "iQOO",
+  "form": "bar",
+  "spec": [
+   "https://www.iqoo.com/my/products/param/z11x"
+  ],
+  "q": "iQOO Z11x"
+ },
+ {
+  "id": "iqoo-15r",
+  "brand": "iqoo",
+  "name": "iQOO 15R",
+  "category": "smartphone",
+  "series": "iQOO",
+  "form": "bar",
+  "spec": [
+   "https://www.iqoo.com/my/products/param/iqoo-15r"
+  ],
+  "q": "iQOO 15R"
+ }
+]

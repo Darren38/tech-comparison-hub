@@ -1,0 +1,165 @@
+{
+  "id": "oppo-reno13",
+  "name": "OPPO Reno13 5G",
+  "brand": "oppo",
+  "category": "smartphone",
+  "series": "Reno",
+  "form": "bar",
+  "status": "released",
+  "announced": "2025-01-07",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 2299,
+      "config": "12 GB / 256 GB",
+      "date": "2025-01-07",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/01/07/oppo-reno-13-series-malaysia-launch-price/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 2599,
+      "config": "12 GB / 512 GB",
+      "date": "2025-01-07",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/01/07/oppo-reno-13-series-malaysia-launch-price/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/reno13-series/list-page/reno13-5g/white.png",
+    "page": "https://www.oppo.com/my/smartphones/series-reno/reno13/",
+    "credit": "OPPO Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.59,
+      "type": "AMOLED",
+      "resolution": "2760 × 1256",
+      "refresh_hz": 120,
+      "peak_nits": 1200,
+      "protection": "Corning Gorilla Glass 7i",
+      "ppi": 460
+    },
+    "platform": {
+      "chipset": "dimensity-8350",
+      "gpu": "ARM Turse G615",
+      "cpu": "8 cores"
+    },
+    "memory": {
+      "ram_gb": [
+        12
+      ],
+      "storage_gb": [
+        256,
+        512
+      ],
+      "ram_type": "LPDDR5X@3750MHz 4 × 16bits",
+      "storage_type": "UFS 3.1"
+    },
+    "battery": {
+      "capacity_mah": 5600
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "aperture": "f/1.8",
+          "ois": true
+        },
+        {
+          "role": "ultrawide",
+          "mp": 8
+        },
+        {
+          "role": "monochrome",
+          "mp": 2
+        }
+      ],
+      "front": "50 MP",
+      "rear_detail": [
+        "Wide angle: 50 MP; f/1.8; FOV 79°; 5P lens; AF; OIS supported",
+        "Ultra-wide angle: 8 MP; f/2.2; FOV 116°; 5P lens; AF supported",
+        "Monochrome: 2 MP; f/2.4; FOV 89°; 3P lens"
+      ],
+      "front_detail": [
+        "50 MP, f/2.0, FOV 90°; 5P lens; AF supported"
+      ],
+      "video": "4K@60fps; 1080p",
+      "front_video": "4K@60fps; 1080p"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true,
+      "bands_2g": "850/900/1800/1900MHz",
+      "bands_3g": "Bands 1/2/4/5/6/8/19",
+      "bands_4g": "4G LTE FDD: Bands 1/2/3/4/5/7/8/12/13/17/18/19/20/26/28/66; 4G LTE TDD: Bands 38/39/40/41",
+      "bands_5g": "5G NR: n1/n2/n3/n5/n7/n8/n12/n20/n26/n28/n38/n40/n41/n66/n77/n78",
+      "technology": "GSM / HSPA / LTE / 5G",
+      "sim": "Nano-SIM card, Nano-USIM card",
+      "wifi": "WiFi 2.4G, WiFi 5G, WiFi 6 (802.11ax), WiFi 5 (802.11ac), 802.11b/g/a/n; WLAN 2.4G, WLAN 5.1G, WLAN 5G, WLAN 5.4G, WLAN 5.8G; WLAN Display, WLAN tethering",
+      "bluetooth": "Bluetooth 5.4, Low Energy",
+      "usb": "USB Type-C",
+      "positioning": "Single band: Beidou, GPS, GLONASS, Galileo, QZSS"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 157.9,
+        "width_mm": 74.73,
+        "depth_mm": 7.24
+      },
+      "weight_g": 181.0
+    },
+    "software": {
+      "launch_os": "ColorOS 15.0"
+    },
+    "charging": {
+      "claim": "Protocols supported: SUPERVOOC 2.0, SUPERVOOC , VOOC 3.0, and PD2.0 (9V/1.5A)"
+    },
+    "biometrics": {
+      "face": "Yes",
+      "fingerprint": "In-display optical fingerprint sensor"
+    },
+    "sensors": "Proximity sensor, Ambient light sensor, Colour temperature sensor, E-compass, Accelerometer, Gyroscope, In-display optical fingerprint sensor, Infrared remote control",
+    "audio": {
+      "jack": false
+    },
+    "misc": {
+      "colors": "Plume White, Luminous Blue"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "oppo",
+      "url": "https://www.oppo.com/my/smartphones/series-reno/reno13/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from OPPO Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2025/01/07/oppo-reno-13-series-malaysia-launch-price/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

@@ -1,0 +1,170 @@
+{
+  "id": "oppo-reno16",
+  "name": "OPPO Reno16 5G",
+  "brand": "oppo",
+  "category": "smartphone",
+  "series": "Reno",
+  "form": "bar",
+  "status": "released",
+  "announced": "2026-07-08",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 2699,
+      "config": "8 GB / 256 GB",
+      "date": "2026-07-08",
+      "type": "launch",
+      "source": "nasilemaktech",
+      "url": "https://nasilemaktech.com/oppo-reno16-series-malaysia-launch/",
+      "class": "news",
+      "accessed": "2026-09-18",
+      "note": "Recommended retail price; launch promotion RM400 lower."
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 2999,
+      "config": "12 GB / 256 GB",
+      "date": "2026-07-08",
+      "type": "launch",
+      "source": "nasilemaktech",
+      "url": "https://nasilemaktech.com/oppo-reno16-series-malaysia-launch/",
+      "class": "news",
+      "accessed": "2026-09-18",
+      "note": "Recommended retail price; launch promotion RM400 lower."
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-reno16-series-en/list-page/reno16/480-600-white.png",
+    "page": "https://www.oppo.com/my/smartphones/series-reno/reno16/",
+    "credit": "OPPO Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.32,
+      "type": "AMOLED",
+      "resolution": "2640 × 1216",
+      "refresh_hz": 120,
+      "peak_nits": 1800,
+      "protection": "Crystal Guard",
+      "ppi": 460
+    },
+    "platform": {
+      "chipset": "snapdragon-7-gen-4",
+      "gpu": "Adreno 722@1150MHz",
+      "cpu": "8-core"
+    },
+    "memory": {
+      "ram_gb": [
+        8,
+        12
+      ],
+      "storage_gb": [
+        256,
+        512
+      ],
+      "ram_type": "LPDDR5X",
+      "storage_type": "UFS 3.1",
+      "card": "No"
+    },
+    "battery": {
+      "capacity_mah": 6700
+    },
+    "charging": {
+      "wired_w": 80,
+      "claim": "Supports(Max): 80 W SUPERVOOC .; Compatible with: 67 W and below SUPERVOOC , 55 W PPS, 13.5 W PD, 13.5 W QC"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "ultrawide",
+          "mp": 50
+        },
+        {
+          "role": "main",
+          "mp": 50,
+          "aperture": "f/1.8",
+          "ois": true
+        },
+        {
+          "role": "telephoto",
+          "mp": 50
+        }
+      ],
+      "front": "50 MP",
+      "rear_detail": [
+        "Ultra-wide angle: 50MP; f/2.0; FOV 116°; 6P lens; AF supported",
+        "Wide angle: 50MP; f/1.8; FOV 79°; 5P lens; AF supported; Supports 2-axis OIS",
+        "Telephoto: 50MP; f/2.8; FOV 30°; 4P lens; AF supported; Supports 2-axis OIS"
+      ],
+      "front_detail": [
+        "50MP; f/2.0; FOV 100°; 5P lens; AF supported"
+      ],
+      "video": "4K@60fps; 1080p",
+      "front_video": "4K@60fps; 1080p"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true,
+      "bands_2g": "850/900/1800/1900MHz",
+      "bands_3g": "Band 1/2/4/5/8/19",
+      "bands_4g": "LTE FDD: Band 1/2/3/4/5/7/8/18/19/20/26/28/66/71; LTE TDD: Band 38/39/40/41/42/43/48",
+      "bands_5g": "5G NR: n1/n2/n3/n5/n7/n8/n20/n26/n28/n38/n40/n41/n48/n66/n71/n77/n78",
+      "technology": "GSM / HSPA / LTE / 5G",
+      "sim": "Nano-SIM card, Nano-USIM card, Some carriers support eSIM.; eSIM",
+      "bluetooth": "Bluetooth 5.4, Low Energy",
+      "usb": "USB Type-C",
+      "positioning": "Beidou, GPS, GLONASS, Galileo, QZSS",
+      "wifi": "Wi-Fi 6 (802.11ax) supported; Wi-Fi 5 (802.11ac) supported"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 151.21,
+        "width_mm": 72.42,
+        "depth_mm": 8.36
+      },
+      "weight_g": 193.0
+    },
+    "software": {
+      "launch_os": "ColorOS 16.0"
+    },
+    "biometrics": {
+      "fingerprint": "Under-screen fingerprint",
+      "face": "Yes"
+    },
+    "sensors": "Proximity sensor, Ambient light sensor, Colour temperature sensor, E-compass, Accelerometer, Gyroscope, In-display optical fingerprint sensor, Infrared remote control",
+    "audio": {
+      "jack": false
+    },
+    "misc": {
+      "colors": "about 8.36mm(Pop White), about 8.22mm(Twilight Violet, Dream Purple)"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "oppo",
+      "url": "https://www.oppo.com/my/smartphones/series-reno/reno16/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from OPPO Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "nasilemaktech",
+        "url": "https://nasilemaktech.com/oppo-reno16-series-malaysia-launch/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (Nasi Lemak Tech). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

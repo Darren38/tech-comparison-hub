@@ -1,0 +1,174 @@
+{
+  "id": "vivo-v50",
+  "name": "vivo V50",
+  "brand": "vivo",
+  "category": "smartphone",
+  "series": "V",
+  "form": "bar",
+  "status": "released",
+  "announced": "2025-03-13",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1899,
+      "config": "8 GB / 256 GB",
+      "date": "2025-03-13",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/03/13/vivo-v50-launch-malaysia-price-specs-availability/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1999,
+      "config": "12 GB / 256 GB",
+      "date": "2025-03-13",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/03/13/vivo-v50-launch-malaysia-price-specs-availability/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 2399,
+      "config": "12 GB / 512 GB",
+      "date": "2025-03-13",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/03/13/vivo-v50-launch-malaysia-price-specs-availability/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 6.77,
+      "type": "AMOLED",
+      "resolution": "2392 × 1080",
+      "refresh_hz": 120,
+      "peak_nits": 4500,
+      "ppi": 388
+    },
+    "platform": {
+      "chipset": "snapdragon-7-gen-3",
+      "process": "4 nm",
+      "cpu": "8 cores; 1 × 2.63 GHz + 3 × 2.4 GHz + 4 × 1.8 GHz"
+    },
+    "memory": {
+      "ram_gb": [
+        8,
+        12
+      ],
+      "storage_gb": [
+        256,
+        512
+      ],
+      "ram_type": "LPDDR4X",
+      "storage_type": "UFS 2.2",
+      "card": "No"
+    },
+    "battery": {
+      "capacity_mah": 6000,
+      "chemistry": "Li-ion battery"
+    },
+    "charging": {
+      "wired_w": 90,
+      "claim": "90W"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "aperture": "f/1.88",
+          "ois": true
+        },
+        {
+          "role": "ultrawide",
+          "mp": 50
+        }
+      ],
+      "front": "50 MP",
+      "rear_detail": [
+        "50 MP ZEISS OIS Main Camera: OIS; f/1.88; FOV 84°; 6P lens",
+        "50 MP ZEISS Ultra Wide-Angle Camera: AF; f/2.0; FOV 119.4°; 5P lens"
+      ],
+      "features": "20x Digital zoom",
+      "video": "4K; 1080p",
+      "front_detail": [
+        "50 MP ZEISS Group Selfie Camera: AF; f/2.0; FOV 92°; 5P lens"
+      ]
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true,
+      "bands_2g": "850/900/1800/1900 MHz",
+      "bands_3g": "B1/B2/B4/B5/B6/B8",
+      "bands_4g": "4G FDD-LTE: B1/B2/B3/B4/B5/B7/B8/B12/B17/B18/B19/B20/B26/B28/B66",
+      "bands_5g": "5G: n1/n2/n3/n5/n7/n8/n20/n26/n28/n38/n40/n41/n66/n77/n78",
+      "technology": "GSM / HSPA / LTE / 5G",
+      "sim": "2 nano SIMs; 2G GSM; 850/900/1800/1900 MHz; 3G WCDMA; B1/B2/B4/B5/B6/B8; 4G TD-LTE",
+      "bluetooth": "Bluetooth 5.4",
+      "usb": "USB 2.0",
+      "radio": "No",
+      "positioning": "GPS, BeiDou, GLONASS, Galileo, QZSS",
+      "wifi": "Wi-Fi; Wi-Fi Display; 2x2 MIMO; MU-MIMO; Wi-Fi 5; Wi-Fi 6; 2.4G; 5G"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 163.29,
+        "width_mm": 76.72,
+        "depth_mm": 7.39
+      },
+      "weight_g": 189.0,
+      "ip": "IP69",
+      "back": "Plastic composite sheet (Black), glass (Purple, Red)"
+    },
+    "software": {
+      "launch_os": "Funtouch OS 15"
+    },
+    "misc": {
+      "colors": "Black, Red, Purple"
+    },
+    "biometrics": {
+      "fingerprint": "In-display optical fingerprint sensor"
+    },
+    "sensors": "Accelerometer, Ambient Light Sensor, Proximity Sensor, E-compass, Gyroscope"
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "vivo",
+      "url": "https://www.vivo.com/my/products/param/v50",
+      "checked": "2026-09-18",
+      "note": "Read from vivo Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2025/03/13/vivo-v50-launch-malaysia-price-specs-availability/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1741345219438/a5d3b743275e5cfa0f1638c5018db2cf.png",
+    "page": "https://www.vivo.com/my/products/param/v50",
+    "credit": "vivo Malaysia",
+    "checked": "2026-09-19"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "dimensity-6100-plus",
+  "name": "Dimensity 6100+",
+  "vendor": "mediatek",
+  "family": "Dimensity 6000",
+  "summary": "Name recorded from phone makers' specification pages and launch reports. Chip details have not been compiled yet.",
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "redmi",
+      "url": "https://www.mi.com/my/product/redmi-13c-5g/specs/",
+      "checked": "2026-09-18",
+      "note": "Chip name as given for the Redmi 13C 5G."
+    }
+  }
+}

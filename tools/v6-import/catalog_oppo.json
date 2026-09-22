@@ -1,0 +1,770 @@
+[
+ {
+  "id": "oppo-reno8-t-5g",
+  "brand": "oppo",
+  "name": "OPPO Reno8 T 5G",
+  "category": "smartphone",
+  "series": "Reno",
+  "form": "bar",
+  "spec": [
+   "https://www.oppo.com/my/smartphones/series-reno/reno8-t-5g/specs/"
+  ],
+  "q": "Oppo Reno8 T 5G"
+ },
+ {
+  "id": "oppo-reno8-t",
+  "brand": "oppo",
+  "name": "OPPO Reno8 T",
+  "category": "smartphone",
+  "series": "Reno",
+  "form": "bar",
+  "spec": [
+   "https://www.oppo.com/my/smartphones/series-reno/reno8-t/specs/"
+  ],
+  "q": "Oppo Reno8 T"
+ },
+ {
+  "id": "oppo-find-n2-flip",
+  "brand": "oppo",
+  "name": "OPPO Find N2 Flip",
+  "category": "smartphone",
+  "series": "Find N",
+  "form": "foldable",
+  "spec": [
+   "https://www.oppo.com/my/smartphones/series-find-n/find-n2-flip/specs/"
+  ],
+  "q": "Oppo Find N2 Flip"
+ },
+ {
+  "id": "oppo-a78-5g",
+  "brand": "oppo",
+  "name": "OPPO A78 5G",
+  "category": "smartphone",
+  "series": "A",
+  "form": "bar",
+  "spec": [
+   "https://www.oppo.com/my/smartphones/series-a/a78-5g/specs/"
+  ],
+  "q": "Oppo A78 5G"
+ },
+ {
+  "id": "oppo-a78",
+  "brand": "oppo",
+  "name": "OPPO A78",
+  "category": "smartphone",
+  "series": "A",
+  "form": "bar",
+  "spec": [
+   "https://www.oppo.com/my/smartphones/series-a/a78/specs/"
+  ],
+  "q": "Oppo A78"
+ },
+ {
+  "id": "oppo-a98-5g",
+  "brand": "oppo",
+  "name": "OPPO A98 5G",
+  "category": "smartphone",
+  "series": "A",
+  "form": "bar",
+  "spec": [
+   "https://www.oppo.com/my/smartphones/series-a/a98-5g/specs/"
+  ],
+  "q": "Oppo A98 5G"
+ },
+ {
+  "id": "oppo-a58",
+  "brand": "oppo",
+  "name": "OPPO A58",
+  "category": "smartphone",
+  "series": "A",
+  "form": "bar",
+  "spec": [
+   "https://www.oppo.com/my/smartphones/series-a/a58/specs/"
+  ],
+  "q": "Oppo A58"
+ },
+ {
+  "id": "oppo-a38",
+  "brand": "oppo",
+  "name": "OPPO A38",
+  "category": "smartphone",
+  "series": "A",
+  "form": "bar",
+  "spec": [
+   "https://www.oppo.com/my/smartphones/series-a/a38/specs/"
+  ],
+  "q": "Oppo A38"
+ },
+ {
+  "id": "oppo-a18",
+  "brand": "oppo",
+  "name": "OPPO A18",
+  "category": "smartphone",
+  "series": "A",
+  "form": "bar",
+  "spec": [
+   "https://www.oppo.com/my/smartphones/series-a/a18/specs/"
+  ],
+  "q": "Oppo A18"
+ },
+ {
+  "id": "oppo-a79-5g",
+  "brand": "oppo",
+  "name": "OPPO A79 5G",
+  "category": "smartphone",
+  "series": "A",
+  "form": "bar",
+  "spec": [
+   "https://www.oppo.com/my/smartphones/series-a/a79-5g/specs/"
+  ],
+  "q": "Oppo A79 5G"
+ },
+ {
+  "id": "oppo-a60",
+  "brand": "oppo",
+  "name": "OPPO A60",
+  "category": "smartphone",
+  "series": "A",
+  "form": "bar",
+  "spec": [
+   "https://www.oppo.com/my/smartphones/series-a/a60/specs/"
+  ],
+  "q": "Oppo A60"
+ },
+ {
+  "id": "oppo-reno10",
+  "brand": "oppo",
+  "name": "OPPO Reno10 5G",
+  "category": "smartphone",
+  "series": "Reno",
+  "form": "bar",
+  "spec": [
+   "https://www.oppo.com/my/smartphones/series-reno/reno10/specs/"
+  ],
+  "q": "Oppo Reno10 5G"
+ },
+ {
+  "id": "oppo-reno10-pro",
+  "brand": "oppo",
+  "name": "OPPO Reno10 Pro 5G",
+  "category": "smartphone",
+  "series": "Reno",
+  "form": "bar",
+  "spec": [
+   "https://www.oppo.com/my/smartphones/series-reno/reno10-pro/specs/"
+  ],
+  "q": "Oppo Reno10 Pro 5G"
+ },
+ {
+  "id": "oppo-reno10-pro-plus",
+  "brand": "oppo",
+  "name": "OPPO Reno10 Pro+ 5G",
+  "category": "smartphone",
+  "series": "Reno",
+  "form": "bar",
+  "spec": [
+   "https://www.oppo.com/my/smartphones/series-reno/reno10-pro-plus/specs/"
+  ],
+  "q": "Oppo Reno10 Pro+ 5G"
+ },
+ {
+  "id": "oppo-find-n3",
+  "brand": "oppo",
+  "name": "OPPO Find N3",
+  "category": "smartphone",
+  "series": "Find N",
+  "form": "foldable",
+  "spec": [
+   "https://www.oppo.com/my/smartphones/series-find-n/find-n3/specs/"
+  ],
+  "q": "Oppo Find N3"
+ },
+ {
+  "id": "oppo-find-n3-flip",
+  "brand": "oppo",
+  "name": "OPPO Find N3 Flip",
+  "category": "smartphone",
+  "series": "Find N",
+  "form": "foldable",
+  "spec": [
+   "https://www.oppo.com/my/smartphones/series-find-n/find-n3-flip/specs/"
+  ],
+  "q": "Oppo Find N3 Flip"
+ },
+ {
+  "id": "oppo-reno11",
+  "brand": "oppo",
+  "name": "OPPO Reno11 5G",
+  "category": "smartphone",
+  "series": "Reno",
+  "form": "bar",
+  "spec": [
+   "https://www.oppo.com/my/smartphones/series-reno/reno11/specs/"
+  ],
+  "q": "Oppo Reno11 5G"
+ },
+ {
+  "id": "oppo-reno11-pro",
+  "brand": "oppo",
+  "name": "OPPO Reno11 Pro 5G",
+  "category": "smartphone",
+  "series": "Reno",
+  "form": "bar",
+  "spec": [
+   "https://www.oppo.com/my/smartphones/series-reno/reno11-pro/specs/"
+  ],
+  "q": "Oppo Reno11 Pro 5G"
+ },
+ {
+  "id": "oppo-reno11-f-5g",
+  "brand": "oppo",
+  "name": "OPPO Reno11 F 5G",
+  "category": "smartphone",
+  "series": "Reno",
+  "form": "bar",
+  "spec": [
+   "https://www.oppo.com/my/smartphones/series-reno/reno11-f-5g/specs/"
+  ],
+  "q": "Oppo Reno11 F 5G"
+ },
+ {
+  "id": "oppo-a3-pro-5g",
+  "brand": "oppo",
+  "name": "OPPO A3 Pro 5G",
+  "category": "smartphone",
+  "series": "A",
+  "form": "bar",
+  "spec": [
+   "https://www.oppo.com/my/smartphones/series-a/a3-pro-5g/specs/"
+  ],
+  "q": "Oppo A3 Pro 5G"
+ },
+ {
+  "id": "oppo-a3",
+  "brand": "oppo",
+  "name": "OPPO A3",
+  "category": "smartphone",
+  "series": "A",
+  "form": "bar",
+  "spec": [
+   "https://www.oppo.com/my/smartphones/series-a/a3/specs/"
+  ],
+  "q": "Oppo A3"
+ },
+ {
+  "id": "oppo-a3x",
+  "brand": "oppo",
+  "name": "OPPO A3x",
+  "category": "smartphone",
+  "series": "A",
+  "form": "bar",
+  "spec": [
+   "https://www.oppo.com/my/smartphones/series-a/a3x/specs/"
+  ],
+  "q": "Oppo A3x"
+ },
+ {
+  "id": "oppo-a3-5g",
+  "brand": "oppo",
+  "name": "OPPO A3 5G",
+  "category": "smartphone",
+  "series": "A",
+  "form": "bar",
+  "spec": [
+   "https://www.oppo.com/my/smartphones/series-a/a3-5g/specs/"
+  ],
+  "q": "Oppo A3 5G"
+ },
+ {
+  "id": "oppo-reno12",
+  "brand": "oppo",
+  "name": "OPPO Reno12 5G",
+  "category": "smartphone",
+  "series": "Reno",
+  "form": "bar",
+  "spec": [
+   "https://www.oppo.com/my/smartphones/series-reno/reno12/specs/"
+  ],
+  "q": "Oppo Reno12 5G"
+ },
+ {
+  "id": "oppo-reno12-pro",
+  "brand": "oppo",
+  "name": "OPPO Reno12 Pro 5G",
+  "category": "smartphone",
+  "series": "Reno",
+  "form": "bar",
+  "spec": [
+   "https://www.oppo.com/my/smartphones/series-reno/reno12-pro/specs/"
+  ],
+  "q": "Oppo Reno12 Pro 5G"
+ },
+ {
+  "id": "oppo-reno12-f-5g",
+  "brand": "oppo",
+  "name": "OPPO Reno12 F 5G",
+  "category": "smartphone",
+  "series": "Reno",
+  "form": "bar",
+  "spec": [
+   "https://www.oppo.com/my/smartphones/series-reno/reno12-f-5g/specs/"
+  ],
+  "q": "Oppo Reno12 F 5G"
+ },
+ {
+  "id": "oppo-find-x8",
+  "brand": "oppo",
+  "name": "OPPO Find X8",
+  "category": "smartphone",
+  "series": "Find X",
+  "form": "bar",
+  "spec": [
+   "https://www.oppo.com/my/smartphones/series-find-x/find-x8/specs/"
+  ],
+  "q": "Oppo Find X8"
+ },
+ {
+  "id": "oppo-find-x8-pro",
+  "brand": "oppo",
+  "name": "OPPO Find X8 Pro",
+  "category": "smartphone",
+  "series": "Find X",
+  "form": "bar",
+  "spec": [
+   "https://www.oppo.com/my/smartphones/series-find-x/find-x8-pro/specs/"
+  ],
+  "q": "Oppo Find X8 Pro"
+ },
+ {
+  "id": "oppo-reno13",
+  "brand": "oppo",
+  "name": "OPPO Reno13 5G",
+  "category": "smartphone",
+  "series": "Reno",
+  "form": "bar",
+  "spec": [
+   "https://www.oppo.com/my/smartphones/series-reno/reno13/specs/"
+  ],
+  "q": "Oppo Reno13 5G"
+ },
+ {
+  "id": "oppo-reno13-pro",
+  "brand": "oppo",
+  "name": "OPPO Reno13 Pro 5G",
+  "category": "smartphone",
+  "series": "Reno",
+  "form": "bar",
+  "spec": [
+   "https://www.oppo.com/my/smartphones/series-reno/reno13-pro/specs/"
+  ],
+  "q": "Oppo Reno13 Pro 5G"
+ },
+ {
+  "id": "oppo-reno13-f-5g",
+  "brand": "oppo",
+  "name": "OPPO Reno13 F 5G",
+  "category": "smartphone",
+  "series": "Reno",
+  "form": "bar",
+  "spec": [
+   "https://www.oppo.com/my/smartphones/series-reno/reno13-f-5g/specs/"
+  ],
+  "q": "Oppo Reno13 F 5G"
+ },
+ {
+  "id": "oppo-find-n5",
+  "brand": "oppo",
+  "name": "OPPO Find N5",
+  "category": "smartphone",
+  "series": "Find N",
+  "form": "foldable",
+  "spec": [
+   "https://www.oppo.com/my/smartphones/series-find-n/find-n5/specs/"
+  ],
+  "q": "Oppo Find N5"
+ },
+ {
+  "id": "oppo-a5-pro",
+  "brand": "oppo",
+  "name": "OPPO A5 Pro",
+  "category": "smartphone",
+  "series": "A",
+  "form": "bar",
+  "spec": [
+   "https://www.oppo.com/my/smartphones/series-a/a5-pro/specs/"
+  ],
+  "q": "Oppo A5 Pro"
+ },
+ {
+  "id": "oppo-a5-pro-5g",
+  "brand": "oppo",
+  "name": "OPPO A5 Pro 5G",
+  "category": "smartphone",
+  "series": "A",
+  "form": "bar",
+  "spec": [
+   "https://www.oppo.com/my/smartphones/series-a/a5-pro-5g/specs/"
+  ],
+  "q": "Oppo A5 Pro 5G"
+ },
+ {
+  "id": "oppo-a5",
+  "brand": "oppo",
+  "name": "OPPO A5",
+  "category": "smartphone",
+  "series": "A",
+  "form": "bar",
+  "spec": [
+   "https://www.oppo.com/my/smartphones/series-a/a5/specs/"
+  ],
+  "q": "Oppo A5"
+ },
+ {
+  "id": "oppo-a5-5g",
+  "brand": "oppo",
+  "name": "OPPO A5 5G",
+  "category": "smartphone",
+  "series": "A",
+  "form": "bar",
+  "spec": [
+   "https://www.oppo.com/my/smartphones/series-a/a5-5g/specs/"
+  ],
+  "q": "Oppo A5 5G"
+ },
+ {
+  "id": "oppo-a5i",
+  "brand": "oppo",
+  "name": "OPPO A5i",
+  "category": "smartphone",
+  "series": "A",
+  "form": "bar",
+  "spec": [
+   "https://www.oppo.com/my/smartphones/series-a/a5i/specs/"
+  ],
+  "q": "Oppo A5i"
+ },
+ {
+  "id": "oppo-a5i-pro-5g",
+  "brand": "oppo",
+  "name": "OPPO A5i Pro 5G",
+  "category": "smartphone",
+  "series": "A",
+  "form": "bar",
+  "spec": [
+   "https://www.oppo.com/my/smartphones/series-a/a5i-pro-5g/specs/"
+  ],
+  "q": "Oppo A5i Pro 5G"
+ },
+ {
+  "id": "oppo-reno14",
+  "brand": "oppo",
+  "name": "OPPO Reno14 5G",
+  "category": "smartphone",
+  "series": "Reno",
+  "form": "bar",
+  "spec": [
+   "https://www.oppo.com/my/smartphones/series-reno/reno14/specs/"
+  ],
+  "q": "Oppo Reno14 5G"
+ },
+ {
+  "id": "oppo-reno14-pro",
+  "brand": "oppo",
+  "name": "OPPO Reno14 Pro 5G",
+  "category": "smartphone",
+  "series": "Reno",
+  "form": "bar",
+  "spec": [
+   "https://www.oppo.com/my/smartphones/series-reno/reno14-pro/specs/"
+  ],
+  "q": "Oppo Reno14 Pro 5G"
+ },
+ {
+  "id": "oppo-reno14-f-5g",
+  "brand": "oppo",
+  "name": "OPPO Reno14 F 5G",
+  "category": "smartphone",
+  "series": "Reno",
+  "form": "bar",
+  "spec": [
+   "https://www.oppo.com/my/smartphones/series-reno/reno14-f-5g/specs/"
+  ],
+  "q": "Oppo Reno14 F 5G"
+ },
+ {
+  "id": "oppo-find-x9",
+  "brand": "oppo",
+  "name": "OPPO Find X9",
+  "category": "smartphone",
+  "series": "Find X",
+  "form": "bar",
+  "spec": [
+   "https://www.oppo.com/my/smartphones/series-find-x/find-x9/specs/"
+  ],
+  "q": "Oppo Find X9"
+ },
+ {
+  "id": "oppo-a6-pro-5g",
+  "brand": "oppo",
+  "name": "OPPO A6 Pro 5G",
+  "category": "smartphone",
+  "series": "A",
+  "form": "bar",
+  "spec": [
+   "https://www.oppo.com/my/smartphones/series-a/a6-pro-5g/specs/"
+  ],
+  "q": "Oppo A6 Pro 5G"
+ },
+ {
+  "id": "oppo-a6x",
+  "brand": "oppo",
+  "name": "OPPO A6x",
+  "category": "smartphone",
+  "series": "A",
+  "form": "bar",
+  "spec": [
+   "https://www.oppo.com/my/smartphones/series-a/a6x/specs/"
+  ],
+  "q": "Oppo A6x"
+ },
+ {
+  "id": "oppo-a6x-5g",
+  "brand": "oppo",
+  "name": "OPPO A6x 5G",
+  "category": "smartphone",
+  "series": "A",
+  "form": "bar",
+  "spec": [
+   "https://www.oppo.com/my/smartphones/series-a/a6x-5g/specs/"
+  ],
+  "q": "Oppo A6x 5G"
+ },
+ {
+  "id": "oppo-a6t-5g",
+  "brand": "oppo",
+  "name": "OPPO A6t 5G",
+  "category": "smartphone",
+  "series": "A",
+  "form": "bar",
+  "spec": [
+   "https://www.oppo.com/my/smartphones/series-a/a6t-5g/specs/"
+  ],
+  "q": "Oppo A6t 5G"
+ },
+ {
+  "id": "oppo-a6-5g",
+  "brand": "oppo",
+  "name": "OPPO A6 5G",
+  "category": "smartphone",
+  "series": "A",
+  "form": "bar",
+  "spec": [
+   "https://www.oppo.com/my/smartphones/series-a/a6-5g/specs/"
+  ],
+  "q": "Oppo A6 5G"
+ },
+ {
+  "id": "oppo-a6c",
+  "brand": "oppo",
+  "name": "OPPO A6c",
+  "category": "smartphone",
+  "series": "A",
+  "form": "bar",
+  "spec": [
+   "https://www.oppo.com/my/smartphones/series-a/a6c/specs/"
+  ],
+  "q": "Oppo A6c"
+ },
+ {
+  "id": "oppo-reno15",
+  "brand": "oppo",
+  "name": "OPPO Reno15 5G",
+  "category": "smartphone",
+  "series": "Reno",
+  "form": "bar",
+  "spec": [
+   "https://www.oppo.com/my/smartphones/series-reno/reno15/specs/"
+  ],
+  "q": "Oppo Reno15 5G"
+ },
+ {
+  "id": "oppo-reno15-pro",
+  "brand": "oppo",
+  "name": "OPPO Reno15 Pro 5G",
+  "category": "smartphone",
+  "series": "Reno",
+  "form": "bar",
+  "spec": [
+   "https://www.oppo.com/my/smartphones/series-reno/reno15-pro/specs/"
+  ],
+  "q": "Oppo Reno15 Pro 5G"
+ },
+ {
+  "id": "oppo-reno15-f",
+  "brand": "oppo",
+  "name": "OPPO Reno15 F 5G",
+  "category": "smartphone",
+  "series": "Reno",
+  "form": "bar",
+  "spec": [
+   "https://www.oppo.com/my/smartphones/series-reno/reno15-f/specs/"
+  ],
+  "q": "Oppo Reno15 F 5G"
+ },
+ {
+  "id": "oppo-find-n6",
+  "brand": "oppo",
+  "name": "OPPO Find N6",
+  "category": "smartphone",
+  "series": "Find N",
+  "form": "foldable",
+  "spec": [
+   "https://www.oppo.com/my/smartphones/series-find-n/find-n6/specs/"
+  ],
+  "q": "Oppo Find N6"
+ },
+ {
+  "id": "oppo-find-x9-ultra",
+  "brand": "oppo",
+  "name": "OPPO Find X9 Ultra",
+  "category": "smartphone",
+  "series": "Find X",
+  "form": "bar",
+  "spec": [
+   "https://www.oppo.com/my/smartphones/series-find-x/find-x9-ultra/specs/"
+  ],
+  "q": "Oppo Find X9 Ultra"
+ },
+ {
+  "id": "oppo-find-x9s",
+  "brand": "oppo",
+  "name": "OPPO Find X9s",
+  "category": "smartphone",
+  "series": "Find X",
+  "form": "bar",
+  "spec": [
+   "https://www.oppo.com/my/smartphones/series-find-x/find-x9s/specs/"
+  ],
+  "q": "Oppo Find X9s"
+ },
+ {
+  "id": "oppo-reno16",
+  "brand": "oppo",
+  "name": "OPPO Reno16 5G",
+  "category": "smartphone",
+  "series": "Reno",
+  "form": "bar",
+  "spec": [
+   "https://www.oppo.com/my/smartphones/series-reno/reno16/specs/"
+  ],
+  "q": "Oppo Reno16 5G"
+ },
+ {
+  "id": "oppo-reno16-pro",
+  "brand": "oppo",
+  "name": "OPPO Reno16 Pro 5G",
+  "category": "smartphone",
+  "series": "Reno",
+  "form": "bar",
+  "spec": [
+   "https://www.oppo.com/my/smartphones/series-reno/reno16-pro/specs/"
+  ],
+  "q": "Oppo Reno16 Pro 5G"
+ },
+ {
+  "id": "oppo-reno16-f",
+  "brand": "oppo",
+  "name": "OPPO Reno16 F 5G",
+  "category": "smartphone",
+  "series": "Reno",
+  "form": "bar",
+  "spec": [
+   "https://www.oppo.com/my/smartphones/series-reno/reno16-f/specs/"
+  ],
+  "q": "Oppo Reno16 F 5G"
+ },
+ {
+  "id": "oppo-a7-pro-max",
+  "brand": "oppo",
+  "name": "OPPO A7 Pro Max",
+  "category": "smartphone",
+  "series": "A",
+  "form": "bar",
+  "spec": [
+   "https://www.oppo.com/my/smartphones/series-a/a7-pro-max/specs/"
+  ],
+  "q": "Oppo A7 Pro Max"
+ },
+ {
+  "id": "oppo-watch-x",
+  "brand": "oppo",
+  "name": "OPPO Watch X",
+  "category": "smartwatch",
+  "series": "Watch",
+  "form": "watch",
+  "spec": [
+   "https://www.oppo.com/my/accessories/watch-x/specs/"
+  ],
+  "q": "Oppo Watch X"
+ },
+ {
+  "id": "oppo-watch-x2",
+  "brand": "oppo",
+  "name": "OPPO Watch X2",
+  "category": "smartwatch",
+  "series": "Watch",
+  "form": "watch",
+  "spec": [
+   "https://www.oppo.com/my/accessories/watch-x2/specs/"
+  ],
+  "q": "Oppo Watch X2"
+ },
+ {
+  "id": "oppo-watch-x2-mini",
+  "brand": "oppo",
+  "name": "OPPO Watch X2 Mini",
+  "category": "smartwatch",
+  "series": "Watch",
+  "form": "watch",
+  "spec": [
+   "https://www.oppo.com/my/accessories/watch-x2-mini/specs/"
+  ],
+  "q": "Oppo Watch X2 Mini"
+ },
+ {
+  "id": "oppo-watch-s",
+  "brand": "oppo",
+  "name": "OPPO Watch S",
+  "category": "smartwatch",
+  "series": "Watch",
+  "form": "watch",
+  "spec": [
+   "https://www.oppo.com/my/accessories/watch-s/specs/"
+  ],
+  "q": "Oppo Watch S"
+ },
+ {
+  "id": "oppo-watch-x3",
+  "brand": "oppo",
+  "name": "OPPO Watch X3",
+  "category": "smartwatch",
+  "series": "Watch",
+  "form": "watch",
+  "spec": [
+   "https://www.oppo.com/my/accessories/watch-x3/specs/"
+  ],
+  "q": "Oppo Watch X3"
+ },
+ {
+  "id": "oppo-band-2",
+  "brand": "oppo",
+  "name": "OPPO Band 2",
+  "category": "band",
+  "series": "Band",
+  "form": "band",
+  "spec": [
+   "https://www.oppo.com/my/accessories/band2/specs/"
+  ],
+  "q": "Oppo Band 2"
+ }
+]

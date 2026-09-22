@@ -1,0 +1,128 @@
+{
+  "id": "honor-x5b-plus",
+  "name": "HONOR X5b Plus",
+  "brand": "honor",
+  "category": "smartphone",
+  "series": "X",
+  "form": "bar",
+  "status": "released",
+  "announced": "2024-12-02",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 429,
+      "date": "2024-12-02",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2024/338521/honor-x9c-smart-x5b-plus-prices/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://www.honor.com/content/dam/honor/my/product-list/smartphone/honor-x5b-plus/honor-x5b-list.png",
+    "page": "https://www.honor.com/my/phones/honor-x5b-plus/spec/",
+    "credit": "HONOR Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.56,
+      "type": "LCD",
+      "resolution": "1612 × 720",
+      "ppi": 269
+    },
+    "platform": {
+      "chipset": "helio-g36",
+      "gpu": "IMG GE8320",
+      "cpu": "Octa-core; 4*Cortex-A53 up to 2.2Ghz+4*Cortex-A53 up to 1.6Ghz"
+    },
+    "memory": {
+      "ram_gb": [
+        4
+      ],
+      "storage_gb": [
+        128
+      ]
+    },
+    "battery": {
+      "capacity_mah": 5200,
+      "chemistry": "Lithium-ion"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "aperture": "f/1.8"
+        }
+      ],
+      "front": "5 MP",
+      "rear_detail": [
+        "50MP Main Camera(f/1.8)",
+        "Auxiliary Camera"
+      ],
+      "features": "10X Digital zoom",
+      "video": "1080p",
+      "front_detail": [
+        "5 MP Camera (f/2.2 aperture)"
+      ]
+    },
+    "connectivity": {
+      "cellular": "4G",
+      "technology": "GSM / HSPA / LTE",
+      "sim": "Nano SIM card",
+      "wifi": "802.11 a/b/g/n/ac",
+      "positioning": "Support GPS/AGPS/GLONASS/BeiDou/Galileo; Network-Based Positioning; Wi-Fi-Based Positioning",
+      "usb": "Type-C,USB 2.0",
+      "bluetooth": "Bluetooth"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 163.85,
+        "width_mm": 75.75,
+        "depth_mm": 8.7
+      },
+      "weight_g": 194.0
+    },
+    "software": {
+      "launch_os": "MagicOS 8.0(Based on Android 14)"
+    },
+    "biometrics": {
+      "face": "Yes"
+    },
+    "charging": {
+      "claim": "5V/2A"
+    },
+    "sensors": "Gravity Sensor, Fingerprint Sensor, Ambient Light Sensor, Proximity Sensor, Media and Audio",
+    "audio": {
+      "jack": true
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "honor",
+      "url": "https://www.honor.com/my/phones/honor-x5b-plus/spec/",
+      "checked": "2026-09-18",
+      "note": "Read from HONOR Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "lowyat",
+        "url": "https://www.lowyat.net/2024/338521/honor-x9c-smart-x5b-plus-prices/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (Lowyat.NET). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

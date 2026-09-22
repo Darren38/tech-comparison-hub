@@ -1,0 +1,34 @@
+{
+ "huawei-nova-11i": {
+  "kind": "official",
+  "src": "https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/admin-image/phones/nova-11i/list/black.png",
+  "page": "https://web.archive.org/web/20250124031428/https://consumer.huawei.com/my/phones/nova-11i/",
+  "credit": "Huawei",
+  "checked": "2026-09-19",
+  "how": "product image named on the maker's page (page archived 20250124; image still on the maker's site)"
+ },
+ "xiaomi-watch-s4-41mm": {
+  "kind": "official",
+  "src": "https://i02.appmifile.com/450_operatorx_operatorx_xm/16/09/2025/3dde321016a79f6316c16d8bb93e4409.png",
+  "page": "https://web.archive.org/web/20260413171600/https://www.mi.com/global/product/xiaomi-watch-s4-41mm/",
+  "credit": "Xiaomi",
+  "checked": "2026-09-19",
+  "how": "product image named on the maker's page (page archived 20260413; image still on the maker's site)"
+ },
+ "poco-m8s-5g": {
+  "kind": "official",
+  "src": "https://i02.appmifile.com/591_operatorx_operatorx_xm/20/04/2026/e2067834c308a9f1bc13041fc8add3aa.png",
+  "page": "https://web.archive.org/web/20260518094845/https://www.mi.com/global/product/poco-m8s-5g/",
+  "credit": "Xiaomi",
+  "checked": "2026-09-19",
+  "how": "product image named on the maker's page (page archived 20260518; image still on the maker's site)"
+ },
+ "redmi-note-12-pro-5g": {
+  "kind": "official",
+  "src": "https://i02.appmifile.com/859_operatorx_operatorx_opx/06/08/2024/318bdfdf898def1dd06f83a039ce4470.png",
+  "page": "https://web.archive.org/web/20260519160420/https://www.mi.com/global/product/redmi-note-12-pro-5g/",
+  "credit": "Xiaomi",
+  "checked": "2026-09-19",
+  "how": "product image named on the maker's page (page archived 20260519; image still on the maker's site)"
+ }
+}

@@ -1,0 +1,171 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "tch/device.schema.json",
+  "title": "Device",
+  "description": "One device file in data/devices/<category>/<id>.json. Unknown values are omitted, never guessed. tools/build.py performs the cross-file checks (brand, chipset and source ids exist).",
+  "type": "object",
+  "required": ["id", "name", "brand", "category", "status", "specs", "provenance"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+    "name": { "type": "string", "description": "Model name without the brand prefix unless the brand is part of the product name." },
+    "brand": { "type": "string", "description": "Brand id from data/brands/brands.json." },
+    "category": { "type": "string", "description": "Category id from data/categories/." },
+    "series": { "type": "string" },
+    "form": { "enum": ["bar", "foldable", "tablet", "watch"] },
+    "status": { "enum": ["rumored", "announced", "pre-order", "released", "discontinued"] },
+    "announced": { "$ref": "#/$defs/date" },
+    "released": { "$ref": "#/$defs/date" },
+    "segment": { "type": "string" },
+    "aliases": { "type": "array", "items": { "type": "string" } },
+    "summary": { "type": "string", "description": "Short, original wording." },
+    "highlights": { "type": "array", "items": { "type": "string" }, "maxItems": 6 },
+    "prices": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["region", "currency", "amount"],
+        "properties": {
+          "region": { "type": "string" },
+          "currency": { "type": "string", "pattern": "^[A-Z]{3}$" },
+          "amount": { "type": "number", "exclusiveMinimum": 0 },
+          "config": { "type": "string" },
+          "date": { "$ref": "#/$defs/date" },
+          "type": { "enum": ["launch", "current"] },
+          "source": { "type": "string" },
+          "url": { "type": "string", "format": "uri" },
+          "class": { "$ref": "#/$defs/evidenceClass" },
+          "note": { "type": "string" },
+          "accessed": { "$ref": "#/$defs/date", "description": "When the price was read from the source." }
+        }
+      }
+    },
+    "image": {
+      "type": "object",
+      "description": "A freely licensed photo or drawing on Wikimedia Commons, shown from Wikimedia and credited. Add it with tools/add_photo.py.",
+      "required": ["kind", "src", "page", "checked"],
+      "properties": {
+        "kind": { "enum": ["photo", "drawing", "official"], "description": "official = the manufacturer's product image, shown from its own server and credited" },
+        "src": { "type": "string", "pattern": "^https://upload\\.wikimedia\\.org/" },
+        "page": { "type": "string", "pattern": "^https://commons\\.wikimedia\\.org/wiki/File:" },
+        "title": { "type": "string" },
+        "author": { "type": ["string", "null"] },
+        "license": { "type": "string", "pattern": "^(CC0|Public domain|CC BY(-SA)? \\d\\.\\d)$" },
+        "licenseUrl": { "type": ["string", "null"] },
+        "credit": { "type": "string", "description": "For official images: the manufacturer site credited, e.g. \"OPPO Malaysia\"." },
+        "focus": { "type": "string", "pattern": "^\\d{1,3}% \\d{1,3}%$", "description": "Crop centre (CSS object-position) for the portrait card thumbnail of a wide photo." },
+        "checked": { "$ref": "#/$defs/date" }
+      }
+    },
+    "availability": {
+      "type": "object",
+      "description": "Regions (keys such as \"MY\") where the device has no recorded launch price, and why. A region with a launch price needs no entry.",
+      "additionalProperties": {
+        "type": "object",
+        "required": ["status", "checked"],
+        "properties": {
+          "status": { "enum": ["not-launched", "not-found", "price-not-found"] },
+          "checked": { "$ref": "#/$defs/date" },
+          "source": { "type": "string" },
+          "url": { "type": "string", "format": "uri" },
+          "note": { "type": "string" }
+        }
+      }
+    },
+    "specs": {
+      "type": "object",
+      "properties": {
+        "display": { "type": "object" },
+        "platform": {
+          "type": "object",
+          "properties": { "chipset": { "type": "string" }, "chipset_note": { "type": "string" } }
+        },
+        "memory": {
+          "type": "object",
+          "properties": {
+            "ram_gb": { "type": "array", "items": { "type": "number" } },
+            "storage_gb": { "type": "array", "items": { "type": "number" } }
+          }
+        },
+        "battery": { "type": "object" },
+        "charging": {
+          "type": "object",
+          "properties": {
+            "wired_w": { "type": "number", "minimum": 0 },
+            "wireless_w": { "type": "number", "minimum": 0, "description": "0 = explicitly no wireless charging; omit when unknown." }
+          }
+        },
+        "camera": {
+          "type": "object",
+          "properties": {
+            "rear": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": ["role"],
+                "properties": {
+                  "role": { "enum": ["main", "ultrawide", "telephoto", "periscope", "macro", "depth", "monochrome"] },
+                  "mp": { "type": "number" },
+                  "sensor": { "type": "string", "description": "Optical format, e.g. 1/1.3\" or 1\"." },
+                  "aperture": { "type": "string" },
+                  "focal_mm": { "type": "number" },
+                  "zoom_x": { "type": "number" },
+                  "ois": { "type": "boolean" },
+                  "note": { "type": "string" }
+                }
+              }
+            },
+            "zoom_optical_x": { "type": "number", "minimum": 1 }
+          }
+        },
+        "build": {
+          "type": "object",
+          "properties": {
+            "dimensions": {
+              "type": "object",
+              "properties": { "height_mm": { "type": "number" }, "width_mm": { "type": "number" }, "depth_mm": { "type": "number" } }
+            },
+            "weight_g": { "type": "number", "exclusiveMinimum": 0 },
+            "ip": { "type": "string" }
+          }
+        },
+        "software": {
+          "type": "object",
+          "properties": {
+            "launch_os": { "type": "string" },
+            "os_updates_years": { "type": "number", "minimum": 0 },
+            "security_updates_years": { "type": "number", "minimum": 0 }
+          }
+        }
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "required": ["default"],
+      "properties": {
+        "default": { "$ref": "#/$defs/provenance" },
+        "fields": {
+          "type": "object",
+          "description": "Overrides keyed by dotted path (e.g. specs.camera.rear); applies to that path and everything below it.",
+          "propertyNames": { "pattern": "^[a-zA-Z0-9_.]+$" },
+          "additionalProperties": { "$ref": "#/$defs/provenance" }
+        }
+      }
+    },
+    "dataStatus": { "enum": ["checked", "compiled"] }
+  },
+  "$defs": {
+    "date": { "type": "string", "pattern": "^\\d{4}(-\\d{2}(-\\d{2})?)?$" },
+    "evidenceClass": { "enum": ["official", "measured", "database", "reviewer", "news", "community", "estimated", "platform"] },
+    "provenance": {
+      "type": "object",
+      "required": ["class", "source"],
+      "properties": {
+        "class": { "$ref": "#/$defs/evidenceClass" },
+        "source": { "type": "string" },
+        "url": { "type": "string" },
+        "checked": { "$ref": "#/$defs/date" },
+        "note": { "type": "string" }
+      }
+    }
+  }
+}

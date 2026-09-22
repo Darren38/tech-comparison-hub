@@ -1,0 +1,129 @@
+{
+  "id": "xiaomi-13t-pro",
+  "name": "Xiaomi 13T Pro",
+  "brand": "xiaomi",
+  "category": "smartphone",
+  "series": "T",
+  "form": "bar",
+  "status": "released",
+  "announced": "2023-09-26",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 2499,
+      "config": "12 GB / 256 GB",
+      "date": "2023-09-26",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2023/09/26/xiaomi-13t-pro-malaysia-leica-cameras-5-years-of-updates-1tb-of-storage-and-ip68-rating/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 2699,
+      "config": "12 GB / 512 GB",
+      "date": "2023-09-26",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2023/09/26/xiaomi-13t-pro-malaysia-leica-cameras-5-years-of-updates-1tb-of-storage-and-ip68-rating/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 3499,
+      "config": "16 GB / 1 TB",
+      "date": "2023-09-26",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2023/09/26/xiaomi-13t-pro-malaysia-leica-cameras-5-years-of-updates-1tb-of-storage-and-ip68-rating/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 6.67,
+      "type": "AMOLED",
+      "resolution": "2712 × 1220",
+      "refresh_hz": 144,
+      "peak_nits": 2600,
+      "ppi": 446
+    },
+    "platform": {
+      "chipset": "dimensity-9200-plus"
+    },
+    "memory": {
+      "ram_gb": [
+        12,
+        16
+      ],
+      "storage_gb": [
+        256,
+        512,
+        1024
+      ]
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "charging": {
+      "wired_w": 120
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50
+        },
+        {
+          "role": "ultrawide",
+          "mp": 12
+        },
+        {
+          "role": "telephoto",
+          "mp": 50
+        }
+      ],
+      "front": "20 MP"
+    },
+    "build": {
+      "ip": "IP68"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true
+    },
+    "software": {
+      "launch_os": "MIUI 14 (Android 13 base)"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "news",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2023/09/26/xiaomi-13t-pro-malaysia-leica-cameras-5-years-of-updates-1tb-of-storage-and-ip68-rating/",
+      "note": "The maker no longer publishes a specification page for this model. Key specs were taken from this Malaysian launch report, which gives the maker's figures.",
+      "checked": "2026-09-18"
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2023/09/26/xiaomi-13t-pro-malaysia-leica-cameras-5-years-of-updates-1tb-of-storage-and-ip68-rating/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

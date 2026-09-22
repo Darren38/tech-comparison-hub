@@ -1,0 +1,60 @@
+honor-x7a | 6/128=799 @soya |
+honor-x8a | -=999 @soya |
+honor-x8a-5g | |
+honor-x9a | 8/256=1499 @soya |
+honor-magic5-pro | -=4299 @lowy |
+honor-magic5 | -=3499 @lowy |
+honor-magic-vs | -=5999 @lowy |
+honor-90 | 256=1799, 512=2099 @lowy |
+honor-90-lite | 8/256=1099 @soya |
+honor-x6a | 6/128=599 @soya |
+honor-x5-plus | 4/64=449 @soya |
+honor-x9b | -=1499 @lowy |
+honor-x8b | 8/512=999 @soya |
+honor-x7b | -=799 @lowy |
+honor-x7b-5g | 8/256=899 @soya |
+honor-x6b | -=599 @lowy | pnote=Price listed by an HONOR store and retailers before launch, as reported by Lowyat.NET.
+honor-x5b-plus | -=429 @lowy |
+honor-magic-v2 | -=6999 @soya |
+honor-magic6-pro | 12/512=4499 @soya |
+honor-magic6-rsr-porsche-design | 24/1T=7499 @soya | src=https://soyacincau.com/2024/03/22/honor-porsche-magic-v2-rsr-magic-6-rsr-malaysia-official-launch-price/
+honor-magic-v2-rsr-porsche-design | 16/1T=10999 @soya | src=https://soyacincau.com/2024/03/22/honor-porsche-magic-v2-rsr-magic-6-rsr-malaysia-official-launch-price/
+honor-200 | 12/256=1899, 12/512=2199 @nasi |
+honor-200-pro | 12/512=2699 @soya |
+honor-200-lite | -=1299 @soya |
+honor-200-smart | -=1099 @soya |
+honor-magic-v3 | -=6999 @soya |
+honor-x9c | 12/256=1499, 12/512=1699 @soya |
+honor-x7c | 8/256=699 @soya |
+honor-x9c-smart | 8/256=1099 @soya |
+honor-magic7-pro | 12/512=4599, 16/1T=5199 @soya |
+honor-magic7-rsr-porsche-design | 24/1T=6999 @lowy | src=https://www.lowyat.net/2025/340604/honor-magic7-pro-malaysia/
+honor-400-lite | 12/256=1299 @soya |
+honor-400 | 12/256=1899, 12/512=2199 @soya |
+honor-400-pro | 12/512=2699 @soya |
+honor-x6c | 8/256=599 @soya |
+honor-magic-v5 | 16/512=6999 @soya |
+honor-x9d | 12/256=1499, 12/512=1699 @soya |
+honor-x7d | |
+honor-x7d-5g | |
+honor-x5d | |
+honor-x5d-plus | |
+honor-400-smart-5g | |
+honor-x7e | |
+honor-x6e | |
+honor-500-smart-5g | |
+honor-600 | |
+honor-600-pro | |
+honor-600-lite | -=1399 @lowy | src=https://www.lowyat.net/2026/385401/honor-600-lite-malaysia/
+honor-magic-v6 | 16/512=7699, 16/1T=8899 @soya |
+honor-play10 | |
+honor-x9e-pro | | status=announced
+honor-watch-4 | -=499 @lowy |
+honor-band-9 | -=199 @lowy | src=https://www.lowyat.net/2024/320860/honor-band-9-2/
+honor-watch-5 | -=599 @lowy |
+honor-band-10 | |
+honor-watch-5-ultra | |
+honor-watch-x5i | |
+honor-watch-fit | |
+honor-watch-6 | |
+honor-watch-x5-play | |

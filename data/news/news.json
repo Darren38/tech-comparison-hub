@@ -1,0 +1,243 @@
+[
+  {
+    "id": "macrumors-iphone-17-pro-scratch-test",
+    "kind": "news", "type": "issue", "source": "macrumors", "class": "news",
+    "title": "iPhone 17 Pro is Vulnerable to Scratching, But Not Where You Might Think",
+    "url": "https://www.macrumors.com/2025/09/23/iphone-17-pro-scratch-test/",
+    "published": "2025-09-23", "accessed": "2026-09-15",
+    "devices": ["apple-iphone-17-pro", "apple-iphone-17-pro-max"], "facets": ["durability"],
+    "summary": "Durability testing found the sharp anodised edges of the camera plateau scuff easily, while the rest of the aluminium body resisted scratches well."
+  },
+  {
+    "id": "9to5mac-apple-responds-scratches",
+    "kind": "news", "type": "issue", "source": "9to5mac", "class": "news",
+    "title": "Apple responds to iPhone 17 Pro scratch and durability concerns",
+    "url": "https://9to5mac.com/2025/09/24/apple-responds-to-iphone-17-pro-scratch-and-durability-concerns/",
+    "published": "2025-09-24", "accessed": "2026-09-15",
+    "devices": ["apple-iphone-17-pro", "apple-iphone-17-pro-max"], "facets": ["durability"],
+    "summary": "Apple said marks on in-store demo units were material transferred from worn MagSafe stands and can be cleaned off, and that the aluminium camera plateau can show small abrasions over time."
+  },
+  {
+    "id": "nbc-jre-iphone-17-pro-max-scratchgate",
+    "kind": "news", "type": "analysis", "source": "notebookcheck", "testedBy": "jerryrigeverything", "class": "reviewer",
+    "title": "iPhone 17 Pro Max durability test: Scratchgate is Apple's fault",
+    "url": "https://www.notebookcheck.net/iPhone-17-Pro-Max-durability-test-Scratchgate-is-Apple-s-fault.1120658.0.html",
+    "published": "2025-09", "publishedApprox": true, "accessed": "2026-09-15",
+    "devices": ["apple-iphone-17-pro-max"], "facets": ["durability"],
+    "verification": "excerpt",
+    "summary": "JerryRigEverything's durability test blamed the camera-plateau scuffing on design: the plateau's edges have no chamfer or radius, so the anodised coating adheres poorly there.",
+    "findings": [
+      { "subject": "apple-iphone-17-pro-max", "facet": "durability", "stance": "negative", "text": "The camera plateau's sharp, unchamfered edges are the weak point for scuffs. The flat body and back resisted scratches well." }
+    ]
+  },
+  {
+    "id": "gsma-iphone-17-durability",
+    "kind": "news", "type": "analysis", "source": "gsmarena", "testedBy": "jerryrigeverything", "class": "reviewer",
+    "title": "iPhone 17 aces durability test",
+    "url": "https://www.gsmarena.com/iphone_17_aces_durability_test-news-69674.php",
+    "published": "2025-09", "publishedApprox": true, "accessed": "2026-09-15",
+    "devices": ["apple-iphone-17"], "facets": ["durability"],
+    "summary": "The base iPhone 17 came through JerryRigEverything's scratch, burn and bend tests well, helped by its Ceramic Shield 2 front glass."
+  },
+  {
+    "id": "oppo-find-x9-global-launch",
+    "kind": "official", "type": "launch", "source": "oppo", "class": "official",
+    "title": "OPPO Find X9 Series Launches Globally, Redefining Flagship Experience with 200MP Hasselblad Telephoto, 7000+mAh Battery, Top-Tier Performance, and ColorOS 16",
+    "url": "https://www.oppo.com/en/newsroom/press/oppo-find-x9-series-coloros-16-global-launch-camera-battery-performance/",
+    "published": "2025-10-28", "publishedApprox": true, "accessed": "2026-09-15",
+    "devices": ["oppo-find-x9-pro"], "chipsets": ["dimensity-9500"], "facets": ["camera", "battery"],
+    "summary": "OPPO's press release announcing the global launch of the Find X9 series with a 200 MP Hasselblad telephoto and 7,000+ mAh batteries."
+  },
+  {
+    "id": "fonearena-oneplus-15-launch",
+    "kind": "news", "type": "launch", "source": "fonearena", "class": "news",
+    "title": "OnePlus 15 with 6.78″ 1.5K 165Hz AMOLED display, Snapdragon 8 Elite Gen 5, 7300mAh battery announced",
+    "url": "https://www.fonearena.com/blog/467407/oneplus-15-price-specifications.html",
+    "published": "2025-10-27", "publishedApprox": true, "accessed": "2026-09-15",
+    "devices": ["oneplus-15"], "chipsets": ["snapdragon-8-elite-gen-5"], "facets": ["battery", "display", "value"],
+    "summary": "China launch of the OnePlus 15 from CNY 3,999, with a 165 Hz display, 7,300 mAh battery and 120 W wired charging."
+  },
+  {
+    "id": "fonearena-realme-gt8-pro-launch",
+    "kind": "news", "type": "launch", "source": "fonearena", "class": "news",
+    "title": "realme GT8 and GT8 Pro with 6.79″ 2K 144Hz OLED display, Snapdragon 8 Elite Gen 5, up to 200MP telephoto camera, 7000mAh battery announced",
+    "url": "https://www.fonearena.com/blog/467052/realme-gt8-pro-price-specifications-realme-gt8.html",
+    "published": "2025-10-21", "publishedApprox": true, "accessed": "2026-09-15",
+    "devices": ["realme-gt-8-pro"], "chipsets": ["snapdragon-8-elite-gen-5"], "facets": ["camera", "battery", "value"],
+    "summary": "China launch of the realme GT 8 Pro from CNY 3,999, with a RICOH GR camera system and 200 MP periscope."
+  },
+  {
+    "id": "nbc-honor-magic8-pro-eu-battery",
+    "kind": "news", "type": "availability", "source": "notebookcheck", "class": "news",
+    "title": "Honor Magic 8 Pro will reportedly have battery downgraded by 13% in Europe",
+    "url": "https://www.notebookcheck.net/Honor-Magic-8-Pro-will-reportedly-have-battery-downgraded-by-13-in-Europe.1161483.0.html",
+    "published": "2025-11", "publishedApprox": true, "accessed": "2026-09-15",
+    "devices": ["honor-magic8-pro"], "facets": ["battery"], "region": "EU",
+    "summary": "Reported ahead of the European launch: the EU Magic8 Pro ships with a smaller battery than other markets. GSMArena's EU test unit had 6,270 mAh against 7,100 mAh globally."
+  },
+  {
+    "id": "gizmochina-honor-magic8-pro-malaysia",
+    "kind": "news", "type": "launch", "source": "gizmochina", "class": "news",
+    "title": "Honor Magic 8 Pro Goes Global: Snapdragon 8 Elite Gen 5, 200MP Camera and More",
+    "url": "https://www.gizmochina.com/2025/11/30/honor-magic-8-pro-launched-malaysia/",
+    "published": "2025-11-30", "accessed": "2026-09-15",
+    "devices": ["honor-magic8-pro"], "facets": ["camera"], "region": "MY",
+    "summary": "The HONOR Magic8 Pro's international rollout begins in Malaysia."
+  },
+  {
+    "id": "gsma-redmagic-11-pro-global",
+    "kind": "news", "type": "price", "source": "gsmarena", "class": "news",
+    "title": "RedMagic 11 Pro brings its liquid cooling to the global stage",
+    "url": "https://www.gsmarena.com/redmagic_11_pro_brings_its_liquid_cooling_to_the_global_stage-news-70139.php",
+    "published": "2025-11", "publishedApprox": true, "accessed": "2026-09-15",
+    "devices": ["redmagic-11-pro"], "chipsets": ["snapdragon-8-elite-gen-5"], "facets": ["gaming", "value"],
+    "summary": "Global availability from $669 / €669, on sale from 18 November, in North America, Europe, Asia-Pacific, Latin America and the Middle East."
+  },
+  {
+    "id": "androidpolice-pixel-10-gpu-driver",
+    "kind": "news", "type": "software-update", "source": "android-police", "class": "news",
+    "title": "Google Pixel 10 will soon get a GPU driver update",
+    "url": "https://www.androidpolice.com/google-pixel-10-will-soon-get-gpu-driver-update/",
+    "published": "2025-09", "publishedApprox": true, "accessed": "2026-09-15",
+    "devices": ["google-pixel-10-pro-xl", "google-pixel-10-pro", "google-pixel-10"], "chipsets": ["google-tensor-g5"], "facets": ["gaming", "software"],
+    "summary": "After reports of stutter in demanding games linked to an outdated GPU driver, Google confirmed that driver updates for the Pixel 10 series were coming."
+  },
+  {
+    "id": "forbes-pixel-10-gpu-driver-tested",
+    "kind": "news", "type": "software-update", "source": "forbes", "class": "news",
+    "title": "Pixel 10 Gets A Hidden Performance Upgrade — What The New Graphics Driver Really Delivers",
+    "url": "https://www.forbes.com/sites/paulmonckton/2025/12/24/pixel-10-gets-a-hidden-performance-upgrade--what-the-new-graphics-driver-really-delivers/",
+    "published": "2025-12-24", "accessed": "2026-09-15",
+    "devices": ["google-pixel-10-pro-xl", "google-pixel-10-pro", "google-pixel-10"], "chipsets": ["google-tensor-g5"], "facets": ["gaming"],
+    "verification": "excerpt",
+    "summary": "Hands-on testing of the updated Tensor G5 GPU driver reported measurable gains in some games, though Pixel 10 gaming performance still trails rival flagships."
+  },
+  {
+    "id": "fonearena-iqoo-15-india",
+    "kind": "news", "type": "launch", "source": "fonearena", "class": "news",
+    "title": "iQOO 15 with 6.85″ 2K LTPO 144Hz OLED display, Snapdragon 8 Elite Gen 5, 7000mAh battery launched in India",
+    "url": "https://www.fonearena.com/blog/469632/iqoo-15-price-india-specifications.html",
+    "published": "2025-11", "publishedApprox": true, "accessed": "2026-09-15",
+    "devices": ["iqoo-15"], "chipsets": ["snapdragon-8-elite-gen-5"], "facets": ["value"], "region": "IN",
+    "summary": "India launch from ₹72,999 for 12 GB / 256 GB."
+  },
+  {
+    "id": "lowyat-s26-ultra-malaysia",
+    "kind": "news", "type": "price", "source": "lowyat", "class": "news",
+    "title": "Samsung Galaxy S26 Ultra Is Now Official; Retails From RM6,799",
+    "url": "https://www.lowyat.net/2026/384163/samsung-galaxy-s26-ultra-official-launch/",
+    "published": "2026-02-25", "accessed": "2026-09-15",
+    "devices": ["samsung-galaxy-s26-ultra"], "facets": ["value"], "region": "MY",
+    "summary": "Launch-day Malaysian pricing: from RM6,799 for the models on sale then. The 12 GB / 256 GB model, listed as coming soon at launch, is RM5,999 (see the device's prices)."
+  },
+  {
+    "id": "sammobile-s26-ultra-price",
+    "kind": "news", "type": "price", "source": "sammobile", "class": "news",
+    "title": "Samsung confirms the Galaxy S26 Ultra price starts at $1,299",
+    "url": "https://www.sammobile.com/news/samsung-galaxy-s26-ultra-price/",
+    "published": "2026-02-25", "publishedApprox": true, "accessed": "2026-09-15",
+    "devices": ["samsung-galaxy-s26-ultra"], "facets": ["value"], "region": "US",
+    "summary": "US pricing starts at $1,299.99 for 256 GB, unchanged from the S25 Ultra."
+  },
+  {
+    "id": "gizmochina-exynos-2600-vs-8eg5",
+    "kind": "news", "type": "benchmark", "source": "gizmochina", "class": "news",
+    "title": "Exynos 2600 runs neck-and-neck with Snapdragon 8 Elite Gen 5 in post-launch Geekbench tests",
+    "url": "https://www.gizmochina.com/2026/02/27/galaxy-s26-ultra-vs-s26-exynos-2600-runs-neck-and-neck-with-snapdragon-8-elite-gen-5-in-post-launch-benchmarks/",
+    "published": "2026-02-27", "accessed": "2026-09-15",
+    "devices": ["samsung-galaxy-s26", "samsung-galaxy-s26-ultra"], "chipsets": ["exynos-2600", "snapdragon-8-elite-gen-5"], "facets": ["performance"],
+    "summary": "Early Geekbench listings put the Exynos 2600 close to the Snapdragon 8 Elite Gen 5 in multi-core, but behind in single-core."
+  },
+  {
+    "id": "engadget-xiaomi-17-ultra-global",
+    "kind": "news", "type": "launch", "source": "engadget", "class": "news",
+    "title": "Xiaomi 17 Ultra hands-on: Incredible cameras, but maybe hard to get",
+    "url": "https://www.engadget.com/mobile/smartphones/xiaomi-17-ultra-global-launch-hands-on-leica-camera-143006810.html",
+    "published": "2026-02-28", "publishedApprox": true, "accessed": "2026-09-15",
+    "devices": ["xiaomi-17-ultra"], "facets": ["camera", "value"], "region": "UK",
+    "summary": "Global launch at MWC 2026, with UK pricing from £1,299. US availability was not confirmed."
+  },
+  {
+    "id": "nbc-s26-exynos-disadvantages",
+    "kind": "news", "type": "analysis", "source": "notebookcheck", "class": "news",
+    "title": "Samsung Galaxy S26 with Exynos 2600 shows many disadvantages compared to Snapdragon",
+    "url": "https://www.notebookcheck.net/Samsung-Galaxy-S26-with-Exynos-2600-shows-many-disadvantages-compared-to-Snapdragon.1267090.0.html",
+    "published": "2026-04", "publishedApprox": true, "accessed": "2026-09-15",
+    "devices": ["samsung-galaxy-s26"], "chipsets": ["exynos-2600", "snapdragon-8-elite-gen-5"], "facets": ["performance", "efficiency"],
+    "verification": "excerpt",
+    "summary": "Tests of European Exynos units found the S26 and S26+ slower than their US Snapdragon counterparts in several workloads, and drawing more power."
+  },
+  {
+    "id": "samsung-z-fold8-launch",
+    "kind": "official", "type": "launch", "source": "samsung", "class": "official",
+    "title": "Samsung Galaxy Z Fold8: Release Date, Features & Specs",
+    "url": "https://www.samsung.com/au/mobile/buying-guide/galaxy-z-fold8-features-specs/",
+    "published": "2026-07-22", "accessed": "2026-09-15",
+    "devices": ["samsung-galaxy-z-fold8"], "chipsets": ["snapdragon-8-elite-gen-5"], "facets": ["display"],
+    "summary": "Samsung's guide to the Z Fold8, unveiled at Galaxy Unpacked on 22 July 2026, with a wider 4:3 main display and 5.5-inch cover screen."
+  },
+  {
+    "id": "nbc-pixel-11-pro-launch",
+    "kind": "news", "type": "launch", "source": "notebookcheck", "class": "news",
+    "title": "Google Pixel 11 Pro series debuts with Tensor G6, new cameras and Qi2.2 charging",
+    "url": "https://www.notebookcheck.net/Google-Pixel-11-Pro-series-debuts-with-Tensor-G6-new-cameras-and-Qi2-2-charging.1366782.0.html",
+    "author": "Anil Ganti",
+    "published": "2026-08-12", "accessed": "2026-09-15",
+    "devices": ["google-pixel-11-pro-xl", "google-pixel-11-pro"], "chipsets": ["google-tensor-g6"], "facets": ["camera", "charging", "display"],
+    "summary": "Pixel 11 Pro ($1,099) and Pro XL ($1,299) announced with Tensor G6, 3,600-nit displays, Qi2.2 magnetic charging and seven years of updates."
+  },
+  {
+    "id": "sammyfans-one-ui-9-beta-6",
+    "kind": "news", "type": "software-update", "source": "sammyfans", "class": "news",
+    "title": "One UI 9 Beta 6 arrives early for Galaxy S26 series with four impressive upgrades",
+    "url": "https://www.sammyfans.com/2026/08/25/one-ui-9-beta-6-arrives-early-for-galaxy-s26-series/",
+    "published": "2026-08-25", "accessed": "2026-09-15",
+    "devices": ["samsung-galaxy-s26-ultra", "samsung-galaxy-s26"], "facets": ["software"],
+    "summary": "The sixth One UI 9 (Android 17) beta reached the Galaxy S26 series ahead of schedule."
+  },
+  {
+    "id": "samsung-newsroom-one-ui-9-beta-features",
+    "kind": "official", "type": "software-update", "source": "samsung", "class": "official",
+    "title": "Samsung Announces One UI 9 Beta Feature Update for Galaxy S26 series",
+    "url": "https://news.samsung.com/uk/samsung-announces-one-ui-9-beta-feature-update-for-galaxy-s26-series",
+    "published": "2026-08", "publishedApprox": true, "accessed": "2026-09-15",
+    "devices": ["samsung-galaxy-s26-ultra", "samsung-galaxy-s26"], "facets": ["software"],
+    "summary": "Samsung brought features from its latest foldables to One UI 9 beta testers on the Galaxy S26 series, rolling out from 28 August."
+  },
+  {
+    "id": "androidheadlines-s26-ultra-beta-hotfix",
+    "kind": "news", "type": "software-update", "source": "android-headlines", "class": "news",
+    "title": "Galaxy S26 Ultra Gets a Surprise One UI 9 Beta Hotfix",
+    "url": "https://www.androidheadlines.com/2026/09/samsung-galaxy-s26-ultra-one-ui-9-beta-hotfix.html",
+    "published": "2026-09", "publishedApprox": true, "accessed": "2026-09-15",
+    "devices": ["samsung-galaxy-s26-ultra"], "facets": ["software"],
+    "summary": "An Ultra-only hotfix for the One UI 9 beta while the stable release is still pending."
+  },
+  {
+    "id": "sammobile-one-ui-9-stable-coming",
+    "kind": "news", "type": "software-update", "source": "sammobile", "class": "news",
+    "title": "Samsung confirms stable Galaxy S26 One UI 9 update is coming soon",
+    "url": "https://www.sammobile.com/news/samsung-confirms-stable-galaxy-s26-one-ui-9-update-coming-soon/",
+    "published": "2026-09", "publishedApprox": true, "accessed": "2026-09-15",
+    "devices": ["samsung-galaxy-s26-ultra", "samsung-galaxy-s26"], "facets": ["software"],
+    "summary": "Samsung says the stable One UI 9 (Android 17) release for the S26 series is coming soon, without a firm date."
+  },
+  {
+    "id": "apple-iphone-18-pro-announcement",
+    "kind": "official", "type": "launch", "source": "apple", "class": "official",
+    "title": "Apple debuts iPhone 18 Pro and iPhone 18 Pro Max",
+    "url": "https://www.apple.com/newsroom/2026/09/apple-debuts-iphone-18-pro-and-iphone-18-pro-max/",
+    "published": "2026-09-09", "accessed": "2026-09-15",
+    "devices": ["apple-iphone-18-pro-max"], "chipsets": ["apple-a20-pro"], "facets": ["performance", "camera", "battery"],
+    "summary": "A20 Pro on a 2 nm process, a variable-aperture 48 MP main camera, up to 45 hours of video playback on the Pro Max, from $1,299. Available from 18 September."
+  },
+  {
+    "id": "macrumors-a20-pro-benchmarks",
+    "kind": "news", "type": "benchmark", "source": "macrumors", "class": "news",
+    "title": "iPhone 18 Pro and Pro Max Benchmarks Reveal Speed of A20 Pro Chip",
+    "url": "https://www.macrumors.com/2026/09/10/iphone-18-pro-max-benchmarks-reveal-a20-pro-speed/",
+    "published": "2026-09-10", "accessed": "2026-09-15",
+    "devices": ["apple-iphone-18-pro-max"], "chipsets": ["apple-a20-pro"], "facets": ["performance"],
+    "summary": "Pre-release Geekbench results suggest roughly 20–28% CPU gains and a much faster GPU than the A19 Pro. They come from prototypes, so treat them as provisional."
+  }
+]

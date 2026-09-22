@@ -1,0 +1,155 @@
+{
+  "id": "oppo-find-n5",
+  "name": "OPPO Find N5",
+  "brand": "oppo",
+  "category": "smartphone",
+  "series": "Find N",
+  "form": "foldable",
+  "status": "released",
+  "announced": "2025-02-20",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 7999,
+      "config": "16 GB / 512 GB",
+      "date": "2025-02-20",
+      "type": "launch",
+      "source": "nasilemaktech",
+      "url": "https://nasilemaktech.com/oppo-find-n5-malaysia-price/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/oppo-find-n5-en/listpage/427-600-white.png",
+    "page": "https://www.oppo.com/my/smartphones/series-find-n/find-n5/",
+    "credit": "OPPO Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 8.12,
+      "type": "AMOLED",
+      "resolution": "2480 × 2248",
+      "refresh_hz": 120,
+      "peak_nits": 2450,
+      "protection": "Inner screen: Cover glass (PET + UTG); Cover screen: Ultra-Thin Nanocrystal Glass",
+      "ppi": 412
+    },
+    "platform": {
+      "chipset": "snapdragon-8-elite",
+      "gpu": "Adreno 830@1100MHz",
+      "cpu": "7 cores"
+    },
+    "memory": {
+      "ram_gb": [
+        16
+      ],
+      "storage_gb": [
+        512
+      ],
+      "ram_type": "LPDDR5X",
+      "storage_type": "UFS 4.0"
+    },
+    "battery": {
+      "capacity_mah": 5600
+    },
+    "charging": {
+      "wired_w": 80,
+      "wireless_w": 50,
+      "claim": "80W SUPERVOOC , 60W SUPERVOOC , 50W SUPERVOOC , 33W SUPERVOOC , 33W PPS, 13.5W PD; 50W AIRVOOC"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "aperture": "f/1.8",
+          "ois": true
+        },
+        {
+          "role": "telephoto",
+          "mp": 50
+        },
+        {
+          "role": "ultrawide",
+          "mp": 8
+        }
+      ],
+      "front": "8 MP",
+      "rear_detail": [
+        "Wide angle: 50MP; f/1.8; FOV 89°; 7P lens; AF supported; EIS supported; 2-axis OIS supported",
+        "Telephoto: 50MP; f/2.7; 4P lens; AF supported; 2-axis OIS supported",
+        "Ultra-wide angle: 8MP; f/2.2; FOV 116°; 5P lens; AF supported; 2-axis OIS supported"
+      ],
+      "front_detail": [
+        "Inner screen: 8MP; f/2.4; FOV 91°; 4P lens",
+        "Cover screen: 8MP; f/2.4; FOV 91°; 4P lens"
+      ],
+      "video": "4K@60fps; 1080p",
+      "front_video": "4K@30fps; 1080p"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true,
+      "bands_2g": "850/900/1800/1900MHz",
+      "bands_3g": "Bands 1/2/4/5/6/8/19",
+      "bands_4g": "LTE FDD: Bands 1/2/3/4/5/7/8/12/13/17/18/19/20/25/26/28/66; LTE TDD: Bands 38/39/40/41/42",
+      "bands_5g": "5G: n1/n2/n3/n5/n7/n8/n12/n20/n25/n26/n28/n38/n40/n41/n66/n77/n78",
+      "technology": "GSM / HSPA / LTE / 5G",
+      "sim": "Nano-SIM card/Nano-USIM card + eSIM",
+      "bluetooth": "Bluetooth 5.4, Low Energy",
+      "usb": "USB Type-C, USB 3.1 Gen 2",
+      "positioning": "Dual band: GPS (L1 + L5), GLONASS (G1), BDS (B1I + B1C + B2a), Galileo (E1 + E5a), QZSS (L1 + L5)",
+      "wifi": "Wi-Fi 7 (802.11be), Wi-Fi 6 (802.11ax), Wi-Fi 5 (802.11ac), 802.11a/b/g/n; Wi-Fi 2.4GHz 2 x 2 + Wi-Fi 5GHz 2 x 2 supported"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 160.87,
+        "width_mm": 74.42,
+        "depth_mm": 8.93
+      },
+      "weight_g": 229.0
+    },
+    "software": {
+      "launch_os": "ColorOS 15.0.1"
+    },
+    "biometrics": {
+      "face": "Yes",
+      "fingerprint": "Side fingerprint sensor"
+    },
+    "sensors": "Proximity sensor, Ambient light sensor, Colour temperature sensor, E-compass, Accelerometer, Gyroscope, Side fingerprint sensor, Hall sensor, Infrared remote control",
+    "audio": {
+      "jack": false
+    },
+    "misc": {
+      "colors": "Cosmic Black, Misty White"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "oppo",
+      "url": "https://www.oppo.com/my/smartphones/series-find-n/find-n5/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from OPPO Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "nasilemaktech",
+        "url": "https://nasilemaktech.com/oppo-find-n5-malaysia-price/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (Nasi Lemak Tech). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

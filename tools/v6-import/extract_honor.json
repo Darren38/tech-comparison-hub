@@ -1,0 +1,2388 @@
+{
+ "honor-x7a": {
+  "display": {
+   "size_in": 6.745,
+   "type": "LCD",
+   "resolution": "1600 × 720"
+  },
+  "platform": {
+   "chipset_name": "MT6765"
+  },
+  "memory": {
+   "ram_gb": [
+    6
+   ],
+   "storage_gb": [
+    128
+   ]
+  },
+  "battery": {
+   "capacity_mah": 6000
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    },
+    {
+     "role": "main",
+     "mp": 5
+    },
+    {
+     "role": "depth",
+     "mp": 2
+    },
+    {
+     "role": "macro",
+     "mp": 2
+    }
+   ],
+   "rear_text": "Rear: 50MP HD Camera (F1.8) + 5MP Wide Angle Camera (F2.2) + 2MP Depth Camera (F2.4) + 2MP Macro Camera (F2.4)",
+   "front": "8 MP"
+  },
+  "connectivity": {
+   "cellular": "4G"
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 167.48,
+    "width_mm": 76.85,
+    "depth_mm": 8.27
+   },
+   "weight_g": 196.0
+  },
+  "software": {
+   "launch_os": "Magic UI 6.1 (based on Android 12)"
+  }
+ },
+ "honor-x8a": {
+  "display": {
+   "size_in": 6.7,
+   "type": "LCD",
+   "resolution": "2388 × 1080"
+  },
+  "platform": {
+   "chipset_name": "Helio G88"
+  },
+  "memory": {
+   "ram_gb": [
+    8
+   ],
+   "storage_gb": [
+    128
+   ]
+  },
+  "battery": {
+   "capacity_mah": 4500
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 100
+    }
+   ],
+   "front": "16 MP"
+  },
+  "connectivity": {
+   "cellular": "4G"
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 162.9,
+    "width_mm": 74.5,
+    "depth_mm": 7.48
+   },
+   "weight_g": 179.0
+  },
+  "software": {
+   "launch_os": "MagicUI 6.1 (based on Android 12）"
+  }
+ },
+ "honor-x8a-5g": {
+  "display": {
+   "size_in": 6.5,
+   "type": "LCD",
+   "resolution": "1600 × 720"
+  },
+  "platform": {
+   "chipset_name": "Snapdragon 480"
+  },
+  "battery": {
+   "capacity_mah": 5000
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    }
+   ],
+   "front": "8 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 163.66,
+    "width_mm": 75.13,
+    "depth_mm": 8.68
+   },
+   "weight_g": 194.0
+  },
+  "software": {
+   "launch_os": "Magic UI 6.1 (based on Android 12)"
+  }
+ },
+ "honor-x9a": {
+  "display": {
+   "size_in": 6.67,
+   "type": "AMOLED",
+   "resolution": "2400 × 1080"
+  },
+  "platform": {
+   "chipset_name": "Snapdragon 695"
+  },
+  "memory": {
+   "ram_gb": [
+    8
+   ],
+   "storage_gb": [
+    256
+   ]
+  },
+  "battery": {
+   "capacity_mah": 5100
+  },
+  "charging": {
+   "wired_w": 40
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 64
+    }
+   ],
+   "front": "16 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 161.6,
+    "width_mm": 73.9,
+    "depth_mm": 7.9
+   },
+   "weight_g": 175.0
+  },
+  "software": {
+   "launch_os": "MagicUI 6.1 (based on Android 12）"
+  }
+ },
+ "honor-magic5-pro": {
+  "display": {
+   "size_in": 6.81,
+   "type": "OLED",
+   "resolution": "2848 × 1312"
+  },
+  "platform": {
+   "chipset_name": "Snapdragon 8 Gen 2"
+  },
+  "memory": {
+   "ram_gb": [
+    12
+   ],
+   "storage_gb": [
+    512
+   ]
+  },
+  "battery": {
+   "capacity_mah": 5100
+  },
+  "charging": {
+   "wired_w": 66,
+   "wireless_w": 50
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    },
+    {
+     "role": "ultrawide",
+     "mp": 50
+    },
+    {
+     "role": "periscope",
+     "mp": 50
+    }
+   ],
+   "front": "12 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 162.9,
+    "width_mm": 76.7,
+    "depth_mm": 8.77
+   },
+   "weight_g": 219.0,
+   "ip": "IP68"
+  },
+  "software": {
+   "launch_os": "MagicOS 7.1 (Based on Android 13)"
+  }
+ },
+ "honor-magic5": {
+  "display": {
+   "size_in": 6.73,
+   "type": "OLED",
+   "resolution": "2688 × 1224"
+  },
+  "platform": {
+   "chipset_name": "Snapdragon 8 Gen 2"
+  },
+  "memory": {
+   "ram_gb": [
+    12
+   ],
+   "storage_gb": [
+    256
+   ]
+  },
+  "battery": {
+   "capacity_mah": 5100
+  },
+  "charging": {
+   "wired_w": 66
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 54
+    },
+    {
+     "role": "ultrawide",
+     "mp": 50
+    },
+    {
+     "role": "telephoto",
+     "mp": 32
+    }
+   ],
+   "front": "12 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 161.4,
+    "width_mm": 75.5,
+    "depth_mm": 7.8
+   },
+   "weight_g": 191.0
+  },
+  "software": {
+   "launch_os": "MagicOS 7.1 (Based on Android 13)"
+  }
+ },
+ "honor-magic-vs": {
+  "display": {
+   "size_in": 7.9,
+   "type": "OLED",
+   "resolution": "2272 × 1984"
+  },
+  "platform": {
+   "chipset_name": "Snapdragon 8+ Gen 1"
+  },
+  "memory": {
+   "ram_gb": [
+    12
+   ],
+   "storage_gb": [
+    512
+   ]
+  },
+  "battery": {
+   "capacity_mah": 5000
+  },
+  "charging": {
+   "wired_w": 66
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 54
+    },
+    {
+     "role": "ultrawide",
+     "mp": 50
+    },
+    {
+     "role": "telephoto",
+     "mp": 8
+    }
+   ],
+   "front": "16 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 160.3,
+    "width_mm": 72.6,
+    "depth_mm": 12.9
+   },
+   "weight_g": 267.0
+  },
+  "software": {
+   "launch_os": "MagicOS 7.1 (Based on Android 13)"
+  }
+ },
+ "honor-90": {
+  "display": {
+   "size_in": 6.7,
+   "type": "AMOLED",
+   "resolution": "2664 × 1200"
+  },
+  "platform": {
+   "chipset_name": "Snapdragon 7 Gen 1 Accelerated Edition"
+  },
+  "memory": {
+   "ram_gb": [
+    12
+   ],
+   "storage_gb": [
+    256,
+    512
+   ]
+  },
+  "battery": {
+   "capacity_mah": 5000
+  },
+  "charging": {
+   "wired_w": 66
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 200
+    },
+    {
+     "role": "ultrawide",
+     "mp": 12
+    },
+    {
+     "role": "depth",
+     "mp": 2
+    }
+   ],
+   "front": "50 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 161.9,
+    "width_mm": 74.1,
+    "depth_mm": 7.8
+   },
+   "weight_g": 183.0
+  },
+  "software": {
+   "launch_os": "MagicOS 7.1 (Based on Android 13)"
+  }
+ },
+ "honor-90-lite": {
+  "display": {
+   "size_in": 6.7,
+   "type": "LCD",
+   "resolution": "2388 × 1080"
+  },
+  "platform": {
+   "chipset_name": "Dimensity 6020"
+  },
+  "battery": {
+   "capacity_mah": 4500
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 100
+    },
+    {
+     "role": "depth",
+     "mp": 5
+    },
+    {
+     "role": "macro",
+     "mp": 2
+    }
+   ],
+   "front": "16 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 162.9,
+    "width_mm": 74.5,
+    "depth_mm": 7.48
+   },
+   "weight_g": 179.0
+  },
+  "software": {
+   "launch_os": "MagicOS 7.1(based on Android 13)"
+  }
+ },
+ "honor-x6a": {
+  "display": {
+   "size_in": 6.56,
+   "type": "LCD",
+   "resolution": "1612 × 720",
+   "refresh_hz": 90
+  },
+  "platform": {
+   "chipset_name": "Helio G36"
+  },
+  "memory": {
+   "ram_gb": [
+    6
+   ],
+   "storage_gb": [
+    128
+   ]
+  },
+  "battery": {
+   "capacity_mah": 5200
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    }
+   ],
+   "front": "5 MP"
+  },
+  "connectivity": {
+   "cellular": "4G"
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 163.32,
+    "width_mm": 75.07,
+    "depth_mm": 8.35
+   },
+   "weight_g": 188.0
+  },
+  "software": {
+   "launch_os": "MagicOS 7.1(Based on Android 13)"
+  }
+ },
+ "honor-x5-plus": {
+  "display": {
+   "size_in": 6.56,
+   "type": "LCD",
+   "resolution": "1612 × 720",
+   "refresh_hz": 90
+  },
+  "platform": {
+   "chipset_name": "Helio G36"
+  },
+  "memory": {
+   "ram_gb": [
+    4
+   ],
+   "storage_gb": [
+    64
+   ]
+  },
+  "battery": {
+   "capacity_mah": 5200
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    }
+   ],
+   "front": "5 MP"
+  },
+  "connectivity": {
+   "cellular": "4G"
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 163.32,
+    "width_mm": 75.07,
+    "depth_mm": 8.35
+   },
+   "weight_g": 188.0
+  },
+  "software": {
+   "launch_os": "MagicOS 7.1 (Based on Android 13)"
+  }
+ },
+ "honor-x9b": {
+  "display": {
+   "size_in": 6.78,
+   "type": "AMOLED",
+   "resolution": "2652 × 1200"
+  },
+  "platform": {
+   "chipset_name": "Snapdragon 6 Gen 1"
+  },
+  "battery": {
+   "capacity_mah": 5800
+  },
+  "charging": {
+   "wired_w": 35
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 108
+    }
+   ],
+   "front": "16 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 163.6,
+    "width_mm": 75.5,
+    "depth_mm": 7.98
+   },
+   "weight_g": 185.0
+  },
+  "software": {
+   "launch_os": "MagicOS 7.2 (based on Android 13)"
+  }
+ },
+ "honor-x8b": {
+  "display": {
+   "size_in": 6.7,
+   "type": "AMOLED",
+   "resolution": "2412 × 1080"
+  },
+  "platform": {
+   "chipset_name": "Snapdragon 680"
+  },
+  "battery": {
+   "capacity_mah": 4500
+  },
+  "charging": {
+   "wired_w": 35
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 108
+    }
+   ],
+   "front": "50 MP"
+  },
+  "connectivity": {
+   "cellular": "4G"
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 161.05,
+    "width_mm": 74.55,
+    "depth_mm": 6.78
+   },
+   "weight_g": 166.0
+  },
+  "software": {
+   "launch_os": "MagicOS 7.2（Based on Android 13）"
+  }
+ },
+ "honor-x7b": {
+  "display": {
+   "size_in": 6.8,
+   "type": "LCD",
+   "resolution": "2412 × 1080",
+   "refresh_hz": 90
+  },
+  "platform": {
+   "chipset_name": "Snapdragon 680"
+  },
+  "battery": {
+   "capacity_mah": 6000
+  },
+  "charging": {
+   "wired_w": 35
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 108
+    },
+    {
+     "role": "macro",
+     "mp": 2
+    }
+   ],
+   "front": "8 MP"
+  },
+  "connectivity": {
+   "cellular": "4G"
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 166.7,
+    "width_mm": 76.5,
+    "depth_mm": 8.24
+   },
+   "weight_g": 199.0
+  },
+  "software": {
+   "launch_os": "MagicOS 7.2 (Based on Android 13)"
+  }
+ },
+ "honor-x7b-5g": {
+  "display": {
+   "size_in": 6.8,
+   "type": "LCD",
+   "resolution": "2412 × 1080",
+   "refresh_hz": 90
+  },
+  "platform": {
+   "chipset_name": "Dimensity 6020"
+  },
+  "memory": {
+   "ram_gb": [
+    8
+   ],
+   "storage_gb": [
+    256
+   ]
+  },
+  "battery": {
+   "capacity_mah": 6000
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 108
+    }
+   ],
+   "front": "8 MP"
+  },
+  "connectivity": {
+   "cellular": "5G"
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 166.7,
+    "width_mm": 76.5,
+    "depth_mm": 8.24
+   },
+   "weight_g": 199.0
+  },
+  "software": {
+   "launch_os": "MagicOS 7.2 (Based on Android 13)"
+  }
+ },
+ "honor-x6b": {
+  "display": {
+   "size_in": 6.56,
+   "type": "LCD",
+   "resolution": "1612 × 720"
+  },
+  "platform": {
+   "chipset_name": "Helio G85"
+  },
+  "memory": {
+   "ram_gb": [
+    6
+   ],
+   "storage_gb": [
+    256
+   ]
+  },
+  "battery": {
+   "capacity_mah": 5200
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    },
+    {
+     "role": "depth",
+     "mp": 2
+    }
+   ],
+   "rear_text": "Rear: 50MP Main Camera(f/1.8) + 2MP Depth Camera(f/2.4)",
+   "front": "5 MP"
+  },
+  "connectivity": {
+   "cellular": "4G"
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 163.59,
+    "width_mm": 75.33,
+    "depth_mm": 8.39
+   },
+   "weight_g": 192.0
+  },
+  "software": {
+   "launch_os": "MagicOS 8.0(Android 14)"
+  }
+ },
+ "honor-x5b-plus": {
+  "display": {
+   "size_in": 6.56,
+   "type": "LCD",
+   "resolution": "1612 × 720"
+  },
+  "platform": {
+   "chipset_name": "Helio G36"
+  },
+  "memory": {
+   "ram_gb": [
+    4
+   ],
+   "storage_gb": [
+    128
+   ]
+  },
+  "battery": {
+   "capacity_mah": 5200
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    }
+   ],
+   "front": "5 MP"
+  },
+  "connectivity": {
+   "cellular": "4G"
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 163.85,
+    "width_mm": 75.75,
+    "depth_mm": 8.7
+   },
+   "weight_g": 194.0
+  },
+  "software": {
+   "launch_os": "MagicOS 8.0(Based on Android 14)"
+  }
+ },
+ "honor-magic-v2": {
+  "display": {
+   "size_in": 7.92,
+   "type": "OLED",
+   "resolution": "2344 × 2156",
+   "refresh_hz": 120
+  },
+  "platform": {
+   "chipset_name": "Snapdragon 8 Gen 2"
+  },
+  "memory": {
+   "ram_gb": [
+    16
+   ],
+   "storage_gb": [
+    512
+   ]
+  },
+  "battery": {
+   "capacity_mah": 5000
+  },
+  "charging": {
+   "wired_w": 66
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    },
+    {
+     "role": "ultrawide",
+     "mp": 50
+    },
+    {
+     "role": "telephoto",
+     "mp": 20
+    }
+   ],
+   "front": "16 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 156.7,
+    "width_mm": 74.0,
+    "depth_mm": 9.9
+   },
+   "weight_g": 231.0
+  },
+  "software": {
+   "launch_os": "MagicOS 7.2 (Based on Android 13)"
+  }
+ },
+ "honor-magic6-pro": {
+  "display": {
+   "size_in": 6.8,
+   "type": "LTPO OLED",
+   "resolution": "2800 × 1280"
+  },
+  "platform": {
+   "chipset_name": "Snapdragon 8 Gen 3"
+  },
+  "memory": {
+   "ram_gb": [
+    12
+   ],
+   "storage_gb": [
+    512
+   ]
+  },
+  "battery": {
+   "capacity_mah": 5600
+  },
+  "charging": {
+   "wired_w": 80,
+   "wireless_w": 66
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    },
+    {
+     "role": "ultrawide",
+     "mp": 50
+    },
+    {
+     "role": "periscope",
+     "mp": 180
+    }
+   ],
+   "front": "50 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 162.5,
+    "width_mm": 75.8,
+    "depth_mm": 8.9
+   },
+   "weight_g": 229.0,
+   "ip": "IP68"
+  },
+  "software": {
+   "launch_os": "MagicOS 8.0 (Based on Android 14)"
+  }
+ },
+ "honor-200": {
+  "display": {
+   "size_in": 6.7,
+   "type": "AMOLED",
+   "resolution": "2664 × 1200"
+  },
+  "platform": {
+   "chipset_name": "Snapdragon 7 Gen 3"
+  },
+  "battery": {
+   "capacity_mah": 5200
+  },
+  "charging": {
+   "wired_w": 100
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    },
+    {
+     "role": "telephoto",
+     "mp": 50
+    },
+    {
+     "role": "ultrawide",
+     "mp": 12
+    }
+   ],
+   "front": "50 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 161.5,
+    "width_mm": 74.6,
+    "depth_mm": 7.7
+   },
+   "weight_g": 187.0
+  },
+  "software": {
+   "launch_os": "MagicOS 8.0 (Based on Android 14)"
+  }
+ },
+ "honor-200-pro": {
+  "display": {
+   "size_in": 6.78,
+   "type": "AMOLED",
+   "resolution": "2700 × 1224"
+  },
+  "platform": {
+   "chipset_name": "Snapdragon 8s Gen 3"
+  },
+  "battery": {
+   "capacity_mah": 5200
+  },
+  "charging": {
+   "wired_w": 100,
+   "wireless_w": 66
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    },
+    {
+     "role": "telephoto",
+     "mp": 50
+    },
+    {
+     "role": "ultrawide",
+     "mp": 12
+    }
+   ],
+   "front": "50 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 163.3,
+    "width_mm": 75.2,
+    "depth_mm": 8.2
+   },
+   "weight_g": 199.0
+  },
+  "software": {
+   "launch_os": "MagicOS 8.0 (Based on Android 14)"
+  }
+ },
+ "honor-200-lite": {
+  "display": {
+   "size_in": 6.7,
+   "type": "AMOLED",
+   "resolution": "2412 × 1080"
+  },
+  "platform": {
+   "chipset_name": "Dimensity 6080"
+  },
+  "memory": {
+   "ram_gb": [
+    8
+   ],
+   "storage_gb": [
+    512
+   ]
+  },
+  "battery": {
+   "capacity_mah": 4500
+  },
+  "charging": {
+   "wired_w": 35
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 108
+    }
+   ],
+   "front": "50 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 161.05,
+    "width_mm": 74.55,
+    "depth_mm": 6.78
+   },
+   "weight_g": 166.0
+  },
+  "software": {
+   "launch_os": "MagicOS 8.0 (Based on Android 14)"
+  }
+ },
+ "honor-200-smart": {
+  "display": {
+   "size_in": 6.8,
+   "type": "LCD",
+   "resolution": "2412 × 1080"
+  },
+  "platform": {
+   "chipset_name": "Snapdragon 4 Gen 2"
+  },
+  "memory": {
+   "ram_gb": [
+    8
+   ],
+   "storage_gb": [
+    256
+   ]
+  },
+  "battery": {
+   "capacity_mah": 5200
+  },
+  "charging": {
+   "wired_w": 35
+  },
+  "camera": {
+   "rear_text": "Rear: 2 MP",
+   "front": "5 MP"
+  },
+  "connectivity": {
+   "cellular": "5G"
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 166.9,
+    "width_mm": 76.8,
+    "depth_mm": 8.24
+   },
+   "weight_g": 193.0,
+   "ip": "IP64"
+  },
+  "software": {
+   "launch_os": "MagicOS 8.0(Android 14)"
+  }
+ },
+ "honor-magic-v3": {
+  "display": {
+   "size_in": 7.92,
+   "type": "OLED",
+   "resolution": "2344 × 2156",
+   "peak_nits": 5000
+  },
+  "platform": {
+   "chipset_name": "Snapdragon 8 Gen 3"
+  },
+  "battery": {
+   "capacity_mah": 5150
+  },
+  "charging": {
+   "wired_w": 66,
+   "wireless_w": 50
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "ultrawide",
+     "mp": 40
+    },
+    {
+     "role": "main",
+     "mp": 50
+    },
+    {
+     "role": "telephoto",
+     "mp": 50
+    }
+   ],
+   "front": "20 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 156.6,
+    "width_mm": 74.0,
+    "depth_mm": 9.2
+   },
+   "weight_g": 226.0
+  },
+  "software": {
+   "launch_os": "MagicOS 8.0.1 (Based on Android 14)"
+  }
+ },
+ "honor-x9c": {
+  "display": {
+   "size_in": 6.78,
+   "type": "AMOLED",
+   "resolution": "2700 × 1224"
+  },
+  "platform": {
+   "chipset_name": "Snapdragon 6 Gen 1"
+  },
+  "battery": {
+   "capacity_mah": 6600
+  },
+  "charging": {
+   "wired_w": 66
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 108
+    },
+    {
+     "role": "main",
+     "mp": 5
+    }
+   ],
+   "rear_text": "Rear: 108MP Main Camera (F1.75),OIS + 5MP Wide Camera(F2.2)",
+   "front": "16 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 162.8,
+    "width_mm": 75.5,
+    "depth_mm": 7.98
+   },
+   "weight_g": 189.0
+  },
+  "software": {
+   "launch_os": "MagicOS 8.0 (based on Android 14)"
+  }
+ },
+ "honor-x7c": {
+  "display": {
+   "size_in": 6.77,
+   "type": "LCD",
+   "resolution": "1610 × 720"
+  },
+  "platform": {
+   "chipset_name": "Snapdragon 685"
+  },
+  "memory": {
+   "ram_gb": [
+    8
+   ],
+   "storage_gb": [
+    256
+   ]
+  },
+  "battery": {
+   "capacity_mah": 6000
+  },
+  "charging": {
+   "wired_w": 35
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 108
+    },
+    {
+     "role": "depth",
+     "mp": 2
+    }
+   ],
+   "front": "8 MP"
+  },
+  "connectivity": {
+   "cellular": "4G"
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 166.9,
+    "width_mm": 76.8,
+    "depth_mm": 8.09
+   },
+   "weight_g": 199.0,
+   "ip": "IP64"
+  },
+  "software": {
+   "launch_os": "MagicOS 8.0 (Based on Android 14)"
+  }
+ },
+ "honor-x9c-smart": {
+  "display": {
+   "size_in": 6.8,
+   "type": "LCD",
+   "resolution": "2412 × 1080"
+  },
+  "platform": {
+   "chipset_name": "Dimensity 7025-Ultra"
+  },
+  "battery": {
+   "capacity_mah": 5800
+  },
+  "charging": {
+   "wired_w": 35
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 108
+    },
+    {
+     "role": "main",
+     "mp": 5
+    }
+   ],
+   "rear_text": "Rear: 108MP Main Camera (F1.75) + 5MP Wide Camera(F2.2)",
+   "front": "16 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 165.98,
+    "width_mm": 75.8,
+    "depth_mm": 7.88
+   },
+   "weight_g": 193.0
+  },
+  "software": {
+   "launch_os": "MagicOS 8.0 (based on Android 14)"
+  }
+ },
+ "honor-magic7-pro": {
+  "display": {
+   "size_in": 6.8,
+   "type": "OLED",
+   "resolution": "2800 × 1280",
+   "peak_nits": 5000
+  },
+  "platform": {
+   "chipset_name": "Snapdragon 8 Elite"
+  },
+  "memory": {
+   "ram_gb": [
+    12,
+    16
+   ],
+   "storage_gb": [
+    512,
+    1024
+   ]
+  },
+  "battery": {
+   "capacity_mah": 5850
+  },
+  "charging": {
+   "wired_w": 100,
+   "wireless_w": 80
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    },
+    {
+     "role": "ultrawide",
+     "mp": 50
+    },
+    {
+     "role": "telephoto",
+     "mp": 200
+    }
+   ],
+   "front": "50 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 162.7,
+    "width_mm": 77.1,
+    "depth_mm": 8.8
+   },
+   "weight_g": 223.0,
+   "ip": "IP69"
+  },
+  "software": {
+   "launch_os": "MagicOS 9.0 (Based on Android 15)"
+  }
+ },
+ "honor-400-lite": {
+  "display": {
+   "size_in": 6.7,
+   "type": "AMOLED",
+   "resolution": "2412 × 1080"
+  },
+  "platform": {
+   "chipset_name": "Dimensity 7025-Ultra"
+  },
+  "memory": {
+   "ram_gb": [
+    12
+   ],
+   "storage_gb": [
+    256
+   ]
+  },
+  "battery": {
+   "capacity_mah": 5230
+  },
+  "charging": {
+   "wired_w": 35
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 108
+    },
+    {
+     "role": "depth",
+     "mp": 5
+    }
+   ],
+   "rear_text": "Rear: 108MP Main Camera(f/1.75) + 5MP Wide&Depth Camera(f/2.2)",
+   "front": "16 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 161.0,
+    "width_mm": 74.55,
+    "depth_mm": 7.29
+   },
+   "weight_g": 171.0,
+   "ip": "IP65"
+  },
+  "software": {
+   "launch_os": "MagicOS 9.0 (Based on Android 15)"
+  }
+ },
+ "honor-400": {
+  "display": {
+   "size_in": 6.55,
+   "type": "AMOLED",
+   "resolution": "2736 × 1264"
+  },
+  "platform": {
+   "chipset_name": "Snapdragon 7 Gen 3"
+  },
+  "battery": {
+   "capacity_mah": 6000
+  },
+  "charging": {
+   "wired_w": 80
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 200
+    },
+    {
+     "role": "ultrawide",
+     "mp": 12
+    }
+   ],
+   "front": "50 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 156.5,
+    "width_mm": 74.6,
+    "depth_mm": 7.3
+   },
+   "weight_g": 184.0,
+   "ip": "IP66"
+  },
+  "software": {
+   "launch_os": "MagicOS 9.0 (Based on Android 15)"
+  }
+ },
+ "honor-400-pro": {
+  "display": {
+   "size_in": 6.7,
+   "type": "AMOLED",
+   "resolution": "2800 × 1280"
+  },
+  "platform": {
+   "chipset_name": "Snapdragon 8 Gen 3"
+  },
+  "battery": {
+   "capacity_mah": 6000
+  },
+  "charging": {
+   "wired_w": 100,
+   "wireless_w": 50
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 200
+    },
+    {
+     "role": "telephoto",
+     "mp": 50
+    },
+    {
+     "role": "ultrawide",
+     "mp": 12
+    }
+   ],
+   "front": "50 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 160.8,
+    "width_mm": 76.1,
+    "depth_mm": 8.1
+   },
+   "weight_g": 205.0,
+   "ip": "IP69"
+  },
+  "software": {
+   "launch_os": "MagicOS 9.0 (Based on Android 15)"
+  }
+ },
+ "honor-x6c": {
+  "display": {
+   "size_in": 6.61,
+   "type": "LCD",
+   "resolution": "1604 × 720"
+  },
+  "platform": {
+   "chipset_name": "Helio G81 Ultra"
+  },
+  "memory": {
+   "ram_gb": [
+    6,
+    8
+   ],
+   "storage_gb": [
+    128,
+    256
+   ]
+  },
+  "battery": {
+   "capacity_mah": 5300
+  },
+  "charging": {
+   "wired_w": 35
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    }
+   ],
+   "front": "5 MP"
+  },
+  "connectivity": {
+   "cellular": "4G"
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 163.95,
+    "width_mm": 75.6,
+    "depth_mm": 8.39
+   },
+   "weight_g": 199.0,
+   "ip": "IP64"
+  },
+  "software": {
+   "launch_os": "MagicOS 9.0 (based on Android 15)"
+  }
+ },
+ "honor-magic-v5": {
+  "display": {
+   "size_in": 7.95,
+   "type": "OLED",
+   "resolution": "2352 × 2172",
+   "peak_nits": 5000
+  },
+  "platform": {
+   "chipset_name": "Snapdragon 8 Elite"
+  },
+  "battery": {
+   "capacity_mah": 5820
+  },
+  "charging": {
+   "wired_w": 66,
+   "wireless_w": 50
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "ultrawide",
+     "mp": 50
+    },
+    {
+     "role": "main",
+     "mp": 50
+    },
+    {
+     "role": "periscope",
+     "mp": 64
+    }
+   ],
+   "front": "20 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "weight_g": 217.0,
+   "ip": "IP59"
+  },
+  "software": {
+   "launch_os": "MagicOS 9.0.1 (Base on Android 15)"
+  }
+ },
+ "honor-x9d": {
+  "display": {
+   "size_in": 6.79,
+   "type": "OLED",
+   "resolution": "2640 × 1200",
+   "peak_nits": 6000
+  },
+  "platform": {
+   "chipset_name": "Snapdragon 6 Gen 4"
+  },
+  "battery": {
+   "capacity_mah": 8300
+  },
+  "charging": {
+   "wired_w": 66
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 108
+    },
+    {
+     "role": "main",
+     "mp": 5
+    }
+   ],
+   "rear_text": "Rear: 108MP Main Camera (F1.75) + 5MP Wide (F2.2)",
+   "front": "16 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 161.9,
+    "width_mm": 76.1,
+    "depth_mm": 7.76
+   },
+   "weight_g": 193.0,
+   "ip": "IP69K"
+  },
+  "software": {
+   "launch_os": "MagicOS 9.0(Android 15)"
+  }
+ },
+ "honor-x7d": {
+  "display": {
+   "size_in": 6.77,
+   "type": "LCD",
+   "resolution": "1610 × 720"
+  },
+  "platform": {
+   "chipset_name": "Snapdragon 685"
+  },
+  "battery": {
+   "capacity_mah": 6500
+  },
+  "charging": {
+   "wired_w": 35
+  },
+  "camera": {
+   "rear_text": "Rear: 2 MP",
+   "front": "8 MP"
+  },
+  "connectivity": {
+   "cellular": "4G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 166.89,
+    "width_mm": 76.8,
+    "depth_mm": 8.24
+   },
+   "weight_g": 208.0
+  },
+  "software": {
+   "launch_os": "MagicOS 9.0(Android 15)"
+  }
+ },
+ "honor-x7d-5g": {
+  "display": {
+   "size_in": 6.77,
+   "type": "LCD",
+   "resolution": "1610 × 720"
+  },
+  "platform": {
+   "chipset_name": "Snapdragon 6s Gen 3"
+  },
+  "memory": {
+   "ram_gb": [
+    6
+   ],
+   "storage_gb": [
+    128
+   ]
+  },
+  "battery": {
+   "capacity_mah": 6500
+  },
+  "charging": {
+   "wired_w": 35
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    }
+   ],
+   "front": "5 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 166.89,
+    "width_mm": 76.8,
+    "depth_mm": 8.24
+   },
+   "weight_g": 206.0,
+   "ip": "IP65"
+  },
+  "software": {
+   "launch_os": "Android 15+Magic OS 9.0"
+  }
+ },
+ "honor-x5d": {
+  "display": {
+   "size_in": 6.74,
+   "type": "LCD",
+   "resolution": "1600 × 720"
+  },
+  "platform": {
+   "chipset_name": "Helio G81"
+  },
+  "memory": {
+   "ram_gb": [
+    4
+   ],
+   "storage_gb": [
+    64
+   ]
+  },
+  "battery": {
+   "capacity_mah": 5260
+  },
+  "charging": {
+   "wired_w": 15
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 13
+    }
+   ],
+   "front": "5 MP"
+  },
+  "connectivity": {
+   "cellular": "4G"
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 167.0,
+    "width_mm": 77.0,
+    "depth_mm": 7.89
+   },
+   "weight_g": 186.0
+  },
+  "software": {
+   "launch_os": "MagicOS 9.0 (Android 15)"
+  }
+ },
+ "honor-x5d-plus": {
+  "display": {
+   "size_in": 6.74,
+   "type": "LCD",
+   "resolution": "1600 × 720"
+  },
+  "platform": {
+   "chipset_name": "Helio G81"
+  },
+  "memory": {
+   "ram_gb": [
+    4
+   ],
+   "storage_gb": [
+    128
+   ]
+  },
+  "battery": {
+   "capacity_mah": 5260
+  },
+  "charging": {
+   "wired_w": 15
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    }
+   ],
+   "front": "5 MP"
+  },
+  "connectivity": {
+   "cellular": "4G"
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 167.0,
+    "width_mm": 77.0,
+    "depth_mm": 7.89
+   },
+   "weight_g": 186.0
+  },
+  "software": {
+   "launch_os": "MagicOS 9.0 (Android 15)"
+  }
+ },
+ "honor-400-smart-5g": {
+  "display": {
+   "size_in": 6.77,
+   "type": "LCD",
+   "resolution": "1610 × 720"
+  },
+  "platform": {
+   "chipset_name": "Snapdragon 6s Gen 3"
+  },
+  "memory": {
+   "ram_gb": [
+    8
+   ],
+   "storage_gb": [
+    256
+   ]
+  },
+  "battery": {
+   "capacity_mah": 6500
+  },
+  "charging": {
+   "wired_w": 35
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    }
+   ],
+   "front": "5 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 166.89,
+    "width_mm": 76.8,
+    "depth_mm": 8.24
+   },
+   "weight_g": 206.0,
+   "ip": "IP65"
+  },
+  "software": {
+   "launch_os": "Android 15+Magic OS 9.0"
+  }
+ },
+ "honor-x7e": {
+  "display": {
+   "size_in": 6.61,
+   "type": "LCD",
+   "resolution": "1604 × 720"
+  },
+  "platform": {
+   "chipset_name": "Helio G81 Ultra"
+  },
+  "battery": {
+   "capacity_mah": 7500
+  },
+  "charging": {
+   "wired_w": 45
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    }
+   ],
+   "front": "5 MP"
+  },
+  "connectivity": {
+   "cellular": "4G"
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 163.9,
+    "width_mm": 75.9,
+    "depth_mm": 8.29
+   },
+   "weight_g": 207.0,
+   "ip": "IP64"
+  },
+  "software": {
+   "launch_os": "MagicOS 10.0 (based on Android 16)"
+  }
+ },
+ "honor-x6e": {
+  "display": {
+   "size_in": 6.61,
+   "type": "LCD",
+   "resolution": "1604 × 720"
+  },
+  "platform": {
+   "chipset_name": "Helio G81 Ultra"
+  },
+  "battery": {
+   "capacity_mah": 7500
+  },
+  "charging": {
+   "wired_w": 45
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    }
+   ],
+   "front": "5 MP"
+  },
+  "connectivity": {
+   "cellular": "4G"
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 163.9,
+    "width_mm": 75.9,
+    "depth_mm": 8.29
+   },
+   "weight_g": 207.0,
+   "ip": "IP64"
+  },
+  "software": {
+   "launch_os": "MagicOS 10.0 (based on Android 16)"
+  }
+ },
+ "honor-500-smart-5g": {
+  "display": {
+   "size_in": 6.75,
+   "type": "LCD",
+   "resolution": "1600 × 720"
+  },
+  "platform": {
+   "chipset_name": "Dimensity 6300"
+  },
+  "battery": {
+   "capacity_mah": 5260
+  },
+  "charging": {
+   "wired_w": 15
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    }
+   ],
+   "front": "5 MP"
+  },
+  "connectivity": {
+   "cellular": "5G"
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 167.0,
+    "width_mm": 77.0,
+    "depth_mm": 7.89
+   },
+   "weight_g": 186.0,
+   "ip": "IP54"
+  },
+  "software": {
+   "launch_os": "Android 16"
+  }
+ },
+ "honor-600": {
+  "display": {
+   "size_in": 6.57,
+   "type": "AMOLED",
+   "resolution": "2728 × 1264"
+  },
+  "platform": {
+   "chipset_name": "Snapdragon 7 Gen 4"
+  },
+  "battery": {
+   "capacity_mah": 7000
+  },
+  "charging": {
+   "wired_w": 80
+  },
+  "camera": {
+   "front": "50 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 156.0,
+    "width_mm": 74.7,
+    "depth_mm": 7.8
+   },
+   "weight_g": 190.0,
+   "ip": "IP69K"
+  },
+  "software": {
+   "launch_os": "MagicOS 10 (Based on Android 16)"
+  }
+ },
+ "honor-600-pro": {
+  "display": {
+   "size_in": 6.57,
+   "type": "AMOLED",
+   "resolution": "2728 × 1264"
+  },
+  "platform": {
+   "chipset_name": "Snapdragon 8 Elite"
+  },
+  "battery": {
+   "capacity_mah": 7000
+  },
+  "charging": {
+   "wired_w": 80,
+   "wireless_w": 50
+  },
+  "camera": {
+   "front": "50 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 156.0,
+    "width_mm": 74.7,
+    "depth_mm": 7.8
+   },
+   "weight_g": 200.0,
+   "ip": "IP69K"
+  },
+  "software": {
+   "launch_os": "MagicOS 10 (Based on Android 16)"
+  }
+ },
+ "honor-600-lite": {
+  "display": {
+   "size_in": 6.6,
+   "type": "AMOLED",
+   "resolution": "2600 × 1200",
+   "peak_nits": 6500
+  },
+  "platform": {
+   "chipset_name": "Dimensity 7100 E"
+  },
+  "battery": {
+   "capacity_mah": 6520
+  },
+  "charging": {
+   "wired_w": 45
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 108
+    },
+    {
+     "role": "ultrawide",
+     "mp": 5
+    }
+   ],
+   "front": "16 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 157.43,
+    "width_mm": 75.35,
+    "depth_mm": 7.34
+   },
+   "weight_g": 180.0,
+   "ip": "IP66"
+  },
+  "software": {
+   "launch_os": "MagicOS 10 (Based on Android 16)"
+  }
+ },
+ "honor-magic-v6": {
+  "display": {
+   "size_in": 7.95,
+   "type": "OLED",
+   "resolution": "2352 × 2172",
+   "peak_nits": 6000
+  },
+  "platform": {
+   "chipset_name": "Snapdragon 8 Elite Gen 5"
+  },
+  "memory": {
+   "ram_gb": [
+    16
+   ],
+   "storage_gb": [
+    512,
+    1024
+   ]
+  },
+  "battery": {
+   "capacity_mah": 6660
+  },
+  "charging": {
+   "wired_w": 80,
+   "wireless_w": 66
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "ultrawide",
+     "mp": 50
+    },
+    {
+     "role": "main",
+     "mp": 50
+    },
+    {
+     "role": "telephoto",
+     "mp": 64
+    }
+   ],
+   "front": "20 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 156.7,
+    "width_mm": 74.5,
+    "depth_mm": 8.75
+   },
+   "weight_g": 219.0,
+   "ip": "IP69"
+  },
+  "software": {
+   "launch_os": "MagicOS10 (Base on Android 16)"
+  }
+ },
+ "honor-play10": {
+  "display": {
+   "size_in": 6.74,
+   "type": "LCD",
+   "resolution": "1600 × 720"
+  },
+  "platform": {
+   "chipset_name": "Helio G81"
+  },
+  "memory": {
+   "ram_gb": [
+    4
+   ],
+   "storage_gb": [
+    128
+   ]
+  },
+  "battery": {
+   "capacity_mah": 5000
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 13
+    }
+   ],
+   "front": "5 MP"
+  },
+  "connectivity": {
+   "cellular": "4G"
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 167.69,
+    "width_mm": 77.69,
+    "depth_mm": 8.55
+   },
+   "weight_g": 189.0,
+   "ip": "IP52"
+  },
+  "software": {
+   "launch_os": "Android 15 (Go edition)"
+  }
+ },
+ "honor-watch-4": {
+  "display": {
+   "size_in": 1.75,
+   "type": "AMOLED",
+   "resolution": "450 × 390"
+  },
+  "battery": {
+   "life_h": 336,
+   "capacity_mah": 451
+  },
+  "connectivity": {
+   "gps": "Built-in GNSS",
+   "cellular": "LTE option"
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 45.3,
+    "width_mm": 39.1,
+    "depth_mm": 11.2
+   },
+   "weight_g": 32.0,
+   "water": "5 ATM",
+   "water_m": 50
+  }
+ },
+ "honor-band-9": {
+  "display": {
+   "size_in": 1.57,
+   "resolution": "402 × 256"
+  },
+  "build": {
+   "weight_g": 16.3,
+   "water": "5 ATM",
+   "water_m": 50
+  }
+ },
+ "honor-watch-5": {
+  "display": {
+   "size_in": 1.85,
+   "type": "AMOLED",
+   "resolution": "450 × 390"
+  },
+  "battery": {
+   "capacity_mah": 480
+  },
+  "connectivity": {
+   "gps": "Built-in GNSS"
+  },
+  "build": {
+   "weight_g": 35.0,
+   "water": "5 ATM",
+   "water_m": 50,
+   "ip": "IP68"
+  }
+ },
+ "honor-band-10": {
+  "display": {
+   "size_in": 1.57,
+   "type": "AMOLED",
+   "resolution": "402 × 256"
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 43.2,
+    "width_mm": 28.2,
+    "depth_mm": 8.99
+   },
+   "weight_g": 14.7,
+   "water": "5 ATM",
+   "water_m": 50
+  }
+ },
+ "honor-watch-5-ultra": {
+  "display": {
+   "size_in": 1.5,
+   "resolution": "466 × 466"
+  },
+  "connectivity": {
+   "gps": "Built-in GNSS"
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 46.3,
+    "width_mm": 46.3,
+    "depth_mm": 11.4
+   },
+   "weight_g": 51.8,
+   "water": "5 ATM",
+   "water_m": 50,
+   "ip": "IP68"
+  }
+ },
+ "honor-watch-x5i": {
+  "display": {
+   "size_in": 1.97,
+   "type": "AMOLED",
+   "resolution": "450 × 390"
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 46.73,
+    "width_mm": 40.54,
+    "depth_mm": 10.9
+   },
+   "weight_g": 28.1,
+   "water": "1 ATM",
+   "water_m": 10,
+   "ip": "IP68"
+  }
+ },
+ "honor-watch-fit": {
+  "display": {
+   "size_in": 1.32,
+   "type": "AMOLED",
+   "resolution": "466 × 466"
+  },
+  "connectivity": {
+   "gps": "Built-in GNSS"
+  },
+  "build": {
+   "weight_g": 27.0,
+   "water": "5 ATM",
+   "water_m": 50,
+   "ip": "IP68"
+  }
+ },
+ "honor-watch-6": {
+  "display": {
+   "size_in": 1.46,
+   "type": "AMOLED",
+   "resolution": "464 × 464"
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 46.5,
+    "width_mm": 46.5,
+    "depth_mm": 10.8
+   },
+   "weight_g": 41.0,
+   "water": "5 ATM",
+   "water_m": 50,
+   "ip": "IP69"
+  }
+ },
+ "honor-watch-x5-play": {
+  "display": {
+   "size_in": 2.01,
+   "type": "TFT",
+   "resolution": "385 × 320"
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 49.9,
+    "width_mm": 40.8,
+    "depth_mm": 10.5
+   },
+   "weight_g": 26.0,
+   "ip": "IP68"
+  }
+ }
+}

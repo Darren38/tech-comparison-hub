@@ -1,0 +1,62 @@
+{
+  "id": "snapdragon-8-elite",
+  "name": "Snapdragon 8 Elite",
+  "vendor": "qualcomm",
+  "family": "Snapdragon 8",
+  "tier": "flagship",
+  "announced": "2024-10-21",
+  "aliases": [
+    "SD 8 Elite",
+    "8 Elite",
+    "SM8750",
+    "Snapdragon 8 Gen 4"
+  ],
+  "summary": "First Snapdragon with Qualcomm's custom Oryon CPU. Paired with a very stable Adreno 830 GPU in sustained 3DMark tests.",
+  "process": {
+    "node": "3 nm",
+    "foundry": "TSMC",
+    "name": "N3E"
+  },
+  "cpu": {
+    "cores": 8,
+    "clusters": [
+      {
+        "count": 2,
+        "core": "Oryon Gen 2 Prime",
+        "ghz": 4.32
+      },
+      {
+        "count": 6,
+        "core": "Oryon Gen 2 Performance",
+        "ghz": 3.53
+      }
+    ]
+  },
+  "gpu": {
+    "name": "Adreno 830"
+  },
+  "npu": "Hexagon NPU",
+  "modem": "Snapdragon X80 5G",
+  "memory": "LPDDR5X",
+  "storage": "UFS 4.0",
+  "variants": [
+    {
+      "name": "for Galaxy",
+      "note": "Prime cores at up to 4.47 GHz (Galaxy S25 series)."
+    }
+  ],
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "qualcomm",
+      "url": "https://www.qualcomm.com/smartphones/products/8-series"
+    },
+    "fields": {
+      "process.name": {
+        "class": "database",
+        "source": "notebookcheck",
+        "note": "Node reported by the press."
+      }
+    }
+  }
+}

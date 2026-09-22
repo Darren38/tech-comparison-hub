@@ -1,0 +1,77 @@
+{
+  "id": "huawei-watch-fit-3",
+  "name": "Huawei Watch Fit 3",
+  "brand": "huawei",
+  "category": "smartwatch",
+  "series": "Watch",
+  "form": "watch",
+  "status": "released",
+  "announced": "2024-05-19",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 599,
+      "date": "2024-05-19",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2024/322715/huawei-watch-fit-3-malaysia-rm599/",
+      "class": "news",
+      "accessed": "2026-09-18",
+      "note": "Starting price."
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 1.82,
+      "type": "AMOLED",
+      "resolution": "480 × 408"
+    },
+    "battery": {
+      "life_h": 240,
+      "claim": "Up to 10 days"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 43.2,
+        "width_mm": 36.3,
+        "depth_mm": 9.9
+      },
+      "weight_g": 26,
+      "water": "5 ATM",
+      "water_m": 50
+    },
+    "connectivity": {
+      "gps": "Built-in GNSS",
+      "bluetooth": "2.4 GHz, Bluetooth 5.2 supporting BR and BLE; System Requirements; Android 8.0 or later; iOS 13.0 or later; Battery Life; The 10-day maximum battery life is tested under the following conditions:",
+      "usb": "Magnetic charging pin",
+      "nfc": true
+    },
+    "sensors": "9-axis IMU sensor (Accelerometer sensor, Gyroscope sensor, Magnetometer sensor), Optical heart rate sensor, Ambient light sensor, Button, Rotating crown, Function button, Water Resistance Level, 5 ATM water-resistant, *The device complies with 5 ATM-rated water resistance under the ISO 22810:2010 standard, which indicates that the device can withstand up to 50 metres of static water pressure for 1",
+    "misc": {
+      "colors": "Gold (White Leather), Silver (Grey, Green, White), Pink (Pink), Tarnish (Black), Material, Aluminum alloy"
+    },
+    "charging": {
+      "claim": "Charger voltage and current requirements; 5V/1A; Defined Support Period; 2 years (until 20/05/2026)"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "huawei",
+      "url": "https://consumer.huawei.com/uk/wearables/watch-fit3/specs/",
+      "note": "Read from Huawei's UK specification page, because Huawei Malaysia no longer lists this model; it is the same hardware. Values are for the standard model.",
+      "checked": "2026-09-18"
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "lowyat",
+        "url": "https://www.lowyat.net/2024/322715/huawei-watch-fit-3-malaysia-rm599/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (Lowyat.NET). The global announcement can be earlier."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

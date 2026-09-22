@@ -1,0 +1,100 @@
+{
+  "id": "oppo-watch-x2-mini",
+  "name": "OPPO Watch X2 Mini",
+  "brand": "oppo",
+  "category": "smartwatch",
+  "series": "Watch",
+  "form": "watch",
+  "status": "released",
+  "announced": "2025-07-01",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 999,
+      "config": "Nebula Black",
+      "date": "2025-07-01",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2025/357414/oppo-watch-x2-mini-enco-buds3-launches-in-malaysia/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1099,
+      "config": "Glimmer Gold",
+      "date": "2025-07-01",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2025/357414/oppo-watch-x2-mini-enco-buds3-launches-in-malaysia/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/oppo-watch-x2-mini-en/listpage/445-600-gold.png",
+    "page": "https://www.oppo.com/my/accessories/watch-x2-mini/",
+    "credit": "OPPO Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 1.32,
+      "type": "AMOLED",
+      "resolution": "466 × 466",
+      "peak_nits": 1000,
+      "protection": "2.5D Glass"
+    },
+    "battery": {
+      "life_h": 60,
+      "capacity_mah": 354
+    },
+    "connectivity": {
+      "gps": "Built-in GNSS",
+      "nfc": true,
+      "cellular": "LTE option",
+      "bluetooth": "Bluetooth 5.2; Classical BT, BLE, Profile; HID, HFP v1.6, HSP v1.2, A2DP v1.2, AVRCP v1.5 SPP v1.1 and later version; Call Performance; Bluetooth calling; Device Requirements",
+      "wifi": "WLAN 5G/2.4G, 802.11 a/b/g/n",
+      "positioning": "Beidou, GPS, Galileo, GLONASS, QZSS; Durability; 5ATM, IP68",
+      "usb": "USB-C"
+    },
+    "build": {
+      "weight_g": 37.8,
+      "water": "5 ATM",
+      "water_m": 50,
+      "ip": "IP68"
+    },
+    "software": {
+      "launch_os": "Wear OS by Google + RTOS"
+    },
+    "charging": {
+      "claim": "10 minutes charge for up to 24 hours of normal use; Up to 100% charge in about an hour"
+    },
+    "sensors": "Acceleration sensor + gyroscope sensor + optical heart rate sensor + blood oxygen sensor + geomagnetic sensor + light sensor + barometer",
+    "misc": {
+      "colors": "Glimmer Gold, Nebula Black"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "oppo",
+      "url": "https://www.oppo.com/my/accessories/watch-x2-mini/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from OPPO Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "lowyat",
+        "url": "https://www.lowyat.net/2025/357414/oppo-watch-x2-mini-enco-buds3-launches-in-malaysia/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (Lowyat.NET). The global announcement can be earlier."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "dimensity-9400-plus",
+  "name": "Dimensity 9400+",
+  "vendor": "mediatek",
+  "family": "Dimensity 9000",
+  "tier": "flagship",
+  "announced": "2025-04-11",
+  "aliases": [
+    "D9400+",
+    "Dimensity 9400 Plus"
+  ],
+  "summary": "Higher-clocked refresh of the Dimensity 9400, used in the Galaxy Tab S11 series.",
+  "process": {
+    "node": "3 nm",
+    "foundry": "TSMC",
+    "name": "N3E"
+  },
+  "cpu": {
+    "cores": 8,
+    "clusters": [
+      {
+        "count": 1,
+        "core": "Cortex-X925",
+        "ghz": 3.73
+      },
+      {
+        "count": 3,
+        "core": "Cortex-X4",
+        "ghz": 3.3
+      },
+      {
+        "count": 4,
+        "core": "Cortex-A720",
+        "ghz": 2.4
+      }
+    ]
+  },
+  "gpu": {
+    "name": "Immortalis-G925 MC12"
+  },
+  "variants": [],
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "mediatek",
+      "url": "https://www.mediatek.com/products/smartphones/mediatek-dimensity-9400-plus"
+    },
+    "fields": {}
+  }
+}

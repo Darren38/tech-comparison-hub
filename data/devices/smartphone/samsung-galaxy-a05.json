@@ -1,0 +1,141 @@
+{
+  "id": "samsung-galaxy-a05",
+  "name": "Galaxy A05",
+  "brand": "samsung",
+  "category": "smartphone",
+  "series": "Galaxy A",
+  "form": "bar",
+  "status": "released",
+  "announced": "2023-10-16",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 649,
+      "date": "2023-10-16",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2023/309175/samsung-galaxy-a05-malaysia/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 6.7,
+      "type": "LCD",
+      "resolution": "1600 × 720",
+      "ppi": 262
+    },
+    "memory": {
+      "ram_gb": [
+        4,
+        6
+      ],
+      "storage_gb": [
+        128
+      ],
+      "card": "MicroSD (Up to 1TB)"
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "aperture": "f/1.8"
+        }
+      ],
+      "rear_text": "Rear: 50.0 MP + 2.0 MP",
+      "front": "8 MP",
+      "rear_detail": [
+        "50 MP, f/1.8",
+        "2 MP, f/2.4"
+      ],
+      "features": "Digital Zoom up to 10x",
+      "front_detail": [
+        "8 MP, f/2.0"
+      ],
+      "video": "FHD (1920 x 1080)@60fps"
+    },
+    "connectivity": {
+      "cellular": "4G",
+      "bands_2g": "GSM850, GSM900, DCS1800",
+      "bands_3g": "B1(2100), B5(850), B8(900)",
+      "bands_4g": "4G FDD LTE: B1(2100), B3(1800), B5(850), B7(2600), B8(900), B20(800), B28(700); 4G TDD LTE: B38(2600), B40(2300), B41(2500)",
+      "technology": "GSM / HSPA / LTE",
+      "sim": "Dual-SIM; Nano-SIM (4FF)",
+      "wifi": "802.11 a/b/g/n/ac 2.4G+5GHz, VHT80",
+      "bluetooth": "Bluetooth v5.3",
+      "positioning": "GPS, Glonass, Beidou, Galileo",
+      "usb": "USB Type-C, USB 2.0"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 168.8,
+        "width_mm": 78.2,
+        "depth_mm": 8.8
+      },
+      "weight_g": 195.0
+    },
+    "platform": {
+      "chipset": "helio-g85",
+      "cpu": "Octa-Core; 2GHz, 1.8GHz"
+    },
+    "audio": {
+      "speakers": "Mono speaker",
+      "jack": true
+    },
+    "sensors": "Accelerometer, Light Sensor, Proximity Sensor",
+    "misc": {
+      "colors": "Light Green, Black, Silver"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "samsung",
+      "url": "https://www.samsung.com/my/support/model/SM-A055FLGHXME/",
+      "checked": "2026-09-18",
+      "note": "Read from Samsung's own specification data for the Malaysian model SM-A055FLGHXME (the data samsung.com/my shows on its spec pages); the link goes to Samsung Malaysia's page for that model. Values were extracted automatically and reviewed."
+    },
+    "fields": {
+      "specs.platform": {
+        "class": "news",
+        "source": "lowyat",
+        "url": "https://www.lowyat.net/2023/309175/samsung-galaxy-a05-malaysia/",
+        "note": "Chip named in Lowyat.NET's Malaysian coverage; the maker's own specification data for this model does not name it.",
+        "checked": "2026-09-18"
+      },
+      "announced": {
+        "class": "news",
+        "source": "lowyat",
+        "url": "https://www.lowyat.net/2023/309175/samsung-galaxy-a05-malaysia/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (Lowyat.NET). The global announcement can be earlier."
+      },
+      "specs.platform.cpu": {
+        "class": "official",
+        "source": "samsung",
+        "url": "https://www.samsung.com/my/support/model/SM-A055FLGHXME/",
+        "checked": "2026-09-18",
+        "note": "Read from Samsung's own specification data for the Malaysian model SM-A055FLGHXME (the data samsung.com/my shows on its spec pages); the link goes to Samsung Malaysia's page for that model. Values were extracted automatically and reviewed."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://images.samsung.com/is/image/samsung/p6pim/my/sm-a055flghxme/gallery/my-galaxy-a05-sm-a055-sm-a055flghxme-538308744?$624_624_PNG$",
+    "page": "https://www.samsung.com/my/support/model/SM-A055FLGHXME/",
+    "credit": "Samsung Malaysia",
+    "checked": "2026-09-19"
+  }
+}

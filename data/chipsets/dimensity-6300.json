@@ -1,0 +1,16 @@
+{
+  "id": "dimensity-6300",
+  "name": "Dimensity 6300",
+  "vendor": "mediatek",
+  "family": "Dimensity 6000",
+  "summary": "Name recorded from phone makers' specification pages and launch reports. Chip details have not been compiled yet.",
+  "provenance": {
+    "default": {
+      "class": "news",
+      "source": "nasilemaktech",
+      "url": "https://nasilemaktech.com/samsungs-galaxy-a16-5g-malaysia-price/",
+      "checked": "2026-09-18",
+      "note": "Chip name as given for the Galaxy A16 5G."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+# Built by tools/build.py (locally by serve.py, online by .github/workflows/pages.yml)
+generated/
+generated.tmp/
+_site/
+
+# Python
+__pycache__/
+*.pyc
+
+# Local tooling
+.claude/
+live/*.tmp

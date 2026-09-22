@@ -1,0 +1,127 @@
+{
+  "id": "oppo-a6x-5g",
+  "name": "OPPO A6x 5G",
+  "brand": "oppo",
+  "category": "smartphone",
+  "series": "A",
+  "form": "bar",
+  "status": "released",
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-18",
+      "source": "oppo",
+      "url": "https://www.oppo.com/my/smartphones/series-a/a6x-5g/specs/",
+      "note": "Sold in Malaysia, but no launch price was found in Malaysian launch coverage."
+    }
+  },
+  "image": {
+    "kind": "official",
+    "src": "https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/a6-series/b4/list-page/a6x/480-600-violet.png",
+    "page": "https://www.oppo.com/my/smartphones/series-a/a6x-5g/",
+    "credit": "OPPO Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.75,
+      "type": "LCD",
+      "resolution": "1570 × 720",
+      "refresh_hz": 120,
+      "peak_nits": 1125,
+      "ppi": 256
+    },
+    "platform": {
+      "chipset": "dimensity-6300",
+      "gpu": "ARM Mali-G57 MC2@1072MHz",
+      "cpu": "8 cores"
+    },
+    "memory": {
+      "ram_gb": [
+        6
+      ],
+      "storage_gb": [
+        256
+      ],
+      "ram_type": "LPDDR4X",
+      "storage_type": "UFS 2.2",
+      "card": "Yes"
+    },
+    "battery": {
+      "capacity_mah": 6500
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "aperture": "f/1.8"
+        },
+        {
+          "role": "monochrome",
+          "mp": 2
+        }
+      ],
+      "front": "5 MP",
+      "rear_detail": [
+        "Wide angle: 50MP; f/1.8; FOV 76°; 5P lens; AF supported",
+        "Monochrome: 2MP; f/2.4; FOV 89°; 3P lens"
+      ],
+      "front_detail": [
+        "5MP; f/2.2; FOV 77°; 3P lens"
+      ],
+      "video": "1080p@60fps",
+      "front_video": "1080p@30fps"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true,
+      "bands_2g": "850/900/1800/1900MHz",
+      "bands_3g": "Band 1/2/4/5/6/8/19",
+      "bands_4g": "LTE FDD: Band 1/2/3/4/5/7/8/12/13/17/18/19/20/26/28/66/71; LTE TDD: Band 38/39/40/41/42/48",
+      "bands_5g": "5G NR: n1/n2/n3/n5/n7/n8/n12/n20/n26/n28/n38/n40/n41/n48/n66/n71/n77/n78",
+      "technology": "GSM / HSPA / LTE / 5G",
+      "sim": "Nano-SIM card, Nano-USIM card",
+      "bluetooth": "Bluetooth 5.4, Low Energy",
+      "usb": "USB Type-C",
+      "positioning": "Beidou, GPS, GLONASS, Galileo, QZSS",
+      "wifi": "Wi-Fi 5 (802.11ac) supported; 802.11a/b/g/n supported"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 166.61,
+        "width_mm": 78.51,
+        "depth_mm": 8.61
+      },
+      "weight_g": 212.0
+    },
+    "software": {
+      "launch_os": "ColorOS 15.0"
+    },
+    "biometrics": {
+      "face": "Yes",
+      "fingerprint": "Side fingerprint sensor"
+    },
+    "sensors": "Proximity sensor, Ambient light sensor, E-compass, Accelerometer, Side fingerprint sensor",
+    "misc": {
+      "colors": "Violet Purple, Plum Purple"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "oppo",
+      "url": "https://www.oppo.com/my/smartphones/series-a/a6x-5g/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from OPPO Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

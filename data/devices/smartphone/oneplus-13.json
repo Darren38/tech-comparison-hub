@@ -1,0 +1,136 @@
+{
+  "id": "oneplus-13",
+  "name": "OnePlus 13",
+  "brand": "oneplus",
+  "category": "smartphone",
+  "series": "OnePlus",
+  "form": "bar",
+  "status": "released",
+  "announced": "2025-01-07",
+  "released": "2025-01",
+  "segment": "flagship",
+  "aliases": [
+    "OP13"
+  ],
+  "summary": "The 2025 OnePlus flagship on the Snapdragon 8 Elite, with a 2K display, 100 W charging and IP69.",
+  "highlights": [
+    "2K LTPO display",
+    "IP68 + IP69",
+    "Snapdragon 8 Elite"
+  ],
+  "prices": [
+    {
+      "region": "US",
+      "currency": "USD",
+      "amount": 899.99,
+      "config": "12 GB / 256 GB",
+      "date": "2025-01-07",
+      "type": "launch",
+      "source": "oneplus"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 4399,
+      "config": "16 GB / 512 GB",
+      "date": "2025-01-08",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/01/08/oneplus-13-malaysia-launch-price-availability/",
+      "class": "news",
+      "accessed": "2026-09-16"
+    }
+  ],
+  "image": {
+    "kind": "photo",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/OnePlus_13_back.jpg/500px-OnePlus_13_back.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:OnePlus_13_back.jpg",
+    "title": "OnePlus 13 back",
+    "author": "Maksdroider",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "checked": "2026-09-17"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.82,
+      "type": "LTPO AMOLED",
+      "resolution": "3168 × 1440",
+      "ppi": 510,
+      "refresh_hz": 120,
+      "peak_nits": 4500
+    },
+    "platform": {
+      "chipset": "snapdragon-8-elite"
+    },
+    "memory": {
+      "ram_gb": [
+        12,
+        16,
+        24
+      ],
+      "storage_gb": [
+        256,
+        512,
+        1024
+      ]
+    },
+    "battery": {
+      "capacity_mah": 6000
+    },
+    "charging": {
+      "wired_w": 100,
+      "wireless_w": 50,
+      "claim": "80 W in the US"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "aperture": "f/1.6",
+          "note": "LYT-808"
+        },
+        {
+          "role": "ultrawide",
+          "mp": 50
+        },
+        {
+          "role": "telephoto",
+          "mp": 50,
+          "zoom_x": 3
+        }
+      ],
+      "zoom_optical_x": 3,
+      "front": "32 MP"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 162.9,
+        "width_mm": 76.5,
+        "depth_mm": 8.5
+      },
+      "weight_g": 210,
+      "ip": "IP68 + IP69"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true
+    },
+    "software": {
+      "launch_os": "Android 15, OxygenOS 15",
+      "os_updates_years": 4,
+      "security_updates_years": 6
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "oneplus",
+      "url": "https://www.oneplus.com/global",
+      "note": "Compiled from OnePlus's launch specifications; not re-checked this session."
+    },
+    "fields": {}
+  },
+  "dataStatus": "compiled"
+}

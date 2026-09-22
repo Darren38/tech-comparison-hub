@@ -1,0 +1,59 @@
+{
+  "id": "apple-a19-pro",
+  "name": "Apple A19 Pro",
+  "vendor": "apple",
+  "family": "A-series",
+  "tier": "flagship",
+  "announced": "2025-09-09",
+  "aliases": [
+    "A19 Pro"
+  ],
+  "summary": "Powers the iPhone 17 Pro, Pro Max and iPhone Air. Class-leading single-core speed and low CPU power draw.",
+  "process": {
+    "node": "3 nm",
+    "foundry": "TSMC",
+    "name": "N3P"
+  },
+  "cpu": {
+    "cores": 6,
+    "clusters": [
+      {
+        "count": 2,
+        "core": "Performance",
+        "ghz": 4.26
+      },
+      {
+        "count": 4,
+        "core": "Efficiency",
+        "ghz": 2.6
+      }
+    ]
+  },
+  "gpu": {
+    "name": "Apple GPU, 6-core with Neural Accelerators",
+    "note": "5-core GPU in iPhone Air"
+  },
+  "npu": "16-core Neural Engine",
+  "variants": [],
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "apple",
+      "url": "https://support.apple.com/en-us/125091",
+      "checked": "2026-09-15"
+    },
+    "fields": {
+      "process.name": {
+        "class": "database",
+        "source": "gizmochina",
+        "url": "https://www.gizmochina.com/2025/10/20/snapdragon-8-elite-gen-5-vs-dimensity-9500-vs-apple-a19-pro-benchmarks-and-specs/"
+      },
+      "cpu.clusters": {
+        "class": "database",
+        "source": "gizmochina",
+        "url": "https://www.gizmochina.com/2025/10/20/snapdragon-8-elite-gen-5-vs-dimensity-9500-vs-apple-a19-pro-benchmarks-and-specs/",
+        "note": "Apple does not publish clock speeds."
+      }
+    }
+  }
+}

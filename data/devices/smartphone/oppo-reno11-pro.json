@@ -1,0 +1,152 @@
+{
+  "id": "oppo-reno11-pro",
+  "name": "OPPO Reno11 Pro 5G",
+  "brand": "oppo",
+  "category": "smartphone",
+  "series": "Reno",
+  "form": "bar",
+  "status": "released",
+  "announced": "2024-01-19",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 2499,
+      "config": "12 GB / 512 GB",
+      "date": "2024-01-19",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2024/01/19/oppo-reno-11-pro-5g-portrait-studio-festive-season-telephoto-camera/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/reno11-pro-5g-en/listpage/reno11-pro-427-600-white.png",
+    "page": "https://www.oppo.com/my/smartphones/series-reno/reno11-pro/",
+    "credit": "OPPO Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.7,
+      "type": "OLED",
+      "resolution": "2412 × 1080",
+      "refresh_hz": 120,
+      "peak_nits": 950,
+      "protection": "AGC",
+      "ppi": 394
+    },
+    "platform": {
+      "chipset": "dimensity-8200",
+      "gpu": "Arm Mali G610 MC6 950MHz",
+      "cpu": "8 cores"
+    },
+    "memory": {
+      "ram_gb": [
+        12
+      ],
+      "storage_gb": [
+        512
+      ],
+      "ram_type": "LPDDR5X @3200MHz 4x16bit",
+      "storage_type": "UFS3.1 @ 2Lanes HS-Gear4"
+    },
+    "battery": {
+      "capacity_mah": 4600
+    },
+    "charging": {
+      "wired_w": 80,
+      "claim": "SUPERVOOC 80W, SUPERVOOC 2.0, VOOC 3.0, PD (9V/1.5A)"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "aperture": "f/1.8",
+          "ois": true
+        },
+        {
+          "role": "ultrawide",
+          "mp": 8
+        },
+        {
+          "role": "telephoto",
+          "mp": 32
+        }
+      ],
+      "front": "32 MP",
+      "rear_detail": [
+        "Main: 50MP; f/1.8; FOV 84°; 6P lens; AF; OIS",
+        "Ultra-wide angle: 8MP; f/2.2; FOV 112°; 5P lens; Fixed Focus",
+        "Telephoto: 32MP; f/2; FOV 49°; 6P lens; AF"
+      ],
+      "front_detail": [
+        "32MP; f/2.4; FOV 90°; 5P lens; AF; open-loop focus motor; OIS not supported"
+      ],
+      "video": "4K@60fps; 1080p",
+      "front_video": "4K; 1080p"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true,
+      "bands_2g": "850/900/1800/1900MHz",
+      "bands_3g": "Bands 1/2/4/5/6/8/19",
+      "bands_4g": "LTE FDD: Bands 1/2/3/4/5/7/8/12/17/18/19/20/26/28/66; LTE TDD: Bands 38/39/40/41",
+      "bands_5g": "5G NR: n1/n3/n5/n7/n8/n20/n28/n38/n40/n41/n66/n77/n78",
+      "technology": "GSM / HSPA / LTE / 5G",
+      "sim": "Nano-SIM card",
+      "bluetooth": "Bluetooth 5.3, Bluetooth Low Energy, high-power Bluetooth (super Bluetooth; technology name/story to be determined)",
+      "usb": "USB Type-C",
+      "positioning": "Beidou: B1l; GPS: L1; GLONASS: G1; Galileo: E1; QZSS: L1",
+      "wifi": "Wi-Fi 6 (802.11ax), Wi-Fi 5 (802.11ac), 802.11a/b/g/n/ supported"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 162.4,
+        "width_mm": 74.1,
+        "depth_mm": 7.59
+      },
+      "weight_g": 181.0
+    },
+    "software": {
+      "launch_os": "ColorOS 14.0"
+    },
+    "biometrics": {
+      "face": "Yes"
+    },
+    "sensors": "Geomagnetic sensor, Light sensor, Proximity sensor, In-display optical sensor, Acceleration sensor, Gravity sensor, Gyroscope, Step counting, Infrared sensor",
+    "audio": {
+      "jack": false
+    },
+    "misc": {
+      "colors": "Pearl White, Rock Grey"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "oppo",
+      "url": "https://www.oppo.com/my/smartphones/series-reno/reno11-pro/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from OPPO Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2024/01/19/oppo-reno-11-pro-5g-portrait-studio-festive-season-telephoto-camera/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

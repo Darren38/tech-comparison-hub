@@ -1,0 +1,16 @@
+{
+  "id": "dimensity-7050",
+  "name": "Dimensity 7050",
+  "vendor": "mediatek",
+  "family": "Dimensity 7000",
+  "summary": "Name recorded from phone makers' specification pages and launch reports. Chip details have not been compiled yet.",
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "oppo",
+      "url": "https://www.oppo.com/my/smartphones/series-reno/reno10/specs/",
+      "checked": "2026-09-18",
+      "note": "Chip name as given for the OPPO Reno10 5G."
+    }
+  }
+}

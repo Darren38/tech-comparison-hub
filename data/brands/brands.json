@@ -1,0 +1,22 @@
+[
+  { "id": "samsung", "name": "Samsung", "country": "South Korea", "website": "https://www.samsung.com", "color": "#1428A0", "description": "Galaxy S, Z (foldable), A (mid-range) and Tab lines; also designs Exynos chipsets." },
+  { "id": "apple", "name": "Apple", "country": "United States", "website": "https://www.apple.com", "color": "#1d1d1f", "description": "iPhone, iPad and Apple Watch; designs its own A-, M- and S-series chips." },
+  { "id": "google", "name": "Google", "country": "United States", "website": "https://store.google.com", "color": "#1a73e8", "description": "Pixel phones, tablets and watches; Tensor chipsets since 2021." },
+  { "id": "xiaomi", "name": "Xiaomi", "country": "China", "website": "https://www.mi.com/global", "color": "#ff6900", "description": "Numbered flagships (Leica co-engineered cameras); parent of Redmi and POCO." },
+  { "id": "redmi", "name": "Redmi", "country": "China", "parent": "xiaomi", "website": "https://www.mi.com/global", "color": "#e1251b", "description": "Xiaomi's value-focused sub-brand (Note and K series)." },
+  { "id": "poco", "name": "POCO", "country": "China", "parent": "xiaomi", "website": "https://www.po.co/global", "color": "#ffd000", "description": "Xiaomi's performance-per-price sub-brand sold mainly online." },
+  { "id": "vivo", "name": "vivo", "country": "China", "website": "https://www.vivo.com/en", "color": "#415fff", "description": "X-series camera flagships co-engineered with ZEISS; parent of iQOO." },
+  { "id": "iqoo", "name": "iQOO", "country": "China", "parent": "vivo", "website": "https://www.iqoo.com", "color": "#ffb800", "description": "vivo's performance and gaming-oriented sub-brand." },
+  { "id": "oppo", "name": "OPPO", "country": "China", "website": "https://www.oppo.com/en", "color": "#0a8f5a", "description": "Find X flagships with Hasselblad-branded cameras." },
+  { "id": "oneplus", "name": "OnePlus", "country": "China", "parent": "oppo", "website": "https://www.oneplus.com/global", "color": "#eb0028", "description": "Performance flagships with fast SUPERVOOC charging; shares platforms with OPPO." },
+  { "id": "realme", "name": "realme", "country": "China", "website": "https://www.realme.com/global", "color": "#f5c518", "description": "GT-series performance phones; the GT 8 Pro adds a RICOH GR camera system." },
+  { "id": "honor", "name": "HONOR", "country": "China", "website": "https://www.honor.com/global", "color": "#00a0e9", "description": "Magic-series flagships and Magic V foldables; independent from Huawei since 2020." },
+  { "id": "huawei", "name": "Huawei", "country": "China", "website": "https://consumer.huawei.com/en", "color": "#c7000b", "description": "Pura and Mate flagships with in-house Kirin chipsets; HarmonyOS in China." },
+  { "id": "asus", "name": "ASUS", "country": "Taiwan", "website": "https://www.asus.com", "color": "#00539b", "description": "ROG gaming phones and Zenfone." },
+  { "id": "sony", "name": "Sony", "country": "Japan", "website": "https://electronics.sony.com", "color": "#000000", "description": "Xperia phones aimed at photographers and creators; keeps the 3.5 mm jack and microSD." },
+  { "id": "motorola", "name": "Motorola", "country": "United States", "parent": "lenovo", "website": "https://www.motorola.com", "color": "#001428", "description": "Lenovo-owned; Edge, razr and moto g lines." },
+  { "id": "nothing", "name": "Nothing", "country": "United Kingdom", "website": "https://nothing.tech", "color": "#d71921", "description": "Design-led Android phones with Glyph interfaces." },
+  { "id": "redmagic", "name": "REDMAGIC", "country": "China", "parent": "nubia", "website": "https://global.redmagic.gg", "color": "#e60012", "description": "Gaming phones from nubia (ZTE group) with active fan and liquid cooling." },
+  { "id": "nubia", "name": "nubia", "country": "China", "parent": "zte", "website": "https://www.nubia.com", "color": "#e60012", "description": "ZTE-group brand behind the Z-series camera phones and REDMAGIC." },
+  { "id": "zte", "name": "ZTE", "country": "China", "website": "https://www.zte.com.cn", "color": "#008ed3", "description": "Telecom group; consumer phones mostly sold through nubia and REDMAGIC." }
+]

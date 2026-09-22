@@ -1,0 +1,146 @@
+{
+  "id": "vivo-x300-fe",
+  "name": "vivo X300 FE",
+  "brand": "vivo",
+  "category": "smartphone",
+  "series": "X",
+  "form": "bar",
+  "status": "released",
+  "announced": "2026-05-14",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 3299,
+      "date": "2026-05-14",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2026/392696/vivo-x300-ultra-x300-fe-malaysian-launch/",
+      "class": "news",
+      "accessed": "2026-09-18",
+      "note": "Starting price."
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 6.31,
+      "type": "AMOLED",
+      "resolution": "2640 × 1216",
+      "refresh_hz": 120,
+      "peak_nits": 5000,
+      "ppi": 461
+    },
+    "platform": {
+      "chipset": "snapdragon-8-gen-5",
+      "process": "3 nm",
+      "cpu": "8 cores; 2 × 3.80 GHz + 6 × 3.32 GHz"
+    },
+    "memory": {
+      "ram_gb": [
+        12
+      ],
+      "storage_gb": [
+        256,
+        512
+      ],
+      "ram_type": "LPDDR5X Ultra",
+      "storage_type": "UFS 4.1",
+      "card": "No"
+    },
+    "battery": {
+      "capacity_mah": 6500,
+      "chemistry": "Li-ion battery"
+    },
+    "charging": {
+      "wired_w": 90,
+      "wireless_w": 40,
+      "claim": "90W FlashCharge + 40W Wireless Charge"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "aperture": "f/1.57"
+        }
+      ],
+      "rear_text": "Rear: 50 MP + 8 MP + 50 MP",
+      "front": "50 MP",
+      "video": "8K; 1080p",
+      "rear_detail": [
+        "50 MP, f/1.57",
+        "8 MP, f/2.2",
+        "50 MP, f/2.65"
+      ],
+      "front_detail": [
+        "50 MP, f/2.0"
+      ]
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true,
+      "bands_2g": "850/900/1800/1900 MHz",
+      "bands_3g": "B1/B2/B4/B5/B6/B8/B19",
+      "bands_4g": "4G FDD-LTE: B1/B2/B3/B4/B5/B7/B8/B12/B13/B17/B18/B19/B20/B25(1850",
+      "bands_5g": "5G: n1/n2/n3/n5/n7/n8/n18/n20/n25(1850-1910 MHz)/n26/n28/n38/n40/n41/n48/n66/n71/n75/n77/n78",
+      "technology": "GSM / HSPA / LTE / 5G",
+      "sim": "2 nano SIMs",
+      "bluetooth": "Bluetooth 6.0",
+      "usb": "USB 2.0",
+      "radio": "No",
+      "positioning": "GPS, BeiDou, GLONASS, Galileo, QZSS, NavIC, A-GPS, Cellular network positioning, Wi-Fi positioning",
+      "wifi": "Wi-Fi; Wi-Fi Display, 2 × 2 MIMO, MU-MIMO, Wi-Fi 6, Wi-Fi 7"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 150.83,
+        "width_mm": 71.76,
+        "depth_mm": 7.99
+      },
+      "weight_g": 191.0,
+      "ip": "IP69",
+      "back": "Glass"
+    },
+    "software": {
+      "launch_os": "OriginOS 6"
+    },
+    "misc": {
+      "colors": "Purple, White, Black"
+    },
+    "biometrics": {
+      "fingerprint": "3D ultrasonic fingerprint sensor"
+    },
+    "sensors": "Accelerometer, Ambient Light Sensor, Proximity Sensor, E-compass, Gyroscope, Motor, Linear motor"
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "vivo",
+      "url": "https://www.vivo.com/my/products/param/x300-fe",
+      "checked": "2026-09-18",
+      "note": "Read from vivo Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "lowyat",
+        "url": "https://www.lowyat.net/2026/392696/vivo-x300-ultra-x300-fe-malaysian-launch/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (Lowyat.NET). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1778576762665/b9bdffac48130ab92235ed8914673701.png",
+    "page": "https://www.vivo.com/my/products/param/x300-fe",
+    "credit": "vivo Malaysia",
+    "checked": "2026-09-19"
+  }
+}

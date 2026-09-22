@@ -1,0 +1,119 @@
+{
+  "id": "iqoo-z7",
+  "name": "iQOO Z7",
+  "brand": "iqoo",
+  "category": "smartphone",
+  "series": "iQOO",
+  "form": "bar",
+  "status": "released",
+  "announced": "2023-04-10",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1299,
+      "config": "8 GB / 128 GB",
+      "date": "2023-04-10",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2023/04/10/iqoo-z7-series-malaysia-bang-for-buck-midrange-smartphones-starting-at-rm999/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1499,
+      "config": "12 GB / 256 GB",
+      "date": "2023-04-10",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2023/04/10/iqoo-z7-series-malaysia-bang-for-buck-midrange-smartphones-starting-at-rm999/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 6.64,
+      "type": "LCD",
+      "resolution": "2388 × 1080",
+      "refresh_hz": 120,
+      "ppi": 395
+    },
+    "platform": {
+      "chipset": "snapdragon-782"
+    },
+    "memory": {
+      "ram_gb": [
+        8,
+        12
+      ],
+      "storage_gb": [
+        128,
+        256
+      ]
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "charging": {
+      "wired_w": 120,
+      "claim": "120W"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true,
+      "bands_2g": "850/900/1800/1900MHz",
+      "bands_3g": "B1/B5/B8",
+      "bands_4g": "4G FDD-LTE: B1/B3/B5/B7/B8/B20/B28; 4G TDD-LTE: B38/B40/B41",
+      "technology": "GSM / HSPA / LTE",
+      "sim": "Dual nano SIMs",
+      "bluetooth": "Bluetooth 5.2",
+      "usb": "Type-C",
+      "positioning": "L1",
+      "wifi": "Wi-Fi; Wi-Fi Display; 2*2 MIMO; MU-MIMO; Wi-Fi 6"
+    },
+    "software": {
+      "launch_os": "Funtouch OS 13（Based on Android 13）"
+    },
+    "misc": {
+      "colors": "Supernova Orange, Metalic Grey, Tropical Blue"
+    },
+    "sensors": "Accelerometer, Ambient Light Sensor, Proximity Sensor, E-compass, Fingerprint Sensor, Side Capacitive Fingerprint Sensor, Gyroscope",
+    "biometrics": {
+      "fingerprint": "Side Capacitive Fingerprint Sensor"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "iqoo",
+      "url": "https://www.iqoo.com/my/products/param/z7",
+      "checked": "2026-09-18",
+      "note": "Read from iQOO Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2023/04/10/iqoo-z7-series-malaysia-bang-for-buck-midrange-smartphones-starting-at-rm999/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1693829091887/506fbdb2c01660622499904af91c0941.png",
+    "page": "https://www.iqoo.com/my/products/param/z7",
+    "credit": "vivo Malaysia",
+    "checked": "2026-09-19"
+  }
+}

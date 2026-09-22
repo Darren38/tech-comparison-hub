@@ -1,0 +1,163 @@
+{
+  "id": "honor-magic-v6",
+  "name": "HONOR Magic V6",
+  "brand": "honor",
+  "category": "smartphone",
+  "series": "Magic V",
+  "form": "foldable",
+  "status": "released",
+  "announced": "2026-06-04",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 7699,
+      "config": "16 GB / 512 GB",
+      "date": "2026-06-04",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2026/06/04/honor-magic-v6-launched-in-malaysia-pre-order-price-specs/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 8899,
+      "config": "16 GB / 1 TB",
+      "date": "2026-06-04",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2026/06/04/honor-magic-v6-launched-in-malaysia-pre-order-price-specs/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://www.honor.com/content/dam/honor/common/product-list/product-series/honor-magic-v6/honor-magic-v5-list-red.png",
+    "page": "https://www.honor.com/my/phones/honor-magic-v6/spec/",
+    "credit": "HONOR Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 7.95,
+      "type": "OLED",
+      "resolution": "2352 × 2172",
+      "peak_nits": 6000,
+      "protection": "NanoCrystal Shield",
+      "ppi": 403
+    },
+    "platform": {
+      "chipset": "snapdragon-8-elite-gen-5",
+      "gpu": "Adreno 840",
+      "cpu": "Octa-core; 2×Prime 4.6GHz+6×Performance 3.62GHz"
+    },
+    "memory": {
+      "ram_gb": [
+        16
+      ],
+      "storage_gb": [
+        512,
+        1024
+      ]
+    },
+    "battery": {
+      "capacity_mah": 6660,
+      "chemistry": "Lithium polymer"
+    },
+    "charging": {
+      "wired_w": 80,
+      "wireless_w": 66,
+      "claim": "80W HONOR SuperCharge; The phone supports up to 20V/4A SuperCharge."
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "ultrawide",
+          "mp": 50
+        },
+        {
+          "role": "main",
+          "mp": 50,
+          "aperture": "f/1.6",
+          "ois": true
+        },
+        {
+          "role": "telephoto",
+          "mp": 64
+        }
+      ],
+      "front": "20 MP",
+      "rear_detail": [
+        "50MP Ultra Wide Camera (f/2.2)",
+        "50MP Wide Camera (f/1.6, OIS)",
+        "64MP telephoto Lens Camera (f/2.5, OIS)"
+      ],
+      "features": "Supports 3x optical zoom, 100x Digital zoom",
+      "video": "4K",
+      "front_detail": [
+        "20MP Wide Camera (f/2.2) (Interior screen)",
+        "20MP Wide Camera (f/2.2) (Exterior screen)"
+      ],
+      "zoom_optical_x": 3
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true,
+      "technology": "GSM / HSPA / LTE / 5G",
+      "sim": "SIM1+SIM2 / SIM1+eSIM / eSIM1+eSIM2",
+      "wifi": "802.11 a/b/g/n/ac/ax/be, 2x2 MIMO; WLAN Frequency: 2.4GHz/5GHz/6GHz; Support WLAN Hotspot and WLAN Direct",
+      "bluetooth": "Bluetooth 6.0, Support Bluetooth Low Energy, LE Audio, Auracast, SBC, AAC, LDAC, aptX, aptX HD, aptX Adaptive, aptX Lossless, LC3, LHDC5.0/4.0/3.0, ASHA, LE Audio Hearing Aid",
+      "usb": "USB Type-C, device support DP1.2 and USB 3.2 GEN1",
+      "positioning": "Support GPS (L1 + L5 Dual band) / GLONASS(G1) / BeiDou(B1I+B1C+B2a+B2b) / GALILEO (E1+E5a+E5b) / QZSS (L1 + L5 Dual band) / NavIC (L1+L5) / A-GNSS; Support Cellular Network Positioning / Wi-Fi Network Positioning"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 156.7,
+        "width_mm": 74.5,
+        "depth_mm": 8.75
+      },
+      "weight_g": 219.0,
+      "ip": "IP69"
+    },
+    "software": {
+      "launch_os": "MagicOS10 (Base on Android 16)"
+    },
+    "biometrics": {
+      "face": "Yes"
+    },
+    "audio": {
+      "jack": false
+    },
+    "sensors": "Gravity Sensor, Infrared Sensor, Hall sensor, Fingerprint Sensor, Gyroscope, Compass, Barometric Pressure Sensor, Acceleration Sensor, Ambient Light Sensor, Proximity Sensor",
+    "misc": {
+      "colors": "White Version"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "honor",
+      "url": "https://www.honor.com/my/phones/honor-magic-v6/spec/",
+      "checked": "2026-09-18",
+      "note": "Read from HONOR Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2026/06/04/honor-magic-v6-launched-in-malaysia-pre-order-price-specs/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

@@ -1,0 +1,116 @@
+{
+  "id": "samsung-galaxy-tab-s11-ultra",
+  "name": "Galaxy Tab S11 Ultra",
+  "brand": "samsung",
+  "category": "tablet",
+  "series": "Galaxy Tab S",
+  "form": "tablet",
+  "status": "released",
+  "announced": "2025-09-04",
+  "released": "2025-09",
+  "segment": "flagship",
+  "aliases": [
+    "Tab S11 Ultra"
+  ],
+  "summary": "Samsung's 14.6-inch AMOLED tablet with the Dimensity 9400+, an included S Pen, IP68 and seven years of updates.",
+  "highlights": [
+    "14.6-inch AMOLED",
+    "S Pen included",
+    "IP68",
+    "7 years of updates"
+  ],
+  "prices": [
+    {
+      "region": "US",
+      "currency": "USD",
+      "amount": 1199.99,
+      "config": "12 GB / 256 GB",
+      "date": "2025-09-04",
+      "type": "launch",
+      "source": "samsung"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 5999,
+      "config": "Wi-Fi, 12 GB / 256 GB",
+      "date": "2025-09-04",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/09/04/samsung-galaxy-tab-s11-s11-ultra-tablet-price-specs-malaysia/",
+      "class": "news",
+      "accessed": "2026-09-16"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 14.6,
+      "type": "Dynamic AMOLED 2X",
+      "resolution": "2960 × 1848",
+      "ppi": 239,
+      "refresh_hz": 120,
+      "peak_nits": 1600
+    },
+    "platform": {
+      "chipset": "dimensity-9400-plus"
+    },
+    "memory": {
+      "ram_gb": [
+        12,
+        16
+      ],
+      "storage_gb": [
+        256,
+        512,
+        1024
+      ],
+      "expandable": true
+    },
+    "battery": {
+      "capacity_mah": 11600
+    },
+    "charging": {
+      "wired_w": 45
+    },
+    "input": {
+      "stylus": "S Pen (included)",
+      "keyboard": "Book Cover Keyboard"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 326.7,
+        "width_mm": 208.6,
+        "depth_mm": 5.1
+      },
+      "weight_g": 692,
+      "ip": "IP68"
+    },
+    "connectivity": {
+      "cellular": "5G (optional)",
+      "usb": "USB-C"
+    },
+    "software": {
+      "launch_os": "Android 16, One UI 8",
+      "os_updates_years": 7,
+      "security_updates_years": 7
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "samsung",
+      "url": "https://www.samsung.com",
+      "checked": "2026-09-15",
+      "note": "Cross-checked against Beebom and PhoneArena launch coverage."
+    },
+    "fields": {}
+  },
+  "dataStatus": "checked",
+  "image": {
+    "kind": "official",
+    "src": "https://images.samsung.com/is/image/samsung/p6pim/my/sm-x930nzaaxme/gallery/my-galaxy-tab-s11-ultra-sm-x930-577155-577155-sm-x930nzaaxme-554051659?$624_624_PNG$",
+    "page": "https://www.samsung.com/my/support/model/SM-X930NZAAXME/",
+    "credit": "Samsung Malaysia",
+    "checked": "2026-09-19"
+  }
+}

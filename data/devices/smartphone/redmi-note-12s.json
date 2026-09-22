@@ -1,0 +1,141 @@
+{
+  "id": "redmi-note-12s",
+  "name": "Redmi Note 12S",
+  "brand": "redmi",
+  "category": "smartphone",
+  "series": "Redmi Note",
+  "form": "bar",
+  "status": "released",
+  "announced": "2023-05-11",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 999,
+      "config": "8 GB / 256 GB",
+      "date": "2023-05-11",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2023/05/11/redmi-note-12-series-gets-three-new-members-in-malaysia-priced-from-rm999/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 6.43,
+      "type": "AMOLED",
+      "resolution": "2400 × 1080",
+      "refresh_hz": 90,
+      "peak_nits": 1000,
+      "ppi": 409
+    },
+    "platform": {
+      "chipset": "helio-g96",
+      "gpu": "ARM Mali-G57 MC2",
+      "cpu": "Octa-core CPU, up to 2.05GHz"
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "charging": {
+      "wired_w": 33,
+      "claim": "33W fast charging; 33W in-box charger; USB-C"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 108,
+          "sensor": "1/1.52\"",
+          "aperture": "f/1.9"
+        },
+        {
+          "role": "ultrawide",
+          "mp": 8
+        },
+        {
+          "role": "macro",
+          "mp": 2
+        }
+      ],
+      "front": "16 MP",
+      "rear_detail": [
+        "108MP wide camera, 108MP, f/1.9, 0.7μm, 9-in-1 binning into one large 2.1μm pixel, 1/1.52” sensor size",
+        "8MP ultra-wide camera, 118°, f/2.2",
+        "2MP macro camera, f/2.4"
+      ],
+      "video": "1080p",
+      "front_detail": [
+        "16MP front camera, f/2.4"
+      ],
+      "front_video": "1080p"
+    },
+    "connectivity": {
+      "cellular": "4G",
+      "nfc": true,
+      "bands_3g": "1/5/8",
+      "bands_4g": "LTE FDD: 1/3/5/7/8/20/28; LTE TDD: 38/40/41 (2535MHz",
+      "technology": "HSPA / LTE",
+      "positioning": "GPS L1; Glonass G1; BDS B1; Galileo E1",
+      "usb": "USB-C"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 159.87,
+        "width_mm": 73.87,
+        "depth_mm": 8.09
+      }
+    },
+    "software": {
+      "launch_os": "Android 13, MIUI 14"
+    },
+    "sensors": "Proximity sensor, Ambient light sensor, Accelerometer, Electronic compass, IR blaster, Gyroscope, UI and system, MIUI 14, based on Android 13, Package in the box, Redmi Note 12S / Adapter / USB Type-C Cable / SIM Eject Tool / Protective Case / Quick Start Guide / Warranty Card /",
+    "biometrics": {
+      "fingerprint": "Side fingerprint sensor",
+      "face": "AI Face Unlock"
+    },
+    "audio": {
+      "speakers": "Dual speakers",
+      "jack": true
+    },
+    "memory": {
+      "ram_type": "LPDDR4X",
+      "storage_type": "UFS2.2"
+    },
+    "misc": {
+      "colors": "Blue, Pearl, Green, Onyx, Black"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "xiaomi",
+      "url": "https://www.mi.com/global/product/redmi-note-12s/specs/",
+      "note": "Read from Xiaomi's global specification page (the Malaysian page is no longer available). Values were extracted automatically and reviewed.",
+      "checked": "2026-09-18"
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2023/05/11/redmi-note-12-series-gets-three-new-members-in-malaysia-priced-from-rm999/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://i02.appmifile.com/373_operatorx_operatorx_opx/10/05/2023/657e399a69e188fb194c3804f33fb67d.png",
+    "page": "https://www.mi.com/global/product/redmi-note-12s/specs/",
+    "credit": "Xiaomi",
+    "checked": "2026-09-19"
+  }
+}

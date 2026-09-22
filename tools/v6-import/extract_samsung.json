@@ -1,0 +1,710 @@
+{
+ "samsung-galaxy-s25": {
+  "display": {
+   "size_in": 6.2,
+   "resolution": "2340 × 1080"
+  },
+  "platform": {
+   "chipset_name": "Snapdragon 8 Elite"
+  },
+  "battery": {
+   "capacity_mah": 4900
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    }
+   ],
+   "front": "12 MP"
+  },
+  "build": {
+   "ip": "IP68"
+  }
+ },
+ "samsung-galaxy-s25-fe": {
+  "display": {
+   "size_in": 6.7,
+   "type": "Dynamic AMOLED 2X",
+   "resolution": "2340 × 1080",
+   "refresh_hz": 120
+  },
+  "platform": {
+   "chipset_name": "Exynos 2400"
+  },
+  "memory": {
+   "ram_gb": [
+    8
+   ],
+   "storage_gb": [
+    128
+   ]
+  },
+  "battery": {
+   "capacity_mah": 4900
+  },
+  "charging": {
+   "wireless_w": 15
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    }
+   ],
+   "rear_text": "Rear: 50.0 MP + 12.0 MP + 8.0 MP",
+   "front": "12 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 161.3,
+    "width_mm": 76.6,
+    "depth_mm": 7.4
+   },
+   "weight_g": 190.0,
+   "ip": "IP68"
+  },
+  "software": {
+   "launch_os": "One UI 7.0"
+  }
+ },
+ "samsung-galaxy-a06-5g": {
+  "display": {
+   "size_in": 6.7,
+   "type": "LCD",
+   "resolution": "1600 × 720",
+   "refresh_hz": 90
+  },
+  "memory": {
+   "ram_gb": [
+    6
+   ],
+   "storage_gb": [
+    128
+   ]
+  },
+  "battery": {
+   "capacity_mah": 5000
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    }
+   ],
+   "rear_text": "Rear: 50.0 MP + 2.0 MP",
+   "front": "8 MP"
+  },
+  "connectivity": {
+   "cellular": "5G"
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 167.3,
+    "width_mm": 77.3,
+    "depth_mm": 8.0
+   },
+   "weight_g": 191.0
+  }
+ },
+ "samsung-galaxy-a07": {
+  "display": {
+   "size_in": 6.7,
+   "type": "LCD",
+   "resolution": "1600 × 720"
+  },
+  "memory": {
+   "ram_gb": [
+    6
+   ],
+   "storage_gb": [
+    128
+   ]
+  },
+  "battery": {
+   "capacity_mah": 5000
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    }
+   ],
+   "rear_text": "Rear: 50.0 MP + 2.0 MP",
+   "front": "8 MP"
+  },
+  "connectivity": {
+   "cellular": "4G"
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 167.4,
+    "width_mm": 77.4,
+    "depth_mm": 7.6
+   },
+   "weight_g": 184.0,
+   "ip": "IP54"
+  },
+  "software": {
+   "launch_os": "One UI."
+  }
+ },
+ "samsung-galaxy-a07-5g": {
+  "display": {
+   "size_in": 6.7,
+   "type": "LCD",
+   "resolution": "1600 × 720",
+   "refresh_hz": 120,
+   "peak_nits": 800
+  },
+  "memory": {
+   "ram_gb": [
+    6
+   ],
+   "storage_gb": [
+    128
+   ]
+  },
+  "battery": {
+   "capacity_mah": 6000
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    }
+   ],
+   "rear_text": "Rear: 50.0 MP + 2.0 MP",
+   "front": "8 MP"
+  },
+  "connectivity": {
+   "cellular": "5G"
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 167.4,
+    "width_mm": 77.4,
+    "depth_mm": 8.2
+   },
+   "weight_g": 199.0,
+   "ip": "IP54"
+  },
+  "software": {
+   "launch_os": "One UI."
+  }
+ },
+ "samsung-galaxy-a17": {
+  "display": {
+   "size_in": 6.7,
+   "type": "Super AMOLED",
+   "resolution": "2340 × 1080"
+  },
+  "memory": {
+   "ram_gb": [
+    8
+   ],
+   "storage_gb": [
+    256
+   ]
+  },
+  "battery": {
+   "capacity_mah": 5000
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    }
+   ],
+   "rear_text": "Rear: 50.0 MP + 5.0 MP + 2.0 MP",
+   "front": "13 MP"
+  },
+  "connectivity": {
+   "cellular": "4G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 164.4,
+    "width_mm": 77.9,
+    "depth_mm": 7.5
+   },
+   "weight_g": 190.0,
+   "ip": "IP54"
+  },
+  "software": {
+   "launch_os": "Android 16, One UI."
+  }
+ },
+ "samsung-galaxy-a17-5g": {
+  "display": {
+   "size_in": 6.7,
+   "type": "Super AMOLED",
+   "resolution": "2340 × 1080",
+   "refresh_hz": 90
+  },
+  "memory": {
+   "ram_gb": [
+    8
+   ],
+   "storage_gb": [
+    128
+   ]
+  },
+  "battery": {
+   "capacity_mah": 5000
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    }
+   ],
+   "rear_text": "Rear: 50.0 MP + 5.0 MP + 2.0 MP",
+   "front": "13 MP"
+  },
+  "connectivity": {
+   "cellular": "5G"
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 164.4,
+    "width_mm": 77.9,
+    "depth_mm": 7.5
+   },
+   "weight_g": 192.0,
+   "ip": "IP54"
+  },
+  "software": {
+   "launch_os": "Android 16, One UI."
+  }
+ },
+ "samsung-galaxy-a57-5g": {
+  "display": {
+   "size_in": 6.7,
+   "type": "Super AMOLED Plus",
+   "resolution": "2340 × 1080",
+   "refresh_hz": 120
+  },
+  "memory": {
+   "ram_gb": [
+    8
+   ],
+   "storage_gb": [
+    256
+   ]
+  },
+  "battery": {
+   "capacity_mah": 5000
+  },
+  "charging": {
+   "wired_w": 45
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    }
+   ],
+   "rear_text": "Rear: 50.0 MP + 12.0 MP + 5.0 MP",
+   "front": "12 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 161.5,
+    "width_mm": 76.8,
+    "depth_mm": 6.9
+   },
+   "weight_g": 179.0
+  }
+ },
+ "samsung-galaxy-a37-5g": {
+  "display": {
+   "size_in": 6.7,
+   "type": "Super AMOLED",
+   "resolution": "2340 × 1080",
+   "refresh_hz": 120
+  },
+  "memory": {
+   "ram_gb": [
+    8
+   ],
+   "storage_gb": [
+    256
+   ]
+  },
+  "battery": {
+   "capacity_mah": 5000
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    }
+   ],
+   "rear_text": "Rear: 50.0 MP + 8.0 MP + 5.0 MP",
+   "front": "12 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 162.9,
+    "width_mm": 78.2,
+    "depth_mm": 7.4
+   },
+   "weight_g": 196.0
+  }
+ },
+ "samsung-galaxy-a27-5g": {
+  "display": {
+   "size_in": 6.7,
+   "type": "Super AMOLED",
+   "resolution": "2340 × 1080",
+   "refresh_hz": 120
+  },
+  "memory": {
+   "ram_gb": [
+    8
+   ],
+   "storage_gb": [
+    128
+   ]
+  },
+  "battery": {
+   "capacity_mah": 5000
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    }
+   ],
+   "rear_text": "Rear: 50.0 MP + 5.0 MP + 2.0 MP",
+   "front": "12 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 162.4,
+    "width_mm": 78.2,
+    "depth_mm": 7.8
+   },
+   "weight_g": 200.0,
+   "ip": "IP64"
+  },
+  "software": {
+   "launch_os": "Android 16, One UI 2.1"
+  }
+ },
+ "samsung-galaxy-z-fold8-ultra": {
+  "connectivity": {
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 158.4,
+    "width_mm": 143.2,
+    "depth_mm": 4.1
+   },
+   "weight_g": 215.0
+  }
+ },
+ "samsung-galaxy-z-flip8": {
+  "display": {
+   "size_in": 5.4
+  },
+  "connectivity": {
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 166.9,
+    "width_mm": 75.4,
+    "depth_mm": 6.1
+   },
+   "weight_g": 180.0
+  }
+ },
+ "samsung-galaxy-s26-fe": {
+  "display": {
+   "size_in": 6.7,
+   "type": "Dynamic AMOLED 2X",
+   "resolution": "2340 × 1080",
+   "refresh_hz": 120
+  },
+  "platform": {
+   "chipset_name": "Exynos 2500"
+  },
+  "memory": {
+   "ram_gb": [
+    8
+   ],
+   "storage_gb": [
+    128
+   ]
+  },
+  "battery": {
+   "capacity_mah": 4900
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    }
+   ],
+   "rear_text": "Rear: 50.0 MP + 12.0 MP + 8.0 MP",
+   "front": "12 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 161.6,
+    "width_mm": 76.9,
+    "depth_mm": 7.4
+   },
+   "weight_g": 193.0,
+   "ip": "IP68"
+  },
+  "software": {
+   "launch_os": "Android 17, One UI 9"
+  }
+ },
+ "samsung-galaxy-a08": {
+  "display": {
+   "size_in": 6.7,
+   "type": "LCD",
+   "resolution": "1600 × 720"
+  },
+  "memory": {
+   "ram_gb": [
+    6
+   ],
+   "storage_gb": [
+    128
+   ]
+  },
+  "battery": {
+   "capacity_mah": 6000
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    }
+   ],
+   "rear_text": "Rear: 50.0 MP + 2.0 MP",
+   "front": "8 MP"
+  },
+  "connectivity": {
+   "cellular": "4G"
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 167.4,
+    "width_mm": 77.4,
+    "depth_mm": 8.0
+   },
+   "weight_g": 197.0
+  },
+  "software": {
+   "launch_os": "Android 17"
+  }
+ },
+ "samsung-galaxy-a07s": {
+  "display": {
+   "size_in": 6.7,
+   "type": "LCD",
+   "resolution": "1600 × 720"
+  },
+  "memory": {
+   "ram_gb": [
+    4
+   ],
+   "storage_gb": [
+    64
+   ]
+  },
+  "battery": {
+   "capacity_mah": 5000
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    }
+   ],
+   "rear_text": "Rear: 50.0 MP + 2.0 MP",
+   "front": "8 MP"
+  },
+  "connectivity": {
+   "cellular": "4G"
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 167.4,
+    "width_mm": 77.4,
+    "depth_mm": 7.6
+   },
+   "weight_g": 188.0,
+   "ip": "IP54"
+  },
+  "software": {
+   "launch_os": "Android 16, One UI 2.1"
+  }
+ },
+ "samsung-galaxy-fit3": {
+  "display": {
+   "size_in": 1.6,
+   "type": "AMOLED",
+   "resolution": "402 × 256"
+  },
+  "battery": {
+   "life_h": 312
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 42.9,
+    "width_mm": 28.8,
+    "depth_mm": 9.9
+   },
+   "weight_g": 18.5
+  },
+  "software": {
+   "launch_os": "FreeRTOS"
+  }
+ },
+ "samsung-galaxy-watch8": {
+  "display": {
+   "size_in": 1.3,
+   "type": "Super AMOLED",
+   "resolution": "438 × 438"
+  },
+  "connectivity": {
+   "gps": "Built-in GNSS",
+   "nfc": true,
+   "cellular": "LTE option"
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 42.7,
+    "width_mm": 40.4,
+    "depth_mm": 8.6
+   },
+   "weight_g": 30.0,
+   "water": "5 ATM",
+   "water_m": 50
+  },
+  "software": {
+   "launch_os": "Wear OS Powered by Samsung"
+  }
+ },
+ "samsung-galaxy-watch-ultra-2025": {
+  "display": {
+   "size_in": 1.5,
+   "type": "Super AMOLED",
+   "resolution": "480 × 480"
+  },
+  "connectivity": {
+   "gps": "Built-in GNSS",
+   "nfc": true,
+   "cellular": "LTE option"
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 47.4,
+    "width_mm": 47.1,
+    "depth_mm": 12.1
+   },
+   "weight_g": 60.5,
+   "water": "10 ATM",
+   "water_m": 100
+  },
+  "software": {
+   "launch_os": "Wear OS Powered by Samsung"
+  }
+ },
+ "samsung-galaxy-watch9": {
+  "display": {
+   "size_in": 1.3,
+   "type": "Super AMOLED",
+   "resolution": "438 × 438"
+  },
+  "connectivity": {
+   "gps": "Built-in GNSS",
+   "nfc": true,
+   "cellular": "LTE option"
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 42.7,
+    "width_mm": 40.4,
+    "depth_mm": 8.6
+   },
+   "weight_g": 31.5,
+   "water": "5 ATM",
+   "water_m": 50
+  },
+  "software": {
+   "launch_os": "Wear OS Powered by Samsung"
+  }
+ },
+ "samsung-galaxy-watch-ultra2": {
+  "display": {
+   "size_in": 1.5,
+   "type": "Super AMOLED",
+   "resolution": "498 × 498"
+  },
+  "battery": {
+   "life_h": 120
+  },
+  "connectivity": {
+   "gps": "Built-in GNSS",
+   "nfc": true,
+   "cellular": "LTE option"
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 47.4,
+    "width_mm": 47.1,
+    "depth_mm": 10.7
+   },
+   "weight_g": 61.5,
+   "water": "10 ATM",
+   "water_m": 100,
+   "ip": "IP69K"
+  },
+  "software": {
+   "launch_os": "Wear OS Powered by Samsung"
+  }
+ }
+}

@@ -1,0 +1,66 @@
+{
+  "id": "redmi-watch-3-active",
+  "name": "Redmi Watch 3 Active",
+  "brand": "redmi",
+  "category": "smartwatch",
+  "series": "Watch",
+  "form": "watch",
+  "status": "released",
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-18",
+      "source": "redmi",
+      "url": "https://www.mi.com/my/product/redmi-watch-3-active/specs/",
+      "note": "Sold in Malaysia, but no launch price was found in Malaysian launch coverage."
+    }
+  },
+  "image": {
+    "kind": "official",
+    "src": "https://i02.appmifile.com/21_item_my/02/04/2024/0ccb160fe7914ead5a5a505c95d9d0ed.png",
+    "page": "https://www.mi.com/my/product/redmi-watch-3-active/specs/",
+    "credit": "Xiaomi Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 1.83,
+      "type": "LCD",
+      "peak_nits": 450
+    },
+    "battery": {
+      "life_h": 288,
+      "capacity_mah": 289
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 46.94,
+        "width_mm": 38.88,
+        "depth_mm": 10.94
+      },
+      "water": "5 ATM",
+      "water_m": 50
+    },
+    "sensors": "Heart rate sensor (with blood oxygen sensor), accelerometer",
+    "audio": {
+      "speakers": "5ATM water resistant"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.3"
+    },
+    "misc": {
+      "colors": "Black, Gray"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "redmi",
+      "url": "https://www.mi.com/my/product/redmi-watch-3-active/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from Xiaomi Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {}
+  },
+  "dataStatus": "compiled"
+}

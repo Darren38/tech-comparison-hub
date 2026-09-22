@@ -1,0 +1,145 @@
+{
+  "id": "honor-magic6-pro",
+  "name": "HONOR Magic6 Pro",
+  "brand": "honor",
+  "category": "smartphone",
+  "series": "Magic",
+  "form": "bar",
+  "status": "released",
+  "announced": "2024-03-20",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 4499,
+      "config": "12 GB / 512 GB",
+      "date": "2024-03-20",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2024/03/20/honor-magic-6-pro-malaysia-official-price-specs-launch/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 6.8,
+      "type": "LTPO OLED",
+      "resolution": "2800 × 1280",
+      "ppi": 453
+    },
+    "platform": {
+      "chipset": "snapdragon-8-gen-3",
+      "gpu": "Adreno 750; Enhanced Chipset; RF Enhanced Chip HONOR C1+; Discrete Security Chip S1; Power Enhanced Chip HONOR E1",
+      "cpu": "Octa-core; 1×Cortex-X4 3.3GHz+3×Cortex-A720 3.2GHz+2×Cortex-A720 3.0GHz+2×Cortex-A520 2.3GHz"
+    },
+    "memory": {
+      "ram_gb": [
+        12
+      ],
+      "storage_gb": [
+        512
+      ]
+    },
+    "battery": {
+      "capacity_mah": 5600,
+      "chemistry": "Lithium polymer"
+    },
+    "charging": {
+      "wired_w": 80,
+      "wireless_w": 66,
+      "claim": "HONOR 80W SuperCharge; The phone supports up to 20V/4A SuperCharge, compatible with 11V/6A,10V/4A, 10V/2.25A, 5V/4.5A,9V/2A."
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "aperture": "f/1.4",
+          "ois": true
+        },
+        {
+          "role": "ultrawide",
+          "mp": 50
+        },
+        {
+          "role": "periscope",
+          "mp": 180
+        }
+      ],
+      "front": "50 MP",
+      "rear_detail": [
+        "50MP Wide Main Camera (f/1.4-f/2.0, OIS)",
+        "50MP Ultra Wide Camera (f/2.0)",
+        "180MP Periscope Telephoto Camera (f/2.6, 2.5x Optical Zoom, 100x Digital Zoom, OIS)"
+      ],
+      "features": "2.5x Optical Zoom, 100x Digital Zoom",
+      "video": "4K",
+      "front_detail": [
+        "50MP Front Camera(f/2.0)",
+        "3D Depth Camera"
+      ],
+      "zoom_optical_x": 2.5
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true,
+      "technology": "GSM / HSPA / LTE / 5G",
+      "sim": "Nano SIM card",
+      "wifi": "802.11 a/b/g/n/ac/ax/be, 2x2 MIMO",
+      "positioning": "Support GPS /AGPS/GLONASS/BeiDou/Galileo; Network-Based Positioning; Wi-Fi-Based Positioning",
+      "usb": "Type-C",
+      "bluetooth": "BT5.3"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 162.5,
+        "width_mm": 75.8,
+        "depth_mm": 8.9
+      },
+      "weight_g": 229.0,
+      "ip": "IP68"
+    },
+    "software": {
+      "launch_os": "MagicOS 8.0 (Based on Android 14)"
+    },
+    "biometrics": {
+      "face": "Supported 3D face unlock"
+    },
+    "sensors": "Gravity Sensor, Infrared Sensor, Fingerprint Sensor, Gyroscope, Compass",
+    "audio": {
+      "jack": false
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "honor",
+      "url": "https://www.honor.com/my/phones/honor-magic6-pro/spec/",
+      "checked": "2026-09-18",
+      "note": "Read from HONOR Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2024/03/20/honor-magic-6-pro-malaysia-official-price-specs-launch/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://www.honor.com/content/dam/honor/my/specs/smartphone/honor-magic6-pro/honor-magic6-pro-fx.jpg",
+    "page": "https://www.honor.com/my/phones/honor-magic6-pro/spec/",
+    "credit": "HONOR",
+    "checked": "2026-09-19"
+  }
+}

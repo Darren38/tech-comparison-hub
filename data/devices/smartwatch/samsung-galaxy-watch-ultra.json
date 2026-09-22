@@ -1,0 +1,83 @@
+{
+  "id": "samsung-galaxy-watch-ultra",
+  "name": "Galaxy Watch Ultra",
+  "brand": "samsung",
+  "category": "smartwatch",
+  "series": "Galaxy Watch",
+  "form": "watch",
+  "status": "released",
+  "announced": "2024-07-12",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 3399,
+      "config": "47 mm, LTE",
+      "date": "2024-07-12",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2024/07/12/samsung-galaxy-watch-ultra-and-watch-7-malaysia-price-specs-features/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 1.5,
+      "type": "Super AMOLED",
+      "resolution": "480 × 480"
+    },
+    "connectivity": {
+      "gps": "Built-in GNSS",
+      "nfc": true,
+      "cellular": "LTE option",
+      "wifi": "802.11a/b/g/n 2.4GHz+5GHz",
+      "bluetooth": "Bluetooth v5.3",
+      "positioning": "GPS, Glonass, Beidou, Galileo"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 47.4,
+        "width_mm": 47.1,
+        "depth_mm": 12.1
+      },
+      "weight_g": 60.5,
+      "water": "10 ATM",
+      "water_m": 100,
+      "durability": "10 ATM"
+    },
+    "software": {
+      "launch_os": "Wear OS Powered by Samsung"
+    },
+    "sensors": "Accelerometer, Barometer, Bioelectrical Impedance Analysis Sensor, Electrical Heart Sensor, Gyro Sensor, Geomagnetic Sensor, Infrared Temperature Sensor, Light Sensor, Optical Heart Rate Sensor",
+    "battery": {
+      "capacity_mah": 590
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "samsung",
+      "url": "https://www.samsung.com/my/support/model/SM-L705FAW1XME/",
+      "checked": "2026-09-18",
+      "note": "Read from Samsung's own specification data for the Malaysian model SM-L705FAW1XME (the data samsung.com/my shows on its spec pages); the link goes to Samsung Malaysia's page for that model. Values were extracted automatically and reviewed."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2024/07/12/samsung-galaxy-watch-ultra-and-watch-7-malaysia-price-specs-features/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      }
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://images.samsung.com/is/image/samsung/p6pim/my/f2507/gallery/my-galaxy-watch-ultra-2025-l705-sm-l705faw1xme-547645830?$624_624_PNG$",
+    "page": "https://www.samsung.com/my/support/model/SM-L705FAW1XME/",
+    "credit": "Samsung Malaysia",
+    "checked": "2026-09-19"
+  }
+}

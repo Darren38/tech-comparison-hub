@@ -1,0 +1,152 @@
+{
+  "id": "samsung-galaxy-s26",
+  "name": "Galaxy S26",
+  "brand": "samsung",
+  "category": "smartphone",
+  "series": "Galaxy S",
+  "form": "bar",
+  "status": "released",
+  "announced": "2026-02-25",
+  "released": "2026-03-11",
+  "segment": "flagship",
+  "aliases": [
+    "S26",
+    "Galaxy S26 Exynos"
+  ],
+  "summary": "Compact flagship with a larger 6.3-inch screen. Europe, Korea and India get Samsung's 2 nm Exynos 2600; other regions, including the US, get the Snapdragon 8 Elite Gen 5. Test data here comes from Exynos units.",
+  "highlights": [
+    "Exynos 2600 (2 nm) in Europe, Korea and India",
+    "6.3-inch 120 Hz display",
+    "7 years of updates"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 4399,
+      "config": "12 GB / 256 GB",
+      "date": "2026-02-26",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2026/02/26/samsung-galaxy-s26-plus-ultra-series-malaysia-official-pricing-specs/",
+      "class": "news",
+      "accessed": "2026-09-16",
+      "note": "Announced at launch as coming soon; the 512 GB model went on sale first."
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 5199,
+      "config": "12 GB / 512 GB",
+      "date": "2026-02-26",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2026/02/26/samsung-galaxy-s26-plus-ultra-series-malaysia-official-pricing-specs/",
+      "class": "news",
+      "accessed": "2026-09-16"
+    }
+  ],
+  "image": {
+    "kind": "photo",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Galaxy_S26.jpg/500px-Galaxy_S26.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Galaxy_S26.jpg",
+    "title": "Galaxy S26",
+    "author": "Kyu3a",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "checked": "2026-09-17"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.3,
+      "type": "Dynamic AMOLED 2X",
+      "resolution": "2340 × 1080",
+      "ppi": 409,
+      "refresh_hz": 120,
+      "peak_nits": 2600
+    },
+    "platform": {
+      "chipset": "exynos-2600",
+      "chipset_note": "Exynos 2600 in Europe, Korea and India; Snapdragon 8 Elite Gen 5 for Galaxy elsewhere, including the US"
+    },
+    "memory": {
+      "ram_gb": [
+        12
+      ],
+      "storage_gb": [
+        256,
+        512
+      ],
+      "expandable": false
+    },
+    "battery": {
+      "capacity_mah": 4300,
+      "video_h": 30
+    },
+    "charging": {
+      "wired_w": 25,
+      "wireless_w": 15,
+      "reverse_w": 4.5
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "ois": true
+        },
+        {
+          "role": "ultrawide",
+          "mp": 12
+        },
+        {
+          "role": "telephoto",
+          "mp": 10,
+          "zoom_x": 3
+        }
+      ],
+      "zoom_optical_x": 3,
+      "front": "12 MP"
+    },
+    "build": {
+      "ip": "IP68",
+      "frame": "Aluminum"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true
+    },
+    "software": {
+      "launch_os": "Android 16, One UI 8.5",
+      "os_updates_years": 7,
+      "security_updates_years": 7
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "samsung",
+      "url": "https://www.samsung.com/us/smartphones/galaxy-s26/",
+      "checked": "2026-09-15",
+      "note": "Battery and charging specifications cross-checked; other fields compiled."
+    },
+    "fields": {
+      "specs.platform.chipset_note": {
+        "class": "news",
+        "source": "notebookcheck",
+        "url": "https://www.notebookcheck.net/Samsung-Galaxy-S26-with-Exynos-2600-shows-many-disadvantages-compared-to-Snapdragon.1267090.0.html"
+      },
+      "specs.display.peak_nits": {
+        "class": "official",
+        "source": "samsung",
+        "note": "Compiled; not re-checked this session."
+      },
+      "specs.camera": {
+        "class": "official",
+        "source": "samsung",
+        "note": "Compiled; not re-checked this session."
+      }
+    }
+  },
+  "dataStatus": "checked"
+}

@@ -1,0 +1,167 @@
+{
+  "id": "oppo-reno15-f",
+  "name": "OPPO Reno15 F 5G",
+  "brand": "oppo",
+  "category": "smartphone",
+  "series": "Reno",
+  "form": "bar",
+  "status": "released",
+  "announced": "2026-01-06",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1499,
+      "config": "8 GB / 256 GB",
+      "date": "2026-01-06",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2026/01/06/oppo-reno-15-series-5g-launch-malaysia-specs-price/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1599,
+      "config": "12 GB / 256 GB",
+      "date": "2026-01-06",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2026/01/06/oppo-reno-15-series-5g-launch-malaysia-specs-price/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/reno15-series-en/list-page/reno15-f/480-600-blue.png",
+    "page": "https://www.oppo.com/my/smartphones/series-reno/reno15-f/",
+    "credit": "OPPO Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.57,
+      "type": "AMOLED",
+      "resolution": "2372 × 1080",
+      "refresh_hz": 120,
+      "peak_nits": 1400,
+      "protection": "AGC DT-STAR D+",
+      "ppi": 397
+    },
+    "platform": {
+      "chipset": "snapdragon-6-gen-1",
+      "gpu": "Adreno 710@676MHz",
+      "cpu": "8 cores"
+    },
+    "memory": {
+      "ram_gb": [
+        8,
+        12
+      ],
+      "storage_gb": [
+        256
+      ],
+      "ram_type": "LPDDR4X",
+      "storage_type": "UFS 3.1",
+      "card": "Yes"
+    },
+    "battery": {
+      "capacity_mah": 7000
+    },
+    "charging": {
+      "wired_w": 80,
+      "claim": "Supports (Max): 80W SUPERVOOC; Compatible with: 67W and below SUPERVOOC , 55W PPS, 13.5W PD, 13.5W QC"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "ultrawide",
+          "mp": 8
+        },
+        {
+          "role": "main",
+          "mp": 50,
+          "aperture": "f/1.8",
+          "ois": true
+        },
+        {
+          "role": "macro",
+          "mp": 2
+        }
+      ],
+      "front": "50 MP",
+      "rear_detail": [
+        "Ultra-wide angle: 8MP; f/2.2; FOV 112°; 5P lens",
+        "Wide angle: 50MP; f/1.8; FOV 79°; 5P lens; AF supported; Supports 2-axis OIS",
+        "Macro: 2MP; f/2.4; FOV 89°; 3P lens"
+      ],
+      "front_detail": [
+        "50MP; f/2.0; FOV 100°; 5P lens; AF supported"
+      ],
+      "video": "4K@30fps; 1080p",
+      "front_video": "4K@30fps; 1080p"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true,
+      "bands_2g": "850/900/1800/1900MHz",
+      "bands_3g": "Band 1/2/4/5/6/8/19",
+      "bands_4g": "LTE FDD: Band 1/2/3/4/5/7/8/18/19/20/26/28/66/71; LTE TDD: Band 38/39/40/41/42/48",
+      "bands_5g": "5G NR: n1/n2/n3/n5/n7/n8/n20/n26/n28/n38/n40/n41/n48/n66/n71/n77/n78",
+      "technology": "GSM / HSPA / LTE / 5G",
+      "sim": "Nano-SIM card, Nano-USIM card",
+      "bluetooth": "Bluetooth 5.1, Low Energy",
+      "usb": "USB Type-C",
+      "positioning": "GPS, GLONASS, Beidou, Galileo, QZSS",
+      "wifi": "Wi-Fi 5 (802.11ac) supported; 802.11a/b/g/n supported"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 158.18,
+        "width_mm": 74.93,
+        "depth_mm": 8.14
+      },
+      "weight_g": 195.0
+    },
+    "software": {
+      "launch_os": "ColorOS 16.0"
+    },
+    "biometrics": {
+      "face": "Yes",
+      "fingerprint": "In-display optical fingerprint sensor"
+    },
+    "sensors": "Proximity sensor, Ambient light sensor, Color temperature sensor, E-compass, Accelerometer, Gyroscope, In-display optical fingerprint sensor",
+    "audio": {
+      "jack": false
+    },
+    "misc": {
+      "colors": "about 8.14mm (Afterglow Pink, Twilight Blue), about 8.27mm (Aurora Blue)"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "oppo",
+      "url": "https://www.oppo.com/my/smartphones/series-reno/reno15-f/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from OPPO Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2026/01/06/oppo-reno-15-series-5g-launch-malaysia-specs-price/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

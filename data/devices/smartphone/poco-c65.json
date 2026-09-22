@@ -1,0 +1,154 @@
+{
+  "id": "poco-c65",
+  "name": "POCO C65",
+  "brand": "poco",
+  "category": "smartphone",
+  "series": "C",
+  "form": "bar",
+  "status": "released",
+  "announced": "2023-11-03",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 499,
+      "config": "6 GB / 128 GB",
+      "date": "2023-11-03",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2023/11/03/poco-c65-teased-upcoming-entry-level-smartphone-with-50mp-camera-for-less-than-rm500/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 599,
+      "config": "8 GB / 256 GB",
+      "date": "2023-11-03",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2023/11/03/poco-c65-teased-upcoming-entry-level-smartphone-with-50mp-camera-for-less-than-rm500/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://i02.appmifile.com/424_item_my/02/04/2024/4ac0aceb80decec92ad7c75da18ce0a7.png",
+    "page": "https://www.mi.com/my/product/poco-c65/specs/",
+    "credit": "Xiaomi Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.74,
+      "resolution": "1600 × 720",
+      "refresh_hz": 90,
+      "peak_nits": 600,
+      "protection": "Corning Gorilla Glass screen",
+      "ppi": 260
+    },
+    "platform": {
+      "chipset": "helio-g85",
+      "gpu": "Arm Mali-G52 MC2",
+      "cpu": "Arm Cortex-A75 @ 2.0GHz; Arm Cortex-A55 @ 1.8GHz"
+    },
+    "memory": {
+      "ram_gb": [
+        6,
+        8
+      ],
+      "storage_gb": [
+        128,
+        256
+      ],
+      "ram_type": "LPDDR4X"
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "charging": {
+      "wired_w": 18,
+      "claim": "Supports 18W PD charging"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50
+        },
+        {
+          "role": "macro",
+          "mp": 2
+        }
+      ],
+      "rear_detail": [
+        "Film Camera; HDR mode; Night mode; , Portrait mode; 50MP mode; Time-lapse",
+        "50MP main camera, 5P lens, f/1.8",
+        "2MP macro camera, f/2.4, Auxiliary lens"
+      ],
+      "front_detail": [
+        "8MP front camera, f/2.0"
+      ],
+      "front_video": "1080p@30fps"
+    },
+    "connectivity": {
+      "cellular": "4G",
+      "nfc": true,
+      "bands_3g": "1/2/4/5/8",
+      "bands_4g": "LTE TDD: 38/40/41; LTE FDD: 1/2/3/4/5/7/8/20/28/66",
+      "technology": "HSPA / LTE",
+      "wifi": "2.4GHz; 5GHz",
+      "positioning": "GPS; Glonass; Galileo; Beidou",
+      "sim": "Dual SIM+microSD",
+      "bluetooth": "Bluetooth 5.3",
+      "usb": "USB Type-C"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 168.0,
+        "width_mm": 78.0,
+        "depth_mm": 8.09
+      },
+      "weight_g": 192.0
+    },
+    "software": {
+      "launch_os": "MIUI 14"
+    },
+    "sensors": "Virtual proximity sensor, Ambient light sensor, Accelerometer, Electronic compass",
+    "audio": {
+      "jack": true
+    },
+    "biometrics": {
+      "fingerprint": "Side fingerprint sensor"
+    },
+    "misc": {
+      "colors": "Black, Blue, Purple"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "poco",
+      "url": "https://www.mi.com/my/product/poco-c65/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from Xiaomi Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2023/11/03/poco-c65-teased-upcoming-entry-level-smartphone-with-50mp-camera-for-less-than-rm500/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

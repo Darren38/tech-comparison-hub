@@ -1,0 +1,138 @@
+{
+  "id": "redmi-13c",
+  "name": "Redmi 13C",
+  "brand": "redmi",
+  "category": "smartphone",
+  "series": "Redmi",
+  "form": "bar",
+  "status": "released",
+  "announced": "2023-11-16",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 499,
+      "config": "6 GB / 128 GB",
+      "date": "2023-11-16",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2023/11/16/redmi-13c-this-sub-rm500-smartphone-comes-with-a-screen-bigger-than-even-the-iphone-15-plus/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://i02.appmifile.com/111_item_my/02/04/2024/e4f392c67352e702c992776ddb899682.png",
+    "page": "https://www.mi.com/my/product/redmi-13c/specs/",
+    "credit": "Xiaomi Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.74,
+      "resolution": "1600 × 720",
+      "refresh_hz": 90,
+      "peak_nits": 600,
+      "protection": "Corning Gorilla Glass screen",
+      "ppi": 260
+    },
+    "platform": {
+      "chipset": "helio-g85",
+      "gpu": "Arm Mali-G52 MC2",
+      "cpu": "Arm Cortex-A75 @ 2.0GHz; Arm Cortex-A55 @ 1.8GHz"
+    },
+    "memory": {
+      "ram_gb": [
+        6
+      ],
+      "storage_gb": [
+        128
+      ]
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "charging": {
+      "wired_w": 18,
+      "claim": "Supports 18W PD charging"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50
+        },
+        {
+          "role": "macro",
+          "mp": 2
+        }
+      ],
+      "rear_detail": [
+        "filmCamera; HDR mode; Night mode; , Portrait mode; 50MP mode; Time-lapse",
+        "50MP main camera, 5P lens, f/1.8",
+        "2MP macro camera, f/2.4, Auxiliary lens"
+      ],
+      "front_detail": [
+        "filmCamera; HDR mode; Soft-light ring; , Portrait mode; Time-lapse, 8MP front camera, f/2.0"
+      ],
+      "front_video": "1080p@30fps"
+    },
+    "connectivity": {
+      "cellular": "4G",
+      "bands_3g": "1/5/8",
+      "bands_4g": "LTE FDD: 1/3/5/7/8/20/28; LTE TDD: 38/40/41",
+      "technology": "HSPA / LTE",
+      "wifi": "2.4GHz; 5GHz",
+      "positioning": "GPS; Glonass; Galileo; Beidou",
+      "sim": "Dual SIM + microSD",
+      "bluetooth": "Bluetooth 5.3",
+      "usb": "USB Type-C"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 168.0,
+        "width_mm": 78.0,
+        "depth_mm": 8.09
+      },
+      "weight_g": 192.0
+    },
+    "software": {
+      "launch_os": "MIUI 14 based on Android 13"
+    },
+    "sensors": "Virtual proximity sensor, Ambient light sensor, Accelerometer, Electronic compass",
+    "audio": {
+      "jack": true
+    },
+    "biometrics": {
+      "fingerprint": "Side fingerprint sensor"
+    },
+    "misc": {
+      "colors": "Midnight Black, Navy Blue, Glacier White, Clover Green"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "redmi",
+      "url": "https://www.mi.com/my/product/redmi-13c/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from Xiaomi Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2023/11/16/redmi-13c-this-sub-rm500-smartphone-comes-with-a-screen-bigger-than-even-the-iphone-15-plus/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

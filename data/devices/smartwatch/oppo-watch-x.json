@@ -1,0 +1,91 @@
+{
+  "id": "oppo-watch-x",
+  "name": "OPPO Watch X",
+  "brand": "oppo",
+  "category": "smartwatch",
+  "series": "Watch",
+  "form": "watch",
+  "status": "released",
+  "announced": "2024-03-01",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1399,
+      "date": "2024-03-01",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2024/317547/oppo-watch-x/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/watch-x-en/listpage/427-600 brown.png",
+    "page": "https://www.oppo.com/my/accessories/watch-x/",
+    "credit": "OPPO Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 1.43,
+      "type": "AMOLED",
+      "resolution": "466 × 466",
+      "protection": "2.5D sapphire crystal"
+    },
+    "battery": {
+      "life_h": 100,
+      "capacity_mah": 500
+    },
+    "connectivity": {
+      "gps": "Built-in GNSS",
+      "nfc": true,
+      "cellular": "LTE option",
+      "bluetooth": "Classic Bluetooth 5.0, Bluetooth Low Energy, Profile support; HFP v1.6, HSP v1.2, A2DP v1.3, AVRCP v1.6 SPP v1.1 and above version; Call Performance; Smart mode: Bluetooth calling; Power saver mode: Bluetooth calling; Device Requirements",
+      "wifi": "WiFi 5G/2.4G，support 802.11 a/b/g/n",
+      "positioning": "Dual band L1 + L5; beidou, GPS, Galileo, GLONASS, QZSS; Durability; MIL-STD-810H; 5ATM; IP68",
+      "usb": "USB-C"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 47.0,
+        "width_mm": 46.6,
+        "depth_mm": 12.1
+      },
+      "weight_g": 49.0,
+      "water": "5 ATM",
+      "water_m": 50,
+      "ip": "IP68"
+    },
+    "software": {
+      "launch_os": "Wear OS 4 + RTOS"
+    },
+    "charging": {
+      "claim": "Charge for 10 minutes and use for 24 hours; Watch VOOC Flash Charge: 60min"
+    },
+    "sensors": "Acceleration sensor + gyroscope sensor + optical heart rate sensor + optical pulse oximeter sensor + geomagnetic sensor + light sensor + barometer",
+    "misc": {
+      "colors": "Platinum Black, Mars Brown"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "oppo",
+      "url": "https://www.oppo.com/my/accessories/watch-x/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from OPPO Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "lowyat",
+        "url": "https://www.lowyat.net/2024/317547/oppo-watch-x/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (Lowyat.NET). The global announcement can be earlier."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

@@ -1,0 +1,79 @@
+{
+  "id": "honor-watch-5",
+  "name": "HONOR Watch 5",
+  "brand": "honor",
+  "category": "smartwatch",
+  "series": "Watch",
+  "form": "watch",
+  "status": "released",
+  "announced": "2025-01-09",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 599,
+      "date": "2025-01-09",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2025/340625/honor-watch-5-earbuds-open-official/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 1.85,
+      "type": "AMOLED",
+      "resolution": "450 × 390"
+    },
+    "battery": {
+      "capacity_mah": 480,
+      "chemistry": "Lithium polymer battery (Silicon-Carbon Battery)"
+    },
+    "connectivity": {
+      "gps": "Built-in GNSS",
+      "usb": "POGO PIN Charge, standard charging base; Compatibility; Android 9.0 or higher version; iOS 12.0 or higher version; Water Resistance Level; 5ATM, IP68",
+      "positioning": "GPS/Glonass/Beidou/GALILEO/QZSS",
+      "bluetooth": "2.4 GHz, BT5.2, Supports BLE/BR/EDR"
+    },
+    "build": {
+      "weight_g": 35.0,
+      "water": "5 ATM",
+      "water_m": 50,
+      "ip": "IP68"
+    },
+    "audio": {
+      "speakers": "Microphone"
+    },
+    "sensors": "Accelerometer sensor, Gyroscope sensor, Geomagnetic sensor, Optical heart rate sensor, Ambient light sensor",
+    "misc": {
+      "colors": "Green: 150-200mm, Black:150-200mm, Gold: 150-200mm"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "honor",
+      "url": "https://www.honor.com/my/wearables/honor-watch-5/spec/",
+      "checked": "2026-09-18",
+      "note": "Read from HONOR Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "lowyat",
+        "url": "https://www.lowyat.net/2025/340625/honor-watch-5-earbuds-open-official/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (Lowyat.NET). The global announcement can be earlier."
+      }
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://www.honor.com/content/dam/honor/my/specs/wearables/honor-watch-5/honor-watch-5-list.png",
+    "page": "https://www.honor.com/my/wearables/honor-watch-5/spec/",
+    "credit": "HONOR",
+    "checked": "2026-09-19"
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "id": "samsung-galaxy-s25-ultra",
+  "name": "Galaxy S25 Ultra",
+  "brand": "samsung",
+  "category": "smartphone",
+  "series": "Galaxy S",
+  "form": "bar",
+  "status": "released",
+  "announced": "2025-01-22",
+  "released": "2025-02-07",
+  "segment": "flagship",
+  "aliases": [
+    "S25 Ultra",
+    "S25U"
+  ],
+  "summary": "The previous Ultra: titanium frame, 45 W charging and the Snapdragon 8 Elite for Galaxy. Useful for measuring how far the S26 Ultra moved.",
+  "highlights": [
+    "Titanium frame",
+    "Anti-reflective Gorilla Armor 2",
+    "7 years of updates"
+  ],
+  "prices": [
+    {
+      "region": "US",
+      "currency": "USD",
+      "amount": 1299.99,
+      "config": "12 GB / 256 GB",
+      "date": "2025-01-22",
+      "type": "launch",
+      "source": "samsung"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 5999,
+      "config": "12 GB / 256 GB",
+      "date": "2025-01-23",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/01/23/samsung-galaxy-s25-malaysia-price-preorder-promo-deals/",
+      "class": "news",
+      "accessed": "2026-09-16"
+    }
+  ],
+  "image": {
+    "kind": "photo",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Samsung_Galaxy_S25_Ultra_Titanium_Silverblue.jpg/500px-Samsung_Galaxy_S25_Ultra_Titanium_Silverblue.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S25_Ultra_Titanium_Silverblue.jpg",
+    "title": "Samsung Galaxy S25 Ultra Titanium Silverblue",
+    "author": "Alvis Jean",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "checked": "2026-09-17"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.9,
+      "type": "Dynamic LTPO AMOLED 2X",
+      "resolution": "3120 × 1440",
+      "ppi": 498,
+      "refresh_hz": 120,
+      "peak_nits": 2600,
+      "protection": "Corning Gorilla Armor 2"
+    },
+    "platform": {
+      "chipset": "snapdragon-8-elite",
+      "chipset_note": "for Galaxy: prime cores up to 4.47 GHz"
+    },
+    "memory": {
+      "ram_gb": [
+        12,
+        16
+      ],
+      "storage_gb": [
+        256,
+        512,
+        1024
+      ],
+      "storage_type": "UFS 4.0",
+      "expandable": false
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "charging": {
+      "wired_w": 45,
+      "wireless_w": 15,
+      "reverse_w": 4.5
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 200,
+          "sensor": "1/1.3\"",
+          "aperture": "f/1.7",
+          "focal_mm": 24,
+          "ois": true
+        },
+        {
+          "role": "ultrawide",
+          "mp": 50,
+          "aperture": "f/1.9"
+        },
+        {
+          "role": "telephoto",
+          "mp": 10,
+          "aperture": "f/2.4",
+          "zoom_x": 3
+        },
+        {
+          "role": "periscope",
+          "mp": 50,
+          "aperture": "f/3.4",
+          "zoom_x": 5
+        }
+      ],
+      "zoom_optical_x": 5,
+      "front": "12 MP",
+      "video": "8K @ 30 fps"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 162.8,
+        "width_mm": 77.6,
+        "depth_mm": 8.2
+      },
+      "weight_g": 218,
+      "frame": "Titanium",
+      "front": "Corning Gorilla Armor 2",
+      "ip": "IP68",
+      "stylus": "S Pen (built-in, no Bluetooth)"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "wifi": "Wi-Fi 7",
+      "bluetooth": "5.4",
+      "usb": "USB-C 3.2",
+      "nfc": true,
+      "uwb": true
+    },
+    "biometrics": {
+      "fingerprint": "Ultrasonic, under display"
+    },
+    "software": {
+      "launch_os": "Android 15, One UI 7",
+      "os_updates_years": 7,
+      "security_updates_years": 7
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "samsung",
+      "url": "https://www.samsung.com",
+      "note": "Compiled from Samsung's launch specifications; not re-checked this session."
+    },
+    "fields": {}
+  },
+  "dataStatus": "compiled"
+}

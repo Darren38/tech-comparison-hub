@@ -1,0 +1,1445 @@
+[
+ {
+  "id": "poco-x5-5g",
+  "brand": "poco",
+  "name": "POCO X5 5G",
+  "category": "smartphone",
+  "series": "X",
+  "form": "bar",
+  "spec": [
+   "https://www.mi.com/my/product/poco-x5-5g/specs/",
+   "https://www.mi.com/global/product/poco-x5-5g/specs/"
+  ],
+  "q": "POCO X5 5G"
+ },
+ {
+  "id": "poco-x5-pro-5g",
+  "brand": "poco",
+  "name": "POCO X5 Pro 5G",
+  "category": "smartphone",
+  "series": "X",
+  "form": "bar",
+  "spec": [
+   "https://www.mi.com/my/product/poco-x5-pro-5g/specs/",
+   "https://www.mi.com/global/product/poco-x5-pro-5g/specs/"
+  ],
+  "q": "POCO X5 Pro 5G"
+ },
+ {
+  "id": "xiaomi-13",
+  "brand": "xiaomi",
+  "name": "Xiaomi 13",
+  "category": "smartphone",
+  "series": "Number",
+  "form": "bar",
+  "spec": [
+   "https://www.mi.com/my/product/xiaomi-13/specs/",
+   "https://www.mi.com/global/product/xiaomi-13/specs/"
+  ],
+  "q": "Xiaomi 13"
+ },
+ {
+  "id": "xiaomi-13-pro",
+  "brand": "xiaomi",
+  "name": "Xiaomi 13 Pro",
+  "category": "smartphone",
+  "series": "Number",
+  "form": "bar",
+  "spec": [
+   "https://www.mi.com/my/product/xiaomi-13-pro/specs/",
+   "https://www.mi.com/global/product/xiaomi-13-pro/specs/"
+  ],
+  "q": "Xiaomi 13 Pro"
+ },
+ {
+  "id": "redmi-12c",
+  "brand": "redmi",
+  "name": "Redmi 12C",
+  "category": "smartphone",
+  "series": "Redmi",
+  "form": "bar",
+  "spec": [
+   "https://www.mi.com/my/product/redmi-12c/specs/",
+   "https://www.mi.com/global/product/redmi-12c/specs/"
+  ],
+  "q": "Redmi 12C"
+ },
+ {
+  "id": "redmi-note-12",
+  "brand": "redmi",
+  "name": "Redmi Note 12",
+  "category": "smartphone",
+  "series": "Redmi Note",
+  "form": "bar",
+  "spec": [
+   "https://www.mi.com/my/product/redmi-note-12/specs/",
+   "https://www.mi.com/global/product/redmi-note-12/specs/"
+  ],
+  "q": "Redmi Note 12"
+ },
+ {
+  "id": "redmi-note-12-5g",
+  "brand": "redmi",
+  "name": "Redmi Note 12 5G",
+  "category": "smartphone",
+  "series": "Redmi Note",
+  "form": "bar",
+  "spec": [
+   "https://www.mi.com/my/product/redmi-note-12-5g/specs/",
+   "https://www.mi.com/global/product/redmi-note-12-5g/specs/"
+  ],
+  "q": "Redmi Note 12 5G"
+ },
+ {
+  "id": "redmi-note-12-pro-5g",
+  "brand": "redmi",
+  "name": "Redmi Note 12 Pro 5G",
+  "category": "smartphone",
+  "series": "Redmi Note",
+  "form": "bar",
+  "spec": [
+   "https://www.mi.com/my/product/redmi-note-12-pro-5g/specs/",
+   "https://www.mi.com/global/product/redmi-note-12-pro-5g/specs/"
+  ],
+  "q": "Redmi Note 12 Pro 5G"
+ },
+ {
+  "id": "redmi-note-12-pro-plus-5g",
+  "brand": "redmi",
+  "name": "Redmi Note 12 Pro+ 5G",
+  "category": "smartphone",
+  "series": "Redmi Note",
+  "form": "bar",
+  "spec": [
+   "https://www.mi.com/my/product/redmi-note-12-pro-plus-5g/specs/",
+   "https://www.mi.com/global/product/redmi-note-12-pro-plus-5g/specs/"
+  ],
+  "q": "Redmi Note 12 Pro+ 5G"
+ },
+ {
+  "id": "redmi-a2-plus",
+  "brand": "redmi",
+  "name": "Redmi A2+",
+  "category": "smartphone",
+  "series": "Redmi A",
+  "form": "bar",
+  "spec": [
+   "https://www.mi.com/my/product/redmi-a2-plus/specs/",
+   "https://www.mi.com/global/product/redmi-a2-plus/specs/"
+  ],
+  "q": "Redmi A2+"
+ },
+ {
+  "id": "poco-f5",
+  "brand": "poco",
+  "name": "POCO F5",
+  "category": "smartphone",
+  "series": "F",
+  "form": "bar",
+  "spec": [
+   "https://www.mi.com/my/product/poco-f5/specs/",
+   "https://www.mi.com/global/product/poco-f5/specs/"
+  ],
+  "q": "POCO F5"
+ },
+ {
+  "id": "poco-f5-pro",
+  "brand": "poco",
+  "name": "POCO F5 Pro",
+  "category": "smartphone",
+  "series": "F",
+  "form": "bar",
+  "spec": [
+   "https://www.mi.com/my/product/poco-f5-pro/specs/",
+   "https://www.mi.com/global/product/poco-f5-pro/specs/"
+  ],
+  "q": "POCO F5 Pro"
+ },
+ {
+  "id": "redmi-note-12s",
+  "brand": "redmi",
+  "name": "Redmi Note 12S",
+  "category": "smartphone",
+  "series": "Redmi Note",
+  "form": "bar",
+  "spec": [
+   "https://www.mi.com/my/product/redmi-note-12s/specs/",
+   "https://www.mi.com/global/product/redmi-note-12s/specs/"
+  ],
+  "q": "Redmi Note 12S"
+ },
+ {
+  "id": "redmi-note-12-pro",
+  "brand": "redmi",
+  "name": "Redmi Note 12 Pro",
+  "category": "smartphone",
+  "series": "Redmi Note",
+  "form": "bar",
+  "spec": [
+   "https://www.mi.com/my/product/redmi-note-12-pro/specs/",
+   "https://www.mi.com/global/product/redmi-note-12-pro/specs/"
+  ],
+  "q": "Redmi Note 12 Pro"
+ },
+ {
+  "id": "xiaomi-13-ultra",
+  "brand": "xiaomi",
+  "name": "Xiaomi 13 Ultra",
+  "category": "smartphone",
+  "series": "Number",
+  "form": "bar",
+  "spec": [
+   "https://www.mi.com/my/product/xiaomi-13-ultra/specs/",
+   "https://www.mi.com/global/product/xiaomi-13-ultra/specs/"
+  ],
+  "q": "Xiaomi 13 Ultra"
+ },
+ {
+  "id": "redmi-12",
+  "brand": "redmi",
+  "name": "Redmi 12",
+  "category": "smartphone",
+  "series": "Redmi",
+  "form": "bar",
+  "spec": [
+   "https://www.mi.com/my/product/redmi-12/specs/",
+   "https://www.mi.com/global/product/redmi-12/specs/"
+  ],
+  "q": "Redmi 12"
+ },
+ {
+  "id": "redmi-12-5g",
+  "brand": "redmi",
+  "name": "Redmi 12 5G",
+  "category": "smartphone",
+  "series": "Redmi",
+  "form": "bar",
+  "spec": [
+   "https://www.mi.com/my/product/redmi-12-5g/specs/",
+   "https://www.mi.com/global/product/redmi-12-5g/specs/"
+  ],
+  "q": "Redmi 12 5G"
+ },
+ {
+  "id": "xiaomi-13t",
+  "brand": "xiaomi",
+  "name": "Xiaomi 13T",
+  "category": "smartphone",
+  "series": "T",
+  "form": "bar",
+  "spec": [
+   "https://www.mi.com/my/product/xiaomi-13t/specs/",
+   "https://www.mi.com/global/product/xiaomi-13t/specs/"
+  ],
+  "q": "Xiaomi 13T"
+ },
+ {
+  "id": "xiaomi-13t-pro",
+  "brand": "xiaomi",
+  "name": "Xiaomi 13T Pro",
+  "category": "smartphone",
+  "series": "T",
+  "form": "bar",
+  "spec": [
+   "https://www.mi.com/my/product/xiaomi-13t-pro/specs/",
+   "https://www.mi.com/global/product/xiaomi-13t-pro/specs/"
+  ],
+  "q": "Xiaomi 13T Pro"
+ },
+ {
+  "id": "poco-c65",
+  "brand": "poco",
+  "name": "POCO C65",
+  "category": "smartphone",
+  "series": "C",
+  "form": "bar",
+  "spec": [
+   "https://www.mi.com/my/product/poco-c65/specs/",
+   "https://www.mi.com/global/product/poco-c65/specs/"
+  ],
+  "q": "POCO C65"
+ },
+ {
+  "id": "redmi-13c",
+  "brand": "redmi",
+  "name": "Redmi 13C",
+  "category": "smartphone",
+  "series": "Redmi",
+  "form": "bar",
+  "spec": [
+   "https://www.mi.com/my/product/redmi-13c/specs/",
+   "https://www.mi.com/global/product/redmi-13c/specs/"
+  ],
+  "q": "Redmi 13C"
+ },
+ {
+  "id": "poco-m6-pro",
+  "brand": "poco",
+  "name": "POCO M6 Pro",
+  "category": "smartphone",
+  "series": "M",
+  "form": "bar",
+  "spec": [
+   "https://www.mi.com/my/product/poco-m6-pro/specs/",
+   "https://www.mi.com/global/product/poco-m6-pro/specs/"
+  ],
+  "q": "POCO M6 Pro"
+ },
+ {
+  "id": "redmi-note-13",
+  "brand": "redmi",
+  "name": "Redmi Note 13",
+  "category": "smartphone",
+  "series": "Redmi Note",
+  "form": "bar",
+  "spec": [
+   "https://www.mi.com/my/product/redmi-note-13/specs/",
+   "https://www.mi.com/global/product/redmi-note-13/specs/"
+  ],
+  "q": "Redmi Note 13"
+ },
+ {
+  "id": "redmi-note-13-5g",
+  "brand": "redmi",
+  "name": "Redmi Note 13 5G",
+  "category": "smartphone",
+  "series": "Redmi Note",
+  "form": "bar",
+  "spec": [
+   "https://www.mi.com/my/product/redmi-note-13-5g/specs/",
+   "https://www.mi.com/global/product/redmi-note-13-5g/specs/"
+  ],
+  "q": "Redmi Note 13 5G"
+ },
+ {
+  "id": "redmi-note-13-pro",
+  "brand": "redmi",
+  "name": "Redmi Note 13 Pro",
+  "category": "smartphone",
+  "series": "Redmi Note",
+  "form": "bar",
+  "spec": [
+   "https://www.mi.com/my/product/redmi-note-13-pro/specs/",
+   "https://www.mi.com/global/product/redmi-note-13-pro/specs/"
+  ],
+  "q": "Redmi Note 13 Pro"
+ },
+ {
+  "id": "redmi-note-13-pro-5g",
+  "brand": "redmi",
+  "name": "Redmi Note 13 Pro 5G",
+  "category": "smartphone",
+  "series": "Redmi Note",
+  "form": "bar",
+  "spec": [
+   "https://www.mi.com/my/product/redmi-note-13-pro-5g/specs/",
+   "https://www.mi.com/global/product/redmi-note-13-pro-5g/specs/"
+  ],
+  "q": "Redmi Note 13 Pro 5G"
+ },
+ {
+  "id": "redmi-note-13-pro-plus-5g",
+  "brand": "redmi",
+  "name": "Redmi Note 13 Pro+ 5G",
+  "category": "smartphone",
+  "series": "Redmi Note",
+  "form": "bar",
+  "spec": [
+   "https://www.mi.com/my/product/redmi-note-13-pro-plus-5g/specs/",
+   "https://www.mi.com/global/product/redmi-note-13-pro-plus-5g/specs/"
+  ],
+  "q": "Redmi Note 13 Pro+ 5G"
+ },
+ {
+  "id": "poco-x6-5g",
+  "brand": "poco",
+  "name": "POCO X6 5G",
+  "category": "smartphone",
+  "series": "X",
+  "form": "bar",
+  "spec": [
+   "https://www.mi.com/my/product/poco-x6-5g/specs/",
+   "https://www.mi.com/global/product/poco-x6-5g/specs/"
+  ],
+  "q": "POCO X6 5G"
+ },
+ {
+  "id": "poco-x6-pro-5g",
+  "brand": "poco",
+  "name": "POCO X6 Pro 5G",
+  "category": "smartphone",
+  "series": "X",
+  "form": "bar",
+  "spec": [
+   "https://www.mi.com/my/product/poco-x6-pro-5g/specs/",
+   "https://www.mi.com/global/product/poco-x6-pro-5g/specs/"
+  ],
+  "q": "POCO X6 Pro 5G"
+ },
+ {
+  "id": "xiaomi-14",
+  "brand": "xiaomi",
+  "name": "Xiaomi 14",
+  "category": "smartphone",
+  "series": "Number",
+  "form": "bar",
+  "spec": [
+   "https://www.mi.com/my/product/xiaomi-14/specs/",
+   "https://www.mi.com/global/product/xiaomi-14/specs/"
+  ],
+  "q": "Xiaomi 14"
+ },
+ {
+  "id": "xiaomi-14-ultra",
+  "brand": "xiaomi",
+  "name": "Xiaomi 14 Ultra",
+  "category": "smartphone",
+  "series": "Number",
+  "form": "bar",
+  "spec": [
+   "https://www.mi.com/my/product/xiaomi-14-ultra/specs/",
+   "https://www.mi.com/global/product/xiaomi-14-ultra/specs/"
+  ],
+  "q": "Xiaomi 14 Ultra"
+ },
+ {
+  "id": "redmi-a3",
+  "brand": "redmi",
+  "name": "Redmi A3",
+  "category": "smartphone",
+  "series": "Redmi A",
+  "form": "bar",
+  "spec": [
+   "https://www.mi.com/my/product/redmi-a3/specs/",
+   "https://www.mi.com/global/product/redmi-a3/specs/"
+  ],
+  "q": "Redmi A3"
+ },
+ {
+  "id": "redmi-13c-5g",
+  "brand": "redmi",
+  "name": "Redmi 13C 5G",
+  "category": "smartphone",
+  "series": "Redmi",
+  "form": "bar",
+  "spec": [
+   "https://www.mi.com/my/product/redmi-13c-5g/specs/",
+   "https://www.mi.com/global/product/redmi-13c-5g/specs/"
+  ],
+  "q": "Redmi 13C 5G"
+ },
+ {
+  "id": "poco-f6",
+  "brand": "poco",
+  "name": "POCO F6",
+  "category": "smartphone",
+  "series": "F",
+  "form": "bar",
+  "spec": [
+   "https://www.mi.com/my/product/poco-f6/specs/",
+   "https://www.mi.com/global/product/poco-f6/specs/"
+  ],
+  "q": "POCO F6"
+ },
+ {
+  "id": "poco-f6-pro",
+  "brand": "poco",
+  "name": "POCO F6 Pro",
+  "category": "smartphone",
+  "series": "F",
+  "form": "bar",
+  "spec": [
+   "https://www.mi.com/my/product/poco-f6-pro/specs/",
+   "https://www.mi.com/global/product/poco-f6-pro/specs/"
+  ],
+  "q": "POCO F6 Pro"
+ },
+ {
+  "id": "poco-m6",
+  "brand": "poco",
+  "name": "POCO M6",
+  "category": "smartphone",
+  "series": "M",
+  "form": "bar",
+  "spec": [
+   "https://www.mi.com/my/product/poco-m6/specs/",
+   "https://www.mi.com/global/product/poco-m6/specs/"
+  ],
+  "q": "POCO M6"
+ },
+ {
+  "id": "redmi-13",
+  "brand": "redmi",
+  "name": "Redmi 13",
+  "category": "smartphone",
+  "series": "Redmi",
+  "form": "bar",
+  "spec": [
+   "https://www.mi.com/my/product/redmi-13/specs/",
+   "https://www.mi.com/global/product/redmi-13/specs/"
+  ],
+  "q": "Redmi 13"
+ },
+ {
+  "id": "redmi-14c",
+  "brand": "redmi",
+  "name": "Redmi 14C",
+  "category": "smartphone",
+  "series": "Redmi",
+  "form": "bar",
+  "spec": [
+   "https://www.mi.com/my/product/redmi-14c/specs/",
+   "https://www.mi.com/global/product/redmi-14c/specs/"
+  ],
+  "q": "Redmi 14C"
+ },
+ {
+  "id": "xiaomi-14t",
+  "brand": "xiaomi",
+  "name": "Xiaomi 14T",
+  "category": "smartphone",
+  "series": "T",
+  "form": "bar",
+  "spec": [
+   "https://www.mi.com/my/product/xiaomi-14t/specs/",
+   "https://www.mi.com/global/product/xiaomi-14t/specs/"
+  ],
+  "q": "Xiaomi 14T"
+ },
+ {
+  "id": "xiaomi-14t-pro",
+  "brand": "xiaomi",
+  "name": "Xiaomi 14T Pro",
+  "category": "smartphone",
+  "series": "T",
+  "form": "bar",
+  "spec": [
+   "https://www.mi.com/my/product/xiaomi-14t-pro/specs/",
+   "https://www.mi.com/global/product/xiaomi-14t-pro/specs/"
+  ],
+  "q": "Xiaomi 14T Pro"
+ },
+ {
+  "id": "xiaomi-mix-flip",
+  "brand": "xiaomi",
+  "name": "Xiaomi Mix Flip",
+  "category": "smartphone",
+  "series": "Mix",
+  "form": "foldable",
+  "spec": [
+   "https://www.mi.com/my/product/xiaomi-mix-flip/specs/",
+   "https://www.mi.com/global/product/xiaomi-mix-flip/specs/"
+  ],
+  "q": "Xiaomi Mix Flip"
+ },
+ {
+  "id": "poco-c75",
+  "brand": "poco",
+  "name": "POCO C75",
+  "category": "smartphone",
+  "series": "C",
+  "form": "bar",
+  "spec": [
+   "https://www.mi.com/my/product/poco-c75/specs/",
+   "https://www.mi.com/global/product/poco-c75/specs/"
+  ],
+  "q": "POCO C75"
+ },
+ {
+  "id": "poco-x7",
+  "brand": "poco",
+  "name": "POCO X7",
+  "category": "smartphone",
+  "series": "X",
+  "form": "bar",
+  "spec": [
+   "https://www.mi.com/my/product/poco-x7/specs/",
+   "https://www.mi.com/global/product/poco-x7/specs/"
+  ],
+  "q": "POCO X7"
+ },
+ {
+  "id": "poco-x7-pro",
+  "brand": "poco",
+  "name": "POCO X7 Pro",
+  "category": "smartphone",
+  "series": "X",
+  "form": "bar",
+  "spec": [
+   "https://www.mi.com/my/product/poco-x7-pro/specs/",
+   "https://www.mi.com/global/product/poco-x7-pro/specs/"
+  ],
+  "q": "POCO X7 Pro"
+ },
+ {
+  "id": "redmi-note-14",
+  "brand": "redmi",
+  "name": "Redmi Note 14",
+  "category": "smartphone",
+  "series": "Redmi Note",
+  "form": "bar",
+  "spec": [
+   "https://www.mi.com/my/product/redmi-note-14/specs/",
+   "https://www.mi.com/global/product/redmi-note-14/specs/"
+  ],
+  "q": "Redmi Note 14"
+ },
+ {
+  "id": "redmi-note-14-5g",
+  "brand": "redmi",
+  "name": "Redmi Note 14 5G",
+  "category": "smartphone",
+  "series": "Redmi Note",
+  "form": "bar",
+  "spec": [
+   "https://www.mi.com/my/product/redmi-note-14-5g/specs/",
+   "https://www.mi.com/global/product/redmi-note-14-5g/specs/"
+  ],
+  "q": "Redmi Note 14 5G"
+ },
+ {
+  "id": "redmi-note-14-pro",
+  "brand": "redmi",
+  "name": "Redmi Note 14 Pro",
+  "category": "smartphone",
+  "series": "Redmi Note",
+  "form": "bar",
+  "spec": [
+   "https://www.mi.com/my/product/redmi-note-14-pro/specs/",
+   "https://www.mi.com/global/product/redmi-note-14-pro/specs/"
+  ],
+  "q": "Redmi Note 14 Pro"
+ },
+ {
+  "id": "redmi-note-14-pro-5g",
+  "brand": "redmi",
+  "name": "Redmi Note 14 Pro 5G",
+  "category": "smartphone",
+  "series": "Redmi Note",
+  "form": "bar",
+  "spec": [
+   "https://www.mi.com/my/product/redmi-note-14-pro-5g/specs/",
+   "https://www.mi.com/global/product/redmi-note-14-pro-5g/specs/"
+  ],
+  "q": "Redmi Note 14 Pro 5G"
+ },
+ {
+  "id": "xiaomi-15",
+  "brand": "xiaomi",
+  "name": "Xiaomi 15",
+  "category": "smartphone",
+  "series": "Number",
+  "form": "bar",
+  "spec": [
+   "https://www.mi.com/my/product/xiaomi-15/specs/",
+   "https://www.mi.com/global/product/xiaomi-15/specs/"
+  ],
+  "q": "Xiaomi 15"
+ },
+ {
+  "id": "poco-f7-pro",
+  "brand": "poco",
+  "name": "POCO F7 Pro",
+  "category": "smartphone",
+  "series": "F",
+  "form": "bar",
+  "spec": [
+   "https://www.mi.com/my/product/poco-f7-pro/specs/",
+   "https://www.mi.com/global/product/poco-f7-pro/specs/"
+  ],
+  "q": "POCO F7 Pro"
+ },
+ {
+  "id": "redmi-a5",
+  "brand": "redmi",
+  "name": "Redmi A5",
+  "category": "smartphone",
+  "series": "Redmi A",
+  "form": "bar",
+  "spec": [
+   "https://www.mi.com/my/product/redmi-a5/specs/",
+   "https://www.mi.com/global/product/redmi-a5/specs/"
+  ],
+  "q": "Redmi A5"
+ },
+ {
+  "id": "poco-f7",
+  "brand": "poco",
+  "name": "POCO F7",
+  "category": "smartphone",
+  "series": "F",
+  "form": "bar",
+  "spec": [
+   "https://www.mi.com/my/product/poco-f7/specs/",
+   "https://www.mi.com/global/product/poco-f7/specs/"
+  ],
+  "q": "POCO F7"
+ },
+ {
+  "id": "redmi-15-5g",
+  "brand": "redmi",
+  "name": "Redmi 15 5G",
+  "category": "smartphone",
+  "series": "Redmi",
+  "form": "bar",
+  "spec": [
+   "https://www.mi.com/my/product/redmi-15-5g/specs/",
+   "https://www.mi.com/global/product/redmi-15-5g/specs/"
+  ],
+  "q": "Redmi 15 5G"
+ },
+ {
+  "id": "redmi-15",
+  "brand": "redmi",
+  "name": "Redmi 15",
+  "category": "smartphone",
+  "series": "Redmi",
+  "form": "bar",
+  "spec": [
+   "https://www.mi.com/my/product/redmi-15/specs/",
+   "https://www.mi.com/global/product/redmi-15/specs/"
+  ],
+  "q": "Redmi 15"
+ },
+ {
+  "id": "poco-m7",
+  "brand": "poco",
+  "name": "POCO M7",
+  "category": "smartphone",
+  "series": "M",
+  "form": "bar",
+  "spec": [
+   "https://www.mi.com/my/product/poco-m7/specs/",
+   "https://www.mi.com/global/product/poco-m7/specs/"
+  ],
+  "q": "POCO M7"
+ },
+ {
+  "id": "poco-c85",
+  "brand": "poco",
+  "name": "POCO C85",
+  "category": "smartphone",
+  "series": "C",
+  "form": "bar",
+  "spec": [
+   "https://www.mi.com/my/product/poco-c85/specs/",
+   "https://www.mi.com/global/product/poco-c85/specs/"
+  ],
+  "q": "POCO C85"
+ },
+ {
+  "id": "xiaomi-15t",
+  "brand": "xiaomi",
+  "name": "Xiaomi 15T",
+  "category": "smartphone",
+  "series": "T",
+  "form": "bar",
+  "spec": [
+   "https://www.mi.com/my/product/xiaomi-15t/specs/",
+   "https://www.mi.com/global/product/xiaomi-15t/specs/"
+  ],
+  "q": "Xiaomi 15T"
+ },
+ {
+  "id": "xiaomi-15t-pro",
+  "brand": "xiaomi",
+  "name": "Xiaomi 15T Pro",
+  "category": "smartphone",
+  "series": "T",
+  "form": "bar",
+  "spec": [
+   "https://www.mi.com/my/product/xiaomi-15t-pro/specs/",
+   "https://www.mi.com/global/product/xiaomi-15t-pro/specs/"
+  ],
+  "q": "Xiaomi 15T Pro"
+ },
+ {
+  "id": "poco-f8-pro",
+  "brand": "poco",
+  "name": "POCO F8 Pro",
+  "category": "smartphone",
+  "series": "F",
+  "form": "bar",
+  "spec": [
+   "https://www.mi.com/my/product/poco-f8-pro/specs/",
+   "https://www.mi.com/global/product/poco-f8-pro/specs/"
+  ],
+  "q": "POCO F8 Pro"
+ },
+ {
+  "id": "poco-f8-ultra",
+  "brand": "poco",
+  "name": "POCO F8 Ultra",
+  "category": "smartphone",
+  "series": "F",
+  "form": "bar",
+  "spec": [
+   "https://www.mi.com/my/product/poco-f8-ultra/specs/",
+   "https://www.mi.com/global/product/poco-f8-ultra/specs/"
+  ],
+  "q": "POCO F8 Ultra"
+ },
+ {
+  "id": "poco-m8",
+  "brand": "poco",
+  "name": "POCO M8",
+  "category": "smartphone",
+  "series": "M",
+  "form": "bar",
+  "spec": [
+   "https://www.mi.com/my/product/poco-m8/specs/",
+   "https://www.mi.com/global/product/poco-m8/specs/"
+  ],
+  "q": "POCO M8"
+ },
+ {
+  "id": "poco-m8-pro",
+  "brand": "poco",
+  "name": "POCO M8 Pro",
+  "category": "smartphone",
+  "series": "M",
+  "form": "bar",
+  "spec": [
+   "https://www.mi.com/my/product/poco-m8-pro/specs/",
+   "https://www.mi.com/global/product/poco-m8-pro/specs/"
+  ],
+  "q": "POCO M8 Pro"
+ },
+ {
+  "id": "redmi-note-15",
+  "brand": "redmi",
+  "name": "Redmi Note 15",
+  "category": "smartphone",
+  "series": "Redmi Note",
+  "form": "bar",
+  "spec": [
+   "https://www.mi.com/my/product/redmi-note-15/specs/",
+   "https://www.mi.com/global/product/redmi-note-15/specs/"
+  ],
+  "q": "Redmi Note 15"
+ },
+ {
+  "id": "redmi-note-15-5g",
+  "brand": "redmi",
+  "name": "Redmi Note 15 5G",
+  "category": "smartphone",
+  "series": "Redmi Note",
+  "form": "bar",
+  "spec": [
+   "https://www.mi.com/my/product/redmi-note-15-5g/specs/",
+   "https://www.mi.com/global/product/redmi-note-15-5g/specs/"
+  ],
+  "q": "Redmi Note 15 5G"
+ },
+ {
+  "id": "redmi-note-15-pro",
+  "brand": "redmi",
+  "name": "Redmi Note 15 Pro",
+  "category": "smartphone",
+  "series": "Redmi Note",
+  "form": "bar",
+  "spec": [
+   "https://www.mi.com/my/product/redmi-note-15-pro/specs/",
+   "https://www.mi.com/global/product/redmi-note-15-pro/specs/"
+  ],
+  "q": "Redmi Note 15 Pro"
+ },
+ {
+  "id": "redmi-note-15-pro-5g",
+  "brand": "redmi",
+  "name": "Redmi Note 15 Pro 5G",
+  "category": "smartphone",
+  "series": "Redmi Note",
+  "form": "bar",
+  "spec": [
+   "https://www.mi.com/my/product/redmi-note-15-pro-5g/specs/",
+   "https://www.mi.com/global/product/redmi-note-15-pro-5g/specs/"
+  ],
+  "q": "Redmi Note 15 Pro 5G"
+ },
+ {
+  "id": "redmi-note-15-pro-plus-5g",
+  "brand": "redmi",
+  "name": "Redmi Note 15 Pro+ 5G",
+  "category": "smartphone",
+  "series": "Redmi Note",
+  "form": "bar",
+  "spec": [
+   "https://www.mi.com/my/product/redmi-note-15-pro-plus-5g/specs/",
+   "https://www.mi.com/global/product/redmi-note-15-pro-plus-5g/specs/"
+  ],
+  "q": "Redmi Note 15 Pro+ 5G"
+ },
+ {
+  "id": "xiaomi-17",
+  "brand": "xiaomi",
+  "name": "Xiaomi 17",
+  "category": "smartphone",
+  "series": "Number",
+  "form": "bar",
+  "spec": [
+   "https://www.mi.com/my/product/xiaomi-17/specs/",
+   "https://www.mi.com/global/product/xiaomi-17/specs/"
+  ],
+  "q": "Xiaomi 17"
+ },
+ {
+  "id": "poco-x8-pro",
+  "brand": "poco",
+  "name": "POCO X8 Pro",
+  "category": "smartphone",
+  "series": "X",
+  "form": "bar",
+  "spec": [
+   "https://www.mi.com/my/product/poco-x8-pro/specs/",
+   "https://www.mi.com/global/product/poco-x8-pro/specs/"
+  ],
+  "q": "POCO X8 Pro"
+ },
+ {
+  "id": "poco-x8-pro-max",
+  "brand": "poco",
+  "name": "POCO X8 Pro Max",
+  "category": "smartphone",
+  "series": "X",
+  "form": "bar",
+  "spec": [
+   "https://www.mi.com/my/product/poco-x8-pro-max/specs/",
+   "https://www.mi.com/global/product/poco-x8-pro-max/specs/"
+  ],
+  "q": "POCO X8 Pro Max"
+ },
+ {
+  "id": "redmi-a7-pro",
+  "brand": "redmi",
+  "name": "Redmi A7 Pro",
+  "category": "smartphone",
+  "series": "Redmi A",
+  "form": "bar",
+  "spec": [
+   "https://www.mi.com/my/product/redmi-a7-pro/specs/",
+   "https://www.mi.com/global/product/redmi-a7-pro/specs/"
+  ],
+  "q": "Redmi A7 Pro"
+ },
+ {
+  "id": "poco-c81-pro",
+  "brand": "poco",
+  "name": "POCO C81 Pro",
+  "category": "smartphone",
+  "series": "C",
+  "form": "bar",
+  "spec": [
+   "https://www.mi.com/my/product/poco-c81-pro/specs/",
+   "https://www.mi.com/global/product/poco-c81-pro/specs/"
+  ],
+  "q": "POCO C81 Pro"
+ },
+ {
+  "id": "xiaomi-17t",
+  "brand": "xiaomi",
+  "name": "Xiaomi 17T",
+  "category": "smartphone",
+  "series": "T",
+  "form": "bar",
+  "spec": [
+   "https://www.mi.com/my/product/xiaomi-17t/specs/",
+   "https://www.mi.com/global/product/xiaomi-17t/specs/"
+  ],
+  "q": "Xiaomi 17T"
+ },
+ {
+  "id": "xiaomi-17t-pro",
+  "brand": "xiaomi",
+  "name": "Xiaomi 17T Pro",
+  "category": "smartphone",
+  "series": "T",
+  "form": "bar",
+  "spec": [
+   "https://www.mi.com/my/product/xiaomi-17t-pro/specs/",
+   "https://www.mi.com/global/product/xiaomi-17t-pro/specs/"
+  ],
+  "q": "Xiaomi 17T Pro"
+ },
+ {
+  "id": "redmi-17",
+  "brand": "redmi",
+  "name": "Redmi 17",
+  "category": "smartphone",
+  "series": "Redmi",
+  "form": "bar",
+  "spec": [
+   "https://www.mi.com/my/product/redmi-17/specs/",
+   "https://www.mi.com/global/product/redmi-17/specs/"
+  ],
+  "q": "Redmi 17"
+ },
+ {
+  "id": "redmi-17-5g",
+  "brand": "redmi",
+  "name": "Redmi 17 5G",
+  "category": "smartphone",
+  "series": "Redmi",
+  "form": "bar",
+  "spec": [
+   "https://www.mi.com/my/product/redmi-17-5g/specs/",
+   "https://www.mi.com/global/product/redmi-17-5g/specs/"
+  ],
+  "q": "Redmi 17 5G"
+ },
+ {
+  "id": "redmi-a7",
+  "brand": "redmi",
+  "name": "Redmi A7",
+  "category": "smartphone",
+  "series": "Redmi A",
+  "form": "bar",
+  "spec": [
+   "https://www.mi.com/my/product/redmi-a7/specs/",
+   "https://www.mi.com/global/product/redmi-a7/specs/"
+  ],
+  "q": "Redmi A7"
+ },
+ {
+  "id": "redmi-note-17",
+  "brand": "redmi",
+  "name": "Redmi Note 17",
+  "category": "smartphone",
+  "series": "Redmi Note",
+  "form": "bar",
+  "spec": [
+   "https://www.mi.com/my/product/redmi-note-17/specs/",
+   "https://www.mi.com/global/product/redmi-note-17/specs/"
+  ],
+  "q": "Redmi Note 17"
+ },
+ {
+  "id": "redmi-note-17-5g",
+  "brand": "redmi",
+  "name": "Redmi Note 17 5G",
+  "category": "smartphone",
+  "series": "Redmi Note",
+  "form": "bar",
+  "spec": [
+   "https://www.mi.com/my/product/redmi-note-17-5g/specs/",
+   "https://www.mi.com/global/product/redmi-note-17-5g/specs/"
+  ],
+  "q": "Redmi Note 17 5G"
+ },
+ {
+  "id": "redmi-note-17-pro-5g",
+  "brand": "redmi",
+  "name": "Redmi Note 17 Pro 5G",
+  "category": "smartphone",
+  "series": "Redmi Note",
+  "form": "bar",
+  "spec": [
+   "https://www.mi.com/my/product/redmi-note-17-pro-5g/specs/",
+   "https://www.mi.com/global/product/redmi-note-17-pro-5g/specs/"
+  ],
+  "q": "Redmi Note 17 Pro 5G"
+ },
+ {
+  "id": "redmi-note-17-pro-max-5g",
+  "brand": "redmi",
+  "name": "Redmi Note 17 Pro Max 5G",
+  "category": "smartphone",
+  "series": "Redmi Note",
+  "form": "bar",
+  "spec": [
+   "https://www.mi.com/my/product/redmi-note-17-pro-max-5g/specs/",
+   "https://www.mi.com/global/product/redmi-note-17-pro-max-5g/specs/"
+  ],
+  "q": "Redmi Note 17 Pro Max 5G"
+ },
+ {
+  "id": "poco-f9-pro",
+  "brand": "poco",
+  "name": "POCO F9 Pro",
+  "category": "smartphone",
+  "series": "F",
+  "form": "bar",
+  "spec": [
+   "https://www.mi.com/my/product/poco-f9-pro/specs/",
+   "https://www.mi.com/global/product/poco-f9-pro/specs/"
+  ],
+  "q": "POCO F9 Pro"
+ },
+ {
+  "id": "poco-f9-ultra",
+  "brand": "poco",
+  "name": "POCO F9 Ultra",
+  "category": "smartphone",
+  "series": "F",
+  "form": "bar",
+  "spec": [
+   "https://www.mi.com/my/product/poco-f9-ultra/specs/",
+   "https://www.mi.com/global/product/poco-f9-ultra/specs/"
+  ],
+  "q": "POCO F9 Ultra"
+ },
+ {
+  "id": "poco-x8",
+  "brand": "poco",
+  "name": "POCO X8",
+  "category": "smartphone",
+  "series": "X",
+  "form": "bar",
+  "spec": [
+   "https://www.mi.com/my/product/poco-x8/specs/",
+   "https://www.mi.com/global/product/poco-x8/specs/"
+  ],
+  "q": "POCO X8"
+ },
+ {
+  "id": "poco-m8s-5g",
+  "brand": "poco",
+  "name": "POCO M8s 5G",
+  "category": "smartphone",
+  "series": "M",
+  "form": "bar",
+  "spec": [
+   "https://www.mi.com/my/product/poco-m8s-5g/specs/",
+   "https://www.mi.com/global/product/poco-m8s-5g/specs/"
+  ],
+  "q": "POCO M8s 5G"
+ },
+ {
+  "id": "leica-leitzphone-powered-by-xiaomi",
+  "brand": "xiaomi",
+  "name": "Leica Leitzphone powered by Xiaomi",
+  "category": "smartphone",
+  "series": "Leica",
+  "form": "bar",
+  "spec": [
+   "https://www.mi.com/my/product/leica-leitzphone-powered-by-xiaomi/specs/",
+   "https://www.mi.com/global/product/leica-leitzphone-powered-by-xiaomi/specs/"
+  ],
+  "q": "Leica Leitzphone powered by Xiaomi"
+ },
+ {
+  "id": "redmi-watch-3",
+  "brand": "redmi",
+  "name": "Redmi Watch 3",
+  "category": "smartwatch",
+  "series": "Watch",
+  "form": "watch",
+  "spec": [
+   "https://www.mi.com/my/product/redmi-watch-3/specs/",
+   "https://www.mi.com/global/product/redmi-watch-3/specs/"
+  ],
+  "q": "Redmi Watch 3"
+ },
+ {
+  "id": "redmi-watch-3-active",
+  "brand": "redmi",
+  "name": "Redmi Watch 3 Active",
+  "category": "smartwatch",
+  "series": "Watch",
+  "form": "watch",
+  "spec": [
+   "https://www.mi.com/my/product/redmi-watch-3-active/specs/",
+   "https://www.mi.com/global/product/redmi-watch-3-active/specs/"
+  ],
+  "q": "Redmi Watch 3 Active"
+ },
+ {
+  "id": "xiaomi-smart-band-8",
+  "brand": "xiaomi",
+  "name": "Xiaomi Smart Band 8",
+  "category": "band",
+  "series": "Band",
+  "form": "band",
+  "spec": [
+   "https://www.mi.com/my/product/xiaomi-smart-band-8/specs/",
+   "https://www.mi.com/global/product/xiaomi-smart-band-8/specs/"
+  ],
+  "q": "Xiaomi Smart Band 8"
+ },
+ {
+  "id": "xiaomi-smart-band-8-active",
+  "brand": "xiaomi",
+  "name": "Xiaomi Smart Band 8 Active",
+  "category": "band",
+  "series": "Band",
+  "form": "band",
+  "spec": [
+   "https://www.mi.com/my/product/xiaomi-smart-band-8-active/specs/",
+   "https://www.mi.com/global/product/xiaomi-smart-band-8-active/specs/"
+  ],
+  "q": "Xiaomi Smart Band 8 Active"
+ },
+ {
+  "id": "xiaomi-smart-band-8-pro",
+  "brand": "xiaomi",
+  "name": "Xiaomi Smart Band 8 Pro",
+  "category": "band",
+  "series": "Band",
+  "form": "band",
+  "spec": [
+   "https://www.mi.com/my/product/xiaomi-smart-band-8-pro/specs/",
+   "https://www.mi.com/global/product/xiaomi-smart-band-8-pro/specs/"
+  ],
+  "q": "Xiaomi Smart Band 8 Pro"
+ },
+ {
+  "id": "xiaomi-watch-2-pro",
+  "brand": "xiaomi",
+  "name": "Xiaomi Watch 2 Pro",
+  "category": "smartwatch",
+  "series": "Watch",
+  "form": "watch",
+  "spec": [
+   "https://www.mi.com/my/product/xiaomi-watch-2-pro/specs/",
+   "https://www.mi.com/global/product/xiaomi-watch-2-pro/specs/"
+  ],
+  "q": "Xiaomi Watch 2 Pro"
+ },
+ {
+  "id": "redmi-watch-4",
+  "brand": "redmi",
+  "name": "Redmi Watch 4",
+  "category": "smartwatch",
+  "series": "Watch",
+  "form": "watch",
+  "spec": [
+   "https://www.mi.com/my/product/redmi-watch-4/specs/",
+   "https://www.mi.com/global/product/redmi-watch-4/specs/"
+  ],
+  "q": "Redmi Watch 4"
+ },
+ {
+  "id": "xiaomi-watch-s3",
+  "brand": "xiaomi",
+  "name": "Xiaomi Watch S3",
+  "category": "smartwatch",
+  "series": "Watch",
+  "form": "watch",
+  "spec": [
+   "https://www.mi.com/my/product/xiaomi-watch-s3/specs/",
+   "https://www.mi.com/global/product/xiaomi-watch-s3/specs/"
+  ],
+  "q": "Xiaomi Watch S3"
+ },
+ {
+  "id": "xiaomi-smart-band-9",
+  "brand": "xiaomi",
+  "name": "Xiaomi Smart Band 9",
+  "category": "band",
+  "series": "Band",
+  "form": "band",
+  "spec": [
+   "https://www.mi.com/my/product/xiaomi-smart-band-9/specs/",
+   "https://www.mi.com/global/product/xiaomi-smart-band-9/specs/"
+  ],
+  "q": "Xiaomi Smart Band 9"
+ },
+ {
+  "id": "xiaomi-smart-band-9-active",
+  "brand": "xiaomi",
+  "name": "Xiaomi Smart Band 9 Active",
+  "category": "band",
+  "series": "Band",
+  "form": "band",
+  "spec": [
+   "https://www.mi.com/my/product/xiaomi-smart-band-9-active/specs/",
+   "https://www.mi.com/global/product/xiaomi-smart-band-9-active/specs/"
+  ],
+  "q": "Xiaomi Smart Band 9 Active"
+ },
+ {
+  "id": "xiaomi-smart-band-9-pro",
+  "brand": "xiaomi",
+  "name": "Xiaomi Smart Band 9 Pro",
+  "category": "band",
+  "series": "Band",
+  "form": "band",
+  "spec": [
+   "https://www.mi.com/my/product/xiaomi-smart-band-9-pro/specs/",
+   "https://www.mi.com/global/product/xiaomi-smart-band-9-pro/specs/"
+  ],
+  "q": "Xiaomi Smart Band 9 Pro"
+ },
+ {
+  "id": "redmi-watch-5-active",
+  "brand": "redmi",
+  "name": "Redmi Watch 5 Active",
+  "category": "smartwatch",
+  "series": "Watch",
+  "form": "watch",
+  "spec": [
+   "https://www.mi.com/my/product/redmi-watch-5-active/specs/",
+   "https://www.mi.com/global/product/redmi-watch-5-active/specs/"
+  ],
+  "q": "Redmi Watch 5 Active"
+ },
+ {
+  "id": "redmi-watch-5-lite",
+  "brand": "redmi",
+  "name": "Redmi Watch 5 Lite",
+  "category": "smartwatch",
+  "series": "Watch",
+  "form": "watch",
+  "spec": [
+   "https://www.mi.com/my/product/redmi-watch-5-lite/specs/",
+   "https://www.mi.com/global/product/redmi-watch-5-lite/specs/"
+  ],
+  "q": "Redmi Watch 5 Lite"
+ },
+ {
+  "id": "redmi-watch-5",
+  "brand": "redmi",
+  "name": "Redmi Watch 5",
+  "category": "smartwatch",
+  "series": "Watch",
+  "form": "watch",
+  "spec": [
+   "https://www.mi.com/my/product/redmi-watch-5/specs/",
+   "https://www.mi.com/global/product/redmi-watch-5/specs/"
+  ],
+  "q": "Redmi Watch 5"
+ },
+ {
+  "id": "xiaomi-watch-s4",
+  "brand": "xiaomi",
+  "name": "Xiaomi Watch S4",
+  "category": "smartwatch",
+  "series": "Watch",
+  "form": "watch",
+  "spec": [
+   "https://www.mi.com/my/product/xiaomi-watch-s4/specs/",
+   "https://www.mi.com/global/product/xiaomi-watch-s4/specs/"
+  ],
+  "q": "Xiaomi Watch S4"
+ },
+ {
+  "id": "xiaomi-smart-band-10",
+  "brand": "xiaomi",
+  "name": "Xiaomi Smart Band 10",
+  "category": "band",
+  "series": "Band",
+  "form": "band",
+  "spec": [
+   "https://www.mi.com/my/product/xiaomi-smart-band-10/specs/",
+   "https://www.mi.com/global/product/xiaomi-smart-band-10/specs/"
+  ],
+  "q": "Xiaomi Smart Band 10"
+ },
+ {
+  "id": "xiaomi-watch-2",
+  "brand": "xiaomi",
+  "name": "Xiaomi Watch 2",
+  "category": "smartwatch",
+  "series": "Watch",
+  "form": "watch",
+  "spec": [
+   "https://www.mi.com/my/product/xiaomi-watch-2/specs/",
+   "https://www.mi.com/global/product/xiaomi-watch-2/specs/"
+  ],
+  "q": "Xiaomi Watch 2"
+ },
+ {
+  "id": "xiaomi-smart-band-11-active",
+  "brand": "xiaomi",
+  "name": "Xiaomi Smart Band 11 Active",
+  "category": "band",
+  "series": "Band",
+  "form": "band",
+  "spec": [
+   "https://www.mi.com/my/product/xiaomi-smart-band-11-active/specs/",
+   "https://www.mi.com/global/product/xiaomi-smart-band-11-active/specs/"
+  ],
+  "q": "Xiaomi Smart Band 11 Active"
+ },
+ {
+  "id": "redmi-watch-6",
+  "brand": "redmi",
+  "name": "Redmi Watch 6",
+  "category": "smartwatch",
+  "series": "Watch",
+  "form": "watch",
+  "spec": [
+   "https://www.mi.com/my/product/redmi-watch-6/specs/",
+   "https://www.mi.com/global/product/redmi-watch-6/specs/"
+  ],
+  "q": "Redmi Watch 6"
+ },
+ {
+  "id": "redmi-watch-6-active",
+  "brand": "redmi",
+  "name": "Redmi Watch 6 Active",
+  "category": "smartwatch",
+  "series": "Watch",
+  "form": "watch",
+  "spec": [
+   "https://www.mi.com/my/product/redmi-watch-6-active/specs/",
+   "https://www.mi.com/global/product/redmi-watch-6-active/specs/"
+  ],
+  "q": "Redmi Watch 6 Active"
+ },
+ {
+  "id": "redmi-watch-6-lite",
+  "brand": "redmi",
+  "name": "Redmi Watch 6 Lite",
+  "category": "smartwatch",
+  "series": "Watch",
+  "form": "watch",
+  "spec": [
+   "https://www.mi.com/my/product/redmi-watch-6-lite/specs/",
+   "https://www.mi.com/global/product/redmi-watch-6-lite/specs/"
+  ],
+  "q": "Redmi Watch 6 Lite"
+ },
+ {
+  "id": "xiaomi-smart-band-10-pro",
+  "brand": "xiaomi",
+  "name": "Xiaomi Smart Band 10 Pro",
+  "category": "band",
+  "series": "Band",
+  "form": "band",
+  "spec": [
+   "https://www.mi.com/my/product/xiaomi-smart-band-10-pro/specs/",
+   "https://www.mi.com/global/product/xiaomi-smart-band-10-pro/specs/"
+  ],
+  "q": "Xiaomi Smart Band 10 Pro"
+ },
+ {
+  "id": "xiaomi-watch-s4-41mm",
+  "brand": "xiaomi",
+  "name": "Xiaomi Watch S4 41mm",
+  "category": "smartwatch",
+  "series": "Watch",
+  "form": "watch",
+  "spec": [
+   "https://www.mi.com/my/product/xiaomi-watch-s4-41mm/specs/",
+   "https://www.mi.com/global/product/xiaomi-watch-s4-41mm/specs/"
+  ],
+  "q": "Xiaomi Watch S4 41mm"
+ },
+ {
+  "id": "xiaomi-watch-5",
+  "brand": "xiaomi",
+  "name": "Xiaomi Watch 5",
+  "category": "smartwatch",
+  "series": "Watch",
+  "form": "watch",
+  "spec": [
+   "https://www.mi.com/my/product/xiaomi-watch-5/specs/",
+   "https://www.mi.com/global/product/xiaomi-watch-5/specs/"
+  ],
+  "q": "Xiaomi Watch 5"
+ },
+ {
+  "id": "xiaomi-smart-band-11",
+  "brand": "xiaomi",
+  "name": "Xiaomi Smart Band 11",
+  "category": "band",
+  "series": "Band",
+  "form": "band",
+  "spec": [
+   "https://www.mi.com/my/product/xiaomi-smart-band-11/specs/",
+   "https://www.mi.com/global/product/xiaomi-smart-band-11/specs/"
+  ],
+  "q": "Xiaomi Smart Band 11"
+ }
+]

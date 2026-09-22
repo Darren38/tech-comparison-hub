@@ -1,0 +1,131 @@
+{
+  "id": "samsung-galaxy-a15",
+  "name": "Galaxy A15",
+  "brand": "samsung",
+  "category": "smartphone",
+  "series": "Galaxy A",
+  "form": "bar",
+  "status": "released",
+  "announced": "2023-12-29",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 999,
+      "date": "2023-12-29",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2023/12/29/samsung-galaxy-a15-a15-5g-and-a25-5g-malaysian-prices-revealed-starting-from-rm999/",
+      "class": "news",
+      "accessed": "2026-09-18",
+      "note": "Starting price."
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 6.5,
+      "type": "Super AMOLED",
+      "resolution": "2340 × 1080",
+      "ppi": 396
+    },
+    "memory": {
+      "ram_gb": [
+        4,
+        8
+      ],
+      "storage_gb": [
+        128,
+        256
+      ],
+      "card": "MicroSD (Up to 1TB)"
+    },
+    "battery": {
+      "capacity_mah": 5000,
+      "video_h": 20
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "aperture": "f/1.8"
+        }
+      ],
+      "rear_text": "Rear: 50.0 MP + 5.0 MP + 2.0 MP",
+      "front": "13 MP",
+      "rear_detail": [
+        "50 MP, f/1.8",
+        "5 MP, f/2.2",
+        "2 MP, f/2.4"
+      ],
+      "features": "Digital Zoom up to 10x",
+      "front_detail": [
+        "13 MP, f/2.0"
+      ],
+      "video": "FHD (1920 x 1080)@30fps"
+    },
+    "connectivity": {
+      "cellular": "4G",
+      "nfc": true,
+      "bands_2g": "GSM850, GSM900, DCS1800, PCS1900",
+      "bands_3g": "B1(2100), B5(850), B8(900)",
+      "bands_4g": "4G FDD LTE: B1(2100), B3(1800), B5(850), B7(2600), B8(900), B20(800), B28(700); 4G TDD LTE: B38(2600), B40(2300), B41(2500)",
+      "technology": "GSM / HSPA / LTE",
+      "sim": "Dual-SIM; Nano-SIM (4FF); SIM 1 + Hybrid (SIM or MicroSD)",
+      "wifi": "802.11a/b/g/n/ac 2.4GHz+5GHz, VHT80",
+      "bluetooth": "Bluetooth v5.3",
+      "positioning": "GPS, Glonass, Beidou, Galileo, QZSS",
+      "usb": "USB Type-C, USB 2.0"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 160.1,
+        "width_mm": 76.8,
+        "depth_mm": 8.4
+      },
+      "weight_g": 200.0
+    },
+    "platform": {
+      "cpu": "Octa-Core; 2.2GHz, 2GHz"
+    },
+    "audio": {
+      "speakers": "Mono speaker",
+      "jack": true
+    },
+    "sensors": "Accelerometer, Fingerprint Sensor, Geomagnetic Sensor, Light Sensor, Virtual Proximity Sensing",
+    "misc": {
+      "colors": "Light Blue, Blue Black, Yellow"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "samsung",
+      "url": "https://www.samsung.com/my/support/model/SM-A155FLBDXME/",
+      "checked": "2026-09-18",
+      "note": "Read from Samsung's own specification data for the Malaysian model SM-A155FLBDXME (the data samsung.com/my shows on its spec pages); the link goes to Samsung Malaysia's page for that model. Values were extracted automatically and reviewed."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2023/12/29/samsung-galaxy-a15-a15-5g-and-a25-5g-malaysian-prices-revealed-starting-from-rm999/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://images.samsung.com/is/image/samsung/p6pim/my/sm-a155flbdxme/gallery/my-galaxy-a15-sm-a155-489640-sm-a155flbdxme-541040742?$624_624_PNG$",
+    "page": "https://www.samsung.com/my/support/model/SM-A155FLBDXME/",
+    "credit": "Samsung Malaysia",
+    "checked": "2026-09-19"
+  }
+}

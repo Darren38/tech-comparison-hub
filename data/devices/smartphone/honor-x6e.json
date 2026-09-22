@@ -1,0 +1,108 @@
+{
+  "id": "honor-x6e",
+  "name": "HONOR X6e",
+  "brand": "honor",
+  "category": "smartphone",
+  "series": "X",
+  "form": "bar",
+  "status": "released",
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-18",
+      "source": "honor",
+      "url": "https://www.honor.com/my/phones/honor-x6e/spec/",
+      "note": "Sold in Malaysia, but no launch price was found in Malaysian launch coverage."
+    }
+  },
+  "image": {
+    "kind": "official",
+    "src": "https://www.honor.com/content/dam/honor/common/product-list/product-series/honor-x6e/honor-x6e-list-gold.png",
+    "page": "https://www.honor.com/my/phones/honor-x6e/spec/",
+    "credit": "HONOR Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.61,
+      "type": "LCD",
+      "resolution": "1604 × 720",
+      "ppi": 266
+    },
+    "platform": {
+      "chipset": "helio-g81-ultra",
+      "gpu": "ARM Mail G52 MC2",
+      "cpu": "Octa-core; 2xA75 *2.0Ghz + 6xA55 *1.7Ghz"
+    },
+    "battery": {
+      "capacity_mah": 7500,
+      "chemistry": "Li-ion Polymer"
+    },
+    "charging": {
+      "wired_w": 45,
+      "claim": "Support up to 45W (11V/4.1A) super charge"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50
+        }
+      ],
+      "front": "5 MP",
+      "rear_detail": [
+        "50MP Main Camera (F1.8)"
+      ],
+      "features": "Up to 10x digital zoom",
+      "video": "1080p",
+      "front_detail": [
+        "5MP (F2.2)"
+      ]
+    },
+    "connectivity": {
+      "cellular": "4G",
+      "technology": "GSM / HSPA / LTE",
+      "sim": "Nano SIM card",
+      "wifi": "802.11 a/b/g/n/ac; 2.4 GHz and 5 GHz; WLAN Hotspot",
+      "usb": "Type-C,USB 2.0",
+      "positioning": "Support GPS/AGPS/GLONASS/BeiDou/Galileo",
+      "bluetooth": "Bluetooth"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 163.9,
+        "width_mm": 75.9,
+        "depth_mm": 8.29
+      },
+      "weight_g": 207.0,
+      "ip": "IP64"
+    },
+    "software": {
+      "launch_os": "MagicOS 10.0 (based on Android 16)"
+    },
+    "biometrics": {
+      "face": "Support 2D Face Recognition"
+    },
+    "audio": {
+      "jack": true
+    },
+    "sensors": "Gravity Sensor, Fingerprint Sensor, Ambient Light Sensor, Proximity Sensor, Media and Audio"
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "honor",
+      "url": "https://www.honor.com/my/phones/honor-x6e/spec/",
+      "checked": "2026-09-18",
+      "note": "Read from HONOR Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

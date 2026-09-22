@@ -1,0 +1,45 @@
+{
+  "id": "apple-a18-pro",
+  "name": "Apple A18 Pro",
+  "vendor": "apple",
+  "family": "A-series",
+  "tier": "flagship",
+  "announced": "2024-09-09",
+  "aliases": [
+    "A18 Pro"
+  ],
+  "summary": "iPhone 16 Pro generation chip; a useful baseline for how far the A19 Pro moved.",
+  "process": {
+    "node": "3 nm",
+    "foundry": "TSMC",
+    "name": "N3E"
+  },
+  "cpu": {
+    "cores": 6,
+    "clusters": [
+      {
+        "count": 2,
+        "core": "Performance",
+        "ghz": 4.05
+      },
+      {
+        "count": 4,
+        "core": "Efficiency"
+      }
+    ]
+  },
+  "gpu": {
+    "name": "Apple GPU, 6-core"
+  },
+  "npu": "16-core Neural Engine",
+  "variants": [],
+  "provenance": {
+    "default": {
+      "class": "database",
+      "source": "apple",
+      "url": "https://www.apple.com",
+      "note": "Compiled from Apple's announcement; clocks from benchmark listings."
+    },
+    "fields": {}
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "id": "honor-magic8-pro",
+  "name": "HONOR Magic8 Pro",
+  "brand": "honor",
+  "category": "smartphone",
+  "series": "Magic",
+  "form": "bar",
+  "status": "released",
+  "announced": "2025-10-15",
+  "released": "2025-11",
+  "segment": "flagship",
+  "aliases": [
+    "Magic8 Pro",
+    "Magic 8 Pro"
+  ],
+  "summary": "HONOR's flagship with a 200 MP periscope and 80 W wireless charging. The EU model has a much smaller battery (6,270 mAh) than the global model (7,100 mAh).",
+  "highlights": [
+    "200 MP periscope",
+    "100 W wired / 80 W wireless",
+    "Very bright display in GSMArena's test"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 4599,
+      "config": "12 GB / 256 GB",
+      "date": "2025-11-27",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/11/27/honor-magic-8-pro-malaysia-launch-price-features/",
+      "class": "news",
+      "accessed": "2026-09-16"
+    }
+  ],
+  "image": {
+    "kind": "photo",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/The_back_of_the_Honor_Magic8_Pro.jpg/500px-The_back_of_the_Honor_Magic8_Pro.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:The_back_of_the_Honor_Magic8_Pro.jpg",
+    "title": "The back of the Honor Magic8 Pro",
+    "author": "X-SHLIED",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "checked": "2026-09-17"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.71,
+      "type": "LTPO OLED",
+      "refresh_hz": 120
+    },
+    "platform": {
+      "chipset": "snapdragon-8-elite-gen-5"
+    },
+    "memory": {
+      "ram_gb": [
+        12,
+        16
+      ],
+      "storage_gb": [
+        512
+      ]
+    },
+    "battery": {
+      "capacity_mah": 7100,
+      "rated_mah": 6920,
+      "chemistry": "Silicon-carbon",
+      "variants": "EU: 6,270 mAh; China: 7,200 mAh"
+    },
+    "charging": {
+      "wired_w": 100,
+      "wireless_w": 80,
+      "claim": "Reverse wireless supported"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50
+        },
+        {
+          "role": "ultrawide",
+          "mp": 50
+        },
+        {
+          "role": "periscope",
+          "mp": 200,
+          "zoom_x": 3.7
+        }
+      ],
+      "zoom_optical_x": 3.7
+    },
+    "build": {
+      "ip": "IP68 + IP69"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true
+    },
+    "software": {
+      "launch_os": "Android 16, MagicOS 10"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "honor",
+      "url": "https://www.honor.com/global/phones/honor-magic8-pro/",
+      "checked": "2026-09-15",
+      "note": "Battery and charging cross-checked against HONOR global specifications and GSMArena's review."
+    },
+    "fields": {
+      "specs.battery.variants": {
+        "class": "news",
+        "source": "notebookcheck",
+        "url": "https://www.notebookcheck.net/Honor-Magic-8-Pro-will-reportedly-have-battery-downgraded-by-13-in-Europe.1161483.0.html"
+      }
+    }
+  },
+  "dataStatus": "checked"
+}

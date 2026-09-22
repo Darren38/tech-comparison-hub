@@ -1,0 +1,106 @@
+{
+  "id": "iqoo-z9",
+  "name": "iQOO Z9",
+  "brand": "iqoo",
+  "category": "smartphone",
+  "series": "iQOO",
+  "form": "bar",
+  "status": "released",
+  "announced": "2024-05-10",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1399,
+      "config": "8 GB / 256 GB",
+      "date": "2024-05-10",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2024/05/10/iqoo-z9-z9x-malaysia-price-launch-specs-official/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1499,
+      "config": "12 GB / 256 GB",
+      "date": "2024-05-10",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2024/05/10/iqoo-z9-z9x-malaysia-price-launch-specs-official/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 6.78,
+      "type": "AMOLED",
+      "resolution": "2800 × 1260",
+      "refresh_hz": 144,
+      "ppi": 453
+    },
+    "platform": {
+      "chipset": "snapdragon-7-gen-3"
+    },
+    "memory": {
+      "ram_gb": [
+        8,
+        12
+      ],
+      "storage_gb": [
+        256
+      ]
+    },
+    "battery": {
+      "capacity_mah": 6000
+    },
+    "charging": {
+      "wired_w": 80
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50
+        },
+        {
+          "role": "depth",
+          "mp": 2
+        }
+      ],
+      "front": "16 MP"
+    },
+    "build": {
+      "ip": "IP64"
+    },
+    "software": {
+      "launch_os": "Funtouch OS 14 (Android 14 base)"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "news",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2024/05/10/iqoo-z9-z9x-malaysia-price-launch-specs-official/",
+      "note": "The maker no longer publishes a specification page for this model. Key specs were taken from this Malaysian launch report, which gives the maker's figures.",
+      "checked": "2026-09-18"
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2024/05/10/iqoo-z9-z9x-malaysia-price-launch-specs-official/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

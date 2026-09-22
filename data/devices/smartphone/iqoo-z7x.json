@@ -1,0 +1,115 @@
+{
+  "id": "iqoo-z7x",
+  "name": "iQOO Z7x",
+  "brand": "iqoo",
+  "category": "smartphone",
+  "series": "iQOO",
+  "form": "bar",
+  "status": "released",
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-18",
+      "source": "iqoo",
+      "url": "https://www.iqoo.com/my/products/param/z7x",
+      "note": "Sold in Malaysia, but no launch price was found in Malaysian launch coverage."
+    }
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.64,
+      "type": "LCD",
+      "resolution": "2388 × 1080",
+      "refresh_hz": 120,
+      "ppi": 395
+    },
+    "platform": {
+      "chipset": "snapdragon-695"
+    },
+    "memory": {
+      "ram_gb": [
+        8
+      ],
+      "storage_gb": [
+        128,
+        256
+      ]
+    },
+    "battery": {
+      "capacity_mah": 6000
+    },
+    "charging": {
+      "wired_w": 80,
+      "claim": "80W"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "aperture": "f/1.8"
+        }
+      ],
+      "rear_text": "Rear: 50MP + 2MP",
+      "front": "8 MP",
+      "rear_detail": [
+        "50MP, f/1.8",
+        "2MP, f/2.4"
+      ],
+      "front_detail": [
+        "8MP, f/2.0"
+      ]
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true,
+      "bands_2g": "850/900/1800MHz",
+      "bands_3g": "B1/B5/B8",
+      "bands_4g": "4G FDD-LTE: B1/B3/B5/B7/B8/B20/B28; 4G TDD-LTE: B38/B40/B41",
+      "bands_5g": "5G: n1/n3/n28A/n28B/n40/n41/n77/n78",
+      "technology": "GSM / HSPA / LTE / 5G",
+      "sim": "Three out of two",
+      "bluetooth": "Bluetooth 5.1",
+      "usb": "Type-C",
+      "positioning": "L1",
+      "wifi": "Wi-Fi; Wi-Fi Display; MU-MIMO"
+    },
+    "build": {
+      "weight_g": 205.0
+    },
+    "software": {
+      "launch_os": "Funtouch OS 13（Based on Android 13）"
+    },
+    "misc": {
+      "colors": "Tropical Blue, Metalic Grey"
+    },
+    "sensors": "Accelerometer, Ambient Light Sensor, Proximity Sensor, E-compass, Fingerprint Sensor, Side Capacitive Fingerprint Sensor, Gyroscope",
+    "biometrics": {
+      "fingerprint": "Side Capacitive Fingerprint Sensor"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "iqoo",
+      "url": "https://www.iqoo.com/my/products/param/z7x",
+      "checked": "2026-09-18",
+      "note": "Read from iQOO Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1680865800589/b4ccfe0bb06d067414c12b9b2e750f9a.png",
+    "page": "https://www.iqoo.com/my/products/param/z7x",
+    "credit": "vivo Malaysia",
+    "checked": "2026-09-19"
+  }
+}

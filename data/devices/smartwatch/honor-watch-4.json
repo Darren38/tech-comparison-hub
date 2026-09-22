@@ -1,0 +1,80 @@
+{
+  "id": "honor-watch-4",
+  "name": "HONOR Watch 4",
+  "brand": "honor",
+  "category": "smartwatch",
+  "series": "Watch",
+  "form": "watch",
+  "status": "released",
+  "announced": "2023-11-02",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 499,
+      "date": "2023-11-02",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2023/310263/honor-watch-4-malaysia/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 1.75,
+      "type": "AMOLED",
+      "resolution": "450 × 390"
+    },
+    "battery": {
+      "life_h": 336,
+      "capacity_mah": 451
+    },
+    "connectivity": {
+      "gps": "Built-in GNSS",
+      "cellular": "LTE option",
+      "usb": "Charging port with magnetic contacts; Compatibility; Android 9.0 or higher version; iOS 11.0 or higher version; Water Resistance Level; 5ATM",
+      "bluetooth": "2.4 GHz,BT5.2,Supports BLE/BR/EDR",
+      "positioning": "Supported; Bluetooth; 2.4 GHz,BT5.2,Supports BLE/BR/EDR; Speaker; Supported; Microphone"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 45.3,
+        "width_mm": 39.1,
+        "depth_mm": 11.2
+      },
+      "weight_g": 32.0,
+      "water": "5 ATM",
+      "water_m": 50
+    },
+    "audio": {
+      "speakers": "Microphone"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "honor",
+      "url": "https://www.honor.com/my/wearables/honor-watch-4/spec/",
+      "checked": "2026-09-18",
+      "note": "Read from HONOR Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "lowyat",
+        "url": "https://www.lowyat.net/2023/310263/honor-watch-4-malaysia/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (Lowyat.NET). The global announcement can be earlier."
+      }
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://www.honor.com/content/dam/honor/my/specs/wearables/honor-watch-4/honor-watch-4-fx-new.png",
+    "page": "https://www.honor.com/my/wearables/honor-watch-4/spec/",
+    "credit": "HONOR",
+    "checked": "2026-09-19"
+  }
+}

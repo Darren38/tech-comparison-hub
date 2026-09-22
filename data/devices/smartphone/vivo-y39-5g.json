@@ -1,0 +1,139 @@
+{
+  "id": "vivo-y39-5g",
+  "name": "vivo Y39 5G",
+  "brand": "vivo",
+  "category": "smartphone",
+  "series": "Y",
+  "form": "bar",
+  "status": "released",
+  "announced": "2025-02-27",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 999,
+      "date": "2025-02-27",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2025/343880/vivo-y39-malaysia/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 6.68,
+      "type": "LCD",
+      "resolution": "1608 × 720",
+      "refresh_hz": 120,
+      "peak_nits": 1000,
+      "ppi": 264
+    },
+    "platform": {
+      "chipset": "snapdragon-4-gen-2",
+      "process": "4 nm",
+      "cpu": "8 cores; 2 × 2.2 GHz + 6 × 1.95 GHz"
+    },
+    "memory": {
+      "ram_gb": [
+        8
+      ],
+      "storage_gb": [
+        256
+      ],
+      "ram_type": "LPDDR4X",
+      "storage_type": "UFS 3.1",
+      "card": "No"
+    },
+    "battery": {
+      "capacity_mah": 6500,
+      "chemistry": "Li-ion battery"
+    },
+    "charging": {
+      "wired_w": 44,
+      "claim": "44W"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50
+        }
+      ],
+      "rear_text": "Rear: 50 MP + 2 MP",
+      "front": "8 MP",
+      "rear_detail": [
+        "Photo, Night, Portrait, Video, Live Photo, Slo-mo, Time-lapse, Pro, Pano, Documents, 50 MP, Dual View"
+      ],
+      "front_detail": [
+        "8 MP, f/2.0"
+      ]
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true,
+      "bands_2g": "850/900/1800/1900 MHz",
+      "bands_3g": "B1/B2/B4/B5/B8",
+      "bands_4g": "4G FDD-LTE: B1/B2/B3/B4/B5/B7/B8/B18/B19/B20/B26/B28",
+      "bands_5g": "5G: n1/n3/n5/n7/n8/n20/n28/n38/n40/n41/n77/n78",
+      "technology": "GSM / HSPA / LTE / 5G",
+      "sim": "2 nano SIMs",
+      "wifi": "2.4 GHz / 5 GHz",
+      "bluetooth": "Bluetooth 5.1",
+      "usb": "USB 2.0; USB Port; Type-C",
+      "radio": "No",
+      "positioning": "GPS, BeiDou, GLONASS, Galileo, QZSS"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 165.7,
+        "width_mm": 76.3,
+        "depth_mm": 8.19
+      },
+      "weight_g": 206.0,
+      "ip": "IP64",
+      "back": "Composite plastic sheet"
+    },
+    "software": {
+      "launch_os": "Funtouch OS 15"
+    },
+    "misc": {
+      "colors": "Blue, Purple"
+    },
+    "biometrics": {
+      "fingerprint": "Side-mounted capacitive fingerprint sensor"
+    },
+    "sensors": "Accelerometer, Ambient Light Sensor, Proximity Sensor, E-compass, Gyroscope, Motor, Ordinary"
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "vivo",
+      "url": "https://www.vivo.com/my/products/param/y39-5g",
+      "checked": "2026-09-18",
+      "note": "Read from vivo Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "lowyat",
+        "url": "https://www.lowyat.net/2025/343880/vivo-y39-malaysia/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (Lowyat.NET). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1740382057594/f35d1876f9e07b4c46535e764cb1a8d5.png",
+    "page": "https://www.vivo.com/my/products/param/y39-5g",
+    "credit": "vivo Malaysia",
+    "checked": "2026-09-19"
+  }
+}

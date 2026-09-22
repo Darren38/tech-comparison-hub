@@ -1,0 +1,16 @@
+{
+  "id": "dimensity-8200-ultra",
+  "name": "Dimensity 8200-Ultra",
+  "vendor": "mediatek",
+  "family": "Dimensity 8000",
+  "summary": "Name recorded from phone makers' specification pages and launch reports. Chip details have not been compiled yet.",
+  "provenance": {
+    "default": {
+      "class": "news",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2023/09/26/xiaomi-13t-malaysia-144hz-display-leica-cameras-and-ip68-rating-on-a-budget/",
+      "checked": "2026-09-18",
+      "note": "Chip name as given for the Xiaomi 13T."
+    }
+  }
+}

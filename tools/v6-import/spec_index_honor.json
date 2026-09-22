@@ -1,0 +1,482 @@
+{
+ "honor-x7a": {
+  "url": "https://www.honor.com/my/phones/honor-x7a/spec/",
+  "final": "https://www.honor.com/my/phones/honor-x7a/spec/",
+  "status": 200,
+  "title": "HONOR X7a Specification - HONOR MY",
+  "ok": true,
+  "bytes": 654034
+ },
+ "honor-x8a": {
+  "url": "https://www.honor.com/my/phones/honor-x8a/spec/",
+  "final": "https://www.honor.com/my/phones/honor-x8a/spec/",
+  "status": 200,
+  "title": "Specification of HONOR X8a - HONOR MY",
+  "ok": true,
+  "bytes": 644977
+ },
+ "honor-x8a-5g": {
+  "url": "https://www.honor.com/my/phones/honor-x8a-5g/spec/",
+  "final": "https://www.honor.com/my/phones/honor-x8a-5g/spec/",
+  "status": 200,
+  "title": "Specifications of HONOR X8a 5G - HONOR MY",
+  "ok": true,
+  "bytes": 642091
+ },
+ "honor-x9a": {
+  "url": "https://www.honor.com/my/phones/honor-x9a/spec/",
+  "final": "https://www.honor.com/my/phones/honor-x9a/spec/",
+  "status": 200,
+  "title": "Specification of HONOR X9a - HONOR MY",
+  "ok": true,
+  "bytes": 644441
+ },
+ "honor-magic5-pro": {
+  "url": "https://www.honor.com/my/phones/honor-magic5-pro/spec/",
+  "final": "https://www.honor.com/my/phones/honor-magic5-pro/spec/",
+  "status": 200,
+  "title": "Specification of HONOR Magic 5 Pro - HONOR MY",
+  "ok": true,
+  "bytes": 649995
+ },
+ "honor-magic5": {
+  "url": "https://www.honor.com/my/phones/honor-magic5/spec/",
+  "final": "https://www.honor.com/my/phones/honor-magic5/spec/",
+  "status": 200,
+  "title": "Specification of HONOR Magic 5 - HONOR MY",
+  "ok": true,
+  "bytes": 638758
+ },
+ "honor-magic-vs": {
+  "url": "https://www.honor.com/my/phones/honor-magic-vs/spec/",
+  "final": "https://www.honor.com/my/phones/honor-magic-vs/spec/",
+  "status": 200,
+  "title": "Specification of HONOR Magic Vs - HONOR MY",
+  "ok": true,
+  "bytes": 644909
+ },
+ "honor-90": {
+  "url": "https://www.honor.com/my/phones/honor-90/spec/",
+  "final": "https://www.honor.com/my/phones/honor-90/spec/",
+  "status": 200,
+  "title": "Specification of HONOR 90 - HONOR MY",
+  "ok": true,
+  "bytes": 644705
+ },
+ "honor-90-lite": {
+  "url": "https://www.honor.com/my/phones/honor-90-lite/spec/",
+  "final": "https://www.honor.com/my/phones/honor-90-lite/spec/",
+  "status": 200,
+  "title": "Specifications of HONOR 90 Lite - HONOR MY",
+  "ok": true,
+  "bytes": 634662
+ },
+ "honor-x6a": {
+  "url": "https://www.honor.com/my/phones/honor-x6a/spec/",
+  "final": "https://www.honor.com/my/phones/honor-x6a/spec/",
+  "status": 200,
+  "title": "Specifications of HONOR X6a - HONOR MY",
+  "ok": true,
+  "bytes": 654759
+ },
+ "honor-x5-plus": {
+  "url": "https://www.honor.com/my/phones/honor-x5-plus/spec/",
+  "final": "https://www.honor.com/my/phones/honor-x5-plus/spec/",
+  "status": 200,
+  "title": "Specifications of HONOR X5 Plus - HONOR MY",
+  "ok": true,
+  "bytes": 636667
+ },
+ "honor-x9b": {
+  "url": "https://www.honor.com/my/phones/honor-x9b/spec/",
+  "final": "https://www.honor.com/my/phones/honor-x9b/spec/",
+  "status": 200,
+  "title": "Specifications of HONOR X9b 5G | HONOR MY",
+  "ok": true,
+  "bytes": 635308
+ },
+ "honor-x8b": {
+  "url": "https://www.honor.com/my/phones/honor-x8b/spec/",
+  "final": "https://www.honor.com/my/phones/honor-x8b/spec/",
+  "status": 200,
+  "title": "Specifications of HONOR X8b - HONOR MY",
+  "ok": true,
+  "bytes": 633665
+ },
+ "honor-x7b": {
+  "url": "https://www.honor.com/my/phones/honor-x7b/spec/",
+  "final": "https://www.honor.com/my/phones/honor-x7b/spec/",
+  "status": 200,
+  "title": "Specifications of HONOR X7b - HONOR MY",
+  "ok": true,
+  "bytes": 640565
+ },
+ "honor-x7b-5g": {
+  "url": "https://www.honor.com/my/phones/honor-x7b-5g/spec/",
+  "final": "https://www.honor.com/my/phones/honor-x7b-5g/spec/",
+  "status": 200,
+  "title": "Specifications of HONOR X7b 5G - HONOR MY",
+  "ok": true,
+  "bytes": 636166
+ },
+ "honor-x6b": {
+  "url": "https://www.honor.com/my/phones/honor-x6b/spec/",
+  "final": "https://www.honor.com/my/phones/honor-x6b/spec/",
+  "status": 200,
+  "title": "Specification of HONOR X6b - HONOR MY",
+  "ok": true,
+  "bytes": 633689
+ },
+ "honor-x5b-plus": {
+  "url": "https://www.honor.com/my/phones/honor-x5b-plus/spec/",
+  "final": "https://www.honor.com/my/phones/honor-x5b-plus/spec/",
+  "status": 200,
+  "title": "Specifications of HONOR X5b Plus - HONOR MY",
+  "ok": true,
+  "bytes": 630756
+ },
+ "honor-magic-v2": {
+  "url": "https://www.honor.com/my/phones/honor-magic-v2/spec/",
+  "final": "https://www.honor.com/my/phones/honor-magic-v2/spec/",
+  "status": 200,
+  "title": "HONOR Magic V2 specification - HONOR MY",
+  "ok": true,
+  "bytes": 642671
+ },
+ "honor-magic6-pro": {
+  "url": "https://www.honor.com/my/phones/honor-magic6-pro/spec/",
+  "final": "https://www.honor.com/my/phones/honor-magic6-pro/spec/",
+  "status": 200,
+  "title": "Specification of HONOR Magic 6 Pro - HONOR MY",
+  "ok": true,
+  "bytes": 651133
+ },
+ "honor-magic6-rsr-porsche-design": {
+  "url": "https://www.honor.com/my/phones/honor-magic6-rsr-porsche-design/spec/",
+  "final": "https://www.honor.com/my/phones/honor-magic6-rsr-porsche-design/spec/",
+  "status": 200,
+  "title": "PORSCHE DESIGN HONOR Magic6 RSR specification - HONOR MY",
+  "ok": false,
+  "bytes": 650574
+ },
+ "honor-magic-v2-rsr-porsche-design": {
+  "url": "https://www.honor.com/my/phones/honor-magic-v2-rsr-porsche-design/spec/",
+  "final": "https://www.honor.com/my/phones/honor-magic-v2-rsr-porsche-design/spec/",
+  "status": 200,
+  "title": "PORSCHE DESIGN HONOR Magic V2 RSR specification - HONOR MY",
+  "ok": false,
+  "bytes": 639057
+ },
+ "honor-200": {
+  "url": "https://www.honor.com/my/phones/honor-200/spec/",
+  "final": "https://www.honor.com/my/phones/honor-200/spec/",
+  "status": 200,
+  "title": "Specification of HONOR 200 - HONOR MY",
+  "ok": true,
+  "bytes": 647510
+ },
+ "honor-200-pro": {
+  "url": "https://www.honor.com/my/phones/honor-200-pro/spec/",
+  "final": "https://www.honor.com/my/phones/honor-200-pro/spec/",
+  "status": 200,
+  "title": "Specification of HONOR 200 PRO - HONOR MY",
+  "ok": true,
+  "bytes": 649433
+ },
+ "honor-200-lite": {
+  "url": "https://www.honor.com/my/phones/honor-200-lite/spec/",
+  "final": "https://www.honor.com/my/phones/honor-200-lite/spec/",
+  "status": 200,
+  "title": "Specification of HONOR 200 Lite - HONOR MY",
+  "ok": true,
+  "bytes": 635578
+ },
+ "honor-200-smart": {
+  "url": "https://www.honor.com/my/phones/honor-200-smart/spec/",
+  "final": "https://www.honor.com/my/phones/honor-200-smart/spec/",
+  "status": 200,
+  "title": "HONOR 200 Smart specification - HONOR MY",
+  "ok": true,
+  "bytes": 637171
+ },
+ "honor-magic-v3": {
+  "url": "https://www.honor.com/my/phones/honor-magic-v3/spec/",
+  "final": "https://www.honor.com/my/phones/honor-magic-v3/spec/",
+  "status": 200,
+  "title": "HONOR Magic V3 specification - HONOR MY",
+  "ok": true,
+  "bytes": 634509
+ },
+ "honor-x9c": {
+  "url": "https://www.honor.com/my/phones/honor-x9c/spec/",
+  "final": "https://www.honor.com/my/phones/honor-x9c/spec/",
+  "status": 200,
+  "title": "Specifications of HONOR X9c- HONOR MY",
+  "ok": true,
+  "bytes": 636181
+ },
+ "honor-x7c": {
+  "url": "https://www.honor.com/my/phones/honor-x7c/spec/",
+  "final": "https://www.honor.com/my/phones/honor-x7c/spec/",
+  "status": 200,
+  "title": "HONOR X7c specification - HONOR MY",
+  "ok": true,
+  "bytes": 635618
+ },
+ "honor-x9c-smart": {
+  "url": "https://www.honor.com/my/phones/honor-x9c-smart/spec/",
+  "final": "https://www.honor.com/my/phones/honor-x9c-smart/spec/",
+  "status": 200,
+  "title": "Specifications of HONOR X9c Smart - HONOR MY",
+  "ok": true,
+  "bytes": 633572
+ },
+ "honor-magic7-pro": {
+  "url": "https://www.honor.com/my/phones/honor-magic7-pro/spec/",
+  "final": "https://www.honor.com/my/phones/honor-magic7-pro/spec/",
+  "status": 200,
+  "title": "Specification of HONOR Magic7 Pro - HONOR MY",
+  "ok": true,
+  "bytes": 634033
+ },
+ "honor-magic7-rsr-porsche-design": {
+  "url": "https://www.honor.com/my/phones/honor-magic7-rsr-porsche-design/spec/",
+  "final": "https://www.honor.com/my/phones/honor-magic7-rsr-porsche-design/spec/",
+  "status": 200,
+  "title": "Specification of PORSCHE DESIGN | HONOR Magic7 RSR - HONOR MY",
+  "ok": false,
+  "bytes": 642858
+ },
+ "honor-400-lite": {
+  "url": "https://www.honor.com/my/phones/honor-400-lite/spec/",
+  "final": "https://www.honor.com/my/phones/honor-400-lite/spec/",
+  "status": 200,
+  "title": "Specifications of HONOR 400 Lite - HONOR MY",
+  "ok": true,
+  "bytes": 628263
+ },
+ "honor-400": {
+  "url": "https://www.honor.com/my/phones/honor-400/spec/",
+  "final": "https://www.honor.com/my/phones/honor-400/spec/",
+  "status": 200,
+  "title": "Specifications of HONOR 400 - HONOR MY",
+  "ok": true,
+  "bytes": 626941
+ },
+ "honor-400-pro": {
+  "url": "https://www.honor.com/my/phones/honor-400-pro/spec/",
+  "final": "https://www.honor.com/my/phones/honor-400-pro/spec/",
+  "status": 200,
+  "title": "Specifications of HONOR 400 Pro - HONOR MY",
+  "ok": true,
+  "bytes": 629373
+ },
+ "honor-x6c": {
+  "url": "https://www.honor.com/my/phones/honor-x6c/spec/",
+  "final": "https://www.honor.com/my/phones/honor-x6c/spec/",
+  "status": 200,
+  "title": "Specifications of HONOR X6c - HONOR MY",
+  "ok": true,
+  "bytes": 624299
+ },
+ "honor-magic-v5": {
+  "url": "https://www.honor.com/my/phones/honor-magic-v5/spec/",
+  "final": "https://www.honor.com/my/phones/honor-magic-v5/spec/",
+  "status": 200,
+  "title": "HONOR Magic V5 specification - HONOR MY",
+  "ok": true,
+  "bytes": 635019
+ },
+ "honor-x9d": {
+  "url": "https://www.honor.com/my/phones/honor-x9d/spec/",
+  "final": "https://www.honor.com/my/phones/honor-x9d/spec/",
+  "status": 200,
+  "title": "Specifications of HONOR X9d - HONOR MY",
+  "ok": true,
+  "bytes": 629636
+ },
+ "honor-x7d": {
+  "url": "https://www.honor.com/my/phones/honor-x7d/spec/",
+  "final": "https://www.honor.com/my/phones/honor-x7d/spec/",
+  "status": 200,
+  "title": "Specifications of HONOR X7d Smartphone - HONOR MY",
+  "ok": true,
+  "bytes": 624810
+ },
+ "honor-x7d-5g": {
+  "url": "https://www.honor.com/my/phones/honor-x7d-5g/spec/",
+  "final": "https://www.honor.com/my/phones/honor-x7d-5g/spec/",
+  "status": 200,
+  "title": "Specifications of HONOR X7d 5G - HONOR MY",
+  "ok": true,
+  "bytes": 642209
+ },
+ "honor-x5d": {
+  "url": "https://www.honor.com/my/phones/honor-x5d/spec/",
+  "final": "https://www.honor.com/my/phones/honor-x5d/spec/",
+  "status": 200,
+  "title": "Specifications of HONOR X5d - HONOR MY",
+  "ok": true,
+  "bytes": 618829
+ },
+ "honor-x5d-plus": {
+  "url": "https://www.honor.com/my/phones/honor-x5d-plus/spec/",
+  "final": "https://www.honor.com/my/phones/honor-x5d-plus/spec/",
+  "status": 200,
+  "title": "Specifications of HONOR X5d Plus- HONOR MY",
+  "ok": true,
+  "bytes": 618347
+ },
+ "honor-400-smart-5g": {
+  "url": "https://www.honor.com/my/phones/honor-400-smart-5g/spec/",
+  "final": "https://www.honor.com/my/phones/honor-400-smart-5g/spec/",
+  "status": 200,
+  "title": "Specifications of HONOR 400 Smart 5G - HONOR MY",
+  "ok": true,
+  "bytes": 643022
+ },
+ "honor-x7e": {
+  "url": "https://www.honor.com/my/phones/honor-x7e/spec/",
+  "final": "https://www.honor.com/my/phones/honor-x7e/spec/",
+  "status": 200,
+  "title": "Specifications of HONOR X7e - HONOR MY",
+  "ok": true,
+  "bytes": 628237
+ },
+ "honor-x6e": {
+  "url": "https://www.honor.com/my/phones/honor-x6e/spec/",
+  "final": "https://www.honor.com/my/phones/honor-x6e/spec/",
+  "status": 200,
+  "title": "Specifications of HONOR X6e - HONOR MY",
+  "ok": true,
+  "bytes": 625811
+ },
+ "honor-500-smart-5g": {
+  "url": "https://www.honor.com/my/phones/honor-500-smart-5g/spec/",
+  "final": "https://www.honor.com/my/phones/honor-500-smart-5g/spec/",
+  "status": 200,
+  "title": "Specifications of HONOR 500 Smart 5G - HONOR MY",
+  "ok": true,
+  "bytes": 623891
+ },
+ "honor-600": {
+  "url": "https://www.honor.com/my/phones/honor-600/spec/",
+  "final": "https://www.honor.com/my/phones/honor-600/spec/",
+  "status": 200,
+  "title": "Specification of HONOR 600 - HONOR MY",
+  "ok": true,
+  "bytes": 641292
+ },
+ "honor-600-pro": {
+  "url": "https://www.honor.com/my/phones/honor-600-pro/spec/",
+  "final": "https://www.honor.com/my/phones/honor-600-pro/spec/",
+  "status": 200,
+  "title": "Specification of HONOR 600 Pro - HONOR MY",
+  "ok": true,
+  "bytes": 644697
+ },
+ "honor-600-lite": {
+  "url": "https://www.honor.com/my/phones/honor-600-lite/spec/",
+  "final": "https://www.honor.com/my/phones/honor-600-lite/spec/",
+  "status": 200,
+  "title": "Specifications of HONOR 600 Lite - HONOR MY",
+  "ok": true,
+  "bytes": 630926
+ },
+ "honor-magic-v6": {
+  "url": "https://www.honor.com/my/phones/honor-magic-v6/spec/",
+  "final": "https://www.honor.com/my/phones/honor-magic-v6/spec/",
+  "status": 200,
+  "title": "HONOR Magic V6 specification - HONOR MY",
+  "ok": true,
+  "bytes": 635397
+ },
+ "honor-play10": {
+  "url": "https://www.honor.com/my/phones/honor-play10/spec/",
+  "final": "https://www.honor.com/my/phones/honor-play10/spec/",
+  "status": 200,
+  "title": "Specifications of HONOR Play10 - HONOR MY",
+  "ok": true,
+  "bytes": 619674
+ },
+ "honor-x9e-pro": {
+  "url": "https://www.honor.com/my/phones/honor-x9e-pro/spec/",
+  "final": "https://www.honor.com/my/phones/honor-x9e-pro/spec/",
+  "status": 404,
+  "title": "",
+  "ok": false,
+  "bytes": 0
+ },
+ "honor-watch-4": {
+  "url": "https://www.honor.com/my/wearables/honor-watch-4/spec/",
+  "final": "https://www.honor.com/my/wearables/honor-watch-4/spec/",
+  "status": 200,
+  "title": "Specifications of HONOR Watch 4 - HONOR MY",
+  "ok": true,
+  "bytes": 583079
+ },
+ "honor-band-9": {
+  "url": "https://www.honor.com/my/wearables/honor-band-9/spec/",
+  "final": "https://www.honor.com/my/wearables/honor-band-9/spec/",
+  "status": 200,
+  "title": "HONOR Band 9-Specifications-Functions - HONOR MY",
+  "ok": true,
+  "bytes": 567357
+ },
+ "honor-watch-5": {
+  "url": "https://www.honor.com/my/wearables/honor-watch-5/spec/",
+  "final": "https://www.honor.com/my/wearables/honor-watch-5/spec/",
+  "status": 200,
+  "title": "Specification of HONOR Watch 5 - HONOR MY",
+  "ok": true,
+  "bytes": 583005
+ },
+ "honor-band-10": {
+  "url": "https://www.honor.com/my/wearables/honor-band-10/spec/",
+  "final": "https://www.honor.com/my/wearables/honor-band-10/spec/",
+  "status": 200,
+  "title": "HONOR Band 10-Specifications-Functions - HONOR MY",
+  "ok": true,
+  "bytes": 569676
+ },
+ "honor-watch-5-ultra": {
+  "url": "https://www.honor.com/my/wearables/honor-watch-5-ultra/spec/",
+  "final": "https://www.honor.com/my/wearables/honor-watch-5-ultra/spec/",
+  "status": 200,
+  "title": "Specification of HONOR Watch 5 Ultra - HONOR MY",
+  "ok": true,
+  "bytes": 578751
+ },
+ "honor-watch-x5i": {
+  "url": "https://www.honor.com/my/wearables/honor-watch-x5i/spec/",
+  "final": "https://www.honor.com/my/wearables/honor-watch-x5i/spec/",
+  "status": 200,
+  "title": "Specification of HONOR Watch X5i - HONOR MY",
+  "ok": true,
+  "bytes": 576772
+ },
+ "honor-watch-fit": {
+  "url": "https://www.honor.com/my/wearables/honor-watch-fit/spec/",
+  "final": "https://www.honor.com/my/wearables/honor-watch-fit/spec/",
+  "status": 200,
+  "title": "Specification of HONOR Watch Fit - HONOR MY",
+  "ok": true,
+  "bytes": 580916
+ },
+ "honor-watch-6": {
+  "url": "https://www.honor.com/my/wearables/honor-watch-6/spec/",
+  "final": "https://www.honor.com/my/wearables/honor-watch-6/spec/",
+  "status": 200,
+  "title": "Specification of HONOR Watch 6 - HONOR MY",
+  "ok": true,
+  "bytes": 582590
+ },
+ "honor-watch-x5-play": {
+  "url": "https://www.honor.com/my/wearables/honor-watch-x5-play/spec/",
+  "final": "https://www.honor.com/my/wearables/honor-watch-x5-play/spec/",
+  "status": 200,
+  "title": "Specification of HONOR Watch X5 Play - HONOR MY",
+  "ok": true,
+  "bytes": 575266
+ }
+}

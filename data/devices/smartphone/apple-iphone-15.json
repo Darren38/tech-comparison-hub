@@ -1,0 +1,167 @@
+{
+  "id": "apple-iphone-15",
+  "name": "iPhone 15",
+  "brand": "apple",
+  "category": "smartphone",
+  "series": "iPhone",
+  "form": "bar",
+  "status": "released",
+  "announced": "2023-09-13",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 4399,
+      "config": "128 GB",
+      "date": "2023-09-13",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2023/09/13/iphone-15-and-15-plus-malaysia-heres-the-official-pricing-available-29-september/",
+      "class": "news",
+      "accessed": "2026-09-18",
+      "note": "Apple's recommended retail price."
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 4899,
+      "config": "256 GB",
+      "date": "2023-09-13",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2023/09/13/iphone-15-and-15-plus-malaysia-heres-the-official-pricing-available-29-september/",
+      "class": "news",
+      "accessed": "2026-09-18",
+      "note": "Apple's recommended retail price."
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 5899,
+      "config": "512 GB",
+      "date": "2023-09-13",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2023/09/13/iphone-15-and-15-plus-malaysia-heres-the-official-pricing-available-29-september/",
+      "class": "news",
+      "accessed": "2026-09-18",
+      "note": "Apple's recommended retail price."
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/iphone_15_hero.png",
+    "page": "https://support.apple.com/en-my/111831",
+    "credit": "Apple",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.1,
+      "type": "OLED",
+      "resolution": "2556 × 1179",
+      "peak_nits": 2000,
+      "ppi": 461
+    },
+    "platform": {
+      "chipset": "apple-a16",
+      "cpu": "6-core CPU with 2 performance and 4 efficiency cores",
+      "gpu": "5-core GPU"
+    },
+    "memory": {
+      "storage_gb": [
+        128,
+        256,
+        512
+      ]
+    },
+    "charging": {
+      "wireless_w": 15,
+      "claim": "MagSafe wireless charging up to 15W; Qi wireless charging up to 7.5W; Fast-charge capable:Up to 50% charge in around 30 minutes with 20W adapter or higher (available separately)"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 48,
+          "aperture": "f/1.6"
+        },
+        {
+          "role": "ultrawide",
+          "mp": 12
+        },
+        {
+          "role": "telephoto",
+          "mp": 12
+        }
+      ],
+      "front": "12 MP",
+      "rear_detail": [
+        "48MP Main: 26mm, ƒ/1.6 aperture, sensor-shift optical image stabilisation, 100% Focus Pixels, support for super-high-resolution photos (24MP and 48MP)",
+        "12MP Ultra Wide: 13mm, ƒ/2.4 aperture and 120° field of view",
+        "12MP 2x Telephoto (enabled by quad-pixel sensor): 52mm, ƒ/1.6 aperture, sensor-shift optical image stabilisation, 100% Focus Pixels"
+      ],
+      "features": "2x optical zoom in, 2x optical zoom out; 4x optical zoom range; Digital zoom up to 10x",
+      "video": "4K@60fps; 1080p",
+      "front_detail": [
+        "12MP camera, ƒ/1.9 aperture"
+      ],
+      "front_video": "4K@60fps; 1080p"
+    },
+    "battery": {
+      "video_h": 20,
+      "chemistry": "Built-in rechargeable lithium-ion battery"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true,
+      "wifi": "Wi-Fi 6 (802.11ax) with 2x2 MIMO",
+      "bluetooth": "Bluetooth 5.3",
+      "bands_2g": "GSM/EDGE (850, 900, 1800, 1900 MHz)",
+      "bands_3g": "UMTS/HSPA+/DC-HSDPA (850, 900, 1700/2100, 1900, 2100 MHz)",
+      "bands_4g": "FDD-LTE (Bands 1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 25, 26, 28, 30, 32, 66); TD-LTE (Bands 34, 38, 39, 40, 41, 42, 46, 48, 53)",
+      "bands_5g": "5G NR (Bands n1, n2, n3, n5, n7, n8, n12, n20, n25, n26, n28, n30, n38, n40, n41, n48, n53, n66, n70, n75, n76, n77, n78, n79)",
+      "technology": "GSM / HSPA / LTE / 5G",
+      "positioning": "GPS, GLONASS, Galileo, QZSS and BeiDou; Digital compass; Wi-Fi; Mobile data",
+      "sim": "Dual SIM (nano-SIM and eSIM); Dual eSIM support",
+      "usb": "USB 2 (up to 480Mb/s)"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 147.6,
+        "width_mm": 71.6,
+        "depth_mm": 7.8
+      },
+      "weight_g": 171.0,
+      "ip": "IP68"
+    },
+    "software": {
+      "launch_os": "iOS"
+    },
+    "sensors": "Face ID, Barometer, High dynamic range gyro, High-g accelerometer, Proximity sensor, Dual ambient light sensors"
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "apple",
+      "url": "https://support.apple.com/en-my/111831",
+      "checked": "2026-09-18",
+      "note": "Read from Apple Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2023/09/13/iphone-15-and-15-plus-malaysia-heres-the-official-pricing-available-29-september/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

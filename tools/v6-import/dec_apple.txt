@@ -1,0 +1,18 @@
+apple-iphone-15 | 128=4399, 256=4899, 512=5899 @soya | pnote=Apple's recommended retail price.
+apple-iphone-15-plus | 128=4899, 256=5399, 512=6399 @soya | pnote=Apple's recommended retail price.
+apple-iphone-15-pro | 128=5499, 256=5999, 512=6999, 1T=7999 @soya | pnote=Apple's recommended retail price.
+apple-iphone-15-pro-max | 256=6499, 512=7499, 1T=8499 @soya | pnote=Apple's recommended retail price.
+apple-iphone-16 | 128=3999, 256=4499, 512=5499 @lowy |
+apple-iphone-16-plus | 128=4499, 256=4999, 512=5999 @soya |
+apple-iphone-16-pro | 128=4999, 256=5499, 512=6499, 1T=7499 @soya |
+apple-iphone-16e | 128=2999, 256=3499, 512=4499 @lowy |
+apple-iphone-air | 256=4999, 512=5999, 1T=6999 @soya |
+apple-iphone-17e | 256=2999 @lowy | pnote=Starting price.
+apple-iphone-18-pro | 256=5499 @soya | pnote=Starting price; configurations up to 2 TB.
+apple-iphone-duo | 256=9499, 512=10499, 1T=12499 @lowy | status=announced
+apple-watch-series-9 | "41 mm, aluminium, GPS"=1899, "41 mm, aluminium, GPS + Cellular"=2399, "45 mm, aluminium, GPS"=2049, "45 mm, aluminium, GPS + Cellular"=2549 @soya |
+apple-watch-ultra-2 | "49 mm, GPS + Cellular"=3799 @lowy |
+apple-watch-series-10 | "42 mm, aluminium, GPS"=1799, "46 mm, aluminium, GPS"=1949, "42 mm, aluminium, GPS + Cellular"=2299, "46 mm, aluminium, GPS + Cellular"=2449 @soya |
+apple-watch-se-3 | "40 mm, GPS"=1049, "40 mm, GPS + Cellular"=1299, "44 mm, GPS"=1199, "44 mm, GPS + Cellular"=1449 @soya |
+apple-watch-series-12 | "42 mm, aluminium, GPS"=1799, "42 mm, aluminium, GPS + Cellular"=2299, "46 mm, aluminium, GPS"=2049, "46 mm, aluminium, GPS + Cellular"=2549 @soya |
+apple-watch-ultra-4 | "49 mm, GPS + Cellular"=3699 @soya |

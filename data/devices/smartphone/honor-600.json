@@ -1,0 +1,97 @@
+{
+  "id": "honor-600",
+  "name": "HONOR 600",
+  "brand": "honor",
+  "category": "smartphone",
+  "series": "Number",
+  "form": "bar",
+  "status": "released",
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-18",
+      "source": "honor",
+      "url": "https://www.honor.com/my/phones/honor-600/spec/",
+      "note": "Sold in Malaysia, but no launch price was found in Malaysian launch coverage."
+    }
+  },
+  "image": {
+    "kind": "official",
+    "src": "https://www.honor.com/content/dam/honor/common/product-list/product-series/honor-600/honor-600-list-orange.png",
+    "page": "https://www.honor.com/my/phones/honor-600/spec/",
+    "credit": "HONOR Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.57,
+      "type": "AMOLED",
+      "resolution": "2728 × 1264",
+      "ppi": 458
+    },
+    "platform": {
+      "chipset": "snapdragon-7-gen-4",
+      "gpu": "Adreno 722",
+      "cpu": "Octa-core"
+    },
+    "battery": {
+      "capacity_mah": 7000,
+      "chemistry": "Lithium polymer"
+    },
+    "charging": {
+      "wired_w": 80,
+      "claim": "Supports up to 20V/4A SuperCharge, compatible with 11V/6A,10V/4A"
+    },
+    "camera": {
+      "front": "50 MP",
+      "features": "Up to 30x digital zoom",
+      "video": "4K",
+      "front_detail": [
+        "50MP Camera(f/2.0)"
+      ]
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true,
+      "technology": "GSM / HSPA / LTE / 5G",
+      "sim": "Nano SIM card",
+      "wifi": "802.11 a/b/g/n/ac/ax, 2x2 MIMO; 2.4GHz and 5GHz",
+      "positioning": "GPS/AGPS/GLONASS/BeiDou/Galileo/QZSS/NavIC; Network-Based Positioning; WLAN-Based Positioning",
+      "bluetooth": "Bluetooth",
+      "usb": "USB Type-C, USB 2.0"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 156.0,
+        "width_mm": 74.7,
+        "depth_mm": 7.8
+      },
+      "weight_g": 190.0,
+      "ip": "IP69K"
+    },
+    "software": {
+      "launch_os": "MagicOS 10 (Based on Android 16)"
+    },
+    "biometrics": {
+      "face": "Supported 2D face unlock"
+    },
+    "sensors": "Infrared sensor, Ambient light sensor, Digital compass, Gravity sensor, Fingerprint sensor, Gyroscope, Color temperature sensor, Proximity Sensor (Ultrasonic approach, non-physical approach sensor)"
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "honor",
+      "url": "https://www.honor.com/my/phones/honor-600/spec/",
+      "checked": "2026-09-18",
+      "note": "Read from HONOR Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

@@ -1,0 +1,4602 @@
+{
+ "poco-x5-5g": {
+  "display": {
+   "size_in": 6.67,
+   "type": "AMOLED",
+   "resolution": "2400 × 1080",
+   "refresh_hz": 120,
+   "peak_nits": 1200
+  },
+  "platform": {
+   "chipset_name": "Snapdragon 695"
+  },
+  "battery": {
+   "capacity_mah": 5000
+  },
+  "charging": {
+   "wired_w": 33
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 48
+    },
+    {
+     "role": "ultrawide",
+     "mp": 8
+    },
+    {
+     "role": "macro",
+     "mp": 2
+    }
+   ]
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 165.88,
+    "width_mm": 76.21,
+    "depth_mm": 7.98
+   },
+   "weight_g": 189.0
+  },
+  "software": {
+   "launch_os": "MIUI 13"
+  }
+ },
+ "poco-x5-pro-5g": {
+  "display": {
+   "size_in": 6.67,
+   "type": "AMOLED",
+   "resolution": "2400 × 1080",
+   "refresh_hz": 120,
+   "peak_nits": 900
+  },
+  "platform": {
+   "chipset_name": "Snapdragon 778"
+  },
+  "battery": {
+   "capacity_mah": 5000
+  },
+  "charging": {
+   "wired_w": 67
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 108
+    },
+    {
+     "role": "ultrawide",
+     "mp": 8
+    },
+    {
+     "role": "macro",
+     "mp": 2
+    }
+   ]
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 162.91,
+    "width_mm": 76.03,
+    "depth_mm": 7.9
+   },
+   "weight_g": 181.0
+  },
+  "software": {
+   "launch_os": "MIUI 14"
+  }
+ },
+ "xiaomi-13": {
+  "display": {
+   "size_in": 6.36,
+   "type": "AMOLED",
+   "resolution": "2400 × 1080",
+   "peak_nits": 1900
+  },
+  "platform": {
+   "chipset_name": "Snapdragon 8 Gen 2"
+  },
+  "memory": {
+   "ram_gb": [
+    12
+   ],
+   "storage_gb": [
+    256
+   ]
+  },
+  "battery": {
+   "capacity_mah": 4500
+  },
+  "charging": {
+   "wired_w": 67,
+   "wireless_w": 50
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    }
+   ],
+   "front": "32 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 152.8,
+    "width_mm": 71.5,
+    "depth_mm": 7.98
+   },
+   "weight_g": 189.0,
+   "ip": "IP68"
+  },
+  "software": {
+   "launch_os": "MIUI 14"
+  }
+ },
+ "xiaomi-13-pro": {
+  "display": {
+   "size_in": 6.73,
+   "type": "AMOLED",
+   "resolution": "3200 × 1440",
+   "peak_nits": 1900
+  },
+  "platform": {
+   "chipset_name": "Snapdragon 8 Gen 2"
+  },
+  "memory": {
+   "ram_gb": [
+    12
+   ],
+   "storage_gb": [
+    256,
+    512
+   ]
+  },
+  "battery": {
+   "capacity_mah": 4820
+  },
+  "charging": {
+   "wired_w": 120,
+   "wireless_w": 50
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    },
+    {
+     "role": "telephoto",
+     "mp": 50
+    }
+   ],
+   "front": "32 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 162.9,
+    "width_mm": 74.6,
+    "depth_mm": 8.38
+   },
+   "weight_g": 229.0,
+   "ip": "IP68"
+  },
+  "software": {
+   "launch_os": "MIUI 14"
+  }
+ },
+ "redmi-12c": {
+  "display": {
+   "size_in": 6.71,
+   "resolution": "1650 × 720"
+  },
+  "platform": {
+   "chipset_name": "Helio G85"
+  },
+  "memory": {
+   "ram_gb": [
+    3,
+    4,
+    6
+   ],
+   "storage_gb": [
+    32,
+    64,
+    128
+   ]
+  },
+  "battery": {
+   "capacity_mah": 5000
+  },
+  "charging": {
+   "wired_w": 10
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    }
+   ],
+   "front": "5 MP"
+  },
+  "connectivity": {
+   "cellular": "4G"
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 168.76,
+    "width_mm": 76.41,
+    "depth_mm": 8.77
+   },
+   "weight_g": 192.0
+  },
+  "software": {
+   "launch_os": "MIUI 13 based on Android 12"
+  }
+ },
+ "redmi-note-12-pro-5g": {
+  "display": {
+   "size_in": 6.67,
+   "type": "AMOLED",
+   "resolution": "2400 × 1080",
+   "refresh_hz": 120,
+   "peak_nits": 900
+  },
+  "platform": {
+   "chipset_name": "Dimensity 1080"
+  },
+  "memory": {
+   "ram_gb": [
+    6,
+    8
+   ],
+   "storage_gb": [
+    128,
+    256
+   ]
+  },
+  "battery": {
+   "capacity_mah": 5000
+  },
+  "charging": {
+   "wired_w": 67
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    },
+    {
+     "role": "ultrawide",
+     "mp": 8
+    },
+    {
+     "role": "macro",
+     "mp": 2
+    }
+   ],
+   "front": "16 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 162.9,
+    "width_mm": 76.0,
+    "depth_mm": 7.9
+   },
+   "weight_g": 187.0
+  },
+  "software": {
+   "launch_os": "MIUI 14, based on Android S"
+  }
+ },
+ "redmi-note-12-pro-plus-5g": {
+  "display": {
+   "size_in": 6.67,
+   "type": "AMOLED",
+   "resolution": "2400 × 1080",
+   "refresh_hz": 120,
+   "peak_nits": 900
+  },
+  "platform": {
+   "chipset_name": "Dimensity 1080"
+  },
+  "battery": {
+   "capacity_mah": 5000
+  },
+  "charging": {
+   "wired_w": 120
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 200
+    },
+    {
+     "role": "ultrawide",
+     "mp": 8
+    },
+    {
+     "role": "macro",
+     "mp": 2
+    }
+   ],
+   "front": "16 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 162.9,
+    "width_mm": 76.0,
+    "depth_mm": 8.98
+   },
+   "weight_g": 210.5
+  },
+  "software": {
+   "launch_os": "MIUI 14, based on Android S"
+  }
+ },
+ "redmi-a2-plus": {
+  "display": {
+   "size_in": 6.52,
+   "resolution": "1600 × 720"
+  },
+  "platform": {
+   "chipset_name": "Helio G36"
+  },
+  "memory": {
+   "ram_gb": [
+    2,
+    3
+   ],
+   "storage_gb": [
+    32
+   ]
+  },
+  "battery": {
+   "capacity_mah": 5000
+  },
+  "charging": {
+   "wired_w": 10
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 8
+    }
+   ],
+   "front": "5 MP"
+  },
+  "connectivity": {
+   "cellular": "4G"
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 164.9,
+    "width_mm": 76.75,
+    "depth_mm": 9.09
+   },
+   "weight_g": 192.0
+  },
+  "software": {
+   "launch_os": "Android 12 (Go Edition)"
+  }
+ },
+ "poco-f5": {
+  "display": {
+   "size_in": 6.67,
+   "type": "AMOLED",
+   "resolution": "2400 × 1080",
+   "refresh_hz": 120,
+   "peak_nits": 1000
+  },
+  "platform": {
+   "chipset_name": "Snapdragon 7+ Gen 2"
+  },
+  "memory": {
+   "ram_gb": [
+    8,
+    12
+   ],
+   "storage_gb": [
+    256
+   ]
+  },
+  "battery": {
+   "capacity_mah": 5000
+  },
+  "charging": {
+   "wired_w": 67
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 64
+    },
+    {
+     "role": "ultrawide",
+     "mp": 8
+    },
+    {
+     "role": "macro",
+     "mp": 2
+    }
+   ]
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 161.11,
+    "width_mm": 74.95,
+    "depth_mm": 7.9
+   },
+   "weight_g": 181.0
+  },
+  "software": {
+   "launch_os": "MIUI 14"
+  }
+ },
+ "poco-f5-pro": {
+  "display": {
+   "size_in": 6.67,
+   "type": "AMOLED",
+   "resolution": "3200 × 1440",
+   "refresh_hz": 120,
+   "peak_nits": 1400
+  },
+  "platform": {
+   "chipset_name": "Snapdragon 8+ Gen 1"
+  },
+  "battery": {
+   "capacity_mah": 5160
+  },
+  "charging": {
+   "wireless_w": 67
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 64
+    },
+    {
+     "role": "ultrawide",
+     "mp": 8
+    },
+    {
+     "role": "macro",
+     "mp": 2
+    }
+   ],
+   "front": "16 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 162.78,
+    "width_mm": 75.44,
+    "depth_mm": 8.59
+   },
+   "weight_g": 204.0,
+   "ip": "IP53"
+  },
+  "software": {
+   "launch_os": "MIUI 14"
+  }
+ },
+ "redmi-note-12-pro": {
+  "display": {
+   "size_in": 6.67,
+   "type": "AMOLED",
+   "resolution": "2400 × 1080",
+   "refresh_hz": 120,
+   "peak_nits": 1100
+  },
+  "platform": {
+   "chipset_name": "Snapdragon 732"
+  },
+  "memory": {
+   "ram_gb": [
+    6,
+    8
+   ],
+   "storage_gb": [
+    128,
+    256
+   ]
+  },
+  "battery": {
+   "capacity_mah": 5000
+  },
+  "charging": {
+   "wired_w": 67
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 108
+    },
+    {
+     "role": "ultrawide",
+     "mp": 8
+    },
+    {
+     "role": "macro",
+     "mp": 2
+    },
+    {
+     "role": "depth",
+     "mp": 2
+    }
+   ],
+   "front": "16 MP"
+  },
+  "connectivity": {
+   "cellular": "4G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 164.2,
+    "width_mm": 76.1,
+    "depth_mm": 8.12
+   },
+   "weight_g": 201.8
+  },
+  "software": {
+   "launch_os": "MIUI 13, based on Android 11"
+  }
+ },
+ "xiaomi-13-ultra": {
+  "display": {
+   "size_in": 6.73,
+   "type": "AMOLED",
+   "resolution": "3200 × 1440",
+   "peak_nits": 2600
+  },
+  "platform": {
+   "chipset_name": "Snapdragon 8 Gen 2"
+  },
+  "memory": {
+   "ram_gb": [
+    12
+   ],
+   "storage_gb": [
+    512
+   ]
+  },
+  "battery": {
+   "capacity_mah": 5000
+  },
+  "charging": {
+   "wired_w": 90,
+   "wireless_w": 80
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    }
+   ],
+   "front": "32 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 163.18,
+    "width_mm": 74.64,
+    "depth_mm": 9.06
+   },
+   "weight_g": 227.0,
+   "ip": "IP68"
+  },
+  "software": {
+   "launch_os": "MIUI 14 based on Android 13"
+  }
+ },
+ "redmi-12": {
+  "display": {
+   "size_in": 6.79,
+   "resolution": "2460 × 1080",
+   "peak_nits": 550
+  },
+  "battery": {
+   "capacity_mah": 5000
+  },
+  "charging": {
+   "wired_w": 18
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    },
+    {
+     "role": "ultrawide",
+     "mp": 8
+    },
+    {
+     "role": "macro",
+     "mp": 2
+    }
+   ],
+   "front": "8 MP"
+  },
+  "connectivity": {
+   "cellular": "4G"
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 168.6,
+    "width_mm": 76.28,
+    "depth_mm": 8.17
+   },
+   "weight_g": 198.5,
+   "ip": "IP53"
+  },
+  "software": {
+   "launch_os": "MIUI 14 based on Android 13"
+  }
+ },
+ "redmi-12-5g": {
+  "display": {
+   "size_in": 6.79,
+   "resolution": "2460 × 1080",
+   "refresh_hz": 90,
+   "peak_nits": 550
+  },
+  "platform": {
+   "chipset_name": "Snapdragon 4 Gen 2"
+  },
+  "memory": {
+   "ram_gb": [
+    4,
+    8
+   ],
+   "storage_gb": [
+    128,
+    256
+   ]
+  },
+  "battery": {
+   "capacity_mah": 5000
+  },
+  "charging": {
+   "wired_w": 18
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    },
+    {
+     "role": "depth",
+     "mp": 2
+    }
+   ],
+   "front": "5 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 168.6,
+    "width_mm": 76.28,
+    "depth_mm": 8.17
+   },
+   "weight_g": 199.0,
+   "ip": "IP53"
+  },
+  "software": {
+   "launch_os": "MIUI 14 based on Android 13"
+  }
+ },
+ "poco-c65": {
+  "display": {
+   "size_in": 6.74,
+   "resolution": "1600 × 720",
+   "refresh_hz": 90,
+   "peak_nits": 600
+  },
+  "platform": {
+   "chipset_name": "Helio G85"
+  },
+  "memory": {
+   "ram_gb": [
+    6,
+    8
+   ],
+   "storage_gb": [
+    128,
+    256
+   ]
+  },
+  "battery": {
+   "capacity_mah": 5000
+  },
+  "charging": {
+   "wired_w": 18
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    },
+    {
+     "role": "macro",
+     "mp": 2
+    }
+   ]
+  },
+  "connectivity": {
+   "cellular": "4G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 168.0,
+    "width_mm": 78.0,
+    "depth_mm": 8.09
+   },
+   "weight_g": 192.0
+  },
+  "software": {
+   "launch_os": "MIUI 14"
+  }
+ },
+ "redmi-13c": {
+  "display": {
+   "size_in": 6.74,
+   "resolution": "1600 × 720",
+   "refresh_hz": 90,
+   "peak_nits": 600
+  },
+  "platform": {
+   "chipset_name": "Helio G85"
+  },
+  "memory": {
+   "ram_gb": [
+    6
+   ],
+   "storage_gb": [
+    128
+   ]
+  },
+  "battery": {
+   "capacity_mah": 5000
+  },
+  "charging": {
+   "wired_w": 18
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    },
+    {
+     "role": "macro",
+     "mp": 2
+    }
+   ]
+  },
+  "connectivity": {
+   "cellular": "4G"
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 168.0,
+    "width_mm": 78.0,
+    "depth_mm": 8.09
+   },
+   "weight_g": 192.0
+  },
+  "software": {
+   "launch_os": "MIUI 14 based on Android 13"
+  }
+ },
+ "poco-m6-pro": {
+  "display": {
+   "size_in": 6.67,
+   "type": "AMOLED",
+   "resolution": "2400 × 1080",
+   "refresh_hz": 120,
+   "peak_nits": 1300
+  },
+  "platform": {
+   "chipset_name": "Helio G99"
+  },
+  "memory": {
+   "ram_gb": [
+    8,
+    12
+   ],
+   "storage_gb": [
+    256,
+    512
+   ]
+  },
+  "battery": {
+   "capacity_mah": 5000
+  },
+  "charging": {
+   "wired_w": 67
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 64
+    },
+    {
+     "role": "ultrawide",
+     "mp": 8
+    },
+    {
+     "role": "macro",
+     "mp": 2
+    }
+   ],
+   "front": "16 MP"
+  },
+  "connectivity": {
+   "cellular": "4G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 161.1,
+    "width_mm": 74.95,
+    "depth_mm": 7.98
+   },
+   "weight_g": 179.0,
+   "ip": "IP54"
+  },
+  "software": {
+   "launch_os": "MIUI 14"
+  }
+ },
+ "redmi-note-13": {
+  "display": {
+   "size_in": 6.67,
+   "type": "AMOLED",
+   "resolution": "2400 × 1080",
+   "refresh_hz": 120,
+   "peak_nits": 1800
+  },
+  "platform": {
+   "chipset_name": "Snapdragon 685"
+  },
+  "memory": {
+   "ram_gb": [
+    6,
+    8
+   ],
+   "storage_gb": [
+    128,
+    256
+   ]
+  },
+  "battery": {
+   "capacity_mah": 5000
+  },
+  "charging": {
+   "wired_w": 33
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 108
+    },
+    {
+     "role": "ultrawide",
+     "mp": 8
+    },
+    {
+     "role": "macro",
+     "mp": 2
+    }
+   ],
+   "front": "16 MP"
+  },
+  "connectivity": {
+   "cellular": "4G"
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 162.24,
+    "width_mm": 75.55,
+    "depth_mm": 7.97
+   },
+   "weight_g": 188.5,
+   "ip": "IP54"
+  },
+  "software": {
+   "launch_os": "MIUI 14"
+  }
+ },
+ "redmi-note-13-5g": {
+  "display": {
+   "size_in": 6.67,
+   "type": "AMOLED",
+   "resolution": "2400 × 1080",
+   "refresh_hz": 120,
+   "peak_nits": 500
+  },
+  "platform": {
+   "chipset_name": "Dimensity 6080"
+  },
+  "memory": {
+   "ram_gb": [
+    8
+   ],
+   "storage_gb": [
+    256
+   ]
+  },
+  "battery": {
+   "capacity_mah": 5000
+  },
+  "charging": {
+   "wired_w": 33
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 108
+    },
+    {
+     "role": "ultrawide",
+     "mp": 8
+    },
+    {
+     "role": "macro",
+     "mp": 2
+    }
+   ],
+   "front": "16 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 161.11,
+    "width_mm": 74.95,
+    "depth_mm": 7.6
+   },
+   "weight_g": 174.5,
+   "ip": "IP54"
+  },
+  "software": {
+   "launch_os": "MIUI 14"
+  }
+ },
+ "redmi-note-13-pro": {
+  "display": {
+   "size_in": 6.67,
+   "type": "AMOLED",
+   "resolution": "2400 × 1080",
+   "refresh_hz": 120,
+   "peak_nits": 1300
+  },
+  "platform": {
+   "chipset_name": "Helio G99"
+  },
+  "battery": {
+   "capacity_mah": 5000
+  },
+  "charging": {
+   "wired_w": 67
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 200
+    },
+    {
+     "role": "ultrawide",
+     "mp": 8
+    },
+    {
+     "role": "macro",
+     "mp": 2
+    }
+   ],
+   "front": "16 MP"
+  },
+  "connectivity": {
+   "cellular": "4G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 161.1,
+    "width_mm": 74.95,
+    "depth_mm": 7.98
+   },
+   "weight_g": 188.0,
+   "ip": "IP54"
+  },
+  "software": {
+   "launch_os": "MIUI 14"
+  }
+ },
+ "redmi-note-13-pro-5g": {
+  "display": {
+   "size_in": 6.67,
+   "type": "AMOLED",
+   "resolution": "2712 × 1220",
+   "refresh_hz": 120,
+   "peak_nits": 1800
+  },
+  "platform": {
+   "chipset_name": "Snapdragon 7s Gen 2"
+  },
+  "battery": {
+   "capacity_mah": 5100
+  },
+  "charging": {
+   "wired_w": 67
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 200
+    },
+    {
+     "role": "ultrawide",
+     "mp": 8
+    },
+    {
+     "role": "macro",
+     "mp": 2
+    }
+   ],
+   "front": "16 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 161.15,
+    "width_mm": 74.24,
+    "depth_mm": 7.98
+   },
+   "weight_g": 187.0,
+   "ip": "IP54"
+  },
+  "software": {
+   "launch_os": "MIUI 14"
+  }
+ },
+ "redmi-note-13-pro-plus-5g": {
+  "display": {
+   "size_in": 6.67,
+   "type": "AMOLED",
+   "resolution": "2712 × 1220",
+   "refresh_hz": 120,
+   "peak_nits": 1800
+  },
+  "platform": {
+   "chipset_name": "Dimensity 7200-Ultra"
+  },
+  "battery": {
+   "capacity_mah": 5000
+  },
+  "charging": {
+   "wired_w": 120
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 200
+    },
+    {
+     "role": "ultrawide",
+     "mp": 8
+    },
+    {
+     "role": "macro",
+     "mp": 2
+    }
+   ],
+   "front": "16 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 161.4,
+    "width_mm": 74.2,
+    "depth_mm": 8.9
+   },
+   "weight_g": 204.5,
+   "ip": "IP68"
+  },
+  "software": {
+   "launch_os": "MIUI 14"
+  }
+ },
+ "xiaomi-14": {
+  "display": {
+   "size_in": 6.36,
+   "type": "AMOLED",
+   "resolution": "2670 × 1200",
+   "peak_nits": 3000
+  },
+  "platform": {
+   "chipset_name": "Snapdragon 8 Gen 3"
+  },
+  "memory": {
+   "ram_gb": [
+    12
+   ],
+   "storage_gb": [
+    256,
+    512
+   ]
+  },
+  "battery": {
+   "capacity_mah": 4610
+  },
+  "charging": {
+   "wired_w": 90,
+   "wireless_w": 50
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    },
+    {
+     "role": "telephoto",
+     "mp": 50
+    }
+   ],
+   "front": "32 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 152.8,
+    "width_mm": 71.5,
+    "depth_mm": 8.2
+   },
+   "weight_g": 193.0,
+   "ip": "IP68"
+  },
+  "software": {
+   "launch_os": "Xiaomi HyperOS"
+  }
+ },
+ "xiaomi-14-ultra": {
+  "display": {
+   "size_in": 6.73,
+   "type": "AMOLED",
+   "resolution": "3200 × 1440",
+   "peak_nits": 3000
+  },
+  "platform": {
+   "chipset_name": "Snapdragon 8 Gen 3"
+  },
+  "memory": {
+   "ram_gb": [
+    16
+   ],
+   "storage_gb": [
+    512
+   ]
+  },
+  "battery": {
+   "capacity_mah": 5000
+  },
+  "charging": {
+   "wired_w": 90,
+   "wireless_w": 80
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    },
+    {
+     "role": "periscope",
+     "mp": 50
+    }
+   ],
+   "front": "32 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 161.4,
+    "width_mm": 75.3,
+    "depth_mm": 9.2
+   },
+   "weight_g": 219.8
+  },
+  "software": {
+   "launch_os": "Xiaomi HyperOS"
+  }
+ },
+ "redmi-a3": {
+  "display": {
+   "size_in": 6.71,
+   "resolution": "1650 × 720",
+   "refresh_hz": 90,
+   "peak_nits": 500
+  },
+  "platform": {
+   "chipset_name": "Helio G36"
+  },
+  "memory": {
+   "ram_gb": [
+    3,
+    4
+   ],
+   "storage_gb": [
+    64,
+    128
+   ]
+  },
+  "battery": {
+   "capacity_mah": 5000
+  },
+  "charging": {
+   "wired_w": 10
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 8
+    }
+   ]
+  },
+  "connectivity": {
+   "cellular": "4G"
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 168.4,
+    "width_mm": 76.3,
+    "depth_mm": 8.3
+   }
+  },
+  "software": {
+   "launch_os": "Android 14"
+  }
+ },
+ "redmi-13c-5g": {
+  "display": {
+   "size_in": 6.74,
+   "resolution": "1600 × 720",
+   "refresh_hz": 180
+  },
+  "platform": {
+   "chipset_name": "Dimensity 6100+"
+  },
+  "memory": {
+   "ram_gb": [
+    4,
+    8
+   ],
+   "storage_gb": [
+    128,
+    256
+   ]
+  },
+  "battery": {
+   "capacity_mah": 5000
+  },
+  "charging": {
+   "wired_w": 18
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    }
+   ],
+   "front": "5 MP"
+  },
+  "connectivity": {
+   "cellular": "5G"
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 168.05,
+    "width_mm": 77.91,
+    "depth_mm": 8.19
+   },
+   "weight_g": 195.0
+  },
+  "software": {
+   "launch_os": "MIUI 14"
+  }
+ },
+ "poco-f6": {
+  "display": {
+   "size_in": 6.67,
+   "type": "AMOLED",
+   "resolution": "2712 × 1220",
+   "refresh_hz": 120,
+   "peak_nits": 2400
+  },
+  "platform": {
+   "chipset_name": "Snapdragon 8s Gen 3"
+  },
+  "memory": {
+   "ram_gb": [
+    8,
+    12
+   ],
+   "storage_gb": [
+    256,
+    512
+   ]
+  },
+  "battery": {
+   "capacity_mah": 5000
+  },
+  "charging": {
+   "wired_w": 90
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    },
+    {
+     "role": "ultrawide",
+     "mp": 8
+    }
+   ]
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 160.5,
+    "width_mm": 74.4,
+    "depth_mm": 7.8
+   },
+   "weight_g": 179.0
+  },
+  "software": {
+   "launch_os": "Powered by Xiaomi HyperOS"
+  }
+ },
+ "poco-f6-pro": {
+  "display": {
+   "size_in": 6.67,
+   "type": "AMOLED",
+   "resolution": "3200 × 1440",
+   "refresh_hz": 120,
+   "peak_nits": 4000
+  },
+  "platform": {
+   "chipset_name": "Snapdragon 8 Gen 2"
+  },
+  "memory": {
+   "ram_gb": [
+    12
+   ],
+   "storage_gb": [
+    256,
+    512
+   ]
+  },
+  "battery": {
+   "capacity_mah": 5000
+  },
+  "charging": {
+   "wired_w": 120
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    },
+    {
+     "role": "ultrawide",
+     "mp": 8
+    },
+    {
+     "role": "macro",
+     "mp": 2
+    }
+   ],
+   "front": "16 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 160.86,
+    "width_mm": 74.95,
+    "depth_mm": 8.21
+   },
+   "weight_g": 209.0
+  },
+  "software": {
+   "launch_os": "Powered by Xiaomi HyperOS"
+  }
+ },
+ "poco-m6": {
+  "display": {
+   "size_in": 6.79,
+   "resolution": "2460 × 1080",
+   "refresh_hz": 90,
+   "peak_nits": 550
+  },
+  "platform": {
+   "chipset_name": "Helio G91"
+  },
+  "memory": {
+   "ram_gb": [
+    6,
+    8
+   ],
+   "storage_gb": [
+    128,
+    256
+   ]
+  },
+  "battery": {
+   "capacity_mah": 5030
+  },
+  "charging": {
+   "wired_w": 33
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 108
+    },
+    {
+     "role": "macro",
+     "mp": 2
+    }
+   ],
+   "front": "13 MP"
+  },
+  "connectivity": {
+   "cellular": "4G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 168.6,
+    "width_mm": 76.28,
+    "depth_mm": 8.3
+   },
+   "weight_g": 205.0
+  },
+  "software": {
+   "launch_os": "Powered by Xiaomi HyperOS"
+  }
+ },
+ "redmi-13": {
+  "display": {
+   "size_in": 6.79,
+   "resolution": "2460 × 1080",
+   "refresh_hz": 90,
+   "peak_nits": 550
+  },
+  "platform": {
+   "chipset_name": "Helio G91"
+  },
+  "memory": {
+   "ram_gb": [
+    6,
+    8
+   ],
+   "storage_gb": [
+    128,
+    256
+   ]
+  },
+  "battery": {
+   "capacity_mah": 5030
+  },
+  "charging": {
+   "wired_w": 33
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 108
+    },
+    {
+     "role": "macro",
+     "mp": 2
+    }
+   ],
+   "front": "13 MP"
+  },
+  "connectivity": {
+   "cellular": "4G"
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 168.6,
+    "width_mm": 76.28,
+    "depth_mm": 8.3
+   },
+   "weight_g": 205.0
+  },
+  "software": {
+   "launch_os": "Xiaomi HyperOS"
+  }
+ },
+ "xiaomi-14t": {
+  "display": {
+   "type": "AMOLED",
+   "resolution": "2712 × 1220",
+   "refresh_hz": 144,
+   "peak_nits": 4000
+  },
+  "platform": {
+   "chipset_name": "Dimensity 8300-Ultra"
+  },
+  "memory": {
+   "ram_gb": [
+    12
+   ],
+   "storage_gb": [
+    256,
+    512
+   ]
+  },
+  "battery": {
+   "capacity_mah": 5000
+  },
+  "charging": {
+   "wired_w": 67
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    },
+    {
+     "role": "telephoto",
+     "mp": 50
+    }
+   ],
+   "front": "32 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 160.5,
+    "width_mm": 75.1,
+    "depth_mm": 7.8
+   },
+   "weight_g": 195.0,
+   "ip": "IP68"
+  },
+  "software": {
+   "launch_os": "Xiaomi HyperOS"
+  }
+ },
+ "xiaomi-14t-pro": {
+  "display": {
+   "type": "AMOLED",
+   "resolution": "2712 × 1220",
+   "refresh_hz": 144,
+   "peak_nits": 4000
+  },
+  "platform": {
+   "chipset_name": "Dimensity 9300+"
+  },
+  "memory": {
+   "ram_gb": [
+    12
+   ],
+   "storage_gb": [
+    256,
+    512,
+    1024
+   ]
+  },
+  "battery": {
+   "capacity_mah": 5000
+  },
+  "charging": {
+   "wired_w": 120,
+   "wireless_w": 50
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    },
+    {
+     "role": "telephoto",
+     "mp": 50
+    }
+   ],
+   "front": "32 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 160.4,
+    "width_mm": 75.1,
+    "depth_mm": 8.39
+   },
+   "weight_g": 209.0,
+   "ip": "IP68"
+  },
+  "software": {
+   "launch_os": "Xiaomi HyperOS"
+  }
+ },
+ "poco-c75": {
+  "display": {
+   "size_in": 6.88,
+   "resolution": "1640 × 720",
+   "peak_nits": 600
+  },
+  "platform": {
+   "chipset_name": "Helio G81"
+  },
+  "memory": {
+   "ram_gb": [
+    6,
+    8
+   ],
+   "storage_gb": [
+    128,
+    256
+   ]
+  },
+  "battery": {
+   "capacity_mah": 5160
+  },
+  "charging": {
+   "wired_w": 18
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    }
+   ],
+   "front": "13 MP"
+  },
+  "connectivity": {
+   "cellular": "4G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 171.88,
+    "width_mm": 77.8,
+    "depth_mm": 8.22
+   },
+   "weight_g": 204.0
+  },
+  "software": {
+   "launch_os": "Xiaomi HyperOS"
+  }
+ },
+ "poco-x7": {
+  "display": {
+   "size_in": 6.67,
+   "type": "AMOLED",
+   "resolution": "2712 × 1220",
+   "refresh_hz": 120,
+   "peak_nits": 3000
+  },
+  "platform": {
+   "chipset_name": "Dimensity 7300-Ultra"
+  },
+  "battery": {
+   "capacity_mah": 5110
+  },
+  "charging": {
+   "wired_w": 45
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    },
+    {
+     "role": "ultrawide",
+     "mp": 8
+    },
+    {
+     "role": "macro",
+     "mp": 2
+    }
+   ],
+   "front": "20 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 162.33,
+    "width_mm": 74.42,
+    "depth_mm": 8.4
+   },
+   "weight_g": 185.5,
+   "ip": "IP68"
+  },
+  "software": {
+   "launch_os": "Xiaomi HyperOS"
+  }
+ },
+ "poco-x7-pro": {
+  "display": {
+   "size_in": 6.67,
+   "type": "AMOLED",
+   "resolution": "2712 × 1220",
+   "refresh_hz": 120,
+   "peak_nits": 3200
+  },
+  "platform": {
+   "chipset_name": "Dimensity 8400-Ultra"
+  },
+  "memory": {
+   "ram_gb": [
+    8,
+    12
+   ],
+   "storage_gb": [
+    256,
+    512
+   ]
+  },
+  "battery": {
+   "capacity_mah": 6000
+  },
+  "charging": {
+   "wired_w": 90
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    },
+    {
+     "role": "ultrawide",
+     "mp": 8
+    }
+   ],
+   "front": "20 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 160.75,
+    "width_mm": 75.24,
+    "depth_mm": 8.29
+   },
+   "weight_g": 195.0
+  },
+  "software": {
+   "launch_os": "Xiaomi HyperOS 2"
+  }
+ },
+ "redmi-note-14": {
+  "display": {
+   "size_in": 6.67,
+   "type": "AMOLED",
+   "resolution": "2400 × 1080",
+   "refresh_hz": 120,
+   "peak_nits": 1800
+  },
+  "platform": {
+   "chipset_name": "Helio G99"
+  },
+  "memory": {
+   "ram_gb": [
+    8
+   ],
+   "storage_gb": [
+    256
+   ]
+  },
+  "battery": {
+   "capacity_mah": 5500
+  },
+  "charging": {
+   "wired_w": 33
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 108
+    },
+    {
+     "role": "depth",
+     "mp": 2
+    },
+    {
+     "role": "macro",
+     "mp": 2
+    }
+   ],
+   "front": "20 MP"
+  },
+  "connectivity": {
+   "cellular": "4G"
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 163.25,
+    "width_mm": 76.55,
+    "depth_mm": 8.16
+   },
+   "weight_g": 196.5,
+   "ip": "IP54"
+  },
+  "software": {
+   "launch_os": "Xiaomi HyperOS"
+  }
+ },
+ "redmi-note-14-5g": {
+  "display": {
+   "size_in": 6.67,
+   "type": "AMOLED",
+   "resolution": "2400 × 1080",
+   "refresh_hz": 120,
+   "peak_nits": 2100
+  },
+  "platform": {
+   "chipset_name": "Dimensity 7025-Ultra"
+  },
+  "memory": {
+   "ram_gb": [
+    6,
+    8,
+    12
+   ],
+   "storage_gb": [
+    128,
+    256,
+    512
+   ]
+  },
+  "battery": {
+   "capacity_mah": 5110
+  },
+  "charging": {
+   "wired_w": 45
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 108
+    },
+    {
+     "role": "ultrawide",
+     "mp": 8
+    },
+    {
+     "role": "macro",
+     "mp": 2
+    }
+   ],
+   "front": "20 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 162.4,
+    "width_mm": 75.7,
+    "depth_mm": 7.99
+   },
+   "weight_g": 190.0,
+   "ip": "IP64"
+  },
+  "software": {
+   "launch_os": "Xiaomi HyperOS"
+  }
+ },
+ "redmi-note-14-pro": {
+  "display": {
+   "size_in": 6.67,
+   "type": "AMOLED",
+   "resolution": "2400 × 1080",
+   "refresh_hz": 120,
+   "peak_nits": 1800
+  },
+  "platform": {
+   "chipset_name": "Helio G100"
+  },
+  "battery": {
+   "capacity_mah": 5500
+  },
+  "charging": {
+   "wired_w": 45
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 200
+    },
+    {
+     "role": "ultrawide",
+     "mp": 8
+    },
+    {
+     "role": "macro",
+     "mp": 2
+    }
+   ],
+   "front": "32 MP"
+  },
+  "connectivity": {
+   "cellular": "4G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 162.16,
+    "width_mm": 74.92,
+    "depth_mm": 8.24
+   },
+   "ip": "IP64"
+  },
+  "software": {
+   "launch_os": "Xiaomi HyperOS"
+  }
+ },
+ "redmi-note-14-pro-5g": {
+  "display": {
+   "size_in": 6.67,
+   "type": "AMOLED",
+   "resolution": "2712 × 1220",
+   "refresh_hz": 120,
+   "peak_nits": 3000
+  },
+  "platform": {
+   "chipset_name": "Dimensity 7300-Ultra"
+  },
+  "battery": {
+   "capacity_mah": 5110
+  },
+  "charging": {
+   "wired_w": 45
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 200
+    },
+    {
+     "role": "ultrawide",
+     "mp": 8
+    },
+    {
+     "role": "macro",
+     "mp": 2
+    }
+   ],
+   "front": "20 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 162.33,
+    "width_mm": 74.42,
+    "depth_mm": 8.4
+   },
+   "weight_g": 190.0,
+   "ip": "IP68"
+  },
+  "software": {
+   "launch_os": "Xiaomi HyperOS"
+  }
+ },
+ "xiaomi-15": {
+  "display": {
+   "size_in": 6.36,
+   "type": "AMOLED",
+   "resolution": "2670 × 1200",
+   "peak_nits": 3200
+  },
+  "platform": {
+   "chipset_name": "Snapdragon 8 Elite"
+  },
+  "memory": {
+   "ram_gb": [
+    12
+   ],
+   "storage_gb": [
+    256,
+    512
+   ]
+  },
+  "battery": {
+   "capacity_mah": 5240
+  },
+  "charging": {
+   "wired_w": 90,
+   "wireless_w": 50
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    },
+    {
+     "role": "telephoto",
+     "mp": 50
+    }
+   ],
+   "front": "32 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 152.3,
+    "width_mm": 71.2,
+    "depth_mm": 8.08
+   },
+   "weight_g": 191.0,
+   "ip": "IP68"
+  },
+  "software": {
+   "launch_os": "Xiaomi HyperOS 2"
+  }
+ },
+ "poco-f7-pro": {
+  "display": {
+   "size_in": 6.67,
+   "type": "AMOLED",
+   "resolution": "3200 × 1440",
+   "refresh_hz": 120,
+   "peak_nits": 3200
+  },
+  "platform": {
+   "chipset_name": "Snapdragon 8 Gen 3"
+  },
+  "memory": {
+   "ram_gb": [
+    12
+   ],
+   "storage_gb": [
+    256,
+    512
+   ]
+  },
+  "battery": {
+   "capacity_mah": 6000
+  },
+  "charging": {
+   "wired_w": 90
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    },
+    {
+     "role": "ultrawide",
+     "mp": 8
+    }
+   ],
+   "front": "20 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 160.26,
+    "width_mm": 74.95,
+    "depth_mm": 8.12
+   }
+  },
+  "software": {
+   "launch_os": "Powered by Xiaomi HyperOS 2"
+  }
+ },
+ "redmi-a5": {
+  "display": {
+   "size_in": 6.88,
+   "resolution": "1640 × 720",
+   "refresh_hz": 120,
+   "peak_nits": 450
+  },
+  "platform": {
+   "chipset_name": "UNISOC T7250"
+  },
+  "memory": {
+   "ram_gb": [
+    3,
+    4
+   ],
+   "storage_gb": [
+    64,
+    128
+   ]
+  },
+  "battery": {
+   "capacity_mah": 5200
+  },
+  "charging": {
+   "wired_w": 15
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 32
+    }
+   ]
+  },
+  "connectivity": {
+   "cellular": "4G"
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 171.7,
+    "width_mm": 77.8,
+    "depth_mm": 8.26
+   },
+   "weight_g": 193.0
+  },
+  "software": {
+   "launch_os": "Android 15"
+  }
+ },
+ "poco-f7": {
+  "display": {
+   "size_in": 6.83,
+   "resolution": "2772 × 1280",
+   "refresh_hz": 120,
+   "peak_nits": 3200
+  },
+  "platform": {
+   "chipset_name": "Snapdragon 8s Gen 4"
+  },
+  "memory": {
+   "ram_gb": [
+    12
+   ],
+   "storage_gb": [
+    256,
+    512
+   ]
+  },
+  "battery": {
+   "capacity_mah": 6500
+  },
+  "charging": {
+   "wired_w": 90
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    },
+    {
+     "role": "ultrawide",
+     "mp": 8
+    }
+   ],
+   "front": "20 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 163.1,
+    "width_mm": 77.9,
+    "depth_mm": 8.2
+   }
+  },
+  "software": {
+   "launch_os": "Powered by Xiaomi HyperOS 2"
+  }
+ },
+ "redmi-15-5g": {
+  "display": {
+   "size_in": 6.9,
+   "resolution": "2340 × 1080",
+   "refresh_hz": 144,
+   "peak_nits": 850
+  },
+  "platform": {
+   "chipset_name": "Snapdragon 6s Gen 3"
+  },
+  "memory": {
+   "ram_gb": [
+    8
+   ],
+   "storage_gb": [
+    256
+   ]
+  },
+  "battery": {
+   "capacity_mah": 7000
+  },
+  "charging": {
+   "wired_w": 33
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    }
+   ],
+   "front": "8 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 169.48,
+    "width_mm": 80.45,
+    "depth_mm": 8.4
+   },
+   "weight_g": 217.0,
+   "ip": "IP64"
+  },
+  "software": {
+   "launch_os": "Xiaomi HyperOS 2"
+  }
+ },
+ "redmi-15": {
+  "display": {
+   "size_in": 6.9,
+   "resolution": "2340 × 1080",
+   "refresh_hz": 144,
+   "peak_nits": 850
+  },
+  "platform": {
+   "chipset_name": "Snapdragon 685"
+  },
+  "memory": {
+   "ram_gb": [
+    8
+   ],
+   "storage_gb": [
+    256
+   ]
+  },
+  "battery": {
+   "capacity_mah": 7000
+  },
+  "charging": {
+   "wired_w": 33
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    }
+   ],
+   "front": "8 MP"
+  },
+  "connectivity": {
+   "cellular": "4G"
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 169.48,
+    "width_mm": 80.45,
+    "depth_mm": 8.4
+   },
+   "weight_g": 214.0,
+   "ip": "IP64"
+  },
+  "software": {
+   "launch_os": "Xiaomi HyperOS 2"
+  }
+ },
+ "poco-m7": {
+  "display": {
+   "size_in": 6.9,
+   "resolution": "2340 × 1080",
+   "refresh_hz": 144,
+   "peak_nits": 850
+  },
+  "platform": {
+   "chipset_name": "Snapdragon 685"
+  },
+  "memory": {
+   "ram_gb": [
+    6,
+    8
+   ],
+   "storage_gb": [
+    128,
+    256
+   ]
+  },
+  "battery": {
+   "capacity_mah": 7000
+  },
+  "charging": {
+   "wired_w": 33
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    }
+   ],
+   "front": "8 MP"
+  },
+  "connectivity": {
+   "cellular": "4G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 171.08,
+    "width_mm": 82.05,
+    "depth_mm": 8.55
+   },
+   "weight_g": 224.0,
+   "ip": "IP64"
+  },
+  "software": {
+   "launch_os": "Xiaomi HyperOS 2"
+  }
+ },
+ "poco-c85": {
+  "display": {
+   "size_in": 6.9,
+   "resolution": "1600 × 720",
+   "refresh_hz": 120,
+   "peak_nits": 810
+  },
+  "platform": {
+   "chipset_name": "Helio G81"
+  },
+  "memory": {
+   "ram_gb": [
+    6,
+    8
+   ],
+   "storage_gb": [
+    128,
+    256
+   ]
+  },
+  "battery": {
+   "capacity_mah": 6000
+  },
+  "charging": {
+   "wired_w": 33
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    }
+   ],
+   "front": "8 MP"
+  },
+  "connectivity": {
+   "cellular": "4G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 171.56,
+    "width_mm": 79.47,
+    "depth_mm": 7.99
+   },
+   "weight_g": 205.0,
+   "ip": "IP64"
+  },
+  "software": {
+   "launch_os": "Xiaomi HyperOS 2"
+  }
+ },
+ "xiaomi-15t": {
+  "display": {
+   "size_in": 6.83,
+   "type": "AMOLED",
+   "resolution": "2772 × 1280",
+   "refresh_hz": 120,
+   "peak_nits": 3200
+  },
+  "platform": {
+   "chipset_name": "Dimensity 8400-Ultra"
+  },
+  "battery": {
+   "capacity_mah": 5500
+  },
+  "charging": {
+   "wired_w": 67
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    },
+    {
+     "role": "telephoto",
+     "mp": 50
+    }
+   ],
+   "front": "32 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 163.2,
+    "width_mm": 78.0,
+    "depth_mm": 7.5
+   },
+   "weight_g": 194.0,
+   "ip": "IP68"
+  },
+  "software": {
+   "launch_os": "Xiaomi HyperOS 2"
+  }
+ },
+ "xiaomi-15t-pro": {
+  "display": {
+   "size_in": 6.83,
+   "type": "AMOLED",
+   "resolution": "2772 × 1280",
+   "refresh_hz": 144,
+   "peak_nits": 3200
+  },
+  "platform": {
+   "chipset_name": "Dimensity 9400+"
+  },
+  "battery": {
+   "capacity_mah": 5500
+  },
+  "charging": {
+   "wired_w": 90,
+   "wireless_w": 50
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    },
+    {
+     "role": "telephoto",
+     "mp": 50
+    }
+   ],
+   "front": "32 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 162.7,
+    "width_mm": 77.9,
+    "depth_mm": 7.96
+   },
+   "weight_g": 210.0,
+   "ip": "IP68"
+  },
+  "software": {
+   "launch_os": "Xiaomi HyperOS 2"
+  }
+ },
+ "poco-f8-pro": {
+  "display": {
+   "size_in": 6.59,
+   "type": "AMOLED",
+   "resolution": "2510 × 1156",
+   "refresh_hz": 120,
+   "peak_nits": 3500
+  },
+  "platform": {
+   "chipset_name": "Snapdragon 8 Elite"
+  },
+  "memory": {
+   "ram_gb": [
+    12
+   ],
+   "storage_gb": [
+    256,
+    512
+   ]
+  },
+  "battery": {
+   "capacity_mah": 6210
+  },
+  "charging": {
+   "wired_w": 100
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    },
+    {
+     "role": "telephoto",
+     "mp": 50
+    },
+    {
+     "role": "ultrawide",
+     "mp": 8
+    }
+   ],
+   "front": "20 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 157.49,
+    "width_mm": 75.25,
+    "depth_mm": 8.0
+   },
+   "ip": "IP68"
+  },
+  "software": {
+   "launch_os": "Powered by Xiaomi HyperOS 3"
+  }
+ },
+ "poco-f8-ultra": {
+  "display": {
+   "size_in": 6.9,
+   "type": "AMOLED",
+   "resolution": "2608 × 1200",
+   "refresh_hz": 120,
+   "peak_nits": 3500
+  },
+  "platform": {
+   "chipset_name": "Snapdragon 8 Elite Gen 5"
+  },
+  "memory": {
+   "ram_gb": [
+    12,
+    16
+   ],
+   "storage_gb": [
+    256,
+    512
+   ]
+  },
+  "battery": {
+   "capacity_mah": 6500
+  },
+  "charging": {
+   "wired_w": 100,
+   "wireless_w": 50
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    },
+    {
+     "role": "periscope",
+     "mp": 50
+    },
+    {
+     "role": "ultrawide",
+     "mp": 50
+    }
+   ],
+   "front": "32 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 163.33,
+    "width_mm": 77.82,
+    "depth_mm": 7.9
+   },
+   "weight_g": 218.0,
+   "ip": "IP68"
+  },
+  "software": {
+   "launch_os": "Powered by Xiaomi HyperOS 3"
+  }
+ },
+ "redmi-note-15": {
+  "display": {
+   "size_in": 6.77,
+   "type": "AMOLED",
+   "resolution": "2392 × 1080",
+   "refresh_hz": 120,
+   "peak_nits": 3200
+  },
+  "platform": {
+   "chipset_name": "Helio G100"
+  },
+  "memory": {
+   "ram_gb": [
+    8
+   ],
+   "storage_gb": [
+    256
+   ]
+  },
+  "battery": {
+   "capacity_mah": 6000
+  },
+  "charging": {
+   "wired_w": 33
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 108
+    },
+    {
+     "role": "depth",
+     "mp": 2
+    }
+   ],
+   "front": "20 MP"
+  },
+  "connectivity": {
+   "cellular": "4G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 164.03,
+    "width_mm": 75.42,
+    "depth_mm": 7.94
+   },
+   "weight_g": 183.7,
+   "ip": "IP64"
+  },
+  "software": {
+   "launch_os": "Xiaomi HyperOS 2"
+  }
+ },
+ "redmi-note-15-5g": {
+  "display": {
+   "size_in": 6.77,
+   "type": "AMOLED",
+   "resolution": "2392 × 1080",
+   "refresh_hz": 120,
+   "peak_nits": 3200
+  },
+  "platform": {
+   "chipset_name": "Snapdragon 6 Gen 3"
+  },
+  "memory": {
+   "ram_gb": [
+    6,
+    8
+   ],
+   "storage_gb": [
+    128,
+    256
+   ]
+  },
+  "battery": {
+   "capacity_mah": 5520
+  },
+  "charging": {
+   "wired_w": 45
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 108
+    },
+    {
+     "role": "ultrawide",
+     "mp": 8
+    }
+   ],
+   "front": "20 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 164.0,
+    "width_mm": 75.42,
+    "depth_mm": 7.35
+   },
+   "weight_g": 178.0,
+   "ip": "IP66"
+  },
+  "software": {
+   "launch_os": "Xiaomi HyperOS 2"
+  }
+ },
+ "redmi-note-15-pro": {
+  "display": {
+   "size_in": 6.77,
+   "type": "AMOLED",
+   "resolution": "2392 × 1080",
+   "refresh_hz": 120,
+   "peak_nits": 3200
+  },
+  "platform": {
+   "chipset_name": "Helio G200"
+  },
+  "memory": {
+   "ram_gb": [
+    8,
+    12
+   ],
+   "storage_gb": [
+    256,
+    512
+   ]
+  },
+  "battery": {
+   "capacity_mah": 6500
+  },
+  "charging": {
+   "wired_w": 45
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 200
+    },
+    {
+     "role": "ultrawide",
+     "mp": 8
+    }
+   ],
+   "front": "32 MP"
+  },
+  "connectivity": {
+   "cellular": "4G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 163.22,
+    "width_mm": 76.29,
+    "depth_mm": 7.96
+   },
+   "weight_g": 195.0,
+   "ip": "IP65"
+  },
+  "software": {
+   "launch_os": "Xiaomi HyperOS 2"
+  }
+ },
+ "redmi-note-15-pro-5g": {
+  "display": {
+   "size_in": 6.83,
+   "type": "AMOLED",
+   "resolution": "2772 × 1280",
+   "refresh_hz": 120,
+   "peak_nits": 3200
+  },
+  "platform": {
+   "chipset_name": "Dimensity 7400-Ultra"
+  },
+  "memory": {
+   "ram_gb": [
+    8
+   ],
+   "storage_gb": [
+    256,
+    512
+   ]
+  },
+  "battery": {
+   "capacity_mah": 6580
+  },
+  "charging": {
+   "wired_w": 45
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 200
+    },
+    {
+     "role": "ultrawide",
+     "mp": 8
+    }
+   ],
+   "front": "20 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 163.61,
+    "width_mm": 78.09,
+    "depth_mm": 7.96
+   },
+   "weight_g": 210.0,
+   "ip": "IP69K"
+  },
+  "software": {
+   "launch_os": "Xiaomi HyperOS 2"
+  }
+ },
+ "redmi-note-15-pro-plus-5g": {
+  "display": {
+   "size_in": 6.83,
+   "type": "AMOLED",
+   "resolution": "2772 × 1280",
+   "refresh_hz": 120,
+   "peak_nits": 3200
+  },
+  "platform": {
+   "chipset_name": "Snapdragon 7s Gen 4"
+  },
+  "memory": {
+   "ram_gb": [
+    12
+   ],
+   "storage_gb": [
+    256,
+    512
+   ]
+  },
+  "battery": {
+   "capacity_mah": 6500
+  },
+  "charging": {
+   "wired_w": 100
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 200
+    },
+    {
+     "role": "ultrawide",
+     "mp": 8
+    }
+   ],
+   "front": "32 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 163.34,
+    "width_mm": 78.31,
+    "depth_mm": 8.19
+   },
+   "weight_g": 207.1,
+   "ip": "IP69K"
+  },
+  "software": {
+   "launch_os": "Xiaomi HyperOS 2"
+  }
+ },
+ "xiaomi-17": {
+  "display": {
+   "size_in": 6.3,
+   "type": "OLED",
+   "resolution": "2656 × 1220",
+   "peak_nits": 3500
+  },
+  "platform": {
+   "chipset_name": "Snapdragon 8 Elite Gen 5"
+  },
+  "memory": {
+   "ram_gb": [
+    12
+   ],
+   "storage_gb": [
+    256,
+    512
+   ]
+  },
+  "battery": {
+   "capacity_mah": 6330
+  },
+  "charging": {
+   "wired_w": 100,
+   "wireless_w": 50
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    }
+   ],
+   "front": "50 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 151.1,
+    "width_mm": 71.8,
+    "depth_mm": 8.06
+   },
+   "weight_g": 191.0,
+   "ip": "IP68"
+  },
+  "software": {
+   "launch_os": "Xiaomi HyperOS 3"
+  }
+ },
+ "poco-x8-pro": {
+  "display": {
+   "size_in": 6.59,
+   "type": "AMOLED",
+   "resolution": "2756 × 1268",
+   "refresh_hz": 120,
+   "peak_nits": 3500
+  },
+  "platform": {
+   "chipset_name": "Dimensity 8500-Ultra"
+  },
+  "memory": {
+   "ram_gb": [
+    8,
+    12
+   ],
+   "storage_gb": [
+    256,
+    512
+   ]
+  },
+  "battery": {
+   "capacity_mah": 6500
+  },
+  "charging": {
+   "wired_w": 100
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    },
+    {
+     "role": "ultrawide",
+     "mp": 8
+    }
+   ],
+   "front": "20 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 157.53,
+    "width_mm": 75.19,
+    "depth_mm": 8.38
+   },
+   "weight_g": 201.47,
+   "ip": "IP69K"
+  },
+  "software": {
+   "launch_os": "Powered by Xiaomi HyperOS 3"
+  }
+ },
+ "poco-x8-pro-max": {
+  "display": {
+   "size_in": 6.83,
+   "type": "AMOLED",
+   "resolution": "2772 × 1280",
+   "refresh_hz": 120,
+   "peak_nits": 3500
+  },
+  "platform": {
+   "chipset_name": "Dimensity 9500"
+  },
+  "memory": {
+   "ram_gb": [
+    12
+   ],
+   "storage_gb": [
+    256,
+    512
+   ]
+  },
+  "battery": {
+   "capacity_mah": 8500
+  },
+  "charging": {
+   "wired_w": 100
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    },
+    {
+     "role": "ultrawide",
+     "mp": 8
+    }
+   ],
+   "front": "20 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 162.9,
+    "width_mm": 77.9,
+    "depth_mm": 8.2
+   },
+   "weight_g": 218.0,
+   "ip": "IP69K"
+  },
+  "software": {
+   "launch_os": "Powered by Xiaomi HyperOS 3"
+  }
+ },
+ "redmi-a7-pro": {
+  "display": {
+   "size_in": 6.9,
+   "type": "LCD",
+   "resolution": "1600 × 720",
+   "refresh_hz": 120,
+   "peak_nits": 800
+  },
+  "platform": {
+   "chipset_name": "UNISOC T7250"
+  },
+  "battery": {
+   "capacity_mah": 6000
+  },
+  "charging": {
+   "wired_w": 15
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 13
+    }
+   ],
+   "front": "8 MP"
+  },
+  "connectivity": {
+   "cellular": "4G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 171.56,
+    "width_mm": 79.47,
+    "depth_mm": 8.15
+   },
+   "weight_g": 208.0
+  },
+  "software": {
+   "launch_os": "Xiaomi HyperOS"
+  }
+ },
+ "poco-c81-pro": {
+  "display": {
+   "size_in": 6.9,
+   "type": "LCD",
+   "resolution": "1600 × 720",
+   "refresh_hz": 120,
+   "peak_nits": 800
+  },
+  "platform": {
+   "chipset_name": "UNISOC T7250"
+  },
+  "memory": {
+   "ram_gb": [
+    4
+   ],
+   "storage_gb": [
+    64,
+    128,
+    256
+   ]
+  },
+  "battery": {
+   "capacity_mah": 6000
+  },
+  "charging": {
+   "wired_w": 15
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 13
+    }
+   ],
+   "front": "8 MP"
+  },
+  "connectivity": {
+   "cellular": "4G"
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 171.56,
+    "width_mm": 79.47,
+    "depth_mm": 8.15
+   },
+   "weight_g": 208.0
+  },
+  "software": {
+   "launch_os": "Xiaomi HyperOS 3"
+  }
+ },
+ "xiaomi-17t": {
+  "display": {
+   "size_in": 6.59,
+   "type": "AMOLED",
+   "resolution": "2756 × 1268",
+   "refresh_hz": 120,
+   "peak_nits": 3500
+  },
+  "platform": {
+   "chipset_name": "Dimensity 8500-Ultra"
+  },
+  "memory": {
+   "ram_gb": [
+    12
+   ],
+   "storage_gb": [
+    256,
+    512
+   ]
+  },
+  "battery": {
+   "capacity_mah": 6500
+  },
+  "charging": {
+   "wired_w": 67
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    },
+    {
+     "role": "telephoto",
+     "mp": 50
+    }
+   ],
+   "front": "32 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 157.6,
+    "width_mm": 75.2,
+    "depth_mm": 8.17
+   },
+   "weight_g": 200.0,
+   "ip": "IP68"
+  },
+  "software": {
+   "launch_os": "Xiaomi HyperOS 3"
+  }
+ },
+ "xiaomi-17t-pro": {
+  "display": {
+   "size_in": 6.83,
+   "type": "AMOLED",
+   "resolution": "2772 × 1280",
+   "refresh_hz": 144,
+   "peak_nits": 3500
+  },
+  "platform": {
+   "chipset_name": "Dimensity 9500"
+  },
+  "memory": {
+   "ram_gb": [
+    12
+   ],
+   "storage_gb": [
+    1024
+   ]
+  },
+  "battery": {
+   "capacity_mah": 7000
+  },
+  "charging": {
+   "wired_w": 100,
+   "wireless_w": 50
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    },
+    {
+     "role": "telephoto",
+     "mp": 50
+    }
+   ],
+   "front": "32 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 162.2,
+    "width_mm": 77.5,
+    "depth_mm": 8.25
+   },
+   "weight_g": 219.0,
+   "ip": "IP68"
+  },
+  "software": {
+   "launch_os": "Xiaomi HyperOS 3"
+  }
+ },
+ "redmi-17": {
+  "display": {
+   "size_in": 6.9,
+   "resolution": "1600 × 720",
+   "refresh_hz": 120,
+   "peak_nits": 825
+  },
+  "platform": {
+   "chipset_name": "Helio G91"
+  },
+  "memory": {
+   "ram_gb": [
+    4,
+    6
+   ],
+   "storage_gb": [
+    128,
+    256
+   ]
+  },
+  "battery": {
+   "capacity_mah": 7500
+  },
+  "charging": {
+   "wired_w": 45
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    }
+   ],
+   "front": "8 MP"
+  },
+  "connectivity": {
+   "cellular": "4G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 170.12,
+    "width_mm": 78.42,
+    "depth_mm": 8.8
+   },
+   "weight_g": 232.0,
+   "ip": "IP64"
+  },
+  "software": {
+   "launch_os": "Xiaomi HyperOS 3"
+  }
+ },
+ "redmi-17-5g": {
+  "display": {
+   "size_in": 6.9,
+   "resolution": "1600 × 720",
+   "refresh_hz": 120,
+   "peak_nits": 825
+  },
+  "platform": {
+   "chipset_name": "Snapdragon 4 Gen 5"
+  },
+  "memory": {
+   "ram_gb": [
+    4,
+    6
+   ],
+   "storage_gb": [
+    128,
+    256
+   ]
+  },
+  "battery": {
+   "capacity_mah": 7500
+  },
+  "charging": {
+   "wired_w": 45
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    }
+   ],
+   "front": "8 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 170.12,
+    "width_mm": 78.42,
+    "depth_mm": 8.8
+   },
+   "weight_g": 232.0,
+   "ip": "IP64"
+  },
+  "software": {
+   "launch_os": "Xiaomi HyperOS 3"
+  }
+ },
+ "redmi-a7": {
+  "display": {
+   "size_in": 6.88,
+   "type": "LCD",
+   "resolution": "1640 × 720",
+   "refresh_hz": 120,
+   "peak_nits": 450
+  },
+  "platform": {
+   "chipset_name": "UNISOC T7250"
+  },
+  "battery": {
+   "capacity_mah": 5200
+  },
+  "charging": {
+   "wired_w": 15
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 13
+    }
+   ],
+   "front": "8 MP"
+  },
+  "connectivity": {
+   "cellular": "4G"
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 171.79,
+    "width_mm": 77.8,
+    "depth_mm": 8.26
+   },
+   "weight_g": 193.0
+  },
+  "software": {
+   "launch_os": "Android 15"
+  }
+ },
+ "redmi-note-17": {
+  "display": {
+   "size_in": 6.99,
+   "type": "AMOLED",
+   "resolution": "2396 × 1080",
+   "refresh_hz": 120,
+   "peak_nits": 1800
+  },
+  "platform": {
+   "chipset_name": "Snapdragon 6s 4G Gen 2"
+  },
+  "memory": {
+   "ram_gb": [
+    4
+   ],
+   "storage_gb": [
+    128
+   ]
+  },
+  "battery": {
+   "capacity_mah": 7700
+  },
+  "charging": {
+   "wired_w": 45
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    }
+   ],
+   "front": "16 MP"
+  },
+  "connectivity": {
+   "cellular": "4G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 169.7,
+    "width_mm": 79.14,
+    "depth_mm": 8.45
+   },
+   "weight_g": 224.0,
+   "ip": "IP65"
+  },
+  "software": {
+   "launch_os": "Xiaomi HyperOS 3"
+  }
+ },
+ "redmi-note-17-5g": {
+  "display": {
+   "size_in": 6.99,
+   "type": "AMOLED",
+   "resolution": "2396 × 1080",
+   "refresh_hz": 120,
+   "peak_nits": 1800
+  },
+  "platform": {
+   "chipset_name": "Snapdragon 4 Gen 4"
+  },
+  "memory": {
+   "ram_gb": [
+    6,
+    8
+   ],
+   "storage_gb": [
+    128,
+    256
+   ]
+  },
+  "battery": {
+   "capacity_mah": 7700
+  },
+  "charging": {
+   "wired_w": 45
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    }
+   ],
+   "front": "16 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 169.7,
+    "width_mm": 79.14,
+    "depth_mm": 8.45
+   },
+   "weight_g": 225.0,
+   "ip": "IP65"
+  },
+  "software": {
+   "launch_os": "Xiaomi HyperOS 3"
+  }
+ },
+ "redmi-note-17-pro-5g": {
+  "display": {
+   "size_in": 6.83,
+   "type": "AMOLED",
+   "resolution": "2772 × 1280",
+   "refresh_hz": 120,
+   "peak_nits": 3500
+  },
+  "platform": {
+   "chipset_name": "Snapdragon 6s Gen 4"
+  },
+  "memory": {
+   "ram_gb": [
+    6,
+    8
+   ],
+   "storage_gb": [
+    128,
+    256,
+    512
+   ]
+  },
+  "battery": {
+   "capacity_mah": 8340
+  },
+  "charging": {
+   "wired_w": 67
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    },
+    {
+     "role": "ultrawide",
+     "mp": 8
+    }
+   ],
+   "front": "16 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 163.45,
+    "width_mm": 78.27,
+    "depth_mm": 8.6
+   },
+   "weight_g": 223.0,
+   "ip": "IP69K"
+  },
+  "software": {
+   "launch_os": "Xiaomi HyperOS 3"
+  }
+ },
+ "redmi-note-17-pro-max-5g": {
+  "display": {
+   "size_in": 6.83,
+   "type": "AMOLED",
+   "resolution": "2772 × 1280",
+   "refresh_hz": 120,
+   "peak_nits": 3500
+  },
+  "platform": {
+   "chipset_name": "Snapdragon 6 Gen 5"
+  },
+  "memory": {
+   "ram_gb": [
+    8
+   ],
+   "storage_gb": [
+    256,
+    512
+   ]
+  },
+  "battery": {
+   "capacity_mah": 10000
+  },
+  "charging": {
+   "wired_w": 100
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    },
+    {
+     "role": "ultrawide",
+     "mp": 8
+    }
+   ],
+   "front": "32 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 163.44,
+    "width_mm": 78.27,
+    "depth_mm": 8.65
+   },
+   "weight_g": 229.5,
+   "ip": "IP69K"
+  },
+  "software": {
+   "launch_os": "Xiaomi HyperOS 3"
+  }
+ },
+ "poco-f9-pro": {
+  "display": {
+   "size_in": 6.59,
+   "type": "AMOLED",
+   "resolution": "2510 × 1156",
+   "refresh_hz": 185,
+   "peak_nits": 4500
+  },
+  "platform": {
+   "chipset_name": "Snapdragon 8 Elite Gen 5"
+  },
+  "memory": {
+   "ram_gb": [
+    12
+   ],
+   "storage_gb": [
+    256,
+    512
+   ]
+  },
+  "battery": {
+   "capacity_mah": 6330
+  },
+  "charging": {
+   "wired_w": 100,
+   "wireless_w": 50
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 200
+    },
+    {
+     "role": "telephoto",
+     "mp": 50
+    },
+    {
+     "role": "ultrawide",
+     "mp": 8
+    }
+   ],
+   "front": "32 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 157.49,
+    "width_mm": 75.25,
+    "depth_mm": 8.79
+   },
+   "weight_g": 206.0,
+   "ip": "IP68"
+  },
+  "software": {
+   "launch_os": "Powered by Xiaomi HyperOS 3"
+  }
+ },
+ "poco-f9-ultra": {
+  "display": {
+   "size_in": 6.9,
+   "type": "AMOLED",
+   "resolution": "2608 × 1200",
+   "refresh_hz": 185,
+   "peak_nits": 4500
+  },
+  "platform": {
+   "chipset_name": "Snapdragon 8 Elite Gen 5"
+  },
+  "memory": {
+   "ram_gb": [
+    12,
+    16
+   ],
+   "storage_gb": [
+    256,
+    512,
+    1024
+   ]
+  },
+  "battery": {
+   "capacity_mah": 8050
+  },
+  "charging": {
+   "wired_w": 100,
+   "wireless_w": 50
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 200
+    },
+    {
+     "role": "periscope",
+     "mp": 50
+    },
+    {
+     "role": "ultrawide",
+     "mp": 50
+    }
+   ],
+   "front": "32 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 163.49,
+    "width_mm": 77.94,
+    "depth_mm": 8.74
+   },
+   "weight_g": 235.0,
+   "ip": "IP68"
+  },
+  "software": {
+   "launch_os": "Powered by Xiaomi HyperOS 3"
+  }
+ },
+ "poco-x8": {
+  "display": {
+   "size_in": 6.83,
+   "type": "AMOLED",
+   "resolution": "2772 × 1280",
+   "refresh_hz": 120,
+   "peak_nits": 3500
+  },
+  "platform": {
+   "chipset_name": "Snapdragon 6s Gen 4"
+  },
+  "memory": {
+   "ram_gb": [
+    6,
+    8,
+    12
+   ],
+   "storage_gb": [
+    128,
+    256
+   ]
+  },
+  "battery": {
+   "capacity_mah": 8340
+  },
+  "charging": {
+   "wired_w": 67
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    },
+    {
+     "role": "depth",
+     "mp": 2
+    }
+   ],
+   "front": "16 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 163.45,
+    "width_mm": 78.27,
+    "depth_mm": 8.6
+   },
+   "weight_g": 223.0,
+   "ip": "IP69K"
+  },
+  "software": {
+   "launch_os": "Xiaomi HyperOS 3"
+  }
+ },
+ "poco-m8s-5g": {
+  "display": {
+   "size_in": 6.9,
+   "resolution": "2340 × 1080",
+   "refresh_hz": 144,
+   "peak_nits": 850
+  },
+  "platform": {
+   "chipset_name": "Snapdragon 6s Gen 3"
+  },
+  "memory": {
+   "ram_gb": [
+    6,
+    8
+   ],
+   "storage_gb": [
+    128,
+    256
+   ]
+  },
+  "battery": {
+   "capacity_mah": 7000
+  },
+  "charging": {
+   "wired_w": 33
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    }
+   ],
+   "front": "8 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 169.48,
+    "width_mm": 80.45,
+    "depth_mm": 8.4
+   },
+   "weight_g": 217.0,
+   "ip": "IP64"
+  },
+  "software": {
+   "launch_os": "Xiaomi HyperOS 2"
+  }
+ },
+ "leica-leitzphone-powered-by-xiaomi": {
+  "display": {
+   "size_in": 6.9,
+   "type": "OLED",
+   "resolution": "2608 × 1200",
+   "peak_nits": 3500
+  },
+  "platform": {
+   "chipset_name": "Snapdragon 8 Elite Gen 5"
+  },
+  "memory": {
+   "ram_gb": [
+    16
+   ],
+   "storage_gb": [
+    1024
+   ]
+  },
+  "battery": {
+   "capacity_mah": 6000
+  },
+  "charging": {
+   "wired_w": 90,
+   "wireless_w": 50
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "telephoto",
+     "mp": 200
+    },
+    {
+     "role": "main",
+     "mp": 200
+    },
+    {
+     "role": "telephoto",
+     "mp": 50
+    }
+   ],
+   "front": "50 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 162.9,
+    "width_mm": 77.6,
+    "depth_mm": 8.32
+   },
+   "weight_g": 223.4,
+   "ip": "IP68"
+  },
+  "software": {
+   "launch_os": "Xiaomi HyperOS 3"
+  }
+ },
+ "redmi-watch-3": {
+  "display": {
+   "size_in": 1.75,
+   "type": "AMOLED",
+   "resolution": "450 × 390",
+   "peak_nits": 600
+  },
+  "battery": {
+   "life_h": 288,
+   "capacity_mah": 289
+  },
+  "connectivity": {
+   "gps": "Built-in GNSS"
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 42.58,
+    "width_mm": 36.56,
+    "depth_mm": 9.99
+   },
+   "water": "5 ATM",
+   "water_m": 50
+  }
+ },
+ "redmi-watch-3-active": {
+  "display": {
+   "size_in": 1.83,
+   "type": "LCD",
+   "peak_nits": 450
+  },
+  "battery": {
+   "life_h": 288,
+   "capacity_mah": 289
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 46.94,
+    "width_mm": 38.88,
+    "depth_mm": 10.94
+   },
+   "water": "5 ATM",
+   "water_m": 50
+  }
+ },
+ "xiaomi-smart-band-8": {
+  "display": {
+   "size_in": 1.62,
+   "type": "AMOLED",
+   "resolution": "490 × 192",
+   "peak_nits": 600
+  },
+  "battery": {
+   "life_h": 384,
+   "capacity_mah": 190
+  },
+  "build": {
+   "weight_g": 27.0,
+   "water": "5 ATM",
+   "water_m": 50
+  }
+ },
+ "xiaomi-smart-band-8-active": {
+  "display": {
+   "size_in": 1.47,
+   "type": "TFT",
+   "resolution": "320 × 172",
+   "peak_nits": 450
+  },
+  "battery": {
+   "life_h": 336,
+   "capacity_mah": 210
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 42.81,
+    "width_mm": 25.42,
+    "depth_mm": 9.99
+   },
+   "weight_g": 14.9,
+   "water": "5 ATM",
+   "water_m": 50
+  }
+ },
+ "xiaomi-smart-band-8-pro": {
+  "display": {
+   "size_in": 1.74,
+   "type": "AMOLED",
+   "resolution": "480 × 336",
+   "peak_nits": 600
+  },
+  "battery": {
+   "capacity_mah": 289
+  },
+  "connectivity": {
+   "gps": "Built-in GNSS"
+  },
+  "build": {
+   "weight_g": 22.5,
+   "water": "5 ATM",
+   "water_m": 50
+  },
+  "software": {
+   "launch_os": "Android 8.0 or"
+  }
+ },
+ "xiaomi-watch-2-pro": {
+  "display": {
+   "size_in": 1.43,
+   "type": "AMOLED",
+   "resolution": "466 × 466",
+   "peak_nits": 600
+  },
+  "battery": {
+   "capacity_mah": 495
+  },
+  "connectivity": {
+   "gps": "Built-in GNSS",
+   "cellular": "LTE option"
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 47.6,
+    "width_mm": 45.9,
+    "depth_mm": 11.8
+   },
+   "weight_g": 54.5,
+   "water": "5 ATM",
+   "water_m": 50
+  }
+ },
+ "redmi-watch-4": {
+  "display": {
+   "size_in": 1.97,
+   "type": "AMOLED",
+   "peak_nits": 600
+  },
+  "battery": {
+   "life_h": 480,
+   "capacity_mah": 470
+  },
+  "connectivity": {
+   "gps": "Built-in GNSS"
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 47.5,
+    "width_mm": 41.1,
+    "depth_mm": 10.5
+   },
+   "water": "5 ATM",
+   "water_m": 50
+  }
+ },
+ "xiaomi-watch-s3": {
+  "display": {
+   "size_in": 1.43,
+   "type": "AMOLED",
+   "resolution": "466 × 466"
+  },
+  "battery": {
+   "life_h": 360,
+   "capacity_mah": 486
+  },
+  "connectivity": {
+   "gps": "Built-in GNSS",
+   "nfc": true
+  },
+  "build": {
+   "weight_g": 44.0,
+   "water": "5 ATM",
+   "water_m": 50
+  },
+  "software": {
+   "launch_os": "Android 8.0 or"
+  }
+ },
+ "xiaomi-smart-band-9": {
+  "display": {
+   "size_in": 1.62,
+   "type": "AMOLED",
+   "resolution": "490 × 192",
+   "peak_nits": 1200
+  },
+  "battery": {
+   "life_h": 504,
+   "capacity_mah": 233
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 46.53,
+    "width_mm": 21.63,
+    "depth_mm": 10.95
+   },
+   "weight_g": 15.8,
+   "water": "5 ATM",
+   "water_m": 50
+  }
+ },
+ "xiaomi-smart-band-9-active": {
+  "display": {
+   "size_in": 1.47,
+   "type": "TFT",
+   "resolution": "320 × 172"
+  },
+  "battery": {
+   "life_h": 432,
+   "capacity_mah": 300
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 45.9,
+    "width_mm": 26.94,
+    "depth_mm": 9.99
+   },
+   "weight_g": 16.5,
+   "water": "5 ATM",
+   "water_m": 50
+  }
+ },
+ "xiaomi-smart-band-9-pro": {
+  "display": {
+   "size_in": 1.74,
+   "type": "AMOLED",
+   "resolution": "480 × 336",
+   "peak_nits": 1200
+  },
+  "battery": {
+   "capacity_mah": 350
+  },
+  "connectivity": {
+   "gps": "Built-in GNSS"
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 43.27,
+    "width_mm": 32.49,
+    "depth_mm": 10.8
+   },
+   "weight_g": 24.5,
+   "water": "5 ATM",
+   "water_m": 50
+  },
+  "software": {
+   "launch_os": "Android 8.0 or"
+  }
+ },
+ "redmi-watch-5-active": {
+  "display": {
+   "type": "LCD",
+   "resolution": "385 × 320"
+  },
+  "battery": {
+   "life_h": 432,
+   "capacity_mah": 470
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 49.1,
+    "width_mm": 40.4,
+    "depth_mm": 11.4
+   },
+   "water": "5 ATM",
+   "water_m": 50
+  },
+  "software": {
+   "launch_os": "Xiaomi HyperOS"
+  }
+ },
+ "redmi-watch-5-lite": {
+  "display": {
+   "size_in": 1.96,
+   "type": "AMOLED",
+   "resolution": "502 × 410"
+  },
+  "battery": {
+   "life_h": 432,
+   "capacity_mah": 470
+  },
+  "connectivity": {
+   "gps": "Built-in GNSS"
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 48.1,
+    "width_mm": 39.2,
+    "depth_mm": 10.6
+   }
+  },
+  "software": {
+   "launch_os": "Xiaomi HyperOS"
+  }
+ },
+ "redmi-watch-5": {
+  "display": {
+   "size_in": 2.07,
+   "type": "AMOLED",
+   "resolution": "514 × 432",
+   "peak_nits": 1500
+  },
+  "battery": {
+   "life_h": 576,
+   "capacity_mah": 550
+  },
+  "connectivity": {
+   "gps": "Built-in GNSS"
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 47.5,
+    "width_mm": 41.1,
+    "depth_mm": 11.3
+   },
+   "water": "5 ATM",
+   "water_m": 50
+  },
+  "software": {
+   "launch_os": "Xiaomi HyperOS"
+  }
+ },
+ "xiaomi-watch-s4": {
+  "display": {
+   "size_in": 1.43,
+   "type": "AMOLED",
+   "resolution": "466 × 466",
+   "peak_nits": 1500
+  },
+  "battery": {
+   "life_h": 360,
+   "capacity_mah": 486
+  },
+  "connectivity": {
+   "gps": "Built-in GNSS",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 47.3,
+    "width_mm": 47.3,
+    "depth_mm": 12.0
+   },
+   "water": "5 ATM",
+   "water_m": 50
+  },
+  "software": {
+   "launch_os": "Xiaomi HyperOS 2"
+  }
+ },
+ "xiaomi-smart-band-10": {
+  "display": {
+   "size_in": 1.72,
+   "type": "AMOLED",
+   "resolution": "520 × 212",
+   "peak_nits": 1500
+  },
+  "battery": {
+   "capacity_mah": 233
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 46.57,
+    "width_mm": 22.54,
+    "depth_mm": 10.95
+   },
+   "weight_g": 15.95,
+   "water": "5 ATM",
+   "water_m": 50
+  },
+  "software": {
+   "launch_os": "Android 8.0 or"
+  }
+ },
+ "xiaomi-watch-2": {
+  "display": {
+   "size_in": 1.43,
+   "type": "AMOLED",
+   "resolution": "466 × 466",
+   "peak_nits": 600
+  },
+  "battery": {
+   "capacity_mah": 495
+  },
+  "connectivity": {
+   "gps": "Built-in GNSS",
+   "cellular": "LTE option"
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 47.5,
+    "width_mm": 45.9,
+    "depth_mm": 11.8
+   },
+   "weight_g": 36.8,
+   "water": "5 ATM",
+   "water_m": 50
+  }
+ },
+ "xiaomi-smart-band-11-active": {
+  "display": {
+   "size_in": 1.47,
+   "type": "TFT",
+   "resolution": "320 × 172"
+  },
+  "battery": {
+   "life_h": 504,
+   "capacity_mah": 300
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 43.5,
+    "width_mm": 25.8,
+    "depth_mm": 10.2
+   },
+   "weight_g": 18.0,
+   "water": "5 ATM",
+   "water_m": 50
+  }
+ },
+ "redmi-watch-6": {
+  "display": {
+   "size_in": 2.07,
+   "type": "AMOLED",
+   "resolution": "514 × 432",
+   "peak_nits": 2000
+  },
+  "battery": {
+   "capacity_mah": 550
+  },
+  "connectivity": {
+   "gps": "Built-in GNSS"
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 46.45,
+    "width_mm": 40.03,
+    "depth_mm": 9.94
+   },
+   "water": "5 ATM",
+   "water_m": 50
+  }
+ },
+ "redmi-watch-6-active": {
+  "display": {
+   "size_in": 1.85,
+   "type": "AMOLED",
+   "resolution": "450 × 390",
+   "peak_nits": 1200
+  },
+  "battery": {
+   "capacity_mah": 470
+  },
+  "connectivity": {
+   "gps": "Built-in GNSS"
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 44.5,
+    "width_mm": 39.4,
+    "depth_mm": 9.9
+   },
+   "ip": "IP68"
+  },
+  "software": {
+   "launch_os": "Xiaomi HyperOS"
+  }
+ },
+ "redmi-watch-6-lite": {
+  "display": {
+   "size_in": 1.96,
+   "type": "AMOLED",
+   "resolution": "502 × 410",
+   "peak_nits": 1500
+  },
+  "battery": {
+   "capacity_mah": 470
+  },
+  "connectivity": {
+   "gps": "Built-in GNSS"
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 47.1,
+    "width_mm": 39.6,
+    "depth_mm": 9.9
+   },
+   "water": "5 ATM",
+   "water_m": 50
+  },
+  "software": {
+   "launch_os": "Xiaomi HyperOS"
+  }
+ },
+ "xiaomi-smart-band-10-pro": {
+  "display": {
+   "size_in": 1.74,
+   "type": "AMOLED",
+   "resolution": "480 × 336",
+   "peak_nits": 2000
+  },
+  "battery": {
+   "life_h": 504,
+   "capacity_mah": 350
+  },
+  "connectivity": {
+   "gps": "Built-in GNSS"
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 42.83,
+    "width_mm": 32.16,
+    "depth_mm": 9.7
+   },
+   "weight_g": 28.7,
+   "water": "5 ATM",
+   "water_m": 50
+  }
+ },
+ "xiaomi-watch-s4-41mm": {
+  "display": {
+   "size_in": 1.32,
+   "type": "AMOLED",
+   "resolution": "466 × 466",
+   "peak_nits": 1500
+  },
+  "battery": {
+   "life_h": 192,
+   "capacity_mah": 320
+  },
+  "connectivity": {
+   "gps": "Built-in GNSS",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 41.2,
+    "width_mm": 41.2,
+    "depth_mm": 9.5
+   },
+   "water": "5 ATM",
+   "water_m": 50
+  },
+  "software": {
+   "launch_os": "Xiaomi HyperOS 3"
+  }
+ },
+ "xiaomi-watch-5": {
+  "display": {
+   "size_in": 1.54,
+   "type": "AMOLED",
+   "resolution": "480 × 480",
+   "peak_nits": 1500
+  },
+  "battery": {
+   "life_h": 144,
+   "capacity_mah": 930
+  },
+  "connectivity": {
+   "gps": "Built-in GNSS",
+   "nfc": true,
+   "cellular": "LTE option"
+  },
+  "build": {
+   "weight_g": 56.0,
+   "water": "5 ATM",
+   "water_m": 50
+  }
+ }
+}

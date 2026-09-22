@@ -1,0 +1,131 @@
+{
+  "id": "google-pixel-10",
+  "name": "Pixel 10",
+  "brand": "google",
+  "category": "smartphone",
+  "series": "Pixel",
+  "form": "bar",
+  "status": "released",
+  "announced": "2025-08-20",
+  "released": "2025-08-28",
+  "segment": "flagship",
+  "aliases": [
+    "P10"
+  ],
+  "summary": "The first base Pixel with a 5× telephoto, at a mid-flagship price.",
+  "highlights": [
+    "5× telephoto on the base model",
+    "Tensor G5",
+    "7 years of updates"
+  ],
+  "prices": [
+    {
+      "region": "US",
+      "currency": "USD",
+      "amount": 799,
+      "config": "12 GB / 128 GB",
+      "date": "2025-08-20",
+      "type": "launch",
+      "source": "google"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 3999,
+      "config": "12 GB / 128 GB",
+      "date": "2025-08-21",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/08/21/google-pixel-10-pro-10-pro-fold-pixel-watch-4-buds-2a-malaysia-price/",
+      "class": "news",
+      "accessed": "2026-09-16"
+    }
+  ],
+  "image": {
+    "kind": "drawing",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Pixel_10_back_%28Indigo%29.svg/500px-Pixel_10_back_%28Indigo%29.svg.png",
+    "page": "https://commons.wikimedia.org/wiki/File:Pixel_10_back_(Indigo).svg",
+    "title": "Pixel 10 back (Indigo)",
+    "author": "Mliu92",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "checked": "2026-09-17"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.3,
+      "type": "Actua OLED",
+      "resolution": "2424 × 1080",
+      "ppi": 422,
+      "refresh_hz": 120,
+      "peak_nits": 3000
+    },
+    "platform": {
+      "chipset": "google-tensor-g5"
+    },
+    "memory": {
+      "ram_gb": [
+        12
+      ],
+      "storage_gb": [
+        128,
+        256
+      ]
+    },
+    "battery": {
+      "capacity_mah": 4970
+    },
+    "charging": {
+      "wired_w": 29,
+      "wireless_w": 15
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 48,
+          "aperture": "f/1.7"
+        },
+        {
+          "role": "ultrawide",
+          "mp": 13
+        },
+        {
+          "role": "periscope",
+          "mp": 10.8,
+          "zoom_x": 5
+        }
+      ],
+      "zoom_optical_x": 5,
+      "front": "10.5 MP"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 152.8,
+        "width_mm": 72.0,
+        "depth_mm": 8.6
+      },
+      "weight_g": 204,
+      "ip": "IP68"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true
+    },
+    "software": {
+      "launch_os": "Android 16",
+      "os_updates_years": 7,
+      "security_updates_years": 7
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "google",
+      "url": "https://store.google.com",
+      "note": "Compiled from Google's specifications; not re-checked this session."
+    },
+    "fields": {}
+  },
+  "dataStatus": "compiled"
+}

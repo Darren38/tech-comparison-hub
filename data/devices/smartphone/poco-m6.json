@@ -1,0 +1,156 @@
+{
+  "id": "poco-m6",
+  "name": "POCO M6",
+  "brand": "poco",
+  "category": "smartphone",
+  "series": "M",
+  "form": "bar",
+  "status": "released",
+  "announced": "2024-06-12",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 699,
+      "config": "6 GB / 128 GB",
+      "date": "2024-06-12",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2024/06/12/poco-m6-malaysia-official-launch-price-spec-promo/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 799,
+      "config": "8 GB / 256 GB",
+      "date": "2024-06-12",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2024/06/12/poco-m6-malaysia-official-launch-price-spec-promo/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://i02.appmifile.com/62_item_my/06/06/2024/69bb257c4121fd6f5dec971c3f625e3f.png",
+    "page": "https://www.mi.com/my/product/poco-m6/specs/",
+    "credit": "Xiaomi Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.79,
+      "resolution": "2460 × 1080",
+      "refresh_hz": 90,
+      "peak_nits": 550,
+      "ppi": 396
+    },
+    "platform": {
+      "chipset": "helio-g91",
+      "gpu": "Mali-G52 MC2",
+      "cpu": "Cortex-A75+Cortex-A55; Max CPU frequency: 2.0GHz"
+    },
+    "memory": {
+      "ram_gb": [
+        6,
+        8
+      ],
+      "storage_gb": [
+        128,
+        256
+      ],
+      "ram_type": "LPDDR4X"
+    },
+    "battery": {
+      "capacity_mah": 5030
+    },
+    "charging": {
+      "wired_w": 33,
+      "claim": "Supports 33W fast charging"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 108,
+          "aperture": "f/1.75"
+        },
+        {
+          "role": "macro",
+          "mp": 2
+        }
+      ],
+      "front": "13 MP",
+      "rear_detail": [
+        "108MP super-clear main camera, 6P lens, f/1.75",
+        "2MP macro camera, f/2.4",
+        "Film Camera; Custom Frame; 108MP mode; HDR mode; Night mode, Portrait mode; Time-lapse"
+      ],
+      "video": "1080p@30fps",
+      "front_detail": [
+        "13MP front camera, f/2.45"
+      ],
+      "front_video": "1080p@30fps"
+    },
+    "connectivity": {
+      "cellular": "4G",
+      "nfc": true,
+      "bands_3g": "12/4/5/8",
+      "bands_4g": "LTE FDD: 1/2/3/4/5/7/8/20/28/66; LTE TDD: 38/40/41",
+      "technology": "HSPA / LTE",
+      "wifi": "2.4GHz; 5GHz; Supports FM radio(with headphone jack)",
+      "positioning": "GPS; Glonass; Galileo; Beidou",
+      "sim": "SIM1 + Hybrid (SIM or microSD)",
+      "bluetooth": "Bluetooth 5.4",
+      "usb": "USB Type-C"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 168.6,
+        "width_mm": 76.28,
+        "depth_mm": 8.3
+      },
+      "weight_g": 205.0
+    },
+    "software": {
+      "launch_os": "Powered by Xiaomi HyperOS"
+    },
+    "sensors": "Virtual proximity sensor, Ambient light sensor, Accelerometer, Electronic compass",
+    "audio": {
+      "jack": true
+    },
+    "biometrics": {
+      "fingerprint": "Side fingerprint sensor"
+    },
+    "misc": {
+      "colors": "Black, Purple, Silver"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "poco",
+      "url": "https://www.mi.com/my/product/poco-m6/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from Xiaomi Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2024/06/12/poco-m6-malaysia-official-launch-price-spec-promo/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

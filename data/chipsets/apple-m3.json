@@ -1,0 +1,44 @@
+{
+  "id": "apple-m3",
+  "name": "Apple M3",
+  "vendor": "apple",
+  "family": "M-series",
+  "tier": "flagship",
+  "announced": "2023-10-30",
+  "aliases": [
+    "M3"
+  ],
+  "summary": "Used in the 2025 iPad Air with a 9-core GPU.",
+  "process": {
+    "node": "3 nm",
+    "foundry": "TSMC",
+    "name": "N3B"
+  },
+  "cpu": {
+    "cores": 8,
+    "clusters": [
+      {
+        "count": 4,
+        "core": "Performance"
+      },
+      {
+        "count": 4,
+        "core": "Efficiency"
+      }
+    ]
+  },
+  "gpu": {
+    "name": "Apple GPU, 9-core (iPad Air)"
+  },
+  "npu": "16-core Neural Engine",
+  "variants": [],
+  "provenance": {
+    "default": {
+      "class": "database",
+      "source": "apple",
+      "url": "https://www.apple.com",
+      "note": "Compiled from Apple's announcement; not re-checked this session."
+    },
+    "fields": {}
+  }
+}

@@ -1,0 +1,819 @@
+{
+ "apple-iphone-15": {
+  "display": {
+   "size_in": 6.1,
+   "type": "OLED",
+   "resolution": "2556 × 1179",
+   "peak_nits": 2000
+  },
+  "platform": {
+   "chipset_name": "A16 Bionic chip"
+  },
+  "memory": {
+   "storage_gb": [
+    128,
+    256,
+    512
+   ]
+  },
+  "charging": {
+   "wireless_w": 15
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 48
+    },
+    {
+     "role": "ultrawide",
+     "mp": 12
+    },
+    {
+     "role": "telephoto",
+     "mp": 12
+    }
+   ],
+   "front": "12 MP"
+  },
+  "battery": {
+   "video_h": 20
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 147.6,
+    "width_mm": 71.6,
+    "depth_mm": 7.8
+   },
+   "weight_g": 171.0,
+   "ip": "IP68"
+  },
+  "software": {
+   "launch_os": "iOS"
+  }
+ },
+ "apple-iphone-15-plus": {
+  "display": {
+   "size_in": 6.7,
+   "type": "OLED",
+   "resolution": "2796 × 1290",
+   "peak_nits": 2000
+  },
+  "platform": {
+   "chipset_name": "A16 Bionic chip"
+  },
+  "memory": {
+   "storage_gb": [
+    128,
+    256,
+    512
+   ]
+  },
+  "charging": {
+   "wireless_w": 15
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 48
+    },
+    {
+     "role": "ultrawide",
+     "mp": 12
+    },
+    {
+     "role": "telephoto",
+     "mp": 12
+    }
+   ],
+   "front": "12 MP"
+  },
+  "battery": {
+   "video_h": 26
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 160.9,
+    "width_mm": 77.8,
+    "depth_mm": 7.8
+   },
+   "weight_g": 201.0,
+   "ip": "IP68"
+  },
+  "software": {
+   "launch_os": "iOS"
+  }
+ },
+ "apple-iphone-15-pro": {
+  "display": {
+   "size_in": 6.1,
+   "type": "OLED",
+   "resolution": "2556 × 1179",
+   "refresh_hz": 120,
+   "peak_nits": 2000
+  },
+  "platform": {
+   "chipset_name": "A17 Pro chip"
+  },
+  "memory": {
+   "storage_gb": [
+    128,
+    256,
+    512
+   ]
+  },
+  "charging": {
+   "wireless_w": 15
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 48
+    },
+    {
+     "role": "ultrawide",
+     "mp": 12
+    },
+    {
+     "role": "telephoto",
+     "mp": 12
+    }
+   ],
+   "front": "12 MP"
+  },
+  "battery": {
+   "video_h": 23
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 146.6,
+    "width_mm": 70.6,
+    "depth_mm": 8.25
+   },
+   "weight_g": 187.0,
+   "ip": "IP68"
+  },
+  "software": {
+   "launch_os": "iOS"
+  }
+ },
+ "apple-iphone-15-pro-max": {
+  "display": {
+   "size_in": 6.7,
+   "type": "OLED",
+   "resolution": "2796 × 1290",
+   "refresh_hz": 120,
+   "peak_nits": 2000
+  },
+  "platform": {
+   "chipset_name": "A17 Pro chip"
+  },
+  "memory": {
+   "storage_gb": [
+    256,
+    512
+   ]
+  },
+  "charging": {
+   "wireless_w": 15
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 48
+    },
+    {
+     "role": "ultrawide",
+     "mp": 12
+    },
+    {
+     "role": "telephoto",
+     "mp": 12
+    }
+   ],
+   "front": "12 MP"
+  },
+  "battery": {
+   "video_h": 29
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 159.9,
+    "width_mm": 76.7,
+    "depth_mm": 8.25
+   },
+   "weight_g": 221.0,
+   "ip": "IP68"
+  },
+  "software": {
+   "launch_os": "iOS"
+  }
+ },
+ "apple-iphone-16": {
+  "display": {
+   "size_in": 6.1,
+   "type": "OLED",
+   "resolution": "2556 × 1179",
+   "peak_nits": 2000
+  },
+  "platform": {
+   "chipset_name": "A18 chip"
+  },
+  "memory": {
+   "storage_gb": [
+    128,
+    256,
+    512
+   ]
+  },
+  "charging": {
+   "wired_w": 30,
+   "wireless_w": 25
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 48
+    },
+    {
+     "role": "telephoto",
+     "mp": 12
+    },
+    {
+     "role": "ultrawide",
+     "mp": 12
+    }
+   ]
+  },
+  "battery": {
+   "video_h": 22
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 147.6,
+    "width_mm": 71.6,
+    "depth_mm": 7.8
+   },
+   "weight_g": 170.0,
+   "ip": "IP68"
+  },
+  "software": {
+   "launch_os": "iOS"
+  }
+ },
+ "apple-iphone-16-plus": {
+  "display": {
+   "size_in": 6.7,
+   "type": "OLED",
+   "resolution": "2796 × 1290",
+   "peak_nits": 2000
+  },
+  "platform": {
+   "chipset_name": "A18 chip"
+  },
+  "memory": {
+   "storage_gb": [
+    128,
+    256,
+    512
+   ]
+  },
+  "charging": {
+   "wired_w": 30,
+   "wireless_w": 25
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 48
+    },
+    {
+     "role": "telephoto",
+     "mp": 12
+    },
+    {
+     "role": "ultrawide",
+     "mp": 12
+    }
+   ]
+  },
+  "battery": {
+   "video_h": 27
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 160.9,
+    "width_mm": 77.8,
+    "depth_mm": 7.8
+   },
+   "weight_g": 199.0,
+   "ip": "IP68"
+  },
+  "software": {
+   "launch_os": "iOS"
+  }
+ },
+ "apple-iphone-16-pro": {
+  "display": {
+   "size_in": 6.3,
+   "type": "OLED",
+   "resolution": "2622 × 1206",
+   "refresh_hz": 120,
+   "peak_nits": 2000
+  },
+  "platform": {
+   "chipset_name": "A18 Pro chip"
+  },
+  "memory": {
+   "storage_gb": [
+    128,
+    256,
+    512
+   ]
+  },
+  "charging": {
+   "wired_w": 30,
+   "wireless_w": 25
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 48
+    },
+    {
+     "role": "telephoto",
+     "mp": 12
+    },
+    {
+     "role": "ultrawide",
+     "mp": 48
+    }
+   ]
+  },
+  "battery": {
+   "video_h": 27
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 149.6,
+    "width_mm": 71.5,
+    "depth_mm": 8.25
+   },
+   "weight_g": 199.0,
+   "ip": "IP68"
+  },
+  "software": {
+   "launch_os": "iOS"
+  }
+ },
+ "apple-iphone-16e": {
+  "display": {
+   "size_in": 6.1,
+   "type": "OLED",
+   "resolution": "2532 × 1170",
+   "peak_nits": 1200
+  },
+  "platform": {
+   "chipset_name": "A18 chip"
+  },
+  "memory": {
+   "storage_gb": [
+    128,
+    256,
+    512
+   ]
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 48
+    },
+    {
+     "role": "telephoto",
+     "mp": 12
+    }
+   ]
+  },
+  "battery": {
+   "video_h": 26
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 146.7,
+    "width_mm": 71.5,
+    "depth_mm": 7.8
+   },
+   "weight_g": 167.0,
+   "ip": "IP68"
+  },
+  "software": {
+   "launch_os": "iOS 26"
+  }
+ },
+ "apple-iphone-air": {
+  "display": {
+   "size_in": 6.5,
+   "type": "OLED",
+   "resolution": "2736 × 1260",
+   "refresh_hz": 120,
+   "peak_nits": 3000
+  },
+  "platform": {
+   "chipset_name": "A19 Pro chip"
+  },
+  "memory": {
+   "storage_gb": [
+    256,
+    512
+   ]
+  },
+  "charging": {
+   "wired_w": 60,
+   "wireless_w": 20
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 48
+    },
+    {
+     "role": "telephoto",
+     "mp": 12
+    }
+   ],
+   "front": "18 MP"
+  },
+  "battery": {
+   "video_h": 27
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 156.2,
+    "width_mm": 74.7,
+    "depth_mm": 5.64
+   },
+   "weight_g": 165.0,
+   "ip": "IP68"
+  },
+  "software": {
+   "launch_os": "iOS"
+  }
+ },
+ "apple-iphone-17e": {
+  "display": {
+   "size_in": 6.1,
+   "type": "OLED",
+   "resolution": "2532 × 1170",
+   "peak_nits": 1200
+  },
+  "platform": {
+   "chipset_name": "A19 chip"
+  },
+  "memory": {
+   "storage_gb": [
+    256,
+    512
+   ]
+  },
+  "charging": {
+   "wireless_w": 15
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 48
+    },
+    {
+     "role": "telephoto",
+     "mp": 12
+    }
+   ],
+   "front": "12 MP"
+  },
+  "battery": {
+   "video_h": 26
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 146.7,
+    "width_mm": 71.5,
+    "depth_mm": 7.8
+   },
+   "weight_g": 170.0,
+   "ip": "IP68"
+  },
+  "software": {
+   "launch_os": "iOS 26"
+  }
+ },
+ "apple-iphone-18-pro": {
+  "display": {
+   "size_in": 6.3,
+   "type": "OLED",
+   "resolution": "2622 × 1206",
+   "refresh_hz": 120,
+   "peak_nits": 3000
+  },
+  "platform": {
+   "chipset_name": "A20 Pro chip"
+  },
+  "memory": {
+   "storage_gb": [
+    256,
+    512
+   ]
+  },
+  "charging": {
+   "wired_w": 60,
+   "wireless_w": 25
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 48
+    },
+    {
+     "role": "telephoto",
+     "mp": 12
+    },
+    {
+     "role": "ultrawide",
+     "mp": 48
+    },
+    {
+     "role": "telephoto",
+     "mp": 48
+    }
+   ],
+   "front": "18 MP"
+  },
+  "battery": {
+   "video_h": 34
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "weight_g": 211.0,
+   "ip": "IP68"
+  },
+  "software": {
+   "launch_os": "iOS 27"
+  }
+ },
+ "apple-iphone-duo": {
+  "display": {
+   "size_in": 7.6,
+   "type": "OLED",
+   "resolution": "2670 × 1878",
+   "refresh_hz": 120,
+   "peak_nits": 3000
+  },
+  "platform": {
+   "chipset_name": "A20 Pro chip"
+  },
+  "memory": {
+   "storage_gb": [
+    256,
+    512
+   ]
+  },
+  "charging": {
+   "wired_w": 60,
+   "wireless_w": 25
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 48
+    },
+    {
+     "role": "telephoto",
+     "mp": 12
+    },
+    {
+     "role": "ultrawide",
+     "mp": 48
+    }
+   ],
+   "front": "12 MP"
+  },
+  "battery": {
+   "video_h": 44
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "weight_g": 254.0,
+   "ip": "IP68"
+  },
+  "software": {
+   "launch_os": "iOS 27"
+  }
+ },
+ "apple-watch-series-9": {
+  "display": {
+   "type": "LTPO OLED",
+   "peak_nits": 2000
+  },
+  "battery": {
+   "life_h": 36
+  },
+  "connectivity": {
+   "gps": "Built-in GNSS",
+   "cellular": "LTE option"
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 45.0,
+    "width_mm": 38.0,
+    "depth_mm": 10.7
+   },
+   "weight_g": 38.7,
+   "water": "50 m",
+   "water_m": 50
+  },
+  "software": {
+   "launch_os": "watchOS"
+  }
+ },
+ "apple-watch-ultra-2": {
+  "display": {
+   "type": "OLED",
+   "resolution": "502 × 410",
+   "peak_nits": 3000
+  },
+  "battery": {
+   "life_h": 72
+  },
+  "connectivity": {
+   "gps": "Built-in GNSS",
+   "cellular": "LTE option"
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 49.0,
+    "width_mm": 44.0,
+    "depth_mm": 12.0
+   },
+   "weight_g": 61.4,
+   "water": "100 m",
+   "water_m": 100
+  },
+  "software": {
+   "launch_os": "watchOS"
+  }
+ },
+ "apple-watch-series-10": {
+  "display": {
+   "type": "OLED",
+   "resolution": "496 × 416",
+   "peak_nits": 2000
+  },
+  "battery": {
+   "life_h": 36
+  },
+  "connectivity": {
+   "gps": "Built-in GNSS",
+   "cellular": "LTE option"
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 46.0,
+    "width_mm": 39.0,
+    "depth_mm": 9.7
+   },
+   "weight_g": 36.4,
+   "water": "50 m",
+   "water_m": 50
+  },
+  "software": {
+   "launch_os": "watchOS"
+  }
+ },
+ "apple-watch-se-3": {
+  "display": {
+   "type": "OLED",
+   "resolution": "448 × 368",
+   "peak_nits": 1000
+  },
+  "battery": {
+   "life_h": 32
+  },
+  "connectivity": {
+   "gps": "Built-in GNSS",
+   "cellular": "LTE option"
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 44.0,
+    "width_mm": 38.0,
+    "depth_mm": 10.7
+   },
+   "weight_g": 32.9,
+   "water": "50 m",
+   "water_m": 50
+  },
+  "software": {
+   "launch_os": "watchOS"
+  }
+ },
+ "apple-watch-series-12": {
+  "display": {
+   "type": "OLED",
+   "resolution": "496 × 416",
+   "peak_nits": 2000
+  },
+  "battery": {
+   "life_h": 38
+  },
+  "connectivity": {
+   "gps": "Built-in GNSS",
+   "cellular": "LTE option"
+  },
+  "build": {
+   "weight_g": 39.5,
+   "water": "50 m",
+   "water_m": 50
+  },
+  "software": {
+   "launch_os": "watchOS"
+  }
+ },
+ "apple-watch-ultra-4": {
+  "display": {
+   "type": "OLED",
+   "resolution": "514 × 422",
+   "peak_nits": 3000
+  },
+  "battery": {
+   "life_h": 84
+  },
+  "connectivity": {
+   "gps": "Built-in GNSS",
+   "cellular": "LTE option"
+  },
+  "build": {
+   "weight_g": 63.0,
+   "water": "100 m",
+   "water_m": 100
+  },
+  "software": {
+   "launch_os": "watchOS"
+  }
+ }
+}

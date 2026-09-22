@@ -1,0 +1,112 @@
+{
+  "id": "xiaomi-watch-s4-41mm",
+  "name": "Xiaomi Watch S4 41mm",
+  "brand": "xiaomi",
+  "category": "smartwatch",
+  "series": "Watch",
+  "form": "watch",
+  "status": "released",
+  "announced": "2025-09-26",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 699,
+      "config": "Black or Mint Green fluororubber strap",
+      "date": "2025-09-26",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2025/367361/xiaomi-watch-s4-41mm-smart-band-10-glimmer-edition-open-wear-stereo-pro-malaysia/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 749,
+      "config": "White leather strap",
+      "date": "2025-09-26",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2025/367361/xiaomi-watch-s4-41mm-smart-band-10-glimmer-edition-open-wear-stereo-pro-malaysia/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 999,
+      "config": "Sunset Gold Milanese strap",
+      "date": "2025-09-26",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2025/367361/xiaomi-watch-s4-41mm-smart-band-10-glimmer-edition-open-wear-stereo-pro-malaysia/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 1.32,
+      "type": "AMOLED",
+      "resolution": "466 × 466",
+      "peak_nits": 1500
+    },
+    "battery": {
+      "life_h": 192,
+      "capacity_mah": 320
+    },
+    "connectivity": {
+      "gps": "Built-in GNSS",
+      "nfc": true,
+      "usb": "2-Pin magnetic charging dock; Package contents; Xiaomi Watch S4 41mm / Magnetic charging dock / User manual (including warranty notice)",
+      "bluetooth": "Bluetooth 5.4"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 41.2,
+        "width_mm": 41.2,
+        "depth_mm": 9.5
+      },
+      "water": "5 ATM",
+      "water_m": 50,
+      "frame": "Stainless steel; Strap; Black: fluororubber strap; Adjustable strap length: 120-190mm approx.; Mint green: fluororubber strap; Adjustable strap length: 120-190mm approx."
+    },
+    "software": {
+      "launch_os": "Xiaomi HyperOS 3"
+    },
+    "sensors": "Heart rate sensor (with blood oxygen sensor), Accelerometer, Gyroscope, Ambient light sensor, Electronic compass, Barometer sensor, Temperature sensor, Satellite positioning systems, GPS, Galileo, Glonass, BeiDou, QZSS",
+    "audio": {
+      "speakers": "Microphone: 1 mic"
+    },
+    "misc": {
+      "colors": "Sunset gold, Black, Mint green, White"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "xiaomi",
+      "url": "https://www.mi.com/my/product/xiaomi-watch-s4-41mm/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from Xiaomi Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "lowyat",
+        "url": "https://www.lowyat.net/2025/367361/xiaomi-watch-s4-41mm-smart-band-10-glimmer-edition-open-wear-stereo-pro-malaysia/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (Lowyat.NET). The global announcement can be earlier."
+      }
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://i02.appmifile.com/450_operatorx_operatorx_xm/16/09/2025/3dde321016a79f6316c16d8bb93e4409.png",
+    "page": "https://web.archive.org/web/20260413171600/https://www.mi.com/global/product/xiaomi-watch-s4-41mm/",
+    "credit": "Xiaomi",
+    "checked": "2026-09-19"
+  }
+}

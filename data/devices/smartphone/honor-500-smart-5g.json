@@ -1,0 +1,109 @@
+{
+  "id": "honor-500-smart-5g",
+  "name": "HONOR 500 Smart 5G",
+  "brand": "honor",
+  "category": "smartphone",
+  "series": "Number",
+  "form": "bar",
+  "status": "released",
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-18",
+      "source": "honor",
+      "url": "https://www.honor.com/my/phones/honor-500-smart-5g/spec/",
+      "note": "Sold in Malaysia, but no launch price was found in Malaysian launch coverage."
+    }
+  },
+  "image": {
+    "kind": "official",
+    "src": "https://www.honor.com/content/dam/honor/common/product-list/product-series/honor-500-smart-5g/honor-500-smart-5g-id-cyan-list.png",
+    "page": "https://www.honor.com/my/phones/honor-500-smart-5g/spec/",
+    "credit": "HONOR Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.75,
+      "type": "LCD",
+      "resolution": "1600 × 720",
+      "ppi": 260
+    },
+    "platform": {
+      "chipset": "dimensity-6300",
+      "gpu": "ARM G57 MC2",
+      "cpu": "Octa-core; 2xA76 2.4GHz + 6xA55 2.0GHz"
+    },
+    "battery": {
+      "capacity_mah": 5260,
+      "chemistry": "Lithium-ion"
+    },
+    "charging": {
+      "wired_w": 15,
+      "claim": "Supported 15W"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "aperture": "f/1.8"
+        }
+      ],
+      "front": "5 MP",
+      "rear_detail": [
+        "50MP Main Camera(f/1.8), QVGA 0.08MP"
+      ],
+      "features": "10X Digital zoom",
+      "video": "1080p",
+      "front_detail": [
+        "5 MP Camera (f/2.2 aperture)"
+      ]
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "technology": "GSM / HSPA / LTE / 5G",
+      "sim": "Nano SIM card",
+      "wifi": "Support 802.11 a/b/g/n/ac 2.4GHz and 5GHz; Support Wi-Fi hotspot and Wi-Fi Direct",
+      "usb": "Type-C,USB 2.0",
+      "positioning": "Supported GPS/AGPS/Glonass/BeiDou/Galileo/QZSS",
+      "bluetooth": "Bluetooth"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 167.0,
+        "width_mm": 77.0,
+        "depth_mm": 7.89
+      },
+      "weight_g": 186.0,
+      "ip": "IP54"
+    },
+    "software": {
+      "launch_os": "Android 16"
+    },
+    "biometrics": {
+      "face": "Yes"
+    },
+    "audio": {
+      "jack": true
+    },
+    "sensors": "Gravity Sensor, Fingerprint Sensor, Acceleration Sensor, Ambient Light Sensor, Proximity Sensor, Media and Audio"
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "honor",
+      "url": "https://www.honor.com/my/phones/honor-500-smart-5g/spec/",
+      "checked": "2026-09-18",
+      "note": "Read from HONOR Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

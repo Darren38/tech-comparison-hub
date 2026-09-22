@@ -1,0 +1,133 @@
+{
+  "id": "redmi-note-13-pro",
+  "name": "Redmi Note 13 Pro",
+  "brand": "redmi",
+  "category": "smartphone",
+  "series": "Redmi Note",
+  "form": "bar",
+  "status": "released",
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-18",
+      "source": "redmi",
+      "url": "https://www.mi.com/global/product/redmi-note-13-pro/specs/",
+      "note": "Sold in Malaysia, but no launch price was found in Malaysian launch coverage."
+    }
+  },
+  "image": {
+    "kind": "official",
+    "src": "https://i02.appmifile.com/13_operatorx_operatorx_opx/11/01/2024/25da829b5997ff8aea28af388df3b8df.png",
+    "page": "https://www.mi.com/global/product/redmi-note-13-pro/specs/",
+    "credit": "Xiaomi",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.67,
+      "type": "AMOLED",
+      "resolution": "2400 × 1080",
+      "refresh_hz": 120,
+      "peak_nits": 1300,
+      "protection": "Corning Gorilla Glass 5",
+      "ppi": 395
+    },
+    "platform": {
+      "chipset": "helio-g99",
+      "gpu": "Mali-G57 MC2",
+      "cpu": "Octa-core processor, up to 2.2GHz"
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "charging": {
+      "wired_w": 67,
+      "claim": "Supports 67W turbo charging; 67W in-box charger"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 200,
+          "aperture": "f/1.65",
+          "ois": true
+        },
+        {
+          "role": "ultrawide",
+          "mp": 8
+        },
+        {
+          "role": "macro",
+          "mp": 2
+        }
+      ],
+      "front": "16 MP",
+      "rear_detail": [
+        "200MP main camera, OIS, f/1.65, 2.24µm 16-in-1 Super Pixels, 7P lens",
+        "8MP ultra-wide camera, f/2.2",
+        "2MP macro camera, f/2.4"
+      ],
+      "video": "1080p@60fps",
+      "front_detail": [
+        "16MP camera, f/2.4"
+      ],
+      "front_video": "1080p@60fps"
+    },
+    "connectivity": {
+      "cellular": "4G",
+      "nfc": true,
+      "bands_3g": "1/2/4/5/6/8/19",
+      "bands_4g": "LTE FDD: 1/2/3/4/5/7/8/12/13/17/18/19/20/26/28/66; LTE TDD: 38/40/41",
+      "technology": "HSPA / LTE",
+      "wifi": "802.11a/b/g/n/ac",
+      "positioning": "L1; GLONASS: G1; BDS: B1; Galileo E1",
+      "sim": "SIM 1 + Hybrid (SIM or microSD)",
+      "bluetooth": "Bluetooth 5.2",
+      "usb": "USB-C"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 161.1,
+        "width_mm": 74.95,
+        "depth_mm": 7.98
+      },
+      "weight_g": 188.0,
+      "ip": "IP54"
+    },
+    "software": {
+      "launch_os": "MIUI 14"
+    },
+    "sensors": "Proximity sensor, Ambient light sensor, Accelerometer, Electronic compass, IR blaster, Gyroscope",
+    "audio": {
+      "speakers": "Dual speakers",
+      "jack": true
+    },
+    "memory": {
+      "ram_type": "LPDDR4X",
+      "storage_type": "UFS2.2"
+    },
+    "biometrics": {
+      "fingerprint": "In-screen fingerprint sensor"
+    },
+    "misc": {
+      "colors": "Midnight Black, Forest Green, Lavender Purple"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "redmi",
+      "url": "https://www.mi.com/global/product/redmi-note-13-pro/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from Xiaomi Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

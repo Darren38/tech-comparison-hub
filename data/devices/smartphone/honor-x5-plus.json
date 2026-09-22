@@ -1,0 +1,130 @@
+{
+  "id": "honor-x5-plus",
+  "name": "HONOR X5 Plus",
+  "brand": "honor",
+  "category": "smartphone",
+  "series": "X",
+  "form": "bar",
+  "status": "released",
+  "announced": "2023-09-06",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 449,
+      "config": "4 GB / 64 GB",
+      "date": "2023-09-06",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2023/09/06/honor-x6a-and-honor-x5-plus-malaysia-budget-smartphones-with-50mp-camera-and-5200mah-battery-under-rm600/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://www.honor.com/content/dam/honor/my/products/smartphone/honor-x5-plus/img/share.png",
+    "page": "https://www.honor.com/my/phones/honor-x5-plus/spec/",
+    "credit": "HONOR Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.56,
+      "type": "LCD",
+      "resolution": "1612 × 720",
+      "refresh_hz": 90,
+      "ppi": 269
+    },
+    "platform": {
+      "chipset": "helio-g36",
+      "gpu": "IMG GE8320",
+      "cpu": "Octa-core; 4*Cortex-A53 up to 2.2Ghz+4*Cortex-A53 up to 1.6Ghz"
+    },
+    "memory": {
+      "ram_gb": [
+        4
+      ],
+      "storage_gb": [
+        64
+      ]
+    },
+    "battery": {
+      "capacity_mah": 5200,
+      "chemistry": "Lithium Polymer"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "aperture": "f/1.8"
+        }
+      ],
+      "front": "5 MP",
+      "rear_detail": [
+        "50 MP camera (f/1.8)",
+        "depth camera (f/2.4)"
+      ],
+      "features": "10x Digital Zoom",
+      "video": "1080p",
+      "front_detail": [
+        "5 MP Camera (f/2.2 aperture)"
+      ]
+    },
+    "connectivity": {
+      "cellular": "4G",
+      "technology": "GSM / HSPA / LTE",
+      "sim": "Nano SIM card",
+      "wifi": "802.11 a/b/g/n/ac",
+      "positioning": "Support GPS/AGPS/GLONASS/BeiDou/Galileo; Network-Based Positioning; Wi-Fi-Based Positioning",
+      "usb": "Type-C, USB 2.0",
+      "bluetooth": "Bluetooth"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 163.32,
+        "width_mm": 75.07,
+        "depth_mm": 8.35
+      },
+      "weight_g": 188.0
+    },
+    "software": {
+      "launch_os": "MagicOS 7.1 (Based on Android 13)"
+    },
+    "biometrics": {
+      "face": "Yes"
+    },
+    "charging": {
+      "claim": "5V/2A"
+    },
+    "sensors": "Gravity Sensor, Fingerprint Sensor, Ambient Light Sensor, Proximity Sensor, Media and Audio",
+    "audio": {
+      "jack": true
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "honor",
+      "url": "https://www.honor.com/my/phones/honor-x5-plus/spec/",
+      "checked": "2026-09-18",
+      "note": "Read from HONOR Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2023/09/06/honor-x6a-and-honor-x5-plus-malaysia-budget-smartphones-with-50mp-camera-and-5200mah-battery-under-rm600/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

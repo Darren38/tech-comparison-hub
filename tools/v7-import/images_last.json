@@ -1,0 +1,56 @@
+{
+ "poco-f7-ultra": [
+  {
+   "src": "https://i02.appmifile.com/423_item_my/25/03/2025/7460d1e6cef366311088c73c6531de01.png",
+   "page": "https://www.mi.com/my/product/poco-f7-ultra/"
+  }
+ ],
+ "poco-m8": [
+  {
+   "src": "https://i02.appmifile.com/492_operatorx_operatorx_opx/08/01/2026/3c9dc3f6540803726747516b90f093ee.png",
+   "page": "https://www.mi.com/global/product/poco-m8-5g/"
+  }
+ ],
+ "poco-m8-pro": [
+  {
+   "src": "https://i02.appmifile.com/802_item_my/04/01/2026/a220ae802ec0cd9d6b05122559c46ea1.png",
+   "page": "https://www.mi.com/my/product/poco-m8-pro-5g/"
+  }
+ ],
+ "poco-x6-5g": [
+  {
+   "src": "https://i02.appmifile.com/848_item_my/02/04/2024/6960ae2c166a4f8676fd24686d5d9772.png",
+   "page": "https://www.mi.com/my/product/poco-x6/"
+  }
+ ],
+ "poco-x6-pro-5g": [
+  {
+   "src": "https://i02.appmifile.com/14_item_my/02/04/2024/621eccb57e736e05723cc34dd543848e.png",
+   "page": "https://www.mi.com/my/product/poco-x6-pro/"
+  }
+ ],
+ "oppo-a7-pro-max": [
+  {
+   "src": "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-a7-pro-serice-en/list-page/a7-pro-max/480-600-blue.png",
+   "page": "https://www.oppo.com/my/smartphones/series-a/a7-pro-max-5g/"
+  }
+ ],
+ "oppo-a5i-pro-5g": [
+  {
+   "src": "https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/a5-series-en/v5/listpage/448-600-blue-v3.png",
+   "page": "https://www.oppo.com/id/smartphones/series-a/a5i-pro-5g/"
+  }
+ ],
+ "asus-rog-phone-9-pro": [
+  {
+   "src": "https://dlcdnwebimgs.asus.com/gain/8D85BFE0-F7E5-406E-96D7-79D35CB96648",
+   "page": "https://rog.asus.com/phones/rog-phone-9-pro/"
+  }
+ ],
+ "redmagic-11-pro": [
+  {
+   "src": "http://global.redmagic.gg/cdn/shop/files/3colors.png?v=1776831489",
+   "page": "https://global.redmagic.gg/products/redmagic-11-pro"
+  }
+ ]
+}

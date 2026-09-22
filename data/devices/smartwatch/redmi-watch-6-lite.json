@@ -1,0 +1,81 @@
+{
+  "id": "redmi-watch-6-lite",
+  "name": "Redmi Watch 6 Lite",
+  "brand": "redmi",
+  "category": "smartwatch",
+  "series": "Watch",
+  "form": "watch",
+  "status": "released",
+  "announced": "2026-09-03",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 299,
+      "date": "2026-09-03",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2026/403058/xiaomi-smart-band-11-active-redmi-watch-6-active-watch-6-lite/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 1.96,
+      "type": "AMOLED",
+      "resolution": "502 × 410",
+      "peak_nits": 1500
+    },
+    "battery": {
+      "capacity_mah": 470
+    },
+    "connectivity": {
+      "gps": "Built-in GNSS",
+      "bluetooth": "Bluetooth 5.3"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 47.1,
+        "width_mm": 39.6,
+        "depth_mm": 9.9
+      },
+      "water": "5 ATM",
+      "water_m": 50,
+      "frame": "Plastic (with metallic spray coating); Strap; TPU strap"
+    },
+    "software": {
+      "launch_os": "Xiaomi HyperOS"
+    },
+    "sensors": "Heart rate sensor (with blood oxygen sensor), Accelerometer, Gyroscope, Ambient light sensor, Electronic compass, Satellite positioning systems, GPS, Galileo, Glonass, BeiDou, QZSS",
+    "misc": {
+      "colors": "Black, Steel Gray"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "redmi",
+      "url": "https://www.mi.com/my/product/redmi-watch-6-lite/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from Xiaomi Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "lowyat",
+        "url": "https://www.lowyat.net/2026/403058/xiaomi-smart-band-11-active-redmi-watch-6-active-watch-6-lite/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (Lowyat.NET). The global announcement can be earlier."
+      }
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://i02.appmifile.com/345_operatorx_operatorx_opx/26/08/2026/2c0c9f9ae2a7dd46377365fd57f69314.png",
+    "page": "https://www.mi.com/global/product/redmi-watch-6-lite/specs/",
+    "credit": "Xiaomi",
+    "checked": "2026-09-19"
+  }
+}

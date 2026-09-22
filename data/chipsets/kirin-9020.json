@@ -1,0 +1,54 @@
+{
+  "id": "kirin-9020",
+  "name": "Kirin 9020",
+  "vendor": "hisilicon",
+  "family": "Kirin",
+  "tier": "flagship",
+  "announced": "2024-11-26",
+  "aliases": [
+    "Kirin9020"
+  ],
+  "summary": "Huawei's in-house flagship chip (Mate 70, Pura 80). Huawei publishes almost no technical details, so most figures come from third-party reports.",
+  "process": {
+    "node": "Undisclosed (SMIC 7 nm-class, reported)"
+  },
+  "cpu": {
+    "cores": 8,
+    "clusters": [
+      {
+        "count": 1,
+        "core": "TaiShan (big)",
+        "ghz": 2.5
+      },
+      {
+        "count": 3,
+        "core": "TaiShan (mid)",
+        "ghz": 2.15
+      },
+      {
+        "count": 4,
+        "core": "Efficiency",
+        "ghz": 1.6
+      }
+    ]
+  },
+  "gpu": {
+    "name": "Maleoon 920"
+  },
+  "variants": [],
+  "provenance": {
+    "default": {
+      "class": "database",
+      "source": "hisilicon",
+      "url": "https://www.hisilicon.com",
+      "note": "Huawei does not publish a spec sheet. Values come from third-party reports and benchmark listings."
+    },
+    "fields": {
+      "process.node": {
+        "class": "estimated",
+        "source": "notebookcheck",
+        "note": "Manufacturing node is not confirmed by Huawei."
+      }
+    }
+  }
+}

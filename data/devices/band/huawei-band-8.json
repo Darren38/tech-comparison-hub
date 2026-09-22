@@ -1,0 +1,83 @@
+{
+  "id": "huawei-band-8",
+  "name": "Huawei Band 8",
+  "brand": "huawei",
+  "category": "band",
+  "series": "Band",
+  "form": "band",
+  "status": "released",
+  "announced": "2023-09-27",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 199,
+      "date": "2023-09-27",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2023/308130/xiaomi-watch-2-pro-smart-band-8/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/admin-image/wearables/band8/specs/specs-img.png",
+    "page": "https://consumer.huawei.com/my/wearables/band8/specs/",
+    "credit": "Huawei Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 1.47,
+      "type": "AMOLED",
+      "resolution": "368 × 194"
+    },
+    "battery": {
+      "life_h": 216
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 43.45,
+        "width_mm": 24.54,
+        "depth_mm": 8.99
+      },
+      "weight_g": 14.0,
+      "water": "5 ATM",
+      "water_m": 50
+    },
+    "software": {
+      "launch_os": "EMUI 5.0"
+    },
+    "sensors": "6-axis inertial sensors (accelerometer, gyroscope), Optical heart rate sensor, Button, Full-screen touch + side button",
+    "connectivity": {
+      "usb": "Magnetic charging port; System Requirements; EMUI 5.0 or later; Android 8.0 or later; iOS 9.0 or later; Waterproof Level",
+      "bluetooth": "BT 5.0"
+    },
+    "charging": {
+      "claim": "Charger voltage and current requirements; 5V/1A"
+    },
+    "misc": {
+      "colors": "Emerald Green, Sakura Pink, Mid-night Black, Vibrant Orange"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "huawei",
+      "url": "https://consumer.huawei.com/my/wearables/band8/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from Huawei Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "lowyat",
+        "url": "https://www.lowyat.net/2023/308130/xiaomi-watch-2-pro-smart-band-8/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (Lowyat.NET). The global announcement can be earlier."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

@@ -1,0 +1,146 @@
+{
+  "id": "honor-x7a",
+  "name": "HONOR X7a",
+  "brand": "honor",
+  "category": "smartphone",
+  "series": "X",
+  "form": "bar",
+  "status": "released",
+  "announced": "2023-01-06",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 799,
+      "config": "6 GB / 128 GB",
+      "date": "2023-01-06",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2023/01/06/the-honor-x7a-is-a-sub-rm800-smartphone-with-a-massive-6000mah-battery/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://www.honor.com/content/dam/honor/my/products/smartphone/honor-x7a/imgs/facebook-x7a.jpg",
+    "page": "https://www.honor.com/my/phones/honor-x7a/spec/",
+    "credit": "HONOR Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.745,
+      "type": "LCD",
+      "resolution": "1600 × 720",
+      "ppi": 260
+    },
+    "platform": {
+      "chipset": "mediatek-mt6765",
+      "gpu": "IMG PowerVR GE8320",
+      "cpu": "Octa-core processors; 4xA53 2.3GHz+4xA53 1.7Ghz"
+    },
+    "memory": {
+      "ram_gb": [
+        6
+      ],
+      "storage_gb": [
+        128
+      ],
+      "storage_type": "Supports up to 1TB expansion"
+    },
+    "battery": {
+      "capacity_mah": 6000,
+      "chemistry": "Lithium-ion"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50
+        },
+        {
+          "role": "main",
+          "mp": 5
+        },
+        {
+          "role": "depth",
+          "mp": 2
+        },
+        {
+          "role": "macro",
+          "mp": 2
+        }
+      ],
+      "rear_text": "Rear: 50MP HD Camera (F1.8) + 5MP Wide Angle Camera (F2.2) + 2MP Depth Camera (F2.4) + 2MP Macro Camera (F2.4)",
+      "front": "8 MP",
+      "rear_detail": [
+        "50MP HD Camera (F1.8)",
+        "5MP Wide Angle Camera (F2.2)",
+        "2MP Depth Camera (F2.4)",
+        "2MP Macro Camera (F2.4)"
+      ],
+      "features": "Up to 10x digital zoom",
+      "video": "1080p",
+      "front_detail": [
+        "8 MP Camera (f/2.0)"
+      ]
+    },
+    "connectivity": {
+      "cellular": "4G",
+      "technology": "GSM / HSPA / LTE",
+      "sim": "Nano Card",
+      "wifi": "802.11 a/b/g/n/ac",
+      "positioning": "Support GPS/AGPS/GLONASS/BeiDou/ Galileo; Network-Based Positioning; Wi-Fi-Based Positioning",
+      "usb": "Type-C, supports USB 2.0",
+      "bluetooth": "Bluetooth"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 167.48,
+        "width_mm": 76.85,
+        "depth_mm": 8.27
+      },
+      "weight_g": 196.0
+    },
+    "software": {
+      "launch_os": "Magic UI 6.1 (based on Android 12)"
+    },
+    "biometrics": {
+      "face": "Support 2D Face Recognition",
+      "fingerprint": "side fingerprint"
+    },
+    "charging": {
+      "claim": "Support up to 10V/2.25A super charge",
+      "wired_w": 22
+    },
+    "sensors": "Gravity Sensor, Fingerprint Sensor, Support (side fingerprint), support fingerprint unlock, Compass, Ambient Light Sensor, Proximity Sensor, Media and Audio",
+    "audio": {
+      "jack": true
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "honor",
+      "url": "https://www.honor.com/my/phones/honor-x7a/spec/",
+      "checked": "2026-09-18",
+      "note": "Read from HONOR Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2023/01/06/the-honor-x7a-is-a-sub-rm800-smartphone-with-a-massive-6000mah-battery/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

@@ -1,0 +1,112 @@
+{
+  "id": "vivo-x200-ultra",
+  "name": "vivo X200 Ultra",
+  "brand": "vivo",
+  "category": "smartphone",
+  "series": "vivo X",
+  "form": "bar",
+  "status": "released",
+  "announced": "2025-04-21",
+  "released": "2025-04",
+  "segment": "camera-flagship",
+  "aliases": [
+    "X200 Ultra"
+  ],
+  "summary": "China-only 2025 camera flagship built around three large sensors (14 mm, 35 mm and 85 mm).",
+  "highlights": [
+    "Three large-sensor cameras",
+    "200 MP 85 mm periscope",
+    "Snapdragon 8 Elite"
+  ],
+  "prices": [
+    {
+      "region": "CN",
+      "currency": "CNY",
+      "amount": 6499,
+      "config": "12 GB / 256 GB",
+      "date": "2025-04-21",
+      "type": "launch",
+      "source": "gsmarena",
+      "url": "https://www.gsmarena.com/vivo_x200_ultra_x200s_official-news-67474.php",
+      "class": "news",
+      "accessed": "2026-09-16"
+    }
+  ],
+  "availability": {
+    "MY": {
+      "status": "not-launched",
+      "checked": "2026-09-16",
+      "source": "gsmarena",
+      "url": "https://www.gsmarena.com/vivo_x200_ultra_x200s_official-news-67474.php",
+      "note": "Launched in China only. GSMArena did not expect a launch outside China, and no Malaysian launch was found."
+    }
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.82,
+      "type": "LTPO AMOLED",
+      "resolution": "3168 × 1440",
+      "ppi": 510,
+      "refresh_hz": 120
+    },
+    "platform": {
+      "chipset": "snapdragon-8-elite"
+    },
+    "memory": {
+      "ram_gb": [
+        12,
+        16
+      ],
+      "storage_gb": [
+        256,
+        512,
+        1024
+      ]
+    },
+    "battery": {
+      "capacity_mah": 6000
+    },
+    "charging": {
+      "wired_w": 90,
+      "wireless_w": 40
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "focal_mm": 35,
+          "note": "LYT-818"
+        },
+        {
+          "role": "ultrawide",
+          "mp": 50,
+          "focal_mm": 14,
+          "note": "LYT-818"
+        },
+        {
+          "role": "periscope",
+          "mp": 200,
+          "focal_mm": 85,
+          "note": "HP9"
+        }
+      ]
+    },
+    "build": {
+      "ip": "IP68 + IP69"
+    },
+    "software": {
+      "launch_os": "Android 15, OriginOS 5"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "database",
+      "source": "vivo",
+      "url": "https://www.vivo.com.cn",
+      "note": "Compiled from launch coverage; China-only model."
+    },
+    "fields": {}
+  },
+  "dataStatus": "compiled"
+}

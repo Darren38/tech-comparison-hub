@@ -1,0 +1,137 @@
+{
+  "id": "google-pixel-11-pro",
+  "name": "Pixel 11 Pro",
+  "brand": "google",
+  "category": "smartphone",
+  "series": "Pixel",
+  "form": "bar",
+  "status": "released",
+  "announced": "2026-08-12",
+  "released": "2026-08-20",
+  "segment": "flagship",
+  "aliases": [
+    "P11 Pro"
+  ],
+  "summary": "The 6.3-inch Pixel 11 Pro shares the XL's cameras and Tensor G6 but has a smaller battery and slower charging.",
+  "highlights": [
+    "Tensor G6",
+    "Compact 6.3-inch display",
+    "5× telephoto"
+  ],
+  "prices": [
+    {
+      "region": "US",
+      "currency": "USD",
+      "amount": 1099,
+      "config": "256 GB",
+      "date": "2026-08-12",
+      "type": "launch",
+      "source": "google",
+      "url": "https://www.notebookcheck.net/Google-Pixel-11-Pro-series-debuts-with-Tensor-G6-new-cameras-and-Qi2-2-charging.1366782.0.html",
+      "class": "official"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 4999,
+      "config": "12 GB / 256 GB",
+      "date": "2026-08-13",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2026/08/13/google-pixel-11-series-malaysia-price-specs/",
+      "class": "news",
+      "accessed": "2026-09-16"
+    }
+  ],
+  "image": {
+    "kind": "drawing",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Pixel_11_Pro_back_%28Obsidian%29.svg/500px-Pixel_11_Pro_back_%28Obsidian%29.svg.png",
+    "page": "https://commons.wikimedia.org/wiki/File:Pixel_11_Pro_back_(Obsidian).svg",
+    "title": "Pixel 11 Pro back (Obsidian)",
+    "author": "DM115Wiki",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "checked": "2026-09-17"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.3,
+      "type": "Super Actua LTPO OLED",
+      "resolution": "2856 × 1280",
+      "ppi": 497,
+      "refresh_hz": 120,
+      "peak_nits": 3600
+    },
+    "platform": {
+      "chipset": "google-tensor-g6"
+    },
+    "memory": {
+      "ram_gb": [
+        12,
+        16
+      ]
+    },
+    "battery": {
+      "capacity_mah": 4850
+    },
+    "charging": {
+      "wired_w": 30,
+      "wireless_w": 25,
+      "claim": "About 55% in 30 min with a 30 W or faster charger"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "sensor": "1/1.3\"",
+          "aperture": "f/1.68"
+        },
+        {
+          "role": "ultrawide",
+          "mp": 48
+        },
+        {
+          "role": "periscope",
+          "mp": 48,
+          "zoom_x": 5
+        }
+      ],
+      "zoom_optical_x": 5
+    },
+    "build": {
+      "ip": "IP68"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true
+    },
+    "software": {
+      "launch_os": "Android 17",
+      "os_updates_years": 7,
+      "security_updates_years": 7
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "google",
+      "url": "https://store.google.com",
+      "checked": "2026-09-15",
+      "note": "As announced; cross-checked against https://www.notebookcheck.net/Google-Pixel-11-Pro-series-debuts-with-Tensor-G6-new-cameras-and-Qi2-2-charging.1366782.0.html"
+    },
+    "fields": {
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      },
+      "specs.charging.wired_w": {
+        "class": "estimated",
+        "source": "google",
+        "note": "Google states a charge-time claim with a recommended charger rating; the phone's maximum input is not published."
+      }
+    }
+  },
+  "dataStatus": "checked"
+}

@@ -1,0 +1,82 @@
+{
+  "id": "redmi-watch-6",
+  "name": "Redmi Watch 6",
+  "brand": "redmi",
+  "category": "smartwatch",
+  "series": "Watch",
+  "form": "watch",
+  "status": "released",
+  "announced": "2026-05-31",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 469,
+      "date": "2026-05-31",
+      "type": "launch",
+      "source": "nasilemaktech",
+      "url": "https://nasilemaktech.com/xiaomi-redmi-new-wearables-lineup-may-2026/",
+      "class": "news",
+      "accessed": "2026-09-18",
+      "note": "Normal price; RM369 at launch."
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://i02.appmifile.com/415_item_my/08/05/2026/9a14ee67202ee4285d96934f4f0196a3.png",
+    "page": "https://www.mi.com/my/product/redmi-watch-6/specs/",
+    "credit": "Xiaomi Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 2.07,
+      "type": "AMOLED",
+      "resolution": "514 × 432",
+      "peak_nits": 2000
+    },
+    "battery": {
+      "capacity_mah": 550
+    },
+    "connectivity": {
+      "gps": "Built-in GNSS",
+      "bluetooth": "Bluetooth 5.4"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 46.45,
+        "width_mm": 40.03,
+        "depth_mm": 9.94
+      },
+      "water": "5 ATM",
+      "water_m": 50,
+      "frame": "Aluminum alloy frame; Strap; TPU strap"
+    },
+    "sensors": "Heart rate sensor (with blood oxygen sensor), Accelerometer, Gyroscope, Ambient light sensor, Electronic compass, Satellite positioning systems, GPS, Galileo, Glonass, BeiDou, QZSS",
+    "audio": {
+      "speakers": "Microphone:1 mic"
+    },
+    "misc": {
+      "colors": "Obsidian Black, Silver Gray, Glacier Blue"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "redmi",
+      "url": "https://www.mi.com/my/product/redmi-watch-6/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from Xiaomi Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "nasilemaktech",
+        "url": "https://nasilemaktech.com/xiaomi-redmi-new-wearables-lineup-may-2026/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (Nasi Lemak Tech). The global announcement can be earlier."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

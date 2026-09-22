@@ -1,0 +1,143 @@
+{
+  "id": "oppo-find-n3-flip",
+  "name": "OPPO Find N3 Flip",
+  "brand": "oppo",
+  "category": "smartphone",
+  "series": "Find N",
+  "form": "foldable",
+  "status": "released",
+  "announced": "2023-10-19",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 4399,
+      "date": "2023-10-19",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2023/10/19/oppo-find-n3-flip-malaysia-hands-on-youll-want-this-phone-for-yourself/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/find-n3-flip-en/listpage/find-n3-flip-427_600-gold.png",
+    "page": "https://www.oppo.com/my/smartphones/series-find-n/find-n3-flip/",
+    "credit": "OPPO Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.8,
+      "type": "AMOLED",
+      "resolution": "2520 × 1080",
+      "refresh_hz": 120,
+      "peak_nits": 1600,
+      "protection": "Main screen: SCHOTT UTG; Cover screen: Corning Gorilla Glass Victus",
+      "ppi": 403
+    },
+    "platform": {
+      "chipset": "dimensity-9200",
+      "gpu": "ARM Immortalis-G715 MC11 @981MHz",
+      "cpu": "8 cores"
+    },
+    "memory": {
+      "ram_gb": [
+        12
+      ],
+      "storage_gb": [
+        256
+      ],
+      "ram_type": "LPDDR5x",
+      "storage_type": "UFS4.0"
+    },
+    "battery": {
+      "capacity_mah": 4300
+    },
+    "charging": {
+      "wired_w": 44,
+      "claim": "44W SUPERVOOC (11V/4A), VOOC 3.0 (5V/3A), PD (9V/1.5A)"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "aperture": "f/1.8",
+          "ois": true
+        },
+        {
+          "role": "telephoto",
+          "mp": 32
+        },
+        {
+          "role": "ultrawide",
+          "mp": 48
+        }
+      ],
+      "front": "32 MP",
+      "rear_detail": [
+        "50MP Main Camera: f/1.8; FOV 84°; 6P lens; AF supported; closed-loop focus motor; OIS",
+        "32MP Telephoto Camera: f/2.0; FOV 49°; 6P lens; AF supported",
+        "48MP Ultra-wide Angle Camera: f/2.2; FOV 114°; 6P lens; AF supported; macroshot at a minimum distance of 4cm"
+      ],
+      "front_detail": [
+        "32MP; f/2.4; FOV 90°; 5P lens; AF supported; open-loop focus motor"
+      ],
+      "video": "4K@60fps; 1080p",
+      "front_video": "4K@30fps; 1080p"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true,
+      "bands_2g": "850/900/1800/1900MHz",
+      "bands_3g": "Bands 1/2/4/5/6/8/19",
+      "bands_4g": "LTE FDD: Bands 1/2/3/4/5/7/8/12/17/18/19/20/26/28/66; LTE TDD: Bands 38/39/40/41(2496",
+      "bands_5g": "5G NR: n1/n2/n3/n5/n7/n8/n12/n20/n28/n38/n40/n41/n66/n77/n78",
+      "technology": "GSM / HSPA / LTE / 5G",
+      "sim": "Nano-SIM card + eSIM",
+      "wifi": "2.4GHz, 5GHz",
+      "bluetooth": "Bluetooth 5.3, Bluetooth Low Energy",
+      "usb": "USB Type-C",
+      "positioning": "L1 + L5, GLONASS: L1, BDS: B1I + B1C + B2a + B2b, Galileo: E1 + E5a + E5b, QZSS: L1 + L5"
+    },
+    "build": {
+      "weight_g": 198.0
+    },
+    "software": {
+      "launch_os": "ColorOS 13.2"
+    },
+    "biometrics": {
+      "face": "Yes"
+    },
+    "sensors": "Geomagnetic sensor, Light sensor, Proximity sensor, In-display optical sensor, Acceleration sensor, Gravity sensor, Gyroscope, Step counting",
+    "audio": {
+      "jack": false
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "oppo",
+      "url": "https://www.oppo.com/my/smartphones/series-find-n/find-n3-flip/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from OPPO Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2023/10/19/oppo-find-n3-flip-malaysia-hands-on-youll-want-this-phone-for-yourself/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

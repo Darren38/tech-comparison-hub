@@ -1,0 +1,121 @@
+{
+  "id": "honor-x8b",
+  "name": "HONOR X8b",
+  "brand": "honor",
+  "category": "smartphone",
+  "series": "X",
+  "form": "bar",
+  "status": "released",
+  "announced": "2023-12-18",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 999,
+      "config": "8 GB / 512 GB",
+      "date": "2023-12-18",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2023/12/18/honor-x8b-malaysia-cheapest-512gb-phone/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://www.honor.com/content/dam/honor/my/product-list/smartphone/honor-x8b/honor-x8b-silver.png",
+    "page": "https://www.honor.com/my/phones/honor-x8b/spec/",
+    "credit": "HONOR Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.7,
+      "type": "AMOLED",
+      "resolution": "2412 × 1080",
+      "ppi": 394
+    },
+    "platform": {
+      "chipset": "snapdragon-680",
+      "gpu": "Adreno 610",
+      "cpu": "Octa-core processors; 4*A73 2.4GHz+4*A53 1.9GHz"
+    },
+    "battery": {
+      "capacity_mah": 4500,
+      "chemistry": "Li-ion Polymer"
+    },
+    "charging": {
+      "wired_w": 35,
+      "claim": "Support up to 11V/3.2A super charge"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 108,
+          "aperture": "f/1.75"
+        }
+      ],
+      "front": "50 MP",
+      "rear_detail": [
+        "108MP Main Camera(f/1.75)",
+        "5MP Wide&Depth Camera(f/2.2)",
+        "2MP Macro Camera(f/2.4)"
+      ],
+      "features": "Up to 8x digital zoom",
+      "video": "1080p",
+      "front_detail": [
+        "50MP Spotlight Portrait(f/2.1)"
+      ]
+    },
+    "connectivity": {
+      "cellular": "4G",
+      "technology": "GSM / HSPA / LTE",
+      "sim": "Nano Card",
+      "wifi": "802.11 a/b/g/n/ac",
+      "positioning": "Support GPS/AGPS/GLONASS/BeiDou/Galileo; Network-Based Positioning; Wi-Fi-Based Positioning",
+      "usb": "USB Type-C, USB 2.0",
+      "bluetooth": "Bluetooth"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 161.05,
+        "width_mm": 74.55,
+        "depth_mm": 6.78
+      },
+      "weight_g": 166.0
+    },
+    "software": {
+      "launch_os": "MagicOS 7.2（Based on Android 13）"
+    },
+    "biometrics": {
+      "face": "Support 2D Face Recognition",
+      "fingerprint": "side fingerprint"
+    },
+    "sensors": "Gravity Sensor, Fingerprint Sensor, Support (side fingerprint), support fingerprint unlock, Compass, Ambient Light Sensor, Proximity Sensor, Support (Ultrasonic approach, non-physical approach sensor), Media and Audio"
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "honor",
+      "url": "https://www.honor.com/my/phones/honor-x8b/spec/",
+      "checked": "2026-09-18",
+      "note": "Read from HONOR Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2023/12/18/honor-x8b-malaysia-cheapest-512gb-phone/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

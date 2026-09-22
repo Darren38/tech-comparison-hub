@@ -1,0 +1,116 @@
+{
+  "id": "honor-x5d-plus",
+  "name": "HONOR X5d Plus",
+  "brand": "honor",
+  "category": "smartphone",
+  "series": "X",
+  "form": "bar",
+  "status": "released",
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-18",
+      "source": "honor",
+      "url": "https://www.honor.com/my/phones/honor-x5d-plus/spec/",
+      "note": "Sold in Malaysia, but no launch price was found in Malaysian launch coverage."
+    }
+  },
+  "image": {
+    "kind": "official",
+    "src": "https://www.honor.com/content/dam/honor/common/product-list/product-series/honor-x5d-plus/honor-x5d-plus-blue-list.png",
+    "page": "https://www.honor.com/my/phones/honor-x5d-plus/spec/",
+    "credit": "HONOR Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.74,
+      "type": "LCD",
+      "resolution": "1600 × 720",
+      "ppi": 260
+    },
+    "platform": {
+      "chipset": "helio-g81",
+      "gpu": "ARM Mali G52 MC2",
+      "cpu": "Octa-core; 2*A75 2.0GHz + 6*A55 1.7GHz"
+    },
+    "memory": {
+      "ram_gb": [
+        4
+      ],
+      "storage_gb": [
+        128
+      ]
+    },
+    "battery": {
+      "capacity_mah": 5260,
+      "chemistry": "Lithium-ion"
+    },
+    "charging": {
+      "wired_w": 15,
+      "claim": "Supported 15W"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "aperture": "f/1.8"
+        }
+      ],
+      "front": "5 MP",
+      "rear_detail": [
+        "50MP Main Camera (f/1.8), QVGA 0.08MP"
+      ],
+      "features": "10X Digital zoom",
+      "video": "1080p",
+      "front_detail": [
+        "5 MP Camera (f/2.2 aperture)"
+      ]
+    },
+    "connectivity": {
+      "cellular": "4G",
+      "technology": "GSM / HSPA / LTE",
+      "sim": "nano sim-card",
+      "wifi": "Support 802.11 a/b/g/n/ac 2.4GHz and 5GHz WiFi hotspot/Wi-Fi Direct",
+      "usb": "Type-C, USB 2.0",
+      "positioning": "Supported GPS/AGPS/Glonass/BeiDou/Galileo",
+      "bluetooth": "Bluetooth"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 167.0,
+        "width_mm": 77.0,
+        "depth_mm": 7.89
+      },
+      "weight_g": 186.0
+    },
+    "software": {
+      "launch_os": "MagicOS 9.0 (Android 15)"
+    },
+    "biometrics": {
+      "face": "Yes"
+    },
+    "audio": {
+      "jack": true
+    },
+    "sensors": "Gravity Sensor, Fingerprint Sensor, Acceleration Sensor, Ambient Light Sensor, Proximity Sensor, Media and Audio"
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "honor",
+      "url": "https://www.honor.com/my/phones/honor-x5d-plus/spec/",
+      "checked": "2026-09-18",
+      "note": "Read from HONOR Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

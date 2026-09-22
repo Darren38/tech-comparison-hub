@@ -1,0 +1,47 @@
+huawei-p60-pro | 8/256=4699, 12/512=5499 @soya |
+huawei-mate-x3 | 12/512=8888 @lowy |
+huawei-nova-11 | -=2199 @lowy | src=https://www.lowyat.net/2023/303228/huawei-nova-11-series-malaysia-launch/
+huawei-nova-11-pro | -=2599 @lowy | src=https://www.lowyat.net/2023/303228/huawei-nova-11-series-malaysia-launch/
+huawei-nova-11i | -=1299 @lowy | src=https://www.lowyat.net/2023/303228/huawei-nova-11-series-malaysia-launch/
+huawei-nova-y72 | -=899 @lowy |
+huawei-nova-12i | -=1299 @nasi |
+huawei-nova-12s | | ann=2024-03-20; annsrc=https://www.lowyat.net/2024/318963/huawei-nova-12s-12-se-12i/; annnote=Date of the global announcement, as reported by Lowyat.NET; no Malaysian launch report was found.
+huawei-nova-12-se | | ann=2024-03-20; annsrc=https://www.lowyat.net/2024/318963/huawei-nova-12s-12-se-12i/; annnote=Date of the global announcement, as reported by Lowyat.NET; no Malaysian launch report was found.
+huawei-pura-70 | 12/256=3699 @soya |
+huawei-pura-70-pro | -=4899 @lowy | src=https://www.lowyat.net/2024/321475/huawei-pura-70-series-malaysia/
+huawei-pura-70-ultra | 16/512=6599, 16/1T=7199 @soya |
+huawei-mate-x6 | -=8688 @soya |
+huawei-mate-xt-ultimate-design | |
+huawei-nova-13 | 12/256=1799 @soya |
+huawei-nova-13-pro | 12/512=2399 @soya |
+huawei-pura-80 | | ann=2025-06-11; annsrc=https://www.lowyat.net/2025/355607/huawei-pura-80-series-launch-china/; annnote=Date of the launch in China, as reported by Lowyat.NET; no Malaysian launch report with a price was found.
+huawei-pura-80-pro | 12/512=4599 @soya |
+huawei-nova-14 | 12/256=1799 @soya |
+huawei-nova-14-pro | -=2399 @lowy |
+huawei-nova-14i | -=1299 @lowy |
+huawei-mate-x7 | 16/512=8688 @soya |
+huawei-mate-80-pro | 16/512=3999 @soya |
+huawei-nova-15-max | -=1699 @lowy | set:specs.memory={"ram_gb": [8], "storage_gb": [256]}
+huawei-pura-90s-pro | 12/512=3999 @nasi | pnote=Normal price; RM3,699 during the launch period.
+huawei-pura-90s-pro-max | 12/512=4899 @nasi | pnote=Normal price; RM4,499 during the launch period.
+huawei-watch-gt-cyber | "Sport Edition (Midnight Black)"=999, "Urban Edition (Golden Black)"=1099 @soya |
+huawei-watch-gt-4 | "46 mm, Black"=1099, "46 mm, Brown"=1199, "46 mm, Green"=1199 @soya |
+huawei-watch-4-series | -=2499 @lowy | src=https://www.lowyat.net/2023/303330/huawei-watch-4-series-launch-malaysia/
+huawei-band-8 | -=199 @lowy |
+huawei-watch-fit-3 | -=599 @lowy | pnote=Starting price.
+huawei-watch-gt-5 | "41 mm, fluoroelastomer strap"=1099, "46 mm, fluoroelastomer strap"=1099 @soya | pnote=Starting price for each size.
+huawei-watch-gt-5-pro | "42 mm, fluoroelastomer strap"=1999, "46 mm, fluoroelastomer strap"=1399 @soya | pnote=Starting price for each size.
+huawei-watch-d2 | -=1999 @nasi |
+huawei-band-9 | -=219 @lowy |
+huawei-band-10 | "Polymer case"=189, "Aluminium alloy case"=219 @soya |
+huawei-watch-fit-4 | "Black, White or Purple"=599, "Grey"=699 @lowy |
+huawei-watch-fit-4-pro | -=999 @lowy |
+huawei-watch-5 | -=1799 @soya | pnote=Starting price.
+huawei-watch-gt-6 | "41 mm"=999, "46 mm"=1099 @soya | pnote=Starting price for each size.
+huawei-watch-gt-6-pro | "Brown or Black"=1299, "Titanium"=1999 @soya |
+huawei-watch-ultimate-2 | -=3999 @nasi |
+huawei-watch-fit-5 | -=799 @lowy |
+huawei-watch-fit-5-pro | -=1099 @soya | pnote=Recommended retail price; RM999 at launch.
+huawei-band-11 | "Polymer"=189, "Aluminium"=219 @soya | pnote=Recommended retail price; RM40 lower as a launch offer.
+huawei-band-11-pro | -=239@lowy, "Aluminium"=269@soya |
+huawei-watch-gt-runner-2 | -=1499 @lowy |

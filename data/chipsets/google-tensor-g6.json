@@ -1,0 +1,44 @@
+{
+  "id": "google-tensor-g6",
+  "name": "Google Tensor G6",
+  "vendor": "google",
+  "family": "Tensor",
+  "tier": "flagship",
+  "announced": "2026-08-12",
+  "aliases": [
+    "Tensor G6"
+  ],
+  "summary": "Pixel 11 generation. Early tests show a clear CPU gain over Tensor G5 but GPU peak barely moved.",
+  "process": {
+    "node": "2 nm"
+  },
+  "cpu": {
+    "cores": 7,
+    "clusters": [],
+    "note": "Core layout not published; one core fewer than Tensor G5"
+  },
+  "npu": "TPU",
+  "variants": [],
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "google",
+      "url": "https://store.google.com",
+      "note": "Titan M3 security coprocessor per launch coverage."
+    },
+    "fields": {
+      "process.node": {
+        "class": "news",
+        "source": "notebookcheck",
+        "url": "https://www.notebookcheck.net/Google-Pixel-11-Pro-series-debuts-with-Tensor-G6-new-cameras-and-Qi2-2-charging.1366782.0.html",
+        "note": "Reported at launch; Google has not published a detailed spec sheet for the chip."
+      },
+      "cpu.cores": {
+        "class": "database",
+        "source": "gsmarena",
+        "url": "https://www.gsmarena.com/google_pixel_11_pro_hands_on-review-2990p3.php",
+        "note": "Reported in hands-on testing."
+      }
+    }
+  }
+}

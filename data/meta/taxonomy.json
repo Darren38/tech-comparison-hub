@@ -1,0 +1,152 @@
+{
+  "evidenceClasses": [
+    {
+      "id": "official",
+      "label": "Official",
+      "short": "OFF",
+      "description": "Manufacturer specification or announcement. Describes what the product is claimed to be, not how well it performs.",
+      "weight": 1.0
+    },
+    {
+      "id": "measured",
+      "label": "Measured",
+      "short": "LAB",
+      "description": "Independent test with a documented, repeatable method, run by a reviewer or lab on a real unit.",
+      "weight": 1.0
+    },
+    {
+      "id": "database",
+      "label": "Database",
+      "short": "DB",
+      "description": "Aggregated benchmark database or compiled result set (for example medians of many user runs, or scores collected by a publication).",
+      "weight": 0.8
+    },
+    {
+      "id": "reviewer",
+      "label": "Reviewer",
+      "short": "REV",
+      "description": "Qualitative observation from a reviewer. Useful context, but not a measurement.",
+      "weight": 0.6
+    },
+    {
+      "id": "news",
+      "label": "News",
+      "short": "NEWS",
+      "description": "Reported by a news outlet: launches, prices, software updates, issues, recalls.",
+      "weight": 0.5
+    },
+    {
+      "id": "community",
+      "label": "Community",
+      "short": "COM",
+      "description": "User reports or crowd-sourced data. Lower weight because samples may be unrepresentative.",
+      "weight": 0.35
+    },
+    {
+      "id": "estimated",
+      "label": "Estimated",
+      "short": "EST",
+      "description": "Estimate, leak, pre-release or prototype result, or a value inferred from a pattern rather than a commitment.",
+      "weight": 0.25
+    },
+    {
+      "id": "platform",
+      "label": "Platform analysis",
+      "short": "CALC",
+      "description": "Calculated by this platform from other evidence: consensus values, unit conversions, scores and verdicts. Never a new measurement.",
+      "weight": null
+    }
+  ],
+  "sourceTiers": [
+    {
+      "id": "O",
+      "label": "Official",
+      "description": "The manufacturer. Authoritative for what a product is; not independent evidence of how it performs."
+    },
+    {
+      "id": "A",
+      "label": "Tier A",
+      "description": "Established lab, database or reviewer with a published, repeatable test method."
+    },
+    {
+      "id": "B",
+      "label": "Tier B",
+      "description": "Reputable outlet with a limited or undocumented method, or one that mainly reports other people's results."
+    },
+    {
+      "id": "C",
+      "label": "Tier C",
+      "description": "Unverified, anonymous or community source. Shown for context only."
+    }
+  ],
+  "confidenceLevels": [
+    {
+      "id": "high",
+      "label": "High",
+      "bars": 3,
+      "description": "Multiple independent reliable sources agree, or the value is an official specification."
+    },
+    {
+      "id": "medium",
+      "label": "Medium",
+      "bars": 2,
+      "description": "Limited independent testing: one strong source, sources that partly disagree, or a chipset result used as a stand-in for the device."
+    },
+    {
+      "id": "low",
+      "label": "Low",
+      "bars": 1,
+      "description": "Mainly leaks, pre-release units, a single secondary source, or sources that disagree strongly."
+    }
+  ],
+  "facets": [
+    { "id": "performance", "label": "Performance" },
+    { "id": "gaming", "label": "Gaming" },
+    { "id": "thermals", "label": "Thermals" },
+    { "id": "efficiency", "label": "Efficiency" },
+    { "id": "battery", "label": "Battery" },
+    { "id": "charging", "label": "Charging" },
+    { "id": "display", "label": "Display" },
+    { "id": "camera", "label": "Camera" },
+    { "id": "audio", "label": "Audio" },
+    { "id": "software", "label": "Software & updates" },
+    { "id": "build", "label": "Build" },
+    { "id": "durability", "label": "Durability" },
+    { "id": "connectivity", "label": "Connectivity" },
+    { "id": "health", "label": "Health & fitness" },
+    { "id": "value", "label": "Price & value" },
+    { "id": "ai", "label": "AI features" }
+  ],
+  "documentKinds": [
+    { "id": "review", "label": "Review" },
+    { "id": "video", "label": "Video" },
+    { "id": "benchmark", "label": "Benchmark data" },
+    { "id": "news", "label": "News" },
+    { "id": "analysis", "label": "Technical analysis" },
+    { "id": "official", "label": "Official announcement" }
+  ],
+  "videoCategories": [
+    { "id": "full-review", "label": "Full review" },
+    { "id": "first-look", "label": "First look" },
+    { "id": "camera", "label": "Camera test" },
+    { "id": "battery", "label": "Battery test" },
+    { "id": "gaming", "label": "Gaming test" },
+    { "id": "display", "label": "Display test" },
+    { "id": "performance", "label": "Performance test" },
+    { "id": "thermal", "label": "Thermal test" },
+    { "id": "comparison", "label": "Comparison" },
+    { "id": "long-term", "label": "Long-term review" },
+    { "id": "durability", "label": "Durability test" }
+  ],
+  "newsTypes": [
+    { "id": "launch", "label": "Launch" },
+    { "id": "price", "label": "Price" },
+    { "id": "availability", "label": "Availability" },
+    { "id": "software-update", "label": "Software update" },
+    { "id": "issue", "label": "Reported issue" },
+    { "id": "benchmark", "label": "Benchmark" },
+    { "id": "analysis", "label": "Analysis" },
+    { "id": "security", "label": "Security" },
+    { "id": "recall", "label": "Recall" }
+  ]
+}

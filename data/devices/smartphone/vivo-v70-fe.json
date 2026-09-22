@@ -1,0 +1,161 @@
+{
+  "id": "vivo-v70-fe",
+  "name": "vivo V70 FE",
+  "brand": "vivo",
+  "category": "smartphone",
+  "series": "V",
+  "form": "bar",
+  "status": "released",
+  "announced": "2026-04-09",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1599,
+      "config": "8 GB / 256 GB",
+      "date": "2026-04-09",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2026/04/09/vivo-v70-fe-malaysia-price-specs-promo-launch/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1799,
+      "config": "12 GB / 256 GB",
+      "date": "2026-04-09",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2026/04/09/vivo-v70-fe-malaysia-price-specs-promo-launch/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 6.83,
+      "type": "AMOLED",
+      "resolution": "2800 × 1260",
+      "refresh_hz": 120,
+      "peak_nits": 1900,
+      "ppi": 450
+    },
+    "platform": {
+      "chipset": "dimensity-7360-turbo",
+      "process": "4 nm",
+      "cpu": "Octa-core; 4 × 2.5 GHz + 4 × 2.0 GHz; Storage 1,2"
+    },
+    "memory": {
+      "ram_gb": [
+        8,
+        12
+      ],
+      "storage_gb": [
+        256,
+        512
+      ],
+      "ram_type": "LPDDR5",
+      "storage_type": "UFS 3.1",
+      "card": "No"
+    },
+    "battery": {
+      "capacity_mah": 7000,
+      "chemistry": "Li-ion battery"
+    },
+    "charging": {
+      "wired_w": 90,
+      "claim": "90W; (90W FlashCharge indicates that this product supports up to 90W of charging power when paired with vivo's original standard charger. Actual charging power dynamically adjusts"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 200,
+          "aperture": "f/1.88",
+          "ois": true
+        },
+        {
+          "role": "ultrawide",
+          "mp": 8
+        }
+      ],
+      "front": "32 MP",
+      "front_detail": [
+        "32 MP HD selfie camera: supports FF, f/2.2; a FOV of 90°; 5P lens"
+      ],
+      "rear_detail": [
+        "200 MP OIS ultra-clear main camera: supports AF, f/1.88; a FOV of 84°; 6P lens",
+        "8 MP 120° wide-angle camera: supports FF, f/2.2; a FOV of 120°; 5P lens"
+      ],
+      "video": "4K; 1080p"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true,
+      "bands_2g": "850/900/1800/1900 MHz",
+      "bands_3g": "B1/B2/B4/B5/B8",
+      "bands_4g": "4G FDD-LTE: B1/B2/B3/B4/B5/B7/B8/B19/B20/B28/B32",
+      "bands_5g": "5G: n1/n3/n5/n7/n8/n20/n28/n38/n40/n41/n75/n77/n78",
+      "technology": "GSM / HSPA / LTE / 5G",
+      "sim": "2 nano SIMs; 2G GSM; 850/900/1800/1900 MHz; 3G WCDMA; B1/B2/B4/B5/B8; 4G TD-LTE",
+      "wifi": "2.4G; 5G",
+      "bluetooth": "Bluetooth 5.4",
+      "usb": "USB 2.0",
+      "radio": "No",
+      "positioning": "GPS, BeiDou, GLONASS, Galileo, QZSS"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 163.7,
+        "width_mm": 76.2,
+        "depth_mm": 7.59
+      },
+      "weight_g": 200.0,
+      "ip": "IP69",
+      "back": "Plastic composite sheet"
+    },
+    "software": {
+      "launch_os": "OriginOS 6"
+    },
+    "misc": {
+      "colors": "Purple, Blue, Silver"
+    },
+    "biometrics": {
+      "fingerprint": "In-display optical fingerprint sensor"
+    },
+    "sensors": "Accelerometer, Ambient Light Sensor, Proximity Sensor, E-compass, Gyroscope, Motor, Conventional"
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "vivo",
+      "url": "https://www.vivo.com/my/products/param/v70-fe",
+      "checked": "2026-09-18",
+      "note": "Read from vivo Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2026/04/09/vivo-v70-fe-malaysia-price-specs-promo-launch/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1775029433056/1fbb066c59cbfcce533d92e76acd8782.png",
+    "page": "https://www.vivo.com/my/products/param/v70-fe",
+    "credit": "vivo Malaysia",
+    "checked": "2026-09-19"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "id": "huawei-band-10",
+  "name": "Huawei Band 10",
+  "brand": "huawei",
+  "category": "band",
+  "series": "Band",
+  "form": "band",
+  "status": "released",
+  "announced": "2025-03-25",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 189,
+      "config": "Polymer case",
+      "date": "2025-03-25",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/03/25/huawei-band-10-malaysia-launch-price-specs/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 219,
+      "config": "Aluminium alloy case",
+      "date": "2025-03-25",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/03/25/huawei-band-10-malaysia-launch-price-specs/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/admin-image/wearables/band10/specs/green.png",
+    "page": "https://consumer.huawei.com/my/wearables/band10/specs/",
+    "credit": "Huawei Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 1.47,
+      "type": "AMOLED",
+      "resolution": "368 × 194"
+    },
+    "battery": {
+      "life_h": 192
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 43.45,
+        "width_mm": 24.86,
+        "depth_mm": 8.99
+      },
+      "water": "5 ATM",
+      "water_m": 50
+    },
+    "sensors": "9-axis IMU sensor (Accelerometer sensor, Gyroscope sensor, Magnetometer sensor), Optical heart rate sensor, Ambient light sensor, Button, Full-screen touch + side button",
+    "connectivity": {
+      "usb": "Magnetic charging port; System Requirements; Android 9.0 or later; iOS 13.0 or later; Waterproof Level; 5 ATM",
+      "bluetooth": "BT 5.0"
+    },
+    "charging": {
+      "claim": "Charger voltage and current requirements; 5V/1A"
+    },
+    "misc": {
+      "colors": "Green, Blue, Purple, Pink, White, Matte Black, Black"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "huawei",
+      "url": "https://consumer.huawei.com/my/wearables/band10/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from Huawei Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2025/03/25/huawei-band-10-malaysia-launch-price-specs/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

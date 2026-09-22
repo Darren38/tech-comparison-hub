@@ -1,0 +1,16 @@
+{
+  "id": "snapdragon-778g-4g",
+  "name": "Snapdragon 778G 4G",
+  "vendor": "qualcomm",
+  "family": "Snapdragon 7 series",
+  "summary": "Name recorded from phone makers' specification pages and launch reports. Chip details have not been compiled yet.",
+  "provenance": {
+    "default": {
+      "class": "news",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2023/303228/huawei-nova-11-series-malaysia-launch/",
+      "checked": "2026-09-18",
+      "note": "Chip name as given for the Huawei nova 11."
+    }
+  }
+}

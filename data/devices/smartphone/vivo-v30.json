@@ -1,0 +1,132 @@
+{
+  "id": "vivo-v30",
+  "name": "vivo V30",
+  "brand": "vivo",
+  "category": "smartphone",
+  "series": "V",
+  "form": "bar",
+  "status": "released",
+  "announced": "2024-03-15",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1999,
+      "config": "12 GB / 256 GB",
+      "date": "2024-03-15",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2024/03/15/vivo-v30-snapdragon-7-gen-3-powered-midranger-with-dual-50mp-shooters-from-rm1999/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 6.78,
+      "type": "AMOLED",
+      "resolution": "2800 × 1260",
+      "refresh_hz": 120,
+      "peak_nits": 2800,
+      "ppi": 453
+    },
+    "platform": {
+      "chipset": "snapdragon-7-gen-3",
+      "process": "4 nm",
+      "cpu": "8 cores; 1 × 2.63 GHz + 3 × 2.4 GHz + 4 × 1.8 GHz"
+    },
+    "memory": {
+      "ram_gb": [
+        12
+      ],
+      "storage_gb": [
+        256,
+        512
+      ],
+      "ram_type": "LPDDR4X",
+      "storage_type": "UFS 2.2",
+      "card": "No"
+    },
+    "battery": {
+      "capacity_mah": 5000,
+      "chemistry": "Li-ion battery"
+    },
+    "charging": {
+      "wired_w": 80,
+      "claim": "80W"
+    },
+    "camera": {
+      "front": "50 MP",
+      "front_detail": [
+        "50 MP AF Group Selfie Camera, f/2.0, 92° FOV, 5PRear:50 MP VCS True Color Main Camera, OIS, f/1.88, 84° FOV, 6P50 MP AF Ultra Wide-Angle Camera, f/2.0, 119° FOV, 5P"
+      ],
+      "video": "4K; 1080p"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true,
+      "bands_2g": "850/900/1800/1900 MHz",
+      "bands_3g": "B1/B2/B4/B5/B8",
+      "bands_4g": "4G FDD-LTE: B1/B2/B3/B4/B5/B7/B8/B12/B17/B18/B19/B20/B26/B28/B66",
+      "bands_5g": "5G: n1/n2/n3/n5/n7/n8/n20/n26/n28/n66/n38/n40/n41/n77/n78",
+      "technology": "GSM / HSPA / LTE / 5G",
+      "sim": "2 nano SIMs",
+      "wifi": "2.4 GHz, 5 GHz",
+      "bluetooth": "Bluetooth 5.4",
+      "usb": "USB 2.0",
+      "radio": "No",
+      "positioning": "GPS, BeiDou, GLONASS, Galileo, QZSS"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 164.36,
+        "width_mm": 75.1,
+        "depth_mm": 7.45
+      },
+      "weight_g": 186.0,
+      "ip": "IP54",
+      "back": "Glass"
+    },
+    "software": {
+      "launch_os": "Funtouch OS 14"
+    },
+    "misc": {
+      "colors": "Petals White, Aquamarine"
+    },
+    "biometrics": {
+      "fingerprint": "In-display optical fingerprint sensor"
+    },
+    "sensors": "Accelerometer, Ambient Light Sensor, Proximity Sensor, E-compass, Gyroscope"
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "vivo",
+      "url": "https://www.vivo.com/my/products/param/v30",
+      "checked": "2026-09-18",
+      "note": "Read from vivo Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2024/03/15/vivo-v30-snapdragon-7-gen-3-powered-midranger-with-dual-50mp-shooters-from-rm1999/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1709796027386/c040406a6451908ad854de582f968883.png",
+    "page": "https://www.vivo.com/my/products/param/v30",
+    "credit": "vivo Malaysia",
+    "checked": "2026-09-19"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": "dimensity-8350",
+  "name": "Dimensity 8350",
+  "vendor": "mediatek",
+  "family": "Dimensity 8000",
+  "tier": "upper-mid",
+  "announced": "2024-12-06",
+  "aliases": [
+    "D8350",
+    "Dimensity 8350 Extreme"
+  ],
+  "summary": "Upper mid-range chip; the 'Extreme' variant powers the Motorola Edge 60 Pro.",
+  "process": {
+    "node": "4 nm",
+    "foundry": "TSMC"
+  },
+  "cpu": {
+    "cores": 8,
+    "clusters": [
+      {
+        "count": 1,
+        "core": "Cortex-A715",
+        "ghz": 3.35
+      },
+      {
+        "count": 3,
+        "core": "Cortex-A715",
+        "ghz": 3.2
+      },
+      {
+        "count": 4,
+        "core": "Cortex-A510",
+        "ghz": 2.2
+      }
+    ]
+  },
+  "gpu": {
+    "name": "Mali-G615 MC6"
+  },
+  "variants": [],
+  "provenance": {
+    "default": {
+      "class": "database",
+      "source": "mediatek",
+      "url": "https://www.mediatek.com/products/smartphones/mediatek-dimensity-8350",
+      "note": "Compiled from MediaTek's announcement; not re-checked this session."
+    },
+    "fields": {}
+  }
+}

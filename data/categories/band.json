@@ -1,0 +1,233 @@
+{
+  "id": "band",
+  "name": "Fitness bands",
+  "singular": "Fitness band",
+  "order": 4,
+  "schematic": "watch",
+  "scoreCategories": [
+    "battery",
+    "durability"
+  ],
+  "cardFields": [
+    "display.size_in",
+    "battery.life_h",
+    "build.water",
+    "build.weight_g"
+  ],
+  "specSections": [
+    {
+      "id": "launch",
+      "label": "Launch",
+      "facet": "software",
+      "fields": [
+        {
+          "key": "@announced",
+          "label": "Announced",
+          "type": "date"
+        },
+        {
+          "key": "@released",
+          "label": "On sale",
+          "type": "date"
+        }
+      ]
+    },
+    {
+      "id": "display",
+      "label": "Display",
+      "facet": "display",
+      "fields": [
+        {
+          "key": "display.size_in",
+          "label": "Screen size",
+          "type": "number",
+          "unit": "in",
+          "digits": 2
+        },
+        {
+          "key": "display.type",
+          "label": "Panel",
+          "type": "text"
+        },
+        {
+          "key": "display.resolution",
+          "label": "Resolution",
+          "type": "text"
+        },
+        {
+          "key": "display.peak_nits",
+          "label": "Peak brightness (claimed)",
+          "type": "number",
+          "unit": "nits",
+          "better": "higher"
+        }
+      ]
+    },
+    {
+      "id": "battery",
+      "label": "Battery",
+      "facet": "battery",
+      "fields": [
+        {
+          "key": "battery.life_h",
+          "label": "Battery life (claimed)",
+          "type": "number",
+          "unit": "h",
+          "format": "life",
+          "better": "higher"
+        },
+        {
+          "key": "battery.capacity_mah",
+          "label": "Capacity",
+          "type": "number",
+          "unit": "mAh",
+          "better": "higher"
+        },
+        {
+          "key": "battery.claim",
+          "label": "Battery claim",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": "health",
+      "label": "Health & fitness",
+      "facet": "health",
+      "fields": [
+        {
+          "key": "health.sensors",
+          "label": "Sensors",
+          "type": "list"
+        },
+        {
+          "key": "connectivity.gps",
+          "label": "GPS",
+          "type": "text"
+        },
+        {
+          "key": "sensors",
+          "label": "All sensors",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": "build",
+      "label": "Design & durability",
+      "facet": "durability",
+      "fields": [
+        {
+          "key": "build.dimensions",
+          "label": "Dimensions",
+          "type": "dimensions"
+        },
+        {
+          "key": "build.weight_g",
+          "label": "Weight",
+          "type": "number",
+          "unit": "g",
+          "better": "lower"
+        },
+        {
+          "key": "build.water",
+          "label": "Water resistance",
+          "type": "text"
+        },
+        {
+          "key": "build.water_m",
+          "label": "Water rating depth",
+          "type": "number",
+          "unit": "m",
+          "better": "higher"
+        },
+        {
+          "key": "build.ip",
+          "label": "Dust / ingress",
+          "type": "text"
+        },
+        {
+          "key": "build.durability",
+          "label": "Durability",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": "connectivity",
+      "label": "Connectivity & software",
+      "facet": "connectivity",
+      "fields": [
+        {
+          "key": "connectivity.nfc",
+          "label": "NFC payments",
+          "type": "bool"
+        },
+        {
+          "key": "software.launch_os",
+          "label": "Software",
+          "type": "text"
+        },
+        {
+          "key": "connectivity.wifi",
+          "label": "Wi-Fi",
+          "type": "text"
+        },
+        {
+          "key": "connectivity.bluetooth",
+          "label": "Bluetooth",
+          "type": "text"
+        },
+        {
+          "key": "connectivity.positioning",
+          "label": "Positioning",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "filters": [
+    {
+      "id": "brand",
+      "label": "Brand",
+      "type": "multi"
+    },
+    {
+      "id": "price",
+      "label": "Launch price",
+      "type": "range",
+      "unit": "currency",
+      "step": 20
+    },
+    {
+      "id": "soldMY",
+      "label": "Sold in Malaysia",
+      "type": "bool"
+    },
+    {
+      "id": "year",
+      "label": "Release year",
+      "type": "multi"
+    },
+    {
+      "id": "batteryLifeH",
+      "label": "Battery life (claimed)",
+      "type": "min",
+      "unit": "h",
+      "options": [
+        168,
+        336,
+        480
+      ]
+    },
+    {
+      "id": "waterM",
+      "label": "Water rating",
+      "type": "min",
+      "unit": "m",
+      "options": [
+        50
+      ]
+    }
+  ]
+}

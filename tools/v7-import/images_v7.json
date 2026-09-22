@@ -1,0 +1,1370 @@
+{
+ "samsung-galaxy-a05": {
+  "kind": "official",
+  "src": "https://images.samsung.com/is/image/samsung/p6pim/my/sm-a055flghxme/gallery/my-galaxy-a05-sm-a055-sm-a055flghxme-538308744?$624_624_PNG$",
+  "page": "https://www.samsung.com/my/support/model/SM-A055FLGHXME/",
+  "credit": "Samsung Malaysia",
+  "checked": "2026-09-19",
+  "how": "support page product image"
+ },
+ "samsung-galaxy-a05s": {
+  "kind": "official",
+  "src": "https://images.samsung.com/is/image/samsung/p6pim/my/sm-a057flggxme/gallery/my-galaxy-a05s-sm-a057-481569-sm-a057flggxme-541040582?$624_624_PNG$",
+  "page": "https://www.samsung.com/my/support/model/SM-A057FLGGXME/",
+  "credit": "Samsung Malaysia",
+  "checked": "2026-09-19",
+  "how": "support page product image"
+ },
+ "samsung-galaxy-a06": {
+  "kind": "official",
+  "src": "https://images.samsung.com/is/image/samsung/p6pim/my/sm-a065flbgxme/gallery/my-galaxy-a06-sm-a065-sm-a065flbgxme-543102992?$624_624_PNG$",
+  "page": "https://www.samsung.com/my/support/model/SM-A065FLBGXME/",
+  "credit": "Samsung Malaysia",
+  "checked": "2026-09-19",
+  "how": "support page product image"
+ },
+ "samsung-galaxy-a14-5g": {
+  "kind": "official",
+  "src": "https://images.samsung.com/is/image/samsung/p6pim/my/sm-a146pdrhxme/gallery/my-galaxy-a14-5g-sm-a146-sm-a146pdrhxme-534897153?$624_624_PNG$",
+  "page": "https://www.samsung.com/my/support/model/SM-A146PDRHXME/",
+  "credit": "Samsung Malaysia",
+  "checked": "2026-09-19",
+  "how": "support page product image"
+ },
+ "samsung-galaxy-a14": {
+  "kind": "official",
+  "src": "https://images.samsung.com/is/image/samsung/p6pim/my/sm-a145fdrwxme/gallery/my-galaxy-a14-sm-a145-sm-a145fdrwxme-535412687?$624_624_PNG$",
+  "page": "https://www.samsung.com/my/support/model/SM-A145FDRWXME/",
+  "credit": "Samsung Malaysia",
+  "checked": "2026-09-19",
+  "how": "support page product image"
+ },
+ "samsung-galaxy-a15-5g": {
+  "kind": "official",
+  "src": "https://images.samsung.com/is/image/samsung/p6pim/my/sm-a156elbixme/gallery/my-galaxy-a15-5g-sm-a156-sm-a156elbixme-539357579?$624_624_PNG$",
+  "page": "https://www.samsung.com/my/support/model/SM-A156ELBIXME/",
+  "credit": "Samsung Malaysia",
+  "checked": "2026-09-19",
+  "how": "support page product image"
+ },
+ "samsung-galaxy-a15": {
+  "kind": "official",
+  "src": "https://images.samsung.com/is/image/samsung/p6pim/my/sm-a155flbdxme/gallery/my-galaxy-a15-sm-a155-489640-sm-a155flbdxme-541040742?$624_624_PNG$",
+  "page": "https://www.samsung.com/my/support/model/SM-A155FLBDXME/",
+  "credit": "Samsung Malaysia",
+  "checked": "2026-09-19",
+  "how": "support page product image"
+ },
+ "samsung-galaxy-a16-5g": {
+  "kind": "official",
+  "src": "https://images.samsung.com/is/image/samsung/p6pim/my/sm-a166plgixme/gallery/my-galaxy-a16-5g-sm-a166-sm-a166plgixme-544050850?$624_624_PNG$",
+  "page": "https://www.samsung.com/my/support/model/SM-A166PLGIXME/",
+  "credit": "Samsung Malaysia",
+  "checked": "2026-09-19",
+  "how": "support page product image"
+ },
+ "samsung-galaxy-a16": {
+  "kind": "official",
+  "src": "https://images.samsung.com/is/image/samsung/p6pim/my/sm-a165fzadxme/gallery/my-galaxy-a16-sm-a165-sm-a165fzadxme-544451181?$624_624_PNG$",
+  "page": "https://www.samsung.com/my/support/model/SM-A165FZADXME/",
+  "credit": "Samsung Malaysia",
+  "checked": "2026-09-19",
+  "how": "support page product image"
+ },
+ "samsung-galaxy-a24": {
+  "kind": "official",
+  "src": "https://images.samsung.com/is/image/samsung/p6pim/my/sm-a245fdrwxme/gallery/my-galaxy-a24-sm-a245-sm-a245fdrwxme-536495544?$624_624_PNG$",
+  "page": "https://www.samsung.com/my/support/model/SM-A245FDRWXME/",
+  "credit": "Samsung Malaysia",
+  "checked": "2026-09-19",
+  "how": "support page product image"
+ },
+ "samsung-galaxy-a25-5g": {
+  "kind": "official",
+  "src": "https://images.samsung.com/is/image/samsung/p6pim/my/sm-a256ezbdxme/gallery/my-galaxy-a25-5g-sm-a256-489647-sm-a256ezbdxme-541041125?$624_624_PNG$",
+  "page": "https://www.samsung.com/my/support/model/SM-A256EZBDXME/",
+  "credit": "Samsung Malaysia",
+  "checked": "2026-09-19",
+  "how": "support page product image"
+ },
+ "samsung-galaxy-a26-5g": {
+  "kind": "official",
+  "src": "https://images.samsung.com/is/image/samsung/p6pim/my/sm-a266blgdxme/gallery/my-galaxy-a26-5g-sm-a266-540342-sm-a266blgdxme-545656597?$624_624_PNG$",
+  "page": "https://www.samsung.com/my/support/model/SM-A266BLGDXME/",
+  "credit": "Samsung Malaysia",
+  "checked": "2026-09-19",
+  "how": "support page product image"
+ },
+ "samsung-galaxy-a34-5g": {
+  "kind": "official",
+  "src": "https://images.samsung.com/is/image/samsung/p6pim/my/sm-a346elgexme/gallery/my-galaxy-a34-5g-sm-a346-453789-sm-a346elgexme-535755104?$624_624_PNG$",
+  "page": "https://www.samsung.com/my/support/model/SM-A346ELGEXME/",
+  "credit": "Samsung Malaysia",
+  "checked": "2026-09-19",
+  "how": "support page product image"
+ },
+ "samsung-galaxy-a35-5g": {
+  "kind": "official",
+  "src": "https://images.samsung.com/is/image/samsung/p6pim/my/sm-a356elbbxme/gallery/my-galaxy-a35-5g-sm-a356-499012-sm-a356elbbxme-541099109?$624_624_PNG$",
+  "page": "https://www.samsung.com/my/support/model/SM-A356ELBBXME/",
+  "credit": "Samsung Malaysia",
+  "checked": "2026-09-19",
+  "how": "support page product image"
+ },
+ "samsung-galaxy-a36-5g": {
+  "kind": "official",
+  "src": "https://images.samsung.com/is/image/samsung/p6pim/my/sm-a366blgqxme/gallery/my-galaxy-a36-5g-sm-a366-538989-sm-a366blgqxme-545254098?$624_624_PNG$",
+  "page": "https://www.samsung.com/my/support/model/SM-A366BLGQXME/",
+  "credit": "Samsung Malaysia",
+  "checked": "2026-09-19",
+  "how": "support page product image"
+ },
+ "samsung-galaxy-a54-5g": {
+  "kind": "official",
+  "src": "https://images.samsung.com/is/image/samsung/p6pim/my/sm-a546elgdxme/gallery/my-galaxy-a54-5g-sm-a546-sm-a546elgdxme-535814161?$624_624_PNG$",
+  "page": "https://www.samsung.com/my/support/model/SM-A546ELGDXME/",
+  "credit": "Samsung Malaysia",
+  "checked": "2026-09-19",
+  "how": "support page product image"
+ },
+ "samsung-galaxy-a55-5g": {
+  "kind": "official",
+  "src": "https://images.samsung.com/is/image/samsung/p6pim/my/sm-a556elbaxme/gallery/my-galaxy-a55-5g-sm-a556-499013-sm-a556elbaxme-541099724?$624_624_PNG$",
+  "page": "https://www.samsung.com/my/support/model/SM-A556ELBAXME/",
+  "credit": "Samsung Malaysia",
+  "checked": "2026-09-19",
+  "how": "support page product image"
+ },
+ "samsung-galaxy-m14-5g": {
+  "kind": "official",
+  "src": "https://images.samsung.com/is/image/samsung/p6pim/my/sm-m146bdbwxme/gallery/my-galaxy-m14-5g-sm-m146-sm-m146bdbwxme-536859314?$624_624_PNG$",
+  "page": "https://www.samsung.com/my/support/model/SM-M146BDBWXME/",
+  "credit": "Samsung Malaysia",
+  "checked": "2026-09-19",
+  "how": "support page product image"
+ },
+ "samsung-galaxy-m34-5g": {
+  "kind": "official",
+  "src": "https://images.samsung.com/is/image/samsung/p6pim/my/sm-m346bdbgxme/gallery/my-galaxy-m34-5g-sm-m346-sm-m346bdbgxme-538340438?$624_624_PNG$",
+  "page": "https://www.samsung.com/my/support/model/SM-M346BDBGXME/",
+  "credit": "Samsung Malaysia",
+  "checked": "2026-09-19",
+  "how": "support page product image"
+ },
+ "samsung-galaxy-s23-fe": {
+  "kind": "official",
+  "src": "https://images.samsung.com/is/image/samsung/p6pim/my/sm-s711blgbxme/gallery/my-galaxy-s23-fe-s711-sm-s711blgbxme-538463405?$624_624_PNG$",
+  "page": "https://www.samsung.com/my/support/model/SM-S711BLGBXME/",
+  "credit": "Samsung Malaysia",
+  "checked": "2026-09-19",
+  "how": "support page product image"
+ },
+ "samsung-galaxy-s23-plus": {
+  "kind": "official",
+  "src": "https://images.samsung.com/is/image/samsung/p6pim/my/2302/gallery/my-galaxy-s23-s916-446791-sm-s916blgbxme-534864233?$624_624_PNG$",
+  "page": "https://www.samsung.com/my/support/model/SM-S916BLGBXME/",
+  "credit": "Samsung Malaysia",
+  "checked": "2026-09-19",
+  "how": "support page product image"
+ },
+ "samsung-galaxy-s23-ultra": {
+  "kind": "official",
+  "src": "https://images.samsung.com/is/image/samsung/p6pim/my/2302/gallery/my-galaxy-s23-s918-446815-sm-s918blbcxme-534868968?$624_624_PNG$",
+  "page": "https://www.samsung.com/my/support/model/SM-S918BLBCXME/",
+  "credit": "Samsung Malaysia",
+  "checked": "2026-09-19",
+  "how": "support page product image"
+ },
+ "samsung-galaxy-s23": {
+  "kind": "official",
+  "src": "https://images.samsung.com/is/image/samsung/p6pim/my/2302/gallery/my-galaxy-s23-s911-446765-sm-s911blgbxme-534860995?$624_624_PNG$",
+  "page": "https://www.samsung.com/my/support/model/SM-S911BLGBXME/",
+  "credit": "Samsung Malaysia",
+  "checked": "2026-09-19",
+  "how": "support page product image"
+ },
+ "samsung-galaxy-s24-fe": {
+  "kind": "official",
+  "src": "https://images.samsung.com/is/image/samsung/p6pim/my/sm-s721blbbxme/gallery/my-galaxy-s24-fe-s721-522720-sm-s721blbbxme-548179536?$624_624_PNG$",
+  "page": "https://www.samsung.com/my/support/model/SM-S721BLBBXME/",
+  "credit": "Samsung Malaysia",
+  "checked": "2026-09-19",
+  "how": "support page product image"
+ },
+ "samsung-galaxy-s24-plus": {
+  "kind": "official",
+  "src": "https://images.samsung.com/is/image/samsung/p6pim/my/2401/gallery/my-galaxy-s24-plus-489218-sm-s926blbbxme-539320069?$624_624_PNG$",
+  "page": "https://www.samsung.com/my/support/model/SM-S926BLBBXME/",
+  "credit": "Samsung Malaysia",
+  "checked": "2026-09-19",
+  "how": "support page product image"
+ },
+ "samsung-galaxy-s24-ultra": {
+  "kind": "official",
+  "src": "https://images.samsung.com/is/image/samsung/p6pim/my/2401/gallery/my-galaxy-s24-s928-490274-sm-s928blbcxme-539390388?$624_624_PNG$",
+  "page": "https://www.samsung.com/my/support/model/SM-S928BLBCXME/",
+  "credit": "Samsung Malaysia",
+  "checked": "2026-09-19",
+  "how": "support page product image"
+ },
+ "samsung-galaxy-s24": {
+  "kind": "official",
+  "src": "https://images.samsung.com/is/image/samsung/p6pim/my/2401/gallery/my-galaxy-s24-490083-sm-s921blbcxme-539375645?$624_624_PNG$",
+  "page": "https://www.samsung.com/my/support/model/SM-S921BLBCXME/",
+  "credit": "Samsung Malaysia",
+  "checked": "2026-09-19",
+  "how": "support page product image"
+ },
+ "samsung-galaxy-s25-plus": {
+  "kind": "official",
+  "src": "https://images.samsung.com/is/image/samsung/p6pim/my/2501/gallery/my-galaxy-s25-s936-sm-s936bdbbxme-544671637?$624_624_PNG$",
+  "page": "https://www.samsung.com/my/support/model/SM-S936BDBBXME/",
+  "credit": "Samsung Malaysia",
+  "checked": "2026-09-19",
+  "how": "support page product image"
+ },
+ "samsung-galaxy-s26-plus": {
+  "kind": "official",
+  "src": "https://images.samsung.com/is/image/samsung/p6pim/my/s2602/gallery/my-galaxy-s26-s947-sm-s947blbbxme-550877667?$624_624_PNG$",
+  "page": "https://www.samsung.com/my/support/model/SM-S947BLBBXME/",
+  "credit": "Samsung Malaysia",
+  "checked": "2026-09-19",
+  "how": "support page product image"
+ },
+ "samsung-galaxy-z-flip5": {
+  "kind": "official",
+  "src": "https://images.samsung.com/is/image/samsung/p6pim/my/2307/gallery/my-galaxy-z-flip5-f731-sm-f731blgaxme-537226215?$624_624_PNG$",
+  "page": "https://www.samsung.com/my/support/model/SM-F731BLGAXME/",
+  "credit": "Samsung Malaysia",
+  "checked": "2026-09-19",
+  "how": "support page product image"
+ },
+ "samsung-galaxy-z-flip6": {
+  "kind": "official",
+  "src": "https://images.samsung.com/is/image/samsung/p6pim/my/sm-f741bakaxme/gallery/my-galaxy-zflip6-f741-sm-f741bakaxme-542631257?$624_624_PNG$",
+  "page": "https://www.samsung.com/my/support/model/SM-F741BAKAXME/",
+  "credit": "Samsung Malaysia",
+  "checked": "2026-09-19",
+  "how": "support page product image"
+ },
+ "samsung-galaxy-z-flip7-fe": {
+  "kind": "official",
+  "src": "https://images.samsung.com/is/image/samsung/p6pim/my/f2507/gallery/my-galaxy-z-flip7-fe-f761-sm-f761bzkaxme-547563162?$624_624_PNG$",
+  "page": "https://www.samsung.com/my/support/model/SM-F761BZKAXME/",
+  "credit": "Samsung Malaysia",
+  "checked": "2026-09-19",
+  "how": "support page product image"
+ },
+ "samsung-galaxy-z-flip7": {
+  "kind": "official",
+  "src": "https://images.samsung.com/is/image/samsung/p6pim/my/f2507/gallery/my-galaxy-zflip7-f766-sm-f766bdbaxme-547584538?$624_624_PNG$",
+  "page": "https://www.samsung.com/my/support/model/SM-F766BDBAXME/",
+  "credit": "Samsung Malaysia",
+  "checked": "2026-09-19",
+  "how": "support page product image"
+ },
+ "samsung-galaxy-z-fold5": {
+  "kind": "official",
+  "src": "https://images.samsung.com/is/image/samsung/p6pim/my/2307/gallery/my-galaxy-z-fold5-f946-sm-f946blbdxme-537226118?$624_624_PNG$",
+  "page": "https://www.samsung.com/my/support/model/SM-F946BLBDXME/",
+  "credit": "Samsung Malaysia",
+  "checked": "2026-09-19",
+  "how": "support page product image"
+ },
+ "samsung-galaxy-z-fold6": {
+  "kind": "official",
+  "src": "https://images.samsung.com/is/image/samsung/p6pim/my/sm-f956bakdxme/gallery/my-galaxy-z-fold6-f956-sm-f956bakdxme-542632874?$624_624_PNG$",
+  "page": "https://www.samsung.com/my/support/model/SM-F956BAKDXME/",
+  "credit": "Samsung Malaysia",
+  "checked": "2026-09-19",
+  "how": "support page product image"
+ },
+ "samsung-galaxy-z-fold7": {
+  "kind": "official",
+  "src": "https://images.samsung.com/is/image/samsung/p6pim/my/f2507/gallery/my-galaxy-z-fold7-f966-sm-f966bdbdxme-547548272?$624_624_PNG$",
+  "page": "https://www.samsung.com/my/support/model/SM-F966BDBDXME/",
+  "credit": "Samsung Malaysia",
+  "checked": "2026-09-19",
+  "how": "support page product image"
+ },
+ "samsung-galaxy-watch-fe": {
+  "kind": "official",
+  "src": "https://images.samsung.com/is/image/samsung/p6pim/my/sm-r861nidaxme/gallery/my-galaxy-watch-fe-r861-sm-r861nidaxme-542488018?$624_624_PNG$",
+  "page": "https://www.samsung.com/my/support/model/SM-R861NIDAXME/",
+  "credit": "Samsung Malaysia",
+  "checked": "2026-09-19",
+  "how": "support page product image"
+ },
+ "samsung-galaxy-watch-ultra": {
+  "kind": "official",
+  "src": "https://images.samsung.com/is/image/samsung/p6pim/my/f2507/gallery/my-galaxy-watch-ultra-2025-l705-sm-l705faw1xme-547645830?$624_624_PNG$",
+  "page": "https://www.samsung.com/my/support/model/SM-L705FAW1XME/",
+  "credit": "Samsung Malaysia",
+  "checked": "2026-09-19",
+  "how": "support page product image"
+ },
+ "samsung-galaxy-watch6-classic": {
+  "kind": "official",
+  "src": "https://images.samsung.com/is/image/samsung/p6pim/my/2307/gallery/my-galaxy-watch6-classic-r955-sm-r950nzkaxme-537410440?$624_624_PNG$",
+  "page": "https://www.samsung.com/my/support/model/SM-R950NZKAXME/",
+  "credit": "Samsung Malaysia",
+  "checked": "2026-09-19",
+  "how": "support page product image"
+ },
+ "samsung-galaxy-watch6": {
+  "kind": "official",
+  "src": "https://images.samsung.com/is/image/samsung/p6pim/my/2307/gallery/my-galaxy-watch6-r935-sm-r930nzeaxme-537410569?$624_624_PNG$",
+  "page": "https://www.samsung.com/my/support/model/SM-R930NZEAXME/",
+  "credit": "Samsung Malaysia",
+  "checked": "2026-09-19",
+  "how": "support page product image"
+ },
+ "samsung-galaxy-watch7": {
+  "kind": "official",
+  "src": "https://images.samsung.com/is/image/samsung/p6pim/my/2407/gallery/my-galaxy-watch7-l300-sm-l300nzeaxme-542363709?$624_624_PNG$",
+  "page": "https://www.samsung.com/my/support/model/SM-L300NZEAXME/",
+  "credit": "Samsung Malaysia",
+  "checked": "2026-09-19",
+  "how": "support page product image"
+ },
+ "samsung-galaxy-a06-5g": {
+  "kind": "official",
+  "src": "https://images.samsung.com/is/image/samsung/p6pim/my/sm-a066blghxme/gallery/my-galaxy-a06-5g-sm-a066-sm-a066blghxme-545196475?$624_624_PNG$",
+  "page": "https://www.samsung.com/my/support/model/SM-A066BLGHXME/",
+  "credit": "Samsung Malaysia",
+  "checked": "2026-09-19",
+  "how": "support page product image"
+ },
+ "samsung-galaxy-s25": {
+  "kind": "official",
+  "src": "https://images.samsung.com/is/image/samsung/p6pim/my/2501/gallery/my-galaxy-s25-s931-sm-s931bdbcxme-544665049?$624_624_PNG$",
+  "page": "https://www.samsung.com/my/support/model/SM-S931BDBCXME/",
+  "credit": "Samsung Malaysia",
+  "checked": "2026-09-19",
+  "how": "support page product image"
+ },
+ "samsung-galaxy-z-flip8": {
+  "kind": "official",
+  "src": "https://images.samsung.com/is/image/samsung/p6pim/my/f2607/gallery/my-galaxy-zflip8-f776-599227-sm-f776blgaxme-553738010?$624_624_PNG$",
+  "page": "https://www.samsung.com/my/support/model/SM-F776BLGAXME/",
+  "credit": "Samsung Malaysia",
+  "checked": "2026-09-19",
+  "how": "support page product image"
+ },
+ "samsung-galaxy-z-fold8-ultra": {
+  "kind": "official",
+  "src": "https://images.samsung.com/is/image/samsung/p6pim/my/f2607/gallery/my-galaxy-z-fold8-ultra-f976-599185-sm-f976bdgdxme-553736032?$624_624_PNG$",
+  "page": "https://www.samsung.com/my/support/model/SM-F976BDGDXME/",
+  "credit": "Samsung Malaysia",
+  "checked": "2026-09-19",
+  "how": "support page product image"
+ },
+ "samsung-galaxy-watch8-classic": {
+  "kind": "official",
+  "src": "https://images.samsung.com/is/image/samsung/p6pim/my/f2507/gallery/my-galaxy-watch8-classic-l500-sm-l500nzkaxme-547651138?$624_624_PNG$",
+  "page": "https://www.samsung.com/my/support/model/SM-L500NZKAXME/",
+  "credit": "Samsung Malaysia",
+  "checked": "2026-09-19",
+  "how": "support page product image"
+ },
+ "samsung-galaxy-tab-s11-ultra": {
+  "kind": "official",
+  "src": "https://images.samsung.com/is/image/samsung/p6pim/my/sm-x930nzaaxme/gallery/my-galaxy-tab-s11-ultra-sm-x930-577155-577155-sm-x930nzaaxme-554051659?$624_624_PNG$",
+  "page": "https://www.samsung.com/my/support/model/SM-X930NZAAXME/",
+  "credit": "Samsung Malaysia",
+  "checked": "2026-09-19",
+  "how": "support page product image"
+ },
+ "vivo-v27": {
+  "kind": "official",
+  "src": "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1677483569524/b46fae449c0d665e4235dd3a2d5aa548.png",
+  "page": "https://www.vivo.com/my/products/param/v27",
+  "credit": "vivo Malaysia",
+  "checked": "2026-09-19",
+  "how": "spec page product colour image (vivo  (Noble Black))"
+ },
+ "vivo-v27e": {
+  "kind": "official",
+  "src": "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1677483682380/8598b04568d9a1d39f48ebc2887ae874.png",
+  "page": "https://www.vivo.com/my/products/param/v27e",
+  "credit": "vivo Malaysia",
+  "checked": "2026-09-19",
+  "how": "spec page product colour image (vivo  (Glory Black﻿))"
+ },
+ "vivo-v29": {
+  "kind": "official",
+  "src": "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1694501030630/70c4a3c003cb8d36110f961546fa90c1.png",
+  "page": "https://www.vivo.com/my/products/param/v29",
+  "credit": "vivo Malaysia",
+  "checked": "2026-09-19",
+  "how": "spec page product colour image (vivo  (Noble Black))"
+ },
+ "vivo-v30-pro": {
+  "kind": "official",
+  "src": "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1710129733875/853a2f8ae0e66d8a4b86a36d08af1f04.png",
+  "page": "https://www.vivo.com/my/products/param/v30pro",
+  "credit": "vivo Malaysia",
+  "checked": "2026-09-19",
+  "how": "spec page product colour image (vivo  (Petals White))"
+ },
+ "vivo-v30": {
+  "kind": "official",
+  "src": "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1709796027386/c040406a6451908ad854de582f968883.png",
+  "page": "https://www.vivo.com/my/products/param/v30",
+  "credit": "vivo Malaysia",
+  "checked": "2026-09-19",
+  "how": "spec page product colour image (vivo  (Petals White))"
+ },
+ "vivo-v30e": {
+  "kind": "official",
+  "src": "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1713756597437/453064c8a1bc924d7d17124c459548cc.png",
+  "page": "https://www.vivo.com/my/products/param/v30e",
+  "credit": "vivo Malaysia",
+  "checked": "2026-09-19",
+  "how": "spec page product colour image (vivo  (Coco Brown ))"
+ },
+ "vivo-v40-lite": {
+  "kind": "official",
+  "src": "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1729506521460/9630c654ed2089fdd5c6c6c1a1d036fb.png",
+  "page": "https://www.vivo.com/my/products/param/v40-lite",
+  "credit": "vivo Malaysia",
+  "checked": "2026-09-19",
+  "how": "spec page product colour image (vivo  (Silver))"
+ },
+ "vivo-v40-pro": {
+  "kind": "official",
+  "src": "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1723118874894/0681a72f8694473dcd3953262bb5cdb0.png",
+  "page": "https://www.vivo.com/my/products/param/v40-pro",
+  "credit": "vivo Malaysia",
+  "checked": "2026-09-19",
+  "how": "spec page product colour image (vivo  (Silver))"
+ },
+ "vivo-v40": {
+  "kind": "official",
+  "src": "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1723118997758/508b3d6268f12ec07bbfb425f229c7aa.png",
+  "page": "https://www.vivo.com/my/products/param/v40",
+  "credit": "vivo Malaysia",
+  "checked": "2026-09-19",
+  "how": "spec page product colour image (vivo  (Peach))"
+ },
+ "vivo-v50-lite-5g": {
+  "kind": "official",
+  "src": "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1745749392696/2379b5b872c9a86e8088a431d9bee26f.png",
+  "page": "https://www.vivo.com/my/products/param/v50-lite-5g",
+  "credit": "vivo Malaysia",
+  "checked": "2026-09-19",
+  "how": "spec page product colour image (vivo  (Gold))"
+ },
+ "vivo-v50": {
+  "kind": "official",
+  "src": "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1741345219438/a5d3b743275e5cfa0f1638c5018db2cf.png",
+  "page": "https://www.vivo.com/my/products/param/v50",
+  "credit": "vivo Malaysia",
+  "checked": "2026-09-19",
+  "how": "spec page product colour image (vivo  (Black))"
+ },
+ "vivo-v60-lite-5g": {
+  "kind": "official",
+  "src": "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1759916694734/2e322e87377c23489acfd42cc624de4a.png",
+  "page": "https://www.vivo.com/my/products/param/v60-lite-5g",
+  "credit": "vivo Malaysia",
+  "checked": "2026-09-19",
+  "how": "spec page product colour image (vivo  (Pink))"
+ },
+ "vivo-v60": {
+  "kind": "official",
+  "src": "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1756109552889/6006ffdf175e35616a66e11ce8a92720.png",
+  "page": "https://www.vivo.com/my/products/param/v60",
+  "credit": "vivo Malaysia",
+  "checked": "2026-09-19",
+  "how": "spec page product colour image (vivo  (Purple))"
+ },
+ "vivo-v70-fe": {
+  "kind": "official",
+  "src": "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1775029433056/1fbb066c59cbfcce533d92e76acd8782.png",
+  "page": "https://www.vivo.com/my/products/param/v70-fe",
+  "credit": "vivo Malaysia",
+  "checked": "2026-09-19",
+  "how": "spec page product colour image (vivo  (Purple))"
+ },
+ "vivo-v70": {
+  "kind": "official",
+  "src": "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1772272929685/d4627e61c23e32ab332f6fe9a58afdd8.png",
+  "page": "https://www.vivo.com/my/products/param/v70",
+  "credit": "vivo Malaysia",
+  "checked": "2026-09-19",
+  "how": "spec page product colour image (vivo  (Gold))"
+ },
+ "vivo-v80-lite-5g": {
+  "kind": "official",
+  "src": "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1788336609213/f501075a66795747c4cb416dfd045488.png",
+  "page": "https://www.vivo.com/my/products/param/v80-lite-5g",
+  "credit": "vivo Malaysia",
+  "checked": "2026-09-19",
+  "how": "spec page product colour image (vivo  (Pink))"
+ },
+ "vivo-x-fold5": {
+  "kind": "official",
+  "src": "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1753772315251/edf7da0cf2f9da68eb2d036a3f850bd1.png",
+  "page": "https://www.vivo.com/my/products/param/x-fold5",
+  "credit": "vivo Malaysia",
+  "checked": "2026-09-19",
+  "how": "spec page product colour image (vivo  (Gray))"
+ },
+ "vivo-x100-pro": {
+  "kind": "official",
+  "src": "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1710405824682/ef33c28436ec5411f7903c3ec28ce136.png",
+  "page": "https://www.vivo.com/my/products/param/x100pro",
+  "credit": "vivo Malaysia",
+  "checked": "2026-09-19",
+  "how": "spec page product colour image (vivo  (Moonlight White))"
+ },
+ "vivo-x100": {
+  "kind": "official",
+  "src": "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1702980784443/ff5751737b9154604a235b7bd084bac5.png",
+  "page": "https://www.vivo.com/my/products/param/x100",
+  "credit": "vivo Malaysia",
+  "checked": "2026-09-19",
+  "how": "spec page product colour image (vivo  (Startrail Blue))"
+ },
+ "vivo-x200-fe": {
+  "kind": "official",
+  "src": "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1751205597044/6df26d2d5ff95a2798afb9e5b9653c39.png",
+  "page": "https://www.vivo.com/my/products/param/x200-fe",
+  "credit": "vivo Malaysia",
+  "checked": "2026-09-19",
+  "how": "spec page product colour image (vivo  (Blue))"
+ },
+ "vivo-x200": {
+  "kind": "official",
+  "src": "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1731663753870/82d60af9a082916d8876b9c70c2f39eb.png",
+  "page": "https://www.vivo.com/my/products/param/x200",
+  "credit": "vivo Malaysia",
+  "checked": "2026-09-19",
+  "how": "spec page product colour image (vivo  (Green))"
+ },
+ "vivo-x300-fe": {
+  "kind": "official",
+  "src": "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1778576762665/b9bdffac48130ab92235ed8914673701.png",
+  "page": "https://www.vivo.com/my/products/param/x300-fe",
+  "credit": "vivo Malaysia",
+  "checked": "2026-09-19",
+  "how": "spec page product colour image (vivo  (Purple))"
+ },
+ "vivo-x300-ultra": {
+  "kind": "official",
+  "src": "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1778576188899/e95cb12aef50a8803958b8dde0a33ac0.png",
+  "page": "https://www.vivo.com/my/products/param/x300-ultra",
+  "credit": "vivo Malaysia",
+  "checked": "2026-09-19",
+  "how": "spec page product colour image (vivo  ( Green))"
+ },
+ "vivo-y02t": {
+  "kind": "official",
+  "src": "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1692607805155/9a056bd674b311c1526b1083e4487dba.png",
+  "page": "https://www.vivo.com/my/products/param/y02t",
+  "credit": "vivo Malaysia",
+  "checked": "2026-09-19",
+  "how": "spec page product colour image (vivo  (Orchid Blue))"
+ },
+ "vivo-y03": {
+  "kind": "official",
+  "src": "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1711696101291/5f759cea9e2b66a076fc85bca5dbf8f0.png",
+  "page": "https://www.vivo.com/my/products/param/y03",
+  "credit": "vivo Malaysia",
+  "checked": "2026-09-19",
+  "how": "spec page product colour image (vivo  (Gem Green))"
+ },
+ "vivo-y04": {
+  "kind": "official",
+  "src": "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1746005761328/d2e1646f60b760854014db0c7de98ca3.png",
+  "page": "https://www.vivo.com/my/products/param/y04",
+  "credit": "vivo Malaysia",
+  "checked": "2026-09-19",
+  "how": "spec page product colour image (vivo  (Gold))"
+ },
+ "vivo-y100-5g": {
+  "kind": "official",
+  "src": "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1716797102298/c72db53c29ab59ad5597d01b43533d1f.png",
+  "page": "https://www.vivo.com/my/products/param/y100-5g",
+  "credit": "vivo Malaysia",
+  "checked": "2026-09-19",
+  "how": "spec page product colour image (vivo  (Orange Leather))"
+ },
+ "vivo-y17s": {
+  "kind": "official",
+  "src": "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1695036030504/a0b8ebbd9519976ee039a9a43e98d9bf.png",
+  "page": "https://www.vivo.com/my/products/param/y17s",
+  "credit": "vivo Malaysia",
+  "checked": "2026-09-19",
+  "how": "spec page product colour image (vivo  (Glitter Purple))"
+ },
+ "vivo-y18": {
+  "kind": "official",
+  "src": "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1713757827904/7100f62d6f5d9be59ba4e4b18a9f25e4.png",
+  "page": "https://www.vivo.com/my/products/param/y18",
+  "credit": "vivo Malaysia",
+  "checked": "2026-09-19",
+  "how": "spec page product colour image (vivo  (Mocha Brown))"
+ },
+ "vivo-y19s": {
+  "kind": "official",
+  "src": "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1730778287951/f68a24f345fd68be6ec977c1f8ddda8a.png",
+  "page": "https://www.vivo.com/my/products/param/y19s",
+  "credit": "vivo Malaysia",
+  "checked": "2026-09-19",
+  "how": "spec page product colour image (vivo  (Black))"
+ },
+ "vivo-y21d": {
+  "kind": "official",
+  "src": "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1762427035880/3f9ba9a88e631f0c5793c5b3f45b17b9.png",
+  "page": "https://www.vivo.com/my/products/param/y21d",
+  "credit": "vivo Malaysia",
+  "checked": "2026-09-19",
+  "how": "spec page product colour image (vivo  (Purple))"
+ },
+ "vivo-y27-5g": {
+  "kind": "official",
+  "src": "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1687937061374/9fbdd088dd382d764c4a1e8293151a2d.png",
+  "page": "https://www.vivo.com/my/products/param/y27-5g",
+  "credit": "vivo Malaysia",
+  "checked": "2026-09-19",
+  "how": "spec page product colour image (vivo  (Mystic Black))"
+ },
+ "vivo-y27": {
+  "kind": "official",
+  "src": "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1687936300539/458ea3313e36f1497225f2c07bb3c35d.png",
+  "page": "https://www.vivo.com/my/products/param/y27",
+  "credit": "vivo Malaysia",
+  "checked": "2026-09-19",
+  "how": "spec page product colour image (vivo  (Sea Blue))"
+ },
+ "vivo-y27s": {
+  "kind": "official",
+  "src": "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1699522407662/74f16583252fae46be2d7853bb31cc8b.png",
+  "page": "https://www.vivo.com/my/products/param/y27s",
+  "credit": "vivo Malaysia",
+  "checked": "2026-09-19",
+  "how": "spec page product colour image (vivo  (Burgundy Black))"
+ },
+ "vivo-y28s-5g": {
+  "kind": "official",
+  "src": "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1719306462199/874f0f0f265e0bbda9f8c90a879257cb.png",
+  "page": "https://www.vivo.com/my/products/param/y28s-5g",
+  "credit": "vivo Malaysia",
+  "checked": "2026-09-19",
+  "how": "spec page product colour image (vivo  (Mocha Brown))"
+ },
+ "vivo-y31s-5g": {
+  "kind": "official",
+  "src": "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1781077759620/0c75010c03f2769664d34eb84940dd68.png",
+  "page": "https://www.vivo.com/my/products/param/y31s-5g",
+  "credit": "vivo Malaysia",
+  "checked": "2026-09-19",
+  "how": "spec page product colour image (vivo  (Purple))"
+ },
+ "vivo-y36-5g": {
+  "kind": "official",
+  "src": "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1683797951684/731a5be4740a7124275bb75fdfa543ca.png",
+  "page": "https://www.vivo.com/my/products/param/y36-5g",
+  "credit": "vivo Malaysia",
+  "checked": "2026-09-19",
+  "how": "spec page product colour image (vivo  (Semporna Green))"
+ },
+ "vivo-y36": {
+  "kind": "official",
+  "src": "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1683798040450/3894d6d94061925ca0317a0fbbd9f537.png",
+  "page": "https://www.vivo.com/my/products/param/y36",
+  "credit": "vivo Malaysia",
+  "checked": "2026-09-19",
+  "how": "spec page product colour image (vivo  (Semporna Green))"
+ },
+ "vivo-y39-5g": {
+  "kind": "official",
+  "src": "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1740382057594/f35d1876f9e07b4c46535e764cb1a8d5.png",
+  "page": "https://www.vivo.com/my/products/param/y39-5g",
+  "credit": "vivo Malaysia",
+  "checked": "2026-09-19",
+  "how": "spec page product colour image (vivo  (Blue))"
+ },
+ "vivo-y78-5g": {
+  "kind": "official",
+  "src": "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1683862749504/c6378c55b7aa7814e169921676f70478.png",
+  "page": "https://www.vivo.com/my/products/param/y78-5g",
+  "credit": "vivo Malaysia",
+  "checked": "2026-09-19",
+  "how": "spec page product colour image (vivo  (Dreamy Gold))"
+ },
+ "iqoo-11": {
+  "kind": "official",
+  "src": "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1678951817480/92c51c585a7427f3ecd91a440b5a87d2.png",
+  "page": "https://www.iqoo.com/my/products/param/iqoo-11",
+  "credit": "vivo Malaysia",
+  "checked": "2026-09-19",
+  "how": "spec page product colour image (vivo  (Legend))"
+ },
+ "iqoo-12": {
+  "kind": "official",
+  "src": "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1701314820059/2f8b5fb1f18eef7efed66e9810365bad.png",
+  "page": "https://www.iqoo.com/my/products/param/iqoo-12",
+  "credit": "vivo Malaysia",
+  "checked": "2026-09-19",
+  "how": "spec page product colour image (vivo  (Legend))"
+ },
+ "iqoo-13": {
+  "kind": "official",
+  "src": "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1733211065324/c68213a8297cb7415d7043c86b0ad6dd.png",
+  "page": "https://www.iqoo.com/my/products/param/iqoo-13",
+  "credit": "vivo Malaysia",
+  "checked": "2026-09-19",
+  "how": "spec page product colour image (vivo  (Legend))"
+ },
+ "iqoo-15r": {
+  "kind": "official",
+  "src": "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1770795133445/0674066a7e97b7e81f2c36a40a3fa7b4.png",
+  "page": "https://www.iqoo.com/my/products/param/iqoo-15r",
+  "credit": "vivo Malaysia",
+  "checked": "2026-09-19",
+  "how": "spec page product colour image (vivo  (Dark Knight))"
+ },
+ "iqoo-neo-10": {
+  "kind": "official",
+  "src": "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1748609550014/2b8d1c4f35df5ccc0641b7d0f81d434a.png",
+  "page": "https://www.iqoo.com/my/products/param/neo-10",
+  "credit": "vivo Malaysia",
+  "checked": "2026-09-19",
+  "how": "spec page product colour image (vivo  (Desert Gold))"
+ },
+ "iqoo-z10": {
+  "kind": "official",
+  "src": "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1751279525851/3a054cb3c5ad0cdc4a1a70654aacb935.png",
+  "page": "https://www.iqoo.com/my/products/param/z10-5g",
+  "credit": "vivo Malaysia",
+  "checked": "2026-09-19",
+  "how": "spec page product colour image (vivo  (Glacier Silver))"
+ },
+ "iqoo-z11": {
+  "kind": "official",
+  "src": "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1777542291115/bb931eaa5d27cc90526e1a4e1b88207f.png",
+  "page": "https://www.iqoo.com/my/products/param/z11",
+  "credit": "vivo Malaysia",
+  "checked": "2026-09-19",
+  "how": "spec page product colour image (vivo  (Glacier Blue))"
+ },
+ "iqoo-z11x": {
+  "kind": "official",
+  "src": "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1777285483845/49ce6eec92cd117004c8ddbba20a6ce6.png",
+  "page": "https://www.iqoo.com/my/products/param/z11x",
+  "credit": "vivo Malaysia",
+  "checked": "2026-09-19",
+  "how": "spec page product colour image (vivo  (Star Silver))"
+ },
+ "iqoo-z7": {
+  "kind": "official",
+  "src": "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1693829091887/506fbdb2c01660622499904af91c0941.png",
+  "page": "https://www.iqoo.com/my/products/param/z7",
+  "credit": "vivo Malaysia",
+  "checked": "2026-09-19",
+  "how": "spec page product colour image (vivo  (Supernova Orange))"
+ },
+ "iqoo-z7x": {
+  "kind": "official",
+  "src": "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1680865800589/b4ccfe0bb06d067414c12b9b2e750f9a.png",
+  "page": "https://www.iqoo.com/my/products/param/z7x",
+  "credit": "vivo Malaysia",
+  "checked": "2026-09-19",
+  "how": "spec page product colour image (vivo  (Tropical Blue))"
+ },
+ "xiaomi-smart-band-10": {
+  "kind": "official",
+  "src": "https://i02.appmifile.com/315_item_my/24/06/2025/e092fdf6d5a048f2911eff5b85699865.png",
+  "page": "https://www.mi.com/my/product/xiaomi-smart-band-10/specs/",
+  "credit": "Xiaomi",
+  "checked": "2026-09-19",
+  "how": "product image (structured data)"
+ },
+ "leica-leitzphone-powered-by-xiaomi": {
+  "kind": "official",
+  "src": "https://i02.appmifile.com/224_item_my/14/02/2026/592f35a2aa4e3f14f22b5ab810965ba3.png",
+  "page": "https://www.mi.com/my/product/leica-leitzphone-powered-by-xiaomi/specs/",
+  "credit": "Xiaomi",
+  "checked": "2026-09-19",
+  "how": "product image (structured data)"
+ },
+ "xiaomi-13-pro": {
+  "kind": "official",
+  "src": "https://i02.appmifile.com/706_operator_sg/15/02/2023/75d5a88d3d99386db8b37751a331c87f.png",
+  "page": "https://www.mi.com/my/product/xiaomi-13-pro/specs/",
+  "credit": "Xiaomi",
+  "checked": "2026-09-19",
+  "how": "spec page hero image"
+ },
+ "xiaomi-13-ultra": {
+  "kind": "official",
+  "src": "https://i02.appmifile.com/57_operator_sg/23/05/2023/e0f444f190acfcb56bdf2d77d8f4f9ea.png",
+  "page": "https://www.mi.com/my/product/xiaomi-13-ultra/specs/",
+  "credit": "Xiaomi",
+  "checked": "2026-09-19",
+  "how": "spec page hero image"
+ },
+ "xiaomi-13": {
+  "kind": "official",
+  "src": "https://i02.appmifile.com/158_operator_sg/08/02/2023/3436112edf5d104a191c22576c6506bf.png",
+  "page": "https://www.mi.com/my/product/xiaomi-13/specs/",
+  "credit": "Xiaomi",
+  "checked": "2026-09-19",
+  "how": "spec page hero image"
+ },
+ "xiaomi-15t-pro": {
+  "kind": "official",
+  "src": "https://i02.appmifile.com/963_item_my/05/09/2025/f187d7963c116b577e945f8d4ad0fc97.png",
+  "page": "https://www.mi.com/my/product/xiaomi-15t-pro/specs/",
+  "credit": "Xiaomi",
+  "checked": "2026-09-19",
+  "how": "product image (structured data)"
+ },
+ "xiaomi-15t": {
+  "kind": "official",
+  "src": "https://i02.appmifile.com/426_item_my/05/09/2025/1563b661e424c5f3b2a3603acfb986d6.png",
+  "page": "https://www.mi.com/my/product/xiaomi-15t/specs/",
+  "credit": "Xiaomi",
+  "checked": "2026-09-19",
+  "how": "product image (structured data)"
+ },
+ "xiaomi-mix-flip": {
+  "kind": "official",
+  "src": "https://i02.appmifile.com/315_item_my/24/09/2024/d849f7e1b520ad98dc04af496d35c08b.png",
+  "page": "https://www.mi.com/my/product/xiaomi-mix-flip/specs/",
+  "credit": "Xiaomi",
+  "checked": "2026-09-19",
+  "how": "product image (structured data)"
+ },
+ "xiaomi-watch-5": {
+  "kind": "official",
+  "src": "https://i02.appmifile.com/991_item_my/09/02/2026/efd100302101c1637757b14a8c935ba9.png",
+  "page": "https://www.mi.com/my/product/xiaomi-watch-5/specs/",
+  "credit": "Xiaomi",
+  "checked": "2026-09-19",
+  "how": "product image (structured data)"
+ },
+ "poco-c81-pro": {
+  "kind": "official",
+  "src": "https://i02.appmifile.com/607_operatorx_operatorx_opx/14/04/2026/0e5b4a2a089f98487fe957bfb614c0cd.png",
+  "page": "https://www.mi.com/global/product/poco-c81-pro/specs/",
+  "credit": "Xiaomi",
+  "checked": "2026-09-19",
+  "how": "product image (structured data)"
+ },
+ "poco-c85": {
+  "kind": "official",
+  "src": "https://i02.appmifile.com/872_operatorx_operatorx_opx/01/09/2025/4218764363094fcccaeb2e81a22cfea8.png",
+  "page": "https://www.mi.com/global/product/poco-c85/specs/",
+  "credit": "Xiaomi",
+  "checked": "2026-09-19",
+  "how": "product image (structured data)"
+ },
+ "poco-f5-pro": {
+  "kind": "official",
+  "src": "https://i02.appmifile.com/722_operatorx_operatorx_opx/20/08/2024/ac8b9bf541b7f29c3a15d6e42229479a.png",
+  "page": "https://www.mi.com/global/product/poco-f5-pro/specs/",
+  "credit": "Xiaomi",
+  "checked": "2026-09-19",
+  "how": "product image (structured data)"
+ },
+ "poco-f5": {
+  "kind": "official",
+  "src": "https://i02.appmifile.com/390_operatorx_operatorx_opx/20/08/2024/c81518450813c64feb06e2cf2bbb006d.png",
+  "page": "https://www.mi.com/global/product/poco-f5/specs/",
+  "credit": "Xiaomi",
+  "checked": "2026-09-19",
+  "how": "product image (structured data)"
+ },
+ "poco-f7-pro": {
+  "kind": "official",
+  "src": "https://i02.appmifile.com/3_item_my/25/03/2025/08a58915d4b458da451349d5d7847c57.png",
+  "page": "https://www.mi.com/my/product/poco-f7-pro/specs/",
+  "credit": "Xiaomi",
+  "checked": "2026-09-19",
+  "how": "product image (structured data)"
+ },
+ "poco-f8-pro": {
+  "kind": "official",
+  "src": "https://i02.appmifile.com/663_item_my/21/11/2025/59016acfabb3bee0662dfc9a3de57c90.png",
+  "page": "https://www.mi.com/my/product/poco-f8-pro/specs/",
+  "credit": "Xiaomi",
+  "checked": "2026-09-19",
+  "how": "product image (structured data)"
+ },
+ "poco-f8-ultra": {
+  "kind": "official",
+  "src": "https://i02.appmifile.com/934_item_my/21/11/2025/d5298e073dca25e7185756a1c9b2e1de.png",
+  "page": "https://www.mi.com/my/product/poco-f8-ultra/specs/",
+  "credit": "Xiaomi",
+  "checked": "2026-09-19",
+  "how": "product image (structured data)"
+ },
+ "poco-m7": {
+  "kind": "official",
+  "src": "https://i02.appmifile.com/579_operatorx_operatorx_opx/14/08/2025/1c43fdc5f2489bad507059f3aa9e52b3.png",
+  "page": "https://www.mi.com/global/product/poco-m7/specs/",
+  "credit": "Xiaomi",
+  "checked": "2026-09-19",
+  "how": "product image (structured data)"
+ },
+ "poco-x5-5g": {
+  "kind": "official",
+  "src": "https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1675669255.82325730.png",
+  "page": "https://www.mi.com/global/product/poco-x5-5g/specs/",
+  "credit": "Xiaomi",
+  "checked": "2026-09-19",
+  "how": "product image (structured data)"
+ },
+ "poco-x5-pro-5g": {
+  "kind": "official",
+  "src": "https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1675683479.37079731.png",
+  "page": "https://www.mi.com/global/product/poco-x5-pro-5g/specs/",
+  "credit": "Xiaomi",
+  "checked": "2026-09-19",
+  "how": "product image (structured data)"
+ },
+ "poco-x7-pro": {
+  "kind": "official",
+  "src": "https://i02.appmifile.com/836_item_my/07/01/2025/65eed94ff7f14f10d7aacb0c1f4b5e89.png",
+  "page": "https://www.mi.com/my/product/poco-x7-pro/specs/",
+  "credit": "Xiaomi",
+  "checked": "2026-09-19",
+  "how": "product image (structured data)"
+ },
+ "poco-x7": {
+  "kind": "official",
+  "src": "https://i02.appmifile.com/561_item_my/07/01/2025/34381a803751484591398220e463be8f.png",
+  "page": "https://www.mi.com/my/product/poco-x7/specs/",
+  "credit": "Xiaomi",
+  "checked": "2026-09-19",
+  "how": "product image (structured data)"
+ },
+ "poco-x8-pro-max": {
+  "kind": "official",
+  "src": "https://i02.appmifile.com/442_item_my/09/03/2026/31f97c01ff4b2282b7d859011b92edd9.png",
+  "page": "https://www.mi.com/my/product/poco-x8-pro-max/specs/",
+  "credit": "Xiaomi",
+  "checked": "2026-09-19",
+  "how": "product image (structured data)"
+ },
+ "poco-x8-pro": {
+  "kind": "official",
+  "src": "https://i02.appmifile.com/785_item_my/09/03/2026/36a4dbe74c685556aa77f4c4b9f7af0a.png",
+  "page": "https://www.mi.com/my/product/poco-x8-pro/specs/",
+  "credit": "Xiaomi",
+  "checked": "2026-09-19",
+  "how": "product image (structured data)"
+ },
+ "redmi-12c": {
+  "kind": "official",
+  "src": "https://i02.appmifile.com/350_operatorx_operatorx_opx/21/09/2023/d9e2c589a76bd5db5f826557505dce64.png",
+  "page": "https://www.mi.com/global/product/redmi-12c/specs/",
+  "credit": "Xiaomi",
+  "checked": "2026-09-19",
+  "how": "product image (structured data)"
+ },
+ "redmi-15-5g": {
+  "kind": "official",
+  "src": "https://i02.appmifile.com/347_item_my/05/08/2025/41eeaf247482e72c8c773aaa9f5e13a2.png",
+  "page": "https://www.mi.com/my/product/redmi-15-5g/specs/",
+  "credit": "Xiaomi",
+  "checked": "2026-09-19",
+  "how": "product image (structured data)"
+ },
+ "redmi-15": {
+  "kind": "official",
+  "src": "https://i02.appmifile.com/95_operatorx_operatorx_opx/29/08/2025/342ec816ede0b04b02c2f6b0ed8b269b.png",
+  "page": "https://www.mi.com/global/product/redmi-15/specs/",
+  "credit": "Xiaomi",
+  "checked": "2026-09-19",
+  "how": "product image (structured data)"
+ },
+ "redmi-a7-pro": {
+  "kind": "official",
+  "src": "https://i02.appmifile.com/226_item_my/03/04/2026/67173f95e40855713e5d75dfebd2869b.png",
+  "page": "https://www.mi.com/my/product/redmi-a7-pro/specs/",
+  "credit": "Xiaomi",
+  "checked": "2026-09-19",
+  "how": "product image (structured data)"
+ },
+ "redmi-note-12-5g": {
+  "kind": "official",
+  "src": "https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1679574085.06263133.png",
+  "page": "https://www.mi.com/global/product/redmi-note-12-5g/specs/",
+  "credit": "Xiaomi",
+  "checked": "2026-09-19",
+  "how": "product image (structured data)"
+ },
+ "redmi-note-12-pro-plus-5g": {
+  "kind": "official",
+  "src": "https://i02.appmifile.com/258_operatorx_operatorx_opx/13/07/2023/5730a597d85eca8a71baf04a2ddf87de.png",
+  "page": "https://www.mi.com/global/product/redmi-note-12-pro-plus-5g/specs/",
+  "credit": "Xiaomi",
+  "checked": "2026-09-19",
+  "how": "product image (structured data)"
+ },
+ "redmi-note-12-pro": {
+  "kind": "official",
+  "src": "https://i02.appmifile.com/831_operator_sg/20/03/2023/db61551d17f18cfdfa462da0ba09029c.png",
+  "page": "https://www.mi.com/my/product/redmi-note-12-pro/specs/",
+  "credit": "Xiaomi",
+  "checked": "2026-09-19",
+  "how": "spec page hero image"
+ },
+ "redmi-note-12": {
+  "kind": "official",
+  "src": "https://i02.appmifile.com/236_operator_sg/06/06/2023/225094d28d4a8035144ab36d8cebd99c.png",
+  "page": "https://www.mi.com/global/product/redmi-note-12/specs/",
+  "credit": "Xiaomi",
+  "checked": "2026-09-19",
+  "how": "spec page hero image"
+ },
+ "redmi-note-12s": {
+  "kind": "official",
+  "src": "https://i02.appmifile.com/373_operatorx_operatorx_opx/10/05/2023/657e399a69e188fb194c3804f33fb67d.png",
+  "page": "https://www.mi.com/global/product/redmi-note-12s/specs/",
+  "credit": "Xiaomi",
+  "checked": "2026-09-19",
+  "how": "product image (structured data)"
+ },
+ "redmi-note-14-pro-5g": {
+  "kind": "official",
+  "src": "https://i02.appmifile.com/969_item_my/20/06/2025/f72e2f40589cbb0d34ddd8fde354009c.png",
+  "page": "https://www.mi.com/my/product/redmi-note-14-pro-5g/specs/",
+  "credit": "Xiaomi",
+  "checked": "2026-09-19",
+  "how": "product image (structured data)"
+ },
+ "redmi-note-15-5g": {
+  "kind": "official",
+  "src": "https://i02.appmifile.com/664_item_my/04/01/2026/6d413a846e46105b9634038c91f7fce8.png",
+  "page": "https://www.mi.com/my/product/redmi-note-15-5g/specs/",
+  "credit": "Xiaomi",
+  "checked": "2026-09-19",
+  "how": "product image (structured data)"
+ },
+ "redmi-note-15-pro-5g": {
+  "kind": "official",
+  "src": "https://i02.appmifile.com/38_item_my/04/01/2026/664ad3c1de94bd48c941d62610dcc0d0.png",
+  "page": "https://www.mi.com/my/product/redmi-note-15-pro-5g/specs/",
+  "credit": "Xiaomi",
+  "checked": "2026-09-19",
+  "how": "product image (structured data)"
+ },
+ "redmi-note-15-pro-plus-5g": {
+  "kind": "official",
+  "src": "https://i02.appmifile.com/261_item_my/04/01/2026/cea1b9edc4ac89f6b66568816b8f2664.png",
+  "page": "https://www.mi.com/my/product/redmi-note-15-pro-plus-5g/specs/",
+  "credit": "Xiaomi",
+  "checked": "2026-09-19",
+  "how": "product image (structured data)"
+ },
+ "redmi-note-15-pro": {
+  "kind": "official",
+  "src": "https://i02.appmifile.com/139_operatorx_operatorx_opx/08/01/2026/a277a33b5b40a10292c428d138853406.png",
+  "page": "https://www.mi.com/global/product/redmi-note-15-pro/specs/",
+  "credit": "Xiaomi",
+  "checked": "2026-09-19",
+  "how": "product image (structured data)"
+ },
+ "redmi-note-15": {
+  "kind": "official",
+  "src": "https://i02.appmifile.com/800_operatorx_operatorx_opx/08/01/2026/b79aa1573cae4278dd0c344f406337ce.png",
+  "page": "https://www.mi.com/global/product/redmi-note-15/specs/",
+  "credit": "Xiaomi",
+  "checked": "2026-09-19",
+  "how": "product image (structured data)"
+ },
+ "redmi-watch-3": {
+  "kind": "official",
+  "src": "https://i02.appmifile.com/423_operator_sg/10/03/2023/735f791f42e2d7e7db17f8b0b777965e.png",
+  "page": "https://www.mi.com/my/product/redmi-watch-3/specs/",
+  "credit": "Xiaomi",
+  "checked": "2026-09-19",
+  "how": "spec page hero image"
+ },
+ "redmi-watch-6-lite": {
+  "kind": "official",
+  "src": "https://i02.appmifile.com/345_operatorx_operatorx_opx/26/08/2026/2c0c9f9ae2a7dd46377365fd57f69314.png",
+  "page": "https://www.mi.com/global/product/redmi-watch-6-lite/specs/",
+  "credit": "Xiaomi",
+  "checked": "2026-09-19",
+  "how": "product image (structured data)"
+ },
+ "huawei-nova-12-se": {
+  "kind": "official",
+  "src": "https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/admin-image/phones/nova12-se/specs/specs-v1.jpg",
+  "page": "https://web.archive.org/web/20250920151903/https://consumer.huawei.com/my/phones/nova12-se/specs/",
+  "credit": "Huawei",
+  "checked": "2026-09-19",
+  "how": "spec page product image (page archived; image still on Huawei's site)"
+ },
+ "huawei-nova-12i": {
+  "kind": "official",
+  "src": "https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/admin-image/phones/nova-12i/specs/specs-img.jpg",
+  "page": "https://web.archive.org/web/20251016131852/https://consumer.huawei.com/my/phones/nova-12i/specs/",
+  "credit": "Huawei",
+  "checked": "2026-09-19",
+  "how": "spec page product image (page archived; image still on Huawei's site)"
+ },
+ "huawei-nova-12s": {
+  "kind": "official",
+  "src": "https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/admin-image/phones/nova-12s/specs/specs-img.png",
+  "page": "https://web.archive.org/web/20250920151846/https://consumer.huawei.com/my/phones/nova-12s/specs/",
+  "credit": "Huawei",
+  "checked": "2026-09-19",
+  "how": "spec page product image (page archived; image still on Huawei's site)"
+ },
+ "huawei-nova-y72": {
+  "kind": "official",
+  "src": "https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/admin-image/phones/nova-y72/specs/specs-img.png",
+  "page": "https://web.archive.org/web/20250920151824/https://consumer.huawei.com/my/phones/nova-y72/specs/",
+  "credit": "Huawei",
+  "checked": "2026-09-19",
+  "how": "spec page product image (page archived; image still on Huawei's site)"
+ },
+ "huawei-pura-70-pro": {
+  "kind": "official",
+  "src": "https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/admin-image/phones/pura70-pro/specs-white.png",
+  "page": "https://web.archive.org/web/20250920151814/https://consumer.huawei.com/my/phones/pura70-pro/specs/",
+  "credit": "Huawei",
+  "checked": "2026-09-19",
+  "how": "spec page product image (page archived; image still on Huawei's site)"
+ },
+ "huawei-pura-70-ultra": {
+  "kind": "official",
+  "src": "https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/admin-image/phones/pura70-ultra/specs-green.png",
+  "page": "https://web.archive.org/web/20251015150211/https://consumer.huawei.com/my/phones/pura70-ultra/specs/",
+  "credit": "Huawei",
+  "checked": "2026-09-19",
+  "how": "spec page product image (page archived; image still on Huawei's site)"
+ },
+ "huawei-pura-70": {
+  "kind": "official",
+  "src": "https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/admin-image/phones/pura70/specs-pink.png",
+  "page": "https://web.archive.org/web/20250920151938/https://consumer.huawei.com/my/phones/pura70/specs/",
+  "credit": "Huawei",
+  "checked": "2026-09-19",
+  "how": "spec page product image (page archived; image still on Huawei's site)"
+ },
+ "huawei-watch-4-series": {
+  "kind": "official",
+  "src": "https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/admin-image/wearables/watch-4-series/list/list-dark-brown.png",
+  "page": "https://consumer.huawei.com/my/wearables/watch-4-series/specs/",
+  "credit": "Huawei",
+  "checked": "2026-09-19",
+  "how": "spec page product image"
+ },
+ "huawei-watch-5": {
+  "kind": "official",
+  "src": "https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/wearables/watch-5/img/kv/kv-xs.webp",
+  "page": "https://consumer.huawei.com/my/wearables/watch-5/",
+  "credit": "Huawei",
+  "checked": "2026-09-19",
+  "how": "spec page product image"
+ },
+ "huawei-watch-gt-5-pro": {
+  "kind": "official",
+  "src": "https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/admin-image/wearables/watch-gt5-pro/list/list-46mm-black.png",
+  "page": "https://consumer.huawei.com/sg/wearables/watch-gt5-pro/specs/",
+  "credit": "Huawei",
+  "checked": "2026-09-19",
+  "how": "product image from Huawei's SG site (the Malaysian page is no longer online)"
+ },
+ "huawei-band-9": {
+  "kind": "official",
+  "src": "https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/admin-image/wearables/band9/specs/specs.png",
+  "page": "https://web.archive.org/web/20260512005839/https://consumer.huawei.com/my/wearables/band9/specs/",
+  "credit": "Huawei",
+  "checked": "2026-09-19",
+  "how": "spec page product image (page archived; image still on Huawei's site)"
+ },
+ "huawei-mate-x3": {
+  "kind": "official",
+  "src": "https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/admin-image/phones/mate-x3/specs/dark-green.png",
+  "page": "https://web.archive.org/web/20250428095933/https://consumer.huawei.com/my/phones/mate-x3/specs/",
+  "credit": "Huawei",
+  "checked": "2026-09-19",
+  "how": "spec page product image (page archived; image still on Huawei's site)"
+ },
+ "huawei-nova-11-pro": {
+  "kind": "official",
+  "src": "https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/admin-image/phones/nova11-pro/specs/green.png",
+  "page": "https://web.archive.org/web/20241208181122/https://consumer.huawei.com/my/phones/nova11-pro/specs/",
+  "credit": "Huawei",
+  "checked": "2026-09-19",
+  "how": "spec page product image (page archived; image still on Huawei's site)"
+ },
+ "huawei-nova-11": {
+  "kind": "official",
+  "src": "https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/admin-image/phones/nova11/specs/green.png",
+  "page": "https://web.archive.org/web/20250214080523/https://consumer.huawei.com/my/phones/nova11/specs/",
+  "credit": "Huawei",
+  "checked": "2026-09-19",
+  "how": "spec page product image (page archived; image still on Huawei's site)"
+ },
+ "huawei-nova-14i": {
+  "kind": "official",
+  "src": "https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/phones/nova-14i/specs-blue.png",
+  "page": "https://web.archive.org/web/20251209014132/https://consumer.huawei.com/en/phones/nova-14i/specs/",
+  "credit": "Huawei",
+  "checked": "2026-09-19",
+  "how": "spec page product image (page archived; image still on Huawei's site)"
+ },
+ "huawei-p60-pro": {
+  "kind": "official",
+  "src": "https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/admin-image/phones/p60-pro/specs/rococo-pearl.png",
+  "page": "https://web.archive.org/web/20260616181932/https://consumer.huawei.com/my/phones/p60-pro/specs/",
+  "credit": "Huawei",
+  "checked": "2026-09-19",
+  "how": "spec page product image (page archived; image still on Huawei's site)"
+ },
+ "huawei-watch-gt-6": {
+  "kind": "official",
+  "src": "https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/wearables/watch-gt6/list46mm-green.png",
+  "page": "https://consumer.huawei.com/my/wearables/watch-gt6/specs/",
+  "credit": "Huawei",
+  "checked": "2026-09-19",
+  "how": "spec page product image"
+ },
+ "huawei-watch-gt-4": {
+  "kind": "official",
+  "src": "https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/wearables/watch-gt4/watch-gt4/list/46mm-green.png",
+  "page": "https://consumer.huawei.com/ph/wearables/watch-gt4/specs/",
+  "credit": "Huawei",
+  "checked": "2026-09-19",
+  "how": "product image from Huawei's PH site (the Malaysian page is no longer online)"
+ },
+ "huawei-watch-gt-5": {
+  "kind": "official",
+  "src": "https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/admin-image/wearables/watch-gt5/list/46mm-blue.png",
+  "page": "https://consumer.huawei.com/sg/wearables/watch-gt5/specs/",
+  "credit": "Huawei",
+  "checked": "2026-09-19",
+  "how": "product image from Huawei's SG site (the Malaysian page is no longer online)"
+ },
+ "apple-iphone-18-pro-max": {
+  "kind": "official",
+  "src": "https://www.apple.com/v/iphone-18-pro/b/images/meta/iphone-18-pro_specs__cmwbqfe82cb6_og.png",
+  "page": "https://www.apple.com/iphone-18-pro/specs/",
+  "credit": "Apple",
+  "checked": "2026-09-19",
+  "how": "official page product image (structured data / og:image)"
+ },
+ "apple-iphone-duo": {
+  "kind": "official",
+  "src": "https://www.apple.com/my/iphone-duo/images/meta/iphone-duo_specs__ec9upqmirfki_og.png",
+  "page": "https://www.apple.com/my/iphone-duo/specs/",
+  "credit": "Apple",
+  "checked": "2026-09-19",
+  "how": "official page product image (structured data / og:image)"
+ },
+ "asus-rog-phone-9-pro": {
+  "kind": "official",
+  "src": "https://dlcdnwebimgs.asus.com/gain//websites/global/Sno/79180.jpg",
+  "page": "https://rog.asus.com",
+  "credit": "ASUS",
+  "checked": "2026-09-19",
+  "how": "official page product image (structured data / og:image)"
+ },
+ "oppo-find-x9-pro": {
+  "kind": "official",
+  "src": "https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/find-x9-series-en/listpage/find-x9-pro/480-600-white-v2.png",
+  "page": "https://www.oppo.com/en/smartphones/series-find-x/find-x9-pro/",
+  "credit": "OPPO",
+  "checked": "2026-09-19",
+  "how": "official page product image (structured data / og:image)"
+ },
+ "redmagic-11-pro": {
+  "kind": "official",
+  "src": "http://global.redmagic.gg/cdn/shop/files/728_360_715da377-ab23-41f8-80f7-301a3d582a26.png?v=1787656640",
+  "page": "https://global.redmagic.gg/pages/redmagic-11-pro-specs",
+  "credit": "REDMAGIC",
+  "checked": "2026-09-19",
+  "how": "official page product image (structured data / og:image)"
+ },
+ "honor-band-10": {
+  "kind": "official",
+  "src": "https://www.honor.com/content/dam/honor/common/product-list/wearables/product-series/honor-band-10/global/honor-band-10-blue-list.png",
+  "page": "https://www.honor.com/my/wearables/honor-band-10/spec/",
+  "credit": "HONOR",
+  "checked": "2026-09-19",
+  "how": "official page product image (structured data / og:image)"
+ },
+ "honor-band-9": {
+  "kind": "official",
+  "src": "https://www.honor.com/content/dam/honor/my/product-list/wearables/honor-band-9/honor-band-9-list.png",
+  "page": "https://www.honor.com/my/wearables/honor-band-9/spec/",
+  "credit": "HONOR",
+  "checked": "2026-09-19",
+  "how": "official page product image (structured data / og:image)"
+ },
+ "honor-magic6-pro": {
+  "kind": "official",
+  "src": "https://www.honor.com/content/dam/honor/my/specs/smartphone/honor-magic6-pro/honor-magic6-pro-fx.jpg",
+  "page": "https://www.honor.com/my/phones/honor-magic6-pro/spec/",
+  "credit": "HONOR",
+  "checked": "2026-09-19",
+  "how": "official page product image (structured data / og:image)"
+ },
+ "honor-watch-4": {
+  "kind": "official",
+  "src": "https://www.honor.com/content/dam/honor/my/specs/wearables/honor-watch-4/honor-watch-4-fx-new.png",
+  "page": "https://www.honor.com/my/wearables/honor-watch-4/spec/",
+  "credit": "HONOR",
+  "checked": "2026-09-19",
+  "how": "official page product image (structured data / og:image)"
+ },
+ "honor-watch-5-ultra": {
+  "kind": "official",
+  "src": "https://www.honor.com/content/dam/honor/common/product-list/wearables/product-series/honor-watch-5-ultra/honor-watch-5-ultra-brown-500.png",
+  "page": "https://www.honor.com/my/wearables/honor-watch-5-ultra/spec/",
+  "credit": "HONOR",
+  "checked": "2026-09-19",
+  "how": "official page product image (structured data / og:image)"
+ },
+ "honor-watch-5": {
+  "kind": "official",
+  "src": "https://www.honor.com/content/dam/honor/my/specs/wearables/honor-watch-5/honor-watch-5-list.png",
+  "page": "https://www.honor.com/my/wearables/honor-watch-5/spec/",
+  "credit": "HONOR",
+  "checked": "2026-09-19",
+  "how": "official page product image (structured data / og:image)"
+ },
+ "honor-watch-6": {
+  "kind": "official",
+  "src": "https://www.honor.com/content/dam/honor/common/product-list/wearables/product-series/honor-watch-6/honor-watch-6-black-list.png",
+  "page": "https://www.honor.com/my/wearables/honor-watch-6/spec/",
+  "credit": "HONOR",
+  "checked": "2026-09-19",
+  "how": "official page product image (structured data / og:image)"
+ },
+ "honor-watch-fit": {
+  "kind": "official",
+  "src": "https://www.honor.com/content/dam/honor/common/product-list/wearables/product-series/honor-watch-fit/global/honor-watch-fit-d-list.png",
+  "page": "https://www.honor.com/my/wearables/honor-watch-fit/spec/",
+  "credit": "HONOR",
+  "checked": "2026-09-19",
+  "how": "official page product image (structured data / og:image)"
+ },
+ "honor-watch-x5-play": {
+  "kind": "official",
+  "src": "https://www.honor.com/content/dam/honor/common/product-list/wearables/product-series/honor-watch-x5-play/honor-watch-x5-play-b-list.png",
+  "page": "https://www.honor.com/my/wearables/honor-watch-x5-play/spec/",
+  "credit": "HONOR",
+  "checked": "2026-09-19",
+  "how": "official page product image (structured data / og:image)"
+ },
+ "honor-watch-x5i": {
+  "kind": "official",
+  "src": "https://www.honor.com/content/dam/honor/common/product-list/wearables/product-series/honor-watch-x5i/honor-watch-x5i-w-list.png",
+  "page": "https://www.honor.com/my/wearables/honor-watch-x5i/spec/",
+  "credit": "HONOR",
+  "checked": "2026-09-19",
+  "how": "official page product image (structured data / og:image)"
+ }
+}

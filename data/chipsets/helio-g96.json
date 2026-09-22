@@ -1,0 +1,16 @@
+{
+  "id": "helio-g96",
+  "name": "Helio G96",
+  "vendor": "mediatek",
+  "family": "Helio G",
+  "summary": "Name recorded from phone makers' specification pages and launch reports. Chip details have not been compiled yet.",
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "xiaomi",
+      "url": "https://www.mi.com/global/product/redmi-note-12s/specs/",
+      "checked": "2026-09-18",
+      "note": "Chip name as given for the Redmi Note 12S."
+    }
+  }
+}

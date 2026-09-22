@@ -1,0 +1,15 @@
+{
+  "id": "unisoc-t7250",
+  "name": "Unisoc T7250",
+  "vendor": "unisoc",
+  "summary": "Name recorded from phone makers' specification pages and launch reports. Chip details have not been compiled yet.",
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "oppo",
+      "url": "https://www.oppo.com/my/smartphones/series-a/a6c/specs/",
+      "checked": "2026-09-18",
+      "note": "Chip name as given for the OPPO A6c."
+    }
+  }
+}

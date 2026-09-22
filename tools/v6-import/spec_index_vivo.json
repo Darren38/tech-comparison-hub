@@ -1,0 +1,530 @@
+{
+ "vivo-x90": {
+  "url": "https://www.vivo.com/my/products/param/x90",
+  "final": "https://www.vivo.com/my/products/param/x90",
+  "status": 200,
+  "title": "vivo X90-12+256GB Storage-Specs and Price | vivo Malaysia",
+  "ok": true,
+  "bytes": 104450
+ },
+ "vivo-x90-pro": {
+  "url": "https://www.vivo.com/my/products/param/x90-pro",
+  "final": "https://www.vivo.com/my/products/param/x90-pro",
+  "status": 200,
+  "title": "vivo X90 Pro-120W FlashCharge-Specs and Price | vivo Malaysia",
+  "ok": true,
+  "bytes": 104600
+ },
+ "vivo-v27e": {
+  "url": "https://www.vivo.com/my/products/param/v27e",
+  "final": "https://www.vivo.com/my/products/param/v27e",
+  "status": 200,
+  "title": "vivo V27e-66W Fast Charging-Specs | vivo Malaysia",
+  "ok": true,
+  "bytes": 103051
+ },
+ "vivo-v27": {
+  "url": "https://www.vivo.com/my/products/param/v27",
+  "final": "https://www.vivo.com/my/products/param/v27",
+  "status": 200,
+  "title": "vivo V27 5G-66W Fast Charging-Specs and Price | vivo Malaysia",
+  "ok": true,
+  "bytes": 103093
+ },
+ "vivo-y02t": {
+  "url": "https://www.vivo.com/my/products/param/y02t",
+  "final": "https://www.vivo.com/my/products/param/y02t",
+  "status": 200,
+  "title": "vivo Y02t-5000mAh Battery-Specs and Price | vivo Malaysia",
+  "ok": true,
+  "bytes": 97834
+ },
+ "vivo-y36": {
+  "url": "https://www.vivo.com/my/products/param/y36",
+  "final": "https://www.vivo.com/my/products/param/y36",
+  "status": 200,
+  "title": "vivo Y36-2.5D Glass Design-Specs and Price | vivo Malaysia",
+  "ok": true,
+  "bytes": 98436
+ },
+ "vivo-y36-5g": {
+  "url": "https://www.vivo.com/my/products/param/y36-5g",
+  "final": "https://www.vivo.com/my/products/param/y36-5g",
+  "status": 200,
+  "title": "vivo Y36 5G-Long-Lasting Battery-Specs | vivo Malaysia",
+  "ok": true,
+  "bytes": 100055
+ },
+ "vivo-y27": {
+  "url": "https://www.vivo.com/my/products/param/y27",
+  "final": "https://www.vivo.com/my/products/param/y27",
+  "status": 200,
+  "title": "vivo Y27-2.5D Plastic Design-Specs and Price | vivo Malaysia",
+  "ok": true,
+  "bytes": 97859
+ },
+ "vivo-y27-5g": {
+  "url": "https://www.vivo.com/my/products/param/y27-5g",
+  "final": "https://www.vivo.com/my/products/param/y27-5g",
+  "status": 200,
+  "title": "vivo Y27 5G-2.5D Plastic Design-Specs and Price | vivo Malaysia",
+  "ok": true,
+  "bytes": 97688
+ },
+ "vivo-y78-5g": {
+  "url": "https://www.vivo.com/my/products/param/y78-5g",
+  "final": "https://www.vivo.com/my/products/param/y78-5g",
+  "status": 200,
+  "title": "vivo Y78 5G-Snapdragon 695 Processor-Specs and Price | vivo Malaysia",
+  "ok": true,
+  "bytes": 99804
+ },
+ "vivo-y17s": {
+  "url": "https://www.vivo.com/my/products/param/y17s",
+  "final": "https://www.vivo.com/my/products/param/y17s",
+  "status": 200,
+  "title": "vivo Y17s-5000mAh Battery-Specs and Price | vivo Malaysia",
+  "ok": true,
+  "bytes": 114469
+ },
+ "vivo-v29": {
+  "url": "https://www.vivo.com/my/products/param/v29",
+  "final": "https://www.vivo.com/my/products/param/v29",
+  "status": 200,
+  "title": "vivo V29-Powerful Processor-Specs and Price | vivo Malaysia",
+  "ok": true,
+  "bytes": 101523
+ },
+ "vivo-v29e": {
+  "url": "https://www.vivo.com/my/products/param/v29e",
+  "final": "https://www.vivo.com/my/products/param/v29e",
+  "status": 200,
+  "title": "vivo Malaysia",
+  "ok": false,
+  "bytes": 62406
+ },
+ "vivo-y27s": {
+  "url": "https://www.vivo.com/my/products/param/y27s",
+  "final": "https://www.vivo.com/my/products/param/y27s",
+  "status": 200,
+  "title": "vivo Y27s-44W FlashCharge-Specs and Price | vivo Malaysia",
+  "ok": true,
+  "bytes": 114685
+ },
+ "vivo-y03": {
+  "url": "https://www.vivo.com/my/products/param/y03",
+  "final": "https://www.vivo.com/my/products/param/y03",
+  "status": 200,
+  "title": "vivo Y03-Smooth Operation, Large Storage-Specs | vivo Malaysia",
+  "ok": true,
+  "bytes": 116580
+ },
+ "vivo-x100": {
+  "url": "https://www.vivo.com/my/products/param/x100",
+  "final": "https://www.vivo.com/my/products/param/x100",
+  "status": 200,
+  "title": "vivo X100-The Ultimate ZEISS Phone-Specs and Price | vivo Malaysia",
+  "ok": true,
+  "bytes": 119320
+ },
+ "vivo-x100-pro": {
+  "url": "https://www.vivo.com/my/products/param/x100pro",
+  "final": "https://www.vivo.com/my/products/param/x100pro",
+  "status": 200,
+  "title": "vivo X100 Pro-ZEISS Professional Imaging-Specs and Price | vivo Malaysia",
+  "ok": true,
+  "bytes": 120444
+ },
+ "vivo-y100-5g": {
+  "url": "https://www.vivo.com/my/products/param/y100-5g",
+  "final": "https://www.vivo.com/my/products/param/y100-5g",
+  "status": 200,
+  "title": "vivo Y100 5G -FlashCharge, Fluid Display-Specs and Price | vivo Malaysia",
+  "ok": true,
+  "bytes": 118296
+ },
+ "vivo-v30": {
+  "url": "https://www.vivo.com/my/products/param/v30",
+  "final": "https://www.vivo.com/my/products/param/v30",
+  "status": 200,
+  "title": "vivo V30-Smooth, Slim, Enhance Portraits-Specs and Price | vivo Malaysia",
+  "ok": true,
+  "bytes": 120627
+ },
+ "vivo-v30-pro": {
+  "url": "https://www.vivo.com/my/products/param/v30pro",
+  "final": "https://www.vivo.com/my/products/param/v30pro",
+  "status": 200,
+  "title": "vivo V30 Pro-ZEISS Triple Main Camera-Specs | vivo Malaysia",
+  "ok": true,
+  "bytes": 117252
+ },
+ "vivo-v30e": {
+  "url": "https://www.vivo.com/my/products/param/v30e",
+  "final": "https://www.vivo.com/my/products/param/v30e",
+  "status": 200,
+  "title": "vivo V30e-Snapdragon® 6 Gen 1, 5500mAh-Specs | vivo Malaysia",
+  "ok": true,
+  "bytes": 117940
+ },
+ "vivo-y18": {
+  "url": "https://www.vivo.com/my/products/param/y18",
+  "final": "https://www.vivo.com/my/products/param/y18",
+  "status": 200,
+  "title": "vivo Y18-Ultra Clear Camera, Large Battery-Specs | vivo Malaysia",
+  "ok": true,
+  "bytes": 119625
+ },
+ "vivo-y28": {
+  "url": "https://www.vivo.com/my/products/param/y28",
+  "final": "https://www.vivo.com/my/products/param/y28",
+  "status": 200,
+  "title": "vivo Y28-6000mAh Battery, Large Storage-Specs | vivo Malaysia",
+  "ok": false,
+  "bytes": 62583
+ },
+ "vivo-y38-5g": {
+  "url": "https://www.vivo.com/my/products/param/y38-5g",
+  "final": "https://www.vivo.com/my/products/param/y38-5g",
+  "status": 200,
+  "title": "vivo Malaysia",
+  "ok": false,
+  "bytes": 62410
+ },
+ "vivo-v40": {
+  "url": "https://www.vivo.com/my/products/param/v40",
+  "final": "https://www.vivo.com/my/products/param/v40",
+  "status": 200,
+  "title": "vivo V40-5500mAh, Snapdragon 7 Gen 3-Specs | vivo Malaysia",
+  "ok": true,
+  "bytes": 126359
+ },
+ "vivo-v40-pro": {
+  "url": "https://www.vivo.com/my/products/param/v40-pro",
+  "final": "https://www.vivo.com/my/products/param/v40-pro",
+  "status": 200,
+  "title": "vivo V40 Pro-Flagship Chips, 4 Main Cameras-Specs | vivo Malaysia",
+  "ok": true,
+  "bytes": 125767
+ },
+ "vivo-v40e": {
+  "url": "https://www.vivo.com/my/products/param/v40e",
+  "final": "https://www.vivo.com/my/products/param/v40e",
+  "status": 200,
+  "title": "vivo Malaysia",
+  "ok": false,
+  "bytes": 62404
+ },
+ "vivo-v40-lite": {
+  "url": "https://www.vivo.com/my/products/param/v40-lite",
+  "final": "https://www.vivo.com/my/products/param/v40-lite",
+  "status": 200,
+  "title": "vivo Malaysia",
+  "ok": true,
+  "bytes": 119200
+ },
+ "vivo-y19s": {
+  "url": "https://www.vivo.com/my/products/param/y19s",
+  "final": "https://www.vivo.com/my/products/param/y19s",
+  "status": 200,
+  "title": "vivo Y19s-5500mAh Battery &amp; 50MP Camera-Specs | vivo Malaysia",
+  "ok": true,
+  "bytes": 122954
+ },
+ "vivo-y28s-5g": {
+  "url": "https://www.vivo.com/my/products/param/y28s-5g",
+  "final": "https://www.vivo.com/my/products/param/y28s-5g",
+  "status": 200,
+  "title": "vivo Y28s 5G-5000mAh, 5G MediaTek Platform-Specs | vivo Malaysia",
+  "ok": true,
+  "bytes": 120606
+ },
+ "vivo-x200": {
+  "url": "https://www.vivo.com/my/products/param/x200",
+  "final": "https://www.vivo.com/my/products/param/x200",
+  "status": 200,
+  "title": "vivo X200-Dimensity 9400 &amp; 5800mAh Battery-Specs | vivo Malaysia",
+  "ok": true,
+  "bytes": 113792
+ },
+ "vivo-v50": {
+  "url": "https://www.vivo.com/my/products/param/v50",
+  "final": "https://www.vivo.com/my/products/param/v50",
+  "status": 200,
+  "title": "vivo V50-50MP ZEISS Camera, 6000mAh Battery-Specs | vivo Malaysia",
+  "ok": true,
+  "bytes": 125953
+ },
+ "vivo-v50-lite-5g": {
+  "url": "https://www.vivo.com/my/products/param/v50-lite-5g",
+  "final": "https://www.vivo.com/my/products/param/v50-lite-5g",
+  "status": 200,
+  "title": "vivo V50 Lite 5G-6500mAh Battery, 50MP Camera-Specs | vivo Malaysia",
+  "ok": true,
+  "bytes": 119812
+ },
+ "vivo-v50-lite": {
+  "url": "https://www.vivo.com/my/products/param/v50-lite",
+  "final": "https://www.vivo.com/my/products/param/v50-lite",
+  "status": 200,
+  "title": "vivo Malaysia",
+  "ok": false,
+  "bytes": 62416
+ },
+ "vivo-y04": {
+  "url": "https://www.vivo.com/my/products/param/y04",
+  "final": "https://www.vivo.com/my/products/param/y04",
+  "status": 200,
+  "title": "vivo Y04-5500mAh Battery, IP64, 6.74 Inch-Specs | vivo Malaysia",
+  "ok": true,
+  "bytes": 122830
+ },
+ "vivo-y29": {
+  "url": "https://www.vivo.com/my/products/param/y29",
+  "final": "https://www.vivo.com/my/products/param/y29",
+  "status": 200,
+  "title": "vivo Malaysia",
+  "ok": false,
+  "bytes": 62401
+ },
+ "vivo-y39-5g": {
+  "url": "https://www.vivo.com/my/products/param/y39-5g",
+  "final": "https://www.vivo.com/my/products/param/y39-5g",
+  "status": 200,
+  "title": "vivo Y39 5G-6500mAh Battery, 8+8GB RAM-Specs | vivo Malaysia",
+  "ok": true,
+  "bytes": 122783
+ },
+ "vivo-y19e": {
+  "url": "https://www.vivo.com/my/products/param/y19e",
+  "final": "https://www.vivo.com/my/products/param/y19e",
+  "status": 200,
+  "title": "vivo Malaysia",
+  "ok": false,
+  "bytes": 62406
+ },
+ "vivo-x200-fe": {
+  "url": "https://www.vivo.com/my/products/param/x200-fe",
+  "final": "https://www.vivo.com/my/products/param/x200-fe",
+  "status": 200,
+  "title": "vivo Malaysia",
+  "ok": true,
+  "bytes": 123248
+ },
+ "vivo-x-fold5": {
+  "url": "https://www.vivo.com/my/products/param/x-fold5",
+  "final": "https://www.vivo.com/my/products/param/x-fold5",
+  "status": 200,
+  "title": "vivo Malaysia",
+  "ok": true,
+  "bytes": 123703
+ },
+ "vivo-v60": {
+  "url": "https://www.vivo.com/my/products/param/v60",
+  "final": "https://www.vivo.com/my/products/param/v60",
+  "status": 200,
+  "title": "vivo V60-50MP ZEISS Camera, 6500mAh Battery-Specs | vivo Malaysia",
+  "ok": true,
+  "bytes": 122575
+ },
+ "vivo-v60-lite-5g": {
+  "url": "https://www.vivo.com/my/products/param/v60-lite-5g",
+  "final": "https://www.vivo.com/my/products/param/v60-lite-5g",
+  "status": 200,
+  "title": "vivo V60 Lite 5G - Dimensity 7360-Turbo, 6500mAh, 50MP Camera - Specs | vivo Malaysia",
+  "ok": true,
+  "bytes": 120403
+ },
+ "vivo-v60-lite": {
+  "url": "https://www.vivo.com/my/products/param/v60-lite",
+  "final": "https://www.vivo.com/my/products/param/v60-lite",
+  "status": 200,
+  "title": "vivo Malaysia",
+  "ok": false,
+  "bytes": 62416
+ },
+ "vivo-y29s": {
+  "url": "https://www.vivo.com/my/products/param/y29s",
+  "final": "https://www.vivo.com/my/products/param/y29s",
+  "status": 200,
+  "title": "vivo Malaysia",
+  "ok": false,
+  "bytes": 62404
+ },
+ "vivo-y21d": {
+  "url": "https://www.vivo.com/my/products/param/y21d",
+  "final": "https://www.vivo.com/my/products/param/y21d",
+  "status": 200,
+  "title": "vivo Malaysia",
+  "ok": true,
+  "bytes": 124622
+ },
+ "vivo-v70": {
+  "url": "https://www.vivo.com/my/products/param/v70",
+  "final": "https://www.vivo.com/my/products/param/v70",
+  "status": 200,
+  "title": "vivo V70 - 50MP ZEISS Camera, 1.5K Ultra Clear OLED Display - Specs | vivo Malaysia",
+  "ok": true,
+  "bytes": 128546
+ },
+ "vivo-v70-fe": {
+  "url": "https://www.vivo.com/my/products/param/v70-fe",
+  "final": "https://www.vivo.com/my/products/param/v70-fe",
+  "status": 200,
+  "title": "vivo V70 FE - 200MP Camera, 7000mAh Battery - Specs | vivo Malaysia",
+  "ok": true,
+  "bytes": 127345
+ },
+ "vivo-x300-ultra": {
+  "url": "https://www.vivo.com/my/products/param/x300-ultra",
+  "final": "https://www.vivo.com/my/products/param/x300-ultra",
+  "status": 200,
+  "title": "vivo Malaysia",
+  "ok": true,
+  "bytes": 118538
+ },
+ "vivo-x300-fe": {
+  "url": "https://www.vivo.com/my/products/param/x300-fe",
+  "final": "https://www.vivo.com/my/products/param/x300-fe",
+  "status": 200,
+  "title": "vivo Malaysia",
+  "ok": true,
+  "bytes": 119778
+ },
+ "vivo-y31s-5g": {
+  "url": "https://www.vivo.com/my/products/param/y31s-5g",
+  "final": "https://www.vivo.com/my/products/param/y31s-5g",
+  "status": 200,
+  "title": "vivo Malaysia",
+  "ok": true,
+  "bytes": 124256
+ },
+ "vivo-v80-lite-5g": {
+  "url": "https://www.vivo.com/my/products/param/v80-lite-5g",
+  "final": "https://www.vivo.com/my/products/param/v80-lite-5g",
+  "status": 200,
+  "title": "vivo Malaysia",
+  "ok": true,
+  "bytes": 124465
+ },
+ "vivo-watch-gt": {
+  "url": "https://www.vivo.com/my/products/param/watch-gt",
+  "final": "https://www.vivo.com/my/products/param/watch-gt",
+  "status": 200,
+  "title": "vivo Malaysia",
+  "ok": false,
+  "bytes": 63849
+ },
+ "vivo-watch-gt-2": {
+  "url": "https://www.vivo.com/my/products/param/watch-gt-2",
+  "final": "https://www.vivo.com/my/products/param/watch-gt-2",
+  "status": 200,
+  "title": "vivo Malaysia",
+  "ok": false,
+  "bytes": 63781
+ },
+ "iqoo-11": {
+  "url": "https://www.iqoo.com/my/products/param/iqoo-11",
+  "final": "https://www.iqoo.com/my/products/param/iqoo-11",
+  "status": 200,
+  "title": "iQOO 11 | iQOO Malaysia",
+  "ok": true,
+  "bytes": 82745
+ },
+ "iqoo-z7": {
+  "url": "https://www.iqoo.com/my/products/param/z7",
+  "final": "https://www.iqoo.com/my/products/param/z7",
+  "status": 200,
+  "title": "iQOO Z7 5G | iQOO Malaysia",
+  "ok": true,
+  "bytes": 83703
+ },
+ "iqoo-z7x": {
+  "url": "https://www.iqoo.com/my/products/param/z7x",
+  "final": "https://www.iqoo.com/my/products/param/z7x",
+  "status": 200,
+  "title": "iQOO Z7x 5G | iQOO Malaysia",
+  "ok": true,
+  "bytes": 82605
+ },
+ "iqoo-12": {
+  "url": "https://www.iqoo.com/my/products/param/iqoo-12",
+  "final": "https://www.iqoo.com/my/products/param/iqoo-12",
+  "status": 200,
+  "title": "iQOO Malaysia",
+  "ok": true,
+  "bytes": 92046
+ },
+ "iqoo-z9": {
+  "url": "https://www.iqoo.com/my/products/param/z9",
+  "final": "https://www.iqoo.com/my/products/param/z9",
+  "status": 200,
+  "title": "iQOO Malaysia",
+  "ok": false,
+  "bytes": 41599
+ },
+ "iqoo-z9x": {
+  "url": "https://www.iqoo.com/my/products/param/z9x",
+  "final": "https://www.iqoo.com/my/products/param/z9x",
+  "status": 200,
+  "title": "iQOO Malaysia",
+  "ok": false,
+  "bytes": 41602
+ },
+ "iqoo-13": {
+  "url": "https://www.iqoo.com/my/products/param/iqoo-13",
+  "final": "https://www.iqoo.com/my/products/param/iqoo-13",
+  "status": 200,
+  "title": "iQOO Malaysia",
+  "ok": true,
+  "bytes": 97846
+ },
+ "iqoo-neo-10": {
+  "url": "https://www.iqoo.com/my/products/param/neo-10",
+  "final": "https://www.iqoo.com/my/products/param/neo-10",
+  "status": 200,
+  "title": "iQOO Malaysia",
+  "ok": true,
+  "bytes": 97146
+ },
+ "iqoo-z10": {
+  "url": "https://www.iqoo.com/my/products/param/z10-5g",
+  "final": "https://www.iqoo.com/my/products/param/z10-5g",
+  "status": 200,
+  "title": "iQOO Malaysia",
+  "ok": true,
+  "bytes": 96180
+ },
+ "iqoo-z10x": {
+  "url": "https://www.iqoo.com/my/products/param/z10x",
+  "final": "https://www.iqoo.com/my/products/param/z10x",
+  "status": 200,
+  "title": "iQOO Malaysia",
+  "ok": false,
+  "bytes": 41605
+ },
+ "iqoo-z11": {
+  "url": "https://www.iqoo.com/my/products/param/z11",
+  "final": "https://www.iqoo.com/my/products/param/z11",
+  "status": 200,
+  "title": "iQOO Malaysia",
+  "ok": true,
+  "bytes": 98154
+ },
+ "iqoo-z11x": {
+  "url": "https://www.iqoo.com/my/products/param/z11x",
+  "final": "https://www.iqoo.com/my/products/param/z11x",
+  "status": 200,
+  "title": "iQOO Malaysia",
+  "ok": true,
+  "bytes": 97250
+ },
+ "iqoo-15r": {
+  "url": "https://www.iqoo.com/my/products/param/iqoo-15r",
+  "final": "https://www.iqoo.com/my/products/param/iqoo-15r",
+  "status": 200,
+  "title": "iQOO Malaysia",
+  "ok": true,
+  "bytes": 98687
+ }
+}

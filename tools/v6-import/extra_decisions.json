@@ -1,0 +1,974 @@
+{
+ "honor-x9e-pro": {
+  "drop": true,
+  "reason": "Not launched yet; HONOR has not published specifications (Lowyat.NET, September 2026)."
+ },
+ "oppo-band-2": {
+  "drop": true,
+  "reason": "OPPO Malaysia's page for it has been removed and no Malaysian launch coverage was found."
+ },
+ "xiaomi-smart-band-11": {
+  "drop": true,
+  "reason": "No Malaysian launch evidence: Xiaomi's page is gone and Malaysian coverage mentions only the Smart Band 11 Active."
+ },
+ "xiaomi-14t": {
+  "set": {
+   "display.size_in": 6.67
+  }
+ },
+ "xiaomi-14t-pro": {
+  "set": {
+   "display.size_in": 6.67
+  }
+ },
+ "huawei-pura-70-ultra": {
+  "set": {
+   "memory.storage_gb": [
+    512,
+    1024
+   ]
+  },
+  "field_sources": {
+   "specs.memory": {
+    "class": "news",
+    "source": "soyacincau",
+    "url": "https://soyacincau.com/2024/07/01/huawei-pura-70-ultra-1tb-malaysia-official-price/",
+    "note": "The 1 TB model was added in Malaysia in July 2024 (SoyaCincau); RAM from Lowyat.NET's launch report."
+   }
+  }
+ },
+ "samsung-galaxy-s25": {
+  "set": {
+   "memory": {
+    "ram_gb": [
+     12
+    ],
+    "storage_gb": [
+     256,
+     512
+    ]
+   }
+  }
+ },
+ "samsung-galaxy-s25-fe": {
+  "set": {
+   "memory": {
+    "ram_gb": [
+     8
+    ],
+    "storage_gb": [
+     128,
+     256,
+     512
+    ]
+   }
+  }
+ },
+ "samsung-galaxy-a06-5g": {
+  "set": {
+   "memory": {
+    "ram_gb": [
+     6
+    ],
+    "storage_gb": [
+     128
+    ]
+   },
+   "platform.chipset_name": "Dimensity 6300"
+  },
+  "field_sources": {
+   "specs.platform": {
+    "class": "news",
+    "source": "nasilemaktech",
+    "url": "https://nasilemaktech.com/samsung-galaxy-a06-5g-malaysia-price/",
+    "note": "Chip named in Nasi Lemak Tech's Malaysian coverage; the maker's own specification data for this model does not name it."
+   }
+  }
+ },
+ "samsung-galaxy-a07": {
+  "set": {
+   "memory": {
+    "ram_gb": [
+     6,
+     8
+    ],
+    "storage_gb": [
+     128,
+     256
+    ]
+   },
+   "platform.chipset_name": "Helio G99"
+  },
+  "field_sources": {
+   "specs.platform": {
+    "class": "news",
+    "source": "soyacincau",
+    "url": "https://soyacincau.com/2026/07/27/samsung-malaysia-announces-price-hike-for-galaxy-a07-and-a17/",
+    "note": "Chip named in SoyaCincau's Malaysian coverage; the maker's own specification data for this model does not name it."
+   }
+  }
+ },
+ "samsung-galaxy-a07-5g": {
+  "set": {
+   "memory": {
+    "ram_gb": [
+     6,
+     8
+    ],
+    "storage_gb": [
+     128,
+     256
+    ]
+   },
+   "platform.chipset_name": "Dimensity 6300"
+  },
+  "field_sources": {
+   "specs.platform": {
+    "class": "news",
+    "source": "lowyat",
+    "url": "https://www.lowyat.net/2026/379860/samsung-galaxy-a07-5g/",
+    "note": "Chip named in Lowyat.NET's Malaysian coverage; the maker's own specification data for this model does not name it."
+   }
+  }
+ },
+ "samsung-galaxy-a17": {
+  "set": {
+   "memory": {
+    "ram_gb": [
+     8
+    ],
+    "storage_gb": [
+     256
+    ]
+   }
+  }
+ },
+ "samsung-galaxy-a17-5g": {
+  "set": {
+   "memory": {
+    "ram_gb": [
+     8
+    ],
+    "storage_gb": [
+     128,
+     256
+    ]
+   }
+  }
+ },
+ "samsung-galaxy-a57-5g": {
+  "set": {
+   "memory": {
+    "ram_gb": [
+     8,
+     12
+    ],
+    "storage_gb": [
+     256,
+     512
+    ]
+   },
+   "platform.chipset_name": "Exynos 1680"
+  },
+  "field_sources": {
+   "specs.platform": {
+    "class": "news",
+    "source": "soyacincau",
+    "url": "https://soyacincau.com/2026/03/26/samsung-galaxy-a57-5g-a37-5g-malaysia-price-specs-preorder/",
+    "note": "Chip named in SoyaCincau's Malaysian coverage; the maker's own specification data for this model does not name it."
+   }
+  }
+ },
+ "samsung-galaxy-a37-5g": {
+  "set": {
+   "memory": {
+    "ram_gb": [
+     8,
+     12
+    ],
+    "storage_gb": [
+     256
+    ]
+   }
+  }
+ },
+ "samsung-galaxy-a27-5g": {
+  "set": {
+   "memory": {
+    "ram_gb": [
+     8
+    ],
+    "storage_gb": [
+     128,
+     256
+    ]
+   },
+   "platform.chipset_name": "Snapdragon 6 Gen 3"
+  },
+  "field_sources": {
+   "specs.platform": {
+    "class": "news",
+    "source": "soyacincau",
+    "url": "https://soyacincau.com/2026/06/30/samsung-galaxy-a27-5g-snapdragon-6-gen-3-malaysia-launch-price-specs/",
+    "note": "Chip named in SoyaCincau's Malaysian coverage; the maker's own specification data for this model does not name it."
+   }
+  }
+ },
+ "samsung-galaxy-z-fold8-ultra": {
+  "set": {
+   "memory": {
+    "ram_gb": [
+     12,
+     16
+    ],
+    "storage_gb": [
+     256,
+     512
+    ]
+   },
+   "platform.chipset_name": "Snapdragon 8 Elite Gen 5",
+   "display": {
+    "size_in": 8.0,
+    "type": "Dynamic AMOLED 2X",
+    "resolution": "2504 × 2256",
+    "refresh_hz": 120
+   },
+   "battery": {
+    "capacity_mah": 5000
+   },
+   "camera": {
+    "rear": [
+     {
+      "role": "main",
+      "mp": 200
+     }
+    ],
+    "rear_text": "Rear: 200 MP + 50 MP + 10 MP",
+    "front": "10 MP"
+   },
+   "connectivity": {
+    "cellular": "5G",
+    "nfc": true
+   }
+  },
+  "field_sources": {
+   "specs.platform": {
+    "class": "news",
+    "source": "lowyat",
+    "url": "https://www.lowyat.net/2026/399347/samsung-galaxy-z-fold8-ultra-officially-launches-from-rm8099/",
+    "note": "Chip named in Lowyat.NET's Malaysian coverage; the maker's own specification data for this model does not name it."
+   },
+   "specs.display": {
+    "class": "official",
+    "source": "samsung",
+    "url": "https://www.samsung.com/my/support/model/SM-F976BDGDXME/",
+    "note": "Read from Samsung's own specification data for the Malaysian model SM-F976BDGDXME (what samsung.com/my shows); the Malaysian product page itself lists only a few specifications."
+   },
+   "specs.battery": {
+    "class": "official",
+    "source": "samsung",
+    "url": "https://www.samsung.com/my/support/model/SM-F976BDGDXME/",
+    "note": "Read from Samsung's own specification data for the Malaysian model SM-F976BDGDXME (what samsung.com/my shows); the Malaysian product page itself lists only a few specifications."
+   },
+   "specs.camera": {
+    "class": "official",
+    "source": "samsung",
+    "url": "https://www.samsung.com/my/support/model/SM-F976BDGDXME/",
+    "note": "Read from Samsung's own specification data for the Malaysian model SM-F976BDGDXME (what samsung.com/my shows); the Malaysian product page itself lists only a few specifications."
+   }
+  },
+  "drop_fields": [
+   "build.dimensions"
+  ]
+ },
+ "samsung-galaxy-z-flip8": {
+  "set": {
+   "memory": {
+    "ram_gb": [
+     12
+    ],
+    "storage_gb": [
+     256,
+     512
+    ]
+   },
+   "platform.chipset_name": "Exynos 2600",
+   "display": {
+    "size_in": 6.9,
+    "type": "Dynamic AMOLED 2X",
+    "resolution": "2520 × 1080",
+    "refresh_hz": 120
+   },
+   "battery": {
+    "capacity_mah": 4300
+   },
+   "camera": {
+    "rear": [
+     {
+      "role": "main",
+      "mp": 50
+     }
+    ],
+    "rear_text": "Rear: 50 MP + 12 MP",
+    "front": "10 MP"
+   },
+   "connectivity": {
+    "cellular": "5G",
+    "nfc": true
+   }
+  },
+  "field_sources": {
+   "specs.platform": {
+    "class": "news",
+    "source": "soyacincau",
+    "url": "https://soyacincau.com/2026/07/23/samsung-galaxy-z-flip-8-hands-on-malaysia-price-whats-actually-new/",
+    "note": "Chip named in SoyaCincau's Malaysian coverage; the maker's own specification data for this model does not name it."
+   },
+   "specs.display": {
+    "class": "official",
+    "source": "samsung",
+    "url": "https://www.samsung.com/my/support/model/SM-F776BLGAXME/",
+    "note": "Read from Samsung's own specification data for the Malaysian model SM-F776BLGAXME (what samsung.com/my shows); the Malaysian product page itself lists only a few specifications."
+   },
+   "specs.battery": {
+    "class": "official",
+    "source": "samsung",
+    "url": "https://www.samsung.com/my/support/model/SM-F776BLGAXME/",
+    "note": "Read from Samsung's own specification data for the Malaysian model SM-F776BLGAXME (what samsung.com/my shows); the Malaysian product page itself lists only a few specifications."
+   },
+   "specs.camera": {
+    "class": "official",
+    "source": "samsung",
+    "url": "https://www.samsung.com/my/support/model/SM-F776BLGAXME/",
+    "note": "Read from Samsung's own specification data for the Malaysian model SM-F776BLGAXME (what samsung.com/my shows); the Malaysian product page itself lists only a few specifications."
+   }
+  },
+  "drop_fields": [
+   "build.dimensions"
+  ]
+ },
+ "samsung-galaxy-s26-fe": {
+  "set": {
+   "memory": {
+    "ram_gb": [
+     8
+    ],
+    "storage_gb": [
+     128,
+     256,
+     512
+    ]
+   }
+  }
+ },
+ "samsung-galaxy-a08": {
+  "set": {
+   "memory": {
+    "ram_gb": [
+     6
+    ],
+    "storage_gb": [
+     128
+    ]
+   }
+  }
+ },
+ "samsung-galaxy-a07s": {
+  "set": {
+   "memory": {
+    "ram_gb": [
+     4
+    ],
+    "storage_gb": [
+     64
+    ]
+   }
+  }
+ },
+ "samsung-galaxy-s23": {
+  "set": {
+   "platform.chipset_name": "Snapdragon 8 Gen 2"
+  },
+  "field_sources": {
+   "specs.platform": {
+    "class": "news",
+    "source": "soyacincau",
+    "url": "https://soyacincau.com/2023/01/30/samsung-galaxy-s23-s23-ultra-malaysia-is-this-the-official-local-pricing/",
+    "note": "Chip named in SoyaCincau's Malaysian coverage; the maker's own specification data for this model does not name it."
+   }
+  }
+ },
+ "samsung-galaxy-s23-plus": {
+  "set": {
+   "platform.chipset_name": "Snapdragon 8 Gen 2"
+  },
+  "field_sources": {
+   "specs.platform": {
+    "class": "news",
+    "source": "soyacincau",
+    "url": "https://soyacincau.com/2023/02/02/samsung-galaxy-s23-series-malaysia-first-impressions-ultra-focused/",
+    "note": "Chip named in SoyaCincau's Malaysian coverage; the maker's own specification data for this model does not name it."
+   }
+  }
+ },
+ "samsung-galaxy-s23-ultra": {
+  "set": {
+   "platform.chipset_name": "Snapdragon 8 Gen 2",
+   "memory": {
+    "ram_gb": [
+     12
+    ],
+    "storage_gb": [
+     256,
+     512,
+     1024
+    ]
+   }
+  },
+  "field_sources": {
+   "specs.platform": {
+    "class": "news",
+    "source": "soyacincau",
+    "url": "https://soyacincau.com/2023/02/02/samsung-galaxy-s23-series-malaysia-first-impressions-ultra-focused/",
+    "note": "Chip named in SoyaCincau's Malaysian coverage; the maker's own specification data for this model does not name it."
+   },
+   "specs.memory": {
+    "class": "news",
+    "source": "lowyat",
+    "url": "https://www.lowyat.net/2023/293368/samsung-galaxy-s23-ultra-specs-price-malaysia/",
+    "note": "Memory options as listed in Malaysian launch pricing; the maker's current Malaysian specification data lists fewer."
+   }
+  }
+ },
+ "samsung-galaxy-s24": {
+  "set": {
+   "platform.chipset_name": "Exynos 2400"
+  },
+  "field_sources": {
+   "specs.platform": {
+    "class": "news",
+    "source": "lowyat",
+    "url": "https://www.lowyat.net/2024/314739/samsung-galaxy-s24-series/",
+    "note": "Chip named in Lowyat.NET's Malaysian coverage; the maker's own specification data for this model does not name it."
+   }
+  }
+ },
+ "samsung-galaxy-s24-plus": {
+  "set": {
+   "platform.chipset_name": "Exynos 2400"
+  },
+  "field_sources": {
+   "specs.platform": {
+    "class": "news",
+    "source": "lowyat",
+    "url": "https://www.lowyat.net/2024/314739/samsung-galaxy-s24-series/",
+    "note": "Chip named in Lowyat.NET's Malaysian coverage; the maker's own specification data for this model does not name it."
+   }
+  }
+ },
+ "samsung-galaxy-s24-ultra": {
+  "set": {
+   "platform.chipset_name": "Snapdragon 8 Gen 3",
+   "memory": {
+    "ram_gb": [
+     12
+    ],
+    "storage_gb": [
+     256,
+     512,
+     1024
+    ]
+   }
+  },
+  "field_sources": {
+   "specs.platform": {
+    "class": "news",
+    "source": "lowyat",
+    "url": "https://www.lowyat.net/2024/314739/samsung-galaxy-s24-series/",
+    "note": "Chip named in Lowyat.NET's Malaysian coverage; the maker's own specification data for this model does not name it."
+   },
+   "specs.memory": {
+    "class": "news",
+    "source": "soyacincau",
+    "url": "https://soyacincau.com/2024/01/18/samsung-galaxy-s24-series-malaysia-heres-the-official-price-and-pre-order-promo/",
+    "note": "Memory options as listed in Malaysian launch pricing; the maker's current Malaysian specification data lists fewer."
+   }
+  }
+ },
+ "samsung-galaxy-s25-plus": {
+  "set": {
+   "platform.chipset_name": "Snapdragon 8 Elite"
+  },
+  "field_sources": {
+   "specs.platform": {
+    "class": "news",
+    "source": "lowyat",
+    "url": "https://www.lowyat.net/2025/341396/samsung-galaxy-s25-s25-now-official-retails-from-rm3999/",
+    "note": "Chip named in Lowyat.NET's Malaysian coverage; the maker's own specification data for this model does not name it."
+   }
+  }
+ },
+ "samsung-galaxy-s26-plus": {
+  "set": {
+   "platform.chipset_name": "Exynos 2600"
+  },
+  "field_sources": {
+   "specs.platform": {
+    "class": "news",
+    "source": "lowyat",
+    "url": "https://www.lowyat.net/2026/384140/samsung-galaxy-s26-s26-plus/",
+    "note": "Chip named in Lowyat.NET's Malaysian coverage; the maker's own specification data for this model does not name it."
+   }
+  }
+ },
+ "samsung-galaxy-z-flip5": {
+  "set": {
+   "platform.chipset_name": "Snapdragon 8 Gen 2"
+  },
+  "field_sources": {
+   "specs.platform": {
+    "class": "news",
+    "source": "lowyat",
+    "url": "https://www.lowyat.net/2023/304262/samsung-galaxy-z-flip5-malaysia-rm4499/",
+    "note": "Chip named in Lowyat.NET's Malaysian coverage; the maker's own specification data for this model does not name it."
+   }
+  }
+ },
+ "samsung-galaxy-z-fold5": {
+  "set": {
+   "platform.chipset_name": "Snapdragon 8 Gen 2",
+   "memory": {
+    "ram_gb": [
+     12
+    ],
+    "storage_gb": [
+     256,
+     512,
+     1024
+    ]
+   }
+  },
+  "field_sources": {
+   "specs.platform": {
+    "class": "news",
+    "source": "lowyat",
+    "url": "https://www.lowyat.net/2023/304186/samsung-galaxy-z-fold5-official/",
+    "note": "Chip named in Lowyat.NET's Malaysian coverage; the maker's own specification data for this model does not name it."
+   },
+   "specs.memory": {
+    "class": "news",
+    "source": "lowyat",
+    "url": "https://www.lowyat.net/2023/304186/samsung-galaxy-z-fold5-official/",
+    "note": "Memory options as listed in Malaysian launch pricing; the maker's current Malaysian specification data lists fewer."
+   }
+  }
+ },
+ "samsung-galaxy-z-flip6": {
+  "set": {
+   "platform.chipset_name": "Snapdragon 8 Gen 3"
+  },
+  "field_sources": {
+   "specs.platform": {
+    "class": "news",
+    "source": "lowyat",
+    "url": "https://www.lowyat.net/2024/326297/samsung-galaxy-z-flip6-msia-launch/",
+    "note": "Chip named in Lowyat.NET's Malaysian coverage; the maker's own specification data for this model does not name it."
+   }
+  }
+ },
+ "samsung-galaxy-z-fold6": {
+  "set": {
+   "platform.chipset_name": "Snapdragon 8 Gen 3",
+   "memory": {
+    "ram_gb": [
+     12
+    ],
+    "storage_gb": [
+     256,
+     512,
+     1024
+    ]
+   }
+  },
+  "field_sources": {
+   "specs.platform": {
+    "class": "news",
+    "source": "lowyat",
+    "url": "https://www.lowyat.net/2024/326250/samsung-galaxy-z-fold6-official-24-july/",
+    "note": "Chip named in Lowyat.NET's Malaysian coverage; the maker's own specification data for this model does not name it."
+   },
+   "specs.memory": {
+    "class": "news",
+    "source": "soyacincau",
+    "url": "https://soyacincau.com/2024/07/10/samsung-galaxy-z-fold-6-z-flip-6-malaysia-pricing-preorder/",
+    "note": "Memory options as listed in Malaysian launch pricing; the maker's current Malaysian specification data lists fewer."
+   }
+  }
+ },
+ "samsung-galaxy-z-flip7": {
+  "set": {
+   "platform.chipset_name": "Exynos 2500"
+  },
+  "field_sources": {
+   "specs.platform": {
+    "class": "news",
+    "source": "lowyat",
+    "url": "https://www.lowyat.net/2025/358799/samsung-galaxy-z-flip7-official-from-rm4999-malaysia/",
+    "note": "Chip named in Lowyat.NET's Malaysian coverage; the maker's own specification data for this model does not name it."
+   }
+  }
+ },
+ "samsung-galaxy-z-fold7": {
+  "set": {
+   "platform.chipset_name": "Snapdragon 8 Elite",
+   "memory": {
+    "ram_gb": [
+     12,
+     16
+    ],
+    "storage_gb": [
+     256,
+     512,
+     1024
+    ]
+   }
+  },
+  "field_sources": {
+   "specs.platform": {
+    "class": "news",
+    "source": "soyacincau",
+    "url": "https://soyacincau.com/2025/07/09/samsung-galaxy-z-fold-7-malaysia-launched-whats-new-galaxy-unpacked/",
+    "note": "Chip named in SoyaCincau's Malaysian coverage; the maker's own specification data for this model does not name it."
+   },
+   "specs.memory": {
+    "class": "news",
+    "source": "soyacincau",
+    "url": "https://soyacincau.com/2025/07/09/samsung-galaxy-z-fold-7-malaysia-launched-whats-new-galaxy-unpacked/",
+    "note": "Memory options as listed in Malaysian launch pricing; the maker's current Malaysian specification data lists fewer."
+   }
+  }
+ },
+ "samsung-galaxy-z-flip7-fe": {
+  "set": {
+   "platform.chipset_name": "Exynos 2400"
+  },
+  "field_sources": {
+   "specs.platform": {
+    "class": "news",
+    "source": "soyacincau",
+    "url": "https://soyacincau.com/2025/07/09/samsung-galaxy-z-flip-7-fe-malaysia-launch-price-specs/",
+    "note": "Chip named in SoyaCincau's Malaysian coverage; the maker's own specification data for this model does not name it."
+   }
+  }
+ },
+ "samsung-galaxy-a05": {
+  "set": {
+   "platform.chipset_name": "Helio G85"
+  },
+  "field_sources": {
+   "specs.platform": {
+    "class": "news",
+    "source": "lowyat",
+    "url": "https://www.lowyat.net/2023/309175/samsung-galaxy-a05-malaysia/",
+    "note": "Chip named in Lowyat.NET's Malaysian coverage; the maker's own specification data for this model does not name it."
+   }
+  }
+ },
+ "samsung-galaxy-a05s": {
+  "set": {
+   "platform.chipset_name": "Snapdragon 680"
+  },
+  "field_sources": {
+   "specs.platform": {
+    "class": "news",
+    "source": "lowyat",
+    "url": "https://www.lowyat.net/2023/308286/samsung-galaxy-a05s-malaysia/",
+    "note": "Chip named in Lowyat.NET's Malaysian coverage; the maker's own specification data for this model does not name it."
+   }
+  }
+ },
+ "samsung-galaxy-a06": {
+  "set": {
+   "platform.chipset_name": "Helio G85"
+  },
+  "field_sources": {
+   "specs.platform": {
+    "class": "news",
+    "source": "nasilemaktech",
+    "url": "https://nasilemaktech.com/samsung-galaxy-a06-launched-malaysia-price/",
+    "note": "Chip named in Nasi Lemak Tech's Malaysian coverage; the maker's own specification data for this model does not name it."
+   }
+  }
+ },
+ "samsung-galaxy-a14-5g": {
+  "set": {
+   "platform.chipset_name": "Dimensity 700"
+  },
+  "field_sources": {
+   "specs.platform": {
+    "class": "news",
+    "source": "lowyat",
+    "url": "https://www.lowyat.net/2023/291687/samsung-announces-galaxy-a14/",
+    "note": "Chip named in Lowyat.NET's Malaysian coverage; the maker's own specification data for this model does not name it."
+   }
+  }
+ },
+ "samsung-galaxy-a14": {
+  "set": {
+   "platform.chipset_name": "Exynos 850"
+  },
+  "field_sources": {
+   "specs.platform": {
+    "class": "news",
+    "source": "soyacincau",
+    "url": "https://soyacincau.com/2023/03/13/samsung-galaxy-a14-malaysia-rm799-budget-phone-4-years-software-update-2-year-warranty/",
+    "note": "Chip named in SoyaCincau's Malaysian coverage; the maker's own specification data for this model does not name it."
+   }
+  }
+ },
+ "samsung-galaxy-a16-5g": {
+  "set": {
+   "platform.chipset_name": "Dimensity 6300"
+  },
+  "field_sources": {
+   "specs.platform": {
+    "class": "news",
+    "source": "nasilemaktech",
+    "url": "https://nasilemaktech.com/samsungs-galaxy-a16-5g-malaysia-price/",
+    "note": "Chip named in Nasi Lemak Tech's Malaysian coverage; the maker's own specification data for this model does not name it."
+   }
+  }
+ },
+ "samsung-galaxy-a24": {
+  "set": {
+   "platform.chipset_name": "Helio G99"
+  },
+  "field_sources": {
+   "specs.platform": {
+    "class": "news",
+    "source": "lowyat",
+    "url": "https://www.lowyat.net/2023/299985/samsung-galaxy-a24-malaysia/",
+    "note": "Chip named in Lowyat.NET's Malaysian coverage; the maker's own specification data for this model does not name it."
+   }
+  }
+ },
+ "samsung-galaxy-a34-5g": {
+  "set": {
+   "platform.chipset_name": "Dimensity 1080"
+  },
+  "field_sources": {
+   "specs.platform": {
+    "class": "news",
+    "source": "soyacincau",
+    "url": "https://soyacincau.com/2023/03/24/samsung-galaxy-a34-a54-5g-malaysia-launch-price-preorder/",
+    "note": "Chip named in SoyaCincau's Malaysian coverage; the maker's own specification data for this model does not name it."
+   }
+  }
+ },
+ "samsung-galaxy-a35-5g": {
+  "set": {
+   "platform.chipset_name": "Exynos 1380"
+  },
+  "field_sources": {
+   "specs.platform": {
+    "class": "news",
+    "source": "soyacincau",
+    "url": "https://soyacincau.com/2024/03/19/samsung-galaxy-a35-a55-5g-malaysia-official-price-promo-deals/",
+    "note": "Chip named in SoyaCincau's Malaysian coverage; the maker's own specification data for this model does not name it."
+   }
+  }
+ },
+ "samsung-galaxy-a36-5g": {
+  "set": {
+   "platform.chipset_name": "Snapdragon 6 Gen 3"
+  },
+  "field_sources": {
+   "specs.platform": {
+    "class": "news",
+    "source": "lowyat",
+    "url": "https://www.lowyat.net/2025/344131/samsung-galaxy-a56-a36-a26-debut/",
+    "note": "Chip named in Lowyat.NET's Malaysian coverage; the maker's own specification data for this model does not name it."
+   }
+  }
+ },
+ "samsung-galaxy-a54-5g": {
+  "set": {
+   "platform.chipset_name": "Exynos 1380"
+  },
+  "field_sources": {
+   "specs.platform": {
+    "class": "news",
+    "source": "lowyat",
+    "url": "https://www.lowyat.net/2023/297080/samsung-galaxy-a545g-a345g-price-my/",
+    "note": "Chip named in Lowyat.NET's Malaysian coverage; the maker's own specification data for this model does not name it."
+   }
+  }
+ },
+ "samsung-galaxy-a55-5g": {
+  "set": {
+   "platform.chipset_name": "Exynos 1480"
+  },
+  "field_sources": {
+   "specs.platform": {
+    "class": "news",
+    "source": "lowyat",
+    "url": "https://www.lowyat.net/2024/318881/local-retailer-samsung-a55-a35-pricing/",
+    "note": "Chip named in Lowyat.NET's Malaysian coverage; the maker's own specification data for this model does not name it."
+   }
+  }
+ },
+ "samsung-galaxy-m34-5g": {
+  "set": {
+   "platform.chipset_name": "Exynos 1280"
+  },
+  "field_sources": {
+   "specs.platform": {
+    "class": "news",
+    "source": "soyacincau",
+    "url": "https://soyacincau.com/2023/10/10/samsung-galaxy-m34-5g-malaysia-6-5-120hz-amoled-50mp-ois-camera-and-6000mah-battery-now-going-for-rm999/",
+    "note": "Chip named in SoyaCincau's Malaysian coverage; the maker's own specification data for this model does not name it."
+   }
+  }
+ },
+ "huawei-mate-80-pro": {
+  "set": {
+   "platform.chipset_name": "Kirin 9030"
+  },
+  "field_sources": {
+   "specs.platform": {
+    "class": "news",
+    "source": "lowyat",
+    "url": "https://www.lowyat.net/2026/383231/huawei-mate-80-pro-global-launch/",
+    "note": "Chip named in Lowyat.NET's Malaysian coverage; the maker's own specification data for this model does not name it."
+   }
+  }
+ },
+ "huawei-mate-x7": {
+  "set": {
+   "platform.chipset_name": "Kirin 9030 Pro"
+  },
+  "field_sources": {
+   "specs.platform": {
+    "class": "news",
+    "source": "lowyat",
+    "url": "https://www.lowyat.net/2025/376093/huawei-mate-x7-launches-globally/",
+    "note": "Chip named in Lowyat.NET's Malaysian coverage; the maker's own specification data for this model does not name it."
+   }
+  }
+ },
+ "huawei-nova-13": {
+  "set": {
+   "platform.chipset_name": "Kirin 8000"
+  },
+  "field_sources": {
+   "specs.platform": {
+    "class": "news",
+    "source": "lowyat",
+    "url": "https://www.lowyat.net/2024/335815/huawei-nova-13-series/",
+    "note": "Chip named in Lowyat.NET's Malaysian coverage; the maker's own specification data for this model does not name it."
+   }
+  }
+ },
+ "huawei-nova-13-pro": {
+  "set": {
+   "platform.chipset_name": "Kirin 8000"
+  },
+  "field_sources": {
+   "specs.platform": {
+    "class": "news",
+    "source": "lowyat",
+    "url": "https://www.lowyat.net/2024/335815/huawei-nova-13-series/",
+    "note": "Chip named in Lowyat.NET's Malaysian coverage; the maker's own specification data for this model does not name it."
+   }
+  }
+ },
+ "redmi-12": {
+  "set": {
+   "platform.chipset_name": "Helio G88"
+  },
+  "field_sources": {
+   "specs.platform": {
+    "class": "news",
+    "source": "lowyat",
+    "url": "https://www.lowyat.net/2023/303329/redmi-12-malaysia-15-july-rm599/",
+    "note": "Chip named in Lowyat.NET's Malaysian coverage; the maker's own specification data for this model does not name it."
+   }
+  }
+ },
+ "vivo-y04": {
+  "set": {
+   "platform.chipset_name": "Unisoc T7225"
+  },
+  "field_sources": {
+   "specs.platform": {
+    "class": "news",
+    "source": "lowyat",
+    "url": "https://www.lowyat.net/2025/348706/vivo-y04-officially-lands-in-malaysia-priced-at-rm399/",
+    "note": "Chip named in Lowyat.NET's Malaysian coverage; the maker's own specification data for this model does not name it."
+   }
+  }
+ },
+ "vivo-y19s": {
+  "set": {
+   "platform.chipset_name": "Unisoc T612"
+  },
+  "field_sources": {
+   "specs.platform": {
+    "class": "news",
+    "source": "lowyat",
+    "url": "https://www.lowyat.net/2024/337011/vivo-y19s-malaysia/",
+    "note": "Chip named in Lowyat.NET's Malaysian coverage; the maker's own specification data for this model does not name it."
+   }
+  }
+ },
+ "redmi-13c-5g": {
+  "set": {
+   "display.refresh_hz": 90
+  }
+ },
+ "poco-f6-pro": {
+  "set": {
+   "memory": {
+    "ram_gb": [
+     12,
+     16
+    ],
+    "storage_gb": [
+     256,
+     512,
+     1024
+    ]
+   }
+  },
+  "field_sources": {
+   "specs.memory": {
+    "class": "news",
+    "source": "soyacincau",
+    "url": "https://soyacincau.com/2024/05/23/poco-f6-pro-malaysia-official-price-specs/",
+    "note": "Memory options as listed in Malaysian launch pricing; the maker's current Malaysian specification data lists fewer."
+   }
+  }
+ },
+ "xiaomi-17t-pro": {
+  "set": {
+   "memory": {
+    "ram_gb": [
+     12
+    ],
+    "storage_gb": [
+     256,
+     512,
+     1024
+    ]
+   }
+  },
+  "field_sources": {
+   "specs.memory": {
+    "class": "news",
+    "source": "lowyat",
+    "url": "https://www.lowyat.net/2026/394119/xiaomi-17t-series-officially-launches-pre-orders-now-available-in-malaysia/",
+    "note": "Memory options as listed in Malaysian launch pricing; the maker's current Malaysian specification data lists fewer."
+   }
+  }
+ }
+}

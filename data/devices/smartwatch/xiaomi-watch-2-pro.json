@@ -1,0 +1,78 @@
+{
+  "id": "xiaomi-watch-2-pro",
+  "name": "Xiaomi Watch 2 Pro",
+  "brand": "xiaomi",
+  "category": "smartwatch",
+  "series": "Watch",
+  "form": "watch",
+  "status": "released",
+  "announced": "2023-09-26",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1199,
+      "date": "2023-09-26",
+      "type": "launch",
+      "source": "nasilemaktech",
+      "url": "https://nasilemaktech.com/xiaomi-watch-2-pro-announcement-price/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://i02.appmifile.com/341_item_my/06/06/2024/d9d80762e5f6ae8dfb3efd8e9e7e8652.png",
+    "page": "https://www.mi.com/my/product/xiaomi-watch-2-pro/specs/",
+    "credit": "Xiaomi Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 1.43,
+      "type": "AMOLED",
+      "resolution": "466 × 466",
+      "peak_nits": 600
+    },
+    "battery": {
+      "capacity_mah": 495
+    },
+    "connectivity": {
+      "gps": "Built-in GNSS",
+      "cellular": "LTE option",
+      "wifi": "2.4GHz/5GHz Wi-Fi",
+      "positioning": "Dual band : L1+L5; GPS; Galileo; Glonass; Beidou; QZSS; Package contents; Band body ×1; Band strap ×1; Dedicated charging cable ×1",
+      "bluetooth": "Bluetooth 5.2"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 47.6,
+        "width_mm": 45.9,
+        "depth_mm": 11.8
+      },
+      "weight_g": 54.5,
+      "water": "5 ATM",
+      "water_m": 50
+    },
+    "sensors": "Optical heart rate sensor, Accelerometer sensor, Gyroscope sensor, Ambient light sensor, Electronic compass sensor, Barometer sensor, Bioelectrical impedance analysis sensor"
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "xiaomi",
+      "url": "https://www.mi.com/my/product/xiaomi-watch-2-pro/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from Xiaomi Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "nasilemaktech",
+        "url": "https://nasilemaktech.com/xiaomi-watch-2-pro-announcement-price/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (Nasi Lemak Tech). The global announcement can be earlier."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

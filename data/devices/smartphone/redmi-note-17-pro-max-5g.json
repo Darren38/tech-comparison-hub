@@ -1,0 +1,161 @@
+{
+  "id": "redmi-note-17-pro-max-5g",
+  "name": "Redmi Note 17 Pro Max 5G",
+  "brand": "redmi",
+  "category": "smartphone",
+  "series": "Redmi Note",
+  "form": "bar",
+  "status": "released",
+  "announced": "2026-09-02",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1999,
+      "config": "8 GB / 256 GB",
+      "date": "2026-09-02",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2026/402930/redmi-note-17-series-launches-malaysia/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 2299,
+      "config": "8 GB / 512 GB",
+      "date": "2026-09-02",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2026/402930/redmi-note-17-series-launches-malaysia/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://i02.appmifile.com/199_item_my/26/08/2026/c8e5feb714916dc3e71dca7f69cfb6d3.png",
+    "page": "https://www.mi.com/my/product/redmi-note-17-pro-max-5g/specs/",
+    "credit": "Xiaomi Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.83,
+      "type": "AMOLED",
+      "resolution": "2772 × 1280",
+      "refresh_hz": 120,
+      "peak_nits": 3500,
+      "protection": "Corning Gorilla Glass Victus 2",
+      "ppi": 447
+    },
+    "platform": {
+      "chipset": "snapdragon-6-gen-5",
+      "gpu": "Adreno",
+      "cpu": "Octa-core processor, up to 2.6GHz"
+    },
+    "memory": {
+      "ram_gb": [
+        8
+      ],
+      "storage_gb": [
+        256,
+        512
+      ],
+      "ram_type": "LPDDR5X",
+      "storage_type": "UFS 4.1"
+    },
+    "battery": {
+      "capacity_mah": 10000,
+      "chemistry": "Silicon-Carbon"
+    },
+    "charging": {
+      "wired_w": 100,
+      "claim": "100W HyperCharge; Supports 27W wired reverse charging",
+      "reverse_w": 27
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "aperture": "f/1.5",
+          "ois": true
+        },
+        {
+          "role": "ultrawide",
+          "mp": 8
+        }
+      ],
+      "front": "32 MP",
+      "rear_detail": [
+        "50MP main camera, Optical Image Stabilization (OIS), 0.8μm, f/1.5, 6P lens",
+        "8MP ultra-wide camera, 1.12μm, f/2.2"
+      ],
+      "video": "4K@30fps; 1080p",
+      "front_detail": [
+        "32MP front camera, 0.61μm, f/2.2, 4P lens"
+      ],
+      "front_video": "4K@30fps; 1080p"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true,
+      "bands_3g": "B1/B2/B4/B5/B8",
+      "bands_4g": "LTE FDD: B1/B2/B3/B4/B5/B7/B8/B12/B13/B17/B18/B19/B20/B26/B28/B32/B66; LTE TDD: B38/B40/B41/B42/B48",
+      "bands_5g": "5G: n1/2/3/5/7/8/12/20/26/28/38/40/41/48/66/77/78",
+      "technology": "HSPA / LTE / 5G",
+      "positioning": "L1; GLONASS: G1; BDS: B1I+B1C; Galileo: E1; QZSS:L1; A-GPS supplementary positioning; Wireless network; Data network; Sensor Assisted Positioning",
+      "wifi": "Wi-Fi Protocol; Wi-Fi 6, Wi-Fi 5, Wi-Fi 4, 802.11а/b/g",
+      "bluetooth": "Bluetooth 6.0",
+      "usb": "USB-C"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 163.44,
+        "width_mm": 78.27,
+        "depth_mm": 8.65
+      },
+      "weight_g": 229.5,
+      "ip": "IP69K"
+    },
+    "software": {
+      "launch_os": "Xiaomi HyperOS 3"
+    },
+    "sensors": "Proximity sensor, Ambient light sensor, Accelerometer, Electronic compass, IR blaster, Gyroscope",
+    "audio": {
+      "speakers": "Dual speakers"
+    },
+    "biometrics": {
+      "fingerprint": "In-screen fingerprint sensor"
+    },
+    "misc": {
+      "colors": "Black, Purple"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "redmi",
+      "url": "https://www.mi.com/my/product/redmi-note-17-pro-max-5g/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from Xiaomi Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "lowyat",
+        "url": "https://www.lowyat.net/2026/402930/redmi-note-17-series-launches-malaysia/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (Lowyat.NET). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

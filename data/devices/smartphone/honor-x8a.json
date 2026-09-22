@@ -1,0 +1,128 @@
+{
+  "id": "honor-x8a",
+  "name": "HONOR X8a",
+  "brand": "honor",
+  "category": "smartphone",
+  "series": "X",
+  "form": "bar",
+  "status": "released",
+  "announced": "2023-02-08",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 999,
+      "date": "2023-02-08",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2023/02/08/honor-x8a-malaysia-a-rm1000-phone-with-a-100mp-camera-but-no-5g/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://www.honor.com/content/dam/honor/my/products/smartphone/honor-x8a/imgs/x8a-facebook.jpg",
+    "page": "https://www.honor.com/my/phones/honor-x8a/spec/",
+    "credit": "HONOR Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.7,
+      "type": "LCD",
+      "resolution": "2388 × 1080",
+      "ppi": 391
+    },
+    "platform": {
+      "chipset": "helio-g88",
+      "gpu": "Mali-G52 MC2",
+      "cpu": "Octa-core processors; 2*A75 2.0GHz+6*A55 1.8GHz"
+    },
+    "memory": {
+      "ram_gb": [
+        8
+      ],
+      "storage_gb": [
+        128
+      ]
+    },
+    "battery": {
+      "capacity_mah": 4500,
+      "chemistry": "Lithium Polymer"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 100,
+          "aperture": "f/1.9"
+        }
+      ],
+      "front": "16 MP",
+      "rear_detail": [
+        "100MP Main Camera(f/1.9)",
+        "5MP Ultra Wide&Depth Camera(f/2.2)",
+        "2MP Macro Camera(f/2.4)"
+      ],
+      "features": "Up to 10x digital zoom",
+      "video": "1080p",
+      "front_detail": [
+        "16 MP Camera (f/2.45 aperture)"
+      ]
+    },
+    "connectivity": {
+      "cellular": "4G",
+      "technology": "GSM / HSPA / LTE",
+      "sim": "Nano Card",
+      "wifi": "802.11 a/b/g/n/ac",
+      "positioning": "Support GPS/AGPS/GLONASS/BeiDou/ Galileo; Network-Based Positioning; Wi-Fi-Based Positioning",
+      "usb": "USB Type-C, USB 2.0",
+      "bluetooth": "Bluetooth"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 162.9,
+        "width_mm": 74.5,
+        "depth_mm": 7.48
+      },
+      "weight_g": 179.0
+    },
+    "software": {
+      "launch_os": "MagicUI 6.1 (based on Android 12）"
+    },
+    "biometrics": {
+      "face": "Support 2D Face Recognition",
+      "fingerprint": "side fingerprint"
+    },
+    "charging": {
+      "claim": "Support up to 10V/2.25A super charge",
+      "wired_w": 22
+    },
+    "sensors": "Gravity Sensor, Fingerprint Sensor, Support (side fingerprint), support fingerprint unlock, Compass, Ambient Light Sensor, Proximity Sensor, By Software, Media and Audio"
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "honor",
+      "url": "https://www.honor.com/my/phones/honor-x8a/spec/",
+      "checked": "2026-09-18",
+      "note": "Read from HONOR Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2023/02/08/honor-x8a-malaysia-a-rm1000-phone-with-a-100mp-camera-but-no-5g/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

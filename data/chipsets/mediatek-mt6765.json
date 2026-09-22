@@ -1,0 +1,15 @@
+{
+  "id": "mediatek-mt6765",
+  "name": "MediaTek MT6765",
+  "vendor": "mediatek",
+  "summary": "Name recorded from phone makers' specification pages and launch reports. Chip details have not been compiled yet.",
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "honor",
+      "url": "https://www.honor.com/my/phones/honor-x7a/spec/",
+      "checked": "2026-09-18",
+      "note": "Chip name as given for the HONOR X7a."
+    }
+  }
+}

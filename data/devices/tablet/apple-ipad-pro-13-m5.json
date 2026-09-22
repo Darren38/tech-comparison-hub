@@ -1,0 +1,138 @@
+{
+  "id": "apple-ipad-pro-13-m5",
+  "name": "iPad Pro 13-inch (M5)",
+  "brand": "apple",
+  "category": "tablet",
+  "series": "iPad Pro",
+  "form": "tablet",
+  "status": "released",
+  "announced": "2025-10-15",
+  "released": "2025-10-22",
+  "segment": "flagship",
+  "aliases": [
+    "iPad Pro M5",
+    "iPad Pro 13",
+    "iPad Pro 2025"
+  ],
+  "summary": "Apple's thinnest, most powerful tablet: tandem OLED at 5.1 mm with the M5 chip. The 256 GB and 512 GB models use a 9-core CPU and 12 GB of memory.",
+  "highlights": [
+    "Tandem OLED (Ultra Retina XDR)",
+    "M5 chip",
+    "5.1 mm thin"
+  ],
+  "prices": [
+    {
+      "region": "US",
+      "currency": "USD",
+      "amount": 1299,
+      "config": "Wi-Fi, 256 GB",
+      "date": "2025-10-15",
+      "type": "launch",
+      "source": "apple"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 5799,
+      "config": "Wi-Fi, 256 GB",
+      "date": "2025-10-16",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/10/16/apple-ipad-pro-m5-malaysia-price-spec-upgrades/",
+      "class": "news",
+      "accessed": "2026-09-16"
+    }
+  ],
+  "image": {
+    "kind": "photo",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/IPad_Pro_%2813-inch%2C_M5%2C_Space_Black%29_-_Backside.jpg/500px-IPad_Pro_%2813-inch%2C_M5%2C_Space_Black%29_-_Backside.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:IPad_Pro_(13-inch,_M5,_Space_Black)_-_Backside.jpg",
+    "title": "IPad Pro (13-inch, M5, Space Black) - Backside",
+    "author": "AzureSaturn",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "checked": "2026-09-17"
+  },
+  "specs": {
+    "display": {
+      "size_in": 13,
+      "type": "Ultra Retina XDR tandem OLED, ProMotion",
+      "resolution": "2752 × 2064",
+      "ppi": 264,
+      "refresh_hz": 120,
+      "peak_nits": 1600,
+      "sdr_nits": 1000
+    },
+    "platform": {
+      "chipset": "apple-m5",
+      "chipset_note": "9-core CPU on 256 GB / 512 GB; 10-core on 1 TB / 2 TB"
+    },
+    "memory": {
+      "ram_gb": [
+        12,
+        16
+      ],
+      "storage_gb": [
+        256,
+        512,
+        1024,
+        2048
+      ]
+    },
+    "battery": {
+      "capacity_wh": 38.99,
+      "claim": "Up to 10 h web browsing or video on Wi-Fi"
+    },
+    "charging": {
+      "wired_w": 40,
+      "claim": "About 50% in 30 min with the 40 W Dynamic Power Adapter"
+    },
+    "input": {
+      "stylus": "Apple Pencil Pro, Apple Pencil (USB-C)",
+      "keyboard": "Magic Keyboard for iPad Pro (M5)"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 281.6,
+        "width_mm": 215.5,
+        "depth_mm": 5.1
+      },
+      "weight_g": 579
+    },
+    "connectivity": {
+      "cellular": "5G (optional)",
+      "usb": "Thunderbolt / USB 4"
+    },
+    "software": {
+      "launch_os": "iPadOS 26",
+      "os_updates_years": 6,
+      "security_updates_years": 7
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "apple",
+      "url": "https://support.apple.com/en-us/125407",
+      "checked": "2026-09-15"
+    },
+    "fields": {
+      "specs.charging.wired_w": {
+        "class": "estimated",
+        "source": "apple",
+        "note": "Adapter rating from Apple's charging claim; the tablet's maximum input is not published."
+      },
+      "specs.software.os_updates_years": {
+        "class": "estimated",
+        "source": "apple",
+        "note": "Apple publishes no fixed update commitment; estimated from the support history of recent devices."
+      },
+      "specs.software.security_updates_years": {
+        "class": "estimated",
+        "source": "apple",
+        "note": "Apple publishes no fixed update commitment; estimated from the support history of recent devices."
+      }
+    }
+  },
+  "dataStatus": "checked"
+}

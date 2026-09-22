@@ -1,0 +1,91 @@
+{
+  "id": "oppo-reno11-f-5g",
+  "name": "OPPO Reno11 F 5G",
+  "brand": "oppo",
+  "category": "smartphone",
+  "series": "Reno",
+  "form": "bar",
+  "status": "released",
+  "announced": "2024-03-15",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1399,
+      "date": "2024-03-15",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2024/318720/oppo-reno11-f-5g-malaysia/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 6.7,
+      "type": "OLED",
+      "refresh_hz": 120,
+      "peak_nits": 1100
+    },
+    "platform": {
+      "chipset": "dimensity-7050"
+    },
+    "memory": {
+      "ram_gb": [
+        8
+      ],
+      "storage_gb": [
+        256
+      ]
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "charging": {
+      "wired_w": 67
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 64
+        },
+        {
+          "role": "ultrawide",
+          "mp": 8
+        },
+        {
+          "role": "macro",
+          "mp": 2
+        }
+      ],
+      "front": "32 MP"
+    },
+    "build": {
+      "ip": "IP65"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "news",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2024/318720/oppo-reno11-f-5g-malaysia/",
+      "note": "The maker no longer publishes a specification page for this model. Key specs were taken from this Malaysian launch report, which gives the maker's figures.",
+      "checked": "2026-09-18"
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "lowyat",
+        "url": "https://www.lowyat.net/2024/318720/oppo-reno11-f-5g-malaysia/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (Lowyat.NET). The global announcement can be earlier."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

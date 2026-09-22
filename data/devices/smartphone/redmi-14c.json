@@ -1,0 +1,118 @@
+{
+  "id": "redmi-14c",
+  "name": "Redmi 14C",
+  "brand": "redmi",
+  "category": "smartphone",
+  "series": "Redmi",
+  "form": "bar",
+  "status": "released",
+  "announced": "2024-09-05",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 449,
+      "config": "6 GB / 128 GB",
+      "date": "2024-09-05",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2024/09/05/redmi-14c-budget-smartphone-with-120hz-screen-and-up-to-256gb-storage-priced-from-rm449/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 599,
+      "config": "8 GB / 256 GB",
+      "date": "2024-09-05",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2024/09/05/redmi-14c-budget-smartphone-with-120hz-screen-and-up-to-256gb-storage-priced-from-rm449/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "photo",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Redmi_14C_back.jpg/500px-Redmi_14C_back.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Redmi_14C_back.jpg",
+    "title": "Redmi 14C back",
+    "author": "Maksdroider",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "checked": "2026-09-19"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.88,
+      "type": "LCD",
+      "resolution": "1640 × 720",
+      "refresh_hz": 120,
+      "ppi": 260
+    },
+    "platform": {
+      "chipset": "helio-g81-ultra"
+    },
+    "memory": {
+      "ram_gb": [
+        6,
+        8
+      ],
+      "storage_gb": [
+        128,
+        256
+      ]
+    },
+    "battery": {
+      "capacity_mah": 5160
+    },
+    "charging": {
+      "wired_w": 18
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50
+        },
+        {
+          "role": "depth",
+          "mp": 2
+        }
+      ],
+      "front": "13 MP"
+    },
+    "connectivity": {
+      "cellular": "4G",
+      "nfc": true
+    },
+    "software": {
+      "launch_os": "Xiaomi HyperOS (Android 14 base)"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "news",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2024/09/05/redmi-14c-budget-smartphone-with-120hz-screen-and-up-to-256gb-storage-priced-from-rm449/",
+      "note": "The maker no longer publishes a specification page for this model. Key specs were taken from this Malaysian launch report, which gives the maker's figures.",
+      "checked": "2026-09-18"
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2024/09/05/redmi-14c-budget-smartphone-with-120hz-screen-and-up-to-256gb-storage-priced-from-rm449/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

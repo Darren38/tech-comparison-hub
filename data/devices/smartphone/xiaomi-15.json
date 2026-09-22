@@ -1,0 +1,135 @@
+{
+  "id": "xiaomi-15",
+  "name": "Xiaomi 15",
+  "brand": "xiaomi",
+  "category": "smartphone",
+  "series": "Number",
+  "form": "bar",
+  "status": "released",
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-18",
+      "source": "xiaomi",
+      "url": "https://www.mi.com/my/product/xiaomi-15/specs/",
+      "note": "Sold in Malaysia, but no launch price was found in Malaysian launch coverage."
+    }
+  },
+  "image": {
+    "kind": "official",
+    "src": "https://i02.appmifile.com/238_item_my/25/02/2025/ef1cd7310d3cbb0ee5c78ec7b66cafb9.png",
+    "page": "https://www.mi.com/my/product/xiaomi-15/specs/",
+    "credit": "Xiaomi Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.36,
+      "type": "AMOLED",
+      "resolution": "2670 × 1200",
+      "peak_nits": 3200,
+      "ppi": 460
+    },
+    "platform": {
+      "chipset": "snapdragon-8-elite",
+      "gpu": "Adreno GPU",
+      "cpu": "2 x Prime Core, up to 4.32GHz; 6 x Performance Core, up to 3.53GHz"
+    },
+    "memory": {
+      "ram_gb": [
+        12
+      ],
+      "storage_gb": [
+        256,
+        512
+      ],
+      "ram_type": "LPDDR5X",
+      "storage_type": "UFS 4.0"
+    },
+    "battery": {
+      "capacity_mah": 5240
+    },
+    "charging": {
+      "wired_w": 90,
+      "wireless_w": 50,
+      "claim": "90W HyperCharge; 50W wireless HyperCharge"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "aperture": "f/1.62",
+          "ois": true
+        },
+        {
+          "role": "telephoto",
+          "mp": 50
+        }
+      ],
+      "front": "32 MP",
+      "rear_detail": [
+        "Leica main camera, 50MP, Light Fusion 900 image sensor, 2.4μm 4-in-1 Super Pixel, f/1.62, OIS, 23mm equivalent focal length",
+        "Leica 60mm floating telephoto, 50MP, f/2.0, OIS, 60mm equivalent focal length",
+        "Leica ultra-wide camera, 50MP, f/2.2, 14mm equivalent focal length, 115°"
+      ],
+      "video": "8K@30fps; 1080p",
+      "front_detail": [
+        "32MP in-display selfie camera, f/2.0, 21mm equivalent focal length, 90° FOV"
+      ],
+      "front_video": "4K@60fps; 1080p"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true,
+      "bands_3g": "B1/2/4/5/6/8/19",
+      "bands_4g": "LTE FDD: B1/2/3/4/5/7/8/12/13/17/18/19/20/25/26/28/32/66; LTE TDD: B38/39/40/41/42/48",
+      "bands_5g": "5G SA: n1/2/3/5/7/8/12/20/25/26/28/38/40/41/48/66/75/77/78; 5G NSA: n1/3/5/7/8/20/28/38/40/41/66/75/77/78",
+      "technology": "HSPA / LTE / 5G",
+      "positioning": "L1+L5; Galileo: E1+E5a; GLONASS: G1; Beidou; QZSS: L1 + L5; NavIC: L5; A-GPS supplementary positioning; Electronic compass; Wireless network; Data network; SAP",
+      "sim": "Dual SIM (nano SIM + nano SIM or nano SIM + eSIM, eSIM + eSIM)",
+      "wifi": "Wi-Fi 7 capability",
+      "bluetooth": "Bluetooth 6.0",
+      "usb": "USB Type-C"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 152.3,
+        "width_mm": 71.2,
+        "depth_mm": 8.08
+      },
+      "weight_g": 191.0,
+      "ip": "IP68"
+    },
+    "software": {
+      "launch_os": "Xiaomi HyperOS 2"
+    },
+    "sensors": "Proximity sensor, Ambient light sensor, Accelerometer, Gyroscope, Electronic compass, IR blaster, Laser focus sensor, Barometer, Flicker sensor, X-axis linear vibration motor",
+    "audio": {
+      "speakers": "Stereo speakers; 4-Mic array"
+    },
+    "biometrics": {
+      "fingerprint": "in-screen fingerprint sensor"
+    },
+    "misc": {
+      "colors": "Liquid Silver, White, Black, Green"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "xiaomi",
+      "url": "https://www.mi.com/my/product/xiaomi-15/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from Xiaomi Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

@@ -1,0 +1,68 @@
+{
+  "id": "snapdragon-8-elite-gen-5",
+  "name": "Snapdragon 8 Elite Gen 5",
+  "vendor": "qualcomm",
+  "family": "Snapdragon 8",
+  "tier": "flagship",
+  "announced": "2025-09-24",
+  "aliases": [
+    "SD 8 Elite Gen 5",
+    "8 Elite Gen 5",
+    "SM8850",
+    "8EG5"
+  ],
+  "summary": "Qualcomm's flagship for 2025–26 phones, with third-generation Oryon CPU cores and the Adreno 840 GPU. Strong peak and sustained GPU results, but power-hungry at full CPU load.",
+  "process": {
+    "node": "3 nm",
+    "foundry": "TSMC",
+    "name": "N3P"
+  },
+  "cpu": {
+    "cores": 8,
+    "clusters": [
+      {
+        "count": 2,
+        "core": "Oryon Gen 3 Prime",
+        "ghz": 4.61
+      },
+      {
+        "count": 6,
+        "core": "Oryon Gen 3 Performance",
+        "ghz": 3.62
+      }
+    ]
+  },
+  "gpu": {
+    "name": "Adreno 840"
+  },
+  "npu": "Hexagon NPU",
+  "modem": "Snapdragon X85 5G",
+  "memory": "LPDDR5X",
+  "storage": "UFS 4.1",
+  "variants": [
+    {
+      "name": "for Galaxy",
+      "note": "Samsung-specific bin with prime cores at up to 4.74 GHz (Galaxy S26 Ultra, Z Fold8)."
+    }
+  ],
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "qualcomm",
+      "url": "https://www.qualcomm.com/smartphones/products/8-series",
+      "note": "Qualcomm product brief"
+    },
+    "fields": {
+      "process.name": {
+        "class": "database",
+        "source": "notebookcheck",
+        "note": "Qualcomm states 3 nm; the N3P node is reported by the press."
+      },
+      "variants": {
+        "class": "database",
+        "source": "gsmarena",
+        "url": "https://www.gsmarena.com/samsung_galaxy_s26_ultra-review-2939.php"
+      }
+    }
+  }
+}

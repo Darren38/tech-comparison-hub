@@ -1,0 +1,614 @@
+[
+ {
+  "id": "huawei-p60-pro",
+  "brand": "huawei",
+  "name": "HUAWEI P60 Pro",
+  "category": "smartphone",
+  "series": "P",
+  "form": "bar",
+  "spec": [
+   "https://consumer.huawei.com/en/phones/p60-pro/specs/"
+  ],
+  "q": "Huawei P60 Pro",
+  "must": "p60-pro"
+ },
+ {
+  "id": "huawei-mate-x3",
+  "brand": "huawei",
+  "name": "HUAWEI Mate X3",
+  "category": "smartphone",
+  "series": "Mate X",
+  "form": "foldable",
+  "spec": [
+   "https://consumer.huawei.com/en/phones/mate-x3/specs/"
+  ],
+  "q": "Huawei Mate X3",
+  "must": "mate-x3"
+ },
+ {
+  "id": "huawei-nova-11",
+  "brand": "huawei",
+  "name": "HUAWEI nova 11",
+  "category": "smartphone",
+  "series": "nova",
+  "form": "bar",
+  "spec": [
+   "https://consumer.huawei.com/en/phones/nova11/specs/"
+  ],
+  "q": "Huawei nova 11",
+  "must": "nova11"
+ },
+ {
+  "id": "huawei-nova-11-pro",
+  "brand": "huawei",
+  "name": "HUAWEI nova 11 Pro",
+  "category": "smartphone",
+  "series": "nova",
+  "form": "bar",
+  "spec": [
+   "https://consumer.huawei.com/en/phones/nova11-pro/specs/"
+  ],
+  "q": "Huawei nova 11 Pro",
+  "must": "nova11-pro"
+ },
+ {
+  "id": "huawei-nova-11i",
+  "brand": "huawei",
+  "name": "HUAWEI nova 11i",
+  "category": "smartphone",
+  "series": "nova",
+  "form": "bar",
+  "spec": [
+   "https://consumer.huawei.com/en/phones/nova-11i/specs/"
+  ],
+  "q": "Huawei nova 11i",
+  "must": "nova-11i"
+ },
+ {
+  "id": "huawei-nova-y72",
+  "brand": "huawei",
+  "name": "HUAWEI nova Y72",
+  "category": "smartphone",
+  "series": "nova Y",
+  "form": "bar",
+  "spec": [
+   "https://consumer.huawei.com/en/phones/nova-y72/specs/"
+  ],
+  "q": "Huawei nova Y72",
+  "must": "nova-y72"
+ },
+ {
+  "id": "huawei-nova-12i",
+  "brand": "huawei",
+  "name": "HUAWEI nova 12i",
+  "category": "smartphone",
+  "series": "nova",
+  "form": "bar",
+  "spec": [
+   "https://consumer.huawei.com/en/phones/nova-12i/specs/"
+  ],
+  "q": "Huawei nova 12i",
+  "must": "nova-12i"
+ },
+ {
+  "id": "huawei-nova-12s",
+  "brand": "huawei",
+  "name": "HUAWEI nova 12s",
+  "category": "smartphone",
+  "series": "nova",
+  "form": "bar",
+  "spec": [
+   "https://consumer.huawei.com/en/phones/nova-12s/specs/"
+  ],
+  "q": "Huawei nova 12s",
+  "must": "nova-12s"
+ },
+ {
+  "id": "huawei-nova-12-se",
+  "brand": "huawei",
+  "name": "HUAWEI nova 12 SE",
+  "category": "smartphone",
+  "series": "nova",
+  "form": "bar",
+  "spec": [
+   "https://consumer.huawei.com/en/phones/nova12-se/specs/"
+  ],
+  "q": "Huawei nova 12 SE",
+  "must": "nova12-se"
+ },
+ {
+  "id": "huawei-pura-70",
+  "brand": "huawei",
+  "name": "HUAWEI Pura 70",
+  "category": "smartphone",
+  "series": "Pura",
+  "form": "bar",
+  "spec": [
+   "https://consumer.huawei.com/en/phones/pura70/specs/"
+  ],
+  "q": "Huawei Pura 70",
+  "must": "pura70"
+ },
+ {
+  "id": "huawei-pura-70-pro",
+  "brand": "huawei",
+  "name": "HUAWEI Pura 70 Pro",
+  "category": "smartphone",
+  "series": "Pura",
+  "form": "bar",
+  "spec": [
+   "https://consumer.huawei.com/en/phones/pura70-pro/specs/"
+  ],
+  "q": "Huawei Pura 70 Pro",
+  "must": "pura70-pro"
+ },
+ {
+  "id": "huawei-pura-70-ultra",
+  "brand": "huawei",
+  "name": "HUAWEI Pura 70 Ultra",
+  "category": "smartphone",
+  "series": "Pura",
+  "form": "bar",
+  "spec": [
+   "https://consumer.huawei.com/en/phones/pura70-ultra/specs/"
+  ],
+  "q": "Huawei Pura 70 Ultra",
+  "must": "pura70-ultra"
+ },
+ {
+  "id": "huawei-mate-x6",
+  "brand": "huawei",
+  "name": "HUAWEI Mate X6",
+  "category": "smartphone",
+  "series": "Mate X",
+  "form": "foldable",
+  "spec": [
+   "https://consumer.huawei.com/my/phones/mate-x6/specs/",
+   "https://consumer.huawei.com/en/phones/mate-x6/specs/"
+  ],
+  "q": "Huawei Mate X6"
+ },
+ {
+  "id": "huawei-mate-xt-ultimate-design",
+  "brand": "huawei",
+  "name": "HUAWEI Mate XT Ultimate Design",
+  "category": "smartphone",
+  "series": "Mate X",
+  "form": "foldable",
+  "spec": [
+   "https://consumer.huawei.com/my/phones/mate-xt-ultimate-design/specs/",
+   "https://consumer.huawei.com/en/phones/mate-xt-ultimate-design/specs/"
+  ],
+  "q": "Huawei Mate XT Ultimate Design"
+ },
+ {
+  "id": "huawei-nova-13",
+  "brand": "huawei",
+  "name": "HUAWEI nova 13",
+  "category": "smartphone",
+  "series": "nova",
+  "form": "bar",
+  "spec": [
+   "https://consumer.huawei.com/en/phones/nova13/specs/"
+  ],
+  "q": "Huawei nova 13",
+  "must": "nova13"
+ },
+ {
+  "id": "huawei-nova-13-pro",
+  "brand": "huawei",
+  "name": "HUAWEI nova 13 Pro",
+  "category": "smartphone",
+  "series": "nova",
+  "form": "bar",
+  "spec": [
+   "https://consumer.huawei.com/en/phones/nova13-pro/specs/"
+  ],
+  "q": "Huawei nova 13 Pro",
+  "must": "nova13-pro"
+ },
+ {
+  "id": "huawei-pura-80",
+  "brand": "huawei",
+  "name": "HUAWEI Pura 80",
+  "category": "smartphone",
+  "series": "Pura",
+  "form": "bar",
+  "spec": [
+   "https://consumer.huawei.com/my/phones/pura80/specs/",
+   "https://consumer.huawei.com/en/phones/pura80/specs/"
+  ],
+  "q": "Huawei Pura 80"
+ },
+ {
+  "id": "huawei-pura-80-pro",
+  "brand": "huawei",
+  "name": "HUAWEI Pura 80 Pro",
+  "category": "smartphone",
+  "series": "Pura",
+  "form": "bar",
+  "spec": [
+   "https://consumer.huawei.com/my/phones/pura80-pro/specs/",
+   "https://consumer.huawei.com/en/phones/pura80-pro/specs/"
+  ],
+  "q": "Huawei Pura 80 Pro"
+ },
+ {
+  "id": "huawei-nova-14",
+  "brand": "huawei",
+  "name": "HUAWEI nova 14",
+  "category": "smartphone",
+  "series": "nova",
+  "form": "bar",
+  "spec": [
+   "https://consumer.huawei.com/my/phones/nova14/specs/",
+   "https://consumer.huawei.com/en/phones/nova14/specs/"
+  ],
+  "q": "Huawei nova 14"
+ },
+ {
+  "id": "huawei-nova-14-pro",
+  "brand": "huawei",
+  "name": "HUAWEI nova 14 Pro",
+  "category": "smartphone",
+  "series": "nova",
+  "form": "bar",
+  "spec": [
+   "https://consumer.huawei.com/my/phones/nova14-pro/specs/",
+   "https://consumer.huawei.com/en/phones/nova14-pro/specs/"
+  ],
+  "q": "Huawei nova 14 Pro"
+ },
+ {
+  "id": "huawei-nova-14i",
+  "brand": "huawei",
+  "name": "HUAWEI nova 14i",
+  "category": "smartphone",
+  "series": "nova",
+  "form": "bar",
+  "spec": [
+   "https://consumer.huawei.com/en/phones/nova-14i/specs/"
+  ],
+  "q": "Huawei nova 14i",
+  "must": "nova-14i"
+ },
+ {
+  "id": "huawei-mate-x7",
+  "brand": "huawei",
+  "name": "HUAWEI Mate X7",
+  "category": "smartphone",
+  "series": "Mate X",
+  "form": "foldable",
+  "spec": [
+   "https://consumer.huawei.com/my/phones/mate-x7/specs/",
+   "https://consumer.huawei.com/en/phones/mate-x7/specs/"
+  ],
+  "q": "Huawei Mate X7"
+ },
+ {
+  "id": "huawei-mate-80-pro",
+  "brand": "huawei",
+  "name": "HUAWEI Mate 80 Pro",
+  "category": "smartphone",
+  "series": "Mate",
+  "form": "bar",
+  "spec": [
+   "https://consumer.huawei.com/my/phones/mate80-pro/specs/",
+   "https://consumer.huawei.com/en/phones/mate80-pro/specs/"
+  ],
+  "q": "Huawei Mate 80 Pro"
+ },
+ {
+  "id": "huawei-nova-15-max",
+  "brand": "huawei",
+  "name": "HUAWEI nova 15 Max",
+  "category": "smartphone",
+  "series": "nova",
+  "form": "bar",
+  "spec": [
+   "https://consumer.huawei.com/my/phones/nova15-max/specs/",
+   "https://consumer.huawei.com/en/phones/nova15-max/specs/"
+  ],
+  "q": "Huawei nova 15 Max"
+ },
+ {
+  "id": "huawei-pura-90s-pro",
+  "brand": "huawei",
+  "name": "HUAWEI Pura 90s Pro",
+  "category": "smartphone",
+  "series": "Pura",
+  "form": "bar",
+  "spec": [
+   "https://consumer.huawei.com/my/phones/pura90s-pro/specs/",
+   "https://consumer.huawei.com/en/phones/pura90s-pro/specs/"
+  ],
+  "q": "Huawei Pura 90s Pro"
+ },
+ {
+  "id": "huawei-pura-90s-pro-max",
+  "brand": "huawei",
+  "name": "HUAWEI Pura 90s Pro Max",
+  "category": "smartphone",
+  "series": "Pura",
+  "form": "bar",
+  "spec": [
+   "https://consumer.huawei.com/my/phones/pura90s-pro-max/specs/",
+   "https://consumer.huawei.com/en/phones/pura90s-pro-max/specs/"
+  ],
+  "q": "Huawei Pura 90s Pro Max"
+ },
+ {
+  "id": "huawei-watch-gt-cyber",
+  "brand": "huawei",
+  "name": "HUAWEI Watch GT Cyber",
+  "category": "smartwatch",
+  "series": "Watch",
+  "form": "watch",
+  "spec": [
+   "https://consumer.huawei.com/en/wearables/watch-gt-cyber/specs/"
+  ],
+  "q": "Huawei Watch GT Cyber",
+  "must": "watch-gt-cyber"
+ },
+ {
+  "id": "huawei-watch-gt-4",
+  "brand": "huawei",
+  "name": "HUAWEI Watch GT 4",
+  "category": "smartwatch",
+  "series": "Watch",
+  "form": "watch",
+  "spec": [
+   "https://consumer.huawei.com/en/wearables/watch-gt4/specs/",
+   "https://consumer.huawei.com/en/wearables/watch-gt4/specs/"
+  ],
+  "q": "Huawei Watch GT 4",
+  "must": "watch-gt4"
+ },
+ {
+  "id": "huawei-watch-4-series",
+  "brand": "huawei",
+  "name": "HUAWEI Watch 4 Pro",
+  "category": "smartwatch",
+  "series": "Watch",
+  "form": "watch",
+  "spec": [
+   "https://consumer.huawei.com/my/wearables/watch-4-series/specs/",
+   "https://consumer.huawei.com/en/wearables/watch-4-series/specs/"
+  ],
+  "q": "Huawei Watch 4 Pro"
+ },
+ {
+  "id": "huawei-band-8",
+  "brand": "huawei",
+  "name": "HUAWEI Band 8",
+  "category": "band",
+  "series": "Band",
+  "form": "band",
+  "spec": [
+   "https://consumer.huawei.com/my/wearables/band8/specs/",
+   "https://consumer.huawei.com/en/wearables/band8/specs/"
+  ],
+  "q": "Huawei Band 8"
+ },
+ {
+  "id": "huawei-watch-fit-3",
+  "brand": "huawei",
+  "name": "HUAWEI Watch Fit 3",
+  "category": "smartwatch",
+  "series": "Watch",
+  "form": "watch",
+  "spec": [
+   "https://consumer.huawei.com/en/wearables/watch-fit3/specs/"
+  ],
+  "q": "Huawei Watch Fit 3",
+  "must": "watch-fit3"
+ },
+ {
+  "id": "huawei-watch-gt-5",
+  "brand": "huawei",
+  "name": "HUAWEI Watch GT 5",
+  "category": "smartwatch",
+  "series": "Watch",
+  "form": "watch",
+  "spec": [
+   "https://consumer.huawei.com/en/wearables/watch-gt5/specs/"
+  ],
+  "q": "Huawei Watch GT 5",
+  "must": "watch-gt5"
+ },
+ {
+  "id": "huawei-watch-gt-5-pro",
+  "brand": "huawei",
+  "name": "HUAWEI Watch GT 5 Pro",
+  "category": "smartwatch",
+  "series": "Watch",
+  "form": "watch",
+  "spec": [
+   "https://consumer.huawei.com/en/wearables/watch-gt5-pro/specs/"
+  ],
+  "q": "Huawei Watch GT 5 Pro",
+  "must": "watch-gt5-pro"
+ },
+ {
+  "id": "huawei-watch-d2",
+  "brand": "huawei",
+  "name": "HUAWEI Watch D2",
+  "category": "smartwatch",
+  "series": "Watch",
+  "form": "watch",
+  "spec": [
+   "https://consumer.huawei.com/my/wearables/watch-d2/specs/",
+   "https://consumer.huawei.com/en/wearables/watch-d2/specs/"
+  ],
+  "q": "Huawei Watch D2"
+ },
+ {
+  "id": "huawei-band-9",
+  "brand": "huawei",
+  "name": "HUAWEI Band 9",
+  "category": "band",
+  "series": "Band",
+  "form": "band",
+  "spec": [
+   "https://consumer.huawei.com/en/wearables/band9/specs/"
+  ],
+  "q": "Huawei Band 9",
+  "must": "band9"
+ },
+ {
+  "id": "huawei-band-10",
+  "brand": "huawei",
+  "name": "HUAWEI Band 10",
+  "category": "band",
+  "series": "Band",
+  "form": "band",
+  "spec": [
+   "https://consumer.huawei.com/my/wearables/band10/specs/",
+   "https://consumer.huawei.com/en/wearables/band10/specs/"
+  ],
+  "q": "Huawei Band 10"
+ },
+ {
+  "id": "huawei-watch-fit-4",
+  "brand": "huawei",
+  "name": "HUAWEI Watch Fit 4",
+  "category": "smartwatch",
+  "series": "Watch",
+  "form": "watch",
+  "spec": [
+   "https://consumer.huawei.com/my/wearables/watch-fit4/specs/",
+   "https://consumer.huawei.com/en/wearables/watch-fit4/specs/"
+  ],
+  "q": "Huawei Watch Fit 4"
+ },
+ {
+  "id": "huawei-watch-fit-4-pro",
+  "brand": "huawei",
+  "name": "HUAWEI Watch Fit 4 Pro",
+  "category": "smartwatch",
+  "series": "Watch",
+  "form": "watch",
+  "spec": [
+   "https://consumer.huawei.com/my/wearables/watch-fit4-pro/specs/",
+   "https://consumer.huawei.com/en/wearables/watch-fit4-pro/specs/"
+  ],
+  "q": "Huawei Watch Fit 4 Pro"
+ },
+ {
+  "id": "huawei-watch-5",
+  "brand": "huawei",
+  "name": "HUAWEI Watch 5",
+  "category": "smartwatch",
+  "series": "Watch",
+  "form": "watch",
+  "spec": [
+   "https://consumer.huawei.com/my/wearables/watch-5/specs/",
+   "https://consumer.huawei.com/en/wearables/watch-5/specs/"
+  ],
+  "q": "Huawei Watch 5"
+ },
+ {
+  "id": "huawei-watch-gt-6",
+  "brand": "huawei",
+  "name": "HUAWEI Watch GT 6",
+  "category": "smartwatch",
+  "series": "Watch",
+  "form": "watch",
+  "spec": [
+   "https://consumer.huawei.com/my/wearables/watch-gt6/specs/",
+   "https://consumer.huawei.com/en/wearables/watch-gt6/specs/"
+  ],
+  "q": "Huawei Watch GT 6"
+ },
+ {
+  "id": "huawei-watch-gt-6-pro",
+  "brand": "huawei",
+  "name": "HUAWEI Watch GT 6 Pro",
+  "category": "smartwatch",
+  "series": "Watch",
+  "form": "watch",
+  "spec": [
+   "https://consumer.huawei.com/my/wearables/watch-gt6-pro/specs/",
+   "https://consumer.huawei.com/en/wearables/watch-gt6-pro/specs/"
+  ],
+  "q": "Huawei Watch GT 6 Pro"
+ },
+ {
+  "id": "huawei-watch-ultimate-2",
+  "brand": "huawei",
+  "name": "HUAWEI Watch Ultimate 2",
+  "category": "smartwatch",
+  "series": "Watch",
+  "form": "watch",
+  "spec": [
+   "https://consumer.huawei.com/my/wearables/watch-ultimate-2/specs/",
+   "https://consumer.huawei.com/en/wearables/watch-ultimate-2/specs/"
+  ],
+  "q": "Huawei Watch Ultimate 2"
+ },
+ {
+  "id": "huawei-watch-fit-5",
+  "brand": "huawei",
+  "name": "HUAWEI Watch Fit 5",
+  "category": "smartwatch",
+  "series": "Watch",
+  "form": "watch",
+  "spec": [
+   "https://consumer.huawei.com/my/wearables/watch-fit5/specs/",
+   "https://consumer.huawei.com/en/wearables/watch-fit5/specs/"
+  ],
+  "q": "Huawei Watch Fit 5"
+ },
+ {
+  "id": "huawei-watch-fit-5-pro",
+  "brand": "huawei",
+  "name": "HUAWEI Watch Fit 5 Pro",
+  "category": "smartwatch",
+  "series": "Watch",
+  "form": "watch",
+  "spec": [
+   "https://consumer.huawei.com/my/wearables/watch-fit5-pro/specs/",
+   "https://consumer.huawei.com/en/wearables/watch-fit5-pro/specs/"
+  ],
+  "q": "Huawei Watch Fit 5 Pro"
+ },
+ {
+  "id": "huawei-band-11",
+  "brand": "huawei",
+  "name": "HUAWEI Band 11",
+  "category": "band",
+  "series": "Band",
+  "form": "band",
+  "spec": [
+   "https://consumer.huawei.com/my/wearables/band11/specs/",
+   "https://consumer.huawei.com/en/wearables/band11/specs/"
+  ],
+  "q": "Huawei Band 11"
+ },
+ {
+  "id": "huawei-band-11-pro",
+  "brand": "huawei",
+  "name": "HUAWEI Band 11 Pro",
+  "category": "band",
+  "series": "Band",
+  "form": "band",
+  "spec": [
+   "https://consumer.huawei.com/my/wearables/band11-pro/specs/",
+   "https://consumer.huawei.com/en/wearables/band11-pro/specs/"
+  ],
+  "q": "Huawei Band 11 Pro"
+ },
+ {
+  "id": "huawei-watch-gt-runner-2",
+  "brand": "huawei",
+  "name": "HUAWEI Watch GT Runner 2",
+  "category": "smartwatch",
+  "series": "Watch",
+  "form": "watch",
+  "spec": [
+   "https://consumer.huawei.com/my/wearables/watch-gt-runner-2/specs/",
+   "https://consumer.huawei.com/en/wearables/watch-gt-runner-2/specs/"
+  ],
+  "q": "Huawei Watch GT Runner 2"
+ }
+]

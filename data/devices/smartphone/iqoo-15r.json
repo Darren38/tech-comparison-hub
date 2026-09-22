@@ -1,0 +1,137 @@
+{
+  "id": "iqoo-15r",
+  "name": "iQOO 15R",
+  "brand": "iqoo",
+  "category": "smartphone",
+  "series": "iQOO",
+  "form": "bar",
+  "status": "released",
+  "announced": "2026-04-08",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 2499,
+      "date": "2026-04-08",
+      "type": "launch",
+      "source": "nasilemaktech",
+      "url": "https://nasilemaktech.com/iqoo-15r-review/",
+      "class": "news",
+      "accessed": "2026-09-18",
+      "note": "Starting price."
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 6.59,
+      "type": "AMOLED",
+      "resolution": "2750 × 1260",
+      "refresh_hz": 144,
+      "peak_nits": 5000,
+      "ppi": 459
+    },
+    "platform": {
+      "chipset": "snapdragon-8-gen-5",
+      "process": "3 nm",
+      "cpu": "8 cores; 2 × 3.80 GHz + 6 × 3.32 GHz"
+    },
+    "memory": {
+      "ram_gb": [
+        12
+      ],
+      "storage_gb": [
+        256,
+        512
+      ],
+      "ram_type": "LPDDR5X Ultra",
+      "storage_type": "UFS 4.1",
+      "card": "No"
+    },
+    "battery": {
+      "capacity_mah": 7600,
+      "chemistry": "Li-ion battery"
+    },
+    "charging": {
+      "wired_w": 100,
+      "claim": "100W"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 32
+        }
+      ],
+      "front": "50 MP",
+      "front_detail": [
+        "32 MP Front Camera"
+      ]
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true,
+      "bands_2g": "850/900/1800 MHz",
+      "bands_3g": "B1/B5/B6/B8/B19",
+      "bands_4g": "4G FDD-LTE: B1/B3/B4/B5/B7/B8/B18/B19/B20/B26/B28/B32/B71",
+      "bands_5g": "5G: n1/n3/n5/n7/n8/n18/n20/n26/n28/n38/n40/n41/n48/n71/n75/n77/",
+      "technology": "GSM / HSPA / LTE / 5G",
+      "sim": "2 nano SIMs",
+      "bluetooth": "Bluetooth 6.0",
+      "usb": "USB 2.0",
+      "radio": "No",
+      "positioning": "GPS, BeiDou, GLONASS ,Galileo, QZSS. NavIC, GNSS",
+      "wifi": "Wi-Fi; Wi-Fi Display, 2×2 MIMO, MU-MIMO, Wi-Fi 6, Wi-Fi 7"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 157.61,
+        "width_mm": 74.42,
+        "depth_mm": 7.9
+      },
+      "weight_g": 202.0,
+      "ip": "IP69",
+      "back": "Glass fiber (Dark Knight); Glass (Pixel Silver)"
+    },
+    "software": {
+      "launch_os": "OriginOS 6.0"
+    },
+    "misc": {
+      "colors": "Dark Knight, Pixel Silver"
+    },
+    "biometrics": {
+      "fingerprint": "3D ultrasonic single fingerprint sensor"
+    },
+    "sensors": "Accelerometer, Ambient Light Sensor, Proximity Sensor, E-compass, Gyroscope, Color Temperature Sensor, Front color temperature sensor, Motor, Linear"
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "iqoo",
+      "url": "https://www.iqoo.com/my/products/param/iqoo-15r",
+      "checked": "2026-09-18",
+      "note": "Read from iQOO Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "nasilemaktech",
+        "url": "https://nasilemaktech.com/iqoo-15r-review/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (Nasi Lemak Tech). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1770795133445/0674066a7e97b7e81f2c36a40a3fa7b4.png",
+    "page": "https://www.iqoo.com/my/products/param/iqoo-15r",
+    "credit": "vivo Malaysia",
+    "checked": "2026-09-19"
+  }
+}

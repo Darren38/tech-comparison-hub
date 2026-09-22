@@ -1,0 +1,116 @@
+{
+  "id": "honor-x7d-5g",
+  "name": "HONOR X7d 5G",
+  "brand": "honor",
+  "category": "smartphone",
+  "series": "X",
+  "form": "bar",
+  "status": "released",
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-18",
+      "source": "honor",
+      "url": "https://www.honor.com/my/phones/honor-x7d-5g/spec/",
+      "note": "Sold in Malaysia, but no launch price was found in Malaysian launch coverage."
+    }
+  },
+  "image": {
+    "kind": "official",
+    "src": "https://www.honor.com/content/dam/honor/common/product-list/product-series/honor-x7d-5g/my/x7d-5g-black-list.png",
+    "page": "https://www.honor.com/my/phones/honor-x7d-5g/spec/",
+    "credit": "HONOR Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.77,
+      "type": "LCD",
+      "resolution": "1610 × 720",
+      "ppi": 261
+    },
+    "platform": {
+      "chipset": "snapdragon-6s-gen-3",
+      "gpu": "Qualcomm Adreno GPU A619",
+      "cpu": "Octa-core; 2xA78@2.3GHz; 6xA55@2.0GHz"
+    },
+    "memory": {
+      "ram_gb": [
+        6
+      ],
+      "storage_gb": [
+        128
+      ]
+    },
+    "battery": {
+      "capacity_mah": 6500,
+      "chemistry": "Lithium-ion"
+    },
+    "charging": {
+      "wired_w": 35,
+      "claim": "Supported 35W"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "aperture": "f/1.8"
+        }
+      ],
+      "front": "5 MP",
+      "rear_detail": [
+        "50MP Main Camera(f/1.8)",
+        "2MP Depth Camera(f/2.4)"
+      ],
+      "features": "8X Digital zoom",
+      "video": "1080p",
+      "front_detail": [
+        "5 MP Camera (f/2.2 aperture)"
+      ]
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true,
+      "technology": "GSM / HSPA / LTE / 5G",
+      "sim": "nano sim-card",
+      "wifi": "802.11 a/b/g/n/ac, supports 2.4GHz and 5GHz WLAN, supports WLAN hotspot and WLAN direct connection.",
+      "bluetooth": "Supported BLE, SBC, AAC, LDAC, aptX, aptX HD",
+      "usb": "Type-C, USB 2.0",
+      "positioning": "Supports BeiDou(B1I+B1C), GPS (L1), GLONASS (G1), Galileo(E1), A-GNSSsupports cellular network positioning and WLAN network positioning."
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 166.89,
+        "width_mm": 76.8,
+        "depth_mm": 8.24
+      },
+      "weight_g": 206.0,
+      "ip": "IP65"
+    },
+    "software": {
+      "launch_os": "Android 15+Magic OS 9.0"
+    },
+    "biometrics": {
+      "face": "Yes"
+    },
+    "sensors": "Gravity Sensor, Fingerprint Sensor, Compass, Acceleration Sensor, Ambient Light Sensor, Proximity Sensor"
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "honor",
+      "url": "https://www.honor.com/my/phones/honor-x7d-5g/spec/",
+      "checked": "2026-09-18",
+      "note": "Read from HONOR Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

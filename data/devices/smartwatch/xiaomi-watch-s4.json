@@ -1,0 +1,87 @@
+{
+  "id": "xiaomi-watch-s4",
+  "name": "Xiaomi Watch S4",
+  "brand": "xiaomi",
+  "category": "smartwatch",
+  "series": "Watch",
+  "form": "watch",
+  "status": "released",
+  "announced": "2025-03-03",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 699,
+      "date": "2025-03-03",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2025/344242/xiaomi-watch-s4-smart-band-9-pro-available-malaysia-from-rm399/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://i02.appmifile.com/15_item_my/25/02/2025/c2e7d63c48093702b15d65fcfe324af2.png",
+    "page": "https://www.mi.com/my/product/xiaomi-watch-s4/specs/",
+    "credit": "Xiaomi Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 1.43,
+      "type": "AMOLED",
+      "resolution": "466 × 466",
+      "peak_nits": 1500
+    },
+    "battery": {
+      "life_h": 360,
+      "capacity_mah": 486
+    },
+    "connectivity": {
+      "gps": "Built-in GNSS",
+      "nfc": true,
+      "usb": "2-Pin magnetic charging dock; Package contents; Xiaomi Watch S4 (including bezel and strap) / Magnetic charging dock / User manual (including warranty notice)",
+      "bluetooth": "Bluetooth 5.3"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 47.3,
+        "width_mm": 47.3,
+        "depth_mm": 12.0
+      },
+      "water": "5 ATM",
+      "water_m": 50,
+      "frame": "Aluminum alloy frame; Strap; Black: fluororubber strap; Adjustable strap length: 140-210mm approx.; Silver: fluororubber strap; Adjustable strap length: 140-210mm approx."
+    },
+    "software": {
+      "launch_os": "Xiaomi HyperOS 2"
+    },
+    "sensors": "Heart rate sensor (with blood oxygen sensor), Accelerometer, Gyroscope, Ambient light sensor, Electronic compass, Barometer sensor, Hall sensor, Satellite positioning systems, GPS, Galileo, Glonass, BeiDou, QZSS",
+    "audio": {
+      "speakers": "Microphone: 2 mics"
+    },
+    "misc": {
+      "colors": "Silver"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "xiaomi",
+      "url": "https://www.mi.com/my/product/xiaomi-watch-s4/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from Xiaomi Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "lowyat",
+        "url": "https://www.lowyat.net/2025/344242/xiaomi-watch-s4-smart-band-9-pro-available-malaysia-from-rm399/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (Lowyat.NET). The global announcement can be earlier."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

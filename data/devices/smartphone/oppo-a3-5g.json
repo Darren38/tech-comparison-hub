@@ -1,0 +1,128 @@
+{
+  "id": "oppo-a3-5g",
+  "name": "OPPO A3 5G",
+  "brand": "oppo",
+  "category": "smartphone",
+  "series": "A",
+  "form": "bar",
+  "status": "released",
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-18",
+      "source": "oppo",
+      "url": "https://www.oppo.com/my/smartphones/series-a/a3-5g/specs/",
+      "note": "Sold in Malaysia, but no launch price was found in Malaysian launch coverage."
+    }
+  },
+  "image": {
+    "kind": "official",
+    "src": "https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/ab5-a3-5g-en/list-page-new/nebula_red_en.png",
+    "page": "https://www.oppo.com/my/smartphones/series-a/a3-5g/",
+    "credit": "OPPO Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.67,
+      "type": "LCD",
+      "resolution": "1604 × 720",
+      "refresh_hz": 120,
+      "peak_nits": 1000,
+      "protection": "China Southern Glass (twice-reinforced); Panda (twice-reinforced)",
+      "ppi": 264
+    },
+    "platform": {
+      "chipset": "dimensity-6300",
+      "gpu": "ARM Mali-G57 MC2@1072MHz",
+      "cpu": "8 cores"
+    },
+    "memory": {
+      "ram_gb": [
+        6
+      ],
+      "storage_gb": [
+        128
+      ],
+      "ram_type": "LPDDR4X@2133MHz, 2 × 16 bits",
+      "storage_type": "eMMC 5.1",
+      "card": "Yes"
+    },
+    "battery": {
+      "capacity_mah": 5100
+    },
+    "charging": {
+      "wired_w": 45,
+      "claim": "45W SUPERVOOC , SUPERVOOC , VOOC, PD2.0"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "aperture": "f/1.8"
+        }
+      ],
+      "front": "5 MP",
+      "rear_detail": [
+        "50MP; f/1.8; FOV 76°; 5P lens; AF; open-loop focus motor"
+      ],
+      "front_detail": [
+        "5MP; f/2.2, FOV 78°; 3P lens; FF"
+      ],
+      "video": "1080p@60fps"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true,
+      "bands_2g": "850/900/1800/1900MHz",
+      "bands_3g": "Bands 1/2/4/5/6/8/19",
+      "bands_4g": "LTE FDD: Bands 1/2/3/5/6/7/8/12/13/17/18/19/20/26/28/66; LTE TDD: Bands 38/39/40/41",
+      "bands_5g": "5G NR: n1/n3/n5/n7/n8/n20/n26/n28/n38/n40/n41/n66/n77/n78",
+      "technology": "GSM / HSPA / LTE / 5G",
+      "sim": "Nano-SIM Card/Nano-USIM Card",
+      "bluetooth": "Bluetooth 5.3",
+      "usb": "USB Type-C",
+      "positioning": "BeiDou: B1I; GPS: L1; GLONASS: G1; Galileo: E1; QZSS: L1",
+      "wifi": "Wi-Fi 5 (802.11ac) , 802.11a/b/g/n"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 165.71,
+        "width_mm": 76.02,
+        "depth_mm": 7.68
+      },
+      "weight_g": 187.0
+    },
+    "software": {
+      "launch_os": "ColorOS 14.0.1"
+    },
+    "biometrics": {
+      "face": "Yes"
+    },
+    "sensors": "Geomagnetic sensor, Ambient light sensor, Proximity sensor, Accelerometer, Gravity sensor, Pedometer",
+    "audio": {
+      "jack": true
+    },
+    "misc": {
+      "colors": "Ocean Blue, Nebula Red"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "oppo",
+      "url": "https://www.oppo.com/my/smartphones/series-a/a3-5g/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from OPPO Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

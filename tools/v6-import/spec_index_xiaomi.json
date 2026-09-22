@@ -1,0 +1,890 @@
+{
+ "poco-x5-5g": {
+  "url": "https://www.mi.com/my/product/poco-x5-5g/specs/",
+  "final": "https://www.mi.com/my/product/poco-x5-5g/specs/",
+  "status": 200,
+  "title": "Poco X5 5g Specs, Features | Xiaomi Malaysia",
+  "ok": true,
+  "bytes": 111850
+ },
+ "poco-x5-pro-5g": {
+  "url": "https://www.mi.com/my/product/poco-x5-pro-5g/specs/",
+  "final": "https://www.mi.com/my/product/poco-x5-pro-5g/specs/",
+  "status": 200,
+  "title": "Poco X5 Pro 5g Specs, Features | Xiaomi Malaysia",
+  "ok": true,
+  "bytes": 113625
+ },
+ "xiaomi-13": {
+  "url": "https://www.mi.com/my/product/xiaomi-13/specs/",
+  "final": "https://www.mi.com/my/product/xiaomi-13/specs/",
+  "status": 200,
+  "title": "Xiaomi 13 Specs, Features | Xiaomi Malaysia",
+  "ok": true,
+  "bytes": 153871
+ },
+ "xiaomi-13-pro": {
+  "url": "https://www.mi.com/my/product/xiaomi-13-pro/specs/",
+  "final": "https://www.mi.com/my/product/xiaomi-13-pro/specs/",
+  "status": 200,
+  "title": "Xiaomi 13 Pro Specs, Features | Xiaomi Malaysia",
+  "ok": true,
+  "bytes": 168340
+ },
+ "redmi-12c": {
+  "url": "https://www.mi.com/my/product/redmi-12c/specs/",
+  "final": "https://www.mi.com/my/product/redmi-12c/specs/",
+  "status": 200,
+  "title": "Redmi 12c Specs, Features | Xiaomi Malaysia",
+  "ok": true,
+  "bytes": 102998
+ },
+ "redmi-note-12": {
+  "url": "https://www.mi.com/my/product/redmi-note-12/specs/",
+  "final": "https://www.mi.com/my/product/redmi-note-12/specs/",
+  "status": 200,
+  "title": "Redmi Note 12 Specs, Features | Xiaomi Malaysia",
+  "ok": false,
+  "bytes": 108982
+ },
+ "redmi-note-12-5g": {
+  "url": "https://www.mi.com/my/product/redmi-note-12-5g/specs/",
+  "final": "https://www.mi.com/my/product/redmi-note-12-5g/specs/",
+  "status": 200,
+  "title": "Redmi Note 12 5g Specs, Features | Xiaomi Malaysia",
+  "ok": false,
+  "bytes": 115421
+ },
+ "redmi-note-12-pro-5g": {
+  "url": "https://www.mi.com/my/product/redmi-note-12-pro-5g/specs/",
+  "final": "https://www.mi.com/my/product/redmi-note-12-pro-5g/specs/",
+  "status": 200,
+  "title": "Redmi Note 12 Pro 5g Specs, Features | Xiaomi Malaysia",
+  "ok": true,
+  "bytes": 117301
+ },
+ "redmi-note-12-pro-plus-5g": {
+  "url": "https://www.mi.com/my/product/redmi-note-12-pro-plus-5g/specs/",
+  "final": "https://www.mi.com/my/product/redmi-note-12-pro-plus-5g/specs/",
+  "status": 200,
+  "title": "Redmi Note 12 Pro Plus 5g Specs, Features | Xiaomi Malaysia",
+  "ok": true,
+  "bytes": 119443
+ },
+ "redmi-a2-plus": {
+  "url": "https://www.mi.com/global/product/redmi-a2-plus/specs/",
+  "final": "https://www.mi.com/global/product/redmi-a2-plus/specs/",
+  "status": 200,
+  "title": "Redmi A2+ Specs",
+  "ok": true,
+  "bytes": 101463
+ },
+ "poco-f5": {
+  "url": "https://www.mi.com/my/product/poco-f5/specs/",
+  "final": "https://www.mi.com/my/product/poco-f5/specs/",
+  "status": 200,
+  "title": "Poco F5 Specs, Features | Xiaomi Malaysia",
+  "ok": true,
+  "bytes": 118726
+ },
+ "poco-f5-pro": {
+  "url": "https://www.mi.com/my/product/poco-f5-pro/specs/",
+  "final": "https://www.mi.com/my/product/poco-f5-pro/specs/",
+  "status": 200,
+  "title": "Poco F5 Pro Specs, Features | Xiaomi Malaysia",
+  "ok": true,
+  "bytes": 126912
+ },
+ "redmi-note-12s": {
+  "url": "https://www.mi.com/my/product/redmi-note-12s/specs/",
+  "final": "https://www.mi.com/my/product/redmi-note-12s/specs/",
+  "status": 200,
+  "title": "Redmi Note 12s Specs, Features | Xiaomi Malaysia",
+  "ok": false,
+  "bytes": 103763
+ },
+ "redmi-note-12-pro": {
+  "url": "https://www.mi.com/my/product/redmi-note-12-pro/specs/",
+  "final": "https://www.mi.com/my/product/redmi-note-12-pro/specs/",
+  "status": 200,
+  "title": "Redmi Note 12 Pro Specs, Features | Xiaomi Malaysia",
+  "ok": true,
+  "bytes": 106048
+ },
+ "xiaomi-13-ultra": {
+  "url": "https://www.mi.com/my/product/xiaomi-13-ultra/specs/",
+  "final": "https://www.mi.com/my/product/xiaomi-13-ultra/specs/",
+  "status": 200,
+  "title": "Xiaomi 13 Ultra Specs, Features | Xiaomi Malaysia",
+  "ok": true,
+  "bytes": 169814
+ },
+ "redmi-12": {
+  "url": "https://www.mi.com/my/product/redmi-12/specs/",
+  "final": "https://www.mi.com/my/product/redmi-12/specs/",
+  "status": 200,
+  "title": "REDMI12 Specs, Features | Xiaomi Malaysia",
+  "ok": true,
+  "bytes": 114897
+ },
+ "redmi-12-5g": {
+  "url": "https://www.mi.com/global/product/redmi-12-5g/specs/",
+  "final": "https://www.mi.com/global/product/redmi-12-5g/specs/",
+  "status": 200,
+  "title": "Redmi 12 5G Specs",
+  "ok": true,
+  "bytes": 112775
+ },
+ "xiaomi-13t": {
+  "url": "https://www.mi.com/global/product/xiaomi-13t/specs/",
+  "final": "https://www.mi.com/global/errors/404",
+  "status": 200,
+  "title": "404 - Xiaomi Global",
+  "ok": false,
+  "bytes": 40418
+ },
+ "xiaomi-13t-pro": {
+  "url": "https://www.mi.com/global/product/xiaomi-13t-pro/specs/",
+  "final": "https://www.mi.com/global/errors/404",
+  "status": 200,
+  "title": "404 - Xiaomi Global",
+  "ok": false,
+  "bytes": 40418
+ },
+ "poco-c65": {
+  "url": "https://www.mi.com/my/product/poco-c65/specs/",
+  "final": "https://www.mi.com/my/product/poco-c65/specs/",
+  "status": 200,
+  "title": "POCO C65 Specs, Features | Xiaomi Malaysia",
+  "ok": true,
+  "bytes": 110953
+ },
+ "redmi-13c": {
+  "url": "https://www.mi.com/my/product/redmi-13c/specs/",
+  "final": "https://www.mi.com/my/product/redmi-13c/specs/",
+  "status": 200,
+  "title": "REDMI 13C Specs, Features | Xiaomi Malaysia",
+  "ok": true,
+  "bytes": 113347
+ },
+ "poco-m6-pro": {
+  "url": "https://www.mi.com/my/product/poco-m6-pro/specs/",
+  "final": "https://www.mi.com/my/product/poco-m6-pro/specs/",
+  "status": 200,
+  "title": "POCO M6 Pro Specs, Features | Xiaomi Malaysia",
+  "ok": true,
+  "bytes": 132395
+ },
+ "redmi-note-13": {
+  "url": "https://www.mi.com/my/product/redmi-note-13/specs/",
+  "final": "https://www.mi.com/my/product/redmi-note-13/specs/",
+  "status": 200,
+  "title": "REDMI Note 13 Specs, Features | Xiaomi Malaysia",
+  "ok": true,
+  "bytes": 126800
+ },
+ "redmi-note-13-5g": {
+  "url": "https://www.mi.com/my/product/redmi-note-13-5g/specs/",
+  "final": "https://www.mi.com/my/product/redmi-note-13-5g/specs/",
+  "status": 200,
+  "title": "REDMI Note 13 5G Specs, Features | Xiaomi Malaysia",
+  "ok": true,
+  "bytes": 124064
+ },
+ "redmi-note-13-pro": {
+  "url": "https://www.mi.com/global/product/redmi-note-13-pro/specs/",
+  "final": "https://www.mi.com/global/product/redmi-note-13-pro/specs/",
+  "status": 200,
+  "title": "Redmi Note 13 Pro Specs",
+  "ok": true,
+  "bytes": 123494
+ },
+ "redmi-note-13-pro-5g": {
+  "url": "https://www.mi.com/my/product/redmi-note-13-pro-5g/specs/",
+  "final": "https://www.mi.com/my/product/redmi-note-13-pro-5g/specs/",
+  "status": 200,
+  "title": "REDMI Note 13 Pro 5G Specs, Features | Xiaomi Malaysia",
+  "ok": true,
+  "bytes": 135179
+ },
+ "redmi-note-13-pro-plus-5g": {
+  "url": "https://www.mi.com/my/product/redmi-note-13-pro-plus-5g/specs/",
+  "final": "https://www.mi.com/my/product/redmi-note-13-pro-plus-5g/specs/",
+  "status": 200,
+  "title": "REDMI Note 13 Pro+ 5G Specs, Features | Xiaomi Malaysia",
+  "ok": true,
+  "bytes": 162268
+ },
+ "poco-x6-5g": {
+  "url": "https://www.mi.com/global/product/poco-x6-5g/specs/",
+  "final": "https://www.mi.com/global/errors/404",
+  "status": 200,
+  "title": "404 - Xiaomi Global",
+  "ok": false,
+  "bytes": 40417
+ },
+ "poco-x6-pro-5g": {
+  "url": "https://www.mi.com/global/product/poco-x6-pro-5g/specs/",
+  "final": "https://www.mi.com/global/errors/404",
+  "status": 200,
+  "title": "404 - Xiaomi Global",
+  "ok": false,
+  "bytes": 40417
+ },
+ "xiaomi-14": {
+  "url": "https://www.mi.com/my/product/xiaomi-14/specs/",
+  "final": "https://www.mi.com/my/product/xiaomi-14/specs/",
+  "status": 200,
+  "title": "Xiaomi 14 Specs, Features | Xiaomi Malaysia",
+  "ok": true,
+  "bytes": 183160
+ },
+ "xiaomi-14-ultra": {
+  "url": "https://www.mi.com/my/product/xiaomi-14-ultra/specs/",
+  "final": "https://www.mi.com/my/product/xiaomi-14-ultra/specs/",
+  "status": 200,
+  "title": "Xiaomi 14 Ultra Specs, Features | Xiaomi Malaysia",
+  "ok": true,
+  "bytes": 178944
+ },
+ "redmi-a3": {
+  "url": "https://www.mi.com/my/product/redmi-a3/specs/",
+  "final": "https://www.mi.com/my/product/redmi-a3/specs/",
+  "status": 200,
+  "title": "REDMI A3 Specs, Features | Xiaomi Malaysia",
+  "ok": true,
+  "bytes": 112552
+ },
+ "redmi-13c-5g": {
+  "url": "https://www.mi.com/my/product/redmi-13c-5g/specs/",
+  "final": "https://www.mi.com/my/product/redmi-13c-5g/specs/",
+  "status": 200,
+  "title": "REDMI13C 5G Specs, Features | Xiaomi Malaysia",
+  "ok": true,
+  "bytes": 113060
+ },
+ "poco-f6": {
+  "url": "https://www.mi.com/my/product/poco-f6/specs/",
+  "final": "https://www.mi.com/my/product/poco-f6/specs/",
+  "status": 200,
+  "title": "POCO F6 Specs, Features | Xiaomi Malaysia",
+  "ok": true,
+  "bytes": 136785
+ },
+ "poco-f6-pro": {
+  "url": "https://www.mi.com/my/product/poco-f6-pro/specs/",
+  "final": "https://www.mi.com/my/product/poco-f6-pro/specs/",
+  "status": 200,
+  "title": "POCO F6 Pro Specs, Features | Xiaomi Malaysia",
+  "ok": true,
+  "bytes": 143932
+ },
+ "poco-m6": {
+  "url": "https://www.mi.com/my/product/poco-m6/specs/",
+  "final": "https://www.mi.com/my/product/poco-m6/specs/",
+  "status": 200,
+  "title": "POCO M6 Specs, Features | Xiaomi Malaysia",
+  "ok": true,
+  "bytes": 118227
+ },
+ "redmi-13": {
+  "url": "https://www.mi.com/my/product/redmi-13/specs/",
+  "final": "https://www.mi.com/my/product/redmi-13/specs/",
+  "status": 200,
+  "title": "REDMI 13 Specs, Features | Xiaomi Malaysia",
+  "ok": true,
+  "bytes": 114339
+ },
+ "redmi-14c": {
+  "url": "https://www.mi.com/global/product/redmi-14c/specs/",
+  "final": "https://www.mi.com/global/errors/404",
+  "status": 200,
+  "title": "404 - Xiaomi Global",
+  "ok": false,
+  "bytes": 40421
+ },
+ "xiaomi-14t": {
+  "url": "https://www.mi.com/my/product/xiaomi-14t/specs/",
+  "final": "https://www.mi.com/my/product/xiaomi-14t/specs/",
+  "status": 200,
+  "title": "Xiaomi 14T Specs, Features | Xiaomi Malaysia",
+  "ok": true,
+  "bytes": 197144
+ },
+ "xiaomi-14t-pro": {
+  "url": "https://www.mi.com/my/product/xiaomi-14t-pro/specs/",
+  "final": "https://www.mi.com/my/product/xiaomi-14t-pro/specs/",
+  "status": 200,
+  "title": "Xiaomi 14T Pro Specs | Xiaomi MY - Xiaomi Malaysia",
+  "ok": true,
+  "bytes": 213751
+ },
+ "xiaomi-mix-flip": {
+  "url": "https://www.mi.com/my/product/xiaomi-mix-flip/specs/",
+  "final": "https://www.mi.com/my/product/xiaomi-mix-flip/specs/",
+  "status": 200,
+  "title": "Xiaomi Mix Flip Specs, Features | Xiaomi Malaysia",
+  "ok": false,
+  "bytes": 163246
+ },
+ "poco-c75": {
+  "url": "https://www.mi.com/my/product/poco-c75/specs/",
+  "final": "https://www.mi.com/my/product/poco-c75/specs/",
+  "status": 200,
+  "title": "POCO C75 Specs, Features | Xiaomi Malaysia",
+  "ok": true,
+  "bytes": 117822
+ },
+ "poco-x7": {
+  "url": "https://www.mi.com/my/product/poco-x7/specs/",
+  "final": "https://www.mi.com/my/product/poco-x7/specs/",
+  "status": 200,
+  "title": "POCO X7 Specs - Xiaomi Malaysia",
+  "ok": true,
+  "bytes": 132399
+ },
+ "poco-x7-pro": {
+  "url": "https://www.mi.com/my/product/poco-x7-pro/specs/",
+  "final": "https://www.mi.com/my/product/poco-x7-pro/specs/",
+  "status": 200,
+  "title": "POCO X7 Pro Specs - Xiaomi Malaysia",
+  "ok": true,
+  "bytes": 149469
+ },
+ "redmi-note-14": {
+  "url": "https://www.mi.com/my/product/redmi-note-14/specs/",
+  "final": "https://www.mi.com/my/product/redmi-note-14/specs/",
+  "status": 200,
+  "title": "REDMI Note 14 Specs, Features | Xiaomi Malaysia",
+  "ok": true,
+  "bytes": 131611
+ },
+ "redmi-note-14-5g": {
+  "url": "https://www.mi.com/my/product/redmi-note-14-5g/specs/",
+  "final": "https://www.mi.com/my/product/redmi-note-14-5g/specs/",
+  "status": 200,
+  "title": "REDMI Note 14 5G Specs, Features | Xiaomi Malaysia",
+  "ok": true,
+  "bytes": 131085
+ },
+ "redmi-note-14-pro": {
+  "url": "https://www.mi.com/global/product/redmi-note-14-pro/specs/",
+  "final": "https://www.mi.com/global/product/redmi-note-14-pro/specs/",
+  "status": 200,
+  "title": "Redmi Note 14 Pro Specs - Xiaomi Global",
+  "ok": true,
+  "bytes": 131607
+ },
+ "redmi-note-14-pro-5g": {
+  "url": "https://www.mi.com/my/product/redmi-note-14-pro-5g/specs/",
+  "final": "https://www.mi.com/my/product/redmi-note-14-pro-5g/specs/",
+  "status": 200,
+  "title": "Redmi Note 14 Pro 5G Specs - Xiaomi Malaysia",
+  "ok": true,
+  "bytes": 143267
+ },
+ "xiaomi-15": {
+  "url": "https://www.mi.com/my/product/xiaomi-15/specs/",
+  "final": "https://www.mi.com/my/product/xiaomi-15/specs/",
+  "status": 200,
+  "title": "Xiaomi 15 Specs - Xiaomi Malaysia",
+  "ok": true,
+  "bytes": 194486
+ },
+ "poco-f7-pro": {
+  "url": "https://www.mi.com/my/product/poco-f7-pro/specs/",
+  "final": "https://www.mi.com/my/product/poco-f7-pro/specs/",
+  "status": 200,
+  "title": "POCO F7 Pro Specs | Xiaomi MY - Xiaomi Malaysia",
+  "ok": true,
+  "bytes": 163638
+ },
+ "redmi-a5": {
+  "url": "https://www.mi.com/my/product/redmi-a5/specs/",
+  "final": "https://www.mi.com/my/product/redmi-a5/specs/",
+  "status": 200,
+  "title": "REDMI A5 Specs, Features | Xiaomi Malaysia",
+  "ok": true,
+  "bytes": 120609
+ },
+ "poco-f7": {
+  "url": "https://www.mi.com/my/product/poco-f7/specs/",
+  "final": "https://www.mi.com/my/product/poco-f7/specs/",
+  "status": 200,
+  "title": "POCO F7 Specs | Xiaomi MY - Xiaomi Malaysia",
+  "ok": true,
+  "bytes": 148552
+ },
+ "redmi-15-5g": {
+  "url": "https://www.mi.com/my/product/redmi-15-5g/specs/",
+  "final": "https://www.mi.com/my/product/redmi-15-5g/specs/",
+  "status": 200,
+  "title": "REDMI 15 5G Specs | Xiaomi MY - Xiaomi Malaysia",
+  "ok": true,
+  "bytes": 121376
+ },
+ "redmi-15": {
+  "url": "https://www.mi.com/my/product/redmi-15/specs/",
+  "final": "https://www.mi.com/my/product/redmi-15/specs/",
+  "status": 200,
+  "title": "REDMI 15 Specs, Features - Xiaomi Malaysia",
+  "ok": true,
+  "bytes": 117469
+ },
+ "poco-m7": {
+  "url": "https://www.mi.com/my/product/poco-m7/specs/",
+  "final": "https://www.mi.com/my/product/poco-m7/specs/",
+  "status": 200,
+  "title": "POCO M7 Specs | Xiaomi MY - Xiaomi Malaysia",
+  "ok": true,
+  "bytes": 115717
+ },
+ "poco-c85": {
+  "url": "https://www.mi.com/my/product/poco-c85/specs/",
+  "final": "https://www.mi.com/my/product/poco-c85/specs/",
+  "status": 200,
+  "title": "POCO C85 Specs - Xiaomi Malaysia",
+  "ok": true,
+  "bytes": 121346
+ },
+ "xiaomi-15t": {
+  "url": "https://www.mi.com/my/product/xiaomi-15t/specs/",
+  "final": "https://www.mi.com/my/product/xiaomi-15t/specs/",
+  "status": 200,
+  "title": "Xiaomi 15T Specs – Official Xiaomi Malaysia",
+  "ok": true,
+  "bytes": 174035
+ },
+ "xiaomi-15t-pro": {
+  "url": "https://www.mi.com/my/product/xiaomi-15t-pro/specs/",
+  "final": "https://www.mi.com/my/product/xiaomi-15t-pro/specs/",
+  "status": 200,
+  "title": "Xiaomi 15T Pro Specs – Leica Camera, HyperOS, Malaysia Details",
+  "ok": true,
+  "bytes": 183447
+ },
+ "poco-f8-pro": {
+  "url": "https://www.mi.com/my/product/poco-f8-pro/specs/",
+  "final": "https://www.mi.com/my/product/poco-f8-pro/specs/",
+  "status": 200,
+  "title": "POCO F8 Pro Specs, Features | Xiaomi Malaysia",
+  "ok": true,
+  "bytes": 177957
+ },
+ "poco-f8-ultra": {
+  "url": "https://www.mi.com/my/product/poco-f8-ultra/specs/",
+  "final": "https://www.mi.com/my/product/poco-f8-ultra/specs/",
+  "status": 200,
+  "title": "POCO F8 Ultra Specs, Features | Xiaomi Malaysia",
+  "ok": true,
+  "bytes": 188691
+ },
+ "poco-m8": {
+  "url": "https://www.mi.com/global/product/poco-m8/specs/",
+  "final": "https://www.mi.com/global/errors/404",
+  "status": 200,
+  "title": "404 - Xiaomi Global",
+  "ok": false,
+  "bytes": 40417
+ },
+ "poco-m8-pro": {
+  "url": "https://www.mi.com/global/product/poco-m8-pro/specs/",
+  "final": "https://www.mi.com/global/errors/404",
+  "status": 200,
+  "title": "404 - Xiaomi Global",
+  "ok": false,
+  "bytes": 40418
+ },
+ "redmi-note-15": {
+  "url": "https://www.mi.com/my/product/redmi-note-15/specs/",
+  "final": "https://www.mi.com/my/product/redmi-note-15/specs/",
+  "status": 200,
+  "title": "REDMI Note 15 Specs, Features | Xiaomi Malaysia",
+  "ok": true,
+  "bytes": 125166
+ },
+ "redmi-note-15-5g": {
+  "url": "https://www.mi.com/my/product/redmi-note-15-5g/specs/",
+  "final": "https://www.mi.com/my/product/redmi-note-15-5g/specs/",
+  "status": 200,
+  "title": "REDMI Note 15 5G Specs, Features | Xiaomi Malaysia",
+  "ok": true,
+  "bytes": 128105
+ },
+ "redmi-note-15-pro": {
+  "url": "https://www.mi.com/global/product/redmi-note-15-pro/specs/",
+  "final": "https://www.mi.com/global/product/redmi-note-15-pro/specs/",
+  "status": 200,
+  "title": "All Specs, Features of REDMI Note 15 Pro | Xiaomi Global",
+  "ok": true,
+  "bytes": 130446
+ },
+ "redmi-note-15-pro-5g": {
+  "url": "https://www.mi.com/my/product/redmi-note-15-pro-5g/specs/",
+  "final": "https://www.mi.com/my/product/redmi-note-15-pro-5g/specs/",
+  "status": 200,
+  "title": "REDMI Note 15 Pro 5G Specs, Features | Xiaomi Malaysia",
+  "ok": true,
+  "bytes": 146312
+ },
+ "redmi-note-15-pro-plus-5g": {
+  "url": "https://www.mi.com/my/product/redmi-note-15-pro-plus-5g/specs/",
+  "final": "https://www.mi.com/my/product/redmi-note-15-pro-plus-5g/specs/",
+  "status": 200,
+  "title": "REDMI Note 15 Pro Plus 5G Specs, Features | Xiaomi Malaysia",
+  "ok": true,
+  "bytes": 149845
+ },
+ "xiaomi-17": {
+  "url": "https://www.mi.com/my/product/xiaomi-17/specs/",
+  "final": "https://www.mi.com/my/product/xiaomi-17/specs/",
+  "status": 200,
+  "title": "Xiaomi 17 Specs, Features | Xiaomi Malaysia",
+  "ok": true,
+  "bytes": 168791
+ },
+ "poco-x8-pro": {
+  "url": "https://www.mi.com/my/product/poco-x8-pro/specs/",
+  "final": "https://www.mi.com/my/product/poco-x8-pro/specs/",
+  "status": 200,
+  "title": "POCO X8 Pro Specs, Features | Xiaomi Malaysia",
+  "ok": true,
+  "bytes": 170576
+ },
+ "poco-x8-pro-max": {
+  "url": "https://www.mi.com/my/product/poco-x8-pro-max/specs/",
+  "final": "https://www.mi.com/my/product/poco-x8-pro-max/specs/",
+  "status": 200,
+  "title": "POCO X8 Pro Max Specs, Features | Xiaomi Malaysia",
+  "ok": true,
+  "bytes": 187885
+ },
+ "redmi-a7-pro": {
+  "url": "https://www.mi.com/my/product/redmi-a7-pro/specs/",
+  "final": "https://www.mi.com/my/product/redmi-a7-pro/specs/",
+  "status": 200,
+  "title": "REDMI A7 Pro Specs, Features | Xiaomi Malaysia",
+  "ok": true,
+  "bytes": 127503
+ },
+ "poco-c81-pro": {
+  "url": "https://www.mi.com/my/product/poco-c81-pro/specs/",
+  "final": "https://www.mi.com/my/product/poco-c81-pro/specs/",
+  "status": 200,
+  "title": "POCO C81 Pro | Xiaomi Malaysia | All Specs, Features",
+  "ok": true,
+  "bytes": 118392
+ },
+ "xiaomi-17t": {
+  "url": "https://www.mi.com/my/product/xiaomi-17t/specs/",
+  "final": "https://www.mi.com/my/product/xiaomi-17t/specs/",
+  "status": 200,
+  "title": "Xiaomi 17T Specs, Features | Xiaomi Malaysia",
+  "ok": true,
+  "bytes": 172891
+ },
+ "xiaomi-17t-pro": {
+  "url": "https://www.mi.com/my/product/xiaomi-17t-pro/specs/",
+  "final": "https://www.mi.com/my/product/xiaomi-17t-pro/specs/",
+  "status": 200,
+  "title": "Xiaomi 17T Pro Specs, Features | Xiaomi Malaysia",
+  "ok": true,
+  "bytes": 175985
+ },
+ "redmi-17": {
+  "url": "https://www.mi.com/my/product/redmi-17/specs/",
+  "final": "https://www.mi.com/my/product/redmi-17/specs/",
+  "status": 200,
+  "title": "REDMI 17 4G Specs, Features | Xiaomi Malaysia",
+  "ok": true,
+  "bytes": 126953
+ },
+ "redmi-17-5g": {
+  "url": "https://www.mi.com/my/product/redmi-17-5g/specs/",
+  "final": "https://www.mi.com/my/product/redmi-17-5g/specs/",
+  "status": 200,
+  "title": "REDMI 17 5G Specs, Features | Xiaomi Malaysia",
+  "ok": true,
+  "bytes": 125444
+ },
+ "redmi-a7": {
+  "url": "https://www.mi.com/my/product/redmi-a7/specs/",
+  "final": "https://www.mi.com/my/product/redmi-a7/specs/",
+  "status": 200,
+  "title": "REDMI A7 Specs, Features | Xiaomi Malaysia",
+  "ok": true,
+  "bytes": 114392
+ },
+ "redmi-note-17": {
+  "url": "https://www.mi.com/my/product/redmi-note-17/specs/",
+  "final": "https://www.mi.com/my/product/redmi-note-17/specs/",
+  "status": 200,
+  "title": "REDMI Note 17 Specs, Features | Xiaomi Malaysia",
+  "ok": true,
+  "bytes": 132077
+ },
+ "redmi-note-17-5g": {
+  "url": "https://www.mi.com/my/product/redmi-note-17-5g/specs/",
+  "final": "https://www.mi.com/my/product/redmi-note-17-5g/specs/",
+  "status": 200,
+  "title": "REDMI Note 17 5G Specs, Features | Xiaomi Malaysia",
+  "ok": true,
+  "bytes": 133371
+ },
+ "redmi-note-17-pro-5g": {
+  "url": "https://www.mi.com/my/product/redmi-note-17-pro-5g/specs/",
+  "final": "https://www.mi.com/my/product/redmi-note-17-pro-5g/specs/",
+  "status": 200,
+  "title": "REDMI Note 17 Pro 5G Specs, Features | Xiaomi Malaysia",
+  "ok": true,
+  "bytes": 157878
+ },
+ "redmi-note-17-pro-max-5g": {
+  "url": "https://www.mi.com/my/product/redmi-note-17-pro-max-5g/specs/",
+  "final": "https://www.mi.com/my/product/redmi-note-17-pro-max-5g/specs/",
+  "status": 200,
+  "title": "REDMI Note 17 Pro Max 5G Specs, Features | Xiaomi Malaysia",
+  "ok": true,
+  "bytes": 167119
+ },
+ "poco-f9-pro": {
+  "url": "https://www.mi.com/my/product/poco-f9-pro/specs/",
+  "final": "https://www.mi.com/my/product/poco-f9-pro/specs/",
+  "status": 200,
+  "title": "POCO F9 Pro Specs, Features | Xiaomi Malaysia",
+  "ok": true,
+  "bytes": 182923
+ },
+ "poco-f9-ultra": {
+  "url": "https://www.mi.com/my/product/poco-f9-ultra/specs/",
+  "final": "https://www.mi.com/my/product/poco-f9-ultra/specs/",
+  "status": 200,
+  "title": "POCO F9 Ultra Specs, Features | Xiaomi Malaysia",
+  "ok": true,
+  "bytes": 186066
+ },
+ "poco-x8": {
+  "url": "https://www.mi.com/my/product/poco-x8/specs/",
+  "final": "https://www.mi.com/my/product/poco-x8/specs/",
+  "status": 200,
+  "title": "Poco X8 | Xiaomi Malaysia | All Specs, Features",
+  "ok": true,
+  "bytes": 150176
+ },
+ "poco-m8s-5g": {
+  "url": "https://www.mi.com/my/product/poco-m8s-5g/specs/",
+  "final": "https://www.mi.com/my/product/poco-m8s-5g/specs/",
+  "status": 200,
+  "title": "Poco M8s 5g | Xiaomi Malaysia | All Specs, Features",
+  "ok": true,
+  "bytes": 120986
+ },
+ "leica-leitzphone-powered-by-xiaomi": {
+  "url": "https://www.mi.com/my/product/leica-leitzphone-powered-by-xiaomi/specs/",
+  "final": "https://www.mi.com/my/product/leica-leitzphone-powered-by-xiaomi/specs/",
+  "status": 200,
+  "title": "Leica Leitzphone Powered By Xiaomi Specs, Features | Xiaomi Malaysia",
+  "ok": true,
+  "bytes": 155423
+ },
+ "redmi-watch-3": {
+  "url": "https://www.mi.com/my/product/redmi-watch-3/specs/",
+  "final": "https://www.mi.com/my/product/redmi-watch-3/specs/",
+  "status": 200,
+  "title": "Redmi Watch 3 Specs, Features | Xiaomi Malaysia",
+  "ok": true,
+  "bytes": 98968
+ },
+ "redmi-watch-3-active": {
+  "url": "https://www.mi.com/my/product/redmi-watch-3-active/specs/",
+  "final": "https://www.mi.com/my/product/redmi-watch-3-active/specs/",
+  "status": 200,
+  "title": "REDMI Watch 3 Active Specs, Features | Xiaomi Malaysia",
+  "ok": true,
+  "bytes": 92914
+ },
+ "xiaomi-smart-band-8": {
+  "url": "https://www.mi.com/my/product/xiaomi-smart-band-8/specs/",
+  "final": "https://www.mi.com/my/product/xiaomi-smart-band-8/specs/",
+  "status": 200,
+  "title": "Xiaomi Smart Band 8 Specs, Features | Xiaomi Malaysia",
+  "ok": true,
+  "bytes": 93096
+ },
+ "xiaomi-smart-band-8-active": {
+  "url": "https://www.mi.com/my/product/xiaomi-smart-band-8-active/specs/",
+  "final": "https://www.mi.com/my/product/xiaomi-smart-band-8-active/specs/",
+  "status": 200,
+  "title": "Xiaomi Smart Band 8 Active Specs, Features | Xiaomi Malaysia",
+  "ok": true,
+  "bytes": 103134
+ },
+ "xiaomi-smart-band-8-pro": {
+  "url": "https://www.mi.com/my/product/xiaomi-smart-band-8-pro/specs/",
+  "final": "https://www.mi.com/my/product/xiaomi-smart-band-8-pro/specs/",
+  "status": 200,
+  "title": "Xiaomi Smart Band 8 Pro Specs, Features | Xiaomi Malaysia",
+  "ok": true,
+  "bytes": 126591
+ },
+ "xiaomi-watch-2-pro": {
+  "url": "https://www.mi.com/my/product/xiaomi-watch-2-pro/specs/",
+  "final": "https://www.mi.com/my/product/xiaomi-watch-2-pro/specs/",
+  "status": 200,
+  "title": "Xiaomi Watch 2 Pro Specs, Features | Xiaomi Malaysia",
+  "ok": true,
+  "bytes": 125575
+ },
+ "redmi-watch-4": {
+  "url": "https://www.mi.com/my/product/redmi-watch-4/specs/",
+  "final": "https://www.mi.com/my/product/redmi-watch-4/specs/",
+  "status": 200,
+  "title": "REDMI Watch 4 Specs, Features | Xiaomi Malaysia",
+  "ok": true,
+  "bytes": 97760
+ },
+ "xiaomi-watch-s3": {
+  "url": "https://www.mi.com/my/product/xiaomi-watch-s3/specs/",
+  "final": "https://www.mi.com/my/product/xiaomi-watch-s3/specs/",
+  "status": 200,
+  "title": "Xiaomi Watch S3 Specs, Features | Xiaomi Malaysia",
+  "ok": true,
+  "bytes": 121181
+ },
+ "xiaomi-smart-band-9": {
+  "url": "https://www.mi.com/my/product/xiaomi-smart-band-9/specs/",
+  "final": "https://www.mi.com/my/product/xiaomi-smart-band-9/specs/",
+  "status": 200,
+  "title": "Xiaomi Smart Band 9 Specs, Features | Xiaomi Malaysia",
+  "ok": true,
+  "bytes": 109117
+ },
+ "xiaomi-smart-band-9-active": {
+  "url": "https://www.mi.com/my/product/xiaomi-smart-band-9-active/specs/",
+  "final": "https://www.mi.com/my/product/xiaomi-smart-band-9-active/specs/",
+  "status": 200,
+  "title": "Xiaomi Smart Band 9 Active Specs, Features | Xiaomi Malaysia",
+  "ok": true,
+  "bytes": 111714
+ },
+ "xiaomi-smart-band-9-pro": {
+  "url": "https://www.mi.com/my/product/xiaomi-smart-band-9-pro/specs/",
+  "final": "https://www.mi.com/my/product/xiaomi-smart-band-9-pro/specs/",
+  "status": 200,
+  "title": "Xiaomi Smart Band 9 Pro Specs | Xiaomi MY - Xiaomi Malaysia",
+  "ok": true,
+  "bytes": 117829
+ },
+ "redmi-watch-5-active": {
+  "url": "https://www.mi.com/my/product/redmi-watch-5-active/specs/",
+  "final": "https://www.mi.com/my/product/redmi-watch-5-active/specs/",
+  "status": 200,
+  "title": "REDMI Watch 5 Active Specs, Features | Xiaomi Malaysia",
+  "ok": true,
+  "bytes": 92064
+ },
+ "redmi-watch-5-lite": {
+  "url": "https://www.mi.com/my/product/redmi-watch-5-lite/specs/",
+  "final": "https://www.mi.com/my/product/redmi-watch-5-lite/specs/",
+  "status": 200,
+  "title": "REDMI Watch 5 Lite Specs, Features | Xiaomi Malaysia",
+  "ok": true,
+  "bytes": 94597
+ },
+ "redmi-watch-5": {
+  "url": "https://www.mi.com/my/product/redmi-watch-5/specs/",
+  "final": "https://www.mi.com/my/product/redmi-watch-5/specs/",
+  "status": 200,
+  "title": "REDMI Watch 5 Specs, Features | Xiaomi Malaysia",
+  "ok": true,
+  "bytes": 104802
+ },
+ "xiaomi-watch-s4": {
+  "url": "https://www.mi.com/my/product/xiaomi-watch-s4/specs/",
+  "final": "https://www.mi.com/my/product/xiaomi-watch-s4/specs/",
+  "status": 200,
+  "title": "Xiaomi Watch S4 Specs - Xiaomi Malaysia",
+  "ok": true,
+  "bytes": 112582
+ },
+ "xiaomi-smart-band-10": {
+  "url": "https://www.mi.com/my/product/xiaomi-smart-band-10/specs/",
+  "final": "https://www.mi.com/my/product/xiaomi-smart-band-10/specs/",
+  "status": 200,
+  "title": "Xiaomi Smart Band 10 Specs | Xiaomi MY - Xiaomi Malaysia",
+  "ok": true,
+  "bytes": 136748
+ },
+ "xiaomi-watch-2": {
+  "url": "https://www.mi.com/my/product/xiaomi-watch-2/specs/",
+  "final": "https://www.mi.com/my/product/xiaomi-watch-2/specs/",
+  "status": 200,
+  "title": "Xiaomi Watch 2 Specs, Features | Xiaomi Malaysia",
+  "ok": true,
+  "bytes": 120694
+ },
+ "xiaomi-smart-band-11-active": {
+  "url": "https://www.mi.com/my/product/xiaomi-smart-band-11-active/specs/",
+  "final": "https://www.mi.com/my/product/xiaomi-smart-band-11-active/specs/",
+  "status": 200,
+  "title": "Xiaomi Smart Band 11 Active Specs, Features | Xiaomi Malaysia",
+  "ok": true,
+  "bytes": 105079
+ },
+ "redmi-watch-6": {
+  "url": "https://www.mi.com/my/product/redmi-watch-6/specs/",
+  "final": "https://www.mi.com/my/product/redmi-watch-6/specs/",
+  "status": 200,
+  "title": "REDMI Watch 6 Specs",
+  "ok": true,
+  "bytes": 106110
+ },
+ "redmi-watch-6-active": {
+  "url": "https://www.mi.com/my/product/redmi-watch-6-active/specs/",
+  "final": "https://www.mi.com/my/product/redmi-watch-6-active/specs/",
+  "status": 200,
+  "title": "REDMI Watch 6 Active Specs, Features | Xiaomi Malaysia",
+  "ok": true,
+  "bytes": 86962
+ },
+ "redmi-watch-6-lite": {
+  "url": "https://www.mi.com/my/product/redmi-watch-6-lite/specs/",
+  "final": "https://www.mi.com/my/product/redmi-watch-6-lite/specs/",
+  "status": 200,
+  "title": "Redmi Watch 6 Lite | Xiaomi Malaysia | All Specs, Features",
+  "ok": true,
+  "bytes": 100605
+ },
+ "xiaomi-smart-band-10-pro": {
+  "url": "https://www.mi.com/my/product/xiaomi-smart-band-10-pro/specs/",
+  "final": "https://www.mi.com/my/product/xiaomi-smart-band-10-pro/specs/",
+  "status": 200,
+  "title": "Xiaomi Smart Band 10 Pro Specs, Features | Xiaomi Malaysia",
+  "ok": true,
+  "bytes": 107173
+ },
+ "xiaomi-watch-s4-41mm": {
+  "url": "https://www.mi.com/my/product/xiaomi-watch-s4-41mm/specs/",
+  "final": "https://www.mi.com/my/product/xiaomi-watch-s4-41mm/specs/",
+  "status": 200,
+  "title": "Xiaomi Watch S4 41mm Specs - Xiaomi Malaysia",
+  "ok": true,
+  "bytes": 111140
+ },
+ "xiaomi-watch-5": {
+  "url": "https://www.mi.com/my/product/xiaomi-watch-5/specs/",
+  "final": "https://www.mi.com/my/product/xiaomi-watch-5/specs/",
+  "status": 200,
+  "title": "Xiaomi Watch 5 Specs, Features | Xiaomi Malaysia",
+  "ok": true,
+  "bytes": 119903
+ },
+ "xiaomi-smart-band-11": {
+  "url": "https://www.mi.com/global/product/xiaomi-smart-band-11/specs/",
+  "final": "https://www.mi.com/global/errors/404",
+  "status": 200,
+  "title": "404 - Xiaomi Global",
+  "ok": false,
+  "bytes": 40417
+ }
+}

@@ -1,0 +1,146 @@
+{
+ "apple-iphone-15": {
+  "url": "https://support.apple.com/en-my/111831",
+  "final": "https://support.apple.com/en-my/111831",
+  "status": 200,
+  "title": "iPhone 15 - Tech Specs – Apple Support (MY)",
+  "ok": true,
+  "bytes": 221604
+ },
+ "apple-iphone-15-plus": {
+  "url": "https://support.apple.com/en-my/111830",
+  "final": "https://support.apple.com/en-my/111830",
+  "status": 200,
+  "title": "iPhone 15 Plus - Tech Specs – Apple Support (MY)",
+  "ok": true,
+  "bytes": 222723
+ },
+ "apple-iphone-15-pro": {
+  "url": "https://support.apple.com/en-my/111829",
+  "final": "https://support.apple.com/en-my/111829",
+  "status": 200,
+  "title": "iPhone 15 Pro - Tech Specs – Apple Support (MY)",
+  "ok": true,
+  "bytes": 227112
+ },
+ "apple-iphone-15-pro-max": {
+  "url": "https://support.apple.com/en-my/111828",
+  "final": "https://support.apple.com/en-my/111828",
+  "status": 200,
+  "title": "iPhone 15 Pro Max - Tech Specs – Apple Support (MY)",
+  "ok": true,
+  "bytes": 228001
+ },
+ "apple-iphone-16": {
+  "url": "https://support.apple.com/en-my/121029",
+  "final": "https://support.apple.com/en-my/121029",
+  "status": 200,
+  "title": "iPhone 16 - Tech Specs – Apple Support (MY)",
+  "ok": true,
+  "bytes": 211261
+ },
+ "apple-iphone-16-plus": {
+  "url": "https://support.apple.com/en-my/121030",
+  "final": "https://support.apple.com/en-my/121030",
+  "status": 200,
+  "title": "iPhone 16 Plus - Tech Specs – Apple Support (MY)",
+  "ok": true,
+  "bytes": 211334
+ },
+ "apple-iphone-16-pro": {
+  "url": "https://support.apple.com/en-my/121031",
+  "final": "https://support.apple.com/en-my/121031",
+  "status": 200,
+  "title": "iPhone 16 Pro - Tech Specs – Apple Support (MY)",
+  "ok": true,
+  "bytes": 228107
+ },
+ "apple-iphone-16e": {
+  "url": "https://support.apple.com/en-my/122208",
+  "final": "https://support.apple.com/en-my/122208",
+  "status": 200,
+  "title": "iPhone 16e - Tech Specs – Apple Support (MY)",
+  "ok": true,
+  "bytes": 206711
+ },
+ "apple-iphone-air": {
+  "url": "https://support.apple.com/en-my/125092",
+  "final": "https://support.apple.com/en-my/125092",
+  "status": 200,
+  "title": "iPhone Air - Tech Specs – Apple Support (MY)",
+  "ok": true,
+  "bytes": 214901
+ },
+ "apple-iphone-17e": {
+  "url": "https://support.apple.com/en-my/126470",
+  "final": "https://support.apple.com/en-my/126470",
+  "status": 200,
+  "title": "iPhone 17e - Tech Specs – Apple Support (MY)",
+  "ok": true,
+  "bytes": 209530
+ },
+ "apple-iphone-18-pro": {
+  "url": "https://support.apple.com/en-my/148590",
+  "final": "https://support.apple.com/en-my/148590",
+  "status": 200,
+  "title": "iPhone 18 Pro - Tech Specs – Apple Support (MY)",
+  "ok": true,
+  "bytes": 217048
+ },
+ "apple-iphone-duo": {
+  "url": "https://www.apple.com/my/iphone-duo/specs/",
+  "final": "https://www.apple.com/my/iphone-duo/specs/",
+  "status": 200,
+  "title": "iPhone Duo - Technical Specifications - Apple (MY)",
+  "ok": true,
+  "bytes": 217560
+ },
+ "apple-watch-series-9": {
+  "url": "https://support.apple.com/en-my/111833",
+  "final": "https://support.apple.com/en-my/111833",
+  "status": 200,
+  "title": "Apple Watch Series 9 - Tech Specs – Apple Support (MY)",
+  "ok": true,
+  "bytes": 191867
+ },
+ "apple-watch-ultra-2": {
+  "url": "https://support.apple.com/en-my/111832",
+  "final": "https://support.apple.com/en-my/111832",
+  "status": 200,
+  "title": "Apple Watch Ultra 2 - Tech Specs – Apple Support (MY)",
+  "ok": true,
+  "bytes": 194297
+ },
+ "apple-watch-series-10": {
+  "url": "https://support.apple.com/en-my/121202",
+  "final": "https://support.apple.com/en-my/121202",
+  "status": 200,
+  "title": "Apple Watch Series 10 - Tech Specs – Apple Support (MY)",
+  "ok": true,
+  "bytes": 195065
+ },
+ "apple-watch-se-3": {
+  "url": "https://support.apple.com/en-my/125094",
+  "final": "https://support.apple.com/en-my/125094",
+  "status": 200,
+  "title": "Apple Watch SE 3 - Tech Specs – Apple Support (MY)",
+  "ok": true,
+  "bytes": 193545
+ },
+ "apple-watch-series-12": {
+  "url": "https://support.apple.com/en-my/148589",
+  "final": "https://support.apple.com/en-my/148589",
+  "status": 200,
+  "title": "Apple Watch Series 12 - Tech Specs – Apple Support (MY)",
+  "ok": true,
+  "bytes": 201142
+ },
+ "apple-watch-ultra-4": {
+  "url": "https://support.apple.com/en-my/148758",
+  "final": "https://support.apple.com/en-my/148758",
+  "status": 200,
+  "title": "Apple Watch Ultra 4 - Tech Specs – Apple Support (MY)",
+  "ok": true,
+  "bytes": 202026
+ }
+}

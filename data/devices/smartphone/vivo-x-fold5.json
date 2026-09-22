@@ -1,0 +1,138 @@
+{
+  "id": "vivo-x-fold5",
+  "name": "vivo X Fold5",
+  "brand": "vivo",
+  "category": "smartphone",
+  "series": "X Fold",
+  "form": "foldable",
+  "status": "released",
+  "announced": "2025-07-29",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 6999,
+      "config": "16 GB / 512 GB",
+      "date": "2025-07-29",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/07/29/vivo-x-fold-5-malaysia-specs-price-features-launch/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 8.03,
+      "type": "AMOLED",
+      "resolution": "2480 × 2200",
+      "refresh_hz": 120,
+      "peak_nits": 4500,
+      "ppi": 413
+    },
+    "platform": {
+      "chipset": "snapdragon-8-gen-3",
+      "process": "4 nm",
+      "cpu": "8 cores; 1 × 3.3 GHz + 2 × 3 GHz + 4 ×3.2 GHz + 2 x 2.3 GHz"
+    },
+    "memory": {
+      "ram_gb": [
+        16
+      ],
+      "storage_gb": [
+        512
+      ],
+      "ram_type": "LPDDR5X Ultra",
+      "storage_type": "UFS4.1",
+      "card": "No"
+    },
+    "battery": {
+      "capacity_mah": 6000,
+      "chemistry": "Li-ion battery"
+    },
+    "charging": {
+      "wired_w": 80,
+      "wireless_w": 40,
+      "claim": "80W Dual-Cell FlashCharge & 40W Wireless Charging"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "aperture": "f/1.57"
+        }
+      ],
+      "rear_text": "Rear: 50 MP + 50 MP + 50 MP",
+      "front": "20 MP",
+      "rear_detail": [
+        "50 MP, f/1.57",
+        "50 MP, f/2.05",
+        "50 MP, f/2.55"
+      ],
+      "front_detail": [
+        "20 MP, f/2.4"
+      ]
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true,
+      "bands_2g": "850/900/1800/1900 MHz",
+      "bands_3g": "B1/B2/B4/B5/B6/B8/B19",
+      "bands_4g": "4G FDD-LTE: B1/B2/B3/B4/B5/B7/B8/B12/B17/B18/B19/B20/B25/B26/B28/B66",
+      "bands_5g": "5G: n1/n2/n3/n5/n7/n8/n12/n18/n20/n25/n26/n28/n38/n40/n41/n48/n66/n77/n78",
+      "technology": "GSM / HSPA / LTE / 5G",
+      "sim": "2 nano SIMs",
+      "bluetooth": "Bluetooth 5.4",
+      "usb": "USB 3.2 Gen1",
+      "radio": "No",
+      "positioning": "GPS, BeiDou, GLONASS, Galileo, QZSS, NavIC, A-GPS, Cellular network positioning, Wi-Fi positioning"
+    },
+    "build": {
+      "weight_g": 217.0,
+      "back": "Glass fiber (Gray), glass (White)",
+      "ip": "IPX8"
+    },
+    "software": {
+      "launch_os": "Funtouch OS 15"
+    },
+    "misc": {
+      "colors": "Gray, White"
+    },
+    "biometrics": {
+      "fingerprint": "Side-mounted capacitive fingerprint sensor; Display 3,4"
+    },
+    "sensors": "Accelerometer, Color Temperature Sensor, Front color temperature sensor, rear color temperature sensor, Ambient Light Sensor, Proximity Sensor, E-compass, Gyroscope, Motor, Linear motor"
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "vivo",
+      "url": "https://www.vivo.com/my/products/param/x-fold5",
+      "checked": "2026-09-18",
+      "note": "Read from vivo Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2025/07/29/vivo-x-fold-5-malaysia-specs-price-features-launch/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1753772315251/edf7da0cf2f9da68eb2d036a3f850bd1.png",
+    "page": "https://www.vivo.com/my/products/param/x-fold5",
+    "credit": "vivo Malaysia",
+    "checked": "2026-09-19"
+  }
+}

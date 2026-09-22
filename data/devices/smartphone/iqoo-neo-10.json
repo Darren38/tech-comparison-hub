@@ -1,0 +1,150 @@
+{
+  "id": "iqoo-neo-10",
+  "name": "iQOO Neo 10",
+  "brand": "iqoo",
+  "category": "smartphone",
+  "series": "iQOO",
+  "form": "bar",
+  "status": "released",
+  "announced": "2025-06-07",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1999,
+      "config": "12 GB / 256 GB",
+      "date": "2025-06-07",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/06/07/iqoo-neo-10-launch-malaysia-specs-price-promo/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 2199,
+      "config": "16 GB / 512 GB",
+      "date": "2025-06-07",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/06/07/iqoo-neo-10-launch-malaysia-specs-price-promo/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 6.78,
+      "type": "AMOLED",
+      "resolution": "2800 × 1260",
+      "refresh_hz": 144,
+      "ppi": 453
+    },
+    "platform": {
+      "chipset": "snapdragon-8s-gen-4",
+      "process": "4nm",
+      "cpu": "8 cores; 3.21GHz*1+3.01GHz*3+2.8GHz*2+2.01GHz*2"
+    },
+    "memory": {
+      "ram_gb": [
+        12,
+        16
+      ],
+      "storage_gb": [
+        256,
+        512
+      ],
+      "ram_type": "LPDDR5X Ultra",
+      "storage_type": "UFS4.1",
+      "card": "No"
+    },
+    "battery": {
+      "capacity_mah": 7000,
+      "chemistry": "Li-ion battery"
+    },
+    "charging": {
+      "wired_w": 120,
+      "claim": "120W"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "aperture": "f/1.79"
+        }
+      ],
+      "rear_text": "Rear: 50 MP + 8 MP",
+      "front": "32 MP",
+      "rear_detail": [
+        "50 MP, f/1.79",
+        "8 MP, f/2.2"
+      ],
+      "front_detail": [
+        "32 MP, f/2.45"
+      ]
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true,
+      "bands_2g": "850/900/1800MHz",
+      "bands_3g": "B1/B5/B8/B6/B19",
+      "bands_4g": "4G FDD-LTE: B1/B3/B5/B7/B8/B18/B19/B20/B26/B28",
+      "bands_5g": "5G: n1/n3/n5/n7/n8/n18/n20/n26/n28A/n28B/n38/n40/n41/n48/n77/n78",
+      "technology": "GSM / HSPA / LTE / 5G",
+      "sim": "2 nano SIMs",
+      "bluetooth": "Bluetooth 5.4",
+      "usb": "USB 2.0",
+      "positioning": "L1; L5",
+      "radio": "No",
+      "wifi": "Wi-Fi; Wi-Fi Display; 2*2 MIMO; MU-MIMO; Wi-Fi 6; Wi-Fi 7"
+    },
+    "build": {
+      "weight_g": 206.0,
+      "ip": "IP65",
+      "back": "Composite plastic sheet"
+    },
+    "software": {
+      "launch_os": "Funtouch OS 15"
+    },
+    "misc": {
+      "colors": "Desert Gold, Astral Black"
+    },
+    "biometrics": {
+      "fingerprint": "In-display optical fingerprint sensor"
+    },
+    "sensors": "Accelerometer, Ambient Light Sensor, Proximity Sensor, E-compass, Gyroscope, Color Temperature Sensor, Front color temperature sensor, Motor, Linear"
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "iqoo",
+      "url": "https://www.iqoo.com/my/products/param/neo-10",
+      "checked": "2026-09-18",
+      "note": "Read from iQOO Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2025/06/07/iqoo-neo-10-launch-malaysia-specs-price-promo/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1748609550014/2b8d1c4f35df5ccc0641b7d0f81d434a.png",
+    "page": "https://www.iqoo.com/my/products/param/neo-10",
+    "credit": "vivo Malaysia",
+    "checked": "2026-09-19"
+  }
+}

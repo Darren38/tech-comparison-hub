@@ -1,0 +1,206 @@
+{
+ "huawei-p60-pro": {
+  "ok": true,
+  "original": "https://consumer.huawei.com/my/phones/p60-pro/specs/",
+  "timestamp": "20260616181932",
+  "capture": "https://web.archive.org/web/20260616181932/https://consumer.huawei.com/my/phones/p60-pro/specs/",
+  "bytes": 206045
+ },
+ "huawei-mate-x3": {
+  "ok": true,
+  "original": "https://consumer.huawei.com/my/phones/mate-x3/specs/",
+  "timestamp": "20250428095933",
+  "capture": "https://web.archive.org/web/20250428095933/https://consumer.huawei.com/my/phones/mate-x3/specs/",
+  "bytes": 179695
+ },
+ "huawei-nova-11": {
+  "ok": true,
+  "original": "https://consumer.huawei.com/my/phones/nova11/specs/",
+  "timestamp": "20250214080523",
+  "capture": "https://web.archive.org/web/20250214080523/https://consumer.huawei.com/my/phones/nova11/specs/",
+  "bytes": 172591
+ },
+ "huawei-nova-11-pro": {
+  "ok": true,
+  "original": "https://consumer.huawei.com/my/phones/nova11-pro/specs/",
+  "timestamp": "20241208181122",
+  "capture": "https://web.archive.org/web/20241208181122/https://consumer.huawei.com/my/phones/nova11-pro/specs/",
+  "bytes": 173100
+ },
+ "huawei-nova-11i": {
+  "ok": true,
+  "original": "https://consumer.huawei.com/en/phones/nova-11i/specs/",
+  "timestamp": "20250327141956",
+  "capture": "https://web.archive.org/web/20250327141956/https://consumer.huawei.com/en/phones/nova-11i/specs/",
+  "bytes": 112603
+ },
+ "huawei-nova-y72": {
+  "ok": true,
+  "original": "https://consumer.huawei.com/my/phones/nova-y72/specs/",
+  "timestamp": "20250920151824",
+  "capture": "https://web.archive.org/web/20250920151824/https://consumer.huawei.com/my/phones/nova-y72/specs/",
+  "bytes": 193561
+ },
+ "huawei-nova-12i": {
+  "ok": true,
+  "original": "https://consumer.huawei.com/my/phones/nova-12i/specs/",
+  "timestamp": "20251016131852",
+  "capture": "https://web.archive.org/web/20251016131852/https://consumer.huawei.com/my/phones/nova-12i/specs/",
+  "bytes": 197960
+ },
+ "huawei-nova-12s": {
+  "ok": true,
+  "original": "https://consumer.huawei.com/my/phones/nova-12s/specs/",
+  "timestamp": "20250920151846",
+  "capture": "https://web.archive.org/web/20250920151846/https://consumer.huawei.com/my/phones/nova-12s/specs/",
+  "bytes": 198357
+ },
+ "huawei-nova-12-se": {
+  "ok": true,
+  "original": "https://consumer.huawei.com/my/phones/nova12-se/specs/",
+  "timestamp": "20250920151903",
+  "capture": "https://web.archive.org/web/20250920151903/https://consumer.huawei.com/my/phones/nova12-se/specs/",
+  "bytes": 197431
+ },
+ "huawei-pura-70": {
+  "ok": true,
+  "original": "https://consumer.huawei.com/my/phones/pura70/specs/",
+  "timestamp": "20250920151938",
+  "capture": "https://web.archive.org/web/20250920151938/https://consumer.huawei.com/my/phones/pura70/specs/",
+  "bytes": 203406
+ },
+ "huawei-pura-70-pro": {
+  "ok": true,
+  "original": "https://consumer.huawei.com/my/phones/pura70-pro/specs/",
+  "timestamp": "20250920151814",
+  "capture": "https://web.archive.org/web/20250920151814/https://consumer.huawei.com/my/phones/pura70-pro/specs/",
+  "bytes": 208160
+ },
+ "huawei-pura-70-ultra": {
+  "ok": true,
+  "original": "https://consumer.huawei.com/my/phones/pura70-ultra/specs/",
+  "timestamp": "20251015150211",
+  "capture": "https://web.archive.org/web/20251015150211/https://consumer.huawei.com/my/phones/pura70-ultra/specs/",
+  "bytes": 204598
+ },
+ "huawei-nova-14i": {
+  "ok": true,
+  "original": "https://consumer.huawei.com/en/phones/nova-14i/specs/",
+  "timestamp": "20251209014132",
+  "capture": "https://web.archive.org/web/20251209014132/https://consumer.huawei.com/en/phones/nova-14i/specs/",
+  "bytes": 135814
+ },
+ "huawei-watch-gt-cyber": {
+  "ok": true,
+  "original": "https://consumer.huawei.com/en/wearables/watch-gt-cyber/specs/",
+  "timestamp": "20240424212336",
+  "capture": "https://web.archive.org/web/20240424212336/https://consumer.huawei.com/en/wearables/watch-gt-cyber/specs/",
+  "bytes": 124853
+ },
+ "huawei-band-9": {
+  "ok": true,
+  "original": "https://consumer.huawei.com/my/wearables/band9/specs/",
+  "timestamp": "20260512005839",
+  "capture": "https://web.archive.org/web/20260512005839/https://consumer.huawei.com/my/wearables/band9/specs/",
+  "bytes": 198491
+ },
+ "oppo-reno11-f-5g": {
+  "ok": false,
+  "tried": [
+   "https://www.oppo.com/my/smartphones/series-reno/reno11-f-5g/specs/"
+  ]
+ },
+ "oppo-a7-pro-max": {
+  "ok": false,
+  "tried": [
+   "https://www.oppo.com/my/smartphones/series-a/a7-pro-max/specs/"
+  ]
+ },
+ "vivo-y29": {
+  "ok": false,
+  "tried": [
+   "https://www.vivo.com/my/products/param/y29"
+  ]
+ },
+ "vivo-watch-gt": {
+  "ok": false,
+  "tried": [
+   "https://www.vivo.com/my/products/param/watch-gt"
+  ]
+ },
+ "iqoo-z9": {
+  "ok": false,
+  "tried": [
+   "https://www.iqoo.com/my/products/param/z9"
+  ]
+ },
+ "iqoo-z9x": {
+  "ok": false,
+  "tried": [
+   "https://www.iqoo.com/my/products/param/z9x"
+  ]
+ },
+ "redmi-note-12": {
+  "ok": true,
+  "original": "https://www.mi.com/my/product/redmi-note-12/specs/",
+  "timestamp": "20260614010730",
+  "capture": "https://web.archive.org/web/20260614010730/https://www.mi.com/my/product/redmi-note-12/specs/",
+  "bytes": 108285
+ },
+ "redmi-note-12-5g": {
+  "ok": true,
+  "original": "https://www.mi.com/my/product/redmi-note-12-5g/specs",
+  "timestamp": "20250525020618",
+  "capture": "https://web.archive.org/web/20250525020618/https://www.mi.com/my/product/redmi-note-12-5g/specs",
+  "bytes": 87674
+ },
+ "xiaomi-13t": {
+  "ok": false,
+  "tried": [
+   "https://www.mi.com/my/product/xiaomi-13t/specs/",
+   "https://www.mi.com/global/product/xiaomi-13t/specs/"
+  ]
+ },
+ "xiaomi-13t-pro": {
+  "ok": false,
+  "tried": [
+   "https://www.mi.com/my/product/xiaomi-13t-pro/specs/",
+   "https://www.mi.com/global/product/xiaomi-13t-pro/specs/"
+  ]
+ },
+ "poco-x6-5g": {
+  "ok": false,
+  "tried": [
+   "https://www.mi.com/my/product/poco-x6-5g/specs/",
+   "https://www.mi.com/global/product/poco-x6-5g/specs/"
+  ]
+ },
+ "poco-x6-pro-5g": {
+  "ok": false,
+  "tried": [
+   "https://www.mi.com/my/product/poco-x6-pro-5g/specs/",
+   "https://www.mi.com/global/product/poco-x6-pro-5g/specs/"
+  ]
+ },
+ "redmi-14c": {
+  "ok": false,
+  "tried": [
+   "https://www.mi.com/my/product/redmi-14c/specs/",
+   "https://www.mi.com/global/product/redmi-14c/specs/"
+  ]
+ },
+ "poco-m8": {
+  "ok": false,
+  "tried": [
+   "https://www.mi.com/my/product/poco-m8/specs/",
+   "https://www.mi.com/global/product/poco-m8/specs/"
+  ]
+ },
+ "poco-m8-pro": {
+  "ok": false,
+  "tried": [
+   "https://www.mi.com/my/product/poco-m8-pro/specs/",
+   "https://www.mi.com/global/product/poco-m8-pro/specs/"
+  ]
+ }
+}

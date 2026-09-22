@@ -1,0 +1,90 @@
+{
+  "id": "oppo-a7-pro-max",
+  "name": "OPPO A7 Pro Max",
+  "brand": "oppo",
+  "category": "smartphone",
+  "series": "A",
+  "form": "bar",
+  "status": "pre-order",
+  "announced": "2026-09-14",
+  "specs": {
+    "display": {
+      "size_in": 6.78,
+      "type": "AMOLED",
+      "resolution": "2772 × 1272",
+      "refresh_hz": 120,
+      "peak_nits": 1800,
+      "ppi": 450
+    },
+    "platform": {
+      "chipset": "snapdragon-4-gen-5"
+    },
+    "memory": {
+      "ram_gb": [
+        12
+      ],
+      "storage_gb": [
+        512
+      ]
+    },
+    "battery": {
+      "capacity_mah": 10000
+    },
+    "charging": {
+      "wired_w": 80
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50
+        },
+        {
+          "role": "depth",
+          "mp": 2
+        }
+      ],
+      "front": "50 MP"
+    },
+    "build": {
+      "ip": "IP69K"
+    },
+    "connectivity": {
+      "cellular": "5G"
+    },
+    "software": {
+      "launch_os": "ColorOS 16 (Android 16 base)"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "news",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2026/09/14/oppo-a7-pro-a7-pro-max-5g-malaysia-launch-specs-promo/",
+      "note": "The maker no longer publishes a specification page for this model. Key specs were taken from this Malaysian launch report, which gives the maker's figures.",
+      "checked": "2026-09-18"
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2026/09/14/oppo-a7-pro-a7-pro-max-5g-malaysia-launch-specs-promo/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-a7-pro-serice-en/list-page/a7-pro-max/480-600-blue.png",
+    "page": "https://www.oppo.com/my/smartphones/series-a/a7-pro-max-5g/",
+    "credit": "OPPO Malaysia",
+    "checked": "2026-09-19"
+  }
+}

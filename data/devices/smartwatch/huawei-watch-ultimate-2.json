@@ -1,0 +1,90 @@
+{
+  "id": "huawei-watch-ultimate-2",
+  "name": "Huawei Watch Ultimate 2",
+  "brand": "huawei",
+  "category": "smartwatch",
+  "series": "Watch",
+  "form": "watch",
+  "status": "released",
+  "announced": "2025-12-05",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 3999,
+      "date": "2025-12-05",
+      "type": "launch",
+      "source": "nasilemaktech",
+      "url": "https://nasilemaktech.com/huawei-watch-5-watch-ultimate-2-maxis-esim-support/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/wearables/watch-ultimate-2/specs-black.png",
+    "page": "https://consumer.huawei.com/my/wearables/watch-ultimate-2/specs/",
+    "credit": "Huawei Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 1.5,
+      "type": "AMOLED",
+      "resolution": "466 × 466",
+      "peak_nits": 3500
+    },
+    "battery": {
+      "life_h": 264
+    },
+    "connectivity": {
+      "gps": "Built-in GNSS",
+      "nfc": true,
+      "cellular": "LTE option",
+      "usb": "Wireless charging; System Requirements; Android 9.0 or later/iOS 13.0 or later; Waterproof Level; Waterproof: 20 ATM + IP68 + IP69, Diving (maximum depth 150 meters); Dust-tight: IP6X",
+      "positioning": "L1: GPS + GLONASS + GALILEO + BeiDou + QZSS; L5: GPS + GALILEO + BeiDou + QZSS",
+      "wifi": "2.4 GHz + 5 GHz; IEEE 802.11a/b/g/n/ac/ax, 1 × 1; Nearlink",
+      "bluetooth": "Bluetooth"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 48.5,
+        "width_mm": 48.5,
+        "depth_mm": 12.9
+      },
+      "weight_g": 80.5,
+      "water": "20 ATM",
+      "water_m": 200,
+      "ip": "IP69"
+    },
+    "sensors": "Accelerometer sensor, Gyroscope sensor, Magnetometer sensor, Optical heart rate sensor, Barometer sensor, Ambient light sensor, Temperature sensor, ECG sensor, Depth sensor, X-TAP sensor, Button, Upper left button, upper right button (rotating crown), and bottom right button",
+    "audio": {
+      "speakers": "Microphone"
+    },
+    "charging": {
+      "claim": "Charger voltage and current requirements; 5V-10V DC/2A MAX"
+    },
+    "misc": {
+      "colors": "Black, Blue, Green"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "huawei",
+      "url": "https://consumer.huawei.com/my/wearables/watch-ultimate-2/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from Huawei Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "nasilemaktech",
+        "url": "https://nasilemaktech.com/huawei-watch-5-watch-ultimate-2-maxis-esim-support/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (Nasi Lemak Tech). The global announcement can be earlier."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

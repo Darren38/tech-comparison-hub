@@ -1,0 +1,126 @@
+{
+  "id": "iqoo-11",
+  "name": "iQOO 11",
+  "brand": "iqoo",
+  "category": "smartphone",
+  "series": "iQOO",
+  "form": "bar",
+  "status": "released",
+  "announced": "2023-03-24",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 3499,
+      "date": "2023-03-24",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2023/03/24/snapdragon-8-gen-2-powered-iqoo-11-sale-rm3399-tomorrow-shopee-xrs/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 6.78,
+      "type": "AMOLED",
+      "resolution": "3200 × 1440",
+      "refresh_hz": 144,
+      "ppi": 518
+    },
+    "platform": {
+      "chipset": "snapdragon-8-gen-2"
+    },
+    "memory": {
+      "ram_gb": [
+        16
+      ],
+      "storage_gb": [
+        256
+      ]
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "charging": {
+      "wired_w": 120,
+      "claim": "120W; Vegan leather"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "aperture": "f/1.88"
+        }
+      ],
+      "rear_text": "Rear: 50MP + 13MP + 8MP",
+      "front": "16 MP",
+      "rear_detail": [
+        "50MP, f/1.88",
+        "13MP, f/2.46",
+        "8MP, f/2.2"
+      ],
+      "front_detail": [
+        "16MP, f/2.45"
+      ]
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true,
+      "bands_2g": "850/900/1800/1900MHz",
+      "bands_3g": "B1/B2/B4/B5/B6/B8/B19",
+      "bands_4g": "4G FDD-LTE: B1/B2/B3/B4/B5/B7/B8/B12/B17/B18/B19/B20/B26/B28; 4G TDD-LTE: B34/B38/B39/B40/B41",
+      "bands_5g": "5G: n1/n3/n5/n8/n28/n40/n41/n77/n78 （*n5/n8 only support SA）",
+      "technology": "GSM / HSPA / LTE / 5G",
+      "sim": "Dual nano SIMs",
+      "bluetooth": "Bluetooth 5.3",
+      "usb": "Type-C",
+      "positioning": "GPS, BEIDOU, GLONASS, GALILEO,QZSS",
+      "wifi": "Wi-Fi; Wi-Fi 6, Wi-Fi 5, 2.4G/5G, Wi-Fi Display, 2×2 MIMO, MU MIMO"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 164.86,
+        "width_mm": 77.07,
+        "depth_mm": 8.72
+      },
+      "weight_g": 205.0
+    },
+    "software": {
+      "launch_os": "Funtouch OS 13（Based on Android 13）"
+    },
+    "sensors": "Accelerometer, Ambient Light Sensor, Proximity Sensor, E-compass, Fingerprint Sensor, Gyroscope"
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "iqoo",
+      "url": "https://www.iqoo.com/my/products/param/iqoo-11",
+      "checked": "2026-09-18",
+      "note": "Read from iQOO Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2023/03/24/snapdragon-8-gen-2-powered-iqoo-11-sale-rm3399-tomorrow-shopee-xrs/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1678951817480/92c51c585a7427f3ecd91a440b5a87d2.png",
+    "page": "https://www.iqoo.com/my/products/param/iqoo-11",
+    "credit": "vivo Malaysia",
+    "checked": "2026-09-19"
+  }
+}

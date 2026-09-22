@@ -1,0 +1,143 @@
+{
+  "id": "honor-magic5-pro",
+  "name": "HONOR Magic5 Pro",
+  "brand": "honor",
+  "category": "smartphone",
+  "series": "Magic",
+  "form": "bar",
+  "status": "released",
+  "announced": "2023-04-06",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 4299,
+      "date": "2023-04-06",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2023/298080/honor-magic5pro-magic5-price-malaysia-specs/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://www.honor.com/content/dam/honor/common/products/honor-magic5-pro/share/fb.jpg",
+    "page": "https://www.honor.com/my/phones/honor-magic5-pro/spec/",
+    "credit": "HONOR Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.81,
+      "type": "OLED",
+      "resolution": "2848 × 1312",
+      "ppi": 460
+    },
+    "platform": {
+      "chipset": "snapdragon-8-gen-2",
+      "gpu": "Adreno 740; Enhanced Chipset; HONOR C1 RF Enhanced Chipset; Discrete Security Chipset; Discrete Display Chipset",
+      "cpu": "Octa-core; 1×Cortex-X3 3.19GHz+2×Cortex-A715 2.8GHz+2×Cortex-A710 2.8GHz+3×Cortex-A510 2.0GHz"
+    },
+    "memory": {
+      "ram_gb": [
+        12
+      ],
+      "storage_gb": [
+        512
+      ]
+    },
+    "battery": {
+      "capacity_mah": 5100,
+      "chemistry": "Lithium polymer"
+    },
+    "charging": {
+      "wired_w": 66,
+      "wireless_w": 50,
+      "claim": "HONOR 66W SuperCharge; The phone supports up to 11V/6A SuperCharge, compatible with 10V/4A, 10V/2.25A, 10V/2A."
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "aperture": "f/1.6",
+          "ois": true
+        },
+        {
+          "role": "ultrawide",
+          "mp": 50
+        },
+        {
+          "role": "periscope",
+          "mp": 50
+        }
+      ],
+      "front": "12 MP",
+      "rear_detail": [
+        "50MP Wide Camera (f/1.6, OIS)",
+        "50MP Ultra Wide Camera (f/2.0)",
+        "50MP Periscope Telephoto Camera (f/3.0, 3.5x Optical Zoom, 100x Digital Zoom, OIS)"
+      ],
+      "features": "3.5x Optical Zoom, 100x Digital Zoom",
+      "video": "4K",
+      "front_detail": [
+        "12MP Front Camera"
+      ],
+      "zoom_optical_x": 3.5
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true,
+      "technology": "GSM / HSPA / LTE / 5G",
+      "sim": "Nano SIM card",
+      "wifi": "802.11 a/b/g/n/ac/ax, 2x2 MIMO",
+      "positioning": "Support GPS/AGPS/GLONASS/BeiDou/Galileo; Network-Based Positioning; Wi-Fi-Based Positioning",
+      "usb": "Type-C",
+      "bluetooth": "Bluetooth"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 162.9,
+        "width_mm": 76.7,
+        "depth_mm": 8.77
+      },
+      "weight_g": 219.0,
+      "ip": "IP68"
+    },
+    "software": {
+      "launch_os": "MagicOS 7.1 (Based on Android 13)"
+    },
+    "biometrics": {
+      "face": "Supported 3D face unlock"
+    },
+    "sensors": "Gravity Sensor, Infrared Sensor, Fingerprint Sensor, Gyroscope, Compass",
+    "audio": {
+      "jack": false
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "honor",
+      "url": "https://www.honor.com/my/phones/honor-magic5-pro/spec/",
+      "checked": "2026-09-18",
+      "note": "Read from HONOR Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "lowyat",
+        "url": "https://www.lowyat.net/2023/298080/honor-magic5pro-magic5-price-malaysia-specs/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (Lowyat.NET). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

@@ -1,0 +1,137 @@
+{
+  "id": "honor-magic-v5",
+  "name": "HONOR Magic V5",
+  "brand": "honor",
+  "category": "smartphone",
+  "series": "Magic V",
+  "form": "foldable",
+  "status": "released",
+  "announced": "2025-07-07",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 6999,
+      "config": "16 GB / 512 GB",
+      "date": "2025-07-07",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/07/07/honor-magic-v5-malaysia-launch-date-15-july/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://www.honor.com/content/dam/honor/common/product-list/product-series/honor-magic-v5/honor-magic-v5-id-gold.png",
+    "page": "https://www.honor.com/my/phones/honor-magic-v5/spec/",
+    "credit": "HONOR Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 7.95,
+      "type": "OLED",
+      "resolution": "2352 × 2172",
+      "peak_nits": 5000,
+      "protection": "NanoCrystal Shield",
+      "ppi": 403
+    },
+    "platform": {
+      "chipset": "snapdragon-8-elite",
+      "gpu": "Adreno 830",
+      "cpu": "Octa-core; 2×Prime 4.32GHz+6×Performance 3.53GHz"
+    },
+    "battery": {
+      "capacity_mah": 5820,
+      "chemistry": "Lithium Polymer"
+    },
+    "charging": {
+      "wired_w": 66,
+      "wireless_w": 50,
+      "claim": "66W HONOR SuperCharge; The phone supports up to 20V/3.3A SuperCharge, compatible with 11V/3.2A or 5V/2A."
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "ultrawide",
+          "mp": 50
+        },
+        {
+          "role": "main",
+          "mp": 50,
+          "aperture": "f/1.6",
+          "ois": true
+        },
+        {
+          "role": "periscope",
+          "mp": 64
+        }
+      ],
+      "front": "20 MP",
+      "rear_detail": [
+        "50MP Ultra Wide Camera (f/2.0)",
+        "50MP Wide Camera (f/1.6, OIS)",
+        "64MP Periscope Telephoto Camera (f/2.5, OIS)"
+      ],
+      "features": "Supports 3x optical zoom, 100x Digital zoom",
+      "video": "4K",
+      "front_detail": [
+        "20MP Wide Camera (f/2.2) (Interior Screen)",
+        "20MP Wide Camera (f/2.2) (Exterior Screen)"
+      ],
+      "zoom_optical_x": 3
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true,
+      "technology": "GSM / HSPA / LTE / 5G",
+      "sim": "SIM1+SIM2 / SIM1+eSIM / eSIM1+eSIM2",
+      "wifi": "802.11 a/b/g/n/ac/ax/be, 2x2 MIMO; WLAN Frequency: 2.4GHz/5GHz/6GHz; Support WLAN Hotspot and WLAN Direct",
+      "bluetooth": "Bluetooth 6.0, Support Low Energy Bluetooth (BLE), LE Audio; Support SBC, AAC, LDAC, aptX, aptX HD, aptX Adaptive, LC3; Support ASHA Hearing Aid Protocol",
+      "usb": "USB Type-C, USB 3.2 GEN1, DP1.2",
+      "positioning": "Support GPS(L1+L5) / AGPS / GLONASS / BeiDou(B1I+B1C+B2a+B2b) / Galileo(E1+E5a+E5b) / QZSS (L1 + L5); Support Cellular Network Positioning / Wi-Fi Network Positioning"
+    },
+    "build": {
+      "weight_g": 217.0,
+      "ip": "IP59"
+    },
+    "software": {
+      "launch_os": "MagicOS 9.0.1 (Base on Android 15)"
+    },
+    "biometrics": {
+      "face": "Supported 2D Face Unlock"
+    },
+    "audio": {
+      "jack": false
+    },
+    "sensors": "Gravity Sensor, Infrared Sensor, Hall Sensor, Fingerprint Sensor, Gyroscope, Compass, Barometric Pressure Sensor, Acceleration Sensor, Ambient Light Sensor, Proximity Sensor",
+    "misc": {
+      "colors": "Ivory White Version"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "honor",
+      "url": "https://www.honor.com/my/phones/honor-magic-v5/spec/",
+      "checked": "2026-09-18",
+      "note": "Read from HONOR Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2025/07/07/honor-magic-v5-malaysia-launch-date-15-july/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

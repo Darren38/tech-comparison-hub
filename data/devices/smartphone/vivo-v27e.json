@@ -1,0 +1,136 @@
+{
+  "id": "vivo-v27e",
+  "name": "vivo V27e",
+  "brand": "vivo",
+  "category": "smartphone",
+  "series": "V",
+  "form": "bar",
+  "status": "released",
+  "announced": "2023-03-01",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1299,
+      "date": "2023-03-01",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2023/295298/vivo-v27e-official-malaysia-rm1299/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 6.62,
+      "type": "AMOLED",
+      "resolution": "2400 × 1080",
+      "refresh_hz": 120,
+      "ppi": 398
+    },
+    "platform": {
+      "chipset": "helio-g99"
+    },
+    "memory": {
+      "ram_gb": [
+        8
+      ],
+      "storage_gb": [
+        256
+      ]
+    },
+    "battery": {
+      "capacity_mah": 4600
+    },
+    "charging": {
+      "wired_w": 66,
+      "claim": "66W"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 64
+        },
+        {
+          "role": "depth",
+          "mp": 2
+        },
+        {
+          "role": "macro",
+          "mp": 2
+        }
+      ],
+      "rear_text": "Rear: 64 MP OIS + 2 MP bokeh + 2 MP macro",
+      "front": "32 MP",
+      "rear_detail": [
+        "Night, Portrait, Photo, Video, Micro Movie, 64 MP, Panorama, Documents, Slo-mo, Time-lapse, Pro, Double Exposure, Dual View, Live Photo"
+      ],
+      "front_detail": [
+        "32 MP"
+      ]
+    },
+    "connectivity": {
+      "cellular": "4G",
+      "nfc": true,
+      "bands_2g": "850/900/1800/1900 MHz",
+      "bands_3g": "B1/B5/B8",
+      "bands_4g": "4G TDD-LTE: B38/B40/B41; 4G FDD-LTE: B1/B3/B5/B7/B8/B20/B28",
+      "technology": "GSM / HSPA / LTE",
+      "sim": "1 nano SIM + 1 nano SIM / 1 micro SD",
+      "wifi": "2.4G, 5G",
+      "bluetooth": "Bluetooth 5.2",
+      "usb": "Type-C",
+      "positioning": "GPS, BEIDOU, GALILEO, GLONASS, QZSS"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 162.51,
+        "width_mm": 75.81,
+        "depth_mm": 7.7
+      },
+      "weight_g": 185.0
+    },
+    "software": {
+      "launch_os": "Funtouch OS 13 Global"
+    },
+    "misc": {
+      "colors": "Glory Black﻿, Lavender Purple, Body"
+    },
+    "sensors": "Fingerprint, In-display fingerprint sensor, Accelerometer, Ambient Light Sensor, Proximity Sensor, E-compass, Gyroscope",
+    "biometrics": {
+      "fingerprint": "In-display fingerprint sensor"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "vivo",
+      "url": "https://www.vivo.com/my/products/param/v27e",
+      "checked": "2026-09-18",
+      "note": "Read from vivo Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "lowyat",
+        "url": "https://www.lowyat.net/2023/295298/vivo-v27e-official-malaysia-rm1299/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (Lowyat.NET). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1677483682380/8598b04568d9a1d39f48ebc2887ae874.png",
+    "page": "https://www.vivo.com/my/products/param/v27e",
+    "credit": "vivo Malaysia",
+    "checked": "2026-09-19"
+  }
+}

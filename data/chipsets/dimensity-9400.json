@@ -1,0 +1,53 @@
+{
+  "id": "dimensity-9400",
+  "name": "Dimensity 9400",
+  "vendor": "mediatek",
+  "family": "Dimensity 9000",
+  "tier": "flagship",
+  "announced": "2024-10-09",
+  "aliases": [
+    "D9400",
+    "MT6991"
+  ],
+  "summary": "Late-2024 flagship with an all-big-core layout. High peak GPU score but weak stability in 3DMark stress tests.",
+  "process": {
+    "node": "3 nm",
+    "foundry": "TSMC",
+    "name": "N3E"
+  },
+  "cpu": {
+    "cores": 8,
+    "clusters": [
+      {
+        "count": 1,
+        "core": "Cortex-X925",
+        "ghz": 3.62
+      },
+      {
+        "count": 3,
+        "core": "Cortex-X4",
+        "ghz": 3.3
+      },
+      {
+        "count": 4,
+        "core": "Cortex-A720",
+        "ghz": 2.4
+      }
+    ]
+  },
+  "gpu": {
+    "name": "Immortalis-G925 MC12"
+  },
+  "npu": "MediaTek NPU 890",
+  "memory": "LPDDR5X",
+  "storage": "UFS 4.0",
+  "variants": [],
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "mediatek",
+      "url": "https://www.mediatek.com/products/smartphones/mediatek-dimensity-9400"
+    },
+    "fields": {}
+  }
+}

@@ -1,0 +1,1014 @@
+{
+ "huawei-mate-x6": {
+  "display": {
+   "size_in": 7.93,
+   "type": "OLED",
+   "resolution": "2440 × 2240"
+  },
+  "platform": {
+   "chipset_name": "Kirin 9020"
+  },
+  "memory": {
+   "ram_gb": [
+    12
+   ],
+   "storage_gb": [
+    512
+   ]
+  },
+  "battery": {
+   "capacity_mah": 5110
+  },
+  "charging": {
+   "wired_w": 66,
+   "wireless_w": 50
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    },
+    {
+     "role": "ultrawide",
+     "mp": 40
+    },
+    {
+     "role": "telephoto",
+     "mp": 48
+    }
+   ],
+   "front": "8 MP"
+  },
+  "connectivity": {
+   "cellular": "4G",
+   "nfc": true
+  },
+  "build": {
+   "weight_g": 239.0
+  },
+  "software": {
+   "launch_os": "EMUI 15.0"
+  }
+ },
+ "huawei-mate-xt-ultimate-design": {
+  "display": {
+   "size_in": 6.4,
+   "type": "OLED",
+   "resolution": "2232 × 1008"
+  },
+  "platform": {
+   "chipset_name": "Kirin 9010"
+  },
+  "memory": {
+   "ram_gb": [
+    16
+   ],
+   "storage_gb": [
+    1024
+   ]
+  },
+  "battery": {
+   "capacity_mah": 5600
+  },
+  "charging": {
+   "wired_w": 66,
+   "wireless_w": 50
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    },
+    {
+     "role": "ultrawide",
+     "mp": 12
+    },
+    {
+     "role": "periscope",
+     "mp": 12
+    }
+   ],
+   "front": "8 MP"
+  },
+  "connectivity": {
+   "cellular": "4G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 156.7,
+    "width_mm": 73.5,
+    "depth_mm": 12.8
+   },
+   "weight_g": 298.0
+  },
+  "software": {
+   "launch_os": "EMUI 14.2"
+  }
+ },
+ "huawei-pura-80": {
+  "display": {
+   "size_in": 6.6,
+   "type": "LTPO OLED",
+   "resolution": "2760 × 1256"
+  },
+  "platform": {
+   "chipset_name": "Kirin 9010S"
+  },
+  "memory": {
+   "ram_gb": [
+    12
+   ],
+   "storage_gb": [
+    256
+   ]
+  },
+  "battery": {
+   "capacity_mah": 5170
+  },
+  "charging": {
+   "wired_w": 66,
+   "wireless_w": 50
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    },
+    {
+     "role": "ultrawide",
+     "mp": 13
+    },
+    {
+     "role": "periscope",
+     "mp": 12
+    }
+   ],
+   "front": "13 MP"
+  },
+  "connectivity": {
+   "cellular": "4G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 157.7,
+    "width_mm": 74.4,
+    "depth_mm": 8.2
+   },
+   "weight_g": 211.0,
+   "ip": "IP69"
+  },
+  "software": {
+   "launch_os": "EMUI 15.0"
+  }
+ },
+ "huawei-pura-80-pro": {
+  "display": {
+   "size_in": 6.8,
+   "type": "LTPO OLED",
+   "resolution": "2848 × 1276"
+  },
+  "platform": {
+   "chipset_name": "Kirin 9020"
+  },
+  "memory": {
+   "ram_gb": [
+    12
+   ],
+   "storage_gb": [
+    512
+   ]
+  },
+  "battery": {
+   "capacity_mah": 5170
+  },
+  "charging": {
+   "wired_w": 100,
+   "wireless_w": 80
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    },
+    {
+     "role": "ultrawide",
+     "mp": 40
+    },
+    {
+     "role": "telephoto",
+     "mp": 48
+    }
+   ],
+   "front": "13 MP"
+  },
+  "connectivity": {
+   "cellular": "4G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 163.0,
+    "width_mm": 76.1,
+    "depth_mm": 8.3
+   },
+   "weight_g": 219.0,
+   "ip": "IP69"
+  },
+  "software": {
+   "launch_os": "EMUI 15.0"
+  }
+ },
+ "huawei-nova-14": {
+  "display": {
+   "size_in": 6.7,
+   "type": "OLED",
+   "resolution": "2412 × 1084",
+   "refresh_hz": 120
+  },
+  "platform": {
+   "chipset_name": "Kirin 8000"
+  },
+  "memory": {
+   "storage_gb": [
+    256
+   ]
+  },
+  "battery": {
+   "capacity_mah": 5500
+  },
+  "charging": {
+   "wired_w": 100
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    },
+    {
+     "role": "telephoto",
+     "mp": 12
+    },
+    {
+     "role": "ultrawide",
+     "mp": 8
+    }
+   ],
+   "front": "50 MP"
+  },
+  "connectivity": {
+   "cellular": "4G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 161.73,
+    "width_mm": 75.48,
+    "depth_mm": 7.18
+   },
+   "weight_g": 192.0
+  },
+  "software": {
+   "launch_os": "EMUI 14.2"
+  }
+ },
+ "huawei-nova-14-pro": {
+  "display": {
+   "size_in": 6.78,
+   "type": "OLED",
+   "resolution": "2776 × 1224"
+  },
+  "platform": {
+   "chipset_name": "Kirin 8020"
+  },
+  "memory": {
+   "storage_gb": [
+    512
+   ]
+  },
+  "battery": {
+   "capacity_mah": 5500
+  },
+  "charging": {
+   "wired_w": 100
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    },
+    {
+     "role": "telephoto",
+     "mp": 12
+    },
+    {
+     "role": "ultrawide",
+     "mp": 8
+    }
+   ],
+   "front": "50 MP"
+  },
+  "connectivity": {
+   "cellular": "4G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 163.4,
+    "width_mm": 75.0,
+    "depth_mm": 7.78
+   },
+   "weight_g": 207.0
+  },
+  "software": {
+   "launch_os": "EMUI 15.0"
+  }
+ },
+ "huawei-mate-x7": {
+  "display": {
+   "size_in": 6.49,
+   "type": "OLED",
+   "resolution": "2416 × 2210"
+  },
+  "memory": {
+   "ram_gb": [
+    16
+   ],
+   "storage_gb": [
+    512
+   ]
+  },
+  "battery": {
+   "capacity_mah": 5600
+  },
+  "charging": {
+   "wired_w": 66,
+   "wireless_w": 50
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    },
+    {
+     "role": "ultrawide",
+     "mp": 40
+    },
+    {
+     "role": "telephoto",
+     "mp": 50
+    }
+   ],
+   "front": "8 MP"
+  },
+  "connectivity": {
+   "cellular": "4G",
+   "nfc": true
+  },
+  "build": {
+   "weight_g": 236.0,
+   "ip": "IP59"
+  },
+  "software": {
+   "launch_os": "EMUI 15.0"
+  }
+ },
+ "huawei-mate-80-pro": {
+  "display": {
+   "size_in": 6.75,
+   "type": "LTPO OLED",
+   "resolution": "2832 × 1280"
+  },
+  "memory": {
+   "ram_gb": [
+    16
+   ],
+   "storage_gb": [
+    512
+   ]
+  },
+  "battery": {
+   "capacity_mah": 5750
+  },
+  "charging": {
+   "wired_w": 100,
+   "wireless_w": 80
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    },
+    {
+     "role": "ultrawide",
+     "mp": 40
+    },
+    {
+     "role": "telephoto",
+     "mp": 48
+    }
+   ],
+   "front": "13 MP"
+  },
+  "connectivity": {
+   "cellular": "4G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 161.85,
+    "width_mm": 76.0,
+    "depth_mm": 7.95
+   },
+   "weight_g": 219.0,
+   "ip": "IP69"
+  },
+  "software": {
+   "launch_os": "EMUI 15.0"
+  }
+ },
+ "huawei-nova-15-max": {
+  "display": {
+   "size_in": 6.84,
+   "type": "OLED",
+   "resolution": "2756 × 1272",
+   "refresh_hz": 120
+  },
+  "memory": {
+   "storage_gb": [
+    16
+   ]
+  },
+  "battery": {
+   "capacity_mah": 8500
+  },
+  "charging": {
+   "wired_w": 40
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    }
+   ],
+   "front": "8 MP"
+  },
+  "connectivity": {
+   "cellular": "4G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 163.3,
+    "width_mm": 78.0,
+    "depth_mm": 7.98
+   },
+   "weight_g": 232.0
+  },
+  "software": {
+   "launch_os": "EMUI 14.2"
+  }
+ },
+ "huawei-pura-90s-pro": {
+  "display": {
+   "size_in": 6.6,
+   "type": "LTPO OLED",
+   "resolution": "2760 × 1256"
+  },
+  "platform": {
+   "chipset_name": "Kirin 9030S"
+  },
+  "memory": {
+   "ram_gb": [
+    12
+   ],
+   "storage_gb": [
+    256,
+    512
+   ]
+  },
+  "battery": {
+   "capacity_mah": 6000
+  },
+  "charging": {
+   "wired_w": 66
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    },
+    {
+     "role": "ultrawide",
+     "mp": 12.5
+    },
+    {
+     "role": "telephoto",
+     "mp": 50
+    }
+   ],
+   "front": "13 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 157.8,
+    "width_mm": 74.5,
+    "depth_mm": 8.2
+   },
+   "weight_g": 213.5,
+   "ip": "IP69"
+  },
+  "software": {
+   "launch_os": "EMUI 16.0"
+  }
+ },
+ "huawei-pura-90s-pro-max": {
+  "display": {
+   "size_in": 6.9,
+   "type": "LTPO OLED",
+   "resolution": "2880 × 1308"
+  },
+  "platform": {
+   "chipset_name": "Kirin 9030S"
+  },
+  "memory": {
+   "ram_gb": [
+    12
+   ],
+   "storage_gb": [
+    512
+   ]
+  },
+  "battery": {
+   "capacity_mah": 6000
+  },
+  "charging": {
+   "wired_w": 100
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    },
+    {
+     "role": "ultrawide",
+     "mp": 40
+    },
+    {
+     "role": "telephoto",
+     "mp": 200
+    }
+   ],
+   "front": "13 MP"
+  },
+  "connectivity": {
+   "cellular": "5G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 164.0,
+    "width_mm": 77.1,
+    "depth_mm": 8.1
+   },
+   "weight_g": 230.5,
+   "ip": "IP69"
+  },
+  "software": {
+   "launch_os": "EMUI 16.0"
+  }
+ },
+ "huawei-watch-4-series": {
+  "display": {
+   "size_in": 1.5,
+   "type": "LTPO AMOLED",
+   "resolution": "466 × 466"
+  },
+  "battery": {
+   "life_h": 72
+  },
+  "connectivity": {
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 46.2,
+    "width_mm": 46.2,
+    "depth_mm": 10.9
+   },
+   "water": "5 ATM",
+   "water_m": 50
+  }
+ },
+ "huawei-band-8": {
+  "display": {
+   "size_in": 1.47,
+   "type": "AMOLED",
+   "resolution": "368 × 194"
+  },
+  "battery": {
+   "life_h": 216
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 43.45,
+    "width_mm": 24.54,
+    "depth_mm": 8.99
+   },
+   "weight_g": 14.0,
+   "water": "5 ATM",
+   "water_m": 50
+  },
+  "software": {
+   "launch_os": "EMUI 5.0"
+  }
+ },
+ "huawei-watch-d2": {
+  "display": {
+   "size_in": 1.82,
+   "type": "AMOLED",
+   "resolution": "480 × 408"
+  },
+  "battery": {
+   "life_h": 144
+  },
+  "connectivity": {
+   "nfc": true
+  },
+  "build": {
+   "weight_g": 40.0,
+   "ip": "IP68"
+  }
+ },
+ "huawei-band-10": {
+  "display": {
+   "size_in": 1.47,
+   "type": "AMOLED",
+   "resolution": "368 × 194"
+  },
+  "battery": {
+   "life_h": 192
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 43.45,
+    "width_mm": 24.86,
+    "depth_mm": 8.99
+   },
+   "water": "5 ATM",
+   "water_m": 50
+  }
+ },
+ "huawei-watch-fit-4": {
+  "display": {
+   "size_in": 1.82,
+   "type": "AMOLED",
+   "resolution": "480 × 408",
+   "peak_nits": 2000
+  },
+  "connectivity": {
+   "gps": "Built-in GNSS",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 43.0,
+    "width_mm": 38.0,
+    "depth_mm": 9.5
+   },
+   "weight_g": 27.0,
+   "water": "5 ATM",
+   "water_m": 50
+  }
+ },
+ "huawei-watch-fit-4-pro": {
+  "display": {
+   "size_in": 1.82,
+   "type": "AMOLED",
+   "resolution": "480 × 408",
+   "peak_nits": 3000
+  },
+  "connectivity": {
+   "gps": "Built-in GNSS",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 44.5,
+    "width_mm": 40.0,
+    "depth_mm": 9.3
+   },
+   "weight_g": 30.4,
+   "water": "5 ATM",
+   "water_m": 50
+  }
+ },
+ "huawei-watch-5": {
+  "display": {
+   "size_in": 1.5,
+   "type": "AMOLED",
+   "resolution": "466 × 466"
+  },
+  "battery": {
+   "life_h": 72
+  },
+  "connectivity": {
+   "gps": "Built-in GNSS",
+   "nfc": true,
+   "cellular": "LTE option"
+  },
+  "build": {
+   "water": "5 ATM",
+   "water_m": 50,
+   "ip": "IP69"
+  }
+ },
+ "huawei-watch-gt-6": {
+  "display": {
+   "size_in": 1.47,
+   "type": "AMOLED",
+   "resolution": "466 × 466"
+  },
+  "battery": {
+   "life_h": 504
+  },
+  "connectivity": {
+   "gps": "Built-in GNSS",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 41.3,
+    "width_mm": 41.3,
+    "depth_mm": 9.99
+   },
+   "water": "5 ATM",
+   "water_m": 50,
+   "ip": "IP69"
+  }
+ },
+ "huawei-watch-gt-6-pro": {
+  "display": {
+   "size_in": 1.47,
+   "type": "AMOLED",
+   "resolution": "466 × 466"
+  },
+  "battery": {
+   "life_h": 504
+  },
+  "connectivity": {
+   "gps": "Built-in GNSS",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 45.6,
+    "width_mm": 45.6,
+    "depth_mm": 11.25
+   },
+   "weight_g": 54.7,
+   "water": "5 ATM",
+   "water_m": 50,
+   "ip": "IP69"
+  }
+ },
+ "huawei-watch-ultimate-2": {
+  "display": {
+   "size_in": 1.5,
+   "type": "AMOLED",
+   "resolution": "466 × 466",
+   "peak_nits": 3500
+  },
+  "battery": {
+   "life_h": 264
+  },
+  "connectivity": {
+   "gps": "Built-in GNSS",
+   "nfc": true,
+   "cellular": "LTE option"
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 48.5,
+    "width_mm": 48.5,
+    "depth_mm": 12.9
+   },
+   "weight_g": 80.5,
+   "water": "20 ATM",
+   "water_m": 200,
+   "ip": "IP69"
+  }
+ },
+ "huawei-watch-fit-5": {
+  "display": {
+   "size_in": 1.82,
+   "type": "AMOLED",
+   "resolution": "480 × 408",
+   "peak_nits": 2500
+  },
+  "battery": {
+   "life_h": 240
+  },
+  "connectivity": {
+   "gps": "Built-in GNSS",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 42.9,
+    "width_mm": 38.2,
+    "depth_mm": 9.5
+   },
+   "weight_g": 27.0,
+   "water": "5 ATM",
+   "water_m": 50
+  }
+ },
+ "huawei-watch-fit-5-pro": {
+  "display": {
+   "size_in": 1.92,
+   "type": "AMOLED",
+   "resolution": "480 × 408",
+   "peak_nits": 3000
+  },
+  "battery": {
+   "life_h": 240
+  },
+  "connectivity": {
+   "gps": "Built-in GNSS",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 44.5,
+    "width_mm": 40.8,
+    "depth_mm": 9.5
+   },
+   "weight_g": 30.4,
+   "water": "5 ATM",
+   "water_m": 50
+  }
+ },
+ "huawei-band-11": {
+  "display": {
+   "size_in": 1.62,
+   "type": "AMOLED",
+   "resolution": "482 × 286"
+  },
+  "battery": {
+   "life_h": 192
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 42.6,
+    "width_mm": 28.2,
+    "depth_mm": 8.99
+   },
+   "water": "5 ATM",
+   "water_m": 50
+  }
+ },
+ "huawei-band-11-pro": {
+  "display": {
+   "size_in": 1.62,
+   "type": "AMOLED",
+   "resolution": "482 × 286"
+  },
+  "battery": {
+   "life_h": 192
+  },
+  "build": {
+   "weight_g": 18.0,
+   "water": "5 ATM",
+   "water_m": 50
+  }
+ },
+ "huawei-watch-gt-runner-2": {
+  "display": {
+   "size_in": 1.32,
+   "type": "AMOLED",
+   "resolution": "466 × 466"
+  },
+  "battery": {
+   "life_h": 336
+  },
+  "connectivity": {
+   "gps": "Built-in GNSS",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 43.5,
+    "width_mm": 43.5,
+    "depth_mm": 10.7
+   },
+   "weight_g": 34.5,
+   "water": "5 ATM",
+   "water_m": 50,
+   "ip": "IP69"
+  }
+ },
+ "huawei-nova-13": {
+  "display": {
+   "size_in": 6.7,
+   "type": "OLED",
+   "resolution": "2412 × 1084",
+   "refresh_hz": 120
+  },
+  "battery": {
+   "capacity_mah": 5000
+  },
+  "charging": {
+   "wired_w": 100
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    },
+    {
+     "role": "ultrawide",
+     "mp": 8
+    }
+   ],
+   "front": "60 MP"
+  },
+  "connectivity": {
+   "cellular": "4G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 161.4,
+    "width_mm": 75.3,
+    "depth_mm": 6.98
+   },
+   "weight_g": 195.0
+  },
+  "software": {
+   "launch_os": "EMUI 14.2"
+  }
+ },
+ "huawei-nova-13-pro": {
+  "display": {
+   "size_in": 6.76,
+   "type": "OLED",
+   "resolution": "2776 × 1224"
+  },
+  "battery": {
+   "capacity_mah": 5000
+  },
+  "charging": {
+   "wired_w": 100
+  },
+  "camera": {
+   "rear": [
+    {
+     "role": "main",
+     "mp": 50
+    },
+    {
+     "role": "telephoto",
+     "mp": 12
+    },
+    {
+     "role": "ultrawide",
+     "mp": 8
+    }
+   ],
+   "front": "60 MP"
+  },
+  "connectivity": {
+   "cellular": "4G",
+   "nfc": true
+  },
+  "build": {
+   "dimensions": {
+    "height_mm": 163.4,
+    "width_mm": 74.9,
+    "depth_mm": 7.82
+   },
+   "weight_g": 209.0
+  },
+  "software": {
+   "launch_os": "EMUI 14.2"
+  }
+ }
+}

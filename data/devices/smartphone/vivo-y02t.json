@@ -1,0 +1,117 @@
+{
+  "id": "vivo-y02t",
+  "name": "vivo Y02t",
+  "brand": "vivo",
+  "category": "smartphone",
+  "series": "Y",
+  "form": "bar",
+  "status": "released",
+  "announced": "2023-09-07",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 499,
+      "date": "2023-09-07",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2023/306844/vivo-y02t-malaysia/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 6.51,
+      "type": "LCD",
+      "resolution": "1600 × 720",
+      "ppi": 270
+    },
+    "platform": {
+      "chipset": "helio-p35"
+    },
+    "memory": {
+      "ram_gb": [
+        4
+      ],
+      "storage_gb": [
+        128
+      ]
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "charging": {
+      "wired_w": 10,
+      "claim": "10W"
+    },
+    "camera": {
+      "front": "5 MP",
+      "rear_detail": [
+        "8 MP"
+      ],
+      "front_detail": [
+        "5 MP, f/2.2"
+      ]
+    },
+    "connectivity": {
+      "cellular": "4G",
+      "bands_2g": "850/900/1800MHz",
+      "bands_3g": "B1/B5/B8",
+      "bands_4g": "4G TDD-LTE: B38/B40/B41; 4G FDD-LTE: B1/B3/B5/B7/B8/B20/B28",
+      "technology": "GSM / HSPA / LTE",
+      "sim": "2 nano SIMs + 1 microSD",
+      "wifi": "2.4 GHz / 5 GHz",
+      "bluetooth": "Bluetooth 5.0",
+      "usb": "USB 2.0",
+      "radio": "Yes",
+      "positioning": "QZSS, GPS, BeiDou, GLONASS, Galileo"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 163.99,
+        "width_mm": 75.63,
+        "depth_mm": 8.49
+      },
+      "weight_g": 186.0
+    },
+    "software": {
+      "launch_os": "Funtouch OS 13 (Android 13 edition)"
+    },
+    "misc": {
+      "colors": "Orchid Blue, Cosmic Grey, Body"
+    },
+    "sensors": "Accelerometer, Ambient Light Sensor, Proximity Sensor"
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "vivo",
+      "url": "https://www.vivo.com/my/products/param/y02t",
+      "checked": "2026-09-18",
+      "note": "Read from vivo Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "lowyat",
+        "url": "https://www.lowyat.net/2023/306844/vivo-y02t-malaysia/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (Lowyat.NET). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1692607805155/9a056bd674b311c1526b1083e4487dba.png",
+    "page": "https://www.vivo.com/my/products/param/y02t",
+    "credit": "vivo Malaysia",
+    "checked": "2026-09-19"
+  }
+}

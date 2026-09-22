@@ -1,0 +1,16 @@
+{
+  "id": "exynos-1380",
+  "name": "Exynos 1380",
+  "vendor": "samsung",
+  "family": "Exynos",
+  "summary": "Name recorded from phone makers' specification pages and launch reports. Chip details have not been compiled yet.",
+  "provenance": {
+    "default": {
+      "class": "news",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2023/297080/samsung-galaxy-a545g-a345g-price-my/",
+      "checked": "2026-09-18",
+      "note": "Chip name as given for the Galaxy A54 5G."
+    }
+  }
+}

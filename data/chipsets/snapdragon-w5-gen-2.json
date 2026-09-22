@@ -1,0 +1,39 @@
+{
+  "id": "snapdragon-w5-gen-2",
+  "name": "Snapdragon W5 Gen 2",
+  "vendor": "qualcomm",
+  "family": "Snapdragon W",
+  "tier": "wearable",
+  "announced": "2025-08-20",
+  "aliases": [
+    "W5 Gen 2"
+  ],
+  "summary": "Wearable platform in the Pixel Watch 4, adding satellite (NB-NTN) messaging support.",
+  "process": {
+    "node": "4 nm"
+  },
+  "cpu": {
+    "cores": 4,
+    "clusters": [
+      {
+        "count": 4,
+        "core": "Cortex-A53",
+        "ghz": 1.7
+      }
+    ],
+    "note": "Plus a Cortex-M55 low-power co-processor"
+  },
+  "gpu": {
+    "name": "Adreno A702"
+  },
+  "variants": [],
+  "provenance": {
+    "default": {
+      "class": "database",
+      "source": "qualcomm",
+      "url": "https://www.qualcomm.com",
+      "note": "Compiled from launch coverage; not re-checked this session."
+    },
+    "fields": {}
+  }
+}

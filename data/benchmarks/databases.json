@@ -1,0 +1,85 @@
+[
+  {
+    "id": "nbc-exynos-2600",
+    "kind": "benchmark",
+    "source": "notebookcheck",
+    "title": "Samsung Exynos 2600 Processor – Benchmarks and Specs",
+    "url": "https://www.notebookcheck.net/Samsung-Exynos-2600-Processor-Benchmarks-and-Specs.1270874.0.html",
+    "accessed": "2026-09-15",
+    "class": "database",
+    "chipsets": ["exynos-2600", "snapdragon-8-elite-gen-5", "apple-a19-pro", "dimensity-9500"],
+    "facets": ["performance"],
+    "method": "Median of Geekbench 6.7 results in Notebookcheck's database, as listed on the Exynos 2600 page (including the comparison chips shown there).",
+    "records": [
+      { "subject": "exynos-2600", "metric": "gb6_single", "value": 3076, "note": "Median; range 3,060–3,209" },
+      { "subject": "exynos-2600", "metric": "gb6_multi", "value": 10487, "note": "Median; range 10,388–11,034" },
+      { "subject": "snapdragon-8-elite-gen-5", "metric": "gb6_single", "value": 3629, "note": "Comparison median" },
+      { "subject": "apple-a19-pro", "metric": "gb6_single", "value": 3840, "note": "Comparison median" },
+      { "subject": "dimensity-9500", "metric": "gb6_single", "value": 3418, "note": "Comparison median" }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "ul-galaxy-s26-exynos",
+    "kind": "benchmark",
+    "source": "ul-benchmarks",
+    "title": "Samsung Galaxy S26 (Exynos 2600) review – 3DMark results",
+    "url": "https://benchmarks.ul.com/hardware/phone/Samsung+Galaxy+S26+(Exynos+2600)+review",
+    "accessed": "2026-09-15",
+    "class": "database",
+    "devices": ["samsung-galaxy-s26"],
+    "facets": ["gaming"],
+    "method": "Scores listed on UL's official 3DMark device page, aggregated from submitted runs.",
+    "records": [
+      { "subject": "samsung-galaxy-s26", "metric": "wle", "value": 6531, "variant": "Exynos 2600" },
+      { "subject": "samsung-galaxy-s26", "metric": "solar_bay", "value": 12067, "variant": "Exynos 2600" },
+      { "subject": "samsung-galaxy-s26", "metric": "steel_nomad_light", "value": 3154, "variant": "Exynos 2600" }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "ah-s26-exynos-geekbench",
+    "kind": "benchmark",
+    "source": "android-headlines",
+    "title": "Exynos 2600-Powered Galaxy S26 Lands on Geekbench with Nice Power Gains",
+    "url": "https://www.androidheadlines.com/2026/02/samsung-galaxy-s26-exynos-2600-geekbench-benchmark.html",
+    "published": "2026-02",
+    "accessed": "2026-09-15",
+    "class": "database",
+    "devices": ["samsung-galaxy-s26"],
+    "facets": ["performance"],
+    "method": "A single Geekbench 6.5 listing reported before retail availability.",
+    "verification": "excerpt",
+    "records": [
+      { "subject": "samsung-galaxy-s26", "metric": "gb6_single", "value": 3336, "variant": "Exynos 2600", "flags": ["pre-release"] },
+      { "subject": "samsung-galaxy-s26", "metric": "gb6_multi", "value": 11369, "variant": "Exynos 2600", "flags": ["pre-release"] }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "gsma-iphone18-geekbench",
+    "kind": "news",
+    "type": "benchmark",
+    "source": "gsmarena",
+    "title": "Here are the iPhone 18 Pro and iPhone 18 Pro Max Geekbench scores",
+    "url": "https://www.gsmarena.com/here_are_the_iphone_18_pro_and_iphone_18_pro_max_geekbench_scores-news-74559.php",
+    "published": "2026-09-10",
+    "accessed": "2026-09-15",
+    "class": "database",
+    "devices": ["apple-iphone-18-pro-max"],
+    "chipsets": ["apple-a20-pro"],
+    "facets": ["performance"],
+    "method": "Geekbench 6.7 listings from prototype units, spotted before release. GSMArena advises treating them with caution.",
+    "summary": "Pre-release Geekbench listings put the A20 Pro 21–23% ahead of the A19 Pro, with CPU clocks up to 4.93 GHz and 12 GB of RAM in both models.",
+    "records": [
+      { "subject": "apple-iphone-18-pro-max", "metric": "gb6_single", "value": 4612, "flags": ["pre-release"] },
+      { "subject": "apple-iphone-18-pro-max", "metric": "gb6_multi", "value": 11819, "flags": ["pre-release"] },
+      { "subject": "apple-a20-pro", "metric": "gb6_single", "value": 4719, "note": "iPhone 18 Pro (iPhone19,2) listing", "flags": ["pre-release"] },
+      { "subject": "apple-a20-pro", "metric": "gb6_multi", "value": 12677, "note": "iPhone 18 Pro (iPhone19,2) listing", "flags": ["pre-release"] }
+    ],
+    "findings": [
+      { "subject": "apple-iphone-18-pro-max", "facet": "performance", "stance": "positive", "text": "Early listings suggest a 21–23% CPU gain over the iPhone 17 Pro generation. They come from prototypes, so treat them as provisional." }
+    ],
+    "extraction": "complete"
+  }
+]

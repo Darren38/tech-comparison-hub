@@ -1,0 +1,127 @@
+{
+  "id": "huawei-nova-15-max",
+  "name": "Huawei nova 15 Max",
+  "brand": "huawei",
+  "category": "smartphone",
+  "series": "nova",
+  "form": "bar",
+  "status": "released",
+  "announced": "2026-06-04",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1699,
+      "date": "2026-06-04",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2026/394707/huawei-nova-15-max-malaysia/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/phones/nova15-max/specs-blush-gold.png",
+    "page": "https://consumer.huawei.com/my/phones/nova15-max/specs/",
+    "credit": "Huawei Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.84,
+      "type": "OLED",
+      "resolution": "2756 × 1272",
+      "refresh_hz": 120,
+      "ppi": 444
+    },
+    "memory": {
+      "ram_gb": [
+        8
+      ],
+      "storage_gb": [
+        256
+      ]
+    },
+    "battery": {
+      "capacity_mah": 8500
+    },
+    "charging": {
+      "wired_w": 40,
+      "claim": "40 W HUAWEI SuperCharge Turbo"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50
+        }
+      ],
+      "front": "8 MP",
+      "rear_detail": [
+        "50 MP Ultra Sensing Camera (F1.9 aperture)",
+        "2 MP Ultra Lighting Camera (F2.4 aperture)"
+      ],
+      "features": "10x digital zoom",
+      "video": "4K",
+      "front_detail": [
+        "8 MP Camera (F2.0 aperture)"
+      ]
+    },
+    "connectivity": {
+      "cellular": "4G",
+      "nfc": true,
+      "bands_2g": "Bands 2/3/5/8",
+      "bands_3g": "Bands 1/2/4/5/8/19",
+      "bands_4g": "FDD-LTE: Bands 1/2/3/4/5/7/8/12/13/17/18/19/20/26/28/66; TDD-LTE: Bands 38/40/41",
+      "technology": "GSM / HSPA / LTE",
+      "wifi": "2.4 GHz and 5 GHz, IEEE 802.11a/b/g/n/ac/ax/be, 2 × 2 MIMO, EHT80, 1024 QAM",
+      "bluetooth": "Bluetooth 5.2, Support BLE, SBC, AAC, LDAC and L2HC",
+      "usb": "USB Type-C, USB 2.0",
+      "positioning": "Supported GPS, AGPS, GLONASS, BeiDou, Galileo, QZSS"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 163.3,
+        "width_mm": 78.0,
+        "depth_mm": 7.98
+      },
+      "weight_g": 232.0
+    },
+    "software": {
+      "launch_os": "EMUI 14.2"
+    },
+    "audio": {
+      "jack": false
+    },
+    "sensors": "Gravity sensor, Infrared sensor, Fingerprint sensor, Gyroscope, Compass, Ambient light sensor, Proximity sensor (Functions are implemented through software solutions.)",
+    "misc": {
+      "models": "CHZ-LX1 (Dual SIM)",
+      "colors": "Blush Gold, Golden Black"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "huawei",
+      "url": "https://consumer.huawei.com/my/phones/nova15-max/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from Huawei Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "lowyat",
+        "url": "https://www.lowyat.net/2026/394707/huawei-nova-15-max-malaysia/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (Lowyat.NET). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

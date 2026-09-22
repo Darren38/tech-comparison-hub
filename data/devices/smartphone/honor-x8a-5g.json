@@ -1,0 +1,112 @@
+{
+  "id": "honor-x8a-5g",
+  "name": "HONOR X8a 5G",
+  "brand": "honor",
+  "category": "smartphone",
+  "series": "X",
+  "form": "bar",
+  "status": "released",
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-18",
+      "source": "honor",
+      "url": "https://www.honor.com/my/phones/honor-x8a-5g/spec/",
+      "note": "Sold in Malaysia, but no launch price was found in Malaysian launch coverage."
+    }
+  },
+  "image": {
+    "kind": "official",
+    "src": "https://www.honor.com/content/dam/honor/my/products/smartphone/honor-x8a-5g/img/x8a-5g-bg-new.jpg",
+    "page": "https://www.honor.com/my/phones/honor-x8a-5g/spec/",
+    "credit": "HONOR Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.5,
+      "type": "LCD",
+      "resolution": "1600 × 720",
+      "ppi": 270
+    },
+    "platform": {
+      "chipset": "snapdragon-480",
+      "gpu": "Adreno 619",
+      "cpu": "Octa-core processors; 2*A76*2.2GHz+6*A55*1.9GHz"
+    },
+    "battery": {
+      "capacity_mah": 5000,
+      "chemistry": "Lithium Polymer"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "aperture": "f/1.8"
+        }
+      ],
+      "front": "8 MP",
+      "rear_detail": [
+        "50MP camera (f/1.8)",
+        "depth camera (f/2.4)",
+        "Macro camera (f/2.4)"
+      ],
+      "features": "Up to 8x digital zoom",
+      "video": "1080p",
+      "front_detail": [
+        "8MP Camera (f/2.0 aperture)"
+      ]
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true,
+      "technology": "GSM / HSPA / LTE / 5G",
+      "sim": "Nano Card",
+      "wifi": "802.11 a/b/g/n/ac",
+      "positioning": "Support GPS/AGPS/GLONASS/BeiDou/ Galileo; Network-Based Positioning; Wi-Fi-Based Positioning",
+      "usb": "USB Type-C, USB 2.0",
+      "bluetooth": "Bluetooth"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 163.66,
+        "width_mm": 75.13,
+        "depth_mm": 8.68
+      },
+      "weight_g": 194.0
+    },
+    "software": {
+      "launch_os": "Magic UI 6.1 (based on Android 12)"
+    },
+    "biometrics": {
+      "face": "Support 2D Face Recognition",
+      "fingerprint": "side fingerprint"
+    },
+    "charging": {
+      "claim": "22.5W",
+      "wired_w": 22.5
+    },
+    "sensors": "Gravity Sensor, Fingerprint Sensor, Support (side fingerprint), support fingerprint unlock, Compass",
+    "audio": {
+      "jack": true
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "honor",
+      "url": "https://www.honor.com/my/phones/honor-x8a-5g/spec/",
+      "checked": "2026-09-18",
+      "note": "Read from HONOR Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

@@ -1,0 +1,137 @@
+{
+  "id": "honor-magic-v2-rsr-porsche-design",
+  "name": "HONOR Magic V2 RSR Porsche Design",
+  "brand": "honor",
+  "category": "smartphone",
+  "series": "Magic V",
+  "form": "foldable",
+  "status": "released",
+  "announced": "2024-03-22",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 10999,
+      "config": "16 GB / 1 TB",
+      "date": "2024-03-22",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2024/03/22/honor-porsche-magic-v2-rsr-magic-6-rsr-malaysia-official-launch-price/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://www.honor.com/content/dam/honor/my/products/smartphone/honor-magic-v2-rsr-porsche-design/product/porschedesign-honormagicv2rsr-share-wechat.jpg",
+    "page": "https://www.honor.com/my/phones/honor-magic-v2-rsr-porsche-design/spec/",
+    "credit": "HONOR Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 7.92,
+      "type": "OLED",
+      "resolution": "2344 × 2156",
+      "refresh_hz": 120,
+      "ppi": 402
+    },
+    "platform": {
+      "chipset": "snapdragon-8-gen-2",
+      "gpu": "Adreno 740",
+      "cpu": "Octa-core; 1×Cortex-X3 3.19GHz+; 2×Cortex-A715 2.8GHz+; 2×Cortex-A710 2.8GHz+; 3×Cortex-A510 2.0GHz"
+    },
+    "memory": {
+      "ram_gb": [
+        16
+      ],
+      "storage_gb": [
+        1024
+      ]
+    },
+    "battery": {
+      "capacity_mah": 5000,
+      "chemistry": "Silicon-Carbon"
+    },
+    "charging": {
+      "wired_w": 66,
+      "claim": "HONOR 66W SuperCharge; The phone supports up to 11V/6A SuperCharge, compatible with 10V/4A and 5V/2A."
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "aperture": "f/1.9",
+          "ois": true
+        },
+        {
+          "role": "ultrawide",
+          "mp": 50
+        },
+        {
+          "role": "telephoto",
+          "mp": 20
+        }
+      ],
+      "front": "16 MP",
+      "rear_detail": [
+        "50MP Wide Camera (f/1.9, OIS)",
+        "50MP Ultra Wide Camera (f/2.0)",
+        "20MP telephoto Camera (f/2.4, OIS)"
+      ],
+      "features": "40x Digital zoom",
+      "video": "4K",
+      "front_detail": [
+        "16MP Wide Camera (f/2.2)"
+      ]
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true,
+      "technology": "GSM / HSPA / LTE / 5G",
+      "sim": "Nano SIM card",
+      "wifi": "802.11 a/b/g/n/ac/ax/be",
+      "positioning": "Support GPS(L1+L5) /AGPS/GLONASS/BeiDou(B1I+B1C+B2a)/Galileo(E1 + E5a); Network-Based Positioning; Wi-Fi-Based Positioning",
+      "usb": "USB Type-C, USB 3.1 GEN1",
+      "bluetooth": "BT5.3"
+    },
+    "build": {
+      "weight_g": 234.0
+    },
+    "software": {
+      "launch_os": "MagicOS 7.2 (Based on Android 13)"
+    },
+    "biometrics": {
+      "face": "Supported 2D"
+    },
+    "sensors": "Gravity Sensor, Infrared Sensor, Fingerprint Sensor, Gyroscope, Compass",
+    "audio": {
+      "jack": false
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "honor",
+      "url": "https://www.honor.com/my/phones/honor-magic-v2-rsr-porsche-design/spec/",
+      "note": "Read from HONOR Malaysia's specification page. Values were extracted automatically and reviewed.",
+      "checked": "2026-09-18"
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2024/03/22/honor-porsche-magic-v2-rsr-magic-6-rsr-malaysia-official-launch-price/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

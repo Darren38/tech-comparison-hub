@@ -1,0 +1,143 @@
+{
+  "id": "huawei-watch-gt-cyber",
+  "name": "Huawei Watch GT Cyber",
+  "brand": "huawei",
+  "category": "smartwatch",
+  "series": "Watch",
+  "form": "watch",
+  "status": "released",
+  "announced": "2023-04-07",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 999,
+      "config": "Sport Edition (Midnight Black)",
+      "date": "2023-04-07",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2023/04/07/huawei-watch-gt-cyber-malaysia-smartwatch-with-interchangeable-case-costs-rm999/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1099,
+      "config": "Urban Edition (Golden Black)",
+      "date": "2023-04-07",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2023/04/07/huawei-watch-gt-cyber-malaysia-smartwatch-with-interchangeable-case-costs-rm999/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 1.32,
+      "type": "AMOLED",
+      "resolution": "466 × 466"
+    },
+    "battery": {
+      "life_h": 168,
+      "claim": "Up to 7 days typical use, 4 days heavy use"
+    },
+    "build": {
+      "weight_g": 58
+    },
+    "sensors": "Accelerometer sensor, Gyroscope sensor, Magnetometer sensor, Optical heart rate sensor, Barometer sensor, Button, Rotatable crown, support long press, short press",
+    "connectivity": {
+      "usb": "Wireless charging; System Requirements; Android 7.0 or later, iOS 9.0 or later; Waterproof Level; 5 ATM",
+      "bluetooth": "Bluetooth Supported"
+    },
+    "audio": {
+      "speakers": "Microphone; Environment; Temperature; -20℃～+45℃"
+    },
+    "misc": {
+      "colors": "Midnight Black, Space Grey"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "news",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2023/04/07/huawei-watch-gt-cyber-malaysia-smartwatch-with-interchangeable-case-costs-rm999/",
+      "note": "The maker no longer publishes a specification page for this model. Key specs were taken from this Malaysian launch report, which gives the maker's figures.",
+      "checked": "2026-09-18"
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2023/04/07/huawei-watch-gt-cyber-malaysia-smartwatch-with-interchangeable-case-costs-rm999/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      },
+      "specs.audio.speakers": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20240424212336/https://consumer.huawei.com/en/wearables/watch-gt-cyber/specs/",
+        "checked": "2026-09-19",
+        "note": "The maker's own specification page (https://consumer.huawei.com/en/wearables/watch-gt-cyber/specs/) is no longer online; read from the Internet Archive copy captured 2024-04-24."
+      },
+      "specs.connectivity.bluetooth": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20240424212336/https://consumer.huawei.com/en/wearables/watch-gt-cyber/specs/",
+        "checked": "2026-09-19",
+        "note": "The maker's own specification page (https://consumer.huawei.com/en/wearables/watch-gt-cyber/specs/) is no longer online; read from the Internet Archive copy captured 2024-04-24."
+      },
+      "specs.connectivity.usb": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20240424212336/https://consumer.huawei.com/en/wearables/watch-gt-cyber/specs/",
+        "checked": "2026-09-19",
+        "note": "The maker's own specification page (https://consumer.huawei.com/en/wearables/watch-gt-cyber/specs/) is no longer online; read from the Internet Archive copy captured 2024-04-24."
+      },
+      "specs.misc.colors": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20240424212336/https://consumer.huawei.com/en/wearables/watch-gt-cyber/specs/",
+        "checked": "2026-09-19",
+        "note": "The maker's own specification page (https://consumer.huawei.com/en/wearables/watch-gt-cyber/specs/) is no longer online; read from the Internet Archive copy captured 2024-04-24."
+      },
+      "specs.sensors": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20240424212336/https://consumer.huawei.com/en/wearables/watch-gt-cyber/specs/",
+        "checked": "2026-09-19",
+        "note": "The maker's own specification page (https://consumer.huawei.com/en/wearables/watch-gt-cyber/specs/) is no longer online; read from the Internet Archive copy captured 2024-04-24."
+      },
+      "specs.build.weight_g": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20240424212336/https://consumer.huawei.com/en/wearables/watch-gt-cyber/specs/",
+        "checked": "2026-09-19",
+        "note": "Matches the maker's own specification page (https://consumer.huawei.com/en/wearables/watch-gt-cyber/specs/), which is no longer online; checked against the Internet Archive copy captured 2024-04-24."
+      },
+      "specs.display.size_in": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20240424212336/https://consumer.huawei.com/en/wearables/watch-gt-cyber/specs/",
+        "checked": "2026-09-19",
+        "note": "Matches the maker's own specification page (https://consumer.huawei.com/en/wearables/watch-gt-cyber/specs/), which is no longer online; checked against the Internet Archive copy captured 2024-04-24."
+      },
+      "specs.display.resolution": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20240424212336/https://consumer.huawei.com/en/wearables/watch-gt-cyber/specs/",
+        "checked": "2026-09-19",
+        "note": "Matches the maker's own specification page (https://consumer.huawei.com/en/wearables/watch-gt-cyber/specs/), which is no longer online; checked against the Internet Archive copy captured 2024-04-24."
+      },
+      "specs.display.type": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20240424212336/https://consumer.huawei.com/en/wearables/watch-gt-cyber/specs/",
+        "checked": "2026-09-19",
+        "note": "Matches the maker's own specification page (https://consumer.huawei.com/en/wearables/watch-gt-cyber/specs/), which is no longer online; checked against the Internet Archive copy captured 2024-04-24."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

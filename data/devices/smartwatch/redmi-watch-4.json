@@ -1,0 +1,77 @@
+{
+  "id": "redmi-watch-4",
+  "name": "Redmi Watch 4",
+  "brand": "redmi",
+  "category": "smartwatch",
+  "series": "Watch",
+  "form": "watch",
+  "status": "released",
+  "announced": "2024-01-16",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 459,
+      "date": "2024-01-16",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2024/01/16/redmi-watch-4-malaysia-price-specs-discount/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://i02.appmifile.com/98_item_my/07/05/2024/b8766fb0d73223b275fa5df7cdb49f1d.png",
+    "page": "https://www.mi.com/my/product/redmi-watch-4/specs/",
+    "credit": "Xiaomi Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 1.97,
+      "type": "AMOLED",
+      "peak_nits": 600
+    },
+    "battery": {
+      "life_h": 480,
+      "capacity_mah": 470
+    },
+    "connectivity": {
+      "gps": "Built-in GNSS"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 47.5,
+        "width_mm": 41.1,
+        "depth_mm": 10.5
+      },
+      "water": "5 ATM",
+      "water_m": 50,
+      "frame": "Aluminum alloy frame; Strap; Obsidian Black: TPU strap"
+    },
+    "sensors": "Heart rate sensor (with blood oxygen sensor), Accelerometer, Gyroscope, Ambient light sensor, electronic compass, Satellite positioning systems, GPS, Galileo, Glonass, BeiDou, QZSS",
+    "misc": {
+      "colors": "Obsidian Black, Silver Gray"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "redmi",
+      "url": "https://www.mi.com/my/product/redmi-watch-4/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from Xiaomi Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2024/01/16/redmi-watch-4-malaysia-price-specs-discount/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

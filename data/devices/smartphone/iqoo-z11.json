@@ -1,0 +1,158 @@
+{
+  "id": "iqoo-z11",
+  "name": "iQOO Z11",
+  "brand": "iqoo",
+  "category": "smartphone",
+  "series": "iQOO",
+  "form": "bar",
+  "status": "released",
+  "announced": "2026-05-06",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1899,
+      "config": "8 GB / 256 GB",
+      "date": "2026-05-06",
+      "type": "launch",
+      "source": "nasilemaktech",
+      "url": "https://nasilemaktech.com/iqoo-z11-series-malaysia-launch/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 2199,
+      "config": "12 GB / 256 GB",
+      "date": "2026-05-06",
+      "type": "launch",
+      "source": "nasilemaktech",
+      "url": "https://nasilemaktech.com/iqoo-z11-series-malaysia-launch/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 6.83,
+      "type": "AMOLED",
+      "resolution": "2800 × 1260",
+      "refresh_hz": 144,
+      "peak_nits": 5000,
+      "ppi": 450
+    },
+    "platform": {
+      "chipset": "snapdragon-7s-gen-4",
+      "process": "4 nm",
+      "cpu": "8 cores; 1 × 2.7 GHz + 3 × 2.4 GHz + 4 × 1.8 GHz"
+    },
+    "memory": {
+      "ram_gb": [
+        8,
+        12
+      ],
+      "storage_gb": [
+        256
+      ],
+      "ram_type": "LPDDR4X",
+      "storage_type": "UFS 3.1",
+      "card": "No"
+    },
+    "battery": {
+      "capacity_mah": 9020,
+      "chemistry": "Li-ion battery"
+    },
+    "charging": {
+      "wired_w": 90,
+      "claim": "90W"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50
+        },
+        {
+          "role": "depth",
+          "mp": 2
+        }
+      ],
+      "rear_text": "Rear: 50 MP (Sony IMX882) + 2 MP (Bokeh)",
+      "front": "32 MP",
+      "front_detail": [
+        "32 MP"
+      ],
+      "rear_detail": [
+        "50 MP (Sony IMX882)",
+        "2 MP (Bokeh)"
+      ]
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true,
+      "bands_2g": "850/900/1800 MHz",
+      "bands_3g": "B1/B5/B6/B8/B19",
+      "bands_4g": "4G FDD-LTE: B1/B3/B5/B7/B8/B19/B20/B28/B71",
+      "bands_5g": "5G: n1/n3/n5/n7/n8/n20/n28/n38/n40/n41/n71/n77/n78",
+      "technology": "GSM / HSPA / LTE / 5G",
+      "sim": "2 nano SIMs",
+      "bluetooth": "Bluetooth 5.2",
+      "usb": "Type-C",
+      "positioning": "L1, L5",
+      "radio": "No",
+      "wifi": "Wi-Fi; Wi-Fi Display, MU-MIMO, Wi-Fi 6"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 163.73,
+        "width_mm": 76.18,
+        "depth_mm": 8.25
+      },
+      "weight_g": 213.0,
+      "ip": "IP69",
+      "back": "Plastic composite sheet"
+    },
+    "software": {
+      "launch_os": "OriginOS 6"
+    },
+    "misc": {
+      "colors": "Glacier Blue, Cosmic Black"
+    },
+    "biometrics": {
+      "fingerprint": "In-display optical fingerprint sensor"
+    },
+    "sensors": "Accelerometer, Ambient Light Sensor, Proximity Sensor, E-compass, Gyroscope, Motor, Ordinary"
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "iqoo",
+      "url": "https://www.iqoo.com/my/products/param/z11",
+      "checked": "2026-09-18",
+      "note": "Read from iQOO Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "nasilemaktech",
+        "url": "https://nasilemaktech.com/iqoo-z11-series-malaysia-launch/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (Nasi Lemak Tech). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1777542291115/bb931eaa5d27cc90526e1a4e1b88207f.png",
+    "page": "https://www.iqoo.com/my/products/param/z11",
+    "credit": "vivo Malaysia",
+    "checked": "2026-09-19"
+  }
+}

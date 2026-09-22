@@ -1,0 +1,75 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "tch/documents.schema.json",
+  "title": "Evidence documents",
+  "description": "Files in data/reviews, data/benchmarks, data/videos and data/news: one document or an array of documents. Each document is one source artifact (review page, video, database page, article) with its numeric records and qualitative findings.",
+  "oneOf": [
+    { "$ref": "#/$defs/document" },
+    { "type": "array", "items": { "$ref": "#/$defs/document" } }
+  ],
+  "$defs": {
+    "date": { "type": "string", "pattern": "^\\d{4}(-\\d{2}(-\\d{2})?)?$" },
+    "evidenceClass": { "enum": ["official", "measured", "database", "reviewer", "news", "community", "estimated", "platform"] },
+    "document": {
+      "type": "object",
+      "required": ["id", "kind", "source", "title", "url"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+        "kind": { "enum": ["review", "video", "benchmark", "news", "analysis", "official"] },
+        "type": { "type": "string", "description": "News type id (launch, price, software-update, issue, …)." },
+        "source": { "type": "string", "description": "Publisher id from data/sources/sources.json." },
+        "testedBy": { "type": "string", "description": "Original tester when the publisher reports someone else's test." },
+        "title": { "type": "string" },
+        "url": { "type": "string" },
+        "author": { "type": "string" },
+        "published": { "$ref": "#/$defs/date" },
+        "publishedApprox": { "type": "boolean" },
+        "accessed": { "$ref": "#/$defs/date" },
+        "class": { "$ref": "#/$defs/evidenceClass" },
+        "devices": { "type": "array", "items": { "type": "string" } },
+        "chipsets": { "type": "array", "items": { "type": "string" } },
+        "facets": { "type": "array", "items": { "type": "string" } },
+        "method": { "type": "string" },
+        "summary": { "type": "string", "description": "Our own summary; never copied text." },
+        "region": { "type": "string" },
+        "category": { "type": "string", "description": "Video category id." },
+        "platform": { "type": "string" },
+        "verification": { "enum": ["excerpt"] },
+        "verified": { "type": "object" },
+        "extraction": { "enum": ["complete", "partial", "metadata-only"] },
+        "related": { "type": "array", "items": { "type": "string" } },
+        "records": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["subject", "metric", "value"],
+            "properties": {
+              "subject": { "type": "string", "description": "Device or chipset id." },
+              "metric": { "type": "string", "description": "Metric id from data/metrics/metrics.json." },
+              "value": { "type": "number" },
+              "note": { "type": "string" },
+              "variant": { "type": "string" },
+              "class": { "$ref": "#/$defs/evidenceClass" },
+              "flags": { "type": "array", "items": { "enum": ["pre-release", "early-software"] } },
+              "derived": { "type": "object", "properties": { "formula": { "type": "string" }, "inputs": { "type": "string" } } },
+              "url": { "type": "string" }
+            }
+          }
+        },
+        "findings": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["subject", "facet", "stance", "text"],
+            "properties": {
+              "subject": { "type": "string" },
+              "facet": { "type": "string" },
+              "stance": { "enum": ["positive", "negative", "neutral"] },
+              "text": { "type": "string", "maxLength": 400 }
+            }
+          }
+        }
+      }
+    }
+  }
+}

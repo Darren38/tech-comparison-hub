@@ -1,0 +1,117 @@
+{
+  "id": "samsung-galaxy-z-fold8",
+  "name": "Galaxy Z Fold8",
+  "brand": "samsung",
+  "category": "smartphone",
+  "series": "Galaxy Z",
+  "form": "foldable",
+  "status": "released",
+  "announced": "2026-07-22",
+  "released": "2026-07-22",
+  "segment": "flagship",
+  "aliases": [
+    "Z Fold8",
+    "Fold8",
+    "Fold 8"
+  ],
+  "summary": "Samsung's 2026 book-style foldable, with a wider 4:3 inner screen and a 5.5-inch cover display. No independent test data yet.",
+  "highlights": [
+    "7.6-inch 4:3 inner display",
+    "5.5-inch cover screen",
+    "Snapdragon 8 Elite Gen 5 for Galaxy"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 7299,
+      "config": "12 GB / 256 GB",
+      "date": "2026-07-22",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2026/07/22/samsung-galaxy-z-fold-8-z-fold-8-ultra-and-z-flip-8-malaysia-price-preorder/",
+      "class": "news",
+      "accessed": "2026-09-16"
+    }
+  ],
+  "image": {
+    "kind": "photo",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Samsung_Galaxy_Z_Fold8_back.jpg/500px-Samsung_Galaxy_Z_Fold8_back.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_Z_Fold8_back.jpg",
+    "title": "Samsung Galaxy Z Fold8 back",
+    "author": "X-SHLIED",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "checked": "2026-09-17"
+  },
+  "specs": {
+    "display": {
+      "size_in": 7.6,
+      "type": "Dynamic AMOLED 2X (foldable, 4:3)",
+      "refresh_hz": 120,
+      "peak_nits": 2600,
+      "secondary": "5.5-inch cover screen, 10:16, 120 Hz, 2600 nits"
+    },
+    "platform": {
+      "chipset": "snapdragon-8-elite-gen-5",
+      "chipset_note": "for Galaxy"
+    },
+    "memory": {
+      "ram_gb": [
+        12,
+        16
+      ],
+      "storage_gb": [
+        256,
+        512,
+        1024
+      ]
+    },
+    "battery": {
+      "capacity_mah": 4800,
+      "rated_mah": 4660
+    },
+    "charging": {
+      "wired_w": 45,
+      "claim": "Wireless and reverse wireless charging supported (power not stated)"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50
+        },
+        {
+          "role": "ultrawide",
+          "mp": 50
+        }
+      ],
+      "zoom_optical_x": 1,
+      "front": "Selfie cameras on both screens"
+    },
+    "build": {
+      "weight_g": 201
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "wifi": "Wi-Fi 7",
+      "nfc": true,
+      "uwb": true,
+      "satellite": true,
+      "usb": "USB-C with DisplayPort"
+    },
+    "software": {
+      "launch_os": "Android 17, One UI 9"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "samsung",
+      "url": "https://www.samsung.com/au/mobile/buying-guide/galaxy-z-fold8-features-specs/",
+      "checked": "2026-09-15"
+    },
+    "fields": {}
+  },
+  "dataStatus": "checked"
+}

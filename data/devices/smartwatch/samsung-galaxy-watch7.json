@@ -1,0 +1,119 @@
+{
+  "id": "samsung-galaxy-watch7",
+  "name": "Galaxy Watch7",
+  "brand": "samsung",
+  "category": "smartwatch",
+  "series": "Galaxy Watch",
+  "form": "watch",
+  "status": "released",
+  "announced": "2024-07-10",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1199,
+      "config": "40 mm, Bluetooth",
+      "date": "2024-07-10",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2024/326236/samsung-galaxy-watch7-watch-ultra/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1499,
+      "config": "40 mm, LTE",
+      "date": "2024-07-10",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2024/326236/samsung-galaxy-watch7-watch-ultra/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1299,
+      "config": "44 mm, Bluetooth",
+      "date": "2024-07-10",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2024/326236/samsung-galaxy-watch7-watch-ultra/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1599,
+      "config": "44 mm, LTE",
+      "date": "2024-07-10",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2024/326236/samsung-galaxy-watch7-watch-ultra/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 1.3,
+      "type": "Super AMOLED",
+      "resolution": "432 × 432"
+    },
+    "connectivity": {
+      "gps": "Built-in GNSS",
+      "nfc": true,
+      "cellular": "LTE option",
+      "wifi": "802.11a/b/g/n 2.4GHz+5GHz",
+      "bluetooth": "Bluetooth v5.3",
+      "positioning": "GPS, Glonass, Beidou, Galileo"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 40.4,
+        "width_mm": 40.4,
+        "depth_mm": 9.7
+      },
+      "weight_g": 28.8,
+      "water": "5 ATM",
+      "water_m": 50,
+      "durability": "5 ATM"
+    },
+    "software": {
+      "launch_os": "Wear OS Powered by Samsung"
+    },
+    "sensors": "Accelerometer, Barometer, Bioelectrical Impedance Analysis Sensor, Electrical Heart Sensor, Gyro Sensor, Geomagnetic Sensor, Infrared Temperature Sensor, Light Sensor, Optical Heart Rate Sensor",
+    "battery": {
+      "capacity_mah": 300
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "samsung",
+      "url": "https://www.samsung.com/my/support/model/SM-L300NZEAXME/",
+      "checked": "2026-09-18",
+      "note": "Read from Samsung's own specification data for the Malaysian model SM-L300NZEAXME (the data samsung.com/my shows on its spec pages); the link goes to Samsung Malaysia's page for that model. Values were extracted automatically and reviewed."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "lowyat",
+        "url": "https://www.lowyat.net/2024/326236/samsung-galaxy-watch7-watch-ultra/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (Lowyat.NET). The global announcement can be earlier."
+      }
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://images.samsung.com/is/image/samsung/p6pim/my/2407/gallery/my-galaxy-watch7-l300-sm-l300nzeaxme-542363709?$624_624_PNG$",
+    "page": "https://www.samsung.com/my/support/model/SM-L300NZEAXME/",
+    "credit": "Samsung Malaysia",
+    "checked": "2026-09-19"
+  }
+}

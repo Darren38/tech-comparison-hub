@@ -1,0 +1,117 @@
+{
+  "id": "google-pixel-watch-4",
+  "name": "Pixel Watch 4",
+  "brand": "google",
+  "category": "smartwatch",
+  "series": "Pixel Watch",
+  "form": "watch",
+  "status": "released",
+  "announced": "2025-08-20",
+  "released": "2025-10",
+  "segment": "flagship",
+  "aliases": [
+    "PW4",
+    "Pixel Watch4"
+  ],
+  "summary": "Google's domed-display watch. The 45 mm model's battery beats its predecessor's, and LTE models add satellite SOS.",
+  "highlights": [
+    "Domed Actua 360 display",
+    "Up to 40 h (45 mm)",
+    "Satellite SOS (LTE models)"
+  ],
+  "prices": [
+    {
+      "region": "US",
+      "currency": "USD",
+      "amount": 349,
+      "config": "41 mm, Wi-Fi",
+      "date": "2025-08-20",
+      "type": "launch",
+      "source": "google"
+    },
+    {
+      "region": "US",
+      "currency": "USD",
+      "amount": 399,
+      "config": "45 mm, Wi-Fi",
+      "date": "2025-08-20",
+      "type": "launch",
+      "source": "google"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1749,
+      "config": "41 mm",
+      "date": "2025-08-21",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/08/21/google-pixel-watch-4-malaysia-price-specs-availability-launch-date/",
+      "class": "news",
+      "accessed": "2026-09-16",
+      "note": "At authorised retailers from November 2025."
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1999,
+      "config": "45 mm",
+      "date": "2025-08-21",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/08/21/google-pixel-watch-4-malaysia-price-specs-availability-launch-date/",
+      "class": "news",
+      "accessed": "2026-09-16"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_mm": "41 / 45 mm",
+      "size_in": 1.4,
+      "type": "Actua 360 domed AMOLED",
+      "peak_nits": 3000
+    },
+    "platform": {
+      "chipset": "snapdragon-w5-gen-2"
+    },
+    "battery": {
+      "capacity_mah": 455,
+      "life_h": 40,
+      "claim": "45 mm model: up to 40 h with always-on display"
+    },
+    "health": {
+      "sensors": [
+        "Multi-path optical heart rate",
+        "Electrical heart (ECG)",
+        "Blood oxygen",
+        "Skin temperature"
+      ]
+    },
+    "build": {
+      "water": "5ATM + IP68",
+      "water_m": 50,
+      "ip": "IP68",
+      "case": "Aluminum"
+    },
+    "connectivity": {
+      "cellular": "LTE (optional)",
+      "satellite": true,
+      "nfc": true,
+      "compatibility": "Android only"
+    },
+    "software": {
+      "launch_os": "Wear OS 6"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "google",
+      "url": "https://store.google.com/product/pixel_watch_4_specs",
+      "checked": "2026-09-15",
+      "note": "Cross-checked against Android Central's battery test coverage."
+    },
+    "fields": {}
+  },
+  "dataStatus": "checked"
+}

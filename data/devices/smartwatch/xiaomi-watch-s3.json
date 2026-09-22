@@ -1,0 +1,79 @@
+{
+  "id": "xiaomi-watch-s3",
+  "name": "Xiaomi Watch S3",
+  "brand": "xiaomi",
+  "category": "smartwatch",
+  "series": "Watch",
+  "form": "watch",
+  "status": "released",
+  "announced": "2024-03-07",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 699,
+      "date": "2024-03-07",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2024/318220/xiaomi-watch-2-watch-s3-launch-msia/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://i02.appmifile.com/169_item_my/12/09/2024/841677997321dac3636da3d68a61295a.png",
+    "page": "https://www.mi.com/my/product/xiaomi-watch-s3/specs/",
+    "credit": "Xiaomi Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 1.43,
+      "type": "AMOLED",
+      "resolution": "466 × 466"
+    },
+    "battery": {
+      "life_h": 360,
+      "capacity_mah": 486,
+      "chemistry": "Lithium-ion polymer battery; Battery Life; Typical usage with Andriod system: 15 days; Typical usage with iOS system: 14.5 days; AOD usage: 5 days; Operating Temperature"
+    },
+    "connectivity": {
+      "gps": "Built-in GNSS",
+      "nfc": true,
+      "usb": "2-Pin magnetic charging dock; Microphone",
+      "bluetooth": "Bluetooth 5.2"
+    },
+    "build": {
+      "weight_g": 44.0,
+      "water": "5 ATM",
+      "water_m": 50
+    },
+    "software": {
+      "launch_os": "Android 8.0 or"
+    },
+    "sensors": "Heart rate sensor (with blood oxygen sensor), accelerometer, gyroscope, electronic compass, barometer sensor, ambient light sensor, hall sensor",
+    "audio": {
+      "speakers": "System and Network; System Languages"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "xiaomi",
+      "url": "https://www.mi.com/my/product/xiaomi-watch-s3/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from Xiaomi Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "lowyat",
+        "url": "https://www.lowyat.net/2024/318220/xiaomi-watch-2-watch-s3-launch-msia/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (Lowyat.NET). The global announcement can be earlier."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

@@ -1,0 +1,135 @@
+{
+  "id": "honor-x6b",
+  "name": "HONOR X6b",
+  "brand": "honor",
+  "category": "smartphone",
+  "series": "X",
+  "form": "bar",
+  "status": "released",
+  "announced": "2024-07-22",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 599,
+      "date": "2024-07-22",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2024/327227/honor-x6b-price/",
+      "class": "news",
+      "accessed": "2026-09-18",
+      "note": "Price listed by an HONOR store and retailers before launch, as reported by Lowyat.NET."
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://www.honor.com/content/dam/honor/my/product-list/smartphone/honor-x6b/honor-x6b-green.png",
+    "page": "https://www.honor.com/my/phones/honor-x6b/spec/",
+    "credit": "HONOR Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.56,
+      "type": "LCD",
+      "resolution": "1612 × 720",
+      "ppi": 269
+    },
+    "platform": {
+      "chipset": "helio-g85",
+      "gpu": "ARM Mali G52 MC2",
+      "cpu": "Octa-core; 2*Cortex-A75 up to 2.0Ghz+6*Cortex-A55 up to 1.8Ghz"
+    },
+    "memory": {
+      "ram_gb": [
+        6
+      ],
+      "storage_gb": [
+        256
+      ]
+    },
+    "battery": {
+      "capacity_mah": 5200,
+      "chemistry": "Lithium-ion"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "aperture": "f/1.8"
+        },
+        {
+          "role": "depth",
+          "mp": 2
+        }
+      ],
+      "rear_text": "Rear: 50MP Main Camera(f/1.8) + 2MP Depth Camera(f/2.4)",
+      "front": "5 MP",
+      "rear_detail": [
+        "50MP Main Camera(f/1.8)",
+        "2MP Depth Camera(f/2.4)"
+      ],
+      "features": "10X Digital zoom",
+      "video": "1080p",
+      "front_detail": [
+        "5 MP Camera (f/2.2 aperture)"
+      ]
+    },
+    "connectivity": {
+      "cellular": "4G",
+      "technology": "GSM / HSPA / LTE",
+      "sim": "Nano SIM card",
+      "wifi": "802.11 a/b/g/n/ac",
+      "positioning": "Support GPS/AGPS/GLONASS/BeiDou/Galileo; Network-Based Positioning; Wi-Fi-Based Positioning",
+      "usb": "Type-C",
+      "bluetooth": "Bluetooth"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 163.59,
+        "width_mm": 75.33,
+        "depth_mm": 8.39
+      },
+      "weight_g": 192.0
+    },
+    "software": {
+      "launch_os": "MagicOS 8.0(Android 14)"
+    },
+    "biometrics": {
+      "face": "Yes"
+    },
+    "charging": {
+      "claim": "Support up to 11V/3.2A super charge",
+      "wired_w": 35
+    },
+    "sensors": "Gravity Sensor, Fingerprint Sensor, Ambient Light Sensor, Proximity Sensor, Media and Audio",
+    "audio": {
+      "jack": true
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "honor",
+      "url": "https://www.honor.com/my/phones/honor-x6b/spec/",
+      "checked": "2026-09-18",
+      "note": "Read from HONOR Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "lowyat",
+        "url": "https://www.lowyat.net/2024/327227/honor-x6b-price/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (Lowyat.NET). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

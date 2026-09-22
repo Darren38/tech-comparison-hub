@@ -1,0 +1,157 @@
+{
+  "id": "apple-iphone-16e",
+  "name": "iPhone 16e",
+  "brand": "apple",
+  "category": "smartphone",
+  "series": "iPhone",
+  "form": "bar",
+  "status": "released",
+  "announced": "2025-02-20",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 2999,
+      "config": "128 GB",
+      "date": "2025-02-20",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2025/343123/apple-officially-launches-iphone-16e/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 3499,
+      "config": "256 GB",
+      "date": "2025-02-20",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2025/343123/apple-officially-launches-iphone-16e/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 4499,
+      "config": "512 GB",
+      "date": "2025-02-20",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2025/343123/apple-officially-launches-iphone-16e/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/122208-iphone-16e.png",
+    "page": "https://support.apple.com/en-my/122208",
+    "credit": "Apple",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.1,
+      "type": "OLED",
+      "resolution": "2532 × 1170",
+      "peak_nits": 1200,
+      "ppi": 457
+    },
+    "platform": {
+      "chipset": "apple-a18",
+      "cpu": "6-core CPU with 2 performance and 4 efficiency cores",
+      "gpu": "4-core GPU"
+    },
+    "memory": {
+      "storage_gb": [
+        128,
+        256,
+        512
+      ]
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 48,
+          "aperture": "f/1.6"
+        },
+        {
+          "role": "telephoto",
+          "mp": 12
+        }
+      ],
+      "rear_detail": [
+        "48MP Fusion Main: 26mm, ƒ/1.6 aperture, optical image stabilisation, Hybrid Focus Pixels, super-high-resolution photos (24MP and 48MP)",
+        "Also enables 12MP 2x Telephoto: 52mm, ƒ/1.6 aperture, optical image stabilisation, Hybrid Focus Pixels"
+      ],
+      "features": "Digital zoom up to 10x",
+      "video": "4K@60fps; 1080p",
+      "front_detail": [
+        "12MP camera, ƒ/1.9 aperture"
+      ],
+      "front_video": "4K@60fps; 1080p"
+    },
+    "battery": {
+      "video_h": 26,
+      "chemistry": "Built-in rechargeable lithium-ion battery"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true,
+      "wifi": "Wi-Fi 6 (802.11ax) with 2x2 MIMO",
+      "bluetooth": "Bluetooth 5.3",
+      "bands_2g": "GSM/EDGE (850, 900, 1800, 1900 MHz)",
+      "bands_3g": "UMTS/HSPA+ (850, 900, 1700/2100, 1900, 2100 MHz)",
+      "bands_4g": "FDD-LTE (Bands 1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 25, 26, 28, 30, 32, 66); TD-LTE (Bands 34, 38, 39, 40, 41, 42, 48, 53)",
+      "bands_5g": "5G NR (Bands n1, n2, n3, n5, n7, n8, n12, n20, n25, n26, n28, n30, n38, n40, n41, n48, n53, n66, n70, n75, n76, n77, n78, n79)",
+      "technology": "GSM / HSPA / LTE / 5G",
+      "positioning": "GPS, GLONASS, Galileo, QZSS, BeiDou and NavIC; Digital compass; Wi-Fi; Mobile data",
+      "sim": "Dual SIM (nano-SIM and eSIM); Dual eSIM support",
+      "usb": "USB 2 (up to 480Mb/s)"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 146.7,
+        "width_mm": 71.5,
+        "depth_mm": 7.8
+      },
+      "weight_g": 167.0,
+      "ip": "IP68"
+    },
+    "software": {
+      "launch_os": "iOS 26"
+    },
+    "sensors": "Face ID, Barometer, High dynamic range gyro, High-g accelerometer, Proximity sensor, Dual ambient light sensors",
+    "charging": {
+      "claim": "Fast-charge capable: Up to 50% charge in 30 minutes with 20W adapter or higher (available separately) paired with USB-C charging cable"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "apple",
+      "url": "https://support.apple.com/en-my/122208",
+      "checked": "2026-09-18",
+      "note": "Read from Apple Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "lowyat",
+        "url": "https://www.lowyat.net/2025/343123/apple-officially-launches-iphone-16e/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (Lowyat.NET). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

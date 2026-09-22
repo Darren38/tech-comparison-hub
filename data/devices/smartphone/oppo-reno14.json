@@ -1,0 +1,168 @@
+{
+  "id": "oppo-reno14",
+  "name": "OPPO Reno14 5G",
+  "brand": "oppo",
+  "category": "smartphone",
+  "series": "Reno",
+  "form": "bar",
+  "status": "released",
+  "announced": "2025-07-01",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 2199,
+      "config": "12 GB / 256 GB",
+      "date": "2025-07-01",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/07/01/oppo-reno-14-pro-f-series-5g-malaysia-price-specs-features-launch/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 2599,
+      "config": "12 GB / 512 GB",
+      "date": "2025-07-01",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/07/01/oppo-reno-14-pro-f-series-5g-malaysia-price-specs-features-launch/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/reno14-series/list-page/reno14/448-600-white-v1.png",
+    "page": "https://www.oppo.com/my/smartphones/series-reno/reno14/",
+    "credit": "OPPO Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.59,
+      "type": "AMOLED",
+      "resolution": "2760 × 1256",
+      "refresh_hz": 120,
+      "peak_nits": 1200,
+      "protection": "Corning Gorilla Glass 7i",
+      "ppi": 460
+    },
+    "platform": {
+      "chipset": "dimensity-8350",
+      "gpu": "ARM G615 MC6@1400MHz",
+      "cpu": "8 cores"
+    },
+    "memory": {
+      "ram_gb": [
+        12
+      ],
+      "storage_gb": [
+        256,
+        512
+      ],
+      "ram_type": "LPDDR5X",
+      "storage_type": "UFS 3.1",
+      "card": "No"
+    },
+    "battery": {
+      "capacity_mah": 6000
+    },
+    "charging": {
+      "wired_w": 80,
+      "claim": "80W SUPERVOOC (11V/7.3A), VOOC 3.0 (5V/6A), PD (9V/1.5A), PPS (11V/3A), PS: EU PPS (11V/5A)"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "aperture": "f/1.8",
+          "ois": true
+        },
+        {
+          "role": "ultrawide",
+          "mp": 8
+        },
+        {
+          "role": "telephoto",
+          "mp": 50
+        }
+      ],
+      "front": "50 MP",
+      "rear_detail": [
+        "Wide angle: 50MP; f/1.8; FOV 79°; 5P lens; AF supported; 2-axis OIS supported",
+        "Ultra-wide angle: 8MP; f/2.2; FOV 116°; 5P lens; AF supported",
+        "Telephoto: 50MP; f/2.8; FOV 30°; 4P lens; AF supported; 2-axis OIS supported"
+      ],
+      "front_detail": [
+        "50MP, f/2.0, FOV 90°, 5P lens; AF supported"
+      ],
+      "video": "4K@60fps; 1080p",
+      "features": "Up to 3.5X; Digital zoom: Up to 18X",
+      "front_video": "4K@60fps; 1080p"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true,
+      "bands_2g": "850/900/1800/1900MHz",
+      "bands_3g": "Band 1/2/4/5/6/8/19",
+      "bands_4g": "4G LTE FDD: Band 1/2/3/4/5/7/8/12/13/17/18/19/20/26/28/32/66; 4G LTE TDD: Band 38/39/40/41",
+      "bands_5g": "5G NR: n1/n2/n3/n5/n7/n8/n12/n20/n26/n28/n38/n40/n41/n66/n77/n78",
+      "technology": "GSM / HSPA / LTE / 5G",
+      "sim": "Nano-SIM card + eSIM",
+      "bluetooth": "Bluetooth 5.4, Low Energy",
+      "usb": "USB Type-C",
+      "positioning": "Single band: Beidou, GPS, GLONASS, Galileo, QZSS",
+      "wifi": "Wi-Fi 2.4G, Wi-Fi 5G, Wi-Fi 6 (802.11ax), Wi-Fi 5 (802.11ac), 802.11b/g/a/n; Wi-Fi 2.4GHz 20M, Wi-Fi 2.4GHz 40M"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 157.9,
+        "width_mm": 74.73,
+        "depth_mm": 7.42
+      },
+      "weight_g": 187.0
+    },
+    "software": {
+      "launch_os": "ColorOS 15.0"
+    },
+    "biometrics": {
+      "face": "Yes",
+      "fingerprint": "In-display optical fingerprint sensor"
+    },
+    "sensors": "Proximity sensor, Ambient light sensor, E-compass, Accelerometer, Gyroscope, In-display optical fingerprint sensor, Infrared remote control",
+    "audio": {
+      "jack": false
+    },
+    "misc": {
+      "colors": "Opal White, Luminous Green"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "oppo",
+      "url": "https://www.oppo.com/my/smartphones/series-reno/reno14/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from OPPO Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2025/07/01/oppo-reno-14-pro-f-series-5g-malaysia-price-specs-features-launch/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

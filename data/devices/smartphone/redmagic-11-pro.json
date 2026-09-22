@@ -1,0 +1,139 @@
+{
+  "id": "redmagic-11-pro",
+  "name": "REDMAGIC 11 Pro",
+  "brand": "redmagic",
+  "category": "smartphone",
+  "series": "REDMAGIC",
+  "form": "bar",
+  "status": "released",
+  "announced": "2025-11",
+  "released": "2025-11-18",
+  "segment": "gaming",
+  "aliases": [
+    "Red Magic 11 Pro",
+    "RM11 Pro",
+    "nubia REDMAGIC 11 Pro"
+  ],
+  "summary": "Gaming phone with liquid cooling plus an internal fan, an under-display selfie camera and a 7,500 mAh battery. It posts the highest peak GPU scores in the database.",
+  "highlights": [
+    "Liquid cooling + 24,000 RPM fan",
+    "Under-display selfie camera",
+    "120 W wired / 80 W wireless",
+    "From $669"
+  ],
+  "prices": [
+    {
+      "region": "US",
+      "currency": "USD",
+      "amount": 669,
+      "config": "12 GB / 256 GB",
+      "date": "2025-11",
+      "type": "launch",
+      "source": "gsmarena",
+      "url": "https://www.gsmarena.com/redmagic_11_pro_brings_its_liquid_cooling_to_the_global_stage-news-70139.php",
+      "class": "news"
+    },
+    {
+      "region": "EU",
+      "currency": "EUR",
+      "amount": 669,
+      "config": "12 GB / 256 GB",
+      "date": "2025-11",
+      "type": "launch",
+      "source": "gsmarena",
+      "url": "https://www.gsmarena.com/redmagic_11_pro_brings_its_liquid_cooling_to_the_global_stage-news-70139.php",
+      "class": "news"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 3399,
+      "config": "12 GB / 256 GB",
+      "date": "2025-11-06",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/11/06/redmagic-11-pro-malaysia-price-specs-availability/",
+      "class": "news",
+      "accessed": "2026-09-16",
+      "note": "Recommended retail price."
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 6.85,
+      "type": "AMOLED (full screen, under-display camera)",
+      "resolution": "2688 × 1216",
+      "ppi": 431,
+      "refresh_hz": 144
+    },
+    "platform": {
+      "chipset": "snapdragon-8-elite-gen-5",
+      "chipset_note": "Plus REDMAGIC RedCore R4 gaming co-processor"
+    },
+    "memory": {
+      "ram_gb": [
+        12,
+        16,
+        24
+      ],
+      "storage_gb": [
+        256,
+        512,
+        1024
+      ]
+    },
+    "battery": {
+      "capacity_mah": 7500
+    },
+    "charging": {
+      "wired_w": 120,
+      "wireless_w": 80
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50
+        },
+        {
+          "role": "ultrawide",
+          "mp": 50
+        }
+      ],
+      "zoom_optical_x": 1,
+      "front": "16 MP under-display"
+    },
+    "build": {
+      "ip": "IPX8",
+      "cooling": "AquaCore liquid cooling, 13,116 mm² vapour chamber, 24,000 RPM fan"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true
+    },
+    "audio": {
+      "speakers": "Stereo"
+    },
+    "software": {
+      "launch_os": "Android 16, REDMAGIC OS"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "redmagic",
+      "url": "https://global.redmagic.gg/pages/redmagic-11-pro-specs",
+      "checked": "2026-09-15",
+      "note": "Cross-checked against REDMAGIC's global spec page listing and GSMArena's global launch report."
+    },
+    "fields": {}
+  },
+  "dataStatus": "checked",
+  "image": {
+    "kind": "official",
+    "src": "https://global.redmagic.gg/cdn/shop/files/3colors.png?v=1776831489",
+    "page": "https://global.redmagic.gg/products/redmagic-11-pro",
+    "credit": "REDMAGIC",
+    "checked": "2026-09-19"
+  }
+}

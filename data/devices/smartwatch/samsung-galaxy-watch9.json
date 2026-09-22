@@ -1,0 +1,121 @@
+{
+  "id": "samsung-galaxy-watch9",
+  "name": "Galaxy Watch9",
+  "brand": "samsung",
+  "category": "smartwatch",
+  "series": "Galaxy Watch",
+  "form": "watch",
+  "status": "released",
+  "announced": "2026-07-22",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1499,
+      "config": "40 mm, Bluetooth",
+      "date": "2026-07-22",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2026/399359/samsung-galaxy-watch9-watch-ultra2/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1799,
+      "config": "40 mm, LTE",
+      "date": "2026-07-22",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2026/399359/samsung-galaxy-watch9-watch-ultra2/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1599,
+      "config": "44 mm, Bluetooth",
+      "date": "2026-07-22",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2026/399359/samsung-galaxy-watch9-watch-ultra2/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1899,
+      "config": "44 mm, LTE",
+      "date": "2026-07-22",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2026/399359/samsung-galaxy-watch9-watch-ultra2/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://images.samsung.com/is/image/samsung/p6pim/my/f2607/gallery/my-galaxy-watch9-l340-sm-l340nzeaxme-thumb-553764372?$650_519_PNG$",
+    "page": "https://www.samsung.com/my/watches/galaxy-watch/galaxy-watch9-40mm-cream-bluetooth-sm-l340nzeaxme/",
+    "credit": "Samsung Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 1.3,
+      "type": "Super AMOLED",
+      "resolution": "438 × 438"
+    },
+    "connectivity": {
+      "gps": "Built-in GNSS",
+      "nfc": true,
+      "cellular": "LTE option",
+      "bluetooth": "Bluetooth v6.0",
+      "positioning": "GPS, Glonass, Beidou, Galileo, QZSS",
+      "wifi": "802.11a/b/g/n 2.4GHz+5GHz"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 42.7,
+        "width_mm": 40.4,
+        "depth_mm": 8.6
+      },
+      "weight_g": 31.5,
+      "water": "5 ATM",
+      "water_m": 50
+    },
+    "software": {
+      "launch_os": "Wear OS Powered by Samsung"
+    },
+    "sensors": "Accelerometer, Barometer, Bioelectrical Impedance Analysis Sensor, Electrical Heart Sensor, Gyro Sensor, Geomagnetic Sensor, Light Sensor, Optical Heart Rate Sensor, Temperature Sensor, Storage (GB), 32",
+    "battery": {
+      "chemistry": "Lithium-Ion; Software Support; Security Update Period (Valid until); 31 July 2031"
+    },
+    "platform": {
+      "cpu": "2.1GHz, 1.95GHz; Penta-Core; Storage/Memory; Memory (GB); 2 cores"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "samsung",
+      "url": "https://www.samsung.com/my/watches/galaxy-watch/galaxy-watch9-40mm-cream-bluetooth-sm-l340nzeaxme/",
+      "checked": "2026-09-18",
+      "note": "Read from Samsung Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "lowyat",
+        "url": "https://www.lowyat.net/2026/399359/samsung-galaxy-watch9-watch-ultra2/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (Lowyat.NET). The global announcement can be earlier."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

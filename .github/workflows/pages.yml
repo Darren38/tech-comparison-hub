@@ -1,0 +1,66 @@
+# Builds the site and publishes it to GitHub Pages.
+#
+# Runs on every push to main, every 3 hours, and on demand (Actions tab > "Build and deploy" > Run workflow).
+# Each run refreshes the two live parts before building:
+#   - Bank Negara Malaysia exchange rates   (tools/update_rates.py; keeps the saved rates if unreachable)
+#   - latest headlines from registered feeds (tools/fetch_headlines.py; keeps the saved file if every feed fails)
+# The research data in data/ only changes when it is edited and pushed. If data/ fails validation,
+# the build stops and the previous deployment stays online.
+name: Build and deploy
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "17 */3 * * *" # every 3 hours (UTC), at minute 17 to avoid the busy top of the hour
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Refresh exchange rates (Bank Negara Malaysia)
+        run: python tools/update_rates.py
+
+      - name: Collect latest headlines
+        run: python tools/fetch_headlines.py
+
+      - name: Validate and build data
+        run: python tools/build.py
+
+      - name: Assemble the site
+        run: |
+          mkdir _site
+          cp -r index.html sw.js assets src generated live _site/
+          touch _site/.nojekyll
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

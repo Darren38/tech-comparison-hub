@@ -1,0 +1,103 @@
+{
+  "id": "tablet",
+  "name": "Tablets",
+  "singular": "Tablet",
+  "order": 2,
+  "schematic": "slab",
+  "scoreCategories": ["performance", "gaming", "battery", "charging", "display", "software", "build"],
+  "cardFields": ["display.size_in", "platform.chipset", "battery.capacity_wh", "build.weight_g"],
+  "specSections": [
+    {
+      "id": "display",
+      "label": "Display",
+      "facet": "display",
+      "fields": [
+        { "key": "display.size_in", "label": "Size", "type": "number", "unit": "in", "digits": 1 },
+        { "key": "display.type", "label": "Panel", "type": "text" },
+        { "key": "display.resolution", "label": "Resolution", "type": "text" },
+        { "key": "display.ppi", "label": "Pixel density", "type": "number", "unit": "ppi", "better": "higher" },
+        { "key": "display.refresh_hz", "label": "Max refresh rate", "type": "number", "unit": "Hz", "better": "higher" },
+        { "key": "display.peak_nits", "label": "Peak brightness (claimed)", "type": "number", "unit": "nits", "better": "higher" },
+        { "key": "display.sdr_nits", "label": "Full-screen SDR brightness (claimed)", "type": "number", "unit": "nits", "better": "higher" }
+      ]
+    },
+    {
+      "id": "platform",
+      "label": "Platform",
+      "facet": "performance",
+      "fields": [
+        { "key": "platform.chipset", "label": "Chipset", "type": "chipset" },
+        { "key": "platform.chipset_note", "label": "Chipset variant", "type": "text" },
+        { "key": "memory.ram_gb", "label": "RAM", "type": "list", "unit": "GB", "better": "higher" },
+        { "key": "memory.storage_gb", "label": "Storage", "type": "storage", "better": "higher" },
+        { "key": "memory.expandable", "label": "Card slot", "type": "bool" }
+      ]
+    },
+    {
+      "id": "battery",
+      "label": "Battery & charging",
+      "facet": "battery",
+      "fields": [
+        { "key": "battery.capacity_wh", "label": "Capacity", "type": "number", "unit": "Wh", "digits": 1, "better": "higher" },
+        { "key": "battery.capacity_mah", "label": "Capacity (mAh)", "type": "number", "unit": "mAh", "better": "higher" },
+        { "key": "battery.claim", "label": "Battery claim", "type": "text" },
+        { "key": "charging.wired_w", "label": "Wired charging", "type": "number", "unit": "W", "better": "higher" },
+        { "key": "charging.claim", "label": "Charging claim", "type": "text" }
+      ]
+    },
+    {
+      "id": "input",
+      "label": "Stylus & keyboard",
+      "facet": "build",
+      "fields": [
+        { "key": "input.stylus", "label": "Stylus", "type": "text" },
+        { "key": "input.keyboard", "label": "Keyboard", "type": "text" }
+      ]
+    },
+    {
+      "id": "build",
+      "label": "Design & build",
+      "facet": "build",
+      "fields": [
+        { "key": "build.dimensions", "label": "Dimensions", "type": "dimensions" },
+        { "key": "build.weight_g", "label": "Weight", "type": "number", "unit": "g", "better": "lower" },
+        { "key": "build.ip", "label": "Ingress protection", "type": "text" }
+      ]
+    },
+    {
+      "id": "connectivity",
+      "label": "Connectivity",
+      "facet": "connectivity",
+      "fields": [
+        { "key": "connectivity.cellular", "label": "Cellular", "type": "text" },
+        { "key": "connectivity.wifi", "label": "Wi-Fi", "type": "text" },
+        { "key": "connectivity.bluetooth", "label": "Bluetooth", "type": "text" },
+        { "key": "connectivity.usb", "label": "USB", "type": "text" }
+      ]
+    },
+    {
+      "id": "software",
+      "label": "Software & support",
+      "facet": "software",
+      "fields": [
+        { "key": "software.launch_os", "label": "OS at launch", "type": "text" },
+        { "key": "software.os_updates_years", "label": "OS upgrade commitment", "type": "number", "unit": "years", "better": "higher" },
+        { "key": "software.security_updates_years", "label": "Security update commitment", "type": "number", "unit": "years", "better": "higher" },
+        { "key": "software.policy_note", "label": "Support note", "type": "text" }
+      ]
+    }
+  ],
+  "filters": [
+    { "id": "brand", "label": "Brand", "type": "multi" },
+    { "id": "price", "label": "Launch price", "type": "range", "unit": "currency", "step": 100 },
+    { "id": "soldMY", "label": "Sold in Malaysia", "type": "bool" },
+    { "id": "displayIn", "label": "Screen size", "type": "range", "unit": "in", "step": 0.1 },
+    { "id": "chipset", "label": "Chipset", "type": "multi" },
+    { "id": "osFamily", "label": "Operating system", "type": "multi" },
+    { "id": "ramMax", "label": "RAM (max)", "type": "min", "unit": "GB", "options": [8, 12, 16] },
+    { "id": "storageMax", "label": "Storage (max)", "type": "min", "unit": "GB", "options": [256, 512, 1024] },
+    { "id": "stylus", "label": "Stylus support", "type": "bool" },
+    { "id": "keyboard", "label": "Keyboard support", "type": "bool" },
+    { "id": "hasTests", "label": "Independent test data", "type": "bool" }
+  ]
+}

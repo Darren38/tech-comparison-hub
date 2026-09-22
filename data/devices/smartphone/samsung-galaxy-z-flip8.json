@@ -1,0 +1,202 @@
+{
+  "id": "samsung-galaxy-z-flip8",
+  "name": "Galaxy Z Flip8",
+  "brand": "samsung",
+  "category": "smartphone",
+  "series": "Galaxy Z",
+  "form": "foldable",
+  "status": "released",
+  "announced": "2026-07-23",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 5399,
+      "date": "2026-07-23",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2026/07/23/samsung-galaxy-z-flip-8-hands-on-malaysia-price-whats-actually-new/",
+      "class": "news",
+      "accessed": "2026-09-18",
+      "note": "Starting price."
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 6.9,
+      "type": "Dynamic AMOLED 2X",
+      "resolution": "2520 × 1080",
+      "refresh_hz": 120,
+      "ppi": 397
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true,
+      "bands_2g": "GSM850, GSM900, DCS1800, PCS1900",
+      "bands_3g": "B1(2100), B2(1900), B4(AWS), B5(850), B8(900)",
+      "bands_4g": "4G FDD LTE: B1(2100), B2(1900), B3(1800), B4(AWS), B5(850), B7(2600), B8(900), B12(700), B13(700), B17(700), B18(800), B19(800), B20(800), B25(1900), B26(850), B28(700), B66(AWS-3); 4G TDD LTE: B38(2600), B39(1900), B40(2300), B41(2500)",
+      "bands_5g": "5G FDD Sub6: N1(2100), N2(1900), N3(1800), N5(850), N7(2600), N8(900), N12(700), N20(800), N25(1900), N26(850), N28(700), N66(AWS-3), N71(600); 5G TDD Sub6: N38(2600), N40(2300), N41(2500), N77(3700), N78(3500)",
+      "technology": "GSM / HSPA / LTE / 5G",
+      "sim": "Dual-SIM; Nano-SIM (4FF), Embedded-SIM; SIM 1 + eSIM / Dual eSIM",
+      "wifi": "802.11a/b/g/n/ac/ax/be 2.4GHz+5GHz+6GHz, EHT320, MIMO, 4096-QAM",
+      "bluetooth": "Bluetooth v5.4",
+      "positioning": "GPS, Glonass, Beidou, Galileo, QZSS",
+      "usb": "USB Type-C, USB 3.2 Gen 1"
+    },
+    "build": {
+      "weight_g": 180.0,
+      "dimensions": {
+        "height_mm": 166.9,
+        "width_mm": 75.4,
+        "depth_mm": 6.1
+      }
+    },
+    "memory": {
+      "ram_gb": [
+        12
+      ],
+      "storage_gb": [
+        256,
+        512
+      ]
+    },
+    "platform": {
+      "chipset": "exynos-2600",
+      "cpu": "Deca-Core; 3.8GHz, 3.26GHz, 2.76GHz"
+    },
+    "battery": {
+      "capacity_mah": 4300
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "aperture": "f/1.8",
+          "ois": true
+        }
+      ],
+      "rear_text": "Rear: 50 MP + 12 MP",
+      "front": "10 MP",
+      "rear_detail": [
+        "50 MP, f/1.8, OIS",
+        "12 MP, f/2.2"
+      ],
+      "features": "Optical quality Zoom 2x (Enabled by Adaptive Pixel sensor) , Digital Zoom up to 10x",
+      "front_detail": [
+        "10 MP, f/2.2"
+      ],
+      "video": "UHD 4K (3840 x 2160)@60fps"
+    },
+    "audio": {
+      "speakers": "Stereo speakers",
+      "jack": false
+    },
+    "sensors": "Accelerometer, Barometer, Fingerprint Sensor, Gyro Sensor, Geomagnetic Sensor, Hall Sensor, Light Sensor, Proximity Sensor",
+    "software": {
+      "security_updates_years": 7,
+      "security_until": "2033-07-31"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "samsung",
+      "url": "https://www.samsung.com/my/smartphones/galaxy-z-flip8/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from Samsung Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "specs.platform": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2026/07/23/samsung-galaxy-z-flip-8-hands-on-malaysia-price-whats-actually-new/",
+        "note": "Chip named in SoyaCincau's Malaysian coverage; the maker's own specification data for this model does not name it.",
+        "checked": "2026-09-18"
+      },
+      "specs.display": {
+        "class": "official",
+        "source": "samsung",
+        "url": "https://www.samsung.com/my/support/model/SM-F776BLGAXME/",
+        "note": "Read from Samsung's own specification data for the Malaysian model SM-F776BLGAXME (what samsung.com/my shows); the Malaysian product page itself lists only a few specifications.",
+        "checked": "2026-09-18"
+      },
+      "specs.battery": {
+        "class": "official",
+        "source": "samsung",
+        "url": "https://www.samsung.com/my/support/model/SM-F776BLGAXME/",
+        "note": "Read from Samsung's own specification data for the Malaysian model SM-F776BLGAXME (what samsung.com/my shows); the Malaysian product page itself lists only a few specifications.",
+        "checked": "2026-09-18"
+      },
+      "specs.camera": {
+        "class": "official",
+        "source": "samsung",
+        "url": "https://www.samsung.com/my/support/model/SM-F776BLGAXME/",
+        "note": "Read from Samsung's own specification data for the Malaysian model SM-F776BLGAXME (what samsung.com/my shows); the Malaysian product page itself lists only a few specifications.",
+        "checked": "2026-09-18"
+      },
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2026/07/23/samsung-galaxy-z-flip-8-hands-on-malaysia-price-whats-actually-new/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      },
+      "specs.camera.features": {
+        "class": "official",
+        "source": "samsung",
+        "url": "https://www.samsung.com/my/smartphones/galaxy-z-flip8/specs/",
+        "checked": "2026-09-18",
+        "note": "Read from Samsung Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+      },
+      "specs.camera.front_detail": {
+        "class": "official",
+        "source": "samsung",
+        "url": "https://www.samsung.com/my/smartphones/galaxy-z-flip8/specs/",
+        "checked": "2026-09-18",
+        "note": "Read from Samsung Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+      },
+      "specs.camera.rear": {
+        "class": "official",
+        "source": "samsung",
+        "url": "https://www.samsung.com/my/smartphones/galaxy-z-flip8/specs/",
+        "checked": "2026-09-18",
+        "note": "Read from Samsung Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+      },
+      "specs.camera.rear_detail": {
+        "class": "official",
+        "source": "samsung",
+        "url": "https://www.samsung.com/my/smartphones/galaxy-z-flip8/specs/",
+        "checked": "2026-09-18",
+        "note": "Read from Samsung Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+      },
+      "specs.camera.video": {
+        "class": "official",
+        "source": "samsung",
+        "url": "https://www.samsung.com/my/smartphones/galaxy-z-flip8/specs/",
+        "checked": "2026-09-18",
+        "note": "Read from Samsung Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+      },
+      "specs.platform.cpu": {
+        "class": "official",
+        "source": "samsung",
+        "url": "https://www.samsung.com/my/smartphones/galaxy-z-flip8/specs/",
+        "checked": "2026-09-18",
+        "note": "Read from Samsung Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://images.samsung.com/is/image/samsung/p6pim/my/f2607/gallery/my-galaxy-zflip8-f776-599227-sm-f776blgaxme-553738010?$624_624_PNG$",
+    "page": "https://www.samsung.com/my/support/model/SM-F776BLGAXME/",
+    "credit": "Samsung Malaysia",
+    "checked": "2026-09-19"
+  }
+}

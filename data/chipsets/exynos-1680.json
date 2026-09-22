@@ -1,0 +1,16 @@
+{
+  "id": "exynos-1680",
+  "name": "Exynos 1680",
+  "vendor": "samsung",
+  "family": "Exynos",
+  "summary": "Name recorded from phone makers' specification pages and launch reports. Chip details have not been compiled yet.",
+  "provenance": {
+    "default": {
+      "class": "news",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2026/03/26/samsung-galaxy-a57-5g-a37-5g-malaysia-price-specs-preorder/",
+      "checked": "2026-09-18",
+      "note": "Chip name as given for the Galaxy A57 5G."
+    }
+  }
+}

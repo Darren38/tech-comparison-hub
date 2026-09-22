@@ -1,0 +1,137 @@
+{
+  "id": "leica-leitzphone-powered-by-xiaomi",
+  "name": "Leica Leitzphone powered by Xiaomi",
+  "brand": "xiaomi",
+  "category": "smartphone",
+  "series": "Leica",
+  "form": "bar",
+  "status": "released",
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-18",
+      "source": "xiaomi",
+      "url": "https://www.mi.com/my/product/leica-leitzphone-powered-by-xiaomi/specs/",
+      "note": "Sold in Malaysia, but no launch price was found in Malaysian launch coverage."
+    }
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.9,
+      "type": "OLED",
+      "resolution": "2608 × 1200",
+      "peak_nits": 3500,
+      "protection": "Xiaomi Shield Glass 3.0",
+      "ppi": 416
+    },
+    "platform": {
+      "chipset": "snapdragon-8-elite-gen-5",
+      "gpu": "Adreno GPU",
+      "cpu": "2 x Prime Core, up to 4.6GHz; 6 x Performance Core, up to 3.62GHz"
+    },
+    "memory": {
+      "ram_gb": [
+        16
+      ],
+      "storage_gb": [
+        1024
+      ],
+      "ram_type": "LPDDR5X",
+      "storage_type": "UFS 4.1"
+    },
+    "battery": {
+      "capacity_mah": 6000
+    },
+    "charging": {
+      "wired_w": 90,
+      "wireless_w": 50,
+      "claim": "90W wired HyperCharge; 50W wireless HyperCharge"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "telephoto",
+          "mp": 200
+        },
+        {
+          "role": "main",
+          "mp": 200
+        },
+        {
+          "role": "telephoto",
+          "mp": 50
+        }
+      ],
+      "front": "50 MP",
+      "rear_detail": [
+        "Leica 23mm main camera, 50MP, Light Fusion 1050L image sensor, 1\" sensor size, 3.2μm 4-in-1 Super Pixel, ƒ/1.67, OIS, 23mm equivalent focal length, Leica 200MP 75-100mm telephoto, 200MP, Samsung HPE image sensor, 1/1.4\" sensor size, 2.24μm 16-in-1 pixel size, ƒ/2.39-ƒ/2.96, OIS, 75-100mm equivalent focal length",
+        "Leica 14mm ultra-wide camera, 50MP, Samsung JN5 image sensor, 1/2.75\" sensor size, 1.28μm 4-in-1 pixel size, ƒ/2.2, 14mm equivalent focal length, FOV 115°"
+      ],
+      "video": "8K@30fps; 1080p",
+      "front_detail": [
+        "50MP Auto Focus Camera, 50MP, OV50M image sensor, 1/2.87\" sensor size, 1.22μm 4-in-1 binning, ƒ/2.2, 21mm equivalent focal length, 90° FOV"
+      ],
+      "front_video": "4K@60fps; 1080p"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true,
+      "bands_3g": "B1/2/4/5/6/8/19",
+      "bands_4g": "LTE FDD: B1/2/3/4/5/7/8/12/13/17/18/19/20/25/26/28/32/66/71; LTE TDD: B38/39/40/41/42/48",
+      "bands_5g": "5G SA: n1/2/3/5/7/8/12/20/25/26/28/38/40/41/48/66/71/75/; 5G NSA: n1/2/3/5/7/8/20/28/38/40/41/66/71/75/77/78/79",
+      "technology": "HSPA / LTE / 5G",
+      "positioning": "L1+L5; Galileo: E1+E5a; GLONASS: G1; Beidou; QZSS: L1 + L5; NavIC: L5; A-GPS supplementary positioning; Electronic compass; Wireless network; Data network; SAP",
+      "sim": "Dual SIM (nano SIM + nano SIM or nano SIM + eSIM, eSIM + eSIM)",
+      "wifi": "Wi-Fi 7 capability",
+      "bluetooth": "Bluetooth 6.0",
+      "usb": "USB Type-C"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 162.9,
+        "width_mm": 77.6,
+        "depth_mm": 8.32
+      },
+      "weight_g": 223.4,
+      "ip": "IP68"
+    },
+    "software": {
+      "launch_os": "Xiaomi HyperOS 3"
+    },
+    "audio": {
+      "speakers": "Hi-Res & Hi-Res Audio Wireless certification, Dolby Atmos; Supports audio formats: MP3, FLAC, APE, AAC, OGG, WAV, AMR, AWB; Supports video formats: MP4, MKV, WEBM, 3GP, TS; Supports HDR display when playing HDR10/HDR10+, Dolby Vision, HDR Vivid video content; Splash, Water and Dust Resistant"
+    },
+    "sensors": "Proximity sensor, Ambient light sensor, Accelerometer, Gyroscope, Electronic compass, X-axis linear vibration motor, IR blaster, Flicker sensor, Laser focus sensor, Barometer, Hall sensor, Optical Tracking Sensor",
+    "biometrics": {
+      "fingerprint": "Ultrasonic in-screen fingerprint sensor",
+      "face": "AI face unlock"
+    },
+    "misc": {
+      "colors": "Black"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "xiaomi",
+      "url": "https://www.mi.com/my/product/leica-leitzphone-powered-by-xiaomi/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from Xiaomi Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://i02.appmifile.com/224_item_my/14/02/2026/592f35a2aa4e3f14f22b5ab810965ba3.png",
+    "page": "https://www.mi.com/my/product/leica-leitzphone-powered-by-xiaomi/specs/",
+    "credit": "Xiaomi",
+    "checked": "2026-09-19"
+  }
+}

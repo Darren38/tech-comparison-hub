@@ -1,0 +1,660 @@
+[
+  {
+    "id": "gb6_single",
+    "name": "Geekbench 6 single-core",
+    "short": "GB6 single",
+    "unit": "pts",
+    "better": "higher",
+    "facet": "performance",
+    "level": "chipset",
+    "comparability": "global",
+    "family": "geekbench6",
+    "plausible": [
+      300,
+      6500
+    ],
+    "description": "Short bursts of work on one CPU core: how responsive the phone feels when opening apps and loading pages."
+  },
+  {
+    "id": "gb6_multi",
+    "name": "Geekbench 6 multi-core",
+    "short": "GB6 multi",
+    "unit": "pts",
+    "better": "higher",
+    "facet": "performance",
+    "level": "chipset",
+    "comparability": "global",
+    "family": "geekbench6",
+    "plausible": [
+      800,
+      20000
+    ],
+    "description": "All CPU cores working together on shared tasks: exports, compiling, heavy multitasking."
+  },
+  {
+    "id": "antutu_v10",
+    "name": "AnTuTu v10 total",
+    "short": "AnTuTu 10",
+    "unit": "pts",
+    "better": "higher",
+    "facet": "performance",
+    "level": "chipset",
+    "comparability": "global",
+    "family": "antutu",
+    "version": "10",
+    "plausible": [
+      200000,
+      4500000
+    ],
+    "notComparableWith": [
+      "antutu_v11"
+    ],
+    "description": "Composite CPU, GPU, memory and UX score. AnTuTu v10 and v11 use different workloads and scales, so their totals are never compared with each other."
+  },
+  {
+    "id": "antutu_v11",
+    "name": "AnTuTu v11 total",
+    "short": "AnTuTu 11",
+    "unit": "pts",
+    "better": "higher",
+    "facet": "performance",
+    "level": "chipset",
+    "comparability": "global",
+    "family": "antutu",
+    "version": "11",
+    "plausible": [
+      300000,
+      5500000
+    ],
+    "notComparableWith": [
+      "antutu_v10"
+    ],
+    "description": "Composite CPU, GPU, memory and UX score (version 11, released 2025). Not comparable with v10 totals."
+  },
+  {
+    "id": "wle",
+    "name": "3DMark Wild Life Extreme",
+    "short": "WLE peak",
+    "unit": "pts",
+    "better": "higher",
+    "facet": "gaming",
+    "level": "chipset",
+    "comparability": "global",
+    "family": "3dmark",
+    "plausible": [
+      500,
+      12000
+    ],
+    "description": "Peak GPU performance in a demanding Vulkan/Metal scene (best loop or single run). Shows the GPU's ceiling, not what it can sustain."
+  },
+  {
+    "id": "wle_stability",
+    "name": "3DMark WLE Stress Test stability",
+    "short": "WLE stability",
+    "unit": "%",
+    "better": "higher",
+    "facet": "gaming",
+    "level": "device",
+    "comparability": "global",
+    "family": "3dmark",
+    "plausible": [
+      10,
+      100
+    ],
+    "description": "Lowest loop divided by best loop across 20 runs of Wild Life Extreme. Depends on the phone's cooling as much as on the chip, so it is never inherited from the chipset."
+  },
+  {
+    "id": "solar_bay",
+    "name": "3DMark Solar Bay (ray tracing)",
+    "short": "Solar Bay",
+    "unit": "pts",
+    "better": "higher",
+    "facet": "gaming",
+    "level": "chipset",
+    "comparability": "global",
+    "family": "3dmark",
+    "plausible": [
+      1000,
+      22000
+    ],
+    "description": "Hardware ray-tracing performance."
+  },
+  {
+    "id": "steel_nomad_light",
+    "name": "3DMark Steel Nomad Light",
+    "short": "Steel Nomad L",
+    "unit": "pts",
+    "better": "higher",
+    "facet": "gaming",
+    "level": "chipset",
+    "comparability": "global",
+    "family": "3dmark",
+    "plausible": [
+      300,
+      9000
+    ],
+    "description": "Modern rasterised game workload (successor to Wild Life Extreme)."
+  },
+  {
+    "id": "cpu_stress",
+    "name": "CPU stress test stability",
+    "short": "CPU stability",
+    "unit": "%",
+    "better": "higher",
+    "facet": "thermals",
+    "level": "device",
+    "comparability": "document",
+    "plausible": [
+      10,
+      100
+    ],
+    "description": "Sustained CPU performance relative to peak under a long stress run. Tools differ between reviewers, so results are only compared within the same test."
+  },
+  {
+    "id": "cpu_power",
+    "name": "CPU power at full multi-core load",
+    "short": "CPU power",
+    "unit": "W",
+    "better": "lower",
+    "facet": "efficiency",
+    "level": "chipset",
+    "comparability": "document",
+    "plausible": [
+      2,
+      40
+    ],
+    "digits": 1,
+    "description": "Power drawn by the CPU at full load. Needs lab equipment; only compared within the same tester's run."
+  },
+  {
+    "id": "gpu_power",
+    "name": "GPU power in 3DMark Steel Nomad Light",
+    "short": "GPU power",
+    "unit": "W",
+    "better": "lower",
+    "facet": "efficiency",
+    "level": "chipset",
+    "comparability": "document",
+    "plausible": [
+      2,
+      30
+    ],
+    "digits": 1,
+    "description": "Power drawn by the GPU during a fixed 3D workload. Only compared within the same tester's run."
+  },
+  {
+    "id": "gsma_active_use",
+    "name": "GSMArena Active Use Score",
+    "short": "Active Use",
+    "unit": "h",
+    "better": "higher",
+    "facet": "battery",
+    "level": "device",
+    "comparability": "global",
+    "plausible": [
+      5,
+      40
+    ],
+    "description": "GSMArena's estimate of runtime under a mix of calls, web browsing, video playback and gaming. One lab, one method, so every score here is directly comparable."
+  },
+  {
+    "id": "gsma_web",
+    "name": "GSMArena web browsing runtime",
+    "short": "Web",
+    "unit": "h",
+    "better": "higher",
+    "facet": "battery",
+    "level": "device",
+    "comparability": "global",
+    "plausible": [
+      3,
+      40
+    ]
+  },
+  {
+    "id": "gsma_video",
+    "name": "GSMArena video playback runtime",
+    "short": "Video",
+    "unit": "h",
+    "better": "higher",
+    "facet": "battery",
+    "level": "device",
+    "comparability": "global",
+    "plausible": [
+      5,
+      60
+    ]
+  },
+  {
+    "id": "gsma_gaming",
+    "name": "GSMArena gaming runtime",
+    "short": "Gaming",
+    "unit": "h",
+    "better": "higher",
+    "facet": "battery",
+    "level": "device",
+    "comparability": "global",
+    "plausible": [
+      2,
+      30
+    ]
+  },
+  {
+    "id": "gsma_calls",
+    "name": "GSMArena call runtime",
+    "short": "Calls",
+    "unit": "h",
+    "better": "higher",
+    "facet": "battery",
+    "level": "device",
+    "comparability": "global",
+    "plausible": [
+      5,
+      80
+    ]
+  },
+  {
+    "id": "battery_rundown",
+    "name": "Real-world battery rundown",
+    "short": "Rundown",
+    "unit": "h",
+    "better": "higher",
+    "facet": "battery",
+    "level": "device",
+    "comparability": "document",
+    "plausible": [
+      3,
+      30
+    ],
+    "description": "Side-by-side battery drain through one reviewer's scripted routine. Each test has its own conditions, so results are only compared within the same test."
+  },
+  {
+    "id": "charge_15",
+    "name": "Charge after 15 minutes",
+    "short": "15 min",
+    "unit": "%",
+    "better": "higher",
+    "facet": "charging",
+    "level": "device",
+    "comparability": "global",
+    "plausible": [
+      5,
+      100
+    ]
+  },
+  {
+    "id": "charge_30",
+    "name": "Charge after 30 minutes",
+    "short": "30 min",
+    "unit": "%",
+    "better": "higher",
+    "facet": "charging",
+    "level": "device",
+    "comparability": "global",
+    "plausible": [
+      10,
+      100
+    ]
+  },
+  {
+    "id": "charge_full",
+    "name": "Time to full charge",
+    "short": "0–100%",
+    "unit": "min",
+    "better": "lower",
+    "facet": "charging",
+    "level": "device",
+    "comparability": "global",
+    "plausible": [
+      10,
+      240
+    ],
+    "description": "Minutes from empty to 100% with the maker's recommended charger."
+  },
+  {
+    "id": "wireless_charge_full",
+    "name": "Time to full charge (wireless)",
+    "short": "Wireless 0–100%",
+    "unit": "min",
+    "better": "lower",
+    "facet": "charging",
+    "level": "device",
+    "comparability": "global",
+    "plausible": [
+      30,
+      400
+    ]
+  },
+  {
+    "id": "nits_manual",
+    "name": "Max brightness, manual (measured)",
+    "short": "Manual",
+    "unit": "nits",
+    "better": "higher",
+    "facet": "display",
+    "level": "device",
+    "comparability": "global",
+    "plausible": [
+      200,
+      2500
+    ],
+    "description": "Light-meter reading of a 75% white patch at the highest manual brightness."
+  },
+  {
+    "id": "nits_auto",
+    "name": "Max brightness, auto (measured)",
+    "short": "Auto",
+    "unit": "nits",
+    "better": "higher",
+    "facet": "display",
+    "level": "device",
+    "comparability": "global",
+    "plausible": [
+      300,
+      4000
+    ],
+    "description": "75% white patch in bright ambient light with auto-brightness on: what you get outdoors."
+  },
+  {
+    "id": "nits_peak",
+    "name": "Peak brightness (measured)",
+    "short": "Peak",
+    "unit": "nits",
+    "better": "higher",
+    "facet": "display",
+    "level": "device",
+    "comparability": "global",
+    "plausible": [
+      500,
+      7000
+    ],
+    "description": "Small-window peak (5–15% white) in auto mode. Marketing peak claims use similar small windows."
+  },
+  {
+    "id": "spec_battery_mah",
+    "name": "Battery capacity",
+    "short": "Capacity",
+    "unit": "mAh",
+    "better": "higher",
+    "facet": "battery",
+    "level": "device",
+    "comparability": "global",
+    "derive": {
+      "path": "battery.capacity_mah"
+    },
+    "categories": [
+      "smartphone"
+    ]
+  },
+  {
+    "id": "spec_battery_wh",
+    "name": "Battery energy",
+    "short": "Energy",
+    "unit": "Wh",
+    "better": "higher",
+    "facet": "battery",
+    "level": "device",
+    "comparability": "global",
+    "digits": 1,
+    "derive": {
+      "path": "battery.capacity_wh",
+      "fallback": "mah_to_wh"
+    },
+    "categories": [
+      "tablet"
+    ],
+    "description": "Watt-hours. Where a maker lists only mAh, the platform converts using a 3.85 V nominal cell voltage and labels the result as Platform analysis."
+  },
+  {
+    "id": "spec_battery_life",
+    "name": "Claimed battery life",
+    "short": "Life",
+    "unit": "h",
+    "format": "life",
+    "better": "higher",
+    "facet": "battery",
+    "level": "device",
+    "comparability": "global",
+    "derive": {
+      "path": "battery.life_h"
+    },
+    "categories": [
+      "smartwatch",
+      "band"
+    ]
+  },
+  {
+    "id": "spec_wired_w",
+    "name": "Wired charging power",
+    "short": "Wired",
+    "unit": "W",
+    "better": "higher",
+    "facet": "charging",
+    "level": "device",
+    "comparability": "global",
+    "scale": "log",
+    "derive": {
+      "path": "charging.wired_w"
+    }
+  },
+  {
+    "id": "spec_wireless_w",
+    "name": "Wireless charging power",
+    "short": "Wireless",
+    "unit": "W",
+    "better": "higher",
+    "facet": "charging",
+    "level": "device",
+    "comparability": "global",
+    "scale": "log",
+    "derive": {
+      "path": "charging.wireless_w"
+    },
+    "categories": [
+      "smartphone"
+    ]
+  },
+  {
+    "id": "spec_refresh",
+    "name": "Max refresh rate",
+    "short": "Refresh",
+    "unit": "Hz",
+    "better": "higher",
+    "facet": "display",
+    "level": "device",
+    "comparability": "global",
+    "derive": {
+      "path": "display.refresh_hz"
+    },
+    "categories": [
+      "smartphone",
+      "tablet"
+    ]
+  },
+  {
+    "id": "spec_peak_nits",
+    "name": "Claimed peak brightness",
+    "short": "Claimed peak",
+    "unit": "nits",
+    "better": "higher",
+    "facet": "display",
+    "level": "device",
+    "comparability": "global",
+    "derive": {
+      "path": "display.peak_nits"
+    }
+  },
+  {
+    "id": "spec_ppi",
+    "name": "Pixel density",
+    "short": "Density",
+    "unit": "ppi",
+    "better": "higher",
+    "facet": "display",
+    "level": "device",
+    "comparability": "global",
+    "derive": {
+      "path": "display.ppi"
+    },
+    "categories": [
+      "smartphone",
+      "tablet"
+    ]
+  },
+  {
+    "id": "spec_weight",
+    "name": "Weight",
+    "short": "Weight",
+    "unit": "g",
+    "better": "lower",
+    "facet": "build",
+    "level": "device",
+    "comparability": "global",
+    "derive": {
+      "path": "build.weight_g"
+    }
+  },
+  {
+    "id": "spec_ip",
+    "name": "Ingress protection level",
+    "short": "IP level",
+    "unit": "/100",
+    "better": "higher",
+    "facet": "durability",
+    "level": "device",
+    "comparability": "global",
+    "derive": {
+      "path": "build.ip",
+      "transform": "ip_level"
+    },
+    "categories": [
+      "smartphone",
+      "tablet"
+    ],
+    "description": "Platform scale from the IP rating: IP68 + IP69 = 100, IP68 = 90, IPX8 = 70, IP67 = 75, IP65/66 = 60, IP54 = 40, none = 0."
+  },
+  {
+    "id": "spec_water_m",
+    "name": "Water rating depth",
+    "short": "Water",
+    "unit": "m",
+    "better": "higher",
+    "facet": "durability",
+    "level": "device",
+    "comparability": "global",
+    "derive": {
+      "path": "build.water_m"
+    },
+    "categories": [
+      "smartwatch",
+      "band"
+    ]
+  },
+  {
+    "id": "spec_os_years",
+    "name": "OS upgrade commitment",
+    "short": "OS years",
+    "unit": "years",
+    "better": "higher",
+    "facet": "software",
+    "level": "device",
+    "comparability": "global",
+    "derive": {
+      "path": "software.os_updates_years"
+    }
+  },
+  {
+    "id": "spec_security_years",
+    "name": "Security update commitment",
+    "short": "Security years",
+    "unit": "years",
+    "better": "higher",
+    "facet": "software",
+    "level": "device",
+    "comparability": "global",
+    "derive": {
+      "path": "software.security_updates_years"
+    }
+  },
+  {
+    "id": "spec_main_sensor",
+    "name": "Main camera sensor size",
+    "short": "Main sensor",
+    "unit": "type",
+    "better": "higher",
+    "facet": "camera",
+    "level": "device",
+    "comparability": "global",
+    "digits": 2,
+    "derive": {
+      "path": "camera.rear",
+      "transform": "main_sensor"
+    },
+    "categories": [
+      "smartphone"
+    ],
+    "description": "Optical format as a fraction of a 1-inch type sensor (1/1.28\" = 0.78). A bigger sensor gathers more light."
+  },
+  {
+    "id": "spec_zoom",
+    "name": "Longest optical zoom",
+    "short": "Zoom",
+    "unit": "x",
+    "better": "higher",
+    "facet": "camera",
+    "level": "device",
+    "comparability": "global",
+    "scale": "log",
+    "derive": {
+      "path": "camera.zoom_optical_x"
+    },
+    "categories": [
+      "smartphone"
+    ]
+  },
+  {
+    "id": "engadget_video",
+    "name": "Engadget video rundown",
+    "short": "Video rundown",
+    "unit": "h",
+    "better": "higher",
+    "facet": "battery",
+    "level": "device",
+    "comparability": "global",
+    "plausible": [
+      5,
+      60
+    ],
+    "description": "Engadget's standard battery test: a local video looped until the battery runs out. Results are only compared with other Engadget rundowns; foldables note which screen was used."
+  },
+  {
+    "id": "tg_web",
+    "name": "Tom's Guide battery test",
+    "short": "Web test",
+    "unit": "h",
+    "better": "higher",
+    "facet": "battery",
+    "level": "device",
+    "comparability": "global",
+    "plausible": [
+      5,
+      40
+    ],
+    "description": "Tom's Guide's standard battery test: continuous web surfing over a cellular connection at a fixed 150-nit brightness until the battery runs out. Only compared with other Tom's Guide results."
+  },
+  {
+    "id": "dxomark_camera",
+    "name": "DXOMARK Camera score",
+    "short": "DXOMARK",
+    "unit": "pts",
+    "better": "higher",
+    "facet": "camera",
+    "level": "device",
+    "comparability": "global",
+    "plausible": [
+      60,
+      200
+    ],
+    "description": "DXOMARK's overall camera score from its lab and field protocol (photo, video, zoom, bokeh and ultra-wide). Shown as evidence; the site's camera scores still come from hardware specifications."
+  }
+]

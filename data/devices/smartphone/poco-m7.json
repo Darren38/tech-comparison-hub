@@ -1,0 +1,150 @@
+{
+  "id": "poco-m7",
+  "name": "POCO M7",
+  "brand": "poco",
+  "category": "smartphone",
+  "series": "M",
+  "form": "bar",
+  "status": "released",
+  "announced": "2025-08-18",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 499,
+      "config": "6 GB / 128 GB",
+      "date": "2025-08-18",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/08/18/poco-m7-4g-malaysia-launch-price-specs/",
+      "class": "news",
+      "accessed": "2026-09-18",
+      "note": "Recommended retail price; lower during the launch promotion."
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 599,
+      "config": "8 GB / 256 GB",
+      "date": "2025-08-18",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/08/18/poco-m7-4g-malaysia-launch-price-specs/",
+      "class": "news",
+      "accessed": "2026-09-18",
+      "note": "Recommended retail price; lower during the launch promotion."
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 6.9,
+      "resolution": "2340 × 1080",
+      "refresh_hz": 144,
+      "peak_nits": 850,
+      "ppi": 374
+    },
+    "platform": {
+      "chipset": "snapdragon-685",
+      "gpu": "Qualcomm Adreno",
+      "cpu": "Qualcomm Kryo, up to 2.8GHz"
+    },
+    "memory": {
+      "ram_gb": [
+        6,
+        8
+      ],
+      "storage_gb": [
+        128,
+        256
+      ],
+      "ram_type": "LPDDR4X",
+      "storage_type": "UFS2.2"
+    },
+    "battery": {
+      "capacity_mah": 7000
+    },
+    "charging": {
+      "wired_w": 33,
+      "claim": "33W fast charging; 33W in-box charger"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "aperture": "f/1.8"
+        }
+      ],
+      "front": "8 MP",
+      "rear_detail": [
+        "50MP main camera, 5P lens, f/1.8"
+      ],
+      "video": "1080p@30fps",
+      "front_detail": [
+        "8MP front camera, f/2"
+      ],
+      "front_video": "1080p@30fps"
+    },
+    "connectivity": {
+      "cellular": "4G",
+      "nfc": true,
+      "bands_3g": "1/2/4/5/6/8/19",
+      "bands_4g": "LTE FDD: 1/2/3/4/5/7/8/18/19/20/26/28/66; LTE TDD: 38/40/41",
+      "technology": "HSPA / LTE",
+      "wifi": "2.4GHz; 5GHz",
+      "positioning": "GPS; Glonass; Galileo; Beidou",
+      "bluetooth": "Bluetooth 5.0",
+      "usb": "USB Type-C"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 171.08,
+        "width_mm": 82.05,
+        "depth_mm": 8.55
+      },
+      "weight_g": 224.0,
+      "ip": "IP64"
+    },
+    "software": {
+      "launch_os": "Xiaomi HyperOS 2"
+    },
+    "sensors": "Virtual proximity sensor, Ambient light sensor, Accelerometer, Electronic compass, IR blaster",
+    "biometrics": {
+      "fingerprint": "Side fingerprint sensor"
+    },
+    "misc": {
+      "colors": "Black, Blue, Silver"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "poco",
+      "url": "https://www.mi.com/my/product/poco-m7/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from Xiaomi Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2025/08/18/poco-m7-4g-malaysia-launch-price-specs/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://i02.appmifile.com/579_operatorx_operatorx_opx/14/08/2025/1c43fdc5f2489bad507059f3aa9e52b3.png",
+    "page": "https://www.mi.com/global/product/poco-m7/specs/",
+    "credit": "Xiaomi",
+    "checked": "2026-09-19"
+  }
+}

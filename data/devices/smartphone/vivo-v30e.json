@@ -1,0 +1,139 @@
+{
+  "id": "vivo-v30e",
+  "name": "vivo V30e",
+  "brand": "vivo",
+  "category": "smartphone",
+  "series": "V",
+  "form": "bar",
+  "status": "released",
+  "announced": "2024-05-02",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1399,
+      "date": "2024-05-02",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2024/321485/vivo-v30e-now-available-for-preorder-in-malaysia-retails-at-rm1399/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 6.78,
+      "type": "AMOLED",
+      "resolution": "2400 × 1080",
+      "refresh_hz": 120,
+      "peak_nits": 1300,
+      "ppi": 388
+    },
+    "platform": {
+      "chipset": "snapdragon-6-gen-1",
+      "process": "4 nm",
+      "cpu": "8 cores; 4 × 2.2 GHz + 4 × 1.8 GHz"
+    },
+    "memory": {
+      "ram_gb": [
+        8
+      ],
+      "storage_gb": [
+        256
+      ],
+      "ram_type": "LPDDR4X",
+      "storage_type": "UFS 2.2",
+      "card": "1 TB"
+    },
+    "battery": {
+      "capacity_mah": 5500,
+      "chemistry": "Li-ion battery"
+    },
+    "charging": {
+      "wired_w": 44,
+      "claim": "44W"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "aperture": "f/1.79"
+        }
+      ],
+      "front": "32 MP",
+      "front_detail": [
+        "32 MP HD Selfie Camera: f/2.0 ; 84° FoV; 5P lens"
+      ],
+      "rear_detail": [
+        "50 MP Sony Ultra-Sensing Camera: AF supported; f/1.79; 79° FoV; 5P lens 8 MP Wide-Angle Camera: f/2.2; 120° FoV; 5P lens"
+      ]
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true,
+      "bands_2g": "850/900/1800/1900 MHz",
+      "bands_3g": "B1/B2/B4/B5/B8",
+      "bands_4g": "4G FDD-LTE: B1/B2/B3/B4/B5/B7/B8/B18/B19/B20/B26/B28",
+      "bands_5g": "5G: n1/n3/n5/n7/n8/n20/n28/n38/n40/n41/n77/n78",
+      "technology": "GSM / HSPA / LTE / 5G",
+      "sim": "1 nano SIM + 1 nano SIM/1 micro SD card",
+      "wifi": "2.4 GHz/5 GHz",
+      "bluetooth": "Bluetooth 5.1",
+      "usb": "USB 2.0",
+      "radio": "No",
+      "positioning": "GPS, BeiDou, GLONASS, Galileo, QZSS"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 164.36,
+        "width_mm": 74.75,
+        "depth_mm": 7.75
+      },
+      "weight_g": 188.0,
+      "ip": "IP64",
+      "back": "Glass (Coco Brown); Plastic composite sheet (Sky Mirror)"
+    },
+    "software": {
+      "launch_os": "Funtouch OS 14"
+    },
+    "misc": {
+      "colors": "Coco Brown, Sky Mirror"
+    },
+    "biometrics": {
+      "fingerprint": "In-display optical fingerprint sensor"
+    },
+    "sensors": "Accelerometer, Ambient Light Sensor, Proximity Sensor, E-compass, Gyroscope"
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "vivo",
+      "url": "https://www.vivo.com/my/products/param/v30e",
+      "checked": "2026-09-18",
+      "note": "Read from vivo Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "lowyat",
+        "url": "https://www.lowyat.net/2024/321485/vivo-v30e-now-available-for-preorder-in-malaysia-retails-at-rm1399/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (Lowyat.NET). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1713756597437/453064c8a1bc924d7d17124c459548cc.png",
+    "page": "https://www.vivo.com/my/products/param/v30e",
+    "credit": "vivo Malaysia",
+    "checked": "2026-09-19"
+  }
+}

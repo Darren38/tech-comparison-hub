@@ -1,0 +1,151 @@
+{
+  "id": "oppo-reno10-pro",
+  "name": "OPPO Reno10 Pro 5G",
+  "brand": "oppo",
+  "category": "smartphone",
+  "series": "Reno",
+  "form": "bar",
+  "status": "released",
+  "announced": "2023-08-01",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 2199,
+      "date": "2023-08-01",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2023/08/01/everyday-companion-best-portrait-photography-trends-telephoto-camera-oppo-reno10-pro-5g-series/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/reno10-pro-5g-en/listpage/reno10-pro-5g-427_600-purple.png",
+    "page": "https://www.oppo.com/my/smartphones/series-reno/reno10-pro/",
+    "credit": "OPPO Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.7,
+      "type": "AMOLED",
+      "resolution": "2412 × 1080",
+      "refresh_hz": 120,
+      "peak_nits": 950,
+      "protection": "AGC DT-Star2",
+      "ppi": 394
+    },
+    "platform": {
+      "chipset": "snapdragon-778",
+      "gpu": "Adreno GPU 642L",
+      "cpu": "8 cores"
+    },
+    "memory": {
+      "ram_gb": [
+        12
+      ],
+      "storage_gb": [
+        256
+      ],
+      "ram_type": "LPDDR4x @ 2133MHz 2×16bit",
+      "storage_type": "UFS2.2 @ 2Lanes HS-Gear3"
+    },
+    "battery": {
+      "capacity_mah": 4600
+    },
+    "charging": {
+      "wired_w": 80,
+      "claim": "SUPERVOOC 80W, SUPERVOOC 2.0, SUPERVOOC , VOOC 3.0, PD2.0 (9V/1.5A), QC2.0 (9V/1.5A) fast charging protocols"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "aperture": "f/1.8",
+          "ois": true
+        },
+        {
+          "role": "telephoto",
+          "mp": 32
+        },
+        {
+          "role": "ultrawide",
+          "mp": 8
+        }
+      ],
+      "front": "32 MP",
+      "rear_detail": [
+        "50MP; f/1.8; FOV 84.4°; 6P lens; supporting AF; supporting OIS.",
+        "Telephoto: 32MP; f/2.0; FOV 49.1°; 6P lens; supporting AF.",
+        "Ultra-wide-angle: 8MP; f/2.2; FOV 112°; 5P lens, fixed focus."
+      ],
+      "front_detail": [
+        "32MP; f/2.4; FOV 90°; 5P lens, supporting AF"
+      ],
+      "video": "4K@60fps; 1080p",
+      "front_video": "1080p@30fps"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true,
+      "bands_2g": "850/900/1800/1900MHz",
+      "bands_3g": "Bands 1/2/4/5/6/8/19",
+      "bands_4g": "LTE FDD: Bands 1/2/3/4/5/7/8/12/17/18/19/20/26/28/66; LTE TDD: Bands 38/39/40/41",
+      "bands_5g": "5G NR: n77/78/38/40/41/1/2/3/5/7/8/12/20/28",
+      "technology": "GSM / HSPA / LTE / 5G",
+      "sim": "Nano-SIM card / Nano-USIM card",
+      "wifi": "Supporting Wi-Fi 6 (802.11ax), Wi-Fi 5 (802.11ac), 802.11a/b/g/n/; WLAN 2.4G/WLAN 5G; WLAN Display; WLAN network sharing; Wi-Fi 5GHz 160MHz; 2×2 MIMO; 8 Spatial-stream sounding MU-MIMO",
+      "bluetooth": "Bluetooth v5.2, Bluetooth Low Energy",
+      "usb": "USB Type-C",
+      "positioning": "GPS, GLONASS, BDS, Galileo, and QZSS; Frequency Antenna"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 162.3,
+        "width_mm": 74.2,
+        "depth_mm": 7.89
+      },
+      "weight_g": 185.0
+    },
+    "software": {
+      "launch_os": "ColorOS 13.1"
+    },
+    "biometrics": {
+      "face": "Yes"
+    },
+    "sensors": "Geomagnetic induction, Light induction, Proximity sensor, Under-screen light sensor, Acceleration sensor, Gravity sensor, Gyroscope, Step recording function",
+    "audio": {
+      "jack": false
+    },
+    "misc": {
+      "colors": "Silvery Grey, Glossy Purple"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "oppo",
+      "url": "https://www.oppo.com/my/smartphones/series-reno/reno10-pro/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from OPPO Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2023/08/01/everyday-companion-best-portrait-photography-trends-telephoto-camera-oppo-reno10-pro-5g-series/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

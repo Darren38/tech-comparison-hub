@@ -1,0 +1,85 @@
+{
+  "id": "xiaomi-mix-flip",
+  "name": "Xiaomi Mix Flip",
+  "brand": "xiaomi",
+  "category": "smartphone",
+  "series": "Mix",
+  "form": "foldable",
+  "status": "released",
+  "announced": "2024-09-27",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 4999,
+      "config": "12 GB / 512 GB",
+      "date": "2024-09-27",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2024/09/27/xiaomi-mix-flip-leica-camera-malaysia-launch-price-specs/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 6.86,
+      "resolution": "2912 × 1224",
+      "refresh_hz": 120,
+      "peak_nits": 3000,
+      "ppi": 460
+    },
+    "platform": {
+      "chipset": "snapdragon-8-gen-3",
+      "gpu": "Qualcomm Adreno GPU",
+      "cpu": "1x Cortex-X4, up to 3.3GHz; 3x Cortex-A720, up to 3.2GHz; 2x Cortex-A720, up to 3.0GHz; 2x Cortex-A520, up to 2.3GHz"
+    },
+    "memory": {
+      "ram_gb": [
+        12
+      ],
+      "storage_gb": [
+        512
+      ],
+      "ram_type": "LPDDR5X",
+      "storage_type": "UFS 4.0"
+    },
+    "build": {
+      "weight_g": 192.0
+    },
+    "misc": {
+      "colors": "Black, Purple"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "xiaomi",
+      "url": "https://www.mi.com/global/product/xiaomi-mix-flip/specs/",
+      "note": "Read from Xiaomi's global specification page (the Malaysian page is no longer available). Values were extracted automatically and reviewed.",
+      "checked": "2026-09-18"
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2024/09/27/xiaomi-mix-flip-leica-camera-malaysia-launch-price-specs/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://i02.appmifile.com/315_item_my/24/09/2024/d849f7e1b520ad98dc04af496d35c08b.png",
+    "page": "https://www.mi.com/my/product/xiaomi-mix-flip/specs/",
+    "credit": "Xiaomi",
+    "checked": "2026-09-19"
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "id": "samsung-galaxy-watch8",
+  "name": "Galaxy Watch8",
+  "brand": "samsung",
+  "category": "smartwatch",
+  "series": "Galaxy Watch",
+  "form": "watch",
+  "status": "released",
+  "announced": "2025-07-10",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1299,
+      "config": "40 mm, Bluetooth",
+      "date": "2025-07-10",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/07/10/samsung-galaxy-z-fold-7-flip-7-galaxy-watch-8-ultra-pre-order-malaysia-price-promo/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1599,
+      "config": "40 mm, LTE",
+      "date": "2025-07-10",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/07/10/samsung-galaxy-z-fold-7-flip-7-galaxy-watch-8-ultra-pre-order-malaysia-price-promo/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1399,
+      "config": "44 mm, Bluetooth",
+      "date": "2025-07-10",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/07/10/samsung-galaxy-z-fold-7-flip-7-galaxy-watch-8-ultra-pre-order-malaysia-price-promo/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1699,
+      "config": "44 mm, LTE",
+      "date": "2025-07-10",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/07/10/samsung-galaxy-z-fold-7-flip-7-galaxy-watch-8-ultra-pre-order-malaysia-price-promo/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://images.samsung.com/is/image/samsung/p6pim/my/f2507/gallery/my-galaxy-watch8-l320-sm-l320ndaaxme-thumb-547651104?$650_519_PNG$",
+    "page": "https://www.samsung.com/my/watches/galaxy-watch/galaxy-watch8-40mm-graphite-bluetooth-sm-l320ndaaxme/",
+    "credit": "Samsung Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 1.3,
+      "type": "Super AMOLED",
+      "resolution": "438 × 438"
+    },
+    "connectivity": {
+      "gps": "Built-in GNSS",
+      "nfc": true,
+      "cellular": "LTE option",
+      "bluetooth": "Bluetooth v5.3",
+      "positioning": "GPS, Glonass, Beidou, Galileo",
+      "wifi": "802.11a/b/g/n 2.4GHz+5GHz"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 42.7,
+        "width_mm": 40.4,
+        "depth_mm": 8.6
+      },
+      "weight_g": 30.0,
+      "water": "5 ATM",
+      "water_m": 50
+    },
+    "software": {
+      "launch_os": "Wear OS Powered by Samsung"
+    },
+    "sensors": "Accelerometer, Barometer, Bioelectrical Impedance Analysis Sensor, Electrical Heart Sensor, Gyro Sensor, Geomagnetic Sensor, Infrared Temperature Sensor, Light Sensor, Optical Heart Rate Sensor, Storage (GB), 32",
+    "platform": {
+      "cpu": "1.6GHz, 1.5GHz; Penta-Core; Storage/Memory; Memory (GB); 2 cores"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "samsung",
+      "url": "https://www.samsung.com/my/watches/galaxy-watch/galaxy-watch8-40mm-graphite-bluetooth-sm-l320ndaaxme/",
+      "checked": "2026-09-18",
+      "note": "Read from Samsung Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2025/07/10/samsung-galaxy-z-fold-7-flip-7-galaxy-watch-8-ultra-pre-order-malaysia-price-promo/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

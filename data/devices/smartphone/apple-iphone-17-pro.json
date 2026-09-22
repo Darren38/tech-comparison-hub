@@ -1,0 +1,170 @@
+{
+  "id": "apple-iphone-17-pro",
+  "name": "iPhone 17 Pro",
+  "brand": "apple",
+  "category": "smartphone",
+  "series": "iPhone Pro",
+  "form": "bar",
+  "status": "released",
+  "announced": "2025-09-09",
+  "released": "2025-09-19",
+  "segment": "flagship",
+  "aliases": [
+    "17 Pro"
+  ],
+  "summary": "The smaller 6.3-inch Pro with the same camera system and chip as the Pro Max.",
+  "highlights": [
+    "A19 Pro",
+    "48 MP 4× telephoto",
+    "6.3-inch 120 Hz display"
+  ],
+  "prices": [
+    {
+      "region": "US",
+      "currency": "USD",
+      "amount": 1099,
+      "config": "256 GB",
+      "date": "2025-09-09",
+      "type": "launch",
+      "source": "apple"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 5499,
+      "config": "256 GB",
+      "date": "2025-09-10",
+      "type": "launch",
+      "source": "malaymail",
+      "url": "https://www.malaymail.com/news/tech-gadgets/2025/09/10/iphone-17-and-iphone-17-pro-malaysia-heres-the-official-pricing-pre-order-opens-september-12/190591",
+      "class": "news",
+      "accessed": "2026-09-16"
+    }
+  ],
+  "image": {
+    "kind": "photo",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/IPhone_17_Pro_%282025-12-28%29.jpg/500px-IPhone_17_Pro_%282025-12-28%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:IPhone_17_Pro_(2025-12-28).jpg",
+    "title": "IPhone 17 Pro (2025-12-28)",
+    "author": "Olgierd Rudak",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "checked": "2026-09-17"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.3,
+      "type": "Super Retina XDR OLED, ProMotion",
+      "resolution": "2622 × 1206",
+      "ppi": 460,
+      "refresh_hz": 120,
+      "peak_nits": 3000,
+      "protection": "Ceramic Shield 2"
+    },
+    "platform": {
+      "chipset": "apple-a19-pro"
+    },
+    "memory": {
+      "ram_gb": [
+        12
+      ],
+      "storage_gb": [
+        256,
+        512,
+        1024
+      ],
+      "expandable": false
+    },
+    "battery": {
+      "video_h": 33
+    },
+    "charging": {
+      "wired_w": 40,
+      "wireless_w": 25,
+      "claim": "Up to 50% in 20 min with a 40 W adapter"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 48,
+          "aperture": "f/1.78",
+          "focal_mm": 24
+        },
+        {
+          "role": "ultrawide",
+          "mp": 48,
+          "aperture": "f/2.2",
+          "focal_mm": 13
+        },
+        {
+          "role": "telephoto",
+          "mp": 48,
+          "aperture": "f/2.8",
+          "focal_mm": 100,
+          "zoom_x": 4
+        }
+      ],
+      "zoom_optical_x": 4,
+      "front": "18 MP Center Stage, f/1.9"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 150.0,
+        "width_mm": 71.9,
+        "depth_mm": 8.75
+      },
+      "weight_g": 206,
+      "frame": "Aluminum unibody",
+      "ip": "IP68 (6 m, 30 min)"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "wifi": "Wi-Fi 7",
+      "bluetooth": "6",
+      "nfc": true,
+      "uwb": true,
+      "satellite": true
+    },
+    "biometrics": {
+      "face": "Face ID"
+    },
+    "software": {
+      "launch_os": "iOS 26",
+      "os_updates_years": 6,
+      "security_updates_years": 7,
+      "policy_note": "Apple publishes no fixed upgrade commitment. Recent iPhones have received about six years of major iOS releases plus further security fixes, so the figures here are platform estimates."
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "apple",
+      "url": "https://support.apple.com/en-us/125090",
+      "checked": "2026-09-15"
+    },
+    "fields": {
+      "specs.memory.ram_gb": {
+        "class": "database",
+        "source": "gsmarena",
+        "note": "Apple does not list RAM; figure reported in reviews."
+      },
+      "specs.charging.wired_w": {
+        "class": "estimated",
+        "source": "apple",
+        "note": "Apple gives a time-based claim and an adapter rating, not the phone's maximum input. The adapter rating is used as an estimate."
+      },
+      "specs.software.os_updates_years": {
+        "class": "estimated",
+        "source": "apple",
+        "note": "Apple publishes no fixed upgrade commitment. Recent iPhones have received about six years of major iOS releases plus further security fixes, so the figures here are platform estimates."
+      },
+      "specs.software.security_updates_years": {
+        "class": "estimated",
+        "source": "apple",
+        "note": "Apple publishes no fixed upgrade commitment. Recent iPhones have received about six years of major iOS releases plus further security fixes, so the figures here are platform estimates."
+      }
+    }
+  },
+  "dataStatus": "checked"
+}

@@ -1,0 +1,352 @@
+{
+  "id": "huawei-nova-11-pro",
+  "name": "Huawei nova 11 Pro",
+  "brand": "huawei",
+  "category": "smartphone",
+  "series": "nova",
+  "form": "bar",
+  "status": "released",
+  "announced": "2023-07-06",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 2599,
+      "date": "2023-07-06",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2023/303228/huawei-nova-11-series-malaysia-launch/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 6.78,
+      "type": "OLED",
+      "resolution": "2652 × 1200",
+      "refresh_hz": 120,
+      "ppi": 429
+    },
+    "platform": {
+      "chipset": "snapdragon-778g-4g",
+      "gpu": "Adreno 642L",
+      "cpu": "Octa-core, 4 × Cortex-A78@2.4 GHz + 4 × Cortex-A55@1.8 GHz"
+    },
+    "memory": {
+      "ram_gb": [
+        8
+      ],
+      "storage_gb": [
+        256
+      ]
+    },
+    "battery": {
+      "capacity_mah": 4500
+    },
+    "charging": {
+      "wired_w": 100,
+      "claim": "100 W HUAWEI SuperCharge Turbo 2.0"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50
+        },
+        {
+          "role": "ultrawide",
+          "mp": 8
+        }
+      ],
+      "front": "60 MP + 8 MP",
+      "rear_detail": [
+        "50 MP Ultra Vision Camera (f/1.9 aperture)",
+        "8 MP Ultra-Wide Marco Camera (f/2.2 aperture)"
+      ],
+      "features": "10x Digital Zoom",
+      "video": "4K",
+      "front_detail": [
+        "60 MP Ultra Wide Autofocus Camera (f/2.4 aperture)",
+        "8 MP Portrait Close-up Camera (f/2.2 aperture)"
+      ]
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 164.24,
+        "width_mm": 74.35,
+        "depth_mm": 7.88
+      },
+      "weight_g": 188
+    },
+    "connectivity": {
+      "cellular": "4G",
+      "bands_2g": "Bands 2/3/5/8 (850/900/1800/1900 MHz",
+      "bands_3g": "Bands 1/2/4/5/6/8/19",
+      "bands_4g": "4G FDD LTE: Bands 1/2/3/4/5/7/8/12/13/17/18/19/20/26/28/66; 4G TDD LTE: Bands 38/40/41",
+      "technology": "GSM / HSPA / LTE",
+      "wifi": "2.4 GHz and 5 GHz, 802.11a/b/g/n/ac/ax, 2 × 2 MIMO, HE160, 4096 QAM, 8 Spatial-stream Sounding MU-MIMO.",
+      "bluetooth": "Bluetooth 5.2, Support BLE, SBC, AAC, LDAC.",
+      "usb": "USB Type-C, USB 2.0",
+      "positioning": "GPS (L1 + L5 Dual band)/AGPS/GLONASS/BeiDou (B1I + B1C + B2a Tri-band)/GALILEO (E1 + E5a Dual band)/QZSS (L1 + L5 Dual band)",
+      "nfc": true
+    },
+    "software": {
+      "launch_os": "EMUI 13"
+    },
+    "audio": {
+      "jack": false
+    },
+    "sensors": "Gravity sensor, Fingerprint sensor, Gyroscope, Compass, Ambient light sensor",
+    "misc": {
+      "colors": "Green, Black"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "news",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2023/07/06/huawei-nova-11-pro-malaysia-60mp-ultra-wide-selfie-camera-snapdragon-778g-wrapped-in-vegan-leather/",
+      "note": "The maker no longer publishes a specification page for this model. Key specs were taken from this Malaysian launch report, which gives the maker's figures.",
+      "checked": "2026-09-18"
+    },
+    "fields": {
+      "specs.build": {
+        "class": "news",
+        "source": "lowyat",
+        "url": "https://www.lowyat.net/2023/303228/huawei-nova-11-series-malaysia-launch/",
+        "checked": "2026-09-18"
+      },
+      "announced": {
+        "class": "news",
+        "source": "lowyat",
+        "url": "https://www.lowyat.net/2023/303228/huawei-nova-11-series-malaysia-launch/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (Lowyat.NET). The global announcement can be earlier."
+      },
+      "specs.audio.jack": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20241208181122/https://consumer.huawei.com/my/phones/nova11-pro/specs/",
+        "checked": "2026-09-19",
+        "note": "The maker's own specification page (https://consumer.huawei.com/my/phones/nova11-pro/specs/) is no longer online; read from the Internet Archive copy captured 2024-12-08."
+      },
+      "specs.camera.features": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20241208181122/https://consumer.huawei.com/my/phones/nova11-pro/specs/",
+        "checked": "2026-09-19",
+        "note": "The maker's own specification page (https://consumer.huawei.com/my/phones/nova11-pro/specs/) is no longer online; read from the Internet Archive copy captured 2024-12-08."
+      },
+      "specs.camera.front_detail": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20241208181122/https://consumer.huawei.com/my/phones/nova11-pro/specs/",
+        "checked": "2026-09-19",
+        "note": "The maker's own specification page (https://consumer.huawei.com/my/phones/nova11-pro/specs/) is no longer online; read from the Internet Archive copy captured 2024-12-08."
+      },
+      "specs.camera.rear_detail": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20241208181122/https://consumer.huawei.com/my/phones/nova11-pro/specs/",
+        "checked": "2026-09-19",
+        "note": "The maker's own specification page (https://consumer.huawei.com/my/phones/nova11-pro/specs/) is no longer online; read from the Internet Archive copy captured 2024-12-08."
+      },
+      "specs.camera.video": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20241208181122/https://consumer.huawei.com/my/phones/nova11-pro/specs/",
+        "checked": "2026-09-19",
+        "note": "The maker's own specification page (https://consumer.huawei.com/my/phones/nova11-pro/specs/) is no longer online; read from the Internet Archive copy captured 2024-12-08."
+      },
+      "specs.charging.claim": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20241208181122/https://consumer.huawei.com/my/phones/nova11-pro/specs/",
+        "checked": "2026-09-19",
+        "note": "The maker's own specification page (https://consumer.huawei.com/my/phones/nova11-pro/specs/) is no longer online; read from the Internet Archive copy captured 2024-12-08."
+      },
+      "specs.connectivity.bands_2g": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20241208181122/https://consumer.huawei.com/my/phones/nova11-pro/specs/",
+        "checked": "2026-09-19",
+        "note": "The maker's own specification page (https://consumer.huawei.com/my/phones/nova11-pro/specs/) is no longer online; read from the Internet Archive copy captured 2024-12-08."
+      },
+      "specs.connectivity.bands_3g": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20241208181122/https://consumer.huawei.com/my/phones/nova11-pro/specs/",
+        "checked": "2026-09-19",
+        "note": "The maker's own specification page (https://consumer.huawei.com/my/phones/nova11-pro/specs/) is no longer online; read from the Internet Archive copy captured 2024-12-08."
+      },
+      "specs.connectivity.bands_4g": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20241208181122/https://consumer.huawei.com/my/phones/nova11-pro/specs/",
+        "checked": "2026-09-19",
+        "note": "The maker's own specification page (https://consumer.huawei.com/my/phones/nova11-pro/specs/) is no longer online; read from the Internet Archive copy captured 2024-12-08."
+      },
+      "specs.connectivity.bluetooth": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20241208181122/https://consumer.huawei.com/my/phones/nova11-pro/specs/",
+        "checked": "2026-09-19",
+        "note": "The maker's own specification page (https://consumer.huawei.com/my/phones/nova11-pro/specs/) is no longer online; read from the Internet Archive copy captured 2024-12-08."
+      },
+      "specs.connectivity.nfc": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20241208181122/https://consumer.huawei.com/my/phones/nova11-pro/specs/",
+        "checked": "2026-09-19",
+        "note": "The maker's own specification page (https://consumer.huawei.com/my/phones/nova11-pro/specs/) is no longer online; read from the Internet Archive copy captured 2024-12-08."
+      },
+      "specs.connectivity.positioning": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20241208181122/https://consumer.huawei.com/my/phones/nova11-pro/specs/",
+        "checked": "2026-09-19",
+        "note": "The maker's own specification page (https://consumer.huawei.com/my/phones/nova11-pro/specs/) is no longer online; read from the Internet Archive copy captured 2024-12-08."
+      },
+      "specs.connectivity.technology": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20241208181122/https://consumer.huawei.com/my/phones/nova11-pro/specs/",
+        "checked": "2026-09-19",
+        "note": "The maker's own specification page (https://consumer.huawei.com/my/phones/nova11-pro/specs/) is no longer online; read from the Internet Archive copy captured 2024-12-08."
+      },
+      "specs.connectivity.usb": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20241208181122/https://consumer.huawei.com/my/phones/nova11-pro/specs/",
+        "checked": "2026-09-19",
+        "note": "The maker's own specification page (https://consumer.huawei.com/my/phones/nova11-pro/specs/) is no longer online; read from the Internet Archive copy captured 2024-12-08."
+      },
+      "specs.connectivity.wifi": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20241208181122/https://consumer.huawei.com/my/phones/nova11-pro/specs/",
+        "checked": "2026-09-19",
+        "note": "The maker's own specification page (https://consumer.huawei.com/my/phones/nova11-pro/specs/) is no longer online; read from the Internet Archive copy captured 2024-12-08."
+      },
+      "specs.misc.colors": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20241208181122/https://consumer.huawei.com/my/phones/nova11-pro/specs/",
+        "checked": "2026-09-19",
+        "note": "The maker's own specification page (https://consumer.huawei.com/my/phones/nova11-pro/specs/) is no longer online; read from the Internet Archive copy captured 2024-12-08."
+      },
+      "specs.platform.cpu": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20241208181122/https://consumer.huawei.com/my/phones/nova11-pro/specs/",
+        "checked": "2026-09-19",
+        "note": "The maker's own specification page (https://consumer.huawei.com/my/phones/nova11-pro/specs/) is no longer online; read from the Internet Archive copy captured 2024-12-08."
+      },
+      "specs.platform.gpu": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20241208181122/https://consumer.huawei.com/my/phones/nova11-pro/specs/",
+        "checked": "2026-09-19",
+        "note": "The maker's own specification page (https://consumer.huawei.com/my/phones/nova11-pro/specs/) is no longer online; read from the Internet Archive copy captured 2024-12-08."
+      },
+      "specs.sensors": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20241208181122/https://consumer.huawei.com/my/phones/nova11-pro/specs/",
+        "checked": "2026-09-19",
+        "note": "The maker's own specification page (https://consumer.huawei.com/my/phones/nova11-pro/specs/) is no longer online; read from the Internet Archive copy captured 2024-12-08."
+      },
+      "specs.battery.capacity_mah": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20241208181122/https://consumer.huawei.com/my/phones/nova11-pro/specs/",
+        "checked": "2026-09-19",
+        "note": "Matches the maker's own specification page (https://consumer.huawei.com/my/phones/nova11-pro/specs/), which is no longer online; checked against the Internet Archive copy captured 2024-12-08."
+      },
+      "specs.build.weight_g": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20241208181122/https://consumer.huawei.com/my/phones/nova11-pro/specs/",
+        "checked": "2026-09-19",
+        "note": "Matches the maker's own specification page (https://consumer.huawei.com/my/phones/nova11-pro/specs/), which is no longer online; checked against the Internet Archive copy captured 2024-12-08."
+      },
+      "specs.display.size_in": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20241208181122/https://consumer.huawei.com/my/phones/nova11-pro/specs/",
+        "checked": "2026-09-19",
+        "note": "Matches the maker's own specification page (https://consumer.huawei.com/my/phones/nova11-pro/specs/), which is no longer online; checked against the Internet Archive copy captured 2024-12-08."
+      },
+      "specs.display.refresh_hz": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20241208181122/https://consumer.huawei.com/my/phones/nova11-pro/specs/",
+        "checked": "2026-09-19",
+        "note": "Matches the maker's own specification page (https://consumer.huawei.com/my/phones/nova11-pro/specs/), which is no longer online; checked against the Internet Archive copy captured 2024-12-08."
+      },
+      "specs.charging.wired_w": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20241208181122/https://consumer.huawei.com/my/phones/nova11-pro/specs/",
+        "checked": "2026-09-19",
+        "note": "Matches the maker's own specification page (https://consumer.huawei.com/my/phones/nova11-pro/specs/), which is no longer online; checked against the Internet Archive copy captured 2024-12-08."
+      },
+      "specs.build.dimensions": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20241208181122/https://consumer.huawei.com/my/phones/nova11-pro/specs/",
+        "checked": "2026-09-19",
+        "note": "Matches the maker's own specification page (https://consumer.huawei.com/my/phones/nova11-pro/specs/), which is no longer online; checked against the Internet Archive copy captured 2024-12-08."
+      },
+      "specs.display.resolution": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20241208181122/https://consumer.huawei.com/my/phones/nova11-pro/specs/",
+        "checked": "2026-09-19",
+        "note": "Matches the maker's own specification page (https://consumer.huawei.com/my/phones/nova11-pro/specs/), which is no longer online; checked against the Internet Archive copy captured 2024-12-08."
+      },
+      "specs.camera.rear": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20241208181122/https://consumer.huawei.com/my/phones/nova11-pro/specs/",
+        "checked": "2026-09-19",
+        "note": "Matches the maker's own specification page (https://consumer.huawei.com/my/phones/nova11-pro/specs/), which is no longer online; checked against the Internet Archive copy captured 2024-12-08."
+      },
+      "specs.memory.storage_gb": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20241208181122/https://consumer.huawei.com/my/phones/nova11-pro/specs/",
+        "checked": "2026-09-19",
+        "note": "Matches the maker's own specification page (https://consumer.huawei.com/my/phones/nova11-pro/specs/), which is no longer online; checked against the Internet Archive copy captured 2024-12-08."
+      },
+      "specs.display.type": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20241208181122/https://consumer.huawei.com/my/phones/nova11-pro/specs/",
+        "checked": "2026-09-19",
+        "note": "Matches the maker's own specification page (https://consumer.huawei.com/my/phones/nova11-pro/specs/), which is no longer online; checked against the Internet Archive copy captured 2024-12-08."
+      },
+      "specs.software.launch_os": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://web.archive.org/web/20241208181122/https://consumer.huawei.com/my/phones/nova11-pro/specs/",
+        "checked": "2026-09-19",
+        "note": "Matches the maker's own specification page (https://consumer.huawei.com/my/phones/nova11-pro/specs/), which is no longer online; checked against the Internet Archive copy captured 2024-12-08."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/admin-image/phones/nova11-pro/specs/green.png",
+    "page": "https://web.archive.org/web/20241208181122/https://consumer.huawei.com/my/phones/nova11-pro/specs/",
+    "credit": "Huawei",
+    "checked": "2026-09-19"
+  }
+}

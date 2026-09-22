@@ -1,0 +1,109 @@
+{
+  "id": "apple-watch-series-12",
+  "name": "Apple Watch Series 12",
+  "brand": "apple",
+  "category": "smartwatch",
+  "series": "Apple Watch",
+  "form": "watch",
+  "status": "released",
+  "announced": "2026-09-10",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1799,
+      "config": "42 mm, aluminium, GPS",
+      "date": "2026-09-10",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2026/09/10/apple-watch-series-12-malaysia-price-specs/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 2299,
+      "config": "42 mm, aluminium, GPS + Cellular",
+      "date": "2026-09-10",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2026/09/10/apple-watch-series-12-malaysia-price-specs/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 2049,
+      "config": "46 mm, aluminium, GPS",
+      "date": "2026-09-10",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2026/09/10/apple-watch-series-12-malaysia-price-specs/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 2549,
+      "config": "46 mm, aluminium, GPS + Cellular",
+      "date": "2026-09-10",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2026/09/10/apple-watch-series-12-malaysia-price-specs/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/apple-watch-series-12.png",
+    "page": "https://support.apple.com/en-my/148589",
+    "credit": "Apple",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "type": "OLED",
+      "resolution": "496 × 416",
+      "peak_nits": 2000
+    },
+    "battery": {
+      "life_h": 38
+    },
+    "connectivity": {
+      "gps": "Built-in GNSS",
+      "cellular": "LTE option"
+    },
+    "build": {
+      "weight_g": 39.5,
+      "water": "50 m",
+      "water_m": 50
+    },
+    "software": {
+      "launch_os": "watchOS"
+    },
+    "sensors": "Health Sensing System: third-generation electrical heart sensor, always-on optical heart sensor, blood oxygen sensor 3 and temperature sensor, Compass, Always-on altimeter, High-g accelerometer, High dynamic range gyroscope, Ambient light sensor, Depth gauge to 6 metres, Water temperature sensor, Health and Wellness, Readiness app, Vitals app with heart rate, respiratory rate, wrist temperature, blood oxygen, sleep duration and heart rate variability (HRV), Blood Oxygen app"
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "apple",
+      "url": "https://support.apple.com/en-my/148589",
+      "checked": "2026-09-18",
+      "note": "Read from Apple Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2026/09/10/apple-watch-series-12-malaysia-price-specs/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

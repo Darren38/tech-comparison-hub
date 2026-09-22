@@ -1,0 +1,16 @@
+{
+  "id": "kirin-9030-pro",
+  "name": "Kirin 9030 Pro",
+  "vendor": "hisilicon",
+  "family": "Kirin",
+  "summary": "Name recorded from phone makers' specification pages and launch reports. Chip details have not been compiled yet.",
+  "provenance": {
+    "default": {
+      "class": "news",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2025/376093/huawei-mate-x7-launches-globally/",
+      "checked": "2026-09-18",
+      "note": "Chip name as given for the Huawei Mate X7."
+    }
+  }
+}

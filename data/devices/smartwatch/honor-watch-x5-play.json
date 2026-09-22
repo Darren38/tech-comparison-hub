@@ -1,0 +1,60 @@
+{
+  "id": "honor-watch-x5-play",
+  "name": "HONOR Watch X5 Play",
+  "brand": "honor",
+  "category": "smartwatch",
+  "series": "Watch",
+  "form": "watch",
+  "status": "released",
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-18",
+      "source": "honor",
+      "url": "https://www.honor.com/my/wearables/honor-watch-x5-play/spec/",
+      "note": "Sold in Malaysia, but no launch price was found in Malaysian launch coverage."
+    }
+  },
+  "specs": {
+    "display": {
+      "size_in": 2.01,
+      "type": "TFT",
+      "resolution": "385 × 320"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 49.9,
+        "width_mm": 40.8,
+        "depth_mm": 10.5
+      },
+      "weight_g": 26.0,
+      "ip": "IP68"
+    },
+    "connectivity": {
+      "usb": "Magnetic charging port; Compatibility; Android 9.0 or later; IOS 15.1 or later; Water Resistance Level; IP68",
+      "bluetooth": "Bluetooth"
+    },
+    "audio": {
+      "speakers": "Microphone; Charger Voltage and Current; 5V/1A or more"
+    },
+    "sensors": "Accelerometer sensor, Optical heart rate sensor"
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "honor",
+      "url": "https://www.honor.com/my/wearables/honor-watch-x5-play/spec/",
+      "checked": "2026-09-18",
+      "note": "Read from HONOR Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {}
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://www.honor.com/content/dam/honor/common/product-list/wearables/product-series/honor-watch-x5-play/honor-watch-x5-play-b-list.png",
+    "page": "https://www.honor.com/my/wearables/honor-watch-x5-play/spec/",
+    "credit": "HONOR",
+    "checked": "2026-09-19"
+  }
+}

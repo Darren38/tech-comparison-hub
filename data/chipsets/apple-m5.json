@@ -1,0 +1,51 @@
+{
+  "id": "apple-m5",
+  "name": "Apple M5",
+  "vendor": "apple",
+  "family": "M-series",
+  "tier": "flagship",
+  "announced": "2025-10-15",
+  "aliases": [
+    "M5"
+  ],
+  "summary": "Laptop-class chip in the 2025 iPad Pro. The 256 GB and 512 GB iPads use a 9-core CPU; 1 TB and 2 TB models get 10 cores.",
+  "process": {
+    "node": "3 nm",
+    "foundry": "TSMC",
+    "name": "N3P"
+  },
+  "cpu": {
+    "cores": 10,
+    "clusters": [
+      {
+        "count": 4,
+        "core": "Performance ('super' cores)"
+      },
+      {
+        "count": 6,
+        "core": "Efficiency"
+      }
+    ],
+    "note": "9-core (3P + 6E) in base iPad Pro storage tiers"
+  },
+  "gpu": {
+    "name": "Apple GPU, 10-core with Neural Accelerators"
+  },
+  "npu": "16-core Neural Engine",
+  "variants": [],
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "apple",
+      "url": "https://support.apple.com/en-us/125407",
+      "checked": "2026-09-15"
+    },
+    "fields": {
+      "process.name": {
+        "class": "database",
+        "source": "notebookcheck",
+        "note": "Node reported by the press."
+      }
+    }
+  }
+}

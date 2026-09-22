@@ -1,0 +1,67 @@
+{
+  "id": "iqoo-z9x",
+  "name": "iQOO Z9x",
+  "brand": "iqoo",
+  "category": "smartphone",
+  "series": "iQOO",
+  "form": "bar",
+  "status": "released",
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-18",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2024/05/10/iqoo-z9-z9x-malaysia-price-launch-specs-official/",
+      "note": "Sold in Malaysia, but no launch price was found in Malaysian launch coverage."
+    }
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.72,
+      "type": "LCD",
+      "refresh_hz": 120
+    },
+    "platform": {
+      "chipset": "snapdragon-6-gen-1"
+    },
+    "memory": {
+      "ram_gb": [
+        8,
+        12
+      ]
+    },
+    "battery": {
+      "capacity_mah": 6000
+    },
+    "charging": {
+      "wired_w": 44
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50
+        },
+        {
+          "role": "depth",
+          "mp": 2
+        }
+      ],
+      "front": "8 MP"
+    },
+    "software": {
+      "launch_os": "Funtouch OS 14 (Android 14 base)"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "news",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2024/05/10/iqoo-z9-z9x-malaysia-price-launch-specs-official/",
+      "note": "The maker no longer publishes a specification page for this model. Key specs were taken from this Malaysian launch report, which gives the maker's figures.",
+      "checked": "2026-09-18"
+    },
+    "fields": {}
+  },
+  "dataStatus": "compiled"
+}

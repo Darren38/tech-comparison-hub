@@ -1,0 +1,72 @@
+{
+  "id": "xiaomi-smart-band-9",
+  "name": "Xiaomi Smart Band 9",
+  "brand": "xiaomi",
+  "category": "band",
+  "series": "Band",
+  "form": "band",
+  "status": "released",
+  "announced": "2024-08-15",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 199,
+      "date": "2024-08-15",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2024/08/15/xiaomi-smart-band-9-in-malaysia-with-improved-battery-life-heart-rate-tracking-priced-at-rm199/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://i02.appmifile.com/558_item_my/26/09/2024/870a7d45e9f88f382aaf757d20445ad6.png",
+    "page": "https://www.mi.com/my/product/xiaomi-smart-band-9/specs/",
+    "credit": "Xiaomi Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 1.62,
+      "type": "AMOLED",
+      "resolution": "490 × 192",
+      "peak_nits": 1200
+    },
+    "battery": {
+      "life_h": 504,
+      "capacity_mah": 233
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 46.53,
+        "width_mm": 21.63,
+        "depth_mm": 10.95
+      },
+      "weight_g": 15.8,
+      "water": "5 ATM",
+      "water_m": 50
+    },
+    "sensors": "Accelerometer sensor / Gyroscope sensor / Optical heart rate sensor / Ambient light sensor, Specifications, 5ATM water resistant, App: Mi Fitness, Motor: Linear motor, Compatibility: Supports smartphones with Android 8.0 or iOS 12.0 and above, Package contents, Xiaomi Smart Band 9 / Magnetic charging cable / User manual"
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "xiaomi",
+      "url": "https://www.mi.com/my/product/xiaomi-smart-band-9/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from Xiaomi Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2024/08/15/xiaomi-smart-band-9-in-malaysia-with-improved-battery-life-heart-rate-tracking-priced-at-rm199/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

@@ -1,0 +1,138 @@
+{
+  "id": "oppo-find-n2-flip",
+  "name": "OPPO Find N2 Flip",
+  "brand": "oppo",
+  "category": "smartphone",
+  "series": "Find N",
+  "form": "foldable",
+  "status": "released",
+  "announced": "2023-03-02",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 3999,
+      "date": "2023-03-02",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2023/295348/oppo-find-n2-flip-malaysia-price-preorder/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/find-n2-flip-en/no-silk-screen/navigation/find-n2-flip-purple_427_600.png",
+    "page": "https://www.oppo.com/my/smartphones/series-find-n/find-n2-flip/",
+    "credit": "OPPO Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.8,
+      "type": "AMOLED",
+      "resolution": "2520 × 1080",
+      "refresh_hz": 120,
+      "peak_nits": 1600,
+      "protection": "UTG",
+      "ppi": 403
+    },
+    "platform": {
+      "chipset": "dimensity-9000-plus",
+      "gpu": "Arm Mali-G710 MC10 GPU",
+      "cpu": "8 cores"
+    },
+    "memory": {
+      "ram_gb": [
+        8
+      ],
+      "storage_gb": [
+        256
+      ],
+      "ram_type": "LPDDR5",
+      "storage_type": "UFS3.1"
+    },
+    "battery": {
+      "capacity_mah": 4300
+    },
+    "charging": {
+      "wired_w": 44,
+      "claim": "44W SUPERVOOC , PD (9V/1.5A), QC (9V/1.5A)"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "aperture": "f/1.8"
+        },
+        {
+          "role": "ultrawide",
+          "mp": 8
+        }
+      ],
+      "front": "32 MP",
+      "rear_detail": [
+        "50MP Main Camera: f/1.8; FOV 86°; 7P lens; AF supported; capable of AF; closed-loop focus motor",
+        "8MP Ultra-wide Angle Camera: f/2.2; FOV 112°; 5P lens; incapable of AF"
+      ],
+      "front_detail": [
+        "32MP; f/2.4; FOV 90°; 5P lens, capable of AF; open-loop focus motor"
+      ]
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true,
+      "bands_2g": "850/900/1800/1900MHz",
+      "bands_3g": "Bands 1/2/4/5/6/8/19",
+      "bands_4g": "LTE FDD: Bands 1/2/3/4/5/7/8/12/17/18/19/20/25/26/28/32/66; LTE TDD: Bands 38/39/40/41",
+      "bands_5g": "5G NR: n1/n2/n3/n5/n7/n8/n12/n20/n25/n28/n38/n40/n41/n66/n77/n78/n79",
+      "technology": "GSM / HSPA / LTE / 5G",
+      "sim": "Nano-SIM card",
+      "wifi": "2.4GHz, 5.1GHz, 5.8GHz",
+      "bluetooth": "Bluetooth v5.3 and Bluetooth Low Energy",
+      "usb": "USB Type-C",
+      "positioning": "BeiDou, GPS, GLONASS, Galileo, QZSS, NavIC; Frequency Antenna"
+    },
+    "build": {
+      "weight_g": 191.0
+    },
+    "software": {
+      "launch_os": "ColorOS 13.0"
+    },
+    "biometrics": {
+      "face": "Yes"
+    },
+    "sensors": "Color temperature sensor, Geomagnetic sensor, Ambient light sensor, Dual proximity sensors, Acceleration sensor, Step counting, Hall sensor, Dual gyroscopes",
+    "audio": {
+      "jack": false
+    },
+    "misc": {
+      "colors": "Astral Black, Moonlit Purple"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "oppo",
+      "url": "https://www.oppo.com/my/smartphones/series-find-n/find-n2-flip/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from OPPO Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "lowyat",
+        "url": "https://www.lowyat.net/2023/295348/oppo-find-n2-flip-malaysia-price-preorder/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (Lowyat.NET). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

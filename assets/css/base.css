@@ -1,0 +1,321 @@
+/* Reset, typography, layout primitives and utilities. */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  /* In-page jumps land just below the sticky header; sticky section bars add their own scroll-margin. */
+  scroll-padding-top: calc(var(--header-h) + 16px);
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  font-size: 15px;
+  line-height: 1.55;
+  font-variation-settings: "wdth" 100;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+img,
+svg {
+  max-width: 100%;
+  display: block;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration-color: color-mix(in srgb, currentColor 35%, transparent);
+  text-underline-offset: 3px;
+}
+
+a:hover {
+  text-decoration-color: currentColor;
+}
+
+:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+  border-radius: 3px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  line-height: 1.12;
+  letter-spacing: -0.01em;
+  font-weight: 750;
+}
+
+h1 {
+  font-size: clamp(28px, 4.2vw, 46px);
+  font-variation-settings: "wdth" 118;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+h2 {
+  font-size: clamp(20px, 2.4vw, 26px);
+  font-variation-settings: "wdth" 112;
+}
+
+h3 {
+  font-size: 16px;
+  font-variation-settings: "wdth" 106;
+}
+
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+::selection {
+  background: var(--accent-soft);
+  color: var(--ink);
+}
+
+/* ---- layout ---- */
+.wrap {
+  width: 100%;
+  max-width: var(--maxw);
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+}
+
+main#app {
+  min-height: calc(100vh - var(--header-h) - 200px);
+  padding-block: var(--sp-5) var(--sp-8);
+}
+
+main#app:focus {
+  outline: none;
+}
+
+.stack > * + * {
+  margin-top: var(--sp-4);
+}
+
+.stack-lg > * + * {
+  margin-top: var(--sp-7);
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-3);
+  flex-wrap: wrap;
+}
+
+.spread {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--sp-3);
+  flex-wrap: wrap;
+}
+
+.grid {
+  display: grid;
+  gap: var(--sp-4);
+}
+
+/* Grid and flex children default to min-width:auto, which lets wide tables push the page sideways. */
+.grid > *,
+.home__top > *,
+.browse__grid > *,
+.verdict-main__grid > * {
+  min-width: 0;
+}
+
+.grid-2 {
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 420px), 1fr));
+}
+
+.grid-3 {
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr));
+}
+
+.grid-4 {
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 230px), 1fr));
+}
+
+/* ---- utilities ---- */
+.mono,
+.num {
+  font-family: var(--font-mono);
+  font-feature-settings: "tnum" 1, "zero" 0;
+  letter-spacing: -0.01em;
+}
+
+.num {
+  font-variant-numeric: tabular-nums;
+}
+
+.muted {
+  color: var(--muted);
+}
+
+.faint {
+  color: var(--faint);
+}
+
+.small {
+  font-size: 13px;
+}
+
+.tiny {
+  font-size: 12px;
+}
+
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: 11.5px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.skip-link {
+  position: absolute;
+  left: var(--sp-4);
+  top: -48px;
+  z-index: 100;
+  padding: var(--sp-2) var(--sp-4);
+  background: var(--ink);
+  color: var(--surface);
+  border-radius: var(--radius-sm);
+  font-weight: 600;
+  text-decoration: none;
+  transition: top 0.15s var(--ease);
+}
+
+.skip-link:focus {
+  top: var(--sp-2);
+}
+
+/* Scroll containers must be positioned: otherwise absolutely positioned descendants (such as the
+   .sr-only labels inside table cells) are laid out against the page, escape the clip and make the
+   whole document scroll sideways on narrow screens. */
+.scroll-x {
+  position: relative;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
+}
+
+.clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+/* Inline list with "·" separators between items (never a trailing one). */
+.dotlist > * + *::before {
+  content: "·";
+  margin: 0 6px;
+  color: var(--muted);
+}
+
+hr.rule {
+  border: 0;
+  border-top: 1px solid var(--rule);
+  margin: var(--sp-5) 0;
+}
+
+/* ---- page entrance ---- */
+.page-enter > * {
+  animation: rise 0.42s var(--ease) both;
+}
+
+.page-enter > *:nth-child(2) {
+  animation-delay: 0.04s;
+}
+
+.page-enter > *:nth-child(3) {
+  animation-delay: 0.08s;
+}
+
+.page-enter > *:nth-child(4) {
+  animation-delay: 0.12s;
+}
+
+.page-enter > *:nth-child(n + 5) {
+  animation-delay: 0.16s;
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes shimmer {
+  to {
+    background-position: -200% 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}

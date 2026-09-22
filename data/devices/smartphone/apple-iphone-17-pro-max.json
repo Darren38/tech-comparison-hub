@@ -1,0 +1,195 @@
+{
+  "id": "apple-iphone-17-pro-max",
+  "name": "iPhone 17 Pro Max",
+  "brand": "apple",
+  "category": "smartphone",
+  "series": "iPhone Pro",
+  "form": "bar",
+  "status": "released",
+  "announced": "2025-09-09",
+  "released": "2025-09-19",
+  "segment": "flagship",
+  "aliases": [
+    "17 Pro Max",
+    "iPhone 17PM",
+    "17PM"
+  ],
+  "summary": "Apple's 2025 large flagship. Aluminium unibody, vapour-chamber cooling and a 48 MP 4× telephoto. Excellent endurance and sustained performance for an iPhone.",
+  "highlights": [
+    "A19 Pro with vapour-chamber cooling",
+    "48 MP 4× telephoto",
+    "Up to 39 h video playback"
+  ],
+  "prices": [
+    {
+      "region": "US",
+      "currency": "USD",
+      "amount": 1199,
+      "config": "256 GB",
+      "date": "2025-09-09",
+      "type": "launch",
+      "source": "apple"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 5999,
+      "config": "256 GB",
+      "date": "2025-09-10",
+      "type": "launch",
+      "source": "malaymail",
+      "url": "https://www.malaymail.com/news/tech-gadgets/2025/09/10/iphone-17-and-iphone-17-pro-malaysia-heres-the-official-pricing-pre-order-opens-september-12/190591",
+      "class": "news",
+      "accessed": "2026-09-16"
+    }
+  ],
+  "image": {
+    "kind": "photo",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Silver_iPhone_17_Pro_Max.jpg/500px-Silver_iPhone_17_Pro_Max.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Silver_iPhone_17_Pro_Max.jpg",
+    "title": "Silver iPhone 17 Pro Max",
+    "author": "Ahmad Ali Karim",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "checked": "2026-09-17"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.9,
+      "type": "Super Retina XDR OLED, ProMotion",
+      "resolution": "2868 × 1320",
+      "ppi": 460,
+      "refresh_hz": 120,
+      "peak_nits": 3000,
+      "protection": "Ceramic Shield 2"
+    },
+    "platform": {
+      "chipset": "apple-a19-pro"
+    },
+    "memory": {
+      "ram_gb": [
+        12
+      ],
+      "storage_gb": [
+        256,
+        512,
+        1024,
+        2048
+      ],
+      "expandable": false
+    },
+    "battery": {
+      "capacity_mah": 4832,
+      "video_h": 39,
+      "variants": "eSIM-only models: 5,088 mAh (reported)"
+    },
+    "charging": {
+      "wired_w": 40,
+      "wireless_w": 25,
+      "claim": "Up to 50% in 20 min with a 40 W adapter"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 48,
+          "sensor": "1/1.28\"",
+          "aperture": "f/1.78",
+          "focal_mm": 24
+        },
+        {
+          "role": "ultrawide",
+          "mp": 48,
+          "aperture": "f/2.2",
+          "focal_mm": 13
+        },
+        {
+          "role": "telephoto",
+          "mp": 48,
+          "aperture": "f/2.8",
+          "focal_mm": 100,
+          "zoom_x": 4
+        }
+      ],
+      "zoom_optical_x": 4,
+      "front": "18 MP Center Stage, f/1.9"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 163.4,
+        "width_mm": 78.0,
+        "depth_mm": 8.75
+      },
+      "weight_g": 233,
+      "frame": "Aluminum unibody",
+      "front": "Ceramic Shield 2",
+      "back": "Ceramic Shield",
+      "ip": "IP68 (6 m, 30 min)"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "wifi": "Wi-Fi 7",
+      "bluetooth": "6",
+      "usb": "USB-C, USB 3 (10 Gb/s)",
+      "nfc": true,
+      "uwb": true,
+      "satellite": true
+    },
+    "biometrics": {
+      "face": "Face ID"
+    },
+    "software": {
+      "launch_os": "iOS 26",
+      "os_updates_years": 6,
+      "security_updates_years": 7,
+      "policy_note": "Apple publishes no fixed upgrade commitment. Recent iPhones have received about six years of major iOS releases plus further security fixes, so the figures here are platform estimates."
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "apple",
+      "url": "https://support.apple.com/en-us/125091",
+      "checked": "2026-09-15"
+    },
+    "fields": {
+      "specs.camera.rear": {
+        "class": "database",
+        "source": "gsmarena",
+        "url": "https://www.gsmarena.com/apple_iphone_17_pro_max-review-2884p6.php",
+        "note": "Main sensor size (1/1.28\") from GSMArena's camera review; Apple does not publish sensor sizes. Other camera values are Apple's.",
+        "checked": "2026-09-15"
+      },
+      "specs.memory.ram_gb": {
+        "class": "database",
+        "source": "gsmarena",
+        "note": "Apple does not list RAM; figure reported in reviews."
+      },
+      "specs.battery.capacity_mah": {
+        "class": "database",
+        "source": "gsmarena",
+        "note": "Apple does not publish capacity; figure from regulatory filings reported by the press."
+      },
+      "specs.battery.variants": {
+        "class": "database",
+        "source": "gsmarena"
+      },
+      "specs.charging.wired_w": {
+        "class": "estimated",
+        "source": "apple",
+        "note": "Apple gives a time-based claim and an adapter rating, not the phone's maximum input. The adapter rating is used as an estimate."
+      },
+      "specs.software.os_updates_years": {
+        "class": "estimated",
+        "source": "apple",
+        "note": "Apple publishes no fixed upgrade commitment. Recent iPhones have received about six years of major iOS releases plus further security fixes, so the figures here are platform estimates."
+      },
+      "specs.software.security_updates_years": {
+        "class": "estimated",
+        "source": "apple",
+        "note": "Apple publishes no fixed upgrade commitment. Recent iPhones have received about six years of major iOS releases plus further security fixes, so the figures here are platform estimates."
+      }
+    }
+  },
+  "dataStatus": "checked"
+}

@@ -1,0 +1,119 @@
+{
+  "id": "redmi-note-14-pro-plus",
+  "name": "Redmi Note 14 Pro+ 5G",
+  "brand": "redmi",
+  "category": "smartphone",
+  "series": "Redmi Note",
+  "form": "bar",
+  "status": "released",
+  "announced": "2025-01-10",
+  "released": "2025-01",
+  "segment": "mid-range",
+  "aliases": [
+    "Note 14 Pro+",
+    "Note 14 Pro Plus",
+    "Redmi Note 14 Pro Plus"
+  ],
+  "summary": "Popular mid-ranger with a 200 MP main camera, IP68 and 120 W charging.",
+  "highlights": [
+    "200 MP main camera",
+    "120 W HyperCharge",
+    "IP68"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1699,
+      "config": "12 GB / 256 GB",
+      "date": "2025-01-10",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/01/10/redmi-note-14-pro-pro-5g-malaysia-price-specs-features/",
+      "class": "news",
+      "accessed": "2026-09-16"
+    }
+  ],
+  "image": {
+    "kind": "photo",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Redmi_Note_14_Pro_Plus_Xiaomi_Store.jpg/500px-Redmi_Note_14_Pro_Plus_Xiaomi_Store.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Redmi_Note_14_Pro_Plus_Xiaomi_Store.jpg",
+    "title": "Redmi Note 14 Pro Plus Xiaomi Store",
+    "author": "GVZpedia",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "checked": "2026-09-17"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.67,
+      "type": "AMOLED (curved)",
+      "resolution": "2712 × 1220",
+      "ppi": 446,
+      "refresh_hz": 120,
+      "peak_nits": 3000,
+      "protection": "Corning Gorilla Glass Victus 2"
+    },
+    "platform": {
+      "chipset": "snapdragon-7s-gen-3"
+    },
+    "memory": {
+      "ram_gb": [
+        8,
+        12
+      ],
+      "storage_gb": [
+        256,
+        512
+      ]
+    },
+    "battery": {
+      "capacity_mah": 5110
+    },
+    "charging": {
+      "wired_w": 120,
+      "wireless_w": 0
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 200,
+          "sensor": "1/1.4\""
+        },
+        {
+          "role": "ultrawide",
+          "mp": 8
+        },
+        {
+          "role": "macro",
+          "mp": 2
+        }
+      ],
+      "zoom_optical_x": 1,
+      "front": "20 MP"
+    },
+    "build": {
+      "ip": "IP68"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true
+    },
+    "software": {
+      "launch_os": "Android 14, HyperOS",
+      "os_updates_years": 3,
+      "security_updates_years": 4
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "redmi",
+      "url": "https://www.mi.com/global",
+      "note": "Compiled from Xiaomi's launch specifications; not re-checked this session."
+    },
+    "fields": {}
+  },
+  "dataStatus": "compiled"
+}

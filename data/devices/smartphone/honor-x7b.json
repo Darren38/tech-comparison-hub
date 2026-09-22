@@ -1,0 +1,130 @@
+{
+  "id": "honor-x7b",
+  "name": "HONOR X7b",
+  "brand": "honor",
+  "category": "smartphone",
+  "series": "X",
+  "form": "bar",
+  "status": "released",
+  "announced": "2023-12-13",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 799,
+      "date": "2023-12-13",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2023/312667/honor-x8b-x7b-coming-malaysia-22-dec/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://www.honor.com/content/dam/honor/my/product-list/smartphone/honor-x7b/honor-x7b-silvery.png",
+    "page": "https://www.honor.com/my/phones/honor-x7b/spec/",
+    "credit": "HONOR Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.8,
+      "type": "LCD",
+      "resolution": "2412 × 1080",
+      "refresh_hz": 90,
+      "ppi": 389
+    },
+    "platform": {
+      "chipset": "snapdragon-680",
+      "gpu": "Adreno610",
+      "cpu": "Octa-core; 4*A73 2.4GHz + 4*A53 1.9GHz"
+    },
+    "battery": {
+      "capacity_mah": 6000,
+      "chemistry": "Lithium Polymer"
+    },
+    "charging": {
+      "wired_w": 35,
+      "claim": "Support up to 11V/3.2A super charge"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 108,
+          "aperture": "f/1.75"
+        },
+        {
+          "role": "macro",
+          "mp": 2
+        }
+      ],
+      "front": "8 MP",
+      "rear_detail": [
+        "108MP Ultra-clear Main Camera (f/1.75 aperture)",
+        "5MP Wide & Depth Camera (F/2.2 apeture)",
+        "2MP Macro Camera (f/2.4 apeture)"
+      ],
+      "features": "Up to 8x digital zoom",
+      "video": "1080p",
+      "front_detail": [
+        "8 MP Camera (f/2.0 aperture)"
+      ]
+    },
+    "connectivity": {
+      "cellular": "4G",
+      "technology": "GSM / HSPA / LTE",
+      "sim": "Nano Card",
+      "wifi": "802.11 a/b/g/n/ac",
+      "positioning": "Support GPS/AGPS/GLONASS/BeiDou/Galileo; Network-Based Positioning; Wi-Fi-Based Positioning",
+      "usb": "Type-C, USB 2.0",
+      "bluetooth": "Bluetooth"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 166.7,
+        "width_mm": 76.5,
+        "depth_mm": 8.24
+      },
+      "weight_g": 199.0
+    },
+    "software": {
+      "launch_os": "MagicOS 7.2 (Based on Android 13)"
+    },
+    "memory": {
+      "storage_type": "MicroSD, 1TB Supported"
+    },
+    "biometrics": {
+      "face": "Yes"
+    },
+    "sensors": "Gravity Sensor, Fingerprint Sensor, Ambient Light Sensor, Proximity Sensor",
+    "audio": {
+      "jack": true
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "honor",
+      "url": "https://www.honor.com/my/phones/honor-x7b/spec/",
+      "checked": "2026-09-18",
+      "note": "Read from HONOR Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "lowyat",
+        "url": "https://www.lowyat.net/2023/312667/honor-x8b-x7b-coming-malaysia-22-dec/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (Lowyat.NET). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

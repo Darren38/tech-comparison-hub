@@ -1,0 +1,137 @@
+{
+  "id": "honor-x7c",
+  "name": "HONOR X7c",
+  "brand": "honor",
+  "category": "smartphone",
+  "series": "X",
+  "form": "bar",
+  "status": "released",
+  "announced": "2024-11-06",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 699,
+      "config": "8 GB / 256 GB",
+      "date": "2024-11-06",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2024/11/06/honor-x7c-4g-malaysia/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://www.honor.com/content/dam/honor/my/product-list/smartphone/honor-x7c/honor-x7c-green-list.png",
+    "page": "https://www.honor.com/my/phones/honor-x7c/spec/",
+    "credit": "HONOR Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.77,
+      "type": "LCD",
+      "resolution": "1610 × 720",
+      "ppi": 261
+    },
+    "platform": {
+      "chipset": "snapdragon-685",
+      "gpu": "Adreno 610",
+      "cpu": "Octa-core; 4xA73@2.8GHz + 4xA53@1.9GHz"
+    },
+    "memory": {
+      "ram_gb": [
+        8
+      ],
+      "storage_gb": [
+        256
+      ]
+    },
+    "battery": {
+      "capacity_mah": 6000,
+      "chemistry": "Li-ion Polymer"
+    },
+    "charging": {
+      "wired_w": 35,
+      "claim": "Support up to 35W (11V/3.2A) super charge"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 108
+        },
+        {
+          "role": "depth",
+          "mp": 2
+        }
+      ],
+      "front": "8 MP",
+      "rear_detail": [
+        "108MP Main camera (f1.75)",
+        "2MP Depth Camera (f/2.4)"
+      ],
+      "features": "Up to 8X Digital zoom",
+      "video": "1080p",
+      "front_detail": [
+        "8MP Front Camera(f/2.0)"
+      ]
+    },
+    "connectivity": {
+      "cellular": "4G",
+      "technology": "GSM / HSPA / LTE",
+      "sim": "nano-SIM card",
+      "wifi": "802.11 a/b/g/n/ac",
+      "positioning": "Support GPS /AGPS/GLONASS/BeiDou/Galileo; Network-Based Positioning; Wi-Fi-Based Positioning",
+      "usb": "Type-C",
+      "bluetooth": "Bluetooth"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 166.9,
+        "width_mm": 76.8,
+        "depth_mm": 8.09
+      },
+      "weight_g": 199.0,
+      "ip": "IP64"
+    },
+    "software": {
+      "launch_os": "MagicOS 8.0 (Based on Android 14)"
+    },
+    "biometrics": {
+      "face": "Yes"
+    },
+    "sensors": "Gravity Sensor, Fingerprint Sensor, Compass, Ambient Light Sensor, Proximity Sensor, Media and Audio",
+    "audio": {
+      "jack": true
+    },
+    "misc": {
+      "colors": "Midnight Black: 8.09 mm, Forest Green, Moonlight White: 8.24 mm"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "honor",
+      "url": "https://www.honor.com/my/phones/honor-x7c/spec/",
+      "checked": "2026-09-18",
+      "note": "Read from HONOR Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2024/11/06/honor-x7c-4g-malaysia/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

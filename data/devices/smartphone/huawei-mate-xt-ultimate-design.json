@@ -1,0 +1,131 @@
+{
+  "id": "huawei-mate-xt-ultimate-design",
+  "name": "Huawei Mate XT Ultimate Design",
+  "brand": "huawei",
+  "category": "smartphone",
+  "series": "Mate X",
+  "form": "foldable",
+  "status": "released",
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-18",
+      "source": "huawei",
+      "url": "https://consumer.huawei.com/my/phones/mate-xt-ultimate-design/specs/",
+      "note": "Sold in Malaysia, but no launch price was found in Malaysian launch coverage."
+    }
+  },
+  "image": {
+    "kind": "official",
+    "src": "https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/admin-image/phones/mate-xt-ultimate-design/specs/red.png",
+    "page": "https://consumer.huawei.com/my/phones/mate-xt-ultimate-design/specs/",
+    "credit": "Huawei Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.4,
+      "type": "OLED",
+      "resolution": "2232 × 1008",
+      "ppi": 383
+    },
+    "platform": {
+      "chipset": "kirin-9010"
+    },
+    "memory": {
+      "ram_gb": [
+        16
+      ],
+      "storage_gb": [
+        1024
+      ],
+      "card": "No"
+    },
+    "battery": {
+      "capacity_mah": 5600
+    },
+    "charging": {
+      "wired_w": 66,
+      "wireless_w": 50,
+      "claim": "HUAWEI SuperCharge (Max 66 W); The phone supports 11V/6A (Max 66 W) super-fast charging and is compatible with 10V/4A or 10V/2.25A or 4.5V/5A or 5V/4.5A super-fast charging, and 9V"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "ois": true
+        },
+        {
+          "role": "ultrawide",
+          "mp": 12
+        },
+        {
+          "role": "periscope",
+          "mp": 12
+        }
+      ],
+      "front": "8 MP",
+      "rear_detail": [
+        "50 MP Ultra Aperture Camera (F1.4-4.0 aperture,OIS)",
+        "12 MP Ultra-Wide Angle Camera (F2.2 aperture)",
+        "12 MP Periscope Telephoto Camera (F3.4 aperture, OIS)"
+      ],
+      "features": "5.5x optical zoom (5.5x zoom is an approximate value, the lens equivalent focal lengths are 24 mm, 13 mm, 125 mm), and 50x digital zoom.",
+      "video": "4K",
+      "front_detail": [
+        "8 MP Selfie Camera (F2.2)"
+      ],
+      "zoom_optical_x": 5.5
+    },
+    "connectivity": {
+      "cellular": "4G",
+      "nfc": true,
+      "bands_2g": "Bands 2 / 3 / 5 / 8 (1900 / 1800 / 850 / 900 MHz",
+      "bands_3g": "Bands 1 / 2 / 4 / 5 / 6 / 8 / 19",
+      "bands_4g": "4G LTE FDD: Bands 1 / 2 / 3 / 4 / 5 / 6 / 7 / 8 / 9 / 12 / 17 / 18 / 19 / 20 / 26 / 28",
+      "technology": "GSM / HSPA / LTE",
+      "wifi": "2.4 GHz and 5 GHz; 802.11a/b/g/n/ac/ax, 2 × 2 MIMO, HE160, 4096 QAM, 8 Spatial-stream Sounding MU-MIMO",
+      "bluetooth": "Bluetooth 5.2, Support BLE, SBC, AAC, LDAC and L2HC.",
+      "usb": "USB Type-C, USB 3.1 GEN1",
+      "positioning": "GPS (L1 + L5 Dual band)/AGPS/GLONASS/BeiDou(B1I + B1C + B2a + B2b Quad-band)/GALILEO(E1 + E5a + E5b Tri-band)/QZSS (L1 + L5 Dual band)/NavIC",
+      "sim": "Dual SIM model"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 156.7,
+        "width_mm": 73.5,
+        "depth_mm": 12.8
+      },
+      "weight_g": 298.0,
+      "ip": "IPX8"
+    },
+    "software": {
+      "launch_os": "EMUI 14.2"
+    },
+    "audio": {
+      "jack": false
+    },
+    "sensors": "Gesture Sensor, Gravity Sensor, Infrared Sensor, Fingerprint Sensor, Hall Sensor, Gyroscope, Compass, Barometer, Ambient Light Sensor, Proximity Sensor (Functions are implemented through software solutions.), Laser Sensor, Colour Temperature Sensor",
+    "misc": {
+      "colors": "Red, Black"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "huawei",
+      "url": "https://consumer.huawei.com/my/phones/mate-xt-ultimate-design/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from Huawei Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

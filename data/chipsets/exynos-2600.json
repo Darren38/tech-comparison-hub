@@ -1,0 +1,50 @@
+{
+  "id": "exynos-2600",
+  "name": "Exynos 2600",
+  "vendor": "samsung",
+  "family": "Exynos",
+  "tier": "flagship",
+  "announced": "2025-12-19",
+  "aliases": [
+    "E2600"
+  ],
+  "summary": "Samsung's first 2 nm chip, used in the Galaxy S26 and S26+ in Europe, Korea and India. Competitive GPU, but trails the Snapdragon 8 Elite Gen 5 in single-core CPU speed.",
+  "process": {
+    "node": "2 nm",
+    "foundry": "Samsung",
+    "name": "SF2 (GAA)"
+  },
+  "cpu": {
+    "cores": 10,
+    "clusters": [
+      {
+        "count": 1,
+        "core": "Arm C1-Ultra",
+        "ghz": 3.8
+      },
+      {
+        "count": 3,
+        "core": "Arm C1-Pro",
+        "ghz": 3.25
+      },
+      {
+        "count": 6,
+        "core": "Arm C1-Pro",
+        "ghz": 2.75
+      }
+    ]
+  },
+  "gpu": {
+    "name": "Xclipse 960"
+  },
+  "variants": [],
+  "provenance": {
+    "default": {
+      "class": "database",
+      "source": "notebookcheck",
+      "url": "https://www.notebookcheck.net/Samsung-Exynos-2600-Processor-Benchmarks-and-Specs.1270874.0.html",
+      "checked": "2026-09-15"
+    },
+    "fields": {}
+  }
+}

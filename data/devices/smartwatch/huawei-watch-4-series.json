@@ -1,0 +1,83 @@
+{
+  "id": "huawei-watch-4-series",
+  "name": "Huawei Watch 4 Pro",
+  "brand": "huawei",
+  "category": "smartwatch",
+  "series": "Watch",
+  "form": "watch",
+  "status": "released",
+  "announced": "2023-07-07",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 2499,
+      "date": "2023-07-07",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2023/303330/huawei-watch-4-series-launch-malaysia/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 1.5,
+      "type": "LTPO AMOLED",
+      "resolution": "466 × 466"
+    },
+    "battery": {
+      "life_h": 72
+    },
+    "connectivity": {
+      "nfc": true,
+      "usb": "Wireless charging; System Requirements; Android 6.0 or later; iOS 9.0 or later; Waterproof Level; 5 ATM, Dive (up to 30 meters)",
+      "bluetooth": "2.4 GHz, supports BT5.2 and BR+BLE; Environment; Ambient Operating Temperature; 0℃～+35℃; Battery Life; HUAWEI WATCH 4"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 46.2,
+        "width_mm": 46.2,
+        "depth_mm": 10.9
+      },
+      "water": "5 ATM",
+      "water_m": 50
+    },
+    "sensors": "Accelerometer, Gyroscope, Compass, Optical heart rate sensor, Ambient light sensor, Barometer, Temperature sensor, ECG sensor, Depth sensor, Button, Home Button (Rotating Crown) and Side Button",
+    "audio": {
+      "speakers": "Microphone"
+    },
+    "charging": {
+      "claim": "Charger Voltage and Current Requirements; 5V-9V DC/2A"
+    },
+    "misc": {
+      "colors": "Black Fluoroelastomer Strap"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "huawei",
+      "url": "https://consumer.huawei.com/my/wearables/watch-4-series/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from Huawei Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "lowyat",
+        "url": "https://www.lowyat.net/2023/303330/huawei-watch-4-series-launch-malaysia/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (Lowyat.NET). The global announcement can be earlier."
+      }
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/admin-image/wearables/watch-4-series/list/list-dark-brown.png",
+    "page": "https://consumer.huawei.com/my/wearables/watch-4-series/specs/",
+    "credit": "Huawei",
+    "checked": "2026-09-19"
+  }
+}

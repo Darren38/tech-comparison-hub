@@ -1,0 +1,16 @@
+{
+  "id": "exynos-850",
+  "name": "Exynos 850",
+  "vendor": "samsung",
+  "family": "Exynos",
+  "summary": "Name recorded from phone makers' specification pages and launch reports. Chip details have not been compiled yet.",
+  "provenance": {
+    "default": {
+      "class": "news",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2023/03/13/samsung-galaxy-a14-malaysia-rm799-budget-phone-4-years-software-update-2-year-warranty/",
+      "checked": "2026-09-18",
+      "note": "Chip name as given for the Galaxy A14."
+    }
+  }
+}

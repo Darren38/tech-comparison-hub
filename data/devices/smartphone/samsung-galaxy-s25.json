@@ -1,0 +1,146 @@
+{
+  "id": "samsung-galaxy-s25",
+  "name": "Galaxy S25",
+  "brand": "samsung",
+  "category": "smartphone",
+  "series": "Galaxy S",
+  "form": "bar",
+  "status": "released",
+  "announced": "2025-01-23",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 3999,
+      "config": "256 GB",
+      "date": "2025-01-23",
+      "type": "launch",
+      "source": "nasilemaktech",
+      "url": "https://nasilemaktech.com/samsung-galaxy-s25-ultra-plus-malaysia-price/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 4599,
+      "config": "512 GB",
+      "date": "2025-01-23",
+      "type": "launch",
+      "source": "nasilemaktech",
+      "url": "https://nasilemaktech.com/samsung-galaxy-s25-ultra-plus-malaysia-price/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 6.2,
+      "resolution": "2340 × 1080",
+      "type": "Dynamic AMOLED 2X",
+      "refresh_hz": 120,
+      "ppi": 416
+    },
+    "platform": {
+      "chipset": "snapdragon-8-elite",
+      "cpu": "Octa-Core; 4.47GHz, 3.5GHz"
+    },
+    "battery": {
+      "capacity_mah": 4000,
+      "video_h": 29
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "aperture": "f/1.8",
+          "ois": true
+        }
+      ],
+      "front": "12 MP",
+      "rear_detail": [
+        "50 MP, f/1.8, OIS",
+        "10 MP, f/2.4",
+        "12 MP, f/2.2"
+      ],
+      "features": "Optical Zoom 3x, Optical quality Zoom 2x (Enabled by Adaptive Pixel sensor) , Digital Zoom up to 30x",
+      "front_detail": [
+        "12 MP, f/2.2"
+      ],
+      "video": "UHD 8K (7680 x 4320)@30fps",
+      "zoom_optical_x": 3
+    },
+    "build": {
+      "ip": "IP68",
+      "dimensions": {
+        "height_mm": 146.9,
+        "width_mm": 70.5,
+        "depth_mm": 7.2
+      },
+      "weight_g": 162.0
+    },
+    "memory": {
+      "ram_gb": [
+        12
+      ],
+      "storage_gb": [
+        256,
+        512
+      ]
+    },
+    "connectivity": {
+      "bands_2g": "GSM850, GSM900, DCS1800, PCS1900",
+      "bands_3g": "B1(2100), B2(1900), B4(AWS), B5(850), B8(900)",
+      "bands_4g": "4G FDD LTE: B1(2100), B2(1900), B3(1800), B4(AWS), B5(850), B7(2600), B8(900), B12(700), B13(700), B17(700), B18(800), B19(800), B20(800), B25(1900), B26(850), B28(700), B66(AWS-3); 4G TDD LTE: B38(2600), B39(1900), B40(2300), B41(2500)",
+      "bands_5g": "5G FDD Sub6: N1(2100), N2(1900), N3(1800), N5(850), N7(2600), N8(900), N12(700), N20(800), N25(1900), N26(850), N28(700), N66(AWS-3); 5G TDD Sub6: N38(2600), N40(2300), N41(2500), N77(3700), N78(3500)",
+      "technology": "GSM / HSPA / LTE / 5G",
+      "sim": "Dual-SIM; Nano-SIM (4FF), Embedded-SIM; SIM 1 + SIM 2 / SIM 1 + eSIM / Dual eSIM",
+      "wifi": "802.11a/b/g/n/ac/ax/be 2.4GHz+5GHz+6GHz, EHT320, MIMO, 4096-QAM",
+      "bluetooth": "Bluetooth v5.4",
+      "positioning": "GPS, Glonass, Beidou, Galileo, QZSS",
+      "usb": "USB Type-C, USB 3.2 Gen 1",
+      "nfc": true
+    },
+    "audio": {
+      "speakers": "Stereo speakers",
+      "jack": false
+    },
+    "sensors": "Accelerometer, Barometer, Fingerprint Sensor, Gyro Sensor, Geomagnetic Sensor, Hall Sensor, Light Sensor, Proximity Sensor",
+    "software": {
+      "security_updates_years": 7,
+      "security_until": "2032-01-31"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "samsung",
+      "url": "https://www.samsung.com/my/smartphones/galaxy-s25/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from Samsung Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "nasilemaktech",
+        "url": "https://nasilemaktech.com/samsung-galaxy-s25-ultra-plus-malaysia-price/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (Nasi Lemak Tech). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://images.samsung.com/is/image/samsung/p6pim/my/2501/gallery/my-galaxy-s25-s931-sm-s931bdbcxme-544665049?$624_624_PNG$",
+    "page": "https://www.samsung.com/my/support/model/SM-S931BDBCXME/",
+    "credit": "Samsung Malaysia",
+    "checked": "2026-09-19"
+  }
+}

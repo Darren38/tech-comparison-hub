@@ -1,0 +1,151 @@
+{
+  "id": "oppo-find-x9s",
+  "name": "OPPO Find X9s",
+  "brand": "oppo",
+  "category": "smartphone",
+  "series": "Find X",
+  "form": "bar",
+  "status": "released",
+  "announced": "2026-04-22",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 3899,
+      "config": "12 GB / 512 GB",
+      "date": "2026-04-22",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2026/04/22/oppo-find-x9s-malaysia-price-specs-promo/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/find-x9-ultra-x9s-en/find-x9s/list-page/480-600-orange.png",
+    "page": "https://www.oppo.com/my/smartphones/series-find-x/find-x9s/",
+    "credit": "OPPO Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.59,
+      "type": "AMOLED",
+      "resolution": "2760 × 1256",
+      "refresh_hz": 120,
+      "peak_nits": 1800,
+      "protection": "Corning Gorilla Glass 7i",
+      "ppi": 460
+    },
+    "platform": {
+      "chipset": "dimensity-9500",
+      "gpu": "Immortalis G925 MC12@1612 MHz",
+      "cpu": "8-core"
+    },
+    "memory": {
+      "ram_gb": [
+        12
+      ],
+      "storage_gb": [
+        512
+      ],
+      "ram_type": "LPDDR5X",
+      "storage_type": "UFS 4.1",
+      "card": "No"
+    },
+    "battery": {
+      "capacity_mah": 7025
+    },
+    "charging": {
+      "wired_w": 80,
+      "claim": "Supports(Max): 80 W SUPERVOOC; Compatible with: 67 W and below SUPERVOOC , 55 W PPS, 13.5 W PD"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "ultrawide",
+          "mp": 50
+        },
+        {
+          "role": "main",
+          "mp": 50,
+          "aperture": "f/1.8",
+          "ois": true
+        },
+        {
+          "role": "telephoto",
+          "mp": 50
+        }
+      ],
+      "front": "32 MP",
+      "rear_detail": [
+        "Ultra-wide angle: 50MP; f/2.0; FOV 120°; 6P lens; AF supported",
+        "Wide angle: 50MP; f/1.8; FOV 84°; 6P lens; AF supported; Supports 2-axis OIS",
+        "Telephoto: 50MP; f/2.6; FOV 33°; 1G3P lens; AF supported; Supports 2-axis OIS"
+      ],
+      "front_detail": [
+        "32MP; f/2.4; FOV 90°; 5P lens"
+      ],
+      "video": "4K@60fps; 1080p",
+      "front_video": "4K@60fps; 1080p"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true,
+      "bands_2g": "850/900/1800/1900MHz",
+      "bands_3g": "Band 1/2/4/5/6/8/19",
+      "bands_4g": "LTE FDD: Band 1/2/3/4/5/7/8/12/17/18/19/20/26/28/32/66; LTE TDD: Band 38/39/40/41/42/48",
+      "bands_5g": "5G NR: n1/n2/n3/n5/n7/n8/n12/n20/n26/n28/n38/n40/n41/n48/n66/n75/n77/n78",
+      "technology": "GSM / HSPA / LTE / 5G",
+      "sim": "Nano-SIM card, Nano-USIM card; eSIM",
+      "bluetooth": "Bluetooth 6.1, Low Energy",
+      "usb": "USB Type-C",
+      "positioning": "GPS(L1+L5), GLONASS(G1), BDS(B1I+B1C+B2a+B2b), Galileo(E1+E5a+E5b), QZSS(L1+L5), NavIC(L5)",
+      "wifi": "Wi-Fi 7 (802.11be) supported; Wi-Fi 6 (802.11ax) supported"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 156.98,
+        "width_mm": 73.93,
+        "depth_mm": 7.99
+      },
+      "weight_g": 202.0
+    },
+    "software": {
+      "launch_os": "ColorOS 16.0"
+    },
+    "biometrics": {
+      "fingerprint": "Under-screen fingerprint",
+      "face": "Yes"
+    },
+    "sensors": "Proximity sensor, Ambient light sensor, Colour temperature sensor, E-compass, Accelerometer, Gyroscope, In-display ultrasound fingerprint sensor, Laser focusing sensor, Spectral sensor, Infrared remote control",
+    "audio": {
+      "jack": false
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "oppo",
+      "url": "https://www.oppo.com/my/smartphones/series-find-x/find-x9s/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from OPPO Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2026/04/22/oppo-find-x9s-malaysia-price-specs-promo/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

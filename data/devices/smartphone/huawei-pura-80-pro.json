@@ -1,0 +1,144 @@
+{
+  "id": "huawei-pura-80-pro",
+  "name": "Huawei Pura 80 Pro",
+  "brand": "huawei",
+  "category": "smartphone",
+  "series": "Pura",
+  "form": "bar",
+  "status": "released",
+  "announced": "2025-07-24",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 4599,
+      "config": "12 GB / 512 GB",
+      "date": "2025-07-24",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/07/24/huawei-pura-80-series-pro-ultra-malaysia-price-specs-promo-launch/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/phones/pura80-pro/specs-red.png",
+    "page": "https://consumer.huawei.com/my/phones/pura80-pro/specs/",
+    "credit": "Huawei Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.8,
+      "type": "LTPO OLED",
+      "resolution": "2848 × 1276",
+      "ppi": 459
+    },
+    "platform": {
+      "chipset": "kirin-9020"
+    },
+    "memory": {
+      "ram_gb": [
+        12
+      ],
+      "storage_gb": [
+        512
+      ],
+      "card": "No"
+    },
+    "battery": {
+      "capacity_mah": 5170
+    },
+    "charging": {
+      "wired_w": 100,
+      "wireless_w": 80,
+      "claim": "HUAWEI SuperCharge (Max 100 W); The phone supports 20V/5A (Max 100 W) super-fast charging and is compatible with 20V/4.4A or 10V/4A or 10V/2.25A or 4.5V/5A or 5V/4.5A super-fast ch"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "ois": true
+        },
+        {
+          "role": "ultrawide",
+          "mp": 40
+        },
+        {
+          "role": "telephoto",
+          "mp": 48
+        }
+      ],
+      "front": "13 MP",
+      "rear_detail": [
+        "50 MP 1-inch Ultra Lighting Camera (F1.6~F4.0 aperture, OIS)",
+        "40 MP Ultra-Wide Angle Camera (F2.2 aperture)",
+        "48 MP Ultra Lighting Macro Telephoto Camera (F2.1 aperture, OIS)"
+      ],
+      "features": "4x optical zoom (4x zoom is an approximate value, the lens focal lengths are 22.5 mm, 13 mm, 92.5 mm), and 100x digital zoom.",
+      "video": "4K",
+      "front_detail": [
+        "13 MP Selfie Camera (Wide Angle, F2.0, autofocus)"
+      ],
+      "zoom_optical_x": 4
+    },
+    "connectivity": {
+      "cellular": "4G",
+      "nfc": true,
+      "bands_2g": "Bands 2/3/5/8 (850/900/1800/1900 MHz",
+      "bands_3g": "Bands 1/2/4/5/6/8/19",
+      "bands_4g": "4G LTE FDD: Bands 1/2/3/4/5/6/7/8/9/12/13/17/18/19/20/25/26/28/32/66; 4G LTE TDD: Bands 34/38/39/40/41/42",
+      "technology": "GSM / HSPA / LTE",
+      "wifi": "2.4 GHz and 5 GHz; IEEE 802.11 a/b/g/n/ac/ax/be, 2 × 2 MIMO, EHT160, 8 Spatial-stream Sounding MU-MIMO",
+      "bluetooth": "Bluetooth 5.2, Support BLE, SBC, AAC, LDAC and L2HC.",
+      "usb": "USB Type-C, USB 3.1 GEN1",
+      "positioning": "GPS (L1 + L5 Dual band)/AGPS/GLONASS/BeiDou(B1I + B1C + B2a + B2b Quad-band)/GALILEO(E1 + E5a + E5b Tri-band)/QZSS (L1 + L5 Dual band)/NavIC"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 163.0,
+        "width_mm": 76.1,
+        "depth_mm": 8.3
+      },
+      "weight_g": 219.0,
+      "ip": "IP69"
+    },
+    "software": {
+      "launch_os": "EMUI 15.0"
+    },
+    "audio": {
+      "jack": false
+    },
+    "sensors": "Gravity Sensor, Infrared Sensor, Fingerprint Sensor, Hall sensor, Gyroscope, Compass, Ambient Light Sensor, Proximity Sensor, Laser Sensor, Colour Temperature Sensor, Gesture Sensor, Barometric pressure sensor",
+    "misc": {
+      "models": "LMR-LX9 (Dual SIM model)",
+      "colors": "Glazed Red, Glazed White, Glazed Black"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "huawei",
+      "url": "https://consumer.huawei.com/my/phones/pura80-pro/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from Huawei Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2025/07/24/huawei-pura-80-series-pro-ultra-malaysia-price-specs-promo-launch/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

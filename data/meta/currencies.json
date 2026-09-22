@@ -1,0 +1,31 @@
+{
+  "default": "MYR",
+  "base": "MYR",
+  "asOf": "2026-09-22",
+  "source": {
+    "name": "Bank Negara Malaysia",
+    "url": "https://www.bnm.gov.my/latest-rates",
+    "note": "Middle rates published by Bank Negara Malaysia. BNM quotes the rupee per 100 units; it is stored here per 1 unit."
+  },
+  "conversionPreference": [
+    "USD",
+    "EUR",
+    "GBP",
+    "SGD",
+    "MYR",
+    "INR",
+    "CNY"
+  ],
+  "conversionNote": "Converted prices are estimates: they ignore local taxes, bundles and regional pricing. A recorded local launch price is always shown in preference to a conversion, and converted prices are never used for value scoring. China launch prices are converted last because they are often far below other markets.",
+  "session": "17:00",
+  "fetchedAt": "2026-09-22T15:15:19+00:00",
+  "currencies": [
+    {"code": "MYR", "name": "Malaysian ringgit", "label": "RM · MYR", "toMYR": 1, "region": "MY", "regionName": "Malaysia"},
+    {"code": "USD", "name": "US dollar", "label": "$ · USD", "toMYR": 4.076, "region": "US", "regionName": "the US"},
+    {"code": "EUR", "name": "Euro", "label": "€ · EUR", "toMYR": 4.6701, "region": "EU", "regionName": "the EU"},
+    {"code": "GBP", "name": "British pound", "label": "£ · GBP", "toMYR": 5.4443, "region": "UK", "regionName": "the UK"},
+    {"code": "SGD", "name": "Singapore dollar", "label": "S$ · SGD", "toMYR": 3.195, "region": "SG", "regionName": "Singapore"},
+    {"code": "CNY", "name": "Chinese yuan", "label": "CN¥ · CNY", "toMYR": 0.6083, "region": "CN", "regionName": "China"},
+    {"code": "INR", "name": "Indian rupee", "label": "₹ · INR", "toMYR": 0.042618, "region": "IN", "regionName": "India"}
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "id": "redmi-note-14-pro",
+  "name": "Redmi Note 14 Pro",
+  "brand": "redmi",
+  "category": "smartphone",
+  "series": "Redmi Note",
+  "form": "bar",
+  "status": "released",
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-18",
+      "source": "redmi",
+      "url": "https://www.mi.com/global/product/redmi-note-14-pro/specs/",
+      "note": "Sold in Malaysia, but no launch price was found in Malaysian launch coverage."
+    }
+  },
+  "image": {
+    "kind": "official",
+    "src": "https://i02.appmifile.com/145_operatorx_operatorx_opx/10/01/2025/b381ab467340baace69840496f8cdfd3.png",
+    "page": "https://www.mi.com/global/product/redmi-note-14-pro/specs/",
+    "credit": "Xiaomi",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.67,
+      "type": "AMOLED",
+      "resolution": "2400 × 1080",
+      "refresh_hz": 120,
+      "peak_nits": 1800,
+      "protection": "Corning Gorilla Glass Victus 2",
+      "ppi": 395
+    },
+    "platform": {
+      "chipset": "helio-g100",
+      "gpu": "Mali-G57 MC2",
+      "cpu": "Octa-core processor, up to 2.2GHz"
+    },
+    "battery": {
+      "capacity_mah": 5500
+    },
+    "charging": {
+      "wired_w": 45,
+      "claim": "45W turbo charging; 45W in-box charger"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 200,
+          "sensor": "1/1.4\"",
+          "aperture": "f/1.65",
+          "ois": true
+        },
+        {
+          "role": "ultrawide",
+          "mp": 8
+        },
+        {
+          "role": "macro",
+          "mp": 2
+        }
+      ],
+      "front": "32 MP",
+      "rear_detail": [
+        "200MP main camera, OIS, f/1.65, 16-in-1 binning into one large 2.24μm pixel, 1/1.4” sensor size, 7P lens",
+        "8MP ultra-wide camera, f2.2",
+        "2MP macro camera, f2.4"
+      ],
+      "video": "1080p@60fps",
+      "front_detail": [
+        "32MP front camera, f/2.2"
+      ],
+      "front_video": "1080p@30fps"
+    },
+    "connectivity": {
+      "cellular": "4G",
+      "nfc": true,
+      "bands_3g": "1/2/4/5/8",
+      "bands_4g": "LTE FDD: 1/2/3/4/5/7/8/12/13/17/20/26/28/66; LTE TDD: 38/40/41",
+      "technology": "HSPA / LTE",
+      "wifi": "802.11a/b/g/n/ac",
+      "positioning": "Beidou:B1I; GPS:L1; Galileo:E1; GLONASS:G1; QZSS:L1; A-GPS supplementary positioning; Wireless network; Data network; ; Sensor Assisted Positioning",
+      "bluetooth": "Bluetooth 5.3",
+      "usb": "USB Type-C"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 162.16,
+        "width_mm": 74.92,
+        "depth_mm": 8.24
+      },
+      "ip": "IP64"
+    },
+    "software": {
+      "launch_os": "Xiaomi HyperOS"
+    },
+    "sensors": "Proximity sensor, Ambient light sensor, Accelerometer, Electronic compass, IR blaster, Gyroscope",
+    "audio": {
+      "speakers": "Dual speakers",
+      "jack": true
+    },
+    "memory": {
+      "ram_type": "LPDDR4X",
+      "storage_type": "UFS2.2"
+    },
+    "biometrics": {
+      "fingerprint": "In-screen fingerprint sensor"
+    },
+    "misc": {
+      "colors": "Ocean Blue, Midnight Black, Aurora Purple, Sand Gold"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "redmi",
+      "url": "https://www.mi.com/global/product/redmi-note-14-pro/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from Xiaomi Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

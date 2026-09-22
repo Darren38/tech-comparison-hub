@@ -1,0 +1,138 @@
+{
+  "id": "huawei-mate-x6",
+  "name": "Huawei Mate X6",
+  "brand": "huawei",
+  "category": "smartphone",
+  "series": "Mate X",
+  "form": "foldable",
+  "status": "released",
+  "announced": "2024-12-19",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 8688,
+      "date": "2024-12-19",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2024/12/19/huawei-mate-x6-malaysia-price-availability/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/admin-image/phones/mate-x6/specs/red.png",
+    "page": "https://consumer.huawei.com/my/phones/mate-x6/specs/",
+    "credit": "Huawei Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 7.93,
+      "type": "OLED",
+      "resolution": "2440 × 2240",
+      "ppi": 418
+    },
+    "platform": {
+      "chipset": "kirin-9020"
+    },
+    "memory": {
+      "ram_gb": [
+        12
+      ],
+      "storage_gb": [
+        512
+      ],
+      "card": "No"
+    },
+    "battery": {
+      "capacity_mah": 5110
+    },
+    "charging": {
+      "wired_w": 66,
+      "wireless_w": 50,
+      "claim": "HUAWEI SuperCharge (MAX 66 W); The phone supports 11V/6A (Max 66 W) super-fast charging and is compatible with 10V/4A or 10V/2.25A or 4.5V/5A or 5V/4.5A super-fast charging, and 9V"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "ois": true
+        },
+        {
+          "role": "ultrawide",
+          "mp": 40
+        },
+        {
+          "role": "telephoto",
+          "mp": 48
+        }
+      ],
+      "front": "8 MP",
+      "rear_detail": [
+        "50 MP Ultra Aperture Camera (F1.4-F4.0, RYYB, OIS)",
+        "40 MP Ultra-Wide Angle Camera (F2.2, RYYB)",
+        "48 MP Telephoto Macro Camera (F3.0, RYYB, OIS)"
+      ],
+      "features": "Supports 4x optical zoom (4x zoom is approximate, focal length of lens are 24 mm, 13 mm, 90 mm); 100x digital zoom",
+      "video": "4K",
+      "front_detail": [
+        "Folded: 8 MP Camera (F2.4 aperture)",
+        "Unfolded: 8 MP Camera (F2.2 aperture)"
+      ],
+      "zoom_optical_x": 4
+    },
+    "connectivity": {
+      "cellular": "4G",
+      "nfc": true,
+      "bands_2g": "Bands 2 / 3 / 5 / 8 (1900 / 1800 / 850 / 900 MHz",
+      "bands_3g": "Bands 1 / 2 / 4 / 5 / 6 / 8 / 19",
+      "bands_4g": "4G LTE FDD: Bands 1 / 2 / 3 / 4 / 5 / 6 / 7 / 8 / 9 / 12 / 17 / 18 / 19 / 20 / 26 / 28 / 66",
+      "technology": "GSM / HSPA / LTE",
+      "wifi": "2.4 GHz and 5 GHz; 802.11 a/b/g/n/ac/ax, 2 × 2 MIMO, HE160, 1024 QAM, 8 Spatial-stream Sounding MU-MIMO",
+      "bluetooth": "Bluetooth 5.2, Support BLE, SBC, AAC, LDAC and L2HC.",
+      "usb": "USB Type-C, USB 3.1 GEN1",
+      "positioning": "GPS (L1 + L5 Dual band)/AGPS/GLONASS/BeiDou (B1I + B1C + B2a + B2b Quad-band)/GALILEO (E1 + E5a + E5b Tri-band)/QZSS (L1 + L5 Dual band)/NavIC"
+    },
+    "build": {
+      "weight_g": 239.0,
+      "ip": "IPX8"
+    },
+    "software": {
+      "launch_os": "EMUI 15.0"
+    },
+    "audio": {
+      "jack": false
+    },
+    "sensors": "Gesture Sensor, Gravity Sensor, Barometer, Infrared Sensor, Fingerprint Sensor, Hall Sensor, Gyroscope, Compass, Ambient Light Sensor, Proximity Sensor, Laser Sensor, Colour Temperature Sensor",
+    "misc": {
+      "colors": "Nebula Red, Black, Nebula Gray"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "huawei",
+      "url": "https://consumer.huawei.com/my/phones/mate-x6/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from Huawei Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2024/12/19/huawei-mate-x6-malaysia-price-availability/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

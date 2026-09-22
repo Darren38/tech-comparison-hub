@@ -1,0 +1,722 @@
+[
+ {
+  "id": "honor-x7a",
+  "brand": "honor",
+  "name": "HONOR X7a",
+  "category": "smartphone",
+  "series": "X",
+  "form": "bar",
+  "spec": [
+   "https://www.honor.com/my/phones/honor-x7a/spec/"
+  ],
+  "q": "Honor X7a"
+ },
+ {
+  "id": "honor-x8a",
+  "brand": "honor",
+  "name": "HONOR X8a",
+  "category": "smartphone",
+  "series": "X",
+  "form": "bar",
+  "spec": [
+   "https://www.honor.com/my/phones/honor-x8a/spec/"
+  ],
+  "q": "Honor X8a"
+ },
+ {
+  "id": "honor-x8a-5g",
+  "brand": "honor",
+  "name": "HONOR X8a 5G",
+  "category": "smartphone",
+  "series": "X",
+  "form": "bar",
+  "spec": [
+   "https://www.honor.com/my/phones/honor-x8a-5g/spec/"
+  ],
+  "q": "Honor X8a 5G"
+ },
+ {
+  "id": "honor-x9a",
+  "brand": "honor",
+  "name": "HONOR X9a",
+  "category": "smartphone",
+  "series": "X",
+  "form": "bar",
+  "spec": [
+   "https://www.honor.com/my/phones/honor-x9a/spec/"
+  ],
+  "q": "Honor X9a"
+ },
+ {
+  "id": "honor-magic5-pro",
+  "brand": "honor",
+  "name": "HONOR Magic5 Pro",
+  "category": "smartphone",
+  "series": "Magic",
+  "form": "bar",
+  "spec": [
+   "https://www.honor.com/my/phones/honor-magic5-pro/spec/"
+  ],
+  "q": "Honor Magic5 Pro"
+ },
+ {
+  "id": "honor-magic5",
+  "brand": "honor",
+  "name": "HONOR Magic5",
+  "category": "smartphone",
+  "series": "Magic",
+  "form": "bar",
+  "spec": [
+   "https://www.honor.com/my/phones/honor-magic5/spec/"
+  ],
+  "q": "Honor Magic5"
+ },
+ {
+  "id": "honor-magic-vs",
+  "brand": "honor",
+  "name": "HONOR Magic Vs",
+  "category": "smartphone",
+  "series": "Magic V",
+  "form": "foldable",
+  "spec": [
+   "https://www.honor.com/my/phones/honor-magic-vs/spec/"
+  ],
+  "q": "Honor Magic Vs"
+ },
+ {
+  "id": "honor-90",
+  "brand": "honor",
+  "name": "HONOR 90",
+  "category": "smartphone",
+  "series": "Number",
+  "form": "bar",
+  "spec": [
+   "https://www.honor.com/my/phones/honor-90/spec/"
+  ],
+  "q": "Honor 90"
+ },
+ {
+  "id": "honor-90-lite",
+  "brand": "honor",
+  "name": "HONOR 90 Lite",
+  "category": "smartphone",
+  "series": "Number",
+  "form": "bar",
+  "spec": [
+   "https://www.honor.com/my/phones/honor-90-lite/spec/"
+  ],
+  "q": "Honor 90 Lite"
+ },
+ {
+  "id": "honor-x6a",
+  "brand": "honor",
+  "name": "HONOR X6a",
+  "category": "smartphone",
+  "series": "X",
+  "form": "bar",
+  "spec": [
+   "https://www.honor.com/my/phones/honor-x6a/spec/"
+  ],
+  "q": "Honor X6a"
+ },
+ {
+  "id": "honor-x5-plus",
+  "brand": "honor",
+  "name": "HONOR X5 Plus",
+  "category": "smartphone",
+  "series": "X",
+  "form": "bar",
+  "spec": [
+   "https://www.honor.com/my/phones/honor-x5-plus/spec/"
+  ],
+  "q": "Honor X5 Plus"
+ },
+ {
+  "id": "honor-x9b",
+  "brand": "honor",
+  "name": "HONOR X9b",
+  "category": "smartphone",
+  "series": "X",
+  "form": "bar",
+  "spec": [
+   "https://www.honor.com/my/phones/honor-x9b/spec/"
+  ],
+  "q": "Honor X9b"
+ },
+ {
+  "id": "honor-x8b",
+  "brand": "honor",
+  "name": "HONOR X8b",
+  "category": "smartphone",
+  "series": "X",
+  "form": "bar",
+  "spec": [
+   "https://www.honor.com/my/phones/honor-x8b/spec/"
+  ],
+  "q": "Honor X8b"
+ },
+ {
+  "id": "honor-x7b",
+  "brand": "honor",
+  "name": "HONOR X7b",
+  "category": "smartphone",
+  "series": "X",
+  "form": "bar",
+  "spec": [
+   "https://www.honor.com/my/phones/honor-x7b/spec/"
+  ],
+  "q": "Honor X7b"
+ },
+ {
+  "id": "honor-x7b-5g",
+  "brand": "honor",
+  "name": "HONOR X7b 5G",
+  "category": "smartphone",
+  "series": "X",
+  "form": "bar",
+  "spec": [
+   "https://www.honor.com/my/phones/honor-x7b-5g/spec/"
+  ],
+  "q": "Honor X7b 5G"
+ },
+ {
+  "id": "honor-x6b",
+  "brand": "honor",
+  "name": "HONOR X6b",
+  "category": "smartphone",
+  "series": "X",
+  "form": "bar",
+  "spec": [
+   "https://www.honor.com/my/phones/honor-x6b/spec/"
+  ],
+  "q": "Honor X6b"
+ },
+ {
+  "id": "honor-x5b-plus",
+  "brand": "honor",
+  "name": "HONOR X5b Plus",
+  "category": "smartphone",
+  "series": "X",
+  "form": "bar",
+  "spec": [
+   "https://www.honor.com/my/phones/honor-x5b-plus/spec/"
+  ],
+  "q": "Honor X5b Plus"
+ },
+ {
+  "id": "honor-magic-v2",
+  "brand": "honor",
+  "name": "HONOR Magic V2",
+  "category": "smartphone",
+  "series": "Magic V",
+  "form": "foldable",
+  "spec": [
+   "https://www.honor.com/my/phones/honor-magic-v2/spec/"
+  ],
+  "q": "Honor Magic V2"
+ },
+ {
+  "id": "honor-magic6-pro",
+  "brand": "honor",
+  "name": "HONOR Magic6 Pro",
+  "category": "smartphone",
+  "series": "Magic",
+  "form": "bar",
+  "spec": [
+   "https://www.honor.com/my/phones/honor-magic6-pro/spec/"
+  ],
+  "q": "Honor Magic6 Pro"
+ },
+ {
+  "id": "honor-magic6-rsr-porsche-design",
+  "brand": "honor",
+  "name": "HONOR Magic6 RSR Porsche Design",
+  "category": "smartphone",
+  "series": "Magic",
+  "form": "bar",
+  "spec": [
+   "https://www.honor.com/my/phones/honor-magic6-rsr-porsche-design/spec/"
+  ],
+  "q": "Honor Magic6 RSR Porsche Design"
+ },
+ {
+  "id": "honor-magic-v2-rsr-porsche-design",
+  "brand": "honor",
+  "name": "HONOR Magic V2 RSR Porsche Design",
+  "category": "smartphone",
+  "series": "Magic V",
+  "form": "foldable",
+  "spec": [
+   "https://www.honor.com/my/phones/honor-magic-v2-rsr-porsche-design/spec/"
+  ],
+  "q": "Honor Magic V2 RSR Porsche Design"
+ },
+ {
+  "id": "honor-200",
+  "brand": "honor",
+  "name": "HONOR 200",
+  "category": "smartphone",
+  "series": "Number",
+  "form": "bar",
+  "spec": [
+   "https://www.honor.com/my/phones/honor-200/spec/"
+  ],
+  "q": "Honor 200"
+ },
+ {
+  "id": "honor-200-pro",
+  "brand": "honor",
+  "name": "HONOR 200 Pro",
+  "category": "smartphone",
+  "series": "Number",
+  "form": "bar",
+  "spec": [
+   "https://www.honor.com/my/phones/honor-200-pro/spec/"
+  ],
+  "q": "Honor 200 Pro"
+ },
+ {
+  "id": "honor-200-lite",
+  "brand": "honor",
+  "name": "HONOR 200 Lite",
+  "category": "smartphone",
+  "series": "Number",
+  "form": "bar",
+  "spec": [
+   "https://www.honor.com/my/phones/honor-200-lite/spec/"
+  ],
+  "q": "Honor 200 Lite"
+ },
+ {
+  "id": "honor-200-smart",
+  "brand": "honor",
+  "name": "HONOR 200 Smart",
+  "category": "smartphone",
+  "series": "Number",
+  "form": "bar",
+  "spec": [
+   "https://www.honor.com/my/phones/honor-200-smart/spec/"
+  ],
+  "q": "Honor 200 Smart"
+ },
+ {
+  "id": "honor-magic-v3",
+  "brand": "honor",
+  "name": "HONOR Magic V3",
+  "category": "smartphone",
+  "series": "Magic V",
+  "form": "foldable",
+  "spec": [
+   "https://www.honor.com/my/phones/honor-magic-v3/spec/"
+  ],
+  "q": "Honor Magic V3"
+ },
+ {
+  "id": "honor-x9c",
+  "brand": "honor",
+  "name": "HONOR X9c",
+  "category": "smartphone",
+  "series": "X",
+  "form": "bar",
+  "spec": [
+   "https://www.honor.com/my/phones/honor-x9c/spec/"
+  ],
+  "q": "Honor X9c"
+ },
+ {
+  "id": "honor-x7c",
+  "brand": "honor",
+  "name": "HONOR X7c",
+  "category": "smartphone",
+  "series": "X",
+  "form": "bar",
+  "spec": [
+   "https://www.honor.com/my/phones/honor-x7c/spec/"
+  ],
+  "q": "Honor X7c"
+ },
+ {
+  "id": "honor-x9c-smart",
+  "brand": "honor",
+  "name": "HONOR X9c Smart",
+  "category": "smartphone",
+  "series": "X",
+  "form": "bar",
+  "spec": [
+   "https://www.honor.com/my/phones/honor-x9c-smart/spec/"
+  ],
+  "q": "Honor X9c Smart"
+ },
+ {
+  "id": "honor-magic7-pro",
+  "brand": "honor",
+  "name": "HONOR Magic7 Pro",
+  "category": "smartphone",
+  "series": "Magic",
+  "form": "bar",
+  "spec": [
+   "https://www.honor.com/my/phones/honor-magic7-pro/spec/"
+  ],
+  "q": "Honor Magic7 Pro"
+ },
+ {
+  "id": "honor-magic7-rsr-porsche-design",
+  "brand": "honor",
+  "name": "HONOR Magic7 RSR Porsche Design",
+  "category": "smartphone",
+  "series": "Magic",
+  "form": "bar",
+  "spec": [
+   "https://www.honor.com/my/phones/honor-magic7-rsr-porsche-design/spec/"
+  ],
+  "q": "Honor Magic7 RSR Porsche Design"
+ },
+ {
+  "id": "honor-400-lite",
+  "brand": "honor",
+  "name": "HONOR 400 Lite",
+  "category": "smartphone",
+  "series": "Number",
+  "form": "bar",
+  "spec": [
+   "https://www.honor.com/my/phones/honor-400-lite/spec/"
+  ],
+  "q": "Honor 400 Lite"
+ },
+ {
+  "id": "honor-400",
+  "brand": "honor",
+  "name": "HONOR 400",
+  "category": "smartphone",
+  "series": "Number",
+  "form": "bar",
+  "spec": [
+   "https://www.honor.com/my/phones/honor-400/spec/"
+  ],
+  "q": "Honor 400"
+ },
+ {
+  "id": "honor-400-pro",
+  "brand": "honor",
+  "name": "HONOR 400 Pro",
+  "category": "smartphone",
+  "series": "Number",
+  "form": "bar",
+  "spec": [
+   "https://www.honor.com/my/phones/honor-400-pro/spec/"
+  ],
+  "q": "Honor 400 Pro"
+ },
+ {
+  "id": "honor-x6c",
+  "brand": "honor",
+  "name": "HONOR X6c",
+  "category": "smartphone",
+  "series": "X",
+  "form": "bar",
+  "spec": [
+   "https://www.honor.com/my/phones/honor-x6c/spec/"
+  ],
+  "q": "Honor X6c"
+ },
+ {
+  "id": "honor-magic-v5",
+  "brand": "honor",
+  "name": "HONOR Magic V5",
+  "category": "smartphone",
+  "series": "Magic V",
+  "form": "foldable",
+  "spec": [
+   "https://www.honor.com/my/phones/honor-magic-v5/spec/"
+  ],
+  "q": "Honor Magic V5"
+ },
+ {
+  "id": "honor-x9d",
+  "brand": "honor",
+  "name": "HONOR X9d",
+  "category": "smartphone",
+  "series": "X",
+  "form": "bar",
+  "spec": [
+   "https://www.honor.com/my/phones/honor-x9d/spec/"
+  ],
+  "q": "Honor X9d"
+ },
+ {
+  "id": "honor-x7d",
+  "brand": "honor",
+  "name": "HONOR X7d",
+  "category": "smartphone",
+  "series": "X",
+  "form": "bar",
+  "spec": [
+   "https://www.honor.com/my/phones/honor-x7d/spec/"
+  ],
+  "q": "Honor X7d"
+ },
+ {
+  "id": "honor-x7d-5g",
+  "brand": "honor",
+  "name": "HONOR X7d 5G",
+  "category": "smartphone",
+  "series": "X",
+  "form": "bar",
+  "spec": [
+   "https://www.honor.com/my/phones/honor-x7d-5g/spec/"
+  ],
+  "q": "Honor X7d 5G"
+ },
+ {
+  "id": "honor-x5d",
+  "brand": "honor",
+  "name": "HONOR X5d",
+  "category": "smartphone",
+  "series": "X",
+  "form": "bar",
+  "spec": [
+   "https://www.honor.com/my/phones/honor-x5d/spec/"
+  ],
+  "q": "Honor X5d"
+ },
+ {
+  "id": "honor-x5d-plus",
+  "brand": "honor",
+  "name": "HONOR X5d Plus",
+  "category": "smartphone",
+  "series": "X",
+  "form": "bar",
+  "spec": [
+   "https://www.honor.com/my/phones/honor-x5d-plus/spec/"
+  ],
+  "q": "Honor X5d Plus"
+ },
+ {
+  "id": "honor-400-smart-5g",
+  "brand": "honor",
+  "name": "HONOR 400 Smart 5G",
+  "category": "smartphone",
+  "series": "Number",
+  "form": "bar",
+  "spec": [
+   "https://www.honor.com/my/phones/honor-400-smart-5g/spec/"
+  ],
+  "q": "Honor 400 Smart 5G"
+ },
+ {
+  "id": "honor-x7e",
+  "brand": "honor",
+  "name": "HONOR X7e",
+  "category": "smartphone",
+  "series": "X",
+  "form": "bar",
+  "spec": [
+   "https://www.honor.com/my/phones/honor-x7e/spec/"
+  ],
+  "q": "Honor X7e"
+ },
+ {
+  "id": "honor-x6e",
+  "brand": "honor",
+  "name": "HONOR X6e",
+  "category": "smartphone",
+  "series": "X",
+  "form": "bar",
+  "spec": [
+   "https://www.honor.com/my/phones/honor-x6e/spec/"
+  ],
+  "q": "Honor X6e"
+ },
+ {
+  "id": "honor-500-smart-5g",
+  "brand": "honor",
+  "name": "HONOR 500 Smart 5G",
+  "category": "smartphone",
+  "series": "Number",
+  "form": "bar",
+  "spec": [
+   "https://www.honor.com/my/phones/honor-500-smart-5g/spec/"
+  ],
+  "q": "Honor 500 Smart 5G"
+ },
+ {
+  "id": "honor-600",
+  "brand": "honor",
+  "name": "HONOR 600",
+  "category": "smartphone",
+  "series": "Number",
+  "form": "bar",
+  "spec": [
+   "https://www.honor.com/my/phones/honor-600/spec/"
+  ],
+  "q": "Honor 600"
+ },
+ {
+  "id": "honor-600-pro",
+  "brand": "honor",
+  "name": "HONOR 600 Pro",
+  "category": "smartphone",
+  "series": "Number",
+  "form": "bar",
+  "spec": [
+   "https://www.honor.com/my/phones/honor-600-pro/spec/"
+  ],
+  "q": "Honor 600 Pro"
+ },
+ {
+  "id": "honor-600-lite",
+  "brand": "honor",
+  "name": "HONOR 600 Lite",
+  "category": "smartphone",
+  "series": "Number",
+  "form": "bar",
+  "spec": [
+   "https://www.honor.com/my/phones/honor-600-lite/spec/"
+  ],
+  "q": "Honor 600 Lite"
+ },
+ {
+  "id": "honor-magic-v6",
+  "brand": "honor",
+  "name": "HONOR Magic V6",
+  "category": "smartphone",
+  "series": "Magic V",
+  "form": "foldable",
+  "spec": [
+   "https://www.honor.com/my/phones/honor-magic-v6/spec/"
+  ],
+  "q": "Honor Magic V6"
+ },
+ {
+  "id": "honor-play10",
+  "brand": "honor",
+  "name": "HONOR Play10",
+  "category": "smartphone",
+  "series": "Play",
+  "form": "bar",
+  "spec": [
+   "https://www.honor.com/my/phones/honor-play10/spec/"
+  ],
+  "q": "Honor Play10"
+ },
+ {
+  "id": "honor-x9e-pro",
+  "brand": "honor",
+  "name": "HONOR X9e Pro",
+  "category": "smartphone",
+  "series": "X",
+  "form": "bar",
+  "spec": [
+   "https://www.honor.com/my/phones/honor-x9e-pro/spec/"
+  ],
+  "q": "Honor X9e Pro"
+ },
+ {
+  "id": "honor-watch-4",
+  "brand": "honor",
+  "name": "HONOR Watch 4",
+  "category": "smartwatch",
+  "series": "Watch",
+  "form": "watch",
+  "spec": [
+   "https://www.honor.com/my/wearables/honor-watch-4/spec/"
+  ],
+  "q": "Honor Watch 4"
+ },
+ {
+  "id": "honor-band-9",
+  "brand": "honor",
+  "name": "HONOR Band 9",
+  "category": "band",
+  "series": "Band",
+  "form": "band",
+  "spec": [
+   "https://www.honor.com/my/wearables/honor-band-9/spec/"
+  ],
+  "q": "Honor Band 9"
+ },
+ {
+  "id": "honor-watch-5",
+  "brand": "honor",
+  "name": "HONOR Watch 5",
+  "category": "smartwatch",
+  "series": "Watch",
+  "form": "watch",
+  "spec": [
+   "https://www.honor.com/my/wearables/honor-watch-5/spec/"
+  ],
+  "q": "Honor Watch 5"
+ },
+ {
+  "id": "honor-band-10",
+  "brand": "honor",
+  "name": "HONOR Band 10",
+  "category": "band",
+  "series": "Band",
+  "form": "band",
+  "spec": [
+   "https://www.honor.com/my/wearables/honor-band-10/spec/"
+  ],
+  "q": "Honor Band 10"
+ },
+ {
+  "id": "honor-watch-5-ultra",
+  "brand": "honor",
+  "name": "HONOR Watch 5 Ultra",
+  "category": "smartwatch",
+  "series": "Watch",
+  "form": "watch",
+  "spec": [
+   "https://www.honor.com/my/wearables/honor-watch-5-ultra/spec/"
+  ],
+  "q": "Honor Watch 5 Ultra"
+ },
+ {
+  "id": "honor-watch-x5i",
+  "brand": "honor",
+  "name": "HONOR Watch X5i",
+  "category": "smartwatch",
+  "series": "Watch",
+  "form": "watch",
+  "spec": [
+   "https://www.honor.com/my/wearables/honor-watch-x5i/spec/"
+  ],
+  "q": "Honor Watch X5i"
+ },
+ {
+  "id": "honor-watch-fit",
+  "brand": "honor",
+  "name": "HONOR Watch Fit",
+  "category": "smartwatch",
+  "series": "Watch",
+  "form": "watch",
+  "spec": [
+   "https://www.honor.com/my/wearables/honor-watch-fit/spec/"
+  ],
+  "q": "Honor Watch Fit"
+ },
+ {
+  "id": "honor-watch-6",
+  "brand": "honor",
+  "name": "HONOR Watch 6",
+  "category": "smartwatch",
+  "series": "Watch",
+  "form": "watch",
+  "spec": [
+   "https://www.honor.com/my/wearables/honor-watch-6/spec/"
+  ],
+  "q": "Honor Watch 6"
+ },
+ {
+  "id": "honor-watch-x5-play",
+  "brand": "honor",
+  "name": "HONOR Watch X5 Play",
+  "category": "smartwatch",
+  "series": "Watch",
+  "form": "watch",
+  "spec": [
+   "https://www.honor.com/my/wearables/honor-watch-x5-play/spec/"
+  ],
+  "q": "Honor Watch X5 Play"
+ }
+]

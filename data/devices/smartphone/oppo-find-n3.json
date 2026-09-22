@@ -1,0 +1,138 @@
+{
+  "id": "oppo-find-n3",
+  "name": "OPPO Find N3",
+  "brand": "oppo",
+  "category": "smartphone",
+  "series": "Find N",
+  "form": "foldable",
+  "status": "released",
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-18",
+      "source": "oppo",
+      "url": "https://www.oppo.com/my/smartphones/series-find-n/find-n3/specs/",
+      "note": "Sold in Malaysia, but no launch price was found in Malaysian launch coverage."
+    }
+  },
+  "image": {
+    "kind": "official",
+    "src": "https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/find-n3-en/listpage/find-n3-427_600-gold.png",
+    "page": "https://www.oppo.com/my/smartphones/series-find-n/find-n3/",
+    "credit": "OPPO Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 7.82,
+      "type": "OLED",
+      "resolution": "2440 × 2268",
+      "refresh_hz": 120,
+      "peak_nits": 2800,
+      "protection": "Main screen: UTG; Cover screen: Ultra-Thin Nanocrystal Glass",
+      "ppi": 426
+    },
+    "platform": {
+      "chipset": "snapdragon-8-gen-2",
+      "gpu": "Adreno 740 @680MHz",
+      "cpu": "8 cores"
+    },
+    "memory": {
+      "ram_gb": [
+        16
+      ],
+      "storage_gb": [
+        512
+      ],
+      "ram_type": "LPDDR5x",
+      "storage_type": "UFS4.0"
+    },
+    "battery": {
+      "capacity_mah": 4805
+    },
+    "charging": {
+      "wired_w": 67,
+      "claim": "67W SUPERVOOC 2.0, SUPERVOOC , VOOC 3.0, PD3.0 (9V/2A)"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 48,
+          "aperture": "f/1.7",
+          "ois": true
+        },
+        {
+          "role": "telephoto",
+          "mp": 64
+        },
+        {
+          "role": "telephoto",
+          "mp": 16
+        },
+        {
+          "role": "ultrawide",
+          "mp": 48
+        }
+      ],
+      "front": "20 MP",
+      "rear_detail": [
+        "48MP Main Camera: f/1.7; 24mm; 7P lens; AF supported; closed-loop focus motor; OIS supported",
+        "64MP 3x Telephoto Camera: f/2.6; 70mm; 4P lens; AF supported; closed-loop focus motor; OIS supported",
+        "16MP 6x Telephoto Camera (in-sensor zoom): f/2.6; 145mm; 4P lens; AF supported; closed-loop focus motor; OIS supported",
+        "48MP Ultra-wide Angle Camera: f/2.2; FOV 114°; 6P lens; AF supported; 3.5cm Macro supported"
+      ],
+      "front_detail": [
+        "20MP Main screen: f/2.2; FOV 91°; 4P lens",
+        "32MP Cover screen: f/2.4; FOV 88.5°; 5P lens"
+      ],
+      "video": "4K@60fps; 1080p",
+      "front_video": "4K@30fps; 1080p",
+      "zoom_optical_x": 6
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true,
+      "bands_2g": "850/900/1800/1900MHz",
+      "bands_3g": "Bands 1/2/4/5/6/8/19",
+      "bands_4g": "LTE FDD: Bands 1/2/3/4/5/7/8/12/13/17/18/19/20/25/26/28/30/32/66/71; LTE TDD: Bands 38/39/40/41/46/48",
+      "bands_5g": "5G NR: n1/2/3/5/7/8/12/20/25/28/30/38/40/41/66/71/75/77/78",
+      "technology": "GSM / HSPA / LTE / 5G",
+      "sim": "Nano-SIM card + eSIM",
+      "wifi": "2.4GHz, 5.1GHz, and 5.8GHz",
+      "bluetooth": "Bluetooth 5.3, Bluetooth Low Energy, Bluetooth Low Energy Audio",
+      "usb": "USB Type-C",
+      "positioning": "Beidou: B1I + B1C + B2a; GPS: L1 + L5; GLONASS: G1; Galileo: E1 + E5a; QZSS: L1 + L5"
+    },
+    "build": {
+      "weight_g": 245.0
+    },
+    "software": {
+      "launch_os": "ColorOS 13.2"
+    },
+    "biometrics": {
+      "face": "Yes"
+    },
+    "sensors": "Geomagnetic sensor, Photo sensor, In-display proximity sensor, In-display optical sensor, Acceleration sensor, Gravity sensor, Gyroscope, Barometer, Step counting",
+    "audio": {
+      "jack": false
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "oppo",
+      "url": "https://www.oppo.com/my/smartphones/series-find-n/find-n3/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from OPPO Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

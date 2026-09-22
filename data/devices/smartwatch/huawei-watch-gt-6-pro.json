@@ -1,0 +1,100 @@
+{
+  "id": "huawei-watch-gt-6-pro",
+  "name": "Huawei Watch GT 6 Pro",
+  "brand": "huawei",
+  "category": "smartwatch",
+  "series": "Watch",
+  "form": "watch",
+  "status": "released",
+  "announced": "2025-09-29",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1299,
+      "config": "Brown or Black",
+      "date": "2025-09-29",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/09/29/huawei-watch-gt-6-ultimate-2-d2-malaysia-price-availability-specs-launch/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1999,
+      "config": "Titanium",
+      "date": "2025-09-29",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/09/29/huawei-watch-gt-6-ultimate-2-d2-malaysia-price-availability-specs-launch/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/wearables/watch-gt6-pro/specs-black.png",
+    "page": "https://consumer.huawei.com/my/wearables/watch-gt6-pro/specs/",
+    "credit": "Huawei Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 1.47,
+      "type": "AMOLED",
+      "resolution": "466 × 466"
+    },
+    "battery": {
+      "life_h": 504
+    },
+    "connectivity": {
+      "gps": "Built-in GNSS",
+      "nfc": true,
+      "usb": "Wireless charging; System Requirements; Android 9.0 or later; iOS 13.0 or later; Waterproof Level; 5 ATM",
+      "bluetooth": "2.4 GHz, supports BT6.0 and BR+BLE",
+      "positioning": "GPS (L1 + L5 Dual-band)/GLONASS/BeiDou(B1I + B1C + B2a Tri-band)/GALILEO(E1 + E5a Dual-band)/QZSS (L1 + L5 Dual-band)/NavIC; Environment; Ambient Operating Temperature; -20℃–+45℃; Battery Life; The battery can last for up to 21 days at most, up to 12 days given typical usage, or up to 7 days with AO"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 45.6,
+        "width_mm": 45.6,
+        "depth_mm": 11.25
+      },
+      "weight_g": 54.7,
+      "water": "5 ATM",
+      "water_m": 50,
+      "ip": "IP69"
+    },
+    "sensors": "Accelerometer sensor, Gyroscope sensor, Magnetometer sensor, Optical heart rate sensor, Barometer sensor, Temperature sensor, Ambient light sensor, ECG sensor, Depth sensor, Button, Home Button (Rotating Crown) and Side Button",
+    "audio": {
+      "speakers": "Microphone"
+    },
+    "charging": {
+      "claim": "Charger Voltage and Current Requirements; 5V-10V DC/2A MAX"
+    },
+    "misc": {
+      "colors": "Black, Brown, Titanium"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "huawei",
+      "url": "https://consumer.huawei.com/my/wearables/watch-gt6-pro/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from Huawei Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2025/09/29/huawei-watch-gt-6-ultimate-2-d2-malaysia-price-availability-specs-launch/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

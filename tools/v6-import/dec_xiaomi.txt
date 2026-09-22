@@ -1,0 +1,111 @@
+poco-x5-5g | 6/128=1099, 8/256=1199 @soya | pnote=Recommended retail price; RM100 lower during the early-bird sale.
+poco-x5-pro-5g | 6/128=1299, 8/256=1499 @soya | pnote=Recommended retail price; RM100 lower during the early-bird sale.
+xiaomi-13 | 12/256=3499 @soya |
+xiaomi-13-pro | 12/256=4599, 12/512=4999 @soya |
+redmi-12c | 4/128=599, 6/128=699 @soya |
+redmi-note-12 | 6/128=699, 8/128=799 @soya |
+redmi-note-12-5g | -=1099 @nasi |
+redmi-note-12-pro-5g | 8/256=1299 @soya |
+redmi-note-12-pro-plus-5g | -=1599 @nasi |
+redmi-a2-plus | -=399 @nasi |
+poco-f5 | 8/256=1699, 12/256=1799 @soya |
+poco-f5-pro | 8/256=2099, 12/256=2199, 12/512=2399 @soya |
+redmi-note-12s | 8/256=999 @soya |
+redmi-note-12-pro | 8/256=1099 @soya |
+xiaomi-13-ultra | 12/512=5199 @soya |
+redmi-12 | 4/128=599, 8/256=699 @soya |
+redmi-12-5g | -=1099 @lowy |
+xiaomi-13t | 8/256=1799, 12/256=1999 @soya |
+xiaomi-13t-pro | 12/256=2499, 12/512=2699, 16/1T=3499 @soya |
+poco-c65 | 6/128=499, 8/256=599 @soya |
+redmi-13c | 6/128=499 @soya |
+poco-m6-pro | 8/256=999, 12/512=1199 @soya |
+redmi-note-13 | 6/128=749, 8/256=899 @soya |
+redmi-note-13-5g | 8/256=1099 @soya |
+redmi-note-13-pro | |
+redmi-note-13-pro-5g | 8/256=1399 @soya |
+redmi-note-13-pro-plus-5g | 8/256=1599, 12/512=1999 @soya |
+poco-x6-5g | 8/256=1199, 12/256=1299, 12/512=1499 @soya |
+poco-x6-pro-5g | 8/256=1499, 12/512=1699 @soya |
+xiaomi-14 | |
+xiaomi-14-ultra | 16/512=5199 @soya |
+redmi-a3 | 4/128=429 @soya |
+redmi-13c-5g | 4/128=699, 8/256=999 @soya |
+poco-f6 | 8/256=1799, 12/512=1999 @soya |
+poco-f6-pro | 12/256=2299, 12/512=2499, 16/1T=2899 @soya |
+poco-m6 | 6/128=699, 8/256=799 @soya |
+redmi-13 | -=699 @lowy |
+redmi-14c | 6/128=449, 8/256=599 @soya |
+xiaomi-14t | 12/256=1899, 12/512=2199 @lowy |
+xiaomi-14t-pro | 12/256=2599, 12/512=2999, 12/1T=3499 @lowy |
+xiaomi-mix-flip | 12/512=4999 @soya |
+poco-c75 | |
+poco-x7 | 8/256=1199, 12/512=1399 @soya | pnote=Recommended retail price; RM200 lower during the early-bird sale.
+poco-x7-pro | 8/256=1499, 12/256=1599 @soya | pnote=Recommended retail price; RM200 lower during the early-bird sale.
+redmi-note-14 | 8/256=699 @soya |
+redmi-note-14-5g | 6/128=799, 8/256=899 @soya |
+redmi-note-14-pro | |
+redmi-note-14-pro-5g | 8/256=1199, 12/256=1299 @soya |
+xiaomi-15 | |
+poco-f7-pro | 12/256=2299, 12/512=2499 @soya | pnote=Recommended retail price; lower during the early-bird sale.
+redmi-a5 | 3/64=299, 4/128=349 @soya |
+poco-f7 | 12/256=1799, 12/512=1999 @soya | pnote=Recommended retail price; lower during the early-bird sale.
+redmi-15-5g | 8/256=729 @soya |
+redmi-15 | |
+poco-m7 | 6/128=499, 8/256=599 @soya | pnote=Recommended retail price; lower during the launch promotion.
+poco-c85 | 6/128=439, 8/256=499 @soya | pnote=Recommended retail price; RM40 lower during the launch promotion.
+xiaomi-15t | 12/256=1899, 12/512=2199 @soya |
+xiaomi-15t-pro | 12/256=2699, 12/512=2999, 12/1T=3499 @soya |
+poco-f8-pro | 12/256=2499, 12/512=2699 @soya | pnote=Recommended retail price; lower during the early-bird sale.
+poco-f8-ultra | 12/256=3199, 16/512=3599 @soya | pnote=Recommended retail price; lower during the early-bird sale.
+poco-m8 | 8/256=999, 8/512=1199 @soya | pnote=Recommended retail price; lower during the launch promotion.
+poco-m8-pro | 8/256=1199, 12/512=1499 @soya | pnote=Recommended retail price; lower during the launch promotion.
+redmi-note-15 | 8/256=799 @soya |
+redmi-note-15-5g | 6/128=849, 8/256=949 @soya |
+redmi-note-15-pro | |
+redmi-note-15-pro-5g | 8/256=1399, 8/512=1599 @lowy |
+redmi-note-15-pro-plus-5g | 12/256=1699, 12/512=1899 @lowy |
+xiaomi-17 | |
+poco-x8-pro | 8/256=1499, 8/512=1699, 12/512=1899 @soya | pnote=Recommended retail price; RM200 lower during the launch promotion.
+poco-x8-pro-max | |
+redmi-a7-pro | 4/64=399, 4/128=449 @soya |
+poco-c81-pro | 4/64=399 @soya |
+xiaomi-17t | 12/256=2399, 12/512=2499 @lowy |
+xiaomi-17t-pro | 12/256=2899, 12/512=3199, 12/1T=3499 @lowy |
+redmi-17 | 4/128=699 @lowy |
+redmi-17-5g | 4/128=799, 4/256=899 @soya | pnote=Recommended retail price; RM30 lower during the launch promotion.
+redmi-a7 | -=469 @lowy | src=https://www.lowyat.net/2026/400828/redmi-a7-malaysia/
+redmi-note-17 | 4/128=849 @lowy |
+redmi-note-17-5g | 6/128=1099, 8/256=1299 @lowy |
+redmi-note-17-pro-5g | |
+redmi-note-17-pro-max-5g | 8/256=1999, 8/512=2299 @lowy |
+poco-f9-pro | 12/256=3299, 12/512=3499 @soya |
+poco-f9-ultra | 12/256=3599, 16/512=3999, 16/1T=4799 @soya |
+poco-x8 | 8/256=1499, 12/256=1699 @soya | pnote=Recommended retail price; RM200 lower during the launch promotion.
+poco-m8s-5g | |
+leica-leitzphone-powered-by-xiaomi | |
+redmi-watch-3 | -=429 @lowy |
+redmi-watch-3-active | |
+xiaomi-smart-band-8 | -=199 @lowy |
+xiaomi-smart-band-8-active | |
+xiaomi-smart-band-8-pro | -=339 @lowy | src=https://www.lowyat.net/2024/317765/xiaomi-smart-band-8-pro-priced-at-rm339/; pnote=Recommended retail price; RM40 lower until 7 March 2024.
+xiaomi-watch-2-pro | -=1199 @nasi |
+redmi-watch-4 | -=459 @soya |
+xiaomi-watch-s3 | -=699 @lowy | src=https://www.lowyat.net/2024/318220/xiaomi-watch-2-watch-s3-launch-msia/
+xiaomi-smart-band-9 | -=199 @soya |
+xiaomi-smart-band-9-active | |
+xiaomi-smart-band-9-pro | -=399 @lowy |
+redmi-watch-5-active | -=199 @lowy | src=https://www.lowyat.net/2024/333687/redmi-watch-5-lite-watch-5-active/; pnote=Recommended retail price; RM129 early-bird price online.
+redmi-watch-5-lite | -=259 @lowy | src=https://www.lowyat.net/2024/333687/redmi-watch-5-lite-watch-5-active/; pnote=Recommended retail price; RM199 early-bird price online.
+redmi-watch-5 | -=459 @soya |
+xiaomi-watch-s4 | -=699 @lowy |
+xiaomi-smart-band-10 | "Standard"=219, "Ceramic Edition"=299 @soya | pnote=Recommended retail price; lower during the launch promotion.
+xiaomi-watch-2 | -=869 @lowy | src=https://www.lowyat.net/2024/318220/xiaomi-watch-2-watch-s3-launch-msia/
+xiaomi-smart-band-11-active | -=199 @lowy |
+redmi-watch-6 | -=469 @nasi | pnote=Normal price; RM369 at launch.
+redmi-watch-6-active | -=229 @lowy |
+redmi-watch-6-lite | -=299 @lowy |
+xiaomi-smart-band-10-pro | -=399 @lowy |
+xiaomi-watch-s4-41mm | "Black or Mint Green fluororubber strap"=699, "White leather strap"=749, "Sunset Gold Milanese strap"=999 @lowy | src=https://www.lowyat.net/2025/367361/xiaomi-watch-s4-41mm-smart-band-10-glimmer-edition-open-wear-stereo-pro-malaysia/
+xiaomi-watch-5 | |
+xiaomi-smart-band-11 | |

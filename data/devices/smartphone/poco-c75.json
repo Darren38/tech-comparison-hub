@@ -1,0 +1,125 @@
+{
+  "id": "poco-c75",
+  "name": "POCO C75",
+  "brand": "poco",
+  "category": "smartphone",
+  "series": "C",
+  "form": "bar",
+  "status": "released",
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-18",
+      "source": "poco",
+      "url": "https://www.mi.com/my/product/poco-c75/specs/",
+      "note": "Sold in Malaysia, but no launch price was found in Malaysian launch coverage."
+    }
+  },
+  "image": {
+    "kind": "official",
+    "src": "https://i02.appmifile.com/181_item_my/05/11/2024/68dd845473d3bda969836de78b68d5f5.png",
+    "page": "https://www.mi.com/my/product/poco-c75/specs/",
+    "credit": "Xiaomi Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.88,
+      "resolution": "1640 × 720",
+      "peak_nits": 600,
+      "ppi": 260
+    },
+    "platform": {
+      "chipset": "helio-g81",
+      "gpu": "Mali-G52 MC2",
+      "cpu": "Cortex-A75+Cortex-A55; Max CPU frequency: 2.0GHz"
+    },
+    "memory": {
+      "ram_gb": [
+        6,
+        8
+      ],
+      "storage_gb": [
+        128,
+        256
+      ],
+      "ram_type": "LPDDR4X"
+    },
+    "battery": {
+      "capacity_mah": 5160
+    },
+    "charging": {
+      "wired_w": 18,
+      "claim": "Supports 18W fast charging"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "aperture": "f/1.8"
+        }
+      ],
+      "front": "13 MP",
+      "rear_detail": [
+        "50MP main camera, 5P lens, f/1.8, Auxiliary lens",
+        "Film Camera; HDR mode; Night mode, Portrait mode; 50MP mode; Time-lapse"
+      ],
+      "video": "1080p@30fps",
+      "front_detail": [
+        "13MP front camera, f/2.0"
+      ],
+      "front_video": "1080p@30fps"
+    },
+    "connectivity": {
+      "cellular": "4G",
+      "nfc": true,
+      "bands_3g": "B1/2/4/5/8",
+      "bands_4g": "LTE FDD: B1/2/3/4/5/7/8/20/28/66; LTE TDD: B38/40/41",
+      "technology": "HSPA / LTE",
+      "wifi": "2.4GHz; 5GHz; Supports FM radio (with headphone jack)",
+      "positioning": "GPS; Glonass; Galileo; Beidou",
+      "sim": "Dual SIM + microSD",
+      "bluetooth": "Bluetooth 5.4",
+      "usb": "USB Type-C"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 171.88,
+        "width_mm": 77.8,
+        "depth_mm": 8.22
+      },
+      "weight_g": 204.0
+    },
+    "software": {
+      "launch_os": "Xiaomi HyperOS"
+    },
+    "sensors": "Virtual proximity sensor, Ambient light sensor, Accelerometer, Electronic compass",
+    "audio": {
+      "jack": true
+    },
+    "biometrics": {
+      "fingerprint": "Side fingerprint sensor"
+    },
+    "misc": {
+      "colors": "Black, Gold, Green"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "poco",
+      "url": "https://www.mi.com/my/product/poco-c75/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from Xiaomi Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

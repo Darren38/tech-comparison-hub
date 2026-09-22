@@ -1,0 +1,159 @@
+{
+  "id": "redmi-note-15-pro-plus-5g",
+  "name": "Redmi Note 15 Pro+ 5G",
+  "brand": "redmi",
+  "category": "smartphone",
+  "series": "Redmi Note",
+  "form": "bar",
+  "status": "released",
+  "announced": "2026-01-15",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1699,
+      "config": "12 GB / 256 GB",
+      "date": "2026-01-15",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2026/378574/redmi-note-15-series-now-official-in-malaysia/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1899,
+      "config": "12 GB / 512 GB",
+      "date": "2026-01-15",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2026/378574/redmi-note-15-series-now-official-in-malaysia/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 6.83,
+      "type": "AMOLED",
+      "resolution": "2772 × 1280",
+      "refresh_hz": 120,
+      "peak_nits": 3200,
+      "protection": "Corning Gorilla Glass Victus 2",
+      "ppi": 447
+    },
+    "platform": {
+      "chipset": "snapdragon-7s-gen-4",
+      "gpu": "Adreno GPU",
+      "cpu": "Octa-core processor, up to 2.7GHz"
+    },
+    "memory": {
+      "ram_gb": [
+        12
+      ],
+      "storage_gb": [
+        256,
+        512
+      ],
+      "ram_type": "LPDDR4X",
+      "storage_type": "UFS2.2"
+    },
+    "battery": {
+      "capacity_mah": 6500
+    },
+    "charging": {
+      "wired_w": 100,
+      "claim": "100W HyperCharge; 100W In-box charger"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 200,
+          "sensor": "1/1.4\"",
+          "aperture": "f/1.7",
+          "ois": true
+        },
+        {
+          "role": "ultrawide",
+          "mp": 8
+        }
+      ],
+      "front": "32 MP",
+      "rear_detail": [
+        "200MP main camera, Optical Image Stabilization (OIS), 0.56μm, 16in1, 2.24μm, f/1.7, 7P lens, 1/1.4\" sensor size",
+        "8MP ultra-wide camera, f/2.2"
+      ],
+      "video": "4K@30fps; 1080p",
+      "front_detail": [
+        "32MP front camera, 1/3.6\" sensor size, f/2.2, 4P lens"
+      ],
+      "front_video": "1080p@60fps"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true,
+      "bands_3g": "B1/B2/B4/B5/B6/B8/B19",
+      "bands_4g": "LTE FDD: B1/B2/B3/B4/B5/B7/B8/B12/B13/B17/B18/B19/; LTE TDD: B38/B40/B41/B42/B48",
+      "bands_5g": "5G: n1/2/3/5/7/8/12/20/26/28/38/40/41/48/66/77/78",
+      "technology": "HSPA / LTE / 5G",
+      "positioning": "L1; GLONASS: G1; BDS: B1I +B1C; Galileo E1; QZSS:L1; A-GPS supplementary positioning; Wireless network; Data network; Sensor Assisted Positioning",
+      "bluetooth": "Bluetooth 5.4",
+      "usb": "USB Type-C"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 163.34,
+        "width_mm": 78.31,
+        "depth_mm": 8.19
+      },
+      "weight_g": 207.1,
+      "ip": "IP69K"
+    },
+    "software": {
+      "launch_os": "Xiaomi HyperOS 2"
+    },
+    "sensors": "Proximity sensor, Ambient light sensor, Accelerometer, Electronic compass, IR blaster, Gyroscope",
+    "audio": {
+      "speakers": "Dual speakers"
+    },
+    "biometrics": {
+      "fingerprint": "In-screen fingerprint sensor"
+    },
+    "misc": {
+      "colors": "Black, Glacier Blue, Mocha Brown"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "redmi",
+      "url": "https://www.mi.com/my/product/redmi-note-15-pro-plus-5g/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from Xiaomi Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "lowyat",
+        "url": "https://www.lowyat.net/2026/378574/redmi-note-15-series-now-official-in-malaysia/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (Lowyat.NET). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://i02.appmifile.com/261_item_my/04/01/2026/cea1b9edc4ac89f6b66568816b8f2664.png",
+    "page": "https://www.mi.com/my/product/redmi-note-15-pro-plus-5g/specs/",
+    "credit": "Xiaomi",
+    "checked": "2026-09-19"
+  }
+}

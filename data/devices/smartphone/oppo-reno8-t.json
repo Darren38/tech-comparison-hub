@@ -1,0 +1,142 @@
+{
+  "id": "oppo-reno8-t",
+  "name": "OPPO Reno8 T",
+  "brand": "oppo",
+  "category": "smartphone",
+  "series": "Reno",
+  "form": "bar",
+  "status": "released",
+  "announced": "2023-02-07",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1399,
+      "config": "8 GB / 256 GB",
+      "date": "2023-02-07",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2023/02/07/oppo-reno-8t-malaysia-108mp-camera-curved-120hz-display-and-67w-supervooc-charging/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/reno8-t-en/listpage/reno8-t_sunset-orange_427_600.png",
+    "page": "https://www.oppo.com/my/smartphones/series-reno/reno8-t/",
+    "credit": "OPPO Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.43,
+      "type": "AMOLED",
+      "resolution": "2400 × 1080",
+      "refresh_hz": 90,
+      "peak_nits": 800,
+      "protection": "Corning Gorilla Glass 5 (GG5)",
+      "ppi": 409
+    },
+    "platform": {
+      "chipset": "helio-g99",
+      "gpu": "ARM Mali-G57 MC2 @ 1.0GHz",
+      "cpu": "8 cores, up to 2.2GHz"
+    },
+    "memory": {
+      "ram_gb": [
+        8
+      ],
+      "storage_gb": [
+        256
+      ],
+      "ram_type": "LPDDR4X @ 2133MHz 2 x 16-bit",
+      "storage_type": "UFS2.2 @ 2 Lanes HS-Gear3",
+      "card": "Yes"
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 100,
+          "aperture": "f/1.7"
+        },
+        {
+          "role": "depth",
+          "mp": 2
+        }
+      ],
+      "front": "32 MP",
+      "rear_detail": [
+        "100MP; f/1.7; FOV 79°; 6P lens; AF supported; open-loop focus motor adopted",
+        "Microlens camera: 2MP; f/3.3; FOV 65°; 3P lens",
+        "Depth camera: 2MP; f/2.4; FOV 88°; 3P lens"
+      ],
+      "front_detail": [
+        "32MP; f/2.4; FOV 89°; 5P lens; AF not supported"
+      ],
+      "video": "1080p@30fps",
+      "front_video": "1080p@30fps"
+    },
+    "connectivity": {
+      "cellular": "4G",
+      "nfc": true,
+      "bands_2g": "850/900/1800/1900MHz",
+      "bands_4g": "LTE FDD: bands 1/3/5/7/8/20/28; LTE TDD: bands 38/40/41",
+      "technology": "GSM / LTE",
+      "sim": "Nano-SIM card/Nano-USIM card",
+      "wifi": "2.4GHz, 5.1GHz, and 5.8GHz",
+      "bluetooth": "Bluetooth 5.3",
+      "usb": "USB type-C",
+      "positioning": "GPS, BDS, GLONASS, GALILEO, QZSS"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 160.8,
+        "width_mm": 73.84,
+        "depth_mm": 7.8
+      },
+      "weight_g": 180.0
+    },
+    "software": {
+      "launch_os": "ColorOS 13.0"
+    },
+    "charging": {
+      "claim": "SUPERVOOC"
+    },
+    "biometrics": {
+      "face": "Yes"
+    },
+    "sensors": "Geomagnetic sensor, Light sensor, In-display proximity sensor, Accelerometer, Gravity sensor, Gyroscope, Step counting",
+    "audio": {
+      "jack": true
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "oppo",
+      "url": "https://www.oppo.com/my/smartphones/series-reno/reno8-t/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from OPPO Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2023/02/07/oppo-reno-8t-malaysia-108mp-camera-curved-120hz-display-and-67w-supervooc-charging/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

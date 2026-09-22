@@ -1,0 +1,132 @@
+{
+  "id": "realme-gt-8-pro",
+  "name": "realme GT 8 Pro",
+  "brand": "realme",
+  "category": "smartphone",
+  "series": "GT",
+  "form": "bar",
+  "status": "released",
+  "announced": "2025-10-21",
+  "released": "2025-10",
+  "segment": "flagship",
+  "aliases": [
+    "GT 8 Pro",
+    "GT8 Pro"
+  ],
+  "summary": "Performance flagship with a RICOH GR-tuned camera system, a 2K 144 Hz display and a 7,000 mAh battery at an aggressive price.",
+  "highlights": [
+    "RICOH GR camera system",
+    "2K 144 Hz display",
+    "7,000 mAh battery",
+    "120 W wired / 50 W wireless"
+  ],
+  "prices": [
+    {
+      "region": "CN",
+      "currency": "CNY",
+      "amount": 3999,
+      "config": "12 GB / 256 GB",
+      "date": "2025-10-21",
+      "type": "launch",
+      "source": "fonearena",
+      "url": "https://www.fonearena.com/blog/467052/realme-gt8-pro-price-specifications-realme-gt8.html",
+      "class": "news"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 4299,
+      "config": "16 GB / 512 GB",
+      "date": "2025-11-25",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/11/25/realme-gt-8-pro-malaysia-price-specs/",
+      "class": "news",
+      "accessed": "2026-09-16"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 6.79,
+      "type": "AMOLED",
+      "resolution": "3136 × 1440",
+      "ppi": 508,
+      "refresh_hz": 144,
+      "peak_nits": 7000
+    },
+    "platform": {
+      "chipset": "snapdragon-8-elite-gen-5"
+    },
+    "memory": {
+      "ram_gb": [
+        12,
+        16
+      ],
+      "storage_gb": [
+        256,
+        512,
+        1024
+      ]
+    },
+    "battery": {
+      "capacity_mah": 7000
+    },
+    "charging": {
+      "wired_w": 120,
+      "wireless_w": 50,
+      "claim": "Full charge in under 45 min (realme claim)"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "note": "RICOH GR tuning"
+        },
+        {
+          "role": "ultrawide",
+          "mp": 50
+        },
+        {
+          "role": "periscope",
+          "mp": 200
+        }
+      ],
+      "front": "32 MP"
+    },
+    "build": {
+      "ip": "IP66 + IP68 + IP69"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true
+    },
+    "software": {
+      "launch_os": "Android 16, realme UI 7"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "realme",
+      "url": "https://www.realme.com/global/realme-gt-8-pro/specs",
+      "checked": "2026-09-15",
+      "note": "Key specs cross-checked against realme's global spec page listing and FoneArena."
+    },
+    "fields": {
+      "specs.display.peak_nits": {
+        "class": "official",
+        "source": "realme",
+        "note": "Manufacturer's peak claim; measured values are usually far lower."
+      }
+    }
+  },
+  "dataStatus": "checked",
+  "image": {
+    "kind": "official",
+    "src": "https://static2.realme.net/images/realme-gt-8-pro-in/pc-01-kv.jpg",
+    "page": "https://www.realme.com/global/realme-gt-8-pro",
+    "credit": "realme",
+    "checked": "2026-09-19"
+  }
+}

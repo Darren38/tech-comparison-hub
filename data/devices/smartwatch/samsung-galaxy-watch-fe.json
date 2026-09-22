@@ -1,0 +1,82 @@
+{
+  "id": "samsung-galaxy-watch-fe",
+  "name": "Galaxy Watch FE",
+  "brand": "samsung",
+  "category": "smartwatch",
+  "series": "Galaxy Watch",
+  "form": "watch",
+  "status": "released",
+  "announced": "2024-07-19",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 799,
+      "date": "2024-07-19",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2024/327100/samsung-galaxy-watch-fe-msia/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 1.2,
+      "type": "Super AMOLED",
+      "resolution": "396 × 396"
+    },
+    "connectivity": {
+      "gps": "Built-in GNSS",
+      "nfc": true,
+      "cellular": "LTE option",
+      "wifi": "802.11a/b/g/n 2.4GHz+5GHz",
+      "bluetooth": "Bluetooth v5.3",
+      "positioning": "GPS, Glonass, Beidou, Galileo"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 39.3,
+        "width_mm": 40.4,
+        "depth_mm": 9.8
+      },
+      "weight_g": 26.6,
+      "water": "5 ATM",
+      "water_m": 50,
+      "durability": "5 ATM"
+    },
+    "software": {
+      "launch_os": "Wear OS Powered by Samsung"
+    },
+    "sensors": "Accelerometer, Barometer, Bioelectrical Impedance Analysis Sensor, Electrical Heart Sensor, Gyro Sensor, Geomagnetic Sensor, Light Sensor, Optical Heart Rate Sensor",
+    "battery": {
+      "capacity_mah": 247
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "samsung",
+      "url": "https://www.samsung.com/my/support/model/SM-R861NIDAXME/",
+      "checked": "2026-09-18",
+      "note": "Read from Samsung's own specification data for the Malaysian model SM-R861NIDAXME (the data samsung.com/my shows on its spec pages); the link goes to Samsung Malaysia's page for that model. Values were extracted automatically and reviewed."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "lowyat",
+        "url": "https://www.lowyat.net/2024/327100/samsung-galaxy-watch-fe-msia/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (Lowyat.NET). The global announcement can be earlier."
+      }
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://images.samsung.com/is/image/samsung/p6pim/my/sm-r861nidaxme/gallery/my-galaxy-watch-fe-r861-sm-r861nidaxme-542488018?$624_624_PNG$",
+    "page": "https://www.samsung.com/my/support/model/SM-R861NIDAXME/",
+    "credit": "Samsung Malaysia",
+    "checked": "2026-09-19"
+  }
+}

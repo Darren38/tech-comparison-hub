@@ -1,0 +1,150 @@
+{
+  "id": "huawei-mate-80-pro",
+  "name": "Huawei Mate 80 Pro",
+  "brand": "huawei",
+  "category": "smartphone",
+  "series": "Mate",
+  "form": "bar",
+  "status": "released",
+  "announced": "2026-03-12",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 3999,
+      "config": "16 GB / 512 GB",
+      "date": "2026-03-12",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2026/03/12/huawei-mate-80-pro-with-true-to-colour-camera-officially-launched-in-malaysia-priced-at-rm3999/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/phones/mate80-pro/specs-black.png",
+    "page": "https://consumer.huawei.com/my/phones/mate80-pro/specs/",
+    "credit": "Huawei Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.75,
+      "type": "LTPO OLED",
+      "resolution": "2832 × 1280",
+      "ppi": 460
+    },
+    "memory": {
+      "ram_gb": [
+        16
+      ],
+      "storage_gb": [
+        512
+      ],
+      "card": "No"
+    },
+    "battery": {
+      "capacity_mah": 5750
+    },
+    "charging": {
+      "wired_w": 100,
+      "wireless_w": 80,
+      "claim": "HUAWEI SuperCharge (Max 100 W); The phone supports 20V/5A (Max 100 W) super-fast charging and is compatible with 20V/4.4A or 10V/4A or 10V/2.25A or 4.5V/5A or 5V/4.5A super-fast ch"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "ois": true
+        },
+        {
+          "role": "ultrawide",
+          "mp": 40
+        },
+        {
+          "role": "telephoto",
+          "mp": 48
+        }
+      ],
+      "front": "13 MP",
+      "rear_detail": [
+        "50 MP Ultra Lighting Camera (F1.4-F4.0 aperture, OIS, RYYB)",
+        "40 MP Ultra-Wide Angle Camera (F2.2 aperture, RYYB)",
+        "48 MP Ultra Lighting Macro Telephoto Camera (F2.1 aperture, OIS)"
+      ],
+      "features": "4 × optical zoom (4 × zoom is approximate value, focal length of lens are 24 mm, 13 mm, 92.5 mm); 100 × digital zoom",
+      "video": "4K",
+      "front_detail": [
+        "13 MP Selfie Camera (Wide Angle, F2.0, autofocus)"
+      ]
+    },
+    "connectivity": {
+      "cellular": "4G",
+      "nfc": true,
+      "bands_2g": "Bands 2/3/5/8 (850/900/1800/1900 MHz",
+      "bands_3g": "Bands 1/2/4/5/6/8/19",
+      "bands_4g": "4G LTE FDD: Bands 1/2/3/4/5/6/7/8/9/12/17/18/19/20/26/28/66; 4G LTE TDD: Bands 34/38/39/40/41/42/48",
+      "technology": "GSM / HSPA / LTE",
+      "wifi": "2.4 GHz and 5 GHz; IEEE 802.11a/b/g/n/ac/ax/be, 2 × 2 MIMO, HE160, 8 Spatial-stream Sounding MU-MIMO",
+      "bluetooth": "Bluetooth 6.0, Support BLE, SBC, AAC, LDAC and L2HC",
+      "usb": "USB Type-C, USB 3.1 GEN1, supports DP1.2",
+      "positioning": "GPS (L1 + L5 Dual band)/AGPS/GLONASS/BeiDou (B1I + B1C + B2a + B2b Quad-band)/GALILEO (E1 + E5a + E5b Tri-band)/QZSS (L1 + L5 Dual band)/NavIC",
+      "sim": "Single SIM model"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 161.85,
+        "width_mm": 76.0,
+        "depth_mm": 7.95
+      },
+      "weight_g": 219.0,
+      "ip": "IP69"
+    },
+    "software": {
+      "launch_os": "EMUI 15.0"
+    },
+    "platform": {
+      "chipset": "kirin-9030"
+    },
+    "audio": {
+      "jack": false
+    },
+    "sensors": "3D facial recognition, Gesture Sensor, Gravity sensor, Infrared Sensor, Fingerprint Sensor, Hall sensor, Barometric pressure sensor, Gyroscope, Compass, Ambient Light Sensor, Proximity Sensor, Laser Sensor, Color Temperature Sensor, Operation System, EMUI 15.0",
+    "misc": {
+      "colors": "Black, Green, Gold"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "huawei",
+      "url": "https://consumer.huawei.com/my/phones/mate80-pro/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from Huawei Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "specs.platform": {
+        "class": "news",
+        "source": "lowyat",
+        "url": "https://www.lowyat.net/2026/383231/huawei-mate-80-pro-global-launch/",
+        "note": "Chip named in Lowyat.NET's Malaysian coverage; the maker's own specification data for this model does not name it.",
+        "checked": "2026-09-18"
+      },
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2026/03/12/huawei-mate-80-pro-with-true-to-colour-camera-officially-launched-in-malaysia-priced-at-rm3999/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

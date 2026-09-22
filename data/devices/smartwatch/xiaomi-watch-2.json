@@ -1,0 +1,78 @@
+{
+  "id": "xiaomi-watch-2",
+  "name": "Xiaomi Watch 2",
+  "brand": "xiaomi",
+  "category": "smartwatch",
+  "series": "Watch",
+  "form": "watch",
+  "status": "released",
+  "announced": "2024-03-07",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 869,
+      "date": "2024-03-07",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2024/318220/xiaomi-watch-2-watch-s3-launch-msia/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://i02.appmifile.com/439_item_my/27/09/2024/0f962ba398bd52b8bfadf331fa6a37f9.png",
+    "page": "https://www.mi.com/my/product/xiaomi-watch-2/specs/",
+    "credit": "Xiaomi Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 1.43,
+      "type": "AMOLED",
+      "resolution": "466 × 466",
+      "peak_nits": 600
+    },
+    "battery": {
+      "capacity_mah": 495
+    },
+    "connectivity": {
+      "gps": "Built-in GNSS",
+      "cellular": "LTE option",
+      "wifi": "2.4GHz/5GHz Wi-Fi",
+      "positioning": "Dual band : L1+L5; GPS; Galileo; Glonass; Beidou; QZSS; Package contents; Xiaomi Watch 2 / Magnetic charging cable / User Manual (including warranty notice)",
+      "bluetooth": "Bluetooth 5.2"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 47.5,
+        "width_mm": 45.9,
+        "depth_mm": 11.8
+      },
+      "weight_g": 36.8,
+      "water": "5 ATM",
+      "water_m": 50
+    },
+    "sensors": "Optical heart rate sensor, Accelerometer sensor, Gyroscope sensor, Ambient light sensor, Electronic compass sensor, Barometer sensor"
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "xiaomi",
+      "url": "https://www.mi.com/my/product/xiaomi-watch-2/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from Xiaomi Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "lowyat",
+        "url": "https://www.lowyat.net/2024/318220/xiaomi-watch-2-watch-s3-launch-msia/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (Lowyat.NET). The global announcement can be earlier."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

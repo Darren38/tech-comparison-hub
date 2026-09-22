@@ -1,0 +1,159 @@
+{
+  "id": "poco-f6",
+  "name": "POCO F6",
+  "brand": "poco",
+  "category": "smartphone",
+  "series": "F",
+  "form": "bar",
+  "status": "released",
+  "announced": "2024-05-24",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1799,
+      "config": "8 GB / 256 GB",
+      "date": "2024-05-24",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2024/05/24/poco-f6-malaysia-snapdragon-8s-gen-3-price-specs/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1999,
+      "config": "12 GB / 512 GB",
+      "date": "2024-05-24",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2024/05/24/poco-f6-malaysia-snapdragon-8s-gen-3-price-specs/",
+      "class": "news",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://i02.appmifile.com/130_item_my/20/05/2024/8994f6b54edffa534bc5b9595912ea78.png",
+    "page": "https://www.mi.com/my/product/poco-f6/specs/",
+    "credit": "Xiaomi Malaysia",
+    "checked": "2026-09-18"
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.67,
+      "type": "AMOLED",
+      "resolution": "2712 × 1220",
+      "refresh_hz": 120,
+      "peak_nits": 2400,
+      "protection": "Corning Gorilla Glass Victus",
+      "ppi": 446
+    },
+    "platform": {
+      "chipset": "snapdragon-8s-gen-3",
+      "gpu": "Adreno GPU",
+      "cpu": "Octa-core processor, up to 3.0GHz; 1x X4@3.0GHz+4x A720@2.8GHz+3x A520@2.0GHz"
+    },
+    "memory": {
+      "ram_gb": [
+        8,
+        12
+      ],
+      "storage_gb": [
+        256,
+        512
+      ],
+      "ram_type": "LPDDR5X",
+      "storage_type": "UFS 4.0"
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "charging": {
+      "wired_w": 90,
+      "claim": "90W turbo charging; 90W in-box charger"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "aperture": "f/1.59"
+        },
+        {
+          "role": "ultrawide",
+          "mp": 8
+        }
+      ],
+      "video": "4K@60fps; 1080p",
+      "front_video": "1080p",
+      "rear_detail": [
+        "50MP main camera, Sony IMX882, f/1.59, 1.6μm large pixel(4-in-1), 6p",
+        "8MP ultra-wide camera, IMX355"
+      ],
+      "front_detail": [
+        "20MP front camera, OV20B(1/4\" sensor size), f/2.2, 4p lens"
+      ]
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true,
+      "bands_2g": "850/900/1800/1900MHz",
+      "bands_3g": "B1/2/4/5/6/8/19",
+      "bands_4g": "4G LTE FDD: B1/2/3/4/5/7/8/18/19/20/26/28/66; 4G LTE TDD: B38/40/41/42/48",
+      "bands_5g": "5G NSA: n1/3/5/7/8/20/28/38/40/41/66/77/78",
+      "technology": "GSM / HSPA / LTE / 5G",
+      "wifi": "802.11a/b/g/n/ac/ax",
+      "positioning": "L1; GLONASS: G1; Beidou: B1; Galileo E1; QZSS L1",
+      "sim": "Dual SIM, dual standby（5G+5G，5G+4G）",
+      "bluetooth": "Bluetooth 5.4",
+      "usb": "USB-C"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 160.5,
+        "width_mm": 74.4,
+        "depth_mm": 7.8
+      },
+      "weight_g": 179.0
+    },
+    "software": {
+      "launch_os": "Powered by Xiaomi HyperOS"
+    },
+    "sensors": "Proximity sensor, Ambient light sensor, Accelerometer, Electronic compass, IR blaster, Gyroscope, X-axis linear vibration motor",
+    "audio": {
+      "speakers": "Dual speakers"
+    },
+    "biometrics": {
+      "fingerprint": "In-screen fingerprint sensor"
+    },
+    "misc": {
+      "colors": "Black, Green, Titanium color"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "poco",
+      "url": "https://www.mi.com/my/product/poco-f6/specs/",
+      "checked": "2026-09-18",
+      "note": "Read from Xiaomi Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2024/05/24/poco-f6-malaysia-snapdragon-8s-gen-3-price-specs/",
+        "checked": "2026-09-18",
+        "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      },
+      "specs.display.ppi": {
+        "class": "platform",
+        "source": "platform",
+        "note": "Calculated from resolution and screen size."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}
