@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-09-23T05:02:57+00:00",
+ "fetchedAt": "2026-09-23T07:47:30+00:00",
  "maxAgeDays": 45,
  "feeds": [
   {
@@ -30,7 +30,7 @@
    "source": "fonearena",
    "kind": "news",
    "ok": true,
-   "kept": 4
+   "kept": 3
   },
   {
    "source": "gizmochina",
@@ -54,7 +54,7 @@
    "source": "lowyat",
    "kind": "news",
    "ok": true,
-   "kept": 2
+   "kept": 3
   },
   {
    "source": "macrumors",
@@ -95,21 +95,20 @@
   {
    "source": "phonebuff",
    "kind": "video",
-   "ok": false,
-   "kept": 0,
-   "error": "HTTPError: HTTP Error 404: Not Found"
+   "ok": true,
+   "kept": 0
   },
   {
    "source": "sammobile",
    "kind": "news",
    "ok": true,
-   "kept": 6
+   "kept": 7
   },
   {
    "source": "sammyfans",
    "kind": "news",
    "ok": true,
-   "kept": 7
+   "kept": 8
   },
   {
    "source": "soyacincau",
@@ -119,6 +118,153 @@
   }
  ],
  "items": [
+  {
+   "id": "78f6d2a5880b",
+   "title": "Snapdragon 8 Elite Extreme Gen 6 and 8 Elite Gen 6 debut",
+   "url": "https://www.gsmarena.com/snapdragon_8_elite_extreme_gen_6_and_8_elite_gen_6_debut-news-74721.php",
+   "source": "gsmarena",
+   "kind": "news",
+   "published": "2026-09-23T07:39+00:00",
+   "devices": [],
+   "image": null
+  },
+  {
+   "id": "bdd7d32c296d",
+   "title": "Does Lenovo now offer the perfect entertainment tablet?",
+   "url": "https://www.notebookcheck.net/Does-Lenovo-now-offer-the-perfect-entertainment-tablet.1404605.0.html",
+   "source": "notebookcheck",
+   "kind": "news",
+   "published": "2026-09-23T07:31+00:00",
+   "devices": [],
+   "image": "https://www.notebookcheck.net/fileadmin/Notebooks/Lenovo/Tab_Plus_Gen_2/Lenovo_Tab_Plus_Gen_2_im_Test_7.jpg"
+  },
+  {
+   "id": "30add27db4ae",
+   "title": "Xiaomi 18 Pro series will be the first to bring both Snapdragon 8 Elite Gen 6 and 8 Elite Extreme Gen 6 to market",
+   "url": "https://www.gizmochina.com/2026/09/23/xiaomi-18-pro-series-will-be-the-first-to-bring-both-snapdragon-8-elite-gen-6-and-8-elite-extreme-gen-6-to-market/",
+   "source": "gizmochina",
+   "kind": "news",
+   "published": "2026-09-23T07:00+00:00",
+   "devices": [],
+   "image": "https://www.gizmochina.com/wp-content/uploads/2026/09/002p2Zyzly1ih9uh718alj61401hckhu02-300x169.jpg?x96852"
+  },
+  {
+   "id": "e2d89e383bb0",
+   "title": "Samsung Galaxy S27, S27+, S27 Pro, and S27 Ultra RAM and storage configurations leak",
+   "url": "https://www.gsmarena.com/samsung_galaxy_s27_s27_s27_pro_and_s27_ultra_ram_and_storage_configurations_leak-news-74720.php",
+   "source": "gsmarena",
+   "kind": "news",
+   "published": "2026-09-23T06:41+00:00",
+   "devices": [],
+   "image": null
+  },
+  {
+   "id": "94c71af77bea",
+   "title": "Samsung increased prices of Galaxy S26, S26+, and S26 Ultra in India",
+   "url": "https://www.sammyfans.com/2026/09/23/samsung-increased-prices-of-galaxy-s26-plus-ultra-in-india/",
+   "source": "sammyfans",
+   "kind": "news",
+   "published": "2026-09-23T06:33+00:00",
+   "devices": [
+    "samsung-galaxy-s26",
+    "samsung-galaxy-s26-ultra"
+   ],
+   "image": null
+  },
+  {
+   "id": "4e07c157a6b2",
+   "title": "Tired of Watching 5 Phone Reviews? Turn Them Into Searchable Notes Using the AI Tool Lynote",
+   "url": "https://www.gizmochina.com/2026/09/23/ai-tool-for-phone-reviews-lynote/",
+   "source": "gizmochina",
+   "kind": "news",
+   "published": "2026-09-23T05:52+00:00",
+   "devices": [],
+   "image": "https://www.gizmochina.com/wp-content/uploads/2026/09/image-124-300x156.png?x96852"
+  },
+  {
+   "id": "eef975d4aa97",
+   "title": "RedMagic 12 Pro+ To Launch In China This October; Teasers Show Thinner Design",
+   "url": "https://www.lowyat.net/2026/405085/redmagic-12-pro-to-launch-china-october/",
+   "source": "lowyat",
+   "kind": "news",
+   "published": "2026-09-23T05:45+00:00",
+   "devices": [],
+   "image": "https://www.lowyat.net/wp-content/uploads/2026/09/RedMagic-12-Pro-1.webp"
+  },
+  {
+   "id": "cccd3504c29b",
+   "title": "Amazfit T-Rex Dual Solar first AMOLED smartwatch with dual-sided solar charging announced",
+   "url": "https://www.fonearena.com/blog/493137/amazfit-t-rex-dual-solar-price-features.html",
+   "source": "fonearena",
+   "kind": "news",
+   "published": "2026-09-23T05:43+00:00",
+   "devices": [],
+   "image": "https://images.fonearena.com/blog/wp-content/uploads/2026/09/Amazfit-T-Rex-Dual-Solar-1024x512.jpg"
+  },
+  {
+   "id": "a0037afb39e1",
+   "title": "Wider One UI 9 rollout starts for the Galaxy S26 series",
+   "url": "https://www.sammobile.com/news/galaxy-s26-one-ui-9-stable-wider-rollout/",
+   "source": "sammobile",
+   "kind": "news",
+   "published": "2026-09-23T05:39+00:00",
+   "devices": [
+    "samsung-galaxy-s26"
+   ],
+   "image": null
+  },
+  {
+   "id": "99e2fcd91f0b",
+   "title": "Red Magic 12 Pro+ confirmed to use higher-end Snapdragon 8 Elite Extreme Gen 6 chip",
+   "url": "https://www.gizmochina.com/2026/09/23/red-magic-12-pro-confirmed-to-use-higher-end-snapdragon-8-elite-extreme-gen-6-chip/",
+   "source": "gizmochina",
+   "kind": "news",
+   "published": "2026-09-23T05:36+00:00",
+   "devices": [],
+   "image": "https://www.gizmochina.com/wp-content/uploads/2026/09/007kVUJhgy1ihc7lx5c6aj30u014013r-1-1-300x169.jpg?x96852"
+  },
+  {
+   "id": "d2bed2f5a5a8",
+   "title": "Vivo X500 series is going global next month; here’s the launch date",
+   "url": "https://www.gizmochina.com/2026/09/23/vivo-x500-series-is-going-global-next-month-heres-the-launch-date/",
+   "source": "gizmochina",
+   "kind": "news",
+   "published": "2026-09-23T05:31+00:00",
+   "devices": [],
+   "image": "https://www.gizmochina.com/wp-content/uploads/2026/09/Vivo-X500-Pro-Max-launch-specs-price-300x200.jpg?x96852"
+  },
+  {
+   "id": "806151bf1e84",
+   "title": "Global One UI 9.0 rollout begins for Galaxy S26 flagships in the US",
+   "url": "https://www.sammyfans.com/2026/09/23/samsung-galaxy-s26-official-global-one-ui-9-0-rollout/",
+   "source": "sammyfans",
+   "kind": "news",
+   "published": "2026-09-23T05:29+00:00",
+   "devices": [
+    "samsung-galaxy-s26"
+   ],
+   "image": "https://www.sammyfans.com/wp-content/uploads/2026/06/oneui907.jpg"
+  },
+  {
+   "id": "aabf1098a648",
+   "title": "Snapdragon 8 Elite Gen 6 series to power Xiaomi 18 Pro series, iQOO 16, OnePlus 16, HONOR Magic9 series and more",
+   "url": "https://www.fonearena.com/blog/493105/snapdragon-8-elite-gen-6-series-smartphones.html",
+   "source": "fonearena",
+   "kind": "news",
+   "published": "2026-09-23T05:08+00:00",
+   "devices": [],
+   "image": "https://images.fonearena.com/blog/wp-content/uploads/2026/09/Xiaomi-18-Pro-Series-Snapdragon-8-Elite-Gen-6-Series.jpg"
+  },
+  {
+   "id": "b344ee7695db",
+   "title": "Samsung x DOMINNICO makes Galaxy Z Fold 8 mini fashion accessories",
+   "url": "https://www.sammyfans.com/2026/09/23/samsung-x-dominnico-makes-galaxy-z-fold-8-mini-fashion-accessories/",
+   "source": "sammyfans",
+   "kind": "news",
+   "published": "2026-09-23T05:03+00:00",
+   "devices": [],
+   "image": "https://www.sammyfans.com/wp-content/uploads/2026/09/samsung-DOMINNICO-accessories-img.jpg"
+  },
   {
    "id": "ef6b322ec1be",
    "title": "Vivo X500 Pro Max vs Oppo Find X10 Pro Max: Which Flagship is Better?",
@@ -141,7 +287,7 @@
   },
   {
    "id": "63e8e5cadc08",
-   "title": "Motorola Signature 27 announced as true flagship with 200MP telephoto, 1/1.28″ main sensor, Snapdragon 8 Elite Extreme Gen 6 chip",
+   "title": "Motorola Signature 27 launched as a true flagship with Snapdragon 8 Elite Extreme Gen 6 chip, 200MP telephoto, 1/1.28″ 50MP main sensor",
    "url": "https://www.gizmochina.com/2026/09/23/motorola-signature-27-announced-as-true-flagship-with-200mp-telephoto-1-1-28-main-sensor-snapdragon-8-elite-extreme-gen-6-chip/",
    "source": "gizmochina",
    "kind": "news",
@@ -200,16 +346,6 @@
    "published": "2026-09-23T01:54+00:00",
    "devices": [],
    "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/vivo-v80-news-phone.png"
-  },
-  {
-   "id": "ab015d89693a",
-   "title": "Qualcomm introduces Snapdragon 8 Elite Gen 6 and Extreme Gen 6 2nm SoCs: up to 5GHz Oryon CPU, up to 35% faster NPU",
-   "url": "https://www.fonearena.com/blog/493098/qualcomm-snapdragon-8-elite-extreme-gen-6-features.html",
-   "source": "fonearena",
-   "kind": "news",
-   "published": "2026-09-23T01:51+00:00",
-   "devices": [],
-   "image": "https://images.fonearena.com/blog/wp-content/uploads/2026/09/Snapdragon-8-Elite-Gen-6-1024x602.jpg"
   },
   {
    "id": "3d852669577b",
@@ -676,18 +812,6 @@
    "image": null
   },
   {
-   "id": "f95bc1fa2cf9",
-   "title": "One UI 9 Beta for Samsung Galaxy A16 5G may be coming soon",
-   "url": "https://www.sammyfans.com/2026/09/22/one-ui-9-beta-for-samsung-galaxy-a16-5g-may-be-coming-soon/",
-   "source": "sammyfans",
-   "kind": "news",
-   "published": "2026-09-22T14:27+00:00",
-   "devices": [
-    "samsung-galaxy-a16-5g"
-   ],
-   "image": "https://www.sammyfans.com/wp-content/uploads/2026/06/samsung-galaxy-a16-5g-img.jpg"
-  },
-  {
    "id": "eed8131885a4",
    "title": "Oppo Find X10 debuts with dual 200MP cameras, 0.99 mm bezel, Dimensity 9600M chipset",
    "url": "https://www.gizmochina.com/2026/09/22/oppo-find-x10-debuts-with-dual-200mp-cameras-0-99-mm-bezel-dimensity-9600m-chipset/",
@@ -696,26 +820,6 @@
    "published": "2026-09-22T14:27+00:00",
    "devices": [],
    "image": "https://www.gizmochina.com/wp-content/uploads/2026/09/videoframe_19890-300x169.png?x96852"
-  },
-  {
-   "id": "59b2a649eebc",
-   "title": "Samsung shifts One UI 9.0 announcement date once again",
-   "url": "https://www.sammyfans.com/2026/09/22/samsung-shifts-one-ui-9-0-announcement-date-once-again/",
-   "source": "sammyfans",
-   "kind": "news",
-   "published": "2026-09-22T13:40+00:00",
-   "devices": [],
-   "image": "https://www.sammyfans.com/wp-content/uploads/2026/06/oneui905.jpg"
-  },
-  {
-   "id": "b888b33a0445",
-   "title": "OPPO Find X10 with 6.59″ 1.5K 144Hz OLED display, Dimensity 9600M, Dual 200MP cameras, 8000mAh battery and Find X10 E announced",
-   "url": "https://www.fonearena.com/blog/493066/oppo-find-x10-price-specifications-find-x10e.html",
-   "source": "fonearena",
-   "kind": "news",
-   "published": "2026-09-22T13:36+00:00",
-   "devices": [],
-   "image": "https://images.fonearena.com/blog/wp-content/uploads/2026/09/OPPO-Find-X10-1024x710.jpg"
   },
   {
    "id": "79fc326446f6",
@@ -758,16 +862,6 @@
    "published": "2026-09-22T13:22+00:00",
    "devices": [],
    "image": "https://images.macrumors.com/article-new/2026/09/Tap-to-Pay-on-iPhone-General.jpg"
-  },
-  {
-   "id": "0e1d6417d015",
-   "title": "OPPO Find X10 Pro Max with 6.78″ 1.5K 144Hz OLED display, Dimensity 9600 Pro, Triple 200MP cameras, 8000mAh battery announced",
-   "url": "https://www.fonearena.com/blog/493060/oppo-find-x10-pro-max-price-specifications.html",
-   "source": "fonearena",
-   "kind": "news",
-   "published": "2026-09-22T13:11+00:00",
-   "devices": [],
-   "image": "https://images.fonearena.com/blog/wp-content/uploads/2026/09/OPPO-Find-X10-Pro-Max--1024x486.jpg"
   },
   {
    "id": "cf628273bcbb",
@@ -1036,48 +1130,6 @@
    "image": "https://www.gizmochina.com/wp-content/uploads/2026/09/Vivo-Camera-Screen-launch-specs-price-300x200.jpg?x96852"
   },
   {
-   "id": "2aed648c7bc4",
-   "title": "More Xiaomi devices get global HyperOS 4 beta update",
-   "url": "https://www.gizmochina.com/2026/09/22/more-xiaomi-devices-get-global-hyperos-4-beta-update/",
-   "source": "gizmochina",
-   "kind": "news",
-   "published": "2026-09-22T05:09+00:00",
-   "devices": [],
-   "image": "https://www.gizmochina.com/wp-content/uploads/2026/08/Xiaomi-HyperOS-4-beta-update-rollout-300x200.png?x96852"
-  },
-  {
-   "id": "893f1a836a6b",
-   "title": "POCO F9 Pro Review: Beyond Glow-in-Dark feature, What Else lightens the flagship killer?",
-   "url": "https://www.gizmochina.com/2026/09/22/poco-f9-pro-review-beyond-glow-in-dark-feature-what-else-lightens-the-flagship-killer/",
-   "source": "gizmochina",
-   "kind": "review",
-   "published": "2026-09-22T04:18+00:00",
-   "devices": [
-    "poco-f9-pro"
-   ],
-   "image": "https://www.gizmochina.com/wp-content/uploads/2026/09/Timeline-1_01_05_51_10-300x150.jpg?x96852"
-  },
-  {
-   "id": "16ab9973d29c",
-   "title": "OnePlus 16 officially confirmed to feature 1.15mm ultra-thin bezels, new design details emerge",
-   "url": "https://www.gizmochina.com/2026/09/22/oneplus-16-design-details-confirmed/",
-   "source": "gizmochina",
-   "kind": "news",
-   "published": "2026-09-22T03:50+00:00",
-   "devices": [],
-   "image": "https://www.gizmochina.com/wp-content/uploads/2026/09/OnePlus-16-rear-design-300x169.jpg?x96852"
-  },
-  {
-   "id": "331fd1214c7a",
-   "title": "Xiaomi 18 Pro series confirmed with dual 200MP main and telephoto sensors",
-   "url": "https://www.gizmochina.com/2026/09/22/xiaomi-18-pro-series-dual-200mp-leica-cameras/",
-   "source": "gizmochina",
-   "kind": "news",
-   "published": "2026-09-22T03:25+00:00",
-   "devices": [],
-   "image": "https://www.gizmochina.com/wp-content/uploads/2026/09/Xiaomi-18-Pro-series-cameras-teaser--300x202.jpg?x96852"
-  },
-  {
    "id": "8974efe5f201",
    "title": "Oppo A7 Pro Max makes its global debut, here's how much it costs in Europe",
    "url": "https://www.gsmarena.com/oppo_a7_pro_max_makes_its_global_debut_heres_how_much_it_costs_in_europe-news-74704.php",
@@ -1192,18 +1244,6 @@
    "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/06/siri-ai-27-light.jpg?quality=82&strip=all&w=1600"
   },
   {
-   "id": "50133ae4df85",
-   "title": "Will the iPhone 18 Pro bend?",
-   "url": "https://www.gsmarena.com/will_the_iphone_18_pro_bend-news-74697.php",
-   "source": "gsmarena",
-   "kind": "news",
-   "published": "2026-09-21T18:18+00:00",
-   "devices": [
-    "apple-iphone-18-pro"
-   ],
-   "image": null
-  },
-  {
    "id": "513e170c649e",
    "title": "Vivo X500 officially launches with Zeiss cameras and 144Hz AMOLED display",
    "url": "https://www.notebookcheck.net/Vivo-X500-officially-launches-with-Zeiss-cameras-and-144Hz-AMOLED-display.1404955.0.html",
@@ -1212,16 +1252,6 @@
    "published": "2026-09-21T18:05+00:00",
    "devices": [],
    "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/vivo-x500-official-launch-news.png"
-  },
-  {
-   "id": "25c9fb4947c9",
-   "title": "vivo X500, X500 Pro and X500 Pro Max hands-on review",
-   "url": "https://www.gsmarena.com/vivo_x500_x500_pro_x500_pro_max_handson-review-3001.php",
-   "source": "gsmarena",
-   "kind": "review",
-   "published": "2026-09-21T17:58+00:00",
-   "devices": [],
-   "image": null
   },
   {
    "id": "01c90867c7bd",
@@ -1252,16 +1282,6 @@
    "published": "2026-09-21T13:50+00:00",
    "devices": [],
    "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/Vivo-launches-X500-Pro-series.jpg"
-  },
-  {
-   "id": "7b859d09be39",
-   "title": "Samsung confirms One UI 9 rollout dates for these older Galaxy devices",
-   "url": "https://www.notebookcheck.net/Samsung-confirms-One-UI-9-rollout-dates-for-these-older-Galaxy-devices.1404452.0.html",
-   "source": "notebookcheck",
-   "kind": "news",
-   "published": "2026-09-21T10:24+00:00",
-   "devices": [],
-   "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/one-ui-9-beta-1-release-kv66.jpg"
   },
   {
    "id": "66833ab5cd85",

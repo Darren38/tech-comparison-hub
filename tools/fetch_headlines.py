@@ -33,6 +33,8 @@ ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 CONFIG = DATA / "meta" / "live-feeds.json"
 OUT = ROOT / "live" / "headlines.json"
+# Published next to the headlines so a browser (through the relay in relay/) collects with the same feeds and rules.
+LIVE_CONFIG = ROOT / "live" / "config.json"
 UA = "Mozilla/5.0 (compatible; TechComparisonHub/5.0; headline collector)"
 ATOM = "{http://www.w3.org/2005/Atom}"
 MEDIA = "{http://search.yahoo.com/mrss/}"
@@ -161,11 +163,37 @@ def match_devices(title_norm: str, keys: list[tuple[str, str]]) -> list[str]:
     return found
 
 
-def collect() -> dict:
-    cfg = json.loads(CONFIG.read_text(encoding="utf-8"))
+def load_keys() -> list[tuple[str, str]]:
     brands = json.loads((DATA / "brands" / "brands.json").read_text(encoding="utf-8"))
     devices = [json.loads(p.read_text(encoding="utf-8")) for p in sorted((DATA / "devices").glob("*/*.json"))]
-    keys = device_keys(devices, {b["id"]: b["name"] for b in brands})
+    return device_keys(devices, {b["id"]: b["name"] for b in brands})
+
+
+def write_live_config(cfg: dict, keys: list[tuple[str, str]]) -> None:
+    """The feed list and matching rules, for collecting in the browser through the relay (relay/worker.js).
+    The relay only fetches addresses listed here, so it cannot be used to reach any other site."""
+    out = {
+        "relay": (cfg.get("relay") or "").strip(),
+        "maxAgeDays": cfg.get("maxAgeDays", 45),
+        "perFeed": cfg.get("perFeed", 20),
+        "maxItems": cfg.get("maxItems", 240),
+        "feeds": [{"source": f["source"], "kind": f["kind"], "url": f["url"]} for f in cfg["feeds"]],
+        "noImageSources": sorted(NO_IMAGE_SOURCES),
+        "reviewWords": REVIEW_WORDS.pattern,
+        "topicPatterns": TOPIC_PATTERNS,
+        "nextReject": sorted(NEXT_REJECT),
+        "keys": keys,
+    }
+    LIVE_CONFIG.parent.mkdir(parents=True, exist_ok=True)
+    tmp = LIVE_CONFIG.with_suffix(".tmp")
+    tmp.write_text(json.dumps(out, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+    tmp.replace(LIVE_CONFIG)
+
+
+def collect() -> dict:
+    cfg = json.loads(CONFIG.read_text(encoding="utf-8"))
+    keys = load_keys()
+    write_live_config(cfg, keys)
     topic = re.compile(r"(?<![a-z0-9])(?:" + "|".join(TOPIC_PATTERNS) + r")(?![a-z0-9])")
 
     now = dt.datetime.now(dt.timezone.utc)

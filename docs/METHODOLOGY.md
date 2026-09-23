@@ -125,6 +125,8 @@ For each score category:
   - When a visitor opens the site, the browser compares the saved rate date with today's date in Malaysia. If the rates are older, it fetches daily rates from ExchangeRate-API, uses them and caches them for 3 hours.
   - Whichever rates are in use are named with their date in the footer, the price tooltips and the methodology page. If both sources fail, the saved rates stay and keep their date.
   - Rates only move the **≈** conversions, never launch prices or value scores.
+- **Live Refresh and news answers (Version 12).** Where the relay in `relay/` is set up, Refresh collects the headlines on the spot from the publishers' feeds, and Ask the hub answers news questions from them. Headlines are never evidence.
+- **Flagship records (Version 12).** Filled from makers' press releases and specification pages (Internet Archive copies where a page is gone). Figures a maker does not state come from named secondary sources, labelled by class: MacRumors (iPhone battery and RAM from filings, EU energy labels and Xcode; News), DXOMARK (main-camera sensor sizes; Reviewer), Android Authority and SoyaCincau (some update promises; News). Zoom factors given only as focal lengths are calculated (Platform). A promise made only for another market is not used.
 - **Latest headlines update automatically (Version 5).**
   - The News and Reviews pages show titles and links collected from the public RSS and YouTube feeds of registered sources: every 3 hours online, or on the spot with Refresh on the local server.
   - They are labelled "collected automatically, not checked by hand", are not documents or evidence, and never change a score, confidence level or verdict.

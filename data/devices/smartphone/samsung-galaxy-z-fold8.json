@@ -48,7 +48,8 @@
       "refresh_hz": 120,
       "peak_nits": 2600,
       "secondary": "5.5-inch cover screen, 10:16, 120 Hz, 2600 nits",
-      "resolution": "2448 x 1848"
+      "resolution": "2448 x 1848",
+      "ppi": 403
     },
     "platform": {
       "chipset": "snapdragon-8-elite-gen-5",
@@ -71,7 +72,8 @@
     },
     "charging": {
       "wired_w": 45,
-      "claim": "Wireless and reverse wireless charging supported (power not stated)"
+      "claim": "Wireless and reverse wireless charging supported (power not stated)",
+      "wireless_w": 20
     },
     "camera": {
       "rear": [
@@ -92,7 +94,13 @@
       "video": "8K @ 30 fps"
     },
     "build": {
-      "weight_g": 201
+      "weight_g": 201,
+      "dimensions": {
+        "height_mm": 123.9,
+        "width_mm": 161.4,
+        "depth_mm": 4.5
+      },
+      "ip": "IP48"
     },
     "connectivity": {
       "cellular": "5G",
@@ -156,6 +164,34 @@
         "url": "https://www.samsung.com/my/smartphones/galaxy-z-fold8/specs/",
         "checked": "2026-09-23",
         "note": "Read from Samsung Malaysia's specification page."
+      },
+      "specs.display.ppi": {
+        "class": "official",
+        "source": "samsung",
+        "url": "https://news.samsung.com/global/samsung-galaxy-z-fold8-ultra-fold8-and-flip8foldables-perfected-for-every-way-of-living",
+        "checked": "2026-09-23",
+        "note": "Read from Samsung's launch press release (specification table and footnotes)."
+      },
+      "specs.charging.wireless_w": {
+        "class": "official",
+        "source": "samsung",
+        "url": "https://news.samsung.com/global/samsung-galaxy-z-fold8-ultra-fold8-and-flip8foldables-perfected-for-every-way-of-living",
+        "checked": "2026-09-23",
+        "note": "Read from Samsung's launch press release (specification table and footnotes)."
+      },
+      "specs.build.dimensions": {
+        "class": "official",
+        "source": "samsung",
+        "url": "https://news.samsung.com/global/samsung-galaxy-z-fold8-ultra-fold8-and-flip8foldables-perfected-for-every-way-of-living",
+        "checked": "2026-09-23",
+        "note": "Read from Samsung's launch press release (specification table and footnotes)."
+      },
+      "specs.build.ip": {
+        "class": "official",
+        "source": "samsung",
+        "url": "https://news.samsung.com/global/samsung-galaxy-z-fold8-ultra-fold8-and-flip8foldables-perfected-for-every-way-of-living",
+        "checked": "2026-09-23",
+        "note": "Read from Samsung's launch press release (specification table and footnotes)."
       }
     }
   },

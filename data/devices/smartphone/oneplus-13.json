@@ -58,7 +58,8 @@
       "resolution": "3168 × 1440",
       "ppi": 510,
       "refresh_hz": 120,
-      "peak_nits": 4500
+      "peak_nits": 4500,
+      "protection": "Ceramic Guard"
     },
     "platform": {
       "chipset": "snapdragon-8-elite"
@@ -89,6 +90,8 @@
           "role": "main",
           "mp": 50,
           "aperture": "f/1.6",
+          "sensor": "1/1.4\"",
+          "ois": true,
           "note": "LYT-808"
         },
         {
@@ -98,11 +101,13 @@
         {
           "role": "telephoto",
           "mp": 50,
+          "sensor": "1/1.95\"",
           "zoom_x": 3
         }
       ],
       "zoom_optical_x": 3,
-      "front": "32 MP"
+      "front": "32 MP",
+      "video": "8K @ 30 fps; 4K @ up to 60 fps (Dolby Vision)"
     },
     "build": {
       "dimensions": {
@@ -115,7 +120,9 @@
     },
     "connectivity": {
       "cellular": "5G",
-      "nfc": true
+      "nfc": true,
+      "wifi": "Wi-Fi 7",
+      "bluetooth": "Bluetooth 5.4"
     },
     "software": {
       "launch_os": "Android 15, OxygenOS 15",
@@ -130,7 +137,50 @@
       "url": "https://www.oneplus.com/global",
       "note": "Compiled from OnePlus's launch specifications; not re-checked this session."
     },
-    "fields": {}
+    "fields": {
+      "specs.display.protection": {
+        "class": "official",
+        "source": "oneplus",
+        "url": "https://www.oneplus.com/global/13/specs",
+        "checked": "2026-09-23",
+        "note": "Read from OnePlus's specification page."
+      },
+      "specs.camera.rear": {
+        "class": "official",
+        "source": "oneplus",
+        "url": "https://www.oneplus.com/global/13/specs",
+        "checked": "2026-09-23",
+        "note": "Read from OnePlus's specification page."
+      },
+      "specs.camera.rear.main.sensor": {
+        "class": "official",
+        "source": "oneplus",
+        "url": "https://www.oneplus.com/global/13/specs",
+        "checked": "2026-09-23",
+        "note": "Main camera sensor size (1/1.4\") from OnePlus's specification page."
+      },
+      "specs.camera.video": {
+        "class": "official",
+        "source": "oneplus",
+        "url": "https://www.oneplus.com/global/13/specs",
+        "checked": "2026-09-23",
+        "note": "Read from OnePlus's specification page."
+      },
+      "specs.connectivity.wifi": {
+        "class": "official",
+        "source": "oneplus",
+        "url": "https://www.oneplus.com/global/13/specs",
+        "checked": "2026-09-23",
+        "note": "Read from OnePlus's specification page."
+      },
+      "specs.connectivity.bluetooth": {
+        "class": "official",
+        "source": "oneplus",
+        "url": "https://www.oneplus.com/global/13/specs",
+        "checked": "2026-09-23",
+        "note": "Read from OnePlus's specification page."
+      }
+    }
   },
   "dataStatus": "compiled"
 }

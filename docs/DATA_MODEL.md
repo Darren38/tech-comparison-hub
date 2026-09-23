@@ -225,7 +225,11 @@ Device prices stay in the currency they were announced in (`prices[]` above). `d
 
 ## Live feeds (Version 5)
 
-`data/meta/live-feeds.json` lists the feeds for the Latest headlines panel:
+`data/meta/live-feeds.json` lists the feeds for the Latest headlines panel, and since Version 12 the optional `relay` address (the Cloudflare Worker in `relay/`; empty means no live collection on a static host). `tools/fetch_headlines.py` also writes `live/config.json`: the feed list, `relay`, the topic and review patterns and the device match keys, which the browser uses to collect through the relay with the same rules.
+
+The main camera's sensor size may carry its own provenance, `provenance.fields["specs.camera.rear.main.sensor"]` (Version 12), when it comes from a different source than the rest of the camera list (for example DXOMARK's camera test where the maker states none); the camera score then credits that source.
+
+Feeds:
 
 ```jsonc
 {

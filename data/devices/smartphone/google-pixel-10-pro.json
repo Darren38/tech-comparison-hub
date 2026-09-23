@@ -58,7 +58,8 @@
       "resolution": "2856 × 1280",
       "ppi": 495,
       "refresh_hz": 120,
-      "peak_nits": 3300
+      "peak_nits": 3300,
+      "protection": "Corning Gorilla Glass Victus 2"
     },
     "platform": {
       "chipset": "google-tensor-g5"
@@ -100,7 +101,8 @@
         }
       ],
       "zoom_optical_x": 5,
-      "front": "42 MP"
+      "front": "42 MP",
+      "video": "8K @ 30 fps (Video Boost); 4K @ up to 60 fps (10-bit HDR)"
     },
     "build": {
       "dimensions": {
@@ -114,7 +116,9 @@
     "connectivity": {
       "cellular": "5G",
       "nfc": true,
-      "uwb": true
+      "uwb": true,
+      "wifi": "Wi-Fi 7",
+      "bluetooth": "Bluetooth 6"
     },
     "software": {
       "launch_os": "Android 16",
@@ -129,7 +133,36 @@
       "url": "https://store.google.com",
       "note": "Compiled from Google's specifications; not re-checked this session."
     },
-    "fields": {}
+    "fields": {
+      "specs.display.protection": {
+        "class": "official",
+        "source": "google",
+        "url": "https://store.google.com/us/product/pixel_10_pro_specs?hl=en-US",
+        "checked": "2026-09-23",
+        "note": "Read from the Google Store specification page."
+      },
+      "specs.camera.video": {
+        "class": "official",
+        "source": "google",
+        "url": "https://store.google.com/us/product/pixel_10_pro_specs?hl=en-US",
+        "checked": "2026-09-23",
+        "note": "Read from the Google Store specification page."
+      },
+      "specs.connectivity.wifi": {
+        "class": "official",
+        "source": "google",
+        "url": "https://store.google.com/us/product/pixel_10_pro_specs?hl=en-US",
+        "checked": "2026-09-23",
+        "note": "Read from the Google Store specification page."
+      },
+      "specs.connectivity.bluetooth": {
+        "class": "official",
+        "source": "google",
+        "url": "https://store.google.com/us/product/pixel_10_pro_specs?hl=en-US",
+        "checked": "2026-09-23",
+        "note": "Read from the Google Store specification page."
+      }
+    }
   },
   "dataStatus": "compiled"
 }

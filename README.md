@@ -20,7 +20,7 @@
 - **Fair comparisons** of up to 4 devices: key differences, category verdicts based only on evidence all of them share, your own weighting, same-test results and a full source list.
 - **Prices in Malaysian ringgit**: verified Malaysian launch prices for 393 devices (US dollar, euro and four other currencies available). Converted prices are marked **≈** and never used to score value.
 - **Ask the hub**: a built-in assistant that answers from the site's data ("Is it worth buying?", "Does it have NFC?", "Galaxy S26 or iPhone 18 Pro?"). Optionally, an **AI model runs in your own browser** (Qwen3.5 4B or 2B, or the browser's built-in AI): it reads questions in your own words or language, the site's code looks up the answer, and every sentence is checked against the data before it is shown. No question is sent to any AI service.
-- **Latest headlines** from 19 publications and **exchange rates** from Bank Negara Malaysia, refreshed automatically.
+- **Latest headlines** from 19 publications, collected live when you press Refresh, and **exchange rates** from Bank Negara Malaysia, refreshed automatically. Ask the hub answers news questions too ("any news about the Galaxy S26?"), including phones not in the database yet.
 
 ## How current is it?
 
@@ -28,7 +28,7 @@
 |---|---|
 | Specs, test results, launch prices, reviewer findings | Checked by hand. **Data as of 23 September 2026**, covering devices announced January 2023 – September 2026 |
 | Exchange rates | Automatically, every 3 hours, and again in your browser if the saved rates are not from today |
-| Latest headlines | Automatically, every 3 hours |
+| Latest headlines | Every 3 hours, and on the spot when you press Refresh |
 | The site itself | Every visit checks for newer files, so an update shows on the next refresh |
 
 ## Run it locally
@@ -39,7 +39,7 @@ Needs Python 3.9 or newer, and nothing else.
 python serve.py --open
 ```
 
-On Windows you can double-click `start.bat` instead. Running locally, the **Refresh** button on the News and Reviews pages collects headlines on the spot. The optional AI answers need a recent Chrome or Edge with WebGPU.
+On Windows you can double-click `start.bat` instead. The **Refresh** button on the News and Reviews pages collects headlines on the spot: locally through the server, and on the published site through a small relay (see [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md)). The optional AI answers need a recent Chrome or Edge with WebGPU.
 
 ## Contributing
 

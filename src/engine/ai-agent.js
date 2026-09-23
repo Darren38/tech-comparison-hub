@@ -297,10 +297,13 @@ function queriesFor(plan, names) {
     }
     case 'verdict':
       return names.length ? [`is ${names[0]}${a0 && !use ? ` ${ATTR_WORD[a0]}` : ''} good${use ? ` for ${use}` : ''}`] : [];
-    // reviews and news: the site's verdict as the anchor; the findings and headlines come with the facts
+    // reviews: the site's verdict as the anchor; the findings come with the facts
     case 'reviews':
-    case 'news':
       return names.length ? [`is ${names[0]} good`] : [];
+    // news: the latest headlines, collected live where the site can (Version 12); a device the site doesn't
+    // list yet is found by name in the headline titles
+    case 'news':
+      return names.length ? [`latest news about ${names[0]}`] : [`news ${plan.question_en || ''}`.trim()];
     case 'differences':
       // the comparison table without "which is better"; every difference comes with the facts
       return names.length >= 2 ? [`${names.join(' vs ')}${attrWords ? ` ${attrWords}` : ''}`] : [];
@@ -526,7 +529,7 @@ const TASK = {
   differences: 'List the main differences (up to six) from DIFFERENCES, giving each device\'s figure, most important first (price, size and weight, display, cameras, battery and charging, performance). Add one sentence on what stays the same if it helps. A field under RECORDED FOR ONLY ONE is a gap in the site\'s record, not a difference: mention it only as "not recorded for …".',
   compare: 'Say which comes out ahead according to SITE ANSWER (or that it is too close to call) and why, using the two or three DIFFERENCES that matter most for the question.',
   reviews: 'Summarise what REVIEWS AND TESTS say, naming the publisher of each point. If none are recorded, say so and give the site\'s own verdict instead.',
-  news: 'Summarise the LATEST HEADLINES and news findings, saying they are headlines collected from news sites and not checked by this site.',
+  news: 'Summarise the headlines in the SITE ANSWER and LATEST HEADLINES, naming the publisher of each and saying they are headlines collected from news sites and not checked by this site. Do not add details that are not in a headline.',
   device_info: 'Answer from SPECIFICATIONS, giving the figures asked about.',
   verdict: 'Explain the site\'s verdict using SCORES, strengths and weak areas, and REVIEWS AND TESTS if there are any.',
   default: 'Pick the figures that matter most for the question, use ACROSS THE DATABASE to say whether they are high, typical or low, and BACKGROUND to explain what they mean in everyday use.',

@@ -74,7 +74,8 @@
         {
           "role": "main",
           "mp": 50,
-          "note": "Light Fusion 950L"
+          "note": "Light Fusion 950L",
+          "sensor": "1/1.28\""
         },
         {
           "role": "ultrawide",
@@ -99,7 +100,15 @@
       "url": "https://www.mi.com",
       "note": "Compiled from launch coverage (TechRadar, GSMArena); China-market model."
     },
-    "fields": {}
+    "fields": {
+      "specs.camera.rear.main.sensor": {
+        "class": "reviewer",
+        "source": "dxomark",
+        "url": "https://www.dxomark.com/xiaomi-17-pro-max-camera-test/",
+        "checked": "2026-09-23",
+        "note": "Main camera sensor size from DXOMARK's camera test; the maker does not state it."
+      }
+    }
   },
   "dataStatus": "compiled"
 }

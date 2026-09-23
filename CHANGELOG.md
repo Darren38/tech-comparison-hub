@@ -1,6 +1,24 @@
 # Changelog
 
-## 23 September 2026
+## 23 September 2026 (second update)
+
+Headlines collected live when you press Refresh, news answers in Ask the hub, and flagship records filled in from the makers' own material.
+
+**Live Refresh on the published site**
+- A small relay (`relay/worker.js`, a free Cloudflare Worker the site owner sets up once; steps in `relay/README.md`) lets the browser read the publishers' feeds, which browsers otherwise may not. With it, Refresh on the News and Reviews pages collects the headlines on the spot instead of re-reading the collection saved every few hours, and a saved collection older than 20 minutes is replaced by a live one when the page opens.
+- The relay fetches only the feed addresses the site itself publishes in `live/config.json`, answers only the site (and `localhost` for testing), passes the feed back unchanged and keeps each feed for two minutes, so it cannot be used to reach any other address and does not multiply requests to publishers.
+- The browser applies the same rules as the Python collector (`src/engine/collect.js`, reading the feed list, topic and review patterns and device names from `live/config.json`), so a headline is kept and tagged the same way whoever collects it; a test collection matched the Python one headline for headline. If the relay cannot be reached, the page says so and keeps the newest collection it has. Until a relay address is set, the site behaves exactly as before.
+
+**News in Ask the hub**
+- "Any news about the Galaxy S26?", "Red Magic 12 Pro+ rumours", "when will the Galaxy S27 Ultra launch?", "latest tech news": the assistant lists the matching headlines with their publisher and age, collected live where the site can, and says when they were collected and that they are not checked by the site. Phones the site doesn't list yet are found by name in the headline titles, and a model is never mistaken for a similar one it does list (the Galaxy S27 Ultra is not the POCO F7 Ultra). With AI answers on, the model summarises the same headlines.
+
+**Flagship records**
+- The 63 phones in a flagship line were filled in from the makers' own material: Samsung's launch press releases (specification tables and footnotes), Apple's specification pages, Xiaomi's, POCO's, iQOO's, OnePlus's and Google's specification pages, using Internet Archive copies where a maker has removed its page or refuses automated reading. Missing values fell from 446 to 158 and complete records rose from 2 to 13; wired charging, launch OS, full camera lists, IP ratings, glass and update promises are now recorded for nearly all of them.
+- Where a maker states no figure, a named secondary source is used and labelled: iPhone battery capacities and RAM from regulatory filings, Apple's EU energy labels and Xcode files as reported by MacRumors (News), main-camera sensor sizes from DXOMARK's camera tests (Reviewer), and a few update promises and specifications from Android Authority's list of update policies and SoyaCincau's Malaysian launch reports (News). A zoom factor that a maker gives only as focal lengths (Xiaomi: "75 mm" beside a "23 mm" main camera) is calculated and marked as the platform's calculation. A promise stated only for another market (iQOO's for India) is not used for Malaysia.
+- Corrections found along the way: the Galaxy S24 Ultra's optical zoom was recorded as 3x (its periscope is 5x); the iPhone 17 Pro Max battery as 4,832 mAh (Apple's EU label gives 4,823 mAh for the nano-SIM model sold in Malaysia); the iPhone Air's wired charging as 60 W (Apple names a 20 W adapter); and the iPhone Air and iPhone Duo listed a "12 MP telephoto" that is a crop of the main camera, now removed as for other iPhones. For the Galaxy Z Fold8, Samsung's model page says 2,600 nits while the launch release gives "up to 3,000 nits" for the new Z series as a whole, so the model's own figure stays.
+- Not found from any source that could be used: sensor sizes for iPhones and several Galaxy models, update promises for iQOO, some 2026 Galaxy models and several Xiaomi and POCO models, and the POCO F9 Pro and F9 Ultra pages (too new for an archive copy; Xiaomi's site refuses automated reading). GSMArena was not used: its robots.txt disallows Claude's crawlers.
+
+## 23 September 2026 (first update)
 
 Rankings that a gap in the record can no longer flatter, and device names that are no longer cut short.
 

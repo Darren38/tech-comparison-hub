@@ -51,7 +51,9 @@
       "type": "Dynamic AMOLED 2X",
       "resolution": "2184 × 1968",
       "refresh_hz": 120,
-      "ppi": 367
+      "ppi": 367,
+      "peak_nits": 2600,
+      "protection": "Corning Gorilla Glass Ceramic 2 (front), Gorilla Glass Victus 2 (back)"
     },
     "memory": {
       "ram_gb": [
@@ -74,6 +76,18 @@
           "mp": 200,
           "aperture": "f/1.7",
           "ois": true
+        },
+        {
+          "role": "ultrawide",
+          "mp": 12,
+          "aperture": "f/2.2"
+        },
+        {
+          "role": "telephoto",
+          "mp": 10,
+          "aperture": "f/2.4",
+          "ois": true,
+          "zoom_x": 3
         }
       ],
       "rear_text": "Rear: 200.0 MP + 12.0 MP + 10.0 MP",
@@ -112,7 +126,8 @@
         "width_mm": 143.2,
         "depth_mm": 4.2
       },
-      "weight_g": 215.0
+      "weight_g": 215.0,
+      "ip": "IP48"
     },
     "platform": {
       "chipset": "snapdragon-8-elite",
@@ -125,7 +140,13 @@
     "sensors": "Accelerometer, Barometer, Fingerprint Sensor, Gyro Sensor, Geomagnetic Sensor, Hall Sensor, Light Sensor, Proximity Sensor",
     "software": {
       "security_updates_years": 7,
-      "security_until": "2032-07-31"
+      "security_until": "2032-07-31",
+      "launch_os": "Android 16 (One UI 8)",
+      "os_updates_years": 7
+    },
+    "charging": {
+      "wired_w": 25,
+      "wireless_w": 15
     }
   },
   "provenance": {
@@ -169,6 +190,62 @@
         "class": "platform",
         "source": "platform",
         "note": "Calculated from resolution and screen size."
+      },
+      "specs.camera.rear": {
+        "class": "official",
+        "source": "samsung",
+        "url": "https://news.samsung.com/global/samsung-galaxy-z-fold7-raising-the-bar-for-smartphones",
+        "checked": "2026-09-23",
+        "note": "Read from Samsung's launch press release (specification table and footnotes)."
+      },
+      "specs.display.peak_nits": {
+        "class": "official",
+        "source": "samsung",
+        "url": "https://news.samsung.com/global/samsung-galaxy-z-fold7-raising-the-bar-for-smartphones",
+        "checked": "2026-09-23",
+        "note": "Read from Samsung's launch press release (specification table and footnotes)."
+      },
+      "specs.display.protection": {
+        "class": "official",
+        "source": "samsung",
+        "url": "https://news.samsung.com/global/samsung-galaxy-z-fold7-raising-the-bar-for-smartphones",
+        "checked": "2026-09-23",
+        "note": "Read from Samsung's launch press release (specification table and footnotes)."
+      },
+      "specs.software.launch_os": {
+        "class": "official",
+        "source": "samsung",
+        "url": "https://news.samsung.com/global/samsung-galaxy-z-fold7-raising-the-bar-for-smartphones",
+        "checked": "2026-09-23",
+        "note": "Read from Samsung's launch press release (specification table and footnotes)."
+      },
+      "specs.charging.wired_w": {
+        "class": "official",
+        "source": "samsung",
+        "url": "https://news.samsung.com/global/samsung-galaxy-z-fold7-raising-the-bar-for-smartphones",
+        "checked": "2026-09-23",
+        "note": "Read from Samsung's launch press release (specification table and footnotes)."
+      },
+      "specs.charging.wireless_w": {
+        "class": "estimated",
+        "source": "samsung",
+        "url": "https://news.samsung.com/global/samsung-galaxy-z-fold7-raising-the-bar-for-smartphones",
+        "checked": "2026-09-23",
+        "note": "Samsung lists \"Fast Wireless Charging 2.0\", which Samsung rates at up to 15 W; the release gives no wattage."
+      },
+      "specs.build.ip": {
+        "class": "official",
+        "source": "samsung",
+        "url": "https://news.samsung.com/global/samsung-galaxy-z-fold7-raising-the-bar-for-smartphones",
+        "checked": "2026-09-23",
+        "note": "Read from Samsung's launch press release (specification table and footnotes)."
+      },
+      "specs.software.os_updates_years": {
+        "class": "news",
+        "source": "androidauthority",
+        "url": "https://www.androidauthority.com/phone-update-policies-1658633/",
+        "checked": "2026-09-23",
+        "note": "Read from Android Authority's list of phone update policies (updated 13 November 2025)."
       }
     }
   },

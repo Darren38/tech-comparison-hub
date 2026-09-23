@@ -39,7 +39,8 @@
       "type": "AMOLED",
       "resolution": "3168 × 1440",
       "refresh_hz": 144,
-      "ppi": 510
+      "ppi": 510,
+      "peak_nits": 4500
     },
     "platform": {
       "chipset": "snapdragon-8-elite",
@@ -102,7 +103,12 @@
     "build": {
       "weight_g": 213.0,
       "ip": "IP69",
-      "back": "Glass (Legend), fiberglass (Alpha)"
+      "back": "Glass (Legend), fiberglass (Alpha)",
+      "dimensions": {
+        "height_mm": 163.37,
+        "width_mm": 76.71,
+        "depth_mm": 8.13
+      }
     },
     "software": {
       "launch_os": "Funtouch OS 15"
@@ -132,6 +138,20 @@
         "class": "platform",
         "source": "platform",
         "note": "Calculated from resolution and screen size."
+      },
+      "specs.display.peak_nits": {
+        "class": "official",
+        "source": "iqoo",
+        "url": "https://www.iqoo.com/my/products/param/iqoo-13",
+        "checked": "2026-09-23",
+        "note": "Read from iQOO Malaysia's specification page."
+      },
+      "specs.build.dimensions": {
+        "class": "official",
+        "source": "iqoo",
+        "url": "https://www.iqoo.com/my/products/param/iqoo-13",
+        "checked": "2026-09-23",
+        "note": "Read from iQOO Malaysia's specification page (Legend edition; the Alpha edition is 7.99 mm thick)."
       }
     }
   },

@@ -64,7 +64,8 @@
       "type": "AMOLED (full screen, under-display camera)",
       "resolution": "2688 × 1216",
       "ppi": 431,
-      "refresh_hz": 144
+      "refresh_hz": 144,
+      "peak_nits": 1800
     },
     "platform": {
       "chipset": "snapdragon-8-elite-gen-5",
@@ -126,7 +127,15 @@
       "checked": "2026-09-15",
       "note": "Cross-checked against REDMAGIC's global spec page listing and GSMArena's global launch report."
     },
-    "fields": {}
+    "fields": {
+      "specs.display.peak_nits": {
+        "class": "official",
+        "source": "redmagic",
+        "url": "https://my.redmagic.gg/pages/redmagic-11-pro/",
+        "checked": "2026-09-23",
+        "note": "Read from REDMAGIC Malaysia's product page."
+      }
+    }
   },
   "dataStatus": "checked",
   "image": {

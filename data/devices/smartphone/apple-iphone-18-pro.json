@@ -36,7 +36,8 @@
       "resolution": "2622 × 1206",
       "refresh_hz": 120,
       "peak_nits": 3000,
-      "ppi": 458
+      "ppi": 458,
+      "protection": "Ceramic Shield 2"
     },
     "platform": {
       "chipset": "apple-a20-pro",
@@ -47,6 +48,9 @@
       "storage_gb": [
         256,
         512
+      ],
+      "ram_gb": [
+        12
       ]
     },
     "charging": {
@@ -89,7 +93,8 @@
     },
     "battery": {
       "video_h": 34,
-      "chemistry": "Built-in rechargeable lithium-ion battery"
+      "chemistry": "Built-in rechargeable lithium-ion battery",
+      "capacity_mah": 4056
     },
     "connectivity": {
       "cellular": "5G",
@@ -107,10 +112,18 @@
     },
     "build": {
       "weight_g": 211.0,
-      "ip": "IP68"
+      "ip": "IP68",
+      "dimensions": {
+        "height_mm": 150.0,
+        "width_mm": 71.9,
+        "depth_mm": 8.75
+      }
     },
     "software": {
-      "launch_os": "iOS 27"
+      "launch_os": "iOS 27",
+      "os_updates_years": 6,
+      "security_updates_years": 7,
+      "policy_note": "Apple publishes no fixed upgrade commitment. Recent iPhones have received about six years of major iOS releases plus further security fixes, so the figures here are platform estimates."
     },
     "sensors": "Face ID, LiDAR scanner, Barometer, High dynamic range gyro, High-g accelerometer, Proximity sensor, Dual ambient light sensors",
     "audio": {
@@ -165,6 +178,46 @@
         "url": "https://support.apple.com/en-my/148590",
         "checked": "2026-09-22",
         "note": "Corrected on 22 September 2026 after re-reading Apple Malaysia's specification page: three 48 MP rear cameras (the 12 MP \"2x\" and \"8x\" telephotos are crops of the main and telephoto cameras, not cameras), Bluetooth 6, and the fast-charge wording without its footnote number."
+      },
+      "specs.display.protection": {
+        "class": "official",
+        "source": "apple",
+        "url": "https://support.apple.com/en-my/148590",
+        "checked": "2026-09-23",
+        "note": "Read from Apple's specification page."
+      },
+      "specs.memory.ram_gb": {
+        "class": "news",
+        "source": "macrumors",
+        "url": "https://www.macrumors.com/2026/09/10/iphone-18-pro-max-battery-capacities-ram/",
+        "checked": "2026-09-23",
+        "note": "Apple does not list RAM; MacRumors found it in Apple's Xcode developer tool."
+      },
+      "specs.battery.capacity_mah": {
+        "class": "news",
+        "source": "macrumors",
+        "url": "https://www.macrumors.com/2026/09/10/iphone-18-pro-max-battery-capacities-ram/",
+        "checked": "2026-09-23",
+        "note": "Apple states capacity only on its EU energy labels; figure for the model with a nano-SIM tray (as sold in Malaysia), as reported by MacRumors."
+      },
+      "specs.build.dimensions": {
+        "class": "official",
+        "source": "apple",
+        "url": "https://support.apple.com/en-my/148590",
+        "checked": "2026-09-23",
+        "note": "Read from Apple's specification page."
+      },
+      "specs.software.os_updates_years": {
+        "class": "estimated",
+        "source": "platform",
+        "checked": "2026-09-23",
+        "note": "Apple publishes no fixed upgrade commitment; estimate from the support recent iPhones have received."
+      },
+      "specs.software.security_updates_years": {
+        "class": "estimated",
+        "source": "platform",
+        "checked": "2026-09-23",
+        "note": "Apple publishes no fixed upgrade commitment; estimate from the support recent iPhones have received."
       }
     }
   },

@@ -6,7 +6,7 @@ import { fmtDate, fmtDateTime, plural, timeAgo } from '../lib/format.js';
 import { store, sourceName } from '../core/store.js';
 import { href } from '../core/router.js';
 import { docCard, emptyState, provBadge, sourceLink, extLink, tag, sectionHead, icon, pageTrail, cardThumb, thumbLink } from '../ui/components.js';
-import { loadHeadlines, refreshHeadlines, isSafeUrl } from '../engine/live.js';
+import { loadHeadlines, refreshHeadlines, canCollectLive, isSafeUrl } from '../engine/live.js';
 
 const MODES = {
   news: {
@@ -122,6 +122,8 @@ function liveItem(item, isNew) {
   </li>`;
 }
 
+const AUTO_COLLECT_AFTER_MS = 20 * 60 * 1000;
+
 function bindLive(root, mode) {
   const panel = root.querySelector('[data-live]');
   if (!panel) return () => {};
@@ -187,7 +189,8 @@ function bindLive(root, mode) {
       const fresh = relevant(data).filter((i) => !before.has(i.id));
       newIds = hadData ? new Set(fresh.map((i) => i.id)) : new Set();
       const count = fresh.length ? `${plural(fresh.length, 'new item')}, marked New.` : 'Nothing new since the last check.';
-      if (res.error) note = { tone: 'bad', text: `Collection failed (${res.error}); showing the saved collection.` };
+      if (res.error) note = { tone: 'bad', text: `Collection failed (${res.error}); showing the ${res.data?.live ? 'last collection' : 'saved collection'}.` };
+      else if (res.live) note = { tone: 'good', text: `Collected just now from the publishers' feeds. ${hadData ? count : ''}` };
       else if (res.collectedNow) note = { tone: 'good', text: `Collected just now. ${hadData ? count : ''}` };
       else if (res.server) note = { tone: 'info', text: `Already collected under a minute ago. ${hadData ? count : ''}` };
       else note = { tone: 'info', text: `This copy of the site collects new headlines every few hours. ${hadData ? count : ''}` };
@@ -222,11 +225,14 @@ function bindLive(root, mode) {
     .catch((error) => {
       if (alive) note = { tone: 'bad', text: `Latest headlines could not be loaded (${error.message}). Try Refresh.` };
     })
-    .finally(() => {
+    .finally(async () => {
       if (!alive) return;
       setBusy(false);
       renderStatus();
       renderList();
+      // Where a relay is set up (Version 12), a collection older than 20 minutes is replaced by a live one straight away.
+      const age = data?.fetchedAt ? Date.now() - new Date(data.fetchedAt).getTime() : Infinity;
+      if (alive && !data?.live && age > AUTO_COLLECT_AFTER_MS && (await canCollectLive())) refresh();
     });
   // Keep "collected 5 min ago" and each item's age current while the page stays open.
   const timer = setInterval(() => {

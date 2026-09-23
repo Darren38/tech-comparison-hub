@@ -122,7 +122,8 @@
       "wifi": "Wi-Fi 7",
       "nfc": true,
       "uwb": true,
-      "satellite": true
+      "satellite": true,
+      "bluetooth": "Bluetooth 6"
     },
     "biometrics": {
       "fingerprint": "Ultrasonic, under display",
@@ -141,7 +142,15 @@
       "url": "https://store.google.com",
       "note": "Compiled from Google's specifications; charging and display cross-checked against GSMArena's review."
     },
-    "fields": {}
+    "fields": {
+      "specs.connectivity.bluetooth": {
+        "class": "official",
+        "source": "google",
+        "url": "https://store.google.com/us/product/pixel_10_pro_specs?hl=en-US",
+        "checked": "2026-09-23",
+        "note": "Read from the Google Store specification page."
+      }
+    }
   },
   "dataStatus": "compiled"
 }

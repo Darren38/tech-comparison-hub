@@ -76,7 +76,9 @@
       "expandable": false
     },
     "battery": {
-      "video_h": 33
+      "video_h": 33,
+      "capacity_mah": 3988,
+      "variants": "eSIM-only models: 4,252 mAh (Apple EU energy label, reported by MacRumors)"
     },
     "charging": {
       "wired_w": 40,
@@ -106,7 +108,8 @@
         }
       ],
       "zoom_optical_x": 4,
-      "front": "18 MP Center Stage, f/1.9"
+      "front": "18 MP Center Stage, f/1.9",
+      "video": "4K Dolby Vision @ up to 120 fps; ProRes up to 4K @ 120 fps (external recording); ProRes RAW; Apple Log 2"
     },
     "build": {
       "dimensions": {
@@ -163,6 +166,27 @@
         "class": "estimated",
         "source": "apple",
         "note": "Apple publishes no fixed upgrade commitment. Recent iPhones have received about six years of major iOS releases plus further security fixes, so the figures here are platform estimates."
+      },
+      "specs.camera.video": {
+        "class": "official",
+        "source": "apple",
+        "url": "https://support.apple.com/en-my/125090",
+        "checked": "2026-09-23",
+        "note": "Read from Apple's specification page."
+      },
+      "specs.battery.capacity_mah": {
+        "class": "news",
+        "source": "macrumors",
+        "url": "https://www.macrumors.com/2026/09/10/iphone-18-pro-max-battery-capacities-ram/",
+        "checked": "2026-09-23",
+        "note": "Apple states capacity only on its EU energy labels; figure for the model with a nano-SIM tray (as sold in Malaysia), as reported by MacRumors."
+      },
+      "specs.battery.variants": {
+        "class": "news",
+        "source": "macrumors",
+        "url": "https://www.macrumors.com/2025/09/10/iphone-17-pro-iphone-air-specs-battery-ram/",
+        "checked": "2026-09-23",
+        "note": "eSIM-only models are not sold in Malaysia."
       }
     }
   },

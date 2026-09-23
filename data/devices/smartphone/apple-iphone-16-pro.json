@@ -84,10 +84,13 @@
         128,
         256,
         512
+      ],
+      "ram_gb": [
+        8
       ]
     },
     "charging": {
-      "wired_w": 30,
+      "wired_w": 20,
       "wireless_w": 25,
       "claim": "MagSafe wireless charging up to 25W with 30W adapter or higher; Qi wireless charging up to 7.5W; Fast-charge capable: Up to 50% charge in around 30 minutes with 20W adapter or high"
     },
@@ -132,7 +135,8 @@
     },
     "battery": {
       "video_h": 27,
-      "chemistry": "Built-in rechargeable lithium-ion battery"
+      "chemistry": "Built-in rechargeable lithium-ion battery",
+      "capacity_mah": 3582
     },
     "connectivity": {
       "cellular": "5G",
@@ -246,6 +250,27 @@
         "source": "platform",
         "checked": "2026-09-23",
         "note": "Apple publishes no fixed upgrade commitment. Recent iPhones have received about six years of major iOS releases plus further security fixes, so the figures here are platform estimates."
+      },
+      "specs.memory.ram_gb": {
+        "class": "news",
+        "source": "macrumors",
+        "url": "https://www.macrumors.com/2025/09/10/iphone-17-pro-iphone-air-specs-battery-ram/",
+        "checked": "2026-09-23",
+        "note": "Apple does not list RAM; MacRumors reports that the iPhone 16 models had 8 GB (from Apple's Xcode developer tool)."
+      },
+      "specs.battery.capacity_mah": {
+        "class": "news",
+        "source": "macrumors",
+        "url": "https://www.macrumors.com/2024/09/19/iphone-16-battery-capacities-revealed/",
+        "checked": "2026-09-23",
+        "note": "Apple does not publish capacity; figure from regulatory filings with Brazil's Anatel, as reported by MacRumors."
+      },
+      "specs.charging.wired_w": {
+        "class": "estimated",
+        "source": "apple",
+        "url": "https://support.apple.com/en-my/121031",
+        "checked": "2026-09-23",
+        "note": "Apple gives a time-based claim and an adapter rating, not the phone's maximum input. The adapter rating is used as an estimate."
       }
     }
   },

@@ -235,7 +235,11 @@ def validate(ds: Dataset) -> None:
         for path, fprov in (prov.get("fields") or {}).items():
             check_source(ds, f"{where} provenance '{path}'", fprov.get("source"))
             check_class(ds, f"{where} provenance '{path}'", fprov.get("class"))
-            if path.startswith("specs.") and get_path(dev, path) is None:
+            if path == "specs.camera.rear.main.sensor":  # Version 12: the main camera's sensor size, sourced on its own
+                main = next((c for c in get_path(dev, "specs.camera.rear") or [] if c.get("role") == "main"), {})
+                if not main.get("sensor"):
+                    r.warn(f"{where}: provenance override '{path}' points at a field with no value")
+            elif path.startswith("specs.") and get_path(dev, path) is None:
                 r.warn(f"{where}: provenance override '{path}' points at a field with no value")
         for p in dev.get("prices", []):
             check_source(ds, f"{where} price", p.get("source"))
@@ -427,7 +431,9 @@ def derive_spec_records(ds: Dataset) -> list[dict]:
             path = "specs." + derive["path"]
             raw = get_path(dev, path)
             value = TRANSFORMS[derive["transform"]](raw) if derive.get("transform") else raw
-            prov = field_provenance(dev, path)
+            # the main camera's sensor size can come from a different source than the rest of the camera list
+            # (Version 12: "specs.camera.rear.main.sensor", e.g. DXOMARK where the maker states none)
+            prov = field_provenance(dev, path + ".main.sensor" if derive.get("transform") == "main_sensor" else path)
             cls = prov.get("class", "official")
             note = prov.get("note")
             if derive.get("transform"):

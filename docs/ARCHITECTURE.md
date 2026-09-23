@@ -40,6 +40,8 @@
 │   └── lib/                 html templating, formatting
 ├── data/                    source of truth (see DATA_MODEL.md), plus data/schema/ JSON Schemas
 ├── live/headlines.json      latest headlines (written by tools/fetch_headlines.py)
+├── live/config.json         feeds, match rules and relay address for collecting in the browser (Version 12)
+├── relay/worker.js          Cloudflare Worker: fetches listed feeds for the browser (Version 12; see relay/README.md)
 ├── tools/build.py           validate → aggregate → compile (+ --report for evidence coverage)
 ├── tools/update_rates.py    Bank Negara Malaysia rates → data/meta/currencies.json
 ├── tools/fetch_headlines.py registered RSS/YouTube feeds → live/headlines.json
@@ -135,7 +137,8 @@ rates      start-up: tools/update_rates.py ─┐                 build: tools/u
 headlines  start-up + POST api/live/headlines (≤ 1/min) ─┐    build: tools/fetch_headlines.py ─┐
                                                           ├─ live/headlines.json ◄──────────────┘
            browser: engine/live.js refreshHeadlines() — POST the endpoint; if there is no JSON answer (static host),
-                    re-read live/headlines.json
+                    collect through the relay named in live/config.json (engine/collect.js, Version 12);
+                    otherwise re-read live/headlines.json
 ```
 
 - Bank Negara Malaysia's API does not allow browser requests (no CORS), so it is read at build time. ExchangeRate-API does allow them, so it is the browser's fallback.

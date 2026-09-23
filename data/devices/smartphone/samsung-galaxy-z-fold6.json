@@ -51,7 +51,9 @@
       "type": "Dynamic AMOLED 2X",
       "resolution": "2160 × 1856",
       "refresh_hz": 120,
-      "ppi": 375
+      "ppi": 375,
+      "peak_nits": 2600,
+      "protection": "Corning Gorilla Glass Victus 2 (front and back)"
     },
     "memory": {
       "ram_gb": [
@@ -73,6 +75,18 @@
           "mp": 50,
           "aperture": "f/1.8",
           "ois": true
+        },
+        {
+          "role": "ultrawide",
+          "mp": 12,
+          "aperture": "f/2.2"
+        },
+        {
+          "role": "telephoto",
+          "mp": 10,
+          "aperture": "f/2.4",
+          "ois": true,
+          "zoom_x": 3
         }
       ],
       "rear_text": "Rear: 50.0 MP + 12.0 MP + 10.0 MP",
@@ -86,7 +100,8 @@
         "10 MP (cover screen)"
       ],
       "video": "UHD 8K (7680 x 4320)@30fps",
-      "zoom_optical_x": 3
+      "zoom_optical_x": 3,
+      "front": "10 MP (cover), 4 MP under-display (inner)"
     },
     "connectivity": {
       "cellular": "5G",
@@ -109,7 +124,8 @@
         "width_mm": 132.6,
         "depth_mm": 5.6
       },
-      "weight_g": 239.0
+      "weight_g": 239.0,
+      "ip": "IP48"
     },
     "platform": {
       "chipset": "snapdragon-8-gen-3",
@@ -119,7 +135,15 @@
       "speakers": "Stereo speakers",
       "jack": false
     },
-    "sensors": "Accelerometer, Barometer, Fingerprint Sensor, Gyro Sensor, Geomagnetic Sensor, Hall Sensor, Light Sensor, Proximity Sensor"
+    "sensors": "Accelerometer, Barometer, Fingerprint Sensor, Gyro Sensor, Geomagnetic Sensor, Hall Sensor, Light Sensor, Proximity Sensor",
+    "charging": {
+      "wired_w": 25,
+      "wireless_w": 15
+    },
+    "software": {
+      "os_updates_years": 7,
+      "security_updates_years": 7
+    }
   },
   "provenance": {
     "default": {
@@ -162,6 +186,69 @@
         "class": "platform",
         "source": "platform",
         "note": "Calculated from resolution and screen size."
+      },
+      "specs.camera.rear": {
+        "class": "official",
+        "source": "samsung",
+        "url": "https://news.samsung.com/global/samsung-galaxy-z-fold-6-and-z-flip-6-elevate-galaxy-ai-to-new-heights",
+        "checked": "2026-09-23",
+        "note": "Read from Samsung's launch press release (specification table and footnotes)."
+      },
+      "specs.camera.front": {
+        "class": "official",
+        "source": "samsung",
+        "url": "https://news.samsung.com/global/samsung-galaxy-z-fold-6-and-z-flip-6-elevate-galaxy-ai-to-new-heights",
+        "checked": "2026-09-23",
+        "note": "Read from Samsung's launch press release (specification table and footnotes)."
+      },
+      "specs.display.peak_nits": {
+        "class": "official",
+        "source": "samsung",
+        "url": "https://news.samsung.com/global/samsung-galaxy-z-fold-6-and-z-flip-6-elevate-galaxy-ai-to-new-heights",
+        "checked": "2026-09-23",
+        "note": "Read from Samsung's launch press release (specification table and footnotes)."
+      },
+      "specs.display.protection": {
+        "class": "official",
+        "source": "samsung",
+        "url": "https://news.samsung.com/global/samsung-galaxy-z-fold-6-and-z-flip-6-elevate-galaxy-ai-to-new-heights",
+        "checked": "2026-09-23",
+        "note": "Read from Samsung's launch press release (specification table and footnotes)."
+      },
+      "specs.charging.wired_w": {
+        "class": "official",
+        "source": "samsung",
+        "url": "https://news.samsung.com/global/samsung-galaxy-z-fold-6-and-z-flip-6-elevate-galaxy-ai-to-new-heights",
+        "checked": "2026-09-23",
+        "note": "Read from Samsung's launch press release (specification table and footnotes)."
+      },
+      "specs.charging.wireless_w": {
+        "class": "estimated",
+        "source": "samsung",
+        "url": "https://news.samsung.com/global/samsung-galaxy-z-fold-6-and-z-flip-6-elevate-galaxy-ai-to-new-heights",
+        "checked": "2026-09-23",
+        "note": "Samsung lists \"Fast Wireless Charging 2.0\", which Samsung rates at up to 15 W; the release gives no wattage."
+      },
+      "specs.build.ip": {
+        "class": "official",
+        "source": "samsung",
+        "url": "https://news.samsung.com/global/samsung-galaxy-z-fold-6-and-z-flip-6-elevate-galaxy-ai-to-new-heights",
+        "checked": "2026-09-23",
+        "note": "Read from Samsung's launch press release (specification table and footnotes)."
+      },
+      "specs.software.os_updates_years": {
+        "class": "official",
+        "source": "samsung",
+        "url": "https://news.samsung.com/global/samsung-galaxy-z-fold-6-and-z-flip-6-elevate-galaxy-ai-to-new-heights",
+        "checked": "2026-09-23",
+        "note": "Read from Samsung's launch press release (specification table and footnotes)."
+      },
+      "specs.software.security_updates_years": {
+        "class": "official",
+        "source": "samsung",
+        "url": "https://news.samsung.com/global/samsung-galaxy-z-fold-6-and-z-flip-6-elevate-galaxy-ai-to-new-heights",
+        "checked": "2026-09-23",
+        "note": "Read from Samsung's launch press release (specification table and footnotes)."
       }
     }
   },

@@ -40,7 +40,8 @@
       "resolution": "3200 × 1440",
       "peak_nits": 1900,
       "protection": "CorningGorillaGlass Victus",
-      "ppi": 521
+      "ppi": 521,
+      "refresh_hz": 120
     },
     "platform": {
       "chipset": "snapdragon-8-gen-2",
@@ -71,11 +72,22 @@
         {
           "role": "main",
           "mp": 50,
-          "sensor": "1\""
+          "aperture": "f/1.9",
+          "sensor": "1\"",
+          "ois": true
         },
         {
           "role": "telephoto",
-          "mp": 50
+          "mp": 50,
+          "aperture": "f/2.0",
+          "focal_mm": 75,
+          "ois": true
+        },
+        {
+          "role": "ultrawide",
+          "mp": 50,
+          "aperture": "f/2.2",
+          "focal_mm": 14
         }
       ],
       "front": "32 MP",
@@ -84,7 +96,8 @@
       ],
       "front_detail": [
         "32MP in-display selfie camera, f/2.0, 0.7μm pixel size, 1.4μm 4-in-1 Super Pixel, 89.6° FOV"
-      ]
+      ],
+      "video": "8K @ 24 fps; 4K @ up to 60 fps (Dolby Vision HDR)"
     },
     "connectivity": {
       "cellular": "5G",
@@ -109,7 +122,9 @@
       "ip": "IP68"
     },
     "software": {
-      "launch_os": "MIUI 14"
+      "launch_os": "MIUI 14",
+      "os_updates_years": 3,
+      "security_updates_years": 4
     },
     "audio": {
       "speakers": "Dual speakers"
@@ -141,6 +156,48 @@
         "class": "platform",
         "source": "platform",
         "note": "Calculated from resolution and screen size."
+      },
+      "specs.display.refresh_hz": {
+        "class": "official",
+        "source": "xiaomi",
+        "url": "https://web.archive.org/web/20250120102918/https://www.mi.com/global/product/xiaomi-13-pro/specs",
+        "checked": "2026-09-23",
+        "note": "Read from Xiaomi's specification page."
+      },
+      "specs.camera.rear": {
+        "class": "official",
+        "source": "xiaomi",
+        "url": "https://web.archive.org/web/20250120102918/https://www.mi.com/global/product/xiaomi-13-pro/specs",
+        "checked": "2026-09-23",
+        "note": "Read from Xiaomi's specification page."
+      },
+      "specs.camera.rear.main.sensor": {
+        "class": "official",
+        "source": "xiaomi",
+        "url": "https://web.archive.org/web/20250120102918/https://www.mi.com/global/product/xiaomi-13-pro/specs",
+        "checked": "2026-09-23",
+        "note": "Main camera sensor size (1\") from Xiaomi's specification page."
+      },
+      "specs.camera.video": {
+        "class": "official",
+        "source": "xiaomi",
+        "url": "https://web.archive.org/web/20250120102918/https://www.mi.com/global/product/xiaomi-13-pro/specs",
+        "checked": "2026-09-23",
+        "note": "Read from Xiaomi's specification page."
+      },
+      "specs.software.os_updates_years": {
+        "class": "news",
+        "source": "androidauthority",
+        "url": "https://www.androidauthority.com/phone-update-policies-1658633/",
+        "checked": "2026-09-23",
+        "note": "Read from Android Authority's list of phone update policies (updated 13 November 2025)."
+      },
+      "specs.software.security_updates_years": {
+        "class": "news",
+        "source": "androidauthority",
+        "url": "https://www.androidauthority.com/phone-update-policies-1658633/",
+        "checked": "2026-09-23",
+        "note": "Read from Android Authority's list of phone update policies (updated 13 November 2025)."
       }
     }
   },

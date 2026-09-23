@@ -40,7 +40,8 @@
       "resolution": "3200 × 1440",
       "ppi": 526,
       "refresh_hz": 120,
-      "peak_nits": 3200
+      "peak_nits": 3200,
+      "protection": "POCO Shield Glass"
     },
     "platform": {
       "chipset": "snapdragon-8-elite"
@@ -66,20 +67,28 @@
       "rear": [
         {
           "role": "main",
-          "mp": 50
+          "mp": 50,
+          "aperture": "f/1.6",
+          "sensor": "1/1.55\"",
+          "ois": true
         },
         {
           "role": "telephoto",
           "mp": 50,
+          "aperture": "f/2.0",
+          "focal_mm": 60,
+          "ois": true,
           "zoom_x": 2.5
         },
         {
           "role": "ultrawide",
-          "mp": 32
+          "mp": 32,
+          "aperture": "f/2.2"
         }
       ],
       "zoom_optical_x": 2.5,
-      "front": "32 MP"
+      "front": "32 MP",
+      "video": "8K @ 24 fps; 4K @ up to 60 fps"
     },
     "build": {
       "dimensions": {
@@ -92,7 +101,9 @@
     },
     "connectivity": {
       "cellular": "5G",
-      "nfc": true
+      "nfc": true,
+      "wifi": "Wi-Fi 7",
+      "bluetooth": "Bluetooth 6.0"
     },
     "software": {
       "launch_os": "Android 15, HyperOS 2",
@@ -107,7 +118,50 @@
       "url": "https://www.po.co/global",
       "note": "Compiled from POCO's launch specifications; not re-checked this session."
     },
-    "fields": {}
+    "fields": {
+      "specs.display.protection": {
+        "class": "official",
+        "source": "poco",
+        "url": "https://web.archive.org/web/20260510174849/https://www.mi.com/global/product/poco-f7-ultra/specs/",
+        "checked": "2026-09-23",
+        "note": "Read from POCO's specification page on mi.com."
+      },
+      "specs.camera.rear": {
+        "class": "official",
+        "source": "poco",
+        "url": "https://web.archive.org/web/20260510174849/https://www.mi.com/global/product/poco-f7-ultra/specs/",
+        "checked": "2026-09-23",
+        "note": "Read from POCO's specification page on mi.com."
+      },
+      "specs.camera.rear.main.sensor": {
+        "class": "official",
+        "source": "poco",
+        "url": "https://web.archive.org/web/20260510174849/https://www.mi.com/global/product/poco-f7-ultra/specs/",
+        "checked": "2026-09-23",
+        "note": "Main camera sensor size (1/1.55\") from POCO's specification page on mi.com."
+      },
+      "specs.camera.video": {
+        "class": "official",
+        "source": "poco",
+        "url": "https://web.archive.org/web/20260510174849/https://www.mi.com/global/product/poco-f7-ultra/specs/",
+        "checked": "2026-09-23",
+        "note": "Read from POCO's specification page on mi.com."
+      },
+      "specs.connectivity.wifi": {
+        "class": "official",
+        "source": "poco",
+        "url": "https://web.archive.org/web/20260510174849/https://www.mi.com/global/product/poco-f7-ultra/specs/",
+        "checked": "2026-09-23",
+        "note": "Read from POCO's specification page on mi.com."
+      },
+      "specs.connectivity.bluetooth": {
+        "class": "official",
+        "source": "poco",
+        "url": "https://web.archive.org/web/20260510174849/https://www.mi.com/global/product/poco-f7-ultra/specs/",
+        "checked": "2026-09-23",
+        "note": "Read from POCO's specification page on mi.com."
+      }
+    }
   },
   "dataStatus": "compiled",
   "image": {

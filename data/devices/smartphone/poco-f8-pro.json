@@ -63,24 +63,28 @@
     },
     "charging": {
       "wired_w": 100,
-      "claim": "100W HyperCharge"
+      "claim": "100W HyperCharge",
+      "wireless_w": 0
     },
     "camera": {
       "rear": [
         {
           "role": "main",
           "mp": 50,
-          "sensor": "1/1.55\"",
           "aperture": "f/1.88",
+          "sensor": "1/1.55\"",
           "ois": true
         },
         {
           "role": "telephoto",
-          "mp": 50
+          "mp": 50,
+          "aperture": "f/2.2",
+          "focal_mm": 60
         },
         {
           "role": "ultrawide",
-          "mp": 8
+          "mp": 8,
+          "aperture": "f/2.2"
         }
       ],
       "front": "20 MP",
@@ -114,7 +118,8 @@
         "width_mm": 75.25,
         "depth_mm": 8.0
       },
-      "ip": "IP68"
+      "ip": "IP68",
+      "weight_g": 199
     },
     "software": {
       "launch_os": "Powered by Xiaomi HyperOS 3"
@@ -150,6 +155,34 @@
         "class": "platform",
         "source": "platform",
         "note": "Calculated from resolution and screen size."
+      },
+      "specs.camera.rear": {
+        "class": "official",
+        "source": "poco",
+        "url": "https://web.archive.org/web/20260306171154/https://www.mi.com/global/product/poco-f8-pro/specs/",
+        "checked": "2026-09-23",
+        "note": "Read from POCO's specification page on mi.com."
+      },
+      "specs.camera.rear.main.sensor": {
+        "class": "official",
+        "source": "poco",
+        "url": "https://web.archive.org/web/20260306171154/https://www.mi.com/global/product/poco-f8-pro/specs/",
+        "checked": "2026-09-23",
+        "note": "Main camera sensor size (1/1.55\") from POCO's specification page on mi.com."
+      },
+      "specs.charging.wireless_w": {
+        "class": "official",
+        "source": "poco",
+        "url": "https://web.archive.org/web/20260306171154/https://www.mi.com/global/product/poco-f8-pro/specs/",
+        "checked": "2026-09-23",
+        "note": "The specification page lists 100 W wired HyperCharge and no wireless charging."
+      },
+      "specs.build.weight_g": {
+        "class": "official",
+        "source": "poco",
+        "url": "https://web.archive.org/web/20260306171154/https://www.mi.com/global/product/poco-f8-pro/specs/",
+        "checked": "2026-09-23",
+        "note": "Read from POCO's specification page on mi.com."
       }
     }
   },

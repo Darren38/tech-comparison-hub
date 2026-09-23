@@ -52,7 +52,8 @@
       "resolution": "2712 × 1220",
       "refresh_hz": 144,
       "peak_nits": 2600,
-      "ppi": 446
+      "ppi": 446,
+      "protection": "Corning Gorilla Glass 5"
     },
     "platform": {
       "chipset": "dimensity-9200-plus"
@@ -78,7 +79,9 @@
       "rear": [
         {
           "role": "main",
-          "mp": 50
+          "mp": 50,
+          "sensor": "1/1.28\"",
+          "aperture": "f/1.9"
         },
         {
           "role": "ultrawide",
@@ -86,20 +89,29 @@
         },
         {
           "role": "telephoto",
-          "mp": 50
+          "mp": 50,
+          "aperture": "f/1.9",
+          "focal_mm": 50,
+          "zoom_x": 2.1
         }
       ],
-      "front": "20 MP"
+      "front": "20 MP",
+      "video": "8K @ 24 fps; 4K @ 30 fps (HDR10+); 10-bit Log",
+      "zoom_optical_x": 2.1
     },
     "build": {
       "ip": "IP68"
     },
     "connectivity": {
       "cellular": "5G",
-      "nfc": true
+      "nfc": true,
+      "wifi": "Wi-Fi 7",
+      "bluetooth": "Bluetooth 5.4"
     },
     "software": {
-      "launch_os": "MIUI 14 (Android 13 base)"
+      "launch_os": "MIUI 14 (Android 13 base)",
+      "os_updates_years": 4,
+      "security_updates_years": 5
     }
   },
   "provenance": {
@@ -122,6 +134,62 @@
         "class": "platform",
         "source": "platform",
         "note": "Calculated from resolution and screen size."
+      },
+      "specs.camera.rear.main.sensor": {
+        "class": "reviewer",
+        "source": "dxomark",
+        "url": "https://www.dxomark.com/xiaomi-13t-pro-camera-test/",
+        "checked": "2026-09-23",
+        "note": "Main camera sensor size from DXOMARK's camera test; the maker does not state it."
+      },
+      "specs.software.os_updates_years": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2023/09/26/xiaomi-13t-pro-malaysia-leica-cameras-5-years-of-updates-1tb-of-storage-and-ip68-rating/",
+        "checked": "2026-09-23",
+        "note": "Read from SoyaCincau's report of the Malaysian launch."
+      },
+      "specs.software.security_updates_years": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2023/09/26/xiaomi-13t-pro-malaysia-leica-cameras-5-years-of-updates-1tb-of-storage-and-ip68-rating/",
+        "checked": "2026-09-23",
+        "note": "Read from SoyaCincau's report of the Malaysian launch."
+      },
+      "specs.display.protection": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2023/09/26/xiaomi-13t-pro-malaysia-leica-cameras-5-years-of-updates-1tb-of-storage-and-ip68-rating/",
+        "checked": "2026-09-23",
+        "note": "Read from SoyaCincau's report of the Malaysian launch."
+      },
+      "specs.camera.video": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2023/09/26/xiaomi-13t-pro-malaysia-leica-cameras-5-years-of-updates-1tb-of-storage-and-ip68-rating/",
+        "checked": "2026-09-23",
+        "note": "Read from SoyaCincau's report of the Malaysian launch."
+      },
+      "specs.connectivity.wifi": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2023/09/26/xiaomi-13t-pro-malaysia-leica-cameras-5-years-of-updates-1tb-of-storage-and-ip68-rating/",
+        "checked": "2026-09-23",
+        "note": "Read from SoyaCincau's report of the Malaysian launch."
+      },
+      "specs.connectivity.bluetooth": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2023/09/26/xiaomi-13t-pro-malaysia-leica-cameras-5-years-of-updates-1tb-of-storage-and-ip68-rating/",
+        "checked": "2026-09-23",
+        "note": "Read from SoyaCincau's report of the Malaysian launch."
+      },
+      "specs.camera.zoom_optical_x": {
+        "class": "platform",
+        "source": "platform",
+        "checked": "2026-09-23",
+        "url": "https://soyacincau.com/2023/09/26/xiaomi-13t-pro-malaysia-leica-cameras-5-years-of-updates-1tb-of-storage-and-ip68-rating/",
+        "note": "Calculated from the telephoto's 50 mm equivalent focal length (SoyaCincau's launch report) and the main camera's 24 mm (DXOMARK's camera test)."
       }
     }
   },

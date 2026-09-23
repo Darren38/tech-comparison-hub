@@ -59,7 +59,8 @@
       "resolution": "2736 × 1260",
       "refresh_hz": 120,
       "peak_nits": 3000,
-      "ppi": 463
+      "ppi": 463,
+      "protection": "Ceramic Shield 2"
     },
     "platform": {
       "chipset": "apple-a19-pro",
@@ -70,10 +71,13 @@
       "storage_gb": [
         256,
         512
+      ],
+      "ram_gb": [
+        12
       ]
     },
     "charging": {
-      "wired_w": 60,
+      "wired_w": 20,
       "wireless_w": 20,
       "claim": "Fast-charge capable: Up to 50% charge in 30 minutes with 20W adapter or higher (available separately) paired with USB-C charging cable, or 30W adapter or higher paired with MagSafe"
     },
@@ -83,10 +87,6 @@
           "role": "main",
           "mp": 48,
           "aperture": "f/1.6"
-        },
-        {
-          "role": "telephoto",
-          "mp": 12
         }
       ],
       "front": "18 MP",
@@ -99,11 +99,13 @@
       "front_detail": [
         "18MP Center Stage camera, ƒ/1.9 aperture"
       ],
-      "front_video": "4K@60fps; 1080p"
+      "front_video": "4K@60fps; 1080p",
+      "zoom_optical_x": 1
     },
     "battery": {
       "video_h": 27,
-      "chemistry": "Built-in rechargeable lithium-ion battery"
+      "chemistry": "Built-in rechargeable lithium-ion battery",
+      "capacity_mah": 3149
     },
     "connectivity": {
       "cellular": "5G",
@@ -129,7 +131,10 @@
       "ip": "IP68"
     },
     "software": {
-      "launch_os": "iOS"
+      "launch_os": "iOS",
+      "os_updates_years": 6,
+      "security_updates_years": 7,
+      "policy_note": "Apple publishes no fixed upgrade commitment. Recent iPhones have received about six years of major iOS releases plus further security fixes, so the figures here are platform estimates."
     },
     "sensors": "Face ID, Barometer, High dynamic range gyro, High-g accelerometer, Proximity sensor, Dual ambient light sensors",
     "audio": {
@@ -156,6 +161,53 @@
         "class": "platform",
         "source": "platform",
         "note": "Calculated from resolution and screen size."
+      },
+      "specs.display.protection": {
+        "class": "official",
+        "source": "apple",
+        "url": "https://support.apple.com/en-my/125092",
+        "checked": "2026-09-23",
+        "note": "Read from Apple's specification page."
+      },
+      "specs.camera.zoom_optical_x": {
+        "class": "official",
+        "source": "apple",
+        "url": "https://support.apple.com/en-my/125092",
+        "checked": "2026-09-23",
+        "note": "One rear camera; the \"2x Telephoto\" is a crop of the main camera, not an optical zoom."
+      },
+      "specs.memory.ram_gb": {
+        "class": "news",
+        "source": "macrumors",
+        "url": "https://www.macrumors.com/2025/09/10/iphone-17-pro-iphone-air-specs-battery-ram/",
+        "checked": "2026-09-23",
+        "note": "Apple does not list RAM; MacRumors found it in Apple's Xcode developer tool."
+      },
+      "specs.battery.capacity_mah": {
+        "class": "news",
+        "source": "macrumors",
+        "url": "https://www.macrumors.com/2025/09/10/iphone-17-pro-iphone-air-specs-battery-ram/",
+        "checked": "2026-09-23",
+        "note": "Apple states capacity only on its EU energy labels (iPhone Air is eSIM-only everywhere), as reported by MacRumors."
+      },
+      "specs.charging.wired_w": {
+        "class": "estimated",
+        "source": "apple",
+        "url": "https://support.apple.com/en-my/125092",
+        "checked": "2026-09-23",
+        "note": "Apple gives a time-based claim and an adapter rating, not the phone's maximum input. The adapter rating is used as an estimate."
+      },
+      "specs.software.os_updates_years": {
+        "class": "estimated",
+        "source": "platform",
+        "checked": "2026-09-23",
+        "note": "Apple publishes no fixed upgrade commitment; estimate from the support recent iPhones have received."
+      },
+      "specs.software.security_updates_years": {
+        "class": "estimated",
+        "source": "platform",
+        "checked": "2026-09-23",
+        "note": "Apple publishes no fixed upgrade commitment; estimate from the support recent iPhones have received."
       }
     }
   },

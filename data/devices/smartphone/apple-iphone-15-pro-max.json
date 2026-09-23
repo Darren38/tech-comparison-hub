@@ -74,11 +74,15 @@
       "storage_gb": [
         256,
         512
+      ],
+      "ram_gb": [
+        8
       ]
     },
     "charging": {
       "wireless_w": 15,
-      "claim": "MagSafe wireless charging up to 15W; Qi2 wireless charging up to 15W; Qi wireless charging up to 7.5W"
+      "claim": "MagSafe wireless charging up to 15W; Qi2 wireless charging up to 15W; Qi wireless charging up to 7.5W",
+      "wired_w": 20
     },
     "camera": {
       "rear": [
@@ -121,7 +125,8 @@
     },
     "battery": {
       "video_h": 29,
-      "chemistry": "Built-in rechargeable lithium-ion battery"
+      "chemistry": "Built-in rechargeable lithium-ion battery",
+      "capacity_mah": 4422
     },
     "connectivity": {
       "cellular": "5G",
@@ -228,6 +233,27 @@
         "source": "platform",
         "checked": "2026-09-23",
         "note": "Apple publishes no fixed upgrade commitment. Recent iPhones have received about six years of major iOS releases plus further security fixes, so the figures here are platform estimates."
+      },
+      "specs.memory.ram_gb": {
+        "class": "news",
+        "source": "macrumors",
+        "url": "https://www.macrumors.com/2023/09/12/iphone-15-pro-models-have-8gb-ram/",
+        "checked": "2026-09-23",
+        "note": "Apple does not list RAM; MacRumors found it in the Xcode 15 Release Candidate."
+      },
+      "specs.battery.capacity_mah": {
+        "class": "news",
+        "source": "macrumors",
+        "url": "https://www.macrumors.com/2023/09/15/iphone-15-battery-capacities-revealed/",
+        "checked": "2026-09-23",
+        "note": "Apple does not publish capacity; figure from a Chinese regulatory database, as reported by MacRumors."
+      },
+      "specs.charging.wired_w": {
+        "class": "estimated",
+        "source": "apple",
+        "url": "https://support.apple.com/en-my/111828",
+        "checked": "2026-09-23",
+        "note": "Apple gives a time-based claim and an adapter rating, not the phone's maximum input. The adapter rating is used as an estimate."
       }
     }
   },

@@ -1,4 +1,6 @@
 {
+  "relay": "https://tech-hub-relay.darren38.workers.dev",
+  "relayNote": "Address of the relay from relay/worker.js (for example https://tech-hub-relay.NAME.workers.dev). When set, Refresh on a static copy of the site collects the headlines live through it; when empty, Refresh re-reads the collection saved by the last scheduled build.",
   "maxAgeDays": 45,
   "perFeed": 20,
   "maxItems": 240,

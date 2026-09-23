@@ -64,18 +64,22 @@
     },
     "charging": {
       "wired_w": 90,
-      "claim": "90W HyperCharge"
+      "claim": "90W HyperCharge",
+      "wireless_w": 0
     },
     "camera": {
       "rear": [
         {
           "role": "main",
           "mp": 50,
-          "aperture": "f/1.6"
+          "aperture": "f/1.6",
+          "sensor": "1/1.55\"",
+          "ois": true
         },
         {
           "role": "ultrawide",
-          "mp": 8
+          "mp": 8,
+          "aperture": "f/2.2"
         }
       ],
       "front": "20 MP",
@@ -87,7 +91,8 @@
       "front_detail": [
         "20MP front camera"
       ],
-      "front_video": "1080p@60fps"
+      "front_video": "1080p@60fps",
+      "zoom_optical_x": 1
     },
     "connectivity": {
       "cellular": "5G",
@@ -107,10 +112,13 @@
         "height_mm": 160.26,
         "width_mm": 74.95,
         "depth_mm": 8.12
-      }
+      },
+      "weight_g": 206
     },
     "software": {
-      "launch_os": "Powered by Xiaomi HyperOS 2"
+      "launch_os": "Powered by Xiaomi HyperOS 2",
+      "os_updates_years": 4,
+      "security_updates_years": 6
     },
     "sensors": "Proximity sensor, Ambient light sensor, Accelerometer, Electronic compass, Gyroscope, IR blaster, Flicker sensor, X-axis linear vibration motor, Vibration motor",
     "audio": {
@@ -143,6 +151,55 @@
         "class": "platform",
         "source": "platform",
         "note": "Calculated from resolution and screen size."
+      },
+      "specs.camera.rear": {
+        "class": "official",
+        "source": "poco",
+        "url": "https://web.archive.org/web/20260519154417/https://www.mi.com/global/product/poco-f7-pro/specs/",
+        "checked": "2026-09-23",
+        "note": "Read from POCO's specification page on mi.com."
+      },
+      "specs.camera.rear.main.sensor": {
+        "class": "official",
+        "source": "poco",
+        "url": "https://web.archive.org/web/20260519154417/https://www.mi.com/global/product/poco-f7-pro/specs/",
+        "checked": "2026-09-23",
+        "note": "Main camera sensor size (1/1.55\") from POCO's specification page on mi.com."
+      },
+      "specs.camera.zoom_optical_x": {
+        "class": "official",
+        "source": "poco",
+        "url": "https://web.archive.org/web/20260519154417/https://www.mi.com/global/product/poco-f7-pro/specs/",
+        "checked": "2026-09-23",
+        "note": "No telephoto camera: the specification page lists main and ultra-wide cameras only."
+      },
+      "specs.charging.wireless_w": {
+        "class": "official",
+        "source": "poco",
+        "url": "https://web.archive.org/web/20260519154417/https://www.mi.com/global/product/poco-f7-pro/specs/",
+        "checked": "2026-09-23",
+        "note": "The specification page lists 90 W wired HyperCharge and no wireless charging."
+      },
+      "specs.build.weight_g": {
+        "class": "official",
+        "source": "poco",
+        "url": "https://web.archive.org/web/20260519154417/https://www.mi.com/global/product/poco-f7-pro/specs/",
+        "checked": "2026-09-23",
+        "note": "Read from POCO's specification page on mi.com."
+      },
+      "specs.software.os_updates_years": {
+        "class": "news",
+        "source": "androidauthority",
+        "url": "https://www.androidauthority.com/phone-update-policies-1658633/",
+        "checked": "2026-09-23",
+        "note": "Read from Android Authority's list of phone update policies (updated 13 November 2025)."
+      },
+      "specs.software.security_updates_years": {
+        "class": "news",
+        "source": "androidauthority",
+        "url": "https://www.androidauthority.com/phone-update-policies-1658633/",
+        "checked": "2026-09-23",
+        "note": "Read from Android Authority's list of phone update policies (updated 13 November 2025)."
       }
     }
   },

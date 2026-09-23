@@ -28,7 +28,8 @@
       "resolution": "3200 × 1440",
       "peak_nits": 2600,
       "protection": "Corning Gorilla Glass Victus",
-      "ppi": 521
+      "ppi": 521,
+      "refresh_hz": 120
     },
     "platform": {
       "chipset": "snapdragon-8-gen-2",
@@ -57,7 +58,32 @@
         {
           "role": "main",
           "mp": 50,
-          "sensor": "1\""
+          "aperture": "f/1.9–f/4.0 variable",
+          "sensor": "1\"",
+          "focal_mm": 23,
+          "ois": true
+        },
+        {
+          "role": "ultrawide",
+          "mp": 50,
+          "aperture": "f/1.8",
+          "focal_mm": 12
+        },
+        {
+          "role": "telephoto",
+          "mp": 50,
+          "aperture": "f/1.8",
+          "focal_mm": 75,
+          "ois": true,
+          "zoom_x": 3.3
+        },
+        {
+          "role": "periscope",
+          "mp": 50,
+          "aperture": "f/3.0",
+          "focal_mm": 120,
+          "ois": true,
+          "zoom_x": 5.2
         }
       ],
       "front": "32 MP",
@@ -66,7 +92,9 @@
       ],
       "front_detail": [
         "32MP in-display selfie camera, f/2.0"
-      ]
+      ],
+      "zoom_optical_x": 5.2,
+      "video": "8K @ 24 fps; 4K @ up to 60 fps (Dolby Vision HDR); 10-bit Log"
     },
     "connectivity": {
       "cellular": "5G",
@@ -87,7 +115,9 @@
       "ip": "IP68"
     },
     "software": {
-      "launch_os": "MIUI 14 based on Android 13"
+      "launch_os": "MIUI 14 based on Android 13",
+      "os_updates_years": 3,
+      "security_updates_years": 4
     },
     "sensors": "Proximity sensor, Ambient light sensor, Accelerometer, Gyroscope, Electronic compass, Linear motor, IR blaster, Barometer, Flicker sensor, Laser autofocus, Vibration motor, X-axis linear motor",
     "audio": {
@@ -120,6 +150,55 @@
         "class": "platform",
         "source": "platform",
         "note": "Calculated from resolution and screen size."
+      },
+      "specs.display.refresh_hz": {
+        "class": "official",
+        "source": "xiaomi",
+        "url": "https://web.archive.org/web/20260414221035/https://www.mi.com/global/product/xiaomi-13-ultra/specs/",
+        "checked": "2026-09-23",
+        "note": "Read from Xiaomi's specification page."
+      },
+      "specs.camera.rear": {
+        "class": "official",
+        "source": "xiaomi",
+        "url": "https://web.archive.org/web/20260414221035/https://www.mi.com/global/product/xiaomi-13-ultra/specs/",
+        "checked": "2026-09-23",
+        "note": "Read from Xiaomi's specification page."
+      },
+      "specs.camera.rear.main.sensor": {
+        "class": "official",
+        "source": "xiaomi",
+        "url": "https://web.archive.org/web/20260414221035/https://www.mi.com/global/product/xiaomi-13-ultra/specs/",
+        "checked": "2026-09-23",
+        "note": "Main camera sensor size (1\") from Xiaomi's specification page."
+      },
+      "specs.camera.zoom_optical_x": {
+        "class": "platform",
+        "source": "platform",
+        "url": "https://web.archive.org/web/20260414221035/https://www.mi.com/global/product/xiaomi-13-ultra/specs/",
+        "checked": "2026-09-23",
+        "note": "Calculated from the 120 mm and 23 mm equivalent focal lengths on the maker's page."
+      },
+      "specs.camera.video": {
+        "class": "official",
+        "source": "xiaomi",
+        "url": "https://web.archive.org/web/20260414221035/https://www.mi.com/global/product/xiaomi-13-ultra/specs/",
+        "checked": "2026-09-23",
+        "note": "Read from Xiaomi's specification page."
+      },
+      "specs.software.os_updates_years": {
+        "class": "news",
+        "source": "androidauthority",
+        "url": "https://www.androidauthority.com/phone-update-policies-1658633/",
+        "checked": "2026-09-23",
+        "note": "Read from Android Authority's list of phone update policies (updated 13 November 2025)."
+      },
+      "specs.software.security_updates_years": {
+        "class": "news",
+        "source": "androidauthority",
+        "url": "https://www.androidauthority.com/phone-update-policies-1658633/",
+        "checked": "2026-09-23",
+        "note": "Read from Android Authority's list of phone update policies (updated 13 November 2025)."
       }
     }
   },

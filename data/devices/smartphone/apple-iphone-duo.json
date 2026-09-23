@@ -52,7 +52,8 @@
       "resolution": "2670 × 1878",
       "refresh_hz": 120,
       "peak_nits": 3000,
-      "ppi": 430
+      "ppi": 430,
+      "protection": "Ceramic Shield 2"
     },
     "platform": {
       "chipset": "apple-a20-pro",
@@ -78,10 +79,6 @@
           "aperture": "f/1.6"
         },
         {
-          "role": "telephoto",
-          "mp": 12
-        },
-        {
           "role": "ultrawide",
           "mp": 48
         }
@@ -97,7 +94,8 @@
       "front_detail": [
         "12MP Center Stage camera, ƒ/2.2 aperture"
       ],
-      "front_video": "4K@60fps; 1080p"
+      "front_video": "4K@60fps; 1080p",
+      "zoom_optical_x": 1
     },
     "battery": {
       "video_h": 44
@@ -118,10 +116,18 @@
     },
     "build": {
       "weight_g": 254.0,
-      "ip": "IP68"
+      "ip": "IP68",
+      "dimensions": {
+        "height_mm": 117.8,
+        "width_mm": 164.6,
+        "depth_mm": 5.2
+      }
     },
     "software": {
-      "launch_os": "iOS 27"
+      "launch_os": "iOS 27",
+      "os_updates_years": 6,
+      "security_updates_years": 7,
+      "policy_note": "Apple publishes no fixed upgrade commitment. Recent iPhones have received about six years of major iOS releases plus further security fixes, so the figures here are platform estimates."
     },
     "sensors": "Touch ID fingerprint sensor, Barometer, High dynamic range gyro, High-g accelerometer, Proximity sensor, Four ambient light sensors",
     "audio": {
@@ -148,6 +154,39 @@
         "class": "platform",
         "source": "platform",
         "note": "Calculated from resolution and screen size."
+      },
+      "specs.display.protection": {
+        "class": "official",
+        "source": "apple",
+        "url": "https://www.apple.com/my/iphone-duo/specs/",
+        "checked": "2026-09-23",
+        "note": "Read from Apple's specification page."
+      },
+      "specs.camera.zoom_optical_x": {
+        "class": "official",
+        "source": "apple",
+        "url": "https://www.apple.com/my/iphone-duo/specs/",
+        "checked": "2026-09-23",
+        "note": "Main and ultra-wide cameras; the \"2x Telephoto\" is a crop of the main camera, not an optical zoom."
+      },
+      "specs.build.dimensions": {
+        "class": "official",
+        "source": "apple",
+        "url": "https://www.apple.com/my/iphone-duo/specs/",
+        "checked": "2026-09-23",
+        "note": "Read from Apple's specification page."
+      },
+      "specs.software.os_updates_years": {
+        "class": "estimated",
+        "source": "platform",
+        "checked": "2026-09-23",
+        "note": "Apple publishes no fixed upgrade commitment; estimate from the support recent iPhones have received."
+      },
+      "specs.software.security_updates_years": {
+        "class": "estimated",
+        "source": "platform",
+        "checked": "2026-09-23",
+        "note": "Apple publishes no fixed upgrade commitment; estimate from the support recent iPhones have received."
       }
     }
   },

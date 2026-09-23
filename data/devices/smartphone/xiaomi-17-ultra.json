@@ -63,7 +63,8 @@
       "resolution": "2608 × 1200",
       "ppi": 416,
       "refresh_hz": 120,
-      "peak_nits": 3500
+      "peak_nits": 3500,
+      "protection": "Xiaomi Shield Glass 3.0"
     },
     "platform": {
       "chipset": "snapdragon-8-elite-gen-5"
@@ -91,30 +92,48 @@
         {
           "role": "main",
           "mp": 50,
+          "aperture": "f/1.67",
           "sensor": "1\"",
+          "focal_mm": 23,
+          "ois": true,
           "note": "Light Fusion 1050L"
         },
         {
           "role": "periscope",
           "mp": 200,
+          "aperture": "f/2.39–f/2.96",
           "sensor": "1/1.4\"",
+          "ois": true,
           "zoom_x": 4.3,
           "note": "75–100 mm continuous optical zoom (about 3–4.3×)"
         },
         {
           "role": "ultrawide",
           "mp": 50,
+          "aperture": "f/2.2",
+          "sensor": "1/2.75\"",
+          "focal_mm": 14,
           "note": "Autofocus"
         }
       ],
-      "zoom_optical_x": 4.3
+      "zoom_optical_x": 4.3,
+      "front": "50 MP, f/2.2, 1/2.87\", autofocus",
+      "video": "8K @ 30 fps; 4K Dolby Vision @ up to 120 fps; Log up to 4K @ 120 fps"
     },
     "build": {
-      "ip": "IP68"
+      "ip": "IP68",
+      "weight_g": 218.4,
+      "dimensions": {
+        "height_mm": 162.9,
+        "width_mm": 77.6,
+        "depth_mm": 8.29
+      }
     },
     "connectivity": {
       "cellular": "5G",
-      "nfc": true
+      "nfc": true,
+      "wifi": "Wi-Fi 7",
+      "bluetooth": "Bluetooth 6.0"
     },
     "software": {
       "launch_os": "Android 16, HyperOS 3",
@@ -157,6 +176,69 @@
         "class": "database",
         "source": "gsmarena",
         "note": "Reported in launch coverage."
+      },
+      "specs.display.protection": {
+        "class": "official",
+        "source": "xiaomi",
+        "url": "https://web.archive.org/web/20260301053646/https://www.mi.com/global/product/xiaomi-17-ultra/specs/",
+        "checked": "2026-09-23",
+        "note": "Read from Xiaomi's specification page."
+      },
+      "specs.camera.rear": {
+        "class": "official",
+        "source": "xiaomi",
+        "url": "https://web.archive.org/web/20260301053646/https://www.mi.com/global/product/xiaomi-17-ultra/specs/",
+        "checked": "2026-09-23",
+        "note": "Read from Xiaomi's specification page."
+      },
+      "specs.camera.rear.main.sensor": {
+        "class": "official",
+        "source": "xiaomi",
+        "url": "https://web.archive.org/web/20260301053646/https://www.mi.com/global/product/xiaomi-17-ultra/specs/",
+        "checked": "2026-09-23",
+        "note": "Main camera sensor size (1\") from Xiaomi's specification page."
+      },
+      "specs.camera.front": {
+        "class": "official",
+        "source": "xiaomi",
+        "url": "https://web.archive.org/web/20260301053646/https://www.mi.com/global/product/xiaomi-17-ultra/specs/",
+        "checked": "2026-09-23",
+        "note": "Read from Xiaomi's specification page."
+      },
+      "specs.camera.video": {
+        "class": "official",
+        "source": "xiaomi",
+        "url": "https://web.archive.org/web/20260301053646/https://www.mi.com/global/product/xiaomi-17-ultra/specs/",
+        "checked": "2026-09-23",
+        "note": "Read from Xiaomi's specification page."
+      },
+      "specs.build.weight_g": {
+        "class": "official",
+        "source": "xiaomi",
+        "url": "https://web.archive.org/web/20260301053646/https://www.mi.com/global/product/xiaomi-17-ultra/specs/",
+        "checked": "2026-09-23",
+        "note": "Read from Xiaomi's specification page: 218.4 g in black and white, 219 g in Starlit Green."
+      },
+      "specs.build.dimensions": {
+        "class": "official",
+        "source": "xiaomi",
+        "url": "https://web.archive.org/web/20260301053646/https://www.mi.com/global/product/xiaomi-17-ultra/specs/",
+        "checked": "2026-09-23",
+        "note": "Read from Xiaomi's specification page."
+      },
+      "specs.connectivity.wifi": {
+        "class": "official",
+        "source": "xiaomi",
+        "url": "https://web.archive.org/web/20260301053646/https://www.mi.com/global/product/xiaomi-17-ultra/specs/",
+        "checked": "2026-09-23",
+        "note": "Read from Xiaomi's specification page."
+      },
+      "specs.connectivity.bluetooth": {
+        "class": "official",
+        "source": "xiaomi",
+        "url": "https://web.archive.org/web/20260301053646/https://www.mi.com/global/product/xiaomi-17-ultra/specs/",
+        "checked": "2026-09-23",
+        "note": "Read from Xiaomi's specification page."
       }
     }
   },

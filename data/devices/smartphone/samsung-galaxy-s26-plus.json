@@ -49,6 +49,17 @@
           "mp": 50,
           "aperture": "f/1.8",
           "ois": true
+        },
+        {
+          "role": "ultrawide",
+          "mp": 12,
+          "aperture": "f/2.2"
+        },
+        {
+          "role": "telephoto",
+          "mp": 10,
+          "aperture": "f/2.4",
+          "zoom_x": 3
         }
       ],
       "front": "12 MP",
@@ -85,7 +96,8 @@
         "width_mm": 75.8,
         "depth_mm": 7.3
       },
-      "weight_g": 190.0
+      "weight_g": 190.0,
+      "ip": "IP68"
     },
     "platform": {
       "chipset": "exynos-2600",
@@ -98,7 +110,11 @@
     "sensors": "Accelerometer, Barometer, Fingerprint Sensor, Gyro Sensor, Geomagnetic Sensor, Hall Sensor, Light Sensor, Proximity Sensor",
     "software": {
       "security_updates_years": 7,
-      "security_until": "2033-02-28"
+      "security_until": "2033-02-28",
+      "launch_os": "Android 16 (One UI 8.5)"
+    },
+    "charging": {
+      "wired_w": 45
     }
   },
   "provenance": {
@@ -135,6 +151,34 @@
         "class": "platform",
         "source": "platform",
         "note": "Calculated from resolution and screen size."
+      },
+      "specs.camera.rear": {
+        "class": "official",
+        "source": "samsung",
+        "url": "https://news.samsung.com/global/samsung-unveils-galaxy-s26-series-the-most-intuitive-galaxy-ai-phone-yet",
+        "checked": "2026-09-23",
+        "note": "Read from Samsung's launch press release (specification table and footnotes)."
+      },
+      "specs.software.launch_os": {
+        "class": "official",
+        "source": "samsung",
+        "url": "https://news.samsung.com/global/samsung-unveils-galaxy-s26-series-the-most-intuitive-galaxy-ai-phone-yet",
+        "checked": "2026-09-23",
+        "note": "Read from Samsung's launch press release (specification table and footnotes)."
+      },
+      "specs.charging.wired_w": {
+        "class": "official",
+        "source": "samsung",
+        "url": "https://news.samsung.com/global/samsung-unveils-galaxy-s26-series-the-most-intuitive-galaxy-ai-phone-yet",
+        "checked": "2026-09-23",
+        "note": "Read from Samsung's launch press release (specification table and footnotes)."
+      },
+      "specs.build.ip": {
+        "class": "official",
+        "source": "samsung",
+        "url": "https://news.samsung.com/global/samsung-unveils-galaxy-s26-series-the-most-intuitive-galaxy-ai-phone-yet",
+        "checked": "2026-09-23",
+        "note": "Read from Samsung's launch press release (specification table and footnotes)."
       }
     }
   },

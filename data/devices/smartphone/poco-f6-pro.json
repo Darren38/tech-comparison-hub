@@ -84,7 +84,8 @@
     },
     "charging": {
       "wired_w": 120,
-      "claim": "120W HyperCharge; 120W in-box charger"
+      "claim": "120W HyperCharge; 120W in-box charger",
+      "wireless_w": 0
     },
     "camera": {
       "rear": [
@@ -114,7 +115,8 @@
       "front_detail": [
         "16MP front camera"
       ],
-      "front_video": "1080p@60fps"
+      "front_video": "1080p@60fps",
+      "zoom_optical_x": 1
     },
     "connectivity": {
       "cellular": "5G",
@@ -192,6 +194,20 @@
         "class": "platform",
         "source": "platform",
         "note": "Calculated from resolution and screen size."
+      },
+      "specs.camera.zoom_optical_x": {
+        "class": "official",
+        "source": "poco",
+        "url": "https://web.archive.org/web/20241224111619/https://www.mi.com/global/product/poco-f6-pro/specs/",
+        "checked": "2026-09-23",
+        "note": "No telephoto camera: main, ultra-wide and macro cameras only."
+      },
+      "specs.charging.wireless_w": {
+        "class": "official",
+        "source": "poco",
+        "url": "https://web.archive.org/web/20241224111619/https://www.mi.com/global/product/poco-f6-pro/specs/",
+        "checked": "2026-09-23",
+        "note": "The specification page lists 120 W wired HyperCharge and no wireless charging."
       }
     }
   },

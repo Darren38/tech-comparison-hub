@@ -91,27 +91,40 @@
       "rear": [
         {
           "role": "main",
-          "mp": 50
+          "mp": 50,
+          "aperture": "f/1.8",
+          "ois": true
         },
         {
           "role": "ultrawide",
-          "mp": 50
+          "mp": 50,
+          "aperture": "f/2.0"
         },
         {
           "role": "periscope",
           "mp": 50,
+          "aperture": "f/2.8",
           "zoom_x": 3.5
         }
       ],
       "zoom_optical_x": 3.5,
-      "front": "32 MP"
+      "front": "32 MP",
+      "video": "8K @ 30 fps; 4K @ up to 120 fps"
     },
     "build": {
-      "ip": "IP66 + IP68 + IP69 + IP69K"
+      "ip": "IP66 + IP68 + IP69 + IP69K",
+      "weight_g": 215,
+      "dimensions": {
+        "height_mm": 161.4,
+        "width_mm": 76.7,
+        "depth_mm": 8.2
+      }
     },
     "connectivity": {
       "cellular": "5G",
-      "nfc": true
+      "nfc": true,
+      "wifi": "Wi-Fi 7",
+      "bluetooth": "Bluetooth 6.0"
     },
     "software": {
       "launch_os": "Android 16, OxygenOS 16",
@@ -142,6 +155,48 @@
         "class": "platform",
         "source": "platform",
         "note": "Calculated from resolution and screen size."
+      },
+      "specs.camera.rear": {
+        "class": "official",
+        "source": "oneplus",
+        "url": "https://www.oneplus.com/global/15/specs",
+        "checked": "2026-09-23",
+        "note": "Read from OnePlus's specification page."
+      },
+      "specs.camera.video": {
+        "class": "official",
+        "source": "oneplus",
+        "url": "https://www.oneplus.com/global/15/specs",
+        "checked": "2026-09-23",
+        "note": "Read from OnePlus's specification page."
+      },
+      "specs.build.weight_g": {
+        "class": "official",
+        "source": "oneplus",
+        "url": "https://www.oneplus.com/global/15/specs",
+        "checked": "2026-09-23",
+        "note": "Read from OnePlus's specification page: 215 g (Infinite Black, Ultra Violet), 211 g (Sand Storm)."
+      },
+      "specs.build.dimensions": {
+        "class": "official",
+        "source": "oneplus",
+        "url": "https://www.oneplus.com/global/15/specs",
+        "checked": "2026-09-23",
+        "note": "Read from OnePlus's specification page: 16.14 × 7.67 × 0.82 cm (0.81 cm for Sand Storm)."
+      },
+      "specs.connectivity.wifi": {
+        "class": "official",
+        "source": "oneplus",
+        "url": "https://www.oneplus.com/global/15/specs",
+        "checked": "2026-09-23",
+        "note": "Read from OnePlus's specification page."
+      },
+      "specs.connectivity.bluetooth": {
+        "class": "official",
+        "source": "oneplus",
+        "url": "https://www.oneplus.com/global/15/specs",
+        "checked": "2026-09-23",
+        "note": "Read from OnePlus's specification page."
       }
     }
   },

@@ -42,7 +42,8 @@
       "resolution": "2608 × 1200",
       "refresh_hz": 120,
       "peak_nits": 3500,
-      "ppi": 416
+      "ppi": 416,
+      "protection": "POCO Shield Glass"
     },
     "platform": {
       "chipset": "snapdragon-8-elite-gen-5"
@@ -71,17 +72,21 @@
         {
           "role": "main",
           "mp": 50,
-          "sensor": "1/1.31\"",
           "aperture": "f/1.67",
+          "sensor": "1/1.31\"",
           "ois": true
         },
         {
           "role": "periscope",
-          "mp": 50
+          "mp": 50,
+          "aperture": "f/3.0",
+          "focal_mm": 115,
+          "ois": true
         },
         {
           "role": "ultrawide",
-          "mp": 50
+          "mp": 50,
+          "aperture": "f/2.4"
         }
       ],
       "front": "32 MP",
@@ -152,6 +157,27 @@
         "class": "platform",
         "source": "platform",
         "note": "Calculated from resolution and screen size."
+      },
+      "specs.display.protection": {
+        "class": "official",
+        "source": "poco",
+        "url": "https://web.archive.org/web/20260731062028/https://www.mi.com/global/product/poco-f8-ultra/specs/",
+        "checked": "2026-09-23",
+        "note": "Read from POCO's specification page on mi.com."
+      },
+      "specs.camera.rear": {
+        "class": "official",
+        "source": "poco",
+        "url": "https://web.archive.org/web/20260731062028/https://www.mi.com/global/product/poco-f8-ultra/specs/",
+        "checked": "2026-09-23",
+        "note": "Read from POCO's specification page on mi.com."
+      },
+      "specs.camera.rear.main.sensor": {
+        "class": "official",
+        "source": "poco",
+        "url": "https://web.archive.org/web/20260731062028/https://www.mi.com/global/product/poco-f8-ultra/specs/",
+        "checked": "2026-09-23",
+        "note": "Main camera sensor size (1/1.31\") from POCO's specification page on mi.com."
       }
     }
   },

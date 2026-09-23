@@ -27,7 +27,8 @@
       "type": "AMOLED",
       "resolution": "2400 × 1080",
       "peak_nits": 1900,
-      "ppi": 414
+      "ppi": 414,
+      "refresh_hz": 120
     },
     "platform": {
       "chipset": "snapdragon-8-gen-2",
@@ -57,7 +58,26 @@
         {
           "role": "main",
           "mp": 50,
-          "aperture": "f/1.8"
+          "aperture": "f/1.8",
+          "focal_mm": 23,
+          "ois": true,
+          "sensor": "1/1.49\""
+        },
+        {
+          "role": "telephoto",
+          "mp": 10,
+          "aperture": "f/2.0",
+          "sensor": "1/3.75\"",
+          "focal_mm": 75,
+          "ois": true,
+          "zoom_x": 3.3
+        },
+        {
+          "role": "ultrawide",
+          "mp": 12,
+          "aperture": "f/2.2",
+          "sensor": "1/3.06\"",
+          "focal_mm": 15
         }
       ],
       "front": "32 MP",
@@ -68,7 +88,8 @@
       "video": "8K@24fps; 1080p",
       "front_detail": [
         "32MP in-display selfie camera, f/2.0, 0.7μm pixel size, 1.4μm 4-in-1 Super Pixel, 89.6° FOV, 5P lens"
-      ]
+      ],
+      "zoom_optical_x": 3.3
     },
     "connectivity": {
       "cellular": "5G",
@@ -93,7 +114,9 @@
       "ip": "IP68"
     },
     "software": {
-      "launch_os": "MIUI 14"
+      "launch_os": "MIUI 14",
+      "os_updates_years": 3,
+      "security_updates_years": 4
     },
     "sensors": "Proximity sensor, Ambient light sensor, Accelerometer, Gyroscope, Electronic compass, Linear motor, IR blaster, Flicker sensor",
     "biometrics": {
@@ -127,6 +150,48 @@
         "class": "platform",
         "source": "platform",
         "note": "Calculated from resolution and screen size."
+      },
+      "specs.display.refresh_hz": {
+        "class": "official",
+        "source": "xiaomi",
+        "url": "https://web.archive.org/web/20241226154456/https://www.mi.com/global/product/xiaomi-13/specs/",
+        "checked": "2026-09-23",
+        "note": "Read from Xiaomi's specification page."
+      },
+      "specs.camera.rear": {
+        "class": "official",
+        "source": "xiaomi",
+        "url": "https://web.archive.org/web/20241226154456/https://www.mi.com/global/product/xiaomi-13/specs/",
+        "checked": "2026-09-23",
+        "note": "Read from Xiaomi's specification page."
+      },
+      "specs.camera.zoom_optical_x": {
+        "class": "platform",
+        "source": "platform",
+        "url": "https://web.archive.org/web/20241226154456/https://www.mi.com/global/product/xiaomi-13/specs/",
+        "checked": "2026-09-23",
+        "note": "Calculated from the 75 mm and 23 mm equivalent focal lengths on the maker's page."
+      },
+      "specs.camera.rear.main.sensor": {
+        "class": "reviewer",
+        "source": "dxomark",
+        "url": "https://www.dxomark.com/xiaomi-13-camera-test/",
+        "checked": "2026-09-23",
+        "note": "Main camera sensor size from DXOMARK's camera test; the maker does not state it."
+      },
+      "specs.software.os_updates_years": {
+        "class": "news",
+        "source": "androidauthority",
+        "url": "https://www.androidauthority.com/phone-update-policies-1658633/",
+        "checked": "2026-09-23",
+        "note": "Read from Android Authority's list of phone update policies (updated 13 November 2025)."
+      },
+      "specs.software.security_updates_years": {
+        "class": "news",
+        "source": "androidauthority",
+        "url": "https://www.androidauthority.com/phone-update-policies-1658633/",
+        "checked": "2026-09-23",
+        "note": "Read from Android Authority's list of phone update policies (updated 13 November 2025)."
       }
     }
   },

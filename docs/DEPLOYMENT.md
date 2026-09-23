@@ -31,6 +31,10 @@ Every path the site uses is relative, so it works from that sub-folder, from a c
 
 On the live site, **Refresh** loads the newest collection; it cannot collect on the spot, because GitHub Pages cannot run code. Run `python serve.py` locally and Refresh collects immediately.
 
+## Live Refresh (optional relay)
+
+A browser may not read most publishers' feeds directly, and GitHub Pages has no server, so on the published site Refresh needs a relay to collect headlines on the spot. `relay/worker.js` is a Cloudflare Worker (free plan) that fetches only the feed addresses the site publishes in `live/config.json`, answers only the site's own origin, and caches each feed for two minutes. Setup steps are in [relay/README.md](../relay/README.md); put the Worker's address in `data/meta/live-feeds.json` as `"relay"`. With `"relay": ""`, Refresh re-reads the collection saved by the last scheduled run, as before.
+
 ## Good to know
 
 - **GitHub pauses scheduled workflows after 60 days without repository activity.** A push, or re-enabling the workflow in the Actions tab, restarts them.

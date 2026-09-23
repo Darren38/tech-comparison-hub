@@ -58,7 +58,8 @@
       "resolution": "3200 × 1440",
       "ppi": 522,
       "refresh_hz": 120,
-      "peak_nits": 3200
+      "peak_nits": 3200,
+      "protection": "Xiaomi Shield Glass 2.0"
     },
     "platform": {
       "chipset": "snapdragon-8-elite"
@@ -85,29 +86,39 @@
         {
           "role": "main",
           "mp": 50,
-          "sensor": "1\"",
           "aperture": "f/1.63",
+          "sensor": "1\"",
           "focal_mm": 23,
+          "ois": true,
           "note": "LYT-900"
         },
         {
           "role": "ultrawide",
-          "mp": 50
+          "mp": 50,
+          "aperture": "f/2.2",
+          "focal_mm": 14
         },
         {
           "role": "telephoto",
           "mp": 50,
+          "aperture": "f/1.8",
+          "focal_mm": 70,
+          "ois": true,
           "zoom_x": 3
         },
         {
           "role": "periscope",
           "mp": 200,
+          "aperture": "f/2.6",
+          "focal_mm": 100,
+          "ois": true,
           "sensor": "1/1.4\"",
           "zoom_x": 4.3
         }
       ],
       "zoom_optical_x": 4.3,
-      "front": "32 MP"
+      "front": "32 MP",
+      "video": "8K @ 30 fps; 4K @ up to 120 fps; Log"
     },
     "build": {
       "dimensions": {
@@ -120,7 +131,9 @@
     },
     "connectivity": {
       "cellular": "5G",
-      "nfc": true
+      "nfc": true,
+      "wifi": "Wi-Fi 7",
+      "bluetooth": "Bluetooth 6.0"
     },
     "software": {
       "launch_os": "Android 15, HyperOS 2",
@@ -135,7 +148,50 @@
       "url": "https://www.mi.com/global",
       "note": "Compiled from Xiaomi's launch specifications; not re-checked this session."
     },
-    "fields": {}
+    "fields": {
+      "specs.display.protection": {
+        "class": "official",
+        "source": "xiaomi",
+        "url": "https://web.archive.org/web/20260510022809/https://www.mi.com/global/product/xiaomi-15-ultra/specs/",
+        "checked": "2026-09-23",
+        "note": "Read from Xiaomi's specification page."
+      },
+      "specs.camera.rear": {
+        "class": "official",
+        "source": "xiaomi",
+        "url": "https://web.archive.org/web/20260510022809/https://www.mi.com/global/product/xiaomi-15-ultra/specs/",
+        "checked": "2026-09-23",
+        "note": "Read from Xiaomi's specification page."
+      },
+      "specs.camera.rear.main.sensor": {
+        "class": "official",
+        "source": "xiaomi",
+        "url": "https://web.archive.org/web/20260510022809/https://www.mi.com/global/product/xiaomi-15-ultra/specs/",
+        "checked": "2026-09-23",
+        "note": "Main camera sensor size (1\") from Xiaomi's specification page."
+      },
+      "specs.camera.video": {
+        "class": "official",
+        "source": "xiaomi",
+        "url": "https://web.archive.org/web/20260510022809/https://www.mi.com/global/product/xiaomi-15-ultra/specs/",
+        "checked": "2026-09-23",
+        "note": "Read from Xiaomi's specification page."
+      },
+      "specs.connectivity.wifi": {
+        "class": "official",
+        "source": "xiaomi",
+        "url": "https://web.archive.org/web/20260510022809/https://www.mi.com/global/product/xiaomi-15-ultra/specs/",
+        "checked": "2026-09-23",
+        "note": "Read from Xiaomi's specification page."
+      },
+      "specs.connectivity.bluetooth": {
+        "class": "official",
+        "source": "xiaomi",
+        "url": "https://web.archive.org/web/20260510022809/https://www.mi.com/global/product/xiaomi-15-ultra/specs/",
+        "checked": "2026-09-23",
+        "note": "Read from Xiaomi's specification page."
+      }
+    }
   },
   "dataStatus": "compiled"
 }

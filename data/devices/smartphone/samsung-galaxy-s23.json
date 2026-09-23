@@ -39,7 +39,8 @@
       "type": "Dynamic AMOLED 2X",
       "resolution": "2340 × 1080",
       "refresh_hz": 120,
-      "ppi": 422
+      "ppi": 422,
+      "protection": "Corning Gorilla Glass Victus 2"
     },
     "memory": {
       "ram_gb": [
@@ -59,7 +60,19 @@
           "role": "main",
           "mp": 50,
           "aperture": "f/1.8",
-          "ois": true
+          "ois": true,
+          "sensor": "1/1.56\""
+        },
+        {
+          "role": "ultrawide",
+          "mp": 12,
+          "aperture": "f/2.2"
+        },
+        {
+          "role": "telephoto",
+          "mp": 10,
+          "aperture": "f/2.4",
+          "zoom_x": 3
         }
       ],
       "rear_text": "Rear: 50.0 MP + 10.0 MP + 12.0 MP",
@@ -73,7 +86,8 @@
       "front_detail": [
         "12 MP, f/2.2"
       ],
-      "video": "UHD 8K (7680 x 4320)@30fps"
+      "video": "UHD 8K (7680 x 4320)@30fps",
+      "zoom_optical_x": 3
     },
     "connectivity": {
       "cellular": "5G",
@@ -95,7 +109,8 @@
         "width_mm": 70.9,
         "depth_mm": 7.6
       },
-      "weight_g": 168.0
+      "weight_g": 168.0,
+      "ip": "IP68"
     },
     "platform": {
       "chipset": "snapdragon-8-gen-2",
@@ -105,7 +120,16 @@
       "speakers": "Stereo speakers",
       "jack": false
     },
-    "sensors": "Accelerometer, Barometer, Fingerprint Sensor, Gyro Sensor, Geomagnetic Sensor, Hall Sensor, Light Sensor, Proximity Sensor"
+    "sensors": "Accelerometer, Barometer, Fingerprint Sensor, Gyro Sensor, Geomagnetic Sensor, Hall Sensor, Light Sensor, Proximity Sensor",
+    "software": {
+      "launch_os": "Android 13 (One UI 5.1)",
+      "os_updates_years": 4,
+      "security_updates_years": 5
+    },
+    "charging": {
+      "wired_w": 25,
+      "wireless_w": 15
+    }
   },
   "provenance": {
     "default": {
@@ -141,6 +165,76 @@
         "class": "platform",
         "source": "platform",
         "note": "Calculated from resolution and screen size."
+      },
+      "specs.camera.rear": {
+        "class": "official",
+        "source": "samsung",
+        "url": "https://news.samsung.com/global/take-your-passions-further-with-the-new-samsung-galaxy-s23-series-designed-for-a-premium-experience-today-and-beyond",
+        "checked": "2026-09-23",
+        "note": "Read from Samsung's launch press release (specification table and footnotes)."
+      },
+      "specs.camera.zoom_optical_x": {
+        "class": "official",
+        "source": "samsung",
+        "url": "https://news.samsung.com/global/take-your-passions-further-with-the-new-samsung-galaxy-s23-series-designed-for-a-premium-experience-today-and-beyond",
+        "checked": "2026-09-23",
+        "note": "Read from Samsung's launch press release (specification table and footnotes)."
+      },
+      "specs.display.protection": {
+        "class": "official",
+        "source": "samsung",
+        "url": "https://news.samsung.com/global/take-your-passions-further-with-the-new-samsung-galaxy-s23-series-designed-for-a-premium-experience-today-and-beyond",
+        "checked": "2026-09-23",
+        "note": "Read from Samsung's launch press release (specification table and footnotes)."
+      },
+      "specs.software.launch_os": {
+        "class": "official",
+        "source": "samsung",
+        "url": "https://news.samsung.com/global/take-your-passions-further-with-the-new-samsung-galaxy-s23-series-designed-for-a-premium-experience-today-and-beyond",
+        "checked": "2026-09-23",
+        "note": "Read from Samsung's launch press release (specification table and footnotes)."
+      },
+      "specs.charging.wired_w": {
+        "class": "official",
+        "source": "samsung",
+        "url": "https://news.samsung.com/global/take-your-passions-further-with-the-new-samsung-galaxy-s23-series-designed-for-a-premium-experience-today-and-beyond",
+        "checked": "2026-09-23",
+        "note": "Read from Samsung's launch press release (specification table and footnotes)."
+      },
+      "specs.charging.wireless_w": {
+        "class": "estimated",
+        "source": "samsung",
+        "url": "https://news.samsung.com/global/take-your-passions-further-with-the-new-samsung-galaxy-s23-series-designed-for-a-premium-experience-today-and-beyond",
+        "checked": "2026-09-23",
+        "note": "Samsung lists \"Fast Wireless Charging 2.0\", which Samsung rates at up to 15 W; the release gives no wattage."
+      },
+      "specs.build.ip": {
+        "class": "official",
+        "source": "samsung",
+        "url": "https://news.samsung.com/global/take-your-passions-further-with-the-new-samsung-galaxy-s23-series-designed-for-a-premium-experience-today-and-beyond",
+        "checked": "2026-09-23",
+        "note": "Read from Samsung's launch press release (specification table and footnotes)."
+      },
+      "specs.software.os_updates_years": {
+        "class": "official",
+        "source": "samsung",
+        "url": "https://news.samsung.com/global/take-your-passions-further-with-the-new-samsung-galaxy-s23-series-designed-for-a-premium-experience-today-and-beyond",
+        "checked": "2026-09-23",
+        "note": "Read from Samsung's launch press release (specification table and footnotes)."
+      },
+      "specs.software.security_updates_years": {
+        "class": "official",
+        "source": "samsung",
+        "url": "https://news.samsung.com/global/take-your-passions-further-with-the-new-samsung-galaxy-s23-series-designed-for-a-premium-experience-today-and-beyond",
+        "checked": "2026-09-23",
+        "note": "Read from Samsung's launch press release (specification table and footnotes)."
+      },
+      "specs.camera.rear.main.sensor": {
+        "class": "reviewer",
+        "source": "dxomark",
+        "url": "https://www.dxomark.com/samsung-galaxy-s23-camera-test/",
+        "checked": "2026-09-23",
+        "note": "Main camera sensor size from DXOMARK's camera test; the maker does not state it."
       }
     }
   },

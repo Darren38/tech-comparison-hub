@@ -6,12 +6,12 @@
 import { store, loadDevice, deviceTitle, brandName, sourceName, metricDef } from '../core/store.js';
 import { href } from '../core/router.js';
 import { html } from '../lib/html.js';
-import { fmtDate, fmtNumber, fmtPrice, fmtMetric, plural } from '../lib/format.js';
+import { fmtDate, fmtNumber, fmtPrice, fmtMetric, plural, timeAgo } from '../lib/format.js';
 import { displayPrice, priceText, availabilityIn, selectedCurrency, ratesLabel } from './money.js';
 import { normalizeText, search } from './search.js';
 import { detectProfile } from './intent.js';
 import { profileLeaderboard, allCategoryScores, getMetric, applicableScoreCategories, rankOf, profileScore } from './scoring.js';
-import { provenanceFor, specValue, fmtSpec } from '../ui/components.js';
+import { provenanceFor, specValue, fmtSpec, extLink } from '../ui/components.js';
 
 const CATEGORY_WORDS = [
   [/\b(fitness bands?|smart bands?|bands?|trackers?)\b/, 'band'],
@@ -825,6 +825,69 @@ const SMALL_TALK = [
  * @param {{ deviceIds?: string[], lastIds?: string[] }} context  devices on the current page / from the previous answer
  * @returns {Promise<{html, devices?: string[], understood?: string}>}
  */
+// ------------------------------------------------------------------ latest news (Version 12)
+// "Any news about the Galaxy S26?", "Red Magic 12 Pro+ rumours", "when will the Galaxy S27 launch?": the latest
+// collected headlines, collected live when this copy of the site can (local server or relay). Devices the site
+// doesn't list yet are found by the words of the question in the headline titles.
+const NEWS_Q = /\b(news|headlines?|rumou?rs?|leaks?|leaked|berita|terkini)\b|\b(launch|release)(ing)? date\b|\bwhen\b.{0,50}\b(launch\w*|release\w*|come out|coming|announc\w*|available)\b|\bwhat s new\b/;
+const GENERIC_NAME_WORDS = new Set(['5g', 'phone', 'edition']);
+const NEWS_STOP = new Set(('news headline headlines rumour rumours rumor rumors leak leaks leaked berita terkini latest recent newest new today this week any anything there is are was were what whats s when will would does do did it its the a an about on for of in to and or with from me tell show give get got hear heard please update updates launch launching launched release releasing released date come out coming announce announced announcement available availability malaysia my i you going happening lately tech technology gadget gadgets mobile phone phones smartphone smartphones world industry').split(' '));
+
+/** Named devices whose every model-name word is in the question ("Galaxy S27 Ultra" is not the POCO F7 Ultra). */
+async function namedForNews(ids, text) {
+  const { normalize } = await import('./collect.js');
+  const asked = new Set(normalize(text).split(' '));
+  return ids.filter((id) => {
+    const d = store.deviceById.get(id);
+    return !d || normalize(d.name).split(' ').every((w) => asked.has(w) || GENERIC_NAME_WORDS.has(w));
+  });
+}
+
+async function answerNews(ids, text) {
+  const [{ latestHeadlines, isSafeUrl }, { normalize }] = await Promise.all([import('./live.js'), import('./collect.js')]);
+  let got;
+  try {
+    got = await latestHeadlines();
+  } catch (error) {
+    return { html: html`<p>The latest headlines could not be loaded (${error.message}). Try the <a href="${href('/news')}">News page</a>.</p>` };
+  }
+  const { data, live } = got;
+  const terms = normalize(text).split(' ').filter((w) => w && !NEWS_STOP.has(w));
+  const words = (s) => new Set(normalize(s).split(' '));
+  // the visitor's own spelling for the subject ("Red Magic 12 Pro+"), without the question words
+  const own = text.split(/\s+/).map((w) => w.replace(/^[^\p{L}\p{N}]+|[^\p{L}\p{N}+]+$/gu, '')).filter((w) => w && normalize(w).split(' ').some((t) => t && !NEWS_STOP.has(t))).join(' ');
+  const matches = (item) => {
+    if (ids.some((id) => item.devices?.includes(id))) return true;
+    if (!terms.length) return false;
+    const pool = words(item.title);
+    for (const id of item.devices ?? []) {
+      const d = store.deviceById.get(id);
+      if (d) for (const w of words(`${brandName(d.brand) ?? ''} ${d.name}`)) pool.add(w);
+    }
+    // "Red Magic" and "RedMagic" are the same name
+    return terms.every((t) => pool.has(t)) || normalize(item.title).replace(/ /g, '').includes(terms.join(''));
+  };
+  const all = (data.items ?? []).filter((i) => i.title && isSafeUrl(i.url));
+  const about = ids.length || terms.length;
+  const found = about ? all.filter(matches) : all.filter((i) => i.kind !== 'video');
+  const subject = ids.length ? html`the ${ids.map(link).reduce((acc, l, i) => (i ? html`${acc} and the ${l}` : l), '')}` : terms.length ? html`“${own || terms.join(' ')}”` : '';
+  const when = live ? 'collected from the publishers’ feeds just now' : data.fetchedAt ? `collected ${timeAgo(data.fetchedAt)} by the site’s scheduled update` : 'collected by the site’s scheduled update';
+  const note = html`<p class="ask__src">Headlines ${when}. Titles only, not checked by this site; open a link for the full story. More on the <a href="${href('/news')}">News page</a>.</p>`;
+  if (!found.length) {
+    return {
+      html: html`<p>None of the ${plural(all.length, 'headline')} from the last ${data.maxAgeDays ?? 45} days mentions ${subject || 'that'}.</p>${note}`,
+      devices: ids,
+    };
+  }
+  const shown = found.slice(0, 6);
+  return {
+    html: html`<p>${about ? html`Latest headlines about ${subject}:` : 'The latest headlines:'}</p>
+      <ul class="ask__list">${shown.map((i) => html`<li>${extLink(i.url, i.title)} <span class="muted">${sourceName(i.source) ?? i.source}${i.published ? `, ${timeAgo(i.published)}` : ''}</span></li>`)}</ul>
+      ${found.length > shown.length ? html`<p class="muted">${plural(found.length - shown.length, 'more headline')} on the <a href="${href('/news')}">News page</a>.</p>` : ''}${note}`,
+    devices: ids,
+  };
+}
+
 export async function ask(question, context = {}) {
   const text = String(question ?? '').trim();
   const norm = normalizeText(text).replace(/\s+/g, ' ').trim();
@@ -841,6 +904,13 @@ export async function ask(question, context = {}) {
   // a singular "it" after an answer about several devices means the device on this page, if there is one
   if (previous.length > 1 && context.deviceIds?.length === 1 && /\b(it|its|this( one)?)\b/.test(norm) && !/\b(them|they|these|those|both|either|which)\b/.test(norm)) {
     previous = [...context.deviceIds];
+  }
+
+  // "any news about the S26?", "when will the Galaxy S27 launch?": the latest headlines (Version 12). Only devices
+  // named exactly count here, so a model the site doesn't list yet isn't mistaken for a similar one it does.
+  if (NEWS_Q.test(norm)) {
+    const exact = await namedForNews(await devicesIn(text, { fuzzy: false }), text);
+    return answerNews(exact.length ? exact : pronoun ? previous.slice(0, 2) : [], text);
   }
 
   // "what is IP68?", "what does LTPO mean?": a general explanation (plus the current device's own value, if any)
@@ -968,7 +1038,7 @@ export async function deviceBrief(id) {
 function answerLines(markup) {
   const box = document.createElement('div');
   box.innerHTML = String(markup);
-  box.querySelectorAll('.ask__more').forEach((n) => n.remove());
+  box.querySelectorAll('.ask__more, a.ext .sr-only').forEach((n) => n.remove()); // a link's "(opens in a new tab)" is for screen readers
   const lines = [];
   for (const el of box.querySelectorAll('p, li, tr')) {
     const text = el.tagName === 'TR' ? [...el.children].map((c) => c.textContent.replace(/\s+/g, ' ').trim()).join(' | ') : el.textContent.replace(/\s+/g, ' ').trim();
@@ -1213,8 +1283,8 @@ export async function reviewsText(id, { limit = 8 } = {}) {
 /** Latest collected headlines that name the device (titles only; not checked by hand). */
 export async function headlinesText(id, { limit = 4 } = {}) {
   try {
-    const { loadHeadlines } = await import('./live.js');
-    const items = (await loadHeadlines()).items.filter((h) => (h.devices ?? []).includes(id)).slice(0, limit);
+    const { latestHeadlines } = await import('./live.js');
+    const items = (await latestHeadlines()).data.items.filter((h) => (h.devices ?? []).includes(id)).slice(0, limit);
     return items.map((h) => `- ${sourceName(h.source) ?? h.source}, ${String(h.published).slice(0, 10)}: "${h.title}"`);
   } catch {
     return [];
