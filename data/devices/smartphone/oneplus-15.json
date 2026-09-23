@@ -46,14 +46,11 @@
     }
   ],
   "image": {
-    "kind": "photo",
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/OnePlus_15_back.jpg/500px-OnePlus_15_back.jpg",
-    "page": "https://commons.wikimedia.org/wiki/File:OnePlus_15_back.jpg",
-    "title": "OnePlus 15 back",
-    "author": "Maksdroider",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "checked": "2026-09-17"
+    "kind": "official",
+    "src": "https://www.oneplus.com/content/dam/oneplus/2025/product-station/15/spec/OnePlus15-sand-1080x1080.png",
+    "page": "https://www.oneplus.com/global/15/specs",
+    "credit": "OnePlus",
+    "checked": "2026-09-23"
   },
   "specs": {
     "display": {

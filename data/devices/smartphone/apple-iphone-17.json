@@ -42,14 +42,11 @@
     }
   ],
   "image": {
-    "kind": "photo",
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/White_iPhone_17.jpg/500px-White_iPhone_17.jpg",
-    "page": "https://commons.wikimedia.org/wiki/File:White_iPhone_17.jpg",
-    "title": "White iPhone 17",
-    "author": "Ahmad Ali Karim",
-    "license": "CC0",
-    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-    "checked": "2026-09-17"
+    "kind": "official",
+    "src": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/iphone-17-hero.png",
+    "page": "https://support.apple.com/en-my/125089",
+    "credit": "Apple",
+    "checked": "2026-09-23"
   },
   "specs": {
     "display": {
@@ -112,7 +109,8 @@
     },
     "connectivity": {
       "cellular": "5G",
-      "nfc": true
+      "nfc": true,
+      "sim": "Dual SIM (nano-SIM and eSIM); Dual eSIM support"
     },
     "biometrics": {
       "face": "Face ID"
@@ -151,6 +149,13 @@
         "class": "estimated",
         "source": "apple",
         "note": "Apple publishes no fixed upgrade commitment. Recent iPhones have received about six years of major iOS releases plus further security fixes, so the figures here are platform estimates."
+      },
+      "specs.connectivity.sim": {
+        "class": "official",
+        "source": "apple",
+        "url": "https://support.apple.com/en-my/125089",
+        "checked": "2026-09-23",
+        "note": "Read from Apple Malaysia's specification page."
       }
     }
   },

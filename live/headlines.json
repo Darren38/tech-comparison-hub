@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-09-23T07:47:30+00:00",
+ "fetchedAt": "2026-09-23T11:46:43+00:00",
  "maxAgeDays": 45,
  "feeds": [
   {
@@ -12,7 +12,7 @@
    "source": "android-police",
    "kind": "news",
    "ok": true,
-   "kept": 5
+   "kept": 3
   },
   {
    "source": "beebom",
@@ -24,7 +24,7 @@
    "source": "engadget",
    "kind": "news",
    "ok": true,
-   "kept": 5
+   "kept": 4
   },
   {
    "source": "fonearena",
@@ -42,7 +42,7 @@
    "source": "gsmarena",
    "kind": "news",
    "ok": true,
-   "kept": 14
+   "kept": 15
   },
   {
    "source": "jerryrigeverything",
@@ -60,7 +60,7 @@
    "source": "macrumors",
    "kind": "news",
    "ok": true,
-   "kept": 5
+   "kept": 4
   },
   {
    "source": "malaymail",
@@ -102,13 +102,13 @@
    "source": "sammobile",
    "kind": "news",
    "ok": true,
-   "kept": 7
+   "kept": 10
   },
   {
    "source": "sammyfans",
    "kind": "news",
    "ok": true,
-   "kept": 8
+   "kept": 9
   },
   {
    "source": "soyacincau",
@@ -118,6 +118,232 @@
   }
  ],
  "items": [
+  {
+   "id": "1b31b7c1b9e4",
+   "title": "More Samsung Galaxy Tab S12 renders have leaked",
+   "url": "https://www.sammobile.com/news/more-samsung-galaxy-tab-s12-renders-have-leaked/",
+   "source": "sammobile",
+   "kind": "news",
+   "published": "2026-09-23T11:40+00:00",
+   "devices": [],
+   "image": "https://www.sammobile.com/wp-content/uploads/2026/09/Samsung-Galaxy-Tab-S12-1790155997-0-0.webp"
+  },
+  {
+   "id": "f17310d6c20f",
+   "title": "Motorola unveils Signature 27 with 200MP telephoto camera, Snapdragon 8 Elite Extreme Gen 6",
+   "url": "https://www.gsmarena.com/motorola_unveils_signature_27_with_200mp_telephoto_camera_snapdragon_8_elite_extreme_gen_6-news-74726.php",
+   "source": "gsmarena",
+   "kind": "news",
+   "published": "2026-09-23T11:38+00:00",
+   "devices": [
+    "motorola-signature-27"
+   ],
+   "image": null
+  },
+  {
+   "id": "df0bda93de15",
+   "title": "Hidden Galaxy Z Flip 8 feature turns your phone into a digital pocket mirror",
+   "url": "https://www.sammobile.com/news/turn-samsung-galaxy-z-flip-8-into-pocket-mirror/",
+   "source": "sammobile",
+   "kind": "news",
+   "published": "2026-09-23T11:35+00:00",
+   "devices": [
+    "samsung-galaxy-z-flip8"
+   ],
+   "image": "https://www.sammobile.com/wp-content/uploads/2026/09/Screenshot_20260923_153735_Camera.jpg"
+  },
+  {
+   "id": "66095edf2251",
+   "title": "Galaxy Z Fold 8 and Flip 8 inspire DOMINNICO’s new Spring 27 collection of fashion accessories",
+   "url": "https://www.sammobile.com/news/galaxy-z-fold-8-and-flip-8-inspire-dominnicos-new-spring-27-collection-of-fashion-accessories/",
+   "source": "sammobile",
+   "kind": "news",
+   "published": "2026-09-23T11:31+00:00",
+   "devices": [
+    "samsung-galaxy-z-fold8"
+   ],
+   "image": "https://www.sammobile.com/wp-content/uploads/2026/09/DOMINNICO-BAG.png"
+  },
+  {
+   "id": "1622dfaa057b",
+   "title": "vivo Imagine Smartphone Photography Awards 2026 announced in India",
+   "url": "https://www.fonearena.com/blog/493228/vivo-imagine-smartphone-photography-awards-2026.html",
+   "source": "fonearena",
+   "kind": "news",
+   "published": "2026-09-23T11:19+00:00",
+   "devices": [],
+   "image": "https://images.fonearena.com/blog/wp-content/uploads/2026/09/vivo-Imagine-Smartphone-Photography-Awards-2026-1024x576.jpg"
+  },
+  {
+   "id": "2574a8338482",
+   "title": "Vivo X500 vs X500 Pro vs Pro Max: Key Differences Compared",
+   "url": "https://www.gizmochina.com/2026/09/23/vivo-x500-vs-x500-pro-vs-x500-pro-max/",
+   "source": "gizmochina",
+   "kind": "review",
+   "published": "2026-09-23T10:50+00:00",
+   "devices": [],
+   "image": "https://www.gizmochina.com/wp-content/uploads/2026/09/image-129-1024x419.png?x96852"
+  },
+  {
+   "id": "652db5d3a8bf",
+   "title": "The 3D models of foldable phones on our site can now be opened and closed, here's a look",
+   "url": "https://www.gsmarena.com/the_3d_models_of_foldable_phones_on_our_site_can_now_be_opened_and_closed_heres_a_look-news-74724.php",
+   "source": "gsmarena",
+   "kind": "news",
+   "published": "2026-09-23T10:48+00:00",
+   "devices": [],
+   "image": null
+  },
+  {
+   "id": "c94c121cfcd9",
+   "title": "iPhone Duo hype proves Samsung was right about foldables all along",
+   "url": "https://www.sammobile.com/opinion/iphone-duo-hype-shows-samsung-was-right-about-foldables/",
+   "source": "sammobile",
+   "kind": "news",
+   "published": "2026-09-23T10:40+00:00",
+   "devices": [],
+   "image": null
+  },
+  {
+   "id": "853a05847b68",
+   "title": "Samsung hikes Galaxy S26 series price in India",
+   "url": "https://www.sammobile.com/news/samsung-hikes-galaxy-s26-series-price-india/",
+   "source": "sammobile",
+   "kind": "news",
+   "published": "2026-09-23T10:22+00:00",
+   "devices": [
+    "samsung-galaxy-s26"
+   ],
+   "image": null
+  },
+  {
+   "id": "8450595d8b13",
+   "title": "POCO M8x 5G Review: Big screen, bigger battery, solid value",
+   "url": "https://www.fonearena.com/blog/493029/poco-m8x-5g-review.html",
+   "source": "fonearena",
+   "kind": "review",
+   "published": "2026-09-23T10:12+00:00",
+   "devices": [],
+   "image": "https://images.fonearena.com/blog/wp-content/uploads/2026/08/POCO-M8x-5G_fonearena-3-1024x663.jpg"
+  },
+  {
+   "id": "61b3e32cefd3",
+   "title": "Android OEMs pledge allegiance to the Snapdragon 8 Elite Gen 6 series",
+   "url": "https://www.gsmarena.com/android_oems_pledge_allegiance_to_the_snapdragon_8_elite_gen_6_series-news-74723.php",
+   "source": "gsmarena",
+   "kind": "news",
+   "published": "2026-09-23T09:41+00:00",
+   "devices": [],
+   "image": null
+  },
+  {
+   "id": "834eb33b704e",
+   "title": "Qualcomm keeps Samsung close, but TSMC makes both new 2nm Snapdragon chips",
+   "url": "https://www.sammyfans.com/2026/09/23/qualcomm-confirms-tsmc-makes-both-new-2nm-snapdragon-chips/",
+   "source": "sammyfans",
+   "kind": "news",
+   "published": "2026-09-23T09:25+00:00",
+   "devices": [],
+   "image": "https://www.sammyfans.com/wp-content/uploads/2026/09/snapdragon-8-elite-gen-6-specs-img-1024x576.jpg"
+  },
+  {
+   "id": "7183be55354e",
+   "title": "Vivo X500 Pro Max: 200MP Camera, 8000mAh Battery, Available at Giztop",
+   "url": "https://www.gizmochina.com/2026/09/23/vivo-x500-pro-max-available-at-giztop/",
+   "source": "gizmochina",
+   "kind": "news",
+   "published": "2026-09-23T09:25+00:00",
+   "devices": [],
+   "image": "https://www.gizmochina.com/wp-content/uploads/2026/09/image-128-251x300.png?x96852"
+  },
+  {
+   "id": "fc8d57f977fe",
+   "title": "Xiaomi 18 series transparent back version teased as “one more thing” hours before big reveal",
+   "url": "https://www.gizmochina.com/2026/09/23/xiaomi-18-series-transparent-back-version-teased-as-one-more-thing-hours-before-big-reveal/",
+   "source": "gizmochina",
+   "kind": "news",
+   "published": "2026-09-23T09:25+00:00",
+   "devices": [],
+   "image": "https://www.gizmochina.com/wp-content/uploads/2026/09/70cf98bcly1ihcvh07f26j20u0140q7g-1-300x169.jpg?x96852"
+  },
+  {
+   "id": "db6b955276f9",
+   "title": "Lenovo launches affordable tablet with 10.95-inch display, 8GB RAM and 256GB storage",
+   "url": "https://www.notebookcheck.net/Lenovo-launches-affordable-tablet-with-10-95-inch-display-8GB-RAM-and-256GB-storage.1405744.0.html",
+   "source": "notebookcheck",
+   "kind": "news",
+   "published": "2026-09-23T09:23+00:00",
+   "devices": [],
+   "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/lenovo-x11a-tablet.png"
+  },
+  {
+   "id": "9e0b175e3a14",
+   "title": "RedMagic 12 Pro+ leak fills in the battery, charging, and camera specs RedMagic left out",
+   "url": "https://www.gizmochina.com/2026/09/23/redmagic-12-pro-leak-fills-in-the-battery-charging-and-camera-specs-redmagic-left-out/",
+   "source": "gizmochina",
+   "kind": "news",
+   "published": "2026-09-23T09:02+00:00",
+   "devices": [],
+   "image": "https://www.gizmochina.com/wp-content/uploads/2025/11/RedMagic-11-Pro-global-300x175.png?x96852"
+  },
+  {
+   "id": "6702905e3159",
+   "title": "OnePlus 16 officially hits AnTuTu with Snapdragon 8 Elite Extreme Gen 6 but missing LPDDR6 RAM",
+   "url": "https://www.notebookcheck.net/OnePlus-16-officially-hits-AnTuTu-with-Snapdragon-8-Elite-Extreme-Gen-6-but-missing-LPDDR6-RAM.1406448.0.html",
+   "source": "notebookcheck",
+   "kind": "news",
+   "published": "2026-09-23T09:01+00:00",
+   "devices": [],
+   "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/oneplus-16-3.jpg"
+  },
+  {
+   "id": "9c3537ff9161",
+   "title": "Galaxy Watch 6 series second One UI 9 Watch beta update is here",
+   "url": "https://www.sammobile.com/news/galaxy-watch-6-series-second-one-ui-9-watch-beta-update-here/",
+   "source": "sammobile",
+   "kind": "news",
+   "published": "2026-09-23T08:45+00:00",
+   "devices": [
+    "samsung-galaxy-watch6"
+   ],
+   "image": null
+  },
+  {
+   "id": "3d428fe5f230",
+   "title": "Galaxy Watch 6 Classic gets second One UI 9 Watch Beta update",
+   "url": "https://www.sammyfans.com/2026/09/23/samsung-galaxy-watch-6-one-ui-9-watch-beta-2/",
+   "source": "sammyfans",
+   "kind": "news",
+   "published": "2026-09-23T08:39+00:00",
+   "devices": [
+    "samsung-galaxy-watch6-classic"
+   ],
+   "image": null
+  },
+  {
+   "id": "a0f59d23923b",
+   "title": "Galaxy S23 series gets One UI 9 beta hotfix update",
+   "url": "https://www.sammobile.com/news/galaxy-s23-series-gets-one-ui-9-beta-hotfix-update/",
+   "source": "sammobile",
+   "kind": "news",
+   "published": "2026-09-23T08:12+00:00",
+   "devices": [
+    "samsung-galaxy-s23"
+   ],
+   "image": null
+  },
+  {
+   "id": "e7f1b51d04d6",
+   "title": "Samsung Galaxy S23 gets One UI 9 Beta Hotfix with September 2026 patch",
+   "url": "https://www.sammyfans.com/2026/09/23/samsung-galaxy-s23-gets-one-ui-9-beta-hotfix/",
+   "source": "sammyfans",
+   "kind": "news",
+   "published": "2026-09-23T07:56+00:00",
+   "devices": [
+    "samsung-galaxy-s23"
+   ],
+   "image": "https://www.sammyfans.com/wp-content/uploads/2026/09/galaxy-s23-one-ui-9-beta-hotfix-img-1024x1024.jpg"
+  },
   {
    "id": "78f6d2a5880b",
    "title": "Snapdragon 8 Elite Extreme Gen 6 and 8 Elite Gen 6 debut",
@@ -246,16 +472,6 @@
    "image": "https://www.sammyfans.com/wp-content/uploads/2026/06/oneui907.jpg"
   },
   {
-   "id": "aabf1098a648",
-   "title": "Snapdragon 8 Elite Gen 6 series to power Xiaomi 18 Pro series, iQOO 16, OnePlus 16, HONOR Magic9 series and more",
-   "url": "https://www.fonearena.com/blog/493105/snapdragon-8-elite-gen-6-series-smartphones.html",
-   "source": "fonearena",
-   "kind": "news",
-   "published": "2026-09-23T05:08+00:00",
-   "devices": [],
-   "image": "https://images.fonearena.com/blog/wp-content/uploads/2026/09/Xiaomi-18-Pro-Series-Snapdragon-8-Elite-Gen-6-Series.jpg"
-  },
-  {
    "id": "b344ee7695db",
    "title": "Samsung x DOMINNICO makes Galaxy Z Fold 8 mini fashion accessories",
    "url": "https://www.sammyfans.com/2026/09/23/samsung-x-dominnico-makes-galaxy-z-fold-8-mini-fashion-accessories/",
@@ -292,18 +508,10 @@
    "source": "gizmochina",
    "kind": "news",
    "published": "2026-09-23T03:25+00:00",
-   "devices": [],
+   "devices": [
+    "motorola-signature-27"
+   ],
    "image": "https://www.gizmochina.com/wp-content/uploads/2026/09/motorola-signature-lifestyle-2-300x169.png?x96852"
-  },
-  {
-   "id": "a8931bc4b7ca",
-   "title": "motorola Signature 27 with Snapdragon 8 Elite Extreme Gen 6, 200MP periscope telephoto camera unveiled",
-   "url": "https://www.fonearena.com/blog/493106/motorola-signature-27-teaser.html",
-   "source": "fonearena",
-   "kind": "news",
-   "published": "2026-09-23T02:38+00:00",
-   "devices": [],
-   "image": "https://images.fonearena.com/blog/wp-content/uploads/2026/09/motorola-signature-27-1024x966.jpg"
   },
   {
    "id": "0dd77cf7bab5",
@@ -526,7 +734,9 @@
    "source": "gsmarena",
    "kind": "news",
    "published": "2026-09-22T20:02+00:00",
-   "devices": [],
+   "devices": [
+    "motorola-signature-27"
+   ],
    "image": null
   },
   {
@@ -546,7 +756,9 @@
    "source": "engadget",
    "kind": "news",
    "published": "2026-09-22T20:00+00:00",
-   "devices": [],
+   "devices": [
+    "motorola-signature-27"
+   ],
    "image": "https://www.engadget.com/img/gallery/motorolas-new-signature-27-smartphone-is-among-the-first-to-use-the-snapdragon-8-elite-extreme-gen-6-processor/l-intro-1790097353.jpg"
   },
   {
@@ -566,7 +778,9 @@
    "source": "android-police",
    "kind": "news",
    "published": "2026-09-22T20:00+00:00",
-   "devices": [],
+   "devices": [
+    "motorola-signature-27"
+   ],
    "image": "https://static0.anpoimages.com/wordpress/wp-content/uploads/2026/09/motorola-signature-27.jpg"
   },
   {
@@ -642,16 +856,6 @@
    "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/09/iphone-18-pro-front-dynamic-island.jpg?quality=82&strip=all&w=1600"
   },
   {
-   "id": "e46d08c57649",
-   "title": "Samsung reportedly plans battery security chips for Galaxy phones",
-   "url": "https://www.sammyfans.com/2026/09/22/samsung-plans-battery-security-chips-for-galaxy-phones/",
-   "source": "sammyfans",
-   "kind": "news",
-   "published": "2026-09-22T17:10+00:00",
-   "devices": [],
-   "image": null
-  },
-  {
    "id": "54f309a83a41",
    "title": "Oppo Find X10 and Find X10 E are official too, here are their specs and pricing details",
    "url": "https://www.gsmarena.com/oppo_find_x10_and_find_x10_e_are_official_too_here_are_their_specs_and_pricing_details-news-74716.php",
@@ -660,16 +864,6 @@
    "published": "2026-09-22T17:01+00:00",
    "devices": [],
    "image": null
-  },
-  {
-   "id": "133e87b03ecc",
-   "title": "I replaced Gemini with a local AI model on my phone; battery drain was surprisingly low",
-   "url": "https://www.androidpolice.com/replaced-gemini-with-local-ai-model-on-my-phone-and-battery-drain-was-surprisingly-low/",
-   "source": "android-police",
-   "kind": "news",
-   "published": "2026-09-22T17:00+00:00",
-   "devices": [],
-   "image": "https://static0.anpoimages.com/wordpress/wp-content/uploads/2026/09/robotic-hand-gemma-ai-model.jpg"
   },
   {
    "id": "d51ec1cd2daa",
@@ -690,16 +884,6 @@
    "published": "2026-09-22T16:36+00:00",
    "devices": [],
    "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/Oppo-Find-X10-news-launch.png"
-  },
-  {
-   "id": "f2bd3edb8a89",
-   "title": "This new Samsung One UI feature is awful; there's no way to turn it off",
-   "url": "https://www.androidpolice.com/this-new-samsung-one-ui-feature-is-awful-and-there-is-no-way-to-turn-it-off/",
-   "source": "android-police",
-   "kind": "news",
-   "published": "2026-09-22T16:15+00:00",
-   "devices": [],
-   "image": "https://static0.anpoimages.com/wordpress/wp-content/uploads/wm/2026/02/galaxy-s26-ultra-and-galaxy-s25-ultra.JPG"
   },
   {
    "id": "51cdacf0d14b",
@@ -724,18 +908,6 @@
    "image": "https://www.gizmochina.com/wp-content/uploads/2026/09/Screenshot-2026-09-22-212727-300x169.png?x96852"
   },
   {
-   "id": "4d1975d1feff",
-   "title": "Galaxy Z Fold 8 pulling in more switchers in Southeast Asia and Oceania",
-   "url": "https://www.sammyfans.com/2026/09/22/samsung-galaxy-z-fold-8-sales-southeast-asia-and-oceania/",
-   "source": "sammyfans",
-   "kind": "news",
-   "published": "2026-09-22T16:12+00:00",
-   "devices": [
-    "samsung-galaxy-z-fold8"
-   ],
-   "image": "https://www.sammyfans.com/wp-content/uploads/2026/07/samsung-galaxy-z-fold-8-sgf8-img-1024x576.jpg"
-  },
-  {
    "id": "59b24b8e2b00",
    "title": "Deals: M5 MacBook Air up to $300 off, M4 iPad Air $100+ off, AirPods Pro 3, Studio Display, more",
    "url": "https://9to5mac.com/2026/09/22/deals-macbook-air-ipad-air-airpods-pro-3-studio-display/",
@@ -754,28 +926,6 @@
    "published": "2026-09-22T15:28+00:00",
    "devices": [],
    "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/09/iphone-duo-ipad-mini-comparison.jpg?quality=82&strip=all&w=1600"
-  },
-  {
-   "id": "82d6c8f2103c",
-   "title": "Samsung may add a security chip to its phone batteries for your protection",
-   "url": "https://www.sammobile.com/news/samsung-may-add-a-security-chip-to-its-phone-batteries-for-your-protection/",
-   "source": "sammobile",
-   "kind": "news",
-   "published": "2026-09-22T15:11+00:00",
-   "devices": [],
-   "image": null
-  },
-  {
-   "id": "3de5eb9eab6d",
-   "title": "Five reasons to stick with your iPhone 17 Pro instead of upgrading to the 18 Pro",
-   "url": "https://www.engadget.com/2262360/reasons-keep-iphone-17-pro-instead-of-upgrading-iphone-18-pro/",
-   "source": "engadget",
-   "kind": "news",
-   "published": "2026-09-22T15:00+00:00",
-   "devices": [
-    "apple-iphone-17-pro"
-   ],
-   "image": "https://www.engadget.com/img/gallery/five-reasons-to-stick-with-your-iphone-17-pro-instead-of-upgrading-to-the-18-pro/l-intro-1789746020.jpg"
   },
   {
    "id": "fe015a3d9a74",
@@ -854,16 +1004,6 @@
    "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/06/ios-27-iphone-default-apple.jpg?quality=82&strip=all&w=1600"
   },
   {
-   "id": "5bfd7ed03bd4",
-   "title": "Apple Announces 'Tap to Pay on iPhone' Availability in 8 More Countries",
-   "url": "https://www.macrumors.com/2026/09/22/tap-to-pay-on-iphone-8-more-countries/",
-   "source": "macrumors",
-   "kind": "news",
-   "published": "2026-09-22T13:22+00:00",
-   "devices": [],
-   "image": "https://images.macrumors.com/article-new/2026/09/Tap-to-Pay-on-iPhone-General.jpg"
-  },
-  {
    "id": "cf628273bcbb",
    "title": "Oppo Find X10 Pro Max official as world’s first phone with three 200MP cameras",
    "url": "https://www.gizmochina.com/2026/09/22/oppo-find-x10-pro-max-official-as-worlds-first-phone-with-three-200mp-cameras/",
@@ -914,18 +1054,6 @@
    "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/09/radarscope-carplay.webp?w=1500"
   },
   {
-   "id": "73f32c995816",
-   "title": "Galaxy A16 5G may get One UI 9.0 (Android 17) beta program",
-   "url": "https://www.sammobile.com/news/galaxy-a16-5g-may-get-one-ui-9-0-android-17-beta-program/",
-   "source": "sammobile",
-   "kind": "news",
-   "published": "2026-09-22T11:49+00:00",
-   "devices": [
-    "samsung-galaxy-a16-5g"
-   ],
-   "image": null
-  },
-  {
    "id": "6a4f49aea3d2",
    "title": "iQOO officially reveals gaming tablet with 8.8-inch display and 5,000Hz touch sampling",
    "url": "https://www.notebookcheck.net/iQOO-officially-reveals-gaming-tablet-with-8-8-inch-display-and-5-000Hz-touch-sampling.1404981.0.html",
@@ -966,18 +1094,6 @@
    "image": "https://www.gizmochina.com/wp-content/uploads/2026/09/Home-Page-Hero-Banner_Desktop_1920X850_2-300x169.jpg?x96852"
   },
   {
-   "id": "46ad64305b1b",
-   "title": "Samsung opens One UI 9.0 beta program for Galaxy A07 5G",
-   "url": "https://www.sammobile.com/news/samsung-opens-one-ui-9-0-beta-program-galaxy-a07-5g/",
-   "source": "sammobile",
-   "kind": "news",
-   "published": "2026-09-22T10:55+00:00",
-   "devices": [
-    "samsung-galaxy-a07-5g"
-   ],
-   "image": null
-  },
-  {
    "id": "a783a449db65",
    "title": "Xiaomi made an iPhone Duo. It’s Unhinged.",
    "url": "https://www.youtube.com/watch?v=eYBEJBfq_Zs",
@@ -986,18 +1102,6 @@
    "published": "2026-09-22T10:48+00:00",
    "devices": [],
    "image": "https://i2.ytimg.com/vi/eYBEJBfq_Zs/hqdefault.jpg"
-  },
-  {
-   "id": "65b5ed5a3b3e",
-   "title": "One UI 9 beta comes to Galaxy M34",
-   "url": "https://www.sammobile.com/news/galaxy-m34-one-ui-9-beta-update-released/",
-   "source": "sammobile",
-   "kind": "news",
-   "published": "2026-09-22T10:34+00:00",
-   "devices": [
-    "samsung-galaxy-m34-5g"
-   ],
-   "image": "https://www.sammobile.com/wp-content/uploads/2026/09/Samsung-Galaxy-M34-One-UI-9.0-Beta-Program-Update-India-1920x2080.jpg"
   },
   {
    "id": "66f335803575",
@@ -1040,26 +1144,6 @@
    "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/ROllme-Matrix-smartwatch.png"
   },
   {
-   "id": "8eae2fe79aa8",
-   "title": "OnePlus surprises with a Unisoc chip in its new budget phone",
-   "url": "https://www.gizmochina.com/2026/09/22/oneplus-n6-lite-unisoc-chip-launch-specs-price/",
-   "source": "gizmochina",
-   "kind": "news",
-   "published": "2026-09-22T09:10+00:00",
-   "devices": [],
-   "image": "https://www.gizmochina.com/wp-content/uploads/2026/09/OnePlus-N6-Lite-Launch-Specs-Price-300x200.jpg?x96852"
-  },
-  {
-   "id": "64a27d60ffb2",
-   "title": "Here’s when the Vivo X500 Ultra will launch",
-   "url": "https://www.gizmochina.com/2026/09/22/vivo-x500-ultra-launch-timeframe-confirmed/",
-   "source": "gizmochina",
-   "kind": "news",
-   "published": "2026-09-22T08:29+00:00",
-   "devices": [],
-   "image": "https://www.gizmochina.com/wp-content/uploads/2026/09/Vivo-X500-Ultra-300x225.jpg?x96852"
-  },
-  {
    "id": "454a18d66691",
    "title": "This new tablet offers nearly 30 hours of battery life",
    "url": "https://www.notebookcheck.net/This-new-tablet-offers-nearly-30-hours-of-battery-life.1404460.0.html",
@@ -1090,26 +1174,6 @@
    "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/Xiaomi-18-Pro-series-camera-samples-shared.jpg"
   },
   {
-   "id": "6acbae644b16",
-   "title": "Xiaomi 18 Pro series camera specs and samples revealed ahead of launch",
-   "url": "https://www.gsmarena.com/xiaomi_18_pro_series_camera_specs_and_samples_revealed_ahead_of_launch-news-74705.php",
-   "source": "gsmarena",
-   "kind": "news",
-   "published": "2026-09-22T06:30+00:00",
-   "devices": [],
-   "image": null
-  },
-  {
-   "id": "509ea516c62f",
-   "title": "Global Vivo X500 Pro Max to pack smaller battery than the Chinese edition, reveals a major certification",
-   "url": "https://www.gizmochina.com/2026/09/22/vivo-x500-series-global-battery-capacities-revealed/",
-   "source": "gizmochina",
-   "kind": "news",
-   "published": "2026-09-22T06:14+00:00",
-   "devices": [],
-   "image": "https://www.gizmochina.com/wp-content/uploads/2026/09/Vivo-X500-Pro-Max-featured-300x166.jpg?x96852"
-  },
-  {
    "id": "0d922e736a97",
    "title": "RedMagic reveals new flagship gaming phone with slim bezels and light build",
    "url": "https://www.notebookcheck.net/RedMagic-reveals-new-flagship-gaming-phone-with-slim-bezels-and-light-build.1405418.0.html",
@@ -1118,28 +1182,6 @@
    "published": "2026-09-22T05:49+00:00",
    "devices": [],
    "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/RedMagic-12-Pro-Plus-teaser-reveal-initial-design-elements.jpg"
-  },
-  {
-   "id": "fcc0cd844586",
-   "title": "Vivo Camera Screen gives the X500 series the rear display Xiaomi’s 18 Pro has",
-   "url": "https://www.gizmochina.com/2026/09/22/vivo-camera-screen-gives-the-x500-series-the-rear-display-xiaomis-18-pro-has/",
-   "source": "gizmochina",
-   "kind": "news",
-   "published": "2026-09-22T05:29+00:00",
-   "devices": [],
-   "image": "https://www.gizmochina.com/wp-content/uploads/2026/09/Vivo-Camera-Screen-launch-specs-price-300x200.jpg?x96852"
-  },
-  {
-   "id": "8974efe5f201",
-   "title": "Oppo A7 Pro Max makes its global debut, here's how much it costs in Europe",
-   "url": "https://www.gsmarena.com/oppo_a7_pro_max_makes_its_global_debut_heres_how_much_it_costs_in_europe-news-74704.php",
-   "source": "gsmarena",
-   "kind": "news",
-   "published": "2026-09-22T03:01+00:00",
-   "devices": [
-    "oppo-a7-pro-max"
-   ],
-   "image": null
   },
   {
    "id": "5c41df438261",
@@ -1262,26 +1304,6 @@
    "published": "2026-09-21T17:36+00:00",
    "devices": [],
    "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/Vivo-Watch-6-released-kv.jpg"
-  },
-  {
-   "id": "bedd001b3a1f",
-   "title": "Motorola's GrapheneOS phone is teased with wild camera specs and an audio partnership",
-   "url": "https://www.notebookcheck.net/Motorola-s-GrapheneOS-phone-is-teased-with-wild-camera-specs-and-an-audio-partnership.1404834.0.html",
-   "source": "notebookcheck",
-   "kind": "news",
-   "published": "2026-09-21T16:53+00:00",
-   "devices": [],
-   "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/IMG_20260921_234620.jpg"
-  },
-  {
-   "id": "eb8fed740a95",
-   "title": "Vivo X500 Pro series launches with new flagship SoC, tweaked Zeiss camera setup, and up to 8,000mAh battery",
-   "url": "https://www.notebookcheck.net/Vivo-X500-Pro-series-launches-with-new-flagship-SoC-tweaked-Zeiss-camera-setup-and-up-to-8-000mAh-battery.1404721.0.html",
-   "source": "notebookcheck",
-   "kind": "news",
-   "published": "2026-09-21T13:50+00:00",
-   "devices": [],
-   "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/Vivo-launches-X500-Pro-series.jpg"
   },
   {
    "id": "66833ab5cd85",
@@ -1488,7 +1510,9 @@
    "source": "mrwhosetheboss",
    "kind": "video",
    "published": "2026-08-12T14:00+00:00",
-   "devices": [],
+   "devices": [
+    "google-pixel-11"
+   ],
    "image": "https://i4.ytimg.com/vi/oaaOwLnuyPU/hqdefault.jpg"
   }
  ]

@@ -552,7 +552,7 @@ const HELP = [
   [/\b(exchange|currency|convert|conversion|ringgit|usd rate)\b/, () => html`<p>Exchange rates in use: ${ratesLabel()}. Converted prices are marked ≈ and are estimates; recorded Malaysian launch prices are always shown first.</p>`],
   [/\b(badge|lab|off\b|confidence|evidence class|what does .{0,20}mean)/, () => html`<p>Every value carries its evidence type: OFF is the maker's own specification, LAB an independent measurement, DB a benchmark database, NEWS a news report, and CALC or EST values the platform calculated or estimated. Confidence (the bars) reflects how many independent sources agree. <a href="${href('/methodology')}">More on evidence</a>.</p>`],
   [/\b(sources?|where .{0,20}(data|information) come|trust|reliable)\b/, () => html`<p>Specifications come from each maker's official pages (or Malaysian launch coverage when a page is gone), prices from Malaysian launch articles, and tests from registered labs and reviewers. Every device page lists its sources with links, and the <a href="${href('/methodology')}">source registry</a> explains each one.</p>`],
-  [/\b(who are you|what (can|do) you|help|how do i use|what can i ask)\b/, () => html`<p>I answer from this site's data only and won't guess (switch on AI answers above for a conversational summary from a small model on your device). Try:</p><ul class="ask__list"><li>a device and a detail: "Galaxy S25 battery"</li><li>an opinion from the scores: "Is the Redmi Note 14 worth it?", "Is it good for gaming?"</li><li>a yes/no check: "Does the iPhone 16 have eSIM?"</li><li>two devices: "Galaxy S25 vs iPhone 16"</li><li>a ranking or list: "lightest phone under RM2,000", "Huawei watches 2025"</li><li>a term: "What is LTPO?"</li></ul>`],
+  [/\b(who are you|what (can|do) you|help|how do i use|what can i ask)\b/, () => html`<p>I answer from this site's data only and won't guess (switch on AI answers above for a conversational summary from a small model on your device). Try:</p><ul class="ask__list"><li>a device and a detail: "Galaxy S26 battery"</li><li>an opinion from the scores: "Is the Redmi Note 17 worth it?", "Is it good for gaming?"</li><li>a yes/no check: "Does the iPhone 17 have eSIM?"</li><li>two devices: "Galaxy S26 vs iPhone 17"</li><li>a ranking or list: "lightest phone under RM2,000", "Huawei watches 2025"</li><li>a term: "What is LTPO?"</li></ul>`],
 ];
 
 // ------------------------------------------------------------------ "is it good?": a verdict from the site's own scores
@@ -811,7 +811,7 @@ function glossary(norm) {
 
 // ------------------------------------------------------------------ small talk
 const SMALL_TALK = [
-  [/^(hi|hello|hey|hiya|helo|hai|yo|good (morning|afternoon|evening)|greetings|salam|assalamualaikum)( there| hub)?$/, () => html`<p>Hi! Ask me about any phone, watch or band in this database. For example: "Is the Galaxy S25 good for gaming?", "Does the iPhone 16 have eSIM?", "Redmi Note 14 vs Galaxy A26" or "best phone under RM1,500".</p>`],
+  [/^(hi|hello|hey|hiya|helo|hai|yo|good (morning|afternoon|evening)|greetings|salam|assalamualaikum)( there| hub)?$/, () => html`<p>Hi! Ask me about any phone, watch or band in this database. For example: "Is the Galaxy S26 good for gaming?", "Does the iPhone 17 have eSIM?", "Redmi Note 17 vs Galaxy A27" or "best phone under RM1,500".</p>`],
   [/^(thanks?|thank you( very much| so much)?|thx|ty|tq|tqvm|cheers|terima kasih|great thanks|ok thanks|okay thanks)$/, () => html`<p>You're welcome. Ask another question any time.</p>`],
   [/^(bye|goodbye|see you|see ya|ok bye|that s all)$/, () => html`<p>Bye! The conversation is cleared each time the panel opens.</p>`],
   [/^(ok(ay)?|cool|nice|great|good|alright|i see|noted|got it|wow|hmm+)$/, () => html`<p>Anything else you'd like to check? You can ask about a device, compare two, or ask for a ranking.</p>`],
@@ -933,7 +933,7 @@ export async function ask(question, context = {}) {
   // "does it good?", "is it worth it?" with no device on the page or earlier in the chat
   if (!ids.length && (pronoun || ((feats.length || evaluative) && /^(does|do|is|are|has|have|can)\b/.test(norm))) && !category && !detectBrands(norm).length && !detectMaxPrice(text)) {
     return {
-      html: html`<p>Which device do you mean? Name it in the question, for example "Is the Galaxy S25 good?" or "Does the Redmi Note 14 have NFC?", or open a device page and ask there.</p>`,
+      html: html`<p>Which device do you mean? Name it in the question, for example "Is the Galaxy S26 good?" or "Does the Redmi Note 17 have NFC?", or open a device page and ask there.</p>`,
     };
   }
   // "which is lighter, it or the Pixel 10?": the earlier device plus the one just named
@@ -996,8 +996,8 @@ export async function ask(question, context = {}) {
   const hits = (await search(text, { limit: 5 })).filter((h) => h.type === 'device' || h.type === 'chipset');
   return {
     html: hits.length
-      ? html`<p>I'm not sure what you're asking. Did you mean one of these?</p><ul class="ask__list">${hits.map((h) => html`<li><a href="${href(h.type === 'device' ? `/device/${h.id}` : `/chipset/${h.id}`)}">${h.title ?? h.name}</a></li>`)}</ul><p class="ask__src">Try naming a device and a detail, such as "battery of the Galaxy S25".</p>`
-      : html`<p>I couldn't match that to a device or a topic in this database. Try a model name ("Redmi Note 14"), a comparison ("S25 vs iPhone 16") or a ranking ("lightest phone under RM2,000"). I only answer from this site's data.</p>`,
+      ? html`<p>I'm not sure what you're asking. Did you mean one of these?</p><ul class="ask__list">${hits.map((h) => html`<li><a href="${href(h.type === 'device' ? `/device/${h.id}` : `/chipset/${h.id}`)}">${h.title ?? h.name}</a></li>`)}</ul><p class="ask__src">Try naming a device and a detail, such as "battery of the Galaxy S26".</p>`
+      : html`<p>I couldn't match that to a device or a topic in this database. Try a model name ("Redmi Note 17"), a comparison ("S26 vs iPhone 17") or a ranking ("lightest phone under RM2,000"). I only answer from this site's data.</p>`,
   };
 }
 
@@ -1339,5 +1339,5 @@ export function suggestions(context = {}) {
       ? ['Is it any good?', 'How long does its battery last?', 'Is it water resistant?', 'Does it have GPS?', 'Compare it with its rivals']
       : ['Is it worth buying?', 'Is it good for gaming?', `What's the battery and charging?`, 'Does it have NFC and eSIM?', 'Compare it with its rivals'];
   }
-  return ['Best phone under RM2,000', 'Is the Galaxy S25 worth it?', 'Galaxy S25 vs iPhone 16', 'Longest battery smartwatch', 'What is IP68?', 'How are scores calculated?'];
+  return ['Best phone under RM2,000', 'Is the Galaxy S26 worth it?', 'Galaxy S26 vs iPhone 17', 'Longest battery smartwatch', 'What is IP68?', 'How are scores calculated?'];
 }

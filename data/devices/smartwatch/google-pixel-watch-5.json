@@ -1,0 +1,102 @@
+{
+  "id": "google-pixel-watch-5",
+  "name": "Pixel Watch 5",
+  "brand": "google",
+  "category": "smartwatch",
+  "series": "Pixel Watch",
+  "form": "watch",
+  "status": "released",
+  "announced": "2026-08-12",
+  "released": "2026-08-20",
+  "segment": "flagship",
+  "aliases": [
+    "PW5",
+    "Pixel Watch5"
+  ],
+  "summary": "Google's 2026 domed-display watch: Snapdragon W5 Gen 2, up to 40 hours with the display always on (45 mm), and ultra-wideband.",
+  "highlights": [
+    "Domed Actua 360 display, 3,000 nits",
+    "Up to 40 h (45 mm)",
+    "Satellite SOS (LTE models)"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1799,
+      "config": "41 mm",
+      "date": "2026-08-12",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2026/08/12/google-pixel-11-pro-pixel-11-pro-fold-watch-5-malaysia-price/",
+      "class": "news",
+      "accessed": "2026-09-23"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1999,
+      "config": "45 mm",
+      "date": "2026-08-12",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2026/08/12/google-pixel-11-pro-pixel-11-pro-fold-watch-5-malaysia-price/",
+      "class": "news",
+      "accessed": "2026-09-23"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_mm": "41 / 45 mm",
+      "type": "Actua 360 domed AMOLED, 320 ppi",
+      "peak_nits": 3000,
+      "protection": "Custom 3D Corning Gorilla Glass 5"
+    },
+    "platform": {
+      "chipset": "snapdragon-w5-gen-2"
+    },
+    "battery": {
+      "capacity_mah": 465,
+      "life_h": 40,
+      "claim": "45 mm: 465 mAh, up to 40 h with always-on display (72 h Battery Saver); 41 mm: 332 mAh, up to 30 h"
+    },
+    "health": {
+      "sensors": [
+        "Multi-path optical heart rate",
+        "Electrical heart (ECG)",
+        "Blood oxygen",
+        "Skin temperature",
+        "cEDA"
+      ]
+    },
+    "build": {
+      "water": "5ATM + IP68",
+      "water_m": 50,
+      "ip": "IP68",
+      "weight_g": 36.7,
+      "depth_mm": 12.3
+    },
+    "connectivity": {
+      "cellular": "LTE (optional)",
+      "satellite": true,
+      "nfc": true,
+      "bluetooth": "Bluetooth 6.0",
+      "wifi": "Wi-Fi 6 (802.11ax)",
+      "uwb": true,
+      "compatibility": "Android only"
+    },
+    "software": {
+      "launch_os": "Wear OS 7"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "google",
+      "url": "https://support.google.com/googlepixelwatch/answer/12651869?hl=en",
+      "checked": "2026-09-23",
+      "note": "Read from Google's Pixel Watch technical specifications page; battery and weight are for the 45 mm model (41 mm: 332 mAh, 31.0 g)."
+    }
+  },
+  "dataStatus": "checked"
+}

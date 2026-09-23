@@ -12,8 +12,8 @@ import { scoreBars } from '../ui/charts.js';
 import { metricLeaderboard, profileLeaderboard } from '../engine/scoring.js';
 
 const EXAMPLES = [
-  'Galaxy S26 Ultra vs iPhone 17 Pro Max',
-  'Xiaomi 17 Ultra vs vivo X300 Pro for photography',
+  'Galaxy S26 Ultra vs iPhone 18 Pro Max',
+  'Xiaomi 17 Ultra vs vivo X300 Ultra for photography',
   'best gaming phone under RM4,000',
   'Snapdragon 8 Elite Gen 5 phones',
 ];
@@ -38,7 +38,7 @@ function hero() {
       <p class="hero__lede">Specifications, independent lab results, reviewer findings and news for ${c.devices} devices. Every number is traced to its source and rated for confidence, and scores explain <em>why</em> one device wins.</p>
       <form class="searchbox searchbox--hero" role="search" data-hero-search>
         ${icon('search', { size: 22 })}
-        <input type="search" name="q" placeholder="Try “S26 Ultra vs iPhone 17 Pro Max” or “Dimensity 9500”" autocomplete="off" aria-label="Search devices, chipsets and news, or type a comparison" />
+        <input type="search" name="q" placeholder="Try “S26 Ultra vs iPhone 18 Pro Max” or “Dimensity 9500”" autocomplete="off" aria-label="Search devices, chipsets and news, or type a comparison" />
         <button class="btn btn--primary" type="submit">Search</button>
       </form>
       <div class="hero__examples small">

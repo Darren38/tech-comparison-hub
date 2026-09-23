@@ -41,7 +41,8 @@ DATE_RE = re.compile(r"^\d{4}(-\d{2}(-\d{2})?)?$")
 OFFICIAL_IMAGE_HOSTS = {"images.samsung.com", "cdsassets.apple.com", "www.apple.com", "www.honor.com", "www-file.honor.com",
                         "consumer.huawei.com", "consumer-img.huawei.com", "i02.appmifile.com", "i01.appmifile.com", "cdn.cnbj1.fds.api.mi-img.com",
                         "www.oppo.com", "image01.oppo.com", "asia-exstatic-vivofs.vivo.com", "asia-exstatic.vivo.com", "www.iqoo.com",
-                        "dlcdnwebimgs.asus.com", "global.redmagic.gg", "static2.realme.net", "image01.realme.net"}
+                        "dlcdnwebimgs.asus.com", "global.redmagic.gg", "static2.realme.net", "image01.realme.net",
+                        "www.oneplus.com"}
 
 
 # ----------------------------------------------------------------------------- reporting
@@ -266,7 +267,7 @@ def validate(ds: Dataset) -> None:
                 host = re.sub(r"^https?://([^/]+)/.*$", r"\1", src)
                 if host not in OFFICIAL_IMAGE_HOSTS:
                     r.error(f"{label}: official images must come from a manufacturer server ({', '.join(sorted(OFFICIAL_IMAGE_HOSTS))}), not '{host}'")
-                if not re.match(r"https?://[^/]*((samsung|apple|honor|huawei|mi|oppo|vivo|iqoo|asus|realme)\.com|redmagic\.gg)/", page):
+                if not re.match(r"https?://[^/]*((samsung|apple|honor|huawei|mi|oppo|vivo|iqoo|asus|realme|oneplus)\.com|redmagic\.gg)/", page):
                     r.error(f"{label}: page must link to the manufacturer page the image was taken from")
                 if not image.get("credit"):
                     r.error(f"{label}: official images need a 'credit' (the manufacturer site)")

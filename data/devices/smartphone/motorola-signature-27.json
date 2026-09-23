@@ -1,0 +1,53 @@
+{
+  "id": "motorola-signature-27",
+  "name": "Motorola Signature 27",
+  "brand": "motorola",
+  "category": "smartphone",
+  "series": "Signature",
+  "form": "bar",
+  "status": "announced",
+  "announced": "2026-09-22",
+  "segment": "flagship",
+  "aliases": [
+    "Signature 27",
+    "moto Signature 27"
+  ],
+  "summary": "Motorola's first phone on the Snapdragon 8 Elite Extreme Gen 6, with a 50 MP main camera and a 200 MP periscope. Announced; price and release date not yet given.",
+  "highlights": [
+    "Snapdragon 8 Elite Extreme Gen 6",
+    "200 MP periscope telephoto",
+    "Seven years of software updates"
+  ],
+  "specs": {
+    "platform": {
+      "chipset": "snapdragon-8-elite-extreme-gen-6"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "note": "Sony LYTIA 910"
+        },
+        {
+          "role": "periscope",
+          "mp": 200
+        }
+      ]
+    },
+    "software": {
+      "security_updates_years": 7,
+      "policy_note": "Motorola promises seven years of software updates, as reported at the announcement."
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "news",
+      "source": "techadvisor",
+      "url": "https://www.techadvisor.com/article/3240884/motorola-signature-27-official-specs-design-but-no-price-or-release-date.html",
+      "checked": "2026-09-23",
+      "note": "From Tech Advisor's report of the announcement; only what was confirmed is recorded. Motorola's own pages refuse automated reading."
+    }
+  },
+  "dataStatus": "checked"
+}

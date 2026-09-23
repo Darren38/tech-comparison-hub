@@ -17,15 +17,15 @@
     "CNY"
   ],
   "conversionNote": "Converted prices are estimates: they ignore local taxes, bundles and regional pricing. A recorded local launch price is always shown in preference to a conversion, and converted prices are never used for value scoring. China launch prices are converted last because they are often far below other markets.",
-  "session": "12:00",
-  "fetchedAt": "2026-09-23T07:47:30+00:00",
+  "session": "17:00",
+  "fetchedAt": "2026-09-23T11:46:43+00:00",
   "currencies": [
     {"code": "MYR", "name": "Malaysian ringgit", "label": "RM · MYR", "toMYR": 1, "region": "MY", "regionName": "Malaysia"},
-    {"code": "USD", "name": "US dollar", "label": "$ · USD", "toMYR": 4.075, "region": "US", "regionName": "the US"},
-    {"code": "EUR", "name": "Euro", "label": "€ · EUR", "toMYR": 4.6565, "region": "EU", "regionName": "the EU"},
-    {"code": "GBP", "name": "British pound", "label": "£ · GBP", "toMYR": 5.4263, "region": "UK", "regionName": "the UK"},
-    {"code": "SGD", "name": "Singapore dollar", "label": "S$ · SGD", "toMYR": 3.1932, "region": "SG", "regionName": "Singapore"},
-    {"code": "CNY", "name": "Chinese yuan", "label": "CN¥ · CNY", "toMYR": 0.6078, "region": "CN", "regionName": "China"},
-    {"code": "INR", "name": "Indian rupee", "label": "₹ · INR", "toMYR": 0.04261, "region": "IN", "regionName": "India"}
+    {"code": "USD", "name": "US dollar", "label": "$ · USD", "toMYR": 4.078, "region": "US", "regionName": "the US"},
+    {"code": "EUR", "name": "Euro", "label": "€ · EUR", "toMYR": 4.6563, "region": "EU", "regionName": "the EU"},
+    {"code": "GBP", "name": "British pound", "label": "£ · GBP", "toMYR": 5.4246, "region": "UK", "regionName": "the UK"},
+    {"code": "SGD", "name": "Singapore dollar", "label": "S$ · SGD", "toMYR": 3.1925, "region": "SG", "regionName": "Singapore"},
+    {"code": "CNY", "name": "Chinese yuan", "label": "CN¥ · CNY", "toMYR": 0.6082, "region": "CN", "regionName": "China"},
+    {"code": "INR", "name": "Indian rupee", "label": "₹ · INR", "toMYR": 0.042599, "region": "IN", "regionName": "India"}
   ]
 }

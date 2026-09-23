@@ -34,14 +34,11 @@
     }
   ],
   "image": {
-    "kind": "photo",
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/The_back_of_the_Honor_Magic8_Pro.jpg/500px-The_back_of_the_Honor_Magic8_Pro.jpg",
-    "page": "https://commons.wikimedia.org/wiki/File:The_back_of_the_Honor_Magic8_Pro.jpg",
-    "title": "The back of the Honor Magic8 Pro",
-    "author": "X-SHLIED",
-    "license": "CC BY 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-    "checked": "2026-09-17"
+    "kind": "official",
+    "src": "https://www-file.honor.com/content/dam/honor/common/product-list/product-series/honor-magic8-pro/magic8-pro-id-black-back.png",
+    "page": "https://www.honor.com/my/phones/honor-magic8-pro/spec/",
+    "credit": "HONOR Malaysia",
+    "checked": "2026-09-23"
   },
   "specs": {
     "display": {

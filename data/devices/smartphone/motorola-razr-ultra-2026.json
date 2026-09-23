@@ -1,0 +1,110 @@
+{
+  "id": "motorola-razr-ultra-2026",
+  "name": "Motorola razr ultra (2026)",
+  "brand": "motorola",
+  "category": "smartphone",
+  "series": "razr",
+  "form": "foldable",
+  "status": "released",
+  "announced": "2026-04-29",
+  "released": "2026-05-14",
+  "segment": "flagship",
+  "aliases": [
+    "razr ultra 2026",
+    "razr 70 Ultra",
+    "Razr Ultra 2026"
+  ],
+  "summary": "Motorola's 2026 flip flagship: a 7-inch 165 Hz inner screen, a 4-inch cover screen, two 50 MP rear cameras and 68 W charging.",
+  "highlights": [
+    "7-inch 165 Hz inner screen",
+    "68 W wired, 30 W wireless",
+    "50 MP front camera"
+  ],
+  "prices": [
+    {
+      "region": "US",
+      "currency": "USD",
+      "amount": 1499,
+      "config": "16 GB / 512 GB",
+      "date": "2026-04-29",
+      "type": "launch",
+      "source": "androidauthority",
+      "url": "https://www.androidauthority.com/moto-razr-2026-3660326/",
+      "class": "news",
+      "accessed": "2026-09-23"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 7.0,
+      "type": "AMOLED (inner); 4-inch 165 Hz AMOLED cover screen",
+      "resolution": "2992 × 1224",
+      "refresh_hz": 165,
+      "peak_nits": 5000,
+      "protection": "Ultra Thin Glass (inner)"
+    },
+    "platform": {
+      "chipset": "snapdragon-8-elite"
+    },
+    "memory": {
+      "ram_gb": [
+        16
+      ],
+      "storage_gb": [
+        512
+      ]
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "charging": {
+      "wired_w": 68,
+      "wireless_w": 30
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50
+        },
+        {
+          "role": "ultrawide",
+          "mp": 50
+        }
+      ],
+      "zoom_optical_x": 1,
+      "front": "50 MP"
+    },
+    "build": {
+      "ip": "IP48",
+      "weight_g": 199,
+      "dimensions": {
+        "height_mm": 171.48,
+        "width_mm": 73.99,
+        "depth_mm": 7.19
+      }
+    },
+    "software": {
+      "launch_os": "Android 16"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "news",
+      "source": "androidauthority",
+      "url": "https://www.androidauthority.com/moto-razr-2026-3660326/",
+      "checked": "2026-09-23",
+      "note": "From Android Authority's specification list; Motorola's own pages refuse automated reading. Dimensions are open (closed: 88.12 × 73.99 × 15.69 mm)."
+    },
+    "fields": {
+      "specs.camera.zoom_optical_x": {
+        "class": "news",
+        "source": "androidauthority",
+        "url": "https://www.androidauthority.com/moto-razr-2026-3660326/",
+        "checked": "2026-09-23",
+        "note": "No telephoto camera: a main and an ultra-wide camera only."
+      }
+    }
+  },
+  "dataStatus": "checked"
+}

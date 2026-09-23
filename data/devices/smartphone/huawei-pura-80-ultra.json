@@ -34,14 +34,11 @@
     }
   ],
   "image": {
-    "kind": "photo",
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Huawei_Pura80_Ultra_back.jpg/500px-Huawei_Pura80_Ultra_back.jpg",
-    "page": "https://commons.wikimedia.org/wiki/File:Huawei_Pura80_Ultra_back.jpg",
-    "title": "Huawei Pura80 Ultra back",
-    "author": "Maksdroider",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "checked": "2026-09-19"
+    "kind": "official",
+    "src": "https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/phones/pura80-ultra/specs-black.png",
+    "page": "https://consumer.huawei.com/my/phones/pura80-ultra/specs/",
+    "credit": "Huawei Malaysia",
+    "checked": "2026-09-23"
   },
   "specs": {
     "display": {

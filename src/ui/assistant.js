@@ -58,7 +58,7 @@ function renderChips(el, ctx) {
 function renderLog(log) {
   mount(log, html`${history.length ? '' : html`<div class="ask__intro">
       <p><strong>Ask the hub.</strong> I answer from this site's data (specifications, launch prices, tests and their sources), and say so when something isn't recorded.</p>
-      <p>Try "Is it worth buying?", "Does it have NFC?", "Which is better, the Galaxy S25 or the iPhone 16?" or "What is IP68?".</p>
+      <p>Try "Is it worth buying?", "Does it have NFC?", "Which is better, the Galaxy S26 or the iPhone 17?" or "What is IP68?".</p>
       <p class="ask__src">Switch on <strong>AI answers</strong> above to ask in your own words or language ("phone for my mum, long battery, below 1.5k"): a free AI model on your own device works out what you mean, looks it up in the site's data and explains it.</p>
     </div>`}${history.map((m) => html`<div class="ask__msg ask__msg--${m.who}">${m.who === 'you' ? html`<p>${m.text}</p>` : m.html}</div>`)}`);
   log.scrollTop = log.scrollHeight;

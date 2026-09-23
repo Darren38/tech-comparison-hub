@@ -1,5 +1,22 @@
 # Changelog
 
+## 23 September 2026 (third update)
+
+The newest flagships everywhere the site suggests a comparison, the flagships launched up to today, and pictures of the phones themselves.
+
+**Newest models by default**
+- Quick compare and the "2026 flagship showdown" now start from the newest flagship of each brand: Galaxy S26 Ultra, iPhone 18 Pro Max, Xiaomi 17 Ultra and vivo X300 Ultra (the iPhone 17 Pro Max and vivo X300 Pro were a generation behind). "Battery kings" now pits the OnePlus 15, HONOR Magic8 Pro and OPPO Find X9 Ultra (7,050–7,300 mAh) against the Galaxy S26 Ultra, and "Premium smartwatches" compares the Apple Watch Ultra 4, Galaxy Watch Ultra 2 and Pixel Watch 5.
+- The search examples, the search box hint and the Ask panel's examples name current models (Galaxy S26, iPhone 17, Redmi Note 17, Galaxy A27 instead of the Galaxy S25, iPhone 16, Redmi Note 14 and Galaxy A26). Each example was asked again and gets a real answer; for "Does the iPhone 17 have eSIM?" the iPhone 17's SIM line was added from Apple's page.
+
+**Flagships launched up to 23 September 2026**
+- Added: Pixel 11 and Pixel 11 Pro Fold (on sale in Malaysia from 20 August, from RM3,999 and RM7,999) and Pixel Watch 5 (RM1,799 / RM1,999), read from Google's own specification pages; Sony Xperia 1 VIII (RM6,499 in Malaysia from 5 August); Motorola razr ultra (2026); and the Motorola Signature 27, announced on 22 September, with the new Snapdragon 8 Elite Extreme Gen 6 added as a chipset. The Signature 27 is marked "announced": only what was confirmed is recorded, and it stays out of the rankings until it goes on sale.
+- Sony's and Motorola's own sites refuse this crawler, so their phones come from SoyaCincau's Malaysian launch report and Android Authority's and Tech Advisor's specification lists, labelled as news.
+- Checked and not added: the vivo X500 series, OPPO Find X10 series and Xiaomi 18 Fold have launched in China only (the site lists these brands' phones once they launch in Malaysia); the HONOR Magic 9 launches on 28 September; Nothing made no Phone (4) this year and ASUS cancelled the ROG Phone 10.
+
+**Pictures of the phone itself**
+- Photographs of phones held in a hand or in a shop were replaced with the makers' own product images or clean drawings: iPhone 17, 17 Pro and 17 Pro Max (Apple), Xiaomi 17 Ultra and 15 Ultra (Xiaomi), vivo X300 and X300 Pro (vivo Malaysia), iQOO 15 (iQOO Malaysia), OnePlus 15 and 13 (OnePlus), HONOR Magic8 Pro (HONOR Malaysia), Huawei Pura 80 Ultra (Huawei Malaysia), and Wikimedia Commons drawings for the Pixel 11 and Pixel 10 Pro. OnePlus's image server was added to the list of maker servers the build accepts.
+- Still without a picture: Pixel 11 Pro Fold, Xperia 1 VIII, the two Motorola phones (no maker image the site may use, and no free one yet).
+
 ## 23 September 2026 (second update)
 
 Headlines collected live when you press Refresh, news answers in Ask the hub, and flagship records filled in from the makers' own material.

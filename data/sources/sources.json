@@ -434,5 +434,13 @@
     "tier": "B",
     "url": "https://www.youtube.com/@SomeGadgetGuy",
     "methodology": "Experience-based video reviews."
+  },
+  {
+    "id": "techadvisor",
+    "name": "Tech Advisor",
+    "type": "publication",
+    "tier": "B",
+    "url": "https://www.techadvisor.com",
+    "methodology": "News and reviews; used here for announced specifications only."
   }
 ]

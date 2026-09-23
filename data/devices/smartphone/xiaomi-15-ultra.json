@@ -42,14 +42,11 @@
     }
   ],
   "image": {
-    "kind": "photo",
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Xiaomi_15_Ultra_001.jpg/500px-Xiaomi_15_Ultra_001.jpg",
-    "page": "https://commons.wikimedia.org/wiki/File:Xiaomi_15_Ultra_001.jpg",
-    "title": "Xiaomi 15 Ultra 001",
-    "author": "毕明明",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "checked": "2026-09-17"
+    "kind": "official",
+    "src": "https://i02.appmifile.com/81_item_my/25/02/2025/6338c52462ad515fa35c16c557197ecf.png",
+    "page": "https://web.archive.org/web/20260118111115/https://www.mi.com/my/product/xiaomi-15-ultra/specs/",
+    "credit": "Xiaomi Malaysia",
+    "checked": "2026-09-23"
   },
   "specs": {
     "display": {

@@ -2,57 +2,89 @@
   {
     "id": "flagship-camera-2026",
     "title": "2026 flagship showdown",
-    "blurb": "Four flagships across three chipsets, from Samsung, Apple, Xiaomi and vivo.",
-    "devices": ["samsung-galaxy-s26-ultra", "apple-iphone-17-pro-max", "xiaomi-17-ultra", "vivo-x300-pro"],
+    "blurb": "The newest flagships from Samsung, Apple, Xiaomi and vivo: three on the Snapdragon 8 Elite Gen 5 against Apple's 2 nm A20 Pro.",
+    "devices": [
+      "samsung-galaxy-s26-ultra",
+      "apple-iphone-18-pro-max",
+      "xiaomi-17-ultra",
+      "vivo-x300-ultra"
+    ],
     "profile": "balanced"
   },
   {
     "id": "same-chip-different-phone",
     "title": "Same chip, different results",
     "blurb": "Four phones on the Snapdragon 8 Elite Gen 5. How much does the cooling around the chip matter?",
-    "devices": ["redmagic-11-pro", "realme-gt-8-pro", "oneplus-15", "samsung-galaxy-s26-ultra"],
+    "devices": [
+      "redmagic-11-pro",
+      "realme-gt-8-pro",
+      "oneplus-15",
+      "samsung-galaxy-s26-ultra"
+    ],
     "profile": "gaming"
   },
   {
     "id": "battery-kings",
     "title": "Battery kings",
-    "blurb": "The biggest batteries against the best-optimised one.",
-    "devices": ["oneplus-15", "oppo-find-x9-pro", "honor-magic8-pro", "samsung-galaxy-s26-ultra"],
+    "blurb": "The biggest flagship batteries of 2025–26 (7,050–7,300 mAh) against the Galaxy S26 Ultra's 5,000 mAh.",
+    "devices": [
+      "oneplus-15",
+      "honor-magic8-pro",
+      "oppo-find-x9-ultra",
+      "samsung-galaxy-s26-ultra"
+    ],
     "profile": "battery"
   },
   {
     "id": "pixel-generations",
     "title": "Pixel 10 Pro XL vs Pixel 11 Pro XL",
     "blurb": "Tensor G5 against Tensor G6. Early data only, so expect low confidence.",
-    "devices": ["google-pixel-10-pro-xl", "google-pixel-11-pro-xl"],
+    "devices": [
+      "google-pixel-10-pro-xl",
+      "google-pixel-11-pro-xl"
+    ],
     "profile": "balanced"
   },
   {
     "id": "iphone-generations",
     "title": "iPhone 17 Pro Max vs iPhone 18 Pro Max",
     "blurb": "A19 Pro against the new 2 nm A20 Pro. The A20 Pro results come from pre-release listings.",
-    "devices": ["apple-iphone-17-pro-max", "apple-iphone-18-pro-max"],
+    "devices": [
+      "apple-iphone-17-pro-max",
+      "apple-iphone-18-pro-max"
+    ],
     "profile": "performance"
   },
   {
     "id": "exynos-vs-snapdragon",
     "title": "Galaxy S26 (Exynos) vs S26 Ultra (Snapdragon)",
     "blurb": "Samsung's 2 nm Exynos 2600 against the Snapdragon 8 Elite Gen 5 for Galaxy.",
-    "devices": ["samsung-galaxy-s26", "samsung-galaxy-s26-ultra"],
+    "devices": [
+      "samsung-galaxy-s26",
+      "samsung-galaxy-s26-ultra"
+    ],
     "profile": "balanced"
   },
   {
     "id": "big-tablets",
     "title": "Big-screen tablets",
     "blurb": "iPad Pro (M5), Galaxy Tab S11 Ultra and OnePlus Pad 3.",
-    "devices": ["apple-ipad-pro-13-m5", "samsung-galaxy-tab-s11-ultra", "oneplus-pad-3"],
+    "devices": [
+      "apple-ipad-pro-13-m5",
+      "samsung-galaxy-tab-s11-ultra",
+      "oneplus-pad-3"
+    ],
     "profile": "balanced"
   },
   {
     "id": "premium-watches",
     "title": "Premium smartwatches",
-    "blurb": "Apple Watch Ultra 3, Galaxy Watch8 Classic and Pixel Watch 4, compared on claimed endurance and toughness.",
-    "devices": ["apple-watch-ultra-3", "samsung-galaxy-watch8-classic", "google-pixel-watch-4"],
+    "blurb": "Apple Watch Ultra 4, Galaxy Watch Ultra 2 and Pixel Watch 5, compared on claimed endurance and toughness.",
+    "devices": [
+      "apple-watch-ultra-4",
+      "samsung-galaxy-watch-ultra2",
+      "google-pixel-watch-5"
+    ],
     "profile": "balanced"
   }
 ]

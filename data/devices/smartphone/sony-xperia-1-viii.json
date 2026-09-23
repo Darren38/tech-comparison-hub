@@ -1,0 +1,122 @@
+{
+  "id": "sony-xperia-1-viii",
+  "name": "Xperia 1 VIII",
+  "brand": "sony",
+  "category": "smartphone",
+  "series": "Xperia 1",
+  "form": "bar",
+  "status": "released",
+  "announced": "2026-05-12",
+  "released": "2026-08-05",
+  "segment": "flagship",
+  "aliases": [
+    "Xperia 1 8",
+    "Xperia 1 Mark VIII",
+    "Xperia 1 M8"
+  ],
+  "summary": "Sony's 2026 flagship keeps the headphone jack and microSD, and swaps the continuous zoom for a 48 MP 2.9x telephoto on a larger sensor.",
+  "highlights": [
+    "48 MP main, ultra-wide and telephoto",
+    "microSD and 3.5 mm jack",
+    "4 OS upgrades, 6 years of security"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 6499,
+      "config": "12 GB / 256 GB",
+      "date": "2026-08-05",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2026/08/05/sony-xperia-1-mark-viii-malaysia-launch-price/",
+      "class": "news",
+      "accessed": "2026-09-23"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 6.5,
+      "type": "OLED (FHD+, 19.5:9, 10-bit, 100% DCI-P3)",
+      "refresh_hz": 120,
+      "protection": "Corning Gorilla Glass Victus 2"
+    },
+    "platform": {
+      "chipset": "snapdragon-8-elite-gen-5"
+    },
+    "memory": {
+      "ram_gb": [
+        12
+      ],
+      "storage_gb": [
+        256
+      ],
+      "expandable": true
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "charging": {
+      "claim": "USB Power Delivery fast charging, Qi wireless and reverse wireless charging (wattage not stated)"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 48,
+          "sensor": "1/1.35\"",
+          "aperture": "f/1.9",
+          "focal_mm": 24
+        },
+        {
+          "role": "ultrawide",
+          "mp": 48,
+          "sensor": "1/1.56\"",
+          "aperture": "f/2.0",
+          "focal_mm": 16
+        },
+        {
+          "role": "telephoto",
+          "mp": 48,
+          "sensor": "1/1.56\"",
+          "aperture": "f/2.8",
+          "zoom_x": 2.9
+        }
+      ],
+      "zoom_optical_x": 2.9,
+      "front": "12 MP, f/2.0",
+      "video": "4K HDR @ up to 120 fps"
+    },
+    "build": {
+      "ip": "IP65/IP68",
+      "weight_g": 200
+    },
+    "audio": {
+      "jack": true
+    },
+    "software": {
+      "launch_os": "Android 16",
+      "os_updates_years": 4,
+      "security_updates_years": 6
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "news",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2026/08/05/sony-xperia-1-mark-viii-malaysia-launch-price/",
+      "checked": "2026-09-23",
+      "note": "From SoyaCincau's report of the Malaysian launch; Sony's own site refuses automated reading (its robots rules exclude this crawler)."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "androidauthority",
+        "url": "https://www.androidauthority.com/sony-xperia-1-viii-launch-date-3665083/",
+        "checked": "2026-09-23",
+        "note": "Announcement date confirmed by Sony, as reported by Android Authority."
+      }
+    }
+  },
+  "dataStatus": "checked"
+}

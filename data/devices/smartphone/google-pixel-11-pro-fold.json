@@ -1,0 +1,155 @@
+{
+  "id": "google-pixel-11-pro-fold",
+  "name": "Pixel 11 Pro Fold",
+  "brand": "google",
+  "category": "smartphone",
+  "series": "Pixel",
+  "form": "foldable",
+  "status": "released",
+  "announced": "2026-08-12",
+  "released": "2026-08-20",
+  "segment": "flagship",
+  "aliases": [
+    "P11 Pro Fold",
+    "Pixel 11 Fold"
+  ],
+  "summary": "Google's 2026 book-style foldable: an 8-inch inner screen, Tensor G6 and a 5x telephoto, 239 g and 5 mm thin when open.",
+  "highlights": [
+    "8-inch inner display",
+    "239 g",
+    "IP68 foldable"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 7999,
+      "config": "16 GB / 256 GB",
+      "date": "2026-08-13",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2026/08/13/google-pixel-11-pro-fold-malaysia-price-specs/",
+      "class": "news",
+      "accessed": "2026-09-23"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 8599,
+      "config": "16 GB / 512 GB",
+      "date": "2026-08-13",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2026/08/13/google-pixel-11-pro-fold-malaysia-price-specs/",
+      "class": "news",
+      "accessed": "2026-09-23"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 8.0,
+      "type": "Super Actua Flex OLED (inner); 6.5-inch Super Actua OLED cover screen",
+      "resolution": "2152 × 2076",
+      "ppi": 372,
+      "refresh_hz": 120,
+      "peak_nits": 3600,
+      "protection": "Ultra Thin Glass (inner); glass-ceramic cover glass (cover screen)"
+    },
+    "platform": {
+      "chipset": "google-tensor-g6"
+    },
+    "memory": {
+      "ram_gb": [
+        16
+      ],
+      "storage_gb": [
+        256,
+        512,
+        1024
+      ]
+    },
+    "battery": {
+      "capacity_mah": 4806
+    },
+    "charging": {
+      "wired_w": 30,
+      "wireless_w": 25,
+      "claim": "Up to 50% in about 30 min with a 30 W USB-C PPS charger; Pixelsnap (Qi2.2) wireless up to 25 W"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 48,
+          "sensor": "1/1.56\"",
+          "aperture": "f/1.7",
+          "ois": true
+        },
+        {
+          "role": "ultrawide",
+          "mp": 10.5,
+          "sensor": "1/3.4\"",
+          "aperture": "f/2.2"
+        },
+        {
+          "role": "telephoto",
+          "mp": 10.8,
+          "sensor": "1/3.2\"",
+          "aperture": "f/3.1",
+          "zoom_x": 5,
+          "ois": true
+        }
+      ],
+      "zoom_optical_x": 5,
+      "front": "10 MP (cover), 10 MP (inner)",
+      "video": "4K @ up to 60 fps (10-bit HDR)"
+    },
+    "build": {
+      "ip": "IP68",
+      "weight_g": 239,
+      "dimensions": {
+        "height_mm": 155.2,
+        "width_mm": 150.4,
+        "depth_mm": 5.0
+      }
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "wifi": "Wi-Fi 7 (802.11be)",
+      "bluetooth": "Bluetooth 6",
+      "sim": "Nano-SIM + eSIM",
+      "usb": "USB-C 3.2"
+    },
+    "software": {
+      "launch_os": "Android 17",
+      "os_updates_years": 7,
+      "security_updates_years": 7
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "google",
+      "url": "https://store.google.com/gb/product/pixel_11_pro_fold_specs?hl=en-GB",
+      "checked": "2026-09-23",
+      "note": "Read from the Google Store (UK) specification page. Dimensions are unfolded (folded: 155.2 × 76 × 10.1 mm)."
+    },
+    "fields": {
+      "specs.charging.wired_w": {
+        "class": "estimated",
+        "source": "google",
+        "checked": "2026-09-23",
+        "note": "Google states a charge-time claim with a recommended charger rating; the phone's maximum input is not published.",
+        "url": "https://store.google.com/gb/product/pixel_11_pro_fold_specs?hl=en-GB"
+      },
+      "released": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2026/08/13/google-pixel-11-pro-fold-malaysia-price-specs/",
+        "checked": "2026-09-23",
+        "note": "Malaysian availability date from SoyaCincau."
+      }
+    }
+  },
+  "dataStatus": "checked"
+}

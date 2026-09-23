@@ -42,14 +42,14 @@
     }
   ],
   "image": {
-    "kind": "photo",
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Avant_du_Google_Pixel_10_Pro_pierre_de_lune_de_256_Go.jpg/500px-Avant_du_Google_Pixel_10_Pro_pierre_de_lune_de_256_Go.jpg",
-    "page": "https://commons.wikimedia.org/wiki/File:Avant_du_Google_Pixel_10_Pro_pierre_de_lune_de_256_Go.jpg",
-    "title": "Avant du Google Pixel 10 Pro pierre de lune de 256 Go",
-    "author": "Fabe56",
+    "kind": "drawing",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Pixel_10_Pro_back_%28Obsidian%29.svg/500px-Pixel_10_Pro_back_%28Obsidian%29.svg.png",
+    "page": "https://commons.wikimedia.org/wiki/File:Pixel_10_Pro_back_(Obsidian).svg",
+    "title": "Pixel 10 Pro back (Obsidian)",
+    "author": "Mliu92",
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "checked": "2026-09-17"
+    "checked": "2026-09-23"
   },
   "specs": {
     "display": {

@@ -14,11 +14,11 @@
 
 ## What it is
 
-- **457 devices** (373 phones, 63 smartwatches, 17 fitness bands, 4 tablets) and **116 chipsets**: every Samsung, Apple, OPPO, vivo/iQOO, HONOR, Huawei and Xiaomi/Redmi/POCO model with a verifiable Malaysian launch since 2023, plus other brands' flagships.
-- **Every value says where it came from**: manufacturer, lab measurement, benchmark database, reviewer, news, estimate or the site's own analysis, with a confidence level. **254 attributed evidence records** from 91 source documents and 57 registered sources, plus full specification sheets.
+- **463 devices** (378 phones, 64 smartwatches, 17 fitness bands, 4 tablets) and **117 chipsets**: every Samsung, Apple, OPPO, vivo/iQOO, HONOR, Huawei and Xiaomi/Redmi/POCO model with a verifiable Malaysian launch since 2023, plus other brands' flagships.
+- **Every value says where it came from**: manufacturer, lab measurement, benchmark database, reviewer, news, estimate or the site's own analysis, with a confidence level. **254 attributed evidence records** from 91 source documents and 58 registered sources, plus full specification sheets.
 - **Reviews for the latest flagships**: findings from written reviews, hands-ons, lab tests and YouTube reviews, summarised in the site's own words and credited to each publisher.
 - **Fair comparisons** of up to 4 devices: key differences, category verdicts based only on evidence all of them share, your own weighting, same-test results and a full source list.
-- **Prices in Malaysian ringgit**: verified Malaysian launch prices for 393 devices (US dollar, euro and four other currencies available). Converted prices are marked **≈** and never used to score value.
+- **Prices in Malaysian ringgit**: verified Malaysian launch prices for 397 devices (US dollar, euro and four other currencies available). Converted prices are marked **≈** and never used to score value.
 - **Ask the hub**: a built-in assistant that answers from the site's data ("Is it worth buying?", "Does it have NFC?", "Galaxy S26 or iPhone 18 Pro?"). Optionally, an **AI model runs in your own browser** (Qwen3.5 4B or 2B, or the browser's built-in AI): it reads questions in your own words or language, the site's code looks up the answer, and every sentence is checked against the data before it is shown. No question is sent to any AI service.
 - **Latest headlines** from 19 publications, collected live when you press Refresh, and **exchange rates** from Bank Negara Malaysia, refreshed automatically. Ask the hub answers news questions too ("any news about the Galaxy S26?"), including phones not in the database yet.
 
