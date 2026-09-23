@@ -72,6 +72,10 @@ Then early-software results are capped at **Medium**, and inherited chipset valu
 
 **Database ranks** (device page: #n of m) are **like-for-like**: a device is ranked only against devices that have evidence for every metric its own score uses, scored on those metrics. A phone scored on measured brightness is never ranked against phones scored only on claimed brightness. No rank is shown when fewer than four devices share the evidence.
 
+**Evidence that isn't recorded counts as typical for a similar device (Version 11).** In database-wide rankings and use-case fits, a missing metric — or a whole missing category — takes the median of the same brand's devices of the same kind from the same or the previous year at a similar Malaysian launch price (at least three of them); for charging and software support, which follow the maker rather than the price, the brand's own devices from the last three years (two years either side for charging, which rarely changes); then any brand's similar devices (at least six); and otherwise the lower quartile of devices of that kind launched no later than it. Coverage still reports the share of evidence that is real, the score's confidence drops, and the device page lists the values counted as typical. Comparisons and like-for-like database ranks are unaffected: they already score every device on the same evidence. Before this, a gap could only help — a 2023 phone with only its 1-inch main sensor recorded scored 100 for camera hardware, above a 2026 phone whose 4.3× zoom was recorded too, and mid-range phones whose chipsets have no benchmark data led the overall ranking because performance was skipped.
+
+**Devices not on sale yet** (`announced`, `pre-order`) are left out of the site's rankings and sorted after the rest in the database ranking view, since their figures come from pre-release listings at best.
+
 **Camera** is hardware-only (sensor size, optical reach) and labelled that way until image-quality lab data exists.
 
 ## 6. Comparison verdicts

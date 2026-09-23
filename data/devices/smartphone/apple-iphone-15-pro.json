@@ -71,11 +71,12 @@
   "specs": {
     "display": {
       "size_in": 6.1,
-      "type": "OLED",
+      "type": "Super Retina XDR OLED, ProMotion",
       "resolution": "2556 × 1179",
       "refresh_hz": 120,
       "peak_nits": 2000,
-      "ppi": 461
+      "ppi": 461,
+      "protection": "Ceramic Shield"
     },
     "platform": {
       "chipset": "apple-a17-pro",
@@ -98,15 +99,23 @@
         {
           "role": "main",
           "mp": 48,
-          "aperture": "f/1.78"
+          "aperture": "f/1.78",
+          "focal_mm": 24,
+          "ois": true
         },
         {
           "role": "ultrawide",
-          "mp": 12
+          "mp": 12,
+          "aperture": "f/2.2",
+          "focal_mm": 13
         },
         {
           "role": "telephoto",
-          "mp": 12
+          "mp": 12,
+          "aperture": "f/2.8",
+          "focal_mm": 77,
+          "zoom_x": 3,
+          "ois": true
         }
       ],
       "front": "12 MP",
@@ -117,7 +126,7 @@
         "12MP 3x Telephoto: 77mm, ƒ/2.8 aperture, optical image stabilisation"
       ],
       "features": "3x optical zoom in, 2x optical zoom out; 6x optical zoom range; Digital zoom up to 15x",
-      "video": "4K@60fps; 1080p",
+      "video": "4K @ up to 60 fps",
       "front_detail": [
         "12MP camera, ƒ/1.9 aperture"
       ],
@@ -152,7 +161,10 @@
       "ip": "IP68"
     },
     "software": {
-      "launch_os": "iOS"
+      "launch_os": "iOS 17",
+      "os_updates_years": 6,
+      "security_updates_years": 7,
+      "policy_note": "Apple publishes no fixed upgrade commitment. Recent iPhones have received about six years of major iOS releases plus further security fixes, so the figures here are platform estimates."
     },
     "sensors": "Face ID, LiDAR scanner, Barometer, High dynamic range gyro, High-g accelerometer, Proximity sensor, Dual ambient light sensors"
   },
@@ -176,8 +188,62 @@
         "class": "platform",
         "source": "platform",
         "note": "Calculated from resolution and screen size."
+      },
+      "specs.display.type": {
+        "class": "official",
+        "source": "apple",
+        "url": "https://support.apple.com/en-my/111829",
+        "checked": "2026-09-23",
+        "note": "Read from Apple Malaysia's specification page. The \"2x Telephoto\" entry Apple lists is a crop of the main camera, not a separate camera, so it is not listed here."
+      },
+      "specs.display.protection": {
+        "class": "official",
+        "source": "apple",
+        "url": "https://support.apple.com/en-my/111829",
+        "checked": "2026-09-23",
+        "note": "Read from Apple Malaysia's specification page. The \"2x Telephoto\" entry Apple lists is a crop of the main camera, not a separate camera, so it is not listed here."
+      },
+      "specs.camera.rear": {
+        "class": "official",
+        "source": "apple",
+        "url": "https://support.apple.com/en-my/111829",
+        "checked": "2026-09-23",
+        "note": "Read from Apple Malaysia's specification page. The \"2x Telephoto\" entry Apple lists is a crop of the main camera, not a separate camera, so it is not listed here."
+      },
+      "specs.camera.zoom_optical_x": {
+        "class": "official",
+        "source": "apple",
+        "url": "https://support.apple.com/en-my/111829",
+        "checked": "2026-09-23",
+        "note": "Read from Apple Malaysia's specification page. The \"2x Telephoto\" entry Apple lists is a crop of the main camera, not a separate camera, so it is not listed here."
+      },
+      "specs.camera.video": {
+        "class": "official",
+        "source": "apple",
+        "url": "https://support.apple.com/en-my/111829",
+        "checked": "2026-09-23",
+        "note": "Read from Apple Malaysia's specification page. The \"2x Telephoto\" entry Apple lists is a crop of the main camera, not a separate camera, so it is not listed here."
+      },
+      "specs.software.launch_os": {
+        "class": "official",
+        "source": "apple",
+        "url": "https://support.apple.com/en-my/111829",
+        "checked": "2026-09-23",
+        "note": "Read from Apple Malaysia's specification page. The \"2x Telephoto\" entry Apple lists is a crop of the main camera, not a separate camera, so it is not listed here."
+      },
+      "specs.software.os_updates_years": {
+        "class": "estimated",
+        "source": "platform",
+        "checked": "2026-09-23",
+        "note": "Apple publishes no fixed upgrade commitment. Recent iPhones have received about six years of major iOS releases plus further security fixes, so the figures here are platform estimates."
+      },
+      "specs.software.security_updates_years": {
+        "class": "estimated",
+        "source": "platform",
+        "checked": "2026-09-23",
+        "note": "Apple publishes no fixed upgrade commitment. Recent iPhones have received about six years of major iOS releases plus further security fixes, so the figures here are platform estimates."
       }
     }
   },
-  "dataStatus": "compiled"
+  "dataStatus": "checked"
 }

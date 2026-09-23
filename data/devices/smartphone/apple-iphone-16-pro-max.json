@@ -59,7 +59,8 @@
       "resolution": "2868 × 1320",
       "ppi": 460,
       "refresh_hz": 120,
-      "peak_nits": 2000
+      "peak_nits": 2000,
+      "protection": "Ceramic Shield (latest generation)"
     },
     "platform": {
       "chipset": "apple-a18-pro"
@@ -107,7 +108,8 @@
         }
       ],
       "zoom_optical_x": 5,
-      "front": "12 MP"
+      "front": "12 MP",
+      "video": "4K Dolby Vision @ up to 120 fps"
     },
     "build": {
       "dimensions": {
@@ -124,7 +126,9 @@
       "usb": "USB-C, USB 3",
       "nfc": true,
       "uwb": true,
-      "satellite": true
+      "satellite": true,
+      "wifi": "Wi-Fi 7 (802.11be)",
+      "bluetooth": "Bluetooth 5.3"
     },
     "biometrics": {
       "face": "Face ID"
@@ -140,8 +144,9 @@
     "default": {
       "class": "official",
       "source": "apple",
-      "url": "https://www.apple.com",
-      "note": "Compiled from Apple's specifications; not re-checked this session."
+      "url": "https://support.apple.com/en-my/121032",
+      "checked": "2026-09-23",
+      "note": "Read from Apple Malaysia's specification page."
     },
     "fields": {
       "specs.memory.ram_gb": {
@@ -168,8 +173,36 @@
         "class": "estimated",
         "source": "apple",
         "note": "Apple publishes no fixed upgrade commitment. Recent iPhones have received about six years of major iOS releases plus further security fixes, so the figures here are platform estimates."
+      },
+      "specs.display.protection": {
+        "class": "official",
+        "source": "apple",
+        "url": "https://support.apple.com/en-my/121032",
+        "checked": "2026-09-23",
+        "note": "Read from Apple Malaysia's specification page. The \"2x Telephoto\" entry Apple lists is a crop of the main camera, not a separate camera, so it is not listed here."
+      },
+      "specs.camera.video": {
+        "class": "official",
+        "source": "apple",
+        "url": "https://support.apple.com/en-my/121032",
+        "checked": "2026-09-23",
+        "note": "Read from Apple Malaysia's specification page. The \"2x Telephoto\" entry Apple lists is a crop of the main camera, not a separate camera, so it is not listed here."
+      },
+      "specs.connectivity.wifi": {
+        "class": "official",
+        "source": "apple",
+        "url": "https://support.apple.com/en-my/121032",
+        "checked": "2026-09-23",
+        "note": "Read from Apple Malaysia's specification page. The \"2x Telephoto\" entry Apple lists is a crop of the main camera, not a separate camera, so it is not listed here."
+      },
+      "specs.connectivity.bluetooth": {
+        "class": "official",
+        "source": "apple",
+        "url": "https://support.apple.com/en-my/121032",
+        "checked": "2026-09-23",
+        "note": "Read from Apple Malaysia's specification page. The \"2x Telephoto\" entry Apple lists is a crop of the main camera, not a separate camera, so it is not listed here."
       }
     }
   },
-  "dataStatus": "compiled"
+  "dataStatus": "checked"
 }

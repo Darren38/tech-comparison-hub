@@ -8,7 +8,7 @@ import { href, setQuery } from '../core/router.js';
 import { deviceCard, emptyState, compareButton, provBadge, confMeter, icon, statusBadge, priceTag, pageTrail } from '../ui/components.js';
 import { displayPrice, selectedCurrency, convert } from '../engine/money.js';
 import { miniMeter } from '../ui/charts.js';
-import { allCategoryScores, profileScore, valueScores, rankingCurrency, getMetric, profilePhrase } from '../engine/scoring.js';
+import { allCategoryScores, profileScore, valueScores, rankingCurrency, getMetric, profilePhrase, isOnSale } from '../engine/scoring.js';
 
 /** Filter value for a device: prices follow the reader's currency (local launch price, else converted). */
 const fieldValue = (row, id) => (id === 'price' ? displayPrice(row)?.amount : row.f[id]);
@@ -167,11 +167,13 @@ function rankRows(rows, category, profileId, valueCurrency) {
   const cats = new Map(rows.map((r) => [r.id, allCategoryScores(r)]));
   const balanced = store.profileById.get('balanced');
   const values = valueCurrency
-    ? valueScores(rows, valueCurrency, new Map(rows.map((r) => [r.id, profileScore(cats.get(r.id), balanced, { category })?.score])))
+    ? valueScores(rows, valueCurrency, new Map(rows.map((r) => [r.id, profileScore(cats.get(r.id), balanced, { category, id: r.id })?.score])))
     : new Map();
+  // devices not on sale yet (scored on pre-release listings at best) come after the rest (Version 11)
+  const onSale = (r) => (isOnSale(r.row) ? 1 : 0);
   return rows
-    .map((r) => ({ row: r, result: profileScore(cats.get(r.id), profile, { category, valueScore: values.get(r.id)?.score ?? null }) }))
-    .sort((a, b) => (b.result?.score ?? -1) - (a.result?.score ?? -1));
+    .map((r) => ({ row: r, result: profileScore(cats.get(r.id), profile, { category, id: r.id, valueScore: values.get(r.id)?.score ?? null }) }))
+    .sort((a, b) => onSale(b) - onSale(a) || (b.result?.score ?? -1) - (a.result?.score ?? -1));
 }
 
 function sortRows(rows, sort) {
@@ -277,7 +279,7 @@ export default async function render({ params, query }) {
       <header class="browse__head">
         <div class="eyebrow">${rankProfile ? 'Platform ranking' : 'Device database'}</div>
         <h1>${profile ? `Best ${cat.name.toLowerCase()} ${profilePhrase(profile)}` : cat ? cat.name : 'All devices'}</h1>
-        ${profile ? html`<p class="muted ranking-note">${provBadge('platform', { long: true })} ${profile.description} Scores combine the category scores with this use case's weights. Devices with less evidence show lower coverage.${valueCurrency ? ` Value uses ${valueCurrency} launch prices; devices without one get no value score.` : ''} <a href="${href('/methodology', { section: 'scoring' })}">How it works</a></p>` : ''}
+        ${profile ? html`<p class="muted ranking-note">${provBadge('platform', { long: true })} ${profile.description} Scores combine the category scores with this use case's weights. Evidence that isn't recorded counts as typical for similar devices, and devices with less evidence show lower coverage. Devices not on sale yet are listed after the rest.${valueCurrency ? ` Value uses ${valueCurrency} launch prices; devices without one get no value score.` : ''} <a href="${href('/methodology', { section: 'scoring' })}">How it works</a></p>` : ''}
         <nav class="tabs" aria-label="Category">
           <a href="${href('/devices')}" aria-current="${!categoryId}">All <span class="tiny muted">${store.devices.length}</span></a>
           ${store.core.categories.map((c) => html`<a href="${href(`/devices/${c.id}`)}" aria-current="${c.id === categoryId}">${c.name} <span class="tiny muted">${store.core.build.counts.byCategory[c.id]}</span></a>`)}

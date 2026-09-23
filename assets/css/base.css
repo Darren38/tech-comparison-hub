@@ -259,6 +259,13 @@ main#app:focus {
 }
 
 /* Inline list with "·" separators between items (never a trailing one). */
+/* the items carry no whitespace between them, so as inline spans there was nowhere to break the line and a long
+   list forced its table sideways; as flex items they wrap between items while each item stays on one line */
+.dotlist {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .dotlist > * + *::before {
   content: "·";
   margin: 0 6px;

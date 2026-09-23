@@ -222,8 +222,11 @@ code {
   font-size: 20px;
 }
 
+/* the track has to be allowed to shrink: a grid item sizes to its content by default, and a <select> is as wide as
+   its longest device name, which pushed the whole home page sideways on a phone */
 .qc__slots {
   display: grid;
+  grid-template-columns: minmax(0, 1fr);
   gap: 8px;
 }
 
@@ -231,6 +234,7 @@ code {
   display: flex;
   align-items: center;
   gap: 10px;
+  min-width: 0;
 }
 
 .qc__slot select {
@@ -349,6 +353,14 @@ code {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+
+/* on a phone a long name is shown in full over two lines rather than cut to "Samsung Galaxy S26 Ultr…" */
+@media (max-width: 560px) {
+  .board__name {
+    white-space: normal;
+    overflow-wrap: anywhere;
+  }
 }
 
 .board__name:hover {

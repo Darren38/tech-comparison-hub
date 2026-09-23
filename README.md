@@ -26,7 +26,7 @@
 
 | Part | Updated |
 |---|---|
-| Specs, test results, launch prices, reviewer findings | Checked by hand. **Data as of 22 September 2026**, covering devices announced January 2023 – September 2026 |
+| Specs, test results, launch prices, reviewer findings | Checked by hand. **Data as of 23 September 2026**, covering devices announced January 2023 – September 2026 |
 | Exchange rates | Automatically, every 3 hours, and again in your browser if the saved rates are not from today |
 | Latest headlines | Automatically, every 3 hours |
 | The site itself | Every visit checks for newer files, so an update shows on the next refresh |

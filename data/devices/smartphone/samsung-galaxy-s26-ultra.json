@@ -60,15 +60,11 @@
     }
   ],
   "image": {
-    "kind": "photo",
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/SAMSUNG_Galaxy_S26_Ultra_%26_SAMSUNG_Galaxy_Buds4_Pro.jpg/500px-SAMSUNG_Galaxy_S26_Ultra_%26_SAMSUNG_Galaxy_Buds4_Pro.jpg",
-    "page": "https://commons.wikimedia.org/wiki/File:SAMSUNG_Galaxy_S26_Ultra_%26_SAMSUNG_Galaxy_Buds4_Pro.jpg",
-    "title": "SAMSUNG Galaxy S26 Ultra & SAMSUNG Galaxy Buds4 Pro",
-    "author": "Dinkun Chen",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "focus": "24% 50%",
-    "checked": "2026-09-17"
+    "kind": "official",
+    "src": "https://images.samsung.com/is/image/samsung/p6pim/my/s2602/gallery/my-galaxy-s26-ultra-s948-578304-sm-s948bzvcxme-thumb-550819724?$310_N_PNG$",
+    "page": "https://www.samsung.com/my/smartphones/galaxy-s26-ultra/buy/",
+    "credit": "Samsung Malaysia",
+    "checked": "2026-09-23"
   },
   "specs": {
     "display": {
@@ -154,10 +150,11 @@
     "connectivity": {
       "cellular": "5G",
       "wifi": "Wi-Fi 7",
-      "usb": "USB-C",
+      "usb": "USB-C (USB 3.2 Gen 1)",
       "nfc": true,
       "uwb": true,
-      "sim": "Nano-SIM + eSIM"
+      "sim": "Nano-SIM + eSIM",
+      "bluetooth": "Bluetooth 6.0"
     },
     "biometrics": {
       "fingerprint": "Ultrasonic, under display",
@@ -209,6 +206,27 @@
         "class": "database",
         "source": "gsmarena",
         "url": "https://www.gsmarena.com/samsung_galaxy_s26_ultra-review-2939p4.php"
+      },
+      "specs.connectivity.bluetooth": {
+        "class": "official",
+        "source": "samsung",
+        "url": "https://www.samsung.com/my/smartphones/galaxy-s26-ultra/specs/",
+        "checked": "2026-09-23",
+        "note": "Read from Samsung Malaysia's specification page."
+      },
+      "specs.connectivity.usb": {
+        "class": "official",
+        "source": "samsung",
+        "url": "https://www.samsung.com/my/smartphones/galaxy-s26-ultra/specs/",
+        "checked": "2026-09-23",
+        "note": "Read from Samsung Malaysia's specification page."
+      },
+      "specs.camera.video": {
+        "class": "official",
+        "source": "samsung",
+        "url": "https://www.samsung.com/my/smartphones/galaxy-s26-ultra/specs/",
+        "checked": "2026-09-23",
+        "note": "Read from Samsung Malaysia's specification page."
       }
     }
   },

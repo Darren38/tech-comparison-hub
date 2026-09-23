@@ -103,7 +103,7 @@ function scoresSection(data) {
   const weaknesses = rows.filter((r) => r.rank && r.rank.of >= 5 && r.rank.percentile >= 0.75 && r.s.coverage >= 0.5);
   const profiles = store.core.scoring.profiles
     .filter((p) => p.id !== 'balanced')
-    .map((p) => ({ p, res: profileScore(scores, p, { category: d.category }) }))
+    .map((p) => ({ p, res: profileScore(scores, p, { category: d.category, id: d.id }) }))
     // Skip use cases that mostly weigh categories this device type doesn't have (e.g. gaming for a watch).
     .filter((x) => x.res && x.res.coverage >= 0.6 && x.res.relevance >= 0.5);
   // The metric that best explains a strength (highest weighted score) or a weakness (lowest score).
@@ -125,7 +125,7 @@ function scoresSection(data) {
         dim: r.s.anyInherited,
       })))}
       <details class="small" style="margin-top:12px"><summary>What each score is based on</summary>
-        <ul class="basis">${rows.map((r) => html`<li><strong>${r.sc.label}</strong> ${confMeter(r.s.confidence)} <span class="muted">${Math.round(r.s.coverage * 100)}% of evidence available · ${r.s.used.map((u) => metricDef(u.id).short).join(', ')}${r.s.specOnly ? ' · specification-based' : ''}</span>${r.sc.note ? html`<div class="tiny faint">${r.sc.note}</div>` : ''}</li>`)}</ul>
+        <ul class="basis">${rows.map((r) => html`<li><strong>${r.sc.label}</strong> ${confMeter(r.s.confidence)} <span class="muted">${Math.round(r.s.coverage * 100)}% of evidence available · ${r.s.used.map((u) => metricDef(u.id).short).join(', ')}${r.s.specOnly ? ' · specification-based' : ''}${r.s.filled?.length ? ` · not recorded, counted as typical for similar devices: ${r.s.filled.map((f) => metricDef(f.id).short).join(', ')}` : ''}</span>${r.sc.note ? html`<div class="tiny faint">${r.sc.note}</div>` : ''}</li>`)}</ul>
       </details>
     </div>
     <div class="card stack">

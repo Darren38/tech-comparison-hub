@@ -790,27 +790,36 @@
 .bars {
   display: grid;
   gap: 9px;
+  container-type: inline-size;
+}
+
+/* in a narrow card every note goes under its name, so the rows line up instead of some wrapping and some not */
+@container (max-width: 620px) {
+  .bar__sub {
+    flex-basis: 100%;
+  }
 }
 
 .bar {
   display: grid;
-  grid-template-columns: minmax(120px, 34%) 1fr minmax(64px, auto);
+  grid-template-columns: minmax(140px, 38%) 1fr minmax(64px, auto);
   align-items: center;
   gap: 12px;
   font-size: 14px;
 }
 
+/* the name keeps the room it needs: a note such as "70% evidence" drops to its own line in a narrow card
+   instead of cutting the device name down to "Galaxy S…" (Version 11) */
 .bar__label {
   display: flex;
   align-items: center;
-  gap: 8px;
+  flex-wrap: wrap;
+  gap: 2px 8px;
   min-width: 0;
 }
 
 .bar__name {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  overflow-wrap: anywhere;
   font-weight: 560;
 }
 
@@ -1258,6 +1267,12 @@ details[open] > summary::before {
 
 .data-table tbody tr:hover {
   background: var(--surface-2);
+}
+
+/* The scoring tables sit in a narrow column, where a heading that never wraps ("Metrics and weights
+   (smartphones)") made the whole table scroll sideways. Here the heading wraps and the metric lists fit. */
+#scoring .data-table thead th {
+  white-space: normal;
 }
 
 .data-table .num {

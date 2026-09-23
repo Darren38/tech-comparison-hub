@@ -5,6 +5,20 @@
 //   higher-is-better  score = value / max            (log scale: ln(1+v) / ln(1+max))
 //   lower-is-better   score = min / value
 // A category score is the weighted mean of the metric scores that have evidence.
+//
+// Evidence that isn't recorded counts as typical for a similar device (Version 11). A missing metric in a category
+// score, or a missing category in a use-case score, takes the median of, in order:
+//   1. the same brand's devices of the same kind from the same or the previous year at a similar Malaysian launch
+//      price (within 1.5x either way), if at least three have that evidence;
+//   2. for charging and software support, which follow the maker more than the price, the same brand's devices at
+//      any price from the last three years, else from two years either side, if at least three have it;
+//   3. any brand's devices as in 1, if at least six have it;
+// and otherwise the lower quartile of devices of that kind launched no later than it, so unproven never counts as
+// better than typical and an old device is not measured against newer devices' spread.
+// Before, missing evidence was simply left out, so a gap could only help: a 2023 phone with only its 1-inch main
+// sensor recorded scored 100 for camera hardware, above a 2026 phone whose 4.3x zoom was recorded too, and
+// mid-range phones with no benchmark data led the overall ranking because performance was skipped.
+// Like-for-like comparisons (a `pick`) still use only the evidence every compared device shares.
 
 import { store, metricDef, scoreMetricsFor, priceIn } from '../core/store.js';
 import { displayPrice } from './money.js';
@@ -27,6 +41,8 @@ export function getMetric(entity, id) {
 export const entityCategory = (entity) => entity?.device?.category ?? entity?.category;
 export const entityId = (entity) => entity?.device?.id ?? entity?.id;
 export const isSpecMetric = (id) => Boolean(metricDef(id)?.derive);
+/** False for devices that are only announced or on pre-order: rankings leave them out or list them last. */
+export const isOnSale = (row) => !['announced', 'pre-order'].includes(row?.status ?? row?.device?.status);
 
 export function normalize(metricId, value, category) {
   const def = metricDef(metricId);
@@ -37,6 +53,90 @@ export function normalize(metricId, value, category) {
   else if (def.scale === 'log') ratio = stats.max > 0 ? Math.log1p(value) / Math.log1p(stats.max) : 0;
   else ratio = stats.max > 0 ? value / stats.max : 0;
   return clamp(ratio * 100, 0, 100);
+}
+
+const quantile = (values, q) => {
+  const v = values.filter((x) => x !== null && x !== undefined && Number.isFinite(x)).sort((a, b) => a - b);
+  if (!v.length) return null;
+  const i = (v.length - 1) * q;
+  const lo = Math.floor(i);
+  return v[lo] + (v[Math.ceil(i)] - v[lo]) * (i - lo);
+};
+const PEERS_MIN = 6;
+const BRAND_PEERS_MIN = 3;
+// charging speeds and update promises are the maker's policy rather than a matter of price; update promises have
+// grown over the years (Samsung went from four to seven), so the brand's earlier devices count first
+const BRAND_TRAITS = new Set(['charging', 'software', 'spec_wired_w', 'spec_wireless_w', 'charge_full', 'spec_os_years', 'spec_security_years']);
+const PRICE_BAND = 1.5;
+const launchYear = (row) => Number(String(row?.announced ?? '').slice(0, 4)) || null;
+const launchPrice = (row) => {
+  const v = row ? priceIn(row, 'MYR') : null;
+  return typeof v === 'number' ? v : v?.amount ?? null;
+};
+
+// Every device's evidence per metric and per score category ({ year, price, score }), per device category.
+const evidenceCache = new Map();
+function evidenceOf(category) {
+  if (evidenceCache.has(category)) return evidenceCache.get(category);
+  const rows = (store.devices ?? []).filter((d) => d.category === category);
+  const metrics = new Map();
+  const categories = new Map();
+  const entry = (d, score) => ({ brand: d.brand, year: launchYear(d), price: launchPrice(d), score });
+  for (const sc of applicableScoreCategories(category)) {
+    for (const item of scoreMetricsFor(sc, category)) {
+      for (const id of item.alt ?? [item.id]) {
+        if (metrics.has(id)) continue;
+        metrics.set(id, rows.map((d) => { const m = getMetric(d, id); return m ? entry(d, normalize(id, m.value, category)) : null; }).filter((x) => x && x.score !== null));
+      }
+    }
+    categories.set(sc.id, rows.map((d) => { const r = categoryScore(d, sc, { fill: false }); return r ? entry(d, r.score) : null; }).filter(Boolean));
+  }
+  const out = { metrics, categories };
+  evidenceCache.set(category, out);
+  return out;
+}
+
+/**
+ * The score a device is given for evidence it doesn't have: the median of similar devices (same kind, launched in
+ * the same or the previous year, at a similar Malaysian launch price), the same brand's first (at least three),
+ * for charging and software then the same brand's at any price from the last three years or two years either side
+ * (at least three), then any brand's similar devices (at least six), else the lower quartile of devices of its kind
+ * no newer than it. `kind` is 'metric' or 'category'. Null when nothing is known at all.
+ */
+const typicalCache = new Map();
+export function typicalScore(category, deviceId, kind, id) {
+  const key = `${category}|${deviceId ?? ''}|${kind}|${id}`;
+  if (typicalCache.has(key)) return typicalCache.get(key);
+  const list = (kind === 'metric' ? evidenceOf(category).metrics : evidenceOf(category).categories).get(id) ?? [];
+  const row = deviceId ? store.deviceById.get(deviceId) : null;
+  const year = launchYear(row);
+  const price = launchPrice(row);
+  const within = (x, from, to) => x.year && x.year >= from && x.year <= to;
+  const similarPrice = (x) => price && x.price && x.price >= price / PRICE_BAND && x.price <= price * PRICE_BAND;
+  const middle = (xs) => quantile(xs.map((x) => x.score), 0.5);
+  let value = null;
+  if (year) {
+    const peers = list.filter((x) => within(x, year - 1, year) && similarPrice(x));
+    const sameBrand = peers.filter((x) => x.brand === row.brand);
+    if (sameBrand.length >= BRAND_PEERS_MIN) value = middle(sameBrand);
+    if (value === null && BRAND_TRAITS.has(id)) {
+      const brand = list.filter((x) => x.brand === row.brand);
+      const earlier = brand.filter((x) => within(x, year - 2, year));
+      const around = brand.filter((x) => within(x, year - 2, year + 2));
+      if (earlier.length >= BRAND_PEERS_MIN) value = middle(earlier);
+      else if (around.length >= BRAND_PEERS_MIN) value = middle(around);
+    }
+    if (value === null && peers.length >= PEERS_MIN) value = middle(peers);
+  }
+  if (value === null) {
+    // the lower quartile of devices no newer than this one: a 2023 phone is not given a share of 2026 chips' scores
+    let pool = year ? list.filter((x) => x.year && x.year <= year) : list;
+    if (year && pool.length < PEERS_MIN) pool = list.filter((x) => x.year && x.year <= year + 1);
+    if (pool.length < PEERS_MIN) pool = list;
+    value = quantile(pool.map((x) => x.score), 0.25);
+  }
+  typicalCache.set(key, value);
+  return value;
 }
 
 export function combineConfidence(used, coverage = 1) {
@@ -53,31 +153,48 @@ export function combineConfidence(used, coverage = 1) {
 /**
  * Score one entity in one score category.
  * `pick(item)` may return the metric id to use for a scoring item (used for like-for-like comparisons);
- * by default the first alternative with evidence is used.
+ * by default the first alternative with evidence is used. Without a `pick`, a metric with no evidence counts as typical
+ * for a similar device (`filled`, see typicalScore), as long as at least one metric has evidence; `coverage` is
+ * still the share of the category that has evidence.
  */
-export function categoryScore(entity, scoreCat, { pick } = {}) {
+export function categoryScore(entity, scoreCat, { pick, fill = !pick } = {}) {
   const category = entityCategory(entity);
   const items = scoreMetricsFor(scoreCat, category);
   if (!items.length) return null;
   const totalW = items.reduce((s, i) => s + i.w, 0);
   const used = [];
+  const missing = [];
   for (const item of items) {
     const ids = item.alt ?? [item.id];
     const id = pick ? pick(item) : ids.find((i) => getMetric(entity, i));
-    if (!id) continue;
-    const m = getMetric(entity, id);
-    if (!m) continue;
-    const score = normalize(id, m.value, category);
-    if (score === null) continue;
+    const m = id ? getMetric(entity, id) : null;
+    const score = m ? normalize(id, m.value, category) : null;
+    if (score === null) {
+      missing.push(item);
+      continue;
+    }
     used.push({ id, w: item.w, score, value: m.value, confidence: m.confidence, inherited: m.inherited, summary: m.summary });
   }
   if (!used.length) return null;
+  const filled = [];
+  if (fill && missing.length) {
+    for (const item of missing) {
+      for (const id of item.alt ?? [item.id]) {
+        const score = typicalScore(category, entityId(entity), 'metric', id);
+        if (score === null) continue;
+        filled.push({ id, w: item.w, score });
+        break;
+      }
+    }
+  }
   const w = used.reduce((s, u) => s + u.w, 0);
+  const all = [...used, ...filled];
   const coverage = w / totalW;
   return {
-    score: used.reduce((s, u) => s + u.score * u.w, 0) / w,
+    score: all.reduce((s, u) => s + u.score * u.w, 0) / all.reduce((s, u) => s + u.w, 0),
     coverage,
     used,
+    filled,
     confidence: combineConfidence(used, coverage),
     specOnly: used.every((u) => isSpecMetric(u.id)),
     anyInherited: used.some((u) => u.inherited),
@@ -104,11 +221,15 @@ export function allCategoryScores(entity, options) {
  * Weighted profile score from category scores.
  * Only score categories that apply to the device category count toward coverage (a watch is not
  * penalised for having no camera score). `valueScore` (0–100) is optional.
+ * With `fill` (the default), a category with no evidence at all counts as typical for a similar device (`id` names
+ * the device; see typicalScore), so a gap doesn't lift a device; comparisons pass `fill: false` because they
+ * already score every device on the same shared evidence. `coverage` is the share of the weight that has evidence.
  */
-export function profileScore(catScores, profile, { category, valueScore = null } = {}) {
+export function profileScore(catScores, profile, { category, valueScore = null, fill = true, id = null } = {}) {
   const applicable = new Set(applicableScoreCategories(category).map((c) => c.id));
   let sum = 0;
   let used = 0;
+  let counted = 0;
   let total = 0;
   let allWeight = 0;
   const parts = [];
@@ -118,14 +239,23 @@ export function profileScore(catScores, profile, { category, valueScore = null }
     if (catId !== 'value' && !applicable.has(catId)) continue;
     total += weight;
     const s = catId === 'value' ? (valueScore === null ? null : { score: valueScore, confidence: 'medium' }) : catScores[catId];
-    if (!s) continue;
+    if (!s) {
+      const typical = fill && catId !== 'value' ? typicalScore(category, id, 'category', catId) : null;
+      if (typical !== null && typical !== undefined) {
+        sum += typical * weight;
+        counted += weight;
+        parts.push({ id: catId, weight, score: typical, confidence: 'low', typical: true });
+      }
+      continue;
+    }
     sum += s.score * weight;
     used += weight;
+    counted += weight;
     parts.push({ id: catId, weight, score: s.score, confidence: s.confidence });
   }
   if (!used) return null;
   // relevance: share of the profile's weight that applies to this device category at all.
-  return { score: sum / used, coverage: total ? used / total : 0, relevance: allWeight ? total / allWeight : 0, parts };
+  return { score: sum / counted, coverage: total ? used / total : 0, relevance: allWeight ? total / allWeight : 0, parts };
 }
 
 /** A user-defined profile from a weights object, e.g. { gaming: 3, battery: 2 } (weights are relative). */
@@ -220,7 +350,8 @@ export function rankingCurrency(rows, preferred) {
 export function profileLeaderboard(category, profileId, { maxPrice = null, limit = 10, currency = null } = {}) {
   const profile = store.profileById.get(profileId);
   if (!profile) return [];
-  let rows = store.devices.filter((d) => d.category === category);
+  // devices on sale only: an announced phone is scored on pre-release listings at best (Version 11)
+  let rows = store.devices.filter((d) => d.category === category && isOnSale(d));
   if (maxPrice) rows = rows.filter((d) => (displayPrice(d, maxPrice.currency)?.amount ?? Infinity) <= maxPrice.amount);
   const balanced = store.profileById.get('balanced');
   const catScores = new Map(rows.map((d) => [d.id, allCategoryScores(d)]));
@@ -228,11 +359,11 @@ export function profileLeaderboard(category, profileId, { maxPrice = null, limit
   let values = new Map();
   const valueCurrency = needsValue ? rankingCurrency(rows, currency ?? maxPrice?.currency) : null;
   if (valueCurrency) {
-    const balancedMap = new Map(rows.map((d) => [d.id, profileScore(catScores.get(d.id), balanced, { category })?.score]));
+    const balancedMap = new Map(rows.map((d) => [d.id, profileScore(catScores.get(d.id), balanced, { category, id: d.id })?.score]));
     values = valueScores(rows, valueCurrency, balancedMap);
   }
   return rows
-    .map((d) => ({ id: d.id, result: profileScore(catScores.get(d.id), profile, { category, valueScore: values.get(d.id)?.score ?? null }), cats: catScores.get(d.id) }))
+    .map((d) => ({ id: d.id, result: profileScore(catScores.get(d.id), profile, { category, id: d.id, valueScore: values.get(d.id)?.score ?? null }), cats: catScores.get(d.id) }))
     .filter((r) => r.result && r.result.coverage >= 0.5 && r.result.relevance >= 0.5)
     .sort((a, b) => b.result.score - a.result.score)
     .slice(0, limit);

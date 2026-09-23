@@ -108,16 +108,19 @@
         }
       ],
       "zoom_optical_x": 5,
-      "front": "42 MP ultrawide",
-      "video": "4K @ 60 fps; 8K 24/30 fps via Video Boost"
+      "front": "42 MP",
+      "video": "8K @ 30 fps; 4K @ 60 fps"
     },
     "build": {
-      "ip": "IP68"
+      "ip": "IP68",
+      "weight_g": 226
     },
     "connectivity": {
       "cellular": "5G",
       "sim": "Dual eSIM (US)",
-      "nfc": true
+      "nfc": true,
+      "wifi": "Wi-Fi 7 (802.11be)",
+      "bluetooth": "Bluetooth 6"
     },
     "software": {
       "launch_os": "Android 17",
@@ -143,6 +146,41 @@
         "class": "estimated",
         "source": "google",
         "note": "Google states a charge-time claim with a recommended charger rating; the phone's maximum input is not published."
+      },
+      "specs.camera.video": {
+        "class": "official",
+        "source": "google",
+        "url": "https://support.google.com/pixelphone/answer/7158570?hl=en",
+        "checked": "2026-09-23",
+        "note": "Read from Google's Pixel hardware tech specs page."
+      },
+      "specs.camera.front": {
+        "class": "official",
+        "source": "google",
+        "url": "https://support.google.com/pixelphone/answer/7158570?hl=en",
+        "checked": "2026-09-23",
+        "note": "Read from Google's Pixel hardware tech specs page."
+      },
+      "specs.build.weight_g": {
+        "class": "official",
+        "source": "google",
+        "url": "https://support.google.com/pixelphone/answer/7158570?hl=en",
+        "checked": "2026-09-23",
+        "note": "Read from Google's Pixel hardware tech specs page."
+      },
+      "specs.connectivity.wifi": {
+        "class": "official",
+        "source": "google",
+        "url": "https://support.google.com/pixelphone/answer/7158570?hl=en",
+        "checked": "2026-09-23",
+        "note": "Read from Google's Pixel hardware tech specs page."
+      },
+      "specs.connectivity.bluetooth": {
+        "class": "official",
+        "source": "google",
+        "url": "https://support.google.com/pixelphone/answer/7158570?hl=en",
+        "checked": "2026-09-23",
+        "note": "Read from Google's Pixel hardware tech specs page."
       }
     }
   },

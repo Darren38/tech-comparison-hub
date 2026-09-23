@@ -47,14 +47,11 @@
     }
   ],
   "image": {
-    "kind": "photo",
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Galaxy_S26.jpg/500px-Galaxy_S26.jpg",
-    "page": "https://commons.wikimedia.org/wiki/File:Galaxy_S26.jpg",
-    "title": "Galaxy S26",
-    "author": "Kyu3a",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "checked": "2026-09-17"
+    "kind": "official",
+    "src": "https://images.samsung.com/is/image/samsung/p6pim/my/s2602/gallery/my-galaxy-s26-s942-sm-s942bzvqxme-thumb-550885164?$310_N_PNG$",
+    "page": "https://www.samsung.com/my/smartphones/galaxy-s26/buy/",
+    "credit": "Samsung Malaysia",
+    "checked": "2026-09-23"
   },
   "specs": {
     "display": {
@@ -93,28 +90,42 @@
         {
           "role": "main",
           "mp": 50,
+          "aperture": "f/1.8",
           "ois": true
-        },
-        {
-          "role": "ultrawide",
-          "mp": 12
         },
         {
           "role": "telephoto",
           "mp": 10,
+          "aperture": "f/2.4",
           "zoom_x": 3
+        },
+        {
+          "role": "ultrawide",
+          "mp": 12,
+          "aperture": "f/2.2"
         }
       ],
       "zoom_optical_x": 3,
-      "front": "12 MP"
+      "front": "12 MP",
+      "video": "8K @ 30 fps"
     },
     "build": {
       "ip": "IP68",
-      "frame": "Aluminum"
+      "frame": "Aluminum",
+      "dimensions": {
+        "height_mm": 149.6,
+        "width_mm": 71.7,
+        "depth_mm": 7.2
+      },
+      "weight_g": 167
     },
     "connectivity": {
       "cellular": "5G",
-      "nfc": true
+      "nfc": true,
+      "wifi": "Wi-Fi 7 (802.11be)",
+      "bluetooth": "Bluetooth 5.4",
+      "usb": "USB-C (USB 3.2 Gen 1)",
+      "sim": "Nano-SIM + eSIM"
     },
     "software": {
       "launch_os": "Android 16, One UI 8.5",
@@ -145,6 +156,62 @@
         "class": "official",
         "source": "samsung",
         "note": "Compiled; not re-checked this session."
+      },
+      "specs.camera.rear": {
+        "class": "official",
+        "source": "samsung",
+        "url": "https://www.samsung.com/my/smartphones/galaxy-s26/specs/",
+        "checked": "2026-09-23",
+        "note": "Read from Samsung Malaysia's specification page."
+      },
+      "specs.camera.video": {
+        "class": "official",
+        "source": "samsung",
+        "url": "https://www.samsung.com/my/smartphones/galaxy-s26/specs/",
+        "checked": "2026-09-23",
+        "note": "Read from Samsung Malaysia's specification page."
+      },
+      "specs.build.dimensions": {
+        "class": "official",
+        "source": "samsung",
+        "url": "https://www.samsung.com/my/smartphones/galaxy-s26/specs/",
+        "checked": "2026-09-23",
+        "note": "Read from Samsung Malaysia's specification page."
+      },
+      "specs.build.weight_g": {
+        "class": "official",
+        "source": "samsung",
+        "url": "https://www.samsung.com/my/smartphones/galaxy-s26/specs/",
+        "checked": "2026-09-23",
+        "note": "Read from Samsung Malaysia's specification page."
+      },
+      "specs.connectivity.wifi": {
+        "class": "official",
+        "source": "samsung",
+        "url": "https://www.samsung.com/my/smartphones/galaxy-s26/specs/",
+        "checked": "2026-09-23",
+        "note": "Read from Samsung Malaysia's specification page."
+      },
+      "specs.connectivity.bluetooth": {
+        "class": "official",
+        "source": "samsung",
+        "url": "https://www.samsung.com/my/smartphones/galaxy-s26/specs/",
+        "checked": "2026-09-23",
+        "note": "Read from Samsung Malaysia's specification page."
+      },
+      "specs.connectivity.usb": {
+        "class": "official",
+        "source": "samsung",
+        "url": "https://www.samsung.com/my/smartphones/galaxy-s26/specs/",
+        "checked": "2026-09-23",
+        "note": "Read from Samsung Malaysia's specification page."
+      },
+      "specs.connectivity.sim": {
+        "class": "official",
+        "source": "samsung",
+        "url": "https://www.samsung.com/my/smartphones/galaxy-s26/specs/",
+        "checked": "2026-09-23",
+        "note": "Read from Samsung Malaysia's specification page."
       }
     }
   },

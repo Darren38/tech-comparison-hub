@@ -1,6 +1,27 @@
 # Changelog
 
-## Version 10 (10.0.0) — 2026-09-22
+## 23 September 2026
+
+Rankings that a gap in the record can no longer flatter, and device names that are no longer cut short.
+
+**A missing value no longer counts in a device's favour**
+- Until now a score simply left out what wasn't recorded, so the less a device had on record, the better it could look. The 2023 Xiaomi 13 Ultra scored **100 for camera hardware** because only its 1-inch main sensor was recorded, ahead of the 2026 Xiaomi 17 Ultra (87), whose 4.3× zoom is recorded as well; mid-range phones whose chipsets have no benchmark data (Redmi Note 17 Pro Max, OPPO A7 Pro Max, iQOO Z11) led the **overall ranking**, because performance was skipped for them and counted for everyone else.
+- In rankings and use-case fits, evidence that isn't recorded now counts as **typical for a similar device**: the median of the same brand's devices of the same kind from the same or the previous year at a similar launch price; for charging and update promises, which follow the maker rather than the price, the brand's own recent devices; then any brand's similar devices; and where too few of those have it, the lower quartile of devices no newer than it. So a gap neither lifts a device nor punishes it for being new, and a 2023 phone is never given a share of 2026 chips' scores.
+- **Comparisons are untouched.** They already score every device on the evidence all of them share, and the device page's like-for-like ranks (#n of m) are unchanged. Coverage still reports how much of a score is real evidence, and each device page now names the values counted as typical ("not recorded, counted as typical for similar devices: Zoom").
+- **Devices not on sale yet** (announced or pre-order) are left out of the site's rankings and listed after the rest when you rank the database yourself: the announced iPhone Duo had topped the raw-performance ranking on its chip's pre-release listings.
+- What changed as a result: the overall top ten is now all 2025–26 flagships (HONOR Magic8 Pro, vivo X300 Ultra, OnePlus 15, OPPO Find X9 Ultra …); within a product line the newer generation now leads its predecessor in 180 of 186 ranked pairs, against 170 before (iPhone 18 Pro Max above the 17 Pro Max, Pixel 11 Pro XL above the 10, Galaxy S26 Ultra above the S25 Ultra); and for photography the Xiaomi 17 Ultra now leads the 15 Ultra and 13 Ultra. The six remaining exceptions are gaps in older records, not the scoring.
+
+**Display**
+- In a narrow card, a device name is no longer cut down to "Galaxy S…": the note beside it ("70% evidence") drops to its own line instead, and every row in the card lines up the same way. This affected the comparison verdict with three or four devices, where the names were unreadable.
+- The methodology page's two scoring tables no longer have to be scrolled sideways: their headings wrap, and the metric lists (written without spaces between the items, so a line could not break) now wrap between items.
+- On a phone the home page no longer scrolled sideways: the Quick compare boxes were as wide as their longest device name. Long names in the measured leaderboards are now shown in full over two lines instead of being cut off.
+- Checked afterwards with a sweep of every page at 1440, 768 and 375 px in both themes, looking for clipped text, content past the edge of the screen, unreadable dropdowns and sideways scrolling: none left, and the menus, the currency dropdown, the custom-weights panel and the Ask panel were opened and checked at phone width.
+
+**Pictures and flagship records**
+- The Galaxy S26 Ultra, Galaxy S26 and Galaxy Z Fold8 now use Samsung Malaysia's own product images instead of photographs taken in a shop or in someone's hand; the iPhone 17 Pro Max and Galaxy S25 Ultra use clean freely licensed photographs of the device alone. Where neither exists yet (Xiaomi, vivo, iQOO, OnePlus, HONOR, Huawei and a few others), the previous photograph stays, because the makers' sites refuse automated access or publish only marketing crops.
+- Flagship records filled in from the makers' own specification pages: iPhone 15 Pro, 15 Pro Max, 16 Pro and 16 Pro Max (cameras with focal lengths and apertures, video, Ceramic Shield, Wi-Fi, Bluetooth, iOS at launch); Galaxy S25, S26, S26 Ultra, Z Fold8 and Z Flip8 (full camera lists with apertures, video, weight, dimensions, Wi-Fi, Bluetooth); Pixel 11 Pro and 11 Pro XL (cover glass, cameras, video, storage, weight, Wi-Fi, Bluetooth); OPPO Find X9 Pro (cover glass, video, the fourth camera). Apple's "2x Telephoto" crop entries are still left out, as before.
+
+## 22 September 2026
 
 Fresh files on every visit, reviews for the latest flagships, and an AI that reads everything the site records.
 
@@ -30,12 +51,12 @@ Fresh files on every visit, reviews for the latest flagships, and an AI that rea
 - The site's comparison lines now say what is better in words ("charges faster (wired): 33 W vs 30 W", "has the bigger battery", "is brighter (claimed peak)") instead of "has the higher figure".
 - Data fixes found while testing: the iPhone 18 Pro record's camera list (a 2× crop listed as a 12 MP camera), Bluetooth version and charging wording, and the Pro Max's missing camera megapixels, all re-read from Apple Malaysia's specification pages.
 
-## Version 9 (9.0.0) — 2026-09-20
+## 20 September 2026 (second update)
 
 The AI in Ask the hub stops being a summariser and becomes the part that understands the question.
 
 **The model now works out what you mean, in your own words and language**
-- Version 8's model only reworded an answer the rules had already found, so a question the rules couldn't parse got no further. Version 9 gives the model a job it is good at: **reading the question**. It fills in a plan (a JSON shape it must match: what is being asked, which devices, budget, use case, which specs, which language), the site's own code looks that up, and the model then **explains the result** in the visitor's language.
+- Until now the model only reworded an answer the rules had already found, so a question the rules couldn't parse got no further. Now the model gets a job it is good at: **reading the question**. It fills in a plan (a JSON shape it must match: what is being asked, which devices, budget, use case, which specs, which language), the site's own code looks that up, and the model then **explains the result** in the visitor's language.
 - So "phone for my mum, long battery, not too expensive, below 1.5k" becomes the site's ranking of phones by battery under RM1,500; "s25 ultra vs iphne 16 pro which one better for photo" becomes the camera comparison of the Galaxy S25 Ultra and the iPhone 16 Pro, typo and all; "telefon murah yang bagus untuk pelajar bawah RM1000" and "我想买一个拍照好的手机，预算2000令吉" become the right rankings and are answered in Malay and Chinese.
 - **The rules check the model's reading.** Anything the site's own parser recognises wins: a device name the visitor didn't write is dropped, a budget must appear in the question, "X vs Y … which is better for photos" is a comparison, "the lightest Samsung phone" is a ranking, and a brand, use case or kind of device the model invented is removed. This fixed every wrong reading found in testing (a phone "for my mum" was given three invented model names; a comparison became a check for NFC and eSIM; "best smartwatch for swimming" became a gaming ranking; a brand from an earlier question carried over).
 - **"How to choose" questions are answered at last.** "Is 5,000 mAh enough for a day?" or "how much RAM do I need for gaming?" have no single device to look up, so the site answers them with the spread of that spec across the database (median, best 10%, highest and lowest), its own explanation of the term, and what a use-case ranking weighs.
@@ -43,7 +64,7 @@ The AI in Ask the hub stops being a summariser and becomes the part that underst
 - **What the AI looked up is shown with every answer** ("What I looked up: 'best phone for battery life under RM1500'"), above the verified answer and its sources, with up to three follow-up questions to tap.
 
 **Checks: sentence by sentence instead of all or nothing**
-- Version 8 threw a whole summary away when any check failed. Version 9 removes **only the sentences** that can't be confirmed and shows the rest, with a note ("2 sentences the checks couldn't confirm were left out"). An answer is still withheld when more than half of it would go, or when a whole-answer check fails.
+- A whole summary used to be thrown away when any check failed. Now the checks remove **only the sentences** that can't be confirmed and shows the rest, with a note ("2 sentences the checks couldn't confirm were left out"). An answer is still withheld when more than half of it would go, or when a whole-answer check fails.
 - New checks: a figure given to the **wrong device** (each sentence is checked against the facts of the device it names, following "it" to the sentence before); a **tie** the site calls "too close to call" turned into a winner; **claiming a feature** the site records as not recorded ("supports eSIM, but this feature is not recorded"); saying the site has **no data on a device it does have**; repeated or cut-off sentences; a sentence left dangling by a removed one ("Both devices…"); "200 万像素" for 200 MP in Chinese.
 - Loosened where testing showed the checks were too strict: a comparison with both figures in the sentence ("heavier at 224 g than the HONOR X9d at 193 g"), "best" for the device the site ranks first, "lighter" when the question asked for the lightest, and a ranking's later devices in any order (only the first must be the site's first).
 
@@ -55,13 +76,13 @@ The AI in Ask the hub stops being a summariser and becomes the part that underst
 - The model download can be **cancelled**, says when it has stalled ("This is taking longer than expected"), and offers the smaller model instead. If the browser refuses to store a large file, the download moves to the browser's database (IndexedDB) instead of failing.
 - Greetings and thanks are answered by the rules, without waking the model.
 
-## Version 8 (8.0.0) — 2026-09-20
+## 20 September 2026 (first update)
 
 Optional on-device AI answers, and pictures on news and video cards.
 
 **AI answers in Ask the hub (optional, no AI service)**
 - An **AI answers** switch in the Ask panel. The first time, it explains what happens and asks before downloading **Qwen3 1.7B** (Apache 2.0; `Qwen3-1.7B-q4f16_1-MLC`, 984 MB in 30 files, or the q4f32 build on graphics chips without 16-bit shaders) from Hugging Face. **WebLLM 0.2.85** (from jsDelivr) runs it in a Web Worker on the device's graphics chip through WebGPU. Afterwards it loads from the browser's cache in about 3 seconds. Browsers without WebGPU get a plain explanation and the rule-based answers.
-- **The rules still find the facts.** Each question is answered by the Version 7 engine first. The model receives only that answer (converted to plain text) and is asked for a one-to-three-sentence summary in the question's language. The panel shows its progress but reveals the text only after the checks below, so a withheld summary is never on screen. Qwen3's "thinking" mode is switched off and the model runs at temperature 0 with a repetition penalty.
+- **The rules still find the facts.** Each question is answered by the rule-based engine first. The model receives only that answer (converted to plain text) and is asked for a one-to-three-sentence summary in the question's language. The panel shows its progress but reveals the text only after the checks below, so a withheld summary is never on screen. Qwen3's "thinking" mode is switched off and the model runs at temperature 0 with a repetition penalty.
 - **Every summary is checked before it's shown.** It is withheld, and the verified answer shown with the reason, when it:
   - states a figure the site's answer doesn't contain;
   - turns "not recorded" into "doesn't have" (or never mentions that something isn't recorded);
@@ -84,7 +105,7 @@ Optional on-device AI answers, and pictures on news and video cards.
 - A budget question after a list ("bawah RM1000" after "best phone under RM1500") was answered about the previous list's devices; a budget without "it" now starts a new list. Malay budget words (bawah, di bawah, kurang dari/daripada, bajet) are understood.
 - On a device page, a singular "it" after an answer about several devices now means the device on the page.
 
-## Version 7 (7.0.0) — 2026-09-19
+## 19 September 2026
 
 Full specification sheets, pictures for nearly every phone, a Back button with a folder path, a fresh start for each visitor, and an assistant that answers everyday questions.
 
@@ -94,10 +115,10 @@ Full specification sheets, pictures for nearly every phone, a Back button with a
 - Derived from the same pages where they state them: 9 wired and 9 reverse charging figures, 38 optical zoom values (sensor-crop "optical-quality" zoom excluded), 10 IP ratings, main-camera sensor size, aperture and OIS for 264 phones, and security-update end dates from Samsung's data for 19 models. Pixel density calculated for 321 more phones, badged CALC.
 - Rows a source doesn't state are listed once under each section ("Not stated by the sources: …"); sections with nothing recorded are named in one line below the sheet. Module lists and long band lists wrap inside their cell.
 - **Removed maker pages**: 17 official pages that are no longer online were read from their Internet Archive copies (badged OFF, linked to the archived copy with its capture date). 130 values previously taken from launch reports were confirmed against them and now cite the maker's page.
-- **Correction**: Samsung's own data gives the Galaxy S25 a 4,000 mAh battery; Version 6 recorded 4,900 mAh (the S25+ figure). Battery and weight values for every other phone with a cached official page were checked against that page and matched.
+- **Correction**: Samsung's own data gives the Galaxy S25 a 4,000 mAh battery; the 18 September data recorded 4,900 mAh (the S25+ figure). Battery and weight values for every other phone with a cached official page were checked against that page and matched.
 
 **Pictures**
-- 445 of 457 devices now show a picture (V6: 257), including **366 of 373 phones**. 185 new official product images come from Samsung Malaysia's support pages, the product-colour images on vivo and iQOO's specification pages, Xiaomi's product data, Huawei's specification pages (live, other regions, or archived), HONOR, OPPO, Apple's tech-specs images, ASUS ROG, REDMAGIC and realme; 3 more are freely licensed Wikimedia Commons photos.
+- 445 of 457 devices now show a picture (previously 257), including **366 of 373 phones**. 185 new official product images come from Samsung Malaysia's support pages, the product-colour images on vivo and iQOO's specification pages, Xiaomi's product data, Huawei's specification pages (live, other regions, or archived), HONOR, OPPO, Apple's tech-specs images, ASUS ROG, REDMAGIC and realme; 3 more are freely licensed Wikimedia Commons photos.
 - Every candidate was checked by eye. Rejected: text banners, pictures of other models from page menus (two Huawei phones picked up tablet images before the filter was tightened), an unrelated promotion image, and images that no longer load.
 - GSMArena was not used (its robots.txt asks Claude's crawlers not to fetch it). 7 phones without an official or free image that could be verified keep their to-scale outline.
 - The build accepts an official image from the Internet Archive only when the archived address is the maker's own page and image server, and now also accepts ASUS, REDMAGIC and realme image servers.
@@ -126,7 +147,7 @@ Full specification sheets, pictures for nearly every phone, a Back button with a
 - "Gaming doesn't apply to smartphones" was shown when a phone simply had no gaming evidence.
 - The "data as of" date ignored values checked at field level; it now reads 19 September 2026.
 
-## Version 6 (6.0.0) — 2026-09-18
+## 18 September 2026
 
 Four years of Malaysian models, fitness bands, official product images and a built-in assistant.
 
@@ -140,7 +161,7 @@ Four years of Malaysian models, fitness bands, official product images and a bui
 - 560 new prices for 353 devices, each linked to the SoyaCincau, Lowyat.NET or Nasi Lemak Tech launch report it came from. Recommended retail prices are recorded; early-bird and promotional prices are noted beside them.
 - Each price was matched to a sentence that names that exact model (sibling-aware, so a Pro or 5G price never lands on the base model) and every device was reviewed by hand against the article text.
 - 58 devices sold in Malaysia without a found launch price say so.
-- For V6 devices, "Announced" is the first Malaysian launch report's date; its source is shown on hover.
+- For devices added on 18 September, "Announced" is the first Malaysian launch report's date; its source is shown on hover.
 
 **Fitness bands**
 - A new **Fitness bands** category (17 bands: Galaxy Fit3, Xiaomi Smart Band 8 to 10 and 11 Active, Huawei Band 8 to 11 and HONOR Band 9 and 10) with brand, price, year, battery-life and water-resistance filters, its own spec sections and the watch-style outline.
@@ -168,7 +189,7 @@ Four years of Malaysian models, fitness bands, official product images and a bui
 - Claimed wearable battery life read "504:00h" (the format for measured battery tests); it now reads "21 days" or "36 h" on cards, spec sheets and comparisons.
 - Assistant: budget questions rank by the attribute asked about ("biggest battery under RM1,500"), "best … under RMx" uses the scores, and "smartwatchs" is now "smartwatches".
 
-## Version 5 (5.0.0) — 2026-09-17
+## 17 September 2026
 
 Real device pictures, live headlines with a Refresh button, exchange rates that update themselves, section navigation, source website links, and GitHub Pages publishing.
 
@@ -202,7 +223,7 @@ Real device pictures, live headlines with a Refresh button, exchange rates that 
 - `.github/workflows/pages.yml` refreshes rates and headlines, validates and builds the data, and publishes to GitHub Pages on every push, every 3 hours and on demand. A data error stops the run and keeps the previous version online.
 - `.gitignore`, and a deployment guide in `docs/DEPLOYMENT.md`. All data and page paths are relative, so the site works from a sub-folder such as `username.github.io/repo/`.
 
-## Version 4 (4.0.0) — 2026-09-16
+## 16 September 2026
 
 Verified Malaysian launch prices for every device, and a stated data cut-off.
 
@@ -236,9 +257,9 @@ Verified Malaysian launch prices for every device, and a stated data cut-off.
 - Out-of-date examples fixed: the methodology page and docs still quoted the Galaxy S26 Ultra at RM6,799 (the 512 GB price) next to the 256 GB US price, and used a conversion example for a phone that now has a Malaysian price. The Lowyat.NET launch-day news summary now explains its RM6,799 figure.
 
 **Layout**
-- Browse tables were wider than their box at 1280 px when the browser shows a scrollbar, hiding part of the Compare column (by 120 px in the ranking view, already the case in Version 3). Table prices are now compact: the header names the currency, and conversions and reasons go on a second line. The ranking view shows the chipset under the device name instead of in its own column. All table views now fit at 1280 px.
+- Browse tables were wider than their box at 1280 px when the browser shows a scrollbar, hiding part of the Compare column (by 120 px in the ranking view, already the case before). Table prices are now compact: the header names the currency, and conversions and reasons go on a second line. The ranking view shows the chipset under the device name instead of in its own column. All table views now fit at 1280 px.
 
-## Version 3 (3.0.0) — 2026-09-15
+## 15 September 2026 (third release)
 
 Display currency with Malaysian ringgit as the default, plus a full bug and wording sweep.
 
@@ -269,9 +290,9 @@ Display currency with Malaysian ringgit as the default, plus a full bug and word
 - “Best smartphones for balanced” → “Best smartphones overall”; “X is the better pick for balanced” → “for most buyers”; ties name both devices.
 - Search intents read naturally (“Best smartphones for gaming under RM4,000”).
 
-## Version 2 (2.0.0) — 2026-09-15
+## 15 September 2026 (second release)
 
-Quality checks 3–10 on top of Version 1.
+Quality checks 3–10 on top of the first release.
 
 **Comparison engine**
 - Key differences: a digest of the biggest real gaps. The leader is compared with the next-best device, a gap qualifies at 12% or more (2+ years for updates), chipset stand-ins are excluded, and each item shows its evidence class, source and confidence.
@@ -302,6 +323,6 @@ Quality checks 3–10 on top of Version 1.
 - The intent→URL mapping now lives only in `engine/intent.js`.
 - The non-enumerable-property workaround in profile scoring is replaced by an explicit `category` parameter.
 
-## Version 1 (1.0.0) — 2026-09-15
+## 15 September 2026 (first release)
 
 First release. Zero-build web app with a Python data build: 44 devices, 22 chipsets, 61 documents, 244 attributed evidence records; home, browse, device, compare, chipset, search, feeds, methodology, source and brand pages; quality checks 1–2.

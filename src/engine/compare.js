@@ -230,11 +230,12 @@ export function buildComparison(entities, profile = 'balanced', { currency } = {
   }
   const valueCurrency = sharedCurrency(entities, currency);
   const balanced = store.profileById.get('balanced');
-  const balancedMap = new Map(entities.map((e) => [entityId(e), profileScore(catScores.get(entityId(e)), balanced, { category })?.score]));
+  // like-for-like: every device is scored on the same shared categories, so nothing is filled in (fill: false)
+  const balancedMap = new Map(entities.map((e) => [entityId(e), profileScore(catScores.get(entityId(e)), balanced, { category, fill: false })?.score]));
   const values = valueCurrency ? valueScores(entities, valueCurrency, balancedMap) : new Map();
 
   const profileResults = entities
-    .map((e) => ({ id: entityId(e), result: profileScore(catScores.get(entityId(e)), profile, { category, valueScore: values.get(entityId(e))?.score ?? null }) }))
+    .map((e) => ({ id: entityId(e), result: profileScore(catScores.get(entityId(e)), profile, { category, fill: false, valueScore: values.get(entityId(e))?.score ?? null }) }))
     .filter((r) => r.result)
     .sort((a, b) => b.result.score - a.result.score);
 

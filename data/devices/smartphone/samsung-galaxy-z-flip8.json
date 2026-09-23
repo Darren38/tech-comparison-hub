@@ -38,10 +38,10 @@
       "bands_5g": "5G FDD Sub6: N1(2100), N2(1900), N3(1800), N5(850), N7(2600), N8(900), N12(700), N20(800), N25(1900), N26(850), N28(700), N66(AWS-3), N71(600); 5G TDD Sub6: N38(2600), N40(2300), N41(2500), N77(3700), N78(3500)",
       "technology": "GSM / HSPA / LTE / 5G",
       "sim": "Dual-SIM; Nano-SIM (4FF), Embedded-SIM; SIM 1 + eSIM / Dual eSIM",
-      "wifi": "802.11a/b/g/n/ac/ax/be 2.4GHz+5GHz+6GHz, EHT320, MIMO, 4096-QAM",
-      "bluetooth": "Bluetooth v5.4",
+      "wifi": "Wi-Fi 7 (802.11be)",
+      "bluetooth": "Bluetooth 5.4",
       "positioning": "GPS, Glonass, Beidou, Galileo, QZSS",
-      "usb": "USB Type-C, USB 3.2 Gen 1"
+      "usb": "USB-C (USB 3.2 Gen 1)"
     },
     "build": {
       "weight_g": 180.0,
@@ -74,6 +74,11 @@
           "mp": 50,
           "aperture": "f/1.8",
           "ois": true
+        },
+        {
+          "role": "ultrawide",
+          "mp": 12,
+          "aperture": "f/2.2"
         }
       ],
       "rear_text": "Rear: 50 MP + 12 MP",
@@ -86,7 +91,7 @@
       "front_detail": [
         "10 MP, f/2.2"
       ],
-      "video": "UHD 4K (3840 x 2160)@60fps"
+      "video": "4K @ 60 fps"
     },
     "audio": {
       "speakers": "Stereo speakers",
@@ -160,8 +165,8 @@
         "class": "official",
         "source": "samsung",
         "url": "https://www.samsung.com/my/smartphones/galaxy-z-flip8/specs/",
-        "checked": "2026-09-18",
-        "note": "Read from Samsung Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+        "checked": "2026-09-23",
+        "note": "Read from Samsung Malaysia's specification page."
       },
       "specs.camera.rear_detail": {
         "class": "official",
@@ -174,8 +179,8 @@
         "class": "official",
         "source": "samsung",
         "url": "https://www.samsung.com/my/smartphones/galaxy-z-flip8/specs/",
-        "checked": "2026-09-18",
-        "note": "Read from Samsung Malaysia's specification page on 2026-09-18. Values were extracted automatically and reviewed; anything the page does not state is left out."
+        "checked": "2026-09-23",
+        "note": "Read from Samsung Malaysia's specification page."
       },
       "specs.platform.cpu": {
         "class": "official",
@@ -188,6 +193,27 @@
         "class": "platform",
         "source": "platform",
         "note": "Calculated from resolution and screen size."
+      },
+      "specs.connectivity.wifi": {
+        "class": "official",
+        "source": "samsung",
+        "url": "https://www.samsung.com/my/smartphones/galaxy-z-flip8/specs/",
+        "checked": "2026-09-23",
+        "note": "Read from Samsung Malaysia's specification page."
+      },
+      "specs.connectivity.bluetooth": {
+        "class": "official",
+        "source": "samsung",
+        "url": "https://www.samsung.com/my/smartphones/galaxy-z-flip8/specs/",
+        "checked": "2026-09-23",
+        "note": "Read from Samsung Malaysia's specification page."
+      },
+      "specs.connectivity.usb": {
+        "class": "official",
+        "source": "samsung",
+        "url": "https://www.samsung.com/my/smartphones/galaxy-z-flip8/specs/",
+        "checked": "2026-09-23",
+        "note": "Read from Samsung Malaysia's specification page."
       }
     }
   },

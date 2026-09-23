@@ -35,14 +35,11 @@
     }
   ],
   "image": {
-    "kind": "photo",
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Samsung_Galaxy_Z_Fold8_back.jpg/500px-Samsung_Galaxy_Z_Fold8_back.jpg",
-    "page": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_Z_Fold8_back.jpg",
-    "title": "Samsung Galaxy Z Fold8 back",
-    "author": "X-SHLIED",
-    "license": "CC BY 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-    "checked": "2026-09-17"
+    "kind": "official",
+    "src": "https://images.samsung.com/is/image/samsung/p6pim/my/f2607/gallery/my-galaxy-z-fold8-f971-sm-f971blvdxme-thumb-553725273?$310_N_PNG$",
+    "page": "https://www.samsung.com/my/smartphones/galaxy-z-fold8/buy/",
+    "credit": "Samsung Malaysia",
+    "checked": "2026-09-23"
   },
   "specs": {
     "display": {
@@ -50,7 +47,8 @@
       "type": "Dynamic AMOLED 2X (foldable, 4:3)",
       "refresh_hz": 120,
       "peak_nits": 2600,
-      "secondary": "5.5-inch cover screen, 10:16, 120 Hz, 2600 nits"
+      "secondary": "5.5-inch cover screen, 10:16, 120 Hz, 2600 nits",
+      "resolution": "2448 x 1848"
     },
     "platform": {
       "chipset": "snapdragon-8-elite-gen-5",
@@ -79,15 +77,19 @@
       "rear": [
         {
           "role": "main",
-          "mp": 50
+          "mp": 50,
+          "aperture": "f/1.8",
+          "ois": true
         },
         {
           "role": "ultrawide",
-          "mp": 50
+          "mp": 50,
+          "aperture": "f/1.9"
         }
       ],
       "zoom_optical_x": 1,
-      "front": "Selfie cameras on both screens"
+      "front": "10 MP (inner), 10 MP (cover)",
+      "video": "8K @ 30 fps"
     },
     "build": {
       "weight_g": 201
@@ -98,7 +100,8 @@
       "nfc": true,
       "uwb": true,
       "satellite": true,
-      "usb": "USB-C with DisplayPort"
+      "usb": "USB-C (USB 3.2 Gen 1)",
+      "bluetooth": "Bluetooth 6.0"
     },
     "software": {
       "launch_os": "Android 17, One UI 9"
@@ -111,7 +114,50 @@
       "url": "https://www.samsung.com/au/mobile/buying-guide/galaxy-z-fold8-features-specs/",
       "checked": "2026-09-15"
     },
-    "fields": {}
+    "fields": {
+      "specs.display.resolution": {
+        "class": "official",
+        "source": "samsung",
+        "url": "https://www.samsung.com/my/smartphones/galaxy-z-fold8/specs/",
+        "checked": "2026-09-23",
+        "note": "Read from Samsung Malaysia's specification page."
+      },
+      "specs.camera.rear": {
+        "class": "official",
+        "source": "samsung",
+        "url": "https://www.samsung.com/my/smartphones/galaxy-z-fold8/specs/",
+        "checked": "2026-09-23",
+        "note": "Read from Samsung Malaysia's specification page."
+      },
+      "specs.camera.front": {
+        "class": "official",
+        "source": "samsung",
+        "url": "https://www.samsung.com/my/smartphones/galaxy-z-fold8/specs/",
+        "checked": "2026-09-23",
+        "note": "Read from Samsung Malaysia's specification page."
+      },
+      "specs.camera.video": {
+        "class": "official",
+        "source": "samsung",
+        "url": "https://www.samsung.com/my/smartphones/galaxy-z-fold8/specs/",
+        "checked": "2026-09-23",
+        "note": "Read from Samsung Malaysia's specification page."
+      },
+      "specs.connectivity.bluetooth": {
+        "class": "official",
+        "source": "samsung",
+        "url": "https://www.samsung.com/my/smartphones/galaxy-z-fold8/specs/",
+        "checked": "2026-09-23",
+        "note": "Read from Samsung Malaysia's specification page."
+      },
+      "specs.connectivity.usb": {
+        "class": "official",
+        "source": "samsung",
+        "url": "https://www.samsung.com/my/smartphones/galaxy-z-fold8/specs/",
+        "checked": "2026-09-23",
+        "note": "Read from Samsung Malaysia's specification page."
+      }
+    }
   },
   "dataStatus": "checked"
 }

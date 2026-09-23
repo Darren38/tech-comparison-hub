@@ -67,11 +67,12 @@
   "specs": {
     "display": {
       "size_in": 6.3,
-      "type": "OLED",
+      "type": "Super Retina XDR OLED, ProMotion",
       "resolution": "2622 × 1206",
       "refresh_hz": 120,
       "peak_nits": 2000,
-      "ppi": 458
+      "ppi": 458,
+      "protection": "Ceramic Shield (latest generation)"
     },
     "platform": {
       "chipset": "apple-a18-pro",
@@ -95,15 +96,23 @@
         {
           "role": "main",
           "mp": 48,
-          "aperture": "f/1.78"
-        },
-        {
-          "role": "telephoto",
-          "mp": 12
+          "aperture": "f/1.78",
+          "focal_mm": 24,
+          "ois": true
         },
         {
           "role": "ultrawide",
-          "mp": 48
+          "mp": 48,
+          "aperture": "f/2.2",
+          "focal_mm": 13
+        },
+        {
+          "role": "telephoto",
+          "mp": 12,
+          "aperture": "f/2.8",
+          "focal_mm": 120,
+          "zoom_x": 5,
+          "ois": true
         }
       ],
       "rear_detail": [
@@ -113,12 +122,13 @@
         "12MP 5x Telephoto: 120mm, ƒ/2.8 aperture and 20° field of view, 100% Focus Pixels, seven-element lens, 3D sensor-shift optical image stabilisation and autofocus, tetraprism design"
       ],
       "features": "5x optical zoom in, 2x optical zoom out; 10x optical zoom range; Digital zoom up to 25x",
-      "video": "4K@120fps; 1080p",
+      "video": "4K Dolby Vision @ up to 120 fps",
       "front_detail": [
         "12MP camera, ƒ/1.9 aperture"
       ],
       "front_video": "4K@60fps; 1080p",
-      "zoom_optical_x": 5
+      "zoom_optical_x": 5,
+      "front": "12 MP"
     },
     "battery": {
       "video_h": 27,
@@ -148,7 +158,10 @@
       "ip": "IP68"
     },
     "software": {
-      "launch_os": "iOS"
+      "launch_os": "iOS 18",
+      "os_updates_years": 6,
+      "security_updates_years": 7,
+      "policy_note": "Apple publishes no fixed upgrade commitment. Recent iPhones have received about six years of major iOS releases plus further security fixes, so the figures here are platform estimates."
     },
     "sensors": "Face ID, LiDAR scanner, Barometer, High dynamic range gyro, High-g accelerometer, Proximity sensor, Dual ambient light sensors"
   },
@@ -172,8 +185,69 @@
         "class": "platform",
         "source": "platform",
         "note": "Calculated from resolution and screen size."
+      },
+      "specs.display.type": {
+        "class": "official",
+        "source": "apple",
+        "url": "https://support.apple.com/en-my/121031",
+        "checked": "2026-09-23",
+        "note": "Read from Apple Malaysia's specification page. The \"2x Telephoto\" entry Apple lists is a crop of the main camera, not a separate camera, so it is not listed here."
+      },
+      "specs.display.protection": {
+        "class": "official",
+        "source": "apple",
+        "url": "https://support.apple.com/en-my/121031",
+        "checked": "2026-09-23",
+        "note": "Read from Apple Malaysia's specification page. The \"2x Telephoto\" entry Apple lists is a crop of the main camera, not a separate camera, so it is not listed here."
+      },
+      "specs.camera.rear": {
+        "class": "official",
+        "source": "apple",
+        "url": "https://support.apple.com/en-my/121031",
+        "checked": "2026-09-23",
+        "note": "Read from Apple Malaysia's specification page. The \"2x Telephoto\" entry Apple lists is a crop of the main camera, not a separate camera, so it is not listed here."
+      },
+      "specs.camera.zoom_optical_x": {
+        "class": "official",
+        "source": "apple",
+        "url": "https://support.apple.com/en-my/121031",
+        "checked": "2026-09-23",
+        "note": "Read from Apple Malaysia's specification page. The \"2x Telephoto\" entry Apple lists is a crop of the main camera, not a separate camera, so it is not listed here."
+      },
+      "specs.camera.front": {
+        "class": "official",
+        "source": "apple",
+        "url": "https://support.apple.com/en-my/121031",
+        "checked": "2026-09-23",
+        "note": "Read from Apple Malaysia's specification page. The \"2x Telephoto\" entry Apple lists is a crop of the main camera, not a separate camera, so it is not listed here."
+      },
+      "specs.camera.video": {
+        "class": "official",
+        "source": "apple",
+        "url": "https://support.apple.com/en-my/121031",
+        "checked": "2026-09-23",
+        "note": "Read from Apple Malaysia's specification page. The \"2x Telephoto\" entry Apple lists is a crop of the main camera, not a separate camera, so it is not listed here."
+      },
+      "specs.software.launch_os": {
+        "class": "official",
+        "source": "apple",
+        "url": "https://support.apple.com/en-my/121031",
+        "checked": "2026-09-23",
+        "note": "Read from Apple Malaysia's specification page. The \"2x Telephoto\" entry Apple lists is a crop of the main camera, not a separate camera, so it is not listed here."
+      },
+      "specs.software.os_updates_years": {
+        "class": "estimated",
+        "source": "platform",
+        "checked": "2026-09-23",
+        "note": "Apple publishes no fixed upgrade commitment. Recent iPhones have received about six years of major iOS releases plus further security fixes, so the figures here are platform estimates."
+      },
+      "specs.software.security_updates_years": {
+        "class": "estimated",
+        "source": "platform",
+        "checked": "2026-09-23",
+        "note": "Apple publishes no fixed upgrade commitment. Recent iPhones have received about six years of major iOS releases plus further security fixes, so the figures here are platform estimates."
       }
     }
   },
-  "dataStatus": "compiled"
+  "dataStatus": "checked"
 }

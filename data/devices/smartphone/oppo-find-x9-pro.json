@@ -41,7 +41,8 @@
       "ppi": 450,
       "refresh_hz": 120,
       "peak_nits": 1800,
-      "pwm": "Not specified"
+      "pwm": "Not specified",
+      "protection": "Corning Gorilla Glass Victus 2"
     },
     "platform": {
       "chipset": "dimensity-9500"
@@ -83,11 +84,17 @@
           "mp": 200,
           "aperture": "f/2.1",
           "zoom_x": 3
+        },
+        {
+          "role": "monochrome",
+          "mp": 2,
+          "aperture": "f/2.4"
         }
       ],
       "zoom_optical_x": 3,
       "front": "50 MP, f/2.0",
-      "accessories": "Hasselblad Teleconverter (10× optical with the accessory)"
+      "accessories": "Hasselblad Teleconverter (10× optical with the accessory)",
+      "video": "4K @ up to 120 fps"
     },
     "build": {
       "dimensions": {
@@ -124,12 +131,28 @@
       "specs.camera.rear": {
         "class": "official",
         "source": "oppo",
-        "note": "Sensor size of the main camera from launch coverage."
+        "url": "https://www.oppo.com/my/smartphones/series-find-x/find-x9-pro/specs/",
+        "checked": "2026-09-23",
+        "note": "Read from OPPO Malaysia's specification page."
       },
       "specs.camera.zoom_optical_x": {
         "class": "official",
         "source": "oppo",
         "note": "3× native optical zoom per OPPO's launch material."
+      },
+      "specs.display.protection": {
+        "class": "official",
+        "source": "oppo",
+        "url": "https://www.oppo.com/my/smartphones/series-find-x/find-x9-pro/specs/",
+        "checked": "2026-09-23",
+        "note": "Read from OPPO Malaysia's specification page."
+      },
+      "specs.camera.video": {
+        "class": "official",
+        "source": "oppo",
+        "url": "https://www.oppo.com/my/smartphones/series-find-x/find-x9-pro/specs/",
+        "checked": "2026-09-23",
+        "note": "Read from OPPO Malaysia's specification page."
       }
     }
   },

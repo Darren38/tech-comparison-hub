@@ -426,7 +426,7 @@ function overallCompare(ids, profileId) {
   const cats = row(ids[0]).category;
   const prof = store.profileById.get(profileId);
   if (!prof || ids.some((id) => row(id).category !== cats)) return null;
-  const scored = ids.map((id) => ({ id, res: profileScore(allCategoryScores(row(id)), prof, { category: cats }) }));
+  const scored = ids.map((id) => ({ id, res: profileScore(allCategoryScores(row(id)), prof, { category: cats, id }) }));
   const ok = scored.filter((x) => x.res && x.res.coverage >= (store.core.scoring?.verdict?.minCoverage ?? 0.34));
   const phrase = profileId === 'balanced' ? 'overall' : `for ${prof.label.toLowerCase()}`;
   const cell = (x) => (ok.includes(x) ? Math.round(x.res.score) : null);
@@ -633,7 +633,7 @@ async function answerVerdict(id, norm, text, attrs) {
   let pos = list.findIndex((x) => x.id === id);
   if (pos < 0 && profileId !== 'balanced') {
     const wanted = store.profileById.get(profileId);
-    const fit = profileScore(allCategoryScores(r), wanted, { category: r.category });
+    const fit = profileScore(allCategoryScores(r), wanted, { category: r.category, id: r.id });
     note = fit && fit.relevance < 0.5
       ? html` ${wanted?.label ?? 'That use'} doesn't really apply to ${plural_}, so this is the overall score.`
       : html` There isn't enough recorded evidence to score it for ${wanted?.label.toLowerCase() ?? 'that use'} (${profileId === 'gaming' || profileId === 'performance' ? 'no benchmark or gaming test results for it or its chip' : 'too few of the relevant values are recorded'}), so this is the overall score.`;
