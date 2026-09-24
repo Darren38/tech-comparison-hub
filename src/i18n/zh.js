@@ -768,6 +768,8 @@ ZH.__patterns = [
   [/^(.+) ▼$/, (m, a) => `${tr(a)} ▼`],
   [/^Ask about (.+)$/, '询问有关 $1 的问题'],
   [/^Data extracted · (\d+) records?$/, '已整理数据 · $1 条记录'],
+  [/^YouTube view count, (.+)$/, 'YouTube 观看次数（$1）'],
+  [/^(\d+) documents? · (\d+) with a YouTube view count$/, '$1 份文件 · 其中 $2 份有 YouTube 观看次数'],
   [/^No (.+) details are recorded for this device yet\.$/, (m, x) => `此设备尚未记录${x.split(', ').map((w) => tr(w.charAt(0).toUpperCase() + w.slice(1))).join('、')}信息。`],
   [/^No category where it ranks in the top (\d+)% of comparable devices\.$/, '没有任何类别排在同类设备的前 $1%。'],
   [/^Too close to call for (.+)$/, (m, x) => (x === 'most buyers' ? '对大多数买家来说难分高下' : `就${tr(x.charAt(0).toUpperCase() + x.slice(1))}而言难分高下`)],
@@ -831,6 +833,13 @@ Object.assign(ZH, {
   'No methodology notes recorded.': '未记录方法说明。', 'Cited for individual values': '用于单项数值的引用',
   'This source is cited on specific values rather than whole documents. The badge next to a value names it; hover the badge for details.': '此来源用于具体数值，而不是整份文件。数值旁的标签会注明来源；将鼠标悬停在标签上可查看详情。',
   'Health': '健康',
+  'Specification source for': '作为参数来源的设备', 'Official data': '官方数据', 'From launch reports': '来自发布报道',
+  'Benchmark databases (UL 3DMark, DXOMARK, AnTuTu) and device pictures are re-checked automatically every day at about 08:00 Malaysia time. Last check: {when}.': 'UL 3DMark、DXOMARK、AnTuTu 等跑分数据库与设备图片每天约马来西亚时间 08:00 自动重新核对。最近一次：{when}。',
+  'Test results from UL 3DMark and DXOMARK (and AnTuTu when its ranking can be read) are re-checked automatically every morning; the last check was {when}. Reviewers’ tables and new phones are still added by hand.': 'UL 3DMark 与 DXOMARK（以及可读取时的 AnTuTu 排行榜）的测试结果每天早上自动重新核对，最近一次为 {when}。评测者的数据表和新机型仍由人工加入。',
+  'Newest': '最新', 'Most viewed': '最多观看', 'Sort': '排序',
+  'None of these items has a view count yet (view counts come from YouTube videos only), so they are shown newest first.': '这些项目都还没有观看次数（观看次数只来自 YouTube 视频），因此按最新排序显示。',
+  'View counts are YouTube’s own, as published in each channel’s feed when collected. Articles don’t publish view counts. A high count means a video reached many people, not that it is more accurate.':
+    '观看次数来自 YouTube 各频道订阅源在收集时公布的数字。文章不公布阅读量。观看次数高代表视频触及的人多，并不代表内容更准确。',
   'Disputed': '存疑',
   '↑ Higher is better': '↑ 越高越好', '↓ Lower is better': '↓ 越低越好',
   'Each line follows one flagship series from model to model, each dot one model at its launch date, drawn only where that model was measured itself. Lines are labelled with their latest measured model; with four lines or fewer every dot is named. Hover a dot for its result and who measured it.':

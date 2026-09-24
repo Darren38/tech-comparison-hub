@@ -107,3 +107,11 @@ export async function latestHeadlines() {
 
 /** Only http(s) links are ever rendered. */
 export const isSafeUrl = (url) => /^https?:\/\//i.test(url ?? '');
+
+// YouTube view counts by video id (live/views.json, Version 16), read once per visit.
+let viewsPromise = null;
+export function loadViews() {
+  viewsPromise ??= fetch('live/views.json', { cache: 'no-cache' }).then((r) => (r.ok ? r.json() : null)).catch(() => null);
+  return viewsPromise;
+}
+export const youtubeId = (url) => /(?:youtube\.com\/watch\?v=|youtu\.be\/|youtube\.com\/shorts\/)([\w-]{11})/.exec(url ?? '')?.[1] ?? null;

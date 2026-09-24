@@ -1,7 +1,7 @@
 // Site chrome: header (nav, search with suggestions, theme), footer, compare tray, toasts.
 
 import { html, mount } from '../lib/html.js';
-import { fmtDate, fmtNumber } from '../lib/format.js';
+import { fmtDate, fmtDateTime, fmtNumber } from '../lib/format.js';
 import { store, deviceTitle } from '../core/store.js';
 import { href } from '../core/router.js';
 import { compareTray, theme, MAX_COMPARE } from '../core/state.js';
@@ -241,6 +241,7 @@ export function renderFooter() {
         ${lang() === 'zh' ? html`<p class="tiny muted" style="margin-top:8px">界面已翻译为中文；评测摘要、新闻标题和来源说明保持原文语言，数值与来源不变。</p>` : ''}
         <p class="tiny" style="margin-top:10px"><strong>${t('Data as of {date}, not live.', { date: fmtDate(data.asOf ?? time.slice(0, 10)) })}</strong> ${t('Devices announced {from} to {to}', { from: fmtDate(data.announcedFrom, 'month'), to: fmtDate(data.announcedTo, 'month') })} · ${t('{n} devices', { n: fmtNumber(counts.devices) })} · ${t('{n} evidence records', { n: fmtNumber(counts.records) })} · ${t('{n} source documents', { n: fmtNumber(counts.documents) })} · <a href="${href('/methodology', { section: 'freshness' })}">${t('How current is this?')}</a></p>
         <p class="tiny muted" style="margin-top:6px" data-rates-label>${t('Exchange rates')}: ${ratesLabel()}${store.core.currencies?.live ? t(' · updated when you opened this page') : ''}.</p>
+        ${store.core.build?.auto?.benchmarks ? html`<p class="tiny muted" style="margin-top:4px">${t('Benchmark databases (UL 3DMark, DXOMARK, AnTuTu) and device pictures are re-checked automatically every day at about 08:00 Malaysia time. Last check: {when}.', { when: fmtDateTime(store.core.build.auto.benchmarks.at) })}</p>` : ''}
       </div>
       <div><h4>${t('Explore')}</h4><ul>
         <li><a href="${href('/devices/smartphone')}">${t('Smartphones')}</a></li>

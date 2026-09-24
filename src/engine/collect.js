@@ -71,18 +71,24 @@ function feedImage(node) {
   return null;
 }
 
-/** [{ title, link, date, image }] from RSS 2.0 or Atom text; throws when it is not XML. */
+/** The view count a YouTube feed publishes for a video (media:statistics views), or null. */
+function feedViews(node) {
+  const v = node.getElementsByTagNameNS(MEDIA, 'statistics')[0]?.getAttribute('views');
+  return v != null && /^\d+$/.test(v) ? Number(v) : null;
+}
+
+/** [{ title, link, date, image, views }] from RSS 2.0 or Atom text; throws when it is not XML. */
 export function parseFeed(xml) {
   const doc = new DOMParser().parseFromString(xml, 'application/xml');
   if (doc.getElementsByTagName('parsererror').length) throw new Error('not a readable feed');
   const out = [];
   for (const item of doc.getElementsByTagName('item')) {
     if (item.namespaceURI) continue;
-    out.push({ title: childText(item, null, 'title'), link: childText(item, null, 'link'), date: childText(item, null, 'pubDate') ?? childText(item, DC, 'date'), image: feedImage(item) });
+    out.push({ title: childText(item, null, 'title'), link: childText(item, null, 'link'), date: childText(item, null, 'pubDate') ?? childText(item, DC, 'date'), image: feedImage(item), views: feedViews(item) });
   }
   for (const entry of doc.getElementsByTagNameNS(ATOM, 'entry')) {
     const link = [...entry.children].find((l) => l.localName === 'link' && l.namespaceURI === ATOM && (l.getAttribute('rel') ?? 'alternate') === 'alternate');
-    out.push({ title: childText(entry, ATOM, 'title'), link: link?.getAttribute('href') ?? null, date: childText(entry, ATOM, 'published') ?? childText(entry, ATOM, 'updated'), image: feedImage(entry) });
+    out.push({ title: childText(entry, ATOM, 'title'), link: link?.getAttribute('href') ?? null, date: childText(entry, ATOM, 'published') ?? childText(entry, ATOM, 'updated'), image: feedImage(entry), views: feedViews(entry) });
   }
   return out;
 }
@@ -198,6 +204,7 @@ export async function collectThroughRelay(config) {
         published: published ? isoMinutes(published) : null,
         devices,
         image: noImage.has(feed.source) ? null : raw.image,
+        ...(raw.views != null ? { views: raw.views } : {}),
       });
       kept += 1;
       if (kept >= perFeed) break;

@@ -1,5 +1,32 @@
 # Changelog
 
+## 24 September 2026 (third update)
+
+A bug sweep of every page at phone and desktop widths, YouTube view counts with a "Most viewed" sort, and a daily automatic refresh of the benchmark databases and device pictures.
+
+**Phone and desktop display**
+- The EN/中文 switch no longer breaks "中文" onto two lines. It happened in English mode on phones up to 390 px wide and on desktops 1680 px and wider, because Chinese text may wrap between any two characters when the header squeezes the button. The switch now never shrinks or wraps.
+- On small phones (320–360 px) the header was wider than the screen and pushed the menu button off it. The site name may now take two short lines and the tools sit closer, so the menu is always reachable.
+- The header's width rules use the classic media-query form, so older phone browsers (for example Safari before iOS 16.4) apply them too.
+- Table headings keep Chinese words whole: on a phone the Methodology scoring table showed "做工与便携" one character per line; a table that gets too wide now scrolls inside its own box.
+- Checked on 21 page types at 360, 390, 768, 1024, 1366 and 1920 px in both languages: no sideways scrolling, nothing sticking out of the screen, no wrapped buttons or labels, no broken pictures. The header was measured at 18 widths from 320 to 1920 px.
+
+**View counts and "Most viewed"**
+- YouTube's channel feeds publish each video's view count; the collectors (on GitHub and in the browser's Refresh) now read it, and videos show "16M views" (in Chinese "1650万次观看").
+- The Reviews & videos page has a Newest / Most viewed switch, both for the live list and for the checked reviews below it. Items without a count keep their newest-first order after the counted ones, and the page says when nothing in the list has a count.
+- `live/views.json` keeps the counts for every video seen in the tracked channels, so a checked review video keeps showing how often it was watched after it drops out of the channel's latest videos.
+- Articles do not publish view counts (none of the 18 news feeds does, and their comment counts are almost all 0), so only videos can be sorted this way. A count shows how many people a video reached, not whether it is accurate; the page says so.
+
+**Daily automatic refresh, 08:05 Malaysia time**
+- `tools/refresh_benchmarks.py` re-reads UL's 3DMark page for each of the 274 phones already matched, DXOMARK's public score list (117 phones) and AnTuTu's ranking. Only phones already matched by hand are refreshed, through the link or listed name recorded for them; a value that moves by more than 30% is held for a person to check; a source that can't be read keeps its saved values. AnTuTu has moved its ranking page (the recorded address now returns 404), so its values stay as checked until the new page is set up.
+- `tools/check_images.py` checks that every device picture still loads (456 of 456 today); a picture that stops loading shows the outline drawing until it is fixed.
+- The build applies both as a layer on top of the checked data (data/ is never rewritten). An update applies only while the value it replaces is still the one in data/, so a later correction by hand always wins. Documents re-read successfully count as checked that day.
+- The GitHub workflow runs this once a day at 00:05 UTC (08:05 Malaysia time) and keeps the result in a cache for that day's later builds, so each source is visited once a day. The footer, the Charts page and Methodology say when the last check ran and how many values changed.
+- Specifications, prices, reviewers' test tables and new devices are still read and added by hand: they need judgement that an automatic job can't give.
+
+**Other fixes**
+- A source's "Specification source for" section was labelled "Official data" even for news outlets; it now says "From launch reports" unless the source is the maker.
+
 ## 24 September 2026 (second update)
 
 English and Chinese; Chinese and more Malaysian news sources in the live headlines; a picture of the device itself on almost every page.

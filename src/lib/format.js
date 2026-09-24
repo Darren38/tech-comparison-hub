@@ -129,6 +129,18 @@ export function fmtPrice(amount, currency) {
   return priceFormats.get(key)(amount);
 }
 
+/** "1.2M views" / "12K views"; in Chinese "120万次观看". */
+export function fmtViews(n) {
+  if (n == null || !Number.isFinite(n)) return '';
+  if (document.documentElement.lang?.startsWith('zh')) {
+    if (n >= 1e8) return `${(n / 1e8).toFixed(n >= 1e9 ? 0 : 1).replace(/\.0$/, '')}亿次观看`;
+    if (n >= 1e4) return `${(n / 1e4).toFixed(n >= 1e5 ? 0 : 1).replace(/\.0$/, '')}万次观看`;
+    return `${n}次观看`;
+  }
+  const short = n >= 1e6 ? `${(n / 1e6).toFixed(n >= 1e7 ? 0 : 1).replace(/\.0$/, '')}M` : n >= 1e3 ? `${(n / 1e3).toFixed(n >= 1e4 ? 0 : 1).replace(/\.0$/, '')}K` : String(n);
+  return `${short} ${n === 1 ? 'view' : 'views'}`;
+}
+
 export function plural(count, word, pluralWord = /(ch|sh|s|x|z)$/.test(word) ? `${word}es` : `${word}s`) {
   return `${fmtNumber(count)} ${count === 1 ? word : pluralWord}`;
 }

@@ -272,3 +272,5 @@ Feeds:
 | `devices/<id>.json` | the device, its chipset, aggregated metrics with every origin and record, its documents with their records and findings, head-to-head tests, related devices |
 | `chipsets/<id>.json` | the chipset, consensus metrics (chip-level plus device-level results), per-device implementation results, documents |
 | `sources/<id>.json` | the source, its documents and record count |
+
+**Automatic layer (Version 16).** `live/auto/benchmarks.json` and `live/auto/images.json` are written by the daily refresh tools and applied by the build on top of `data/`; they are never edited by hand, and deleting them simply returns the site to the checked values. `live/views.json` holds YouTube view counts by video id.

@@ -33,6 +33,8 @@ ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 CONFIG = DATA / "meta" / "live-feeds.json"
 OUT = ROOT / "live" / "headlines.json"
+VIEWS_OUT = ROOT / "live" / "views.json"  # YouTube view counts by video id (Version 16)
+MRSS = "{http://search.yahoo.com/mrss/}"
 # Published next to the headlines so a browser (through the relay in relay/) collects with the same feeds and rules.
 LIVE_CONFIG = ROOT / "live" / "config.json"
 UA = "Mozilla/5.0 (compatible; TechComparisonHub/5.0; headline collector)"
@@ -125,16 +127,30 @@ def feed_image(node) -> str | None:
     return None
 
 
-def parse_feed(raw: bytes) -> list[tuple[str | None, str | None, str | None, str | None]]:
+def feed_views(node) -> int | None:
+    """The view count a YouTube feed publishes for a video (media:statistics views), if any."""
+    for stat in node.iter(f"{MRSS}statistics"):
+        value = stat.get("views", "")
+        if value.isdigit():
+            return int(value)
+    return None
+
+
+def youtube_id(url: str | None) -> str | None:
+    m = re.search(r"(?:youtube\.com/watch\?v=|youtu\.be/|youtube\.com/shorts/)([\w-]{11})", url or "")
+    return m.group(1) if m else None
+
+
+def parse_feed(raw: bytes) -> list[tuple[str | None, str | None, str | None, str | None, int | None]]:
     root = ET.fromstring(raw)
     items = []
     for item in root.iter("item"):
         date = item.findtext("pubDate") or item.findtext("{http://purl.org/dc/elements/1.1/}date")
-        items.append((item.findtext("title"), item.findtext("link"), date, feed_image(item)))
+        items.append((item.findtext("title"), item.findtext("link"), date, feed_image(item), feed_views(item)))
     for entry in root.iter(f"{ATOM}entry"):
         link = next((l.get("href") for l in entry.findall(f"{ATOM}link") if l.get("rel", "alternate") == "alternate"), None)
         date = entry.findtext(f"{ATOM}published") or entry.findtext(f"{ATOM}updated")
-        items.append((entry.findtext(f"{ATOM}title"), link, date, feed_image(entry)))
+        items.append((entry.findtext(f"{ATOM}title"), link, date, feed_image(entry), feed_views(entry)))
     return items
 
 
@@ -225,6 +241,7 @@ def collect() -> dict:
     items: dict[str, dict] = {}
     feeds_out = []
     with cf.ThreadPoolExecutor(max_workers=8) as pool:
+        video_views: dict[str, int] = {}
         futures = {pool.submit(fetch, feed["url"]): feed for feed in cfg["feeds"]}
         for future in cf.as_completed(futures):
             feed = futures[future]
@@ -236,7 +253,11 @@ def collect() -> dict:
                 feeds_out.append(status)
                 continue
             kept = 0
-            for raw_title, raw_link, raw_date, raw_image in parsed:
+            for _t, v_link, _d, _i, v_views in parsed:  # every video in the feed, matched or not, for views.json
+                vid = youtube_id(v_link)
+                if vid and v_views is not None:
+                    video_views[vid] = v_views
+            for raw_title, raw_link, raw_date, raw_image, raw_views in parsed:
                 title = clean_title(raw_title)
                 link = (raw_link or "").strip()
                 if not title or not link.startswith(("https://", "http://")):
@@ -263,6 +284,7 @@ def collect() -> dict:
                     "published": published.isoformat(timespec="minutes") if published else None,
                     "devices": matched,
                     "image": None if feed["source"] in NO_IMAGE_SOURCES else raw_image,
+                    **({"views": raw_views} if raw_views is not None else {}),
                 }
                 kept += 1
                 if kept >= per_feed:
@@ -276,12 +298,14 @@ def collect() -> dict:
         "maxAgeDays": cfg.get("maxAgeDays", 45),
         "feeds": sorted(feeds_out, key=lambda s: s["source"]),
         "items": ordered,
+        "videoViews": video_views,
     }
 
 
 def run(quiet: bool = False) -> dict:
     """Collect and save. If every feed fails (offline), keep the last saved headlines."""
     data = collect()
+    save_views(data.pop("videoViews", {}), data["fetchedAt"])
     ok = [f for f in data["feeds"] if f["ok"]]
     failed = [f["source"] for f in data["feeds"] if not f["ok"]]
     if not ok and OUT.exists():
@@ -297,6 +321,25 @@ def run(quiet: bool = False) -> dict:
         print(f"[headlines] {len(data['items'])} headlines from {len(ok)} of {len(data['feeds'])} feeds"
               + (f"; unreachable: {', '.join(failed)}" if failed else "") + ".")
     return data
+
+
+def save_views(found: dict[str, int], at: str) -> None:
+    """live/views.json: {"videos": {id: [views, counted_at]}}. Counts from earlier runs are kept for videos that have
+    left the channel feeds (each keeps its own date), so a saved review video can still show how often it was watched."""
+    old = {}
+    if VIEWS_OUT.exists():
+        try:
+            old = json.loads(VIEWS_OUT.read_text(encoding="utf-8")).get("videos", {})
+        except ValueError:
+            old = {}
+    videos = {**old, **{vid: [n, at] for vid, n in found.items()}}
+    if not videos:
+        return
+    VIEWS_OUT.parent.mkdir(parents=True, exist_ok=True)
+    tmp = VIEWS_OUT.with_suffix(".tmp")
+    tmp.write_text(json.dumps({"updatedAt": at, "source": "YouTube channel feeds (media:statistics)", "videos": videos},
+                              ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+    tmp.replace(VIEWS_OUT)
 
 
 def main() -> int:

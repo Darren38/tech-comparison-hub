@@ -245,3 +245,10 @@ The build also writes `index/coverage.json`, a map of what the database does *no
 - `src/i18n/zh.js` is keyed by the English text. Exact phrases are looked up first, then `ZH.__patterns` (regular expressions for text built from numbers and names). A missing entry falls back to the English.
 - Switching language saves the choice and reloads the page, so every page is drawn once in one language.
 - Headline feeds can carry `lang` (shown as a tag and filtered on the News and Reviews pages) and `tz` (the offset for dates written without one). Both are passed to `live/config.json`, so the browser collector and the relay use the same list.
+
+## Daily automatic refresh and view counts (Version 16)
+
+- `tools/refresh_benchmarks.py` writes `live/auto/benchmarks.json` (`updates`, `held`, `confirmed`, per-source status); `tools/check_images.py` writes `live/auto/images.json` (`broken`). Both take `--max-age-hours`, so repeated runs on the same day do nothing.
+- `tools/build.py` → `apply_auto()` runs inside `Dataset()` before validation: an update replaces a record's value only when the record still holds the `previous` value, and adds a note; confirmed documents get `accessed` = the refresh day and `autoRefreshed`; broken pictures are dropped so the outline drawing shows. The summary goes to `core.build.auto`, shown in the footer, on Charts and in Methodology.
+- `.github/workflows/pages.yml`: a daily cron at 00:05 UTC, `actions/cache` on `live/auto` keyed by the UTC day, then the two tools with `continue-on-error`, then the build. Job timeout 45 minutes (UL's 274 pages take about 10–16).
+- View counts: `tools/fetch_headlines.py` and `src/engine/collect.js` read `media:statistics views` from YouTube feeds into each item (`views`) and into `live/views.json` (`videos: {id: [views, countedAt]}`, merged with earlier counts). `engine/live.js` → `loadViews()`, `youtubeId()`; `lib/format.js` → `fmtViews()` (万/亿 in Chinese).

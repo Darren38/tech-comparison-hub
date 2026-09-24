@@ -2295,3 +2295,11 @@ td.is-best {
 .src-pill:hover {
   border-color: var(--c-measured);
 }
+
+/* Version 16: YouTube view counts on headline rows and review cards */
+.live__views,
+.doc__views {
+  font-weight: 650;
+  color: var(--ink-2);
+  white-space: nowrap;
+}

@@ -4,10 +4,11 @@
 // in its Snapdragon version and the site records the Malaysian Exynos model, the result is its own labelled bar.
 
 import { html, mount } from '../lib/html.js';
-import { fmtMetric, fmtNumber } from '../lib/format.js';
+import { fmtMetric, fmtNumber, fmtDateTime } from '../lib/format.js';
 import { store, metricDef, sourceName, deviceTitle, brandName } from '../core/store.js';
 import { href } from '../core/router.js';
 import { pageTrail } from '../ui/components.js';
+import { t } from '../core/i18n.js';
 import { LINES } from '../engine/lines.js';
 
 // Legible on dark and light backgrounds (some brand colours are near-black).
@@ -219,6 +220,7 @@ export default async function render({ query }) {
         <div class="eyebrow">Measured results only</div>
         <h1>Flagship charts</h1>
         <p class="muted" style="margin-top:8px;max-width:78ch">Every bar is a test result for that phone, named with the labs or publications that measured it. Standard benchmarks (Geekbench, 3DMark, AnTuTu) are the same test wherever they are run, so their results share a chart; tests with a lab's own method (battery life, charging, brightness, DXOMARK scores) each get their own chart and are never put on one scale. Manufacturer claims are not charted, and a Galaxy tested in its Snapdragon version is shown as its own striped bar, separate from the Exynos model sold in Malaysia.</p>
+        ${store.core.build?.auto?.benchmarks ? html`<p class="small muted" style="margin-top:6px;max-width:78ch">${t('Test results from UL 3DMark and DXOMARK (and AnTuTu when its ranking can be read) are re-checked automatically every morning; the last check was {when}. Reviewers’ tables and new phones are still added by hand.', { when: fmtDateTime(store.core.build.auto.benchmarks.at) })}</p>` : ''}
       </header>
       <nav class="tabs" aria-label="Chart">${TABS.map((t) => html`<a href="${href('/charts', { tab: t.id })}" aria-current="${t.id === state.tab ? 'true' : 'false'}">${t.label}</a>`)}</nav>
       <div data-chart>${panel(state)}</div>

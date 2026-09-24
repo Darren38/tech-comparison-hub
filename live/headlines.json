@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-09-24T07:10:05+00:00",
+ "fetchedAt": "2026-09-24T15:55:04+00:00",
  "maxAgeDays": 45,
  "feeds": [
   {
@@ -12,7 +12,7 @@
    "source": "android-police",
    "kind": "news",
    "ok": true,
-   "kept": 3
+   "kept": 5
   },
   {
    "source": "beebom",
@@ -24,13 +24,13 @@
    "source": "engadget",
    "kind": "news",
    "ok": true,
-   "kept": 2
+   "kept": 3
   },
   {
    "source": "fonearena",
    "kind": "news",
    "ok": true,
-   "kept": 7
+   "kept": 1
   },
   {
    "source": "geekerwan",
@@ -48,7 +48,7 @@
    "source": "gsmarena",
    "kind": "news",
    "ok": true,
-   "kept": 13
+   "kept": 12
   },
   {
    "source": "ifanr",
@@ -60,7 +60,7 @@
    "source": "ithome",
    "kind": "news",
    "ok": true,
-   "kept": 10
+   "kept": 5
   },
   {
    "source": "jerryrigeverything",
@@ -101,8 +101,9 @@
   {
    "source": "mydrivers",
    "kind": "news",
-   "ok": true,
-   "kept": 15
+   "ok": false,
+   "kept": 0,
+   "error": "TimeoutError: The read operation timed out"
   },
   {
    "source": "notebookcheck",
@@ -120,25 +121,25 @@
    "source": "sammobile",
    "kind": "news",
    "ok": true,
-   "kept": 7
+   "kept": 6
   },
   {
    "source": "sammyfans",
    "kind": "news",
    "ok": true,
-   "kept": 2
+   "kept": 4
   },
   {
    "source": "soyacincau",
    "kind": "news",
    "ok": true,
-   "kept": 3
+   "kept": 2
   },
   {
    "source": "technave",
    "kind": "news",
    "ok": true,
-   "kept": 11
+   "kept": 10
   },
   {
    "source": "zinggadget",
@@ -149,17 +150,529 @@
  ],
  "items": [
   {
-   "id": "dabd6fd0bd49",
-   "title": "苹果确认下周推送更新，修复 iPhone18 Pro / Max 自动重启问题",
-   "url": "https://www.ithome.com/1/006/796.htm",
+   "id": "e79009b19ada",
+   "title": "Garmin releases new update for popular smartwatches with fresh improvement",
+   "url": "https://www.notebookcheck.net/Garmin-releases-new-update-for-popular-smartwatches-with-fresh-improvement.1407310.0.html",
+   "source": "notebookcheck",
+   "kind": "news",
+   "published": "2026-09-24T15:54+00:00",
+   "devices": [],
+   "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/instinct-3-update-1519-release-kv.jpg"
+  },
+  {
+   "id": "8e053cf6ab3c",
+   "title": "Deals: 24GB M5 MacBook Air $150 off, Apple Watch Ultra $200 off, Mac mini, Beats cable $7.50, more",
+   "url": "https://9to5mac.com/2026/09/24/deals-m5-macbook-air-apple-watch-ultra-beats-cable/",
+   "source": "9to5mac",
+   "kind": "news",
+   "published": "2026-09-24T15:31+00:00",
+   "devices": [],
+   "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/09/Apple-deals-Apple-Watch-Ultra-MacBook-Air.jpg?quality=82&strip=all&w=1600"
+  },
+  {
+   "id": "4a41f36ded3f",
+   "title": "Some Pixel owners just found another free year of Google AI Pro hiding in their accounts",
+   "url": "https://www.androidpolice.com/you-might-be-eligible-for-a-second-free-year-of-google-ai-pro-but-no-one-is-sure-why/",
+   "source": "android-police",
+   "kind": "news",
+   "published": "2026-09-24T15:29+00:00",
+   "devices": [],
+   "image": null
+  },
+  {
+   "id": "2615b1a41654",
+   "title": "iPhone 18 Pro one week later: Zero compromises",
+   "url": "https://9to5mac.com/2026/09/24/iphone-18-pro-one-week-later-zero-compromises/",
+   "source": "9to5mac",
+   "kind": "news",
+   "published": "2026-09-24T15:27+00:00",
+   "devices": [
+    "apple-iphone-18-pro"
+   ],
+   "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/09/iphone-18-pro-burgundy-rc.jpg?quality=82&strip=all&w=1600"
+  },
+  {
+   "id": "dfc9baa88220",
+   "title": "Apple vs. Adobe: How does iOS 27’s AI photo editing compare to Photoshop?",
+   "url": "https://9to5mac.com/2026/09/24/apple-vs-adobe-how-does-ios-27s-ai-photo-editing-compare-to-photoshop/",
+   "source": "9to5mac",
+   "kind": "review",
+   "published": "2026-09-24T15:25+00:00",
+   "devices": [],
+   "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/09/photos-vs-photoshop.jpg?quality=82&strip=all&w=1600"
+  },
+  {
+   "id": "b45eb79d8111",
+   "title": "Xiaomi's 18 Pro series phones have the latest Snapdragon chip and a Samsung-like privacy screen",
+   "url": "https://www.engadget.com/2267684/xiaomis-18-pro-series-phones-have-the-latest-snapdragon-chip-and-a-samsung-like-privacy-screen/",
+   "source": "engadget",
+   "kind": "news",
+   "published": "2026-09-24T15:23+00:00",
+   "devices": [
+    "xiaomi-18-pro"
+   ],
+   "image": "https://www.engadget.com/img/gallery/xiaomis-18-pro-series-phones-have-the-latest-snapdragon-chip-and-a-samsung-like-privacy-screen/l-intro-1790263359.jpg"
+  },
+  {
+   "id": "b4876c84ab58",
+   "title": "The new Snapdragon Sound Elite Gen 2 is a chip for camera-equipped headphones",
+   "url": "https://www.gsmarena.com/the_new_snapdragon_sound_elite_gen_2_is_a_chip_for_cameraequipped_headphones-news-74748.php",
+   "source": "gsmarena",
+   "kind": "news",
+   "published": "2026-09-24T15:17+00:00",
+   "devices": [],
+   "image": null
+  },
+  {
+   "id": "09fc67562046",
+   "title": "iQOO preparing another gaming tablet that will be cheaper than the Pad Ultra",
+   "url": "https://www.notebookcheck.net/iQOO-preparing-another-gaming-tablet-that-will-be-cheaper-than-the-Pad-Ultra.1407655.0.html",
+   "source": "notebookcheck",
+   "kind": "news",
+   "published": "2026-09-24T15:14+00:00",
+   "devices": [],
+   "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/iqoo-pad-leak-teaser.jpg"
+  },
+  {
+   "id": "82540a932d63",
+   "title": "Global Xiaomi 18 Pro and 18 Pro Max have smaller batteries than the China versions",
+   "url": "https://www.gizmochina.com/2026/09/24/global-xiaomi-18-pro-and-18-pro-max-have-smaller-batteries-than-the-china-versions/",
+   "source": "gizmochina",
+   "kind": "news",
+   "published": "2026-09-24T15:06+00:00",
+   "devices": [
+    "xiaomi-18-pro"
+   ],
+   "image": "https://www.gizmochina.com/wp-content/uploads/2026/09/Xiaomi-18-Pro-Series-Unboxing_1.mp4_20260924_182100.987-300x150.jpg?x96852"
+  },
+  {
+   "id": "31340dce51f4",
+   "title": "Take a look at Samsung’s first-ever Galaxy Buds On clip-on earbuds",
+   "url": "https://www.sammyfans.com/2026/09/24/take-a-look-at-samsungs-first-ever-galaxy-buds-on-clip-on-earbuds/",
+   "source": "sammyfans",
+   "kind": "news",
+   "published": "2026-09-24T14:38+00:00",
+   "devices": [],
+   "image": "https://www.sammyfans.com/wp-content/uploads/2026/09/Samsung-Galaxy-Buds-On-leak-image-1024x576.webp"
+  },
+  {
+   "id": "3943a6172b1f",
+   "title": "Galaxy Buds On design leaks as Samsung prepares first clip-on earbuds",
+   "url": "https://www.notebookcheck.net/Galaxy-Buds-On-design-leaks-as-Samsung-prepares-first-clip-on-earbuds.1407647.0.html",
+   "source": "notebookcheck",
+   "kind": "news",
+   "published": "2026-09-24T14:35+00:00",
+   "devices": [],
+   "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/galaxy-buds-on.jpg"
+  },
+  {
+   "id": "5139d7b31de2",
+   "title": "Samsung hikes Galaxy A56 and Galaxy A36 prices in India again",
+   "url": "https://www.sammobile.com/news/samsung-hikes-galaxy-a56-galaxy-a36-prices-india-again/",
+   "source": "sammobile",
+   "kind": "news",
+   "published": "2026-09-24T14:29+00:00",
+   "devices": [
+    "samsung-galaxy-a36-5g",
+    "samsung-galaxy-a56"
+   ],
+   "image": null
+  },
+  {
+   "id": "0d6f309e22be",
+   "title": "OnePlus 16: Camera specs including 200MP main sensor confirmed, camera samples teased",
+   "url": "https://www.fonearena.com/blog/493384/oneplus-16-camera-specs-including-200mp-main-sensor-confirmed-camera-samples-teased.html",
+   "source": "fonearena",
+   "kind": "news",
+   "published": "2026-09-24T14:28+00:00",
+   "devices": [],
+   "image": "https://images.fonearena.com/blog/wp-content/uploads/2026/09/OnePlus-16-Tomorrows-Starlight-988x1024.jpg"
+  },
+  {
+   "id": "adcca6aae1c9",
+   "title": "Xiaomi 18 Pro Max vs Oppo Find X10 Pro Max: Full Specs and Feature Comparison",
+   "url": "https://www.gizmochina.com/2026/09/24/oppo-find-x10-pro-max-vs-xiaomi-18-pro-max/",
+   "source": "gizmochina",
+   "kind": "review",
+   "published": "2026-09-24T14:24+00:00",
+   "devices": [
+    "oppo-find-x10-pro-max",
+    "xiaomi-18-pro-max"
+   ],
+   "image": "https://www.gizmochina.com/wp-content/uploads/2026/09/Xiaomi-18-Pro-Max-vs-Oppo-Find-X10-Pro-Max--300x150.jpg?x96852"
+  },
+  {
+   "id": "229d324ade71",
+   "title": "Ditch your smartwatch for this Casio classic that's just $18",
+   "url": "https://www.androidpolice.com/ditch-your-smartwatch-for-this-casio-classic-thats-just-18/",
+   "source": "android-police",
+   "kind": "news",
+   "published": "2026-09-24T14:23+00:00",
+   "devices": [],
+   "image": "https://static0.anpoimages.com/wordpress/wp-content/uploads/2026/09/copy-of-169-13.jpg"
+  },
+  {
+   "id": "6b990ddf119d",
+   "title": "iOS 27 lets you create your own custom iPhone wallpapers",
+   "url": "https://9to5mac.com/2026/09/24/ios-27-lets-you-create-your-own-iphone-wallpapers/",
+   "source": "9to5mac",
+   "kind": "news",
+   "published": "2026-09-24T14:18+00:00",
+   "devices": [],
+   "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/06/ios-27-wallpapers-image-playground-fi.jpg?quality=82&strip=all&w=1600"
+  },
+  {
+   "id": "ce4e48430710",
+   "title": "Microsoft unveils Surface Pro 12\" tablet and Surface Laptop 13\" with Snapdragon X2 Plus",
+   "url": "https://www.gsmarena.com/microsoft_unveils_surface_pro_12_tablet_and_surface_laptop_13_with_snapdragon_x2_plus-news-74747.php",
+   "source": "gsmarena",
+   "kind": "news",
+   "published": "2026-09-24T14:06+00:00",
+   "devices": [],
+   "image": null
+  },
+  {
+   "id": "2b149e0d18d7",
+   "title": "Samsung may have delayed One UI 9.0 release for Galaxy S23 FE",
+   "url": "https://www.sammobile.com/news/samsung-may-have-delayed-one-ui-9-0-release-galaxy-s23-fe/",
+   "source": "sammobile",
+   "kind": "news",
+   "published": "2026-09-24T13:56+00:00",
+   "devices": [
+    "samsung-galaxy-s23-fe"
+   ],
+   "image": null
+  },
+  {
+   "id": "1b490a8861f6",
+   "title": "三星首款耳夹式耳机 Galaxy Buds On 外观曝光，预计支持睡眠监测、自动调节音量等",
+   "url": "https://www.ithome.com/1/007/020.htm",
    "source": "ithome",
    "lang": "zh",
    "kind": "news",
-   "published": "2026-09-24T07:05+00:00",
+   "published": "2026-09-24T13:51+00:00",
+   "devices": [],
+   "image": "https://img.ithome.com/newsuploadfiles/2026/9/e7a62934-584c-4162-86c3-a2b2a66e6738.jpg?x-bce-process=image/format,f_auto"
+  },
+  {
+   "id": "29ab45586650",
+   "title": "After two decades of chasing bigger screens, phones are finally shrinking again",
+   "url": "https://www.androidpolice.com/after-twenty-years-of-bigger-screens-phones-are-finally-shrinking-again/",
+   "source": "android-police",
+   "kind": "news",
+   "published": "2026-09-24T13:30+00:00",
+   "devices": [],
+   "image": "https://static0.anpoimages.com/wordpress/wp-content/uploads/2026/09/several-smartphones-from-different-generations-arranged-side-by-side.png"
+  },
+  {
+   "id": "deef1418a811",
+   "title": "打破谷歌 Pixel 独占，摩托罗拉 Signature 27 手机官宣支持 GrapheneOS 系统",
+   "url": "https://www.ithome.com/1/007/013.htm",
+   "source": "ithome",
+   "lang": "zh",
+   "kind": "news",
+   "published": "2026-09-24T13:12+00:00",
    "devices": [
-    "apple-iphone-18-pro-max"
+    "motorola-signature-27"
    ],
-   "image": "https://img.ithome.com/newsuploadfiles/2026/9/8fbde246-26c9-49cf-9417-99ce4b7bb39c.jpg?x-bce-process=image/format,f_auto"
+   "image": "https://img.ithome.com/newsuploadfiles/2026/9/37b5b02e-b0c9-4268-a9d7-6dc076db100f.png?x-bce-process=image/format,f_auto"
+  },
+  {
+   "id": "db3da7db6043",
+   "title": "Apple Confirms iPhone 18 Pro Bug Fix Update is Coming Next Week",
+   "url": "https://www.macrumors.com/2026/09/24/apple-confirms-iphone-18-pro-fix-coming/",
+   "source": "macrumors",
+   "kind": "news",
+   "published": "2026-09-24T13:10+00:00",
+   "devices": [
+    "apple-iphone-18-pro"
+   ],
+   "image": "https://images.macrumors.com/article-new/2026/09/Face-ID-iPhone-18-Pro.jpg"
+  },
+  {
+   "id": "861ca759f2d5",
+   "title": "Galaxy S27 may use UFS 5.1, memory and storage configurations leak",
+   "url": "https://www.sammobile.com/news/galaxy-s27-may-use-ufs-5-1-memory-and-storage-configurations-leak/",
+   "source": "sammobile",
+   "kind": "news",
+   "published": "2026-09-24T13:10+00:00",
+   "devices": [],
+   "image": null
+  },
+  {
+   "id": "191c24d4cd61",
+   "title": "This is what the Galaxy Buds On, Samsung’s clip-on earbuds, look like",
+   "url": "https://www.sammobile.com/news/this-is-what-the-galaxy-buds-on-samsungs-clip-on-earbuds-look-like/",
+   "source": "sammobile",
+   "kind": "news",
+   "published": "2026-09-24T13:06+00:00",
+   "devices": [],
+   "image": "https://www.sammobile.com/wp-content/uploads/2026/09/galaxy-buds-on-leaked-2-1920x854.jpeg"
+  },
+  {
+   "id": "b90113e6ba7e",
+   "title": "Honor X9e Pro arrives with 11,000mAh battery and Snapdragon 6 Gen 5 chip",
+   "url": "https://www.gsmarena.com/honor_x9e_pro_arrives_with_11000mah_battery_and_snapdragon_6_gen_5_chip-news-74749.php",
+   "source": "gsmarena",
+   "kind": "news",
+   "published": "2026-09-24T13:04+00:00",
+   "devices": [],
+   "image": null
+  },
+  {
+   "id": "47420afd356b",
+   "title": "许斐确认小米 18 Pro 系列手机将走向全球，推出国际版",
+   "url": "https://www.ithome.com/1/007/010.htm",
+   "source": "ithome",
+   "lang": "zh",
+   "kind": "news",
+   "published": "2026-09-24T12:58+00:00",
+   "devices": [
+    "xiaomi-18-pro"
+   ],
+   "image": "https://img.ithome.com/newsuploadfiles/2026/9/1d0b8298-80cc-46b7-b449-579401b25ede.png?x-bce-process=image/format,f_auto"
+  },
+  {
+   "id": "6fa42499516a",
+   "title": "苹果 iPhone 4“天线门”发布会完整问答视频流出，乔布斯、库克现场答记者问",
+   "url": "https://www.ithome.com/1/007/002.htm",
+   "source": "ithome",
+   "lang": "zh",
+   "kind": "news",
+   "published": "2026-09-24T12:51+00:00",
+   "devices": [],
+   "image": "https://img.ithome.com/newsuploadfiles/2026/9/5cdc5cbc-3230-40c7-98db-27542c00bba1.png?x-bce-process=image/format,f_auto"
+  },
+  {
+   "id": "43304acc84ff",
+   "title": "New iPad mini coming soon with these major changes",
+   "url": "https://9to5mac.com/2026/09/24/new-ipad-mini-coming-soon-with-these-major-changes/",
+   "source": "9to5mac",
+   "kind": "news",
+   "published": "2026-09-24T12:49+00:00",
+   "devices": [],
+   "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/04/ipad-mini-touch-id-button-top.jpg?quality=82&strip=all&w=1600"
+  },
+  {
+   "id": "494e4981e445",
+   "title": "Full iPhone 4 'Antennagate' Q&A Video Surfaces After 16 Years",
+   "url": "https://www.macrumors.com/2026/09/24/iphone-4-antennagate-qa-video-surfaces/",
+   "source": "macrumors",
+   "kind": "news",
+   "published": "2026-09-24T12:39+00:00",
+   "devices": [],
+   "image": null
+  },
+  {
+   "id": "2e4db2a50f35",
+   "title": "I wish my Galaxy Z Fold 8 would copy this excellent Motorola feature",
+   "url": "https://www.androidpolice.com/we-should-bring-back-this-physical-feature-rather-than-more-ai/",
+   "source": "android-police",
+   "kind": "news",
+   "published": "2026-09-24T12:30+00:00",
+   "devices": [
+    "samsung-galaxy-z-fold8"
+   ],
+   "image": "https://static0.anpoimages.com/wordpress/wp-content/uploads/2026/09/motorola-razr-fold-and-samsung-galaxy-z-fold-8-with-gesture-control-icons-in-the-background.png"
+  },
+  {
+   "id": "0b36f1bba921",
+   "title": "Vivo Imagine Smartphone Photography Awards return for fourth edition with new short film category",
+   "url": "https://www.gizmochina.com/2026/09/24/vivo-imagine-awards-2026-short-film-category-rs-5-lakh-prize/",
+   "source": "gizmochina",
+   "kind": "news",
+   "published": "2026-09-24T12:08+00:00",
+   "devices": [],
+   "image": "https://www.gizmochina.com/wp-content/uploads/2026/09/Vivo-Imaging-2026-300x169.jpg?x96852"
+  },
+  {
+   "id": "7aa304587ce4",
+   "title": "Apple is fixing a nasty iPhone 18 Pro and iPhone 18 Pro Max bug",
+   "url": "https://www.gsmarena.com/apple_is_fixing_a_nasty_iphone_18_pro_and_iphone_18_pro_max_bug-news-74745.php",
+   "source": "gsmarena",
+   "kind": "news",
+   "published": "2026-09-24T12:06+00:00",
+   "devices": [
+    "apple-iphone-18-pro-max",
+    "apple-iphone-18-pro"
+   ],
+   "image": null
+  },
+  {
+   "id": "232f0aeb7c50",
+   "title": "Oppo ColorOS 16 update adds more ways to manage and customize photo libraries",
+   "url": "https://www.gizmochina.com/2026/09/24/oppo-coloros-16-update-photo-management-features/",
+   "source": "gizmochina",
+   "kind": "news",
+   "published": "2026-09-24T12:04+00:00",
+   "devices": [],
+   "image": "https://www.gizmochina.com/wp-content/uploads/2026/09/ColorOS-16-September-300x200.png?x96852"
+  },
+  {
+   "id": "d99c9bfc3cde",
+   "title": "Oppo Find X10 series pre-orders begin in the UK with major freebies; Configs, color options confirmed",
+   "url": "https://www.gizmochina.com/2026/09/24/oppo-find-x10-pro-max-uk-blind-pre-orders-free-gifts/",
+   "source": "gizmochina",
+   "kind": "news",
+   "published": "2026-09-24T12:01+00:00",
+   "devices": [
+    "oppo-find-x10"
+   ],
+   "image": "https://www.gizmochina.com/wp-content/uploads/2026/09/Oppo-Find-X10-series-pre-order-UK-300x144.png?x96852"
+  },
+  {
+   "id": "5c889a16c840",
+   "title": "Ikigai is the first launcher I've used that actually cured my phone addiction",
+   "url": "https://www.androidpolice.com/ikigai-is-the-first-launcher-ive-used-that-actually-cured-my-phone-addiction/",
+   "source": "android-police",
+   "kind": "news",
+   "published": "2026-09-24T12:00+00:00",
+   "devices": [],
+   "image": "https://static0.anpoimages.com/wordpress/wp-content/uploads/2026/09/four-android-phones-showing-different-ikigai-launcher-screens.png"
+  },
+  {
+   "id": "a46811e743a4",
+   "title": "Qualcomm's Snapdragon Sound Elite is a new AI chip for audio wearables",
+   "url": "https://www.engadget.com/2267407/qualcomm-snapdragon-sound-elite-ai-for-audio-wearables/",
+   "source": "engadget",
+   "kind": "news",
+   "published": "2026-09-24T11:23+00:00",
+   "devices": [],
+   "image": "https://www.engadget.com/img/gallery/qualcomms-snapdragon-sound-elite-is-a-new-ai-chip-for-audio-wearables/l-intro-1790248873.jpg"
+  },
+  {
+   "id": "720c1fee66dc",
+   "title": "iOS 27.0.1 update likely coming soon for iPhone",
+   "url": "https://9to5mac.com/2026/09/24/ios-27-0-1-update-likely-coming-soon-for-iphone-users/",
+   "source": "9to5mac",
+   "kind": "news",
+   "published": "2026-09-24T11:20+00:00",
+   "devices": [],
+   "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/09/iphone-18-photos-12.jpg?quality=82&strip=all&w=1600"
+  },
+  {
+   "id": "eaea2c541ee4",
+   "title": "Vivo X500 Pro Max vs Galaxy S26 Ultra: The $1,000 Flagship Taking on Samsung",
+   "url": "https://www.gizmochina.com/2026/09/24/vivo-x500-pro-max-vs-galaxy-s26-ultra/",
+   "source": "gizmochina",
+   "kind": "review",
+   "published": "2026-09-24T11:10+00:00",
+   "devices": [
+    "vivo-x500-pro-max",
+    "samsung-galaxy-s26-ultra"
+   ],
+   "image": "https://www.gizmochina.com/wp-content/uploads/2026/09/image-130-300x156.png?x96852"
+  },
+  {
+   "id": "3e9f3eccfecd",
+   "title": "Xiaomi 18 Pro and Xiaomi 18 Pro Max are going global, the company confirms",
+   "url": "https://www.gsmarena.com/xiaomi_18_pro_and_xiaomi_18_pro_max_are_going_global_the_company_confirms-news-74746.php",
+   "source": "gsmarena",
+   "kind": "news",
+   "published": "2026-09-24T11:07+00:00",
+   "devices": [
+    "xiaomi-18-pro-max",
+    "xiaomi-18-pro"
+   ],
+   "image": null
+  },
+  {
+   "id": "29707961dc61",
+   "title": "【IT之家开箱】OPPO Watch X3 图赏：TC4 钛合金遇上金属竹节表带，寰月钛更显精致",
+   "url": "https://www.ithome.com/1/006/967.htm",
+   "source": "ithome",
+   "lang": "zh",
+   "kind": "news",
+   "published": "2026-09-24T10:23+00:00",
+   "devices": [
+    "oppo-watch-x3"
+   ],
+   "image": "https://img.ithome.com/newsuploadfiles/2026/9/69d9927c-4361-47be-a1aa-c6eb098c7c10.jpg?x-bce-process=image/format,f_auto"
+  },
+  {
+   "id": "54e73434a04c",
+   "title": "Snapdragon 8 Elite Extreme Gen 6 vs A20 Pro vs XRING O3 vs Dimensity 9600 Pro: All chips compared",
+   "url": "https://www.gizmochina.com/2026/09/24/2026-flagship-chips-compared-a20-pro-leads-single-core-xring-o3-tops-multi-core/",
+   "source": "gizmochina",
+   "kind": "review",
+   "published": "2026-09-24T10:01+00:00",
+   "devices": [],
+   "image": "https://www.gizmochina.com/wp-content/uploads/2026/09/Apple-A20-Pro-vs-Dimensity-9600-Pro-vs-Snapdragon-8-Elite-Gen-6-Pro-vs-Xiaomi-XRING-O3-300x174.jpg?x96852"
+  },
+  {
+   "id": "47ef89324b74",
+   "title": "Samsung hit with major US patent lawsuit over technology used in Galaxy devices",
+   "url": "https://www.sammyfans.com/2026/09/24/samsung-hit-with-major-us-patent-lawsuit-over-technology-used-in-galaxy-devices/",
+   "source": "sammyfans",
+   "kind": "news",
+   "published": "2026-09-24T09:54+00:00",
+   "devices": [],
+   "image": "https://www.sammyfans.com/wp-content/uploads/2026/08/galaxy-z-fold-8-watch-9-img.jpg"
+  },
+  {
+   "id": "43b37d0b917b",
+   "title": "Mivi One 5G launches in India with Snapdragon 4 Gen 2",
+   "url": "https://www.gizmochina.com/2026/09/24/mivi-one-5g-launches-in-india-with-snapdragon-4-gen-2/",
+   "source": "gizmochina",
+   "kind": "news",
+   "published": "2026-09-24T09:20+00:00",
+   "devices": [],
+   "image": "https://www.gizmochina.com/wp-content/uploads/2026/09/Mivi-One-5G-Launch-Specs-Price-300x200.jpg?x96852"
+  },
+  {
+   "id": "917d235de990",
+   "title": "Honor Magic 9 price officially announced ahead of launch",
+   "url": "https://www.gizmochina.com/2026/09/24/honor-magic-9-price-officially-announced-ahead-of-launch/",
+   "source": "gizmochina",
+   "kind": "news",
+   "published": "2026-09-24T09:04+00:00",
+   "devices": [],
+   "image": "https://www.gizmochina.com/wp-content/uploads/2026/09/Honor-Magic-9-Curtain-Black-300x300.png?x96852"
+  },
+  {
+   "id": "c77139921bf4",
+   "title": "Upcoming phones with Snapdragon 8 Elite Extreme Gen 6 chip",
+   "url": "https://www.gizmochina.com/2026/09/24/snapdragon-8-elite-extreme-gen-6-upcoming-phones-confirmed-list/",
+   "source": "gizmochina",
+   "kind": "news",
+   "published": "2026-09-24T08:44+00:00",
+   "devices": [],
+   "image": "https://www.gizmochina.com/wp-content/uploads/2026/09/Honor-phone-with-Snapdragon-8-Elite-Extreme-Gen-6-SoC-300x200.png?x96852"
+  },
+  {
+   "id": "205f93a51948",
+   "title": "5999 起！无需多言｜小米 18 Pro 系列发布会",
+   "url": "https://www.ifanr.com/1682002?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "source": "ifanr",
+   "lang": "zh",
+   "kind": "news",
+   "published": "2026-09-24T08:30+00:00",
+   "devices": [
+    "xiaomi-18-pro"
+   ],
+   "image": "https://s3.ifanr.com/wp-content/uploads/2026/09/banner16t9-5.jpg"
+  },
+  {
+   "id": "c5ffd6912ba5",
+   "title": "Oppo starts blind Find X10 series pre-orders in the UK with tons of freebies",
+   "url": "https://www.gsmarena.com/oppo_starts_blind_find_x10_series_preorders_in_the_uk_with_tons_of_freebies-news-74738.php",
+   "source": "gsmarena",
+   "kind": "news",
+   "published": "2026-09-24T08:09+00:00",
+   "devices": [
+    "oppo-find-x10"
+   ],
+   "image": null
+  },
+  {
+   "id": "4fe53fbfa29a",
+   "title": "New 12.5-inch Xiaomi tablet launches with Snapdragon 8 series SoC and 5.8mm-thin design",
+   "url": "https://www.notebookcheck.net/New-12-5-inch-Xiaomi-tablet-launches-with-Snapdragon-8-series-SoC-and-5-8mm-thin-design.1407269.0.html",
+   "source": "notebookcheck",
+   "kind": "news",
+   "published": "2026-09-24T07:17+00:00",
+   "devices": [],
+   "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/Xiaomi-Pad-9-Pro-released.jpg"
   },
   {
    "id": "e6c8db866f81",
@@ -174,17 +687,6 @@
    "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/09/mayo.jpg?quality=82&strip=all&w=1600"
   },
   {
-   "id": "a6b5d984f13b",
-   "title": "罗永浩点赞小米18 Fold引关注 本人回应：就事论事而已",
-   "url": "https://news.mydrivers.com/1/1153/1153711.htm",
-   "source": "mydrivers",
-   "lang": "zh",
-   "kind": "news",
-   "published": "2026-09-24T06:37+00:00",
-   "devices": [],
-   "image": "https://img1.mydrivers.com/img/20260924/s_26b08d1a9dea4391b05bba19cab98556.jpg"
-  },
-  {
    "id": "a23de47731c0",
    "title": "Is this how Samsung could have brought bigger batteries to its flagship phones much earlier?",
    "url": "https://www.sammobile.com/news/how-samsung-can-bring-bigger-batteries-flagship-phones/",
@@ -193,27 +695,6 @@
    "published": "2026-09-24T06:35+00:00",
    "devices": [],
    "image": "https://www.sammobile.com/wp-content/uploads/2026/09/Apple-iPhone-18-Pro-Max-Burgundy.jpg"
-  },
-  {
-   "id": "e0a4966c2597",
-   "title": "最强游戏神机！iQOO16及iQOO Pad Ultra新品发布会",
-   "url": "https://news.mydrivers.com/1/1153/1153707.htm",
-   "source": "mydrivers",
-   "lang": "zh",
-   "kind": "news",
-   "published": "2026-09-24T06:27+00:00",
-   "devices": [],
-   "image": null
-  },
-  {
-   "id": "e0e6afc6f348",
-   "title": "Microsoft introduces new Surface Pro and Surface Laptop with Snapdragon X2 Plus and Surface Mouse",
-   "url": "https://www.fonearena.com/blog/493282/microsoft-surface-pro-surface-laptop-2026-price-features.html",
-   "source": "fonearena",
-   "kind": "news",
-   "published": "2026-09-24T06:26+00:00",
-   "devices": [],
-   "image": "https://images.fonearena.com/blog/wp-content/uploads/2026/09/Microsoft-Surface-Pro-x-Snapdragon-X2-Plus-1024x579.jpg"
   },
   {
    "id": "e85801748dd4",
@@ -226,28 +707,6 @@
    "image": "https://images.macrumors.com/article-new/2026/09/iPhone-Handoff-Feature.jpeg"
   },
   {
-   "id": "0d91e1deafe0",
-   "title": "消息称欧康诺与海光信息联合打造国产化内存、存储芯片测试平台，预计年底发布",
-   "url": "https://www.ithome.com/1/006/739.htm",
-   "source": "ithome",
-   "lang": "zh",
-   "kind": "review",
-   "published": "2026-09-24T06:21+00:00",
-   "devices": [],
-   "image": "https://img.ithome.com/newsuploadfiles/2026/9/092b4314-161b-4f16-80ad-ed6b4c788185.png"
-  },
-  {
-   "id": "75f9c50986be",
-   "title": "存储涨价拦不住！中国移动直接砸近10亿元：采购4000万片存储芯片",
-   "url": "https://news.mydrivers.com/1/1153/1153705.htm",
-   "source": "mydrivers",
-   "lang": "zh",
-   "kind": "news",
-   "published": "2026-09-24T06:17+00:00",
-   "devices": [],
-   "image": "https://img1.mydrivers.com/img/20260924/s_3dc5f56f00804820a4ee6393d0886b4e.png"
-  },
-  {
    "id": "c2f779607c72",
    "title": "Galaxy S27 Pro and Ultra could cost more thanks to LPDDR6 and UFS 5.1",
    "url": "https://www.sammyfans.com/2026/09/24/samsung-galaxy-s27-pro-ultra-lpddr6-and-ufs-5-1-memory/",
@@ -256,17 +715,6 @@
    "published": "2026-09-24T06:15+00:00",
    "devices": [],
    "image": "https://www.sammyfans.com/wp-content/uploads/2026/09/samsung-lpddr6-dram-img-1024x576.jpg"
-  },
-  {
-   "id": "a4bee0f08596",
-   "title": "英特尔 LGA1954 插槽部件曝光，关联 Nova Lake-S 处理器",
-   "url": "https://www.ithome.com/1/006/736.htm",
-   "source": "ithome",
-   "lang": "zh",
-   "kind": "news",
-   "published": "2026-09-24T06:15+00:00",
-   "devices": [],
-   "image": "https://img.ithome.com/newsuploadfiles/2026/9/a29a890a-a11f-45a9-989f-bd9ec267af9f.jpg?x-bce-process=image/format,f_auto"
   },
   {
    "id": "0710f8e634e6",
@@ -299,17 +747,6 @@
    "image": "https://www.sammobile.com/wp-content/uploads/2026/09/Qualcomm-Snapdragon-8-Elite-Extreme-Gen-6-Processor.jpg"
   },
   {
-   "id": "a94668c4e84d",
-   "title": "谷歌安卓总裁萨马特谈苹果发布 iPhone Duo：证明折叠屏手机方向是正确的",
-   "url": "https://www.ithome.com/1/006/727.htm",
-   "source": "ithome",
-   "lang": "zh",
-   "kind": "news",
-   "published": "2026-09-24T05:37+00:00",
-   "devices": [],
-   "image": "https://img.ithome.com/newsuploadfiles/2026/9/43b0741a-de27-489f-a65b-bbfc773f00ac.png"
-  },
-  {
    "id": "5d21635a7dd9",
    "title": "iPhone 18 Pro early buyers demand refund over Face ID reboot issue",
    "url": "https://www.sammyfans.com/2026/09/24/iphone-18-pro-early-buyers-demand-refund-over-face-id-reboot-issue/",
@@ -322,39 +759,6 @@
    "image": null
   },
   {
-   "id": "503612d9f377",
-   "title": "三星 Galaxy Tab S12+ 平板渲染图曝光：天玑 9500 芯片、10600mAh 电池",
-   "url": "https://www.ithome.com/1/006/715.htm",
-   "source": "ithome",
-   "lang": "zh",
-   "kind": "news",
-   "published": "2026-09-24T05:05+00:00",
-   "devices": [],
-   "image": "https://img.ithome.com/newsuploadfiles/2026/9/4fbb5c70-8bb1-4ee3-bf4d-a2fc6f6c00e2.jpg"
-  },
-  {
-   "id": "5acec5c792fb",
-   "title": "AMD RDNA 5 新品曝光：代号“AT2”，微软“Project Helix”芯片同源",
-   "url": "https://www.ithome.com/1/006/714.htm",
-   "source": "ithome",
-   "lang": "zh",
-   "kind": "news",
-   "published": "2026-09-24T04:56+00:00",
-   "devices": [],
-   "image": "https://img.ithome.com/newsuploadfiles/2026/9/4c09d1fb-010d-4ab4-9a19-85c62ef3ab79.png"
-  },
-  {
-   "id": "ec17ee91b751",
-   "title": "三星最强平板 Galaxy Tab S12 Ultra 渲染图曝光：14.6 英寸屏幕、5.1 毫米厚度",
-   "url": "https://www.ithome.com/1/006/713.htm",
-   "source": "ithome",
-   "lang": "zh",
-   "kind": "news",
-   "published": "2026-09-24T04:54+00:00",
-   "devices": [],
-   "image": "https://img.ithome.com/newsuploadfiles/2026/9/52ca8870-c093-43f0-a6b7-8719ff366603.png?x-bce-process=image/format,f_auto"
-  },
-  {
    "id": "82fbe3987763",
    "title": "OnePlus 16 camera specs confirmed: 200MP main sensor and new pro imaging modes",
    "url": "https://www.gizmochina.com/2026/09/24/oneplus-16-camera-specs-confirmed-200mp-main-sensor-and-new-pro-imaging-modes/",
@@ -363,38 +767,6 @@
    "published": "2026-09-24T04:33+00:00",
    "devices": [],
    "image": "https://www.gizmochina.com/wp-content/uploads/2026/09/OnePlus-16-cameras-300x300.png?x96852"
-  },
-  {
-   "id": "c9f7b65369b3",
-   "title": "AI PC生态扩容！高通骁龙X2系列将新增Linux支持 适配计划年底启动",
-   "url": "https://news.mydrivers.com/1/1153/1153697.htm",
-   "source": "mydrivers",
-   "lang": "zh",
-   "kind": "news",
-   "published": "2026-09-24T04:30+00:00",
-   "devices": [],
-   "image": "https://img1.mydrivers.com/img/20260924/s_5126664769c54f29988a25f8e1688204.png"
-  },
-  {
-   "id": "00aab4ec04a0",
-   "title": "Qualcomm Snapdragon Sound Elite Gen 2 with on-device AI, micro-power Wi-Fi 6E for intelligent audio wearables announced",
-   "url": "https://www.fonearena.com/blog/493267/qualcomm-snapdragon-sound-elite-gen-2-features.html",
-   "source": "fonearena",
-   "kind": "news",
-   "published": "2026-09-24T04:08+00:00",
-   "devices": [],
-   "image": "https://images.fonearena.com/blog/wp-content/uploads/2026/09/Snapdragon-Sound-Elite-Gen-2.jpg"
-  },
-  {
-   "id": "f4be41a2e14e",
-   "title": "2026 骁龙峰会高通高管群访：双旗舰策略、行业首超 5GHz、和小米合作关系、AI 手机未来...",
-   "url": "https://www.ithome.com/1/006/706.htm",
-   "source": "ithome",
-   "lang": "zh",
-   "kind": "news",
-   "published": "2026-09-24T04:08+00:00",
-   "devices": [],
-   "image": "https://img.ithome.com/newsuploadfiles/2026/9/7b1a8fd5-a028-4f1a-b170-662aeb6bb050.jpg"
   },
   {
    "id": "a2a3946757dd",
@@ -406,17 +778,6 @@
    "published": "2026-09-24T03:58+00:00",
    "devices": [],
    "image": "https://s3.ifanr.com/wp-content/uploads/2026/09/lark2pad-1790153339614-1.png"
-  },
-  {
-   "id": "72cd90249de9",
-   "title": "暴力熊推出不锈钢版 Mycro Pro 处理器分体冷头，英特尔款支持 LGA1954",
-   "url": "https://www.ithome.com/1/006/700.htm",
-   "source": "ithome",
-   "lang": "zh",
-   "kind": "news",
-   "published": "2026-09-24T03:53+00:00",
-   "devices": [],
-   "image": "https://img.ithome.com/newsuploadfiles/2026/9/b4d9e6d8-9006-48cd-b60a-ce5acbad21f7.png?x-bce-process=image/format,f_auto"
   },
   {
    "id": "8bd9b024827f",
@@ -431,28 +792,6 @@
    "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/Meta-VR-Glasses-unveiled-Half-the-weight-of-an-iPhone-18-Pro.jpg"
   },
   {
-   "id": "671f7531a26a",
-   "title": "高通官宣为骁龙 X2 系列 PC 处理器适配 Linux 系统，早期开发者预览版发布",
-   "url": "https://www.ithome.com/1/006/685.htm",
-   "source": "ithome",
-   "lang": "zh",
-   "kind": "news",
-   "published": "2026-09-24T03:43+00:00",
-   "devices": [],
-   "image": "https://img.ithome.com/newsuploadfiles/2026/9/55692f02-65a0-448f-8a93-edd38da64193.png?x-bce-process=image/format,f_auto"
-  },
-  {
-   "id": "c894ba597ac6",
-   "title": "华为MatePad Air Z核心配置公布：12英寸2.8K屏 最高搭载麒麟T93S芯片",
-   "url": "https://news.mydrivers.com/1/1153/1153610.htm",
-   "source": "mydrivers",
-   "lang": "zh",
-   "kind": "news",
-   "published": "2026-09-24T02:32+00:00",
-   "devices": [],
-   "image": "https://img1.mydrivers.com/img/20260924/s_757fa15c58194d06b04e7ae48d7bc737.png"
-  },
-  {
    "id": "62261a190317",
    "title": "Amazfit's T-Rex Dual Solar smartwatch offers dual-sided solar charging",
    "url": "https://www.gsmarena.com/amazfits_trex_dual_solar_smartwatch_offers_dualsided_solar_charging-news-74734.php",
@@ -463,76 +802,6 @@
    "image": null
   },
   {
-   "id": "3f7986fe8143",
-   "title": "4999元起！OPPO Find X10系列首销：Pro Max全球首发三2亿镜头",
-   "url": "https://news.mydrivers.com/1/1153/1153606.htm",
-   "source": "mydrivers",
-   "lang": "zh",
-   "kind": "news",
-   "published": "2026-09-24T02:09+00:00",
-   "devices": [
-    "oppo-find-x10-pro-max"
-   ],
-   "image": "https://img1.mydrivers.com/img/20260924/s_0ea14ee3a2fd4b92a3994d5cbc69946c.jpg"
-  },
-  {
-   "id": "6b4f28e46e1b",
-   "title": "涨价一大截！微软新款Surface Laptop/Pro换装骁龙X2 Plus：NPU速度暴涨95%",
-   "url": "https://news.mydrivers.com/1/1153/1153605.htm",
-   "source": "mydrivers",
-   "lang": "zh",
-   "kind": "news",
-   "published": "2026-09-24T02:04+00:00",
-   "devices": [],
-   "image": "https://img1.mydrivers.com/img/20260924/Scd567b19-a72c-44b3-8795-bf49a8933687.jpg"
-  },
-  {
-   "id": "af0553cc90e8",
-   "title": "小米18 Pro Max深度体验：可以改名叫小米18 Ultra",
-   "url": "https://news.mydrivers.com/1/1153/1153598.htm",
-   "source": "mydrivers",
-   "lang": "zh",
-   "kind": "review",
-   "published": "2026-09-24T01:51+00:00",
-   "devices": [
-    "xiaomi-18-pro-max"
-   ],
-   "image": "https://img1.mydrivers.com/img/20260924/S95da60ff-4fb7-445a-8b54-0811f25469f8.jpg"
-  },
-  {
-   "id": "bc96a3c3e803",
-   "title": "中国平板出货量下滑13%：华为份额第一 联想逆势暴涨63%",
-   "url": "https://news.mydrivers.com/1/1153/1153592.htm",
-   "source": "mydrivers",
-   "lang": "zh",
-   "kind": "news",
-   "published": "2026-09-24T01:34+00:00",
-   "devices": [],
-   "image": "https://img1.mydrivers.com/img/20260924/Sb3ce3c11-925e-4176-b0f4-190f89c98704.png"
-  },
-  {
-   "id": "f79a3d9ea4b8",
-   "title": "同档罕见全能旗舰！一加16影像全面升级：首次搭载2亿像素大底主摄",
-   "url": "https://news.mydrivers.com/1/1153/1153582.htm",
-   "source": "mydrivers",
-   "lang": "zh",
-   "kind": "news",
-   "published": "2026-09-24T01:18+00:00",
-   "devices": [],
-   "image": "https://img1.mydrivers.com/img/20260924/s_a60375275bca4363bbadbd77ae2ec415.jpg"
-  },
-  {
-   "id": "d46d51af1b6f",
-   "title": "华为Mate 90 Pro Max典藏版配置揭晓：麒麟9050 Pro+16GB！原生可接镜头",
-   "url": "https://news.mydrivers.com/1/1153/1153579.htm",
-   "source": "mydrivers",
-   "lang": "zh",
-   "kind": "news",
-   "published": "2026-09-24T01:16+00:00",
-   "devices": [],
-   "image": "https://img1.mydrivers.com/img/20260924/Sb36d6cde-2ea4-447f-ba31-ee4d61510c39.png"
-  },
-  {
    "id": "27c2e82695b1",
    "title": "Oppo officially confirms new 8,000mAh phone with 144Hz AMOLED display",
    "url": "https://www.notebookcheck.net/Oppo-officially-confirms-new-8-000mAh-phone-with-144Hz-AMOLED-display.1406560.0.html",
@@ -541,17 +810,6 @@
    "published": "2026-09-24T01:04+00:00",
    "devices": [],
    "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/oppo-news-k14-plus-.png"
-  },
-  {
-   "id": "d3577fdfb11c",
-   "title": "高通发布第二代骁龙音频平台至尊版：AI能力提升2倍 功耗直降40%",
-   "url": "https://news.mydrivers.com/1/1153/1153575.htm",
-   "source": "mydrivers",
-   "lang": "zh",
-   "kind": "news",
-   "published": "2026-09-24T00:55+00:00",
-   "devices": [],
-   "image": "https://img1.mydrivers.com/img/20260924/s_0c6ba34d8a1249d0a97d0012d259b3db.png"
   },
   {
    "id": "61f1dabd251a",
@@ -589,33 +847,6 @@
    "image": "https://s3.ifanr.com/wp-content/uploads/2026/09/img_6ab46bd649e21.jpeg"
   },
   {
-   "id": "fafc1d11d8d7",
-   "title": "卢伟冰开箱小米18 Pro系列透明特别版：宛如时尚艺术品 送人、收藏都不错",
-   "url": "https://news.mydrivers.com/1/1153/1153564.htm",
-   "source": "mydrivers",
-   "lang": "zh",
-   "kind": "news",
-   "published": "2026-09-24T00:00+00:00",
-   "devices": [
-    "xiaomi-18-pro"
-   ],
-   "image": "https://img1.mydrivers.com/img/20260924/s_13dfd40362324abea95c1126b79ff342.png"
-  },
-  {
-   "id": "4cef620c1025",
-   "title": "卢伟冰：小米18 Pro在续航上大幅领先iPhone 18 Pro",
-   "url": "https://news.mydrivers.com/1/1153/1153563.htm",
-   "source": "mydrivers",
-   "lang": "zh",
-   "kind": "news",
-   "published": "2026-09-23T23:53+00:00",
-   "devices": [
-    "apple-iphone-18-pro",
-    "xiaomi-18-pro"
-   ],
-   "image": "https://img1.mydrivers.com/img/20260924/s_6ce84cbacd3c4919aa2358596cf64ff4.jpg"
-  },
-  {
    "id": "3414882f0bc0",
    "title": "This US carrier doesn't want to let you use one phone number on two iPhones",
    "url": "https://www.gsmarena.com/this_us_carrier_doesnt_want_to_let_you_use_one_phone_number_on_two_iphones-news-74737.php",
@@ -624,19 +855,6 @@
    "published": "2026-09-23T23:31+00:00",
    "devices": [],
    "image": null
-  },
-  {
-   "id": "f6bfdb88dd80",
-   "title": "小米18 Pro系列首发的光影猎人960/L真身揭晓：思特威打造 国产2亿像素",
-   "url": "https://news.mydrivers.com/1/1153/1153557.htm",
-   "source": "mydrivers",
-   "lang": "zh",
-   "kind": "news",
-   "published": "2026-09-23T23:16+00:00",
-   "devices": [
-    "xiaomi-18-pro"
-   ],
-   "image": "https://img1.mydrivers.com/img/20260924/Sacffa463-ec1d-48f1-b01f-5a19b5e2d1ce.jpg"
   },
   {
    "id": "f9cda93a5c9e",
@@ -693,16 +911,6 @@
    "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/honor-magicpad-4-tablet.png"
   },
   {
-   "id": "cec28c37097a",
-   "title": "Microsoft's new Surface Pro 12 and Surface Laptop 13 feature Snapdragon X2 Plus chips",
-   "url": "https://www.engadget.com/2266680/microsofts-new-surface-pro-12-and-surface-laptop-13-feature-snapdragon-x2-plus-chips/",
-   "source": "engadget",
-   "kind": "news",
-   "published": "2026-09-23T20:30+00:00",
-   "devices": [],
-   "image": "https://www.engadget.com/img/gallery/microsofts-new-surface-pro-12-and-surface-laptop-13-feature-snapdragon-x2-plus-chips/l-intro-1790183051.jpg"
-  },
-  {
    "id": "5788fc560e9f",
    "title": "Microsoft Surface Pro 12” (2nd edition) 2-in-1 tablet PC arrives with fanless design and optional 5G cellular module",
    "url": "https://www.notebookcheck.net/Microsoft-Surface-Pro-12-2nd-edition-2-in-1-tablet-PC-arrives-with-fanless-design-and-optional-5G-cellular-module.1405432.0.html",
@@ -757,16 +965,6 @@
    "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/09/Apple-Watch-Series-12-Aluminum-Nike-Concrete-Sport-Band-Steps-Counter-Watch-Face-Heart-Rate-.jpg?quality=82&strip=all&w=1600"
   },
   {
-   "id": "dfc8cf3c1817",
-   "title": "Samsung Galaxy Tab S12 leaks in full: Specs, price hikes, and launch date",
-   "url": "https://www.androidpolice.com/samsung-galaxy-tab-s12-leaks-in-full-specs-price-hikes-and-launch-date/",
-   "source": "android-police",
-   "kind": "news",
-   "published": "2026-09-23T19:38+00:00",
-   "devices": [],
-   "image": "https://static0.anpoimages.com/wordpress/wp-content/uploads/wm/2026/09/samsung-galaxy-tab-s12-ultra-screen.JPG"
-  },
-  {
    "id": "d48d1040f001",
    "title": "Apple iPhone 18 Pro Max review",
    "url": "https://www.gsmarena.com/apple_iphone_18_pro_max-review-3002.php",
@@ -787,18 +985,6 @@
    "published": "2026-09-23T18:57+00:00",
    "devices": [],
    "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/06/apple-calendar-app-icon-ios-27.jpg?quality=82&strip=all&w=1600"
-  },
-  {
-   "id": "a66e041b15a0",
-   "title": "I spent 5 minutes with the Galaxy S26 Ultra; its standout upgrade isn't on the spec sheet",
-   "url": "https://www.androidpolice.com/spent-5-minutes-with-galaxy-s26-ultra-its-standout-upgrade-isnt-on-spec-sheet/",
-   "source": "android-police",
-   "kind": "news",
-   "published": "2026-09-23T18:30+00:00",
-   "devices": [
-    "samsung-galaxy-s26-ultra"
-   ],
-   "image": "https://static0.anpoimages.com/wordpress/wp-content/uploads/wm/2026/03/galaxy-s26-ultra-audio-eraser.jpg"
   },
   {
    "id": "aab9097c6cd5",
@@ -831,16 +1017,6 @@
    "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/09/ios-27.2-guide.jpg?quality=82&strip=all&w=1600"
   },
   {
-   "id": "82a37a920cda",
-   "title": "I replaced my Wi-Fi extender with an old Android phone after years of dead zones",
-   "url": "https://www.androidpolice.com/wi-fi-extender-old-android-phone-fix-internet-issues/",
-   "source": "android-police",
-   "kind": "news",
-   "published": "2026-09-23T17:00+00:00",
-   "devices": [],
-   "image": "https://static0.anpoimages.com/wordpress/wp-content/uploads/wm/2026/09/honor-70-on-phone-stand.jpg"
-  },
-  {
    "id": "4009d287cbbb",
    "title": "Xiaomi launches new smartwatch globally with up to 21 days battery life and 2,000-nit AMOLED display",
    "url": "https://www.notebookcheck.net/Xiaomi-launches-new-smartwatch-globally-with-up-to-21-days-battery-life-and-2-000-nit-AMOLED-display.1406933.0.html",
@@ -849,16 +1025,6 @@
    "published": "2026-09-23T16:47+00:00",
    "devices": [],
    "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/xiaomi-smart-band-11-global-launch-kv.jpg"
-  },
-  {
-   "id": "343b88392546",
-   "title": "Galaxy Tab S12+ and S12 Ultra specs leak - here's what will be upgraded",
-   "url": "https://www.gsmarena.com/galaxy_tab_s12_and_s12_ultra_specs_leak__heres_what_will_be_upgraded-news-74731.php",
-   "source": "gsmarena",
-   "kind": "news",
-   "published": "2026-09-23T16:44+00:00",
-   "devices": [],
-   "image": null
   },
   {
    "id": "17dca71a223f",
@@ -883,16 +1049,6 @@
     "samsung-galaxy-s26"
    ],
    "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/aPic_Samsung_Galaxy_S26_Ultra-2177.jpg"
-  },
-  {
-   "id": "feed6e2e8d51",
-   "title": "Xiaomi Watch S5 41mm and Xiaomi Band 11 with 150+ sports modes, HyperOS 4 announced",
-   "url": "https://www.fonearena.com/blog/493251/xiaomi-watch-s5-41mm-xiaomi-band-11-price-features.html",
-   "source": "fonearena",
-   "kind": "news",
-   "published": "2026-09-23T16:32+00:00",
-   "devices": [],
-   "image": "https://images.fonearena.com/blog/wp-content/uploads/2026/09/Xiaomi-Watch-S5-and-Band-11-1024x463.jpg"
   },
   {
    "id": "d343f1978226",
@@ -949,18 +1105,6 @@
    "image": "https://www.gizmochina.com/wp-content/uploads/2026/09/Xiaomi-Pad-9-Launch-Specs-Price-300x200.jpg?x96852"
   },
   {
-   "id": "9dadb9cf6f04",
-   "title": "Xiaomi 18 Pro and 18 Pro Max arrive with latest Snapdragon chips, privacy displays and more useful rear screens",
-   "url": "https://www.gsmarena.com/xiaomi_18_pro_and_18_pro_max_arrive_with_latest_snapdragon_chips_privacy_displays_and_more_useful_re-news-74733.php",
-   "source": "gsmarena",
-   "kind": "news",
-   "published": "2026-09-23T15:44+00:00",
-   "devices": [
-    "xiaomi-18-pro"
-   ],
-   "image": null
-  },
-  {
    "id": "76dc9fa03e8b",
    "title": "Xiaomi 18 Pro Max is first phone with 5 GHz processor as it packs giant 8,500 mAh battery",
    "url": "https://www.notebookcheck.net/Xiaomi-18-Pro-Max-is-first-phone-with-5-GHz-processor-as-it-packs-giant-8-500-mAh-battery.1406759.0.html",
@@ -986,28 +1130,6 @@
    "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/09/Apple-deals-Apple-Watch-Ultra-clearance-Beats-360-Mac-mini.jpg?quality=82&strip=all&w=1600"
   },
   {
-   "id": "cc2f3b847017",
-   "title": "Samsung validates faster LPDDR6 RAM for Galaxy S27 Ultra’s Snapdragon chip",
-   "url": "https://www.sammobile.com/news/samsung-validates-faster-lpddr6-ram-for-galaxy-s27-ultras-snapdragon-chip/",
-   "source": "sammobile",
-   "kind": "news",
-   "published": "2026-09-23T15:17+00:00",
-   "devices": [],
-   "image": null
-  },
-  {
-   "id": "c972c4a3cc01",
-   "title": "Mirror view missing from the Galaxy Z Fold 8 feels like another weird Samsung omission",
-   "url": "https://www.sammobile.com/opinion/mirror-view-missing-from-the-galaxy-z-fold-8-another-weird-samsung-omission/",
-   "source": "sammobile",
-   "kind": "news",
-   "published": "2026-09-23T15:10+00:00",
-   "devices": [
-    "samsung-galaxy-z-fold8"
-   ],
-   "image": "https://www.sammobile.com/wp-content/uploads/2026/09/Galaxy-Z-Flip-8-Mirror-View-1920x1080.jpg"
-  },
-  {
    "id": "b5574e28a2ef",
    "title": "iOS 27.2 makes FaceTime’s best new feature even better",
    "url": "https://9to5mac.com/2026/09/23/ios-27-2-makes-facetimes-best-new-feature-even-better/",
@@ -1016,16 +1138,6 @@
    "published": "2026-09-23T14:45+00:00",
    "devices": [],
    "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/06/facetime-app-icon-ios-27.jpg?quality=82&strip=all&w=1600"
-  },
-  {
-   "id": "5f704b39f780",
-   "title": "Xiaomi Pad 9 and Pad 9 Pro with 11.2″ / 12.5″ 3.2K 144Hz display, Snapdragon 8s Gen 4 / 8 Gen 5 announced",
-   "url": "https://www.fonearena.com/blog/493246/xiaomi-pad-9-price-specifications-xiaomi-pad-9-pro.html",
-   "source": "fonearena",
-   "kind": "news",
-   "published": "2026-09-23T14:27+00:00",
-   "devices": [],
-   "image": "https://images.fonearena.com/blog/wp-content/uploads/2026/09/Xiaomi-Pad-9-Pro-1024x735.jpg"
   },
   {
    "id": "95c5d81ca0b2",
@@ -1070,16 +1182,6 @@
    "image": "https://www.gizmochina.com/wp-content/uploads/2026/09/Snapdragon-8-Elite-Extreme-Gen-6-300x200.png?x96852"
   },
   {
-   "id": "7bf0bb4a905f",
-   "title": "Leak threatens major price hike for the Galaxy Tab S12 Ultra and Tab S12+ in India",
-   "url": "https://www.gsmarena.com/leak_threatens_major_price_hike_for_the_galaxy_tab_s12_ultra_and_tab_s12_in_india-news-74730.php",
-   "source": "gsmarena",
-   "kind": "news",
-   "published": "2026-09-23T13:57+00:00",
-   "devices": [],
-   "image": null
-  },
-  {
    "id": "3a4571826a93",
    "title": "Xiaomi 18 Pro & 18 Pro Max debut with secondary OLED displays, 200MP Leica cameras & massive batteries",
    "url": "https://www.gizmochina.com/2026/09/23/xiaomi-18-pro-and-18-pro-max-launched-specs-price/",
@@ -1090,40 +1192,6 @@
     "xiaomi-18-pro"
    ],
    "image": "https://www.gizmochina.com/wp-content/uploads/2026/09/Xiaomi-18-Pro-Max-1-2-300x188.png?x96852"
-  },
-  {
-   "id": "46101241d3ef",
-   "title": "Galaxy Tab S12 Ultra could have worse battery life than Galaxy Tab S11 Ultra",
-   "url": "https://www.sammobile.com/news/galaxy-tab-s12-ultra-could-have-worse-battery-life-than-galaxy-tab-s11-ultra/",
-   "source": "sammobile",
-   "kind": "news",
-   "published": "2026-09-23T13:32+00:00",
-   "devices": [
-    "samsung-galaxy-tab-s11-ultra"
-   ],
-   "image": null
-  },
-  {
-   "id": "1c0c36fdd056",
-   "title": "Samsung India details how its Noida R&D centre tests Galaxy Watch health features",
-   "url": "https://www.fonearena.com/blog/493232/samsung-galaxy-watch-health-feature-test-noida-rd-centre.html",
-   "source": "fonearena",
-   "kind": "news",
-   "published": "2026-09-23T13:28+00:00",
-   "devices": [],
-   "image": "https://images.fonearena.com/blog/wp-content/uploads/2024/11/Samsung-RD-Institute-Noida-1024x381.jpg"
-  },
-  {
-   "id": "e5a6daa67e28",
-   "title": "Xiaomi 18 Pro and 18 Pro Max with 6.3″ / 6.9″ LTPO and rear 120Hz OLED screens, Snapdragon 8 Elite Extreme Gen 6 announced",
-   "url": "https://www.fonearena.com/blog/493231/xiaomi-18-pro-price-specifications-xiaomi-18-pro-max.html",
-   "source": "fonearena",
-   "kind": "news",
-   "published": "2026-09-23T13:22+00:00",
-   "devices": [
-    "xiaomi-18-pro"
-   ],
-   "image": "https://images.fonearena.com/blog/wp-content/uploads/2026/09/Xiaomi-18-Pro-Max--1024x519.jpg"
   },
   {
    "id": "b4e657b5a640",
@@ -1212,19 +1280,6 @@
    "image": "https://zinggadget.com/wp-content/uploads/2026/09/image-149.png"
   },
   {
-   "id": "e953103a0663",
-   "title": "iPhone 18 Pro Max vs OnePlus 15 battery life test: Apple optimizations shine",
-   "url": "https://www.notebookcheck.net/iPhone-18-Pro-Max-vs-OnePlus-15-battery-life-test-Apple-optimizations-shine.1406537.0.html",
-   "source": "notebookcheck",
-   "kind": "review",
-   "published": "2026-09-23T12:03+00:00",
-   "devices": [
-    "apple-iphone-18-pro-max",
-    "oneplus-15"
-   ],
-   "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/Apple-iPhone-18-Pro-Max-does-surprisingly-well-against-OnePlus-15-in-battery-life-test.jpg"
-  },
-  {
    "id": "fa5a64ee6fad",
    "title": "Rollme launches Matrix smartwatch with 4G, GPS, AMOLED display and a pop-up camera",
    "url": "https://www.gizmochina.com/2026/09/23/rollme-matrix-smartwatch-launched-specs-price/",
@@ -1248,50 +1303,6 @@
    "image": null
   },
   {
-   "id": "d37205f0636c",
-   "title": "New iPhone Setting Lets Users Shake Off Motion-Sensing Ads",
-   "url": "https://www.macrumors.com/2026/09/23/iphone-setting-shake-off-motion-sensing-ads/",
-   "source": "macrumors",
-   "kind": "news",
-   "published": "2026-09-23T11:49+00:00",
-   "devices": [],
-   "image": "https://images.macrumors.com/article-new/2026/09/iOS-27.2-Next-to-iPhone.jpg"
-  },
-  {
-   "id": "1b31b7c1b9e4",
-   "title": "More Samsung Galaxy Tab S12 renders have leaked",
-   "url": "https://www.sammobile.com/news/more-samsung-galaxy-tab-s12-renders-have-leaked/",
-   "source": "sammobile",
-   "kind": "news",
-   "published": "2026-09-23T11:40+00:00",
-   "devices": [],
-   "image": "https://www.sammobile.com/wp-content/uploads/2026/09/Samsung-Galaxy-Tab-S12-1790155997-0-0.webp"
-  },
-  {
-   "id": "f17310d6c20f",
-   "title": "Motorola unveils Signature 27 with 200MP telephoto camera, Snapdragon 8 Elite Extreme Gen 6",
-   "url": "https://www.gsmarena.com/motorola_unveils_signature_27_with_200mp_telephoto_camera_snapdragon_8_elite_extreme_gen_6-news-74726.php",
-   "source": "gsmarena",
-   "kind": "news",
-   "published": "2026-09-23T11:38+00:00",
-   "devices": [
-    "motorola-signature-27"
-   ],
-   "image": null
-  },
-  {
-   "id": "df0bda93de15",
-   "title": "Hidden Galaxy Z Flip 8 feature turns your phone into a digital pocket mirror",
-   "url": "https://www.sammobile.com/news/turn-samsung-galaxy-z-flip-8-into-pocket-mirror/",
-   "source": "sammobile",
-   "kind": "news",
-   "published": "2026-09-23T11:35+00:00",
-   "devices": [
-    "samsung-galaxy-z-flip8"
-   ],
-   "image": "https://www.sammobile.com/wp-content/uploads/2026/09/Screenshot_20260923_153735_Camera.jpg"
-  },
-  {
    "id": "16fe2be59fc6",
    "title": "Xiaomi 18 Pro Series China release - Snapdragon 8 Elite Gen 6 series, 200MP Leica dual cameras and more from ~RM3,652",
    "url": "https://technave.com/gadget/Xiaomi-18-Pro-Series-China-release-Snapdragon-8-Elite-Gen-6-series-200MP-Leica-dual-cameras-and-more-from-RM3-652-47520.html",
@@ -1302,16 +1313,6 @@
     "xiaomi-18-pro"
    ],
    "image": null
-  },
-  {
-   "id": "1622dfaa057b",
-   "title": "vivo Imagine Smartphone Photography Awards 2026 announced in India",
-   "url": "https://www.fonearena.com/blog/493228/vivo-imagine-smartphone-photography-awards-2026.html",
-   "source": "fonearena",
-   "kind": "news",
-   "published": "2026-09-23T11:19+00:00",
-   "devices": [],
-   "image": "https://images.fonearena.com/blog/wp-content/uploads/2026/09/vivo-Imagine-Smartphone-Photography-Awards-2026-1024x576.jpg"
   },
   {
    "id": "2574a8338482",
@@ -1325,26 +1326,6 @@
     "vivo-x500-pro"
    ],
    "image": "https://www.gizmochina.com/wp-content/uploads/2026/09/image-129-1024x419.png?x96852"
-  },
-  {
-   "id": "652db5d3a8bf",
-   "title": "The 3D models of foldable phones on our site can now be opened and closed, here's a look",
-   "url": "https://www.gsmarena.com/the_3d_models_of_foldable_phones_on_our_site_can_now_be_opened_and_closed_heres_a_look-news-74724.php",
-   "source": "gsmarena",
-   "kind": "news",
-   "published": "2026-09-23T10:48+00:00",
-   "devices": [],
-   "image": null
-  },
-  {
-   "id": "61b3e32cefd3",
-   "title": "Android OEMs pledge allegiance to the Snapdragon 8 Elite Gen 6 series",
-   "url": "https://www.gsmarena.com/android_oems_pledge_allegiance_to_the_snapdragon_8_elite_gen_6_series-news-74723.php",
-   "source": "gsmarena",
-   "kind": "news",
-   "published": "2026-09-23T09:41+00:00",
-   "devices": [],
-   "image": null
   },
   {
    "id": "7183be55354e",
@@ -1369,16 +1350,6 @@
    "image": "https://www.gizmochina.com/wp-content/uploads/2026/09/70cf98bcly1ihcvh07f26j20u0140q7g-1-300x169.jpg?x96852"
   },
   {
-   "id": "db6b955276f9",
-   "title": "Lenovo launches affordable tablet with 10.95-inch display, 8GB RAM and 256GB storage",
-   "url": "https://www.notebookcheck.net/Lenovo-launches-affordable-tablet-with-10-95-inch-display-8GB-RAM-and-256GB-storage.1405744.0.html",
-   "source": "notebookcheck",
-   "kind": "news",
-   "published": "2026-09-23T09:23+00:00",
-   "devices": [],
-   "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/lenovo-x11a-tablet.png"
-  },
-  {
    "id": "6ed872b0e126",
    "title": "从 iPhone 18 开始，苹果给你的照片打上「看不见」的水印",
    "url": "https://www.ifanr.com/1681780?utm_source=rss&utm_medium=rss&utm_campaign=",
@@ -1388,46 +1359,6 @@
    "published": "2026-09-23T09:12+00:00",
    "devices": [],
    "image": "https://s3.ifanr.com/wp-content/uploads/2026/09/img_6ab397990e289.png"
-  },
-  {
-   "id": "9e0b175e3a14",
-   "title": "RedMagic 12 Pro+ leak fills in the battery, charging, and camera specs RedMagic left out",
-   "url": "https://www.gizmochina.com/2026/09/23/redmagic-12-pro-leak-fills-in-the-battery-charging-and-camera-specs-redmagic-left-out/",
-   "source": "gizmochina",
-   "kind": "news",
-   "published": "2026-09-23T09:02+00:00",
-   "devices": [],
-   "image": "https://www.gizmochina.com/wp-content/uploads/2025/11/RedMagic-11-Pro-global-300x175.png?x96852"
-  },
-  {
-   "id": "6702905e3159",
-   "title": "OnePlus 16 officially hits AnTuTu with Snapdragon 8 Elite Extreme Gen 6 but missing LPDDR6 RAM",
-   "url": "https://www.notebookcheck.net/OnePlus-16-officially-hits-AnTuTu-with-Snapdragon-8-Elite-Extreme-Gen-6-but-missing-LPDDR6-RAM.1406448.0.html",
-   "source": "notebookcheck",
-   "kind": "news",
-   "published": "2026-09-23T09:01+00:00",
-   "devices": [],
-   "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/oneplus-16-3.jpg"
-  },
-  {
-   "id": "78f6d2a5880b",
-   "title": "Snapdragon 8 Elite Extreme Gen 6 and 8 Elite Gen 6 debut",
-   "url": "https://www.gsmarena.com/snapdragon_8_elite_extreme_gen_6_and_8_elite_gen_6_debut-news-74721.php",
-   "source": "gsmarena",
-   "kind": "news",
-   "published": "2026-09-23T07:39+00:00",
-   "devices": [],
-   "image": null
-  },
-  {
-   "id": "bdd7d32c296d",
-   "title": "Does Lenovo now offer the perfect entertainment tablet?",
-   "url": "https://www.notebookcheck.net/Does-Lenovo-now-offer-the-perfect-entertainment-tablet.1404605.0.html",
-   "source": "notebookcheck",
-   "kind": "news",
-   "published": "2026-09-23T07:31+00:00",
-   "devices": [],
-   "image": "https://www.notebookcheck.net/fileadmin/Notebooks/Lenovo/Tab_Plus_Gen_2/Lenovo_Tab_Plus_Gen_2_im_Test_7.jpg"
   },
   {
    "id": "b572599b93c1",
@@ -1442,50 +1373,6 @@
    "image": null
   },
   {
-   "id": "30add27db4ae",
-   "title": "Xiaomi 18 Pro series will be the first to bring both Snapdragon 8 Elite Gen 6 and 8 Elite Extreme Gen 6 to market",
-   "url": "https://www.gizmochina.com/2026/09/23/xiaomi-18-pro-series-will-be-the-first-to-bring-both-snapdragon-8-elite-gen-6-and-8-elite-extreme-gen-6-to-market/",
-   "source": "gizmochina",
-   "kind": "news",
-   "published": "2026-09-23T07:00+00:00",
-   "devices": [
-    "xiaomi-18-pro"
-   ],
-   "image": "https://www.gizmochina.com/wp-content/uploads/2026/09/002p2Zyzly1ih9uh718alj61401hckhu02-300x169.jpg?x96852"
-  },
-  {
-   "id": "4e07c157a6b2",
-   "title": "Tired of Watching 5 Phone Reviews? Turn Them Into Searchable Notes Using the AI Tool Lynote",
-   "url": "https://www.gizmochina.com/2026/09/23/ai-tool-for-phone-reviews-lynote/",
-   "source": "gizmochina",
-   "kind": "news",
-   "published": "2026-09-23T05:52+00:00",
-   "devices": [],
-   "image": "https://www.gizmochina.com/wp-content/uploads/2026/09/image-124-300x156.png?x96852"
-  },
-  {
-   "id": "99e2fcd91f0b",
-   "title": "Red Magic 12 Pro+ confirmed to use higher-end Snapdragon 8 Elite Extreme Gen 6 chip",
-   "url": "https://www.gizmochina.com/2026/09/23/red-magic-12-pro-confirmed-to-use-higher-end-snapdragon-8-elite-extreme-gen-6-chip/",
-   "source": "gizmochina",
-   "kind": "news",
-   "published": "2026-09-23T05:36+00:00",
-   "devices": [],
-   "image": "https://www.gizmochina.com/wp-content/uploads/2026/09/007kVUJhgy1ihc7lx5c6aj30u014013r-1-1-300x169.jpg?x96852"
-  },
-  {
-   "id": "d2bed2f5a5a8",
-   "title": "Vivo X500 series is going global next month; here’s the launch date",
-   "url": "https://www.gizmochina.com/2026/09/23/vivo-x500-series-is-going-global-next-month-heres-the-launch-date/",
-   "source": "gizmochina",
-   "kind": "news",
-   "published": "2026-09-23T05:31+00:00",
-   "devices": [
-    "vivo-x500"
-   ],
-   "image": "https://www.gizmochina.com/wp-content/uploads/2026/09/Vivo-X500-Pro-Max-launch-specs-price-300x200.jpg?x96852"
-  },
-  {
    "id": "1f2573a70351",
    "title": "Snapdragon 8 Elite Extreme Gen 6 and 8 Elite Gen 6 released for Agentic AI",
    "url": "https://technave.com/gadget/Snapdragon-8-Elite-Extreme-Gen-6-and-8-Elite-Gen-6-released-for-Agentic-AI-47516.html",
@@ -1494,19 +1381,6 @@
    "published": "2026-09-23T05:16+00:00",
    "devices": [],
    "image": null
-  },
-  {
-   "id": "ef6b322ec1be",
-   "title": "Vivo X500 Pro Max vs Oppo Find X10 Pro Max: Which Flagship is Better?",
-   "url": "https://www.gizmochina.com/2026/09/23/vivo-x500-pro-max-vs-oppo-find-x10-pro-max-which-flagship-is-better/",
-   "source": "gizmochina",
-   "kind": "review",
-   "published": "2026-09-23T04:46+00:00",
-   "devices": [
-    "oppo-find-x10-pro-max",
-    "vivo-x500-pro-max"
-   ],
-   "image": "https://www.gizmochina.com/wp-content/uploads/2026/09/Vivo-X500-Pro-Max-vs-Oppo-Find-X10-Pro-Max-300x150.jpg?x96852"
   },
   {
    "id": "789b454176ab",
@@ -1519,18 +1393,6 @@
    "image": null
   },
   {
-   "id": "63e8e5cadc08",
-   "title": "Motorola Signature 27 launched as a true flagship with Snapdragon 8 Elite Extreme Gen 6 chip, 200MP telephoto, 1/1.28″ 50MP main sensor",
-   "url": "https://www.gizmochina.com/2026/09/23/motorola-signature-27-announced-as-true-flagship-with-200mp-telephoto-1-1-28-main-sensor-snapdragon-8-elite-extreme-gen-6-chip/",
-   "source": "gizmochina",
-   "kind": "news",
-   "published": "2026-09-23T03:25+00:00",
-   "devices": [
-    "motorola-signature-27"
-   ],
-   "image": "https://www.gizmochina.com/wp-content/uploads/2026/09/motorola-signature-lifestyle-2-300x169.png?x96852"
-  },
-  {
    "id": "bf62eaaa6bd0",
    "title": "Qualcomm announces Snapdragon X Elite series chipsets for Googlebooks",
    "url": "https://technave.com/gadget/Qualcomm-announces-Snapdragon-X-Elite-series-chipsets-for-Googlebooks-47514.html",
@@ -1541,16 +1403,6 @@
    "image": null
   },
   {
-   "id": "0dd77cf7bab5",
-   "title": "OnePlus 16 breaks AnTuTu records with 5.38M score, reveals Snapdragon 8 Elite Extreme Gen 6’s brute power",
-   "url": "https://www.gizmochina.com/2026/09/23/oneplus-16-antutu-score-snapdragon-8-elite-extreme-gen-6/",
-   "source": "gizmochina",
-   "kind": "news",
-   "published": "2026-09-23T02:33+00:00",
-   "devices": [],
-   "image": "https://www.gizmochina.com/wp-content/uploads/2026/09/OnePlus-16-featured-300x186.png?x96852"
-  },
-  {
    "id": "5a96da6c0330",
    "title": "vivo unveils OriginOS 7 featuring 6-Year Smooth Performance and more",
    "url": "https://technave.com/gadget/vivo-unveils-OriginOS-7-featuring-6-Year-Smooth-Performance-and-more-47508.html",
@@ -1559,16 +1411,6 @@
    "published": "2026-09-23T02:26+00:00",
    "devices": [],
    "image": null
-  },
-  {
-   "id": "3d852669577b",
-   "title": "Qualcomm debuts Snapdragon 8 Elite Extreme Gen 6 and 8 Elite Gen 6 as world’s first mobile processors with 5GHz CPU",
-   "url": "https://www.gizmochina.com/2026/09/23/qualcomm-debuts-snapdragon-8-elite-extreme-gen-6-and-8-elite-gen-6-as-worlds-first-mobile-processors-with-5ghz-cpu/",
-   "source": "gizmochina",
-   "kind": "news",
-   "published": "2026-09-23T01:43+00:00",
-   "devices": [],
-   "image": "https://www.gizmochina.com/wp-content/uploads/2026/09/Snapdragon-8-Elite-Extreme-Gen-6-and-Snapdragon-8-Elite-Gen-6-Embargo-Sep-22-10am-HT-1pm-PT-q82-w2560-h-300x193.webp?x96852"
   },
   {
    "id": "6510ce15e36d",
@@ -1592,16 +1434,6 @@
     "oppo-find-x10"
    ],
    "image": "https://s3.ifanr.com/wp-content/uploads/2026/09/img_6ab317bcc9060.jpeg"
-  },
-  {
-   "id": "e92af21bce7c",
-   "title": "Apple Releases First Public Betas of iOS 27.2 and macOS Golden Gate 27.2",
-   "url": "https://www.macrumors.com/2026/09/22/apple-releases-ios-27-2-public-beta/",
-   "source": "macrumors",
-   "kind": "news",
-   "published": "2026-09-22T23:32+00:00",
-   "devices": [],
-   "image": "https://images.macrumors.com/article-new/2026/09/iOS-27.2-Next-to-iPhone.jpg"
   },
   {
    "id": "220ef5c4bb5c",
@@ -1665,60 +1497,6 @@
    "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/08/ios-27-photos-app-icon-fi-purple.jpg?quality=82&strip=all&w=1600"
   },
   {
-   "id": "0e7ee875d2f3",
-   "title": "Oppo launches 33W, 10,000mAh pocketable power bank with a smart feature for Oppo phones",
-   "url": "https://www.gizmochina.com/2026/09/22/oppo-launches-33w-10000mah-pocketable-power-bank-with-a-smart-feature-for-oppo-phones/",
-   "source": "gizmochina",
-   "kind": "news",
-   "published": "2026-09-22T18:28+00:00",
-   "devices": [],
-   "image": "https://www.gizmochina.com/wp-content/uploads/2026/09/Screenshot-2026-09-22-234222-300x169.png?x96852"
-  },
-  {
-   "id": "97920c2b28f4",
-   "title": "iPhone 18 Pro’s best Dynamic Island feature is one Apple barely mentioned",
-   "url": "https://9to5mac.com/2026/09/22/iphone-18-pros-best-dynamic-island-feature-is-one-apple-barely-mentioned/",
-   "source": "9to5mac",
-   "kind": "news",
-   "published": "2026-09-22T17:40+00:00",
-   "devices": [
-    "apple-iphone-18-pro"
-   ],
-   "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/09/iphone-18-pro-front-dynamic-island.jpg?quality=82&strip=all&w=1600"
-  },
-  {
-   "id": "59b24b8e2b00",
-   "title": "Deals: M5 MacBook Air up to $300 off, M4 iPad Air $100+ off, AirPods Pro 3, Studio Display, more",
-   "url": "https://9to5mac.com/2026/09/22/deals-macbook-air-ipad-air-airpods-pro-3-studio-display/",
-   "source": "9to5mac",
-   "kind": "news",
-   "published": "2026-09-22T15:28+00:00",
-   "devices": [],
-   "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/09/Apple-deals-Macbook-Air-M5-AirPods-Pro-3.jpg?quality=82&strip=all&w=1600"
-  },
-  {
-   "id": "fb76c5077bf5",
-   "title": "Here’s how iPhone Duo and iPad mini compare in size",
-   "url": "https://9to5mac.com/2026/09/22/heres-how-iphone-duo-and-ipad-mini-compare-in-size/",
-   "source": "9to5mac",
-   "kind": "news",
-   "published": "2026-09-22T15:28+00:00",
-   "devices": [],
-   "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/09/iphone-duo-ipad-mini-comparison.jpg?quality=82&strip=all&w=1600"
-  },
-  {
-   "id": "fe015a3d9a74",
-   "title": "Apple Watch Series 12: My three favorite new features so far",
-   "url": "https://9to5mac.com/2026/09/22/apple-watch-series-12-my-three-favorite-new-features-so-far/",
-   "source": "9to5mac",
-   "kind": "news",
-   "published": "2026-09-22T14:48+00:00",
-   "devices": [
-    "apple-watch-series-12"
-   ],
-   "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/09/apple-watch-series-12-rc-close.jpg?quality=82&strip=all&w=1600"
-  },
-  {
    "id": "7ac7375d25ae",
    "title": "OPPO Find X10 系列发布：天玑9600 Pro、8000mAh+80W、三颗2亿像素镜头等！售约 RM3,036 起！",
    "url": "https://zinggadget.com/oppo-find-x10-%e7%b3%bb%e5%88%97%e4%b8%ad%e5%9b%bd%e5%8f%91%e5%b8%83%e5%94%ae%e7%ba%a6-rm3036-%e8%b5%b7/",
@@ -1732,28 +1510,6 @@
    "image": "https://zinggadget.com/wp-content/uploads/2026/09/image-123.png"
   },
   {
-   "id": "96302b750eec",
-   "title": "PITAKA’s iPhone 18 Pro cases bring stunning designs and protection from $59.99 [Save 10%]",
-   "url": "https://9to5mac.com/2026/09/22/pitaka-iphone-18-cases/",
-   "source": "9to5mac",
-   "kind": "news",
-   "published": "2026-09-22T13:25+00:00",
-   "devices": [
-    "apple-iphone-18-pro"
-   ],
-   "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/09/pitaka-iphone-18-pro-hero.webp?w=1600"
-  },
-  {
-   "id": "aee952d3fae5",
-   "title": "iOS 27 adds convenient new iPhone feature you’ll use all the time",
-   "url": "https://9to5mac.com/2026/09/22/ios-27-adds-convenient-new-iphone-feature-youll-use-all-the-time/",
-   "source": "9to5mac",
-   "kind": "news",
-   "published": "2026-09-22T13:25+00:00",
-   "devices": [],
-   "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/06/ios-27-iphone-default-apple.jpg?quality=82&strip=all&w=1600"
-  },
-  {
    "id": "a783a449db65",
    "title": "Xiaomi made an iPhone Duo. It’s Unhinged.",
    "url": "https://www.youtube.com/watch?v=eYBEJBfq_Zs",
@@ -1761,32 +1517,8 @@
    "kind": "video",
    "published": "2026-09-22T10:48+00:00",
    "devices": [],
-   "image": "https://i2.ytimg.com/vi/eYBEJBfq_Zs/hqdefault.jpg"
-  },
-  {
-   "id": "6190c9ea042a",
-   "title": "Vivo X500 series launched with 200MP ZEISS telephoto, 2nm Dimensity 9600 Pro",
-   "url": "https://soyacincau.com/2026/09/22/vivo-x500-series-launched-china-specs-coming-to-malaysia-october/",
-   "source": "soyacincau",
-   "kind": "news",
-   "published": "2026-09-22T00:57+00:00",
-   "devices": [
-    "vivo-x500"
-   ],
-   "image": "https://soyacincau.com/wp-content/uploads/2026/09/260922-vivo-x500-pro-max-2-150x150.jpg"
-  },
-  {
-   "id": "948e25c0be94",
-   "title": "早报｜曝iPhone Duo量产初期良率仅过六成/小米18 Pro加入硬件级防窥/OpenAI新模型24天攻克百道数学未解难题",
-   "url": "https://www.ifanr.com/1679313?utm_source=rss&utm_medium=rss&utm_campaign=",
-   "source": "ifanr",
-   "lang": "zh",
-   "kind": "news",
-   "published": "2026-09-22T00:11+00:00",
-   "devices": [
-    "xiaomi-18-pro"
-   ],
-   "image": "https://s3.ifanr.com/wp-content/uploads/2026/09/img_6ab1c7a129558.png"
+   "image": "https://i2.ytimg.com/vi/eYBEJBfq_Zs/hqdefault.jpg",
+   "views": 11778684
   },
   {
    "id": "0ca2fbd4981f",
@@ -1846,16 +1578,6 @@
    "image": null
   },
   {
-   "id": "f416096abb81",
-   "title": "Canon EOS R8 Mark II with Full-Frame In-Body IS, Dual Pixel AF II, and 40fps Speed announced for Malaysia",
-   "url": "https://technave.com/gadget/Canon-EOS-R8-Mark-II-with-Full-Frame-In-Body-IS-Dual-Pixel-AF-II-and-40fps-Speed-announced-for-Malaysia-47490.html",
-   "source": "technave",
-   "kind": "news",
-   "published": "2026-09-20T08:06+00:00",
-   "devices": [],
-   "image": null
-  },
-  {
    "id": "66833ab5cd85",
    "title": "iPhone 18 Pro TEARDOWN: They aren't going to like this...",
    "url": "https://www.youtube.com/watch?v=Pc1JzImPw_M",
@@ -1865,7 +1587,8 @@
    "devices": [
     "apple-iphone-18-pro"
    ],
-   "image": "https://i1.ytimg.com/vi/Pc1JzImPw_M/hqdefault.jpg"
+   "image": "https://i1.ytimg.com/vi/Pc1JzImPw_M/hqdefault.jpg",
+   "views": 7997124
   },
   {
    "id": "0230df11df8b",
@@ -1890,7 +1613,8 @@
    "devices": [
     "apple-iphone-18-pro"
    ],
-   "image": "https://i4.ytimg.com/vi/WUlLIo9LI-w/hqdefault.jpg"
+   "image": "https://i4.ytimg.com/vi/WUlLIo9LI-w/hqdefault.jpg",
+   "views": 3887654
   },
   {
    "id": "1a9364210b3e",
@@ -1902,7 +1626,8 @@
    "devices": [
     "apple-iphone-18-pro"
    ],
-   "image": "https://i1.ytimg.com/vi/PjAyUhf52D0/hqdefault.jpg"
+   "image": "https://i1.ytimg.com/vi/PjAyUhf52D0/hqdefault.jpg",
+   "views": 4927734
   },
   {
    "id": "2f3a7375de17",
@@ -1952,7 +1677,8 @@
    "devices": [
     "apple-iphone-18-pro"
    ],
-   "image": "https://i4.ytimg.com/vi/3YcdmkZx7Fw/hqdefault.jpg"
+   "image": "https://i4.ytimg.com/vi/3YcdmkZx7Fw/hqdefault.jpg",
+   "views": 1788407
   },
   {
    "id": "197ba23c4184",
@@ -1964,7 +1690,8 @@
    "devices": [
     "apple-iphone-18-pro"
    ],
-   "image": "https://i3.ytimg.com/vi/n6hPB3Arr_M/hqdefault.jpg"
+   "image": "https://i3.ytimg.com/vi/n6hPB3Arr_M/hqdefault.jpg",
+   "views": 9481059
   },
   {
    "id": "25b766848a53",
@@ -1996,7 +1723,8 @@
    "kind": "video",
    "published": "2026-09-13T14:01+00:00",
    "devices": [],
-   "image": "https://i4.ytimg.com/vi/7soMd19QQo0/hqdefault.jpg"
+   "image": "https://i4.ytimg.com/vi/7soMd19QQo0/hqdefault.jpg",
+   "views": 1017260
   },
   {
    "id": "c8b1ad3bcc1c",
@@ -2040,7 +1768,8 @@
    "kind": "video",
    "published": "2026-09-10T07:11+00:00",
    "devices": [],
-   "image": "https://i2.ytimg.com/vi/5pV3D14y1FQ/hqdefault.jpg"
+   "image": "https://i2.ytimg.com/vi/5pV3D14y1FQ/hqdefault.jpg",
+   "views": 16496495
   },
   {
    "id": "190347577933",
@@ -2095,7 +1824,8 @@
    "kind": "video",
    "published": "2026-09-09T20:20+00:00",
    "devices": [],
-   "image": "https://i3.ytimg.com/vi/6AkGhTBtR4o/hqdefault.jpg"
+   "image": "https://i3.ytimg.com/vi/6AkGhTBtR4o/hqdefault.jpg",
+   "views": 15334491
   },
   {
    "id": "a1a39d448ff2",
@@ -2140,7 +1870,8 @@
    "kind": "video",
    "published": "2026-09-08T18:33+00:00",
    "devices": [],
-   "image": "https://i4.ytimg.com/vi/WO591I22Yew/hqdefault.jpg"
+   "image": "https://i4.ytimg.com/vi/WO591I22Yew/hqdefault.jpg",
+   "views": 2137455
   },
   {
    "id": "43b1dda055d8",
@@ -2163,7 +1894,8 @@
    "kind": "video",
    "published": "2026-09-02T13:08+00:00",
    "devices": [],
-   "image": "https://i4.ytimg.com/vi/79X9SL172oo/hqdefault.jpg"
+   "image": "https://i4.ytimg.com/vi/79X9SL172oo/hqdefault.jpg",
+   "views": 1982302
   },
   {
    "id": "e7152d24951b",
@@ -2173,7 +1905,8 @@
    "kind": "video",
    "published": "2026-09-02T11:57+00:00",
    "devices": [],
-   "image": "https://i4.ytimg.com/vi/Wdkf1G2jHRg/hqdefault.jpg"
+   "image": "https://i4.ytimg.com/vi/Wdkf1G2jHRg/hqdefault.jpg",
+   "views": 5440564
   },
   {
    "id": "b04f6666df60",
@@ -2185,7 +1918,8 @@
    "devices": [
     "google-pixel-11-pro-xl"
    ],
-   "image": "https://i2.ytimg.com/vi/eZ5VpPJjddA/hqdefault.jpg"
+   "image": "https://i2.ytimg.com/vi/eZ5VpPJjddA/hqdefault.jpg",
+   "views": 1003109
   },
   {
    "id": "bfa8735fb0be",
@@ -2195,7 +1929,8 @@
    "kind": "video",
    "published": "2026-08-14T11:15+00:00",
    "devices": [],
-   "image": "https://i3.ytimg.com/vi/n3F996g8wjg/hqdefault.jpg"
+   "image": "https://i3.ytimg.com/vi/n3F996g8wjg/hqdefault.jpg",
+   "views": 4902460
   },
   {
    "id": "fb465281d82a",
@@ -2207,7 +1942,8 @@
    "devices": [
     "google-pixel-11"
    ],
-   "image": "https://i4.ytimg.com/vi/oaaOwLnuyPU/hqdefault.jpg"
+   "image": "https://i4.ytimg.com/vi/oaaOwLnuyPU/hqdefault.jpg",
+   "views": 3645031
   }
  ]
 }

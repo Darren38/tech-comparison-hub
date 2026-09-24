@@ -2,11 +2,11 @@
 // so every item keeps its source, evidence class and extraction status.
 
 import { html, mount } from '../lib/html.js';
-import { fmtDate, fmtDateTime, plural, timeAgo } from '../lib/format.js';
+import { fmtDate, fmtDateTime, plural, timeAgo, fmtViews } from '../lib/format.js';
 import { store, sourceName } from '../core/store.js';
 import { href } from '../core/router.js';
 import { docCard, emptyState, provBadge, sourceLink, extLink, tag, sectionHead, icon, pageTrail, cardThumb, thumbLink } from '../ui/components.js';
-import { loadHeadlines, refreshHeadlines, canCollectLive, isSafeUrl } from '../engine/live.js';
+import { loadHeadlines, refreshHeadlines, canCollectLive, isSafeUrl, loadViews, youtubeId } from '../engine/live.js';
 import { isZh } from '../core/i18n.js';
 
 const MODES = {
@@ -93,6 +93,7 @@ function livePanel(mode) {
         <p class="small live__status" data-live-status role="status" aria-live="polite">Loading the latest collection…</p>
       </div>
       <div class="live__actions">
+        ${mode.liveKinds.includes('video') ? html`<div class="seg seg--sm" role="group" aria-label="Sort"><button type="button" class="seg__btn is-on" aria-pressed="true" data-live-sort="newest">Newest</button><button type="button" class="seg__btn" aria-pressed="false" data-live-sort="views">Most viewed</button></div>` : ''}
         <label class="check small"><input type="checkbox" data-live-matched /> Only devices in this hub</label>
         <label class="check small"><input type="checkbox" data-live-zh ${isZh() ? 'checked' : ''} /> Include Chinese-language sources</label>
         <button type="button" class="btn btn--sm live__refresh" data-live-refresh>${icon('refresh', { size: 16 })}<span>Refresh</span></button>
@@ -103,7 +104,7 @@ function livePanel(mode) {
     </ol>
     <div class="live__foot">
       <button type="button" class="btn btn--ghost btn--sm" data-live-more hidden>Show more</button>
-      <p class="tiny muted">Titles and links come from each publisher's public RSS or YouTube feed and open on their site. Devices are matched by name automatically. These headlines are not evidence and never change scores; the checked documents below are.</p>
+      <p class="tiny muted">Titles and links come from each publisher's public RSS or YouTube feed and open on their site. Devices are matched by name automatically. These headlines are not evidence and never change scores; the checked documents below are.${mode.liveKinds.includes('video') ? html` <span>View counts are YouTube’s own, as published in each channel’s feed when collected. Articles don’t publish view counts. A high count means a video reached many people, not that it is more accurate.</span>` : ''}</p>
     </div>
   </section>`;
 }
@@ -116,6 +117,7 @@ function liveItem(item, isNew) {
     <div class="live__meta tiny">
       <a class="live__source" href="${href(`/source/${item.source}`)}">${sourceName(item.source)}</a>
       ${item.kind === 'video' ? tag('Video', 'muted') : item.kind === 'review' ? tag('Review', 'muted') : ''}
+      ${item.views != null ? html`<span class="live__views">${fmtViews(item.views)}</span>` : ''}
       ${item.lang === 'zh' ? tag('In Chinese', 'muted') : ''}
       ${item.published ? html`<time datetime="${item.published}" title="${fmtDateTime(item.published)}">${timeAgo(item.published)}</time>` : html`<span class="faint">Date not given</span>`}
       ${isNew ? html`<span class="live__new">New</span>` : ''}
@@ -136,6 +138,7 @@ function bindLive(root, mode) {
   const moreBtn = panel.querySelector('[data-live-more]');
   const matchedBox = panel.querySelector('[data-live-matched]');
   const zhBox = panel.querySelector('[data-live-zh]');
+  let sort = 'newest';
   let data = null;
   const LIVE_PAGE = livePage();
   let shown = LIVE_PAGE;
@@ -145,7 +148,14 @@ function bindLive(root, mode) {
   let alive = true;
 
   const relevant = (d) => (d?.items ?? []).filter((i) => mode.liveKinds.includes(i.kind) && i.title && isSafeUrl(i.url));
-  const visible = () => relevant(data).filter((i) => (!matchedBox.checked || i.devices?.length) && (zhBox.checked || i.lang !== 'zh'));
+  const filtered = () => relevant(data).filter((i) => (!matchedBox.checked || i.devices?.length) && (zhBox.checked || i.lang !== 'zh'));
+  // "Most viewed": items with a view count first, highest first; the rest keep their newest-first order after them
+  const visible = () => {
+    const items = filtered();
+    if (sort !== 'views') return items;
+    const counted = items.filter((i) => i.views != null).sort((a, b) => b.views - a.views);
+    return [...counted, ...items.filter((i) => i.views == null)];
+  };
 
   function renderStatus() {
     if (!data) {
@@ -166,7 +176,8 @@ function bindLive(root, mode) {
     } else if (!items.length) {
       mount(listEl, html`<li class="live__empty small muted">${matchedBox.checked ? 'None of the recent items mention a device in this hub. Untick “Only devices in this hub” to see everything.' : 'Nothing recent was collected for this page.'}</li>`);
     } else {
-      mount(listEl, html`${items.slice(0, shown).map((i) => liveItem(i, newIds.has(i.id)))}`);
+      const noCounts = sort === 'views' && !items.some((i) => i.views != null);
+      mount(listEl, html`${noCounts ? html`<li class="live__empty small muted">None of these items has a view count yet (view counts come from YouTube videos only), so they are shown newest first.</li>` : ''}${items.slice(0, shown).map((i) => liveItem(i, newIds.has(i.id)))}`);
     }
     const rest = items.length - shown;
     moreBtn.hidden = !data || rest <= 0;
@@ -211,6 +222,12 @@ function bindLive(root, mode) {
   }
 
   refreshBtn.addEventListener('click', refresh);
+  panel.querySelectorAll('[data-live-sort]').forEach((b) => b.addEventListener('click', () => {
+    sort = b.dataset.liveSort;
+    panel.querySelectorAll('[data-live-sort]').forEach((x) => { x.setAttribute('aria-pressed', String(x === b)); x.classList.toggle('is-on', x === b); });
+    shown = LIVE_PAGE;
+    renderList();
+  }));
   for (const box of [matchedBox, zhBox]) {
     box.addEventListener('change', () => {
       shown = LIVE_PAGE;
@@ -256,13 +273,21 @@ export default async function render({ params, query }) {
   const mode = MODES[params[0]] ?? MODES.news;
   const all = store.documents.filter((d) => mode.kinds.includes(d.kind));
   let filter = query.filter ?? 'all';
+  let order = query.sort === 'views' ? 'views' : 'newest';
+  const viewsData = params[0] === 'reviews' ? await loadViews() : null;
+  const viewsOf = (d) => (d.kind === 'video' ? viewsData?.videos?.[youtubeId(d.url)] ?? null : null);
+  const withViews = all.filter((d) => viewsOf(d)).length;
   const options = mode.filters().filter((o) => all.some((d) => d[mode.filterKey] === o.id));
 
   const list = () => {
-    const docs = filter === 'all' ? all : all.filter((d) => d[mode.filterKey] === filter);
+    let docs = filter === 'all' ? all : all.filter((d) => d[mode.filterKey] === filter);
     if (!docs.length) return emptyState('Nothing here yet', 'No documents of this type have been added.');
+    if (order === 'views') {
+      const counted = docs.filter((d) => viewsOf(d)).sort((a, b) => viewsOf(b)[0] - viewsOf(a)[0]);
+      docs = [...counted, ...docs.filter((d) => !viewsOf(d))];
+    }
     return params[0] === 'reviews'
-      ? html`<div class="grid grid-3">${docs.map((d) => docCard(d))}</div>`
+      ? html`<div class="grid grid-3">${docs.map((d) => docCard(d, { views: viewsOf(d) }))}</div>`
       : newsTimeline(docs);
   };
 
@@ -282,7 +307,8 @@ export default async function render({ params, query }) {
           <button type="button" data-filter="all" aria-pressed="${filter === 'all'}">All <span class="tiny muted">${all.length}</span></button>
           ${options.map((o) => html`<button type="button" data-filter="${o.id}" aria-pressed="${filter === o.id}">${o.label} <span class="tiny muted">${all.filter((d) => d[mode.filterKey] === o.id).length}</span></button>`)}
         </div>
-        <span class="tiny muted">${plural(all.length, 'document')}</span>
+        ${params[0] === 'reviews' ? html`<div class="seg seg--sm" role="group" aria-label="Sort"><button type="button" class="seg__btn ${order === 'newest' ? 'is-on' : ''}" aria-pressed="${order === 'newest'}" data-order="newest">Newest</button><button type="button" class="seg__btn ${order === 'views' ? 'is-on' : ''}" aria-pressed="${order === 'views'}" data-order="views">Most viewed</button></div>` : ''}
+        <span class="tiny muted">${plural(all.length, 'document')}${params[0] === 'reviews' ? ` · ${withViews} with a YouTube view count` : ''}</span>
       </div>
       <div data-list>${list()}</div>
     </div>`,
@@ -291,6 +317,13 @@ export default async function render({ params, query }) {
         b.addEventListener('click', () => {
           filter = b.dataset.filter;
           root.querySelectorAll('[data-filter]').forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
+          mount(root.querySelector('[data-list]'), list());
+        }),
+      );
+      root.querySelectorAll('[data-order]').forEach((b) =>
+        b.addEventListener('click', () => {
+          order = b.dataset.order;
+          root.querySelectorAll('[data-order]').forEach((x) => { x.setAttribute('aria-pressed', String(x === b)); x.classList.toggle('is-on', x === b); });
           mount(root.querySelector('[data-list]'), list());
         }),
       );

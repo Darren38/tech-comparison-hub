@@ -4,7 +4,7 @@ The site is static (HTML, CSS, JavaScript and JSON) and is published to GitHub P
 
 ## What the workflow does
 
-It runs on every push to `main`, **every 3 hours**, and on demand (Actions tab > **Build and deploy** > **Run workflow**):
+It runs on every push to `main`, **every 3 hours**, **once a day at 00:05 UTC (08:05 Malaysia time)**, and on demand (Actions tab > **Build and deploy** > **Run workflow**):
 
 1. `tools/update_rates.py` downloads Bank Negara Malaysia's latest exchange rates. If Bank Negara is unreachable, the rates in the repository are used.
 2. `tools/fetch_headlines.py` collects the latest headlines from the feeds in `data/meta/live-feeds.json`. Feeds that fail are skipped; if all fail, the committed `live/headlines.json` is used.
@@ -26,7 +26,9 @@ Every path the site uses is relative, so it works from that sub-folder, from a c
 | Part | How often | Source | If the source is down |
 | --- | --- | --- | --- |
 | Exchange rates | Every 3 hours, and in each visitor's browser if the published rates are not from today (Malaysia time) | Bank Negara Malaysia; the browser falls back to ExchangeRate-API | The last rates stay in use, labelled with their date |
-| Latest headlines | Every 3 hours | Public RSS and YouTube feeds | The previous collection stays |
+| Latest headlines and YouTube view counts | Every 3 hours | Public RSS and YouTube feeds | The previous collection stays |
+| Benchmark databases (UL 3DMark device pages, DXOMARK's public list, AnTuTu's ranking) | Once a day; later runs that day reuse the result from the Actions cache | `tools/refresh_benchmarks.py`: only phones already matched in `data/benchmarks/`; changes over 30% are held, not applied | That source keeps its saved values |
+| Device pictures | Once a day, same cache | `tools/check_images.py` | A picture that no longer loads shows the outline drawing |
 | Specs, tests, prices, findings | When `data/` changes | Checked by hand | — |
 
 On the live site, **Refresh** loads the newest collection; it cannot collect on the spot, because GitHub Pages cannot run code. Run `python serve.py` locally and Refresh collects immediately.

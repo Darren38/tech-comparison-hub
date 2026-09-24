@@ -1,9 +1,13 @@
 # Builds the site and publishes it to GitHub Pages.
 #
-# Runs on every push to main, every 3 hours, and on demand (Actions tab > "Build and deploy" > Run workflow).
-# Each run refreshes the two live parts before building:
+# Runs on every push to main, every 3 hours, once a day at 00:05 UTC (08:05 Malaysia time), and on demand
+# (Actions tab > "Build and deploy" > Run workflow). Each run refreshes the live parts before building:
 #   - Bank Negara Malaysia exchange rates   (tools/update_rates.py; keeps the saved rates if unreachable)
-#   - latest headlines from registered feeds (tools/fetch_headlines.py; keeps the saved file if every feed fails)
+#   - latest headlines and YouTube view counts from registered feeds (tools/fetch_headlines.py)
+# and once a day (the first run after 00:00 UTC, kept in a cache for that day's later runs):
+#   - benchmark databases: UL 3DMark, AnTuTu, DXOMARK (tools/refresh_benchmarks.py; only phones already matched,
+#     large jumps held for a person to check, a source that can't be read keeps its saved values)
+#   - every device picture still loads (tools/check_images.py; a broken one shows the outline drawing instead)
 # The research data in data/ only changes when it is edited and pushed. If data/ fails validation,
 # the build stops and the previous deployment stays online.
 name: Build and deploy
@@ -13,6 +17,7 @@ on:
     branches: [main]
   schedule:
     - cron: "17 */3 * * *" # every 3 hours (UTC), at minute 17 to avoid the busy top of the hour
+    - cron: "5 0 * * *"    # daily data refresh at 08:05 Malaysia time
   workflow_dispatch:
 
 permissions:
@@ -25,7 +30,7 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
 
@@ -38,6 +43,25 @@ jobs:
 
       - name: Collect latest headlines
         run: python tools/fetch_headlines.py
+
+      - name: Day stamp for the daily refresh
+        id: day
+        run: echo "day=$(date -u +%Y-%m-%d)" >> "$GITHUB_OUTPUT"
+
+      - name: Reuse today's benchmark and picture check
+        uses: actions/cache@v4
+        with:
+          path: live/auto
+          key: daily-refresh-${{ steps.day.outputs.day }}
+          restore-keys: daily-refresh-
+
+      - name: Refresh benchmark databases (once a day)
+        run: python tools/refresh_benchmarks.py --max-age-hours 20
+        continue-on-error: true
+
+      - name: Check device pictures (once a day)
+        run: python tools/check_images.py --max-age-hours 20
+        continue-on-error: true
 
       - name: Validate and build data
         run: python tools/build.py

@@ -17,17 +17,18 @@
 - **471 devices** (386 phones, 64 smartwatches, 17 fitness bands, 4 tablets) and **121 chipsets**: every Samsung, Apple, OPPO, vivo/iQOO, HONOR, Huawei and Xiaomi/Redmi/POCO model with a verifiable Malaysian launch since 2023, plus other brands' flagships and the newest China launches (marked as not yet sold in Malaysia and not yet tested).
 - **Every value says where it came from**: manufacturer, lab measurement, benchmark database, reviewer, news, estimate or the site's own analysis, with a confidence level. **1,914 attributed evidence records** from 658 source documents and 64 registered sources, plus full specification sheets. Test results for 300 phones come from UL's 3DMark database, AnTuTu, DXOMARK, Tom's Guide and Trusted Reviews, and a Samsung phone's Exynos and Snapdragon versions are never mixed.
 - **Reviews for the latest flagships**: findings from written reviews, hands-ons, lab tests and YouTube reviews, summarised in the site's own words and credited to each publisher.
-- **Charts** of every measured test, flagships first, and generation lines that follow each series model by model.
+- **Charts** of every measured test, flagships first, and generation lines that follow each series model by model. UL 3DMark and DXOMARK results are **re-checked automatically every morning** (08:05 Malaysia time) for the phones already matched; big jumps are held for a person to check.
 - **Fair comparisons** of up to 4 devices: key differences, category verdicts based only on evidence all of them share, your own weighting, same-test results and a full source list.
 - **Prices in Malaysian ringgit**: verified Malaysian launch prices for 398 devices (US dollar, euro and four other currencies available). Converted prices are marked **≈** and never used to score value.
 - **Ask the hub**: a built-in assistant that answers from the site's data ("Is it worth buying?", "Does it have NFC?", "Galaxy S26 or iPhone 18 Pro?"). Optionally, an **AI model runs in your own browser** (Qwen3.5 4B or 2B, or the browser's built-in AI): it reads questions in your own words or language, the site's code looks up the answer, and every sentence is checked against the data before it is shown. No question is sent to any AI service.
 - **English and Chinese (简体中文)**: switch with EN/中文 in the header. The interface is translated; what sources wrote stays in its own language.
-- **Latest headlines** from 18 publications in English and Chinese, including Malaysian outlets (SoyaCincau, TechNave, Zing Gadget, Malay Mail), collected live when you press Refresh, and **exchange rates** from Bank Negara Malaysia, refreshed automatically. Ask the hub answers news questions too ("any news about the Galaxy S26?"), including phones not in the database yet.
+- **Latest headlines** from 18 publications in English and Chinese, including Malaysian outlets (SoyaCincau, TechNave, Zing Gadget, Malay Mail), collected live when you press Refresh, with **YouTube view counts** and a Most viewed sort on the Reviews page, and **exchange rates** from Bank Negara Malaysia, refreshed automatically. Ask the hub answers news questions too ("any news about the Galaxy S26?"), including phones not in the database yet.
 
 ## How current is it?
 
 | Part | Updated |
 |---|---|
+| Benchmark databases (UL 3DMark, DXOMARK) and device pictures | Automatically, once a day at 08:05 Malaysia time, for the phones already matched |
 | Specs, test results, launch prices, reviewer findings | Checked by hand. **Data as of 24 September 2026**, covering devices announced January 2023 – September 2026 |
 | Exchange rates | Automatically, every 3 hours, and again in your browser if the saved rates are not from today |
 | Latest headlines | Every 3 hours, and on the spot when you press Refresh |

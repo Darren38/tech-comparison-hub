@@ -1,7 +1,7 @@
 // Shared presentational components. Each returns an html`` template.
 
 import { html, raw } from '../lib/html.js';
-import { fmtNumber, fmtMetric, fmtDate, plural } from '../lib/format.js';
+import { fmtNumber, fmtMetric, fmtDate, plural, fmtViews } from '../lib/format.js';
 import { store, brandName, sourceName, deviceTitle, metricDef } from '../core/store.js';
 import { href } from '../core/router.js';
 import { compareTray } from '../core/state.js';
@@ -553,7 +553,7 @@ export function bindOutline(root, { stickySelector = null } = {}) {
   };
 }
 
-export function docCard(doc, { showSubjects = true } = {}) {
+export function docCard(doc, { showSubjects = true, views = null } = {}) {
   const origin = doc.testedBy ?? doc.source;
   const isVideo = doc.kind === 'video';
   const subjects = showSubjects ? (doc.devices ?? []).map((id) => store.deviceById.get(id)).filter(Boolean).slice(0, 3) : [];
@@ -568,6 +568,7 @@ export function docCard(doc, { showSubjects = true } = {}) {
       ${provBadge(doc.class)}
       ${category ? tag(category) : newsType ? tag(newsType) : ''}
       <span class="faint">${doc.published ? `${doc.publishedApprox ? 'c. ' : ''}${fmtDate(doc.published)}` : 'Date not recorded'}</span>
+      ${views ? html`<span class="doc__views" title="${`YouTube view count, ${fmtDate(views[1]?.slice(0, 10))}`}">${fmtViews(views[0])}</span>` : ''}
     </div>
     <h3 class="doc__title">${extLink(doc.url, doc.title)}</h3>
     <div class="doc__source small">${sourceLink(origin)}${doc.testedBy ? html` <span class="faint">via</span> ${sourceLink(doc.source, { tier: false })}` : ''}</div>

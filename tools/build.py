@@ -132,6 +132,7 @@ class Dataset:
                     report.error(f"{doc['_file']}: duplicate document id '{doc.get('id')}'")
                 self.documents[doc.get("id")] = doc
         self.featured = load_json(DATA / "comparisons" / "featured.json", report) or []
+        self.auto = apply_auto(self)
         self.classes = {c["id"]: c for c in self.taxonomy.get("evidenceClasses", [])}
         self.facets = {f["id"] for f in self.taxonomy.get("facets", [])}
 
@@ -151,6 +152,59 @@ class Dataset:
         if source_id == "platform":
             return "Platform analysis"
         return self.sources.get(source_id, {}).get("name", source_id)
+
+
+# ----------------------------------------------------------------------------- daily automatic refresh (Version 16)
+AUTO = ROOT / "live" / "auto"
+
+
+def read_auto(name: str) -> dict | None:
+    path = AUTO / name
+    if not path.exists():
+        return None
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except ValueError:
+        return None
+
+
+def apply_auto(ds: "Dataset") -> dict:
+    """Apply tools/refresh_benchmarks.py and tools/check_images.py results before validation, so refreshed values go
+    through the same checks as hand-entered ones. An update is used only while the checked value it replaces is still
+    the one in data/ (a later hand edit wins). Documents re-read successfully count as checked on the refresh day."""
+    info: dict = {}
+    bench = read_auto("benchmarks.json")
+    if bench and bench.get("refreshedAt"):
+        day = bench["refreshedAt"][:10]
+        applied = 0
+        for u in bench.get("updates", []):
+            doc = ds.documents.get(u.get("doc"))
+            rec = next((r for r in (doc or {}).get("records", []) if r.get("subject") == u.get("subject")
+                        and r.get("metric") == u.get("metric") and r.get("value") == u.get("previous")), None)
+            if rec is not None:
+                rec["value"] = u["value"]
+                rec["note"] = (rec.get("note", "") + f" Refreshed automatically on {day} (previously {u['previous']}).").strip()
+                applied += 1
+        confirmed = 0
+        for doc_id in bench.get("confirmed", []):
+            doc = ds.documents.get(doc_id)
+            if doc:
+                doc["accessed"] = max(doc.get("accessed") or "", day)
+                doc["autoRefreshed"] = bench["refreshedAt"]
+                confirmed += 1
+        info["benchmarks"] = {"at": bench["refreshedAt"], "updated": applied, "held": len(bench.get("held", [])),
+                              "confirmed": confirmed,
+                              "sources": {k: bool(v.get("ok")) for k, v in (bench.get("sources") or {}).items()}}
+    images = read_auto("images.json")
+    if images and images.get("checkedAt"):
+        hidden = 0
+        for dev_id in (images.get("broken") or {}):
+            dev = ds.devices.get(dev_id)
+            if dev and dev.get("image"):
+                dev["image"] = None   # the page shows the outline drawing until the picture is fixed in data/
+                hidden += 1
+        info["images"] = {"at": images["checkedAt"], "checked": images.get("checked", 0), "hidden": hidden}
+    return info
 
 
 # ----------------------------------------------------------------------------- validation
@@ -1043,7 +1097,7 @@ def compile_outputs(ds: Dataset, records: list[dict]) -> dict:
     core = {
         "schemaVersion": SCHEMA_VERSION,
         "build": {"time": dt.datetime.now().isoformat(timespec="seconds"), "counts": counts, "warnings": len(ds.report.warnings),
-                  "data": data_window},
+                  "data": data_window, "auto": ds.auto},
         "taxonomy": ds.taxonomy,
         "currencies": ds.currencies,
         "categories": sorted((strip_private(c) for c in ds.categories.values()), key=lambda c: c.get("order", 99)),

@@ -43,7 +43,7 @@ export default async function render({ params }) {
         : s.status === 'planned'
           ? emptyState('No records yet', 'This source is registered so its data can be added with proper attribution. See the notes above.')
           : ''}
-      ${specDevices.length ? html`<section>${sectionHead('Specification source for', { eyebrow: 'Official data' })}<div class="grid grid-3">${specDevices.map((d) => deviceCard(d))}</div></section>` : ''}
+      ${specDevices.length ? html`<section>${sectionHead('Specification source for', { eyebrow: s.type === 'manufacturer' ? 'Official data' : 'From launch reports' })}<div class="grid grid-3">${specDevices.map((d) => deviceCard(d))}</div></section>` : ''}
       ${chips.length ? html`<section>${sectionHead(`${s.name} chipsets in the database`, { eyebrow: plural(chips.length, 'chipset') })}
         <ul class="chip-list">${chips.map((c) => html`<li><a class="chip" href="${href(`/chipset/${c.id}`)}">${c.name}</a></li>`)}</ul>
         <p class="tiny muted" style="margin-top:8px">Each chipset page lists the phones that use it and any benchmark results recorded for it.</p></section>` : ''}

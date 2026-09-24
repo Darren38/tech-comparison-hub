@@ -171,7 +171,7 @@
 /* Full nav + currency menu + language switch leave room for the header search box only from 1680px. Below that
    (down to where the nav collapses) it becomes the search icon, so the nav never wraps or pushes
    the tools off-screen. Range syntax leaves no gap at fractional widths (browser zoom). */
-@media (width > 1240px) and (width < 1680px) {
+@media (min-width: 1240.02px) and (max-width: 1679.98px) {
   .header-tools .header-search {
     display: none;
   }
@@ -235,6 +235,35 @@
   }
   .brand__text {
     font-size: 13px;
+  }
+}
+
+/* Small phones (360 px and less): the site name may take two short lines and the tools sit closer, so the menu
+   button always stays on screen. */
+@media (max-width: 400px) {
+  .brand {
+    gap: 7px;
+    flex-shrink: 1;
+    min-width: 0;
+  }
+  .brand__text {
+    max-width: 10.5em;
+    font-size: 12.5px;
+  }
+  .header-tools {
+    gap: 3px;
+    flex: none;
+  }
+  .header-tools .icon-btn {
+    width: 32px;
+    height: 32px;
+  }
+  .lang-btn {
+    height: 32px;
+    padding: 2px;
+  }
+  .lang-btn span {
+    padding: 4px 6px;
   }
 }
 
@@ -1273,6 +1302,13 @@ details[open] > summary::before {
    (smartphones)") made the whole table scroll sideways. Here the heading wraps and the metric lists fit. */
 #scoring .data-table thead th {
   white-space: normal;
+}
+
+/* Headings may wrap, but only between words: Chinese headings ("做工与便携") are kept whole instead of one character
+   per line on a phone, and a table that gets too wide scrolls inside its own box (Version 16). */
+.data-table th {
+  word-break: keep-all;
+  overflow-wrap: normal;
 }
 
 .data-table .num {
@@ -2488,6 +2524,8 @@ body:has(.tray:not([hidden])) .ask {
 
 /* Version 15: English / 中文 switch in the header */
 .lang-btn {
+  flex: none;
+  white-space: nowrap;
   display: inline-flex;
   align-items: center;
   gap: 2px;
@@ -2502,6 +2540,9 @@ body:has(.tray:not([hidden])) .ask {
 }
 
 .lang-btn span {
+  flex: none;
+  white-space: nowrap;
+  word-break: keep-all; /* "中文" must never break between its two characters */
   padding: 4px 7px;
   border-radius: 7px;
   color: var(--muted);
@@ -2512,8 +2553,9 @@ body:has(.tray:not([hidden])) .ask {
   color: var(--bg);
 }
 
-/* Below 1680px the switch shows only the language it switches to, so the header keeps its room. */
-@media (width < 1680px) {
+/* Below 1680px the switch shows only the language it switches to, so the header keeps its room.
+   Classic min/max-width syntax (not "width < …") so older phone browsers apply it too. */
+@media (max-width: 1679.98px) {
   .lang-btn span.is-on {
     display: none;
   }
