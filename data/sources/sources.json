@@ -335,6 +335,22 @@
     "notes": "Malaysian technology news; publishes official Malaysian launch prices and dates."
   },
   {
+    "id": "technave",
+    "name": "TechNave",
+    "type": "publication",
+    "tier": "B",
+    "url": "https://technave.com",
+    "notes": "Malaysian technology news and reviews; reports Malaysian launch prices, availability and China launches. Headlines only; not evidence until an article is read and added."
+  },
+  {
+    "id": "zinggadget",
+    "name": "Zing Gadget",
+    "type": "publication",
+    "tier": "B",
+    "url": "https://zinggadget.com",
+    "notes": "Malaysian technology news written in Chinese (马来西亚中文科技媒体): Malaysian launch prices, dates and local availability. Headlines only; not evidence until an article is read and added."
+  },
+  {
     "id": "malaymail",
     "name": "Malay Mail",
     "type": "publication",
@@ -442,5 +458,37 @@
     "tier": "B",
     "url": "https://www.techadvisor.com",
     "methodology": "News and reviews; used here for announced specifications only."
+  },
+  {
+    "id": "antutu",
+    "name": "AnTuTu Benchmark",
+    "type": "database",
+    "tier": "A",
+    "url": "https://www.antutu.com/web/en/ranking",
+    "methodology": "The benchmark's developer. Its monthly ranking lists the average of all results for popular models (global data, excluding China)."
+  },
+  {
+    "id": "mydrivers",
+    "name": "快科技 (MyDrivers)",
+    "type": "publication",
+    "tier": "B",
+    "url": "https://www.mydrivers.com",
+    "notes": "Chinese technology news (formerly 驱动之家): launches, chips and prices in China. Headlines only; not evidence until an article is read and added."
+  },
+  {
+    "id": "ithome",
+    "name": "IT之家 (IT Home)",
+    "type": "publication",
+    "tier": "B",
+    "url": "https://www.ithome.com",
+    "notes": "Chinese technology news: phone launches, software updates and chip news, often first with China-market models."
+  },
+  {
+    "id": "ifanr",
+    "name": "爱范儿 (ifanr)",
+    "type": "publication",
+    "tier": "B",
+    "url": "https://www.ifanr.com",
+    "notes": "Chinese technology publication with hands-on reviews of Chinese-market flagships."
   }
 ]

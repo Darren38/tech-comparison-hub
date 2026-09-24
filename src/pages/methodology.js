@@ -7,6 +7,7 @@ import { store, metricDef, deviceTitle, brandName } from '../core/store.js';
 import { href } from '../core/router.js';
 import { provBadge, confMeter, tierBadge, sectionHead, tag, extLink, pageOutline, bindOutline, pageTrail } from '../ui/components.js';
 import { ratesLabel } from '../engine/money.js';
+import { t, isZh } from '../core/i18n.js';
 
 /** Rates to 4 decimal places, the precision Bank Negara Malaysia publishes ("4.0975"). */
 const fmtRate = (value) => new Intl.NumberFormat('en-US', { maximumFractionDigits: 4 }).format(value);
@@ -68,6 +69,7 @@ export default async function render() {
         <div class="eyebrow">How the hub works</div>
         <h1>Methodology</h1>
         <p class="muted" style="margin-top:8px;max-width:70ch">The hub keeps four things apart: what a manufacturer claims, what independent testers measured, what reviewers observed, and what this platform calculated from all of that. This page documents the rules, which are the same ones the code runs.</p>
+        ${isZh() ? html`<p class="small" style="margin-top:8px">${t('The detailed methodology below is written in English; the numbers and rules are the same in both languages.')}</p>` : ''}
       </header>
       <div class="with-outline">
       ${pageOutline(TOC)}
@@ -116,13 +118,16 @@ export default async function render() {
             <p><strong>What isn't recorded counts as typical.</strong> In rankings and use-case fits, a metric &mdash; or a whole category &mdash; with no evidence is given the median of similar devices: the same brand's devices of the same kind from the same or the previous year at a similar launch price, then (for charging and update promises, which follow the maker) the brand's other recent devices, then any brand's similar devices; where too few of those have it, the lower quartile of devices no newer than it. A gap therefore never lifts a device above better-documented ones, as it used to: a 2023 phone with only its 1-inch main sensor recorded scored 100 for camera hardware, above a 2026 phone whose zoom was recorded as well. Each score still shows how much of its evidence is real, and the device page names the values counted as typical. Comparisons are unaffected, because they already score every device on the evidence all of them share.</p>
             <p><strong>Devices not on sale yet</strong> (announced or on pre-order) are left out of the site's own rankings and listed after the rest when you rank the database yourself, because their figures come from pre-release listings at best.</p>
             <p>In comparisons, only metrics that <strong>every compared device shares</strong> are used, so a device is never rewarded just for being tested more often. A lead under <strong>${v.tieMargin} points</strong> is reported as too close to call. A category with less than ${Math.round(v.minCoverage * 100)}% shared evidence gets no verdict.</p>
-            <p>The camera score is based on <strong>hardware specifications only</strong> (sensor size and optical reach) until image-quality lab data (for example DXOMARK) is added. It is labelled that way wherever it appears.</p>
+            <p><strong>Camera.</strong> The camera score combines DXOMARK's lab camera score, where DXOMARK tested the phone, with main sensor size and optical reach. DXOMARK's version 5 and version 6 protocols give different scales, so each is scored only against results from the same protocol. A phone DXOMARK has not tested is scored on its hardware, with a typical lab score for similar phones standing in, and says so.</p>
+            <p><strong>Exynos and Snapdragon versions.</strong> Some Galaxy phones use Samsung's Exynos chip in Malaysia and a Snapdragon elsewhere. Every result says which chip the tested unit had. A phone's page, score and rankings use results for the model sold in Malaysia; results for the other version are shown beside them, labelled with that chip, and count towards that chip's results instead. On the Charts page they are separate, striped bars.</p>
+            <p><strong>Flagships first.</strong> Each brand's top lines count as flagships (Galaxy S and Z, iPhone, Pixel, Xiaomi numbered and T Pro, OPPO Find, vivo X, HONOR Magic, Huawei Mate and Pura, OnePlus numbered, iQOO numbered, POCO F Pro and Ultra, and the Sony, Motorola, Nothing, ASUS, REDMAGIC and realme flagships). Leaderboards, charts and the home page lead with them; the Devices filter "Flagship models" uses the same rule.</p>
+            <p><strong>Several labs' tests together.</strong> Where several labs test the same thing in different ways (battery life from GSMArena, Tom's Guide and DXOMARK; charging as time to full and charge after 30 minutes), a ranking scores each result against that lab's own results and averages them, so a phone tested by more labs is judged on more evidence rather than on one test or a stand-in. A comparison of two phones still uses only a test both of them had.</p>
             <p>Value is the balanced score per unit of launch price, computed only in a currency every compared device has a price in.</p>
           </div>
           <div class="grid grid-2" style="margin-top:var(--sp-4)">
             <div class="table-wrap"><table class="data-table">
               <thead><tr><th scope="col">Category</th><th scope="col">Metrics and weights (smartphones)</th></tr></thead>
-              <tbody>${scoring.categories.map((c) => html`<tr><th scope="row">${c.label}${c.specOnly ? html` ${tag('spec-based', 'warn')}` : ''}</th><td class="small dotlist">${(c.metrics.default ?? []).map((m) => html`<span class="nowrap">${(m.alt ?? [m.id]).map((id) => metricDef(id)?.short).join(' or ')} <span class="muted">${Math.round(m.w * 100)}%</span></span>`)}</td></tr>`)}</tbody>
+              <tbody>${scoring.categories.map((c) => html`<tr><th scope="row">${c.label}${c.specOnly ? html` ${tag('spec-based', 'warn')}` : ''}</th><td class="small dotlist">${(c.metrics.default ?? []).map((m) => html`<span class="nowrap">${m.combine === 'mean' ? 'average of ' : ''}${(m.alt ?? [m.id]).map((id) => metricDef(id)?.short).join(m.combine === 'mean' ? ', ' : ' or ')} <span class="muted">${Math.round(m.w * 100)}%</span></span>`)}</td></tr>`)}</tbody>
             </table></div>
             <div class="table-wrap"><table class="data-table">
               <thead><tr><th scope="col">Use-case profile</th><th scope="col">Category weights</th></tr></thead>

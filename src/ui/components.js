@@ -145,7 +145,31 @@ export function evidenceBlock(def, summary, { title } = {}) {
           <summary>${plural(summary.origins?.reduce((s, o) => s + o.records.length, 0) ?? 0, 'record')} from ${plural(summary.origins?.length ?? 0, 'source')}</summary>
           <ul class="records">${(summary.origins ?? []).map((o) => originRow(def, o))}</ul>
         </details>`}
+    ${(summary.otherVariants ?? []).map((v) => otherVariantRow(def, v))}
+    ${(summary.disputed ?? []).map((r) => disputedRow(def, r))}
   </div>`;
+}
+
+// A published result that contradicts every other test of the same hardware (Version 15): shown with the reason,
+// never counted.
+function disputedRow(def, r) {
+  return html`<p class="evidence__disputed small">
+    ${tag('Disputed', 'warn')} <span class="num">${fmtMetric(def, r.value)}</span>
+    <span class="tiny muted">${sourceLink(r.source ?? r.origin)}${r.note ? html` · ${r.note.replace(/^Disputed: /, '')}` : ' · not counted in the value above'}</span>
+  </p>`;
+}
+
+// A result for the same phone sold with a different chip (e.g. the Snapdragon Galaxy where the site records the
+// Exynos model): shown for reference, counted for that chip only, never in this phone's value above.
+function otherVariantRow(def, v) {
+  return html`<details class="evidence__detail evidence__variant">
+    <summary>
+      ${tag(`${v.chipName} version`, 'warn')}
+      <span class="num">${fmtMetric(def, v.value)}</span>
+      <span class="tiny muted">tested on the <a href="${href(`/chipset/${v.chip}`)}">${v.chipName}</a> model, not the one this page describes; not counted in the value above</span>
+    </summary>
+    <ul class="records">${(v.origins ?? []).map((o) => originRow(def, o))}</ul>
+  </details>`;
 }
 
 function originRow(def, origin) {

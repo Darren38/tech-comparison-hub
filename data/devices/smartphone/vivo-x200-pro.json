@@ -33,14 +33,11 @@
     }
   ],
   "image": {
-    "kind": "photo",
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Vivo_X200_Pro_blue.png/500px-Vivo_X200_Pro_blue.png",
-    "page": "https://commons.wikimedia.org/wiki/File:Vivo_X200_Pro_blue.png",
-    "title": "Vivo X200 Pro blue",
-    "author": "X-SHLIED",
-    "license": "CC BY 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-    "checked": "2026-09-17"
+    "kind": "official",
+    "src": "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1731663031362/b38cc4e755f53ec881c73a6d97b4c0d1.png",
+    "page": "https://www.vivo.com/my/products/param/x200-pro",
+    "credit": "vivo Malaysia",
+    "checked": "2026-09-24"
   },
   "specs": {
     "display": {

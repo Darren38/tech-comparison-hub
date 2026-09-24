@@ -102,5 +102,12 @@
       }
     }
   },
-  "dataStatus": "compiled"
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1714296365781/150f2d395aeb742ba0cdadd7fef40aba.png",
+    "page": "https://www.iqoo.com/my/products/param/z9-5g",
+    "credit": "iQOO Malaysia",
+    "checked": "2026-09-24"
+  }
 }

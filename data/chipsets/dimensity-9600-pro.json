@@ -1,0 +1,46 @@
+{
+  "id": "dimensity-9600-pro",
+  "name": "Dimensity 9600 Pro",
+  "vendor": "mediatek",
+  "family": "Dimensity 9000",
+  "tier": "flagship",
+  "announced": "2026-09-15",
+  "aliases": [
+    "D9600 Pro",
+    "Dimensity 9600P"
+  ],
+  "summary": "MediaTek's 2 nm flagship for late-2026 phones (vivo X500 Pro, OPPO Find X10 Pro Max), with two Arm C2 Ultra cores at 4.55 GHz. MediaTek claims 17% faster single-core and 15% faster multi-core CPU than the Dimensity 9500; no independent results yet.",
+  "process": {
+    "node": "2 nm",
+    "foundry": "TSMC"
+  },
+  "cpu": {
+    "cores": 8,
+    "clusters": [
+      {
+        "count": 2,
+        "core": "Arm C2 Ultra",
+        "ghz": 4.55
+      },
+      {
+        "count": 3,
+        "core": "Arm C2 Pro",
+        "ghz": 4.35
+      },
+      {
+        "count": 3,
+        "core": "Arm C2 Pro",
+        "ghz": 3.1
+      }
+    ]
+  },
+  "provenance": {
+    "default": {
+      "class": "news",
+      "source": "zinggadget",
+      "url": "https://zinggadget.com/%e8%81%94%e5%8f%91%e7%a7%91%e5%a4%a9%e7%8e%91-9600-pro%e5%8f%91%e5%b8%83/",
+      "checked": "2026-09-24",
+      "note": "From Zing Gadget's report of MediaTek's China launch (2+3+3 core layout and clocks, TSMC 2 nm, performance claims)."
+    }
+  }
+}

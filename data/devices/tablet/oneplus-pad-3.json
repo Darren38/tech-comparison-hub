@@ -90,5 +90,12 @@
     },
     "fields": {}
   },
-  "dataStatus": "compiled"
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://www.oneplus.com/content/dam/oneplus/2025/specs/pad3/images/Pad3_Erhai_Blue_1080x1080.png",
+    "page": "https://www.oneplus.com/us/oneplus-pad-3/specs",
+    "credit": "OnePlus",
+    "checked": "2026-09-24"
+  }
 }

@@ -239,5 +239,72 @@
     "published": "2026-09-10", "accessed": "2026-09-15",
     "devices": ["apple-iphone-18-pro-max"], "chipsets": ["apple-a20-pro"], "facets": ["performance"],
     "summary": "Pre-release Geekbench results suggest roughly 20–28% CPU gains and a much faster GPU than the A19 Pro. They come from prototypes, so treat them as provisional."
+  },
+  {
+    "id": "sammobile-one-ui-9-stable-rollout",
+    "kind": "news",
+    "type": "software-update",
+    "source": "sammobile",
+    "class": "news",
+    "title": "Wider One UI 9 rollout starts for the Galaxy S26 series",
+    "url": "https://www.sammobile.com/news/galaxy-s26-one-ui-9-stable-wider-rollout/",
+    "author": "Abhijeet Mishra",
+    "published": "2026-09-23",
+    "accessed": "2026-09-24",
+    "devices": [
+      "samsung-galaxy-s26",
+      "samsung-galaxy-s26-plus",
+      "samsung-galaxy-s26-ultra"
+    ],
+    "facets": [
+      "software"
+    ],
+    "summary": "The stable One UI 9 (Android 17) update, first released in South Korea on 16 September, is now reaching other countries, starting with US carrier models. Other regions are expected over the coming days or weeks."
+  },
+  {
+    "id": "sammobile-s26-india-price-rise",
+    "kind": "news",
+    "type": "price",
+    "source": "sammobile",
+    "class": "news",
+    "title": "Samsung hikes Galaxy S26 series price in India",
+    "url": "https://www.sammobile.com/news/samsung-hikes-galaxy-s26-series-price-india/",
+    "author": "Abid Iqbal Shaik",
+    "published": "2026-09-23",
+    "accessed": "2026-09-24",
+    "devices": [
+      "samsung-galaxy-s26",
+      "samsung-galaxy-s26-plus",
+      "samsung-galaxy-s26-ultra"
+    ],
+    "facets": [
+      "value"
+    ],
+    "summary": "A leaked retailer notice shows Indian prices of the S26, S26+ and S26 Ultra rising by INR 15,000 to 25,000 from 23 September; Samsung gave no reason, and SamMobile suspects memory chip costs. India only: Malaysian prices on this site are unchanged."
+  },
+  {
+    "id": "engadget-motorola-signature-27",
+    "kind": "news",
+    "type": "launch",
+    "source": "engadget",
+    "class": "news",
+    "title": "Motorola's new Signature 27 is among the first smartphone to use the Snapdragon 8 Elite Extreme Gen 6 processor",
+    "url": "https://www.engadget.com/2265564/motorolas-new-signature-27-is-among-the-first-smartphone-to-use-the-snapdragon-8-elite-extreme-gen-6-processor/",
+    "author": "Lawrence Bonk",
+    "published": "2026-09-22",
+    "accessed": "2026-09-24",
+    "devices": [
+      "motorola-signature-27"
+    ],
+    "chipsets": [
+      "snapdragon-8-elite-extreme-gen-6"
+    ],
+    "facets": [
+      "performance",
+      "camera",
+      "audio",
+      "software"
+    ],
+    "summary": "Motorola's new flagship pairs the Snapdragon 8 Elite Extreme Gen 6 with a 50 MP main camera, a telephoto upgraded to 200 MP, Bang & Olufsen speakers and seven years of Android upgrades. Price, display details and a release date were not announced."
   }
 ]

@@ -37,7 +37,8 @@
     },
     "software": {
       "security_updates_years": 7,
-      "policy_note": "Motorola promises seven years of software updates, as reported at the announcement."
+      "policy_note": "Motorola promises seven years of software updates, as reported at the announcement.",
+      "os_updates_years": 7
     }
   },
   "provenance": {
@@ -47,6 +48,15 @@
       "url": "https://www.techadvisor.com/article/3240884/motorola-signature-27-official-specs-design-but-no-price-or-release-date.html",
       "checked": "2026-09-23",
       "note": "From Tech Advisor's report of the announcement; only what was confirmed is recorded. Motorola's own pages refuse automated reading."
+    },
+    "fields": {
+      "specs.software.os_updates_years": {
+        "class": "news",
+        "source": "engadget",
+        "url": "https://www.engadget.com/2265564/motorolas-new-signature-27-is-among-the-first-smartphone-to-use-the-snapdragon-8-elite-extreme-gen-6-processor/",
+        "checked": "2026-09-24",
+        "note": "Engadget's launch report: \"a promise of seven years of OS upgrades\"."
+      }
     }
   },
   "dataStatus": "checked"

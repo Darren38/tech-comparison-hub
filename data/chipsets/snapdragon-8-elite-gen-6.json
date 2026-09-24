@@ -1,0 +1,27 @@
+{
+  "id": "snapdragon-8-elite-gen-6",
+  "name": "Snapdragon 8 Elite Gen 6",
+  "vendor": "qualcomm",
+  "family": "Snapdragon 8",
+  "tier": "flagship",
+  "announced": "2026-09-22",
+  "aliases": [
+    "8 Elite Gen 6",
+    "SD 8 Elite Gen 6"
+  ],
+  "summary": "The step below the Snapdragon 8 Elite Extreme Gen 6 for late-2026 flagships, on the same 2 nm process with Oryon CPU cores reaching 5 GHz. Its core layout was not given in the launch reports; no test results yet.",
+  "process": {
+    "node": "2 nm"
+  },
+  "memory": "LPDDR5X, LPDDR6",
+  "storage": "UFS 5.0",
+  "provenance": {
+    "default": {
+      "class": "news",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2026/09/23/qualcomm-snapdragon-8-elite-extreme-gen-6-launch-world-first-5ghz-mobile-cpu/",
+      "checked": "2026-09-24",
+      "note": "From SoyaCincau's report of Qualcomm's announcement: shares the Extreme model's 2 nm process and 5 GHz CPU, LPDDR5X/LPDDR6 memory and UFS 5.0."
+    }
+  }
+}

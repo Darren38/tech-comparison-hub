@@ -13,12 +13,28 @@ const IMG_EXT = /\.(?:jpe?g|png|webp|gif|avif)(?:[?#]|$)/i;
 const FEED_TIMEOUT_MS = 15000;
 const PARALLEL = 6;
 
+// Chinese brand names, read as the English ones (from live/config.json: the same list as tools/fetch_headlines.py)
+let zhBrands = [];
+// A feed date. Some Chinese feeds give "2026-09-24 12:07:30" with no offset; the feed's `tz` ("+08:00") says whose clock it is.
+function parseFeedDate(text, tz) {
+  const m = /^(\d{4}-\d\d-\d\d)[ T](\d\d:\d\d(?::\d\d)?)$/.exec(text);
+  if (m) return new Date(`${m[1]}T${m[2]}${/^[+-]\d\d:\d\d$/.test(tz ?? '') ? tz : 'Z'}`);
+  return new Date(text);
+}
+
+export function setZhBrands(list) {
+  zhBrands = list ?? [];
+}
+
 export function normalize(text) {
-  return String(text ?? '')
+  let t = String(text ?? '');
+  for (const [zh, en] of zhBrands) t = t.split(zh).join(` ${en} `);
+  return t
     .toLowerCase()
     .replace(/['’]s\b/g, '')
     .replace(/\+/g, ' plus ')
     .replace(/[^a-z0-9]+/g, ' ')
+    .replace(/(\d)([a-z]{2,})\b/g, '$1 $2') // "17Pro", "X200Ultra" (Chinese headlines leave no space)
     .replace(/\b([a-z]{3,})(\d+)\b/g, '$1 $2') // "Fold8" reads the same as "Fold 8"
     .replace(/\s+/g, ' ')
     .trim();
@@ -129,6 +145,9 @@ export async function collectThroughRelay(config) {
   const noImage = new Set(config.noImageSources ?? []);
   const topic = new RegExp(`(?<![a-z0-9])(?:${(config.topicPatterns ?? []).join('|')})(?![a-z0-9])`);
   const review = new RegExp(config.reviewWords, 'i');
+  const topicZh = config.topicPatternsZh ? new RegExp(config.topicPatternsZh) : null;
+  const reviewZh = config.reviewWordsZh ? new RegExp(config.reviewWordsZh) : null;
+  setZhBrands(config.zhBrands);
 
   const texts = new Array(config.feeds.length);
   let next = 0;
@@ -161,12 +180,12 @@ export async function collectThroughRelay(config) {
       const title = cleanTitle(raw.title);
       const link = (raw.link ?? '').trim();
       if (!title || !/^https?:\/\//.test(link)) continue;
-      const when = raw.date ? new Date(raw.date.trim()) : null;
+      const when = raw.date ? parseFeedDate(raw.date.trim(), feed.tz) : null;
       const published = when && !Number.isNaN(when.getTime()) ? when : null;
       if (published && published.getTime() < cutoff) continue;
       const norm = normalize(title);
       const devices = matchDevices(norm, byFirst, nextReject);
-      if (!devices.length && !topic.test(norm)) continue;
+      if (!devices.length && !topic.test(norm) && !topicZh?.test(title)) continue;
       const id = (await sha1Hex(link)).slice(0, 12);
       if (items.has(id)) continue;
       items.set(id, {
@@ -174,7 +193,8 @@ export async function collectThroughRelay(config) {
         title,
         url: link,
         source: feed.source,
-        kind: feed.kind === 'video' ? 'video' : review.test(title) ? 'review' : feed.kind,
+        ...(feed.lang ? { lang: feed.lang } : {}),
+        kind: feed.kind === 'video' ? 'video' : review.test(title) || reviewZh?.test(title) ? 'review' : feed.kind,
         published: published ? isoMinutes(published) : null,
         devices,
         image: noImage.has(feed.source) ? null : raw.image,

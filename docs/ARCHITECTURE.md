@@ -218,6 +218,12 @@ The compare tray lives in memory only since Version 10 (`core/state.js`), so eve
 - a progress bar shows how far through the page you are;
 - `scroll-margin` values keep headings clear of the site header, the outline bar and compare's device headers.
 
+## Chip versions, combined lab scores and charts (Version 14)
+
+- **Chip versions.** A record's `chip` names the tested unit's chipset. In `aggregate()` a result whose chip differs from the phone's is kept out of the phone's consensus, counted for that chip, and attached as `otherVariants`; the device index carries it as `mv` (with `ms`, the sources of each own result, and `flagship`).
+- **Combined lab tests.** A scoring item with `"combine": "mean"` (battery, charging) averages every alternative the phone has, each scored by `labPlaceScore()` (its place among that lab's results, 40–100) instead of against the lab's best result. Comparisons still pick one test all phones share.
+- **Charts.** `src/pages/charts.js` draws ranked bars and generation lines (`src/engine/lines.js`) from the device index; only own measured results. `tools/generation_check.mjs` runs the predecessor check in the browser.
+
 ## Evidence coverage (Version 2)
 
 The build also writes `index/coverage.json`, a map of what the database does *not* know. It powers the `/coverage` page, the device-page evidence badge and `python tools/build.py --report`. Specs whose `checked` date is more than a year old raise a build warning. At scale this is the work queue: which devices need testing, which key measurements are missing, and whether one lab supplies too much of the evidence.
@@ -232,3 +238,10 @@ The build also writes `index/coverage.json`, a map of what the database does *no
 - A WCAG contrast audit of the design tokens (both themes) for every text/background pair in use.
 - Visual review at desktop (1440 px, via headless Edge) and phone (358–390 px) widths, in light and dark themes.
 - **Version 5:** the crawl runs against a static copy served from a sub-folder with no API (as on GitHub Pages); scripted Refresh tests cover local, static, server-error and offline cases; the live-rate path is forced with an old `asOf`; picture fallback is tested with a failing URL; all external data URLs are checked.
+
+## Interface language (Version 15)
+
+- `src/core/i18n.js` holds the current language (`localStorage 'tch-lang'`, else the browser's language). `t(text, vars)` translates one string, `L(obj, field)` reads a data label's `field_zh`, and `translateDom()` with a MutationObserver translates rendered pages.
+- `src/i18n/zh.js` is keyed by the English text. Exact phrases are looked up first, then `ZH.__patterns` (regular expressions for text built from numbers and names). A missing entry falls back to the English.
+- Switching language saves the choice and reloads the page, so every page is drawn once in one language.
+- Headline feeds can carry `lang` (shown as a tag and filtered on the News and Reviews pages) and `tz` (the offset for dates written without one). Both are passed to `live/config.json`, so the browser collector and the relay use the same list.

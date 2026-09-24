@@ -43,14 +43,11 @@
     }
   ],
   "image": {
-    "kind": "drawing",
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/IPad_Air_M3.svg/500px-IPad_Air_M3.svg.png",
-    "page": "https://commons.wikimedia.org/wiki/File:IPad_Air_M3.svg",
-    "title": "IPad Air M3",
-    "author": "Valentinys",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "checked": "2026-09-17"
+    "kind": "official",
+    "src": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/122241-122242-ipad-air-11inch-13inch-m3.png",
+    "page": "https://support.apple.com/en-my/122242",
+    "credit": "Apple",
+    "checked": "2026-09-24"
   },
   "specs": {
     "display": {

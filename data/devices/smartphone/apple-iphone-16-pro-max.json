@@ -43,14 +43,11 @@
     }
   ],
   "image": {
-    "kind": "photo",
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Back_view_of_iPhone_16_Pro_Max_Natural_Titanium.jpg/500px-Back_view_of_iPhone_16_Pro_Max_Natural_Titanium.jpg",
-    "page": "https://commons.wikimedia.org/wiki/File:Back_view_of_iPhone_16_Pro_Max_Natural_Titanium.jpg",
-    "title": "Back view of iPhone 16 Pro Max Natural Titanium",
-    "author": "メイド理世",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "checked": "2026-09-17"
+    "kind": "official",
+    "src": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/121032-iphone-16-pro-max.png",
+    "page": "https://support.apple.com/en-my/121032",
+    "credit": "Apple",
+    "checked": "2026-09-24"
   },
   "specs": {
     "display": {

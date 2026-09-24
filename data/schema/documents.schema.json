@@ -49,6 +49,7 @@
               "value": { "type": "number" },
               "note": { "type": "string" },
               "variant": { "type": "string" },
+              "chip": { "type": "string", "description": "Chipset id of the tested variant when it differs by region (e.g. a Snapdragon Galaxy). Counted for that chip, shown separately on the phone." },
               "class": { "$ref": "#/$defs/evidenceClass" },
               "flags": { "type": "array", "items": { "enum": ["pre-release", "early-software"] } },
               "derived": { "type": "object", "properties": { "formula": { "type": "string" }, "inputs": { "type": "string" } } },

@@ -42,7 +42,7 @@ OFFICIAL_IMAGE_HOSTS = {"images.samsung.com", "cdsassets.apple.com", "www.apple.
                         "consumer.huawei.com", "consumer-img.huawei.com", "i02.appmifile.com", "i01.appmifile.com", "cdn.cnbj1.fds.api.mi-img.com",
                         "www.oppo.com", "image01.oppo.com", "asia-exstatic-vivofs.vivo.com", "asia-exstatic.vivo.com", "www.iqoo.com",
                         "dlcdnwebimgs.asus.com", "global.redmagic.gg", "static2.realme.net", "image01.realme.net",
-                        "www.oneplus.com"}
+                        "www.oneplus.com", "cn-exstatic-vivofs.iqoo.com"}
 
 
 # ----------------------------------------------------------------------------- reporting
@@ -267,7 +267,7 @@ def validate(ds: Dataset) -> None:
                 host = re.sub(r"^https?://([^/]+)/.*$", r"\1", src)
                 if host not in OFFICIAL_IMAGE_HOSTS:
                     r.error(f"{label}: official images must come from a manufacturer server ({', '.join(sorted(OFFICIAL_IMAGE_HOSTS))}), not '{host}'")
-                if not re.match(r"https?://[^/]*((samsung|apple|honor|huawei|mi|oppo|vivo|iqoo|asus|realme|oneplus)\.com|redmagic\.gg)/", page):
+                if not re.match(r"https?://[^/]*((samsung|apple|honor|huawei|mi|oppo|vivo|iqoo|asus|realme|oneplus)\.com(\.cn)?|redmagic\.gg)/", page):
                     r.error(f"{label}: page must link to the manufacturer page the image was taken from")
                 if not image.get("credit"):
                     r.error(f"{label}: official images need a 'credit' (the manufacturer site)")
@@ -335,6 +335,8 @@ def validate(ds: Dataset) -> None:
                 r.error(f"{rwhere}: value must be a number")
                 continue
             check_class(ds, rwhere, rec.get("class"))
+            if rec.get("chip") and rec["chip"] not in ds.chipsets:
+                r.error(f"{rwhere}: unknown chip '{rec['chip']}' (the chipset of the tested variant)")
             lo, hi = metric.get("plausible", [None, None])
             if lo is not None and not (lo <= rec["value"] <= hi):
                 r.warn(f"{rwhere}: {metric['id']} = {rec['value']} is outside the plausible range {lo}–{hi}")
@@ -487,6 +489,7 @@ def collect_records(ds: Dataset) -> list[dict]:
                 "dateApprox": doc.get("publishedApprox", False),
                 "note": rec.get("note"),
                 "variant": rec.get("variant"),
+                "chip": rec.get("chip"),
                 "flags": rec.get("flags", []),
                 "derived": rec.get("derived"),
                 "excerpt": doc.get("verification") == "excerpt",
@@ -573,7 +576,7 @@ def summarise(ds: Dataset, records: list[dict]) -> dict:
 
 
 def public_record(rec: dict) -> dict:
-    keep = ("doc", "value", "class", "source", "url", "date", "dateApprox", "note", "variant", "flags", "derived", "excerpt", "subject", "spec")
+    keep = ("doc", "value", "class", "source", "url", "date", "dateApprox", "note", "variant", "chip", "flags", "derived", "excerpt", "subject", "spec")
     return {k: rec[k] for k in keep if rec.get(k) not in (None, [], False)}
 
 
@@ -590,6 +593,35 @@ def aggregate(ds: Dataset, records: list[dict]):
 
     chipset_of = {d["id"]: get_path(d, "specs.platform.chipset") for d in ds.devices.values()}
 
+    # A result from another chip variant of a phone (a Snapdragon Galaxy where the site records the Malaysian Exynos
+    # model) is kept apart: it is shown on the phone's page under its own chip and counts towards that chip's
+    # consensus, never towards the phone's own value.
+    # A published result that contradicts every other test of the same hardware is flagged "disputed", with a note that
+    # says why (Version 15). It stays in its document for readers but counts towards no consensus and no chipset
+    # stand-in, so one misprint can't set a phone's or a chip's value.
+    disputed: dict[tuple[str, str], list[dict]] = defaultdict(list)
+    for key in list(global_recs):
+        kept = [r for r in global_recs[key] if "disputed" not in r.get("flags", [])]
+        if len(kept) != len(global_recs[key]):
+            disputed[key] = [r for r in global_recs[key] if r not in kept]
+            if kept:
+                global_recs[key] = kept
+            else:
+                del global_recs[key]
+
+    other_variant: dict[tuple[str, str], list[dict]] = defaultdict(list)
+    for key in list(global_recs):
+        subject = key[0]
+        if ds.subject_kind(subject) != "device":
+            continue
+        own_chip = chipset_of.get(subject)
+        other = [r for r in global_recs[key] if r.get("chip") and r["chip"] != own_chip]
+        if other:
+            other_variant[key] = other
+            global_recs[key] = [r for r in global_recs[key] if r not in other]
+            if not global_recs[key]:
+                del global_recs[key]
+
     device_metrics: dict[str, dict] = defaultdict(dict)
     chipset_metrics: dict[str, dict] = defaultdict(dict)
     implementations: dict[str, dict] = defaultdict(lambda: defaultdict(list))
@@ -603,6 +635,10 @@ def aggregate(ds: Dataset, records: list[dict]):
                 for rec in recs:
                     implementations[chip][metric_id].append({**public_record(rec), "device": subject, "origin": rec["origin"]})
 
+    for (subject, metric_id), other in other_variant.items():
+        for rec in other:
+            implementations[rec["chip"]][metric_id].append({**public_record(rec), "device": subject, "origin": rec["origin"]})
+
     # Chipset consensus: chip-level records plus device results for phones using the chip.
     for chip_id in ds.chipsets:
         metric_ids = {m for (s, m) in global_recs if s == chip_id} | set(implementations[chip_id])
@@ -613,6 +649,9 @@ def aggregate(ds: Dataset, records: list[dict]):
             for dev_id, chip in chipset_of.items():
                 if chip == chip_id:
                     recs += [r for r in global_recs.get((dev_id, metric_id), []) if not r.get("spec")]
+            for (dev_id, m_id), other in other_variant.items():
+                if m_id == metric_id:
+                    recs += [r for r in other if r["chip"] == chip_id]
             if recs:
                 chipset_metrics[chip_id][metric_id] = summarise(ds, recs)
 
@@ -628,6 +667,22 @@ def aggregate(ds: Dataset, records: list[dict]):
             inherited["why"] = f"Chipset result ({ds.chipsets[chip]['name']}); this phone's own result may differ. {summary['why']}"
             inherited["origins"] = []
             device_metrics[dev_id][metric_id] = inherited
+
+    # disputed results are listed under the value they were left out of, with the reason
+    for (subject, metric_id), recs in disputed.items():
+        target = (device_metrics if ds.subject_kind(subject) == "device" else chipset_metrics).get(subject, {}).get(metric_id)
+        if target is not None:
+            target["disputed"] = [{**public_record(r), "origin": r["origin"]} for r in recs]
+
+    for (subject, metric_id), other in other_variant.items():
+        target = device_metrics[subject].get(metric_id)
+        if target is None:
+            continue   # nothing to attach to; the result still counts for its own chip
+        groups = defaultdict(list)
+        for rec in other:
+            groups[rec["chip"]].append(rec)
+        target["otherVariants"] = [{"chip": chip, "chipName": ds.chipsets[chip]["name"], **summarise(ds, recs)}
+                                   for chip, recs in sorted(groups.items())]
 
     return device_metrics, chipset_metrics, implementations, doc_tests
 
@@ -691,6 +746,30 @@ def sold_in(dev: dict, region: str) -> bool:
     return any(p.get("region") == region for p in dev.get("prices", [])) or status == "price-not-found"
 
 
+# Flagship models (Version 14): each brand's top line, by model name. The site's rankings, charts and home page lead
+# with these; the Devices filter "Flagship models" uses the same rule.
+FLAGSHIP_NAMES = [re.compile(p) for p in (
+    r'^Galaxy S\d+( Ultra| Plus|\+)?$', r'^Galaxy Z (Fold|Flip)\d+( Ultra)?$',
+    r'^iPhone \d+( Plus| Pro| Pro Max)?$', r'^iPhone (Air|Duo)$',
+    r'^(Xiaomi )?\d+( Ultra| Pro| Pro Max)?$', r'^(Xiaomi )?\d+T Pro$', r'^Leica Leitzphone',
+    r'^(OPPO )?Find (X\d+( Pro| Ultra|s)?|N\d+)$', r'^(vivo )?X\d+( Pro| Ultra)?$', r'^(vivo )?X Fold\d*',
+    r'^(HONOR )?Magic\d+( Pro| Ultra| RSR Porsche Design)?$', r'^(HONOR )?Magic V\d+', r'^(HONOR )?Magic\d+ RSR',
+    r'^(Huawei )?Mate \d+( Pro| Pro\+| RS)?', r'^(Huawei )?Mate X', r'^(Huawei )?Pura \d+s?( Pro| Ultra| Pro Max)?$',
+    r'^(OnePlus )?\d+( Pro)?$', r'^(Google )?Pixel \d+( Pro| Pro XL| Pro Fold)?$',
+    r'^iQOO \d+( Pro)?$', r'^REDMAGIC \d+ Pro', r'^(realme )?GT \d+ Pro$', r'^POCO F\d+ (Pro|Ultra)$',
+    r'^(Sony )?Xperia 1 ', r'^(Motorola )?(razr ultra|Signature)', r'^(Nothing )?Phone \(\d\)$', r'^(ASUS )?ROG Phone \d+ Pro',
+)]
+
+
+def is_flagship(dev: dict) -> bool:
+    if dev.get("category") != "smartphone":
+        return False
+    if dev.get("segment") == "flagship":
+        return True
+    name = dev.get("name", "")
+    return any(p.match(name) for p in FLAGSHIP_NAMES)
+
+
 def filter_fields(ds: Dataset, dev: dict, has_tests: bool) -> dict:
     s = dev.get("specs", {})
     rear = get_path(s, "camera.rear") or []
@@ -726,6 +805,7 @@ def filter_fields(ds: Dataset, dev: dict, has_tests: bool) -> dict:
         "keyboard": bool(get_path(s, "input.keyboard")) if dev["category"] == "tablet" else None,
         "soldMY": sold_in(dev, "MY"),
         "hasTests": has_tests,
+        "flagship": is_flagship(dev) if dev["category"] == "smartphone" else None,
     }
     return {k: v for k, v in fields.items() if v is not None}
 
@@ -851,6 +931,13 @@ def compile_outputs(ds: Dataset, records: list[dict]) -> dict:
                       if get_path(dev, "specs." + k) is not None},
             "f": filter_fields(ds, dev, bool(independent)),
             "m": {mid: [s["value"], s["confidence"][0], 1 if s.get("inherited") else 0] for mid, s in metrics.items()},
+            # Version 14: who measured each result (charts and rankings name their sources), and results for another
+            # chip version of the phone ([chip id, value, sources]), kept apart from its own value
+            "ms": {mid: [o["origin"] for o in s["origins"]] for mid, s in metrics.items()
+                   if s.get("origins") and not s.get("inherited") and not ds.metrics[mid].get("derive")},
+            "mv": {mid: [[v["chip"], v["value"], [o["origin"] for o in v["origins"]]] for v in s["otherVariants"]]
+                   for mid, s in metrics.items() if s.get("otherVariants")},
+            "flagship": is_flagship(dev),
             "docCount": len(own_docs),
             "latestEvidence": latest,
             "dataStatus": dev.get("dataStatus", "compiled"),

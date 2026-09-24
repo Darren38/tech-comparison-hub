@@ -139,5 +139,12 @@
       }
     }
   },
-  "dataStatus": "compiled"
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://consumer.huawei.com/content/dam/huawei-cbg-site/common/mkt/pdp/wearables/watch-gt-cyber/img/module1/huawei-watch-gt-cyber-2.webp",
+    "page": "https://web.archive.org/web/20240416070416/https://consumer.huawei.com/my/wearables/watch-gt-cyber/",
+    "credit": "HUAWEI Malaysia",
+    "checked": "2026-09-24"
+  }
 }

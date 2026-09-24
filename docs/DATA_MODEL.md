@@ -163,7 +163,7 @@ A **document** is one source artifact: a review page, a video, a database page, 
   "verification": "excerpt",         // optional: values read from a search excerpt, not the page itself
   "records": [
     { "subject": "samsung-galaxy-s26-ultra", "metric": "gsma_active_use", "value": 16.383,
-      "note": "…", "variant": "EU model, 5,440 mAh", "flags": ["pre-release" | "early-software"],
+      "note": "…", "variant": "EU model, 5,440 mAh", "chip": "snapdragon-8-elite-gen-5" /* Version 14: the tested unit's chipset when it differs by region; counted for that chip, shown apart on the phone */, "flags": ["pre-release" | "early-software" | "disputed" /* Version 15: a published figure contradicted by every other test of the same hardware (the note says why); shown with its reason, counted nowhere */],
       "class": "platform", "derived": { "formula": "lowest ÷ highest loop", "inputs": "2,647 ÷ 3,394" } }
   ],
   "findings": [

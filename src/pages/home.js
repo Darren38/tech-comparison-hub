@@ -10,6 +10,7 @@ import { icon, deviceCard, confMeter, provBadge, sectionHead, legend, seriesMark
 import { loadHeadlines, isSafeUrl } from '../engine/live.js';
 import { scoreBars } from '../ui/charts.js';
 import { metricLeaderboard, profileLeaderboard } from '../engine/scoring.js';
+import { t } from '../core/i18n.js';
 
 const EXAMPLES = [
   'Galaxy S26 Ultra vs iPhone 18 Pro Max',
@@ -19,15 +20,16 @@ const EXAMPLES = [
 ];
 
 const BOARDS = [
-  { id: 'battery', label: 'Battery', metric: 'gsma_active_use', blurb: 'GSMArena Active Use Score: one lab, one method, directly comparable.' },
-  { id: 'charging', label: 'Charging', metric: 'charge_full', blurb: 'Minutes from empty to full with the maker’s charger (measured).' },
-  { id: 'display', label: 'Outdoor brightness', metric: 'nits_auto', blurb: 'Measured 75% white patch in auto mode: what you see in sunlight.' },
+  { id: 'cpu', label: 'CPU', metric: 'gb6_multi', blurb: 'Geekbench 6 multi-core: the same benchmark wherever it is run, so results from several testers combine.' },
   { id: 'gpu', label: 'Peak GPU', metric: 'wle', blurb: '3DMark Wild Life Extreme. Consensus of sources where more than one tested the phone.' },
   { id: 'sustained', label: 'Sustained GPU', metric: 'wle_stability', blurb: 'Share of peak kept through a 20-loop stress test. Depends on the phone’s cooling, not just the chip.' },
-  { id: 'cpu', label: 'CPU single-core', metric: 'gb6_single', blurb: 'Geekbench 6 single-core, the best proxy for everyday responsiveness.' },
+  { id: 'battery', label: 'Battery', metric: 'tg_web', blurb: 'Tom’s Guide web-surfing test over cellular at 150 nits: one lab, one method, directly comparable.' },
+  { id: 'charging', label: 'Charging', metric: 'charge_30', blurb: 'Charge after 30 minutes from empty with the maker’s charger (measured).' },
+  { id: 'camera', label: 'Camera', metric: 'dxomark_camera', blurb: 'DXOMARK camera score, current protocol (version 6): lab and field tests of photo and video.' },
 ];
 
 const PICKS = ['gaming', 'photography', 'battery', 'student', 'longterm'];
+const CHART_TAB = { cpu: 'cpu', gpu: 'gpu', sustained: 'gpu', battery: 'battery', charging: 'charging', camera: 'camera' };
 
 function hero() {
   const c = store.core.build.counts;
@@ -35,7 +37,7 @@ function hero() {
     <div class="hero__copy">
       <div class="eyebrow">Evidence-first device research</div>
       <h1>Compare devices on the evidence, not just the spec sheet.</h1>
-      <p class="hero__lede">Specifications, independent lab results, reviewer findings and news for ${c.devices} devices. Every number is traced to its source and rated for confidence, and scores explain <em>why</em> one device wins.</p>
+      <p class="hero__lede">${t('Specifications, independent lab results, reviewer findings and news for {n} devices. Every number is traced to its source and rated for confidence, and scores explain', { n: c.devices })} <em>${t('why')}</em> ${t('one device wins.')}</p>
       <form class="searchbox searchbox--hero" role="search" data-hero-search>
         ${icon('search', { size: 22 })}
         <input type="search" name="q" placeholder="Try “S26 Ultra vs iPhone 18 Pro Max” or “Dimensity 9500”" autocomplete="off" aria-label="Search devices, chipsets and news, or type a comparison" />
@@ -105,7 +107,8 @@ function featured() {
 
 function board(b, index) {
   const def = metricDef(b.metric);
-  const all = metricLeaderboard('smartphone', b.metric, { limit: Infinity });
+  // Version 14: the site leads with flagships; the Charts page has every phone
+  const all = metricLeaderboard('smartphone', b.metric, { limit: Infinity }).filter(({ row }) => row.flagship);
   const rows = all.slice(0, 6);
   const top = rows[0]?.m.value;
   return html`<div class="board" data-board="${b.id}" ${index ? 'hidden' : ''}>
@@ -119,16 +122,17 @@ function board(b, index) {
           <span class="board__bar" aria-hidden="true"><span style="width:${pct.toFixed(0)}%"></span></span>
           <span class="board__value num">${fmtMetric(def, m.value)}</span>
           ${confMeter(m.confidence, { label: false })}
+          <span class="board__src tiny">${(row.ms?.[b.metric] ?? []).map((sid) => html`<a href="${href(`/source/${sid}`)}">${sourceName(sid)}</a>`)}</span>
         </li>`;
       })}
     </ol>
-    <p class="tiny faint">${all.length === 1 ? '1 phone has' : `${all.length} phones have`} this measurement${all.length > rows.length ? `; top ${rows.length} shown` : ''}. Phones without an independent test are left out, not estimated.</p>
+    <p class="tiny faint">${all.length === 1 ? '1 flagship has' : `${all.length} flagships have`} this measurement${all.length > rows.length ? `; top ${rows.length} shown` : ''}. Phones without an independent test are left out, not estimated. <a href="${href('/charts', { tab: CHART_TAB[b.id] })}">Full chart →</a></p>
   </div>`;
 }
 
 function leaderboards() {
   return html`<section class="card" aria-labelledby="lb-title">
-    ${sectionHead('Measured leaderboards', { eyebrow: 'Independent tests only', id: 'lb-title' })}
+    ${sectionHead('Flagship leaderboards', { eyebrow: 'Independent tests only', id: 'lb-title', right: html`<a class="small" href="${href('/charts')}">All charts →</a>` })}
     <div class="seg" role="group" aria-label="Leaderboard">${BOARDS.map((b, i) => html`<button type="button" data-board-tab="${b.id}" aria-pressed="${i === 0}">${b.label}</button>`)}</div>
     <div class="boards">${BOARDS.map(board)}</div>
   </section>`;
@@ -136,11 +140,11 @@ function leaderboards() {
 
 function picks() {
   return html`<section aria-labelledby="picks-title">
-    ${sectionHead('Best phones for…', { eyebrow: 'Platform analysis', id: 'picks-title', right: html`<a class="small" href="${href('/methodology', { section: 'scoring' })}">How picks are scored →</a>` })}
+    ${sectionHead('Best flagships for…', { eyebrow: 'Platform analysis', id: 'picks-title', right: html`<a class="small" href="${href('/methodology', { section: 'scoring' })}">How picks are scored →</a>` })}
     <div class="grid grid-3 picks">
       ${PICKS.map((pid) => {
         const profile = store.profileById.get(pid);
-        const top = profileLeaderboard('smartphone', pid, { limit: 3 });
+        const top = profileLeaderboard('smartphone', pid, { limit: 3, flagship: true });
         return html`<article class="card pick">
           <div class="spread"><h3>${profile.label}</h3>${provBadge('platform')}</div>
           <p class="tiny muted">${profile.description}</p>
@@ -157,9 +161,9 @@ function picks() {
 }
 
 function latest() {
-  const rows = [...store.devices].sort((a, b) => (b.announced ?? '').localeCompare(a.announced ?? '')).slice(0, 8);
+  const rows = [...store.devices].filter((d) => d.flagship).sort((a, b) => (b.announced ?? '').localeCompare(a.announced ?? '')).slice(0, 6);
   return html`<section aria-labelledby="latest-title">
-    ${sectionHead('Latest releases', { eyebrow: 'Newest first', id: 'latest-title', right: html`<a class="small" href="${href('/devices')}">All devices →</a>` })}
+    ${sectionHead('Latest flagships', { eyebrow: 'Newest first', id: 'latest-title', right: html`<a class="small" href="${href('/devices/smartphone', { flagship: '1' })}">All flagships →</a>` })}
     <div class="grid grid-3">${rows.map((r) => deviceCard(r, { note: r.announced ? `Announced ${fmtDate(r.announced)}` : null }))}</div>
   </section>`;
 }

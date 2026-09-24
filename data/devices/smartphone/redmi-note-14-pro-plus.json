@@ -35,14 +35,11 @@
     }
   ],
   "image": {
-    "kind": "photo",
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Redmi_Note_14_Pro_Plus_Xiaomi_Store.jpg/500px-Redmi_Note_14_Pro_Plus_Xiaomi_Store.jpg",
-    "page": "https://commons.wikimedia.org/wiki/File:Redmi_Note_14_Pro_Plus_Xiaomi_Store.jpg",
-    "title": "Redmi Note 14 Pro Plus Xiaomi Store",
-    "author": "GVZpedia",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "checked": "2026-09-17"
+    "kind": "official",
+    "src": "https://i02.appmifile.com/485_item_my/06/01/2025/c33cff8fc2c32855260f3f714faab3cd.png",
+    "page": "https://web.archive.org/web/20260519163030/https://www.mi.com/my/product/redmi-note-14-pro-plus-5g/",
+    "credit": "Xiaomi Malaysia",
+    "checked": "2026-09-24"
   },
   "specs": {
     "display": {

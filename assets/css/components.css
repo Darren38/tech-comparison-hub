@@ -168,10 +168,10 @@
   display: none;
 }
 
-/* Full nav + currency menu leave room for the header search box only from 1440px. Below that
+/* Full nav + currency menu + language switch leave room for the header search box only from 1680px. Below that
    (down to where the nav collapses) it becomes the search icon, so the nav never wraps or pushes
    the tools off-screen. Range syntax leaves no gap at fractional widths (browser zoom). */
-@media (width > 1180px) and (width < 1440px) {
+@media (width > 1240px) and (width < 1680px) {
   .header-tools .header-search {
     display: none;
   }
@@ -183,7 +183,7 @@
   }
 }
 
-@media (max-width: 1180px) {
+@media (max-width: 1240px) {
   .nav {
     display: none;
   }
@@ -2484,4 +2484,40 @@ body:has(.tray:not([hidden])) .ask {
   padding: 5px 11px;
   white-space: normal;
   text-align: left;
+}
+
+/* Version 15: English / 中文 switch in the header */
+.lang-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  height: 36px;
+  padding: 3px;
+  border: 1px solid var(--rule);
+  border-radius: 10px;
+  background: var(--surface);
+  cursor: pointer;
+  font-size: 12.5px;
+  font-weight: 650;
+}
+
+.lang-btn span {
+  padding: 4px 7px;
+  border-radius: 7px;
+  color: var(--muted);
+}
+
+.lang-btn span.is-on {
+  background: var(--ink);
+  color: var(--bg);
+}
+
+/* Below 1680px the switch shows only the language it switches to, so the header keeps its room. */
+@media (width < 1680px) {
+  .lang-btn span.is-on {
+    display: none;
+  }
+  .lang-btn span {
+    color: var(--ink-2);
+  }
 }

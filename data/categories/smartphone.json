@@ -517,6 +517,11 @@
   ],
   "filters": [
     {
+      "id": "flagship",
+      "label": "Flagship models",
+      "type": "bool"
+    },
+    {
       "id": "brand",
       "label": "Brand",
       "type": "multi"

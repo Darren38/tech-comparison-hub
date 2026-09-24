@@ -43,14 +43,11 @@
     }
   ],
   "image": {
-    "kind": "photo",
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Apple_Watch_Ultra_3_Ti_Ocean_Band_%282026%29_06.jpg/500px-Apple_Watch_Ultra_3_Ti_Ocean_Band_%282026%29_06.jpg",
-    "page": "https://commons.wikimedia.org/wiki/File:Apple_Watch_Ultra_3_Ti_Ocean_Band_(2026)_06.jpg",
-    "title": "Apple Watch Ultra 3 Ti Ocean Band (2026) 06",
-    "author": "Gpkp",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "checked": "2026-09-17"
+    "kind": "official",
+    "src": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/apple-watch-ultra-3-hero.png",
+    "page": "https://support.apple.com/en-my/125095",
+    "credit": "Apple",
+    "checked": "2026-09-24"
   },
   "specs": {
     "display": {

@@ -142,5 +142,79 @@
     "verified": { "metadata": "Channel (SomeGadgetGuy, Juan Bagnell) and title confirmed with YouTube oEmbed on 2026-09-22." },
     "findings": [],
     "extraction": "metadata-only"
+  },
+  {
+    "id": "yt-mrwhosetheboss-iphone-18-pro-review",
+    "kind": "video",
+    "platform": "YouTube",
+    "source": "mrwhosetheboss",
+    "title": "iPhone 18 Pro Review - My Last iPhone?",
+    "url": "https://www.youtube.com/watch?v=PjAyUhf52D0",
+    "published": "2026-09-18",
+    "accessed": "2026-09-24",
+    "class": "reviewer",
+    "category": "full-review",
+    "devices": [
+      "apple-iphone-18-pro"
+    ],
+    "facets": [
+      "camera",
+      "battery",
+      "performance",
+      "build"
+    ],
+    "verified": {
+      "metadata": "Channel and title confirmed with YouTube oEmbed on 2026-09-24; date from the channel's feed."
+    },
+    "findings": [],
+    "extraction": "metadata-only"
+  },
+  {
+    "id": "yt-jerryrigeverything-iphone-18-pro-durability",
+    "kind": "video",
+    "platform": "YouTube",
+    "source": "jerryrigeverything",
+    "title": "iPhone 18 Pro Durability Test - Perfect Timing",
+    "url": "https://www.youtube.com/watch?v=WUlLIo9LI-w",
+    "published": "2026-09-19",
+    "accessed": "2026-09-24",
+    "class": "reviewer",
+    "category": "durability",
+    "devices": [
+      "apple-iphone-18-pro"
+    ],
+    "facets": [
+      "durability",
+      "build"
+    ],
+    "verified": {
+      "metadata": "Channel and title confirmed with YouTube oEmbed on 2026-09-24; date from the channel's feed."
+    },
+    "findings": [],
+    "extraction": "metadata-only"
+  },
+  {
+    "id": "yt-jerryrigeverything-iphone-18-pro-teardown",
+    "kind": "video",
+    "platform": "YouTube",
+    "source": "jerryrigeverything",
+    "title": "iPhone 18 Pro TEARDOWN: They aren't going to like this...",
+    "url": "https://www.youtube.com/watch?v=Pc1JzImPw_M",
+    "published": "2026-09-19",
+    "accessed": "2026-09-24",
+    "class": "reviewer",
+    "category": "teardown",
+    "devices": [
+      "apple-iphone-18-pro"
+    ],
+    "facets": [
+      "build",
+      "thermals"
+    ],
+    "verified": {
+      "metadata": "Channel and title confirmed with YouTube oEmbed on 2026-09-24; date from the channel's feed."
+    },
+    "findings": [],
+    "extraction": "metadata-only"
   }
 ]

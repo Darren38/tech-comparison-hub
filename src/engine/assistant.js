@@ -75,6 +75,22 @@ function detectBrands(norm) {
   return (store.core.brands ?? []).filter((b) => new RegExp(`\\b${normalizeText(b.name)}\\b`).test(norm)).map((b) => b.id);
 }
 
+let chipNames = null;
+/** Chipsets named in the question, longest name first, so "Snapdragon 8 Elite Gen 5" isn't also read as "Snapdragon 8 Elite". */
+function detectChipsets(norm) {
+  chipNames ??= store.chipsets.flatMap((c) => [c.name, ...(c.aliases ?? [])].map((n) => ({ id: c.id, n: normalizeText(n).replace(/\s+/g, ' ').trim() })))
+    .filter((x) => x.n.length >= 4 && /\d/.test(x.n)).sort((a, b) => b.n.length - a.n.length);
+  let rest = ` ${norm} `;
+  const found = [];
+  for (const { id, n } of chipNames) {
+    const i = rest.indexOf(` ${n} `);
+    if (i < 0) continue;
+    rest = rest.slice(0, i) + ' '.repeat(n.length + 1) + rest.slice(i + n.length + 1);
+    if (!found.includes(id)) found.push(id);
+  }
+  return found;
+}
+
 function detectMaxPrice(text) {
   // English, plus the common Malay forms ("bawah RM1000", "kurang daripada RM1,500", "bajet RM2k")
   const m = /(?:under|below|less than|cheaper than|within|max(?:imum)?|up to|budget(?: of)?|di ?bawah|bawah|kurang dari(?:pada)?|bajet|<)\s*(rm|myr|\$|usd|s\$|sgd|€|£)?\s*([\d][\d,]*(?:\.\d+)?)\s*(k)?/i.exec(text);
@@ -163,6 +179,8 @@ async function devicesIn(text, { fuzzy = true } = {}) {
       let hit = null;
       for (let i = qc.indexOf(c); i >= 0 && !hit; i = qc.indexOf(c, i + 1)) {
         // the next characters must not continue the model name ("s24" must not match "s24ultra" or "s245")
+        // nor start inside a model number ("9pro" is not in "a19pro")
+        if (i > 0 && wordOf[i] === wordOf[i - 1] && /[a-z0-9]/.test(qc[i - 1]) && (/\d/.test(qc[i]) || /\d/.test(qc[i - 1]))) continue;
         const after = qc.slice(i + c.length, i + c.length + 5);
         // "Is the vivo Y04 5G?" still means the Y04 when no "Y04 5G" exists; "Galaxy A16 5G" is its own model
         const netSuffix = /^[45]g/.test(after) && !known.has(c + after.slice(0, 2));
@@ -302,9 +320,15 @@ function priceFact(dev) {
     return html`${my.map((p, i) => html`${i ? '; ' : ''}<strong>${fmtPrice(p.amount, 'MYR')}</strong>${p.config ? ` (${p.config})` : ''}`)} at the Malaysian launch${my[0].date ? `, ${fmtDate(my[0].date)}` : ''}. Source: ${my[0].url ? html`<a href="${my[0].url}" target="_blank" rel="noopener noreferrer">${sourceName(my[0].source)}</a>` : sourceName(my[0].source)}.`;
   }
   const av = availabilityIn(dev, 'MYR');
+  // the remark on why there is no Malaysian price ("expected towards the end of October"), with its source
+  const why = av ? html`${av.long}${av.note ? `: ${av.note.replace(/\.$/, '')}` : ''}${av.source ? html` (${av.url ? html`<a href="${av.url}" target="_blank" rel="noopener noreferrer">${sourceName(av.source)}</a>` : sourceName(av.source)})` : ''}. ` : '';
   const dp = displayPrice(dev, selectedCurrency());
-  if (dp) return html`${av ? `${av.long}. ` : ''}Launch price elsewhere: <strong>${priceText(dp)}</strong>${dp.local ? '' : ' (converted estimate)'}.`;
-  return html`${av ? `${av.long}. ` : ''}No launch price is recorded.`;
+  if (dp) {
+    const b = dp.basis ?? {};
+    const own = b.amount && b.currency && b.currency !== dp.currency;
+    return html`${why}Launch price elsewhere: <strong>${own ? fmtPrice(b.amount, b.currency) : priceText(dp)}</strong>${b.config ? ` (${b.config})` : ''}${b.region ? ` in ${b.region}` : ''}${own ? html`, about <strong>${fmtPrice(dp.amount, dp.currency)}</strong> at today's exchange rate` : ''}.`;
+  }
+  return html`${why}No launch price is recorded.`;
 }
 
 function releaseFact(dev) {
@@ -353,10 +377,10 @@ async function answerDevice(id, attrs) {
     if (a.id === 'price') { parts.push(html`<li><span>Price</span> ${priceFact(dev)}</li>`); continue; }
     if (a.id === 'release') { parts.push(html`<li><span>Release</span> ${releaseFact(dev)}</li>`); continue; }
     if (a.id === 'performance') {
-      const cats = allCategoryScores(dev);
+      const cats = allCategoryScores(row(id));
       const chip = store.chipsetById.get(dev.specs?.platform?.chipset);
       const gb = getMetric(row(id), 'gb6_multi');
-      parts.push(html`<li><span>Performance</span> ${cats.performance ? html`platform performance score <strong>${Math.round(cats.performance.score)}</strong>/100` : 'no benchmark results recorded'}${gb ? html`; Geekbench 6 multi-core ${fmtMetric(metricDef('gb6_multi'), gb.value)}${gb.inherited ? ' (chipset stand-in)' : ''}` : ''}${chip ? html`; chip: <a href="${href(`/chipset/${chip.id}`)}">${chip.name}</a>` : ''}.</li>`);
+      parts.push(html`<li><span>Performance</span> ${cats.performance ? html`platform performance score <strong>${Math.round(cats.performance.score)}</strong>/100` : gb ? 'no platform score yet' : 'no benchmark results recorded'}${gb ? html`; Geekbench 6 multi-core ${fmtMetric(metricDef('gb6_multi'), gb.value)}${gb.inherited ? ' (chipset stand-in)' : ''}` : ''}${chip ? html`; chip: <a href="${href(`/chipset/${chip.id}`)}">${chip.name}</a>` : ''}.</li>`);
       continue;
     }
     for (const f of facts(dev, a.id)) {
@@ -459,7 +483,7 @@ async function answerCompare(ids, attrs, norm = '', text = '') {
     } else if (a.id === 'release') {
       rows.push(html`<tr><th scope="row">Announced</th>${devs.map((d) => html`<td>${d.announced ? fmtDate(d.announced) : html`<em class="ask__none">not recorded</em>`}</td>`)}</tr>`);
     } else if (a.id === 'performance') {
-      rows.push(html`<tr><th scope="row">Performance score</th>${devs.map((d) => { const s = allCategoryScores(d).performance; return html`<td>${s ? Math.round(s.score) : html`<em class="ask__none">no tests</em>`}</td>`; })}</tr>`);
+      rows.push(html`<tr><th scope="row">Performance score</th>${devs.map((d) => { const s = allCategoryScores(row(d.id)).performance; return html`<td>${s ? Math.round(s.score) : html`<em class="ask__none">no tests</em>`}</td>`; })}</tr>`);
     } else {
       const per = devs.map((d) => facts(d, a.id));
       (per[0] ?? []).forEach((f, k) => rows.push(html`<tr><th scope="row">${f.label}</th>${per.map((fs) => html`<td>${fs[k]?.text ?? html`<em class="ask__none">not recorded</em>`}</td>`)}</tr>`));
@@ -489,11 +513,22 @@ function filterRows(norm, text, { category }) {
   if (/\b5g\b/.test(norm)) rows = rows.filter((r) => r.f?.g5);
   if (/\b(foldables?|fold(ing)?|flip)\b/.test(norm)) rows = rows.filter((r) => r.form === 'foldable');
   if (/\b(sold|available|buy) in malaysia\b|\bmalaysia\b/.test(norm)) rows = rows.filter((r) => r.f?.soldMY);
-  return { rows, brands, year, maxPrice };
+  const chips = detectChipsets(norm);
+  const chip = chips.length === 1 ? chips[0] : null;
+  if (chip) rows = rows.filter((r) => (r.chipset ?? r.f?.chipset) === chip);
+  const wireless = /\bwireless(ly)?\b|\bqi2?\b/.test(norm) && !/\b(without|no) wireless/.test(norm);
+  if (wireless) rows = rows.filter((r) => r.f?.wireless);
+  const tele = /\btelephoto|\bperiscope|\boptical zoom/.test(norm);
+  if (tele) rows = rows.filter((r) => r.f?.telephoto);
+  const flagship = /\bflagships?\b/.test(norm);
+  if (flagship) rows = rows.filter((r) => r.flagship);
+  return { rows, brands, year, maxPrice, chip, wireless, tele, flagship };
 }
 
-function filterWords({ brands, year, maxPrice }, category, extra = '') {
-  const cat = store.categoryById.get(category)?.name.toLowerCase() ?? 'devices';
+function filterWords({ brands, year, maxPrice, chip, wireless, tele, flagship }, category, extra = '') {
+  const cat = `${flagship ? 'flagship ' : ''}${store.categoryById.get(category)?.name.toLowerCase() ?? 'devices'}`;
+  const withs = [chip && `the ${store.chipsetById.get(chip)?.name}`, wireless && 'wireless charging', tele && 'a telephoto camera'].filter(Boolean);
+  extra = `${withs.length ? ` with ${withs.join(' and ')}` : ''}${extra}`;
   return `${brands.length ? brands.map(brandName).join(' / ') + ' ' : ''}${cat}${extra}${year ? ` from ${year}` : ''}${maxPrice ? ` under ${fmtPrice(maxPrice.amount, maxPrice.currency)}` : ''}`;
 }
 
@@ -518,15 +553,19 @@ function answerRank(norm, text, attr, category) {
 function answerBest(norm, text, category) {
   const profile = detectProfile(text) ?? 'balanced';
   const maxPrice = detectMaxPrice(text);
-  const list = profileLeaderboard(category, profile, { maxPrice, limit: 5 });
-  const cat = store.categoryById.get(category)?.name.toLowerCase() ?? 'devices';
+  // "best Samsung phone", "best phone with a telephoto": the same filters as lists and rankings
+  const f = filterRows(norm, text, { category });
+  const narrowed = f.brands.length || f.year || f.chip || f.wireless || f.tele || f.flagship || /\b5g\b|\b(foldables?|fold(ing)?|flip)\b|\bmalaysia\b/.test(norm);
+  const keep = narrowed ? new Set(f.rows.map((r) => r.id)) : null;
+  const list = profileLeaderboard(category, profile, { maxPrice, limit: keep ? 1000 : 5 }).filter((x) => !keep || keep.has(x.id)).slice(0, 5);
+  const cat = keep ? filterWords({ ...f, maxPrice: null }, category) : store.categoryById.get(category)?.name.toLowerCase() ?? 'devices';
   const prof = store.profileById.get(profile);
   if (!list.length) return { html: html`<p>No ${cat}${maxPrice ? ` under ${fmtPrice(maxPrice.amount, maxPrice.currency)}` : ''} have enough evidence to rank${profile !== 'balanced' ? ` for ${prof?.label.toLowerCase()}` : ''} yet.</p>` };
   return {
     html: html`<p>Top ${cat}${profile !== 'balanced' ? ` for ${prof.label.toLowerCase()}` : ''}${maxPrice ? ` under ${fmtPrice(maxPrice.amount, maxPrice.currency)}` : ''}, by this site's scores:</p>
       <ol class="ask__rank">${list.map((x) => html`<li>${link(x.id)} <span class="ask__val">${Math.round(x.result.score)}/100</span></li>`)}</ol>
       <p class="ask__src">Scores are platform analysis built from the recorded specifications and independent tests, not a reviewer's opinion. <a href="${href('/methodology')}">How scoring works</a>.</p>
-      <p class="ask__more"><a href="${href(`/devices/${category}`, { rank: profile, priceMax: maxPrice?.amount, cur: maxPrice?.currency })}">See the full ranking</a></p>`,
+      <p class="ask__more"><a href="${href(`/devices/${category}`, { rank: profile, priceMax: maxPrice?.amount, cur: maxPrice?.currency, brand: f.brands[0], chipset: f.chip, wireless: f.wireless ? 1 : '', telephoto: f.tele ? 1 : '', flagship: f.flagship ? 1 : '' })}">See the full ranking</a></p>`,
     devices: list.map((x) => x.id),
   };
 }
@@ -538,7 +577,7 @@ function answerList(norm, text, category) {
   return {
     html: html`<p>${plural(rows.length, store.categoryById.get(category)?.singular.toLowerCase() ?? 'device')} in the database match ${filterWords(f, category)}:</p>
       <ul class="ask__list">${rows.slice(0, 12).map((r) => html`<li>${link(r.id)} <span class="ask__val">${r.announced ? String(r.announced).slice(0, 7) : ''}${displayPrice(r, 'MYR')?.local ? ` · ${fmtPrice(displayPrice(r, 'MYR').amount, 'MYR')}` : ''}</span></li>`)}</ul>
-      ${rows.length > 12 ? html`<p class="ask__more"><a href="${href(`/devices/${category}`, { brand: f.brands[0], year: f.year })}">See all ${rows.length} in the browser</a></p>` : ''}`,
+      ${rows.length > 12 ? html`<p class="ask__more"><a href="${href(`/devices/${category}`, { brand: f.brands[0], year: f.year, chipset: f.chip, wireless: f.wireless ? 1 : '', telephoto: f.tele ? 1 : '', flagship: f.flagship ? 1 : '' })}">See all ${rows.length} in the browser</a></p>` : ''}`,
     devices: rows.slice(0, 12).map((r) => r.id),
   };
 }
@@ -888,12 +927,32 @@ async function answerNews(ids, text) {
   };
 }
 
+// Common Chinese question words, read as their English equivalents (device and brand names are matched separately).
+const ZH_WORDS = [
+  [/摩托罗拉/g, ' Motorola '], [/努比亚/g, ' nubia '], [/小米/g, ' Xiaomi '], [/红米/g, ' Redmi '], [/华为/g, ' Huawei '], [/荣耀/g, ' HONOR '],
+  [/三星/g, ' Samsung '], [/苹果/g, ' Apple '], [/一加/g, ' OnePlus '], [/真我/g, ' realme '], [/红魔/g, ' REDMAGIC '], [/谷歌/g, ' Google '],
+  [/索尼/g, ' Sony '], [/华硕/g, ' ASUS '], [/中兴/g, ' ZTE '],
+  [/(?:rm|RM|马币)?\s*([\d,]+)\s*(?:令吉|马币|元)?\s*(?:以下|以内|之内)/g, ' under RM$1 '],
+  [/无线充电/g, ' wireless charging '], [/续航|电池/g, ' battery '], [/快充|充电/g, ' charging '], [/屏幕|显示屏/g, ' screen '],
+  [/价格|售价|多少钱|价钱/g, ' price '], [/拍照|相机|摄像头|影像/g, ' camera '], [/性能|跑分|处理器/g, ' performance '], [/游戏/g, ' gaming '],
+  [/最轻/g, ' lightest '], [/最便宜/g, ' cheapest '], [/重量|多重/g, ' weight '], [/防水/g, ' water resistant '],
+  [/哪个好|哪个更好|谁更好|哪款好/g, ' which is better '], [/对比|比较|和|与|跟/g, ' vs '], [/最好|推荐/g, ' best '],
+  [/新闻|消息/g, ' news '], [/手机/g, ' phone '], [/手表/g, ' watch '], [/平板/g, ' tablet '], [/旗舰/g, ' flagship '],
+];
+const fromZh = (t) => (/[\u4e00-\u9fff]/.test(t) ? ZH_WORDS.reduce((acc, [re, en]) => acc.replace(re, en), t).replace(/\s+/g, ' ').trim() : t);
+
 export async function ask(question, context = {}) {
-  const text = String(question ?? '').trim();
+  const text = fromZh(String(question ?? '').trim());
   const norm = normalizeText(text).replace(/\s+/g, ' ').trim();
   if (!norm) return { html: html`<p>Ask about a device, a comparison or a ranking.</p>` };
   for (const [re, fn] of SMALL_TALK) if (re.test(norm)) return { html: fn() };
   let ids = await devicesIn(text);
+  // named chipsets win over a loose device match ("A20 Pro" is not the "POCO F9 Pro") and over the page's device
+  const chipIds = detectChipsets(norm);
+  if (chipIds.length && !(await devicesIn(text, { fuzzy: false })).length) {
+    if (chipIds.length >= 2) return answerChips(chipIds);
+    ids = [];
+  }
   const named = ids.length > 0;
   const attrs = detectAttrs(norm);
   const category = detectCategory(norm);
@@ -991,6 +1050,7 @@ export async function ask(question, context = {}) {
     const list = answerList(norm, text, cat);
     if (list) return list;
   }
+  if (chipIds.length >= 2) return answerChips(chipIds);
   for (const [re, fn] of HELP) if (re.test(norm)) return { html: fn() };
   // nothing recognised: suggest matches
   const hits = (await search(text, { limit: 5 })).filter((h) => h.type === 'device' || h.type === 'chipset');
@@ -998,6 +1058,29 @@ export async function ask(question, context = {}) {
     html: hits.length
       ? html`<p>I'm not sure what you're asking. Did you mean one of these?</p><ul class="ask__list">${hits.map((h) => html`<li><a href="${href(h.type === 'device' ? `/device/${h.id}` : `/chipset/${h.id}`)}">${h.title ?? h.name}</a></li>`)}</ul><p class="ask__src">Try naming a device and a detail, such as "battery of the Galaxy S26".</p>`
       : html`<p>I couldn't match that to a device or a topic in this database. Try a model name ("Redmi Note 17"), a comparison ("S26 vs iPhone 17") or a ranking ("lightest phone under RM2,000"). I only answer from this site's data.</p>`,
+  };
+}
+
+/** Two or more chipsets and no device: their consensus benchmark results side by side, with who leads each. */
+function answerChips(chipIds) {
+  const chips = chipIds.slice(0, 4).map((id) => store.chipsetById.get(id)).filter(Boolean);
+  const keys = ['gb6_single', 'gb6_multi', 'antutu_v11', 'wle', 'steel_nomad_light', 'wle_stability'].filter((k) => chips.filter((c) => c.m?.[k]).length >= 2);
+  const lead = (k) => {
+    const def = metricDef(k);
+    const vals = chips.filter((c) => c.m?.[k]).sort((a, b) => (def?.better === 'lower' ? a.m[k][0] - b.m[k][0] : b.m[k][0] - a.m[k][0]));
+    if (vals.length < 2) return null;
+    const gap = Math.abs(vals[0].m[k][0] - vals[1].m[k][0]) / Math.max(1e-9, Math.abs(vals[1].m[k][0]));
+    return gap < 0.03 ? `${def?.name ?? k}: level` : `${def?.name ?? k}: ${vals[0].name} ahead by ${Math.round(gap * 100)}%`;
+  };
+  return {
+    html: html`<p>${chips.map((c, i) => html`${i ? ' vs ' : ''}<a href="${href(`/chipset/${c.id}`)}">${c.name}</a>`)}:</p>
+      <div class="ask__table"><table><thead><tr><th></th>${chips.map((c) => html`<th scope="col">${c.name}</th>`)}</tr></thead><tbody>
+        <tr><th scope="row">Process</th>${chips.map((c) => html`<td>${c.process ?? html`<em class="ask__none">not recorded</em>`}</td>`)}</tr>
+        ${keys.map((k) => html`<tr><th scope="row">${metricDef(k)?.name ?? k}</th>${chips.map((c) => html`<td>${c.m?.[k] ? fmtMetric(metricDef(k), c.m[k][0]) : html`<em class="ask__none">no results</em>`}</td>`)}</tr>`)}
+      </tbody></table></div>
+      ${keys.length ? html`<p>${keys.map(lead).filter(Boolean).join('. ')}.</p>` : html`<p>These chips don't share enough benchmark results to compare.</p>`}
+      <p class="ask__src">Consensus of the phones tested with each chip (median across independent sources). Phones with the same chip can differ with their cooling.</p>`,
+    devices: [],
   };
 }
 

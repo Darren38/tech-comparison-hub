@@ -82,7 +82,7 @@
     "comparability": "global",
     "family": "3dmark",
     "plausible": [
-      500,
+      50,
       12000
     ],
     "description": "Peak GPU performance in a demanding Vulkan/Metal scene (best loop or single run). Shows the GPU's ceiling, not what it can sustain."
@@ -130,7 +130,7 @@
     "comparability": "global",
     "family": "3dmark",
     "plausible": [
-      300,
+      30,
       9000
     ],
     "description": "Modern rasterised game workload (successor to Wild Life Extreme)."
@@ -643,6 +643,21 @@
     "description": "Tom's Guide's standard battery test: continuous web surfing over a cellular connection at a fixed 150-nit brightness until the battery runs out. Only compared with other Tom's Guide results."
   },
   {
+    "id": "tr_video_drain",
+    "name": "Trusted Reviews 1-hour video drain",
+    "short": "TR video drain",
+    "unit": "%",
+    "better": "lower",
+    "facet": "battery",
+    "level": "device",
+    "comparability": "global",
+    "plausible": [
+      1,
+      30
+    ],
+    "description": "Share of a full battery used by one hour of Netflix HDR video in Trusted Reviews' test (lower is better). Only compared with other Trusted Reviews results; shown as evidence."
+  },
+  {
     "id": "dxomark_camera",
     "name": "DXOMARK Camera score",
     "short": "DXOMARK",
@@ -655,6 +670,76 @@
       60,
       200
     ],
-    "description": "DXOMARK's overall camera score from its lab and field protocol (photo, video, zoom, bokeh and ultra-wide). Shown as evidence; the site's camera scores still come from hardware specifications."
+    "description": "DXOMARK's overall camera score from its current (version 6) lab and field protocol (photo, video, zoom, bokeh and ultra-wide). Shown as evidence; the site's camera scores still come from hardware specifications.",
+    "family": "dxomark_camera",
+    "version": "6",
+    "notComparableWith": [
+      "dxomark_camera_v5"
+    ]
+  },
+  {
+    "id": "dxomark_camera_v5",
+    "name": "DXOMARK Camera score (protocol v5)",
+    "short": "DXOMARK v5",
+    "unit": "pts",
+    "better": "higher",
+    "facet": "camera",
+    "level": "device",
+    "comparability": "global",
+    "family": "dxomark_camera",
+    "version": "5",
+    "notComparableWith": [
+      "dxomark_camera"
+    ],
+    "plausible": [
+      40,
+      200
+    ],
+    "description": "DXOMARK's overall camera score under its previous (version 5) protocol, for phones not re-tested under version 6. Not comparable with version 6 scores. Shown as evidence only."
+  },
+  {
+    "id": "dxomark_display",
+    "name": "DXOMARK Display score",
+    "short": "DXOMARK display",
+    "unit": "pts",
+    "better": "higher",
+    "facet": "display",
+    "level": "device",
+    "comparability": "global",
+    "plausible": [
+      60,
+      180
+    ],
+    "description": "DXOMARK's overall display score from lab measurements of readability, colour, video, motion and touch. Shown as evidence only."
+  },
+  {
+    "id": "dxomark_battery",
+    "name": "DXOMARK Battery score",
+    "short": "DXOMARK battery",
+    "unit": "pts",
+    "better": "higher",
+    "facet": "battery",
+    "level": "device",
+    "comparability": "global",
+    "plausible": [
+      40,
+      180
+    ],
+    "description": "DXOMARK's overall battery score: autonomy, charging and efficiency measured in its lab. Shown as evidence only."
+  },
+  {
+    "id": "dxomark_audio",
+    "name": "DXOMARK Audio score",
+    "short": "DXOMARK audio",
+    "unit": "pts",
+    "better": "higher",
+    "facet": "audio",
+    "level": "device",
+    "comparability": "global",
+    "plausible": [
+      40,
+      180
+    ],
+    "description": "DXOMARK's overall audio score for playback and recording. Shown as evidence only."
   }
 ]

@@ -43,15 +43,11 @@
     }
   ],
   "image": {
-    "kind": "photo",
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Two_Apple_Watch_Series_11_%28cropped%29.png/500px-Two_Apple_Watch_Series_11_%28cropped%29.png",
-    "page": "https://commons.wikimedia.org/wiki/File:Two_Apple_Watch_Series_11_(cropped).png",
-    "title": "Two Apple Watch Series 11 (cropped)",
-    "author": "极客湾Geekerwan",
-    "license": "CC BY 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
-    "focus": "72% 50%",
-    "checked": "2026-09-17"
+    "kind": "official",
+    "src": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/apple-watch-series-11-hero.png",
+    "page": "https://support.apple.com/en-my/125093",
+    "credit": "Apple",
+    "checked": "2026-09-24"
   },
   "specs": {
     "display": {

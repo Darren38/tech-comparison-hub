@@ -1,0 +1,5565 @@
+[
+  {
+    "id": "tr-apple-iphone-15-plus",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Apple iPhone 15 Plus",
+    "url": "https://www.trustedreviews.com/reviews/apple-iphone-15-plus",
+    "published": "2024-09-11",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "apple-iphone-15-plus"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: Apple A16 Bionic. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "apple-iphone-15-plus",
+        "metric": "gb6_single",
+        "value": 2490
+      },
+      {
+        "subject": "apple-iphone-15-plus",
+        "metric": "gb6_multi",
+        "value": 6433
+      },
+      {
+        "subject": "apple-iphone-15-plus",
+        "metric": "tr_video_drain",
+        "value": 6,
+        "note": "Share of a full battery used by one hour of Netflix HDR video"
+      },
+      {
+        "subject": "apple-iphone-15-plus",
+        "metric": "charge_full",
+        "value": 93,
+        "note": "Minutes from empty to full"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Lewis Painter"
+  },
+  {
+    "id": "tr-apple-iphone-15-pro",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Apple iPhone 15 Pro",
+    "url": "https://www.trustedreviews.com/reviews/apple-iphone-15-pro",
+    "published": "2024-09-11",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "apple-iphone-15-pro"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: Apple A17 Pro. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "apple-iphone-15-pro",
+        "metric": "gb6_single",
+        "value": 2855
+      },
+      {
+        "subject": "apple-iphone-15-pro",
+        "metric": "gb6_multi",
+        "value": 7149
+      },
+      {
+        "subject": "apple-iphone-15-pro",
+        "metric": "tr_video_drain",
+        "value": 7,
+        "note": "Share of a full battery used by one hour of Netflix HDR video"
+      },
+      {
+        "subject": "apple-iphone-15-pro",
+        "metric": "charge_full",
+        "value": 92,
+        "note": "Minutes from empty to full"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Lewis Painter"
+  },
+  {
+    "id": "tr-apple-iphone-16",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Apple iPhone 16 Review",
+    "url": "https://www.trustedreviews.com/reviews/apple-iphone-16",
+    "published": "2024-10-30",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "apple-iphone-16"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: Apple A18. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "apple-iphone-16",
+        "metric": "gb6_single",
+        "value": 3199
+      },
+      {
+        "subject": "apple-iphone-16",
+        "metric": "gb6_multi",
+        "value": 8027
+      },
+      {
+        "subject": "apple-iphone-16",
+        "metric": "tr_video_drain",
+        "value": 7,
+        "note": "Share of a full battery used by one hour of Netflix HDR video"
+      },
+      {
+        "subject": "apple-iphone-16",
+        "metric": "charge_full",
+        "value": 101,
+        "note": "Minutes from empty to full"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Lewis Painter"
+  },
+  {
+    "id": "tr-apple-iphone-16-plus",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Apple iPhone 16 Plus Review",
+    "url": "https://www.trustedreviews.com/reviews/apple-iphone-16-plus",
+    "published": "2025-02-14",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "apple-iphone-16-plus"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: Apple A18. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "apple-iphone-16-plus",
+        "metric": "gb6_single",
+        "value": 3456
+      },
+      {
+        "subject": "apple-iphone-16-plus",
+        "metric": "gb6_multi",
+        "value": 8319
+      },
+      {
+        "subject": "apple-iphone-16-plus",
+        "metric": "tr_video_drain",
+        "value": 6,
+        "note": "Share of a full battery used by one hour of Netflix HDR video"
+      },
+      {
+        "subject": "apple-iphone-16-plus",
+        "metric": "charge_full",
+        "value": 105,
+        "note": "Minutes from empty to full"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Max Parker"
+  },
+  {
+    "id": "tr-apple-iphone-16-pro",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Apple iPhone 16 Pro",
+    "url": "https://www.trustedreviews.com/reviews/apple-iphone-16-pro",
+    "published": "2024-11-13",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "apple-iphone-16-pro"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: USB 3. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "apple-iphone-16-pro",
+        "metric": "gb6_single",
+        "value": 3539
+      },
+      {
+        "subject": "apple-iphone-16-pro",
+        "metric": "gb6_multi",
+        "value": 8585
+      },
+      {
+        "subject": "apple-iphone-16-pro",
+        "metric": "tr_video_drain",
+        "value": 5,
+        "note": "Share of a full battery used by one hour of Netflix HDR video"
+      },
+      {
+        "subject": "apple-iphone-16-pro",
+        "metric": "charge_full",
+        "value": 92,
+        "note": "Minutes from empty to full"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Max Parker"
+  },
+  {
+    "id": "tr-apple-iphone-16-pro-max",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Apple iPhone 16 Pro Max Review",
+    "url": "https://www.trustedreviews.com/reviews/apple-iphone-16-pro-max",
+    "published": "2024-11-13",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "apple-iphone-16-pro-max"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: Apple A18 Pro. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "apple-iphone-16-pro-max",
+        "metric": "gb6_single",
+        "value": 3338
+      },
+      {
+        "subject": "apple-iphone-16-pro-max",
+        "metric": "gb6_multi",
+        "value": 8167
+      },
+      {
+        "subject": "apple-iphone-16-pro-max",
+        "metric": "tr_video_drain",
+        "value": 6,
+        "note": "Share of a full battery used by one hour of Netflix HDR video"
+      },
+      {
+        "subject": "apple-iphone-16-pro-max",
+        "metric": "charge_full",
+        "value": 106,
+        "note": "Minutes from empty to full"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Lewis Painter"
+  },
+  {
+    "id": "tr-apple-iphone-16e",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Apple iPhone 16e Review",
+    "url": "https://www.trustedreviews.com/reviews/apple-iphone-16e",
+    "published": "2025-03-11",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "apple-iphone-16e"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: A18. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "apple-iphone-16e",
+        "metric": "gb6_single",
+        "value": 3311
+      },
+      {
+        "subject": "apple-iphone-16e",
+        "metric": "gb6_multi",
+        "value": 7973
+      },
+      {
+        "subject": "apple-iphone-16e",
+        "metric": "tr_video_drain",
+        "value": 4,
+        "note": "Share of a full battery used by one hour of Netflix HDR video"
+      },
+      {
+        "subject": "apple-iphone-16e",
+        "metric": "charge_full",
+        "value": 105,
+        "note": "Minutes from empty to full"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Max Parker"
+  },
+  {
+    "id": "tr-apple-iphone-17",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Apple iPhone 17 Review",
+    "url": "https://www.trustedreviews.com/reviews/apple-iphone-17",
+    "published": "2026-01-20",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "apple-iphone-17"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: Apple A19. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "apple-iphone-17",
+        "metric": "gb6_single",
+        "value": 3216
+      },
+      {
+        "subject": "apple-iphone-17",
+        "metric": "gb6_multi",
+        "value": 7823
+      },
+      {
+        "subject": "apple-iphone-17",
+        "metric": "tr_video_drain",
+        "value": 6,
+        "note": "Share of a full battery used by one hour of Netflix HDR video"
+      },
+      {
+        "subject": "apple-iphone-17",
+        "metric": "charge_full",
+        "value": 85,
+        "note": "Minutes from empty to full"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Lewis Painter"
+  },
+  {
+    "id": "tr-apple-iphone-17-pro",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Apple iPhone 17 Pro Review: The most 'complete' iPhone yet",
+    "url": "https://www.trustedreviews.com/reviews/apple-iphone-17-pro",
+    "published": "2025-12-18",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "apple-iphone-17-pro"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: Apple A19 Pro. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "apple-iphone-17-pro",
+        "metric": "gb6_single",
+        "value": 3870
+      },
+      {
+        "subject": "apple-iphone-17-pro",
+        "metric": "gb6_multi",
+        "value": 9994
+      },
+      {
+        "subject": "apple-iphone-17-pro",
+        "metric": "tr_video_drain",
+        "value": 5,
+        "note": "Share of a full battery used by one hour of Netflix HDR video"
+      },
+      {
+        "subject": "apple-iphone-17-pro",
+        "metric": "charge_full",
+        "value": 80,
+        "note": "Minutes from empty to full"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Max Parker"
+  },
+  {
+    "id": "tr-apple-iphone-17e",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Apple iPhone 17e Review",
+    "url": "https://www.trustedreviews.com/reviews/apple-iphone-17e",
+    "published": "2026-03-18",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "apple-iphone-17e"
+    ],
+    "facets": [
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: Apple A19. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "apple-iphone-17e",
+        "metric": "gb6_single",
+        "value": 3447
+      },
+      {
+        "subject": "apple-iphone-17e",
+        "metric": "gb6_multi",
+        "value": 8006
+      }
+    ],
+    "extraction": "partial",
+    "author": "Max Parker"
+  },
+  {
+    "id": "tr-apple-iphone-air",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Apple iPhone Air Review: The best iPhone yet – for some",
+    "url": "https://www.trustedreviews.com/reviews/apple-iphone-air",
+    "published": "2025-10-09",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "apple-iphone-air"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: Apple A19 Pro ( 5-core GPU). Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "apple-iphone-air",
+        "metric": "gb6_single",
+        "value": 3796
+      },
+      {
+        "subject": "apple-iphone-air",
+        "metric": "gb6_multi",
+        "value": 9630
+      },
+      {
+        "subject": "apple-iphone-air",
+        "metric": "tr_video_drain",
+        "value": 8,
+        "note": "Share of a full battery used by one hour of Netflix HDR video"
+      },
+      {
+        "subject": "apple-iphone-air",
+        "metric": "charge_full",
+        "value": 87,
+        "note": "Minutes from empty to full"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Max Parker"
+  },
+  {
+    "id": "tr-google-pixel-10",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Google Pixel 10 Review: The hardest Pixel to recommend",
+    "url": "https://www.trustedreviews.com/reviews/google-pixel-10",
+    "published": "2025-09-29",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "google-pixel-10"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: Google Tensor G5. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "google-pixel-10",
+        "metric": "gb6_single",
+        "value": 2270
+      },
+      {
+        "subject": "google-pixel-10",
+        "metric": "gb6_multi",
+        "value": 5160
+      },
+      {
+        "subject": "google-pixel-10",
+        "metric": "tr_video_drain",
+        "value": 7,
+        "note": "Share of a full battery used by one hour of Netflix HDR video"
+      },
+      {
+        "subject": "google-pixel-10",
+        "metric": "charge_full",
+        "value": 91,
+        "note": "Minutes from empty to full"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Lewis Painter"
+  },
+  {
+    "id": "tr-google-pixel-10-pro",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Google Pixel 10 Pro Review",
+    "url": "https://www.trustedreviews.com/reviews/google-pixel-10-pro",
+    "published": "2025-09-12",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "google-pixel-10-pro"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: Tensor G5. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "google-pixel-10-pro",
+        "metric": "gb6_single",
+        "value": 2343
+      },
+      {
+        "subject": "google-pixel-10-pro",
+        "metric": "gb6_multi",
+        "value": 5986
+      },
+      {
+        "subject": "google-pixel-10-pro",
+        "metric": "tr_video_drain",
+        "value": 7,
+        "note": "Share of a full battery used by one hour of Netflix HDR video"
+      },
+      {
+        "subject": "google-pixel-10-pro",
+        "metric": "charge_full",
+        "value": 100,
+        "note": "Minutes from empty to full"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Max Parker"
+  },
+  {
+    "id": "tr-google-pixel-10-pro-xl",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Google Pixel 10 Pro XL Review",
+    "url": "https://www.trustedreviews.com/reviews/google-pixel-10-pro-xl",
+    "published": "2025-08-27",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "google-pixel-10-pro-xl"
+    ],
+    "facets": [
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: Google Tensor G5. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "google-pixel-10-pro-xl",
+        "metric": "gb6_single",
+        "value": 2293
+      },
+      {
+        "subject": "google-pixel-10-pro-xl",
+        "metric": "gb6_multi",
+        "value": 5856
+      }
+    ],
+    "extraction": "partial",
+    "author": "Cam Bunton"
+  },
+  {
+    "id": "tr-google-pixel-11",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Google Pixel 11 Review: Rock, meet hard place",
+    "url": "https://www.trustedreviews.com/reviews/google-pixel-11",
+    "published": "2026-08-20",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "google-pixel-11"
+    ],
+    "facets": [
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: Google Tensor G6. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "google-pixel-11",
+        "metric": "gb6_single",
+        "value": 2657
+      },
+      {
+        "subject": "google-pixel-11",
+        "metric": "gb6_multi",
+        "value": 7326
+      },
+      {
+        "subject": "google-pixel-11",
+        "metric": "charge_full",
+        "value": 90,
+        "note": "Minutes from empty to full"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Cam Bunton"
+  },
+  {
+    "id": "tr-google-pixel-11-pro",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Google Pixel 11 Pro",
+    "url": "https://www.trustedreviews.com/reviews/google-pixel-11-pro",
+    "published": "2026-08-19",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "google-pixel-11-pro"
+    ],
+    "facets": [
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: Google Tensor G6. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "google-pixel-11-pro",
+        "metric": "gb6_single",
+        "value": 2420
+      },
+      {
+        "subject": "google-pixel-11-pro",
+        "metric": "gb6_multi",
+        "value": 5852
+      },
+      {
+        "subject": "google-pixel-11-pro",
+        "metric": "charge_full",
+        "value": 110,
+        "note": "Minutes from empty to full"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Max Parker"
+  },
+  {
+    "id": "tr-honor-200-lite",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Honor 200 Lite",
+    "url": "https://www.trustedreviews.com/reviews/honor-200-lite",
+    "published": "2024-09-23",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "honor-200-lite"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: MediaTek Dimensity 6080. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "honor-200-lite",
+        "metric": "gb6_single",
+        "value": 689
+      },
+      {
+        "subject": "honor-200-lite",
+        "metric": "gb6_multi",
+        "value": 1817
+      },
+      {
+        "subject": "honor-200-lite",
+        "metric": "tr_video_drain",
+        "value": 8,
+        "note": "Share of a full battery used by one hour of Netflix HDR video"
+      },
+      {
+        "subject": "honor-200-lite",
+        "metric": "charge_full",
+        "value": 110,
+        "note": "Minutes from empty to full"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Lloyd Coombes"
+  },
+  {
+    "id": "tr-honor-200-pro",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Honor 200 Pro",
+    "url": "https://www.trustedreviews.com/reviews/honor-200-pro",
+    "published": "2024-06-12",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "honor-200-pro"
+    ],
+    "facets": [
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: Snapdragon 8s Gen 3. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "honor-200-pro",
+        "metric": "gb6_single",
+        "value": 1853
+      },
+      {
+        "subject": "honor-200-pro",
+        "metric": "gb6_multi",
+        "value": 4639
+      }
+    ],
+    "extraction": "partial",
+    "author": "Luke Baker"
+  },
+  {
+    "id": "tr-honor-400",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Honor 400",
+    "url": "https://www.trustedreviews.com/reviews/honor-400",
+    "published": "2025-05-22",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "honor-400"
+    ],
+    "facets": [
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: Snapdragon 7 Gen 3. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "honor-400",
+        "metric": "gb6_single",
+        "value": 1142
+      },
+      {
+        "subject": "honor-400",
+        "metric": "gb6_multi",
+        "value": 3131
+      }
+    ],
+    "extraction": "partial",
+    "author": "Thomas Deehan"
+  },
+  {
+    "id": "tr-honor-90",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Honor 90",
+    "url": "https://www.trustedreviews.com/reviews/honor-90",
+    "published": "2023-07-24",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "honor-90"
+    ],
+    "facets": [
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "honor-90",
+        "metric": "gb6_single",
+        "value": 1112
+      },
+      {
+        "subject": "honor-90",
+        "metric": "gb6_multi",
+        "value": 3271
+      }
+    ],
+    "extraction": "partial",
+    "author": "Thomas Deehan"
+  },
+  {
+    "id": "tr-honor-magic-v2",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Honor Magic V2",
+    "url": "https://www.trustedreviews.com/reviews/honor-magic-v2",
+    "published": "2024-01-26",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "honor-magic-v2"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: Qualcomm Snapdragon 8 Gen 2. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "honor-magic-v2",
+        "metric": "gb6_single",
+        "value": 1948
+      },
+      {
+        "subject": "honor-magic-v2",
+        "metric": "gb6_multi",
+        "value": 5154
+      },
+      {
+        "subject": "honor-magic-v2",
+        "metric": "tr_video_drain",
+        "value": 8,
+        "note": "Share of a full battery used by one hour of Netflix HDR video"
+      },
+      {
+        "subject": "honor-magic-v2",
+        "metric": "charge_full",
+        "value": 56,
+        "note": "Minutes from empty to full"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Lewis Painter"
+  },
+  {
+    "id": "tr-honor-magic-v2-rsr-porsche-design",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Honor Magic V2 RSR Porsche Design Review",
+    "url": "https://www.trustedreviews.com/reviews/honor-magic-v2-rsr-porsche-design",
+    "published": "2024-02-14",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "honor-magic-v2-rsr-porsche-design"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: Qualcomm Snapdragon 8 Gen 2. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "honor-magic-v2-rsr-porsche-design",
+        "metric": "gb6_single",
+        "value": 1927
+      },
+      {
+        "subject": "honor-magic-v2-rsr-porsche-design",
+        "metric": "gb6_multi",
+        "value": 5225
+      },
+      {
+        "subject": "honor-magic-v2-rsr-porsche-design",
+        "metric": "tr_video_drain",
+        "value": 9,
+        "note": "Share of a full battery used by one hour of Netflix HDR video"
+      },
+      {
+        "subject": "honor-magic-v2-rsr-porsche-design",
+        "metric": "charge_full",
+        "value": 55,
+        "note": "Minutes from empty to full"
+      },
+      {
+        "subject": "honor-magic-v2-rsr-porsche-design",
+        "metric": "charge_30",
+        "value": 71,
+        "note": "Charged with the charger in the box"
+      },
+      {
+        "subject": "honor-magic-v2-rsr-porsche-design",
+        "metric": "charge_15",
+        "value": 33,
+        "note": "Charged with the charger in the box"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Luke Baker"
+  },
+  {
+    "id": "tr-honor-magic-v3",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Honor Magic V3",
+    "url": "https://www.trustedreviews.com/reviews/honor-magic-v3",
+    "published": "2024-09-05",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "honor-magic-v3"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: Qualcomm Snapdragon 8 Gen 3. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "honor-magic-v3",
+        "metric": "gb6_single",
+        "value": 1373,
+        "note": "HONOR's default performance mode, as the phone ships. HONOR foldables score far higher in Performance mode: Tom's Guide measured the Magic V5 at 964 / 4,974 by default and 3,018 / 8,926 in it"
+      },
+      {
+        "subject": "honor-magic-v3",
+        "metric": "gb6_multi",
+        "value": 5131,
+        "note": "HONOR's default performance mode, as the phone ships. HONOR foldables score far higher in Performance mode: Tom's Guide measured the Magic V5 at 964 / 4,974 by default and 3,018 / 8,926 in it"
+      },
+      {
+        "subject": "honor-magic-v3",
+        "metric": "tr_video_drain",
+        "value": 7,
+        "note": "Share of a full battery used by one hour of Netflix HDR video"
+      },
+      {
+        "subject": "honor-magic-v3",
+        "metric": "charge_full",
+        "value": 59,
+        "note": "Minutes from empty to full"
+      },
+      {
+        "subject": "honor-magic-v3",
+        "metric": "charge_30",
+        "value": 53,
+        "note": "Charged with the charger in the box"
+      },
+      {
+        "subject": "honor-magic-v3",
+        "metric": "charge_15",
+        "value": 27,
+        "note": "Charged with the charger in the box"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Lewis Painter"
+  },
+  {
+    "id": "tr-honor-magic-v5",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Honor Magic V5",
+    "url": "https://www.trustedreviews.com/reviews/honor-magic-v5",
+    "published": "2025-08-28",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "honor-magic-v5"
+    ],
+    "facets": [
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: Snapdragon 8 Elite. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "honor-magic-v5",
+        "metric": "gb6_single",
+        "value": 1151,
+        "note": "HONOR's default performance mode, as the phone ships. HONOR foldables score far higher in Performance mode: Tom's Guide measured the Magic V5 at 964 / 4,974 by default and 3,018 / 8,926 in it"
+      },
+      {
+        "subject": "honor-magic-v5",
+        "metric": "gb6_multi",
+        "value": 4818,
+        "note": "HONOR's default performance mode, as the phone ships. HONOR foldables score far higher in Performance mode: Tom's Guide measured the Magic V5 at 964 / 4,974 by default and 3,018 / 8,926 in it"
+      },
+      {
+        "subject": "honor-magic-v5",
+        "metric": "charge_full",
+        "value": 70,
+        "note": "Minutes from empty to full"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Thomas Deehan"
+  },
+  {
+    "id": "tr-honor-magic-v6",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Honor Magic V6 Review",
+    "url": "https://www.trustedreviews.com/reviews/honor-magic-v6",
+    "published": "2026-07-02",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "honor-magic-v6"
+    ],
+    "facets": [
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: Snapdragon 8 Elite Gen 5. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "honor-magic-v6",
+        "metric": "gb6_single",
+        "value": 3584
+      },
+      {
+        "subject": "honor-magic-v6",
+        "metric": "gb6_multi",
+        "value": 10497
+      },
+      {
+        "subject": "honor-magic-v6",
+        "metric": "charge_full",
+        "value": 59,
+        "note": "Minutes from empty to full"
+      },
+      {
+        "subject": "honor-magic-v6",
+        "metric": "charge_30",
+        "value": 69,
+        "note": "Charged with the charger in the box"
+      },
+      {
+        "subject": "honor-magic-v6",
+        "metric": "charge_15",
+        "value": 36,
+        "note": "Charged with the charger in the box"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Cam Bunton"
+  },
+  {
+    "id": "tr-honor-magic-vs",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Honor Magic Vs",
+    "url": "https://www.trustedreviews.com/reviews/honor-magic-vs",
+    "published": "2023-03-22",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "honor-magic-vs"
+    ],
+    "facets": [
+      "charging"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: Snapdragon 8 Plus Gen 1. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "honor-magic-vs",
+        "metric": "charge_full",
+        "value": 135,
+        "note": "Minutes from empty to full"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Thomas Deehan"
+  },
+  {
+    "id": "tr-honor-magic-6-pro",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Honor Magic 6 Pro",
+    "url": "https://www.trustedreviews.com/reviews/honor-magic-6-pro",
+    "published": "2024-02-25",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "honor-magic6-pro"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: Qualcomm Snapdragon 8 Gen 3. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "honor-magic6-pro",
+        "metric": "gb6_single",
+        "value": 2232
+      },
+      {
+        "subject": "honor-magic6-pro",
+        "metric": "gb6_multi",
+        "value": 6711
+      },
+      {
+        "subject": "honor-magic6-pro",
+        "metric": "tr_video_drain",
+        "value": 5,
+        "note": "Share of a full battery used by one hour of Netflix HDR video"
+      },
+      {
+        "subject": "honor-magic6-pro",
+        "metric": "charge_full",
+        "value": 45,
+        "note": "Minutes from empty to full"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Lewis Painter"
+  },
+  {
+    "id": "tr-honor-magic-6-rsr-porsche-design",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Honor Magic 6 RSR Porsche Design",
+    "url": "https://www.trustedreviews.com/reviews/honor-magic-6-rsr-porsche-design",
+    "published": "2024-05-02",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "honor-magic6-rsr-porsche-design"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "honor-magic6-rsr-porsche-design",
+        "metric": "gb6_single",
+        "value": 2129
+      },
+      {
+        "subject": "honor-magic6-rsr-porsche-design",
+        "metric": "gb6_multi",
+        "value": 6474
+      },
+      {
+        "subject": "honor-magic6-rsr-porsche-design",
+        "metric": "tr_video_drain",
+        "value": 7,
+        "note": "Share of a full battery used by one hour of Netflix HDR video"
+      },
+      {
+        "subject": "honor-magic6-rsr-porsche-design",
+        "metric": "charge_full",
+        "value": 43,
+        "note": "Minutes from empty to full"
+      },
+      {
+        "subject": "honor-magic6-rsr-porsche-design",
+        "metric": "charge_15",
+        "value": 45,
+        "note": "Charged with the charger in the box"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Luke Baker"
+  },
+  {
+    "id": "tr-honor-magic-7-pro",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Honor Magic 7 Pro Review",
+    "url": "https://www.trustedreviews.com/reviews/honor-magic-7-pro",
+    "published": "2025-01-17",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "honor-magic7-pro"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: Qualcomm Snapdragon 8 Elite. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "honor-magic7-pro",
+        "metric": "gb6_single",
+        "value": 2981
+      },
+      {
+        "subject": "honor-magic7-pro",
+        "metric": "gb6_multi",
+        "value": 8318
+      },
+      {
+        "subject": "honor-magic7-pro",
+        "metric": "tr_video_drain",
+        "value": 7,
+        "note": "Share of a full battery used by one hour of Netflix HDR video"
+      },
+      {
+        "subject": "honor-magic7-pro",
+        "metric": "charge_full",
+        "value": 89,
+        "note": "Minutes from empty to full"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Lewis Painter"
+  },
+  {
+    "id": "tr-honor-magic-7-rsr-porsche-design",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Honor Magic 7 RSR Porsche Design Review",
+    "url": "https://www.trustedreviews.com/reviews/honor-magic-7-rsr-porsche-design",
+    "published": "2025-03-13",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "honor-magic7-rsr-porsche-design"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: Qualcomm Snapdragon 8 Elite. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "honor-magic7-rsr-porsche-design",
+        "metric": "gb6_single",
+        "value": 3066
+      },
+      {
+        "subject": "honor-magic7-rsr-porsche-design",
+        "metric": "gb6_multi",
+        "value": 9355
+      },
+      {
+        "subject": "honor-magic7-rsr-porsche-design",
+        "metric": "tr_video_drain",
+        "value": 8,
+        "note": "Share of a full battery used by one hour of Netflix HDR video"
+      },
+      {
+        "subject": "honor-magic7-rsr-porsche-design",
+        "metric": "charge_full",
+        "value": 41,
+        "note": "Minutes from empty to full"
+      },
+      {
+        "subject": "honor-magic7-rsr-porsche-design",
+        "metric": "charge_30",
+        "value": 75,
+        "note": "Charged with the charger in the box"
+      },
+      {
+        "subject": "honor-magic7-rsr-porsche-design",
+        "metric": "charge_15",
+        "value": 39,
+        "note": "Charged with the charger in the box"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Luke Baker"
+  },
+  {
+    "id": "tr-honor-magic-8-pro",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Honor Magic 8 Pro Review",
+    "url": "https://www.trustedreviews.com/reviews/honor-magic-8-pro",
+    "published": "2026-01-13",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "honor-magic8-pro"
+    ],
+    "facets": [
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: Qualcomm Snapdragon 8 Elite Gen 5. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "honor-magic8-pro",
+        "metric": "gb6_single",
+        "value": 3650
+      },
+      {
+        "subject": "honor-magic8-pro",
+        "metric": "gb6_multi",
+        "value": 10680
+      },
+      {
+        "subject": "honor-magic8-pro",
+        "metric": "charge_full",
+        "value": 70,
+        "note": "Minutes from empty to full"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Thomas Deehan"
+  },
+  {
+    "id": "tr-huawei-mate-x3",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Huawei Mate X3 Review",
+    "url": "https://www.trustedreviews.com/reviews/huawei-mate-x3",
+    "published": "2023-07-17",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "huawei-mate-x3"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: Qualcomm Snapdragon 8+ Gen 1 4G. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "huawei-mate-x3",
+        "metric": "gb6_single",
+        "value": 1811
+      },
+      {
+        "subject": "huawei-mate-x3",
+        "metric": "gb6_multi",
+        "value": 4656
+      },
+      {
+        "subject": "huawei-mate-x3",
+        "metric": "tr_video_drain",
+        "value": 5,
+        "note": "Share of a full battery used by one hour of Netflix HDR video"
+      },
+      {
+        "subject": "huawei-mate-x3",
+        "metric": "charge_full",
+        "value": 43,
+        "note": "Minutes from empty to full"
+      },
+      {
+        "subject": "huawei-mate-x3",
+        "metric": "charge_30",
+        "value": 81,
+        "note": "Charged with the charger in the box"
+      },
+      {
+        "subject": "huawei-mate-x3",
+        "metric": "charge_15",
+        "value": 45,
+        "note": "Charged with the charger in the box"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Jon Mundy"
+  },
+  {
+    "id": "tr-huawei-mate-x6",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Huawei Mate X6 Review: Impractical magic",
+    "url": "https://www.trustedreviews.com/reviews/huawei-mate-x6",
+    "published": "2025-02-24",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "huawei-mate-x6"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: Kirin 9020. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "huawei-mate-x6",
+        "metric": "gb6_single",
+        "value": 1601
+      },
+      {
+        "subject": "huawei-mate-x6",
+        "metric": "gb6_multi",
+        "value": 5022
+      },
+      {
+        "subject": "huawei-mate-x6",
+        "metric": "tr_video_drain",
+        "value": 4,
+        "note": "Share of a full battery used by one hour of Netflix HDR video"
+      },
+      {
+        "subject": "huawei-mate-x6",
+        "metric": "charge_full",
+        "value": 72,
+        "note": "Minutes from empty to full"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Jon Mundy"
+  },
+  {
+    "id": "tr-huawei-nova-11-pro",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Huawei Nova 11 Pro Review",
+    "url": "https://www.trustedreviews.com/reviews/huawei-nova-11-pro",
+    "published": "2023-08-25",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "huawei-nova-11-pro"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: Snapdragon 778G 4G. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "huawei-nova-11-pro",
+        "metric": "gb6_single",
+        "value": 1016
+      },
+      {
+        "subject": "huawei-nova-11-pro",
+        "metric": "gb6_multi",
+        "value": 2469
+      },
+      {
+        "subject": "huawei-nova-11-pro",
+        "metric": "tr_video_drain",
+        "value": 9,
+        "note": "Share of a full battery used by one hour of Netflix HDR video"
+      },
+      {
+        "subject": "huawei-nova-11-pro",
+        "metric": "charge_full",
+        "value": 24,
+        "note": "Minutes from empty to full"
+      },
+      {
+        "subject": "huawei-nova-11-pro",
+        "metric": "charge_30",
+        "value": 98,
+        "note": "Charged with the charger in the box"
+      },
+      {
+        "subject": "huawei-nova-11-pro",
+        "metric": "charge_15",
+        "value": 67,
+        "note": "Charged with the charger in the box"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Andrew Williams"
+  },
+  {
+    "id": "tr-huawei-p60-pro",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Huawei P60 Pro Review",
+    "url": "https://www.trustedreviews.com/reviews/huawei-p60-pro",
+    "published": "2023-06-13",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "huawei-p60-pro"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: Qualcomm Snapdragon 8 Plus Gen 1. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "huawei-p60-pro",
+        "metric": "gb6_single",
+        "value": 1307
+      },
+      {
+        "subject": "huawei-p60-pro",
+        "metric": "gb6_multi",
+        "value": 3911
+      },
+      {
+        "subject": "huawei-p60-pro",
+        "metric": "tr_video_drain",
+        "value": 7,
+        "note": "Share of a full battery used by one hour of Netflix HDR video"
+      },
+      {
+        "subject": "huawei-p60-pro",
+        "metric": "charge_full",
+        "value": 40,
+        "note": "Minutes from empty to full"
+      },
+      {
+        "subject": "huawei-p60-pro",
+        "metric": "charge_30",
+        "value": 87,
+        "note": "Charged with the charger in the box"
+      },
+      {
+        "subject": "huawei-p60-pro",
+        "metric": "charge_15",
+        "value": 47,
+        "note": "Charged with the charger in the box"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Andrew Williams"
+  },
+  {
+    "id": "tr-huawei-pura-70-ultra",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Huawei Pura 70 Ultra",
+    "url": "https://www.trustedreviews.com/reviews/huawei-pura-70-ultra",
+    "published": "2024-05-15",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "huawei-pura-70-ultra"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: Kirin 9010. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "huawei-pura-70-ultra",
+        "metric": "gb6_single",
+        "value": 1334
+      },
+      {
+        "subject": "huawei-pura-70-ultra",
+        "metric": "gb6_multi",
+        "value": 4256
+      },
+      {
+        "subject": "huawei-pura-70-ultra",
+        "metric": "tr_video_drain",
+        "value": 7,
+        "note": "Share of a full battery used by one hour of Netflix HDR video"
+      },
+      {
+        "subject": "huawei-pura-70-ultra",
+        "metric": "charge_full",
+        "value": 54,
+        "note": "Minutes from empty to full"
+      },
+      {
+        "subject": "huawei-pura-70-ultra",
+        "metric": "charge_30",
+        "value": 65,
+        "note": "Charged with the charger in the box"
+      },
+      {
+        "subject": "huawei-pura-70-ultra",
+        "metric": "charge_15",
+        "value": 38,
+        "note": "Charged with the charger in the box"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Luke Baker"
+  },
+  {
+    "id": "tr-huawei-pura-80-ultra",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Huawei Pura 80 Ultra Review",
+    "url": "https://www.trustedreviews.com/reviews/huawei-pura-80-ultra",
+    "published": "2025-09-09",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "huawei-pura-80-ultra"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: Kirin 9020. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "huawei-pura-80-ultra",
+        "metric": "gb6_single",
+        "value": 1267
+      },
+      {
+        "subject": "huawei-pura-80-ultra",
+        "metric": "gb6_multi",
+        "value": 4422
+      },
+      {
+        "subject": "huawei-pura-80-ultra",
+        "metric": "tr_video_drain",
+        "value": 7,
+        "note": "Share of a full battery used by one hour of Netflix HDR video"
+      },
+      {
+        "subject": "huawei-pura-80-ultra",
+        "metric": "charge_full",
+        "value": 38,
+        "note": "Minutes from empty to full"
+      },
+      {
+        "subject": "huawei-pura-80-ultra",
+        "metric": "charge_30",
+        "value": 88,
+        "note": "Charged with the charger in the box"
+      },
+      {
+        "subject": "huawei-pura-80-ultra",
+        "metric": "charge_15",
+        "value": 53,
+        "note": "Charged with the charger in the box"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Luke Baker"
+  },
+  {
+    "id": "tr-motorola-edge-60-pro",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Motorola's Edge 60 Pro brings the fight to Samsung's Galaxy A56",
+    "url": "https://www.trustedreviews.com/reviews/motorola-edge-60-pro",
+    "published": "2025-07-15",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "motorola-edge-60-pro"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: MediaTek Dimensity 8350 Extreme. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "motorola-edge-60-pro",
+        "metric": "gb6_single",
+        "value": 1416
+      },
+      {
+        "subject": "motorola-edge-60-pro",
+        "metric": "gb6_multi",
+        "value": 4663
+      },
+      {
+        "subject": "motorola-edge-60-pro",
+        "metric": "tr_video_drain",
+        "value": 5,
+        "note": "Share of a full battery used by one hour of Netflix HDR video"
+      },
+      {
+        "subject": "motorola-edge-60-pro",
+        "metric": "charge_full",
+        "value": 46,
+        "note": "Minutes from empty to full"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Andrew Williams"
+  },
+  {
+    "id": "tr-nothing-phone-3",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Nothing Phone 3 Review: Too much or not enough?",
+    "url": "https://www.trustedreviews.com/reviews/nothing-phone-3",
+    "published": "2025-07-08",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "nothing-phone-3"
+    ],
+    "facets": [
+      "battery",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: Snapdragon 8s Gen 4. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "nothing-phone-3",
+        "metric": "gb6_single",
+        "value": 2073
+      },
+      {
+        "subject": "nothing-phone-3",
+        "metric": "gb6_multi",
+        "value": 6531
+      },
+      {
+        "subject": "nothing-phone-3",
+        "metric": "tr_video_drain",
+        "value": 6,
+        "note": "Share of a full battery used by one hour of Netflix HDR video"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Cam Bunton"
+  },
+  {
+    "id": "tr-oneplus-13",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "OnePlus 13",
+    "url": "https://www.trustedreviews.com/reviews/oneplus-13",
+    "published": "2025-01-07",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "oneplus-13"
+    ],
+    "facets": [
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: Qualcomm Snapdragon 8 Elite. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "oneplus-13",
+        "metric": "gb6_single",
+        "value": 3123
+      },
+      {
+        "subject": "oneplus-13",
+        "metric": "gb6_multi",
+        "value": 9493
+      }
+    ],
+    "extraction": "partial",
+    "author": "Cam Bunton"
+  },
+  {
+    "id": "tr-oneplus-15",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "OnePlus 15 Review: Much more than an Oppo copycat",
+    "url": "https://www.trustedreviews.com/reviews/oneplus-15",
+    "published": "2025-11-13",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "oneplus-15"
+    ],
+    "facets": [
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: Qualcomm Snapdragon 8 Elite Gen 5. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "oneplus-15",
+        "metric": "gb6_single",
+        "value": 3553
+      },
+      {
+        "subject": "oneplus-15",
+        "metric": "gb6_multi",
+        "value": 10642
+      },
+      {
+        "subject": "oneplus-15",
+        "metric": "charge_full",
+        "value": 45,
+        "note": "Minutes from empty to full"
+      },
+      {
+        "subject": "oneplus-15",
+        "metric": "charge_30",
+        "value": 70,
+        "note": "Charged with the charger in the box"
+      },
+      {
+        "subject": "oneplus-15",
+        "metric": "charge_15",
+        "value": 42,
+        "note": "Charged with the charger in the box"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Lewis Painter"
+  },
+  {
+    "id": "tr-oppo-a78-5g",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Oppo A78 5G Review",
+    "url": "https://www.trustedreviews.com/reviews/oppo-a78-5g",
+    "published": "2023-08-15",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "oppo-a78-5g"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: MediaTek 6833. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "oppo-a78-5g",
+        "metric": "gb6_single",
+        "value": 716
+      },
+      {
+        "subject": "oppo-a78-5g",
+        "metric": "gb6_multi",
+        "value": 1826
+      },
+      {
+        "subject": "oppo-a78-5g",
+        "metric": "tr_video_drain",
+        "value": 19,
+        "note": "Share of a full battery used by one hour of Netflix HDR video"
+      },
+      {
+        "subject": "oppo-a78-5g",
+        "metric": "charge_full",
+        "value": 80,
+        "note": "Minutes from empty to full"
+      },
+      {
+        "subject": "oppo-a78-5g",
+        "metric": "charge_30",
+        "value": 52,
+        "note": "Charged with the charger in the box"
+      },
+      {
+        "subject": "oppo-a78-5g",
+        "metric": "charge_15",
+        "value": 25,
+        "note": "Charged with the charger in the box"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Lloyd Coombes"
+  },
+  {
+    "id": "tr-oppo-find-n3-flip",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Oppo Find N3 Flip",
+    "url": "https://www.trustedreviews.com/reviews/oppo-find-n3-flip",
+    "published": "2024-02-02",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "oppo-find-n3-flip"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: MediaTek Dimensity 9200. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "oppo-find-n3-flip",
+        "metric": "gb6_single",
+        "value": 1442
+      },
+      {
+        "subject": "oppo-find-n3-flip",
+        "metric": "gb6_multi",
+        "value": 3736
+      },
+      {
+        "subject": "oppo-find-n3-flip",
+        "metric": "tr_video_drain",
+        "value": 9,
+        "note": "Share of a full battery used by one hour of Netflix HDR video"
+      },
+      {
+        "subject": "oppo-find-n3-flip",
+        "metric": "charge_full",
+        "value": 59,
+        "note": "Minutes from empty to full"
+      },
+      {
+        "subject": "oppo-find-n3-flip",
+        "metric": "charge_30",
+        "value": 53,
+        "note": "Charged with the charger in the box"
+      },
+      {
+        "subject": "oppo-find-n3-flip",
+        "metric": "charge_15",
+        "value": 29,
+        "note": "Charged with the charger in the box"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Palash Volvoikar"
+  },
+  {
+    "id": "tr-oppo-find-n6",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Oppo Find N6 Review: A great foldable that you probably can’t buy",
+    "url": "https://www.trustedreviews.com/reviews/oppo-find-n6",
+    "published": "2026-03-17",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "oppo-find-n6"
+    ],
+    "facets": [
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: Snapdragon 8 Elite Gen 5 (Seven-core). Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "oppo-find-n6",
+        "metric": "gb6_single",
+        "value": 3571
+      },
+      {
+        "subject": "oppo-find-n6",
+        "metric": "gb6_multi",
+        "value": 9677
+      },
+      {
+        "subject": "oppo-find-n6",
+        "metric": "charge_full",
+        "value": 50,
+        "note": "Minutes from empty to full"
+      },
+      {
+        "subject": "oppo-find-n6",
+        "metric": "charge_30",
+        "value": 81,
+        "note": "Charged with the charger in the box"
+      },
+      {
+        "subject": "oppo-find-n6",
+        "metric": "charge_15",
+        "value": 44,
+        "note": "Charged with the charger in the box"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Lewis Painter"
+  },
+  {
+    "id": "tr-oppo-find-x8",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Oppo Find X8",
+    "url": "https://www.trustedreviews.com/reviews/oppo-find-x8",
+    "published": "2024-12-02",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "oppo-find-x8"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: MediaTek Dimensity 9400. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "oppo-find-x8",
+        "metric": "gb6_single",
+        "value": 2797
+      },
+      {
+        "subject": "oppo-find-x8",
+        "metric": "gb6_multi",
+        "value": 8407
+      },
+      {
+        "subject": "oppo-find-x8",
+        "metric": "tr_video_drain",
+        "value": 6,
+        "note": "Share of a full battery used by one hour of Netflix HDR video"
+      },
+      {
+        "subject": "oppo-find-x8",
+        "metric": "charge_full",
+        "value": 53,
+        "note": "Minutes from empty to full"
+      },
+      {
+        "subject": "oppo-find-x8",
+        "metric": "charge_30",
+        "value": 73,
+        "note": "Charged with the charger in the box"
+      },
+      {
+        "subject": "oppo-find-x8",
+        "metric": "charge_15",
+        "value": 41,
+        "note": "Charged with the charger in the box"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Cam Bunton"
+  },
+  {
+    "id": "tr-oppo-find-x8-pro",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Oppo Find X8 Pro",
+    "url": "https://www.trustedreviews.com/reviews/oppo-find-x8-pro",
+    "published": "2024-11-21",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "oppo-find-x8-pro"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: MediaTek Dimensity 9400. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "oppo-find-x8-pro",
+        "metric": "gb6_single",
+        "value": 2792
+      },
+      {
+        "subject": "oppo-find-x8-pro",
+        "metric": "gb6_multi",
+        "value": 8436
+      },
+      {
+        "subject": "oppo-find-x8-pro",
+        "metric": "tr_video_drain",
+        "value": 6,
+        "note": "Share of a full battery used by one hour of Netflix HDR video"
+      },
+      {
+        "subject": "oppo-find-x8-pro",
+        "metric": "charge_full",
+        "value": 50,
+        "note": "Minutes from empty to full"
+      },
+      {
+        "subject": "oppo-find-x8-pro",
+        "metric": "charge_30",
+        "value": 70,
+        "note": "Charged with the charger in the box"
+      },
+      {
+        "subject": "oppo-find-x8-pro",
+        "metric": "charge_15",
+        "value": 39,
+        "note": "Charged with the charger in the box"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Lewis Painter"
+  },
+  {
+    "id": "tr-oppo-find-x9",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Oppo Find X9 Review: Who needs the Pro anyway?",
+    "url": "https://www.trustedreviews.com/reviews/oppo-find-x9",
+    "published": "2025-11-17",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "oppo-find-x9"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: MediaTek Dimensity 9500. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "oppo-find-x9",
+        "metric": "gb6_single",
+        "value": 2885
+      },
+      {
+        "subject": "oppo-find-x9",
+        "metric": "gb6_multi",
+        "value": 8883
+      },
+      {
+        "subject": "oppo-find-x9",
+        "metric": "tr_video_drain",
+        "value": 5,
+        "note": "Share of a full battery used by one hour of Netflix HDR video"
+      },
+      {
+        "subject": "oppo-find-x9",
+        "metric": "charge_full",
+        "value": 75,
+        "note": "Minutes from empty to full"
+      },
+      {
+        "subject": "oppo-find-x9",
+        "metric": "charge_30",
+        "value": 54,
+        "note": "Charged with the charger in the box"
+      },
+      {
+        "subject": "oppo-find-x9",
+        "metric": "charge_15",
+        "value": 30,
+        "note": "Charged with the charger in the box"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Cam Bunton"
+  },
+  {
+    "id": "tr-oppo-find-x9-pro",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Oppo Find X9 Pro Review: What's not to love?",
+    "url": "https://www.trustedreviews.com/reviews/oppo-find-x9-pro",
+    "published": "2025-10-30",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "oppo-find-x9-pro"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: MediaTek Dimensity 9500. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "oppo-find-x9-pro",
+        "metric": "gb6_single",
+        "value": 3317
+      },
+      {
+        "subject": "oppo-find-x9-pro",
+        "metric": "gb6_multi",
+        "value": 9989
+      },
+      {
+        "subject": "oppo-find-x9-pro",
+        "metric": "tr_video_drain",
+        "value": 5,
+        "note": "Share of a full battery used by one hour of Netflix HDR video"
+      },
+      {
+        "subject": "oppo-find-x9-pro",
+        "metric": "charge_full",
+        "value": 78,
+        "note": "Minutes from empty to full"
+      },
+      {
+        "subject": "oppo-find-x9-pro",
+        "metric": "charge_30",
+        "value": 54,
+        "note": "Charged with the charger in the box"
+      },
+      {
+        "subject": "oppo-find-x9-pro",
+        "metric": "charge_15",
+        "value": 32,
+        "note": "Charged with the charger in the box"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Lewis Painter"
+  },
+  {
+    "id": "tr-oppo-find-x9-ultra",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Oppo Find X9 Ultra Review: The ultimate camera king",
+    "url": "https://www.trustedreviews.com/reviews/oppo-find-x9-ultra",
+    "published": "2026-04-21",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "oppo-find-x9-ultra"
+    ],
+    "facets": [
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: Snapdragon 8 Elite Gen 5. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "oppo-find-x9-ultra",
+        "metric": "gb6_single",
+        "value": 3618
+      },
+      {
+        "subject": "oppo-find-x9-ultra",
+        "metric": "gb6_multi",
+        "value": 11019
+      },
+      {
+        "subject": "oppo-find-x9-ultra",
+        "metric": "charge_full",
+        "value": 58,
+        "note": "Minutes from empty to full"
+      },
+      {
+        "subject": "oppo-find-x9-ultra",
+        "metric": "charge_30",
+        "value": 67,
+        "note": "Charged with the charger in the box"
+      },
+      {
+        "subject": "oppo-find-x9-ultra",
+        "metric": "charge_15",
+        "value": 36,
+        "note": "Charged with the charger in the box"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Lewis Painter"
+  },
+  {
+    "id": "tr-oppo-reno-10-5g",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Oppo Reno 10 5G",
+    "url": "https://www.trustedreviews.com/reviews/oppo-reno-10-5g",
+    "published": "2023-09-05",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "oppo-reno10"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: MediaTek Dimensity 7050. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "oppo-reno10",
+        "metric": "gb6_single",
+        "value": 949
+      },
+      {
+        "subject": "oppo-reno10",
+        "metric": "gb6_multi",
+        "value": 2406
+      },
+      {
+        "subject": "oppo-reno10",
+        "metric": "tr_video_drain",
+        "value": 5,
+        "note": "Share of a full battery used by one hour of Netflix HDR video"
+      },
+      {
+        "subject": "oppo-reno10",
+        "metric": "charge_full",
+        "value": 45,
+        "note": "Minutes from empty to full"
+      },
+      {
+        "subject": "oppo-reno10",
+        "metric": "charge_30",
+        "value": 74,
+        "note": "Charged with the charger in the box"
+      },
+      {
+        "subject": "oppo-reno10",
+        "metric": "charge_15",
+        "value": 42,
+        "note": "Charged with the charger in the box"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Jon Mundy"
+  },
+  {
+    "id": "tr-oppo-reno-11f-5g",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Oppo Reno 11F 5G",
+    "url": "https://www.trustedreviews.com/reviews/oppo-reno-11f-5g",
+    "published": "2024-04-08",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "oppo-reno11-f-5g"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "oppo-reno11-f-5g",
+        "metric": "gb6_single",
+        "value": 900
+      },
+      {
+        "subject": "oppo-reno11-f-5g",
+        "metric": "gb6_multi",
+        "value": 2363
+      },
+      {
+        "subject": "oppo-reno11-f-5g",
+        "metric": "tr_video_drain",
+        "value": 11,
+        "note": "Share of a full battery used by one hour of Netflix HDR video"
+      },
+      {
+        "subject": "oppo-reno11-f-5g",
+        "metric": "charge_full",
+        "value": 47,
+        "note": "Minutes from empty to full"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Luke Baker"
+  },
+  {
+    "id": "tr-oppo-reno-12-pro-5g",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Oppo Reno 12 Pro 5G",
+    "url": "https://www.trustedreviews.com/reviews/oppo-reno-12-pro-5g",
+    "published": "2024-07-19",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "oppo-reno12-pro"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: Mediatek Dimensity 7300. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "oppo-reno12-pro",
+        "metric": "gb6_single",
+        "value": 510,
+        "flags": [
+          "disputed"
+        ],
+        "note": "Disputed: under half of Trusted Reviews' own single-core result for the same chip (1,052 on the Motorola Edge 50 Neo, Dimensity 7300), so it is shown but not counted."
+      },
+      {
+        "subject": "oppo-reno12-pro",
+        "metric": "gb6_multi",
+        "value": 2011,
+        "flags": [
+          "disputed"
+        ],
+        "note": "Disputed: about two-thirds of Trusted Reviews' own multi-core result for the same chip (3,031 on the Motorola Edge 50 Neo, Dimensity 7300), and published with the implausible single-core result, so it is shown but not counted."
+      },
+      {
+        "subject": "oppo-reno12-pro",
+        "metric": "tr_video_drain",
+        "value": 4,
+        "note": "Share of a full battery used by one hour of Netflix HDR video"
+      },
+      {
+        "subject": "oppo-reno12-pro",
+        "metric": "charge_full",
+        "value": 46,
+        "note": "Minutes from empty to full"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Jon Mundy"
+  },
+  {
+    "id": "tr-motorola-edge-50-neo",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Motorola Edge 50 Neo",
+    "url": "https://www.trustedreviews.com/reviews/motorola-edge-50-neo",
+    "published": "2024-10-31",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [],
+    "chipsets": [
+      "dimensity-7300"
+    ],
+    "facets": [
+      "performance"
+    ],
+    "method": "Trusted Reviews' own Geekbench 6 run, read from the review's Test Data table. The Motorola Edge 50 Neo is not in this database; its result is recorded for its chipset, the MediaTek Dimensity 7300, and phones with that chip show it as a chipset stand-in.",
+    "records": [
+      {
+        "subject": "dimensity-7300",
+        "metric": "gb6_single",
+        "value": 1052,
+        "note": "Tested on Motorola Edge 50 Neo"
+      },
+      {
+        "subject": "dimensity-7300",
+        "metric": "gb6_multi",
+        "value": 3031,
+        "note": "Tested on Motorola Edge 50 Neo"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Sean Cameron"
+  },
+  {
+    "id": "tr-oppo-reno-13-5g",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Oppo Reno 13 5G Review: Premium design meets all-day power",
+    "url": "https://www.trustedreviews.com/reviews/oppo-reno-13-5g",
+    "published": "2025-06-24",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "oppo-reno13"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: MediaTek Dimensity 8350. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "oppo-reno13",
+        "metric": "gb6_single",
+        "value": 1322
+      },
+      {
+        "subject": "oppo-reno13",
+        "metric": "gb6_multi",
+        "value": 3846
+      },
+      {
+        "subject": "oppo-reno13",
+        "metric": "tr_video_drain",
+        "value": 5,
+        "note": "Share of a full battery used by one hour of Netflix HDR video"
+      },
+      {
+        "subject": "oppo-reno13",
+        "metric": "charge_full",
+        "value": 60,
+        "note": "Minutes from empty to full"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Jon Mundy"
+  },
+  {
+    "id": "tr-oppo-reno-13-pro",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Oppo Reno 13 Pro Review: Flagship AI in a mid-range package",
+    "url": "https://www.trustedreviews.com/reviews/oppo-reno-13-pro",
+    "published": "2025-04-25",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "oppo-reno13-pro"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: MediaTek Dimensity 8350. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "oppo-reno13-pro",
+        "metric": "gb6_single",
+        "value": 1401
+      },
+      {
+        "subject": "oppo-reno13-pro",
+        "metric": "gb6_multi",
+        "value": 4269
+      },
+      {
+        "subject": "oppo-reno13-pro",
+        "metric": "tr_video_drain",
+        "value": 10,
+        "note": "Share of a full battery used by one hour of Netflix HDR video"
+      },
+      {
+        "subject": "oppo-reno13-pro",
+        "metric": "charge_full",
+        "value": 53,
+        "note": "Minutes from empty to full"
+      },
+      {
+        "subject": "oppo-reno13-pro",
+        "metric": "charge_30",
+        "value": 57,
+        "note": "Charged with the charger in the box"
+      },
+      {
+        "subject": "oppo-reno13-pro",
+        "metric": "charge_15",
+        "value": 22,
+        "note": "Charged with the charger in the box"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Luke Baker"
+  },
+  {
+    "id": "tr-oppo-reno-16",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Oppo Reno 16 Review",
+    "url": "https://www.trustedreviews.com/reviews/oppo-reno-16",
+    "published": "2026-08-25",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "oppo-reno16"
+    ],
+    "facets": [
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: Snapdragon 7 Gen 4. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "oppo-reno16",
+        "metric": "gb6_single",
+        "value": 1244
+      },
+      {
+        "subject": "oppo-reno16",
+        "metric": "gb6_multi",
+        "value": 3972
+      },
+      {
+        "subject": "oppo-reno16",
+        "metric": "charge_30",
+        "value": 67,
+        "note": "Charged with the charger in the box"
+      },
+      {
+        "subject": "oppo-reno16",
+        "metric": "charge_15",
+        "value": 35,
+        "note": "Charged with the charger in the box"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Andrew Williams"
+  },
+  {
+    "id": "tr-poco-f5",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Poco F5",
+    "url": "https://www.trustedreviews.com/reviews/poco-f5",
+    "published": "2023-05-19",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "poco-f5"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: Snapdragon 7 Plus Gen 2. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "poco-f5",
+        "metric": "gb6_single",
+        "value": 1666
+      },
+      {
+        "subject": "poco-f5",
+        "metric": "gb6_multi",
+        "value": 4459
+      },
+      {
+        "subject": "poco-f5",
+        "metric": "tr_video_drain",
+        "value": 6,
+        "note": "Share of a full battery used by one hour of Netflix HDR video"
+      },
+      {
+        "subject": "poco-f5",
+        "metric": "charge_full",
+        "value": 52,
+        "note": "Minutes from empty to full"
+      },
+      {
+        "subject": "poco-f5",
+        "metric": "charge_30",
+        "value": 82,
+        "note": "Charged with the charger in the box"
+      },
+      {
+        "subject": "poco-f5",
+        "metric": "charge_15",
+        "value": 47,
+        "note": "Charged with the charger in the box"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Jon Mundy"
+  },
+  {
+    "id": "tr-poco-f5-pro",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Poco F5 Pro",
+    "url": "https://www.trustedreviews.com/reviews/poco-f5-pro",
+    "published": "2023-05-09",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "poco-f5-pro"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: Snapdragon 8+ Gen 1. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "poco-f5-pro",
+        "metric": "gb6_single",
+        "value": 1296
+      },
+      {
+        "subject": "poco-f5-pro",
+        "metric": "gb6_multi",
+        "value": 4034
+      },
+      {
+        "subject": "poco-f5-pro",
+        "metric": "tr_video_drain",
+        "value": 7,
+        "note": "Share of a full battery used by one hour of Netflix HDR video"
+      },
+      {
+        "subject": "poco-f5-pro",
+        "metric": "charge_full",
+        "value": 56,
+        "note": "Minutes from empty to full"
+      },
+      {
+        "subject": "poco-f5-pro",
+        "metric": "charge_30",
+        "value": 69,
+        "note": "Charged with the charger in the box"
+      },
+      {
+        "subject": "poco-f5-pro",
+        "metric": "charge_15",
+        "value": 38,
+        "note": "Charged with the charger in the box"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Jon Mundy"
+  },
+  {
+    "id": "tr-poco-f6",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Poco F6 Review",
+    "url": "https://www.trustedreviews.com/reviews/poco-f6",
+    "published": "2024-07-11",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "poco-f6"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: Qualcomm Snapdragon 8s Gen 3. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "poco-f6",
+        "metric": "gb6_single",
+        "value": 1963
+      },
+      {
+        "subject": "poco-f6",
+        "metric": "gb6_multi",
+        "value": 4952
+      },
+      {
+        "subject": "poco-f6",
+        "metric": "tr_video_drain",
+        "value": 12,
+        "note": "Share of a full battery used by one hour of Netflix HDR video"
+      },
+      {
+        "subject": "poco-f6",
+        "metric": "charge_full",
+        "value": 30,
+        "note": "Minutes from empty to full"
+      },
+      {
+        "subject": "poco-f6",
+        "metric": "charge_30",
+        "value": 100,
+        "note": "Charged with the charger in the box"
+      },
+      {
+        "subject": "poco-f6",
+        "metric": "charge_15",
+        "value": 52,
+        "note": "Charged with the charger in the box"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Sean Cameron"
+  },
+  {
+    "id": "tr-poco-f6-pro",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Poco F6 Pro Review",
+    "url": "https://www.trustedreviews.com/reviews/poco-f6-pro",
+    "published": "2024-06-03",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "poco-f6-pro"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: Qualcomm Snapdragon 8 Gen 2. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "poco-f6-pro",
+        "metric": "gb6_single",
+        "value": 1395
+      },
+      {
+        "subject": "poco-f6-pro",
+        "metric": "gb6_multi",
+        "value": 5142
+      },
+      {
+        "subject": "poco-f6-pro",
+        "metric": "tr_video_drain",
+        "value": 8,
+        "note": "Share of a full battery used by one hour of Netflix HDR video"
+      },
+      {
+        "subject": "poco-f6-pro",
+        "metric": "charge_full",
+        "value": 26,
+        "note": "Minutes from empty to full"
+      },
+      {
+        "subject": "poco-f6-pro",
+        "metric": "charge_30",
+        "value": 100,
+        "note": "Charged with the charger in the box"
+      },
+      {
+        "subject": "poco-f6-pro",
+        "metric": "charge_15",
+        "value": 65,
+        "note": "Charged with the charger in the box"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Luke Baker"
+  },
+  {
+    "id": "tr-poco-f7",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Poco F7 Review",
+    "url": "https://www.trustedreviews.com/reviews/poco-f7",
+    "published": "2025-06-27",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "poco-f7"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: Qualcomm Snapdragon 8s Gen 4. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "poco-f7",
+        "metric": "gb6_single",
+        "value": 2094
+      },
+      {
+        "subject": "poco-f7",
+        "metric": "gb6_multi",
+        "value": 6294
+      },
+      {
+        "subject": "poco-f7",
+        "metric": "tr_video_drain",
+        "value": 5,
+        "note": "Share of a full battery used by one hour of Netflix HDR video"
+      },
+      {
+        "subject": "poco-f7",
+        "metric": "charge_full",
+        "value": 40,
+        "note": "Minutes from empty to full"
+      },
+      {
+        "subject": "poco-f7",
+        "metric": "charge_30",
+        "value": 82,
+        "note": "Charged with the charger in the box"
+      },
+      {
+        "subject": "poco-f7",
+        "metric": "charge_15",
+        "value": 46,
+        "note": "Charged with the charger in the box"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Cam Bunton"
+  },
+  {
+    "id": "tr-poco-f7-pro",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Poco F7 Pro Review: Still the Poco to buy?",
+    "url": "https://www.trustedreviews.com/reviews/poco-f7-pro",
+    "published": "2025-04-28",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "poco-f7-pro"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: Qualcomm Snapdragon 8 Gen 3. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "poco-f7-pro",
+        "metric": "gb6_single",
+        "value": 2216
+      },
+      {
+        "subject": "poco-f7-pro",
+        "metric": "gb6_multi",
+        "value": 6560
+      },
+      {
+        "subject": "poco-f7-pro",
+        "metric": "tr_video_drain",
+        "value": 6,
+        "note": "Share of a full battery used by one hour of Netflix HDR video"
+      },
+      {
+        "subject": "poco-f7-pro",
+        "metric": "charge_full",
+        "value": 35,
+        "note": "Minutes from empty to full"
+      },
+      {
+        "subject": "poco-f7-pro",
+        "metric": "charge_30",
+        "value": 88,
+        "note": "Charged with the charger in the box"
+      },
+      {
+        "subject": "poco-f7-pro",
+        "metric": "charge_15",
+        "value": 50,
+        "note": "Charged with the charger in the box"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Cam Bunton"
+  },
+  {
+    "id": "tr-poco-f7-ultra",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Poco F7 Ultra Review",
+    "url": "https://www.trustedreviews.com/reviews/poco-f7-ultra",
+    "published": "2025-03-27",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "poco-f7-ultra"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: Qualcomm Snapdragon 8 Elite. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "poco-f7-ultra",
+        "metric": "gb6_single",
+        "value": 2283
+      },
+      {
+        "subject": "poco-f7-ultra",
+        "metric": "gb6_multi",
+        "value": 8033
+      },
+      {
+        "subject": "poco-f7-ultra",
+        "metric": "tr_video_drain",
+        "value": 6,
+        "note": "Share of a full battery used by one hour of Netflix HDR video"
+      },
+      {
+        "subject": "poco-f7-ultra",
+        "metric": "charge_full",
+        "value": 32,
+        "note": "Minutes from empty to full"
+      },
+      {
+        "subject": "poco-f7-ultra",
+        "metric": "charge_30",
+        "value": 98,
+        "note": "Charged with the charger in the box"
+      },
+      {
+        "subject": "poco-f7-ultra",
+        "metric": "charge_15",
+        "value": 58,
+        "note": "Charged with the charger in the box"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Cam Bunton"
+  },
+  {
+    "id": "tr-poco-f8-ultra",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Poco F8 Ultra Review: You've never seen something like this before",
+    "url": "https://www.trustedreviews.com/reviews/poco-f8-ultra",
+    "published": "2025-11-26",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "poco-f8-ultra"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: Snapdragon 8 Elite Gen 5. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "poco-f8-ultra",
+        "metric": "gb6_single",
+        "value": 3398
+      },
+      {
+        "subject": "poco-f8-ultra",
+        "metric": "gb6_multi",
+        "value": 9990
+      },
+      {
+        "subject": "poco-f8-ultra",
+        "metric": "tr_video_drain",
+        "value": 4,
+        "note": "Share of a full battery used by one hour of Netflix HDR video"
+      },
+      {
+        "subject": "poco-f8-ultra",
+        "metric": "charge_full",
+        "value": 45,
+        "note": "Minutes from empty to full"
+      },
+      {
+        "subject": "poco-f8-ultra",
+        "metric": "charge_30",
+        "value": 72,
+        "note": "Charged with the charger in the box"
+      },
+      {
+        "subject": "poco-f8-ultra",
+        "metric": "charge_15",
+        "value": 40,
+        "note": "Charged with the charger in the box"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Cam Bunton"
+  },
+  {
+    "id": "tr-poco-x5-5g",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Poco X5 5G Review",
+    "url": "https://www.trustedreviews.com/reviews/poco-x5-5g",
+    "published": "2023-02-17",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "poco-x5-5g"
+    ],
+    "facets": [
+      "battery",
+      "charging"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: Snapdragon 695 5G. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "poco-x5-5g",
+        "metric": "tr_video_drain",
+        "value": 6,
+        "note": "Share of a full battery used by one hour of Netflix HDR video"
+      },
+      {
+        "subject": "poco-x5-5g",
+        "metric": "charge_full",
+        "value": 125,
+        "note": "Minutes from empty to full"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Connor Jewiss"
+  },
+  {
+    "id": "tr-poco-x5-pro-5g",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Poco X5 Pro",
+    "url": "https://www.trustedreviews.com/reviews/poco-x5-pro-5g",
+    "published": "2024-03-19",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "poco-x5-pro-5g"
+    ],
+    "facets": [
+      "battery",
+      "charging"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: Snapdragon 778G. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "poco-x5-pro-5g",
+        "metric": "tr_video_drain",
+        "value": 7,
+        "note": "Share of a full battery used by one hour of Netflix HDR video"
+      },
+      {
+        "subject": "poco-x5-pro-5g",
+        "metric": "charge_full",
+        "value": 68,
+        "note": "Minutes from empty to full"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Connor Jewiss"
+  },
+  {
+    "id": "tr-poco-x6",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Poco X6 Review",
+    "url": "https://www.trustedreviews.com/reviews/poco-x6",
+    "published": "2024-02-01",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "poco-x6-5g"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: Qualcomm Snapdragon 7s Gen 2. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "poco-x6-5g",
+        "metric": "gb6_single",
+        "value": 1016
+      },
+      {
+        "subject": "poco-x6-5g",
+        "metric": "gb6_multi",
+        "value": 2829
+      },
+      {
+        "subject": "poco-x6-5g",
+        "metric": "tr_video_drain",
+        "value": 7,
+        "note": "Share of a full battery used by one hour of Netflix HDR video"
+      },
+      {
+        "subject": "poco-x6-5g",
+        "metric": "charge_full",
+        "value": 50,
+        "note": "Minutes from empty to full"
+      },
+      {
+        "subject": "poco-x6-5g",
+        "metric": "charge_30",
+        "value": 75,
+        "note": "Charged with the charger in the box"
+      },
+      {
+        "subject": "poco-x6-5g",
+        "metric": "charge_15",
+        "value": 45,
+        "note": "Charged with the charger in the box"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Luke Baker"
+  },
+  {
+    "id": "tr-poco-x6-pro",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Poco X6 Pro",
+    "url": "https://www.trustedreviews.com/reviews/poco-x6-pro",
+    "published": "2024-01-24",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "poco-x6-pro-5g"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: MediaTek Dimensity 8300 Ultra. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "poco-x6-pro-5g",
+        "metric": "gb6_single",
+        "value": 1424
+      },
+      {
+        "subject": "poco-x6-pro-5g",
+        "metric": "gb6_multi",
+        "value": 4403
+      },
+      {
+        "subject": "poco-x6-pro-5g",
+        "metric": "tr_video_drain",
+        "value": 8,
+        "note": "Share of a full battery used by one hour of Netflix HDR video"
+      },
+      {
+        "subject": "poco-x6-pro-5g",
+        "metric": "charge_full",
+        "value": 45,
+        "note": "Minutes from empty to full"
+      },
+      {
+        "subject": "poco-x6-pro-5g",
+        "metric": "charge_30",
+        "value": 78,
+        "note": "Charged with the charger in the box"
+      },
+      {
+        "subject": "poco-x6-pro-5g",
+        "metric": "charge_15",
+        "value": 44,
+        "note": "Charged with the charger in the box"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Luke Baker"
+  },
+  {
+    "id": "tr-poco-x7",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Poco X7 Review",
+    "url": "https://www.trustedreviews.com/reviews/poco-x7",
+    "published": "2025-05-28",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "poco-x7"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: MediaTek Dimensity 7300 Ultra. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "poco-x7",
+        "metric": "gb6_single",
+        "value": 1031
+      },
+      {
+        "subject": "poco-x7",
+        "metric": "gb6_multi",
+        "value": 2836
+      },
+      {
+        "subject": "poco-x7",
+        "metric": "tr_video_drain",
+        "value": 10,
+        "note": "Share of a full battery used by one hour of Netflix HDR video"
+      },
+      {
+        "subject": "poco-x7",
+        "metric": "charge_30",
+        "value": 60,
+        "note": "Charged with the charger in the box"
+      },
+      {
+        "subject": "poco-x7",
+        "metric": "charge_15",
+        "value": 33,
+        "note": "Charged with the charger in the box"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Gavin Phillips"
+  },
+  {
+    "id": "tr-poco-x7-pro",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Poco X7 Pro Review",
+    "url": "https://www.trustedreviews.com/reviews/poco-x7-pro",
+    "published": "2025-01-31",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "poco-x7-pro"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: MediaTek Dimensity 8400-Ultra. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "poco-x7-pro",
+        "metric": "gb6_single",
+        "value": 1575
+      },
+      {
+        "subject": "poco-x7-pro",
+        "metric": "gb6_multi",
+        "value": 5884
+      },
+      {
+        "subject": "poco-x7-pro",
+        "metric": "tr_video_drain",
+        "value": 7,
+        "note": "Share of a full battery used by one hour of Netflix HDR video"
+      },
+      {
+        "subject": "poco-x7-pro",
+        "metric": "charge_full",
+        "value": 48,
+        "note": "Minutes from empty to full"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Chris Hall"
+  },
+  {
+    "id": "tr-poco-x8-pro",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Poco X8 Pro Review",
+    "url": "https://www.trustedreviews.com/reviews/poco-x8-pro",
+    "published": "2026-05-08",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "poco-x8-pro"
+    ],
+    "facets": [
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: MediaTek Dimensity 8500 Ultra. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "poco-x8-pro",
+        "metric": "gb6_single",
+        "value": 1724
+      },
+      {
+        "subject": "poco-x8-pro",
+        "metric": "gb6_multi",
+        "value": 6616
+      },
+      {
+        "subject": "poco-x8-pro",
+        "metric": "charge_full",
+        "value": 62,
+        "note": "Minutes from empty to full"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Joshua Brown"
+  },
+  {
+    "id": "tr-redmagic-11-pro",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "RedMagic 11 Pro Review: Liquid-cooled phones are here to stay",
+    "url": "https://www.trustedreviews.com/reviews/redmagic-11-pro",
+    "published": "2025-11-03",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "redmagic-11-pro"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: Qualcomm Snapdragon 8 Elite Gen 5. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "redmagic-11-pro",
+        "metric": "gb6_single",
+        "value": 3720
+      },
+      {
+        "subject": "redmagic-11-pro",
+        "metric": "gb6_multi",
+        "value": 11617
+      },
+      {
+        "subject": "redmagic-11-pro",
+        "metric": "tr_video_drain",
+        "value": 5,
+        "note": "Share of a full battery used by one hour of Netflix HDR video"
+      },
+      {
+        "subject": "redmagic-11-pro",
+        "metric": "charge_full",
+        "value": 52,
+        "note": "Minutes from empty to full"
+      },
+      {
+        "subject": "redmagic-11-pro",
+        "metric": "charge_30",
+        "value": 70,
+        "note": "Charged with the charger in the box"
+      },
+      {
+        "subject": "redmagic-11-pro",
+        "metric": "charge_15",
+        "value": 42,
+        "note": "Charged with the charger in the box"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Luke Baker"
+  },
+  {
+    "id": "tr-samsung-galaxy-a14-5g",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Samsung Galaxy A14 5G",
+    "url": "https://www.trustedreviews.com/reviews/samsung-galaxy-a14-5g",
+    "published": "2024-02-08",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "samsung-galaxy-a14-5g"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: MediaTek Dimensity 700. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "samsung-galaxy-a14-5g",
+        "metric": "gb6_single",
+        "value": 692
+      },
+      {
+        "subject": "samsung-galaxy-a14-5g",
+        "metric": "gb6_multi",
+        "value": 1827
+      },
+      {
+        "subject": "samsung-galaxy-a14-5g",
+        "metric": "tr_video_drain",
+        "value": 10,
+        "note": "Share of a full battery used by one hour of Netflix HDR video"
+      },
+      {
+        "subject": "samsung-galaxy-a14-5g",
+        "metric": "charge_full",
+        "value": 147,
+        "note": "Minutes from empty to full"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Jon Mundy"
+  },
+  {
+    "id": "tr-samsung-galaxy-a35-5g",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Samsung Galaxy A35 5G",
+    "url": "https://www.trustedreviews.com/reviews/samsung-galaxy-a35-5g",
+    "published": "2024-04-22",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "samsung-galaxy-a35-5g"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: Samsung Exynos 1380. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "samsung-galaxy-a35-5g",
+        "metric": "gb6_single",
+        "value": 1023
+      },
+      {
+        "subject": "samsung-galaxy-a35-5g",
+        "metric": "gb6_multi",
+        "value": 2947
+      },
+      {
+        "subject": "samsung-galaxy-a35-5g",
+        "metric": "tr_video_drain",
+        "value": 6,
+        "note": "Share of a full battery used by one hour of Netflix HDR video"
+      },
+      {
+        "subject": "samsung-galaxy-a35-5g",
+        "metric": "charge_full",
+        "value": 85,
+        "note": "Minutes from empty to full"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Jon Mundy"
+  },
+  {
+    "id": "tr-samsung-galaxy-a54-5g",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Samsung Galaxy A54 5G",
+    "url": "https://www.trustedreviews.com/reviews/samsung-galaxy-a54-5g",
+    "published": "2023-03-28",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "samsung-galaxy-a54-5g"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: Samsung Exynos 1380. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "samsung-galaxy-a54-5g",
+        "metric": "gb6_single",
+        "value": 925
+      },
+      {
+        "subject": "samsung-galaxy-a54-5g",
+        "metric": "gb6_multi",
+        "value": 2703
+      },
+      {
+        "subject": "samsung-galaxy-a54-5g",
+        "metric": "tr_video_drain",
+        "value": 7,
+        "note": "Share of a full battery used by one hour of Netflix HDR video"
+      },
+      {
+        "subject": "samsung-galaxy-a54-5g",
+        "metric": "charge_full",
+        "value": 93,
+        "note": "Minutes from empty to full"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Lewis Painter"
+  },
+  {
+    "id": "tr-samsung-galaxy-a55-5g",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Samsung Galaxy A55 5G Review",
+    "url": "https://www.trustedreviews.com/reviews/samsung-galaxy-a55-5g",
+    "published": "2024-05-13",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "samsung-galaxy-a55-5g"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: Samsung Exynos 1480. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "samsung-galaxy-a55-5g",
+        "metric": "gb6_single",
+        "value": 1145
+      },
+      {
+        "subject": "samsung-galaxy-a55-5g",
+        "metric": "gb6_multi",
+        "value": 3369
+      },
+      {
+        "subject": "samsung-galaxy-a55-5g",
+        "metric": "tr_video_drain",
+        "value": 7,
+        "note": "Share of a full battery used by one hour of Netflix HDR video"
+      },
+      {
+        "subject": "samsung-galaxy-a55-5g",
+        "metric": "charge_full",
+        "value": 83,
+        "note": "Minutes from empty to full"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Andrew Williams"
+  },
+  {
+    "id": "tr-samsung-galaxy-a57-5g",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Samsung Galaxy A57 5G Review: Big on screen but light on thrills",
+    "url": "https://www.trustedreviews.com/reviews/samsung-galaxy-a57-5g",
+    "published": "2026-04-21",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "samsung-galaxy-a57-5g"
+    ],
+    "facets": [
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: Samsung Exynos 1680. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "samsung-galaxy-a57-5g",
+        "metric": "gb6_single",
+        "value": 1375
+      },
+      {
+        "subject": "samsung-galaxy-a57-5g",
+        "metric": "gb6_multi",
+        "value": 4503
+      },
+      {
+        "subject": "samsung-galaxy-a57-5g",
+        "metric": "charge_full",
+        "value": 75,
+        "note": "Minutes from empty to full"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Cam Bunton"
+  },
+  {
+    "id": "tr-samsung-galaxy-s23",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Samsung Galaxy S23",
+    "url": "https://www.trustedreviews.com/reviews/samsung-galaxy-s23",
+    "published": "2024-03-15",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "samsung-galaxy-s23"
+    ],
+    "facets": [
+      "battery",
+      "charging"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: Qualcomm Snapdragon 8 Gen 2 for Galaxy. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "samsung-galaxy-s23",
+        "metric": "tr_video_drain",
+        "value": 6,
+        "note": "Share of a full battery used by one hour of Netflix HDR video"
+      },
+      {
+        "subject": "samsung-galaxy-s23",
+        "metric": "charge_full",
+        "value": 81,
+        "note": "Minutes from empty to full"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Lewis Painter"
+  },
+  {
+    "id": "tr-samsung-galaxy-s23-plus",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Samsung Galaxy S23 Plus Review",
+    "url": "https://www.trustedreviews.com/reviews/samsung-galaxy-s23-plus",
+    "published": "2023-08-03",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "samsung-galaxy-s23-plus"
+    ],
+    "facets": [
+      "battery",
+      "charging"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: Qualcomm Snapdragon 8 Gen 2 for Galaxy. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "samsung-galaxy-s23-plus",
+        "metric": "tr_video_drain",
+        "value": 5,
+        "note": "Share of a full battery used by one hour of Netflix HDR video"
+      },
+      {
+        "subject": "samsung-galaxy-s23-plus",
+        "metric": "charge_full",
+        "value": 89,
+        "note": "Minutes from empty to full"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Max Parker"
+  },
+  {
+    "id": "tr-samsung-galaxy-s23-ultra",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Samsung Galaxy S23 Ultra",
+    "url": "https://www.trustedreviews.com/reviews/samsung-galaxy-s23-ultra",
+    "published": "2024-02-12",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "samsung-galaxy-s23-ultra"
+    ],
+    "facets": [
+      "battery",
+      "charging"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "samsung-galaxy-s23-ultra",
+        "metric": "tr_video_drain",
+        "value": 7,
+        "note": "Share of a full battery used by one hour of Netflix HDR video"
+      },
+      {
+        "subject": "samsung-galaxy-s23-ultra",
+        "metric": "charge_full",
+        "value": 91,
+        "note": "Minutes from empty to full"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Lewis Painter"
+  },
+  {
+    "id": "tr-samsung-galaxy-s24-plus",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Samsung Galaxy S24 Plus",
+    "url": "https://www.trustedreviews.com/reviews/samsung-galaxy-s24-plus",
+    "published": "2024-02-20",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "samsung-galaxy-s24-plus"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: Samsung Exynos 2400 for Galaxy. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "samsung-galaxy-s24-plus",
+        "metric": "gb6_single",
+        "value": 2214
+      },
+      {
+        "subject": "samsung-galaxy-s24-plus",
+        "metric": "gb6_multi",
+        "value": 7036
+      },
+      {
+        "subject": "samsung-galaxy-s24-plus",
+        "metric": "tr_video_drain",
+        "value": 7,
+        "note": "Share of a full battery used by one hour of Netflix HDR video"
+      },
+      {
+        "subject": "samsung-galaxy-s24-plus",
+        "metric": "charge_full",
+        "value": 81,
+        "note": "Minutes from empty to full"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Lewis Painter"
+  },
+  {
+    "id": "tr-samsung-galaxy-s24-ultra",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Samsung Galaxy S24 Ultra",
+    "url": "https://www.trustedreviews.com/reviews/samsung-galaxy-s24-ultra",
+    "published": "2024-11-25",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "samsung-galaxy-s24-ultra"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: Snapdragon 8 Gen 3 for Galaxy. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "samsung-galaxy-s24-ultra",
+        "metric": "gb6_single",
+        "value": 2229
+      },
+      {
+        "subject": "samsung-galaxy-s24-ultra",
+        "metric": "gb6_multi",
+        "value": 6853
+      },
+      {
+        "subject": "samsung-galaxy-s24-ultra",
+        "metric": "tr_video_drain",
+        "value": 6,
+        "note": "Share of a full battery used by one hour of Netflix HDR video"
+      },
+      {
+        "subject": "samsung-galaxy-s24-ultra",
+        "metric": "charge_full",
+        "value": 71,
+        "note": "Minutes from empty to full"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Lewis Painter"
+  },
+  {
+    "id": "tr-samsung-galaxy-s25",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Samsung Galaxy S25 Review: A little pocket rocket",
+    "url": "https://www.trustedreviews.com/reviews/samsung-galaxy-s25",
+    "published": "2025-02-07",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "samsung-galaxy-s25"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: Qualcomm Snapdragon 8 Elite. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "samsung-galaxy-s25",
+        "metric": "gb6_single",
+        "value": 3101
+      },
+      {
+        "subject": "samsung-galaxy-s25",
+        "metric": "gb6_multi",
+        "value": 9450
+      },
+      {
+        "subject": "samsung-galaxy-s25",
+        "metric": "tr_video_drain",
+        "value": 5,
+        "note": "Share of a full battery used by one hour of Netflix HDR video"
+      },
+      {
+        "subject": "samsung-galaxy-s25",
+        "metric": "charge_full",
+        "value": 90,
+        "note": "Minutes from empty to full"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Britta O'Boyle"
+  },
+  {
+    "id": "tr-samsung-galaxy-s25-fe",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Samsung Galaxy S25 FE Review: Flagship experience on a budget",
+    "url": "https://www.trustedreviews.com/reviews/samsung-galaxy-s25-fe",
+    "published": "2025-10-21",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "samsung-galaxy-s25-fe"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "samsung-galaxy-s25-fe",
+        "metric": "gb6_single",
+        "value": 2151
+      },
+      {
+        "subject": "samsung-galaxy-s25-fe",
+        "metric": "gb6_multi",
+        "value": 6857
+      },
+      {
+        "subject": "samsung-galaxy-s25-fe",
+        "metric": "tr_video_drain",
+        "value": 3,
+        "note": "Share of a full battery used by one hour of Netflix HDR video"
+      },
+      {
+        "subject": "samsung-galaxy-s25-fe",
+        "metric": "charge_full",
+        "value": 69,
+        "note": "Minutes from empty to full"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Thomas Deehan"
+  },
+  {
+    "id": "tr-samsung-galaxy-s25-plus",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Samsung Galaxy S25 Plus Review: A year for refinement",
+    "url": "https://www.trustedreviews.com/reviews/samsung-galaxy-s25-plus",
+    "published": "2025-02-11",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "samsung-galaxy-s25-plus"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: Qualcomm Snapdragon 8 Elite. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "samsung-galaxy-s25-plus",
+        "metric": "gb6_single",
+        "value": 3118
+      },
+      {
+        "subject": "samsung-galaxy-s25-plus",
+        "metric": "gb6_multi",
+        "value": 9807
+      },
+      {
+        "subject": "samsung-galaxy-s25-plus",
+        "metric": "tr_video_drain",
+        "value": 6,
+        "note": "Share of a full battery used by one hour of Netflix HDR video"
+      },
+      {
+        "subject": "samsung-galaxy-s25-plus",
+        "metric": "charge_full",
+        "value": 75,
+        "note": "Minutes from empty to full"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Chris Hall"
+  },
+  {
+    "id": "tr-samsung-galaxy-s25-ultra",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Samsung Galaxy S25 Ultra",
+    "url": "https://www.trustedreviews.com/reviews/samsung-galaxy-s25-ultra",
+    "published": "2025-01-30",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "samsung-galaxy-s25-ultra"
+    ],
+    "facets": [
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: Qualcomm Snapdragon 8 Elite for Galaxy. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "samsung-galaxy-s25-ultra",
+        "metric": "gb6_single",
+        "value": 2886
+      },
+      {
+        "subject": "samsung-galaxy-s25-ultra",
+        "metric": "gb6_multi",
+        "value": 9515
+      },
+      {
+        "subject": "samsung-galaxy-s25-ultra",
+        "metric": "charge_full",
+        "value": 62,
+        "note": "Minutes from empty to full"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Lewis Painter"
+  },
+  {
+    "id": "tr-samsung-galaxy-s26",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Samsung Galaxy S26 Review: Emperor's new clothes",
+    "url": "https://www.trustedreviews.com/reviews/samsung-galaxy-s26",
+    "published": "2026-03-12",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "samsung-galaxy-s26"
+    ],
+    "facets": [
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: Samsung Exynos 2600. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "samsung-galaxy-s26",
+        "metric": "gb6_single",
+        "value": 3139
+      },
+      {
+        "subject": "samsung-galaxy-s26",
+        "metric": "gb6_multi",
+        "value": 10729
+      }
+    ],
+    "extraction": "partial",
+    "author": "Cam Bunton"
+  },
+  {
+    "id": "tr-samsung-galaxy-s26-fe",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Samsung Galaxy S26 FE Review",
+    "url": "https://www.trustedreviews.com/reviews/samsung-galaxy-s26-fe",
+    "published": "2026-09-17",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "samsung-galaxy-s26-fe"
+    ],
+    "facets": [
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: Samsung Exynos 2500. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "samsung-galaxy-s26-fe",
+        "metric": "gb6_single",
+        "value": 1960
+      },
+      {
+        "subject": "samsung-galaxy-s26-fe",
+        "metric": "gb6_multi",
+        "value": 5768
+      },
+      {
+        "subject": "samsung-galaxy-s26-fe",
+        "metric": "charge_full",
+        "value": 75,
+        "note": "Minutes from empty to full"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Henry Burrell"
+  },
+  {
+    "id": "tr-samsung-galaxy-s26-plus",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Samsung Galaxy S26 Plus Review",
+    "url": "https://www.trustedreviews.com/reviews/samsung-galaxy-s26-plus",
+    "published": "2026-04-10",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "samsung-galaxy-s26-plus"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: Exynos 2600. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "samsung-galaxy-s26-plus",
+        "metric": "gb6_single",
+        "value": 3028
+      },
+      {
+        "subject": "samsung-galaxy-s26-plus",
+        "metric": "gb6_multi",
+        "value": 10086
+      },
+      {
+        "subject": "samsung-galaxy-s26-plus",
+        "metric": "tr_video_drain",
+        "value": 4,
+        "note": "Share of a full battery used by one hour of Netflix HDR video"
+      },
+      {
+        "subject": "samsung-galaxy-s26-plus",
+        "metric": "charge_full",
+        "value": 51,
+        "note": "Minutes from empty to full"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Andrew Williams"
+  },
+  {
+    "id": "tr-samsung-galaxy-s26-ultra",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Samsung Galaxy S26 Ultra Review: An old dog with new tricks",
+    "url": "https://www.trustedreviews.com/reviews/samsung-galaxy-s26-ultra",
+    "published": "2026-03-10",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "samsung-galaxy-s26-ultra"
+    ],
+    "facets": [
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: Snapdragon 8 Elite Gen 5 for Galaxy. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "samsung-galaxy-s26-ultra",
+        "metric": "gb6_single",
+        "value": 3519
+      },
+      {
+        "subject": "samsung-galaxy-s26-ultra",
+        "metric": "gb6_multi",
+        "value": 10713
+      },
+      {
+        "subject": "samsung-galaxy-s26-ultra",
+        "metric": "charge_full",
+        "value": 53,
+        "note": "Minutes from empty to full"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Lewis Painter"
+  },
+  {
+    "id": "tr-samsung-galaxy-z-flip-5",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Samsung Galaxy Z Flip 5 Review",
+    "url": "https://www.trustedreviews.com/reviews/samsung-galaxy-z-flip-5",
+    "published": "2023-07-26",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "samsung-galaxy-z-flip5"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: Qualcomm Snapdragon 8 Gen 2 for Galaxy. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "samsung-galaxy-z-flip5",
+        "metric": "gb6_single",
+        "value": 1991
+      },
+      {
+        "subject": "samsung-galaxy-z-flip5",
+        "metric": "gb6_multi",
+        "value": 5046
+      },
+      {
+        "subject": "samsung-galaxy-z-flip5",
+        "metric": "tr_video_drain",
+        "value": 10,
+        "note": "Share of a full battery used by one hour of Netflix HDR video"
+      },
+      {
+        "subject": "samsung-galaxy-z-flip5",
+        "metric": "charge_full",
+        "value": 62,
+        "note": "Minutes from empty to full"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Lewis Painter"
+  },
+  {
+    "id": "tr-samsung-galaxy-z-flip-6",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Samsung Galaxy Z Flip 6",
+    "url": "https://www.trustedreviews.com/reviews/samsung-galaxy-z-flip-6",
+    "published": "2024-07-22",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "samsung-galaxy-z-flip6"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: Qualcomm Snapdragon 8 Gen 3. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "samsung-galaxy-z-flip6",
+        "metric": "gb6_single",
+        "value": 1910
+      },
+      {
+        "subject": "samsung-galaxy-z-flip6",
+        "metric": "gb6_multi",
+        "value": 6264
+      },
+      {
+        "subject": "samsung-galaxy-z-flip6",
+        "metric": "tr_video_drain",
+        "value": 6,
+        "note": "Share of a full battery used by one hour of Netflix HDR video"
+      },
+      {
+        "subject": "samsung-galaxy-z-flip6",
+        "metric": "charge_full",
+        "value": 75,
+        "note": "Minutes from empty to full"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Cam Bunton"
+  },
+  {
+    "id": "tr-samsung-galaxy-z-flip-7",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Samsung Galaxy Z Flip 7 Review: A coming-of-age story",
+    "url": "https://www.trustedreviews.com/reviews/samsung-galaxy-z-flip-7",
+    "published": "2025-07-21",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "samsung-galaxy-z-flip7"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: Samsung Exynos 2500. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "samsung-galaxy-z-flip7",
+        "metric": "gb6_single",
+        "value": 2251
+      },
+      {
+        "subject": "samsung-galaxy-z-flip7",
+        "metric": "gb6_multi",
+        "value": 7584
+      },
+      {
+        "subject": "samsung-galaxy-z-flip7",
+        "metric": "tr_video_drain",
+        "value": 7,
+        "note": "Share of a full battery used by one hour of Netflix HDR video"
+      },
+      {
+        "subject": "samsung-galaxy-z-flip7",
+        "metric": "charge_full",
+        "value": 89,
+        "note": "Minutes from empty to full"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Cam Bunton"
+  },
+  {
+    "id": "tr-samsung-galaxy-z-flip-7-fe",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Samsung Galaxy Z Flip 7 FE Review: Good foldable, bad value",
+    "url": "https://www.trustedreviews.com/reviews/samsung-galaxy-z-flip-7-fe",
+    "published": "2025-08-04",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "samsung-galaxy-z-flip7-fe"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: Samsung Exynos 2400. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "samsung-galaxy-z-flip7-fe",
+        "metric": "gb6_single",
+        "value": 1163,
+        "flags": [
+          "disputed"
+        ],
+        "note": "Disputed: the review's own text puts single-core 13% below the Galaxy Z Flip6 (about 1,660 against Trusted Reviews' 1,910 for the Flip6), and every other Exynos 2400 result is 2,142–2,214, so the table's 1,163 is shown but not counted."
+      },
+      {
+        "subject": "samsung-galaxy-z-flip7-fe",
+        "metric": "gb6_multi",
+        "value": 5911
+      },
+      {
+        "subject": "samsung-galaxy-z-flip7-fe",
+        "metric": "tr_video_drain",
+        "value": 5,
+        "note": "Share of a full battery used by one hour of Netflix HDR video"
+      },
+      {
+        "subject": "samsung-galaxy-z-flip7-fe",
+        "metric": "charge_full",
+        "value": 89,
+        "note": "Minutes from empty to full"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Jon Mundy"
+  },
+  {
+    "id": "tr-samsung-galaxy-z-fold-5",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Samsung Galaxy Z Fold 5",
+    "url": "https://www.trustedreviews.com/reviews/samsung-galaxy-z-fold-5",
+    "published": "2023-08-07",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "samsung-galaxy-z-fold5"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: Qualcomm Snapdragon 8 Gen 2 for Galaxy. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "samsung-galaxy-z-fold5",
+        "metric": "gb6_single",
+        "value": 1982
+      },
+      {
+        "subject": "samsung-galaxy-z-fold5",
+        "metric": "gb6_multi",
+        "value": 5154
+      },
+      {
+        "subject": "samsung-galaxy-z-fold5",
+        "metric": "tr_video_drain",
+        "value": 9,
+        "note": "Share of a full battery used by one hour of Netflix HDR video"
+      },
+      {
+        "subject": "samsung-galaxy-z-fold5",
+        "metric": "charge_full",
+        "value": 84,
+        "note": "Minutes from empty to full"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Lewis Painter"
+  },
+  {
+    "id": "tr-samsung-galaxy-z-fold-6",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Samsung Galaxy Z Fold 6",
+    "url": "https://www.trustedreviews.com/reviews/samsung-galaxy-z-fold-6",
+    "published": "2024-07-18",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "samsung-galaxy-z-fold6"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: Qualcomm Snapdragon 8 Gen 3 for Galaxy. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "samsung-galaxy-z-fold6",
+        "metric": "gb6_single",
+        "value": 2128
+      },
+      {
+        "subject": "samsung-galaxy-z-fold6",
+        "metric": "gb6_multi",
+        "value": 6203
+      },
+      {
+        "subject": "samsung-galaxy-z-fold6",
+        "metric": "tr_video_drain",
+        "value": 10,
+        "note": "Share of a full battery used by one hour of Netflix HDR video"
+      },
+      {
+        "subject": "samsung-galaxy-z-fold6",
+        "metric": "charge_full",
+        "value": 90,
+        "note": "Minutes from empty to full"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Lewis Painter"
+  },
+  {
+    "id": "tr-samsung-galaxy-z-fold-7",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Samsung Galaxy Z Fold 7 Review: The Fold we've been waiting for",
+    "url": "https://www.trustedreviews.com/reviews/samsung-galaxy-z-fold-7",
+    "published": "2025-07-17",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "samsung-galaxy-z-fold7"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: Qualcomm Snapdragon 8 Elite for Galaxy. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "samsung-galaxy-z-fold7",
+        "metric": "gb6_single",
+        "value": 2318
+      },
+      {
+        "subject": "samsung-galaxy-z-fold7",
+        "metric": "gb6_multi",
+        "value": 8828
+      },
+      {
+        "subject": "samsung-galaxy-z-fold7",
+        "metric": "tr_video_drain",
+        "value": 8,
+        "note": "Share of a full battery used by one hour of Netflix HDR video"
+      },
+      {
+        "subject": "samsung-galaxy-z-fold7",
+        "metric": "charge_full",
+        "value": 87,
+        "note": "Minutes from empty to full"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Lewis Painter"
+  },
+  {
+    "id": "tr-samsung-galaxy-z-fold-8",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Samsung Galaxy Z Fold 8 Review: The new standard for foldables",
+    "url": "https://www.trustedreviews.com/reviews/samsung-galaxy-z-fold-8",
+    "published": "2026-07-29",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "samsung-galaxy-z-fold8"
+    ],
+    "facets": [
+      "charging"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: Snapdragon 8 Elite for Galaxy. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "samsung-galaxy-z-fold8",
+        "metric": "charge_full",
+        "value": 68,
+        "note": "Minutes from empty to full"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Lewis Painter"
+  },
+  {
+    "id": "tr-samsung-galaxy-z-fold-8-ultra",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Samsung Galaxy Z Fold 8 Ultra",
+    "url": "https://www.trustedreviews.com/reviews/samsung-galaxy-z-fold-8-ultra",
+    "published": "2026-07-31",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "samsung-galaxy-z-fold8-ultra"
+    ],
+    "facets": [
+      "charging"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: Snapdragon 8 Elite Gen 5 for Galaxy. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "samsung-galaxy-z-fold8-ultra",
+        "metric": "charge_full",
+        "value": 63,
+        "note": "Minutes from empty to full"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Cam Bunton"
+  },
+  {
+    "id": "tr-sony-xperia-1-vii",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Sony Xperia 1 VII Review: End of the line?",
+    "url": "https://www.trustedreviews.com/reviews/sony-xperia-1-vii",
+    "published": "2025-08-11",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "sony-xperia-1-vii"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: Qualcomm Snapdragon 8 Elite. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "sony-xperia-1-vii",
+        "metric": "gb6_single",
+        "value": 3035
+      },
+      {
+        "subject": "sony-xperia-1-vii",
+        "metric": "gb6_multi",
+        "value": 9179
+      },
+      {
+        "subject": "sony-xperia-1-vii",
+        "metric": "tr_video_drain",
+        "value": 3,
+        "note": "Share of a full battery used by one hour of Netflix HDR video"
+      },
+      {
+        "subject": "sony-xperia-1-vii",
+        "metric": "charge_full",
+        "value": 89,
+        "note": "Minutes from empty to full"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Cam Bunton"
+  },
+  {
+    "id": "tr-sony-xperia-1-viii",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Sony Xperia 1 VIII",
+    "url": "https://www.trustedreviews.com/reviews/sony-xperia-1-viii",
+    "published": "2026-06-29",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "sony-xperia-1-viii"
+    ],
+    "facets": [
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: Snapdragon 8 Elite Gen 5. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "sony-xperia-1-viii",
+        "metric": "gb6_single",
+        "value": 3543
+      },
+      {
+        "subject": "sony-xperia-1-viii",
+        "metric": "gb6_multi",
+        "value": 10022
+      },
+      {
+        "subject": "sony-xperia-1-viii",
+        "metric": "charge_full",
+        "value": 85,
+        "note": "Minutes from empty to full"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Cam Bunton"
+  },
+  {
+    "id": "tr-vivo-v29",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Vivo V29",
+    "url": "https://www.trustedreviews.com/reviews/vivo-v29",
+    "published": "2023-08-24",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "vivo-v29"
+    ],
+    "facets": [
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: Qualcomm Snapdragon 778 5G. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "vivo-v29",
+        "metric": "gb6_single",
+        "value": 1024
+      },
+      {
+        "subject": "vivo-v29",
+        "metric": "gb6_multi",
+        "value": 2962
+      },
+      {
+        "subject": "vivo-v29",
+        "metric": "charge_full",
+        "value": 40,
+        "note": "Minutes from empty to full"
+      },
+      {
+        "subject": "vivo-v29",
+        "metric": "charge_30",
+        "value": 79,
+        "note": "Charged with the charger in the box"
+      },
+      {
+        "subject": "vivo-v29",
+        "metric": "charge_15",
+        "value": 43,
+        "note": "Charged with the charger in the box"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Sean Cameron"
+  },
+  {
+    "id": "tr-vivo-v30-pro",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Vivo V30 Pro Review",
+    "url": "https://www.trustedreviews.com/reviews/vivo-v30-pro",
+    "published": "2024-03-08",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "vivo-v30-pro"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: MediaTek Dimensity 8200. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "vivo-v30-pro",
+        "metric": "gb6_single",
+        "value": 1167
+      },
+      {
+        "subject": "vivo-v30-pro",
+        "metric": "gb6_multi",
+        "value": 3604
+      },
+      {
+        "subject": "vivo-v30-pro",
+        "metric": "tr_video_drain",
+        "value": 11,
+        "note": "Share of a full battery used by one hour of Netflix HDR video"
+      },
+      {
+        "subject": "vivo-v30-pro",
+        "metric": "charge_full",
+        "value": 41,
+        "note": "Minutes from empty to full"
+      },
+      {
+        "subject": "vivo-v30-pro",
+        "metric": "charge_30",
+        "value": 75,
+        "note": "Charged with the charger in the box"
+      },
+      {
+        "subject": "vivo-v30-pro",
+        "metric": "charge_15",
+        "value": 38,
+        "note": "Charged with the charger in the box"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Luke Baker"
+  },
+  {
+    "id": "tr-vivo-v40-pro",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Vivo V40 Pro Review",
+    "url": "https://www.trustedreviews.com/reviews/vivo-v40-pro",
+    "published": "2024-08-12",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "vivo-v40-pro"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: MediaTek Dimensity 9200+. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "vivo-v40-pro",
+        "metric": "gb6_single",
+        "value": 1782
+      },
+      {
+        "subject": "vivo-v40-pro",
+        "metric": "gb6_multi",
+        "value": 4767
+      },
+      {
+        "subject": "vivo-v40-pro",
+        "metric": "tr_video_drain",
+        "value": 6,
+        "note": "Share of a full battery used by one hour of Netflix HDR video"
+      },
+      {
+        "subject": "vivo-v40-pro",
+        "metric": "charge_full",
+        "value": 50,
+        "note": "Minutes from empty to full"
+      },
+      {
+        "subject": "vivo-v40-pro",
+        "metric": "charge_30",
+        "value": 60,
+        "note": "Charged with the charger in the box"
+      },
+      {
+        "subject": "vivo-v40-pro",
+        "metric": "charge_15",
+        "value": 31,
+        "note": "Charged with the charger in the box"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Luke Baker"
+  },
+  {
+    "id": "tr-vivo-x100-pro",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Vivo X100 Pro",
+    "url": "https://www.trustedreviews.com/reviews/vivo-x100-pro",
+    "published": "2024-01-02",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "vivo-x100-pro"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: MediaTek Dimensity 9300. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "vivo-x100-pro",
+        "metric": "gb6_single",
+        "value": 2125
+      },
+      {
+        "subject": "vivo-x100-pro",
+        "metric": "gb6_multi",
+        "value": 7327
+      },
+      {
+        "subject": "vivo-x100-pro",
+        "metric": "tr_video_drain",
+        "value": 4,
+        "note": "Share of a full battery used by one hour of Netflix HDR video"
+      },
+      {
+        "subject": "vivo-x100-pro",
+        "metric": "charge_full",
+        "value": 65,
+        "note": "Minutes from empty to full"
+      },
+      {
+        "subject": "vivo-x100-pro",
+        "metric": "charge_30",
+        "value": 90,
+        "note": "Charged with the charger in the box"
+      },
+      {
+        "subject": "vivo-x100-pro",
+        "metric": "charge_15",
+        "value": 46,
+        "note": "Charged with the charger in the box"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Luke Baker"
+  },
+  {
+    "id": "tr-vivo-x200-pro",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Vivo X200 Pro",
+    "url": "https://www.trustedreviews.com/reviews/vivo-x200-pro",
+    "published": "2024-12-13",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "vivo-x200-pro"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: MediaTek Dimensity 9400. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "vivo-x200-pro",
+        "metric": "gb6_single",
+        "value": 2626
+      },
+      {
+        "subject": "vivo-x200-pro",
+        "metric": "gb6_multi",
+        "value": 7680
+      },
+      {
+        "subject": "vivo-x200-pro",
+        "metric": "tr_video_drain",
+        "value": 6,
+        "note": "Share of a full battery used by one hour of Netflix HDR video"
+      },
+      {
+        "subject": "vivo-x200-pro",
+        "metric": "charge_full",
+        "value": 55,
+        "note": "Minutes from empty to full"
+      },
+      {
+        "subject": "vivo-x200-pro",
+        "metric": "charge_30",
+        "value": 60,
+        "note": "Charged with the charger in the box"
+      },
+      {
+        "subject": "vivo-x200-pro",
+        "metric": "charge_15",
+        "value": 32,
+        "note": "Charged with the charger in the box"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Luke Baker"
+  },
+  {
+    "id": "tr-vivo-x300-pro",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Vivo X300 Pro Review: More than just cameras?",
+    "url": "https://www.trustedreviews.com/reviews/vivo-x300-pro",
+    "published": "2025-12-19",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "vivo-x300-pro"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: MediaTek Dimensity 9500. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "vivo-x300-pro",
+        "metric": "gb6_single",
+        "value": 3373
+      },
+      {
+        "subject": "vivo-x300-pro",
+        "metric": "gb6_multi",
+        "value": 9848
+      },
+      {
+        "subject": "vivo-x300-pro",
+        "metric": "tr_video_drain",
+        "value": 5,
+        "note": "Share of a full battery used by one hour of Netflix HDR video"
+      },
+      {
+        "subject": "vivo-x300-pro",
+        "metric": "charge_full",
+        "value": 51,
+        "note": "Minutes from empty to full"
+      },
+      {
+        "subject": "vivo-x300-pro",
+        "metric": "charge_30",
+        "value": 73,
+        "note": "Charged with the charger in the box"
+      },
+      {
+        "subject": "vivo-x300-pro",
+        "metric": "charge_15",
+        "value": 42,
+        "note": "Charged with the charger in the box"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Cam Bunton"
+  },
+  {
+    "id": "tr-vivo-x300-ultra",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Vivo X300 Ultra Review: A new era of camera phone",
+    "url": "https://www.trustedreviews.com/reviews/vivo-x300-ultra",
+    "published": "2026-04-29",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "vivo-x300-ultra"
+    ],
+    "facets": [
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: Snapdragon 8 Elite Gen 5. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "vivo-x300-ultra",
+        "metric": "gb6_single",
+        "value": 3635
+      },
+      {
+        "subject": "vivo-x300-ultra",
+        "metric": "gb6_multi",
+        "value": 10594
+      },
+      {
+        "subject": "vivo-x300-ultra",
+        "metric": "charge_full",
+        "value": 55,
+        "note": "Minutes from empty to full"
+      },
+      {
+        "subject": "vivo-x300-ultra",
+        "metric": "charge_30",
+        "value": 71,
+        "note": "Charged with the charger in the box"
+      },
+      {
+        "subject": "vivo-x300-ultra",
+        "metric": "charge_15",
+        "value": 40,
+        "note": "Charged with the charger in the box"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Cam Bunton"
+  },
+  {
+    "id": "tr-vivo-x90-pro",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Vivo X90 Pro",
+    "url": "https://www.trustedreviews.com/reviews/vivo-x90-pro",
+    "published": "2023-02-23",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "vivo-x90-pro"
+    ],
+    "facets": [
+      "battery",
+      "charging"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: MediaTek Dimensity 9200. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "vivo-x90-pro",
+        "metric": "tr_video_drain",
+        "value": 8,
+        "note": "Share of a full battery used by one hour of Netflix HDR video"
+      },
+      {
+        "subject": "vivo-x90-pro",
+        "metric": "charge_full",
+        "value": 28,
+        "note": "Minutes from empty to full"
+      },
+      {
+        "subject": "vivo-x90-pro",
+        "metric": "charge_30",
+        "value": 100,
+        "note": "Charged with the charger in the box"
+      },
+      {
+        "subject": "vivo-x90-pro",
+        "metric": "charge_15",
+        "value": 67,
+        "note": "Charged with the charger in the box"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Lewis Painter"
+  },
+  {
+    "id": "tr-xiaomi-13",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Xiaomi 13 Review",
+    "url": "https://www.trustedreviews.com/reviews/xiaomi-13",
+    "published": "2023-03-13",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "xiaomi-13"
+    ],
+    "facets": [
+      "battery",
+      "charging"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: Qualcomm Snapdragon 8 Gen 2. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "xiaomi-13",
+        "metric": "tr_video_drain",
+        "value": 8,
+        "note": "Share of a full battery used by one hour of Netflix HDR video"
+      },
+      {
+        "subject": "xiaomi-13",
+        "metric": "charge_full",
+        "value": 39,
+        "note": "Minutes from empty to full"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Max Parker"
+  },
+  {
+    "id": "tr-xiaomi-13-pro",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Xiaomi 13 Pro",
+    "url": "https://www.trustedreviews.com/reviews/xiaomi-13-pro",
+    "published": "2023-03-08",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "xiaomi-13-pro"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: Snapdragon 8 Gen 2. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "xiaomi-13-pro",
+        "metric": "gb6_single",
+        "value": 1544
+      },
+      {
+        "subject": "xiaomi-13-pro",
+        "metric": "gb6_multi",
+        "value": 5112
+      },
+      {
+        "subject": "xiaomi-13-pro",
+        "metric": "tr_video_drain",
+        "value": 8,
+        "note": "Share of a full battery used by one hour of Netflix HDR video"
+      },
+      {
+        "subject": "xiaomi-13-pro",
+        "metric": "charge_full",
+        "value": 24,
+        "note": "Minutes from empty to full"
+      },
+      {
+        "subject": "xiaomi-13-pro",
+        "metric": "charge_30",
+        "value": 100,
+        "note": "Charged with the charger in the box"
+      },
+      {
+        "subject": "xiaomi-13-pro",
+        "metric": "charge_15",
+        "value": 78,
+        "note": "Charged with the charger in the box"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Lewis Painter"
+  },
+  {
+    "id": "tr-xiaomi-13-ultra",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Xiaomi 13 Ultra",
+    "url": "https://www.trustedreviews.com/reviews/xiaomi-13-ultra",
+    "published": "2023-06-06",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "xiaomi-13-ultra"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: Qualcomm 8 Gen 2. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "xiaomi-13-ultra",
+        "metric": "gb6_single",
+        "value": 2001
+      },
+      {
+        "subject": "xiaomi-13-ultra",
+        "metric": "gb6_multi",
+        "value": 5483
+      },
+      {
+        "subject": "xiaomi-13-ultra",
+        "metric": "tr_video_drain",
+        "value": 6,
+        "note": "Share of a full battery used by one hour of Netflix HDR video"
+      },
+      {
+        "subject": "xiaomi-13-ultra",
+        "metric": "charge_full",
+        "value": 32,
+        "note": "Minutes from empty to full"
+      },
+      {
+        "subject": "xiaomi-13-ultra",
+        "metric": "charge_30",
+        "value": 97,
+        "note": "Charged with the charger in the box"
+      },
+      {
+        "subject": "xiaomi-13-ultra",
+        "metric": "charge_15",
+        "value": 47,
+        "note": "Charged with the charger in the box"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Max Parker"
+  },
+  {
+    "id": "tr-xiaomi-13t-pro",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Xiaomi 13T Pro Review",
+    "url": "https://www.trustedreviews.com/reviews/xiaomi-13t-pro",
+    "published": "2023-09-26",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "xiaomi-13t-pro"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: MediaTek Dimensity 9200+. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "xiaomi-13t-pro",
+        "metric": "gb6_single",
+        "value": 1288
+      },
+      {
+        "subject": "xiaomi-13t-pro",
+        "metric": "gb6_multi",
+        "value": 3500
+      },
+      {
+        "subject": "xiaomi-13t-pro",
+        "metric": "tr_video_drain",
+        "value": 11,
+        "note": "Share of a full battery used by one hour of Netflix HDR video"
+      },
+      {
+        "subject": "xiaomi-13t-pro",
+        "metric": "charge_full",
+        "value": 33,
+        "note": "Minutes from empty to full"
+      },
+      {
+        "subject": "xiaomi-13t-pro",
+        "metric": "charge_30",
+        "value": 94,
+        "note": "Charged with the charger in the box"
+      },
+      {
+        "subject": "xiaomi-13t-pro",
+        "metric": "charge_15",
+        "value": 54,
+        "note": "Charged with the charger in the box"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Lewis Painter"
+  },
+  {
+    "id": "tr-xiaomi-14t-pro",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Xiaomi 14T Pro Review",
+    "url": "https://www.trustedreviews.com/reviews/xiaomi-14t-pro",
+    "published": "2024-09-27",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "xiaomi-14t-pro"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: MediaTek Dimensity 9300+. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "xiaomi-14t-pro",
+        "metric": "gb6_single",
+        "value": 2226
+      },
+      {
+        "subject": "xiaomi-14t-pro",
+        "metric": "gb6_multi",
+        "value": 7227
+      },
+      {
+        "subject": "xiaomi-14t-pro",
+        "metric": "tr_video_drain",
+        "value": 6,
+        "note": "Share of a full battery used by one hour of Netflix HDR video"
+      },
+      {
+        "subject": "xiaomi-14t-pro",
+        "metric": "charge_full",
+        "value": 23,
+        "note": "Minutes from empty to full"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Alex Walker-Todd"
+  },
+  {
+    "id": "tr-xiaomi-15-ultra",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Xiaomi 15 Ultra Review",
+    "url": "https://www.trustedreviews.com/reviews/xiaomi-15-ultra",
+    "published": "2025-03-02",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "xiaomi-15-ultra"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: Qualcomm Snapdragon 8 Elite. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "xiaomi-15-ultra",
+        "metric": "gb6_single",
+        "value": 2891
+      },
+      {
+        "subject": "xiaomi-15-ultra",
+        "metric": "gb6_multi",
+        "value": 8764
+      },
+      {
+        "subject": "xiaomi-15-ultra",
+        "metric": "tr_video_drain",
+        "value": 5,
+        "note": "Share of a full battery used by one hour of Netflix HDR video"
+      },
+      {
+        "subject": "xiaomi-15-ultra",
+        "metric": "charge_full",
+        "value": 91,
+        "note": "Minutes from empty to full"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Lewis Painter"
+  },
+  {
+    "id": "tr-xiaomi-15t-pro",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Xiaomi 15T Pro Review",
+    "url": "https://www.trustedreviews.com/reviews/xiaomi-15t-pro",
+    "published": "2025-10-10",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "xiaomi-15t-pro"
+    ],
+    "facets": [
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: MediaTek Dimensity 9400+. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "xiaomi-15t-pro",
+        "metric": "gb6_single",
+        "value": 2518
+      },
+      {
+        "subject": "xiaomi-15t-pro",
+        "metric": "gb6_multi",
+        "value": 7610
+      },
+      {
+        "subject": "xiaomi-15t-pro",
+        "metric": "charge_full",
+        "value": 60,
+        "note": "Minutes from empty to full"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Lewis Painter"
+  },
+  {
+    "id": "tr-xiaomi-17-ultra",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Xiaomi 17 Ultra Review",
+    "url": "https://www.trustedreviews.com/reviews/xiaomi-17-ultra",
+    "published": "2026-02-28",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "xiaomi-17-ultra"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: Snapdragon 8 Elite Gen 5. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "xiaomi-17-ultra",
+        "metric": "gb6_single",
+        "value": 3617
+      },
+      {
+        "subject": "xiaomi-17-ultra",
+        "metric": "gb6_multi",
+        "value": 10936
+      },
+      {
+        "subject": "xiaomi-17-ultra",
+        "metric": "tr_video_drain",
+        "value": 6,
+        "note": "Share of a full battery used by one hour of Netflix HDR video"
+      },
+      {
+        "subject": "xiaomi-17-ultra",
+        "metric": "charge_full",
+        "value": 64,
+        "note": "Minutes from empty to full"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Luke Baker"
+  },
+  {
+    "id": "tr-xiaomi-17t",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Xiaomi 17T Review",
+    "url": "https://www.trustedreviews.com/reviews/xiaomi-17t",
+    "published": "2026-05-28",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "xiaomi-17t"
+    ],
+    "facets": [
+      "battery",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: MediaTek Dimensity 8500 Ultra. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "xiaomi-17t",
+        "metric": "gb6_single",
+        "value": 1745
+      },
+      {
+        "subject": "xiaomi-17t",
+        "metric": "gb6_multi",
+        "value": 6585
+      },
+      {
+        "subject": "xiaomi-17t",
+        "metric": "tr_video_drain",
+        "value": 4,
+        "note": "Share of a full battery used by one hour of Netflix HDR video"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Reece Bithrey"
+  },
+  {
+    "id": "tr-xiaomi-17t-pro",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Xiaomi 17T Pro Review",
+    "url": "https://www.trustedreviews.com/reviews/xiaomi-17t-pro",
+    "published": "2026-05-28",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "xiaomi-17t-pro"
+    ],
+    "facets": [
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: MediaTek Dimensity 9500. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "xiaomi-17t-pro",
+        "metric": "gb6_single",
+        "value": 3109
+      },
+      {
+        "subject": "xiaomi-17t-pro",
+        "metric": "gb6_multi",
+        "value": 9105
+      },
+      {
+        "subject": "xiaomi-17t-pro",
+        "metric": "charge_full",
+        "value": 68,
+        "note": "Minutes from empty to full"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Lewis Painter"
+  },
+  {
+    "id": "tr-xiaomi-mix-flip",
+    "kind": "review",
+    "source": "trustedreviews",
+    "title": "Xiaomi Mix Flip Review",
+    "url": "https://www.trustedreviews.com/reviews/xiaomi-mix-flip",
+    "published": "2024-09-27",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "xiaomi-mix-flip"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "performance"
+    ],
+    "method": "Trusted Reviews' own tests, read from the review's Test Data table: Geekbench 6 and the charge level after 15 and 30 minutes and time to a full charge, from empty, and the battery used by an hour of Netflix HDR playback. The review unit's chipset: Qualcomm Snapdragon 8 Gen 3. Trusted Reviews tests UK models. Charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's own fast charging) are left out.",
+    "records": [
+      {
+        "subject": "xiaomi-mix-flip",
+        "metric": "gb6_single",
+        "value": 2196
+      },
+      {
+        "subject": "xiaomi-mix-flip",
+        "metric": "gb6_multi",
+        "value": 6480
+      },
+      {
+        "subject": "xiaomi-mix-flip",
+        "metric": "tr_video_drain",
+        "value": 6,
+        "note": "Share of a full battery used by one hour of Netflix HDR video"
+      },
+      {
+        "subject": "xiaomi-mix-flip",
+        "metric": "charge_full",
+        "value": 50,
+        "note": "Minutes from empty to full"
+      },
+      {
+        "subject": "xiaomi-mix-flip",
+        "metric": "charge_30",
+        "value": 72,
+        "note": "Charged with the charger in the box"
+      },
+      {
+        "subject": "xiaomi-mix-flip",
+        "metric": "charge_15",
+        "value": 39,
+        "note": "Charged with the charger in the box"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Andrew Williams"
+  }
+]

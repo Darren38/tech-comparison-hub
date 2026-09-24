@@ -1,0 +1,24 @@
+{
+  "id": "dimensity-9600m",
+  "name": "Dimensity 9600M",
+  "vendor": "mediatek",
+  "family": "Dimensity 9000",
+  "tier": "flagship",
+  "announced": "2026-09-21",
+  "aliases": [
+    "D9600M"
+  ],
+  "summary": "The chip in the standard vivo X500 and OPPO Find X10, below the Dimensity 9600 Pro and built on a 3 nm process. MediaTek's full specifications were not in the launch reports read; no test results yet.",
+  "process": {
+    "node": "3 nm"
+  },
+  "provenance": {
+    "default": {
+      "class": "news",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2026/09/22/vivo-x500-series-launched-china-specs-coming-to-malaysia-october/",
+      "checked": "2026-09-24",
+      "note": "3 nm process from SoyaCincau's and Zing Gadget's vivo X500 launch reports; used in the vivo X500 and OPPO Find X10."
+    }
+  }
+}

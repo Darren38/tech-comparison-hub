@@ -73,5 +73,12 @@
       }
     }
   },
-  "dataStatus": "compiled"
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/admin-image/wearables/watch-fit3/black.png",
+    "page": "https://consumer.huawei.com/uk/wearables/watch-fit3/specs/",
+    "credit": "HUAWEI UK",
+    "checked": "2026-09-24"
+  }
 }

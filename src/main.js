@@ -10,6 +10,7 @@ import { renderHeader, renderFooter, renderTray, updateNav, toggleTheme, toast }
 import { loadingState, errorState, compareButton } from './ui/components.js';
 import { mountAssistant } from './ui/assistant.js';
 import { enterPage, titlePage } from './core/trail.js';
+import { t, lang, setLang, startTranslation } from './core/i18n.js';
 
 const ROUTES = [
   { pattern: /^\/$/, load: () => import('./pages/home.js') },
@@ -23,6 +24,7 @@ const ROUTES = [
   { pattern: /^\/reviews$/, load: () => import('./pages/feed.js'), args: ['reviews'] },
   { pattern: /^\/methodology$/, load: () => import('./pages/methodology.js') },
   { pattern: /^\/coverage$/, load: () => import('./pages/coverage.js') },
+  { pattern: /^\/charts$/, load: () => import('./pages/charts.js') },
   { pattern: /^\/source\/([\w-]+)$/, load: () => import('./pages/source.js') },
   { pattern: /^\/brand\/([\w-]+)$/, load: () => import('./pages/brand.js') },
 ];
@@ -50,7 +52,7 @@ async function renderRoute(loc, { samePath }) {
     if (seq !== renderSeq) return; // user navigated away while this page was loading
     if (currentCleanup) currentCleanup();
     currentCleanup = null;
-    document.title = page.title ? `${page.title} · Tech Comparison Hub` : 'Tech Comparison Hub';
+    document.title = page.title ? `${t(page.title)} · ${t('Tech Comparison Hub')}` : t('Tech Comparison Hub');
     titlePage(page.title ?? 'Home');
     mount(app, html`<div class="page-enter">${page.html}</div>`);
     if (page.mount) currentCleanup = page.mount(app, loc) ?? null;
@@ -83,12 +85,12 @@ async function renderRoute(loc, { samePath }) {
       if (seq !== renderSeq) return;
       if (currentCleanup) currentCleanup();
       currentCleanup = null;
-      document.title = `${page.title} · Tech Comparison Hub`;
+      document.title = `${t(page.title)} · ${t('Tech Comparison Hub')}`;
       mount(app, html`<div class="page-enter">${page.html}</div>`);
       return;
     }
     console.error(error);
-    document.title = 'Error · Tech Comparison Hub';
+    document.title = `${t('Error')} · ${t('Tech Comparison Hub')}`;
     mount(app, errorState(error));
   }
 }
@@ -106,8 +108,8 @@ function bindGlobalEvents() {
     if (toggle) {
       const id = toggle.dataset.compareToggle;
       const had = compareTray.has(id);
-      if (!compareTray.toggle(id)) toast(`The comparison holds up to ${MAX_COMPARE} devices. Remove one first.`);
-      else if (!had) toast(`${store.deviceById.get(id)?.name ?? 'Device'} added to the comparison`);
+      if (!compareTray.toggle(id)) toast(t('The comparison holds up to {n} devices. Remove one first.', { n: MAX_COMPARE }));
+      else if (!had) toast(t('{name} added to the comparison', { name: store.deviceById.get(id)?.name ?? t('Device') }));
       refreshCompareButtons(id);
       return;
     }
@@ -134,6 +136,12 @@ function bindGlobalEvents() {
     const action = e.target.closest('[data-action]');
     if (action?.dataset.action === 'reload') window.location.reload();
     if (action?.dataset.action === 'theme') toggleTheme(action);
+    if (action?.dataset.action === 'lang') {
+      // Version 15: English / 中文. The chrome and the current page are drawn again in the chosen language.
+      setLang(lang() === 'zh' ? 'en' : 'zh');
+      window.location.reload(); // every part of the page, the Ask panel included, is drawn again in the new language
+      return;
+    }
     if (action?.dataset.action === 'menu') {
       const nav = document.getElementById('mobile-nav');
       const open = nav.dataset.open !== 'true';
@@ -147,7 +155,7 @@ function bindGlobalEvents() {
     setCurrency(select.value);
     document.querySelectorAll('[data-currency]').forEach((s) => (s.value = select.value));
     refreshRoute();
-    toast(`Prices now shown in ${currencyLabel(select.value)}. Converted prices are marked ≈.`);
+    toast(t('Prices now shown in {cur}. Converted prices are marked ≈.', { cur: currencyLabel(select.value) }));
   });
   // A device photo that fails to load (offline, blocked, moved on Commons) falls back to the to-scale outline.
   // "error" does not bubble, so listen in the capture phase.
@@ -191,6 +199,7 @@ async function boot() {
     return;
   }
   compareTray.prune(new Set(store.devices.map((d) => d.id)));
+  startTranslation();
   renderHeader();
   renderFooter();
   bindGlobalEvents();

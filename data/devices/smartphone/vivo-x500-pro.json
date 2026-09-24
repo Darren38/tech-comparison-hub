@@ -1,0 +1,171 @@
+{
+  "id": "vivo-x500-pro",
+  "name": "vivo X500 Pro",
+  "brand": "vivo",
+  "category": "smartphone",
+  "series": "vivo X",
+  "form": "bar",
+  "status": "announced",
+  "announced": "2026-09-21",
+  "segment": "flagship",
+  "aliases": [
+    "X500 Pro"
+  ],
+  "summary": "Compact X500 Pro with a 6.36-inch screen, a 64 MP ZEISS APO periscope and the 2 nm Dimensity 9600 Pro. Launched in China on 21 September 2026; vivo Malaysia expects it here towards the end of October. No independent tests yet: its scores come from specifications only.",
+  "highlights": [
+    "Dimensity 9600 Pro",
+    "6.36-inch compact display",
+    "64 MP ZEISS APO periscope (3.5x)",
+    "6,510 mAh battery"
+  ],
+  "prices": [
+    {
+      "region": "CN",
+      "currency": "CNY",
+      "amount": 6499,
+      "config": "12 GB / 256 GB",
+      "date": "2026-09-21",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2026/09/22/vivo-x500-series-launched-china-specs-coming-to-malaysia-october/",
+      "class": "news",
+      "accessed": "2026-09-24"
+    },
+    {
+      "region": "CN",
+      "currency": "CNY",
+      "amount": 7499,
+      "config": "12 GB / 512 GB",
+      "date": "2026-09-21",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2026/09/22/vivo-x500-series-launched-china-specs-coming-to-malaysia-october/",
+      "class": "news",
+      "accessed": "2026-09-24"
+    },
+    {
+      "region": "CN",
+      "currency": "CNY",
+      "amount": 8499,
+      "config": "12 GB / 1 TB",
+      "date": "2026-09-21",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2026/09/22/vivo-x500-series-launched-china-specs-coming-to-malaysia-october/",
+      "class": "news",
+      "accessed": "2026-09-24"
+    }
+  ],
+  "availability": {
+    "MY": {
+      "status": "not-launched",
+      "checked": "2026-09-24",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2026/09/22/vivo-x500-series-launched-china-specs-coming-to-malaysia-october/",
+      "note": "China launch on 21 September 2026. vivo Malaysia expects the X500 series in Malaysia towards the end of October 2026; no price yet."
+    }
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.36,
+      "type": "LTPO AMOLED",
+      "resolution": "2660 × 1216",
+      "ppi": 459,
+      "refresh_hz": 144,
+      "peak_nits": 4500
+    },
+    "platform": {
+      "chipset": "dimensity-9600-pro"
+    },
+    "memory": {
+      "ram_gb": [
+        12
+      ],
+      "storage_gb": [
+        256,
+        512,
+        1024
+      ]
+    },
+    "battery": {
+      "capacity_mah": 6510
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "aperture": "f/1.57",
+          "sensor": "1/1.28\"",
+          "focal_mm": 24,
+          "ois": true,
+          "note": "LYTIA L910; gimbal-grade OIS"
+        },
+        {
+          "role": "periscope",
+          "mp": 64,
+          "sensor": "1/2.0\"",
+          "focal_mm": 85,
+          "ois": true,
+          "zoom_x": 3.5,
+          "note": "ZEISS APO, Sony LYTIA 610"
+        },
+        {
+          "role": "ultrawide",
+          "mp": 50,
+          "aperture": "f/2.0",
+          "focal_mm": 15
+        }
+      ],
+      "zoom_optical_x": 3.5,
+      "front": "50 MP, f/2.0",
+      "video": "4K 240 fps slow motion; 4K 120 fps 10-bit Log"
+    },
+    "build": {
+      "ip": "IP68, IP69",
+      "weight_g": 197,
+      "dimensions": {
+        "height_mm": 151.78,
+        "width_mm": 71.92,
+        "depth_mm": 8.12
+      }
+    },
+    "charging": {
+      "wired_w": 90,
+      "wireless_w": 40
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true,
+      "wifi": "Wi-Fi 7"
+    },
+    "biometrics": {
+      "fingerprint": "3D ultrasonic, under display",
+      "face": "2D face recognition"
+    },
+    "sensors": "Infrared blaster",
+    "audio": {
+      "speakers": "Stereo"
+    },
+    "software": {
+      "launch_os": "OriginOS 7 (Android 17)"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "news",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2026/09/22/vivo-x500-series-launched-china-specs-coming-to-malaysia-october/",
+      "checked": "2026-09-24",
+      "note": "Specifications from launch reports by SoyaCincau, Zing Gadget and TechNave; where they differ, the figure two of them agree on is recorded. Weight and size from Zing Gadget (192 g and 7.95 mm thick in black). No independent tests yet: its scores come from specifications only."
+    }
+  },
+  "dataStatus": "checked",
+  "image": {
+    "kind": "official",
+    "src": "https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1789116258692/cb75d4c9d2cee7db82630d1f726108c7.png",
+    "page": "https://www.vivo.com.cn/vivo/param/x500pro/",
+    "credit": "vivo China",
+    "checked": "2026-09-24"
+  }
+}

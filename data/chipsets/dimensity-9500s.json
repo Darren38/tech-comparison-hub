@@ -1,0 +1,21 @@
+{
+  "id": "dimensity-9500s",
+  "name": "Dimensity 9500S",
+  "vendor": "mediatek",
+  "family": "Dimensity 9000",
+  "tier": "flagship",
+  "announced": "2026-09-22",
+  "aliases": [
+    "D9500S"
+  ],
+  "summary": "A Dimensity 9500 derivative used in the OPPO Find X10 E. Its specifications were not in the launch reports read; no test results yet.",
+  "provenance": {
+    "default": {
+      "class": "news",
+      "source": "mydrivers",
+      "url": "https://news.mydrivers.com/1/1153/1153606.htm",
+      "checked": "2026-09-24",
+      "note": "Named in 快科技's and Zing Gadget's OPPO Find X10 series reports."
+    }
+  }
+}

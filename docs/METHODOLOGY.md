@@ -59,7 +59,7 @@ Evaluated in order:
 9. A single tier-A measurement → **Medium**.
 10. Otherwise (a single secondary source) → **Low**.
 
-Then early-software results are capped at **Medium**, and inherited chipset values are capped at **Medium**. Every value carries a one-line reason, for example: “2 independent sources agree within 6% (GSMArena, Notebookcheck)”.
+Then early-software results are capped at **Medium**, and inherited chipset values are capped at **Medium**. A published figure that every other test of the same hardware contradicts (for example a single-core score half of every other result for that chip, or one the review's own text contradicts) is marked **disputed**: it stays on the device page with the reason, but it counts towards no consensus, score or chipset stand-in. Every value carries a one-line reason, for example: “2 independent sources agree within 6% (GSMArena, Notebookcheck)”.
 
 ## 5. Scores
 

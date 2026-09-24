@@ -7,6 +7,7 @@ import { store, sourceName } from '../core/store.js';
 import { href } from '../core/router.js';
 import { docCard, emptyState, provBadge, sourceLink, extLink, tag, sectionHead, icon, pageTrail, cardThumb, thumbLink } from '../ui/components.js';
 import { loadHeadlines, refreshHeadlines, canCollectLive, isSafeUrl } from '../engine/live.js';
+import { isZh } from '../core/i18n.js';
 
 const MODES = {
   news: {
@@ -93,6 +94,7 @@ function livePanel(mode) {
       </div>
       <div class="live__actions">
         <label class="check small"><input type="checkbox" data-live-matched /> Only devices in this hub</label>
+        <label class="check small"><input type="checkbox" data-live-zh ${isZh() ? 'checked' : ''} /> Include Chinese-language sources</label>
         <button type="button" class="btn btn--sm live__refresh" data-live-refresh>${icon('refresh', { size: 16 })}<span>Refresh</span></button>
       </div>
     </div>
@@ -114,6 +116,7 @@ function liveItem(item, isNew) {
     <div class="live__meta tiny">
       <a class="live__source" href="${href(`/source/${item.source}`)}">${sourceName(item.source)}</a>
       ${item.kind === 'video' ? tag('Video', 'muted') : item.kind === 'review' ? tag('Review', 'muted') : ''}
+      ${item.lang === 'zh' ? tag('In Chinese', 'muted') : ''}
       ${item.published ? html`<time datetime="${item.published}" title="${fmtDateTime(item.published)}">${timeAgo(item.published)}</time>` : html`<span class="faint">Date not given</span>`}
       ${isNew ? html`<span class="live__new">New</span>` : ''}
     </div>
@@ -132,6 +135,7 @@ function bindLive(root, mode) {
   const refreshBtn = panel.querySelector('[data-live-refresh]');
   const moreBtn = panel.querySelector('[data-live-more]');
   const matchedBox = panel.querySelector('[data-live-matched]');
+  const zhBox = panel.querySelector('[data-live-zh]');
   let data = null;
   const LIVE_PAGE = livePage();
   let shown = LIVE_PAGE;
@@ -141,7 +145,7 @@ function bindLive(root, mode) {
   let alive = true;
 
   const relevant = (d) => (d?.items ?? []).filter((i) => mode.liveKinds.includes(i.kind) && i.title && isSafeUrl(i.url));
-  const visible = () => relevant(data).filter((i) => !matchedBox.checked || i.devices?.length);
+  const visible = () => relevant(data).filter((i) => (!matchedBox.checked || i.devices?.length) && (zhBox.checked || i.lang !== 'zh'));
 
   function renderStatus() {
     if (!data) {
@@ -207,10 +211,12 @@ function bindLive(root, mode) {
   }
 
   refreshBtn.addEventListener('click', refresh);
-  matchedBox.addEventListener('change', () => {
-    shown = LIVE_PAGE;
-    renderList();
-  });
+  for (const box of [matchedBox, zhBox]) {
+    box.addEventListener('change', () => {
+      shown = LIVE_PAGE;
+      renderList();
+    });
+  }
   moreBtn.addEventListener('click', () => {
     shown += LIVE_PAGE;
     renderList();

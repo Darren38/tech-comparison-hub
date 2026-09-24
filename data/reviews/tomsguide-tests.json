@@ -1,0 +1,2518 @@
+[
+  {
+    "id": "tg-asus-rog-phone-9-pro-review-gaming-pro-and-battery-life-lege",
+    "kind": "review",
+    "source": "tomsguide",
+    "title": "Asus ROG Phone 9 Pro review: Gaming pro and battery life legend",
+    "url": "https://www.tomsguide.com/phones/android-phones/asus-rog-phone-9-pro-review-gaming-pro-and-battery-life-legend",
+    "published": "2024-11-19",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "asus-rog-phone-9-pro",
+      "samsung-galaxy-s24-ultra"
+    ],
+    "facets": [
+      "battery",
+      "display",
+      "performance"
+    ],
+    "method": "Tom's Guide's own tests, read from the review's results tables: Geekbench 6, battery life on its web-surfing test over cellular at 150 nits, charge level after 15 and 30 minutes, peak brightness with a light meter and 3DMark stress-test stability. Figures for rival phones come from the same tables; Tom's Guide tests US models. Tom's Guide revised its battery test in 2025, so each phone's battery result is taken from the most recent review that lists it.",
+    "records": [
+      {
+        "subject": "asus-rog-phone-9-pro",
+        "metric": "nits_peak",
+        "value": 1676,
+        "note": "Tom's Guide light-meter reading (\"Peak brightness (nits)\")"
+      },
+      {
+        "subject": "asus-rog-phone-9-pro",
+        "metric": "tg_web",
+        "value": 20.567,
+        "note": "20 h 34 min"
+      },
+      {
+        "subject": "samsung-galaxy-s24-ultra",
+        "metric": "gb6_multi",
+        "value": 7249
+      },
+      {
+        "subject": "samsung-galaxy-s24-ultra",
+        "metric": "gb6_single",
+        "value": 2300
+      },
+      {
+        "subject": "samsung-galaxy-s24-ultra",
+        "metric": "tg_web",
+        "value": 16.75,
+        "note": "16 h 45 min"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Richard Priday"
+  },
+  {
+    "id": "tg-honor-magic7-pro-review-on-the-edge-of-excellence",
+    "kind": "review",
+    "source": "tomsguide",
+    "title": "Honor Magic7 Pro review: On the edge of excellence",
+    "url": "https://www.tomsguide.com/phones/android-phones/honor-magic7-pro-review-on-the-edge-of-excellence",
+    "published": "2025-01-17",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "honor-magic7-pro"
+    ],
+    "facets": [
+      "performance"
+    ],
+    "method": "Tom's Guide's own tests, read from the review's results tables: Geekbench 6, battery life on its web-surfing test over cellular at 150 nits, charge level after 15 and 30 minutes, peak brightness with a light meter and 3DMark stress-test stability. Figures for rival phones come from the same tables; Tom's Guide tests US models. Tom's Guide revised its battery test in 2025, so each phone's battery result is taken from the most recent review that lists it.",
+    "records": [
+      {
+        "subject": "honor-magic7-pro",
+        "metric": "gb6_multi",
+        "value": 8880
+      },
+      {
+        "subject": "honor-magic7-pro",
+        "metric": "gb6_single",
+        "value": 3038
+      }
+    ],
+    "extraction": "partial",
+    "author": "Richard Priday"
+  },
+  {
+    "id": "tg-i-tested-the-honor-magic8-pro-and-it-addressed-almost-all-th",
+    "kind": "review",
+    "source": "tomsguide",
+    "title": "Honor Magic8 Pro review: So good that you’ll be annoyed you can’t get it",
+    "url": "https://www.tomsguide.com/phones/android-phones/i-tested-the-honor-magic8-pro-and-it-addressed-almost-all-the-problems-i-had-with-the-last-model",
+    "published": "2026-01-08",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "honor-magic8-pro"
+    ],
+    "facets": [
+      "performance"
+    ],
+    "method": "Tom's Guide's own tests, read from the review's results tables: Geekbench 6, battery life on its web-surfing test over cellular at 150 nits, charge level after 15 and 30 minutes, peak brightness with a light meter and 3DMark stress-test stability. Figures for rival phones come from the same tables; Tom's Guide tests US models. Tom's Guide revised its battery test in 2025, so each phone's battery result is taken from the most recent review that lists it.",
+    "records": [
+      {
+        "subject": "honor-magic8-pro",
+        "metric": "gb6_multi",
+        "value": 10372
+      },
+      {
+        "subject": "honor-magic8-pro",
+        "metric": "gb6_single",
+        "value": 3352
+      }
+    ],
+    "extraction": "partial",
+    "author": "Richard Priday"
+  },
+  {
+    "id": "tg-nothing-phone-3-review",
+    "kind": "review",
+    "source": "tomsguide",
+    "title": "Nothing Phone 3 Review: A first flagship that mostly sticks the landing",
+    "url": "https://www.tomsguide.com/phones/android-phones/nothing-phone-3-review",
+    "published": "2025-07-08",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "nothing-phone-3"
+    ],
+    "facets": [
+      "performance"
+    ],
+    "method": "Tom's Guide's own tests, read from the review's results tables: Geekbench 6, battery life on its web-surfing test over cellular at 150 nits, charge level after 15 and 30 minutes, peak brightness with a light meter and 3DMark stress-test stability. Figures for rival phones come from the same tables; Tom's Guide tests US models. Tom's Guide revised its battery test in 2025, so each phone's battery result is taken from the most recent review that lists it.",
+    "records": [
+      {
+        "subject": "nothing-phone-3",
+        "metric": "gb6_multi",
+        "value": 6800
+      },
+      {
+        "subject": "nothing-phone-3",
+        "metric": "gb6_single",
+        "value": 2159
+      }
+    ],
+    "extraction": "partial",
+    "author": "Richard Priday"
+  },
+  {
+    "id": "tg-oppo-find-x8-review-a-brilliant-flagship-phone-value-if-you-",
+    "kind": "review",
+    "source": "tomsguide",
+    "title": "Oppo Find X8 review: A brilliant flagship phone value",
+    "url": "https://www.tomsguide.com/phones/android-phones/oppo-find-x8-review-a-brilliant-flagship-phone-value-if-you-can-find-it",
+    "published": "2024-12-27",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "oppo-find-x8"
+    ],
+    "facets": [
+      "performance"
+    ],
+    "method": "Tom's Guide's own tests, read from the review's results tables: Geekbench 6, battery life on its web-surfing test over cellular at 150 nits, charge level after 15 and 30 minutes, peak brightness with a light meter and 3DMark stress-test stability. Figures for rival phones come from the same tables; Tom's Guide tests US models. Tom's Guide revised its battery test in 2025, so each phone's battery result is taken from the most recent review that lists it.",
+    "records": [
+      {
+        "subject": "oppo-find-x8",
+        "metric": "gb6_multi",
+        "value": 8486
+      },
+      {
+        "subject": "oppo-find-x8",
+        "metric": "gb6_single",
+        "value": 2805
+      }
+    ],
+    "extraction": "partial",
+    "author": "Josh Render"
+  },
+  {
+    "id": "tg-xiaomi-15-review",
+    "kind": "review",
+    "source": "tomsguide",
+    "title": "Xiaomi 15 review: A solid Android phone that struggles to stand out",
+    "url": "https://www.tomsguide.com/phones/android-phones/xiaomi-15-review",
+    "published": "2025-03-27",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "xiaomi-15"
+    ],
+    "facets": [
+      "performance"
+    ],
+    "method": "Tom's Guide's own tests, read from the review's results tables: Geekbench 6, battery life on its web-surfing test over cellular at 150 nits, charge level after 15 and 30 minutes, peak brightness with a light meter and 3DMark stress-test stability. Figures for rival phones come from the same tables; Tom's Guide tests US models. Tom's Guide revised its battery test in 2025, so each phone's battery result is taken from the most recent review that lists it.",
+    "records": [
+      {
+        "subject": "xiaomi-15",
+        "metric": "gb6_multi",
+        "value": 9330
+      },
+      {
+        "subject": "xiaomi-15",
+        "metric": "gb6_single",
+        "value": 2972
+      }
+    ],
+    "extraction": "partial",
+    "author": "Tom Pritchard"
+  },
+  {
+    "id": "tg-xiaomi-15-ultra-review-an-excellent-phone-you-probably-cant-",
+    "kind": "review",
+    "source": "tomsguide",
+    "title": "Xiaomi 15 Ultra review: One of the best designed phones I’ve ever seen",
+    "url": "https://www.tomsguide.com/phones/android-phones/xiaomi-15-ultra-review-an-excellent-phone-you-probably-cant-buy",
+    "published": "2025-03-02",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "xiaomi-15-ultra"
+    ],
+    "facets": [
+      "performance"
+    ],
+    "method": "Tom's Guide's own tests, read from the review's results tables: Geekbench 6, battery life on its web-surfing test over cellular at 150 nits, charge level after 15 and 30 minutes, peak brightness with a light meter and 3DMark stress-test stability. Figures for rival phones come from the same tables; Tom's Guide tests US models. Tom's Guide revised its battery test in 2025, so each phone's battery result is taken from the most recent review that lists it.",
+    "records": [
+      {
+        "subject": "xiaomi-15-ultra",
+        "metric": "gb6_multi",
+        "value": 9064
+      },
+      {
+        "subject": "xiaomi-15-ultra",
+        "metric": "gb6_single",
+        "value": 2986
+      }
+    ],
+    "extraction": "partial",
+    "author": "Tom Pritchard"
+  },
+  {
+    "id": "tg-google-pixel-10-pro-xl-review",
+    "kind": "review",
+    "source": "tomsguide",
+    "title": "Google Pixel 10 Pro XL Review: Minimal Upgrades, Maximum Impact",
+    "url": "https://www.tomsguide.com/phones/google-pixel-phones/google-pixel-10-pro-xl-review",
+    "published": "2025-08-27",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "google-pixel-10-pro-xl"
+    ],
+    "facets": [
+      "display",
+      "performance"
+    ],
+    "method": "Tom's Guide's own tests, read from the review's results tables: Geekbench 6, battery life on its web-surfing test over cellular at 150 nits, charge level after 15 and 30 minutes, peak brightness with a light meter and 3DMark stress-test stability. Figures for rival phones come from the same tables; Tom's Guide tests US models. Tom's Guide revised its battery test in 2025, so each phone's battery result is taken from the most recent review that lists it.",
+    "records": [
+      {
+        "subject": "google-pixel-10-pro-xl",
+        "metric": "gb6_multi",
+        "value": 6286
+      },
+      {
+        "subject": "google-pixel-10-pro-xl",
+        "metric": "gb6_single",
+        "value": 2322
+      },
+      {
+        "subject": "google-pixel-10-pro-xl",
+        "metric": "nits_peak",
+        "value": 2555,
+        "note": "Tom's Guide light-meter reading (\"Peak brightness (nits)\")"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Richard Priday"
+  },
+  {
+    "id": "tg-google-pixel-10-review",
+    "kind": "review",
+    "source": "tomsguide",
+    "title": "Google Pixel 10 Review: The Biggest Upgrade In Years",
+    "url": "https://www.tomsguide.com/phones/google-pixel-phones/google-pixel-10-review",
+    "published": "2025-08-20",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "google-pixel-10"
+    ],
+    "facets": [
+      "charging",
+      "display",
+      "performance"
+    ],
+    "method": "Tom's Guide's own tests, read from the review's results tables: Geekbench 6, battery life on its web-surfing test over cellular at 150 nits, charge level after 15 and 30 minutes, peak brightness with a light meter and 3DMark stress-test stability. Figures for rival phones come from the same tables; Tom's Guide tests US models. Tom's Guide revised its battery test in 2025, so each phone's battery result is taken from the most recent review that lists it.",
+    "records": [
+      {
+        "subject": "google-pixel-10",
+        "metric": "charge_30",
+        "value": 52.0
+      },
+      {
+        "subject": "google-pixel-10",
+        "metric": "gb6_multi",
+        "value": 6581
+      },
+      {
+        "subject": "google-pixel-10",
+        "metric": "gb6_single",
+        "value": 2345
+      },
+      {
+        "subject": "google-pixel-10",
+        "metric": "nits_peak",
+        "value": 2333,
+        "note": "Tom's Guide light-meter reading (\"Brightness (nits)\")"
+      }
+    ],
+    "extraction": "partial",
+    "author": "John Velasco"
+  },
+  {
+    "id": "tg-google-pixel-11-pro-fold-review",
+    "kind": "review",
+    "source": "tomsguide",
+    "title": "Google Pixel 11 Pro Fold review: Falling behind the foldable curve",
+    "url": "https://www.tomsguide.com/phones/google-pixel-phones/google-pixel-11-pro-fold-review",
+    "published": "2026-08-19",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "google-pixel-11-pro-fold",
+      "samsung-galaxy-z-fold8-ultra"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "display",
+      "performance"
+    ],
+    "method": "Tom's Guide's own tests, read from the review's results tables: Geekbench 6, battery life on its web-surfing test over cellular at 150 nits, charge level after 15 and 30 minutes, peak brightness with a light meter and 3DMark stress-test stability. Figures for rival phones come from the same tables; Tom's Guide tests US models. Tom's Guide revised its battery test in 2025, so each phone's battery result is taken from the most recent review that lists it.",
+    "records": [
+      {
+        "subject": "google-pixel-11-pro-fold",
+        "metric": "charge_15",
+        "value": 29.0
+      },
+      {
+        "subject": "google-pixel-11-pro-fold",
+        "metric": "charge_30",
+        "value": 56.0
+      },
+      {
+        "subject": "google-pixel-11-pro-fold",
+        "metric": "gb6_multi",
+        "value": 7381
+      },
+      {
+        "subject": "google-pixel-11-pro-fold",
+        "metric": "gb6_single",
+        "value": 2687
+      },
+      {
+        "subject": "google-pixel-11-pro-fold",
+        "metric": "nits_peak",
+        "value": 2982,
+        "note": "Tom's Guide light-meter reading (\"Peak Brightness (Nits)\")"
+      },
+      {
+        "subject": "google-pixel-11-pro-fold",
+        "metric": "tg_web",
+        "value": 12.517,
+        "note": "12 h 31 min"
+      },
+      {
+        "subject": "samsung-galaxy-z-fold8-ultra",
+        "metric": "charge_15",
+        "value": 49.0
+      },
+      {
+        "subject": "samsung-galaxy-z-fold8-ultra",
+        "metric": "gb6_multi",
+        "value": 11457
+      },
+      {
+        "subject": "samsung-galaxy-z-fold8-ultra",
+        "metric": "gb6_single",
+        "value": 3733
+      },
+      {
+        "subject": "samsung-galaxy-z-fold8-ultra",
+        "metric": "nits_peak",
+        "value": 2687,
+        "note": "Tom's Guide light-meter reading (\"Peak Brightness (Nits)\")"
+      },
+      {
+        "subject": "samsung-galaxy-z-fold8-ultra",
+        "metric": "tg_web",
+        "value": 14.55,
+        "note": "14 h 33 min"
+      }
+    ],
+    "extraction": "partial",
+    "author": "John Velasco"
+  },
+  {
+    "id": "tg-google-pixel-11-pro-pro-xl-review",
+    "kind": "review",
+    "source": "tomsguide",
+    "title": "Google Pixel 11 Pro and Pro XL review: A sprinkling of interesting features can't make up for offering little else",
+    "url": "https://www.tomsguide.com/phones/google-pixel-phones/google-pixel-11-pro-pro-xl-review",
+    "published": "2026-08-19",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "apple-iphone-17-pro-max",
+      "google-pixel-10-pro",
+      "google-pixel-10-pro-xl",
+      "google-pixel-11-pro",
+      "google-pixel-11-pro-xl",
+      "samsung-galaxy-s26-plus"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "performance"
+    ],
+    "method": "Tom's Guide's own tests, read from the review's results tables: Geekbench 6, battery life on its web-surfing test over cellular at 150 nits, charge level after 15 and 30 minutes, peak brightness with a light meter and 3DMark stress-test stability. Figures for rival phones come from the same tables; Tom's Guide tests US models. Tom's Guide revised its battery test in 2025, so each phone's battery result is taken from the most recent review that lists it.",
+    "records": [
+      {
+        "subject": "apple-iphone-17-pro-max",
+        "metric": "charge_30",
+        "value": 64.0
+      },
+      {
+        "subject": "google-pixel-10-pro",
+        "metric": "charge_30",
+        "value": 55.0
+      },
+      {
+        "subject": "google-pixel-10-pro",
+        "metric": "tg_web",
+        "value": 13.717,
+        "note": "13 h 43 min"
+      },
+      {
+        "subject": "google-pixel-10-pro-xl",
+        "metric": "charge_30",
+        "value": 63.0
+      },
+      {
+        "subject": "google-pixel-10-pro-xl",
+        "metric": "tg_web",
+        "value": 14.167,
+        "note": "14 h 10 min"
+      },
+      {
+        "subject": "google-pixel-11-pro",
+        "metric": "charge_30",
+        "value": 51.0
+      },
+      {
+        "subject": "google-pixel-11-pro",
+        "metric": "gb6_multi",
+        "value": 7164
+      },
+      {
+        "subject": "google-pixel-11-pro",
+        "metric": "gb6_single",
+        "value": 2649
+      },
+      {
+        "subject": "google-pixel-11-pro",
+        "metric": "tg_web",
+        "value": 13.417,
+        "note": "13 h 25 min"
+      },
+      {
+        "subject": "google-pixel-11-pro-xl",
+        "metric": "charge_30",
+        "value": 54.0
+      },
+      {
+        "subject": "google-pixel-11-pro-xl",
+        "metric": "gb6_multi",
+        "value": 7453
+      },
+      {
+        "subject": "google-pixel-11-pro-xl",
+        "metric": "gb6_single",
+        "value": 2713
+      },
+      {
+        "subject": "google-pixel-11-pro-xl",
+        "metric": "tg_web",
+        "value": 14.467,
+        "note": "14 h 28 min"
+      },
+      {
+        "subject": "samsung-galaxy-s26-plus",
+        "metric": "charge_30",
+        "value": 71.0,
+        "variant": "US model",
+        "note": "Tested on the US model; the display and charging hardware are the same as the Malaysian model"
+      },
+      {
+        "subject": "samsung-galaxy-s26-plus",
+        "metric": "tg_web",
+        "value": 13.217,
+        "chip": "snapdragon-8-elite-gen-5",
+        "variant": "Snapdragon 8 Elite Gen 5 for Galaxy (US model)",
+        "note": "13 h 13 min"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Tom Pritchard"
+  },
+  {
+    "id": "tg-google-pixel-11-review",
+    "kind": "review",
+    "source": "tomsguide",
+    "title": "Google Pixel 11 review: Lackluster upgrades that cost $100 more",
+    "url": "https://www.tomsguide.com/phones/google-pixel-phones/google-pixel-11-review",
+    "published": "2026-08-27",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "apple-iphone-17",
+      "google-pixel-10",
+      "google-pixel-11",
+      "samsung-galaxy-s26"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "performance"
+    ],
+    "method": "Tom's Guide's own tests, read from the review's results tables: Geekbench 6, battery life on its web-surfing test over cellular at 150 nits, charge level after 15 and 30 minutes, peak brightness with a light meter and 3DMark stress-test stability. Figures for rival phones come from the same tables; Tom's Guide tests US models. Tom's Guide revised its battery test in 2025, so each phone's battery result is taken from the most recent review that lists it.",
+    "records": [
+      {
+        "subject": "apple-iphone-17",
+        "metric": "tg_web",
+        "value": 12.783,
+        "note": "12 h 47 min"
+      },
+      {
+        "subject": "google-pixel-10",
+        "metric": "tg_web",
+        "value": 13.217,
+        "note": "13 h 13 min"
+      },
+      {
+        "subject": "google-pixel-11",
+        "metric": "charge_30",
+        "value": 52.0
+      },
+      {
+        "subject": "google-pixel-11",
+        "metric": "gb6_multi",
+        "value": 7347
+      },
+      {
+        "subject": "google-pixel-11",
+        "metric": "gb6_single",
+        "value": 2664
+      },
+      {
+        "subject": "google-pixel-11",
+        "metric": "tg_web",
+        "value": 12.75,
+        "note": "12 h 45 min"
+      },
+      {
+        "subject": "samsung-galaxy-s26",
+        "metric": "tg_web",
+        "value": 11.467,
+        "chip": "snapdragon-8-elite-gen-5",
+        "variant": "Snapdragon 8 Elite Gen 5 for Galaxy (US model)",
+        "note": "11 h 28 min"
+      }
+    ],
+    "extraction": "partial",
+    "author": "John Velasco"
+  },
+  {
+    "id": "tg-google-pixel-9-pro-fold-review",
+    "kind": "review",
+    "source": "tomsguide",
+    "title": "Google Pixel 9 Pro Fold review: A dramatically improved foldable",
+    "url": "https://www.tomsguide.com/phones/google-pixel-phones/google-pixel-9-pro-fold-review",
+    "published": "2024-09-03",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "samsung-galaxy-z-fold6"
+    ],
+    "facets": [
+      "charging",
+      "display"
+    ],
+    "method": "Tom's Guide's own tests, read from the review's results tables: Geekbench 6, battery life on its web-surfing test over cellular at 150 nits, charge level after 15 and 30 minutes, peak brightness with a light meter and 3DMark stress-test stability. Figures for rival phones come from the same tables; Tom's Guide tests US models. Tom's Guide revised its battery test in 2025, so each phone's battery result is taken from the most recent review that lists it.",
+    "records": [
+      {
+        "subject": "samsung-galaxy-z-fold6",
+        "metric": "charge_30",
+        "value": 56.0
+      },
+      {
+        "subject": "samsung-galaxy-z-fold6",
+        "metric": "nits_peak",
+        "value": 2317,
+        "note": "Tom's Guide light-meter reading (\"Brightness (nits)\")"
+      }
+    ],
+    "extraction": "partial",
+    "author": "John Velasco"
+  },
+  {
+    "id": "tg-google-pixel-9-pro-review",
+    "kind": "review",
+    "source": "tomsguide",
+    "title": "Google Pixel 9 Pro review: Almost magical",
+    "url": "https://www.tomsguide.com/phones/google-pixel-phones/google-pixel-9-pro-review",
+    "published": "2024-08-21",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "apple-iphone-15-pro"
+    ],
+    "facets": [
+      "charging",
+      "display",
+      "performance"
+    ],
+    "method": "Tom's Guide's own tests, read from the review's results tables: Geekbench 6, battery life on its web-surfing test over cellular at 150 nits, charge level after 15 and 30 minutes, peak brightness with a light meter and 3DMark stress-test stability. Figures for rival phones come from the same tables; Tom's Guide tests US models. Tom's Guide revised its battery test in 2025, so each phone's battery result is taken from the most recent review that lists it.",
+    "records": [
+      {
+        "subject": "apple-iphone-15-pro",
+        "metric": "charge_15",
+        "value": 28.0
+      },
+      {
+        "subject": "apple-iphone-15-pro",
+        "metric": "charge_30",
+        "value": 57.0
+      },
+      {
+        "subject": "apple-iphone-15-pro",
+        "metric": "gb6_multi",
+        "value": 7194
+      },
+      {
+        "subject": "apple-iphone-15-pro",
+        "metric": "gb6_single",
+        "value": 2890
+      },
+      {
+        "subject": "apple-iphone-15-pro",
+        "metric": "nits_peak",
+        "value": 1027,
+        "note": "Tom's Guide light-meter reading (\"Peak brightness (nits)\")"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Philip Michaels"
+  },
+  {
+    "id": "tg-google-pixel-9-pro-xl-review",
+    "kind": "review",
+    "source": "tomsguide",
+    "title": "Google Pixel 9 Pro XL review: An excellent AI phone that costs more",
+    "url": "https://www.tomsguide.com/phones/google-pixel-phones/google-pixel-9-pro-xl-review",
+    "published": "2024-08-21",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "apple-iphone-15-pro-max"
+    ],
+    "facets": [
+      "display"
+    ],
+    "method": "Tom's Guide's own tests, read from the review's results tables: Geekbench 6, battery life on its web-surfing test over cellular at 150 nits, charge level after 15 and 30 minutes, peak brightness with a light meter and 3DMark stress-test stability. Figures for rival phones come from the same tables; Tom's Guide tests US models. Tom's Guide revised its battery test in 2025, so each phone's battery result is taken from the most recent review that lists it.",
+    "records": [
+      {
+        "subject": "apple-iphone-15-pro-max",
+        "metric": "nits_peak",
+        "value": 1550,
+        "note": "Tom's Guide light-meter reading (\"Brightness (nits)\")"
+      }
+    ],
+    "extraction": "partial",
+    "author": "John Velasco"
+  },
+  {
+    "id": "tg-google-pixel-9-review",
+    "kind": "review",
+    "source": "tomsguide",
+    "title": "Google Pixel 9 review: Great cameras, longer battery life",
+    "url": "https://www.tomsguide.com/phones/google-pixel-phones/google-pixel-9-review",
+    "published": "2024-08-21",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "apple-iphone-15"
+    ],
+    "facets": [
+      "performance"
+    ],
+    "method": "Tom's Guide's own tests, read from the review's results tables: Geekbench 6, battery life on its web-surfing test over cellular at 150 nits, charge level after 15 and 30 minutes, peak brightness with a light meter and 3DMark stress-test stability. Figures for rival phones come from the same tables; Tom's Guide tests US models. Tom's Guide revised its battery test in 2025, so each phone's battery result is taken from the most recent review that lists it.",
+    "records": [
+      {
+        "subject": "apple-iphone-15",
+        "metric": "gb6_multi",
+        "value": 6179
+      },
+      {
+        "subject": "apple-iphone-15",
+        "metric": "gb6_single",
+        "value": 2518
+      }
+    ],
+    "extraction": "partial",
+    "author": "Tom Pritchard"
+  },
+  {
+    "id": "tg-pixel-10-pro-fold-review",
+    "kind": "review",
+    "source": "tomsguide",
+    "title": "Google Pixel 10 Pro Fold review: Buy or skip?",
+    "url": "https://www.tomsguide.com/phones/google-pixel-phones/pixel-10-pro-fold-review",
+    "published": "2025-10-08",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "samsung-galaxy-z-fold7"
+    ],
+    "facets": [
+      "battery",
+      "charging"
+    ],
+    "method": "Tom's Guide's own tests, read from the review's results tables: Geekbench 6, battery life on its web-surfing test over cellular at 150 nits, charge level after 15 and 30 minutes, peak brightness with a light meter and 3DMark stress-test stability. Figures for rival phones come from the same tables; Tom's Guide tests US models. Tom's Guide revised its battery test in 2025, so each phone's battery result is taken from the most recent review that lists it.",
+    "records": [
+      {
+        "subject": "samsung-galaxy-z-fold7",
+        "metric": "charge_30",
+        "value": 54.0,
+        "note": "with 45W charger"
+      },
+      {
+        "subject": "samsung-galaxy-z-fold7",
+        "metric": "tg_web",
+        "value": 10.733,
+        "note": "10 h 44 min"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Mark Spoonauer"
+  },
+  {
+    "id": "tg-apple-iphone-16-plus-review-not-as-big-as-the-max-not-as-pri",
+    "kind": "review",
+    "source": "tomsguide",
+    "title": "Apple iPhone 16 Plus review: Not as big as the Max, not as pricey either",
+    "url": "https://www.tomsguide.com/phones/iphones/apple-iphone-16-plus-review-not-as-big-as-the-max-not-as-pricey-either",
+    "published": "2024-09-23",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "apple-iphone-15-plus",
+      "apple-iphone-16-plus",
+      "samsung-galaxy-s24-plus"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "display",
+      "performance"
+    ],
+    "method": "Tom's Guide's own tests, read from the review's results tables: Geekbench 6, battery life on its web-surfing test over cellular at 150 nits, charge level after 15 and 30 minutes, peak brightness with a light meter and 3DMark stress-test stability. Figures for rival phones come from the same tables; Tom's Guide tests US models. Tom's Guide revised its battery test in 2025, so each phone's battery result is taken from the most recent review that lists it.",
+    "records": [
+      {
+        "subject": "apple-iphone-15-plus",
+        "metric": "charge_15",
+        "value": 19.0
+      },
+      {
+        "subject": "apple-iphone-15-plus",
+        "metric": "charge_30",
+        "value": 39.0
+      },
+      {
+        "subject": "apple-iphone-15-plus",
+        "metric": "gb6_multi",
+        "value": 6280
+      },
+      {
+        "subject": "apple-iphone-15-plus",
+        "metric": "gb6_single",
+        "value": 2551
+      },
+      {
+        "subject": "apple-iphone-15-plus",
+        "metric": "nits_peak",
+        "value": 1310,
+        "note": "Tom's Guide light-meter reading (\"Peak brightness\")"
+      },
+      {
+        "subject": "apple-iphone-15-plus",
+        "metric": "tg_web",
+        "value": 14.233,
+        "note": "14 h 14 min"
+      },
+      {
+        "subject": "apple-iphone-16-plus",
+        "metric": "charge_15",
+        "value": 29.0
+      },
+      {
+        "subject": "apple-iphone-16-plus",
+        "metric": "charge_30",
+        "value": 55.0
+      },
+      {
+        "subject": "apple-iphone-16-plus",
+        "metric": "gb6_multi",
+        "value": 8042
+      },
+      {
+        "subject": "apple-iphone-16-plus",
+        "metric": "gb6_single",
+        "value": 3302
+      },
+      {
+        "subject": "apple-iphone-16-plus",
+        "metric": "nits_peak",
+        "value": 1458,
+        "note": "Tom's Guide light-meter reading (\"Peak brightness\")"
+      },
+      {
+        "subject": "apple-iphone-16-plus",
+        "metric": "tg_web",
+        "value": 17.233,
+        "note": "17 h 14 min"
+      },
+      {
+        "subject": "samsung-galaxy-s24-plus",
+        "metric": "charge_15",
+        "value": 40.0,
+        "variant": "US model",
+        "note": "Tested on the US model; the display and charging hardware are the same as the Malaysian model"
+      },
+      {
+        "subject": "samsung-galaxy-s24-plus",
+        "metric": "charge_30",
+        "value": 72.0,
+        "variant": "US model",
+        "note": "Tested on the US model; the display and charging hardware are the same as the Malaysian model"
+      },
+      {
+        "subject": "samsung-galaxy-s24-plus",
+        "metric": "gb6_multi",
+        "value": 7083,
+        "chip": "snapdragon-8-gen-3",
+        "variant": "Snapdragon 8 Gen 3 for Galaxy (US model)"
+      },
+      {
+        "subject": "samsung-galaxy-s24-plus",
+        "metric": "gb6_single",
+        "value": 2272,
+        "chip": "snapdragon-8-gen-3",
+        "variant": "Snapdragon 8 Gen 3 for Galaxy (US model)"
+      },
+      {
+        "subject": "samsung-galaxy-s24-plus",
+        "metric": "nits_peak",
+        "value": 1416,
+        "variant": "US model",
+        "note": "Tom's Guide light-meter reading (\"Peak brightness\"); Tested on the US model; the display and charging hardware are the same as the Malaysian model"
+      }
+    ],
+    "extraction": "partial",
+    "author": "John Velasco"
+  },
+  {
+    "id": "tg-apple-iphone-16-pro-max-review",
+    "kind": "review",
+    "source": "tomsguide",
+    "title": "Apple iPhone 16 Pro Max review: Huge display, insane battery life",
+    "url": "https://www.tomsguide.com/phones/iphones/apple-iphone-16-pro-max-review",
+    "published": "2024-09-18",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "apple-iphone-16-pro",
+      "apple-iphone-16-pro-max"
+    ],
+    "facets": [
+      "display"
+    ],
+    "method": "Tom's Guide's own tests, read from the review's results tables: Geekbench 6, battery life on its web-surfing test over cellular at 150 nits, charge level after 15 and 30 minutes, peak brightness with a light meter and 3DMark stress-test stability. Figures for rival phones come from the same tables; Tom's Guide tests US models. Tom's Guide revised its battery test in 2025, so each phone's battery result is taken from the most recent review that lists it.",
+    "records": [
+      {
+        "subject": "apple-iphone-16-pro",
+        "metric": "nits_peak",
+        "value": 1510,
+        "note": "Tom's Guide light-meter reading (\"Brightness (HDR)\")"
+      },
+      {
+        "subject": "apple-iphone-16-pro-max",
+        "metric": "nits_peak",
+        "value": 1553,
+        "note": "Tom's Guide light-meter reading (\"Brightness (HDR)\")"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Mark Spoonauer"
+  },
+  {
+    "id": "tg-apple-iphone-16-pro-review",
+    "kind": "review",
+    "source": "tomsguide",
+    "title": "Apple iPhone 16 Pro review",
+    "url": "https://www.tomsguide.com/phones/iphones/apple-iphone-16-pro-review",
+    "published": "2024-09-18",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "apple-iphone-15-pro",
+      "apple-iphone-15-pro-max"
+    ],
+    "facets": [
+      "battery"
+    ],
+    "method": "Tom's Guide's own tests, read from the review's results tables: Geekbench 6, battery life on its web-surfing test over cellular at 150 nits, charge level after 15 and 30 minutes, peak brightness with a light meter and 3DMark stress-test stability. Figures for rival phones come from the same tables; Tom's Guide tests US models. Tom's Guide revised its battery test in 2025, so each phone's battery result is taken from the most recent review that lists it.",
+    "records": [
+      {
+        "subject": "apple-iphone-15-pro",
+        "metric": "tg_web",
+        "value": 10.883,
+        "note": "10 h 53 min"
+      },
+      {
+        "subject": "apple-iphone-15-pro-max",
+        "metric": "tg_web",
+        "value": 14.033,
+        "note": "14 h 02 min"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Mark Spoonauer"
+  },
+  {
+    "id": "tg-apple-iphone-16-review",
+    "kind": "review",
+    "source": "tomsguide",
+    "title": "Apple iPhone 16 review: No more Pro envy",
+    "url": "https://www.tomsguide.com/phones/iphones/apple-iphone-16-review",
+    "published": "2024-09-18",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "apple-iphone-15",
+      "apple-iphone-16",
+      "samsung-galaxy-s24"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "display",
+      "performance"
+    ],
+    "method": "Tom's Guide's own tests, read from the review's results tables: Geekbench 6, battery life on its web-surfing test over cellular at 150 nits, charge level after 15 and 30 minutes, peak brightness with a light meter and 3DMark stress-test stability. Figures for rival phones come from the same tables; Tom's Guide tests US models. Tom's Guide revised its battery test in 2025, so each phone's battery result is taken from the most recent review that lists it.",
+    "records": [
+      {
+        "subject": "apple-iphone-15",
+        "metric": "charge_15",
+        "value": 26.0
+      },
+      {
+        "subject": "apple-iphone-15",
+        "metric": "charge_30",
+        "value": 53.0
+      },
+      {
+        "subject": "apple-iphone-15",
+        "metric": "nits_peak",
+        "value": 1401,
+        "note": "Tom's Guide light-meter reading (\"Peak brightness\")"
+      },
+      {
+        "subject": "apple-iphone-15",
+        "metric": "tg_web",
+        "value": 11.083,
+        "note": "11 h 05 min"
+      },
+      {
+        "subject": "apple-iphone-16",
+        "metric": "charge_15",
+        "value": 29.0
+      },
+      {
+        "subject": "apple-iphone-16",
+        "metric": "charge_30",
+        "value": 57.0
+      },
+      {
+        "subject": "apple-iphone-16",
+        "metric": "gb6_multi",
+        "value": 8033
+      },
+      {
+        "subject": "apple-iphone-16",
+        "metric": "gb6_single",
+        "value": 3301
+      },
+      {
+        "subject": "apple-iphone-16",
+        "metric": "nits_peak",
+        "value": 1348,
+        "note": "Tom's Guide light-meter reading (\"Peak brightness\")"
+      },
+      {
+        "subject": "samsung-galaxy-s24",
+        "metric": "charge_15",
+        "value": 28.0,
+        "variant": "US model",
+        "note": "Tested on the US model; the display and charging hardware are the same as the Malaysian model"
+      },
+      {
+        "subject": "samsung-galaxy-s24",
+        "metric": "tg_web",
+        "value": 13.467,
+        "chip": "snapdragon-8-gen-3",
+        "variant": "Snapdragon 8 Gen 3 for Galaxy (US model)",
+        "note": "13 h 28 min"
+      }
+    ],
+    "extraction": "partial",
+    "author": "John Velasco"
+  },
+  {
+    "id": "tg-apple-iphone-16e-review",
+    "kind": "review",
+    "source": "tomsguide",
+    "title": "Apple iPhone 16e review: The right trade-offs?",
+    "url": "https://www.tomsguide.com/phones/iphones/apple-iphone-16e-review",
+    "published": "2025-02-27",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "apple-iphone-16e"
+    ],
+    "facets": [
+      "charging",
+      "display",
+      "performance"
+    ],
+    "method": "Tom's Guide's own tests, read from the review's results tables: Geekbench 6, battery life on its web-surfing test over cellular at 150 nits, charge level after 15 and 30 minutes, peak brightness with a light meter and 3DMark stress-test stability. Figures for rival phones come from the same tables; Tom's Guide tests US models. Tom's Guide revised its battery test in 2025, so each phone's battery result is taken from the most recent review that lists it.",
+    "records": [
+      {
+        "subject": "apple-iphone-16e",
+        "metric": "charge_15",
+        "value": 32.0
+      },
+      {
+        "subject": "apple-iphone-16e",
+        "metric": "charge_30",
+        "value": 57.0
+      },
+      {
+        "subject": "apple-iphone-16e",
+        "metric": "gb6_multi",
+        "value": 8132
+      },
+      {
+        "subject": "apple-iphone-16e",
+        "metric": "gb6_single",
+        "value": 3328
+      },
+      {
+        "subject": "apple-iphone-16e",
+        "metric": "nits_peak",
+        "value": 1028,
+        "note": "Tom's Guide light-meter reading (\"Peak brightness (nits)\")"
+      }
+    ],
+    "extraction": "partial",
+    "author": "John Velasco"
+  },
+  {
+    "id": "tg-apple-iphone-17-pro-review",
+    "kind": "review",
+    "source": "tomsguide",
+    "title": "Apple iPhone 17 Pro review: Biggest upgrades in years",
+    "url": "https://www.tomsguide.com/phones/iphones/apple-iphone-17-pro-review",
+    "published": "2025-09-17",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "apple-iphone-16-pro",
+      "apple-iphone-17-pro",
+      "google-pixel-10-pro",
+      "samsung-galaxy-s25-ultra"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "display",
+      "performance"
+    ],
+    "method": "Tom's Guide's own tests, read from the review's results tables: Geekbench 6, battery life on its web-surfing test over cellular at 150 nits, charge level after 15 and 30 minutes, peak brightness with a light meter and 3DMark stress-test stability. Figures for rival phones come from the same tables; Tom's Guide tests US models. Tom's Guide revised its battery test in 2025, so each phone's battery result is taken from the most recent review that lists it.",
+    "records": [
+      {
+        "subject": "apple-iphone-16-pro",
+        "metric": "charge_15",
+        "value": 29.0
+      },
+      {
+        "subject": "apple-iphone-16-pro",
+        "metric": "charge_30",
+        "value": 56.0
+      },
+      {
+        "subject": "apple-iphone-16-pro",
+        "metric": "gb6_multi",
+        "value": 8341
+      },
+      {
+        "subject": "apple-iphone-16-pro",
+        "metric": "gb6_single",
+        "value": 3400
+      },
+      {
+        "subject": "apple-iphone-16-pro",
+        "metric": "tg_web",
+        "value": 14.117,
+        "note": "14 h 07 min"
+      },
+      {
+        "subject": "apple-iphone-17-pro",
+        "metric": "charge_15",
+        "value": 40.0
+      },
+      {
+        "subject": "apple-iphone-17-pro",
+        "metric": "charge_30",
+        "value": 72.0
+      },
+      {
+        "subject": "apple-iphone-17-pro",
+        "metric": "gb6_multi",
+        "value": 9988
+      },
+      {
+        "subject": "apple-iphone-17-pro",
+        "metric": "gb6_single",
+        "value": 3834
+      },
+      {
+        "subject": "apple-iphone-17-pro",
+        "metric": "nits_peak",
+        "value": 1555,
+        "note": "Tom's Guide light-meter reading (\"Brightness (HDR)\")"
+      },
+      {
+        "subject": "google-pixel-10-pro",
+        "metric": "gb6_multi",
+        "value": 6375
+      },
+      {
+        "subject": "google-pixel-10-pro",
+        "metric": "gb6_single",
+        "value": 2335
+      },
+      {
+        "subject": "google-pixel-10-pro",
+        "metric": "nits_peak",
+        "value": 2017,
+        "note": "Tom's Guide light-meter reading (\"Brightness (HDR)\")"
+      },
+      {
+        "subject": "samsung-galaxy-s25-ultra",
+        "metric": "charge_15",
+        "value": 37.0
+      },
+      {
+        "subject": "samsung-galaxy-s25-ultra",
+        "metric": "charge_30",
+        "value": 71.0
+      }
+    ],
+    "extraction": "partial",
+    "author": "John Velasco"
+  },
+  {
+    "id": "tg-apple-iphone-17-review",
+    "kind": "review",
+    "source": "tomsguide",
+    "title": "Apple iPhone 17 review: Better upgrades than the Pros",
+    "url": "https://www.tomsguide.com/phones/iphones/apple-iphone-17-review",
+    "published": "2025-09-10",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "apple-iphone-16",
+      "apple-iphone-17",
+      "google-pixel-10",
+      "samsung-galaxy-s25"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "display",
+      "performance"
+    ],
+    "method": "Tom's Guide's own tests, read from the review's results tables: Geekbench 6, battery life on its web-surfing test over cellular at 150 nits, charge level after 15 and 30 minutes, peak brightness with a light meter and 3DMark stress-test stability. Figures for rival phones come from the same tables; Tom's Guide tests US models. Tom's Guide revised its battery test in 2025, so each phone's battery result is taken from the most recent review that lists it.",
+    "records": [
+      {
+        "subject": "apple-iphone-16",
+        "metric": "tg_web",
+        "value": 12.217,
+        "note": "12 h 13 min"
+      },
+      {
+        "subject": "apple-iphone-17",
+        "metric": "charge_15",
+        "value": 39.0
+      },
+      {
+        "subject": "apple-iphone-17",
+        "metric": "charge_30",
+        "value": 71.0
+      },
+      {
+        "subject": "apple-iphone-17",
+        "metric": "gb6_multi",
+        "value": 9460
+      },
+      {
+        "subject": "apple-iphone-17",
+        "metric": "gb6_single",
+        "value": 3701
+      },
+      {
+        "subject": "apple-iphone-17",
+        "metric": "nits_peak",
+        "value": 1505,
+        "note": "Tom's Guide light-meter reading (\"Peak Brightness\")"
+      },
+      {
+        "subject": "google-pixel-10",
+        "metric": "charge_15",
+        "value": 26.0
+      },
+      {
+        "subject": "samsung-galaxy-s25",
+        "metric": "charge_15",
+        "value": 28.0
+      },
+      {
+        "subject": "samsung-galaxy-s25",
+        "metric": "charge_30",
+        "value": 57.0
+      }
+    ],
+    "extraction": "partial",
+    "author": "John Velasco"
+  },
+  {
+    "id": "tg-apple-iphone-17e-review",
+    "kind": "review",
+    "source": "tomsguide",
+    "title": "Apple iPhone 17e review: It’s what the iPhone 16e should’ve been from the start",
+    "url": "https://www.tomsguide.com/phones/iphones/apple-iphone-17e-review",
+    "published": "2026-03-09",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "apple-iphone-16e",
+      "apple-iphone-17e"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "display",
+      "performance"
+    ],
+    "method": "Tom's Guide's own tests, read from the review's results tables: Geekbench 6, battery life on its web-surfing test over cellular at 150 nits, charge level after 15 and 30 minutes, peak brightness with a light meter and 3DMark stress-test stability. Figures for rival phones come from the same tables; Tom's Guide tests US models. Tom's Guide revised its battery test in 2025, so each phone's battery result is taken from the most recent review that lists it.",
+    "records": [
+      {
+        "subject": "apple-iphone-16e",
+        "metric": "tg_web",
+        "value": 12.683,
+        "note": "12 h 41 min"
+      },
+      {
+        "subject": "apple-iphone-17e",
+        "metric": "charge_15",
+        "value": 31.0
+      },
+      {
+        "subject": "apple-iphone-17e",
+        "metric": "charge_30",
+        "value": 59.0
+      },
+      {
+        "subject": "apple-iphone-17e",
+        "metric": "gb6_multi",
+        "value": 9229
+      },
+      {
+        "subject": "apple-iphone-17e",
+        "metric": "gb6_single",
+        "value": 3606
+      },
+      {
+        "subject": "apple-iphone-17e",
+        "metric": "nits_peak",
+        "value": 1002,
+        "note": "Tom's Guide light-meter reading (\"Peak brightness (nits)\")"
+      },
+      {
+        "subject": "apple-iphone-17e",
+        "metric": "tg_web",
+        "value": 12.583,
+        "note": "12 h 35 min"
+      }
+    ],
+    "extraction": "partial",
+    "author": "John Velasco"
+  },
+  {
+    "id": "tg-iphone-17-pro-max-review",
+    "kind": "review",
+    "source": "tomsguide",
+    "title": "Apple iPhone 17 Pro Max Review",
+    "url": "https://www.tomsguide.com/phones/iphones/iphone-17-pro-max-review",
+    "published": "2025-09-17",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "apple-iphone-16-pro-max",
+      "apple-iphone-17-pro-max"
+    ],
+    "facets": [
+      "battery",
+      "display",
+      "performance"
+    ],
+    "method": "Tom's Guide's own tests, read from the review's results tables: Geekbench 6, battery life on its web-surfing test over cellular at 150 nits, charge level after 15 and 30 minutes, peak brightness with a light meter and 3DMark stress-test stability. Figures for rival phones come from the same tables; Tom's Guide tests US models. Tom's Guide revised its battery test in 2025, so each phone's battery result is taken from the most recent review that lists it.",
+    "records": [
+      {
+        "subject": "apple-iphone-16-pro-max",
+        "metric": "gb6_multi",
+        "value": 8306
+      },
+      {
+        "subject": "apple-iphone-16-pro-max",
+        "metric": "gb6_single",
+        "value": 3386
+      },
+      {
+        "subject": "apple-iphone-16-pro-max",
+        "metric": "tg_web",
+        "value": 14.283,
+        "note": "14 h 17 min"
+      },
+      {
+        "subject": "apple-iphone-17-pro-max",
+        "metric": "gb6_multi",
+        "value": 9968
+      },
+      {
+        "subject": "apple-iphone-17-pro-max",
+        "metric": "gb6_single",
+        "value": 3871
+      },
+      {
+        "subject": "apple-iphone-17-pro-max",
+        "metric": "nits_peak",
+        "value": 1899,
+        "note": "Tom's Guide light-meter reading (\"Brightness (nits)\")"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Mark Spoonauer"
+  },
+  {
+    "id": "tg-iphone-18-pro-max-hands-on-sneaky-awesome-upgrades-but-worth",
+    "kind": "review",
+    "source": "tomsguide",
+    "title": "iPhone 18 Pro and Pro Max review: Fastest phone ever, variable aperture camera shines",
+    "url": "https://www.tomsguide.com/phones/iphones/iphone-18-pro-max-hands-on-sneaky-awesome-upgrades-but-worth-the-price-hike",
+    "published": "2026-09-16",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "apple-iphone-17-pro",
+      "apple-iphone-17-pro-max",
+      "apple-iphone-18-pro",
+      "apple-iphone-18-pro-max",
+      "oneplus-15",
+      "samsung-galaxy-s26-ultra"
+    ],
+    "facets": [
+      "battery",
+      "performance",
+      "thermals"
+    ],
+    "method": "Tom's Guide's own tests, read from the review's results tables: Geekbench 6, battery life on its web-surfing test over cellular at 150 nits, charge level after 15 and 30 minutes, peak brightness with a light meter and 3DMark stress-test stability. Figures for rival phones come from the same tables; Tom's Guide tests US models. Tom's Guide revised its battery test in 2025, so each phone's battery result is taken from the most recent review that lists it.",
+    "records": [
+      {
+        "subject": "apple-iphone-17-pro",
+        "metric": "wle_stability",
+        "value": 61.1
+      },
+      {
+        "subject": "apple-iphone-17-pro-max",
+        "metric": "wle_stability",
+        "value": 65.2
+      },
+      {
+        "subject": "apple-iphone-18-pro",
+        "metric": "gb6_multi",
+        "value": 12800
+      },
+      {
+        "subject": "apple-iphone-18-pro",
+        "metric": "gb6_single",
+        "value": 4735
+      },
+      {
+        "subject": "apple-iphone-18-pro",
+        "metric": "wle_stability",
+        "value": 62.8
+      },
+      {
+        "subject": "apple-iphone-18-pro-max",
+        "metric": "gb6_multi",
+        "value": 12789
+      },
+      {
+        "subject": "apple-iphone-18-pro-max",
+        "metric": "gb6_single",
+        "value": 4741
+      },
+      {
+        "subject": "apple-iphone-18-pro-max",
+        "metric": "wle_stability",
+        "value": 79.4
+      },
+      {
+        "subject": "oneplus-15",
+        "metric": "tg_web",
+        "value": 25.217,
+        "note": "25 h 13 min"
+      },
+      {
+        "subject": "samsung-galaxy-s26-ultra",
+        "metric": "tg_web",
+        "value": 16.667,
+        "note": "16 h 40 min"
+      },
+      {
+        "subject": "samsung-galaxy-s26-ultra",
+        "metric": "wle_stability",
+        "value": 53.9
+      }
+    ],
+    "extraction": "partial",
+    "author": "Mark Spoonauer"
+  },
+  {
+    "id": "tg-iphone-air-review",
+    "kind": "review",
+    "source": "tomsguide",
+    "title": "Apple iPhone Air review: What I like and what I don't",
+    "url": "https://www.tomsguide.com/phones/iphones/iphone-air-review",
+    "published": "2025-09-17",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "apple-iphone-air"
+    ],
+    "facets": [
+      "display",
+      "performance"
+    ],
+    "method": "Tom's Guide's own tests, read from the review's results tables: Geekbench 6, battery life on its web-surfing test over cellular at 150 nits, charge level after 15 and 30 minutes, peak brightness with a light meter and 3DMark stress-test stability. Figures for rival phones come from the same tables; Tom's Guide tests US models. Tom's Guide revised its battery test in 2025, so each phone's battery result is taken from the most recent review that lists it.",
+    "records": [
+      {
+        "subject": "apple-iphone-air",
+        "metric": "gb6_multi",
+        "value": 9665
+      },
+      {
+        "subject": "apple-iphone-air",
+        "metric": "gb6_single",
+        "value": 3723
+      },
+      {
+        "subject": "apple-iphone-air",
+        "metric": "nits_peak",
+        "value": 1678,
+        "note": "Tom's Guide light-meter reading (\"Brightness (nits)\")"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Mark Spoonauer"
+  },
+  {
+    "id": "tg-motorola-razr-ultra-2026-review",
+    "kind": "review",
+    "source": "tomsguide",
+    "title": "Motorola Razr Ultra 2026 review: Better does come at a premium price",
+    "url": "https://www.tomsguide.com/phones/motorola-phones/motorola-razr-ultra-2026-review",
+    "published": "2026-06-22",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "motorola-razr-ultra-2026",
+      "samsung-galaxy-z-flip7"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "display",
+      "performance"
+    ],
+    "method": "Tom's Guide's own tests, read from the review's results tables: Geekbench 6, battery life on its web-surfing test over cellular at 150 nits, charge level after 15 and 30 minutes, peak brightness with a light meter and 3DMark stress-test stability. Figures for rival phones come from the same tables; Tom's Guide tests US models. Tom's Guide revised its battery test in 2025, so each phone's battery result is taken from the most recent review that lists it.",
+    "records": [
+      {
+        "subject": "motorola-razr-ultra-2026",
+        "metric": "charge_15",
+        "value": 42.0
+      },
+      {
+        "subject": "motorola-razr-ultra-2026",
+        "metric": "charge_30",
+        "value": 74.0
+      },
+      {
+        "subject": "motorola-razr-ultra-2026",
+        "metric": "gb6_multi",
+        "value": 8982
+      },
+      {
+        "subject": "motorola-razr-ultra-2026",
+        "metric": "gb6_single",
+        "value": 2886
+      },
+      {
+        "subject": "motorola-razr-ultra-2026",
+        "metric": "nits_peak",
+        "value": 2322,
+        "note": "Tom's Guide light-meter reading (\"Peak Brightness (Nits)\")"
+      },
+      {
+        "subject": "motorola-razr-ultra-2026",
+        "metric": "tg_web",
+        "value": 16.333,
+        "note": "16 h 20 min"
+      },
+      {
+        "subject": "samsung-galaxy-z-flip7",
+        "metric": "tg_web",
+        "value": 12.4,
+        "note": "12 h 24 min"
+      }
+    ],
+    "extraction": "partial",
+    "author": "John Velasco"
+  },
+  {
+    "id": "tg-oneplus-13-review",
+    "kind": "review",
+    "source": "tomsguide",
+    "title": "OnePlus 13 review: The best Android flagship for the money",
+    "url": "https://www.tomsguide.com/phones/oneplus-phones/oneplus-13-review",
+    "published": "2025-01-07",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "oneplus-13"
+    ],
+    "facets": [
+      "display",
+      "performance"
+    ],
+    "method": "Tom's Guide's own tests, read from the review's results tables: Geekbench 6, battery life on its web-surfing test over cellular at 150 nits, charge level after 15 and 30 minutes, peak brightness with a light meter and 3DMark stress-test stability. Figures for rival phones come from the same tables; Tom's Guide tests US models. Tom's Guide revised its battery test in 2025, so each phone's battery result is taken from the most recent review that lists it.",
+    "records": [
+      {
+        "subject": "oneplus-13",
+        "metric": "gb6_multi",
+        "value": 9058
+      },
+      {
+        "subject": "oneplus-13",
+        "metric": "gb6_single",
+        "value": 2893
+      },
+      {
+        "subject": "oneplus-13",
+        "metric": "nits_peak",
+        "value": 1104,
+        "note": "Tom's Guide light-meter reading (\"Peak brightness (nits)\")"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Richard Priday"
+  },
+  {
+    "id": "tg-oneplus-15-review",
+    "kind": "review",
+    "source": "tomsguide",
+    "title": "OnePlus 15 review: The flagship with 2-day battery life changes everything",
+    "url": "https://www.tomsguide.com/phones/oneplus-phones/oneplus-15-review",
+    "published": "2025-11-13",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "apple-iphone-17-pro-max",
+      "oneplus-13",
+      "oneplus-15"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "display",
+      "performance"
+    ],
+    "method": "Tom's Guide's own tests, read from the review's results tables: Geekbench 6, battery life on its web-surfing test over cellular at 150 nits, charge level after 15 and 30 minutes, peak brightness with a light meter and 3DMark stress-test stability. Figures for rival phones come from the same tables; Tom's Guide tests US models. Tom's Guide revised its battery test in 2025, so each phone's battery result is taken from the most recent review that lists it.",
+    "records": [
+      {
+        "subject": "apple-iphone-17-pro-max",
+        "metric": "charge_15",
+        "value": 35.0
+      },
+      {
+        "subject": "oneplus-13",
+        "metric": "charge_15",
+        "value": 56.0
+      },
+      {
+        "subject": "oneplus-13",
+        "metric": "charge_30",
+        "value": 92.0
+      },
+      {
+        "subject": "oneplus-13",
+        "metric": "tg_web",
+        "value": 19.75,
+        "note": "19 h 45 min"
+      },
+      {
+        "subject": "oneplus-15",
+        "metric": "charge_15",
+        "value": 45.0
+      },
+      {
+        "subject": "oneplus-15",
+        "metric": "charge_30",
+        "value": 81.0
+      },
+      {
+        "subject": "oneplus-15",
+        "metric": "gb6_multi",
+        "value": 11116
+      },
+      {
+        "subject": "oneplus-15",
+        "metric": "gb6_single",
+        "value": 3618
+      },
+      {
+        "subject": "oneplus-15",
+        "metric": "nits_peak",
+        "value": 1222,
+        "note": "Tom's Guide light-meter reading (\"Max brightness\")"
+      }
+    ],
+    "extraction": "partial",
+    "author": "John Velasco"
+  },
+  {
+    "id": "tg-samsung-galaxy-z-fold-7-review",
+    "kind": "review",
+    "source": "tomsguide",
+    "title": "Samsung Galaxy Z Fold 7 review: The first foldable phone I'd actually buy",
+    "url": "https://www.tomsguide.com/phones/samsung-galaxy-z-fold-7-review",
+    "published": "2025-07-18",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "samsung-galaxy-z-fold6",
+      "samsung-galaxy-z-fold7"
+    ],
+    "facets": [
+      "battery",
+      "display",
+      "performance"
+    ],
+    "method": "Tom's Guide's own tests, read from the review's results tables: Geekbench 6, battery life on its web-surfing test over cellular at 150 nits, charge level after 15 and 30 minutes, peak brightness with a light meter and 3DMark stress-test stability. Figures for rival phones come from the same tables; Tom's Guide tests US models. Tom's Guide revised its battery test in 2025, so each phone's battery result is taken from the most recent review that lists it.",
+    "records": [
+      {
+        "subject": "samsung-galaxy-z-fold6",
+        "metric": "tg_web",
+        "value": 10.417,
+        "note": "10 h 25 min"
+      },
+      {
+        "subject": "samsung-galaxy-z-fold7",
+        "metric": "gb6_multi",
+        "value": 9735
+      },
+      {
+        "subject": "samsung-galaxy-z-fold7",
+        "metric": "gb6_single",
+        "value": 3052
+      },
+      {
+        "subject": "samsung-galaxy-z-fold7",
+        "metric": "nits_peak",
+        "value": 2310,
+        "note": "Tom's Guide light-meter reading (\"Brightness (Nits, HDR)\")"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Mark Spoonauer"
+  },
+  {
+    "id": "tg-galaxy-s25-review",
+    "kind": "review",
+    "source": "tomsguide",
+    "title": "Samsung Galaxy S25 review: This all-in AI bet pays off",
+    "url": "https://www.tomsguide.com/phones/samsung-phones/galaxy-s25-review",
+    "published": "2025-01-22",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "samsung-galaxy-s25"
+    ],
+    "facets": [
+      "display",
+      "performance"
+    ],
+    "method": "Tom's Guide's own tests, read from the review's results tables: Geekbench 6, battery life on its web-surfing test over cellular at 150 nits, charge level after 15 and 30 minutes, peak brightness with a light meter and 3DMark stress-test stability. Figures for rival phones come from the same tables; Tom's Guide tests US models. Tom's Guide revised its battery test in 2025, so each phone's battery result is taken from the most recent review that lists it.",
+    "records": [
+      {
+        "subject": "samsung-galaxy-s25",
+        "metric": "gb6_multi",
+        "value": 9886
+      },
+      {
+        "subject": "samsung-galaxy-s25",
+        "metric": "gb6_single",
+        "value": 2916
+      },
+      {
+        "subject": "samsung-galaxy-s25",
+        "metric": "nits_peak",
+        "value": 1789,
+        "note": "Tom's Guide light-meter reading (\"Peak brightness (nits)\")"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Richard Priday"
+  },
+  {
+    "id": "tg-samsung-galaxy-s24-fe-review",
+    "kind": "review",
+    "source": "tomsguide",
+    "title": "Samsung Galaxy S24 FE review: Every bit as good as Samsung’s flagship",
+    "url": "https://www.tomsguide.com/phones/samsung-phones/samsung-galaxy-s24-fe-review",
+    "published": "2024-10-22",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "samsung-galaxy-s24-fe"
+    ],
+    "facets": [
+      "display",
+      "performance"
+    ],
+    "method": "Tom's Guide's own tests, read from the review's results tables: Geekbench 6, battery life on its web-surfing test over cellular at 150 nits, charge level after 15 and 30 minutes, peak brightness with a light meter and 3DMark stress-test stability. Figures for rival phones come from the same tables; Tom's Guide tests US models. Tom's Guide revised its battery test in 2025, so each phone's battery result is taken from the most recent review that lists it.",
+    "records": [
+      {
+        "subject": "samsung-galaxy-s24-fe",
+        "metric": "gb6_multi",
+        "value": 6386
+      },
+      {
+        "subject": "samsung-galaxy-s24-fe",
+        "metric": "gb6_single",
+        "value": 2161
+      },
+      {
+        "subject": "samsung-galaxy-s24-fe",
+        "metric": "nits_peak",
+        "value": 1516,
+        "note": "Tom's Guide light-meter reading (\"Max brightness\")"
+      }
+    ],
+    "extraction": "partial",
+    "author": "John Velasco"
+  },
+  {
+    "id": "tg-samsung-galaxy-s25-edge-review",
+    "kind": "review",
+    "source": "tomsguide",
+    "title": "Samsung Galaxy S25 Edge review: It’s impressively thin, with some major compromises",
+    "url": "https://www.tomsguide.com/phones/samsung-phones/samsung-galaxy-s25-edge-review",
+    "published": "2025-05-13",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "samsung-galaxy-s25-plus",
+      "samsung-galaxy-z-flip6"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "performance"
+    ],
+    "method": "Tom's Guide's own tests, read from the review's results tables: Geekbench 6, battery life on its web-surfing test over cellular at 150 nits, charge level after 15 and 30 minutes, peak brightness with a light meter and 3DMark stress-test stability. Figures for rival phones come from the same tables; Tom's Guide tests US models. Tom's Guide revised its battery test in 2025, so each phone's battery result is taken from the most recent review that lists it.",
+    "records": [
+      {
+        "subject": "samsung-galaxy-s25-plus",
+        "metric": "charge_15",
+        "value": 38.0
+      },
+      {
+        "subject": "samsung-galaxy-s25-plus",
+        "metric": "charge_30",
+        "value": 70.0
+      },
+      {
+        "subject": "samsung-galaxy-s25-plus",
+        "metric": "tg_web",
+        "value": 16.917,
+        "note": "16 h 55 min"
+      },
+      {
+        "subject": "samsung-galaxy-z-flip6",
+        "metric": "gb6_multi",
+        "value": 7022
+      },
+      {
+        "subject": "samsung-galaxy-z-flip6",
+        "metric": "gb6_single",
+        "value": 2091
+      }
+    ],
+    "extraction": "partial",
+    "author": "John Velasco"
+  },
+  {
+    "id": "tg-samsung-galaxy-s25-fe-review",
+    "kind": "review",
+    "source": "tomsguide",
+    "title": "Samsung Galaxy S25 FE review: A mid-range phone that falls flat",
+    "url": "https://www.tomsguide.com/phones/samsung-phones/samsung-galaxy-s25-fe-review",
+    "published": "2025-10-16",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "samsung-galaxy-s24-fe",
+      "samsung-galaxy-s25-fe"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "display",
+      "performance"
+    ],
+    "method": "Tom's Guide's own tests, read from the review's results tables: Geekbench 6, battery life on its web-surfing test over cellular at 150 nits, charge level after 15 and 30 minutes, peak brightness with a light meter and 3DMark stress-test stability. Figures for rival phones come from the same tables; Tom's Guide tests US models. Tom's Guide revised its battery test in 2025, so each phone's battery result is taken from the most recent review that lists it.",
+    "records": [
+      {
+        "subject": "samsung-galaxy-s24-fe",
+        "metric": "charge_15",
+        "value": 28.0
+      },
+      {
+        "subject": "samsung-galaxy-s24-fe",
+        "metric": "charge_30",
+        "value": 56.0
+      },
+      {
+        "subject": "samsung-galaxy-s24-fe",
+        "metric": "tg_web",
+        "value": 11.633,
+        "note": "11 h 38 min"
+      },
+      {
+        "subject": "samsung-galaxy-s25-fe",
+        "metric": "charge_15",
+        "value": 40.0
+      },
+      {
+        "subject": "samsung-galaxy-s25-fe",
+        "metric": "charge_30",
+        "value": 71.0
+      },
+      {
+        "subject": "samsung-galaxy-s25-fe",
+        "metric": "gb6_multi",
+        "value": 7066
+      },
+      {
+        "subject": "samsung-galaxy-s25-fe",
+        "metric": "gb6_single",
+        "value": 2142
+      },
+      {
+        "subject": "samsung-galaxy-s25-fe",
+        "metric": "nits_peak",
+        "value": 1133,
+        "note": "Tom's Guide light-meter reading (\"Max brightness\")"
+      },
+      {
+        "subject": "samsung-galaxy-s25-fe",
+        "metric": "tg_web",
+        "value": 9.767,
+        "note": "9 h 46 min"
+      }
+    ],
+    "extraction": "partial",
+    "author": "John Velasco"
+  },
+  {
+    "id": "tg-samsung-galaxy-s25-plus-review-no-mans-land",
+    "kind": "review",
+    "source": "tomsguide",
+    "title": "Samsung Galaxy S25 Plus review: No man's land",
+    "url": "https://www.tomsguide.com/phones/samsung-phones/samsung-galaxy-s25-plus-review-no-mans-land",
+    "published": "2025-02-12",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "samsung-galaxy-s24-plus",
+      "samsung-galaxy-s25-plus"
+    ],
+    "facets": [
+      "battery",
+      "display",
+      "performance"
+    ],
+    "method": "Tom's Guide's own tests, read from the review's results tables: Geekbench 6, battery life on its web-surfing test over cellular at 150 nits, charge level after 15 and 30 minutes, peak brightness with a light meter and 3DMark stress-test stability. Figures for rival phones come from the same tables; Tom's Guide tests US models. Tom's Guide revised its battery test in 2025, so each phone's battery result is taken from the most recent review that lists it.",
+    "records": [
+      {
+        "subject": "samsung-galaxy-s24-plus",
+        "metric": "tg_web",
+        "value": 15.933,
+        "chip": "snapdragon-8-gen-3",
+        "variant": "Snapdragon 8 Gen 3 for Galaxy (US model)",
+        "note": "15 h 56 min"
+      },
+      {
+        "subject": "samsung-galaxy-s25-plus",
+        "metric": "gb6_multi",
+        "value": 10153
+      },
+      {
+        "subject": "samsung-galaxy-s25-plus",
+        "metric": "gb6_single",
+        "value": 3141
+      },
+      {
+        "subject": "samsung-galaxy-s25-plus",
+        "metric": "nits_peak",
+        "value": 1350,
+        "note": "Tom's Guide light-meter reading (\"Peak brightness (nits)\")"
+      }
+    ],
+    "extraction": "partial",
+    "author": "John Velasco"
+  },
+  {
+    "id": "tg-samsung-galaxy-s25-ultra-review",
+    "kind": "review",
+    "source": "tomsguide",
+    "title": "Samsung Galaxy S25 Ultra review: My pros and cons",
+    "url": "https://www.tomsguide.com/phones/samsung-phones/samsung-galaxy-s25-ultra-review",
+    "published": "2025-01-31",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "samsung-galaxy-s25-ultra"
+    ],
+    "facets": [
+      "display",
+      "performance"
+    ],
+    "method": "Tom's Guide's own tests, read from the review's results tables: Geekbench 6, battery life on its web-surfing test over cellular at 150 nits, charge level after 15 and 30 minutes, peak brightness with a light meter and 3DMark stress-test stability. Figures for rival phones come from the same tables; Tom's Guide tests US models. Tom's Guide revised its battery test in 2025, so each phone's battery result is taken from the most recent review that lists it.",
+    "records": [
+      {
+        "subject": "samsung-galaxy-s25-ultra",
+        "metric": "gb6_multi",
+        "value": 9829
+      },
+      {
+        "subject": "samsung-galaxy-s25-ultra",
+        "metric": "gb6_single",
+        "value": 3031
+      },
+      {
+        "subject": "samsung-galaxy-s25-ultra",
+        "metric": "nits_peak",
+        "value": 1860,
+        "note": "Tom's Guide light-meter reading (\"Brightness (nits)\")"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Mark Spoonauer"
+  },
+  {
+    "id": "tg-samsung-galaxy-s26-plus-review",
+    "kind": "review",
+    "source": "tomsguide",
+    "title": "I've been testing the Samsung Galaxy S26 Plus — and it's a great phone that few people will actually want",
+    "url": "https://www.tomsguide.com/phones/samsung-phones/samsung-galaxy-s26-plus-review",
+    "published": "2026-03-18",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "samsung-galaxy-s26-plus"
+    ],
+    "facets": [
+      "display",
+      "performance"
+    ],
+    "method": "Tom's Guide's own tests, read from the review's results tables: Geekbench 6, battery life on its web-surfing test over cellular at 150 nits, charge level after 15 and 30 minutes, peak brightness with a light meter and 3DMark stress-test stability. Figures for rival phones come from the same tables; Tom's Guide tests US models. Tom's Guide revised its battery test in 2025, so each phone's battery result is taken from the most recent review that lists it.",
+    "records": [
+      {
+        "subject": "samsung-galaxy-s26-plus",
+        "metric": "gb6_multi",
+        "value": 11121,
+        "chip": "snapdragon-8-elite-gen-5",
+        "variant": "Snapdragon 8 Elite Gen 5 for Galaxy (US model)"
+      },
+      {
+        "subject": "samsung-galaxy-s26-plus",
+        "metric": "gb6_multi",
+        "value": 10303,
+        "variant": "Exynos 2600",
+        "note": "The review lists the Exynos 2600 model in brackets next to the Snapdragon result"
+      },
+      {
+        "subject": "samsung-galaxy-s26-plus",
+        "metric": "gb6_single",
+        "value": 3725,
+        "chip": "snapdragon-8-elite-gen-5",
+        "variant": "Snapdragon 8 Elite Gen 5 for Galaxy (US model)"
+      },
+      {
+        "subject": "samsung-galaxy-s26-plus",
+        "metric": "gb6_single",
+        "value": 2975,
+        "variant": "Exynos 2600",
+        "note": "The review lists the Exynos 2600 model in brackets next to the Snapdragon result"
+      },
+      {
+        "subject": "samsung-galaxy-s26-plus",
+        "metric": "nits_peak",
+        "value": 1928,
+        "variant": "US model",
+        "note": "Tom's Guide light-meter reading (\"Peak brightness (nits)\"); Tested on the US model; the display and charging hardware are the same as the Malaysian model"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Richard Priday"
+  },
+  {
+    "id": "tg-samsung-galaxy-s26-review",
+    "kind": "review",
+    "source": "tomsguide",
+    "title": "I’ve been testing the Galaxy S26 for a week — here’s what I like (and don’t like)",
+    "url": "https://www.tomsguide.com/phones/samsung-phones/samsung-galaxy-s26-review",
+    "published": "2026-03-14",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "samsung-galaxy-s25",
+      "samsung-galaxy-s26"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "display",
+      "performance"
+    ],
+    "method": "Tom's Guide's own tests, read from the review's results tables: Geekbench 6, battery life on its web-surfing test over cellular at 150 nits, charge level after 15 and 30 minutes, peak brightness with a light meter and 3DMark stress-test stability. Figures for rival phones come from the same tables; Tom's Guide tests US models. Tom's Guide revised its battery test in 2025, so each phone's battery result is taken from the most recent review that lists it.",
+    "records": [
+      {
+        "subject": "samsung-galaxy-s25",
+        "metric": "tg_web",
+        "value": 15.717,
+        "note": "15 h 43 min"
+      },
+      {
+        "subject": "samsung-galaxy-s26",
+        "metric": "charge_15",
+        "value": 29.0,
+        "variant": "US model",
+        "note": "Tested on the US model; the display and charging hardware are the same as the Malaysian model"
+      },
+      {
+        "subject": "samsung-galaxy-s26",
+        "metric": "charge_30",
+        "value": 57.0,
+        "variant": "US model",
+        "note": "Tested on the US model; the display and charging hardware are the same as the Malaysian model"
+      },
+      {
+        "subject": "samsung-galaxy-s26",
+        "metric": "gb6_multi",
+        "value": 10778,
+        "chip": "snapdragon-8-elite-gen-5",
+        "variant": "Snapdragon 8 Elite Gen 5 for Galaxy (US model)"
+      },
+      {
+        "subject": "samsung-galaxy-s26",
+        "metric": "gb6_single",
+        "value": 3531,
+        "chip": "snapdragon-8-elite-gen-5",
+        "variant": "Snapdragon 8 Elite Gen 5 for Galaxy (US model)"
+      },
+      {
+        "subject": "samsung-galaxy-s26",
+        "metric": "nits_peak",
+        "value": 1950,
+        "variant": "US model",
+        "note": "Tom's Guide light-meter reading (\"Peak Brightness\"); Tested on the US model; the display and charging hardware are the same as the Malaysian model"
+      }
+    ],
+    "extraction": "partial",
+    "author": "John Velasco"
+  },
+  {
+    "id": "tg-samsung-galaxy-s26-ultra-review",
+    "kind": "review",
+    "source": "tomsguide",
+    "title": "Samsung Galaxy S26 Ultra review: Pros and cons",
+    "url": "https://www.tomsguide.com/phones/samsung-phones/samsung-galaxy-s26-ultra-review",
+    "published": "2026-03-06",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "samsung-galaxy-s25-ultra",
+      "samsung-galaxy-s26-ultra"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "display",
+      "performance"
+    ],
+    "method": "Tom's Guide's own tests, read from the review's results tables: Geekbench 6, battery life on its web-surfing test over cellular at 150 nits, charge level after 15 and 30 minutes, peak brightness with a light meter and 3DMark stress-test stability. Figures for rival phones come from the same tables; Tom's Guide tests US models. Tom's Guide revised its battery test in 2025, so each phone's battery result is taken from the most recent review that lists it.",
+    "records": [
+      {
+        "subject": "samsung-galaxy-s25-ultra",
+        "metric": "tg_web",
+        "value": 14.45,
+        "note": "14 h 27 min"
+      },
+      {
+        "subject": "samsung-galaxy-s26-ultra",
+        "metric": "charge_30",
+        "value": 77.0
+      },
+      {
+        "subject": "samsung-galaxy-s26-ultra",
+        "metric": "gb6_multi",
+        "value": 11563
+      },
+      {
+        "subject": "samsung-galaxy-s26-ultra",
+        "metric": "gb6_single",
+        "value": 3785
+      },
+      {
+        "subject": "samsung-galaxy-s26-ultra",
+        "metric": "nits_peak",
+        "value": 1806,
+        "note": "Tom's Guide light-meter reading (\"Brightness HDR (nits)\")"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Mark Spoonauer"
+  },
+  {
+    "id": "tg-samsung-galaxy-z-flip-6-review",
+    "kind": "review",
+    "source": "tomsguide",
+    "title": "Samsung Galaxy Z Flip 6 review: Modest improvements, higher price",
+    "url": "https://www.tomsguide.com/phones/samsung-phones/samsung-galaxy-z-flip-6-review",
+    "published": "2024-07-10",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "samsung-galaxy-z-flip5",
+      "samsung-galaxy-z-flip6"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "display"
+    ],
+    "method": "Tom's Guide's own tests, read from the review's results tables: Geekbench 6, battery life on its web-surfing test over cellular at 150 nits, charge level after 15 and 30 minutes, peak brightness with a light meter and 3DMark stress-test stability. Figures for rival phones come from the same tables; Tom's Guide tests US models. Tom's Guide revised its battery test in 2025, so each phone's battery result is taken from the most recent review that lists it.",
+    "records": [
+      {
+        "subject": "samsung-galaxy-z-flip5",
+        "metric": "charge_30",
+        "value": 52.0
+      },
+      {
+        "subject": "samsung-galaxy-z-flip5",
+        "metric": "nits_peak",
+        "value": 1504,
+        "note": "Tom's Guide light-meter reading (\"Peak brightness\")"
+      },
+      {
+        "subject": "samsung-galaxy-z-flip5",
+        "metric": "tg_web",
+        "value": 9.883,
+        "note": "9 h 53 min"
+      },
+      {
+        "subject": "samsung-galaxy-z-flip6",
+        "metric": "charge_30",
+        "value": 55.0
+      },
+      {
+        "subject": "samsung-galaxy-z-flip6",
+        "metric": "nits_peak",
+        "value": 1942,
+        "note": "Tom's Guide light-meter reading (\"Peak brightness\")"
+      }
+    ],
+    "extraction": "partial",
+    "author": "John Velasco"
+  },
+  {
+    "id": "tg-samsung-galaxy-z-flip-7-hands-on-review-feels-like-flip-phon",
+    "kind": "review",
+    "source": "tomsguide",
+    "title": "Samsung Galaxy Z Flip 7 Review: The new king of flip foldables",
+    "url": "https://www.tomsguide.com/phones/samsung-phones/samsung-galaxy-z-flip-7-hands-on-review-feels-like-flip-phone-perfection",
+    "published": "2025-07-09",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "samsung-galaxy-z-flip6",
+      "samsung-galaxy-z-flip7"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "display",
+      "performance"
+    ],
+    "method": "Tom's Guide's own tests, read from the review's results tables: Geekbench 6, battery life on its web-surfing test over cellular at 150 nits, charge level after 15 and 30 minutes, peak brightness with a light meter and 3DMark stress-test stability. Figures for rival phones come from the same tables; Tom's Guide tests US models. Tom's Guide revised its battery test in 2025, so each phone's battery result is taken from the most recent review that lists it.",
+    "records": [
+      {
+        "subject": "samsung-galaxy-z-flip6",
+        "metric": "charge_15",
+        "value": 27.0
+      },
+      {
+        "subject": "samsung-galaxy-z-flip6",
+        "metric": "tg_web",
+        "value": 11.017,
+        "note": "11 h 01 min"
+      },
+      {
+        "subject": "samsung-galaxy-z-flip7",
+        "metric": "charge_15",
+        "value": 29.0
+      },
+      {
+        "subject": "samsung-galaxy-z-flip7",
+        "metric": "charge_30",
+        "value": 55.0
+      },
+      {
+        "subject": "samsung-galaxy-z-flip7",
+        "metric": "gb6_multi",
+        "value": 8079
+      },
+      {
+        "subject": "samsung-galaxy-z-flip7",
+        "metric": "gb6_single",
+        "value": 2286
+      },
+      {
+        "subject": "samsung-galaxy-z-flip7",
+        "metric": "nits_peak",
+        "value": 1989,
+        "note": "Tom's Guide light-meter reading (\"Brightness (nits)\")"
+      }
+    ],
+    "extraction": "partial",
+    "author": "John Velasco"
+  },
+  {
+    "id": "tg-samsung-galaxy-z-fold-6-review-test-results",
+    "kind": "review",
+    "source": "tomsguide",
+    "title": "Samsung Galaxy Z Fold 6 review: Buy or skip?",
+    "url": "https://www.tomsguide.com/phones/samsung-phones/samsung-galaxy-z-fold-6-review-test-results",
+    "published": "2024-07-18",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "samsung-galaxy-z-fold6"
+    ],
+    "facets": [
+      "performance"
+    ],
+    "method": "Tom's Guide's own tests, read from the review's results tables: Geekbench 6, battery life on its web-surfing test over cellular at 150 nits, charge level after 15 and 30 minutes, peak brightness with a light meter and 3DMark stress-test stability. Figures for rival phones come from the same tables; Tom's Guide tests US models. Tom's Guide revised its battery test in 2025, so each phone's battery result is taken from the most recent review that lists it.",
+    "records": [
+      {
+        "subject": "samsung-galaxy-z-fold6",
+        "metric": "gb6_multi",
+        "value": 6901
+      },
+      {
+        "subject": "samsung-galaxy-z-fold6",
+        "metric": "gb6_single",
+        "value": 2172
+      }
+    ],
+    "extraction": "partial",
+    "author": "Mark Spoonauer"
+  },
+  {
+    "id": "tg-samsung-galaxy-z-fold-8-review-wide-for-the-win",
+    "kind": "review",
+    "source": "tomsguide",
+    "title": "Samsung Galaxy Z Fold 8 review: The best foldable for most people",
+    "url": "https://www.tomsguide.com/phones/samsung-phones/samsung-galaxy-z-fold-8-review-wide-for-the-win",
+    "published": "2026-07-29",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "samsung-galaxy-z-fold8"
+    ],
+    "facets": [
+      "charging",
+      "performance"
+    ],
+    "method": "Tom's Guide's own tests, read from the review's results tables: Geekbench 6, battery life on its web-surfing test over cellular at 150 nits, charge level after 15 and 30 minutes, peak brightness with a light meter and 3DMark stress-test stability. Figures for rival phones come from the same tables; Tom's Guide tests US models. Tom's Guide revised its battery test in 2025, so each phone's battery result is taken from the most recent review that lists it.",
+    "records": [
+      {
+        "subject": "samsung-galaxy-z-fold8",
+        "metric": "charge_30",
+        "value": 70.0
+      },
+      {
+        "subject": "samsung-galaxy-z-fold8",
+        "metric": "gb6_multi",
+        "value": 11020
+      },
+      {
+        "subject": "samsung-galaxy-z-fold8",
+        "metric": "gb6_single",
+        "value": 3659
+      }
+    ],
+    "extraction": "partial",
+    "author": "Mark Spoonauer"
+  },
+  {
+    "id": "tg-samsung-galaxy-z-fold-8-ultra-review",
+    "kind": "review",
+    "source": "tomsguide",
+    "title": "Samsung Galaxy Z Fold 8 Ultra review: A major leap forward",
+    "url": "https://www.tomsguide.com/phones/samsung-phones/samsung-galaxy-z-fold-8-ultra-review",
+    "published": "2026-07-30",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "samsung-galaxy-z-fold8",
+      "samsung-galaxy-z-fold8-ultra"
+    ],
+    "facets": [
+      "battery",
+      "charging"
+    ],
+    "method": "Tom's Guide's own tests, read from the review's results tables: Geekbench 6, battery life on its web-surfing test over cellular at 150 nits, charge level after 15 and 30 minutes, peak brightness with a light meter and 3DMark stress-test stability. Figures for rival phones come from the same tables; Tom's Guide tests US models. Tom's Guide revised its battery test in 2025, so each phone's battery result is taken from the most recent review that lists it.",
+    "records": [
+      {
+        "subject": "samsung-galaxy-z-fold8",
+        "metric": "tg_web",
+        "value": 12.317,
+        "note": "12 h 19 min"
+      },
+      {
+        "subject": "samsung-galaxy-z-fold8-ultra",
+        "metric": "charge_30",
+        "value": 76.0
+      }
+    ],
+    "extraction": "partial",
+    "author": "Tom Pritchard"
+  },
+  {
+    "id": "tg-samsung-galaxy-s24",
+    "kind": "review",
+    "source": "tomsguide",
+    "title": "Samsung Galaxy S24 review: Affordable AI power",
+    "url": "https://www.tomsguide.com/reviews/samsung-galaxy-s24",
+    "published": "2024-01-17",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "samsung-galaxy-s23",
+      "samsung-galaxy-s24"
+    ],
+    "facets": [
+      "battery",
+      "charging",
+      "display",
+      "performance"
+    ],
+    "method": "Tom's Guide's own tests, read from the review's results tables: Geekbench 6, battery life on its web-surfing test over cellular at 150 nits, charge level after 15 and 30 minutes, peak brightness with a light meter and 3DMark stress-test stability. Figures for rival phones come from the same tables; Tom's Guide tests US models. Tom's Guide revised its battery test in 2025, so each phone's battery result is taken from the most recent review that lists it.",
+    "records": [
+      {
+        "subject": "samsung-galaxy-s23",
+        "metric": "charge_30",
+        "value": 55.0
+      },
+      {
+        "subject": "samsung-galaxy-s23",
+        "metric": "nits_peak",
+        "value": 1340,
+        "note": "Tom's Guide light-meter reading (\"Brightness (nits)\")"
+      },
+      {
+        "subject": "samsung-galaxy-s23",
+        "metric": "tg_web",
+        "value": 10.45,
+        "note": "10 h 27 min"
+      },
+      {
+        "subject": "samsung-galaxy-s24",
+        "metric": "charge_30",
+        "value": 54.0,
+        "variant": "US model",
+        "note": "Tested on the US model; the display and charging hardware are the same as the Malaysian model"
+      },
+      {
+        "subject": "samsung-galaxy-s24",
+        "metric": "gb6_multi",
+        "value": 6922,
+        "chip": "snapdragon-8-gen-3",
+        "variant": "Snapdragon 8 Gen 3 for Galaxy (US model)"
+      },
+      {
+        "subject": "samsung-galaxy-s24",
+        "metric": "gb6_single",
+        "value": 2235,
+        "chip": "snapdragon-8-gen-3",
+        "variant": "Snapdragon 8 Gen 3 for Galaxy (US model)"
+      },
+      {
+        "subject": "samsung-galaxy-s24",
+        "metric": "nits_peak",
+        "value": 1416,
+        "variant": "US model",
+        "note": "Tom's Guide light-meter reading (\"Brightness (nits)\"); Tested on the US model; the display and charging hardware are the same as the Malaysian model"
+      }
+    ],
+    "extraction": "partial",
+    "author": "Philip Michaels"
+  },
+  {
+    "id": "tg-samsung-galaxy-s24-ultra",
+    "kind": "review",
+    "source": "tomsguide",
+    "title": "Samsung Galaxy S24 Ultra review: The AI phone that saves you time",
+    "url": "https://www.tomsguide.com/reviews/samsung-galaxy-s24-ultra",
+    "published": "2024-01-17",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "samsung-galaxy-s23-ultra",
+      "samsung-galaxy-s24-ultra"
+    ],
+    "facets": [
+      "battery",
+      "display"
+    ],
+    "method": "Tom's Guide's own tests, read from the review's results tables: Geekbench 6, battery life on its web-surfing test over cellular at 150 nits, charge level after 15 and 30 minutes, peak brightness with a light meter and 3DMark stress-test stability. Figures for rival phones come from the same tables; Tom's Guide tests US models. Tom's Guide revised its battery test in 2025, so each phone's battery result is taken from the most recent review that lists it.",
+    "records": [
+      {
+        "subject": "samsung-galaxy-s23-ultra",
+        "metric": "nits_peak",
+        "value": 1225,
+        "note": "Tom's Guide light-meter reading (\"Max brightness (HDR)\")"
+      },
+      {
+        "subject": "samsung-galaxy-s23-ultra",
+        "metric": "tg_web",
+        "value": 12.367,
+        "note": "12 h 22 min"
+      },
+      {
+        "subject": "samsung-galaxy-s24-ultra",
+        "metric": "nits_peak",
+        "value": 1363,
+        "note": "Tom's Guide light-meter reading (\"Max brightness (HDR)\")"
+      }
+    ],
+    "extraction": "partial",
+    "author": "John Velasco"
+  }
+]

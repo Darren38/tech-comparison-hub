@@ -1,0 +1,186 @@
+{
+  "id": "xiaomi-18-pro-max",
+  "name": "Xiaomi 18 Pro Max",
+  "brand": "xiaomi",
+  "category": "smartphone",
+  "series": "Xiaomi",
+  "form": "bar",
+  "status": "pre-order",
+  "announced": "2026-09-23",
+  "segment": "flagship",
+  "aliases": [
+    "18 Pro Max",
+    "Xiaomi 18 PM"
+  ],
+  "summary": "The first phone on the Snapdragon 8 Elite Extreme Gen 6, with two 200 MP Leica cameras, an 8,500 mAh battery, a rear display and a hardware privacy screen. Launched in China on 23 September 2026 and not yet sold in Malaysia. No independent tests yet: its scores come from specifications only.",
+  "highlights": [
+    "Snapdragon 8 Elite Extreme Gen 6",
+    "200 MP main + 200 MP periscope (Leica)",
+    "8,500 mAh battery",
+    "Privacy display + rear screen"
+  ],
+  "prices": [
+    {
+      "region": "CN",
+      "currency": "CNY",
+      "amount": 6999,
+      "config": "12 GB / 256 GB",
+      "date": "2026-09-23",
+      "type": "launch",
+      "source": "gizmochina",
+      "url": "https://www.gizmochina.com/2026/09/23/xiaomi-18-pro-and-18-pro-max-launched-specs-price/",
+      "class": "news",
+      "accessed": "2026-09-24"
+    },
+    {
+      "region": "CN",
+      "currency": "CNY",
+      "amount": 7999,
+      "config": "12 GB / 512 GB",
+      "date": "2026-09-23",
+      "type": "launch",
+      "source": "gizmochina",
+      "url": "https://www.gizmochina.com/2026/09/23/xiaomi-18-pro-and-18-pro-max-launched-specs-price/",
+      "class": "news",
+      "accessed": "2026-09-24"
+    },
+    {
+      "region": "CN",
+      "currency": "CNY",
+      "amount": 8999,
+      "config": "16 GB / 512 GB",
+      "date": "2026-09-23",
+      "type": "launch",
+      "source": "gizmochina",
+      "url": "https://www.gizmochina.com/2026/09/23/xiaomi-18-pro-and-18-pro-max-launched-specs-price/",
+      "class": "news",
+      "accessed": "2026-09-24"
+    },
+    {
+      "region": "CN",
+      "currency": "CNY",
+      "amount": 9999,
+      "config": "16 GB / 1 TB",
+      "date": "2026-09-23",
+      "type": "launch",
+      "source": "gizmochina",
+      "url": "https://www.gizmochina.com/2026/09/23/xiaomi-18-pro-and-18-pro-max-launched-specs-price/",
+      "class": "news",
+      "accessed": "2026-09-24"
+    },
+    {
+      "region": "CN",
+      "currency": "CNY",
+      "amount": 10999,
+      "config": "16 GB / 1 TB",
+      "date": "2026-09-23",
+      "type": "launch",
+      "source": "gizmochina",
+      "url": "https://www.gizmochina.com/2026/09/23/xiaomi-18-pro-and-18-pro-max-launched-specs-price/",
+      "class": "news",
+      "accessed": "2026-09-24",
+      "note": "Transparent (red) special edition; price from Zing Gadget and TechNave."
+    }
+  ],
+  "availability": {
+    "MY": {
+      "status": "not-launched",
+      "checked": "2026-09-24",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2026/09/24/xiaomi-18-pro-series-launch-price-malaysia-soon/",
+      "note": "China launch on 23 September 2026. Xiaomi Malaysia has confirmed the Xiaomi 18 Pro series will launch in Malaysia this year; no date or price yet."
+    }
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.9,
+      "type": "LTPO OLED (flat), hardware privacy display",
+      "resolution": "2624 × 1208",
+      "refresh_hz": 120,
+      "peak_nits": 4000,
+      "protection": "Xiaomi Shield Glass 3.0",
+      "secondary": "2.9-inch rear OLED, 120 Hz"
+    },
+    "platform": {
+      "chipset": "snapdragon-8-elite-extreme-gen-6"
+    },
+    "battery": {
+      "capacity_mah": 8500,
+      "chemistry": "Silicon-carbon"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 200,
+          "aperture": "f/1.67",
+          "sensor": "1/1.28\"",
+          "ois": true,
+          "note": "Light Fusion 960L"
+        },
+        {
+          "role": "periscope",
+          "mp": 200,
+          "aperture": "f/2.4",
+          "sensor": "1/1.56\"",
+          "ois": true,
+          "zoom_x": 3.2,
+          "focal_mm": 75,
+          "note": "Samsung HP5; 12 cm macro"
+        },
+        {
+          "role": "ultrawide",
+          "mp": 50,
+          "note": "OmniVision OV51D, 102°"
+        }
+      ],
+      "zoom_optical_x": 3.2,
+      "front": "50 MP, f/2.2"
+    },
+    "audio": {
+      "speakers": "Triple speakers"
+    },
+    "memory": {
+      "ram_gb": [
+        12,
+        16
+      ],
+      "storage_gb": [
+        256,
+        512,
+        1024
+      ]
+    },
+    "charging": {
+      "wired_w": 100,
+      "wireless_w": 50,
+      "reverse_w": 27
+    },
+    "build": {
+      "ip": "IP66, IP68, IP69",
+      "weight_g": 235
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true,
+      "uwb": true,
+      "wifi": "Wi-Fi 7"
+    },
+    "biometrics": {
+      "fingerprint": "Ultrasonic, under display"
+    },
+    "software": {
+      "launch_os": "HyperOS 4"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "news",
+      "source": "technave",
+      "url": "https://technave.com/gadget/Xiaomi-18-Pro-Series-China-release-Snapdragon-8-Elite-Gen-6-series-200MP-Leica-dual-cameras-and-more-from-RM3-652-47520.html",
+      "checked": "2026-09-24",
+      "note": "Specifications from launch reports by TechNave, Gizmochina, Zing Gadget and SoyaCincau; only values at least two of them agree on are recorded (FoneArena's report gave the 18 Pro the Extreme chip, which the others contradict). Weight from Gizmochina. No independent tests yet: its scores come from specifications only."
+    }
+  },
+  "dataStatus": "checked"
+}

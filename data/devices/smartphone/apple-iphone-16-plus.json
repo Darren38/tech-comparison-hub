@@ -85,10 +85,6 @@
           "aperture": "f/1.6"
         },
         {
-          "role": "telephoto",
-          "mp": 12
-        },
-        {
           "role": "ultrawide",
           "mp": 12
         }
@@ -103,7 +99,8 @@
       "front_detail": [
         "12MP camera, ƒ/1.9 aperture"
       ],
-      "front_video": "4K@60fps; 1080p"
+      "front_video": "4K@60fps; 1080p",
+      "zoom_optical_x": 1
     },
     "battery": {
       "video_h": 27,
@@ -160,6 +157,13 @@
         "class": "platform",
         "source": "platform",
         "note": "Calculated from resolution and screen size."
+      },
+      "specs.camera.zoom_optical_x": {
+        "class": "official",
+        "source": "apple",
+        "url": "https://support.apple.com/en-my/121030",
+        "checked": "2026-09-24",
+        "note": "Apple lists \"12MP 2x Telephoto\" as a mode the 48MP main camera \"also enables\": a crop of the main sensor, not a separate camera, so there is no optical zoom."
       }
     }
   },

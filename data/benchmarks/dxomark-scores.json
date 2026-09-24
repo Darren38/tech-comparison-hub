@@ -1,0 +1,3879 @@
+[
+  {
+    "id": "dxomark-apple-iphone-15",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Apple iPhone 15 — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Apple/iPhone-15",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "apple-iphone-15"
+    ],
+    "facets": [
+      "camera",
+      "display",
+      "battery",
+      "audio"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 5), display, battery, audio. Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "apple-iphone-15",
+        "metric": "dxomark_camera_v5",
+        "value": 145,
+        "note": "Photo 147, Video 153"
+      },
+      {
+        "subject": "apple-iphone-15",
+        "metric": "dxomark_display",
+        "value": 140,
+        "note": "Readability 125, Color 164, Video 143, Touch 133"
+      },
+      {
+        "subject": "apple-iphone-15",
+        "metric": "dxomark_battery",
+        "value": 113,
+        "note": "Autonomy 110, Charging 108, Efficiency 131"
+      },
+      {
+        "subject": "apple-iphone-15",
+        "metric": "dxomark_audio",
+        "value": 141,
+        "note": "Playback 143, Recording 136"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-apple-iphone-15-plus",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Apple iPhone 15 Plus — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Apple/iPhone-15-Plus",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "apple-iphone-15-plus"
+    ],
+    "facets": [
+      "camera",
+      "display",
+      "battery",
+      "audio"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 5), display, battery, audio. Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "apple-iphone-15-plus",
+        "metric": "dxomark_camera_v5",
+        "value": 145,
+        "note": "Photo 147, Video 153"
+      },
+      {
+        "subject": "apple-iphone-15-plus",
+        "metric": "dxomark_display",
+        "value": 140,
+        "note": "Readability 125, Color 163, Video 143, Touch 133"
+      },
+      {
+        "subject": "apple-iphone-15-plus",
+        "metric": "dxomark_battery",
+        "value": 131,
+        "note": "Autonomy 142, Charging 114, Efficiency 134"
+      },
+      {
+        "subject": "apple-iphone-15-plus",
+        "metric": "dxomark_audio",
+        "value": 141,
+        "note": "Playback 143, Recording 136"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-apple-iphone-15-pro",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Apple iPhone 15 Pro — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Apple/iPhone-15-Pro",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "apple-iphone-15-pro"
+    ],
+    "facets": [
+      "camera",
+      "display",
+      "battery",
+      "audio"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 5), display, battery, audio. Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "apple-iphone-15-pro",
+        "metric": "dxomark_camera_v5",
+        "value": 154,
+        "note": "Photo 153, Video 158"
+      },
+      {
+        "subject": "apple-iphone-15-pro",
+        "metric": "dxomark_display",
+        "value": 151,
+        "note": "Readability 144, Color 156, Video 154, Touch 157"
+      },
+      {
+        "subject": "apple-iphone-15-pro",
+        "metric": "dxomark_battery",
+        "value": 114,
+        "note": "Autonomy 108, Charging 111, Efficiency 141"
+      },
+      {
+        "subject": "apple-iphone-15-pro",
+        "metric": "dxomark_audio",
+        "value": 142,
+        "note": "Playback 144, Recording 139"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-apple-iphone-15-pro-max",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Apple iPhone 15 Pro Max — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Apple/iPhone-15-Pro-Max",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "apple-iphone-15-pro-max"
+    ],
+    "facets": [
+      "camera",
+      "display",
+      "battery",
+      "audio"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 5), display, battery, audio. Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "apple-iphone-15-pro-max",
+        "metric": "dxomark_camera_v5",
+        "value": 154,
+        "note": "Photo 153, Video 158"
+      },
+      {
+        "subject": "apple-iphone-15-pro-max",
+        "metric": "dxomark_display",
+        "value": 151,
+        "note": "Readability 144, Color 156, Video 154, Touch 157"
+      },
+      {
+        "subject": "apple-iphone-15-pro-max",
+        "metric": "dxomark_battery",
+        "value": 134,
+        "note": "Autonomy 148, Charging 116, Efficiency 134"
+      },
+      {
+        "subject": "apple-iphone-15-pro-max",
+        "metric": "dxomark_audio",
+        "value": 143,
+        "note": "Playback 145, Recording 139"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-apple-iphone-16",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Apple iPhone 16 — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Apple/iPhone-16",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "apple-iphone-16"
+    ],
+    "facets": [
+      "camera",
+      "display"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 5), display. Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "apple-iphone-16",
+        "metric": "dxomark_camera_v5",
+        "value": 147,
+        "note": "Photo 149, Video 154"
+      },
+      {
+        "subject": "apple-iphone-16",
+        "metric": "dxomark_display",
+        "value": 142,
+        "note": "Readability 132, Color 155, Video 145, Touch 133"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-apple-iphone-16-pro",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Apple iPhone 16 Pro — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Apple/iPhone-16-Pro",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "apple-iphone-16-pro"
+    ],
+    "facets": [
+      "camera",
+      "display"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 5), display. Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "apple-iphone-16-pro",
+        "metric": "dxomark_camera_v5",
+        "value": 157,
+        "note": "Photo 157, Video 159"
+      },
+      {
+        "subject": "apple-iphone-16-pro",
+        "metric": "dxomark_display",
+        "value": 150,
+        "note": "Readability 143, Color 155, Video 150, Touch 157"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-apple-iphone-16-pro-max",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Apple iPhone 16 Pro Max — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Apple/iPhone-16-Pro-Max",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "apple-iphone-16-pro-max"
+    ],
+    "facets": [
+      "camera",
+      "display"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 6), display. Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "apple-iphone-16-pro-max",
+        "metric": "dxomark_camera",
+        "value": 161,
+        "note": "Photo 158, Video 167"
+      },
+      {
+        "subject": "apple-iphone-16-pro-max",
+        "metric": "dxomark_display",
+        "value": 150,
+        "note": "Readability 143, Color 155, Video 150, Touch 157"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-apple-iphone-17",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Apple iPhone 17 — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Apple/iPhone-17",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "apple-iphone-17"
+    ],
+    "facets": [
+      "camera",
+      "display"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 6), display. Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "apple-iphone-17",
+        "metric": "dxomark_camera",
+        "value": 157,
+        "note": "Photo 155, Video 162"
+      },
+      {
+        "subject": "apple-iphone-17",
+        "metric": "dxomark_display",
+        "value": 151,
+        "note": "Readability 154, Color 155, Video 140, Touch 163"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-apple-iphone-17-pro",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Apple iPhone 17 Pro — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Apple/iPhone-17-Pro",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "apple-iphone-17-pro"
+    ],
+    "facets": [
+      "camera"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 6). Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "apple-iphone-17-pro",
+        "metric": "dxomark_camera",
+        "value": 168,
+        "note": "Photo 166, Video 172"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-apple-iphone-17-pro-max",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Apple iPhone 17 Pro Max — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Apple/iPhone-17-Pro-Max",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "apple-iphone-17-pro-max"
+    ],
+    "facets": [
+      "display"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: display. Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "apple-iphone-17-pro-max",
+        "metric": "dxomark_display",
+        "value": 151,
+        "note": "Readability 154, Color 155, Video 140, Touch 163"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-apple-iphone-18-pro",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Apple iPhone 18 Pro — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Apple/iPhone-18-Pro",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "apple-iphone-18-pro"
+    ],
+    "facets": [
+      "camera"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 6). Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "apple-iphone-18-pro",
+        "metric": "dxomark_camera",
+        "value": 172,
+        "note": "Photo 171, Video 176"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-apple-iphone-air",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Apple iPhone Air — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Apple/iPhone-Air",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "apple-iphone-air"
+    ],
+    "facets": [
+      "camera",
+      "display"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 6), display. Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "apple-iphone-air",
+        "metric": "dxomark_camera",
+        "value": 141,
+        "note": "Photo 134, Video 155"
+      },
+      {
+        "subject": "apple-iphone-air",
+        "metric": "dxomark_display",
+        "value": 151,
+        "note": "Readability 154, Color 155, Video 140, Touch 163"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-google-pixel-10",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Google Pixel 10 — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Google/Pixel-10",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "google-pixel-10"
+    ],
+    "facets": [
+      "display"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: display. Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "google-pixel-10",
+        "metric": "dxomark_display",
+        "value": 160,
+        "note": "Readability 157, Color 167, Video 160, Touch 157"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-google-pixel-10-pro-xl",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Google Pixel 10 Pro XL — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Google/Pixel-10-Pro-XL",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "google-pixel-10-pro-xl"
+    ],
+    "facets": [
+      "camera",
+      "display"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 6), display. Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "google-pixel-10-pro-xl",
+        "metric": "dxomark_camera",
+        "value": 163,
+        "note": "Photo 165, Video 160"
+      },
+      {
+        "subject": "google-pixel-10-pro-xl",
+        "metric": "dxomark_display",
+        "value": 161,
+        "note": "Readability 157, Color 166, Video 161, Touch 158"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-google-pixel-11",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Google Pixel 11 — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Google/Pixel-11",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "google-pixel-11"
+    ],
+    "facets": [
+      "camera"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 6). Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "google-pixel-11",
+        "metric": "dxomark_camera",
+        "value": 154,
+        "note": "Photo 161, Video 142"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-google-pixel-11-pro-xl",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Google Pixel 11 Pro XL — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Google/Pixel-11-Pro-XL",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "google-pixel-11-pro-xl"
+    ],
+    "facets": [
+      "camera"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 6). Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "google-pixel-11-pro-xl",
+        "metric": "dxomark_camera",
+        "value": 168,
+        "note": "Photo 171, Video 162"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-honor-200",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Honor 200 — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Honor/200",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "honor-200"
+    ],
+    "facets": [
+      "camera",
+      "display",
+      "battery"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 5), display, battery. Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "honor-200",
+        "metric": "dxomark_camera_v5",
+        "value": 130,
+        "note": "Photo 133, Video 121"
+      },
+      {
+        "subject": "honor-200",
+        "metric": "dxomark_display",
+        "value": 147,
+        "note": "Readability 145, Color 160, Video 143, Touch 133"
+      },
+      {
+        "subject": "honor-200",
+        "metric": "dxomark_battery",
+        "value": 145,
+        "note": "Autonomy 150, Charging 147, Efficiency 126"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-honor-200-lite",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Honor 200 Lite — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Honor/200-Lite",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "honor-200-lite"
+    ],
+    "facets": [
+      "camera"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 5). Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "honor-200-lite",
+        "metric": "dxomark_camera_v5",
+        "value": 86,
+        "note": "Photo 83, Video 93"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-honor-200-pro",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Honor 200 Pro — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Honor/200-Pro",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "honor-200-pro"
+    ],
+    "facets": [
+      "camera",
+      "display",
+      "battery"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 5), display, battery. Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "honor-200-pro",
+        "metric": "dxomark_camera_v5",
+        "value": 137,
+        "note": "Photo 138, Video 134"
+      },
+      {
+        "subject": "honor-200-pro",
+        "metric": "dxomark_display",
+        "value": 151,
+        "note": "Readability 145, Color 165, Video 146, Touch 158"
+      },
+      {
+        "subject": "honor-200-pro",
+        "metric": "dxomark_battery",
+        "value": 145,
+        "note": "Autonomy 142, Charging 157, Efficiency 129"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-honor-200-smart",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Honor 200 Smart — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Honor/200-Smart",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "honor-200-smart"
+    ],
+    "facets": [
+      "camera"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 5). Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "honor-200-smart",
+        "metric": "dxomark_camera_v5",
+        "value": 55,
+        "note": "Photo 53, Video 78"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-honor-400",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Honor 400 — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Honor/400",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "honor-400"
+    ],
+    "facets": [
+      "display"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: display. Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "honor-400",
+        "metric": "dxomark_display",
+        "value": 149,
+        "note": "Readability 150, Color 157, Video 144, Touch 141"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-honor-90",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Honor 90 — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Honor/90",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "honor-90"
+    ],
+    "facets": [
+      "camera",
+      "display",
+      "battery",
+      "audio"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 5), display, battery, audio. Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "honor-90",
+        "metric": "dxomark_camera_v5",
+        "value": 122,
+        "note": "Photo 128, Video 126"
+      },
+      {
+        "subject": "honor-90",
+        "metric": "dxomark_display",
+        "value": 140,
+        "note": "Readability 142, Color 134, Video 138, Touch 154"
+      },
+      {
+        "subject": "honor-90",
+        "metric": "dxomark_battery",
+        "value": 116,
+        "note": "Autonomy 112, Charging 130, Efficiency 100"
+      },
+      {
+        "subject": "honor-90",
+        "metric": "dxomark_audio",
+        "value": 106,
+        "note": "Playback 98, Recording 132"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-honor-90-lite",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Honor 90 Lite — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Honor/90-Lite",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "honor-90-lite"
+    ],
+    "facets": [
+      "camera",
+      "battery"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 5), battery. Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "honor-90-lite",
+        "metric": "dxomark_camera_v5",
+        "value": 73,
+        "note": "Photo 89, Video 53"
+      },
+      {
+        "subject": "honor-90-lite",
+        "metric": "dxomark_battery",
+        "value": 127,
+        "note": "Autonomy 132, Charging 119, Efficiency 127"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-honor-magic-v2",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Honor Magic V2 — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Honor/Magic-V2",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "honor-magic-v2"
+    ],
+    "facets": [
+      "camera",
+      "display"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 5), display. Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "honor-magic-v2",
+        "metric": "dxomark_camera_v5",
+        "value": 117,
+        "note": "Photo 109, Video 120"
+      },
+      {
+        "subject": "honor-magic-v2",
+        "metric": "dxomark_display",
+        "value": 151,
+        "note": "Readability 160, Color 145, Video 151, Touch 135"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-honor-magic-v3",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Honor Magic V3 — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Honor/Magic-V3",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "honor-magic-v3"
+    ],
+    "facets": [
+      "camera",
+      "display"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 5), display. Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "honor-magic-v3",
+        "metric": "dxomark_camera_v5",
+        "value": 137,
+        "note": "Photo 137, Video 135"
+      },
+      {
+        "subject": "honor-magic-v3",
+        "metric": "dxomark_display",
+        "value": 149,
+        "note": "Readability 153, Color 140, Video 151, Touch 152"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-honor-magic-v5",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Honor Magic V5 — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Honor/Magic-V5",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "honor-magic-v5"
+    ],
+    "facets": [
+      "camera"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 6). Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "honor-magic-v5",
+        "metric": "dxomark_camera",
+        "value": 150,
+        "note": "Photo 164, Video 124"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-honor-magic-vs",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Honor Magic Vs — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Honor/Magic-Vs",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "honor-magic-vs"
+    ],
+    "facets": [
+      "camera",
+      "display",
+      "battery",
+      "audio"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 5), display, battery, audio. Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "honor-magic-vs",
+        "metric": "dxomark_camera_v5",
+        "value": 119,
+        "note": "Photo 114, Video 124"
+      },
+      {
+        "subject": "honor-magic-vs",
+        "metric": "dxomark_display",
+        "value": 136,
+        "note": "Readability 160, Color 116, Video 131, Touch 133"
+      },
+      {
+        "subject": "honor-magic-vs",
+        "metric": "dxomark_battery",
+        "value": 108,
+        "note": "Autonomy 101, Charging 133, Efficiency 85"
+      },
+      {
+        "subject": "honor-magic-vs",
+        "metric": "dxomark_audio",
+        "value": 137,
+        "note": "Playback 135, Recording 143"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-honor-magic5-pro",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Honor Magic5 Pro — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Honor/Magic5-Pro",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "honor-magic5-pro"
+    ],
+    "facets": [
+      "camera",
+      "display",
+      "battery",
+      "audio"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 5), display, battery, audio. Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "honor-magic5-pro",
+        "metric": "dxomark_camera_v5",
+        "value": 152,
+        "note": "Photo 154, Video 144"
+      },
+      {
+        "subject": "honor-magic5-pro",
+        "metric": "dxomark_display",
+        "value": 151,
+        "note": "Readability 145, Color 162, Video 146, Touch 162"
+      },
+      {
+        "subject": "honor-magic5-pro",
+        "metric": "dxomark_battery",
+        "value": 141,
+        "note": "Autonomy 145, Charging 140, Efficiency 130"
+      },
+      {
+        "subject": "honor-magic5-pro",
+        "metric": "dxomark_audio",
+        "value": 138,
+        "note": "Playback 135, Recording 143"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-honor-magic6-pro",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Honor Magic6 Pro — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Honor/Magic6-Pro",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "honor-magic6-pro"
+    ],
+    "facets": [
+      "camera",
+      "display",
+      "battery",
+      "audio"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 5), display, battery, audio. Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "honor-magic6-pro",
+        "metric": "dxomark_camera_v5",
+        "value": 158,
+        "note": "Photo 160, Video 150"
+      },
+      {
+        "subject": "honor-magic6-pro",
+        "metric": "dxomark_display",
+        "value": 157,
+        "note": "Readability 162, Color 147, Video 159, Touch 162"
+      },
+      {
+        "subject": "honor-magic6-pro",
+        "metric": "dxomark_battery",
+        "value": 157,
+        "note": "Autonomy 168, Charging 151, Efficiency 140"
+      },
+      {
+        "subject": "honor-magic6-pro",
+        "metric": "dxomark_audio",
+        "value": 155,
+        "note": "Playback 152, Recording 160"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-honor-magic7-pro",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Honor Magic7 Pro — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Honor/Magic7-Pro",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "honor-magic7-pro"
+    ],
+    "facets": [
+      "camera",
+      "display"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 6), display. Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "honor-magic7-pro",
+        "metric": "dxomark_camera",
+        "value": 148,
+        "note": "Photo 148, Video 149"
+      },
+      {
+        "subject": "honor-magic7-pro",
+        "metric": "dxomark_display",
+        "value": 153,
+        "note": "Readability 150, Color 151, Video 155, Touch 160"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-honor-magic8-pro",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Honor Magic8 Pro — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Honor/Magic8-Pro",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "honor-magic8-pro"
+    ],
+    "facets": [
+      "camera"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 6). Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "honor-magic8-pro",
+        "metric": "dxomark_camera",
+        "value": 164,
+        "note": "Photo 170, Video 154"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-honor-x7a",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Honor X7a — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Honor/X7a",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "honor-x7a"
+    ],
+    "facets": [
+      "battery"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: battery. Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "honor-x7a",
+        "metric": "dxomark_battery",
+        "value": 147,
+        "note": "Autonomy 188, Charging 104, Efficiency 139"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-honor-x7b",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Honor X7b — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Honor/X7b",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "honor-x7b"
+    ],
+    "facets": [
+      "battery"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: battery. Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "honor-x7b",
+        "metric": "dxomark_battery",
+        "value": 151,
+        "note": "Autonomy 195, Charging 110, Efficiency 133"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-honor-x9a",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Honor X9a — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Honor/X9a",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "honor-x9a"
+    ],
+    "facets": [
+      "battery"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: battery. Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "honor-x9a",
+        "metric": "dxomark_battery",
+        "value": 143,
+        "note": "Autonomy 159, Charging 119, Efficiency 148"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-honor-x9b",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Honor X9b — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Honor/X9b",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "honor-x9b"
+    ],
+    "facets": [
+      "battery"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: battery. Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "honor-x9b",
+        "metric": "dxomark_battery",
+        "value": 156,
+        "note": "Autonomy 191, Charging 119, Efficiency 144"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-honor-x9c",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Honor X9c — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Honor/X9c",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "honor-x9c"
+    ],
+    "facets": [
+      "battery"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: battery. Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "honor-x9c",
+        "metric": "dxomark_battery",
+        "value": 164,
+        "note": "Autonomy 197, Charging 132, Efficiency 144"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-huawei-p60-pro",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Huawei P60 Pro — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Huawei/P60-Pro",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "huawei-p60-pro"
+    ],
+    "facets": [
+      "camera",
+      "display",
+      "battery",
+      "audio"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 5), display, battery, audio. Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "huawei-p60-pro",
+        "metric": "dxomark_camera_v5",
+        "value": 156,
+        "note": "Photo 159, Video 147"
+      },
+      {
+        "subject": "huawei-p60-pro",
+        "metric": "dxomark_display",
+        "value": 143,
+        "note": "Readability 140, Color 155, Video 134, Touch 157"
+      },
+      {
+        "subject": "huawei-p60-pro",
+        "metric": "dxomark_battery",
+        "value": 138,
+        "note": "Autonomy 134, Charging 153, Efficiency 124"
+      },
+      {
+        "subject": "huawei-p60-pro",
+        "metric": "dxomark_audio",
+        "value": 141,
+        "note": "Playback 144, Recording 133"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-huawei-pura-70-ultra",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Huawei Pura 70 Ultra — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Huawei/Pura-70-Ultra",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "huawei-pura-70-ultra"
+    ],
+    "facets": [
+      "camera"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 6). Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "huawei-pura-70-ultra",
+        "metric": "dxomark_camera",
+        "value": 163,
+        "note": "Photo 167, Video 155"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-huawei-pura-80-ultra",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Huawei Pura 80 Ultra — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Huawei/Pura-80-Ultra",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "huawei-pura-80-ultra"
+    ],
+    "facets": [
+      "camera"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 6). Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "huawei-pura-80-ultra",
+        "metric": "dxomark_camera",
+        "value": 175,
+        "note": "Photo 180, Video 166"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-motorola-edge-60-pro",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Motorola Edge 60 Pro — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Motorola/Edge-60-Pro",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "motorola-edge-60-pro"
+    ],
+    "facets": [
+      "battery"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: battery. Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "motorola-edge-60-pro",
+        "metric": "dxomark_battery",
+        "value": 164,
+        "note": "Autonomy 183, Charging 149, Efficiency 141"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-oneplus-13",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "OnePlus 13 — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/OnePlus/13",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "oneplus-13"
+    ],
+    "facets": [
+      "display"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: display. Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "oneplus-13",
+        "metric": "dxomark_display",
+        "value": 143,
+        "note": "Readability 156, Color 148, Video 124, Touch 153"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-oppo-a78-5g",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Oppo A78 5G — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Oppo/A78-5G",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "oppo-a78-5g"
+    ],
+    "facets": [
+      "camera",
+      "battery",
+      "audio"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 5), battery, audio. Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "oppo-a78-5g",
+        "metric": "dxomark_camera_v5",
+        "value": 69,
+        "note": "Photo 75, Video 79"
+      },
+      {
+        "subject": "oppo-a78-5g",
+        "metric": "dxomark_battery",
+        "value": 132,
+        "note": "Autonomy 147, Charging 115, Efficiency 124"
+      },
+      {
+        "subject": "oppo-a78-5g",
+        "metric": "dxomark_audio",
+        "value": 111,
+        "note": "Playback 115, Recording 106"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-oppo-find-n2-flip",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Oppo Find N2 Flip — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Oppo/Find-N2-Flip",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "oppo-find-n2-flip"
+    ],
+    "facets": [
+      "camera",
+      "display",
+      "battery",
+      "audio"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 5), display, battery, audio. Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "oppo-find-n2-flip",
+        "metric": "dxomark_camera_v5",
+        "value": 114,
+        "note": "Photo 121, Video 119"
+      },
+      {
+        "subject": "oppo-find-n2-flip",
+        "metric": "dxomark_display",
+        "value": 142,
+        "note": "Readability 149, Color 134, Video 142, Touch 141"
+      },
+      {
+        "subject": "oppo-find-n2-flip",
+        "metric": "dxomark_battery",
+        "value": 108,
+        "note": "Autonomy 100, Charging 112, Efficiency 126"
+      },
+      {
+        "subject": "oppo-find-n2-flip",
+        "metric": "dxomark_audio",
+        "value": 131,
+        "note": "Playback 125, Recording 146"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-oppo-find-n5",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Oppo Find N5 — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Oppo/Find-N5",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "oppo-find-n5"
+    ],
+    "facets": [
+      "display"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: display. Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "oppo-find-n5",
+        "metric": "dxomark_display",
+        "value": 144,
+        "note": "Readability 151, Color 141, Video 143, Touch 133"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-oppo-find-x8",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Oppo Find X8 — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Oppo/Find-X8",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "oppo-find-x8"
+    ],
+    "facets": [
+      "battery"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: battery. Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "oppo-find-x8",
+        "metric": "dxomark_battery",
+        "value": 156,
+        "note": "Autonomy 169, Charging 148, Efficiency 137"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-oppo-find-x8-pro",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Oppo Find X8 Pro — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Oppo/Find-X8-Pro",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "oppo-find-x8-pro"
+    ],
+    "facets": [
+      "camera",
+      "display",
+      "battery"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 5), display, battery. Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "oppo-find-x8-pro",
+        "metric": "dxomark_camera_v5",
+        "value": 157,
+        "note": "Photo 160, Video 151"
+      },
+      {
+        "subject": "oppo-find-x8-pro",
+        "metric": "dxomark_display",
+        "value": 152,
+        "note": "Readability 161, Color 147, Video 145, Touch 158"
+      },
+      {
+        "subject": "oppo-find-x8-pro",
+        "metric": "dxomark_battery",
+        "value": 155,
+        "note": "Autonomy 171, Charging 140, Efficiency 140"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-oppo-find-x9-pro",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Oppo Find X9 Pro — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Oppo/Find-X9-Pro",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "oppo-find-x9-pro"
+    ],
+    "facets": [
+      "camera"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 6). Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "oppo-find-x9-pro",
+        "metric": "dxomark_camera",
+        "value": 166,
+        "note": "Photo 169, Video 159"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-oppo-reno12",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Oppo Reno12 — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Oppo/Reno12",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "oppo-reno12"
+    ],
+    "facets": [
+      "battery"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: battery. Scores from different protocol versions are kept apart. DXOMARK lists the phone as \"Oppo Reno12\".",
+    "records": [
+      {
+        "subject": "oppo-reno12",
+        "metric": "dxomark_battery",
+        "value": 144,
+        "note": "Autonomy 151, Charging 141, Efficiency 130"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-oppo-reno12-pro",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Oppo Reno12 Pro — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Oppo/Reno12-Pro",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "oppo-reno12-pro"
+    ],
+    "facets": [
+      "battery"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: battery. Scores from different protocol versions are kept apart. DXOMARK lists the phone as \"Oppo Reno12 Pro\".",
+    "records": [
+      {
+        "subject": "oppo-reno12-pro",
+        "metric": "dxomark_battery",
+        "value": 147,
+        "note": "Autonomy 157, Charging 139, Efficiency 135"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-poco-f5-pro",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "POCO F5 Pro — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/POCO/F5-Pro",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "poco-f5-pro"
+    ],
+    "facets": [
+      "battery",
+      "audio"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: battery, audio. Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "poco-f5-pro",
+        "metric": "dxomark_battery",
+        "value": 131,
+        "note": "Autonomy 126, Charging 142, Efficiency 128"
+      },
+      {
+        "subject": "poco-f5-pro",
+        "metric": "dxomark_audio",
+        "value": 119,
+        "note": "Playback 115, Recording 129"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-redmi-12-5g",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Xiaomi Redmi 12 5G — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Xiaomi/Redmi-12-5G",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "redmi-12-5g"
+    ],
+    "facets": [
+      "camera",
+      "battery"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 5), battery. Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "redmi-12-5g",
+        "metric": "dxomark_camera_v5",
+        "value": 63,
+        "note": "Photo 57, Video 76"
+      },
+      {
+        "subject": "redmi-12-5g",
+        "metric": "dxomark_battery",
+        "value": 95,
+        "note": "Autonomy 102, Charging 88, Efficiency 92"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-redmi-12c",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Xiaomi Redmi 12C — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Xiaomi/Redmi-12C",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "redmi-12c"
+    ],
+    "facets": [
+      "camera"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 5). Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "redmi-12c",
+        "metric": "dxomark_camera_v5",
+        "value": 45,
+        "note": "Photo 50, Video 43"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-redmi-13c",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Xiaomi Redmi 13C — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Xiaomi/Redmi-13C",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "redmi-13c"
+    ],
+    "facets": [
+      "camera"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 5). Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "redmi-13c",
+        "metric": "dxomark_camera_v5",
+        "value": 63,
+        "note": "Photo 58, Video 82"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-redmi-13c-5g",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Xiaomi Redmi 13C 5G — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Xiaomi/Redmi-13C-5G",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "redmi-13c-5g"
+    ],
+    "facets": [
+      "camera"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 5). Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "redmi-13c-5g",
+        "metric": "dxomark_camera_v5",
+        "value": 60,
+        "note": "Photo 56, Video 90"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-redmi-14c",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Xiaomi Redmi 14C — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Xiaomi/Redmi-14C",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "redmi-14c"
+    ],
+    "facets": [
+      "camera"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 5). Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "redmi-14c",
+        "metric": "dxomark_camera_v5",
+        "value": 63,
+        "note": "Photo 58, Video 86"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-redmi-a3",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Xiaomi Redmi A3 — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Xiaomi/Redmi-A3",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "redmi-a3"
+    ],
+    "facets": [
+      "camera"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 5). Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "redmi-a3",
+        "metric": "dxomark_camera_v5",
+        "value": 45,
+        "note": "Photo 53, Video 37"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-redmi-note-12",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Xiaomi Redmi Note 12 — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Xiaomi/Redmi-Note-12",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "redmi-note-12"
+    ],
+    "facets": [
+      "camera"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 5). Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "redmi-note-12",
+        "metric": "dxomark_camera_v5",
+        "value": 63,
+        "note": "Photo 54, Video 66"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-redmi-note-12-5g",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Xiaomi Redmi Note 12 5G — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Xiaomi/Redmi-Note-12-5G",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "redmi-note-12-5g"
+    ],
+    "facets": [
+      "camera",
+      "battery"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 5), battery. Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "redmi-note-12-5g",
+        "metric": "dxomark_camera_v5",
+        "value": 69,
+        "note": "Photo 74, Video 49"
+      },
+      {
+        "subject": "redmi-note-12-5g",
+        "metric": "dxomark_battery",
+        "value": 132,
+        "note": "Autonomy 139, Charging 120, Efficiency 137"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-redmi-note-12-pro-5g",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Xiaomi Redmi Note 12 Pro 5G — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Xiaomi/Redmi-Note-12-Pro-5G",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "redmi-note-12-pro-5g"
+    ],
+    "facets": [
+      "camera",
+      "battery"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 5), battery. Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "redmi-note-12-pro-5g",
+        "metric": "dxomark_camera_v5",
+        "value": 102,
+        "note": "Photo 108, Video 98"
+      },
+      {
+        "subject": "redmi-note-12-pro-5g",
+        "metric": "dxomark_battery",
+        "value": 136,
+        "note": "Autonomy 137, Charging 138, Efficiency 130"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-redmi-note-12-pro-plus-5g",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Xiaomi Redmi Note 12 Pro+ 5G — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Xiaomi/Redmi-Note-12-Pro+-5G",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "redmi-note-12-pro-plus-5g"
+    ],
+    "facets": [
+      "camera",
+      "battery"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 5), battery. Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "redmi-note-12-pro-plus-5g",
+        "metric": "dxomark_camera_v5",
+        "value": 113,
+        "note": "Photo 117, Video 117"
+      },
+      {
+        "subject": "redmi-note-12-pro-plus-5g",
+        "metric": "dxomark_battery",
+        "value": 129,
+        "note": "Autonomy 117, Charging 161, Efficiency 113"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-redmi-note-13",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Xiaomi Redmi Note 13 — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Xiaomi/Redmi-Note-13",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "redmi-note-13"
+    ],
+    "facets": [
+      "camera",
+      "battery"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 5), battery. Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "redmi-note-13",
+        "metric": "dxomark_camera_v5",
+        "value": 75,
+        "note": "Photo 75, Video 68"
+      },
+      {
+        "subject": "redmi-note-13",
+        "metric": "dxomark_battery",
+        "value": 117,
+        "note": "Autonomy 121, Charging 115, Efficiency 112"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-redmi-note-13-5g",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Xiaomi Redmi Note 13 5G — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Xiaomi/Redmi-Note-13-5G",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "redmi-note-13-5g"
+    ],
+    "facets": [
+      "camera",
+      "battery"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 5), battery. Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "redmi-note-13-5g",
+        "metric": "dxomark_camera_v5",
+        "value": 91,
+        "note": "Photo 89, Video 87"
+      },
+      {
+        "subject": "redmi-note-13-5g",
+        "metric": "dxomark_battery",
+        "value": 94,
+        "note": "Autonomy 93, Charging 111, Efficiency 69"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-redmi-note-13-pro-5g",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Xiaomi Redmi Note 13 Pro 5G — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Xiaomi/Redmi-Note-13-Pro-5G",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "redmi-note-13-pro-5g"
+    ],
+    "facets": [
+      "camera",
+      "battery"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 5), battery. Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "redmi-note-13-pro-5g",
+        "metric": "dxomark_camera_v5",
+        "value": 120,
+        "note": "Photo 121, Video 118"
+      },
+      {
+        "subject": "redmi-note-13-pro-5g",
+        "metric": "dxomark_battery",
+        "value": 120,
+        "note": "Autonomy 117, Charging 134, Efficiency 106"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-redmi-note-13-pro-plus-5g",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Xiaomi Redmi Note 13 Pro Plus 5G — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Xiaomi/Redmi-Note-13-Pro-Plus-5G",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "redmi-note-13-pro-plus-5g"
+    ],
+    "facets": [
+      "camera",
+      "display",
+      "battery"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 5), display, battery. Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "redmi-note-13-pro-plus-5g",
+        "metric": "dxomark_camera_v5",
+        "value": 121,
+        "note": "Photo 123, Video 117"
+      },
+      {
+        "subject": "redmi-note-13-pro-plus-5g",
+        "metric": "dxomark_display",
+        "value": 135,
+        "note": "Readability 143, Color 143, Video 114, Touch 162"
+      },
+      {
+        "subject": "redmi-note-13-pro-plus-5g",
+        "metric": "dxomark_battery",
+        "value": 111,
+        "note": "Autonomy 98, Charging 153, Efficiency 85"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-redmi-note-14",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Xiaomi Redmi Note 14 — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Xiaomi/Redmi-Note-14",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "redmi-note-14"
+    ],
+    "facets": [
+      "camera"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 5). Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "redmi-note-14",
+        "metric": "dxomark_camera_v5",
+        "value": 84,
+        "note": "Photo 106, Video 76"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-redmi-note-14-5g",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Xiaomi Redmi Note 14 5G — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Xiaomi/Redmi-Note-14-5G",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "redmi-note-14-5g"
+    ],
+    "facets": [
+      "camera"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 5). Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "redmi-note-14-5g",
+        "metric": "dxomark_camera_v5",
+        "value": 103,
+        "note": "Photo 105, Video 99"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-redmi-note-14-pro-5g",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Xiaomi Redmi Note 14 Pro 5G — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Xiaomi/Redmi-Note-14-Pro-5G",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "redmi-note-14-pro-5g"
+    ],
+    "facets": [
+      "camera"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 5). Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "redmi-note-14-pro-5g",
+        "metric": "dxomark_camera_v5",
+        "value": 106,
+        "note": "Photo 103, Video 117"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-redmi-note-14-pro-plus",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Xiaomi Redmi Note 14 Pro+ 5G — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Xiaomi/Redmi-Note-14-Pro+-5G",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "redmi-note-14-pro-plus"
+    ],
+    "facets": [
+      "camera",
+      "display"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 6), display. Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "redmi-note-14-pro-plus",
+        "metric": "dxomark_camera",
+        "value": 103,
+        "note": "Photo 111, Video 90"
+      },
+      {
+        "subject": "redmi-note-14-pro-plus",
+        "metric": "dxomark_display",
+        "value": 139,
+        "note": "Readability 142, Color 142, Video 129, Touch 156"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-samsung-galaxy-a05s",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Samsung Galaxy A05s — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Samsung/Galaxy-A05s",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "samsung-galaxy-a05s"
+    ],
+    "facets": [
+      "camera"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 5). Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "samsung-galaxy-a05s",
+        "metric": "dxomark_camera_v5",
+        "value": 45,
+        "note": "Photo 52, Video 39"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-samsung-galaxy-a14-5g",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Samsung Galaxy A14 5G — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Samsung/Galaxy-A14-5G",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "samsung-galaxy-a14-5g"
+    ],
+    "facets": [
+      "camera",
+      "battery"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 5), battery. Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "samsung-galaxy-a14-5g",
+        "metric": "dxomark_camera_v5",
+        "value": 67,
+        "note": "Photo 77, Video 62"
+      },
+      {
+        "subject": "samsung-galaxy-a14-5g",
+        "metric": "dxomark_battery",
+        "value": 117,
+        "note": "Autonomy 138, Charging 90, Efficiency 121"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-samsung-galaxy-a15-5g",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Samsung Galaxy A15 5G — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Samsung/Galaxy-A15-5G",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "samsung-galaxy-a15-5g"
+    ],
+    "facets": [
+      "camera",
+      "battery"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 5), battery. Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "samsung-galaxy-a15-5g",
+        "metric": "dxomark_camera_v5",
+        "value": 83,
+        "note": "Photo 79, Video 97"
+      },
+      {
+        "subject": "samsung-galaxy-a15-5g",
+        "metric": "dxomark_battery",
+        "value": 127,
+        "note": "Autonomy 143, Charging 109, Efficiency 123"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-samsung-galaxy-a16-5g",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Samsung Galaxy A16 5G — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Samsung/Galaxy-A16-5G",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "samsung-galaxy-a16-5g"
+    ],
+    "facets": [
+      "camera"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 5). Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "samsung-galaxy-a16-5g",
+        "metric": "dxomark_camera_v5",
+        "value": 77,
+        "note": "Photo 72, Video 93"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-samsung-galaxy-a25-5g",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Samsung Galaxy A25 5G — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Samsung/Galaxy-A25-5G",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "samsung-galaxy-a25-5g"
+    ],
+    "facets": [
+      "camera"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 5). Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "samsung-galaxy-a25-5g",
+        "metric": "dxomark_camera_v5",
+        "value": 92,
+        "note": "Photo 98, Video 94"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-samsung-galaxy-a34-5g",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Samsung Galaxy A34 5G — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Samsung/Galaxy-A34-5G",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "samsung-galaxy-a34-5g"
+    ],
+    "facets": [
+      "camera",
+      "battery",
+      "audio"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 5), battery, audio. Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "samsung-galaxy-a34-5g",
+        "metric": "dxomark_camera_v5",
+        "value": 92,
+        "note": "Photo 99, Video 78"
+      },
+      {
+        "subject": "samsung-galaxy-a34-5g",
+        "metric": "dxomark_battery",
+        "value": 129,
+        "note": "Autonomy 143, Charging 113, Efficiency 121"
+      },
+      {
+        "subject": "samsung-galaxy-a34-5g",
+        "metric": "dxomark_audio",
+        "value": 126,
+        "note": "Playback 127, Recording 126"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-samsung-galaxy-a35-5g",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Samsung Galaxy A35 5G — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Samsung/Galaxy-A35-5G",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "samsung-galaxy-a35-5g"
+    ],
+    "facets": [
+      "camera",
+      "display",
+      "battery"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 5), display, battery. Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "samsung-galaxy-a35-5g",
+        "metric": "dxomark_camera_v5",
+        "value": 104,
+        "note": "Photo 107, Video 110"
+      },
+      {
+        "subject": "samsung-galaxy-a35-5g",
+        "metric": "dxomark_display",
+        "value": 143,
+        "note": "Readability 140, Color 135, Video 157, Touch 136"
+      },
+      {
+        "subject": "samsung-galaxy-a35-5g",
+        "metric": "dxomark_battery",
+        "value": 101,
+        "note": "Autonomy 102, Charging 106, Efficiency 89"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-samsung-galaxy-a54-5g",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Samsung Galaxy A54 5G — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Samsung/Galaxy-A54-5G",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "samsung-galaxy-a54-5g"
+    ],
+    "facets": [
+      "camera",
+      "display",
+      "battery",
+      "audio"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 5), display, battery, audio. Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "samsung-galaxy-a54-5g",
+        "metric": "dxomark_camera_v5",
+        "value": 107,
+        "note": "Photo 106, Video 115"
+      },
+      {
+        "subject": "samsung-galaxy-a54-5g",
+        "metric": "dxomark_display",
+        "value": 129,
+        "note": "Readability 127, Color 122, Video 134, Touch 142"
+      },
+      {
+        "subject": "samsung-galaxy-a54-5g",
+        "metric": "dxomark_battery",
+        "value": 113,
+        "note": "Autonomy 122, Charging 108, Efficiency 98"
+      },
+      {
+        "subject": "samsung-galaxy-a54-5g",
+        "metric": "dxomark_audio",
+        "value": 133,
+        "note": "Playback 132, Recording 135"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-samsung-galaxy-a55-5g",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Samsung Galaxy A55 5G — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Samsung/Galaxy-A55-5G",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "samsung-galaxy-a55-5g"
+    ],
+    "facets": [
+      "camera",
+      "display",
+      "battery"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 5), display, battery. Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "samsung-galaxy-a55-5g",
+        "metric": "dxomark_camera_v5",
+        "value": 108,
+        "note": "Photo 110, Video 117"
+      },
+      {
+        "subject": "samsung-galaxy-a55-5g",
+        "metric": "dxomark_display",
+        "value": 147,
+        "note": "Readability 145, Color 144, Video 157, Touch 138"
+      },
+      {
+        "subject": "samsung-galaxy-a55-5g",
+        "metric": "dxomark_battery",
+        "value": 121,
+        "note": "Autonomy 131, Charging 110, Efficiency 117"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-samsung-galaxy-a56",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Samsung Galaxy A56 — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Samsung/Galaxy-A56",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "samsung-galaxy-a56"
+    ],
+    "facets": [
+      "camera",
+      "display"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 6), display. Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "samsung-galaxy-a56",
+        "metric": "dxomark_camera",
+        "value": 114,
+        "note": "Photo 117, Video 108"
+      },
+      {
+        "subject": "samsung-galaxy-a56",
+        "metric": "dxomark_display",
+        "value": 150,
+        "note": "Readability 146, Color 144, Video 162, Touch 139"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-samsung-galaxy-s23",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Samsung Galaxy S23 — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Samsung/Galaxy-S23",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "samsung-galaxy-s23"
+    ],
+    "facets": [
+      "camera",
+      "display",
+      "battery",
+      "audio"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 5), display, battery, audio. Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "samsung-galaxy-s23",
+        "metric": "dxomark_camera_v5",
+        "value": 133,
+        "note": "Photo 129, Video 137"
+      },
+      {
+        "subject": "samsung-galaxy-s23",
+        "metric": "dxomark_display",
+        "value": 149,
+        "note": "Readability 146, Color 143, Video 163, Touch 134"
+      },
+      {
+        "subject": "samsung-galaxy-s23",
+        "metric": "dxomark_battery",
+        "value": 109,
+        "note": "Autonomy 100, Charging 111, Efficiency 134"
+      },
+      {
+        "subject": "samsung-galaxy-s23",
+        "metric": "dxomark_audio",
+        "value": 133,
+        "note": "Playback 131, Recording 136"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-samsung-galaxy-s23-fe",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Samsung Galaxy S23 FE — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Samsung/Galaxy-S23-FE",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "samsung-galaxy-s23-fe"
+    ],
+    "facets": [
+      "camera",
+      "display",
+      "battery",
+      "audio"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 5), display, battery, audio. Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "samsung-galaxy-s23-fe",
+        "metric": "dxomark_camera_v5",
+        "value": 127,
+        "note": "Photo 124, Video 131"
+      },
+      {
+        "subject": "samsung-galaxy-s23-fe",
+        "metric": "dxomark_display",
+        "value": 140,
+        "note": "Readability 133, Color 134, Video 154, Touch 143"
+      },
+      {
+        "subject": "samsung-galaxy-s23-fe",
+        "metric": "dxomark_battery",
+        "value": 101,
+        "note": "Autonomy 95, Charging 114, Efficiency 95"
+      },
+      {
+        "subject": "samsung-galaxy-s23-fe",
+        "metric": "dxomark_audio",
+        "value": 138,
+        "note": "Playback 137, Recording 139"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-samsung-galaxy-s23-plus",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Samsung Galaxy S23+ — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Samsung/Galaxy-S23+",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "samsung-galaxy-s23-plus"
+    ],
+    "facets": [
+      "camera",
+      "display",
+      "battery",
+      "audio"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 5), display, battery, audio. Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "samsung-galaxy-s23-plus",
+        "metric": "dxomark_camera_v5",
+        "value": 133,
+        "note": "Photo 129, Video 137"
+      },
+      {
+        "subject": "samsung-galaxy-s23-plus",
+        "metric": "dxomark_display",
+        "value": 147,
+        "note": "Readability 143, Color 142, Video 161, Touch 132"
+      },
+      {
+        "subject": "samsung-galaxy-s23-plus",
+        "metric": "dxomark_battery",
+        "value": 134,
+        "note": "Autonomy 136, Charging 130, Efficiency 138"
+      },
+      {
+        "subject": "samsung-galaxy-s23-plus",
+        "metric": "dxomark_audio",
+        "value": 137,
+        "note": "Playback 138, Recording 137"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-samsung-galaxy-s23-ultra",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Samsung Galaxy S23 Ultra — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Samsung/Galaxy-S23-Ultra",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "samsung-galaxy-s23-ultra"
+    ],
+    "facets": [
+      "camera",
+      "display",
+      "battery",
+      "audio"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 5), display, battery, audio. Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "samsung-galaxy-s23-ultra",
+        "metric": "dxomark_camera_v5",
+        "value": 140,
+        "note": "Photo 139, Video 137"
+      },
+      {
+        "subject": "samsung-galaxy-s23-ultra",
+        "metric": "dxomark_display",
+        "value": 148,
+        "note": "Readability 146, Color 148, Video 162, Touch 123"
+      },
+      {
+        "subject": "samsung-galaxy-s23-ultra",
+        "metric": "dxomark_battery",
+        "value": 142,
+        "note": "Autonomy 148, Charging 133, Efficiency 143"
+      },
+      {
+        "subject": "samsung-galaxy-s23-ultra",
+        "metric": "dxomark_audio",
+        "value": 139,
+        "note": "Playback 140, Recording 137"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-samsung-galaxy-s24",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Samsung Galaxy S24 (Exynos) — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Samsung/Galaxy-S24-(Exynos)",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "samsung-galaxy-s24"
+    ],
+    "facets": [
+      "camera",
+      "display",
+      "battery",
+      "audio"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 5), display, battery, audio. Scores from different protocol versions are kept apart. DXOMARK lists the phone as \"Samsung Galaxy S24 (Exynos)\".",
+    "records": [
+      {
+        "subject": "samsung-galaxy-s24",
+        "metric": "dxomark_camera_v5",
+        "value": 133,
+        "note": "Photo 134, Video 125"
+      },
+      {
+        "subject": "samsung-galaxy-s24",
+        "metric": "dxomark_display",
+        "value": 154,
+        "note": "Readability 157, Color 149, Video 157, Touch 145"
+      },
+      {
+        "subject": "samsung-galaxy-s24",
+        "metric": "dxomark_battery",
+        "value": 107,
+        "note": "Autonomy 97, Charging 115, Efficiency 126"
+      },
+      {
+        "subject": "samsung-galaxy-s24",
+        "metric": "dxomark_audio",
+        "value": 134,
+        "note": "Playback 132, Recording 138"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-samsung-galaxy-s24-fe",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Samsung Galaxy S24 FE — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Samsung/Galaxy-S24-FE",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "samsung-galaxy-s24-fe"
+    ],
+    "facets": [
+      "camera",
+      "display"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 5), display. Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "samsung-galaxy-s24-fe",
+        "metric": "dxomark_camera_v5",
+        "value": 133,
+        "note": "Photo 136, Video 125"
+      },
+      {
+        "subject": "samsung-galaxy-s24-fe",
+        "metric": "dxomark_display",
+        "value": 145,
+        "note": "Readability 142, Color 131, Video 161, Touch 142"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-samsung-galaxy-s24-plus",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Samsung Galaxy S24+ (Exynos) — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Samsung/Galaxy-S24+-(Exynos)",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "samsung-galaxy-s24-plus"
+    ],
+    "facets": [
+      "camera",
+      "display",
+      "battery",
+      "audio"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 5), display, battery, audio. Scores from different protocol versions are kept apart. DXOMARK lists the phone as \"Samsung Galaxy S24+ (Exynos)\".",
+    "records": [
+      {
+        "subject": "samsung-galaxy-s24-plus",
+        "metric": "dxomark_camera_v5",
+        "value": 133,
+        "note": "Photo 134, Video 125"
+      },
+      {
+        "subject": "samsung-galaxy-s24-plus",
+        "metric": "dxomark_display",
+        "value": 154,
+        "note": "Readability 157, Color 149, Video 157, Touch 145"
+      },
+      {
+        "subject": "samsung-galaxy-s24-plus",
+        "metric": "dxomark_battery",
+        "value": 109,
+        "note": "Autonomy 103, Charging 122, Efficiency 101"
+      },
+      {
+        "subject": "samsung-galaxy-s24-plus",
+        "metric": "dxomark_audio",
+        "value": 139,
+        "note": "Playback 139, Recording 138"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-samsung-galaxy-s24-ultra",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Samsung Galaxy S24 Ultra — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Samsung/Galaxy-S24-Ultra",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "samsung-galaxy-s24-ultra"
+    ],
+    "facets": [
+      "camera",
+      "display",
+      "battery",
+      "audio"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 5), display, battery, audio. Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "samsung-galaxy-s24-ultra",
+        "metric": "dxomark_camera_v5",
+        "value": 144,
+        "note": "Photo 144, Video 137"
+      },
+      {
+        "subject": "samsung-galaxy-s24-ultra",
+        "metric": "dxomark_display",
+        "value": 155,
+        "note": "Readability 164, Color 140, Video 160, Touch 146"
+      },
+      {
+        "subject": "samsung-galaxy-s24-ultra",
+        "metric": "dxomark_battery",
+        "value": 130,
+        "note": "Autonomy 129, Charging 127, Efficiency 139"
+      },
+      {
+        "subject": "samsung-galaxy-s24-ultra",
+        "metric": "dxomark_audio",
+        "value": 139,
+        "note": "Playback 140, Recording 137"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-samsung-galaxy-s25",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Samsung Galaxy S25 — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Samsung/Galaxy-S25",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "samsung-galaxy-s25"
+    ],
+    "facets": [
+      "display"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: display. Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "samsung-galaxy-s25",
+        "metric": "dxomark_display",
+        "value": 157,
+        "note": "Readability 158, Color 151, Video 167, Touch 143"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-samsung-galaxy-s25-fe",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Samsung Galaxy S25 FE — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Samsung/Galaxy-S25-FE",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "samsung-galaxy-s25-fe"
+    ],
+    "facets": [
+      "camera",
+      "display"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 6), display. Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "samsung-galaxy-s25-fe",
+        "metric": "dxomark_camera",
+        "value": 118,
+        "note": "Photo 130, Video 98"
+      },
+      {
+        "subject": "samsung-galaxy-s25-fe",
+        "metric": "dxomark_display",
+        "value": 156,
+        "note": "Readability 151, Color 161, Video 164, Touch 141"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-samsung-galaxy-s25-plus",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Samsung Galaxy S25+ — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Samsung/Galaxy-S25+",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "samsung-galaxy-s25-plus"
+    ],
+    "facets": [
+      "display"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: display. Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "samsung-galaxy-s25-plus",
+        "metric": "dxomark_display",
+        "value": 157,
+        "note": "Readability 158, Color 151, Video 167, Touch 143"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-samsung-galaxy-s25-ultra",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Samsung Galaxy S25 Ultra — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Samsung/Galaxy-S25-Ultra",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "samsung-galaxy-s25-ultra"
+    ],
+    "facets": [
+      "camera",
+      "display"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 6), display. Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "samsung-galaxy-s25-ultra",
+        "metric": "dxomark_camera",
+        "value": 151,
+        "note": "Photo 152, Video 150"
+      },
+      {
+        "subject": "samsung-galaxy-s25-ultra",
+        "metric": "dxomark_display",
+        "value": 160,
+        "note": "Readability 162, Color 158, Video 167, Touch 143"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-samsung-galaxy-s26",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Samsung Galaxy S26 — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Samsung/Galaxy-S26",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "samsung-galaxy-s26"
+    ],
+    "facets": [
+      "camera"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 6). Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "samsung-galaxy-s26",
+        "metric": "dxomark_camera",
+        "value": 146,
+        "note": "Photo 144, Video 151"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-samsung-galaxy-s26-ultra",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Samsung Galaxy S26 Ultra — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Samsung/Galaxy-S26-Ultra",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "samsung-galaxy-s26-ultra"
+    ],
+    "facets": [
+      "camera"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 6). Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "samsung-galaxy-s26-ultra",
+        "metric": "dxomark_camera",
+        "value": 157,
+        "note": "Photo 160, Video 153"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-samsung-galaxy-z-flip5",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Samsung Galaxy Z Flip5 — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Samsung/Galaxy-Z-Flip5",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "samsung-galaxy-z-flip5"
+    ],
+    "facets": [
+      "camera",
+      "display",
+      "battery",
+      "audio"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 5), display, battery, audio. Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "samsung-galaxy-z-flip5",
+        "metric": "dxomark_camera_v5",
+        "value": 127,
+        "note": "Photo 132, Video 128"
+      },
+      {
+        "subject": "samsung-galaxy-z-flip5",
+        "metric": "dxomark_display",
+        "value": 144,
+        "note": "Readability 137, Color 140, Video 160, Touch 136"
+      },
+      {
+        "subject": "samsung-galaxy-z-flip5",
+        "metric": "dxomark_battery",
+        "value": 109,
+        "note": "Autonomy 96, Charging 115, Efficiency 141"
+      },
+      {
+        "subject": "samsung-galaxy-z-flip5",
+        "metric": "dxomark_audio",
+        "value": 129,
+        "note": "Playback 128, Recording 132"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-samsung-galaxy-z-flip6",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Samsung Galaxy Z Flip6 — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Samsung/Galaxy-Z-Flip6",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "samsung-galaxy-z-flip6"
+    ],
+    "facets": [
+      "camera",
+      "display"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 6), display. Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "samsung-galaxy-z-flip6",
+        "metric": "dxomark_camera",
+        "value": 129,
+        "note": "Photo 135, Video 117"
+      },
+      {
+        "subject": "samsung-galaxy-z-flip6",
+        "metric": "dxomark_display",
+        "value": 150,
+        "note": "Readability 151, Color 137, Video 165, Touch 142"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-samsung-galaxy-z-flip7",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Samsung Galaxy Z Flip7 — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Samsung/Galaxy-Z-Flip7",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "samsung-galaxy-z-flip7"
+    ],
+    "facets": [
+      "camera",
+      "display"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 6), display. Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "samsung-galaxy-z-flip7",
+        "metric": "dxomark_camera",
+        "value": 137,
+        "note": "Photo 142, Video 128"
+      },
+      {
+        "subject": "samsung-galaxy-z-flip7",
+        "metric": "dxomark_display",
+        "value": 155,
+        "note": "Readability 150, Color 158, Video 165, Touch 140"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-samsung-galaxy-z-flip7-fe",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Samsung Galaxy Z Flip7 FE — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Samsung/Galaxy-Z-Flip7-FE",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "samsung-galaxy-z-flip7-fe"
+    ],
+    "facets": [
+      "display"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: display. Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "samsung-galaxy-z-flip7-fe",
+        "metric": "dxomark_display",
+        "value": 150,
+        "note": "Readability 151, Color 137, Video 165, Touch 142"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-samsung-galaxy-z-fold5",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Samsung Galaxy Z Fold5 — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Samsung/Galaxy-Z-Fold5",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "samsung-galaxy-z-fold5"
+    ],
+    "facets": [
+      "camera",
+      "display",
+      "battery",
+      "audio"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 5), display, battery, audio. Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "samsung-galaxy-z-fold5",
+        "metric": "dxomark_camera_v5",
+        "value": 128,
+        "note": "Photo 127, Video 123"
+      },
+      {
+        "subject": "samsung-galaxy-z-fold5",
+        "metric": "dxomark_display",
+        "value": 142,
+        "note": "Readability 136, Color 144, Video 149, Touch 135"
+      },
+      {
+        "subject": "samsung-galaxy-z-fold5",
+        "metric": "dxomark_battery",
+        "value": 114,
+        "note": "Autonomy 113, Charging 114, Efficiency 118"
+      },
+      {
+        "subject": "samsung-galaxy-z-fold5",
+        "metric": "dxomark_audio",
+        "value": 133,
+        "note": "Playback 132, Recording 136"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-samsung-galaxy-z-fold6",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Samsung Galaxy Z Fold6 — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Samsung/Galaxy-Z-Fold6",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "samsung-galaxy-z-fold6"
+    ],
+    "facets": [
+      "camera",
+      "display"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 6), display. Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "samsung-galaxy-z-fold6",
+        "metric": "dxomark_camera",
+        "value": 130,
+        "note": "Photo 138, Video 115"
+      },
+      {
+        "subject": "samsung-galaxy-z-fold6",
+        "metric": "dxomark_display",
+        "value": 154,
+        "note": "Readability 149, Color 159, Video 165, Touch 135"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-samsung-galaxy-z-fold7",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Samsung Galaxy Z Fold7 — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Samsung/Galaxy-Z-Fold7",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "samsung-galaxy-z-fold7"
+    ],
+    "facets": [
+      "camera",
+      "display"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 6), display. Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "samsung-galaxy-z-fold7",
+        "metric": "dxomark_camera",
+        "value": 145,
+        "note": "Photo 147, Video 141"
+      },
+      {
+        "subject": "samsung-galaxy-z-fold7",
+        "metric": "dxomark_display",
+        "value": 155,
+        "note": "Readability 150, Color 158, Video 166, Touch 136"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-vivo-x100-pro",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Vivo X100 Pro — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Vivo/X100-Pro",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "vivo-x100-pro"
+    ],
+    "facets": [
+      "camera",
+      "display",
+      "audio"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 5), display, audio. Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "vivo-x100-pro",
+        "metric": "dxomark_camera_v5",
+        "value": 150,
+        "note": "Photo 149, Video 145"
+      },
+      {
+        "subject": "vivo-x100-pro",
+        "metric": "dxomark_display",
+        "value": 153,
+        "note": "Readability 149, Color 160, Video 152, Touch 148"
+      },
+      {
+        "subject": "vivo-x100-pro",
+        "metric": "dxomark_audio",
+        "value": 134,
+        "note": "Playback 135, Recording 133"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-vivo-x200-ultra",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Vivo X200 Ultra — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Vivo/X200-Ultra",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "vivo-x200-ultra"
+    ],
+    "facets": [
+      "camera",
+      "display"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 6), display. Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "vivo-x200-ultra",
+        "metric": "dxomark_camera",
+        "value": 167,
+        "note": "Photo 173, Video 156"
+      },
+      {
+        "subject": "vivo-x200-ultra",
+        "metric": "dxomark_display",
+        "value": 149,
+        "note": "Readability 140, Color 157, Video 149, Touch 159"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-vivo-x300-pro",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Vivo X300 Pro — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Vivo/X300-Pro",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "vivo-x300-pro"
+    ],
+    "facets": [
+      "camera"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 6). Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "vivo-x300-pro",
+        "metric": "dxomark_camera",
+        "value": 171,
+        "note": "Photo 171, Video 169"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-vivo-x90-pro",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Vivo X90 Pro — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Vivo/X90-Pro",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "vivo-x90-pro"
+    ],
+    "facets": [
+      "camera",
+      "display",
+      "audio"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 5), display, audio. Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "vivo-x90-pro",
+        "metric": "dxomark_camera_v5",
+        "value": 136,
+        "note": "Photo 133, Video 133"
+      },
+      {
+        "subject": "vivo-x90-pro",
+        "metric": "dxomark_display",
+        "value": 132,
+        "note": "Readability 124, Color 156, Video 127, Touch 127"
+      },
+      {
+        "subject": "vivo-x90-pro",
+        "metric": "dxomark_audio",
+        "value": 133,
+        "note": "Playback 130, Recording 140"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-xiaomi-13",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Xiaomi 13 — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Xiaomi/13",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "xiaomi-13"
+    ],
+    "facets": [
+      "camera",
+      "display",
+      "battery",
+      "audio"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 5), display, battery, audio. Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "xiaomi-13",
+        "metric": "dxomark_camera_v5",
+        "value": 130,
+        "note": "Photo 131, Video 121"
+      },
+      {
+        "subject": "xiaomi-13",
+        "metric": "dxomark_display",
+        "value": 132,
+        "note": "Readability 131, Color 147, Video 120, Touch 139"
+      },
+      {
+        "subject": "xiaomi-13",
+        "metric": "dxomark_battery",
+        "value": 128,
+        "note": "Autonomy 116, Charging 142, Efficiency 141"
+      },
+      {
+        "subject": "xiaomi-13",
+        "metric": "dxomark_audio",
+        "value": 134,
+        "note": "Playback 134, Recording 135"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-xiaomi-13-pro",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Xiaomi 13 Pro — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Xiaomi/13-Pro",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "xiaomi-13-pro"
+    ],
+    "facets": [
+      "camera",
+      "display",
+      "battery",
+      "audio"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 5), display, battery, audio. Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "xiaomi-13-pro",
+        "metric": "dxomark_camera_v5",
+        "value": 136,
+        "note": "Photo 136, Video 129"
+      },
+      {
+        "subject": "xiaomi-13-pro",
+        "metric": "dxomark_display",
+        "value": 131,
+        "note": "Readability 138, Color 137, Video 124, Touch 120"
+      },
+      {
+        "subject": "xiaomi-13-pro",
+        "metric": "dxomark_battery",
+        "value": 126,
+        "note": "Autonomy 106, Charging 167, Efficiency 121"
+      },
+      {
+        "subject": "xiaomi-13-pro",
+        "metric": "dxomark_audio",
+        "value": 140,
+        "note": "Playback 143, Recording 135"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-xiaomi-13-ultra",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Xiaomi 13 Ultra — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Xiaomi/13-Ultra",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "xiaomi-13-ultra"
+    ],
+    "facets": [
+      "camera",
+      "display",
+      "battery",
+      "audio"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 5), display, battery, audio. Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "xiaomi-13-ultra",
+        "metric": "dxomark_camera_v5",
+        "value": 140,
+        "note": "Photo 138, Video 137"
+      },
+      {
+        "subject": "xiaomi-13-ultra",
+        "metric": "dxomark_display",
+        "value": 130,
+        "note": "Readability 132, Color 149, Video 119, Touch 114"
+      },
+      {
+        "subject": "xiaomi-13-ultra",
+        "metric": "dxomark_battery",
+        "value": 133,
+        "note": "Autonomy 122, Charging 151, Efficiency 131"
+      },
+      {
+        "subject": "xiaomi-13-ultra",
+        "metric": "dxomark_audio",
+        "value": 140,
+        "note": "Playback 139, Recording 141"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-xiaomi-13t",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Xiaomi 13T — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Xiaomi/13T",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "xiaomi-13t"
+    ],
+    "facets": [
+      "camera",
+      "display",
+      "battery",
+      "audio"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 5), display, battery, audio. Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "xiaomi-13t",
+        "metric": "dxomark_camera_v5",
+        "value": 123,
+        "note": "Photo 121, Video 132"
+      },
+      {
+        "subject": "xiaomi-13t",
+        "metric": "dxomark_display",
+        "value": 129,
+        "note": "Readability 119, Color 151, Video 125, Touch 132"
+      },
+      {
+        "subject": "xiaomi-13t",
+        "metric": "dxomark_battery",
+        "value": 114,
+        "note": "Autonomy 105, Charging 133, Efficiency 105"
+      },
+      {
+        "subject": "xiaomi-13t",
+        "metric": "dxomark_audio",
+        "value": 128,
+        "note": "Playback 129, Recording 126"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-xiaomi-13t-pro",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Xiaomi 13T Pro — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Xiaomi/13T-Pro",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "xiaomi-13t-pro"
+    ],
+    "facets": [
+      "camera",
+      "display",
+      "battery",
+      "audio"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 5), display, battery, audio. Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "xiaomi-13t-pro",
+        "metric": "dxomark_camera_v5",
+        "value": 131,
+        "note": "Photo 135, Video 134"
+      },
+      {
+        "subject": "xiaomi-13t-pro",
+        "metric": "dxomark_display",
+        "value": 129,
+        "note": "Readability 119, Color 143, Video 131, Touch 126"
+      },
+      {
+        "subject": "xiaomi-13t-pro",
+        "metric": "dxomark_battery",
+        "value": 120,
+        "note": "Autonomy 107, Charging 150, Efficiency 107"
+      },
+      {
+        "subject": "xiaomi-13t-pro",
+        "metric": "dxomark_audio",
+        "value": 122,
+        "note": "Playback 119, Recording 130"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-xiaomi-14",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Xiaomi 14 — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Xiaomi/14",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "xiaomi-14"
+    ],
+    "facets": [
+      "camera",
+      "display",
+      "battery",
+      "audio"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 5), display, battery, audio. Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "xiaomi-14",
+        "metric": "dxomark_camera_v5",
+        "value": 138,
+        "note": "Photo 137, Video 138"
+      },
+      {
+        "subject": "xiaomi-14",
+        "metric": "dxomark_display",
+        "value": 137,
+        "note": "Readability 132, Color 135, Video 138, Touch 160"
+      },
+      {
+        "subject": "xiaomi-14",
+        "metric": "dxomark_battery",
+        "value": 133,
+        "note": "Autonomy 116, Charging 162, Efficiency 136"
+      },
+      {
+        "subject": "xiaomi-14",
+        "metric": "dxomark_audio",
+        "value": 135,
+        "note": "Playback 137, Recording 129"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-xiaomi-14-ultra",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Xiaomi 14 Ultra — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Xiaomi/14-Ultra",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "xiaomi-14-ultra"
+    ],
+    "facets": [
+      "camera",
+      "display",
+      "battery"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 5), display, battery. Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "xiaomi-14-ultra",
+        "metric": "dxomark_camera_v5",
+        "value": 149,
+        "note": "Photo 144, Video 150"
+      },
+      {
+        "subject": "xiaomi-14-ultra",
+        "metric": "dxomark_display",
+        "value": 140,
+        "note": "Readability 134, Color 148, Video 138, Touch 145"
+      },
+      {
+        "subject": "xiaomi-14-ultra",
+        "metric": "dxomark_battery",
+        "value": 123,
+        "note": "Autonomy 115, Charging 139, Efficiency 116"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-xiaomi-14t",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Xiaomi 14T — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Xiaomi/14T",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "xiaomi-14t"
+    ],
+    "facets": [
+      "camera",
+      "display",
+      "battery"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 5), display, battery. Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "xiaomi-14t",
+        "metric": "dxomark_camera_v5",
+        "value": 134,
+        "note": "Photo 130, Video 133"
+      },
+      {
+        "subject": "xiaomi-14t",
+        "metric": "dxomark_display",
+        "value": 142,
+        "note": "Readability 135, Color 157, Video 137, Touch 147"
+      },
+      {
+        "subject": "xiaomi-14t",
+        "metric": "dxomark_battery",
+        "value": 116,
+        "note": "Autonomy 107, Charging 138, Efficiency 104"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-xiaomi-14t-pro",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Xiaomi 14T Pro — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Xiaomi/14T-Pro",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "xiaomi-14t-pro"
+    ],
+    "facets": [
+      "camera",
+      "display",
+      "battery"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 5), display, battery. Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "xiaomi-14t-pro",
+        "metric": "dxomark_camera_v5",
+        "value": 135,
+        "note": "Photo 129, Video 138"
+      },
+      {
+        "subject": "xiaomi-14t-pro",
+        "metric": "dxomark_display",
+        "value": 143,
+        "note": "Readability 134, Color 152, Video 145, Touch 147"
+      },
+      {
+        "subject": "xiaomi-14t-pro",
+        "metric": "dxomark_battery",
+        "value": 128,
+        "note": "Autonomy 113, Charging 167, Efficiency 109"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-xiaomi-15",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Xiaomi 15 — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Xiaomi/15",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "xiaomi-15"
+    ],
+    "facets": [
+      "camera",
+      "display"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 5), display. Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "xiaomi-15",
+        "metric": "dxomark_camera_v5",
+        "value": 147,
+        "note": "Photo 150, Video 133"
+      },
+      {
+        "subject": "xiaomi-15",
+        "metric": "dxomark_display",
+        "value": 148,
+        "note": "Readability 145, Color 149, Video 149, Touch 154"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-xiaomi-15-ultra",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Xiaomi 15 Ultra — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Xiaomi/15-Ultra",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "xiaomi-15-ultra"
+    ],
+    "facets": [
+      "camera",
+      "display"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 6), display. Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "xiaomi-15-ultra",
+        "metric": "dxomark_camera",
+        "value": 159,
+        "note": "Photo 167, Video 143"
+      },
+      {
+        "subject": "xiaomi-15-ultra",
+        "metric": "dxomark_display",
+        "value": 150,
+        "note": "Readability 147, Color 149, Video 152, Touch 159"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-xiaomi-15t-pro",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Xiaomi 15T Pro — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Xiaomi/15T-Pro",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "xiaomi-15t-pro"
+    ],
+    "facets": [
+      "camera"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 6). Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "xiaomi-15t-pro",
+        "metric": "dxomark_camera",
+        "value": 149,
+        "note": "Photo 152, Video 144"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-xiaomi-17-pro-max",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Xiaomi 17 Pro Max — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Xiaomi/17-Pro-Max",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "xiaomi-17-pro-max"
+    ],
+    "facets": [
+      "camera"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 6). Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "xiaomi-17-pro-max",
+        "metric": "dxomark_camera",
+        "value": 159,
+        "note": "Photo 165, Video 146"
+      }
+    ],
+    "extraction": "complete"
+  },
+  {
+    "id": "dxomark-xiaomi-17-ultra",
+    "kind": "benchmark",
+    "source": "dxomark",
+    "title": "Xiaomi 17 Ultra — DXOMARK scores",
+    "url": "https://www.dxomark.com/smartphones/Xiaomi/17-Ultra",
+    "accessed": "2026-09-24",
+    "class": "measured",
+    "devices": [
+      "xiaomi-17-ultra"
+    ],
+    "facets": [
+      "camera"
+    ],
+    "method": "DXOMARK's lab and field test scores as listed in its smartphone ranking: camera (protocol 6). Scores from different protocol versions are kept apart.",
+    "records": [
+      {
+        "subject": "xiaomi-17-ultra",
+        "metric": "dxomark_camera",
+        "value": 166,
+        "note": "Photo 170, Video 157"
+      }
+    ],
+    "extraction": "complete"
+  }
+]

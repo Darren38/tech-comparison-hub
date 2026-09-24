@@ -47,7 +47,23 @@
         {
           "role": "main",
           "mp": 50,
-          "aperture": "f/1.57"
+          "sensor": "1/1.56\"",
+          "aperture": "f/1.57",
+          "focal_mm": 23,
+          "note": "Sony IMX921"
+        },
+        {
+          "role": "ultrawide",
+          "mp": 50,
+          "sensor": "1/2.76\"",
+          "aperture": "f/2.0"
+        },
+        {
+          "role": "telephoto",
+          "mp": 50,
+          "sensor": "1/2\"",
+          "aperture": "f/2.57",
+          "note": "Sony IMX882, ZEISS telephoto"
         }
       ],
       "rear_text": "Rear: 50 MP + 50 MP + 50 MP",
@@ -122,6 +138,20 @@
         "class": "platform",
         "source": "platform",
         "note": "Calculated from resolution and screen size."
+      },
+      "specs.camera.rear": {
+        "class": "official",
+        "source": "vivo",
+        "url": "https://www.vivo.com/my/products/x200",
+        "checked": "2026-09-24",
+        "note": "Read from vivo Malaysia's X200 product page (sensor, size and aperture of each camera). vivo does not state the telephoto's optical zoom factor, so none is recorded."
+      },
+      "specs.camera.rear.main.sensor": {
+        "class": "official",
+        "source": "vivo",
+        "url": "https://www.vivo.com/my/products/x200",
+        "checked": "2026-09-24",
+        "note": "Read from vivo Malaysia's X200 product page (sensor, size and aperture of each camera). vivo does not state the telephoto's optical zoom factor, so none is recorded."
       }
     }
   },

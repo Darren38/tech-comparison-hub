@@ -58,10 +58,22 @@ TOPIC_PATTERNS = [
 GENERIC_TOKENS = {"pro", "max", "ultra", "plus", "mini", "lite", "fe", "xl", "fold", "flip", "air", "s", "e", "5g", "edition", "phone", "series"}
 
 
+# Chinese headlines (Version 15): brand names written in Chinese read as the English ones ("小米17 Ultra" = "Xiaomi 17
+# Ultra"), and these words mark a phone, tablet, watch or chip topic, or a review. Longer names first ("红米" before "米").
+ZH_BRANDS = [("摩托罗拉", "motorola"), ("努比亚", "nubia"), ("小米", "xiaomi"), ("红米", "redmi"), ("华为", "huawei"),
+             ("荣耀", "honor"), ("三星", "samsung"), ("苹果", "apple"), ("一加", "oneplus"), ("真我", "realme"),
+             ("红魔", "redmagic"), ("谷歌", "google"), ("索尼", "sony"), ("华硕", "asus"), ("中兴", "zte")]
+TOPIC_PATTERNS_ZH = r"手机|平板|手表|手环|折叠屏|骁龙|天玑|麒麟|芯片|处理器|澎湃OS|ColorOS|OriginOS|MagicOS"  # not 鸿蒙/旗舰/续航/快充: they also head car news
+REVIEW_WORDS_ZH = r"评测|上手|体验|实测|测试|续航测试|拆解|对比|跑分|横评"
+
+
 def normalize(text: str) -> str:
+    for zh, en in ZH_BRANDS:
+        text = text.replace(zh, f" {en} ")
     text = re.sub(r"['’]s\b", "", text.lower())
     text = text.replace("+", " plus ")
     text = re.sub(r"[^a-z0-9]+", " ", text)
+    text = re.sub(r"(\d)([a-z]{2,})\b", r"\1 \2", text)  # "17Pro", "X200Ultra" (Chinese headlines leave no space)
     text = re.sub(r"\b([a-z]{3,})(\d+)\b", r"\1 \2", text)  # "Fold8", "Magic8", "Watch8" read the same as "Fold 8"
     return re.sub(r"\s+", " ", text).strip()
 
@@ -71,7 +83,8 @@ def clean_title(text: str | None) -> str:
     return re.sub(r"\s+", " ", text).strip()[:220]
 
 
-def parse_date(text: str | None) -> dt.datetime | None:
+def parse_date(text: str | None, tz: str | None = None) -> dt.datetime | None:
+    """A feed date as UTC. `tz` ("+08:00") is the feed's own offset, used when a date carries none."""
     if not text:
         return None
     text = text.strip()
@@ -83,7 +96,11 @@ def parse_date(text: str | None) -> dt.datetime | None:
         except ValueError:
             return None
     if value.tzinfo is None:
-        value = value.replace(tzinfo=dt.timezone.utc)
+        offset = dt.timezone.utc
+        if tz and re.fullmatch(r"[+-]\d\d:\d\d", tz):
+            sign = -1 if tz[0] == "-" else 1
+            offset = dt.timezone(sign * dt.timedelta(hours=int(tz[1:3]), minutes=int(tz[4:6])))
+        value = value.replace(tzinfo=offset)
     return value.astimezone(dt.timezone.utc)
 
 
@@ -177,10 +194,14 @@ def write_live_config(cfg: dict, keys: list[tuple[str, str]]) -> None:
         "maxAgeDays": cfg.get("maxAgeDays", 45),
         "perFeed": cfg.get("perFeed", 20),
         "maxItems": cfg.get("maxItems", 240),
-        "feeds": [{"source": f["source"], "kind": f["kind"], "url": f["url"]} for f in cfg["feeds"]],
+        "feeds": [{"source": f["source"], "kind": f["kind"], "url": f["url"], **({"lang": f["lang"]} if f.get("lang") else {}), **({"tz": f["tz"]} if f.get("tz") else {})}
+                  for f in cfg["feeds"]],
         "noImageSources": sorted(NO_IMAGE_SOURCES),
         "reviewWords": REVIEW_WORDS.pattern,
         "topicPatterns": TOPIC_PATTERNS,
+        "zhBrands": ZH_BRANDS,
+        "topicPatternsZh": TOPIC_PATTERNS_ZH,
+        "reviewWordsZh": REVIEW_WORDS_ZH,
         "nextReject": sorted(NEXT_REJECT),
         "keys": keys,
     }
@@ -195,6 +216,8 @@ def collect() -> dict:
     keys = load_keys()
     write_live_config(cfg, keys)
     topic = re.compile(r"(?<![a-z0-9])(?:" + "|".join(TOPIC_PATTERNS) + r")(?![a-z0-9])")
+    topic_zh = re.compile(TOPIC_PATTERNS_ZH)
+    review_zh = re.compile(REVIEW_WORDS_ZH)
 
     now = dt.datetime.now(dt.timezone.utc)
     cutoff = now - dt.timedelta(days=cfg.get("maxAgeDays", 45))
@@ -218,22 +241,24 @@ def collect() -> dict:
                 link = (raw_link or "").strip()
                 if not title or not link.startswith(("https://", "http://")):
                     continue
-                published = parse_date(raw_date)
+                published = parse_date(raw_date, feed.get("tz"))
                 if published and published < cutoff:
                     continue
                 norm = normalize(title)
                 matched = match_devices(norm, keys)
-                if not matched and not topic.search(norm):
+                if not matched and not topic.search(norm) and not topic_zh.search(title):
                     continue
                 item_id = hashlib.sha1(link.encode("utf-8")).hexdigest()[:12]
                 if item_id in items:
                     continue
-                kind = "video" if feed["kind"] == "video" else ("review" if REVIEW_WORDS.search(title) else feed["kind"])
+                is_review = REVIEW_WORDS.search(title) or review_zh.search(title)
+                kind = "video" if feed["kind"] == "video" else ("review" if is_review else feed["kind"])
                 items[item_id] = {
                     "id": item_id,
                     "title": title,
                     "url": link,
                     "source": feed["source"],
+                    **({"lang": feed["lang"]} if feed.get("lang") else {}),
                     "kind": kind,
                     "published": published.isoformat(timespec="minutes") if published else None,
                     "devices": matched,

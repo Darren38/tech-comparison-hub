@@ -44,14 +44,11 @@
     }
   ],
   "image": {
-    "kind": "photo",
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/IPad_Pro_%2813-inch%2C_M5%2C_Space_Black%29_-_Backside.jpg/500px-IPad_Pro_%2813-inch%2C_M5%2C_Space_Black%29_-_Backside.jpg",
-    "page": "https://commons.wikimedia.org/wiki/File:IPad_Pro_(13-inch,_M5,_Space_Black)_-_Backside.jpg",
-    "title": "IPad Pro (13-inch, M5, Space Black) - Backside",
-    "author": "AzureSaturn",
-    "license": "CC0",
-    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-    "checked": "2026-09-17"
+    "kind": "official",
+    "src": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/ipad-pro-13-inch-m5.png",
+    "page": "https://support.apple.com/en-my/125407",
+    "credit": "Apple",
+    "checked": "2026-09-24"
   },
   "specs": {
     "display": {

@@ -136,7 +136,8 @@
     { "id": "thermal", "label": "Thermal test" },
     { "id": "comparison", "label": "Comparison" },
     { "id": "long-term", "label": "Long-term review" },
-    { "id": "durability", "label": "Durability test" }
+    { "id": "durability", "label": "Durability test" },
+    { "id": "teardown", "label": "Teardown" }
   ],
   "newsTypes": [
     { "id": "launch", "label": "Launch" },

@@ -1,0 +1,175 @@
+{
+  "id": "oppo-find-x10",
+  "name": "OPPO Find X10",
+  "brand": "oppo",
+  "category": "smartphone",
+  "series": "Find X",
+  "form": "bar",
+  "status": "released",
+  "announced": "2026-09-22",
+  "released": "2026-09-24",
+  "segment": "flagship",
+  "aliases": [
+    "Find X10"
+  ],
+  "summary": "Standard Find X10 with two 200 MP Hasselblad cameras (main and periscope) on the Dimensity 9600M, with an 8,000 mAh battery. On sale in China from 24 September 2026; not yet in Malaysia. No independent tests yet: its scores come from specifications only.",
+  "highlights": [
+    "Dimensity 9600M",
+    "200 MP main + 200 MP periscope (Hasselblad)",
+    "8,000 mAh battery",
+    "IP66/IP68/IP69"
+  ],
+  "prices": [
+    {
+      "region": "CN",
+      "currency": "CNY",
+      "amount": 5499,
+      "config": "12 GB / 256 GB",
+      "date": "2026-09-22",
+      "type": "launch",
+      "source": "zinggadget",
+      "url": "https://zinggadget.com/oppo-find-x10-%e7%b3%bb%e5%88%97%e4%b8%ad%e5%9b%bd%e5%8f%91%e5%b8%83%e5%94%ae%e7%ba%a6-rm3036-%e8%b5%b7/",
+      "class": "news",
+      "accessed": "2026-09-24"
+    },
+    {
+      "region": "CN",
+      "currency": "CNY",
+      "amount": 5999,
+      "config": "12 GB / 512 GB",
+      "date": "2026-09-22",
+      "type": "launch",
+      "source": "zinggadget",
+      "url": "https://zinggadget.com/oppo-find-x10-%e7%b3%bb%e5%88%97%e4%b8%ad%e5%9b%bd%e5%8f%91%e5%b8%83%e5%94%ae%e7%ba%a6-rm3036-%e8%b5%b7/",
+      "class": "news",
+      "accessed": "2026-09-24"
+    },
+    {
+      "region": "CN",
+      "currency": "CNY",
+      "amount": 6499,
+      "config": "16 GB / 512 GB",
+      "date": "2026-09-22",
+      "type": "launch",
+      "source": "zinggadget",
+      "url": "https://zinggadget.com/oppo-find-x10-%e7%b3%bb%e5%88%97%e4%b8%ad%e5%9b%bd%e5%8f%91%e5%b8%83%e5%94%ae%e7%ba%a6-rm3036-%e8%b5%b7/",
+      "class": "news",
+      "accessed": "2026-09-24"
+    },
+    {
+      "region": "CN",
+      "currency": "CNY",
+      "amount": 7499,
+      "config": "16 GB / 1 TB",
+      "date": "2026-09-22",
+      "type": "launch",
+      "source": "zinggadget",
+      "url": "https://zinggadget.com/oppo-find-x10-%e7%b3%bb%e5%88%97%e4%b8%ad%e5%9b%bd%e5%8f%91%e5%b8%83%e5%94%ae%e7%ba%a6-rm3036-%e8%b5%b7/",
+      "class": "news",
+      "accessed": "2026-09-24"
+    }
+  ],
+  "availability": {
+    "MY": {
+      "status": "not-launched",
+      "checked": "2026-09-24",
+      "source": "technave",
+      "url": "https://technave.com/gadget/OPPO-Find-X10-and-Find-X10-E-China-release-MediaTek-Dimensity-9600M-Dual-200MP-Hasselblad-8000mAh-and-more-from-RM3049-47522.html",
+      "note": "China launch on 22 September 2026, on sale in China from 24 September. No Malaysian release date or price yet."
+    }
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.59,
+      "type": "OLED (flat)",
+      "resolution": "2768 × 1272",
+      "ppi": 462,
+      "refresh_hz": 144,
+      "peak_nits": 2000
+    },
+    "platform": {
+      "chipset": "dimensity-9600m"
+    },
+    "memory": {
+      "ram_gb": [
+        12,
+        16
+      ],
+      "storage_gb": [
+        256,
+        512,
+        1024
+      ]
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 200,
+          "aperture": "f/1.6",
+          "ois": true
+        },
+        {
+          "role": "periscope",
+          "mp": 200,
+          "aperture": "f/2.6",
+          "ois": true,
+          "zoom_x": 2.8
+        },
+        {
+          "role": "ultrawide",
+          "mp": 50,
+          "aperture": "f/2.0",
+          "note": "120°"
+        }
+      ],
+      "zoom_optical_x": 2.8,
+      "front": "50 MP, f/2.0"
+    },
+    "build": {
+      "ip": "IP66, IP68, IP69",
+      "weight_g": 216,
+      "dimensions": {
+        "height_mm": 156.51,
+        "width_mm": 74.29,
+        "depth_mm": 8.35
+      }
+    },
+    "battery": {
+      "capacity_mah": 8000,
+      "chemistry": "Silicon-carbon"
+    },
+    "charging": {
+      "wired_w": 80,
+      "wireless_w": 50
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "wifi": "Wi-Fi 7",
+      "bluetooth": "Bluetooth 6.2"
+    },
+    "biometrics": {
+      "fingerprint": "Under display"
+    },
+    "software": {
+      "launch_os": "ColorOS 17"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "news",
+      "source": "zinggadget",
+      "url": "https://zinggadget.com/oppo-find-x10-%e7%b3%bb%e5%88%97%e4%b8%ad%e5%9b%bd%e5%8f%91%e5%b8%83%e5%94%ae%e7%ba%a6-rm3036-%e8%b5%b7/",
+      "checked": "2026-09-24",
+      "note": "Specifications from Zing Gadget's launch report, cross-checked with TechNave and 快科技. TechNave swapped the Find X10 and Find X10 E starting prices; Zing Gadget and 快科技 agree on the figures recorded. No independent tests yet: its scores come from specifications only."
+    }
+  },
+  "dataStatus": "checked",
+  "image": {
+    "kind": "official",
+    "src": "https://www.oppo.com/content/dam/oppo_com/oppo/product-asset-library/find-x/find-x10-series-cn/find-x10/assets/color-uranus-card-0-0-871w.jpg.avif",
+    "page": "https://www.oppo.com/cn/smartphones/series-find-x/find-x10/",
+    "credit": "OPPO China",
+    "checked": "2026-09-24"
+  }
+}

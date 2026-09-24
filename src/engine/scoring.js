@@ -55,6 +55,30 @@ export function normalize(metricId, value, category) {
   return clamp(ratio * 100, 0, 100);
 }
 
+// Where a result falls among the same lab's results for devices of the same kind (Version 14): 40 for the lowest,
+// 100 for the highest, ties sharing a place. Used when several labs' tests are averaged ("combine": "mean"), because
+// each lab's scale differs (a 25-hour record in one test, a score out of about 160 in another) and scoring against
+// each lab's best result let the scale, not the phone, decide.
+const rankCacheByMetric = new Map();
+export function labPlaceScore(metricId, value, category) {
+  const def = metricDef(metricId);
+  if (!def || value === null || value === undefined) return null;
+  const key = `${category}|${metricId}`;
+  let values = rankCacheByMetric.get(key);
+  if (!values) {
+    values = (store.devices ?? []).filter((d) => d.category === category)
+      .map((d) => getMetric(d, metricId)).filter((m) => m && !m.inherited).map((m) => m.value);
+    rankCacheByMetric.set(key, values);
+  }
+  if (values.length < 5) return normalize(metricId, value, category);
+  const below = values.filter((v) => (def.better === 'lower' ? v > value : v < value)).length;
+  const equal = values.filter((v) => v === value).length;
+  const place = (below + Math.max(equal - 1, 0) / 2) / Math.max(values.length - 1, 1);
+  return 40 + 60 * clamp(place, 0, 1);
+}
+const itemScore = (item, id, value, category) =>
+  (item.combine === 'mean' ? labPlaceScore(id, value, category) : normalize(id, value, category));
+
 const quantile = (values, q) => {
   const v = values.filter((x) => x !== null && x !== undefined && Number.isFinite(x)).sort((a, b) => a - b);
   if (!v.length) return null;
@@ -86,7 +110,7 @@ function evidenceOf(category) {
     for (const item of scoreMetricsFor(sc, category)) {
       for (const id of item.alt ?? [item.id]) {
         if (metrics.has(id)) continue;
-        metrics.set(id, rows.map((d) => { const m = getMetric(d, id); return m ? entry(d, normalize(id, m.value, category)) : null; }).filter((x) => x && x.score !== null));
+        metrics.set(id, rows.map((d) => { const m = getMetric(d, id); return m ? entry(d, itemScore(item, id, m.value, category)) : null; }).filter((x) => x && x.score !== null));
       }
     }
     categories.set(sc.id, rows.map((d) => { const r = categoryScore(d, sc, { fill: false }); return r ? entry(d, r.score) : null; }).filter(Boolean));
@@ -166,9 +190,23 @@ export function categoryScore(entity, scoreCat, { pick, fill = !pick } = {}) {
   const missing = [];
   for (const item of items) {
     const ids = item.alt ?? [item.id];
+    // "combine": "mean" (Version 14): without a like-for-like pick, every alternative test the device has counts,
+    // each scored against its own test's results, and the scores are averaged (several labs' battery tests, say).
+    if (!pick && item.combine === 'mean') {
+      const all = ids.map((i) => [i, getMetric(entity, i)]).filter(([i, m]) => m && labPlaceScore(i, m.value, category) !== null);
+      if (!all.length) {
+        missing.push(item);
+        continue;
+      }
+      const [id, m] = all[0];
+      const score = all.reduce((s, [i, mm]) => s + labPlaceScore(i, mm.value, category), 0) / all.length;
+      const confidence = all.length > 1 && m.confidence !== 'high' ? (m.confidence === 'low' ? 'medium' : 'high') : m.confidence;
+      used.push({ id, w: item.w, score, value: m.value, confidence, inherited: m.inherited, summary: m.summary, also: all.slice(1).map(([i]) => i) });
+      continue;
+    }
     const id = pick ? pick(item) : ids.find((i) => getMetric(entity, i));
     const m = id ? getMetric(entity, id) : null;
-    const score = m ? normalize(id, m.value, category) : null;
+    const score = m ? itemScore(item, id, m.value, category) : null;
     if (score === null) {
       missing.push(item);
       continue;
@@ -347,11 +385,11 @@ export function rankingCurrency(rows, preferred) {
  * Best devices for a profile within a category (database-wide leaderboard).
  * `maxPrice` is { amount, currency }; prices are compared in that currency (converted where needed).
  */
-export function profileLeaderboard(category, profileId, { maxPrice = null, limit = 10, currency = null } = {}) {
+export function profileLeaderboard(category, profileId, { maxPrice = null, limit = 10, currency = null, flagship = false } = {}) {
   const profile = store.profileById.get(profileId);
   if (!profile) return [];
   // devices on sale only: an announced phone is scored on pre-release listings at best (Version 11)
-  let rows = store.devices.filter((d) => d.category === category && isOnSale(d));
+  let rows = store.devices.filter((d) => d.category === category && isOnSale(d) && (!flagship || d.flagship));
   if (maxPrice) rows = rows.filter((d) => (displayPrice(d, maxPrice.currency)?.amount ?? Infinity) <= maxPrice.amount);
   const balanced = store.profileById.get('balanced');
   const catScores = new Map(rows.map((d) => [d.id, allCategoryScores(d)]));

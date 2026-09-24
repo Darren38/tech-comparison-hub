@@ -1,5 +1,77 @@
 # Changelog
 
+## 24 September 2026 (second update)
+
+English and Chinese; Chinese and more Malaysian news sources in the live headlines; a picture of the device itself on almost every page.
+
+**English and Chinese (简体中文)**
+- An EN/中文 switch in the header. The choice is remembered on this device; a first visit follows the browser's language.
+- The interface is written in English and translated as it is drawn, so no page had to be rewritten: 685 fixed phrases plus 117 patterns for text built from numbers ("463 台设备", "在 121 台证据相同的智能手机中排名第 3", "共识（中位数）：3 个独立来源相差在 4% 以内"). Navigation, the home page, charts, filters, device, compare, chipset, news, reviews, coverage and search pages, scores, verdicts, metric names and browser tab titles are all in Chinese.
+- Left in the original language on purpose: review findings, headlines, source notes, device, chip and brand names, and the long Methodology text (a note says so). Numbers, sources and confidence are identical in both languages.
+
+**Chinese sources and news**
+- 快科技 (MyDrivers), IT之家 (IT Home) and 爱范儿 (ifanr) join the live headlines, both in the saved collection and the on-the-spot Refresh (the relay fetches whatever feeds the site lists, so no relay change is needed). Chinese brand names (小米, 华为, 荣耀, 三星, 一加…) are matched to the hub's devices, and Chinese topic words (手机, 平板, 骁龙, 天玑…) keep phone news and leave out car news.
+- 极客湾 Geekerwan is registered as a reviewer. Its data site (socpk.com) serves its figures in an obscured format, so they were not extracted.
+- Chinese-language headlines carry a "中文 / In Chinese" tag. An "Include Chinese-language sources" filter is on by default in Chinese and off in English.
+- Fixed on the way: MyDrivers writes times in China time with no zone, which put its headlines eight hours in the future ("just now"). Feeds can now state their time zone.
+
+**Malaysian outlets**
+- **TechNave** and **Zing Gadget** (Malaysian tech news written in Chinese) are in the live headlines. Their robots rules were checked: TechNave blocks only Anthropic's training crawler, and Zing Gadget allows access outside its admin and search pages.
+- Malaysian launch prices from their launch reports: the iPhone 18 Pro's RM5,499 now cites Zing Gadget's launch-day report instead of a June pre-launch article, and the OPPO A7 Pro Max gets its launch price (RM2,499, 8 GB / 256 GB).
+
+**The newest China launches, with remarks**
+- Added the flagships launched in China on 21–23 September 2026, each marked as not yet sold in Malaysia (with the source for when it is expected) and as having no independent tests yet: Xiaomi 18 Pro and 18 Pro Max (pre-order; Xiaomi Malaysia confirms a launch this year), OPPO Find X10 Pro Max, Find X10 and Find X10 E (on sale in China since 24 September) and vivo X500 Pro Max, X500 Pro and X500 (vivo Malaysia expects them towards the end of October). Chinese launch prices in yuan; specifications only where at least two launch reports agree (TechNave, Gizmochina, Zing Gadget, SoyaCincau, 快科技). Where reports disagreed, the note says which figure was used: FoneArena gave the Xiaomi 18 Pro the Extreme chip; TechNave swapped the Find X10 and Find X10 E prices; the X500 Pro Max battery is 8,000 mAh typical (7,800 mAh in TechNave's report).
+- New chips: Snapdragon 8 Elite Gen 6, Dimensity 9600 Pro, Dimensity 9600M and Dimensity 9500S.
+- Pictures from OPPO's and vivo's own Chinese product pages (the phone alone). mi.com refuses automated access, so the two Xiaomi phones have no picture yet.
+- The Lowyat.NET feed was removed from the live headlines, since its robots rules disallow reading the feed. Lowyat.NET stays in the source registry for the prices it is cited for.
+
+**Charts that name the real models**
+- The Generations chart (following socpk.com's direct labelling) names actual phones everywhere: each line is labelled with its latest measured model ("Galaxy S26 Ultra", not "Galaxy S Ultra") in a column beside the plot with a leader to its last dot; the legend names each series by its first and latest model ("Galaxy S23 Ultra → S26 Ultra", "iPhone 15 Pro Max → iPhone 18 Pro Max"), with every model listed on hover; with four lines or fewer every dot is labelled with its model; a corner badge says whether higher or lower is better. On phones the chart keeps a readable size and scrolls sideways inside its box.
+
+**Wrong published figures kept from spreading**
+- A new "disputed" flag: a published result that every other test of the same hardware contradicts is shown on the device page with the reason, but counts towards no consensus, score or chipset stand-in.
+- Trusted Reviews' OPPO Reno12 Pro Geekbench 6 (510 / 2,011) is under half its own single-core result for the same Dimensity 7300 on the Motorola Edge 50 Neo (1,052 / 3,031, now recorded for the chip). It had become the chip's value and was passed on to the Reno12 and Reno16 F; those three phones now show 1,052 / 3,031 as a chipset stand-in.
+- Trusted Reviews' Galaxy Z Flip7 FE single-core (1,163) contradicts the review's own text (13% below the Flip6, about 1,660) and every other Exynos 2400 result (2,142–2,214). Its multi-core, which matches the text, is kept.
+
+**Bug sweep of the whole site**
+- Every page (688 routes: all 463 devices, 117 chipsets, sources, brands, categories, search and error pages) was opened in English and in Chinese, and about 440 buttons, filters and menus were used on 22 page types in each language. No script errors, broken images, dead links or "undefined"/"NaN" text remain.
+- Fixed in Ask the hub: "Snapdragon 8 Elite Gen 5 phones" (a home-page example) listed every phone instead of the ones with that chip; "cheapest phone with wireless charging" ignored the wireless condition; "best …" answers ignored brand, chip and feature filters; chip-versus-chip questions ("A19 Pro vs A20 Pro", "Exynos 2600 vs Snapdragon 8 Elite Gen 5") got no answer or the wrong device; a device's performance line and the comparison table's performance row said "no tests" for phones that have scores. Questions in Chinese (小米17 Ultra 续航, RM3000以下最好的手机, 三星 … 和 … 哪个好) are now understood.
+- Fixed the header on desktop screens between 1180 and 1600 px wide, where the new language switch pushed the theme button off-screen in English. Below 1680 px the switch shows only the language it switches to.
+- Translated the remaining interface text found in Chinese mode (comparison verdicts, "+N pts", empty-state messages, error page).
+- "Xiaomi Leica Leitzphone powered by Xiaomi" no longer repeats the brand.
+
+**Pictures of the device itself**
+- 456 of 471 devices have a picture (446 of 463 before), including the six new OPPO and vivo phones. Fourteen existing ones were added or replaced with the makers' own product images: iPhone 16 Pro Max, Apple Watch Series 11 and Ultra 3, iPad Air 13-inch (M3) and iPad Pro 13-inch (M5), Galaxy S25 Ultra, vivo X200 Pro, iQOO Z9, Redmi Note 14 Pro+ 5G, OPPO Watch X, OnePlus Pad 3, Huawei Watch GT Cyber and Watch Fit 3, and Galaxy A56 (a Commons photo of the phone alone).
+- All 450 were checked by eye. Only two still show a hand: the Nothing Phone (3) (no other free picture) and the iPhone Duo (every picture Apple publishes shows it held).
+
+## 24 September 2026 (first update)
+
+Test results for most phones, flagships first; Samsung's Exynos and Snapdragon versions kept apart; rankings that use every lab's tests; a Charts page; and the latest checked news.
+
+**Independent test results: 254 evidence records → 1,912**
+- Phones with independent test data: 33 of 378 → 300. Among the 65 flagship-line phones of 2023–2026: Geekbench 6 17 → 49, 3DMark 14 → 55, battery tests 11 → 44, charging tests 7 → 52, measured brightness 6 → 31, camera lab tests 0 → 35, AnTuTu 15 → 32.
+- **UL's official 3DMark device pages** (Wild Life Extreme, Steel Nomad Light, Solar Bay; the median of users' results) for 270 phones. Where a name was ambiguous ("5G" or not, a region tag, a page shared by two models), UL's chipset column had to name the same chip as the record.
+- **AnTuTu's own V11 ranking** (the average of all results for each model, global data) for 65 Android phones, matched by name and chip.
+- **DXOMARK's scores** (camera, display, battery, audio) for 117 phones. Camera scores from DXOMARK's previous protocol (version 5) and current one (version 6) are separate metrics, never compared with each other.
+- **Tom's Guide's test tables** (48 reviews: Geekbench 6, battery on its web test, charging after 15 and 30 minutes, light-meter brightness, 3DMark stress stability) and **Trusted Reviews' Test Data** (119 reviews: Geekbench 6, charging, and battery used by an hour of HDR video, a new metric). Tom's Guide revised its battery test in 2025, so each phone's most recent figure is used. Results that depend on a mode (HONOR foldables' default power mode, the ROG Phone's X Mode) are noted or left out, and charging results for phones sold without a charger (measured with a generic charger that cannot use the brand's fast charging) are not recorded.
+- Not used: Geekbench's browser, Notebookcheck and PhoneArena show a bot challenge; Sammy Fans, CNET and ZDNet bar Claude's crawlers; GSMArena's robots rules disallow it.
+
+**Samsung's two chips kept apart**
+- A result now carries the chip of the unit tested. Results for a Galaxy's Snapdragon version (the US S24, S24+, S26 and S26+, the Z Flip8) show on the phone's page as "Snapdragon … version, not counted in the value above", count towards that chip's results, and appear as their own striped bar on the Charts page; the Malaysian Exynos model's value uses Exynos results only. Tom's Guide's Galaxy S26+ review tested both chips; both are recorded.
+
+**Rankings checked against each generation**
+- Every flagship was compared with its direct predecessor in five rankings (75 pairs each). Newer models lead in performance 74, gaming 73, balanced 68, photography 65 and battery 55. Most of the remaining exceptions are what the tests found (the Galaxy S24+ lasts less than the S23+ in two labs' tests, the HONOR Magic7 Pro drains faster than the Magic6 Pro, the Xiaomi 15T Pro charges at 90 W against 120 W) or a newer phone not yet battery-tested.
+- The battery score now averages every lab's battery test the phone has (GSMArena, Tom's Guide, DXOMARK, Trusted Reviews), each scored by where the result falls among that lab's own results, so a lab's scale can't decide it. Charging averages time to full and charge after 30 minutes; display adds DXOMARK's display score; the camera score adds DXOMARK's lab score to sensor size and zoom and is no longer "hardware only".
+- Data fixed on the way: six iPhones (15, 15 Plus, 16, 16 Plus, 16e, 17e) listed Apple's "2x Telephoto" crop mode as a telephoto camera; the vivo X200's three cameras are now recorded from vivo Malaysia's page.
+
+**Flagships first, charts and sources**
+- New **Charts** page: ranked bars for each measured test (CPU, GPU, AnTuTu, battery, charging, display, camera) with each phone's name in its brand colour and every bar naming who measured it; and a **Generations** chart drawing each flagship series through the years. Flagships by default, all phones on request, filters by year and brand.
+- Home page: flagship leaderboards (with sources on every row), "Best flagships for…", latest flagships. Devices: a "Flagship models" filter.
+- Every phone page names who tested it ("Tested by" UL, DXOMARK, Tom's Guide…, with how many results each), linking to each source's page.
+
+**Checked news**
+- Galaxy S26 series stable One UI 9 rollout (SamMobile), Galaxy S26 price rise in India (SamMobile; India only), Motorola Signature 27 launch (Engadget; its seven-year OS promise added to the record). Reviews: Malay Mail's iPhone 18 Pro Max hands-on; Mrwhosetheboss's iPhone 18 Pro review and JerryRigEverything's durability test and teardown (a new "Teardown" video category). Headlines collected again at the end of the update: nothing newer needed checking.
+
 ## 23 September 2026 (third update)
 
 The newest flagships everywhere the site suggests a comparison, the flagships launched up to today, and pictures of the phones themselves.

@@ -61,7 +61,13 @@
       "metrics": {
         "default": [
           {
-            "id": "gsma_active_use",
+            "alt": [
+              "gsma_active_use",
+              "tg_web",
+              "dxomark_battery",
+              "tr_video_drain"
+            ],
+            "combine": "mean",
             "w": 0.7
           },
           {
@@ -97,7 +103,11 @@
       "metrics": {
         "default": [
           {
-            "id": "charge_full",
+            "alt": [
+              "charge_full",
+              "charge_30"
+            ],
+            "combine": "mean",
             "w": 0.45
           },
           {
@@ -147,6 +157,10 @@
           {
             "id": "spec_ppi",
             "w": 0.2
+          },
+          {
+            "id": "dxomark_display",
+            "w": 0.15
           }
         ],
         "tablet": [
@@ -173,20 +187,26 @@
     },
     {
       "id": "camera",
-      "label": "Camera hardware",
+      "label": "Camera",
       "facet": "camera",
-      "question": "Which has the more capable camera hardware?",
-      "specOnly": true,
-      "note": "Based on hardware specifications only (sensor size and optical reach). No image-quality lab data is in the database yet, so this is not a verdict on photo quality.",
+      "question": "Which camera does better in lab tests and hardware?",
+      "note": "DXOMARK's lab camera score where DXOMARK tested the phone (its version 5 and version 6 protocols are scored separately, each against its own results), plus main sensor size and optical reach. A phone DXOMARK has not tested is scored on its hardware, with a typical lab score for similar phones standing in.",
       "metrics": {
         "default": [
           {
+            "alt": [
+              "dxomark_camera",
+              "dxomark_camera_v5"
+            ],
+            "w": 0.4
+          },
+          {
             "id": "spec_main_sensor",
-            "w": 0.55
+            "w": 0.33
           },
           {
             "id": "spec_zoom",
-            "w": 0.45
+            "w": 0.27
           }
         ]
       }
@@ -278,7 +298,7 @@
     {
       "id": "photography",
       "label": "Photography",
-      "description": "Camera hardware first. Spec-based until image-quality lab data is added.",
+      "description": "Camera first: DXOMARK lab scores where available, plus sensor size and optical reach.",
       "weights": {
         "camera": 0.55,
         "display": 0.15,

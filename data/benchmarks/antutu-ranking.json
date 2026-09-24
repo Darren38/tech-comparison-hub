@@ -1,0 +1,476 @@
+[
+  {
+    "id": "antutu-ranking-2026-08",
+    "kind": "benchmark",
+    "source": "antutu",
+    "title": "AnTuTu Benchmark Rankings — V11, Android smartphones (updated August 2026)",
+    "url": "https://www.antutu.com/web/en/ranking",
+    "published": "2026-08",
+    "accessed": "2026-09-24",
+    "class": "database",
+    "devices": [
+      "honor-magic8-pro",
+      "honor-x9d",
+      "iqoo-15",
+      "iqoo-15r",
+      "iqoo-neo-10",
+      "motorola-edge-60-pro",
+      "oneplus-15",
+      "poco-f5",
+      "poco-f6",
+      "poco-f6-pro",
+      "poco-f7",
+      "poco-f7-ultra",
+      "poco-f8-pro",
+      "poco-f8-ultra",
+      "poco-m6-pro",
+      "poco-m8",
+      "poco-m8-pro",
+      "poco-x5-pro-5g",
+      "poco-x6-pro-5g",
+      "poco-x7",
+      "poco-x7-pro",
+      "poco-x8-pro",
+      "redmagic-11-pro",
+      "redmi-note-13-pro",
+      "redmi-note-13-pro-plus-5g",
+      "redmi-note-14",
+      "redmi-note-14-5g",
+      "redmi-note-14-pro",
+      "redmi-note-14-pro-5g",
+      "redmi-note-14-pro-plus",
+      "redmi-note-15-5g",
+      "redmi-note-15-pro-5g",
+      "redmi-note-15-pro-plus-5g",
+      "samsung-galaxy-a07",
+      "samsung-galaxy-a35-5g",
+      "samsung-galaxy-a36-5g",
+      "samsung-galaxy-a54-5g",
+      "samsung-galaxy-a55-5g",
+      "samsung-galaxy-a56",
+      "samsung-galaxy-a57-5g",
+      "samsung-galaxy-s23",
+      "samsung-galaxy-s23-plus",
+      "samsung-galaxy-s23-ultra",
+      "samsung-galaxy-s24",
+      "samsung-galaxy-s24-fe",
+      "samsung-galaxy-s24-plus",
+      "samsung-galaxy-s24-ultra",
+      "samsung-galaxy-s25",
+      "samsung-galaxy-s25-fe",
+      "samsung-galaxy-s25-plus",
+      "samsung-galaxy-s25-ultra",
+      "samsung-galaxy-s26",
+      "samsung-galaxy-s26-ultra",
+      "samsung-galaxy-z-fold8",
+      "vivo-x300",
+      "vivo-x300-pro",
+      "xiaomi-13t",
+      "xiaomi-14t",
+      "xiaomi-14t-pro",
+      "xiaomi-15",
+      "xiaomi-15t-pro",
+      "xiaomi-17",
+      "xiaomi-17-ultra",
+      "xiaomi-17t",
+      "xiaomi-17t-pro"
+    ],
+    "facets": [
+      "performance"
+    ],
+    "method": "AnTuTu's own monthly ranking of popular Android phones. Each score is the average of all results for that model (global data, not including China), not the highest. Only rows whose model name and chipset both match a phone on this site were used; iPhones are on a separate tab that was not read.",
+    "records": [
+      {
+        "subject": "honor-magic8-pro",
+        "metric": "antutu_v11",
+        "value": 3023211,
+        "note": "Listed as \"HONOR Magic8 Pro\" (S-8 Elite Gen 5, 12+512 GB): CPU 606,572, GPU 1,426,035, memory 423,956, UX 566,648"
+      },
+      {
+        "subject": "honor-x9d",
+        "metric": "antutu_v11",
+        "value": 911340,
+        "note": "Listed as \"HONOR X9d 5G\" (S-6 Gen 4, 12+256 GB): CPU 354,531, GPU 114,366, memory 200,576, UX 241,867"
+      },
+      {
+        "subject": "iqoo-15",
+        "metric": "antutu_v11",
+        "value": 3758268,
+        "note": "Listed as \"iQOO 15\" (S-8 Elite Gen 5, 16+512 GB): CPU 1,061,124, GPU 1,415,886, memory 418,830, UX 862,428"
+      },
+      {
+        "subject": "iqoo-15r",
+        "metric": "antutu_v11",
+        "value": 2817788,
+        "note": "Listed as \"iQOO 15R\" (S-8 Gen 5, 8+256 GB): CPU 862,522, GPU 979,386, memory 356,953, UX 618,927"
+      },
+      {
+        "subject": "iqoo-neo-10",
+        "metric": "antutu_v11",
+        "value": 2266281,
+        "note": "Listed as \"iQOO Neo 10\" (S-8s Gen 4, 8+256 GB): CPU 662,387, GPU 772,376, memory 335,853, UX 495,665"
+      },
+      {
+        "subject": "motorola-edge-60-pro",
+        "metric": "antutu_v11",
+        "value": 1537550,
+        "note": "Listed as \"Motorola Edge 60 Pro\" (M-8350, 12+256 GB): CPU 419,193, GPU 432,929, memory 304,961, UX 380,467"
+      },
+      {
+        "subject": "oneplus-15",
+        "metric": "antutu_v11",
+        "value": 3606149,
+        "note": "Listed as \"OnePlus 15\" (S-8 Elite Gen 5, 16+512 GB): CPU 1,067,163, GPU 1,330,913, memory 428,021, UX 780,052"
+      },
+      {
+        "subject": "poco-f5",
+        "metric": "antutu_v11",
+        "value": 1260756,
+        "note": "Listed as \"Poco F5\" (S-7+ Gen 2, 12+256 GB): CPU 507,141, GPU 166,548, memory 220,347, UX 366,720"
+      },
+      {
+        "subject": "poco-f6",
+        "metric": "antutu_v11",
+        "value": 1704455,
+        "note": "Listed as \"Poco F6\" (S-8s Gen 3, 12+512 GB): CPU 515,859, GPU 475,618, memory 309,882, UX 403,096"
+      },
+      {
+        "subject": "poco-f6-pro",
+        "metric": "antutu_v11",
+        "value": 1756020,
+        "note": "Listed as \"Poco F6 Pro\" (S-8 Gen 2, 12+512 GB): CPU 563,974, GPU 427,508, memory 311,782, UX 452,756"
+      },
+      {
+        "subject": "poco-f7",
+        "metric": "antutu_v11",
+        "value": 2199079,
+        "note": "Listed as \"Poco F7\" (S-8s Gen 4, 12+512 GB): CPU 615,969, GPU 774,434, memory 365,624, UX 443,052"
+      },
+      {
+        "subject": "poco-f7-ultra",
+        "metric": "antutu_v11",
+        "value": 2932885,
+        "note": "Listed as \"Poco F7 Ultra\" (S-8 Elite, 16+512 GB): CPU 848,069, GPU 1,066,050, memory 415,854, UX 602,912"
+      },
+      {
+        "subject": "poco-f8-pro",
+        "metric": "antutu_v11",
+        "value": 3024818,
+        "note": "Listed as \"Poco F8 Pro\" (S-8 Elite, 12+512 GB): CPU 884,351, GPU 1,125,566, memory 408,540, UX 606,361"
+      },
+      {
+        "subject": "poco-f8-ultra",
+        "metric": "antutu_v11",
+        "value": 3651476,
+        "note": "Listed as \"Poco F8 Ultra\" (S-8 Elite Gen 5, 16+512 GB): CPU 1,047,154, GPU 1,371,829, memory 485,909, UX 746,584"
+      },
+      {
+        "subject": "poco-m6-pro",
+        "metric": "antutu_v11",
+        "value": 555618,
+        "note": "Listed as \"Poco M6 Pro\" (M-G99, 8+256 GB): CPU 200,263, GPU 45,913, memory 146,926, UX 162,516"
+      },
+      {
+        "subject": "poco-m8",
+        "metric": "antutu_v11",
+        "value": 837903,
+        "note": "Listed as \"Poco M8\" (S-6 Gen 3, 8+256 GB): CPU 292,124, GPU 130,371, memory 179,700, UX 235,708"
+      },
+      {
+        "subject": "poco-m8-pro",
+        "metric": "antutu_v11",
+        "value": 946831,
+        "note": "Listed as \"Poco M8 Pro\" (S-7s Gen 4, 8+256 GB): CPU 406,873, GPU 116,332, memory 153,400, UX 270,226"
+      },
+      {
+        "subject": "poco-x5-pro-5g",
+        "metric": "antutu_v11",
+        "value": 781764,
+        "note": "Listed as \"Poco X5 Pro 5G\" (S-778G, 8+256 GB): CPU 309,186, GPU 94,654, memory 162,992, UX 214,932"
+      },
+      {
+        "subject": "poco-x6-pro-5g",
+        "metric": "antutu_v11",
+        "value": 1525486,
+        "note": "Listed as \"Poco X6 Pro 5G\" (M-8300-Ultra, 12+512 GB): CPU 437,441, GPU 424,205, memory 297,279, UX 366,561"
+      },
+      {
+        "subject": "poco-x7",
+        "metric": "antutu_v11",
+        "value": 803683,
+        "note": "Listed as \"Poco X7\" (M-7300-Ultra, 8+256 GB): CPU 300,148, GPU 108,744, memory 135,681, UX 259,110"
+      },
+      {
+        "subject": "poco-x7-pro",
+        "metric": "antutu_v11",
+        "value": 1874182,
+        "note": "Listed as \"Poco X7 Pro\" (M-8400-Ultra, 12+512 GB): CPU 584,762, GPU 555,422, memory 314,429, UX 419,569"
+      },
+      {
+        "subject": "poco-x8-pro",
+        "metric": "antutu_v11",
+        "value": 1977887,
+        "note": "Listed as \"Poco X8 Pro\" (M-8500-Ultra, 8+256 GB): CPU 584,825, GPU 634,127, memory 322,126, UX 436,809"
+      },
+      {
+        "subject": "redmagic-11-pro",
+        "metric": "antutu_v11",
+        "value": 4013168,
+        "note": "Listed as \"Red Magic 11 Pro\" (S-8 Elite Gen 5, 16+512 GB): CPU 1,158,712, GPU 1,488,017, memory 509,137, UX 857,302"
+      },
+      {
+        "subject": "redmi-note-13-pro",
+        "metric": "antutu_v11",
+        "value": 563419,
+        "note": "Listed as \"Redmi Note 13 Pro\" (M-G99-Ultra, 8+256 GB): CPU 201,570, GPU 45,900, memory 151,451, UX 164,498"
+      },
+      {
+        "subject": "redmi-note-13-pro-plus-5g",
+        "metric": "antutu_v11",
+        "value": 1015859,
+        "note": "Listed as \"Redmi Note 13 Pro+\" (M-7200-Ultra, 12+512 GB): CPU 365,506, GPU 140,255, memory 202,796, UX 307,302"
+      },
+      {
+        "subject": "redmi-note-14",
+        "metric": "antutu_v11",
+        "value": 565160,
+        "note": "Listed as \"Redmi Note 14 4G\" (M-G99-Ultra, 8+256 GB): CPU 201,258, GPU 44,639, memory 158,868, UX 160,395"
+      },
+      {
+        "subject": "redmi-note-14-5g",
+        "metric": "antutu_v11",
+        "value": 660807,
+        "note": "Listed as \"Redmi Note 14 5G\" (M-7025, 8+256 GB): CPU 253,008, GPU 58,024, memory 150,463, UX 199,312"
+      },
+      {
+        "subject": "redmi-note-14-pro",
+        "metric": "antutu_v11",
+        "value": 550286,
+        "note": "Listed as \"Redmi Note 14 Pro 4G\" (M-G100-Ultra, 8+256 GB): CPU 201,871, GPU 44,600, memory 143,804, UX 160,011"
+      },
+      {
+        "subject": "redmi-note-14-pro-5g",
+        "metric": "antutu_v11",
+        "value": 804731,
+        "note": "Listed as \"Redmi Note 14 Pro\" (M-7300-Ultra, 8+256 GB): CPU 301,228, GPU 101,741, memory 140,699, UX 261,063"
+      },
+      {
+        "subject": "redmi-note-14-pro-plus",
+        "metric": "antutu_v11",
+        "value": 917150,
+        "note": "Listed as \"Redmi Note 14 Pro+\" (S-7s Gen 3, 8+256 GB): CPU 382,160, GPU 120,543, memory 155,107, UX 259,340"
+      },
+      {
+        "subject": "redmi-note-15-5g",
+        "metric": "antutu_v11",
+        "value": 825374,
+        "note": "Listed as \"REDMI Note 15\" (S-6 Gen 3, 8+256 GB): CPU 291,219, GPU 130,973, memory 170,791, UX 232,391"
+      },
+      {
+        "subject": "redmi-note-15-pro-5g",
+        "metric": "antutu_v11",
+        "value": 876387,
+        "note": "Listed as \"REDMI Note 15 Pro\" (M-7400, 8+256 GB): CPU 317,490, GPU 117,275, memory 169,096, UX 272,526"
+      },
+      {
+        "subject": "redmi-note-15-pro-plus-5g",
+        "metric": "antutu_v11",
+        "value": 975892,
+        "note": "Listed as \"REDMI Note 15 Pro+\" (S-7s Gen 4, 12+512 GB): CPU 402,002, GPU 111,009, memory 191,997, UX 270,884"
+      },
+      {
+        "subject": "samsung-galaxy-a07",
+        "metric": "antutu_v11",
+        "value": 528428,
+        "note": "Listed as \"Galaxy A07\" (M-G99, 4+128 GB): CPU 219,341, GPU 43,875, memory 116,940, UX 148,272"
+      },
+      {
+        "subject": "samsung-galaxy-a35-5g",
+        "metric": "antutu_v11",
+        "value": 739266,
+        "note": "Listed as \"Galaxy A35 5G\" (E-1380, 8+256 GB): CPU 291,093, GPU 86,789, memory 132,410, UX 228,974"
+      },
+      {
+        "subject": "samsung-galaxy-a36-5g",
+        "metric": "antutu_v11",
+        "value": 816934,
+        "note": "Listed as \"Galaxy A36 5G\" (S-6 Gen 3, 8+256 GB): CPU 304,148, GPU 133,245, memory 150,052, UX 229,489"
+      },
+      {
+        "subject": "samsung-galaxy-a54-5g",
+        "metric": "antutu_v11",
+        "value": 737262,
+        "note": "Listed as \"Galaxy A54\" (E-1380, 8+256 GB): CPU 288,996, GPU 89,480, memory 132,844, UX 225,942"
+      },
+      {
+        "subject": "samsung-galaxy-a55-5g",
+        "metric": "antutu_v11",
+        "value": 996960,
+        "note": "Listed as \"Galaxy A55 5G\" (E-1480, 8+256 GB): CPU 353,255, GPU 223,492, memory 162,318, UX 257,895"
+      },
+      {
+        "subject": "samsung-galaxy-a56",
+        "metric": "antutu_v11",
+        "value": 1223886,
+        "note": "Listed as \"Galaxy A56\" (E-1580, 8+256 GB): CPU 463,134, GPU 291,001, memory 171,497, UX 298,254"
+      },
+      {
+        "subject": "samsung-galaxy-a57-5g",
+        "metric": "antutu_v11",
+        "value": 1359649,
+        "note": "Listed as \"Galaxy A57\" (E-1680, 8+256 GB): CPU 497,879, GPU 370,715, memory 196,746, UX 294,309"
+      },
+      {
+        "subject": "samsung-galaxy-s23",
+        "metric": "antutu_v11",
+        "value": 1656761,
+        "note": "Listed as \"Galaxy S23\" (S-8 Gen 2 OC, 8+256 GB): CPU 552,703, GPU 407,515, memory 274,500, UX 422,043"
+      },
+      {
+        "subject": "samsung-galaxy-s23-plus",
+        "metric": "antutu_v11",
+        "value": 1695011,
+        "note": "Listed as \"Galaxy S23+\" (S-8 Gen 2 OC, 8+256 GB): CPU 570,371, GPU 418,441, memory 277,364, UX 428,835"
+      },
+      {
+        "subject": "samsung-galaxy-s23-ultra",
+        "metric": "antutu_v11",
+        "value": 1684869,
+        "note": "Listed as \"Galaxy S23 Ultra\" (S-8 Gen 2 OC, 12+256 GB): CPU 551,848, GPU 416,863, memory 279,637, UX 436,521"
+      },
+      {
+        "subject": "samsung-galaxy-s24",
+        "metric": "antutu_v11",
+        "value": 1820628,
+        "note": "Listed as \"Galaxy S24\" (E-2400, 8+256 GB): CPU 598,437, GPU 557,768, memory 259,369, UX 405,054"
+      },
+      {
+        "subject": "samsung-galaxy-s24-fe",
+        "metric": "antutu_v11",
+        "value": 1849346,
+        "note": "Listed as \"Galaxy S24 FE\" (E-2400, 8+256 GB): CPU 603,988, GPU 549,480, memory 286,140, UX 409,738"
+      },
+      {
+        "subject": "samsung-galaxy-s24-plus",
+        "metric": "antutu_v11",
+        "value": 1876702,
+        "note": "Listed as \"Galaxy S24+\" (E-2400, 12+256 GB): CPU 626,829, GPU 551,752, memory 282,176, UX 415,945"
+      },
+      {
+        "subject": "samsung-galaxy-s24-ultra",
+        "metric": "antutu_v11",
+        "value": 2201149,
+        "note": "Listed as \"Galaxy S24 Ultra\" (S-8 Gen 3 OC, 12+256 GB): CPU 693,351, GPU 711,083, memory 316,564, UX 480,151"
+      },
+      {
+        "subject": "samsung-galaxy-s25",
+        "metric": "antutu_v11",
+        "value": 2583039,
+        "note": "Listed as \"Galaxy S25\" (S-8 Elite OC, 12+256 GB): CPU 790,426, GPU 937,333, memory 329,515, UX 525,765"
+      },
+      {
+        "subject": "samsung-galaxy-s25-fe",
+        "metric": "antutu_v11",
+        "value": 2000659,
+        "note": "Listed as \"Galaxy S25 FE\" (E-2400, 8+256 GB): CPU 680,656, GPU 594,681, memory 303,995, UX 421,327"
+      },
+      {
+        "subject": "samsung-galaxy-s25-plus",
+        "metric": "antutu_v11",
+        "value": 2763072,
+        "note": "Listed as \"Galaxy S25+\" (S-8 Elite OC, 12+256 GB): CPU 866,625, GPU 996,402, memory 347,621, UX 552,424"
+      },
+      {
+        "subject": "samsung-galaxy-s25-ultra",
+        "metric": "antutu_v11",
+        "value": 2780751,
+        "note": "Listed as \"Galaxy S25 Ultra\" (S-8 Elite OC, 12+256 GB): CPU 891,948, GPU 985,658, memory 347,009, UX 556,136"
+      },
+      {
+        "subject": "samsung-galaxy-s26",
+        "metric": "antutu_v11",
+        "value": 2827538,
+        "note": "Listed as \"Galaxy S26\" (E-2600, 12+256 GB): CPU 947,776, GPU 1,052,625, memory 347,409, UX 479,728"
+      },
+      {
+        "subject": "samsung-galaxy-s26-ultra",
+        "metric": "antutu_v11",
+        "value": 3463142,
+        "note": "Listed as \"Galaxy S26 Ultra\" (S-8 Elite Gen 5 OC, 12+256 GB): CPU 1,030,971, GPU 1,353,696, memory 389,141, UX 689,334"
+      },
+      {
+        "subject": "samsung-galaxy-z-fold8",
+        "metric": "antutu_v11",
+        "value": 2814251,
+        "note": "Listed as \"Galaxy Z Fold8\" (S-8 Elite Gen 5 OC, 12+256 GB): CPU 803,610, GPU 1,086,476, memory 325,767, UX 598,398"
+      },
+      {
+        "subject": "vivo-x300",
+        "metric": "antutu_v11",
+        "value": 3037992,
+        "note": "Listed as \"vivo X300\" (M-9500, 12+256 GB): CPU 864,875, GPU 1,185,719, memory 329,857, UX 657,541"
+      },
+      {
+        "subject": "vivo-x300-pro",
+        "metric": "antutu_v11",
+        "value": 3326259,
+        "note": "Listed as \"vivo X300 Pro\" (M-9500, 16+512 GB): CPU 988,622, GPU 1,298,581, memory 335,239, UX 703,817"
+      },
+      {
+        "subject": "xiaomi-13t",
+        "metric": "antutu_v11",
+        "value": 1183282,
+        "note": "Listed as \"Mi 13T\" (M-8200-Ultra, 12+256 GB): CPU 419,746, GPU 199,677, memory 227,767, UX 336,092"
+      },
+      {
+        "subject": "xiaomi-14t",
+        "metric": "antutu_v11",
+        "value": 1559755,
+        "note": "Listed as \"Mi 14T\" (M-8300-Ultra, 12+512 GB): CPU 445,511, GPU 429,403, memory 292,130, UX 392,711"
+      },
+      {
+        "subject": "xiaomi-14t-pro",
+        "metric": "antutu_v11",
+        "value": 2129644,
+        "note": "Listed as \"Mi 14T Pro\" (M-9300+, 12+512 GB): CPU 649,460, GPU 639,811, memory 354,379, UX 485,994"
+      },
+      {
+        "subject": "xiaomi-15",
+        "metric": "antutu_v11",
+        "value": 2914100,
+        "note": "Listed as \"Mi 15\" (S-8 Elite, 12+256 GB): CPU 874,340, GPU 1,069,991, memory 379,667, UX 590,102"
+      },
+      {
+        "subject": "xiaomi-15t-pro",
+        "metric": "antutu_v11",
+        "value": 2583659,
+        "note": "Listed as \"Mi 15T Pro\" (M-9400+, 12+512 GB): CPU 750,360, GPU 892,637, memory 369,201, UX 571,461"
+      },
+      {
+        "subject": "xiaomi-17",
+        "metric": "antutu_v11",
+        "value": 3248535,
+        "note": "Listed as \"Mi 17\" (S-8 Elite Gen 5, 12+512 GB): CPU 921,447, GPU 1,191,470, memory 473,607, UX 662,011"
+      },
+      {
+        "subject": "xiaomi-17-ultra",
+        "metric": "antutu_v11",
+        "value": 3600724,
+        "note": "Listed as \"Xiaomi 17 Ultra\" (S-8 Elite Gen 5, 16+512 GB): CPU 1,032,276, GPU 1,345,109, memory 495,988, UX 727,351"
+      },
+      {
+        "subject": "xiaomi-17t",
+        "metric": "antutu_v11",
+        "value": 2026828,
+        "note": "Listed as \"Mi 17T\" (M-8500-Ultra, 12+256 GB): CPU 601,350, GPU 621,499, memory 347,671, UX 456,308"
+      },
+      {
+        "subject": "xiaomi-17t-pro",
+        "metric": "antutu_v11",
+        "value": 3182664,
+        "note": "Listed as \"Mi 17T Pro\" (M-9500, 12+512 GB): CPU 911,618, GPU 1,228,396, memory 401,602, UX 641,048"
+      }
+    ],
+    "extraction": "complete"
+  }
+]

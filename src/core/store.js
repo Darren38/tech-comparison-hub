@@ -96,7 +96,8 @@ export function sourceName(id) {
 export function deviceTitle(row) {
   if (!row) return '';
   const brand = brandName(row.brand);
-  return row.name.toLowerCase().startsWith(brand.toLowerCase()) ? row.name : `${brand} ${row.name}`;
+  // names that already carry the brand ("Leica Leitzphone powered by Xiaomi") are shown as they are
+  return new RegExp(`(^|\\s)${brand.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}(\\s|$)`, 'i').test(row.name) ? row.name : `${brand} ${row.name}`;
 }
 
 export const metricDef = (id) => store.metricById.get(id);

@@ -1171,5 +1171,53 @@
       }
     ],
     "extraction": "partial"
+  },
+  {
+    "id": "malaymail-iphone-18-pro-max-hands-on",
+    "kind": "review",
+    "source": "malaymail",
+    "title": "Hands-on with Apple's iPhone 18 Pro Max: Does it impress? (VIDEO)",
+    "url": "https://www.malaymail.com/news/tech-gadgets/2026/09/18/hands-on-with-apples-iphone-18-pro-max-does-it-impress-video/235579",
+    "author": "Erna Mahyuni",
+    "published": "2026-09-18",
+    "accessed": "2026-09-24",
+    "class": "reviewer",
+    "category": "first-look",
+    "devices": [
+      "apple-iphone-18-pro-max"
+    ],
+    "facets": [
+      "build",
+      "camera",
+      "thermals"
+    ],
+    "method": "Malaysian hands-on first impressions; the reviewer says a fuller verdict will follow after more use.",
+    "findings": [
+      {
+        "subject": "apple-iphone-18-pro-max",
+        "facet": "build",
+        "stance": "positive",
+        "text": "The Burgundy finish is the reviewer's favourite iPhone colour, darkening to plum in dim light."
+      },
+      {
+        "subject": "apple-iphone-18-pro-max",
+        "facet": "build",
+        "stance": "neutral",
+        "text": "Size and materials are the same as the iPhone 17 Pro Max, so upgraders from it will notice little difference in the hand."
+      },
+      {
+        "subject": "apple-iphone-18-pro-max",
+        "facet": "camera",
+        "stance": "positive",
+        "text": "The main camera's adjustable aperture should help in low light and give more pleasing background blur."
+      },
+      {
+        "subject": "apple-iphone-18-pro-max",
+        "facet": "thermals",
+        "stance": "neutral",
+        "text": "A redesigned vapour chamber is meant to keep it cooler; not yet tested by the reviewer."
+      }
+    ],
+    "extraction": "partial"
   }
 ]

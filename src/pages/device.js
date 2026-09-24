@@ -33,6 +33,24 @@ const SECTIONS = [
   ['sources', 'Sources'],
 ];
 
+
+// Version 14: who has tested this phone, named up front. Labs, benchmark databases and reviewers with a measured
+// result for it, most results first; each links to the source's page (methodology, tier, everything it supplied).
+function testedBy(data) {
+  const count = new Map();
+  for (const m of Object.values(data.metrics)) {
+    if (m.inherited) continue;
+    for (const o of m.origins ?? []) {
+      if (!['measured', 'database', 'reviewer'].includes(o.class)) continue;
+      count.set(o.origin, (count.get(o.origin) ?? 0) + o.records.length);
+    }
+    for (const v of m.otherVariants ?? []) for (const o of v.origins ?? []) count.set(o.origin, (count.get(o.origin) ?? 0) + o.records.length);
+  }
+  if (!count.size) return '';
+  const list = [...count.entries()].sort((a, b) => b[1] - a[1]);
+  return html`<p class="dhead__tested small"><span class="muted">Tested by</span> ${list.map(([id, n]) => html`<a class="src-pill" href="${href(`/source/${id}`)}" title="${plural(n, 'result')} from ${sourceName(id)}">${sourceName(id)} <span class="num">${n}</span></a>`)}</p>`;
+}
+
 function header(data, row) {
   const d = data.device;
   const cat = categoryDef(d.category);
@@ -52,6 +70,7 @@ function header(data, row) {
         <h1>${d.name}</h1>
         ${d.summary ? html`<p class="dhead__summary">${d.summary}</p>` : ''}
         ${d.highlights?.length ? html`<ul class="dhead__highlights">${d.highlights.map((h) => html`<li>${h}</li>`)}</ul>` : ''}
+        ${testedBy(data)}
         <div class="dhead__facts small">
           <span><span class="muted">Announced</span> ${fmtDate(d.announced)}</span>
           ${d.released ? html`<span><span class="muted">Released</span> ${fmtDate(d.released)}</span>` : ''}
@@ -125,7 +144,7 @@ function scoresSection(data) {
         dim: r.s.anyInherited,
       })))}
       <details class="small" style="margin-top:12px"><summary>What each score is based on</summary>
-        <ul class="basis">${rows.map((r) => html`<li><strong>${r.sc.label}</strong> ${confMeter(r.s.confidence)} <span class="muted">${Math.round(r.s.coverage * 100)}% of evidence available · ${r.s.used.map((u) => metricDef(u.id).short).join(', ')}${r.s.specOnly ? ' · specification-based' : ''}${r.s.filled?.length ? ` · not recorded, counted as typical for similar devices: ${r.s.filled.map((f) => metricDef(f.id).short).join(', ')}` : ''}</span>${r.sc.note ? html`<div class="tiny faint">${r.sc.note}</div>` : ''}</li>`)}</ul>
+        <ul class="basis">${rows.map((r) => html`<li><strong>${r.sc.label}</strong> ${confMeter(r.s.confidence)} <span class="muted">${Math.round(r.s.coverage * 100)}% of evidence available · ${r.s.used.map((u) => [u.id, ...(u.also ?? [])].map((id) => metricDef(id).short).join(' + ')).join(', ')}${r.s.specOnly ? ' · specification-based' : ''}${r.s.filled?.length ? ` · not recorded, counted as typical for similar devices: ${r.s.filled.map((f) => metricDef(f.id).short).join(', ')}` : ''}</span>${r.sc.note ? html`<div class="tiny faint">${r.sc.note}</div>` : ''}</li>`)}</ul>
       </details>
     </div>
     <div class="card stack">
@@ -323,7 +342,7 @@ function askCard(row) {
   const wear = row.category === 'smartwatch' || row.category === 'band';
   const qs = wear
     ? ['How long does its battery last?', 'Is it water resistant?', 'What does it cost in Malaysia?', 'Compare it with its rivals']
-    : ['What are its battery and charging?', 'What does it cost in Malaysia?', 'How good is its camera hardware?', 'Compare it with its rivals'];
+    : ['What are its battery and charging?', 'What does it cost in Malaysia?', 'How good is its camera?', 'Compare it with its rivals'];
   return html`<section class="askcard" aria-labelledby="askcard-h">
     <div><h2 id="askcard-h" class="askcard__title">${icon('chat', { size: 18 })} Ask about the ${deviceTitle(row)}</h2>
     <p class="small muted">Quick answers from this page's data, with sources. Not an AI chatbot: it won't guess.</p></div>
