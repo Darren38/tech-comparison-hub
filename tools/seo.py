@@ -93,6 +93,8 @@ def page(base: str, path: str, title: str, description: str, body: str, jsonld: 
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' https: data:; object-src 'none'; base-uri 'self'; form-action 'none'" />
+<meta name="referrer" content="strict-origin-when-cross-origin" />
 <title>{esc(title)}</title>
 <meta name="description" content="{esc(description)}" />
 <link rel="canonical" href="{esc(url)}" />
@@ -121,7 +123,7 @@ def page(base: str, path: str, title: str, description: str, body: str, jsonld: 
   .seo ul {{ padding-left: 18px; }}
   .seo li {{ margin: 4px 0; }}
 </style>
-<script type="application/ld+json">{json.dumps(jsonld, ensure_ascii=False)}</script>
+<script type="application/ld+json">{json.dumps(jsonld, ensure_ascii=False).replace("</", "<" + chr(92) + "/")}</script>
 </head>
 <body>
 <main class="seo">

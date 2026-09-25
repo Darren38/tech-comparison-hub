@@ -3,6 +3,10 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Security (Version 18): scripts only from this site and the pinned AI library on jsDelivr; no plugins, frames or
+         form posts to other sites. GitHub Pages cannot send security headers, so the policy is set here. -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdn.jsdelivr.net 'wasm-unsafe-eval'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' https: data: blob:; media-src 'self' https:; connect-src 'self' https:; worker-src 'self' blob:; frame-src 'none'; object-src 'none'; base-uri 'self'; form-action 'self'" />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
     <title>Tech Comparison Hub</title>
     <meta name="description" content="Compare phones, tablets, smartwatches, fitness bands and earbuds sold in Malaysia: specifications, Malaysian prices, independent tests, reviews and news, with every number attributed to its source." />
     <link rel="canonical" href="https://darren38.github.io/tech-comparison-hub/" />
@@ -21,14 +25,7 @@
     <link rel="stylesheet" href="assets/css/base.css" />
     <link rel="stylesheet" href="assets/css/components.css" />
     <link rel="stylesheet" href="assets/css/pages.css" />
-    <script>
-      // Apply the saved theme before first paint to avoid a flash.
-      try {
-        var t = JSON.parse(localStorage.getItem('tch.theme.v1'));
-        if (t === 'light' || t === 'dark') document.documentElement.dataset.theme = t;
-        document.documentElement.dataset.mode = JSON.parse(localStorage.getItem('tch.mode.v1')) === 'simple' ? 'simple' : 'detailed';
-      } catch (e) {}
-    </script>
+    <script src="assets/js/prepaint.js"></script>
     <script type="module" src="src/main.js"></script>
   </head>
   <body>

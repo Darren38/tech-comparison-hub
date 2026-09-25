@@ -26,9 +26,11 @@ Every path the site uses is relative, so it works from that sub-folder, from a c
 | Part | How often | Source | If the source is down |
 | --- | --- | --- | --- |
 | Exchange rates | Every 3 hours, and in each visitor's browser if the published rates are not from today (Malaysia time) | Bank Negara Malaysia; the browser falls back to ExchangeRate-API | The last rates stay in use, labelled with their date |
-| Latest headlines and YouTube view counts | Every 3 hours | Public RSS and YouTube feeds | The previous collection stays |
+| Latest headlines, videos and YouTube view counts | Every 3 hours | Public RSS feeds; videos through the YouTube Data API (needs the `YOUTUBE_API_KEY` secret) | The previous collection stays; without the key the videos collected earlier stay |
+| iOS releases and betas, Samsung's monthly security update, Apple Malaysia service programmes | At most every 6 hours | `tools/fetch_official.py`: Apple's and Samsung's own pages | The saved part stays |
 | Benchmark databases (UL 3DMark device pages, DXOMARK's public list, AnTuTu's ranking) | Once a day; later runs that day reuse the result from the Actions cache | `tools/refresh_benchmarks.py`: only phones already matched in `data/benchmarks/`; changes over 30% are held, not applied | That source keeps its saved values |
 | Device pictures | Once a day, same cache | `tools/check_images.py` | A picture that no longer loads shows the outline drawing |
+| Pictures for devices without one, and where the product sits in new pictures | About once a week | `tools/find_images.py`, `tools/image_boxes.py` | Nothing changes until the next week |
 | Specs, tests, prices, findings | When `data/` changes | Checked by hand | — |
 
 On the live site, **Refresh** loads the newest collection; it cannot collect on the spot, because GitHub Pages cannot run code. Run `python serve.py` locally and Refresh collects immediately.
@@ -39,7 +41,9 @@ A browser may not read most publishers' feeds directly, and GitHub Pages has no 
 
 ## Good to know
 
-- **GitHub pauses scheduled workflows after 60 days without repository activity.** A push, or re-enabling the workflow in the Actions tab, restarts them.
+- **The schedule keeps itself on.** GitHub pauses scheduled workflows after 60 days without repository activity; the daily run's `keepalive` job uses GitHub's "enable workflow" switch so that never happens (no commits are made). If it ever did, a push or **Enable workflow** in the Actions tab restarts them.
+- **YouTube Data API key.** YouTube's robots.txt asks automated readers not to fetch its channel feeds, so videos are read through the official API. Create a key in Google Cloud (enable *YouTube Data API v3*, create an API key restricted to that API) and add it as the repository secret `YOUTUBE_API_KEY` (Settings > Secrets and variables > Actions). The site uses about 250 of the free 10,000 daily units.
+- **Security.** See [SECURITY.md](../SECURITY.md): a Content Security Policy on every page, only `http(s)` links from feeds, a read-only build with GitHub's actions pinned to exact commits, and no workflow trigger that runs other people's code.
 - **Some sites block cloud servers.** A feed that works locally but keeps failing in Actions shows as unreachable in the headline panel's status line. Replace or remove it in `data/meta/live-feeds.json`.
 - **Visitors always get the latest version.** GitHub Pages lets browsers keep files for about ten minutes. The site's `sw.js` makes each visitor's browser check for newer files on every load, so an update shows on the next refresh. It needs HTTPS (which Pages provides) and never touches an AI model a visitor downloaded.
 - **AI answers need nothing from the server.** The optional on-device models are downloaded by each visitor's browser from Hugging Face (WebLLM from jsDelivr) only after they agree; the site hosts no model and has no API key.

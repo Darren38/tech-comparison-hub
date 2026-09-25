@@ -272,7 +272,10 @@ def validate(ds: Dataset) -> None:
         check_source(ds, label, feed.get("source"))
         if feed.get("kind") not in {"news", "review", "video"}:
             r.error(f"{label}: kind must be news, review or video")
-        if not str(feed.get("url", "")).startswith("https://"):
+        if feed.get("channel"):  # Version 18: YouTube channels are read through the YouTube Data API by channel id
+            if feed.get("kind") != "video" or not re.fullmatch(r"UC[\w-]{22}", str(feed["channel"])):
+                r.error(f"{label}: channel must be a YouTube channel id (UC…) on a video feed")
+        elif not str(feed.get("url", "")).startswith("https://"):
             r.error(f"{label}: url must use https")
     shared = set(ds.devices) & set(ds.chipsets)
     for dup in shared:

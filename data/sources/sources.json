@@ -511,5 +511,82 @@
     "tier": "B",
     "url": "https://www.ifanr.com",
     "notes": "Chinese technology publication with hands-on reviews of Chinese-market flagships."
+  },
+  {
+    "id": "samsung-newsroom-my",
+    "name": "Samsung Newsroom Malaysia",
+    "type": "manufacturer",
+    "tier": "O",
+    "url": "https://news.samsung.com/my/"
+  },
+  {
+    "id": "apple-developer",
+    "name": "Apple Developer releases",
+    "type": "manufacturer",
+    "tier": "O",
+    "url": "https://developer.apple.com/news/releases/"
+  },
+  {
+    "id": "apple-support",
+    "name": "Apple Support",
+    "type": "manufacturer",
+    "tier": "O",
+    "url": "https://support.apple.com/"
+  },
+  {
+    "id": "samsung-security",
+    "name": "Samsung Mobile Security",
+    "type": "manufacturer",
+    "tier": "O",
+    "url": "https://security.samsungmobile.com/"
+  },
+  {
+    "id": "geekerwan-zh",
+    "name": "极客湾 Geekerwan (Chinese)",
+    "type": "youtube",
+    "tier": "B",
+    "url": "https://www.youtube.com/@geekerwan1024"
+  },
+  {
+    "id": "mediastorm",
+    "name": "影视飓风 Mediastorm",
+    "type": "youtube",
+    "tier": "B",
+    "url": "https://www.youtube.com/@mediastorm6801"
+  },
+  {
+    "id": "isbonny",
+    "name": "邦尼幫你",
+    "type": "youtube",
+    "tier": "B",
+    "url": "https://www.youtube.com/@isbonny"
+  },
+  {
+    "id": "wekihome",
+    "name": "微机分 WekiHome",
+    "type": "youtube",
+    "tier": "B",
+    "url": "https://www.youtube.com/@wekihome9414"
+  },
+  {
+    "id": "cherry-official",
+    "name": "Cherry",
+    "type": "youtube",
+    "tier": "B",
+    "url": "https://www.youtube.com/@cherry_official"
+  },
+  {
+    "id": "htx-studio",
+    "name": "HTX Studio",
+    "type": "youtube",
+    "tier": "B",
+    "url": "https://www.youtube.com/@HTXStudio"
+  },
+  {
+    "id": "htx-studio-zh",
+    "name": "HTX Studio (Chinese channel)",
+    "type": "youtube",
+    "tier": "B",
+    "url": "https://www.youtube.com/@hetongxue"
   }
 ]

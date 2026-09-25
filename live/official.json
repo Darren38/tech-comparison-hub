@@ -1,0 +1,550 @@
+{
+ "appleReleases": [
+  {
+   "os": "watchOS",
+   "version": "27.0.1",
+   "name": "watchOS 27.0.1",
+   "date": "2026-09-23",
+   "for": "Apple Watch Series 12 and Apple Watch Ultra 4",
+   "url": "https://support.apple.com/en-us/100100",
+   "noCves": true
+  },
+  {
+   "os": "iOS",
+   "version": "27",
+   "name": "iOS 27 and iPadOS 27",
+   "date": "2026-09-14",
+   "for": "iPhone 11 and later, iPad Pro 12.9-inch 4th generation and later, iPad Pro 11-inch 2nd generation and later, iPad Air 4th generation and later, iPad 9th generation and later, and iPad mini 6th generation and later",
+   "url": "https://support.apple.com/en-us/149034",
+   "noCves": false
+  },
+  {
+   "os": "iOS",
+   "version": "26.7",
+   "name": "iOS 26.7 and iPadOS 26.7",
+   "date": "2026-09-14",
+   "for": "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later",
+   "url": "https://support.apple.com/en-us/149041",
+   "noCves": false
+  },
+  {
+   "os": "watchOS",
+   "version": "27",
+   "name": "watchOS 27",
+   "date": "2026-09-14",
+   "for": "Apple Watch Series 9 and later",
+   "url": "https://support.apple.com/en-us/149037",
+   "noCves": false
+  },
+  {
+   "os": "iOS",
+   "version": "26.6.2",
+   "name": "iOS 26.6.2 and iPadOS 26.6.2",
+   "date": "2026-09-08",
+   "for": "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later",
+   "url": "https://support.apple.com/en-us/100100",
+   "noCves": true
+  },
+  {
+   "os": "iOS",
+   "version": "26.6.1",
+   "name": "iOS 26.6.1 and iPadOS 26.6.1",
+   "date": "2026-08-17",
+   "for": "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later",
+   "url": "https://support.apple.com/en-us/148282",
+   "noCves": false
+  },
+  {
+   "os": "iOS",
+   "version": "18.7.10",
+   "name": "iOS 18.7.10 and iPadOS 18.7.10",
+   "date": "2026-08-17",
+   "for": "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation",
+   "url": "https://support.apple.com/en-us/148287",
+   "noCves": false
+  },
+  {
+   "os": "iOS",
+   "version": "26.6",
+   "name": "iOS 26.6 and iPadOS 26.6",
+   "date": "2026-07-27",
+   "for": "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later",
+   "url": "https://support.apple.com/en-us/128066",
+   "noCves": false
+  },
+  {
+   "os": "watchOS",
+   "version": "26.6",
+   "name": "watchOS 26.6",
+   "date": "2026-07-27",
+   "for": "Apple Watch Series 6 and later",
+   "url": "https://support.apple.com/en-us/128068",
+   "noCves": false
+  },
+  {
+   "os": "iOS",
+   "version": "26.5.2",
+   "name": "iOS 26.5.2 and iPadOS 26.5.2",
+   "date": "2026-06-29",
+   "for": "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later",
+   "url": "https://support.apple.com/en-us/127594",
+   "noCves": false
+  },
+  {
+   "os": "iOS",
+   "version": "26.5.1",
+   "name": "iOS 26.5.1",
+   "date": "2026-06-01",
+   "for": "iPhone 17 (all models) and iPhone Air",
+   "url": "https://support.apple.com/en-us/100100",
+   "noCves": true
+  },
+  {
+   "os": "iOS",
+   "version": "26.5",
+   "name": "iOS 26.5 and iPadOS 26.5",
+   "date": "2026-05-11",
+   "for": "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later",
+   "url": "https://support.apple.com/en-us/127110",
+   "noCves": false
+  },
+  {
+   "os": "iOS",
+   "version": "18.7.9",
+   "name": "iOS 18.7.9 and iPadOS 18.7.9",
+   "date": "2026-05-11",
+   "for": "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation",
+   "url": "https://support.apple.com/en-us/127111",
+   "noCves": false
+  },
+  {
+   "os": "iPadOS",
+   "version": "17.7.11",
+   "name": "iPadOS 17.7.11",
+   "date": "2026-05-11",
+   "for": "iPad Pro 12.9-inch 2nd generation, iPad Pro 10.5-inch, and iPad 6th generation",
+   "url": "https://support.apple.com/en-us/127112",
+   "noCves": false
+  },
+  {
+   "os": "iOS",
+   "version": "16.7.16",
+   "name": "iOS 16.7.16 and iPadOS 16.7.16",
+   "date": "2026-05-11",
+   "for": "iPhone 8, iPhone 8 Plus, iPhone X, iPad 5th generation, iPad Pro 9.7-inch, and iPad Pro 12.9-inch 1st generation",
+   "url": "https://support.apple.com/en-us/127113",
+   "noCves": false
+  },
+  {
+   "os": "iOS",
+   "version": "15.8.8",
+   "name": "iOS 15.8.8 and iPadOS 15.8.8",
+   "date": "2026-05-11",
+   "for": "iPhone 6s (all models), iPhone 7 (all models), iPhone SE (1st generation), iPad Air 2, iPad mini (4th generation), and iPod touch (7th generation)",
+   "url": "https://support.apple.com/en-us/127114",
+   "noCves": false
+  },
+  {
+   "os": "watchOS",
+   "version": "26.5",
+   "name": "watchOS 26.5",
+   "date": "2026-05-11",
+   "for": "Apple Watch Series 6 and later",
+   "url": "https://support.apple.com/en-us/127119",
+   "noCves": false
+  },
+  {
+   "os": "iOS",
+   "version": "26.4.2",
+   "name": "iOS 26.4.2 and iPadOS 26.4.2",
+   "date": "2026-04-22",
+   "for": "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later",
+   "url": "https://support.apple.com/en-us/127002",
+   "noCves": false
+  },
+  {
+   "os": "iOS",
+   "version": "18.7.8",
+   "name": "iOS 18.7.8 and iPadOS 18.7.8",
+   "date": "2026-04-22",
+   "for": "iPhone XR, iPhone XS, iPhone XS Max, iPhone 11 (all models), iPhone SE (2nd generation), iPhone 12 (all models), iPhone 13 (all models), iPhone SE (3rd generation), iPhone 14 (all models), iPhone 15 (all models), iPhone 16 (all models), iPhone 16e, iPad mini (5th generation - A17 Pro), iPad (7th gen",
+   "url": "https://support.apple.com/en-us/127003",
+   "noCves": false
+  },
+  {
+   "os": "iOS",
+   "version": "26.4.1",
+   "name": "iOS 26.4.1 and iPadOS 26.4.1",
+   "date": "2026-04-08",
+   "for": "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later",
+   "url": "https://support.apple.com/en-us/100100",
+   "noCves": true
+  },
+  {
+   "os": "iOS",
+   "version": "18.7.7",
+   "name": "iOS 18.7.7 and iPadOS 18.7.7",
+   "date": "2026-04-01",
+   "for": "iPhone XR, iPhone XS, iPhone XS Max, iPhone 11 (all models), iPhone SE (2nd generation), iPhone 12 (all models), iPhone 13 (all models), iPhone SE (3rd generation), iPhone 14 (all models), iPhone 15 (all models), iPhone 16 (all models), iPhone 16e, iPad mini (5th generation - A17 Pro), iPad (7th gen",
+   "url": "https://support.apple.com/en-us/126793",
+   "noCves": false
+  },
+  {
+   "os": "iOS",
+   "version": "26.4",
+   "name": "iOS 26.4 and iPadOS 26.4",
+   "date": "2026-03-24",
+   "for": "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later",
+   "url": "https://support.apple.com/en-us/126792",
+   "noCves": false
+  },
+  {
+   "os": "iOS",
+   "version": "18.7.7",
+   "name": "iOS 18.7.7 and iPadOS 18.7.7",
+   "date": "2026-03-24",
+   "for": "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation",
+   "url": "https://support.apple.com/en-us/126793",
+   "noCves": false
+  },
+  {
+   "os": "watchOS",
+   "version": "5.3.10",
+   "name": "watchOS 5.3.10",
+   "date": "2026-03-24",
+   "for": "Apple Watch Series 1, Series 2, Series 3, and Series 4",
+   "url": "https://support.apple.com/en-us/100100",
+   "noCves": true
+  },
+  {
+   "os": "watchOS",
+   "version": "8.8.2",
+   "name": "watchOS 8.8.2",
+   "date": "2026-03-24",
+   "for": "Apple Watch Series 3, Series 4, Series 5, Series 6, Series 7, and SE",
+   "url": "https://support.apple.com/en-us/100100",
+   "noCves": true
+  },
+  {
+   "os": "watchOS",
+   "version": "26.4",
+   "name": "watchOS 26.4",
+   "date": "2026-03-24",
+   "for": "Apple Watch Series 6 and later",
+   "url": "https://support.apple.com/en-us/126798",
+   "noCves": false
+  },
+  {
+   "os": "iOS",
+   "version": "16.7.15",
+   "name": "iOS 16.7.15 and iPadOS 16.7.15",
+   "date": "2026-03-11",
+   "for": "iPhone 8, iPhone 8 Plus, iPhone X, iPad 5th generation, iPad Pro 9.7-inch, and iPad Pro 12.9-inch 1st generation",
+   "url": "https://support.apple.com/en-us/126646",
+   "noCves": false
+  },
+  {
+   "os": "iOS",
+   "version": "15.8.7",
+   "name": "iOS 15.8.7 and iPadOS 15.8.7",
+   "date": "2026-03-11",
+   "for": "iPhone 6s (all models), iPhone 7 (all models), iPhone SE (1st generation), iPad Air 2, iPad mini (4th generation), and iPod touch (7th generation)",
+   "url": "https://support.apple.com/en-us/126632",
+   "noCves": false
+  },
+  {
+   "os": "iOS",
+   "version": "26.3.1",
+   "name": "iOS 26.3.1 and iPadOS 26.3.1",
+   "date": "2026-03-04",
+   "for": "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later",
+   "url": "https://support.apple.com/en-us/100100",
+   "noCves": true
+  },
+  {
+   "os": "iOS",
+   "version": "18.7.6",
+   "name": "iOS 18.7.6",
+   "date": "2026-03-04",
+   "for": "iPhone XS, iPhone XS Max, iPhone XR",
+   "url": "https://support.apple.com/en-us/100100",
+   "noCves": true
+  },
+  {
+   "os": "iOS",
+   "version": "26.3",
+   "name": "iOS 26.3 and iPadOS 26.3",
+   "date": "2026-02-11",
+   "for": "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later",
+   "url": "https://support.apple.com/en-us/126346",
+   "noCves": false
+  },
+  {
+   "os": "iOS",
+   "version": "18.7.5",
+   "name": "iOS 18.7.5 and iPadOS 18.7.5",
+   "date": "2026-02-11",
+   "for": "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation",
+   "url": "https://support.apple.com/en-us/126347",
+   "noCves": false
+  },
+  {
+   "os": "watchOS",
+   "version": "26.3",
+   "name": "watchOS 26.3",
+   "date": "2026-02-11",
+   "for": "Apple Watch Series 6 and later",
+   "url": "https://support.apple.com/en-us/126352",
+   "noCves": false
+  },
+  {
+   "os": "watchOS",
+   "version": "11.6.2",
+   "name": "watchOS 11.6.2",
+   "date": "2026-02-05",
+   "for": "Apple Watch Series 6 and later",
+   "url": "https://support.apple.com/en-us/100100",
+   "noCves": true
+  },
+  {
+   "os": "iOS",
+   "version": "16.7.14",
+   "name": "iOS 16.7.14 and iPadOS 16.7.14",
+   "date": "2026-02-02",
+   "for": "iPhone 8, iPhone 8 Plus, iPhone X, iPad 5th generation, iPad Pro 9.7-inch, and iPad Pro 12.9-inch 1st generation",
+   "url": "https://support.apple.com/en-us/100100",
+   "noCves": true
+  },
+  {
+   "os": "watchOS",
+   "version": "10.6.2",
+   "name": "watchOS 10.6.2",
+   "date": "2026-02-02",
+   "for": "Apple Watch Series 4, Series 5, and SE",
+   "url": "https://support.apple.com/en-us/100100",
+   "noCves": true
+  },
+  {
+   "os": "watchOS",
+   "version": "9.6.4",
+   "name": "watchOS 9.6.4",
+   "date": "2026-02-02",
+   "for": "Apple Watch Series 4, Series 5, Series 6, Series 7, Series 8, SE, SE 2, and Ultra",
+   "url": "https://support.apple.com/en-us/100100",
+   "noCves": true
+  },
+  {
+   "os": "watchOS",
+   "version": "6.3.1",
+   "name": "watchOS 6.3.1",
+   "date": "2026-02-02",
+   "for": "Apple Watch Series 1, Series 2, Series 3, Series 4, and Series 5",
+   "url": "https://support.apple.com/en-us/100100",
+   "noCves": true
+  },
+  {
+   "os": "iOS",
+   "version": "26.2.1",
+   "name": "iOS 26.2.1 and iPadOS 26.2.1",
+   "date": "2026-01-26",
+   "for": "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later",
+   "url": "https://support.apple.com/en-us/100100",
+   "noCves": true
+  },
+  {
+   "os": "iOS",
+   "version": "18.7.4",
+   "name": "iOS 18.7.4 and iPadOS 18.7.4",
+   "date": "2026-01-26",
+   "for": "iPhone XS, iPhone XS Max, iPhone XR, iPad Pro 13-inch, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 7th generation and later, and iPad mini 5th generation and later",
+   "url": "https://support.apple.com/en-us/100100",
+   "noCves": true
+  }
+ ],
+ "appleBetas": [
+  {
+   "os": "iOS",
+   "version": "27.2",
+   "stage": "beta 2",
+   "build": "24B5089g",
+   "title": "iOS 27.2 beta 2 (24B5089g)",
+   "date": "2026-09-21",
+   "url": "https://developer.apple.com/news/releases/?id=09212026a"
+  },
+  {
+   "os": "iPadOS",
+   "version": "27.2",
+   "stage": "beta 2",
+   "build": "24B5089g",
+   "title": "iPadOS 27.2 beta 2 (24B5089g)",
+   "date": "2026-09-21",
+   "url": "https://developer.apple.com/news/releases/?id=09212026b"
+  },
+  {
+   "os": "watchOS",
+   "version": "27.2",
+   "stage": "beta 2",
+   "build": "24S5091f",
+   "title": "watchOS 27.2 beta 2 (24S5091f)",
+   "date": "2026-09-21",
+   "url": "https://developer.apple.com/news/releases/?id=09212026f"
+  },
+  {
+   "os": "iOS",
+   "version": "27.0",
+   "stage": "release",
+   "build": "24A437",
+   "title": "iOS 27.0 (24A437)",
+   "date": "2026-09-14",
+   "url": "https://developer.apple.com/news/releases/?id=09142026a"
+  },
+  {
+   "os": "iPadOS",
+   "version": "27.0",
+   "stage": "release",
+   "build": "24A437",
+   "title": "iPadOS 27.0 (24A437)",
+   "date": "2026-09-14",
+   "url": "https://developer.apple.com/news/releases/?id=09142026b"
+  },
+  {
+   "os": "watchOS",
+   "version": "27.0",
+   "stage": "release",
+   "build": "24R364",
+   "title": "watchOS 27.0 (24R364)",
+   "date": "2026-09-14",
+   "url": "https://developer.apple.com/news/releases/?id=09142026f"
+  },
+  {
+   "os": "iPadOS",
+   "version": "26.7",
+   "stage": "release",
+   "build": "23H24",
+   "title": "iPadOS 26.7 (23H24)",
+   "date": "2026-09-09",
+   "url": "https://developer.apple.com/news/releases/?id=09092026g"
+  },
+  {
+   "os": "iOS",
+   "version": "26.6.2",
+   "stage": "release",
+   "build": "23G90",
+   "title": "iOS 26.6.2 (23G90)",
+   "date": "2026-09-08",
+   "url": "https://developer.apple.com/news/releases/?id=09082026a"
+  },
+  {
+   "os": "iPadOS",
+   "version": "26.6.2",
+   "stage": "release",
+   "build": "23G90",
+   "title": "iPadOS 26.6.2 (23G90)",
+   "date": "2026-09-08",
+   "url": "https://developer.apple.com/news/releases/?id=09082026b"
+  },
+  {
+   "os": "iOS",
+   "version": "18.7.10",
+   "stage": "release",
+   "build": "22H374",
+   "title": "iOS 18.7.10 (22H374)",
+   "date": "2026-08-17",
+   "url": "https://developer.apple.com/news/releases/?id=08172026k"
+  },
+  {
+   "os": "iPadOS",
+   "version": "18.7.10",
+   "stage": "release",
+   "build": "22H374",
+   "title": "iPadOS 18.7.10 (22H374)",
+   "date": "2026-08-17",
+   "url": "https://developer.apple.com/news/releases/?id=08172026l"
+  },
+  {
+   "os": "watchOS",
+   "version": "26.6",
+   "stage": "release",
+   "build": "23U67",
+   "title": "watchOS 26.6 (23U67)",
+   "date": "2026-07-27",
+   "url": "https://developer.apple.com/news/releases/?id=07272026f"
+  }
+ ],
+ "samsungSecurity": {
+  "release": "SMR Sep-2026",
+  "month": "Sep-2026",
+  "samsungFixes": 31,
+  "url": "https://security.samsungmobile.com/securityUpdate.smsb",
+  "criticalFirst": true
+ },
+ "appleServicePrograms": [
+  {
+   "title": "Mac mini Service Programme for No Power Issue",
+   "url": "https://support.apple.com/en-my/mac-mini-2023-service-program-for-no-power-issue",
+   "devices": [],
+   "kind": "programme",
+   "regions": []
+  },
+  {
+   "title": "iPhone 14 Plus Service Programme for Rear Camera Issue",
+   "url": "https://support.apple.com/en-my/iphone-14-plus-service-program-for-rear-camera-issue",
+   "devices": [],
+   "kind": "programme",
+   "regions": []
+  },
+  {
+   "title": "15-inch MacBook Pro Battery Recall Programme",
+   "url": "https://support.apple.com/en-my/15-inch-macbook-pro-battery-recall",
+   "devices": [],
+   "kind": "recall",
+   "regions": []
+  },
+  {
+   "title": "Apple Three-prong AC Wall Plug Adapter Recall Programme",
+   "url": "https://support.apple.com/en-my/three-prong-ac-wall-plug-adapter",
+   "devices": [],
+   "kind": "recall",
+   "regions": []
+  },
+  {
+   "title": "Apple AC Wall Plug Adapter Exchange Programme",
+   "url": "https://support.apple.com/en-my/ac-wallplug-adapter",
+   "devices": [],
+   "kind": "programme",
+   "regions": []
+  },
+  {
+   "title": "Beats Pill XL Speaker Recall Programme",
+   "url": "https://support.apple.com/en-my/beats-pillxl-recall",
+   "devices": [],
+   "kind": "recall",
+   "regions": []
+  }
+ ],
+ "updatedAt": "2026-09-25T05:14:50+00:00",
+ "status": {
+  "appleReleases": {
+   "ok": true,
+   "at": "2026-09-25T05:14:50+00:00"
+  },
+  "appleBetas": {
+   "ok": true,
+   "at": "2026-09-25T05:14:50+00:00"
+  },
+  "samsungSecurity": {
+   "ok": true,
+   "at": "2026-09-25T05:14:50+00:00"
+  },
+  "appleServicePrograms": {
+   "ok": true,
+   "at": "2026-09-25T05:14:50+00:00"
+  },
+  "offerPageRegions": {
+   "ok": true,
+   "at": "2026-09-25T05:14:50+00:00"
+  }
+ },
+ "note": "Facts read automatically from Apple's and Samsung's own pages; titles, versions, dates and links only.",
+ "offerPageRegions": {}
+}

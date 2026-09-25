@@ -19,7 +19,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 LIVE = ROOT / "live"
-FILES = ["archive.json", "views.json", "spotted.json"]
+FILES = ["archive.json", "views.json", "spotted.json", "official.json"]  # official.json: Version 18
 UA = "Mozilla/5.0 (compatible; TechComparisonHub/1.0; +https://darren38.github.io/tech-comparison-hub/)"
 
 

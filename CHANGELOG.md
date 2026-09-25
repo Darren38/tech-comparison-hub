@@ -1,6 +1,45 @@
 # Changelog
 
-## 25 September 2026
+## 25 September 2026 (second update)
+
+The News page gets three new sections that keep themselves up to date: software updates for iOS and One UI, Apple and Samsung service offers in Malaysia, and flagship chips. More YouTube channels, read the way YouTube allows.
+
+**Software updates**
+- The newest iOS, its release date and Apple's notes, the latest beta and watchOS, read from Apple's own release list and developer releases feed.
+- The newest One UI: when the stable update was first reported, when Samsung announced it, and **when it was reported for Malaysia**; which Galaxy phones got it first, in order; and Samsung's latest monthly security update from its own bulletin.
+- Software update news with filters for iOS, One UI and other Android systems, and "Only reported problems".
+
+**Service offers in Malaysia (Apple and Samsung)**
+- Apple Malaysia's current service programmes and recalls, read from Apple's own page, matched to devices in the hub.
+- Offers reported in the news: free or discounted battery and screen replacements, green-line programmes, extended repairs and recalls, only when they name Malaysia or come from a Malaysian source.
+- Where an offer applies: East or West Malaysia, or the state, when the headline or the official page names it; otherwise the page says the region is not stated.
+- Also shown on the Apple and Samsung brand pages.
+
+**Flagship chips**
+- News and videos about Snapdragon 8, Apple A and M, Dimensity 9000-series, Exynos 2000-series, Tensor, Kirin 9000-series and XRING, with a filter by chip maker and "Videos only". Audio, PC and car chips are left out.
+
+**Videos**
+- Seven more channels, each checked on YouTube: 极客湾 Geekerwan (Chinese channel), 影视飓风 Mediastorm, 邦尼幫你, 微机分 WekiHome, Cherry, and both HTX Studio channels.
+- Videos and view counts now come from YouTube's official Data API. YouTube's robots.txt asks automated readers not to fetch its channel feeds, and GitHub's servers were already being refused. The API needs a free key stored as a repository secret (see docs/DEPLOYMENT.md); until it is added, the videos collected earlier are kept.
+
+**Security**
+- A Content Security Policy on every page: scripts run only from the site itself and the pinned AI library; plugins, frames and form posts to other sites are blocked. The plain device pages for search engines run no scripts at all. The small start-up script moved out of the page into its own file so the policy needs no exceptions.
+- Links and pictures from feeds or data files are only shown when they are ordinary web addresses (a `javascript:` address can never become a link), and the structured data in the search-engine pages is escaped.
+- The build on GitHub keeps no repository token after checkout, and each GitHub action is pinned to an exact, verified commit.
+- SECURITY.md explains the protections and how to report a problem privately.
+
+**Fixes**
+- The home page now has the Simple / Detailed switch too.
+- On the live site, the News and Reviews pages no longer ask for a local-only address when they refresh (it only logged an error).
+
+**Automation**
+- New job at most every 6 hours: Apple's and Samsung's official update and service-programme pages (tools/fetch_official.py).
+
+
+**Automatic updates never pause**
+- GitHub switches off scheduled workflows in a public repository after 60 days without a push. The daily run now also uses GitHub's own "enable workflow" switch on the site's workflow, which keeps the headlines, exchange rates, benchmarks and picture checks running even when nothing is pushed for months. It makes no commits.
+
+## 25 September 2026 (first update)
 
 More devices of every kind from 2023 to today, earbuds as a new category, real outlines to scale, news and tests linked to the right place on every page, a search that finds everything, a Simple view for newcomers and pages Google can index.
 

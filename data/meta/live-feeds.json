@@ -4,7 +4,7 @@
   "maxAgeDays": 45,
   "perFeed": 20,
   "maxItems": 240,
-  "note": "Feeds the Latest headlines panels on the News and Reviews pages. Only title, link, source and date are stored; items are matched to devices automatically and are not part of the evidence database until reviewed and added as documents.",
+  "note": "Feeds the Latest headlines panels on the News and Reviews pages. Only title, link, source and date are stored; items are matched to devices automatically and are not part of the evidence database until reviewed and added as documents. Version 18: YouTube channels are read through the official YouTube Data API (by channel id), because YouTube's robots.txt asks automated readers not to fetch its RSS feeds.",
   "feeds": [
     {
       "source": "gsmarena",
@@ -63,6 +63,16 @@
       "url": "https://news.samsung.com/global/feed"
     },
     {
+      "source": "samsung-newsroom-my",
+      "kind": "news",
+      "url": "https://news.samsung.com/my/feed"
+    },
+    {
+      "source": "apple-developer",
+      "kind": "news",
+      "url": "https://developer.apple.com/news/releases/rss/releases.rss"
+    },
+    {
       "source": "apple-newsroom",
       "kind": "news",
       "url": "https://www.apple.com/newsroom/rss-feed.rss"
@@ -119,32 +129,72 @@
     {
       "source": "geekerwan",
       "kind": "video",
-      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCNi3K9HUzuTmILZH0iGupkw"
+      "channel": "UCNi3K9HUzuTmILZH0iGupkw"
     },
     {
       "source": "mrwhosetheboss",
       "kind": "video",
-      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCMiJRAwDNSNzuYeN2uWa0pA"
+      "channel": "UCMiJRAwDNSNzuYeN2uWa0pA"
     },
     {
       "source": "mkbhd",
       "kind": "video",
-      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCG7J20LhUeLl6y_Emi7OJrA"
+      "channel": "UCG7J20LhUeLl6y_Emi7OJrA"
     },
     {
       "source": "jerryrigeverything",
       "kind": "video",
-      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCWFKCr40YwOZQx8FHU_ZqqQ"
+      "channel": "UCWFKCr40YwOZQx8FHU_ZqqQ"
     },
     {
       "source": "phonebuff",
       "kind": "video",
-      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC10jOU_-x6XGe3YQcvGkIVA"
+      "channel": "UC10jOU_-x6XGe3YQcvGkIVA"
     },
     {
       "source": "matthew-moniz",
       "kind": "video",
-      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCKIHsw5_zcCDyHItVXm-mMA"
+      "channel": "UCKIHsw5_zcCDyHItVXm-mMA"
+    },
+    {
+      "source": "geekerwan-zh",
+      "kind": "video",
+      "channel": "UCeUJO1H3TEXu2syfAAPjYKQ",
+      "lang": "zh"
+    },
+    {
+      "source": "mediastorm",
+      "kind": "video",
+      "channel": "UC2cRwTuSWxxEtrRnT4lrlQA",
+      "lang": "zh"
+    },
+    {
+      "source": "isbonny",
+      "kind": "video",
+      "channel": "UC2Zn5hlv7_hPsLlh_xwcH6g",
+      "lang": "zh"
+    },
+    {
+      "source": "wekihome",
+      "kind": "video",
+      "channel": "UCTJJX_LQcDED7MZbt9OSeQQ",
+      "lang": "zh"
+    },
+    {
+      "source": "cherry-official",
+      "kind": "video",
+      "channel": "UCAcum7VtjCjEUpWyt6tms0Q"
+    },
+    {
+      "source": "htx-studio",
+      "kind": "video",
+      "channel": "UCwffSP9kO8pMZVr1Ugqvbzw"
+    },
+    {
+      "source": "htx-studio-zh",
+      "kind": "video",
+      "channel": "UCP5Kd0smdWe9H_bDH-73c6Q",
+      "lang": "zh"
     }
   ]
 }

@@ -5,6 +5,7 @@ import { plural } from '../lib/format.js';
 import { store } from '../core/store.js';
 import { href } from '../core/router.js';
 import { deviceCard, docCard, emptyState, extLink, sectionHead, pageTrail } from '../ui/components.js';
+import { offersSection, fillOffers } from '../ui/newsdesk.js';
 
 export default async function render({ params }) {
   const [id] = params;
@@ -44,7 +45,11 @@ export default async function render({ params }) {
             return list.length ? html`<section>${sectionHead(cat.name, { eyebrow: plural(list.length, 'device') })}<div class="grid grid-3">${list.map((d) => deviceCard(d))}</div></section>` : '';
           })
         : emptyState(`No ${brand.name} devices in the database yet`, children.length ? `See its sub-brands: ${children.map((c) => c.name).join(', ')}.` : 'Devices appear here once they are added to data/devices.')}
+      ${['apple', 'samsung'].includes(id) ? html`<section>${sectionHead('Service offers in Malaysia', { eyebrow: 'Repair programmes, recalls and discounts', right: html`<a class="small" href="${href('/news', { tab: 'offers' })}">All offers →</a>` })}${offersSection({ brand: id })}</section>` : ''}
       ${docs.length ? html`<section>${sectionHead('Latest coverage', { eyebrow: 'Reviews, videos and news' })}<div class="grid grid-3">${docs.map((d) => docCard(d))}</div></section>` : ''}
     </div>`,
+    mount(root) {
+      fillOffers(root);
+    },
   };
 }

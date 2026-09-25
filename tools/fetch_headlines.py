@@ -6,6 +6,12 @@ devices each headline names, and stores the title, link, source, kind and date, 
 the thumbnail the publisher put in its own feed (shown from the publisher's server, never copied).
 No article text is copied. GSMArena's thumbnails are not kept (its robots.txt disallows Claude's crawlers).
 
+Version 18: headlines also get flags for the News page sections (iOS / One UI software updates, reported problems,
+Apple and Samsung service offers in Malaysia, flagship chips), and YouTube videos are read through the official YouTube
+Data API (YouTube's robots.txt asks automated readers not to fetch its RSS feeds). The API needs a key in the
+YOUTUBE_API_KEY environment variable (a GitHub Actions secret on the live site); without one, the videos collected
+earlier are kept and no YouTube address is fetched.
+
 serve.py runs this at start-up and when someone presses Refresh on the News or Reviews page; the
 scheduled GitHub Actions build runs it for the live site. A failing feed does not stop the others,
 and each feed's status is recorded in the output.
@@ -21,10 +27,12 @@ import concurrent.futures as cf
 import datetime as dt
 import email.utils
 import hashlib
+import os
 import html
 import json
 import re
 import sys
+import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
 from pathlib import Path
@@ -63,6 +71,24 @@ TOPIC_RULES = [
     ("launch", r"\b(?:launch\w*|announc\w*|unveil\w*|debuts?|pre-?orders?|goes on sale|now available|release date|officially)\b|发布|上市|开售|首销|官宣"),
 ]
 TOPIC_RES = [(name, re.compile(pattern, re.I)) for name, pattern in TOPIC_RULES]
+# Version 18: flags for the News page sections. Unlike the topic, a headline can carry several.
+FLAG_RULES = [
+    ("ios", r"\b(?:i(?:pad)?os|watchos) ?\d+(?:\.\d+)*\b|\bios (?:update|beta|release)|\bapple intelligence\b|苹果.{0,6}(?:系统|更新)|iOS ?\d"),
+    ("oneui", r"\bone ?ui\b|\bsamsung (?:security|software|firmware) (?:update|patch)|\bgalaxy\b.{0,40}\b(?:update|patch|firmware|rollout|rolling out)\b|三星.{0,8}(?:系统|更新)"),
+    ("problem", r"\b(?:bugs?|issues?|problems?|glitch\w*|broken|breaks?|drain\w*|overheat\w*|crash\w*|lag\w*|complain\w*|fix(?:es|ed)?|pulled|halted|paused)\b|故障|问题|翻车|发热|耗电|卡顿"),
+    ("chip", r"\bsnapdragon 8\b|\bdimensity 9\d{3}|\bexynos 2\d{3}|\bapple [am]\d{2}\b|\b[am]\d{2} (?:pro|bionic|max|ultra)\b|\btensor g\d|\bkirin 9\d{3}|\bxring\b|骁龙 ?8|骁龙.{0,6}旗舰|天玑 ?9\d{3}|麒麟 ?9\d{3}|玄戒"),
+]
+FLAG_RES = [(name, re.compile(pattern, re.I)) for name, pattern in FLAG_RULES]
+# Service offers: Apple or Samsung, a service word and an offer word, and Malaysia (a Malaysian source or named in the title).
+OFFER_BRAND = r"\b(?:apple|iphone|ipad|airpods|apple watch|samsung|galaxy)\b|苹果|三星"
+OFFER_SERVICE = r"\b(?:replace\w*|repairs?|battery|batteries|screens?|display|green lines?|pink lines?|warranty|service|recall\w*|programmes?|programs?|trade-?in)\b|换屏|换电池|保修|维修|绿线"
+OFFER_DEAL = r"\b(?:free|complimentary|discount\w*|rebates?|waive\w*|extend\w*|extension|recall\w*|programmes?|programs?|cashback|trade-?in|off)\b|免费|优惠|折扣|延长"
+OFFER_MY = r"\bmalaysia\w*\b|\brm ?\d|大马|马来西亚"
+MY_SOURCES = {"soyacincau", "technave", "zinggadget", "malaymail", "samsung-newsroom-my"}
+OFFER_RES = [re.compile(x, re.I) for x in (OFFER_BRAND, OFFER_SERVICE, OFFER_DEAL)]
+OFFER_MY_RE = re.compile(OFFER_MY, re.I)
+# Headlines the archive keeps even when they name no device or chip in the database
+ARCHIVE_FLAGS = {"ios", "oneui", "offer", "chip"}
 TOPICS = ["test", "review", "video", "software", "price", "issue", "launch", "news"]
 # A chip name followed by one of these is a different chip ("Snapdragon 8 Elite" in "Snapdragon 8 Elite Gen 5").
 CHIP_NEXT_REJECT = {"gen", "plus", "pro", "ultra", "extreme", "s", "e", "m", "max", "lite", "for"}
@@ -258,6 +284,16 @@ def topic_of(title: str, kind: str) -> str:
     return "news"
 
 
+def flags_of(title: str, source: str) -> list[str]:
+    """Version 18: which News page sections a headline belongs to (see FLAG_RULES and the offer rules)."""
+    flags = [name for name, pattern in FLAG_RES if pattern.search(title)]
+    if "problem" in flags and not ({"ios", "oneui"} & set(flags)) and not TOPIC_RES[1][1].search(title):
+        flags.remove("problem")  # "problem" marks reported problems with a software update
+    if all(r.search(title) for r in OFFER_RES) and (source in MY_SOURCES or OFFER_MY_RE.search(title)):
+        flags.append("offer")
+    return flags
+
+
 def tag_item(item: dict, keys, chip_keys) -> dict:
     norm = normalize(item["title"])
     item["devices"] = match_devices(norm, keys)
@@ -267,6 +303,11 @@ def tag_item(item: dict, keys, chip_keys) -> dict:
     else:
         item.pop("chipsets", None)
     item["topic"] = topic_of(item["title"], item.get("kind", "news"))
+    flags = flags_of(item["title"], item.get("source", ""))
+    if flags:
+        item["flags"] = flags
+    else:
+        item.pop("flags", None)
     return item
 
 
@@ -290,7 +331,7 @@ def update_archive(items: list[dict], keys, chip_keys, video_views: dict[str, in
         vid = youtube_id(item.get("url"))
         if vid and vid in video_views:
             item["views"] = video_views[vid]
-        if not item["devices"] and not item.get("chipsets"):
+        if not item["devices"] and not item.get("chipsets") and not (ARCHIVE_FLAGS & set(item.get("flags", []))):
             continue
         if (item.get("published") or item.get("seen") or "") < cutoff:
             continue
@@ -298,7 +339,7 @@ def update_archive(items: list[dict], keys, chip_keys, video_views: dict[str, in
     kept.sort(key=lambda x: x.get("published") or x.get("seen") or "", reverse=True)
     kept = kept[:ARCHIVE_MAX]
     data = {"updatedAt": now.isoformat(timespec="seconds"), "keepsDays": ARCHIVE_DAYS,
-            "note": "Headlines that name a device or chipset, collected automatically from the registered feeds. Titles and links only.",
+            "note": "Headlines that name a device or chipset (or, from Version 18, a software update, a service offer or a flagship chip), collected automatically from the registered feeds. Titles and links only.",
             "items": kept}
     ARCHIVE_OUT.parent.mkdir(parents=True, exist_ok=True)
     tmp = ARCHIVE_OUT.with_suffix(".tmp")
@@ -353,7 +394,7 @@ def write_live_config(cfg: dict, keys: list[tuple[str, str]]) -> None:
         "perFeed": cfg.get("perFeed", 20),
         "maxItems": cfg.get("maxItems", 240),
         "feeds": [{"source": f["source"], "kind": f["kind"], "url": f["url"], **({"lang": f["lang"]} if f.get("lang") else {}), **({"tz": f["tz"]} if f.get("tz") else {})}
-                  for f in cfg["feeds"]],
+                  for f in cfg["feeds"] if f.get("url")],
         "noImageSources": sorted(NO_IMAGE_SOURCES),
         "reviewWords": REVIEW_WORDS.pattern,
         "topicPatterns": TOPIC_PATTERNS,
@@ -367,11 +408,43 @@ def write_live_config(cfg: dict, keys: list[tuple[str, str]]) -> None:
         "chipNextReject": sorted(CHIP_NEXT_REJECT),
         "chipPrevReject": sorted(CHIP_PREV_REJECT),
         "topicRules": TOPIC_RULES,
+        # Version 18: section flags, so a browser collection tags them the same way
+        "flagRules": FLAG_RULES,
+        "offerRules": [OFFER_BRAND, OFFER_SERVICE, OFFER_DEAL],
+        "offerMy": OFFER_MY,
+        "mySources": sorted(MY_SOURCES),
     }
     LIVE_CONFIG.parent.mkdir(parents=True, exist_ok=True)
     tmp = LIVE_CONFIG.with_suffix(".tmp")
     tmp.write_text(json.dumps(out, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     tmp.replace(LIVE_CONFIG)
+
+
+YT_API = "https://www.googleapis.com/youtube/v3/"
+
+
+def youtube_videos(channel: str, key: str, per_feed: int) -> list[tuple]:
+    """The newest uploads of a channel through the YouTube Data API, as (title, link, date, image, views) like parse_feed.
+    Costs 2 quota units per channel (the free daily quota is 10,000)."""
+    playlist = "UU" + channel[2:]  # every channel's uploads playlist
+    q = urllib.parse.urlencode({"part": "snippet", "playlistId": playlist, "maxResults": min(per_feed, 50), "key": key})
+    listing = json.loads(fetch(YT_API + "playlistItems?" + q))
+    rows = []
+    for it in listing.get("items", []):
+        sn = it.get("snippet", {})
+        vid = (sn.get("resourceId") or {}).get("videoId")
+        if not vid or sn.get("title") in ("Private video", "Deleted video"):
+            continue
+        thumbs = sn.get("thumbnails") or {}
+        image = (thumbs.get("medium") or thumbs.get("high") or thumbs.get("default") or {}).get("url")
+        rows.append([sn.get("title"), f"https://www.youtube.com/watch?v={vid}", sn.get("publishedAt"), image, None, vid])
+    if rows:
+        q = urllib.parse.urlencode({"part": "statistics", "id": ",".join(r[5] for r in rows), "key": key})
+        stats = {v["id"]: v.get("statistics", {}) for v in json.loads(fetch(YT_API + "videos?" + q)).get("items", [])}
+        for r in rows:
+            views = stats.get(r[5], {}).get("viewCount")
+            r[4] = int(views) if views and str(views).isdigit() else None
+    return [tuple(r[:5]) for r in rows]
 
 
 def collect() -> dict:
@@ -390,14 +463,26 @@ def collect() -> dict:
     feeds_out = []
     with cf.ThreadPoolExecutor(max_workers=8) as pool:
         video_views: dict[str, int] = {}
-        futures = {pool.submit(fetch, feed["url"]): feed for feed in cfg["feeds"]}
+        yt_key = os.environ.get("YOUTUBE_API_KEY", "").strip()
+        futures = {}
+        for feed in cfg["feeds"]:
+            if feed.get("channel"):
+                if yt_key:
+                    futures[pool.submit(youtube_videos, feed["channel"], yt_key, per_feed)] = feed
+                else:
+                    feeds_out.append({"source": feed["source"], "kind": feed["kind"], "ok": False, "kept": 0,
+                                      "error": "needs a YouTube Data API key; videos collected earlier are kept"})
+            elif feed.get("url"):
+                futures[pool.submit(fetch, feed["url"])] = feed
         for future in cf.as_completed(futures):
             feed = futures[future]
             status = {"source": feed["source"], "kind": feed["kind"]}
             try:
-                parsed = parse_feed(future.result())
+                result = future.result()
+                parsed = result if feed.get("channel") else parse_feed(result)
             except Exception as exc:
-                status.update(ok=False, kept=0, error=f"{exc.__class__.__name__}: {str(exc)[:120]}")
+                error = f"{exc.__class__.__name__}: {str(exc)[:120]}"
+                status.update(ok=False, kept=0, error=error.replace(yt_key, "…") if yt_key else error)  # never publish the key
                 feeds_out.append(status)
                 continue
             kept = 0
@@ -415,7 +500,7 @@ def collect() -> dict:
                     continue
                 norm = normalize(title)
                 matched = match_devices(norm, keys)
-                if not matched and not topic.search(norm) and not topic_zh.search(title):
+                if not matched and not topic.search(norm) and not topic_zh.search(title) and not flags_of(title, feed["source"]):
                     continue
                 item_id = hashlib.sha1(link.encode("utf-8")).hexdigest()[:12]
                 if item_id in items:
@@ -441,6 +526,17 @@ def collect() -> dict:
             status.update(ok=True, kept=kept)
             feeds_out.append(status)
 
+    # Channels that could not be read this time (no API key, quota, network) keep the videos collected earlier.
+    skipped = {f["source"] for f in feeds_out if not f.get("ok") and f.get("kind") == "video"}
+    if skipped and OUT.exists():
+        try:
+            previous = json.loads(OUT.read_text(encoding="utf-8")).get("items", [])
+        except ValueError:
+            previous = []
+        for old in previous:
+            when = old.get("published")
+            if old.get("source") in skipped and old.get("id") not in items and (not when or when >= cutoff.isoformat()):
+                items[old["id"]] = tag_item(dict(old), keys, chip_keys)
     ordered = sorted(items.values(), key=lambda x: x["published"] or "", reverse=True)[: cfg.get("maxItems", 240)]
     return {
         "fetchedAt": now.isoformat(timespec="seconds"),

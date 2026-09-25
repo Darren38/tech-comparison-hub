@@ -16,6 +16,6 @@ Order used:
 7. `upgrade_archived.py [--dry]`: values confirmed on an archived official page cite that page.
 8. `compute_ppi.py`: pixel density from resolution and diagonal (class platform).
 9. `images_v7.py <brand>` / `images_v7.py archived k/n`, `images_last.py`, `commons_find.py`: image candidates → `images_v7.json`, `images_arch_*.json`, `images_last.json`, `commons_candidates.json`. Every candidate was reviewed by eye on contact sheets before use.
-10. `apply_images.py [rejected ids…]`: write reviewed official images into the device files; Commons photos go through `../add_photo.py --batch photos_v7.json`. The last ones (from `images_last.json`, plus the Galaxy A07 5G, POCO X8, realme GT 8 Pro and iPhone 18 Pro Max images) were written by hand after review.
+10. `apply_images.py [rejected ids…]`: write reviewed official images into the device files; Commons photos go through `../add_photo.py --batch photos_v7.json`. The last ones (from `images_last.json`, plus the Galaxy A07 5G, POCO X8, realme GT 8 Pro and iPhone 18 Pro Max images described in `docs/QA-LOG.md`) were written by hand after review.
 
 Then `python tools/build.py --strict`.

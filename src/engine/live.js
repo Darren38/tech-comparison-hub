@@ -11,6 +11,9 @@
 const HEADLINES = 'live/headlines.json';
 const CONFIG = 'live/config.json';
 const ENDPOINT = 'api/live/headlines';
+// The collecting endpoint only exists on the local server (serve.py). On GitHub Pages asking it just fails and logs an
+// error in every visitor's console, so it is only tried when the site runs on this computer.
+const LOCAL_SERVER = /^(?:localhost|127\.0\.0\.1|\[::1\])$/.test(location.hostname);
 const FRESH_MS = 5 * 60 * 1000; // a live collection younger than this is reused rather than collected again
 
 let latest = null; // { data, at } from the last live collection in this visit
@@ -61,7 +64,7 @@ export async function refreshHeadlines() {
 async function collectNow() {
   let error = null;
   let server = false;
-  try {
+  if (LOCAL_SERVER) try {
     const res = await fetch(ENDPOINT, { method: 'POST', headers: { Accept: 'application/json' }, cache: 'no-store' });
     if ((res.headers.get('content-type') ?? '').includes('application/json')) {
       const body = await res.json();
@@ -81,6 +84,11 @@ async function collectNow() {
       try {
         const { collectThroughRelay } = await import('./collect.js');
         const data = await collectThroughRelay(config);
+        // Version 18: YouTube videos come from the scheduled build (YouTube Data API), not through the relay: keep the saved ones
+        const saved = await savedHeadlines().catch(() => null);
+        const videos = (saved?.items ?? []).filter((i) => i.kind === 'video' && !data.items.some((x) => x.id === i.id));
+        if (videos.length) data.items = [...data.items, ...videos].sort((a, b) => String(b.published ?? '').localeCompare(String(a.published ?? '')));
+        data.feeds = [...data.feeds, ...(saved?.feeds ?? []).filter((f) => f.kind === 'video')];
         if (data.feeds.some((f) => f.ok)) {
           latest = { data, at: Date.now() };
           return { data, collectedNow: true, server, live: true, error };

@@ -91,8 +91,11 @@ export function sourceLink(id, { tier = true } = {}) {
   return html`<a class="source-link" href="${href(`/source/${id}`)}">${src.name}${tier ? html` ${tierBadge(src.tier)}` : ''}</a>`;
 }
 
+// Only web addresses become links: a javascript: or data: address from a feed or a data file is shown as plain text.
+const webUrl = (url) => /^https?:\/\//i.test(String(url ?? '').trim());
+
 export function extLink(url, text, cls = '') {
-  if (!url) return html`<span class="${cls}">${text}</span>`;
+  if (!url || !webUrl(url)) return html`<span class="${cls}">${text}</span>`;
   return html`<a class="ext ${cls}" href="${url}" target="_blank" rel="noopener noreferrer">${text}${icon('external', { size: 12 })}<span class="sr-only"> (opens in a new tab)</span></a>`;
 }
 
@@ -339,11 +342,13 @@ export function thumbLink(thumb, { url, title = '', size = 'card', placeholder =
   // no picture: an optional tile with the publication's name keeps rows of cards aligned
   if (!thumb) return placeholder ? html`<span class="thumb thumb--${size} thumb--none" aria-hidden="true"><span>${placeholder}</span></span>` : '';
   // data-label: if the picture fails to load, main.js swaps in the same name tile
+  if (!webUrl(thumb.src)) return '';
   const img = html`<img src="${thumb.src}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" data-thumb${placeholder ? html` data-label="${placeholder}"` : ''} />`;
   if (thumb.kind === 'device') {
     return html`<a class="thumb thumb--${size} thumb--device" href="${href(`/device/${thumb.device.id}`)}" title="${deviceTitle(thumb.device)} in this hub">
       ${img}<span class="thumb__label">${thumb.device.name}</span></a>`;
   }
+  if (!webUrl(url)) return html`<span class="thumb thumb--${size} thumb--${thumb.kind}" aria-hidden="true">${img}</span>`;
   return html`<a class="thumb thumb--${size} thumb--${thumb.kind}" href="${url}" target="_blank" rel="noopener noreferrer" tabindex="-1" aria-hidden="true" title="${title}">
     ${img}${thumb.kind === 'video' ? html`<span class="thumb__play">${icon('play', { size: size === 'mini' ? 12 : 18 })}</span>` : ''}</a>`;
 }

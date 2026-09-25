@@ -146,11 +146,24 @@ export function tagger(config) {
   const chipNext = new Set(config.chipNextReject ?? []);
   const chipPrev = new Set(config.chipPrevReject ?? []);
   const rules = (config.topicRules ?? []).map(([name, pattern]) => [name, new RegExp(pattern, 'i')]);
+  // Version 18: section flags (ios, oneui, problem, chip, offer), as flags_of() in tools/fetch_headlines.py
+  const flagRules = (config.flagRules ?? []).map(([name, pattern]) => [name, new RegExp(pattern, 'i')]);
+  const offerRules = (config.offerRules ?? []).map((pattern) => new RegExp(pattern, 'i'));
+  const offerMy = config.offerMy ? new RegExp(config.offerMy, 'i') : null;
+  const mySources = new Set(config.mySources ?? []);
+  const software = rules.find(([name]) => name === 'software')?.[1];
+  const flagsOf = (title, source) => {
+    const flags = flagRules.filter(([, re]) => re.test(title)).map(([name]) => name);
+    if (flags.includes('problem') && !flags.includes('ios') && !flags.includes('oneui') && !software?.test(title)) flags.splice(flags.indexOf('problem'), 1);
+    if (offerRules.length && offerRules.every((re) => re.test(title)) && (mySources.has(source) || offerMy?.test(title))) flags.push('offer');
+    return flags;
+  };
   setZhBrands(config.zhBrands);
-  return (title, kind) => {
+  return (title, kind, source = '') => {
     const norm = normalize(title);
     const chipsets = matchDevices(norm, chipsFirst, chipNext, chipPrev);
-    return { devices: matchDevices(norm, byFirst, nextReject), ...(chipsets.length ? { chipsets } : {}), topic: topicOf(title, kind, rules) };
+    const flags = flagsOf(title, source);
+    return { devices: matchDevices(norm, byFirst, nextReject), ...(chipsets.length ? { chipsets } : {}), topic: topicOf(title, kind, rules), ...(flags.length ? { flags } : {}) };
   };
 }
 
@@ -216,8 +229,8 @@ export async function collectThroughRelay(config) {
       if (published && published.getTime() < cutoff) continue;
       const norm = normalize(title);
       const kind = feed.kind === 'video' ? 'video' : review.test(title) || reviewZh?.test(title) ? 'review' : feed.kind;
-      const tags = tag(title, kind);
-      if (!tags.devices.length && !topic.test(norm) && !topicZh?.test(title)) continue;
+      const tags = tag(title, kind, feed.source);
+      if (!tags.devices.length && !topic.test(norm) && !topicZh?.test(title) && !tags.flags) continue;
       const id = (await sha1Hex(link)).slice(0, 12);
       if (items.has(id)) continue;
       items.set(id, {

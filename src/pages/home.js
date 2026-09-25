@@ -6,7 +6,7 @@ import { fmtMetric, fmtNumber, fmtDate, relativeDate, timeAgo } from '../lib/for
 import { store, deviceTitle, brandName, metricDef, sourceName } from '../core/store.js';
 import { href, navigate } from '../core/router.js';
 import { bindSearchBox } from '../ui/layout.js';
-import { icon, deviceCard, confMeter, provBadge, sectionHead, legend, seriesMark, cardThumb, thumbLink, extLink } from '../ui/components.js';
+import { icon, deviceCard, confMeter, provBadge, sectionHead, legend, seriesMark, cardThumb, thumbLink, extLink, modeSwitch } from '../ui/components.js';
 import { loadHeadlines, isSafeUrl } from '../engine/live.js';
 import { scoreBars } from '../ui/charts.js';
 import { metricLeaderboard, profileLeaderboard } from '../engine/scoring.js';
@@ -302,6 +302,7 @@ export default async function render() {
   return {
     title: 'Evidence-first technology comparison',
     html: html`<div class="stack-lg home">
+      <div class="home__mode">${modeSwitch()}</div>
       <div class="home__top">${hero()}${quickCompare()}</div>
       ${helpChoose()}
       ${featured()}

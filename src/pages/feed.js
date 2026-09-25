@@ -8,6 +8,15 @@ import { href } from '../core/router.js';
 import { docCard, emptyState, provBadge, sourceLink, extLink, tag, sectionHead, icon, pageTrail, cardThumb, thumbLink } from '../ui/components.js';
 import { loadHeadlines, refreshHeadlines, canCollectLive, isSafeUrl, loadViews, youtubeId } from '../engine/live.js';
 import { isZh } from '../core/i18n.js';
+import { softwareSection, fillSoftware, offersSection, fillOffers, chipsSection, fillChips } from '../ui/newsdesk.js';
+
+// Version 18: the News page has four tabs. Each is its own address (#/news?tab=software), so it can be linked to.
+const NEWS_TABS = [
+  { id: 'latest', label: 'Latest headlines' },
+  { id: 'software', label: 'Software updates', intro: 'iOS and Samsung One UI: the newest versions from Apple and Samsung themselves, which Galaxy phones got the latest One UI first and when it reached Malaysia, what changed, and problems people report.', section: softwareSection, fill: fillSoftware },
+  { id: 'offers', label: 'Service offers in Malaysia', intro: 'Apple and Samsung repair and replacement programmes, recalls and service discounts that apply in Malaysia.', section: () => offersSection(), fill: fillOffers },
+  { id: 'chips', label: 'Flagship chips', intro: 'The most discussed flagship chips: launches, benchmarks, comparisons and videos.', section: chipsSection, fill: fillChips },
+];
 
 const MODES = {
   news: {
@@ -104,7 +113,7 @@ function livePanel(mode) {
     </ol>
     <div class="live__foot">
       <button type="button" class="btn btn--ghost btn--sm" data-live-more hidden>Show more</button>
-      <p class="tiny muted">Titles and links come from each publisher's public RSS or YouTube feed and open on their site. Devices are matched by name automatically. These headlines are not evidence and never change scores; the checked documents below are.${mode.liveKinds.includes('video') ? html` <span>View counts are YouTube’s own, as published in each channel’s feed when collected. Articles don’t publish view counts. A high count means a video reached many people, not that it is more accurate.</span>` : ''}</p>
+      <p class="tiny muted">Titles and links come from each publisher's public RSS feed, and videos from YouTube's official Data API; they open on the publisher's site or YouTube. Devices are matched by name automatically. These headlines are not evidence and never change scores; the checked documents below are.${mode.liveKinds.includes('video') ? html` <span>View counts are YouTube’s own, as published in each channel’s feed when collected. Articles don’t publish view counts. A high count means a video reached many people, not that it is more accurate.</span>` : ''}</p>
     </div>
   </section>`;
 }
@@ -269,8 +278,27 @@ function bindLive(root, mode) {
   };
 }
 
+function newsTabs(current) {
+  return html`<nav class="tabs news-tabs" aria-label="News sections">${NEWS_TABS.map((x) =>
+    html`<a href="${href('/news', x.id === 'latest' ? {} : { tab: x.id })}" aria-current="${x.id === current}">${x.label}</a>`)}</nav>`;
+}
+
 export default async function render({ params, query }) {
   const mode = MODES[params[0]] ?? MODES.news;
+  const tab = params[0] === 'reviews' ? null : NEWS_TABS.find((x) => x.id === query.tab) ?? NEWS_TABS[0];
+  if (tab && tab.id !== 'latest') {
+    return {
+      title: `${tab.label} · ${mode.title}`,
+      html: html`<div class="stack-lg">
+        ${pageTrail([{ label: 'Home', href: href('/') }, { label: mode.title, href: href('/news') }, { label: tab.label }])}
+        <header><div class="eyebrow">${mode.eyebrow}</div><h1>${tab.label}</h1><p class="muted" style="margin-top:8px;max-width:70ch">${tab.intro}</p>${newsTabs(tab.id)}</header>
+        ${tab.section()}
+      </div>`,
+      mount(root) {
+        tab.fill(root);
+      },
+    };
+  }
   const all = store.documents.filter((d) => mode.kinds.includes(d.kind));
   let filter = query.filter ?? 'all';
   let order = query.sort === 'views' ? 'views' : 'newest';
@@ -295,7 +323,7 @@ export default async function render({ params, query }) {
     title: mode.title,
     html: html`<div class="stack-lg">
       ${pageTrail([{ label: 'Home', href: href('/') }, { label: mode.title }])}
-      <header><div class="eyebrow">${mode.eyebrow}</div><h1>${mode.title}</h1><p class="muted" style="margin-top:8px;max-width:70ch">${mode.intro}</p></header>
+      <header><div class="eyebrow">${mode.eyebrow}</div><h1>${mode.title}</h1><p class="muted" style="margin-top:8px;max-width:70ch">${mode.intro}</p>${tab ? newsTabs(tab.id) : ''}</header>
       ${livePanel(mode)}
       <div class="checked-head">
         ${sectionHead(mode.checkedTitle, { eyebrow: 'Checked by hand · used as evidence', id: 'checked-h' })}
