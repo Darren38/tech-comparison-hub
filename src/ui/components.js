@@ -51,7 +51,17 @@ export function pageTrail(crumbs = []) {
   return html`<nav class="pagetrail" aria-label="Breadcrumb">
     ${back ? html`<a class="pagetrail__back" href="${back.href}" ${back.history ? html`data-history-back` : ''} title="${back.history ? 'Back to the page you came from' : 'Up one level'}">${icon('back', { size: 16 })}<span>Back to ${short(back.label)}</span></a>` : ''}
     <ol class="pagetrail__path">${crumbs.map((c, i) => html`<li>${c.href && i < crumbs.length - 1 ? html`<a href="${c.href}">${c.label}</a>` : html`<span aria-current="page">${c.label}</span>`}</li>`)}</ol>
+    ${modeSwitch()}
   </nav>`;
+}
+
+/** Simple / Detailed view switch (Version 17). The current choice is marked by viewMode.apply(). */
+export function modeSwitch() {
+  return html`<div class="modeswitch" role="group" aria-label="View">
+    <span class="modeswitch__label tiny muted">View</span>
+    <button type="button" class="modeswitch__btn" data-mode-set="simple" aria-pressed="false" title="Plain words, fewer research details">Simple</button>
+    <button type="button" class="modeswitch__btn" data-mode-set="detailed" aria-pressed="true" title="Every source, badge and table">Detailed</button>
+  </div>`;
 }
 
 // ------------------------------------------------------------------ evidence badges
@@ -264,8 +274,29 @@ export function deviceCard(row, { note } = {}) {
 }
 
 /**
- * The device's freely licensed photo (shown straight from Wikimedia Commons), or its to-scale outline
- * when it has none. If the photo cannot load, main.js swaps in the outline kept alongside it.
+ * Crop marks for a picture measured by tools/image_boxes.py: the product's rectangle inside the maker's canvas.
+ * Returns the wrapper and picture styles that show only that rectangle (the file itself is not changed), or null.
+ * which = 'box' (everything in the picture) or 'one' (the largest single device, when several stand apart).
+ */
+export function fitCrop(fit, which = 'box') {
+  const box = which === 'one' && fit?.one ? fit.one : fit?.box;
+  const ar = which === 'one' && fit?.one ? fit.oneAr : fit?.ar;
+  if (!ar) return null;
+  const [x0, y0, x1, y1] = box ?? [0, 0, 1, 1];
+  const bw = x1 - x0;
+  const bh = y1 - y0;
+  const pct = (v) => `${(v * 100).toFixed(3)}%`;
+  return {
+    wrap: `--ar:${ar}`,
+    img: `width:${pct(1 / bw)};height:${pct(1 / bh)};left:${pct(-x0 / bw)};top:${pct(-y0 / bh)}`,
+    light: fit.bg === 'light',
+  };
+}
+
+/**
+ * The device's picture (a maker's product image or a freely licensed photo, shown from its owner's server), or its
+ * to-scale outline when it has none. Makers' pictures are shown cropped to the product itself, so the device fills
+ * the space instead of sitting small inside a white canvas. If the picture cannot load, main.js swaps in the outline.
  */
 export function deviceMedia(row, { height = 92, size = 'card' } = {}) {
   const outline = schematic(row, { height, label: size === 'hero' });
@@ -274,9 +305,11 @@ export function deviceMedia(row, { height = 92, size = 'card' } = {}) {
   const official = image.kind === 'official';
   const alt = `${official ? 'Product image' : image.kind === 'drawing' ? 'Drawing' : 'Photo'} of the ${deviceTitle(row)}`;
   const credit = official ? `Image: ${image.credit}` : [image.author, image.license].filter(Boolean).join(', ');
-  const kindClass = official ? 'is-official' : image.kind === 'drawing' ? 'is-drawing' : '';
+  const crop = image.kind !== 'photo' ? fitCrop(image.fit) : null;
+  const kindClass = [official ? 'is-official' : image.kind === 'drawing' ? 'is-drawing' : '', crop ? 'is-fit' : '', crop?.light ? 'is-onwhite' : ''].join(' ');
+  const img = html`<img class="dmedia__img" src="${image.src}" alt="${alt}"${crop ? html` style="${crop.img}"` : size === 'card' && image.focus ? html` style="object-position:${image.focus}"` : ''} loading="${size === 'hero' ? 'eager' : 'lazy'}" decoding="async" referrerpolicy="no-referrer" title="${credit ? `${alt}. ${credit}${official ? '' : ', Wikimedia Commons'}` : alt}" data-fallback />`;
   return html`<span class="dmedia dmedia--${size} ${kindClass}">
-    <img class="dmedia__img" src="${image.src}" alt="${alt}"${size === 'card' && image.focus ? html` style="object-position:${image.focus}"` : ''} loading="${size === 'hero' ? 'eager' : 'lazy'}" decoding="async" referrerpolicy="no-referrer" title="${credit ? `${alt}. ${credit}${official ? '' : ', Wikimedia Commons'}` : alt}" data-fallback />
+    ${crop ? html`<span class="fitcrop" style="${crop.wrap}">${img}</span>` : img}
     <span class="dmedia__fallback" hidden>${outline}</span>
   </span>`;
 }
@@ -319,7 +352,7 @@ export function thumbLink(thumb, { url, title = '', size = 'card', placeholder =
 export function photoCredit(image) {
   if (!image?.page) return '';
   if (image.kind === 'official') {
-    return html`<p class="dmedia__credit tiny"><span>Product image: ${extLink(image.page, image.credit)}</span><span>© the manufacturer</span></p>`;
+    return html`<p class="dmedia__credit tiny"><span>Product image: ${extLink(image.page, image.credit)}</span><span>© the manufacturer${image.auto ? ' · found automatically' : ''}</span></p>`;
   }
   return html`<p class="dmedia__credit tiny"><span>${image.kind === 'drawing' ? 'Drawing' : 'Photo'}: ${extLink(image.page, image.author ?? image.title ?? 'Wikimedia Commons')}</span>
     <span>${image.licenseUrl ? extLink(image.licenseUrl, image.license) : image.license} · Wikimedia Commons</span></p>`;
@@ -330,8 +363,9 @@ export function photoCredit(image) {
  * `pxPerMm` lets several schematics share one scale (size comparison).
  */
 export function schematic(row, { height = 120, pxPerMm = null, label = false } = {}) {
-  const dims = row.specs?.['build.dimensions'] ?? row.specs?.build?.dimensions ?? null;
   const category = row.category ?? row.device?.category;
+  if (category === 'earbuds') return budsSchematic(row, { height, pxPerMm, label });
+  const dims = row.specs?.['build.dimensions'] ?? row.specs?.build?.dimensions ?? null;
   const known = dims && dims.height_mm && dims.width_mm;
   let h = known ? dims.height_mm : category === 'tablet' ? 280 : category === 'smartwatch' ? 46 : category === 'band' ? 43 : 160;
   let w = known ? dims.width_mm : category === 'tablet' ? 210 : category === 'smartwatch' ? 42 : category === 'band' ? 24 : 75;
@@ -348,6 +382,34 @@ export function schematic(row, { height = 120, pxPerMm = null, label = false } =
     <rect x="2" y="2" width="${W}" height="${H}" rx="${radius}" class="schematic__body" style="--brand:${color}"/>
     <rect x="${2 + inset}" y="${2 + inset}" width="${Math.max(2, W - inset * 2)}" height="${Math.max(2, H - inset * 2)}" rx="${Math.max(1, radius - inset)}" class="schematic__screen"/>
     ${wearable ? '' : `<circle cx="${2 + W / 2}" cy="${2 + inset + Math.max(3, H * 0.025)}" r="${Math.max(1.2, W * 0.025)}" class="schematic__cam"/>`}
+  </svg>${label ? `<span class="schematic__label tiny faint">${title}</span>` : ''}`);
+}
+
+/**
+ * Earbuds: the charging case drawn to scale from its recorded size (the part you carry around), with the two
+ * buds sketched inside. Falls back to a generic case outline when the maker gives no case size.
+ */
+function budsSchematic(row, { height = 120, pxPerMm = null, label = false } = {}) {
+  const dims = row.specs?.['build.case_dimensions'] ?? row.specs?.build?.case_dimensions ?? null;
+  const known = dims && dims.height_mm && dims.width_mm;
+  // makers list case sizes largest side first; draw the case lying flat, wider than tall
+  const a = known ? dims.height_mm : 60;
+  const b = known ? dims.width_mm : 48;
+  const w = Math.max(a, b);
+  const h = Math.min(a, b);
+  const scale = pxPerMm ?? height / h / 1.25;
+  const W = Math.max(10, w * scale);
+  const H = Math.max(8, h * scale);
+  const color = store.brandById.get(row.brand ?? row.device?.brand)?.color ?? '#888';
+  const r = Math.min(W, H) * 0.34;
+  const lid = 2 + H * 0.36;
+  const bud = (cx) => `<ellipse cx="${cx}" cy="${2 + H * 0.62}" rx="${W * 0.1}" ry="${H * 0.16}" class="schematic__screen"/>`;
+  const title = known ? `Charging case ${fmtNumber(dims.height_mm, 1)} × ${fmtNumber(dims.width_mm, 1)}${dims.depth_mm ? ` × ${fmtNumber(dims.depth_mm, 2)}` : ''} mm` : 'Case size not recorded (generic outline)';
+  return raw(`<svg class="schematic schematic--buds ${known ? '' : 'is-generic'}" viewBox="0 0 ${W + 4} ${H + 4}" width="${W + 4}" height="${H + 4}" role="img" aria-label="${title}">
+    <title>${title}</title>
+    <rect x="2" y="2" width="${W}" height="${H}" rx="${r}" class="schematic__body" style="--brand:${color}"/>
+    <line x1="${2 + W * 0.06}" y1="${lid}" x2="${2 + W * 0.94}" y2="${lid}" class="schematic__lid"/>
+    ${bud(2 + W * 0.33)}${bud(2 + W * 0.67)}
   </svg>${label ? `<span class="schematic__label tiny faint">${title}</span>` : ''}`);
 }
 
@@ -397,6 +459,7 @@ export function fmtSpec(field, value, entity) {
         ? html`<ul class="cams">${value.map((c) => html`<li><strong>${c.mp ? `${fmtNumber(c.mp, 1)} MP` : 'MP not stated'}</strong> ${c.role}${c.zoom_x ? ` · ${c.zoom_x}×` : ''}${c.sensor ? ` · ${c.sensor}` : ''}${c.aperture ? ` · ${c.aperture}` : ''}${c.focal_mm ? ` · ${c.focal_mm} mm` : ''}${c.note ? html` <span class="muted">(${c.note})</span>` : ''}</li>`)}</ul>`
         : null;
     default:
+      if (typeof value === 'boolean') return value ? 'Yes' : 'No';
       return String(value);
   }
 }

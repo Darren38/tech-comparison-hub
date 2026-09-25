@@ -1,0 +1,81 @@
+{
+  "id": "huawei-freebuds-neo",
+  "name": "HUAWEI FreeBuds Neo",
+  "brand": "huawei",
+  "category": "earbuds",
+  "series": "FreeBuds",
+  "form": "buds",
+  "status": "released",
+  "segment": "entry",
+  "aliases": [],
+  "summary": "Compact Huawei earbuds with adaptive noise cancelling, Bluetooth 6.0, IP55 and up to 40 hours with the case.",
+  "highlights": [
+    "Adaptive noise cancelling",
+    "Up to 40 h with case",
+    "Bluetooth 6.0"
+  ],
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-25",
+      "source": "huawei",
+      "note": "Listed on Huawei Malaysia’s website, but no Malaysian launch price was found in a launch report."
+    }
+  },
+  "specs": {
+    "audio": {
+      "anc": "Yes (intelligent dynamic ANC)",
+      "driver": "11 mm dynamic"
+    },
+    "battery": {
+      "life_h": 10,
+      "life_anc_h": 6.5,
+      "total_h": 40,
+      "bud_mah": 60,
+      "case_mah": 460
+    },
+    "charging": {
+      "port": "USB-C"
+    },
+    "build": {
+      "style": "In-ear with silicone tips",
+      "weight_g": 4.8,
+      "case_weight_g": 31.4,
+      "dimensions": {
+        "height_mm": 24.56,
+        "width_mm": 23.2,
+        "depth_mm": 21.56
+      },
+      "case_dimensions": {
+        "height_mm": 68.35,
+        "width_mm": 41.22,
+        "depth_mm": 25.57
+      },
+      "ip": "IP55"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 6.0",
+      "multipoint": "Yes (two devices)"
+    },
+    "software": {
+      "app": "HUAWEI AI Life"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "huawei",
+      "url": "https://consumer.huawei.com/my/headphones/freebuds-neo/specs/",
+      "checked": "2026-09-25",
+      "note": "Read from Huawei Malaysia’s specification page (music playback, SD quality). Sizes stored largest side first."
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/headphones/freebuds-neo/specs-stellar-silver.png",
+    "page": "https://consumer.huawei.com/my/headphones/freebuds-neo/specs/",
+    "credit": "Huawei",
+    "checked": "2026-09-25"
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "id": "realme-16-pro-plus",
+  "name": "realme 16 Pro+ 5G",
+  "brand": "realme",
+  "category": "smartphone",
+  "series": "realme number series",
+  "form": "bar",
+  "status": "released",
+  "announced": "2026-04-07",
+  "released": "2026-04-07",
+  "segment": "upper-mid",
+  "aliases": [
+    "realme 16 Pro+",
+    "realme 16 Pro Plus"
+  ],
+  "summary": "A 6.8-inch 144 Hz 5G upper mid-range phone with the Snapdragon 7 Gen 4, a 7,000 mAh battery, 80 W charging and a 200 MP main camera.",
+  "highlights": [
+    "Snapdragon 7 Gen 4",
+    "6.8-inch 144 Hz",
+    "7,000 mAh, 80 W"
+  ],
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-25",
+      "source": "realme",
+      "note": "Listed on the maker’s Malaysian website, but no Malaysian launch price was found in a launch report."
+    }
+  },
+  "specs": {
+    "build": {
+      "weight_g": 198.0,
+      "dimensions": {
+        "height_mm": 162.45,
+        "width_mm": 76.27,
+        "depth_mm": 8.49
+      }
+    },
+    "memory": {
+      "ram_gb": [
+        12
+      ],
+      "storage_gb": [
+        512
+      ]
+    },
+    "display": {
+      "size_in": 6.8,
+      "resolution": "2800 × 1280",
+      "refresh_hz": 144,
+      "ppi": 453,
+      "peak_nits": 6500,
+      "type": "AMOLED"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 200
+        },
+        {
+          "role": "ultrawide",
+          "mp": 8
+        },
+        {
+          "role": "telephoto",
+          "mp": 50
+        }
+      ],
+      "front": "50 MP"
+    },
+    "platform": {
+      "chipset": "snapdragon-7-gen-4"
+    },
+    "battery": {
+      "capacity_mah": 7000
+    },
+    "charging": {
+      "wired_w": 80
+    },
+    "software": {
+      "launch_os": "realme UI 7.0"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "wifi": "Wi-Fi 6",
+      "nfc": true
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "realme",
+      "url": "https://www.realme.com/my/realme-16-pro-plus-5g/specs",
+      "checked": "2026-09-25",
+      "note": "Read automatically from the maker’s Malaysian specification page and reviewed; values not found on the page are left out."
+    }
+  },
+  "dataStatus": "compiled"
+}

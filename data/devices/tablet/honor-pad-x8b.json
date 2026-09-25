@@ -1,0 +1,86 @@
+{
+  "id": "honor-pad-x8b",
+  "name": "HONOR Pad X8b",
+  "brand": "honor",
+  "category": "tablet",
+  "series": "HONOR Pad X",
+  "form": "tablet",
+  "status": "released",
+  "segment": "entry",
+  "aliases": [
+    "Pad X8b"
+  ],
+  "summary": "A budget 11-inch 90 Hz tablet with 4G LTE and a 10,100 mAh battery.",
+  "highlights": [
+    "11-inch 90 Hz",
+    "10,100 mAh",
+    "4G LTE"
+  ],
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-25",
+      "source": "honor",
+      "note": "Listed on HONOR Malaysia’s website, but no Malaysian launch price was found in a launch report."
+    }
+  },
+  "specs": {
+    "display": {
+      "size_in": 11,
+      "type": "LCD",
+      "resolution": "1920 × 1200",
+      "ppi": 207,
+      "refresh_hz": 90,
+      "peak_nits": 500
+    },
+    "platform": {
+      "chipset": "snapdragon-680"
+    },
+    "memory": {
+      "ram_gb": [
+        6,
+        8
+      ],
+      "storage_gb": [
+        128,
+        256
+      ]
+    },
+    "battery": {
+      "capacity_mah": 10100
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 256.91,
+        "width_mm": 168.46,
+        "depth_mm": 7.25
+      },
+      "weight_g": 496
+    },
+    "connectivity": {
+      "cellular": "4G LTE",
+      "wifi": "Wi-Fi 5",
+      "bluetooth": "Bluetooth 5.0"
+    },
+    "software": {
+      "launch_os": "MagicOS 10 (Android 16)"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "honor",
+      "url": "https://www.honor.com/my/tablets/honor-pad-x8b/spec/",
+      "checked": "2026-09-25",
+      "note": "Read from HONOR Malaysia’s specification page; launch date and price from a Malaysian launch report."
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://www.honor.com/content/dam/honor/common/product-list/tablets/product-series/honor-pad-x8b/honor-pad-x8b-list.png",
+    "page": "https://www.honor.com/my/tablets/honor-pad-x8b/",
+    "credit": "HONOR Malaysia",
+    "checked": "2026-09-25"
+  }
+}

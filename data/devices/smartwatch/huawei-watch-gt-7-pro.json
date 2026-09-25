@@ -1,0 +1,92 @@
+{
+  "id": "huawei-watch-gt-7-pro",
+  "name": "HUAWEI WATCH GT 7 Pro",
+  "brand": "huawei",
+  "category": "smartwatch",
+  "series": "Watch GT",
+  "form": "watch",
+  "status": "released",
+  "segment": "upper-mid",
+  "aliases": [
+    "WATCH GT 7 Pro",
+    "Huawei Watch GT 7 Pro"
+  ],
+  "summary": "The titanium version of the GT 7 with an ECG sensor and dive support to 40 m, plus up to 21 days of battery.",
+  "highlights": [
+    "Titanium case",
+    "ECG + dive to 40 m",
+    "Up to 21 days"
+  ],
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-25",
+      "source": "huawei",
+      "note": "Huawei Malaysia is taking deposits for the WATCH GT 7 series; no Malaysian launch price was found in a launch report yet."
+    }
+  },
+  "specs": {
+    "display": {
+      "size_in": 1.47,
+      "type": "AMOLED",
+      "resolution": "466 × 466",
+      "ppi": 317,
+      "peak_nits": 3000
+    },
+    "battery": {
+      "life_h": 504,
+      "claim": "Up to 21 days maximum, 12 days typical, 7 days with always-on display, 51 hours of trail-running GPS"
+    },
+    "health": {
+      "sensors": [
+        "Accelerometer",
+        "Gyroscope",
+        "Magnetometer",
+        "Optical heart rate",
+        "Barometer",
+        "Temperature",
+        "Ambient light",
+        "ECG",
+        "Depth"
+      ]
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 45.6,
+        "width_mm": 45.6,
+        "depth_mm": 11.25
+      },
+      "weight_g": 55.5,
+      "case": "Titanium alloy",
+      "water": "5 ATM; dives to 40 m",
+      "water_m": 50,
+      "ip": "IP69"
+    },
+    "connectivity": {
+      "nfc": true,
+      "bluetooth": "Bluetooth 6.0",
+      "gps": "Dual-band GNSS (GPS L1+L5, BeiDou, Galileo, GLONASS, QZSS, NavIC)",
+      "compatibility": "Android 9.0 or later, iOS 13.0 or later"
+    },
+    "charging": {
+      "wireless": true
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "huawei",
+      "url": "https://consumer.huawei.com/my/wearables/watch-gt7-pro/specs/",
+      "checked": "2026-09-25",
+      "note": "Read from Huawei Malaysia’s specification page."
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/wearables/watch-gt7-pro/specs-yellow.png",
+    "page": "https://consumer.huawei.com/my/wearables/watch-gt7-pro/specs/",
+    "credit": "Huawei",
+    "checked": "2026-09-25"
+  }
+}

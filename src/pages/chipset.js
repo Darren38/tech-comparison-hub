@@ -8,6 +8,7 @@ import { href } from '../core/router.js';
 import { provBadge, sourceLink, evidenceBlock, deviceCard, docCard, findingItem, sectionHead, emptyState, provenanceFor, tag, pageTrail } from '../ui/components.js';
 import { scoreBars } from '../ui/charts.js';
 import { headToHeadTable } from './device.js';
+import { autoSlot, fillAuto } from '../ui/autolinks.js';
 
 const ORDER = ['gb6_single', 'gb6_multi', 'antutu_v11', 'antutu_v10', 'wle', 'wle_stability', 'solar_bay', 'steel_nomad_light'];
 
@@ -109,6 +110,11 @@ export default async function render({ params }) {
       ${findings.length ? html`<section class="card">${sectionHead('Technical findings', { level: 3 })}<ul class="findings">${findings.map(({ f, doc }) => findingItem(f, doc))}</ul></section>` : ''}
       ${devices.length ? html`<section>${sectionHead(`Devices with the ${chip.name}`, { eyebrow: plural(devices.length, 'device') })}<div class="grid grid-3">${devices.map((d) => deviceCard(d))}</div></section>` : ''}
       ${data.documents.length ? html`<section>${sectionHead('Sources & coverage', { eyebrow: plural(data.documents.length, 'document') })}<div class="grid grid-3">${data.documents.map((d) => docCard(d))}</div></section>` : ''}
+      <section>${autoSlot('all', `The ${chip.name} and its phones in the headlines`, { limit: 8 })}</section>
     </div>`,
+    mount(root) {
+      // headlines that name the chip, or any phone built on it
+      fillAuto(root, { chipsets: [id], devices: devices.map((d) => d.id), showDevices: true });
+    },
   };
 }

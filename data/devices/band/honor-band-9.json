@@ -31,8 +31,9 @@
       "water_m": 50
     },
     "connectivity": {
-      "usb": "Magnetic charging port; Compatibility; Android 9.0 or later, iOS 11.0 or later; Water Resistance Level; 5ATM",
-      "bluetooth": "2.4 GHz, BLE 5.3; Charger Voltage and Current; 5V 1A"
+      "usb": "Magnetic charging port",
+      "bluetooth": "2.4 GHz, BLE 5.3",
+      "compatibility": "Android 9.0 or later, iOS 11.0 or later"
     }
   },
   "provenance": {

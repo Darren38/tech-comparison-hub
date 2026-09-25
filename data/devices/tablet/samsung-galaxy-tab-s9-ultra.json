@@ -1,0 +1,91 @@
+{
+  "id": "samsung-galaxy-tab-s9-ultra",
+  "name": "Galaxy Tab S9 Ultra",
+  "brand": "samsung",
+  "category": "tablet",
+  "series": "Galaxy Tab S",
+  "form": "tablet",
+  "status": "released",
+  "announced": "2023-07-26",
+  "released": "2023-08-18",
+  "segment": "flagship",
+  "aliases": [
+    "Tab S9 Ultra",
+    "Galaxy Tab S9 Ultra"
+  ],
+  "summary": "Samsung’s 2023 14.6-inch AMOLED tablet with the Snapdragon 8 Gen 2 for Galaxy, an S Pen in the box and the first IP68 rating on a Galaxy Tab S.",
+  "highlights": [
+    "Snapdragon 8 Gen 2 for Galaxy",
+    "14.6-inch AMOLED 120 Hz",
+    "IP68, S Pen included"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 5999,
+      "config": "Wi-Fi, 12 GB / 256 GB, with keyboard",
+      "date": "2023-07-26",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2023/07/26/samsung-galaxy-tab-s9-series-official-price-specs/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 14.6,
+      "type": "Dynamic AMOLED 2X",
+      "refresh_hz": 120
+    },
+    "platform": {
+      "chipset": "snapdragon-8-gen-2"
+    },
+    "memory": {
+      "ram_gb": [
+        12,
+        16
+      ],
+      "storage_gb": [
+        256,
+        512,
+        1024
+      ],
+      "expandable": true
+    },
+    "battery": {
+      "capacity_mah": 11200
+    },
+    "input": {
+      "stylus": "S Pen (Bluetooth) included"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 326.4,
+        "width_mm": 208.6,
+        "depth_mm": 5.5
+      },
+      "weight_g": 732,
+      "ip": "IP68"
+    },
+    "connectivity": {
+      "cellular": "5G (optional)",
+      "wifi": "Wi-Fi 6E",
+      "bluetooth": "Bluetooth 5.3"
+    },
+    "software": {
+      "launch_os": "Android 13"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "samsung",
+      "url": "https://news.samsung.com/global/samsung-galaxy-tab-s9-sets-the-new-standard-to-bring-galaxys-premium-experience-to-a-tablet",
+      "checked": "2026-09-25",
+      "note": "Read from Samsung’s launch press release (specification table); Wi-Fi model weight."
+    }
+  },
+  "dataStatus": "checked"
+}

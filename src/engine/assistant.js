@@ -14,6 +14,7 @@ import { profileLeaderboard, allCategoryScores, getMetric, applicableScoreCatego
 import { provenanceFor, specValue, fmtSpec, extLink } from '../ui/components.js';
 
 const CATEGORY_WORDS = [
+  [/\b(earbuds?|ear ?buds?|tws|earphones?|in-ear|airpods|freebuds|galaxy buds|pixel buds|headphones?)\b/, 'earbuds'],
   [/\b(fitness bands?|smart bands?|bands?|trackers?)\b/, 'band'],
   [/\b(tablets?|ipads?|pads?)\b/, 'tablet'],
   [/\b(watch(es)?|smartwatch(es)?|wearables?)\b/, 'smartwatch'],
@@ -228,6 +229,10 @@ function facts(dev, attr) {
   const F = (label, text, path) => ({ label, text: text ?? null, path });
   switch (attr) {
     case 'battery':
+      if (dev.category === 'earbuds') {
+        return [F('Earbuds alone (claimed)', s.battery?.life_h ? `${s.battery.life_h} hours${s.battery.life_anc_h ? ` (${s.battery.life_anc_h} h with noise cancelling)` : ''}` : null, 'specs.battery.life_h'),
+                F('With the charging case (claimed)', s.battery?.total_h ? `${s.battery.total_h} hours` : null, 'specs.battery.total_h')];
+      }
       return wearable
         ? [F('Battery life (claimed)', s.battery?.life_h ? `${s.battery.life_h >= 48 ? `${Math.round(s.battery.life_h / 24)} days` : `${s.battery.life_h} hours`}` : null, 'specs.battery.life_h'),
            ...(s.battery?.capacity_mah ? [F('Capacity', `${fmtNumber(s.battery.capacity_mah)} mAh`, 'specs.battery.capacity_mah')] : [])]
@@ -396,7 +401,7 @@ async function answerDevice(id, attrs) {
 
 const RANKERS = {
   price: (r) => { const p = displayPrice(r, 'MYR'); return p ? p.amount : null; },
-  battery: (r) => (r.category === 'smartwatch' || r.category === 'band' ? r.f?.batteryLifeH : r.f?.batteryMah) ?? null,
+  battery: (r) => (r.category === 'earbuds' ? r.f?.totalLifeH ?? r.f?.batteryLifeH : r.category === 'smartwatch' || r.category === 'band' ? r.f?.batteryLifeH : r.f?.batteryMah) ?? null,
   wiredW: (r) => r.f?.wiredW ?? null,
   wirelessW: (r) => r.m?.spec_wireless_w?.[0] ?? null,
   refreshHz: (r) => r.f?.refreshHz ?? null,
@@ -426,7 +431,7 @@ const HIGHER_TEXT = {
   updates: 'has the longer update promise',
 };
 const RANK_TEXT = {
-  price: (v) => fmtPrice(v, 'MYR'), battery: (v, r) => (r.category === 'smartwatch' || r.category === 'band' ? `${Math.round(v / 24)} days` : `${fmtNumber(v)} mAh`),
+  price: (v) => fmtPrice(v, 'MYR'), battery: (v, r) => (r.category === 'earbuds' ? `${fmtNumber(v, v % 1 ? 1 : 0)} h with the case` : r.category === 'smartwatch' || r.category === 'band' ? `${Math.round(v / 24)} days` : `${fmtNumber(v)} mAh`),
   wiredW: (v) => `${v} W`, wirelessW: (v) => (v ? `${v} W` : 'none'), refreshHz: (v) => `${v} Hz`, nits: (v) => `${fmtNumber(v)} nits`, displayIn: (v) => `${v}-inch`,
   performance: (v) => `score ${Math.round(v)}`, ramMax: (v) => `${v} GB`, storageMax: (v) => (v >= 1024 ? `${v / 1024} TB` : `${v} GB`), mainMp: (v) => `${v} MP`,
   weightG: (v) => `${fmtNumber(v)} g`, water: (v, r) => (r.f?.ip?.join(', ') || (r.f?.waterM ? `${r.f.waterM} m` : '')), updates: (v) => `${v} years of OS upgrades`,
@@ -756,6 +761,8 @@ const FEATURES = [
   { id: 'ecg', re: /\becg\b|\bekg\b|electrocardiogram/, label: 'ECG', attr: null, test: (s) => has([s.health?.sensors, s.health?.features].flat().filter(Boolean).join(' ') || null, /ecg|electrocardio|electrical heart/i), unsure: 'ECG is not listed among its health sensors or features' },
   { id: 'spo2', re: /\bspo2\b|blood oxygen/, label: 'Blood-oxygen (SpO2) reading', attr: null, test: (s) => has([s.health?.sensors, s.health?.features].flat().filter(Boolean).join(' ') || null, /spo2|blood oxygen|oxygen saturation/i), unsure: 'SpO2 is not listed among its health sensors or features' },
   { id: 'gps', re: /\bgps\b|\bgnss\b/, label: 'GPS', attr: 'gps', test: (s) => (typeof s.connectivity?.gps === 'boolean' ? s.connectivity.gps : s.connectivity?.gps ? !/^no\b|connected|phone/i.test(s.connectivity.gps) : s.connectivity?.positioning ? /gps/i.test(s.connectivity.positioning) : null), detail: (s) => (typeof s.connectivity?.gps === 'string' ? s.connectivity.gps : '') },
+  { id: 'anc', re: /noise ?cancel\w*|\banc\b|block (out )?noise/, label: 'Active noise cancelling', attr: null, test: (s) => (s.audio?.anc ? !/^no\b/i.test(s.audio.anc) : null), detail: (s) => (s.audio?.anc && !/^(yes|no)$/i.test(s.audio.anc) ? s.audio.anc : ''), unsure: 'noise cancelling is not mentioned on its specification sheet' },
+  { id: 'wcase', re: /wireless(ly)? charg\w* case|case .*wireless/, label: 'Wireless charging case', attr: null, test: (s) => (s.charging?.port || s.battery?.case_mah ? Boolean(s.charging?.wireless) : null) },
   { id: 'water', re: /water ?proof|water ?resist\w*|\bip ?\d{2}k?\b|\bipx\d\b|\bswim\w*|\bshower\b|\brain\b|\bsplash\w*/, label: 'Water resistance', attr: 'water', test: (s) => (s.build?.ip || s.build?.water || s.build?.water_m ? true : s.build?.dimensions ? false : null), detail: (s) => [s.build?.ip, s.build?.water].filter(Boolean).join(', '), unsure: 'no water-resistance rating is recorded' },
 ];
 
@@ -868,7 +875,7 @@ const SMALL_TALK = [
 // "Any news about the Galaxy S26?", "Red Magic 12 Pro+ rumours", "when will the Galaxy S27 launch?": the latest
 // collected headlines, collected live when this copy of the site can (local server or relay). Devices the site
 // doesn't list yet are found by the words of the question in the headline titles.
-const NEWS_Q = /\b(news|headlines?|rumou?rs?|leaks?|leaked|berita|terkini)\b|\b(launch|release)(ing)? date\b|\bwhen\b.{0,50}\b(launch\w*|release\w*|come out|coming|announc\w*|available)\b|\bwhat s new\b/;
+const NEWS_Q = /\b(news|headlines?|rumou?rs?|leaks?|leaked|berita|terkini)\b|\b(latest|recent|any)\b.{0,30}\b(reviews?|tests?|videos?|updates?|problems?|bugs?|issues?)\b|\b(bugs?|problems?|issues?|recall)\b.{0,20}\b(with|on|in|of)\b|\b(launch|release)(ing)? date\b|\bwhen\b.{0,50}\b(launch\w*|release\w*|come out|coming|announc\w*|available)\b|\bwhat s new\b/;
 const GENERIC_NAME_WORDS = new Set(['5g', 'phone', 'edition']);
 const NEWS_STOP = new Set(('news headline headlines rumour rumours rumor rumors leak leaks leaked berita terkini latest recent newest new today this week any anything there is are was were what whats s when will would does do did it its the a an about on for of in to and or with from me tell show give get got hear heard please update updates launch launching launched release releasing released date come out coming announce announced announcement available availability malaysia my i you going happening lately tech technology gadget gadgets mobile phone phones smartphone smartphones world industry').split(' '));
 
@@ -891,7 +898,20 @@ async function answerNews(ids, text) {
     return { html: html`<p>The latest headlines could not be loaded (${error.message}). Try the <a href="${href('/news')}">News page</a>.</p>` };
   }
   const { data, live } = got;
-  const terms = normalize(text).split(' ').filter((w) => w && !NEWS_STOP.has(w));
+  // Version 17: also the rolling archive (about 400 days, re-matched every run), so older tests, reviews and news count
+  const { loadMatchedItems } = await import('./live.js');
+  const archive = await loadMatchedItems().catch(() => []);
+  const seen = new Set((data.items ?? []).map((i) => i.id ?? i.url));
+  const pool0 = [...(data.items ?? []), ...archive.filter((i) => !seen.has(i.id ?? i.url))];
+  // "any battery test of the S26?", "iPhone 18 problems": keep to that kind of item when one is asked for
+  const norm0 = normalize(text);
+  const wantTopics = [
+    [/\b(tests?|tested|benchmarks?)\b/, ['test']], [/\breviews?\b/, ['review', 'video']], [/\b(videos?|youtube)\b/, ['video']],
+    [/\b(bugs?|problems?|issues?|recall|defects?)\b/, ['issue', 'software']], [/\b(updates?|software|hyperos)\b/, ['software']],
+    [/\b(deals?|discount)\b/, ['price']],
+  ].filter(([re]) => re.test(norm0)).flatMap(([, t]) => t);
+  const TOPIC_STOP = new Set(['test', 'tests', 'tested', 'benchmark', 'benchmarks', 'review', 'reviews', 'video', 'videos', 'youtube', 'bug', 'bugs', 'problem', 'problems', 'issue', 'issues', 'recall', 'defect', 'defects', 'update', 'updates', 'software', 'hyperos', 'deal', 'deals', 'discount']);
+  const terms = normalize(text).split(' ').filter((w) => w && !NEWS_STOP.has(w) && !TOPIC_STOP.has(w));
   const words = (s) => new Set(normalize(s).split(' '));
   // the visitor's own spelling for the subject ("Red Magic 12 Pro+"), without the question words
   const own = text.split(/\s+/).map((w) => w.replace(/^[^\p{L}\p{N}]+|[^\p{L}\p{N}+]+$/gu, '')).filter((w) => w && normalize(w).split(' ').some((t) => t && !NEWS_STOP.has(t))).join(' ');
@@ -906,22 +926,22 @@ async function answerNews(ids, text) {
     // "Red Magic" and "RedMagic" are the same name
     return terms.every((t) => pool.has(t)) || normalize(item.title).replace(/ /g, '').includes(terms.join(''));
   };
-  const all = (data.items ?? []).filter((i) => i.title && isSafeUrl(i.url));
+  const all = pool0.filter((i) => i.title && isSafeUrl(i.url) && (!wantTopics.length || wantTopics.includes(i.topic)));
   const about = ids.length || terms.length;
   const found = about ? all.filter(matches) : all.filter((i) => i.kind !== 'video');
   const subject = ids.length ? html`the ${ids.map(link).reduce((acc, l, i) => (i ? html`${acc} and the ${l}` : l), '')}` : terms.length ? html`“${own || terms.join(' ')}”` : '';
   const when = live ? 'collected from the publishers’ feeds just now' : data.fetchedAt ? `collected ${timeAgo(data.fetchedAt)} by the site’s scheduled update` : 'collected by the site’s scheduled update';
-  const note = html`<p class="ask__src">Headlines ${when}. Titles only, not checked by this site; open a link for the full story. More on the <a href="${href('/news')}">News page</a>.</p>`;
+  const note = html`<p class="ask__src">Headlines ${when}, plus the site’s archive of the past year. Titles only, matched automatically and not checked by this site; open a link for the full story. More on the <a href="${href('/news')}">News page</a>.</p>`;
   if (!found.length) {
     return {
-      html: html`<p>None of the ${plural(all.length, 'headline')} from the last ${data.maxAgeDays ?? 45} days mentions ${subject || 'that'}.</p>${note}`,
+      html: html`<p>None of the ${plural(all.length, wantTopics.length ? 'matching headline' : 'headline')} the site has collected mentions ${subject || 'that'}.</p>${note}`,
       devices: ids,
     };
   }
   const shown = found.slice(0, 6);
   return {
     html: html`<p>${about ? html`Latest headlines about ${subject}:` : 'The latest headlines:'}</p>
-      <ul class="ask__list">${shown.map((i) => html`<li>${extLink(i.url, i.title)} <span class="muted">${sourceName(i.source) ?? i.source}${i.published ? `, ${timeAgo(i.published)}` : ''}</span></li>`)}</ul>
+      <ul class="ask__list">${shown.map((i) => html`<li>${extLink(i.url, i.title)} <span class="muted">${sourceName(i.source) ?? i.source}${i.published ? `, ${timeAgo(i.published)}` : ''}${i.topic && i.topic !== 'news' ? ` · ${i.topic}` : ''}</span></li>`)}</ul>
       ${found.length > shown.length ? html`<p class="muted">${plural(found.length - shown.length, 'more headline')} on the <a href="${href('/news')}">News page</a>.</p>` : ''}${note}`,
     devices: ids,
   };
@@ -937,7 +957,7 @@ const ZH_WORDS = [
   [/价格|售价|多少钱|价钱/g, ' price '], [/拍照|相机|摄像头|影像/g, ' camera '], [/性能|跑分|处理器/g, ' performance '], [/游戏/g, ' gaming '],
   [/最轻/g, ' lightest '], [/最便宜/g, ' cheapest '], [/重量|多重/g, ' weight '], [/防水/g, ' water resistant '],
   [/哪个好|哪个更好|谁更好|哪款好/g, ' which is better '], [/对比|比较|和|与|跟/g, ' vs '], [/最好|推荐/g, ' best '],
-  [/新闻|消息/g, ' news '], [/手机/g, ' phone '], [/手表/g, ' watch '], [/平板/g, ' tablet '], [/旗舰/g, ' flagship '],
+  [/新闻|消息/g, ' news '], [/手机/g, ' phone '], [/手表/g, ' watch '], [/耳机|耳機/g, ' earbuds '], [/平板/g, ' tablet '], [/旗舰/g, ' flagship '],
 ];
 const fromZh = (t) => (/[\u4e00-\u9fff]/.test(t) ? ZH_WORDS.reduce((acc, [re, en]) => acc.replace(re, en), t).replace(/\s+/g, ' ').trim() : t);
 
@@ -1139,7 +1159,7 @@ export async function aiFacts(res) {
   const lines = answerLines(res.html);
   const parts = [`ANSWER FROM THE SITE'S DATA:\n${lines}`];
   if ((res.devices ?? []).length === 1 && lines.length < 200) parts.push(`DEVICE DETAILS:\n${await deviceBrief(res.devices[0])}`);
-  parts.push(`ABOUT THE SITE: ${store.devices.length} phones, watches, bands and tablets sold in Malaysia. Prices are Malaysian launch prices in RM. Scores are this site's own analysis of recorded specifications and tests, not reviews.`);
+  parts.push(`ABOUT THE SITE: ${store.devices.length} phones, tablets, watches, fitness bands and earbuds sold in Malaysia (a few not sold here are marked). Prices are Malaysian launch prices in RM. Scores are this site's own analysis of recorded specifications and tests, not reviews.`);
   return parts.join('\n\n');
 }
 
@@ -1366,9 +1386,10 @@ export async function reviewsText(id, { limit = 8 } = {}) {
 /** Latest collected headlines that name the device (titles only; not checked by hand). */
 export async function headlinesText(id, { limit = 4 } = {}) {
   try {
-    const { latestHeadlines } = await import('./live.js');
-    const items = (await latestHeadlines()).data.items.filter((h) => (h.devices ?? []).includes(id)).slice(0, limit);
-    return items.map((h) => `- ${sourceName(h.source) ?? h.source}, ${String(h.published).slice(0, 10)}: "${h.title}"`);
+    // newest collection plus the year-long archive, so the AI can see tests, reviews and problem reports too
+    const { loadMatchedItems } = await import('./live.js');
+    const items = (await loadMatchedItems()).filter((h) => (h.devices ?? []).includes(id)).slice(0, limit);
+    return items.map((h) => `- ${sourceName(h.source) ?? h.source}, ${String(h.published).slice(0, 10)}${h.topic && h.topic !== 'news' ? ` (${h.topic})` : ''}: "${h.title}"`);
   } catch {
     return [];
   }

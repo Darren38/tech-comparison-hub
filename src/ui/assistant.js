@@ -36,7 +36,7 @@ function pageContext() {
 function placeholder(ctx) {
   const r = ctx.deviceIds.length === 1 ? store.deviceById.get(ctx.deviceIds[0]) : null;
   if (aiState === 'on') return r ? `Ask anything about the ${deviceTitle(r)}…` : backend?.languages === 'en' ? 'Ask anything, in your own words…' : 'Ask anything, in any words or language…';
-  return r ? `Ask about the ${deviceTitle(r)}…` : ctx.deviceIds.length > 1 ? 'Ask about these devices…' : 'Ask about any phone, watch or band…';
+  return r ? `Ask about the ${deviceTitle(r)}…` : ctx.deviceIds.length > 1 ? 'Ask about these devices…' : 'Ask about any phone, tablet, watch or earbuds…';
 }
 
 async function loadEngine() {

@@ -31,8 +31,8 @@
     },
     "connectivity": {
       "nfc": true,
-      "usb": "Wireless charging; System Requirements; Android 6.0 or later; iOS 9.0 or later; Waterproof Level; 5 ATM, Dive (up to 30 meters)",
-      "bluetooth": "2.4 GHz, supports BT5.2 and BR+BLE; Environment; Ambient Operating Temperature; 0℃～+35℃; Battery Life; HUAWEI WATCH 4"
+      "bluetooth": "2.4 GHz, supports BT5.2 and BR+BLE",
+      "compatibility": "Android 6.0 or later, iOS 9.0 or later"
     },
     "build": {
       "dimensions": {
@@ -43,12 +43,13 @@
       "water": "5 ATM",
       "water_m": 50
     },
-    "sensors": "Accelerometer, Gyroscope, Compass, Optical heart rate sensor, Ambient light sensor, Barometer, Temperature sensor, ECG sensor, Depth sensor, Button, Home Button (Rotating Crown) and Side Button",
+    "sensors": "Accelerometer, Gyroscope, Compass, Optical heart rate sensor, Ambient light sensor, Barometer, Temperature sensor, ECG sensor, Depth sensor",
     "audio": {
-      "speakers": "Microphone"
+      "microphone": true
     },
     "charging": {
-      "claim": "Charger Voltage and Current Requirements; 5V-9V DC/2A"
+      "claim": "Charger: 5V-9V DC/2A",
+      "wireless": true
     },
     "misc": {
       "colors": "Black Fluoroelastomer Strap"

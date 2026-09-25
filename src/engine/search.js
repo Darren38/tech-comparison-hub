@@ -1,9 +1,11 @@
 // Client-side search over the generated search index (devices, chipsets, brands,
 // documents and sources). Handles aliases ("S26U"), "+" / "plus", prefixes and one-letter typos.
 
-import { loadSearchIndex } from '../core/store.js';
+import { loadSearchIndex, store, deviceTitle, sourceName } from '../core/store.js';
+import { loadMatchedItems } from './live.js';
+import { GLOSSARY } from '../ui/plain.js';
 
-export const TYPE_ORDER = ['device', 'chipset', 'brand', 'review', 'video', 'news', 'source'];
+export const TYPE_ORDER = ['device', 'chipset', 'brand', 'page', 'review', 'video', 'news', 'headline', 'source'];
 export const TYPE_LABELS = {
   device: 'Devices',
   chipset: 'Chipsets',
@@ -11,9 +13,11 @@ export const TYPE_LABELS = {
   review: 'Reviews & analysis',
   video: 'Videos',
   news: 'News',
+  headline: 'Latest headlines, tests & videos',
+  page: 'On this site',
   source: 'Sources',
 };
-const TYPE_BOOST = { device: 6, chipset: 4, brand: 3, review: 0, video: 0, news: 0, source: 1 };
+const TYPE_BOOST = { device: 6, chipset: 4, brand: 3, page: 2, review: 0, video: 0, news: 0, headline: -1, source: 1 };
 
 export function normalizeText(text) {
   return String(text ?? '')
@@ -54,9 +58,53 @@ function editDistanceWithin1(a, b) {
 
 let prepared = null;
 
+// The site's own pages and topics, so "how are scores calculated", "IP68", "size" or "charts" find the right place.
+const SITE_PAGES = [
+  { id: 'methodology', title: 'How scores are calculated', sub: 'Methodology', path: '/methodology', keys: ['methodology', 'scoring', 'score', 'weights', 'how it works', 'confidence', 'badges', 'evidence'] },
+  { id: 'glossary', title: 'Tech words explained (glossary)', sub: 'Methodology', path: '/methodology', section: 'glossary', keys: ['glossary', 'what is', 'meaning', 'explain', 'ip68', 'ltpo', 'oled', 'amoled', 'mah', 'anc', 'nits', 'refresh rate', 'hz', 'ldac', 'codec', 'ois', 'telephoto', 'beginner'] },
+  { id: 'charts', title: 'Charts: battery, performance, price, size', sub: 'Charts', path: '/charts', keys: ['charts', 'chart', 'graph', 'price vs', 'ranking', 'leaderboard'] },
+  { id: 'coverage', title: 'What the hub covers, and new models spotted', sub: 'Coverage', path: '/coverage', keys: ['coverage', 'missing', 'new models', 'spotted', 'upcoming', 'database'] },
+  { id: 'reviews', title: 'Reviews & videos', sub: 'Latest reviews and YouTube analysis', path: '/reviews', keys: ['reviews', 'videos', 'youtube', 'most viewed'] },
+  { id: 'news', title: 'Technology news', sub: 'Latest news from Malaysian and global sources', path: '/news', keys: ['news', 'headlines', 'latest'] },
+  { id: 'compare', title: 'Compare devices side by side', sub: 'Compare', path: '/compare', keys: ['compare', 'versus', 'vs', 'size comparison', 'to scale'] },
+  { id: 'devices-earbuds', title: 'All earbuds', sub: 'Device database', path: '/devices/earbuds', keys: ['earbuds', 'tws', 'airpods', 'buds', 'earphones'] },
+  { id: 'devices-tablet', title: 'All tablets', sub: 'Device database', path: '/devices/tablet', keys: ['tablets', 'ipad', 'pad'] },
+  { id: 'devices-smartwatch', title: 'All smartwatches', sub: 'Device database', path: '/devices/smartwatch', keys: ['watches', 'smartwatch'] },
+  { id: 'devices-band', title: 'All fitness bands', sub: 'Device database', path: '/devices/band', keys: ['bands', 'fitness band', 'tracker'] },
+  { id: 'devices-smartphone', title: 'All smartphones', sub: 'Device database', path: '/devices/smartphone', keys: ['phones', 'smartphones'] },
+];
+
+const TOPIC_NAMES = { test: 'test benchmark', review: 'review', video: 'video youtube', software: 'software update', price: 'price deal', issue: 'problem issue bug', launch: 'launch', news: 'news' };
+
+function prepare(e) {
+  const keys = (e.keys ?? []).filter(Boolean);
+  const tokens = new Set([...tokenize(e.title), ...keys.flatMap(tokenize)]);
+  return { ...e, normTitle: normalizeText(e.title), compactTitle: compact(e.title), compactKeys: keys.map(compact), tokens: [...tokens] };
+}
+
+let headlinesPrepared = null;
+/** Recent matched headlines (archive + newest), searchable by title, device names, source and topic. */
+function headlineEntries() {
+  headlinesPrepared ??= loadMatchedItems()
+    .then((items) => items.map((i) => prepare({
+      type: 'headline',
+      id: i.id ?? i.url,
+      title: i.title,
+      url: i.url,
+      topic: i.topic,
+      date: i.published,
+      sub: `${sourceName(i.source)}${i.published ? ` · ${String(i.published).slice(0, 10)}` : ''}`,
+      keys: [...(i.devices ?? []).map((id) => { const r = store.deviceById.get(id); return r ? deviceTitle(r) : id; }), ...(i.chipsets ?? []).map((id) => store.chipsetById.get(id)?.name ?? id), sourceName(i.source), TOPIC_NAMES[i.topic] ?? ''],
+    })))
+    .catch(() => []);
+  return headlinesPrepared;
+}
+
 export async function ensureSearchIndex() {
   if (!prepared) {
-    const entries = await loadSearchIndex();
+    // every glossary word is findable too ("what is LTPO"), and opens the glossary
+    const glossary = GLOSSARY.map(([term, text]) => ({ type: 'page', id: `g-${term}`, title: `${term}: what it means`, sub: text.length > 90 ? `${text.slice(0, 88)}…` : text, path: '/methodology', section: 'glossary', keys: term.split(/[/()]/).map((k) => k.trim()).filter(Boolean) }));
+    const entries = [...(await loadSearchIndex()), ...SITE_PAGES.map((p) => ({ ...p, type: 'page' })), ...glossary];
     prepared = entries.map((e) => {
       const keys = (e.keys ?? []).filter(Boolean);
       const tokens = new Set([...tokenize(e.title), ...keys.flatMap(tokenize)]);
@@ -112,7 +160,7 @@ function scoreEntry(entry, q, qTokens, qCompact) {
 
 /** Ranked flat list of matches. */
 export async function search(query, { limit = 40, types } = {}) {
-  const entries = await ensureSearchIndex();
+  const entries = [...(await ensureSearchIndex()), ...(!types || types.includes('headline') ? await headlineEntries() : [])];
   const q = normalizeText(query);
   if (!q) return [];
   const qTokens = tokenize(query);
@@ -124,6 +172,24 @@ export async function search(query, { limit = 40, types } = {}) {
     if (score > 0) results.push({ ...entry, score });
   }
   results.sort((a, b) => b.score - a.score || String(b.date ?? '').localeCompare(String(a.date ?? '')));
+  // "iphone 18 pro bug": no device matches every word, but the words before "bug" name one. Offer it too.
+  if (!types && !results.some((r) => r.type === 'device') && qTokens.length > 1) {
+    for (let n = qTokens.length - 1; n >= 1; n -= 1) {
+      const sub = qTokens.slice(0, n).join(' ');
+      if (sub.length < 3) break;
+      const devs = [];
+      for (const entry of entries) {
+        if (entry.type !== 'device') continue;
+        const score = scoreEntry(entry, normalizeText(sub), tokenize(sub), compact(sub));
+        if (score >= 60) devs.push({ ...entry, score: score - 30 });
+      }
+      if (devs.length) {
+        devs.sort((a, b) => b.score - a.score);
+        results.unshift(...devs.slice(0, 3));
+        break;
+      }
+    }
+  }
   return results.slice(0, limit);
 }
 

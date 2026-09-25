@@ -56,7 +56,7 @@
       "gps": "Built-in GNSS",
       "nfc": true,
       "cellular": "LTE option",
-      "bluetooth": "Bluetooth 5.2; Classical BT, BLE, Profile; HFP v1.6, HSP v1.2, A2DP v1.2, AVRCP v1.5 SPP v1.1 and later version; Call Performance; Smart mode: Bluetooth calling; Power saver mode: Bluetooth calling",
+      "bluetooth": "Bluetooth 5.2; Classical BT, BLE, Profile; HFP v1.6, HSP v1.2, A2DP v1.2, AVRCP v1.5 SPP v1.1 and later version",
       "wifi": "WiFi 5G/2.4G, 802.11 a/b/g/n",
       "positioning": "Dual band L1 + L5; Beidou, GPS, Galileo, GLONASS, QZSS; Durability; MIL-STD-810H, 5ATM, IP68",
       "usb": "USB-C"

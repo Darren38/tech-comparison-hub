@@ -1,0 +1,79 @@
+{
+  "id": "oppo-enco-air4-pro",
+  "name": "OPPO Enco Air4 Pro",
+  "brand": "oppo",
+  "category": "earbuds",
+  "series": "OPPO Enco",
+  "form": "buds",
+  "status": "released",
+  "segment": "mid",
+  "aliases": [
+    "Enco Air4 Pro"
+  ],
+  "summary": "Noise-cancelling OPPO earbuds with Hi-Res LHDC 5.0 and up to 44 hours with the case.",
+  "highlights": [
+    "Noise cancelling",
+    "LHDC 5.0",
+    "IP55"
+  ],
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-25",
+      "source": "oppo",
+      "note": "Listed on OPPO Malaysia’s website, but no Malaysian launch price was found in a launch report."
+    }
+  },
+  "specs": {
+    "audio": {
+      "anc": "Yes (ultra-wide frequency)",
+      "driver": "12.4 mm dynamic",
+      "codecs": [
+        "LHDC 5.0",
+        "AAC",
+        "SBC"
+      ]
+    },
+    "battery": {
+      "life_h": 12,
+      "life_anc_h": 5.5,
+      "total_h": 44,
+      "bud_mah": 58,
+      "case_mah": 440
+    },
+    "charging": {
+      "port": "USB-C"
+    },
+    "build": {
+      "weight_g": 4.4,
+      "dimensions": {
+        "height_mm": 29.9,
+        "width_mm": 23.87,
+        "depth_mm": 20.3
+      },
+      "case_dimensions": {
+        "height_mm": 66.6,
+        "width_mm": 51.24,
+        "depth_mm": 24.83
+      },
+      "ip": "IP55",
+      "case_weight_g": 38.2
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.4"
+    },
+    "software": {
+      "app": "HeyMelody (Android and iPhone)"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "oppo",
+      "url": "https://www.oppo.com/my/accessories/enco-air4-pro/specs/",
+      "checked": "2026-09-25",
+      "note": "Read from OPPO Malaysia’s specification page. Case weight is the listed earbuds-plus-case weight minus two earbuds."
+    }
+  },
+  "dataStatus": "compiled"
+}

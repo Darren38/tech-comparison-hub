@@ -1,0 +1,78 @@
+{
+  "id": "oppo-enco-air5",
+  "name": "OPPO Enco Air5",
+  "brand": "oppo",
+  "category": "earbuds",
+  "series": "OPPO Enco",
+  "form": "buds",
+  "status": "released",
+  "segment": "entry",
+  "aliases": [
+    "Enco Air5"
+  ],
+  "summary": "OPPO earbuds with noise cancelling, Bluetooth 6.1 and up to 54 hours with the case.",
+  "highlights": [
+    "Noise cancelling",
+    "Up to 54 h with case",
+    "Bluetooth 6.1"
+  ],
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-25",
+      "source": "oppo",
+      "note": "Listed on OPPO Malaysia’s website, but no Malaysian launch price was found in a launch report."
+    }
+  },
+  "specs": {
+    "audio": {
+      "anc": "Yes",
+      "driver": "12 mm dynamic",
+      "codecs": [
+        "AAC",
+        "SBC"
+      ]
+    },
+    "battery": {
+      "life_h": 13,
+      "life_anc_h": 6.5,
+      "total_h": 54,
+      "bud_mah": 62,
+      "case_mah": 530
+    },
+    "charging": {
+      "port": "USB-C"
+    },
+    "build": {
+      "weight_g": 4.3,
+      "dimensions": {
+        "height_mm": 29.56,
+        "width_mm": 22.63,
+        "depth_mm": 19.69
+      },
+      "case_dimensions": {
+        "height_mm": 62.79,
+        "width_mm": 49.17,
+        "depth_mm": 25.15
+      },
+      "ip": "IP55",
+      "case_weight_g": 34.9
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 6.1"
+    },
+    "software": {
+      "app": "HeyMelody (Android and iPhone)"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "oppo",
+      "url": "https://www.oppo.com/my/accessories/enco-air5/specs/",
+      "checked": "2026-09-25",
+      "note": "Read from OPPO Malaysia’s specification page. Case weight is the listed earbuds-plus-case weight minus two earbuds."
+    }
+  },
+  "dataStatus": "compiled"
+}

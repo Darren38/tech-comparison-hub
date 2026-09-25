@@ -1,0 +1,103 @@
+{
+  "id": "google-pixel-8-pro",
+  "name": "Pixel 8 Pro",
+  "brand": "google",
+  "category": "smartphone",
+  "series": "Pixel",
+  "form": "bar",
+  "status": "released",
+  "announced": "2023",
+  "released": "2023",
+  "segment": "flagship",
+  "aliases": [
+    "Google Pixel 8 Pro"
+  ],
+  "summary": "Google’s 2023 flagship with a 5x telephoto, a temperature sensor and seven years of updates.",
+  "highlights": [
+    "5x telephoto",
+    "Seven years of updates",
+    "Tensor G3"
+  ],
+  "availability": {
+    "MY": {
+      "status": "not-launched",
+      "checked": "2026-09-25",
+      "source": "soyacincau",
+      "note": "Not sold officially in Malaysia (Google began selling Pixels here with the Pixel 9 in August 2024)."
+    }
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.7,
+      "type": "Super Actua LTPO OLED",
+      "resolution": "2992 × 1344",
+      "ppi": 489,
+      "refresh_hz": 120,
+      "peak_nits": 2400
+    },
+    "platform": {
+      "chipset_note": "Google Tensor G3 (not yet in the chipset database)"
+    },
+    "memory": {
+      "ram_gb": [
+        12
+      ],
+      "storage_gb": [
+        128,
+        256,
+        512,
+        1024
+      ]
+    },
+    "battery": {
+      "capacity_mah": 5050
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50
+        },
+        {
+          "role": "ultrawide",
+          "mp": 48
+        },
+        {
+          "role": "telephoto",
+          "mp": 48,
+          "zoom_x": 5
+        }
+      ],
+      "front": "10.5 MP",
+      "zoom_optical_x": 5
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 162.6,
+        "width_mm": 76.5,
+        "depth_mm": 8.8
+      },
+      "weight_g": 213,
+      "ip": "IP68"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "wifi": "Wi-Fi 7",
+      "bluetooth": "Bluetooth 5.3"
+    },
+    "software": {
+      "os_updates_years": 7,
+      "security_updates_years": 7
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "google",
+      "url": "https://support.google.com/pixelphone/answer/7158570?hl=en-GB",
+      "checked": "2026-09-25",
+      "note": "Read from Google’s Pixel phone hardware tech specs page (international figures)."
+    }
+  },
+  "dataStatus": "compiled"
+}

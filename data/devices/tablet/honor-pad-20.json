@@ -1,0 +1,86 @@
+{
+  "id": "honor-pad-20",
+  "name": "HONOR Pad 20",
+  "brand": "honor",
+  "category": "tablet",
+  "series": "HONOR Pad",
+  "form": "tablet",
+  "status": "released",
+  "announced": "2026-08",
+  "released": "2026-08",
+  "segment": "mid",
+  "aliases": [
+    "Pad 20"
+  ],
+  "summary": "HONOR’s 2026 12.1-inch 3K 120 Hz tablet with the Snapdragon 7 Gen 3.",
+  "highlights": [
+    "12.1-inch 3K 120 Hz",
+    "Snapdragon 7 Gen 3",
+    "10,100 mAh"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1999,
+      "config": "Wi-Fi",
+      "date": "2026-08-24",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2026/08/24/honor-pad-20-series-malaysia-local-launch-price-specs/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 12.1,
+      "type": "LCD",
+      "resolution": "3000 × 1872",
+      "ppi": 292,
+      "refresh_hz": 120,
+      "peak_nits": 700
+    },
+    "platform": {
+      "chipset": "snapdragon-7-gen-3"
+    },
+    "memory": {
+      "ram_gb": [
+        6,
+        8
+      ],
+      "storage_gb": [
+        256
+      ]
+    },
+    "battery": {
+      "capacity_mah": 10100
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 277.07,
+        "width_mm": 179.28,
+        "depth_mm": 6.29
+      },
+      "weight_g": 525
+    },
+    "connectivity": {
+      "cellular": "5G (optional)",
+      "wifi": "Wi-Fi 6",
+      "bluetooth": "Bluetooth 5.3"
+    },
+    "software": {
+      "launch_os": "MagicOS 10 (Android 16)"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "honor",
+      "url": "https://www.honor.com/my/tablets/honor-pad-20/spec/",
+      "checked": "2026-09-25",
+      "note": "Read from HONOR Malaysia’s specification page; launch month from Malaysian launch reports."
+    }
+  },
+  "dataStatus": "checked"
+}

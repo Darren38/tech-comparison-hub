@@ -42,8 +42,9 @@
     "fields": {
       "cpu.clusters": {
         "class": "database",
-        "source": "gsmarena",
-        "url": "https://www.gsmarena.com/here_are_the_iphone_18_pro_and_iphone_18_pro_max_geekbench_scores-news-74559.php",
+        "source": "gizmochina",
+        "url": "https://www.gizmochina.com/2026/09/10/iphone-18-pro-max-antutu-geekbench-apple-20-pro-performance/",
+        "checked": "2026-09-25",
         "note": "4.93 GHz clock read from a pre-release Geekbench listing; Apple does not publish clocks."
       }
     }

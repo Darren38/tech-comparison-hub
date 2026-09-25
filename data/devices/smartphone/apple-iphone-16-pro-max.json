@@ -148,13 +148,17 @@
     "fields": {
       "specs.memory.ram_gb": {
         "class": "database",
-        "source": "gsmarena",
-        "note": "Apple does not list RAM."
+        "source": "macrumors",
+        "url": "https://www.macrumors.com/2024/09/09/all-iphone-16-models-have-8gb-ram/",
+        "checked": "2026-09-25",
+        "note": "Found by MacRumors in Apple's Xcode 16; Apple does not advertise RAM."
       },
       "specs.battery.capacity_mah": {
         "class": "database",
-        "source": "gsmarena",
-        "note": "From regulatory filings reported by the press."
+        "source": "macrumors",
+        "url": "https://www.macrumors.com/2024/09/19/iphone-16-battery-capacities-revealed/",
+        "checked": "2026-09-25",
+        "note": "From Brazil's Anatel regulatory filing, as reported by MacRumors; Apple does not publish mAh."
       },
       "specs.charging.wired_w": {
         "class": "estimated",

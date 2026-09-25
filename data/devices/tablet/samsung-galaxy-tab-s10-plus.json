@@ -1,0 +1,93 @@
+{
+  "id": "samsung-galaxy-tab-s10-plus",
+  "name": "Galaxy Tab S10+",
+  "brand": "samsung",
+  "category": "tablet",
+  "series": "Galaxy Tab S",
+  "form": "tablet",
+  "status": "released",
+  "announced": "2024-09-26",
+  "released": "2024-10",
+  "segment": "flagship",
+  "aliases": [
+    "Tab S10+",
+    "Galaxy Tab S10 Plus"
+  ],
+  "summary": "Samsung’s 2024 12.4-inch AMOLED tablet with an anti-reflective screen, MediaTek’s Dimensity 9300+, S Pen included and IP68.",
+  "highlights": [
+    "Dimensity 9300+",
+    "12.4-inch AMOLED, anti-reflective",
+    "IP68, S Pen included"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 4599,
+      "config": "Wi-Fi, 12 GB / 256 GB",
+      "date": "2024-09-26",
+      "type": "launch",
+      "source": "samsung",
+      "url": "https://news.samsung.com/my/galaxy-tab-s10-series-is-samsungs-ai-ready-tablet",
+      "class": "official",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 12.4,
+      "type": "Dynamic AMOLED 2X, anti-reflection",
+      "resolution": "2800 × 1752",
+      "refresh_hz": 120
+    },
+    "platform": {
+      "chipset": "dimensity-9300-plus"
+    },
+    "memory": {
+      "ram_gb": [
+        12
+      ],
+      "storage_gb": [
+        256,
+        512
+      ],
+      "expandable": true
+    },
+    "battery": {
+      "capacity_mah": 10090
+    },
+    "charging": {
+      "wired_w": 45
+    },
+    "input": {
+      "stylus": "S Pen (Bluetooth) included"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 285.4,
+        "width_mm": 185.4,
+        "depth_mm": 5.6
+      },
+      "weight_g": 571,
+      "ip": "IP68"
+    },
+    "connectivity": {
+      "cellular": "5G (optional)",
+      "wifi": "Wi-Fi 6E",
+      "bluetooth": "Bluetooth 5.3"
+    },
+    "software": {
+      "launch_os": "Android 14"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "samsung",
+      "url": "https://news.samsung.com/my/galaxy-tab-s10-series-is-samsungs-ai-ready-tablet",
+      "checked": "2026-09-25",
+      "note": "Read from Samsung’s launch press release (specification table); Wi-Fi model weight."
+    }
+  },
+  "dataStatus": "checked"
+}

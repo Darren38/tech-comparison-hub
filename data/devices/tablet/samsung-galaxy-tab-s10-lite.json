@@ -1,0 +1,83 @@
+{
+  "id": "samsung-galaxy-tab-s10-lite",
+  "name": "Galaxy Tab S10 Lite",
+  "brand": "samsung",
+  "category": "tablet",
+  "series": "Galaxy Tab S",
+  "form": "tablet",
+  "status": "released",
+  "announced": "2025-08-25",
+  "released": "2025-09-19",
+  "segment": "mid",
+  "aliases": [
+    "Tab S10 Lite"
+  ],
+  "summary": "Samsung’s 2025 10.9-inch tablet with an S Pen in the box, the Exynos 1380 and an 8,000 mAh battery.",
+  "highlights": [
+    "S Pen included",
+    "10.9-inch",
+    "8,000 mAh"
+  ],
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-25",
+      "source": "samsung",
+      "note": "No Malaysian launch price was found in Samsung Malaysia’s releases or a launch report."
+    }
+  },
+  "specs": {
+    "display": {
+      "size_in": 10.9,
+      "type": "TFT LCD",
+      "resolution": "2112 × 1320",
+      "peak_nits": 600
+    },
+    "platform": {
+      "chipset": "exynos-1380"
+    },
+    "memory": {
+      "ram_gb": [
+        6,
+        8
+      ],
+      "storage_gb": [
+        128,
+        256
+      ],
+      "expandable": true
+    },
+    "battery": {
+      "capacity_mah": 8000
+    },
+    "input": {
+      "stylus": "S Pen included"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 254.3,
+        "width_mm": 165.8,
+        "depth_mm": 6.6
+      },
+      "weight_g": 524
+    },
+    "connectivity": {
+      "cellular": "5G (optional)",
+      "wifi": "Wi-Fi 6",
+      "bluetooth": "Bluetooth 5.3"
+    },
+    "software": {
+      "launch_os": "Android 15"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "samsung",
+      "url": "https://news.samsung.com/global/galaxy-tab-s10-lite-a-value-packed-tablet-for-everyday-needs",
+      "checked": "2026-09-25",
+      "note": "Read from Samsung’s launch press release (specification table); Wi-Fi model weight."
+    }
+  },
+  "dataStatus": "checked"
+}

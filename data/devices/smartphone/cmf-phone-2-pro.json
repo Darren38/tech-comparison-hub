@@ -1,0 +1,125 @@
+{
+  "id": "cmf-phone-2-pro",
+  "name": "CMF Phone 2 Pro",
+  "brand": "nothing",
+  "category": "smartphone",
+  "series": "CMF Phone",
+  "form": "bar",
+  "status": "released",
+  "announced": "2025-04-29",
+  "released": "2025-04-29",
+  "segment": "entry",
+  "aliases": [
+    "CMF Phone 2 Pro",
+    "CMF Phone 2 Pro"
+  ],
+  "summary": "A budget phone with a rare 2x telephoto camera, a bright 3,000-nit AMOLED screen and six years of security updates.",
+  "highlights": [
+    "50 MP 2x telephoto",
+    "3,000-nit AMOLED",
+    "6 years of security updates"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1199,
+      "config": "Launch price",
+      "date": "2025-04-29",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/04/29/cmf-phone-2-pro-malaysia-launch-price-specs-official/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 6.77,
+      "type": "AMOLED",
+      "resolution": "2392 × 1084",
+      "ppi": 387,
+      "peak_nits": 3000,
+      "refresh_hz": 120
+    },
+    "platform": {
+      "chipset": "dimensity-7300",
+      "chipset_note": "Dimensity 7300 Pro (Nothing’s name for its version)"
+    },
+    "memory": {
+      "ram_gb": [
+        8
+      ],
+      "storage_gb": [
+        128,
+        256
+      ],
+      "expandable": true
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "charging": {
+      "wired_w": 33,
+      "reverse_w": 5
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "focal_mm": 24
+        },
+        {
+          "role": "telephoto",
+          "mp": 50,
+          "focal_mm": 50
+        },
+        {
+          "role": "ultrawide",
+          "mp": 8,
+          "focal_mm": 15
+        }
+      ],
+      "front": "16 MP",
+      "zoom_optical_x": 2,
+      "video": "4K 30 fps"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 164,
+        "width_mm": 78,
+        "depth_mm": 7.8
+      },
+      "weight_g": 185
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true,
+      "wifi": "Wi-Fi 6",
+      "bluetooth": "Bluetooth 5.4"
+    },
+    "software": {
+      "launch_os": "Nothing OS 3.2 (Android 15)",
+      "os_updates_years": 3,
+      "security_updates_years": 6
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "nothing",
+      "url": "https://intl.nothing.tech/products/cmf-phone-2-pro",
+      "checked": "2026-09-25",
+      "note": "Read from the specs section of Nothing’s international store page."
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://cdn.shopify.com/s/files/1/0585/2479/5086/files/Phone2Pro-1352x1352-Orange-Back.png",
+    "page": "https://intl.nothing.tech/products/cmf-phone-2-pro",
+    "credit": "Nothing",
+    "checked": "2026-09-25"
+  }
+}

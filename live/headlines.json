@@ -1,7 +1,13 @@
 {
- "fetchedAt": "2026-09-24T15:55:04+00:00",
+ "fetchedAt": "2026-09-25T02:39:40+00:00",
  "maxAgeDays": 45,
  "feeds": [
+  {
+   "source": "9to5google",
+   "kind": "news",
+   "ok": true,
+   "kept": 20
+  },
   {
    "source": "9to5mac",
    "kind": "news",
@@ -9,10 +15,10 @@
    "kept": 20
   },
   {
-   "source": "android-police",
+   "source": "apple-newsroom",
    "kind": "news",
    "ok": true,
-   "kept": 5
+   "kept": 8
   },
   {
    "source": "beebom",
@@ -24,7 +30,7 @@
    "source": "engadget",
    "kind": "news",
    "ok": true,
-   "kept": 3
+   "kept": 4
   },
   {
    "source": "fonearena",
@@ -45,10 +51,16 @@
    "kept": 20
   },
   {
+   "source": "google-blog",
+   "kind": "news",
+   "ok": true,
+   "kept": 0
+  },
+  {
    "source": "gsmarena",
    "kind": "news",
    "ok": true,
-   "kept": 12
+   "kept": 11
   },
   {
    "source": "ifanr",
@@ -60,7 +72,7 @@
    "source": "ithome",
    "kind": "news",
    "ok": true,
-   "kept": 5
+   "kept": 10
   },
   {
    "source": "jerryrigeverything",
@@ -72,7 +84,7 @@
    "source": "macrumors",
    "kind": "news",
    "ok": true,
-   "kept": 8
+   "kept": 9
   },
   {
    "source": "malaymail",
@@ -101,9 +113,8 @@
   {
    "source": "mydrivers",
    "kind": "news",
-   "ok": false,
-   "kept": 0,
-   "error": "TimeoutError: The read operation timed out"
+   "ok": true,
+   "kept": 12
   },
   {
    "source": "notebookcheck",
@@ -121,25 +132,31 @@
    "source": "sammobile",
    "kind": "news",
    "ok": true,
-   "kept": 6
+   "kept": 7
   },
   {
    "source": "sammyfans",
    "kind": "news",
    "ok": true,
-   "kept": 4
+   "kept": 6
+  },
+  {
+   "source": "samsung-newsroom",
+   "kind": "news",
+   "ok": true,
+   "kept": 16
   },
   {
    "source": "soyacincau",
    "kind": "news",
    "ok": true,
-   "kept": 2
+   "kept": 4
   },
   {
    "source": "technave",
    "kind": "news",
    "ok": true,
-   "kept": 10
+   "kept": 13
   },
   {
    "source": "zinggadget",
@@ -150,6 +167,575 @@
  ],
  "items": [
   {
+   "id": "176cf29d68cf",
+   "title": "Every Galaxy S Ultra has had the same size battery, but that’s about to change",
+   "url": "https://www.sammobile.com/news/every-samsung-galaxy-s-ultra-battery-capacity/",
+   "source": "sammobile",
+   "kind": "news",
+   "published": "2026-09-25T02:28+00:00",
+   "devices": [],
+   "image": null,
+   "topic": "news"
+  },
+  {
+   "id": "03c37b1ae22c",
+   "title": "iQOO 16 手机官宣升级 5000 万像素 1/1.3\" 主摄，采用蓝厂 vivo 旗舰同款算法",
+   "url": "https://www.ithome.com/1/007/093.htm",
+   "source": "ithome",
+   "lang": "zh",
+   "kind": "news",
+   "published": "2026-09-25T02:21+00:00",
+   "devices": [],
+   "image": "https://img.ithome.com/newsuploadfiles/2026/9/ecd5698a-b313-4839-b4a3-2c373303108a.jpg",
+   "topic": "software"
+  },
+  {
+   "id": "0972a0cb736e",
+   "title": "索尼新专利：PS 手柄变支付终端，手机 / 信用卡一碰就买单",
+   "url": "https://www.ithome.com/1/007/092.htm",
+   "source": "ithome",
+   "lang": "zh",
+   "kind": "news",
+   "published": "2026-09-25T02:21+00:00",
+   "devices": [],
+   "image": "https://img.ithome.com/newsuploadfiles/2026/9/18b423ec-b22c-4a1d-adc2-c18a68d90220.jpg",
+   "topic": "news"
+  },
+  {
+   "id": "cd6799620cfc",
+   "title": "【IT之家开箱】小米 Watch S5 41mm 智能手表图赏：莹白陶瓷表圈 + 24 道精雕表冠，主打精致佩戴",
+   "url": "https://www.ithome.com/1/007/088.htm",
+   "source": "ithome",
+   "lang": "zh",
+   "kind": "news",
+   "published": "2026-09-25T02:07+00:00",
+   "devices": [],
+   "image": "https://img.ithome.com/newsuploadfiles/2026/9/50399287-2b31-42a3-8c34-295bbf9b0516.jpg",
+   "topic": "news"
+  },
+  {
+   "id": "8a04ca10e4fb",
+   "title": "Android 17 QPR2 Beta 6 arrives with 5 key enhancements",
+   "url": "https://www.sammyfans.com/2026/09/24/android-17-qpr2-beta-6-arrives-with-5-key-enhancements/",
+   "source": "sammyfans",
+   "kind": "news",
+   "published": "2026-09-25T01:58+00:00",
+   "devices": [],
+   "image": null,
+   "topic": "software"
+  },
+  {
+   "id": "5ef7e5dae7f6",
+   "title": "【互动】苹果 iOS 27.2 绝杀摇一摇广告，你想拉黑谁？",
+   "url": "https://www.ithome.com/1/007/079.htm",
+   "source": "ithome",
+   "lang": "zh",
+   "kind": "news",
+   "published": "2026-09-25T01:31+00:00",
+   "devices": [],
+   "image": "https://img.ithome.com/newsuploadfiles/2026/9/4b1bc712-8112-46d4-a37e-a658abad6fae.jpg?x-bce-process=image/format,f_auto",
+   "topic": "software"
+  },
+  {
+   "id": "80104d7064ff",
+   "title": "vivo 推出 Y600i 手机：第二代骁龙 4、电池 8000mAh，售价 1699 元起",
+   "url": "https://www.ithome.com/1/007/076.htm",
+   "source": "ithome",
+   "lang": "zh",
+   "kind": "news",
+   "published": "2026-09-25T01:23+00:00",
+   "devices": [],
+   "image": "https://img.ithome.com/newsuploadfiles/2026/9/fbd090c3-6452-499c-ab73-d4a6b91fc3f6.png?x-bce-process=image/format,f_auto",
+   "topic": "price"
+  },
+  {
+   "id": "dd6b16fbd671",
+   "title": "Galaxy S27 Ultra may introduce split screen Privacy Display feature",
+   "url": "https://www.sammyfans.com/2026/09/24/galaxy-s27-ultra-may-introduce-split-screen-privacy-display-feature/",
+   "source": "sammyfans",
+   "kind": "news",
+   "published": "2026-09-25T01:21+00:00",
+   "devices": [],
+   "image": null,
+   "topic": "news"
+  },
+  {
+   "id": "412e3d9b11e5",
+   "title": "Onyx rolls out Android 13 update for Boox Go 6 Gen II",
+   "url": "https://www.notebookcheck.net/Onyx-rolls-out-Android-13-update-for-Boox-Go-6-Gen-II.1407708.0.html",
+   "source": "notebookcheck",
+   "kind": "news",
+   "published": "2026-09-25T01:04+00:00",
+   "devices": [],
+   "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/Boox-Go-6-Gen-II.jpg",
+   "topic": "software"
+  },
+  {
+   "id": "829b67904723",
+   "title": "Meta 推出 2 款 AI 工具，让用户在手机端直接构建游戏",
+   "url": "https://www.ithome.com/1/007/068.htm",
+   "source": "ithome",
+   "lang": "zh",
+   "kind": "news",
+   "published": "2026-09-25T00:34+00:00",
+   "devices": [],
+   "image": "https://img.ithome.com/newsuploadfiles/2026/9/d6093ea1-3911-4a1c-989d-655f9b815b91.png?x-bce-process=image/format,f_auto",
+   "topic": "news"
+  },
+  {
+   "id": "c4d11271ba8c",
+   "title": "Intel下代处理器还没发：LGA 1954水冷头已开卖！要价780元",
+   "url": "https://news.mydrivers.com/1/1153/1153904.htm",
+   "source": "mydrivers",
+   "lang": "zh",
+   "kind": "news",
+   "published": "2026-09-25T00:19+00:00",
+   "devices": [],
+   "image": "https://img1.mydrivers.com/img/20260925/S624467a8-aecd-40ca-b771-ef9374f716d5.png",
+   "topic": "news"
+  },
+  {
+   "id": "46c573a3e97a",
+   "title": "苹果 Apple Watch Ultra 4 部分表盘现支持“身体状态准备指数”评分",
+   "url": "https://www.ithome.com/1/007/065.htm",
+   "source": "ithome",
+   "lang": "zh",
+   "kind": "news",
+   "published": "2026-09-25T00:16+00:00",
+   "devices": [
+    "apple-watch-ultra-4"
+   ],
+   "image": "https://img.ithome.com/newsuploadfiles/2026/9/be174040-b3f5-4cca-a709-c8b373dbdea9.png",
+   "topic": "news"
+  },
+  {
+   "id": "9e0694d92508",
+   "title": "苹果 iOS 27 升级家长控制：筛选应用类型、优化设置流程等",
+   "url": "https://www.ithome.com/1/007/062.htm",
+   "source": "ithome",
+   "lang": "zh",
+   "kind": "news",
+   "published": "2026-09-25T00:07+00:00",
+   "devices": [],
+   "image": "https://img.ithome.com/newsuploadfiles/2026/9/b256f95a-a6e9-4388-ac2c-10ebf49185a1.jpg?x-bce-process=image/format,f_auto",
+   "topic": "software"
+  },
+  {
+   "id": "bb00f4bb0fd4",
+   "title": "Pixel Weather homescreen widget adds manual refresh button",
+   "url": "https://9to5google.com/2026/09/24/pixel-weather-widget-refresh/",
+   "source": "9to5google",
+   "kind": "news",
+   "published": "2026-09-24T23:48+00:00",
+   "devices": [],
+   "image": null,
+   "topic": "news"
+  },
+  {
+   "id": "8d61b9f9bbfd",
+   "title": "IT早报 0925：李佳琦称 AI 无法取代真人主播；华为余承东称会让每个界都获更充足资源；营业厅“0 元购机”全面停办；国补 5499 元荣耀 Magic9 价格提前公布...",
+   "url": "https://www.ithome.com/1/007/058.htm",
+   "source": "ithome",
+   "lang": "zh",
+   "kind": "news",
+   "published": "2026-09-24T23:46+00:00",
+   "devices": [],
+   "image": "https://img.ithome.com/newsuploadfiles/2026/9/cd069570-0cb5-4acb-990b-96ad11d5024e.png",
+   "topic": "price"
+  },
+  {
+   "id": "f2fee2ee06c6",
+   "title": "苹果 watchOS 27.2 隐藏功能：Apple Watch Series 12 等截图将支持即时预览与删除",
+   "url": "https://www.ithome.com/1/007/054.htm",
+   "source": "ithome",
+   "lang": "zh",
+   "kind": "news",
+   "published": "2026-09-24T23:31+00:00",
+   "devices": [
+    "apple-watch-series-12"
+   ],
+   "image": "https://img.ithome.com/newsuploadfiles/2026/9/4fff2402-33e6-4e57-8d14-6c0525ade0d7.png?x-bce-process=image/format,f_auto",
+   "topic": "software"
+  },
+  {
+   "id": "fa6e3050f8f2",
+   "title": "TestFlight App Gets New iOS 27 Features",
+   "url": "https://www.macrumors.com/2026/09/24/testflight-ios-27-update/",
+   "source": "macrumors",
+   "kind": "news",
+   "published": "2026-09-24T22:28+00:00",
+   "devices": [],
+   "image": "https://images.macrumors.com/article-new/2025/01/TestFlight-Banner.jpg",
+   "topic": "software"
+  },
+  {
+   "id": "01194c503500",
+   "title": "Snapdragon Sound Elite Gen 2 unveiled: Qualcomm’s first premium audio chip that understands what’s going on",
+   "url": "https://www.gizmochina.com/2026/09/24/snapdragon-sound-elite-gen-2-unveiled-qualcomms-first-premium-audio-chip-that-understands-whats-going-on/",
+   "source": "gizmochina",
+   "kind": "news",
+   "published": "2026-09-24T22:21+00:00",
+   "devices": [],
+   "image": "https://www.gizmochina.com/wp-content/uploads/2026/09/Screenshot-2026-09-25-033346-300x168.png?x96852",
+   "topic": "launch"
+  },
+  {
+   "id": "a9332f2a29e6",
+   "title": "Huawei launches tablet with 12-inch 2.8K 144Hz display, 10,100mAh battery and 50MP camera",
+   "url": "https://www.notebookcheck.net/Huawei-launches-tablet-with-12-inch-2-8K-144Hz-display-10-100mAh-battery-and-50MP-camera.1407263.0.html",
+   "source": "notebookcheck",
+   "kind": "news",
+   "published": "2026-09-24T21:00+00:00",
+   "devices": [],
+   "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/huawei-matepad-air-z-colors.png",
+   "topic": "launch"
+  },
+  {
+   "id": "e7863d2126bd",
+   "title": "Google rolling out Android 17 QPR2 Beta 6 for Pixel",
+   "url": "https://9to5google.com/2026/09/24/google-rolling-out-android-17-qpr2-beta-6-for-pixel/",
+   "source": "9to5google",
+   "kind": "news",
+   "published": "2026-09-24T20:45+00:00",
+   "devices": [],
+   "image": "https://9to5google.com/wp-content/uploads/sites/4/2026/06/Android-17-launch-logo-2.jpg?quality=82&strip=all&w=1600",
+   "topic": "software"
+  },
+  {
+   "id": "441029b678f2",
+   "title": "Big Pixel VIPs widget redesign starts rolling out",
+   "url": "https://9to5google.com/2026/09/24/pixel-vips-widget-redesign/",
+   "source": "9to5google",
+   "kind": "news",
+   "published": "2026-09-24T20:32+00:00",
+   "devices": [],
+   "image": null,
+   "topic": "news"
+  },
+  {
+   "id": "76c367c48c27",
+   "title": "Apple Maps just added two new features in iOS 27",
+   "url": "https://9to5mac.com/2026/09/24/heres-everything-new-for-apple-maps-in-ios-27/",
+   "source": "9to5mac",
+   "kind": "news",
+   "published": "2026-09-24T19:55+00:00",
+   "devices": [],
+   "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/04/apple-maps-generic-3d.jpg?quality=82&strip=all&w=1600",
+   "topic": "software"
+  },
+  {
+   "id": "2e20ed36255c",
+   "title": "Bellroy’s leather Pixel 11 Pro case is a keeper",
+   "url": "https://9to5google.com/2026/09/24/bellroys-leather-pixel-11-pro-case-is-a-keeper/",
+   "source": "9to5google",
+   "kind": "news",
+   "published": "2026-09-24T19:11+00:00",
+   "devices": [
+    "google-pixel-11-pro"
+   ],
+   "image": null,
+   "topic": "news"
+  },
+  {
+   "id": "382fd2c49b98",
+   "title": "Xiaomi releases Pocket Guitar to transform Xiaomi 18 Pro and iPhones into musical instruments",
+   "url": "https://www.notebookcheck.net/Xiaomi-releases-Pocket-Guitar-to-transform-Xiaomi-18-Pro-and-iPhones-into-musical-instruments.1407356.0.html",
+   "source": "notebookcheck",
+   "kind": "news",
+   "published": "2026-09-24T18:44+00:00",
+   "devices": [
+    "xiaomi-18-pro"
+   ],
+   "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/xiaomi-pocket-guitar-release-kv.jpg",
+   "topic": "news"
+  },
+  {
+   "id": "c3d7f6410ccc",
+   "title": "2026 Flagships are going to be wild! (Snapdragon 8 Elite Extreme Gen 6)",
+   "url": "https://www.notebookcheck.net/2026-Flagships-are-going-to-be-wild-Snapdragon-8-Elite-Extreme-Gen-6.1407692.0.html",
+   "source": "notebookcheck",
+   "kind": "news",
+   "published": "2026-09-24T18:41+00:00",
+   "devices": [],
+   "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/_1053276.jpg",
+   "chipsets": [
+    "snapdragon-8-elite-extreme-gen-6"
+   ],
+   "topic": "news"
+  },
+  {
+   "id": "313a948abfc7",
+   "title": "YouTuber builds a desk-sized Apple AirPower that finds your phone and charges it automatically",
+   "url": "https://www.notebookcheck.net/YouTuber-builds-a-desk-sized-Apple-AirPower-that-finds-your-phone-and-charges-it-automatically.1407656.0.html",
+   "source": "notebookcheck",
+   "kind": "news",
+   "published": "2026-09-24T18:14+00:00",
+   "devices": [],
+   "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/htx-studio-airpower-pro-max-ultra-plus-desk.jpg",
+   "topic": "news"
+  },
+  {
+   "id": "09f2fb431e06",
+   "title": "230 million cheap smartphones could disappear by 2030",
+   "url": "https://www.sammyfans.com/2026/09/24/230-million-cheap-smartphones-could-disappear-by-2030/",
+   "source": "sammyfans",
+   "kind": "news",
+   "published": "2026-09-24T17:58+00:00",
+   "devices": [],
+   "image": "https://www.sammyfans.com/wp-content/uploads/2026/09/counterpoint-research-cheap-phones-2030-img-1024x574.jpg",
+   "topic": "news"
+  },
+  {
+   "id": "15c676da77fb",
+   "title": "Verizon finally launches the Motorola Razr Fold, Razr+ 2026, and Razr 2026 with Swarovski crystals",
+   "url": "https://www.gsmarena.com/verizon_finally_launches_the_motorola_razr_fold_razr_2026_and_razr_2026_with_swarovski_crystals-news-74759.php",
+   "source": "gsmarena",
+   "kind": "news",
+   "published": "2026-09-24T17:55+00:00",
+   "devices": [],
+   "image": null,
+   "topic": "launch"
+  },
+  {
+   "id": "33315062d5c0",
+   "title": "Android’s Create My Widget ‘app’ detailed on phones, Googlebooks",
+   "url": "https://9to5google.com/2026/09/24/google-create-my-widget-app/",
+   "source": "9to5google",
+   "kind": "news",
+   "published": "2026-09-24T17:45+00:00",
+   "devices": [],
+   "image": "https://9to5google.com/wp-content/uploads/sites/4/2026/09/Googlebook-homescreen.jpg?quality=82&strip=all&w=1600",
+   "topic": "news"
+  },
+  {
+   "id": "33da0e9809d3",
+   "title": "9to5Mac Daily: September 24, 2026 – iPhone Handoff, iOS 27 updates",
+   "url": "https://9to5mac.com/2026/09/24/9to5mac-daily-september-24-2026-iphone-handoff-ios-27-updates/",
+   "source": "9to5mac",
+   "kind": "news",
+   "published": "2026-09-24T17:36+00:00",
+   "devices": [],
+   "image": "https://9to5mac.com/wp-content/uploads/sites/6/2021/12/9to5Mac-Daily-art-lead.jpg?quality=82&strip=all&w=1600",
+   "topic": "software"
+  },
+  {
+   "id": "5f203558536d",
+   "title": "watchOS 27.2 Code Hints at iPhone-Style Screenshot Previews",
+   "url": "https://www.macrumors.com/2026/09/24/watchos-27-2-screenshot-previews/",
+   "source": "macrumors",
+   "kind": "news",
+   "published": "2026-09-24T17:36+00:00",
+   "devices": [],
+   "image": "https://images.macrumors.com/article-new/2026/09/watchos-27-2-screenshot.jpg",
+   "topic": "software"
+  },
+  {
+   "id": "690ee1773ed4",
+   "title": "Motorola Signature 27 confirmed to support GrapheneOS",
+   "url": "https://9to5google.com/2026/09/24/motorola-signature-27-confirmed-to-support-grapheneos/",
+   "source": "9to5google",
+   "kind": "news",
+   "published": "2026-09-24T17:30+00:00",
+   "devices": [
+    "motorola-signature-27"
+   ],
+   "image": "https://9to5google.com/wp-content/uploads/sites/4/2026/09/motorola-signature-27-3.jpg?quality=82&strip=all&w=1600",
+   "topic": "news"
+  },
+  {
+   "id": "e994bd3b01af",
+   "title": "Apple Watch Ultra 4 includes a new watch face bezel option",
+   "url": "https://9to5mac.com/2026/09/24/apple-watch-ultra-4-includes-a-new-watch-face-bezel-option/",
+   "source": "9to5mac",
+   "kind": "news",
+   "published": "2026-09-24T17:29+00:00",
+   "devices": [
+    "apple-watch-ultra-4"
+   ],
+   "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/09/apple-watch-uotra-4-readiness.webp?w=1600",
+   "topic": "news"
+  },
+  {
+   "id": "11da2209f8db",
+   "title": "watchOS 27.2 includes hidden overhaul for Apple Watch screenshots",
+   "url": "https://9to5mac.com/2026/09/24/watchos-27-2-includes-hidden-overhaul-for-apple-watch-screenshots/",
+   "source": "9to5mac",
+   "kind": "news",
+   "published": "2026-09-24T17:24+00:00",
+   "devices": [],
+   "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/08/apple-watch-ultra-3-watchos-27-2.jpg?quality=82&strip=all&w=1600",
+   "topic": "software"
+  },
+  {
+   "id": "80f8551ed732",
+   "title": "Samsung Galaxy A36 and A56 get unexpected price hike in India",
+   "url": "https://www.sammyfans.com/2026/09/24/samsung-galaxy-a36-and-a56-get-unexpected-price-hike-in-india/",
+   "source": "sammyfans",
+   "kind": "news",
+   "published": "2026-09-24T17:11+00:00",
+   "devices": [
+    "samsung-galaxy-a36-5g"
+   ],
+   "image": null,
+   "topic": "price"
+  },
+  {
+   "id": "6c16c3d05f4f",
+   "title": "Meta just showed Samsung what Galaxy Glasses don’t need to become",
+   "url": "https://www.sammobile.com/opinion/meta-just-showed-samsung-what-galaxy-glasses-dont-need-to-become/",
+   "source": "sammobile",
+   "kind": "news",
+   "published": "2026-09-24T17:00+00:00",
+   "devices": [],
+   "image": "https://www.sammobile.com/wp-content/uploads/2026/09/Meta-VR-Glasses.jpg",
+   "topic": "news"
+  },
+  {
+   "id": "5b4488fc754d",
+   "title": "Google rolling out blood pressure & insulin resistance, more on Pixel Watch 3, 4, 5",
+   "url": "https://9to5google.com/2026/09/24/pixel-watch-blood-pressure-insulin-resistance/",
+   "source": "9to5google",
+   "kind": "news",
+   "published": "2026-09-24T17:00+00:00",
+   "devices": [
+    "google-pixel-watch-3"
+   ],
+   "image": null,
+   "topic": "news"
+  },
+  {
+   "id": "9f17bf289657",
+   "title": "The Pixel Watch 5's blood pressure and insulin resistance trends are rolling out this week",
+   "url": "https://www.engadget.com/2267200/pixel-watch-5-blood-pressure-and-insulin-resistance-trends-are-rolling-out-this-week/",
+   "source": "engadget",
+   "kind": "news",
+   "published": "2026-09-24T17:00+00:00",
+   "devices": [
+    "google-pixel-watch-5"
+   ],
+   "image": null,
+   "topic": "news"
+  },
+  {
+   "id": "605be9578c24",
+   "title": "Samsung open-ear Galaxy Buds On images show what they look like when worn",
+   "url": "https://9to5google.com/2026/09/24/samsung-open-ear-galaxy-buds-on-images-show-what-they-look-like-when-worn/",
+   "source": "9to5google",
+   "kind": "news",
+   "published": "2026-09-24T16:59+00:00",
+   "devices": [],
+   "image": "https://9to5google.com/wp-content/uploads/sites/4/2026/09/Galaxy-Buds-On-leak.jpg?quality=82&strip=all&w=1400",
+   "topic": "news"
+  },
+  {
+   "id": "8f42f33606c7",
+   "title": "Apple Shares New Video Promoting iOS 27 Parental Controls",
+   "url": "https://www.macrumors.com/2026/09/24/ios-27-parental-controls-video/",
+   "source": "macrumors",
+   "kind": "news",
+   "published": "2026-09-24T16:58+00:00",
+   "devices": [],
+   "image": null,
+   "topic": "software"
+  },
+  {
+   "id": "17a195eac319",
+   "title": "OnePlus 16 complete camera hardware detailed",
+   "url": "https://www.gsmarena.com/oneplus_16_complete_camera_hardware_detailed-news-74743.php",
+   "source": "gsmarena",
+   "kind": "news",
+   "published": "2026-09-24T16:38+00:00",
+   "devices": [],
+   "image": null,
+   "topic": "news"
+  },
+  {
+   "id": "7a34c31c0e19",
+   "title": "One UI 9 stable update has these 14 new features, 5 changes, and 10 improvements",
+   "url": "https://www.sammyfans.com/2026/09/24/one-ui-9-stable-update-features-changes-improvements/",
+   "source": "sammyfans",
+   "kind": "news",
+   "published": "2026-09-24T16:30+00:00",
+   "devices": [],
+   "image": null,
+   "topic": "software"
+  },
+  {
+   "id": "7e5a0bbdb305",
+   "title": "Meta’s first VR glasses rival Galaxy XR with a lighter design",
+   "url": "https://www.sammobile.com/news/meta-vr-glasses-launched-price-rival-galaxy-xr-lighter-design/",
+   "source": "sammobile",
+   "kind": "news",
+   "published": "2026-09-24T16:29+00:00",
+   "devices": [],
+   "image": "https://www.sammobile.com/wp-content/uploads/2026/09/Meta-VR-Glasses-Lenses.jpg",
+   "topic": "news"
+  },
+  {
+   "id": "e17c9b4f34a7",
+   "title": "iPhone用户全体起立！摇一摇广告终于被苹果干了",
+   "url": "https://news.mydrivers.com/1/1153/1153888.htm",
+   "source": "mydrivers",
+   "lang": "zh",
+   "kind": "news",
+   "published": "2026-09-24T16:15+00:00",
+   "devices": [],
+   "image": "https://img1.mydrivers.com/img/20260925/5e2519285c344667bb7e886b9a2b5a13.gif",
+   "topic": "news"
+  },
+  {
+   "id": "f933d4230744",
+   "title": "Samsung starts rolling out Android 17, One UI 9 to Galaxy S26 in the US following delay",
+   "url": "https://9to5google.com/2026/09/24/samsung-galaxy-s26-one-ui-9-android-17-rollout/",
+   "source": "9to5google",
+   "kind": "news",
+   "published": "2026-09-24T16:10+00:00",
+   "devices": [
+    "samsung-galaxy-s26"
+   ],
+   "image": "https://9to5google.com/wp-content/uploads/sites/4/2026/03/Sky-blue-S26-Ultra-2.jpg?quality=82&strip=all&w=1600",
+   "topic": "software"
+  },
+  {
+   "id": "022cc47bcc32",
+   "title": "Pixel 11 starts testing ‘Call for Me’ to have Gemini phone on your behalf",
+   "url": "https://9to5google.com/2026/09/24/pixel-11-call-for-me/",
+   "source": "9to5google",
+   "kind": "news",
+   "published": "2026-09-24T16:00+00:00",
+   "devices": [
+    "google-pixel-11"
+   ],
+   "image": null,
+   "topic": "news"
+  },
+  {
+   "id": "ae28f4351d4a",
+   "title": "Pixel 11's Call For Me feature begins preliminary rollout",
+   "url": "https://www.engadget.com/2267120/pixel-11-call-for-me-feature-begins-preliminary-rollout/",
+   "source": "engadget",
+   "kind": "news",
+   "published": "2026-09-24T16:00+00:00",
+   "devices": [
+    "google-pixel-11"
+   ],
+   "image": null,
+   "topic": "news"
+  },
+  {
+   "id": "e86d37ea73cf",
+   "title": "Apple Watch Ultra 2 vs. Ultra 4 Buyer's Guide: Should You Upgrade?",
+   "url": "https://www.macrumors.com/guide/apple-watch-ultra-2-vs-ultra-4/",
+   "source": "macrumors",
+   "kind": "review",
+   "published": "2026-09-24T15:55+00:00",
+   "devices": [
+    "apple-watch-ultra-2"
+   ],
+   "image": "https://images.macrumors.com/article-new/2026/09/apple-watch-ultra.jpg",
+   "topic": "review"
+  },
+  {
    "id": "e79009b19ada",
    "title": "Garmin releases new update for popular smartwatches with fresh improvement",
    "url": "https://www.notebookcheck.net/Garmin-releases-new-update-for-popular-smartwatches-with-fresh-improvement.1407310.0.html",
@@ -157,7 +743,21 @@
    "kind": "news",
    "published": "2026-09-24T15:54+00:00",
    "devices": [],
-   "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/instinct-3-update-1519-release-kv.jpg"
+   "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/instinct-3-update-1519-release-kv.jpg",
+   "topic": "software"
+  },
+  {
+   "id": "2d442e350111",
+   "title": "Deals: Pixel 11 from under $750, TCL NXTPAPER phones from $180, up to $1,100 off Copilot+ PCs and laptops, more",
+   "url": "https://9to5google.com/2026/09/24/score-unlocked-pixel-11-at-under-750-via-best-buy-today/",
+   "source": "9to5google",
+   "kind": "news",
+   "published": "2026-09-24T15:40+00:00",
+   "devices": [
+    "google-pixel-11"
+   ],
+   "image": "https://9to5google.com/wp-content/uploads/sites/4/2026/09/9to5Google-Sep-24.webp?w=1600",
+   "topic": "price"
   },
   {
    "id": "8e053cf6ab3c",
@@ -167,17 +767,8 @@
    "kind": "news",
    "published": "2026-09-24T15:31+00:00",
    "devices": [],
-   "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/09/Apple-deals-Apple-Watch-Ultra-MacBook-Air.jpg?quality=82&strip=all&w=1600"
-  },
-  {
-   "id": "4a41f36ded3f",
-   "title": "Some Pixel owners just found another free year of Google AI Pro hiding in their accounts",
-   "url": "https://www.androidpolice.com/you-might-be-eligible-for-a-second-free-year-of-google-ai-pro-but-no-one-is-sure-why/",
-   "source": "android-police",
-   "kind": "news",
-   "published": "2026-09-24T15:29+00:00",
-   "devices": [],
-   "image": null
+   "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/09/Apple-deals-Apple-Watch-Ultra-MacBook-Air.jpg?quality=82&strip=all&w=1600",
+   "topic": "price"
   },
   {
    "id": "2615b1a41654",
@@ -189,7 +780,8 @@
    "devices": [
     "apple-iphone-18-pro"
    ],
-   "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/09/iphone-18-pro-burgundy-rc.jpg?quality=82&strip=all&w=1600"
+   "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/09/iphone-18-pro-burgundy-rc.jpg?quality=82&strip=all&w=1600",
+   "topic": "news"
   },
   {
    "id": "dfc9baa88220",
@@ -199,7 +791,8 @@
    "kind": "review",
    "published": "2026-09-24T15:25+00:00",
    "devices": [],
-   "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/09/photos-vs-photoshop.jpg?quality=82&strip=all&w=1600"
+   "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/09/photos-vs-photoshop.jpg?quality=82&strip=all&w=1600",
+   "topic": "review"
   },
   {
    "id": "b45eb79d8111",
@@ -211,7 +804,8 @@
    "devices": [
     "xiaomi-18-pro"
    ],
-   "image": "https://www.engadget.com/img/gallery/xiaomis-18-pro-series-phones-have-the-latest-snapdragon-chip-and-a-samsung-like-privacy-screen/l-intro-1790263359.jpg"
+   "image": "https://www.engadget.com/img/gallery/xiaomis-18-pro-series-phones-have-the-latest-snapdragon-chip-and-a-samsung-like-privacy-screen/l-intro-1790263359.jpg",
+   "topic": "news"
   },
   {
    "id": "b4876c84ab58",
@@ -221,7 +815,8 @@
    "kind": "news",
    "published": "2026-09-24T15:17+00:00",
    "devices": [],
-   "image": null
+   "image": null,
+   "topic": "news"
   },
   {
    "id": "09fc67562046",
@@ -231,7 +826,22 @@
    "kind": "news",
    "published": "2026-09-24T15:14+00:00",
    "devices": [],
-   "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/iqoo-pad-leak-teaser.jpg"
+   "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/iqoo-pad-leak-teaser.jpg",
+   "topic": "price"
+  },
+  {
+   "id": "cf66ae0b0277",
+   "title": "最完美的防窥手机！小米18 Pro靠一块屏幕戳中了多少人的隐私焦虑",
+   "url": "https://news.mydrivers.com/1/1153/1153882.htm",
+   "source": "mydrivers",
+   "lang": "zh",
+   "kind": "news",
+   "published": "2026-09-24T15:12+00:00",
+   "devices": [
+    "xiaomi-18-pro"
+   ],
+   "image": "https://img1.mydrivers.com/img/20260924/S3de1c18a-cc72-49e9-bfd4-f5254e3f2d1b.png",
+   "topic": "news"
   },
   {
    "id": "82540a932d63",
@@ -243,7 +853,21 @@
    "devices": [
     "xiaomi-18-pro"
    ],
-   "image": "https://www.gizmochina.com/wp-content/uploads/2026/09/Xiaomi-18-Pro-Series-Unboxing_1.mp4_20260924_182100.987-300x150.jpg?x96852"
+   "image": "https://www.gizmochina.com/wp-content/uploads/2026/09/Xiaomi-18-Pro-Series-Unboxing_1.mp4_20260924_182100.987-300x150.jpg?x96852",
+   "topic": "news"
+  },
+  {
+   "id": "af8a7675aed4",
+   "title": "Pixel 11 Pro drops to $479 with a refreshingly simple Verizon deal",
+   "url": "https://9to5google.com/2026/09/24/pixel-11-pro-drops-to-479-from-verizon/",
+   "source": "9to5google",
+   "kind": "news",
+   "published": "2026-09-24T15:02+00:00",
+   "devices": [
+    "google-pixel-11-pro"
+   ],
+   "image": null,
+   "topic": "price"
   },
   {
    "id": "31340dce51f4",
@@ -253,17 +877,30 @@
    "kind": "news",
    "published": "2026-09-24T14:38+00:00",
    "devices": [],
-   "image": "https://www.sammyfans.com/wp-content/uploads/2026/09/Samsung-Galaxy-Buds-On-leak-image-1024x576.webp"
+   "image": "https://www.sammyfans.com/wp-content/uploads/2026/09/Samsung-Galaxy-Buds-On-leak-image-1024x576.webp",
+   "topic": "news"
   },
   {
    "id": "3943a6172b1f",
-   "title": "Galaxy Buds On design leaks as Samsung prepares first clip-on earbuds",
+   "title": "These are Samsung's first clip-on earbuds, the Galaxy Buds On",
    "url": "https://www.notebookcheck.net/Galaxy-Buds-On-design-leaks-as-Samsung-prepares-first-clip-on-earbuds.1407647.0.html",
    "source": "notebookcheck",
    "kind": "news",
    "published": "2026-09-24T14:35+00:00",
    "devices": [],
-   "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/galaxy-buds-on.jpg"
+   "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/galaxy-buds-on.jpg",
+   "topic": "news"
+  },
+  {
+   "id": "748c59059199",
+   "title": "Motorola Razr Fold, flip phones arrive at Verizon with free Wear OS watch",
+   "url": "https://9to5google.com/2026/09/24/motorola-razr-fold-verizon/",
+   "source": "9to5google",
+   "kind": "news",
+   "published": "2026-09-24T14:30+00:00",
+   "devices": [],
+   "image": "https://9to5google.com/wp-content/uploads/sites/4/2026/06/motorola-razr-fold-review-23.jpg?quality=82&strip=all&w=1600",
+   "topic": "software"
   },
   {
    "id": "5139d7b31de2",
@@ -276,7 +913,8 @@
     "samsung-galaxy-a36-5g",
     "samsung-galaxy-a56"
    ],
-   "image": null
+   "image": null,
+   "topic": "price"
   },
   {
    "id": "0d6f309e22be",
@@ -286,7 +924,8 @@
    "kind": "news",
    "published": "2026-09-24T14:28+00:00",
    "devices": [],
-   "image": "https://images.fonearena.com/blog/wp-content/uploads/2026/09/OnePlus-16-Tomorrows-Starlight-988x1024.jpg"
+   "image": "https://images.fonearena.com/blog/wp-content/uploads/2026/09/OnePlus-16-Tomorrows-Starlight-988x1024.jpg",
+   "topic": "news"
   },
   {
    "id": "adcca6aae1c9",
@@ -299,17 +938,8 @@
     "oppo-find-x10-pro-max",
     "xiaomi-18-pro-max"
    ],
-   "image": "https://www.gizmochina.com/wp-content/uploads/2026/09/Xiaomi-18-Pro-Max-vs-Oppo-Find-X10-Pro-Max--300x150.jpg?x96852"
-  },
-  {
-   "id": "229d324ade71",
-   "title": "Ditch your smartwatch for this Casio classic that's just $18",
-   "url": "https://www.androidpolice.com/ditch-your-smartwatch-for-this-casio-classic-thats-just-18/",
-   "source": "android-police",
-   "kind": "news",
-   "published": "2026-09-24T14:23+00:00",
-   "devices": [],
-   "image": "https://static0.anpoimages.com/wordpress/wp-content/uploads/2026/09/copy-of-169-13.jpg"
+   "image": "https://www.gizmochina.com/wp-content/uploads/2026/09/Xiaomi-18-Pro-Max-vs-Oppo-Find-X10-Pro-Max--300x150.jpg?x96852",
+   "topic": "review"
   },
   {
    "id": "6b990ddf119d",
@@ -319,7 +949,8 @@
    "kind": "news",
    "published": "2026-09-24T14:18+00:00",
    "devices": [],
-   "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/06/ios-27-wallpapers-image-playground-fi.jpg?quality=82&strip=all&w=1600"
+   "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/06/ios-27-wallpapers-image-playground-fi.jpg?quality=82&strip=all&w=1600",
+   "topic": "software"
   },
   {
    "id": "ce4e48430710",
@@ -329,7 +960,8 @@
    "kind": "news",
    "published": "2026-09-24T14:06+00:00",
    "devices": [],
-   "image": null
+   "image": null,
+   "topic": "launch"
   },
   {
    "id": "2b149e0d18d7",
@@ -341,41 +973,32 @@
    "devices": [
     "samsung-galaxy-s23-fe"
    ],
-   "image": null
+   "image": null,
+   "topic": "software"
   },
   {
-   "id": "1b490a8861f6",
-   "title": "三星首款耳夹式耳机 Galaxy Buds On 外观曝光，预计支持睡眠监测、自动调节音量等",
-   "url": "https://www.ithome.com/1/007/020.htm",
-   "source": "ithome",
-   "lang": "zh",
+   "id": "3fff17459626",
+   "title": "AirPods Pro 3 on Sale for $199 This Week on Amazon",
+   "url": "https://www.macrumors.com/2026/09/24/airpods-pro-3-on-sale/",
+   "source": "macrumors",
    "kind": "news",
-   "published": "2026-09-24T13:51+00:00",
-   "devices": [],
-   "image": "https://img.ithome.com/newsuploadfiles/2026/9/e7a62934-584c-4162-86c3-a2b2a66e6738.jpg?x-bce-process=image/format,f_auto"
-  },
-  {
-   "id": "29ab45586650",
-   "title": "After two decades of chasing bigger screens, phones are finally shrinking again",
-   "url": "https://www.androidpolice.com/after-twenty-years-of-bigger-screens-phones-are-finally-shrinking-again/",
-   "source": "android-police",
-   "kind": "news",
-   "published": "2026-09-24T13:30+00:00",
-   "devices": [],
-   "image": "https://static0.anpoimages.com/wordpress/wp-content/uploads/2026/09/several-smartphones-from-different-generations-arranged-side-by-side.png"
-  },
-  {
-   "id": "deef1418a811",
-   "title": "打破谷歌 Pixel 独占，摩托罗拉 Signature 27 手机官宣支持 GrapheneOS 系统",
-   "url": "https://www.ithome.com/1/007/013.htm",
-   "source": "ithome",
-   "lang": "zh",
-   "kind": "news",
-   "published": "2026-09-24T13:12+00:00",
+   "published": "2026-09-24T13:41+00:00",
    "devices": [
-    "motorola-signature-27"
+    "apple-airpods-pro-3"
    ],
-   "image": "https://img.ithome.com/newsuploadfiles/2026/9/37b5b02e-b0c9-4268-a9d7-6dc076db100f.png?x-bce-process=image/format,f_auto"
+   "image": "https://images.macrumors.com/article-new/2025/09/airpods-pro-3-tips.jpg",
+   "topic": "price"
+  },
+  {
+   "id": "861ca759f2d5",
+   "title": "Galaxy S27 may use UFS 5.1, memory and storage configurations leak",
+   "url": "https://www.sammobile.com/news/galaxy-s27-may-use-ufs-5-1-memory-and-storage-configurations-leak/",
+   "source": "sammobile",
+   "kind": "news",
+   "published": "2026-09-24T13:10+00:00",
+   "devices": [],
+   "image": null,
+   "topic": "news"
   },
   {
    "id": "db3da7db6043",
@@ -387,17 +1010,8 @@
    "devices": [
     "apple-iphone-18-pro"
    ],
-   "image": "https://images.macrumors.com/article-new/2026/09/Face-ID-iPhone-18-Pro.jpg"
-  },
-  {
-   "id": "861ca759f2d5",
-   "title": "Galaxy S27 may use UFS 5.1, memory and storage configurations leak",
-   "url": "https://www.sammobile.com/news/galaxy-s27-may-use-ufs-5-1-memory-and-storage-configurations-leak/",
-   "source": "sammobile",
-   "kind": "news",
-   "published": "2026-09-24T13:10+00:00",
-   "devices": [],
-   "image": null
+   "image": "https://images.macrumors.com/article-new/2026/09/Face-ID-iPhone-18-Pro.jpg",
+   "topic": "software"
   },
   {
    "id": "191c24d4cd61",
@@ -407,7 +1021,8 @@
    "kind": "news",
    "published": "2026-09-24T13:06+00:00",
    "devices": [],
-   "image": "https://www.sammobile.com/wp-content/uploads/2026/09/galaxy-buds-on-leaked-2-1920x854.jpeg"
+   "image": "https://www.sammobile.com/wp-content/uploads/2026/09/galaxy-buds-on-leaked-2-1920x854.jpeg",
+   "topic": "news"
   },
   {
    "id": "b90113e6ba7e",
@@ -416,32 +1031,14 @@
    "source": "gsmarena",
    "kind": "news",
    "published": "2026-09-24T13:04+00:00",
-   "devices": [],
-   "image": null
-  },
-  {
-   "id": "47420afd356b",
-   "title": "许斐确认小米 18 Pro 系列手机将走向全球，推出国际版",
-   "url": "https://www.ithome.com/1/007/010.htm",
-   "source": "ithome",
-   "lang": "zh",
-   "kind": "news",
-   "published": "2026-09-24T12:58+00:00",
    "devices": [
-    "xiaomi-18-pro"
+    "honor-x9e-pro"
    ],
-   "image": "https://img.ithome.com/newsuploadfiles/2026/9/1d0b8298-80cc-46b7-b449-579401b25ede.png?x-bce-process=image/format,f_auto"
-  },
-  {
-   "id": "6fa42499516a",
-   "title": "苹果 iPhone 4“天线门”发布会完整问答视频流出，乔布斯、库克现场答记者问",
-   "url": "https://www.ithome.com/1/007/002.htm",
-   "source": "ithome",
-   "lang": "zh",
-   "kind": "news",
-   "published": "2026-09-24T12:51+00:00",
-   "devices": [],
-   "image": "https://img.ithome.com/newsuploadfiles/2026/9/5cdc5cbc-3230-40c7-98db-27542c00bba1.png?x-bce-process=image/format,f_auto"
+   "image": null,
+   "chipsets": [
+    "snapdragon-6-gen-5"
+   ],
+   "topic": "news"
   },
   {
    "id": "43304acc84ff",
@@ -451,7 +1048,20 @@
    "kind": "news",
    "published": "2026-09-24T12:49+00:00",
    "devices": [],
-   "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/04/ipad-mini-touch-id-button-top.jpg?quality=82&strip=all&w=1600"
+   "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/04/ipad-mini-touch-id-button-top.jpg?quality=82&strip=all&w=1600",
+   "topic": "news"
+  },
+  {
+   "id": "b3eaeee12319",
+   "title": "5499元杀疯！荣耀Magic9发布会还没开 价格先炸场",
+   "url": "https://news.mydrivers.com/1/1153/1153869.htm",
+   "source": "mydrivers",
+   "lang": "zh",
+   "kind": "news",
+   "published": "2026-09-24T12:46+00:00",
+   "devices": [],
+   "image": "https://img1.mydrivers.com/img/20260924/S78bf5e8e-942f-4776-93f5-8c0bb15f602f.jpg",
+   "topic": "price"
   },
   {
    "id": "494e4981e445",
@@ -461,19 +1071,8 @@
    "kind": "news",
    "published": "2026-09-24T12:39+00:00",
    "devices": [],
-   "image": null
-  },
-  {
-   "id": "2e4db2a50f35",
-   "title": "I wish my Galaxy Z Fold 8 would copy this excellent Motorola feature",
-   "url": "https://www.androidpolice.com/we-should-bring-back-this-physical-feature-rather-than-more-ai/",
-   "source": "android-police",
-   "kind": "news",
-   "published": "2026-09-24T12:30+00:00",
-   "devices": [
-    "samsung-galaxy-z-fold8"
-   ],
-   "image": "https://static0.anpoimages.com/wordpress/wp-content/uploads/2026/09/motorola-razr-fold-and-samsung-galaxy-z-fold-8-with-gesture-control-icons-in-the-background.png"
+   "image": null,
+   "topic": "news"
   },
   {
    "id": "0b36f1bba921",
@@ -483,7 +1082,8 @@
    "kind": "news",
    "published": "2026-09-24T12:08+00:00",
    "devices": [],
-   "image": "https://www.gizmochina.com/wp-content/uploads/2026/09/Vivo-Imaging-2026-300x169.jpg?x96852"
+   "image": "https://www.gizmochina.com/wp-content/uploads/2026/09/Vivo-Imaging-2026-300x169.jpg?x96852",
+   "topic": "news"
   },
   {
    "id": "7aa304587ce4",
@@ -496,7 +1096,8 @@
     "apple-iphone-18-pro-max",
     "apple-iphone-18-pro"
    ],
-   "image": null
+   "image": null,
+   "topic": "issue"
   },
   {
    "id": "232f0aeb7c50",
@@ -506,7 +1107,8 @@
    "kind": "news",
    "published": "2026-09-24T12:04+00:00",
    "devices": [],
-   "image": "https://www.gizmochina.com/wp-content/uploads/2026/09/ColorOS-16-September-300x200.png?x96852"
+   "image": "https://www.gizmochina.com/wp-content/uploads/2026/09/ColorOS-16-September-300x200.png?x96852",
+   "topic": "software"
   },
   {
    "id": "d99c9bfc3cde",
@@ -518,17 +1120,35 @@
    "devices": [
     "oppo-find-x10"
    ],
-   "image": "https://www.gizmochina.com/wp-content/uploads/2026/09/Oppo-Find-X10-series-pre-order-UK-300x144.png?x96852"
+   "image": "https://www.gizmochina.com/wp-content/uploads/2026/09/Oppo-Find-X10-series-pre-order-UK-300x144.png?x96852",
+   "topic": "launch"
   },
   {
-   "id": "5c889a16c840",
-   "title": "Ikigai is the first launcher I've used that actually cured my phone addiction",
-   "url": "https://www.androidpolice.com/ikigai-is-the-first-launcher-ive-used-that-actually-cured-my-phone-addiction/",
-   "source": "android-police",
-   "kind": "news",
-   "published": "2026-09-24T12:00+00:00",
-   "devices": [],
-   "image": "https://static0.anpoimages.com/wordpress/wp-content/uploads/2026/09/four-android-phones-showing-different-ikigai-launcher-screens.png"
+   "id": "0bc35cbad8be",
+   "title": "OPPO Find X10 E上手：Find入门版 还是旗舰味",
+   "url": "https://news.mydrivers.com/1/1153/1153866.htm",
+   "source": "mydrivers",
+   "lang": "zh",
+   "kind": "review",
+   "published": "2026-09-24T12:01+00:00",
+   "devices": [
+    "oppo-find-x10-e"
+   ],
+   "image": "https://img1.mydrivers.com/img/20260924/Sc6d48c35-a140-4ac5-be35-dd259c0a082c.jpg",
+   "topic": "review"
+  },
+  {
+   "id": "54d1b7e6ea96",
+   "title": "Honor X9e Pro launches with 11,000mAh battery, 10,000-nit bright display and extreme durability",
+   "url": "https://www.gizmochina.com/2026/09/24/honor-x9e-pro-launched-price-specifications/",
+   "source": "gizmochina",
+   "kind": "review",
+   "published": "2026-09-24T11:29+00:00",
+   "devices": [
+    "honor-x9e-pro"
+   ],
+   "image": "https://www.gizmochina.com/wp-content/uploads/2026/09/Honor-X9e-Pro-5G-1-1-300x183.png?x96852",
+   "topic": "review"
   },
   {
    "id": "a46811e743a4",
@@ -538,7 +1158,8 @@
    "kind": "news",
    "published": "2026-09-24T11:23+00:00",
    "devices": [],
-   "image": "https://www.engadget.com/img/gallery/qualcomms-snapdragon-sound-elite-is-a-new-ai-chip-for-audio-wearables/l-intro-1790248873.jpg"
+   "image": "https://www.engadget.com/img/gallery/qualcomms-snapdragon-sound-elite-is-a-new-ai-chip-for-audio-wearables/l-intro-1790248873.jpg",
+   "topic": "news"
   },
   {
    "id": "720c1fee66dc",
@@ -548,7 +1169,8 @@
    "kind": "news",
    "published": "2026-09-24T11:20+00:00",
    "devices": [],
-   "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/09/iphone-18-photos-12.jpg?quality=82&strip=all&w=1600"
+   "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/09/iphone-18-photos-12.jpg?quality=82&strip=all&w=1600",
+   "topic": "software"
   },
   {
    "id": "eaea2c541ee4",
@@ -561,7 +1183,8 @@
     "vivo-x500-pro-max",
     "samsung-galaxy-s26-ultra"
    ],
-   "image": "https://www.gizmochina.com/wp-content/uploads/2026/09/image-130-300x156.png?x96852"
+   "image": "https://www.gizmochina.com/wp-content/uploads/2026/09/image-130-300x156.png?x96852",
+   "topic": "review"
   },
   {
    "id": "3e9f3eccfecd",
@@ -574,20 +1197,46 @@
     "xiaomi-18-pro-max",
     "xiaomi-18-pro"
    ],
-   "image": null
+   "image": null,
+   "topic": "news"
   },
   {
-   "id": "29707961dc61",
-   "title": "【IT之家开箱】OPPO Watch X3 图赏：TC4 钛合金遇上金属竹节表带，寰月钛更显精致",
-   "url": "https://www.ithome.com/1/006/967.htm",
-   "source": "ithome",
+   "id": "0eab37890db6",
+   "title": "用DNA存数据！新CMOS芯片写入单元暴增700倍：PB级数据塞进指甲盖大小空间",
+   "url": "https://news.mydrivers.com/1/1153/1153854.htm",
+   "source": "mydrivers",
    "lang": "zh",
    "kind": "news",
-   "published": "2026-09-24T10:23+00:00",
+   "published": "2026-09-24T10:48+00:00",
+   "devices": [],
+   "image": "https://img1.mydrivers.com/img/20260924/Sed6655fb-2149-4d69-829b-8b16218f8fe0.png",
+   "topic": "news"
+  },
+  {
+   "id": "e7cc721b5e7c",
+   "title": "不靠EUV光刻机也能硬刚苹果！华为麒麟9050 Pro多核反超A17 Pro：差距缩至3年",
+   "url": "https://news.mydrivers.com/1/1153/1153851.htm",
+   "source": "mydrivers",
+   "lang": "zh",
+   "kind": "news",
+   "published": "2026-09-24T10:41+00:00",
+   "devices": [],
+   "image": "https://img1.mydrivers.com/img/20260924/64610671-9ac4-4b6f-9454-4b6fc6d2a0c1.png",
+   "topic": "news"
+  },
+  {
+   "id": "e77de7f0a35a",
+   "title": "艾迈斯欧司朗精准感知技术应用于vivo X500 Pro Max",
+   "url": "https://news.mydrivers.com/1/1153/1153828.htm",
+   "source": "mydrivers",
+   "lang": "zh",
+   "kind": "news",
+   "published": "2026-09-24T10:04+00:00",
    "devices": [
-    "oppo-watch-x3"
+    "vivo-x500-pro-max"
    ],
-   "image": "https://img.ithome.com/newsuploadfiles/2026/9/69d9927c-4361-47be-a1aa-c6eb098c7c10.jpg?x-bce-process=image/format,f_auto"
+   "image": "https://img1.mydrivers.com/img/20260924/de3d2e1d737745fcae435d50ebfb66f4.jpg",
+   "topic": "news"
   },
   {
    "id": "54e73434a04c",
@@ -597,17 +1246,25 @@
    "kind": "review",
    "published": "2026-09-24T10:01+00:00",
    "devices": [],
-   "image": "https://www.gizmochina.com/wp-content/uploads/2026/09/Apple-A20-Pro-vs-Dimensity-9600-Pro-vs-Snapdragon-8-Elite-Gen-6-Pro-vs-Xiaomi-XRING-O3-300x174.jpg?x96852"
+   "image": "https://www.gizmochina.com/wp-content/uploads/2026/09/Apple-A20-Pro-vs-Dimensity-9600-Pro-vs-Snapdragon-8-Elite-Gen-6-Pro-vs-Xiaomi-XRING-O3-300x174.jpg?x96852",
+   "chipsets": [
+    "snapdragon-8-elite-extreme-gen-6",
+    "dimensity-9600-pro",
+    "apple-a20-pro"
+   ],
+   "topic": "review"
   },
   {
-   "id": "47ef89324b74",
-   "title": "Samsung hit with major US patent lawsuit over technology used in Galaxy devices",
-   "url": "https://www.sammyfans.com/2026/09/24/samsung-hit-with-major-us-patent-lawsuit-over-technology-used-in-galaxy-devices/",
-   "source": "sammyfans",
+   "id": "35e99e212443",
+   "title": "英特尔只能完成一半CPU订单！陈立武道歉：多位CEO打电话来要芯片",
+   "url": "https://news.mydrivers.com/1/1153/1153824.htm",
+   "source": "mydrivers",
+   "lang": "zh",
    "kind": "news",
-   "published": "2026-09-24T09:54+00:00",
+   "published": "2026-09-24T09:51+00:00",
    "devices": [],
-   "image": "https://www.sammyfans.com/wp-content/uploads/2026/08/galaxy-z-fold-8-watch-9-img.jpg"
+   "image": "https://img1.mydrivers.com/img/20260924/s_7149d5f192694677af34d4fa1308c071.jpg",
+   "topic": "news"
   },
   {
    "id": "43b37d0b917b",
@@ -617,7 +1274,51 @@
    "kind": "news",
    "published": "2026-09-24T09:20+00:00",
    "devices": [],
-   "image": "https://www.gizmochina.com/wp-content/uploads/2026/09/Mivi-One-5G-Launch-Specs-Price-300x200.jpg?x96852"
+   "image": "https://www.gizmochina.com/wp-content/uploads/2026/09/Mivi-One-5G-Launch-Specs-Price-300x200.jpg?x96852",
+   "chipsets": [
+    "snapdragon-4-gen-2"
+   ],
+   "topic": "launch"
+  },
+  {
+   "id": "93a13bb79577",
+   "title": "5999元起 小米18 Pro系列上市后门店客流火爆：部分版本供不应求",
+   "url": "https://news.mydrivers.com/1/1153/1153815.htm",
+   "source": "mydrivers",
+   "lang": "zh",
+   "kind": "news",
+   "published": "2026-09-24T09:19+00:00",
+   "devices": [
+    "xiaomi-18-pro"
+   ],
+   "image": "https://img1.mydrivers.com/img/20260924/s_dfe391256d2a402bb3ccc1f0b79fbdbb.jpg",
+   "topic": "launch"
+  },
+  {
+   "id": "4bb7aa439727",
+   "title": "HONOR X9e Pro Malaysia release - 11,000mAh battery, IP69K rating and more from RM1,899",
+   "url": "https://technave.com/gadget/HONOR-X9e-Pro-Malaysia-release-11-000mAh-battery-IP69K-rating-and-more-from-RM1-899-47530.html",
+   "source": "technave",
+   "kind": "news",
+   "published": "2026-09-24T09:12+00:00",
+   "devices": [
+    "honor-x9e-pro"
+   ],
+   "image": null,
+   "topic": "price"
+  },
+  {
+   "id": "a5a71fe6b112",
+   "title": "Honor X9e Pro officially launches in Malaysia with huge 11,000mAh battery, priced from RM1,899",
+   "url": "https://soyacincau.com/2026/09/24/honor-x9e-pro-5g-malaysia-launch-price-specs/",
+   "source": "soyacincau",
+   "kind": "news",
+   "published": "2026-09-24T09:08+00:00",
+   "devices": [
+    "honor-x9e-pro"
+   ],
+   "image": "https://soyacincau.com/wp-content/uploads/2026/09/IMG_4931-150x150.jpeg",
+   "topic": "price"
   },
   {
    "id": "917d235de990",
@@ -627,7 +1328,20 @@
    "kind": "news",
    "published": "2026-09-24T09:04+00:00",
    "devices": [],
-   "image": "https://www.gizmochina.com/wp-content/uploads/2026/09/Honor-Magic-9-Curtain-Black-300x300.png?x96852"
+   "image": "https://www.gizmochina.com/wp-content/uploads/2026/09/Honor-Magic-9-Curtain-Black-300x300.png?x96852",
+   "topic": "price"
+  },
+  {
+   "id": "226f31d91ab1",
+   "title": "行业最低！荣耀Magic9价格公布：16+512G只要5499元 网友：荣耀掀桌子了",
+   "url": "https://news.mydrivers.com/1/1153/1153795.htm",
+   "source": "mydrivers",
+   "lang": "zh",
+   "kind": "news",
+   "published": "2026-09-24T08:47+00:00",
+   "devices": [],
+   "image": "https://img1.mydrivers.com/img/20260924/s_8d724c15a84d4f86abad506183c25a01.jpg",
+   "topic": "price"
   },
   {
    "id": "c77139921bf4",
@@ -637,7 +1351,11 @@
    "kind": "news",
    "published": "2026-09-24T08:44+00:00",
    "devices": [],
-   "image": "https://www.gizmochina.com/wp-content/uploads/2026/09/Honor-phone-with-Snapdragon-8-Elite-Extreme-Gen-6-SoC-300x200.png?x96852"
+   "image": "https://www.gizmochina.com/wp-content/uploads/2026/09/Honor-phone-with-Snapdragon-8-Elite-Extreme-Gen-6-SoC-300x200.png?x96852",
+   "chipsets": [
+    "snapdragon-8-elite-extreme-gen-6"
+   ],
+   "topic": "news"
   },
   {
    "id": "205f93a51948",
@@ -650,7 +1368,22 @@
    "devices": [
     "xiaomi-18-pro"
    ],
-   "image": "https://s3.ifanr.com/wp-content/uploads/2026/09/banner16t9-5.jpg"
+   "image": "https://s3.ifanr.com/wp-content/uploads/2026/09/banner16t9-5.jpg",
+   "topic": "launch"
+  },
+  {
+   "id": "a95b58bad1be",
+   "title": "HONOR X9e Pro 大马发布：11000mAh+80W、10000nits屏幕亮度、耐用性再升级，售价RM1899起！",
+   "url": "https://zinggadget.com/honor-x9e-pro-%e5%a4%a7%e9%a9%ac%e5%8f%91%e5%b8%83/",
+   "source": "zinggadget",
+   "lang": "zh",
+   "kind": "news",
+   "published": "2026-09-24T08:15+00:00",
+   "devices": [
+    "honor-x9e-pro"
+   ],
+   "image": "https://zinggadget.com/wp-content/uploads/2026/09/812940258_18632601052010402_5495661834744354838_n-scaled.jpg",
+   "topic": "software"
   },
   {
    "id": "c5ffd6912ba5",
@@ -662,7 +1395,20 @@
    "devices": [
     "oppo-find-x10"
    ],
-   "image": null
+   "image": null,
+   "topic": "launch"
+  },
+  {
+   "id": "f7d14d53ffd2",
+   "title": "海光信息将联合欧康诺打造国产化内存、存储芯片测试平台：对接国内头部存储厂商",
+   "url": "https://news.mydrivers.com/1/1153/1153754.htm",
+   "source": "mydrivers",
+   "lang": "zh",
+   "kind": "review",
+   "published": "2026-09-24T07:54+00:00",
+   "devices": [],
+   "image": "https://img1.mydrivers.com/img/20260924/s_fca109a0e00e4fef8949cf5178d7d43c.png",
+   "topic": "review"
   },
   {
    "id": "4fe53fbfa29a",
@@ -672,7 +1418,8 @@
    "kind": "news",
    "published": "2026-09-24T07:17+00:00",
    "devices": [],
-   "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/Xiaomi-Pad-9-Pro-released.jpg"
+   "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/Xiaomi-Pad-9-Pro-released.jpg",
+   "topic": "launch"
   },
   {
    "id": "e6c8db866f81",
@@ -684,17 +1431,8 @@
    "devices": [
     "apple-iphone-18-pro"
    ],
-   "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/09/mayo.jpg?quality=82&strip=all&w=1600"
-  },
-  {
-   "id": "a23de47731c0",
-   "title": "Is this how Samsung could have brought bigger batteries to its flagship phones much earlier?",
-   "url": "https://www.sammobile.com/news/how-samsung-can-bring-bigger-batteries-flagship-phones/",
-   "source": "sammobile",
-   "kind": "news",
-   "published": "2026-09-24T06:35+00:00",
-   "devices": [],
-   "image": "https://www.sammobile.com/wp-content/uploads/2026/09/Apple-iPhone-18-Pro-Max-Burgundy.jpg"
+   "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/09/mayo.jpg?quality=82&strip=all&w=1600",
+   "topic": "software"
   },
   {
    "id": "e85801748dd4",
@@ -704,17 +1442,8 @@
    "kind": "news",
    "published": "2026-09-24T06:25+00:00",
    "devices": [],
-   "image": "https://images.macrumors.com/article-new/2026/09/iPhone-Handoff-Feature.jpeg"
-  },
-  {
-   "id": "c2f779607c72",
-   "title": "Galaxy S27 Pro and Ultra could cost more thanks to LPDDR6 and UFS 5.1",
-   "url": "https://www.sammyfans.com/2026/09/24/samsung-galaxy-s27-pro-ultra-lpddr6-and-ufs-5-1-memory/",
-   "source": "sammyfans",
-   "kind": "news",
-   "published": "2026-09-24T06:15+00:00",
-   "devices": [],
-   "image": "https://www.sammyfans.com/wp-content/uploads/2026/09/samsung-lpddr6-dram-img-1024x576.jpg"
+   "image": "https://images.macrumors.com/article-new/2026/09/iPhone-Handoff-Feature.jpeg",
+   "topic": "software"
   },
   {
    "id": "0710f8e634e6",
@@ -724,7 +1453,8 @@
    "kind": "news",
    "published": "2026-09-24T06:09+00:00",
    "devices": [],
-   "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/Xiaomi-launches-Pad-9.jpg"
+   "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/Xiaomi-launches-Pad-9.jpg",
+   "topic": "launch"
   },
   {
    "id": "5b9aaadfdbdf",
@@ -734,29 +1464,21 @@
    "kind": "news",
    "published": "2026-09-24T06:02+00:00",
    "devices": [],
-   "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/oneplus-news-1645.jpg"
+   "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/oneplus-news-1645.jpg",
+   "topic": "news"
   },
   {
-   "id": "f731e0b2b83a",
-   "title": "Two Snapdragon 8 Elite Gen 6 chips unveiled, one could be used in Galaxy S27",
-   "url": "https://www.sammobile.com/news/qualcomm-snapdragon-8-elite-extreme-gen-6-chips-unveiled-galaxy-s27/",
-   "source": "sammobile",
+   "id": "55ffb5676b32",
+   "title": "Xiaomi Pad 9 Pro and Pad 9 announced",
+   "url": "https://www.gsmarena.com/xiaomi_pad_9_pro_and_pad_9_announced-news-74740.php",
+   "source": "gsmarena",
    "kind": "news",
-   "published": "2026-09-24T05:42+00:00",
-   "devices": [],
-   "image": "https://www.sammobile.com/wp-content/uploads/2026/09/Qualcomm-Snapdragon-8-Elite-Extreme-Gen-6-Processor.jpg"
-  },
-  {
-   "id": "5d21635a7dd9",
-   "title": "iPhone 18 Pro early buyers demand refund over Face ID reboot issue",
-   "url": "https://www.sammyfans.com/2026/09/24/iphone-18-pro-early-buyers-demand-refund-over-face-id-reboot-issue/",
-   "source": "sammyfans",
-   "kind": "news",
-   "published": "2026-09-24T05:18+00:00",
+   "published": "2026-09-24T05:05+00:00",
    "devices": [
-    "apple-iphone-18-pro"
+    "honor-pad-9"
    ],
-   "image": null
+   "image": null,
+   "topic": "launch"
   },
   {
    "id": "82fbe3987763",
@@ -766,7 +1488,21 @@
    "kind": "news",
    "published": "2026-09-24T04:33+00:00",
    "devices": [],
-   "image": "https://www.gizmochina.com/wp-content/uploads/2026/09/OnePlus-16-cameras-300x300.png?x96852"
+   "image": "https://www.gizmochina.com/wp-content/uploads/2026/09/OnePlus-16-cameras-300x300.png?x96852",
+   "topic": "news"
+  },
+  {
+   "id": "e7ebd66bd6ee",
+   "title": "Realme 16 Pro Harry Potter Edition unboxing and hands-on",
+   "url": "https://www.gsmarena.com/realme_16_pro_harry_potter_edition_unboxing_and_handson-news-74736.php",
+   "source": "gsmarena",
+   "kind": "review",
+   "published": "2026-09-24T04:06+00:00",
+   "devices": [
+    "realme-16-pro"
+   ],
+   "image": null,
+   "topic": "review"
   },
   {
    "id": "a2a3946757dd",
@@ -777,7 +1513,8 @@
    "kind": "news",
    "published": "2026-09-24T03:58+00:00",
    "devices": [],
-   "image": "https://s3.ifanr.com/wp-content/uploads/2026/09/lark2pad-1790153339614-1.png"
+   "image": "https://s3.ifanr.com/wp-content/uploads/2026/09/lark2pad-1790153339614-1.png",
+   "topic": "news"
   },
   {
    "id": "8bd9b024827f",
@@ -789,7 +1526,8 @@
    "devices": [
     "apple-iphone-18-pro"
    ],
-   "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/Meta-VR-Glasses-unveiled-Half-the-weight-of-an-iPhone-18-Pro.jpg"
+   "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/Meta-VR-Glasses-unveiled-Half-the-weight-of-an-iPhone-18-Pro.jpg",
+   "topic": "launch"
   },
   {
    "id": "62261a190317",
@@ -799,7 +1537,21 @@
    "kind": "news",
    "published": "2026-09-24T02:31+00:00",
    "devices": [],
-   "image": null
+   "image": null,
+   "topic": "news"
+  },
+  {
+   "id": "e1421d5b2b7b",
+   "title": "Realme 16 Pro Harry Potter Edition launches in Malaysia for RM2,699",
+   "url": "https://soyacincau.com/2026/09/24/realme-16-pro-harry-potter-edition-launches-in-malaysia-for-rm2699/",
+   "source": "soyacincau",
+   "kind": "news",
+   "published": "2026-09-24T02:29+00:00",
+   "devices": [
+    "realme-16-pro"
+   ],
+   "image": "https://soyacincau.com/wp-content/uploads/2026/09/20260921-realme-16-Pro-5G-Harry-Potter-Edition-05-02-150x150.jpg",
+   "topic": "price"
   },
   {
    "id": "27c2e82695b1",
@@ -809,7 +1561,8 @@
    "kind": "news",
    "published": "2026-09-24T01:04+00:00",
    "devices": [],
-   "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/oppo-news-k14-plus-.png"
+   "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/oppo-news-k14-plus-.png",
+   "topic": "launch"
   },
   {
    "id": "61f1dabd251a",
@@ -821,7 +1574,11 @@
    "devices": [
     "xiaomi-18-pro"
    ],
-   "image": "https://soyacincau.com/wp-content/uploads/2026/09/260924-xiaomi-18-pro-hero-150x150.jpg"
+   "image": "https://soyacincau.com/wp-content/uploads/2026/09/260924-xiaomi-18-pro-hero-150x150.jpg",
+   "chipsets": [
+    "snapdragon-8-elite-gen-6"
+   ],
+   "topic": "news"
   },
   {
    "id": "278a84324d20",
@@ -831,7 +1588,8 @@
    "kind": "news",
    "published": "2026-09-24T00:30+00:00",
    "devices": [],
-   "image": null
+   "image": null,
+   "topic": "launch"
   },
   {
    "id": "eee1b0428a77",
@@ -844,27 +1602,8 @@
    "devices": [
     "xiaomi-18-pro"
    ],
-   "image": "https://s3.ifanr.com/wp-content/uploads/2026/09/img_6ab46bd649e21.jpeg"
-  },
-  {
-   "id": "3414882f0bc0",
-   "title": "This US carrier doesn't want to let you use one phone number on two iPhones",
-   "url": "https://www.gsmarena.com/this_us_carrier_doesnt_want_to_let_you_use_one_phone_number_on_two_iphones-news-74737.php",
-   "source": "gsmarena",
-   "kind": "news",
-   "published": "2026-09-23T23:31+00:00",
-   "devices": [],
-   "image": null
-  },
-  {
-   "id": "f9cda93a5c9e",
-   "title": "The purpose of the triangle symbol on your Samsung Galaxy phone",
-   "url": "https://www.engadget.com/2265257/triangle-symbol-samsung-galaxy-phone-meaning-data-saver-setting/",
-   "source": "engadget",
-   "kind": "news",
-   "published": "2026-09-23T23:00+00:00",
-   "devices": [],
-   "image": "https://www.engadget.com/img/gallery/the-purpose-of-the-triangle-symbol-on-your-samsung-galaxy-phone/l-intro-1790087422.jpg"
+   "image": "https://s3.ifanr.com/wp-content/uploads/2026/09/img_6ab46bd649e21.jpeg",
+   "topic": "review"
   },
   {
    "id": "7ddd6a2a68b8",
@@ -875,7 +1614,8 @@
    "kind": "news",
    "published": "2026-09-23T22:19+00:00",
    "devices": [],
-   "image": "https://zinggadget.com/wp-content/uploads/2026/09/Snapdragon-Sound-Elite-Gen-2-Highlight-Image-Embargo-Sep-23-930am-HT-1230pm-PT.jpg"
+   "image": "https://zinggadget.com/wp-content/uploads/2026/09/Snapdragon-Sound-Elite-Gen-2-Highlight-Image-Embargo-Sep-23-930am-HT-1230pm-PT.jpg",
+   "topic": "launch"
   },
   {
    "id": "d70af08535b1",
@@ -886,19 +1626,8 @@
    "kind": "news",
    "published": "2026-09-23T22:19+00:00",
    "devices": [],
-   "image": "https://zinggadget.com/wp-content/uploads/2026/09/assets_2026_09_1789855958_Googlebook-Image-Embargo-Sep-21-3am-HT-6am-PT.png"
-  },
-  {
-   "id": "85a4732b0328",
-   "title": "Samsung's One UI 9 update for the Galaxy S26 series reaches the US",
-   "url": "https://www.gsmarena.com/samsungs_one_ui_9_update_for_the_galaxy_s26_series_reaches_the_us-news-74735.php",
-   "source": "gsmarena",
-   "kind": "news",
-   "published": "2026-09-23T21:49+00:00",
-   "devices": [
-    "samsung-galaxy-s26"
-   ],
-   "image": null
+   "image": "https://zinggadget.com/wp-content/uploads/2026/09/assets_2026_09_1789855958_Googlebook-Image-Embargo-Sep-21-3am-HT-6am-PT.png",
+   "topic": "news"
   },
   {
    "id": "1d9c88d41c0a",
@@ -908,7 +1637,19 @@
    "kind": "news",
    "published": "2026-09-23T20:43+00:00",
    "devices": [],
-   "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/honor-magicpad-4-tablet.png"
+   "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/honor-magicpad-4-tablet.png",
+   "topic": "news"
+  },
+  {
+   "id": "dbe8e8653cd4",
+   "title": "Microsoft launches 12-inch Surface Pro with Snapdragon X2 Plus & 5G, 13-inch Surface Laptop too",
+   "url": "https://9to5google.com/2026/09/23/microsoft-surface-pro-12-inch-5g-laptop-13-snapdragon-x2/",
+   "source": "9to5google",
+   "kind": "news",
+   "published": "2026-09-23T20:31+00:00",
+   "devices": [],
+   "image": "https://9to5google.com/wp-content/uploads/sites/4/2026/09/surface-pro-laptop-x2-oct-refresh.jpg?quality=82&strip=all&w=1400",
+   "topic": "launch"
   },
   {
    "id": "5788fc560e9f",
@@ -918,19 +1659,8 @@
    "kind": "news",
    "published": "2026-09-23T20:30+00:00",
    "devices": [],
-   "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/Microsoft-expands-Surface-line-up-with-fanless-5G-Surface-Pro-12-2nd-ed-2-in-1-tablet-PC-main-image.jpg"
-  },
-  {
-   "id": "733f6dcf307a",
-   "title": "The pricey 1TB and 2TB iPhone 18 Pro and Pro Max found to use very slow memory",
-   "url": "https://www.gsmarena.com/the_pricey_1tb_and_2tb_iphone_18_pro_and_pro_max_use_very_slow_memory-news-74725.php",
-   "source": "gsmarena",
-   "kind": "news",
-   "published": "2026-09-23T20:22+00:00",
-   "devices": [
-    "apple-iphone-18-pro"
-   ],
-   "image": null
+   "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/Microsoft-expands-Surface-line-up-with-fanless-5G-Surface-Pro-12-2nd-ed-2-in-1-tablet-PC-main-image.jpg",
+   "topic": "news"
   },
   {
    "id": "5fbe3c7d57e4",
@@ -940,17 +1670,8 @@
    "kind": "news",
    "published": "2026-09-23T20:10+00:00",
    "devices": [],
-   "image": "https://images.macrumors.com/article-new/2026/06/watchos-27.jpg"
-  },
-  {
-   "id": "8d24359304ff",
-   "title": "iOS 27.0.1 is Coming Soon",
-   "url": "https://www.macrumors.com/2026/09/23/ios-27-0-1-is-coming-soon/",
-   "source": "macrumors",
-   "kind": "news",
-   "published": "2026-09-23T20:06+00:00",
-   "devices": [],
-   "image": "https://images.macrumors.com/article-new/2026/09/iOS-27-0-1.jpeg"
+   "image": "https://images.macrumors.com/article-new/2026/06/watchos-27.jpg",
+   "topic": "software"
   },
   {
    "id": "3f2125851f2a",
@@ -962,19 +1683,8 @@
    "devices": [
     "apple-watch-series-12"
    ],
-   "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/09/Apple-Watch-Series-12-Aluminum-Nike-Concrete-Sport-Band-Steps-Counter-Watch-Face-Heart-Rate-.jpg?quality=82&strip=all&w=1600"
-  },
-  {
-   "id": "d48d1040f001",
-   "title": "Apple iPhone 18 Pro Max review",
-   "url": "https://www.gsmarena.com/apple_iphone_18_pro_max-review-3002.php",
-   "source": "gsmarena",
-   "kind": "review",
-   "published": "2026-09-23T18:59+00:00",
-   "devices": [
-    "apple-iphone-18-pro-max"
-   ],
-   "image": null
+   "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/09/Apple-Watch-Series-12-Aluminum-Nike-Concrete-Sport-Band-Steps-Counter-Watch-Face-Heart-Rate-.jpg?quality=82&strip=all&w=1600",
+   "topic": "software"
   },
   {
    "id": "92eab0c11a6e",
@@ -984,7 +1694,19 @@
    "kind": "news",
    "published": "2026-09-23T18:57+00:00",
    "devices": [],
-   "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/06/apple-calendar-app-icon-ios-27.jpg?quality=82&strip=all&w=1600"
+   "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/06/apple-calendar-app-icon-ios-27.jpg?quality=82&strip=all&w=1600",
+   "topic": "software"
+  },
+  {
+   "id": "e13840a93a73",
+   "title": "Qualcomm announces Snapdragon Sound Elite Gen 2 for AI ‘hearables,’ even ones with cameras",
+   "url": "https://9to5google.com/2026/09/23/qualcomm-announces-snapdragon-sound-elite-gen-2/",
+   "source": "9to5google",
+   "kind": "news",
+   "published": "2026-09-23T18:30+00:00",
+   "devices": [],
+   "image": "https://9to5google.com/wp-content/uploads/sites/4/2026/09/snapdragon-Sound-elite-gen-2-2.jpg?quality=82&strip=all&w=1400",
+   "topic": "launch"
   },
   {
    "id": "aab9097c6cd5",
@@ -994,17 +1716,8 @@
    "kind": "news",
    "published": "2026-09-23T18:15+00:00",
    "devices": [],
-   "image": "https://www.gizmochina.com/wp-content/uploads/2026/09/Xiaomi-Watch-S5-41mm-1-1-300x179.png?x96852"
-  },
-  {
-   "id": "e46f55d847ee",
-   "title": "OnePlus 16's AnTuTu score surfaces",
-   "url": "https://www.gsmarena.com/heres_the_oneplus_16s_antutu_score-news-74728.php",
-   "source": "gsmarena",
-   "kind": "news",
-   "published": "2026-09-23T17:49+00:00",
-   "devices": [],
-   "image": null
+   "image": "https://www.gizmochina.com/wp-content/uploads/2026/09/Xiaomi-Watch-S5-41mm-1-1-300x179.png?x96852",
+   "topic": "software"
   },
   {
    "id": "0cbd3f15631e",
@@ -1014,7 +1727,8 @@
    "kind": "news",
    "published": "2026-09-23T17:41+00:00",
    "devices": [],
-   "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/09/ios-27.2-guide.jpg?quality=82&strip=all&w=1600"
+   "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/09/ios-27.2-guide.jpg?quality=82&strip=all&w=1600",
+   "topic": "software"
   },
   {
    "id": "4009d287cbbb",
@@ -1024,7 +1738,8 @@
    "kind": "news",
    "published": "2026-09-23T16:47+00:00",
    "devices": [],
-   "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/xiaomi-smart-band-11-global-launch-kv.jpg"
+   "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/xiaomi-smart-band-11-global-launch-kv.jpg",
+   "topic": "launch"
   },
   {
    "id": "17dca71a223f",
@@ -1036,7 +1751,8 @@
    "devices": [
     "xiaomi-18-pro-max"
    ],
-   "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/Xiaomi-18-Pro-und-Pro-Max-Globale-Modelle-bestaetigt-aber-mit-kleineren-Akkus.jpg"
+   "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/Xiaomi-18-Pro-und-Pro-Max-Globale-Modelle-bestaetigt-aber-mit-kleineren-Akkus.jpg",
+   "topic": "news"
   },
   {
    "id": "830093162405",
@@ -1048,7 +1764,8 @@
    "devices": [
     "samsung-galaxy-s26"
    ],
-   "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/aPic_Samsung_Galaxy_S26_Ultra-2177.jpg"
+   "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/aPic_Samsung_Galaxy_S26_Ultra-2177.jpg",
+   "topic": "software"
   },
   {
    "id": "d343f1978226",
@@ -1058,31 +1775,8 @@
    "kind": "news",
    "published": "2026-09-23T16:12+00:00",
    "devices": [],
-   "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/fenix-8-series-beta-2338-update-roll-out-kv.jpg"
-  },
-  {
-   "id": "38ac3a0b0682",
-   "title": "Apple Watch Ultra 3 Drops to Record Low $599.97 on Amazon [Updated]",
-   "url": "https://www.macrumors.com/2026/09/23/apple-watch-ultra-3-599/",
-   "source": "macrumors",
-   "kind": "news",
-   "published": "2026-09-23T16:09+00:00",
-   "devices": [
-    "apple-watch-ultra-3"
-   ],
-   "image": "https://images.macrumors.com/article-new/2026/09/apple-watch-ultra-3-new.jpeg"
-  },
-  {
-   "id": "ec39a8210d61",
-   "title": "iPhone Air vs. iPhone 18 Pro Buyer's Guide: Which Should You Buy?",
-   "url": "https://www.macrumors.com/guide/iphone-air-vs-18-pro/",
-   "source": "macrumors",
-   "kind": "review",
-   "published": "2026-09-23T16:06+00:00",
-   "devices": [
-    "apple-iphone-18-pro"
-   ],
-   "image": "https://images.macrumors.com/article-new/2026/09/iphone-18-pro-vs-iphone-air.jpg"
+   "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/fenix-8-series-beta-2338-update-roll-out-kv.jpg",
+   "topic": "software"
   },
   {
    "id": "d255f826dedc",
@@ -1092,7 +1786,12 @@
    "kind": "review",
    "published": "2026-09-23T16:05+00:00",
    "devices": [],
-   "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/Snapdragon-8-Elite-Extreme-Gen-6-first-party-bench-header.jpg"
+   "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/Snapdragon-8-Elite-Extreme-Gen-6-first-party-bench-header.jpg",
+   "chipsets": [
+    "snapdragon-8-elite-extreme-gen-6",
+    "snapdragon-8-elite-gen-5"
+   ],
+   "topic": "test"
   },
   {
    "id": "2c7fc0d801ca",
@@ -1101,20 +1800,24 @@
    "source": "gizmochina",
    "kind": "news",
    "published": "2026-09-23T15:54+00:00",
-   "devices": [],
-   "image": "https://www.gizmochina.com/wp-content/uploads/2026/09/Xiaomi-Pad-9-Launch-Specs-Price-300x200.jpg?x96852"
+   "devices": [
+    "honor-pad-9"
+   ],
+   "image": "https://www.gizmochina.com/wp-content/uploads/2026/09/Xiaomi-Pad-9-Launch-Specs-Price-300x200.jpg?x96852",
+   "topic": "launch"
   },
   {
-   "id": "76dc9fa03e8b",
-   "title": "Xiaomi 18 Pro Max is first phone with 5 GHz processor as it packs giant 8,500 mAh battery",
-   "url": "https://www.notebookcheck.net/Xiaomi-18-Pro-Max-is-first-phone-with-5-GHz-processor-as-it-packs-giant-8-500-mAh-battery.1406759.0.html",
-   "source": "notebookcheck",
+   "id": "db2e6028ec3f",
+   "title": "Deals: Nothing CMF Buds Neo $21 all-time low, Galaxy Z Fold 8 $380 off, huge laptop discounts up to $1,050 off, more",
+   "url": "https://9to5google.com/2026/09/23/deals-galaxy-fold-8-nothing-buds-neo-ring-doorbell-4k/",
+   "source": "9to5google",
    "kind": "news",
-   "published": "2026-09-23T15:32+00:00",
+   "published": "2026-09-23T15:53+00:00",
    "devices": [
-    "xiaomi-18-pro-max"
+    "samsung-galaxy-z-fold8"
    ],
-   "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/Xiaomi-18-Pro-Max.jpg"
+   "image": "https://9to5google.com/wp-content/uploads/sites/4/2026/09/9to5Google-Sep-23.webp?w=1600",
+   "topic": "price"
   },
   {
    "id": "0989f0530b4f",
@@ -1127,7 +1830,8 @@
     "apple-watch-ultra-2",
     "apple-iphone-18-pro"
    ],
-   "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/09/Apple-deals-Apple-Watch-Ultra-clearance-Beats-360-Mac-mini.jpg?quality=82&strip=all&w=1600"
+   "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/09/Apple-deals-Apple-Watch-Ultra-clearance-Beats-360-Mac-mini.jpg?quality=82&strip=all&w=1600",
+   "topic": "price"
   },
   {
    "id": "b5574e28a2ef",
@@ -1137,7 +1841,8 @@
    "kind": "news",
    "published": "2026-09-23T14:45+00:00",
    "devices": [],
-   "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/06/facetime-app-icon-ios-27.jpg?quality=82&strip=all&w=1600"
+   "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/06/facetime-app-icon-ios-27.jpg?quality=82&strip=all&w=1600",
+   "topic": "software"
   },
   {
    "id": "95c5d81ca0b2",
@@ -1147,7 +1852,19 @@
    "kind": "news",
    "published": "2026-09-23T14:21+00:00",
    "devices": [],
-   "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/05/iphone-19-pro-20-anniversary-max.jpg?quality=82&strip=all&w=1600"
+   "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/05/iphone-19-pro-20-anniversary-max.jpg?quality=82&strip=all&w=1600",
+   "topic": "news"
+  },
+  {
+   "id": "aa79313db488",
+   "title": "Galaxy Tab S12 Ultra leak shows another side, confirming minimal changes",
+   "url": "https://9to5google.com/2026/09/23/galaxy-tab-s12-ultra-leak-all-sides/",
+   "source": "9to5google",
+   "kind": "news",
+   "published": "2026-09-23T14:21+00:00",
+   "devices": [],
+   "image": "https://9to5google.com/wp-content/uploads/sites/4/2026/09/Galaxy-Tab-S12-Ultra.jpg?quality=82&strip=all&w=1400",
+   "topic": "news"
   },
   {
    "id": "ac896e5a9190",
@@ -1159,17 +1876,24 @@
    "devices": [
     "xiaomi-18-pro"
    ],
-   "image": "https://www.gizmochina.com/wp-content/uploads/2026/09/Xiaomi-18-Pro-series-featured-300x169.png?x96852"
+   "image": "https://www.gizmochina.com/wp-content/uploads/2026/09/Xiaomi-18-Pro-series-featured-300x169.png?x96852",
+   "topic": "launch"
   },
   {
-   "id": "da621631f9d4",
-   "title": "AT&T Responds to iOS 27's New iPhone Handoff Feature",
-   "url": "https://www.macrumors.com/2026/09/23/att-on-ios-27-iphone-handoff/",
-   "source": "macrumors",
+   "id": "1d60c7ff0be8",
+   "title": "Xiaomi 18 Pro series goes official with ‘privacy screen,’ 8,500 mAh battery, and Snapdragon 8 Elite Extreme Gen 6",
+   "url": "https://9to5google.com/2026/09/23/xiaomi-18-pro-official-specs-features/",
+   "source": "9to5google",
    "kind": "news",
-   "published": "2026-09-23T14:06+00:00",
-   "devices": [],
-   "image": "https://images.macrumors.com/article-new/2026/09/iPhone-Handoff-Feature.jpeg"
+   "published": "2026-09-23T14:05+00:00",
+   "devices": [
+    "xiaomi-18-pro"
+   ],
+   "image": "https://9to5google.com/wp-content/uploads/sites/4/2026/09/xiaomi-18-pro-3-copy.jpg?quality=82&strip=all&w=1500",
+   "chipsets": [
+    "snapdragon-8-elite-extreme-gen-6"
+   ],
+   "topic": "news"
   },
   {
    "id": "bbbffce5b022",
@@ -1179,7 +1903,11 @@
    "kind": "review",
    "published": "2026-09-23T14:02+00:00",
    "devices": [],
-   "image": "https://www.gizmochina.com/wp-content/uploads/2026/09/Snapdragon-8-Elite-Extreme-Gen-6-300x200.png?x96852"
+   "image": "https://www.gizmochina.com/wp-content/uploads/2026/09/Snapdragon-8-Elite-Extreme-Gen-6-300x200.png?x96852",
+   "chipsets": [
+    "snapdragon-8-elite-extreme-gen-6"
+   ],
+   "topic": "test"
   },
   {
    "id": "3a4571826a93",
@@ -1191,17 +1919,8 @@
    "devices": [
     "xiaomi-18-pro"
    ],
-   "image": "https://www.gizmochina.com/wp-content/uploads/2026/09/Xiaomi-18-Pro-Max-1-2-300x188.png?x96852"
-  },
-  {
-   "id": "b4e657b5a640",
-   "title": "Xiaomi releases smaller luxury smartwatch with 3,000 nit AMOLED display and 14 days battery life",
-   "url": "https://www.notebookcheck.net/Xiaomi-releases-smaller-luxury-smartwatch-with-3-000-nit-AMOLED-display-and-14-days-battery-life.1406582.0.html",
-   "source": "notebookcheck",
-   "kind": "news",
-   "published": "2026-09-23T13:21+00:00",
-   "devices": [],
-   "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/xiaomi-watch-s5-41mm-release-kv.jpg"
+   "image": "https://www.gizmochina.com/wp-content/uploads/2026/09/Xiaomi-18-Pro-Max-1-2-300x188.png?x96852",
+   "topic": "launch"
   },
   {
    "id": "42b10e7a1bde",
@@ -1211,7 +1930,8 @@
    "kind": "news",
    "published": "2026-09-23T13:10+00:00",
    "devices": [],
-   "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/06/apple-mail-app-icon-ios-27.jpg?quality=82&strip=all&w=1600"
+   "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/06/apple-mail-app-icon-ios-27.jpg?quality=82&strip=all&w=1600",
+   "topic": "software"
   },
   {
    "id": "4328a64c737b",
@@ -1224,7 +1944,8 @@
    "devices": [
     "xiaomi-18-pro-max"
    ],
-   "image": "https://s3.ifanr.com/wp-content/uploads/2026/09/banner16t9-4.jpg"
+   "image": "https://s3.ifanr.com/wp-content/uploads/2026/09/banner16t9-4.jpg",
+   "topic": "review"
   },
   {
    "id": "068945b5ad0d",
@@ -1234,37 +1955,8 @@
    "kind": "news",
    "published": "2026-09-23T12:53+00:00",
    "devices": [],
-   "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/09/iphone-handoff.jpg?quality=82&strip=all&w=1600"
-  },
-  {
-   "id": "cacd8ad20a8f",
-   "title": "Xiaomi releases new high-end smartwatch with transparent design",
-   "url": "https://www.notebookcheck.net/Xiaomi-releases-new-high-end-smartwatch-with-transparent-design.1406577.0.html",
-   "source": "notebookcheck",
-   "kind": "news",
-   "published": "2026-09-23T12:48+00:00",
-   "devices": [],
-   "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/xiaomi-watch-s5-transparent-edition-release-kv.jpg"
-  },
-  {
-   "id": "0746c08dee36",
-   "title": "New smaller Surface Pro coming with Snapdragon X2 to complement 90 Hz display",
-   "url": "https://www.notebookcheck.net/New-smaller-Surface-Pro-coming-with-Snapdragon-X2-to-complement-90-Hz-display.1406574.0.html",
-   "source": "notebookcheck",
-   "kind": "news",
-   "published": "2026-09-23T12:28+00:00",
-   "devices": [],
-   "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/surface-pro-12inch-snapdragon-x2-refresh-rumoured-kv.jpg"
-  },
-  {
-   "id": "f994ea10d2b8",
-   "title": "Microsoft releasing smaller Surface Laptop with Qualcomm Snapdragon X2",
-   "url": "https://www.notebookcheck.net/Microsoft-releasing-smaller-Surface-Laptop-with-Qualcomm-Snapdragon-X2.1406571.0.html",
-   "source": "notebookcheck",
-   "kind": "news",
-   "published": "2026-09-23T12:21+00:00",
-   "devices": [],
-   "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/surface-laptop-13inch-snapdragon-x2-rumours-kv.jpg"
+   "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/09/iphone-handoff.jpg?quality=82&strip=all&w=1600",
+   "topic": "news"
   },
   {
    "id": "1e41aee33ff7",
@@ -1277,7 +1969,11 @@
    "devices": [
     "xiaomi-18-pro"
    ],
-   "image": "https://zinggadget.com/wp-content/uploads/2026/09/image-149.png"
+   "image": "https://zinggadget.com/wp-content/uploads/2026/09/image-149.png",
+   "chipsets": [
+    "snapdragon-8-elite-gen-6"
+   ],
+   "topic": "launch"
   },
   {
    "id": "fa5a64ee6fad",
@@ -1287,7 +1983,8 @@
    "kind": "news",
    "published": "2026-09-23T11:56+00:00",
    "devices": [],
-   "image": "https://www.gizmochina.com/wp-content/uploads/2026/09/Rollme-Matrix-smartwatch-300x169.png?x96852"
+   "image": "https://www.gizmochina.com/wp-content/uploads/2026/09/Rollme-Matrix-smartwatch-300x169.png?x96852",
+   "topic": "launch"
   },
   {
    "id": "8c484f2ed606",
@@ -1300,7 +1997,11 @@
     "oppo-find-x10",
     "oppo-find-x10-e"
    ],
-   "image": null
+   "image": null,
+   "chipsets": [
+    "dimensity-9600m"
+   ],
+   "topic": "price"
   },
   {
    "id": "16fe2be59fc6",
@@ -1312,7 +2013,11 @@
    "devices": [
     "xiaomi-18-pro"
    ],
-   "image": null
+   "image": null,
+   "chipsets": [
+    "snapdragon-8-elite-gen-6"
+   ],
+   "topic": "price"
   },
   {
    "id": "2574a8338482",
@@ -1325,29 +2030,8 @@
     "vivo-x500",
     "vivo-x500-pro"
    ],
-   "image": "https://www.gizmochina.com/wp-content/uploads/2026/09/image-129-1024x419.png?x96852"
-  },
-  {
-   "id": "7183be55354e",
-   "title": "Vivo X500 Pro Max: 200MP Camera, 8000mAh Battery, Available at Giztop",
-   "url": "https://www.gizmochina.com/2026/09/23/vivo-x500-pro-max-available-at-giztop/",
-   "source": "gizmochina",
-   "kind": "news",
-   "published": "2026-09-23T09:25+00:00",
-   "devices": [
-    "vivo-x500-pro-max"
-   ],
-   "image": "https://www.gizmochina.com/wp-content/uploads/2026/09/image-128-251x300.png?x96852"
-  },
-  {
-   "id": "fc8d57f977fe",
-   "title": "Xiaomi 18 series transparent back version teased as “one more thing” hours before big reveal",
-   "url": "https://www.gizmochina.com/2026/09/23/xiaomi-18-series-transparent-back-version-teased-as-one-more-thing-hours-before-big-reveal/",
-   "source": "gizmochina",
-   "kind": "news",
-   "published": "2026-09-23T09:25+00:00",
-   "devices": [],
-   "image": "https://www.gizmochina.com/wp-content/uploads/2026/09/70cf98bcly1ihcvh07f26j20u0140q7g-1-300x169.jpg?x96852"
+   "image": "https://www.gizmochina.com/wp-content/uploads/2026/09/image-129-1024x419.png?x96852",
+   "topic": "review"
   },
   {
    "id": "6ed872b0e126",
@@ -1358,7 +2042,8 @@
    "kind": "news",
    "published": "2026-09-23T09:12+00:00",
    "devices": [],
-   "image": "https://s3.ifanr.com/wp-content/uploads/2026/09/img_6ab397990e289.png"
+   "image": "https://s3.ifanr.com/wp-content/uploads/2026/09/img_6ab397990e289.png",
+   "topic": "news"
   },
   {
    "id": "b572599b93c1",
@@ -1370,7 +2055,11 @@
    "devices": [
     "oppo-find-x10-pro-max"
    ],
-   "image": null
+   "image": null,
+   "chipsets": [
+    "dimensity-9600-pro"
+   ],
+   "topic": "price"
   },
   {
    "id": "1f2573a70351",
@@ -1380,7 +2069,12 @@
    "kind": "news",
    "published": "2026-09-23T05:16+00:00",
    "devices": [],
-   "image": null
+   "image": null,
+   "chipsets": [
+    "snapdragon-8-elite-extreme-gen-6",
+    "snapdragon-8-elite-gen-6"
+   ],
+   "topic": "news"
   },
   {
    "id": "789b454176ab",
@@ -1390,7 +2084,8 @@
    "kind": "news",
    "published": "2026-09-23T04:31+00:00",
    "devices": [],
-   "image": null
+   "image": null,
+   "topic": "launch"
   },
   {
    "id": "bf62eaaa6bd0",
@@ -1400,7 +2095,8 @@
    "kind": "news",
    "published": "2026-09-23T03:01+00:00",
    "devices": [],
-   "image": null
+   "image": null,
+   "topic": "launch"
   },
   {
    "id": "5a96da6c0330",
@@ -1410,7 +2106,8 @@
    "kind": "news",
    "published": "2026-09-23T02:26+00:00",
    "devices": [],
-   "image": null
+   "image": null,
+   "topic": "software"
   },
   {
    "id": "6510ce15e36d",
@@ -1420,7 +2117,8 @@
    "kind": "news",
    "published": "2026-09-23T00:32+00:00",
    "devices": [],
-   "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/06/ios-27-apple-product-devices-lineup-bg.jpg?quality=82&strip=all&w=1600"
+   "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/06/ios-27-apple-product-devices-lineup-bg.jpg?quality=82&strip=all&w=1600",
+   "topic": "software"
   },
   {
    "id": "9b6312e8e9d1",
@@ -1433,7 +2131,8 @@
    "devices": [
     "oppo-find-x10"
    ],
-   "image": "https://s3.ifanr.com/wp-content/uploads/2026/09/img_6ab317bcc9060.jpeg"
+   "image": "https://s3.ifanr.com/wp-content/uploads/2026/09/img_6ab317bcc9060.jpeg",
+   "topic": "price"
   },
   {
    "id": "220ef5c4bb5c",
@@ -1443,37 +2142,12 @@
    "kind": "news",
    "published": "2026-09-22T23:25+00:00",
    "devices": [],
-   "image": "https://soyacincau.com/wp-content/uploads/2026/09/260923-qualcomm-snapdragon-8-gen-6-elite-series-2-150x150.jpg"
-  },
-  {
-   "id": "c11884ddcc5f",
-   "title": "Apple releases first iOS 27.2 public beta with new iPhone Health app",
-   "url": "https://9to5mac.com/2026/09/22/apple-releases-first-ios-27-2-public-beta-with-new-iphone-health-app/",
-   "source": "9to5mac",
-   "kind": "news",
-   "published": "2026-09-22T23:06+00:00",
-   "devices": [],
-   "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/09/iOS-27.2-public.jpg?quality=82&strip=all&w=1600"
-  },
-  {
-   "id": "1f7dca684861",
-   "title": "Apple expands Tap to Pay on iPhone across eight Latin American markets",
-   "url": "https://9to5mac.com/2026/09/22/apple-expands-tap-to-pay-on-iphone-across-eight-latin-american-markets/",
-   "source": "9to5mac",
-   "kind": "news",
-   "published": "2026-09-22T21:50+00:00",
-   "devices": [],
-   "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/09/tap-to-pay-iphone.jpg?quality=82&strip=all&w=1600"
-  },
-  {
-   "id": "95f782bf7b0f",
-   "title": "Apple adds RAW support for 11 digital cameras across iPhone, iPad, Mac, and Vision Pro",
-   "url": "https://9to5mac.com/2026/09/22/apple-adds-raw-support-for-11-digital-cameras-across-iphone-ipad-mac-and-vision-pro/",
-   "source": "9to5mac",
-   "kind": "news",
-   "published": "2026-09-22T21:19+00:00",
-   "devices": [],
-   "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/04/200MP-iPhone-camera-rumors-align-on-2028-release.jpg?quality=82&strip=all&w=1600"
+   "image": "https://soyacincau.com/wp-content/uploads/2026/09/260923-qualcomm-snapdragon-8-gen-6-elite-series-2-150x150.jpg",
+   "chipsets": [
+    "snapdragon-8-elite-extreme-gen-6",
+    "snapdragon-8-elite-gen-6"
+   ],
+   "topic": "launch"
   },
   {
    "id": "f32722b2fe9a",
@@ -1484,17 +2158,41 @@
    "kind": "news",
    "published": "2026-09-22T21:08+00:00",
    "devices": [],
-   "image": "https://zinggadget.com/wp-content/uploads/2026/09/Snapdragon-8-Elite-Extreme-and-8-Elite-Gen-6-Key-Visual-1-Embargo-Sep-22-10am-HT-1pm-PT.jpg"
+   "image": "https://zinggadget.com/wp-content/uploads/2026/09/Snapdragon-8-Elite-Extreme-and-8-Elite-Gen-6-Key-Visual-1-Embargo-Sep-22-10am-HT-1pm-PT.jpg",
+   "chipsets": [
+    "snapdragon-8-elite-extreme-gen-6",
+    "snapdragon-8-elite-gen-6"
+   ],
+   "topic": "launch"
   },
   {
-   "id": "38c83698cb2c",
-   "title": "Apple Photos in iOS 27 gets camera roll feature it’s long needed",
-   "url": "https://9to5mac.com/2026/09/22/apple-photos-in-ios-27-gets-camera-roll-feature-its-long-needed/",
-   "source": "9to5mac",
+   "id": "7f808c465ad5",
+   "title": "Motorola Signature 27 officially gets a North American launch in the ‘coming months’",
+   "url": "https://9to5google.com/2026/09/22/motorola-signature-27-north-america-launch-confirmed/",
+   "source": "9to5google",
    "kind": "news",
-   "published": "2026-09-22T19:39+00:00",
-   "devices": [],
-   "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/08/ios-27-photos-app-icon-fi-purple.jpg?quality=82&strip=all&w=1600"
+   "published": "2026-09-22T20:30+00:00",
+   "devices": [
+    "motorola-signature-27"
+   ],
+   "image": "https://9to5google.com/wp-content/uploads/sites/4/2026/09/motorola-signature-27-1_942c71.jpg?quality=82&strip=all&w=1600",
+   "topic": "launch"
+  },
+  {
+   "id": "7c682e4f1bcb",
+   "title": "Motorola Signature 27 is a proper flagship with Snapdragon 8 Elite Extreme Gen 6",
+   "url": "https://9to5google.com/2026/09/22/motorola-signature-27-snapdragon-reveal-flagship/",
+   "source": "9to5google",
+   "kind": "news",
+   "published": "2026-09-22T20:01+00:00",
+   "devices": [
+    "motorola-signature-27"
+   ],
+   "image": "https://9to5google.com/wp-content/uploads/sites/4/2026/09/motorola-signature-27-2.jpg?quality=82&strip=all&w=1600",
+   "chipsets": [
+    "snapdragon-8-elite-extreme-gen-6"
+   ],
+   "topic": "news"
   },
   {
    "id": "7ac7375d25ae",
@@ -1507,7 +2205,8 @@
    "devices": [
     "oppo-find-x10"
    ],
-   "image": "https://zinggadget.com/wp-content/uploads/2026/09/image-123.png"
+   "image": "https://zinggadget.com/wp-content/uploads/2026/09/image-123.png",
+   "topic": "price"
   },
   {
    "id": "a783a449db65",
@@ -1518,7 +2217,48 @@
    "published": "2026-09-22T10:48+00:00",
    "devices": [],
    "image": "https://i2.ytimg.com/vi/eYBEJBfq_Zs/hqdefault.jpg",
-   "views": 11778684
+   "views": 13035944,
+   "topic": "video"
+  },
+  {
+   "id": "0451c3eb4c75",
+   "title": "HUAWEI WATCH GT 7系列定档9月29日大马发布！加入糖尿病风险研究、3000nits屏幕，续航最高21天！",
+   "url": "https://zinggadget.com/huawei-watch-gt-7%e7%b3%bb%e5%88%97%e5%ae%9a%e6%a1%a39%e6%9c%8829%e6%97%a5%e5%a4%a7%e9%a9%ac%e5%8f%91%e5%b8%83%ef%bc%81%e5%8a%a0%e5%85%a5%e7%b3%96%e5%b0%bf%e7%97%85%e9%a3%8e%e9%99%a9%e7%a0%94%e7%a9%b6/",
+   "source": "zinggadget",
+   "lang": "zh",
+   "kind": "news",
+   "published": "2026-09-22T04:39+00:00",
+   "devices": [
+    "huawei-watch-gt-7"
+   ],
+   "image": "https://zinggadget.com/wp-content/uploads/2026/09/image-119.png",
+   "topic": "launch"
+  },
+  {
+   "id": "fdf519008212",
+   "title": "HUAWEI WATCH GT 7 Series coming to Malaysia on 29 September 2026",
+   "url": "https://technave.com/gadget/HUAWEI-WATCH-GT-7-Series-coming-to-Malaysia-on-29-September-2026-47500.html",
+   "source": "technave",
+   "kind": "news",
+   "published": "2026-09-22T04:01+00:00",
+   "devices": [
+    "huawei-watch-gt-7"
+   ],
+   "image": null,
+   "topic": "news"
+  },
+  {
+   "id": "2070ac720bec",
+   "title": "realme 16 Pro Harry Potter Edition Malaysia release - 200MP LumaColor Camera, Hogwarts Crest Glow Wonder, and Quadra Light-Sensing Tech for RM2,699",
+   "url": "https://technave.com/gadget/realme-16-Pro-Harry-Potter-Edition-Malaysia-release-200MP-LumaColor-Camera-Hogwarts-Crest-Glow-Wonder-and-Quadra-Light-Sensing-Tech-for-RM2-699-47496.html",
+   "source": "technave",
+   "kind": "news",
+   "published": "2026-09-22T00:44+00:00",
+   "devices": [
+    "realme-16-pro"
+   ],
+   "image": null,
+   "topic": "price"
   },
   {
    "id": "0ca2fbd4981f",
@@ -1530,7 +2270,11 @@
    "devices": [
     "vivo-x500"
    ],
-   "image": null
+   "image": null,
+   "chipsets": [
+    "dimensity-9600-pro"
+   ],
+   "topic": "news"
   },
   {
    "id": "f7227451aada",
@@ -1543,7 +2287,8 @@
    "devices": [
     "vivo-x500"
    ],
-   "image": "https://zinggadget.com/wp-content/uploads/2026/09/image-104.png"
+   "image": "https://zinggadget.com/wp-content/uploads/2026/09/image-104.png",
+   "topic": "launch"
   },
   {
    "id": "d358db508592",
@@ -1554,7 +2299,8 @@
    "kind": "news",
    "published": "2026-09-21T12:47+00:00",
    "devices": [],
-   "image": "https://zinggadget.com/wp-content/uploads/2026/09/image-113.png"
+   "image": "https://zinggadget.com/wp-content/uploads/2026/09/image-113.png",
+   "topic": "software"
   },
   {
    "id": "071fb3b87af1",
@@ -1565,7 +2311,8 @@
    "kind": "news",
    "published": "2026-09-21T11:04+00:00",
    "devices": [],
-   "image": "https://zinggadget.com/wp-content/uploads/2026/09/b3bc8967_Prestige_14_Flip_AI_Vincent_van_Gogh_Edition_Scenario_Photo_4-scaled.jpg"
+   "image": "https://zinggadget.com/wp-content/uploads/2026/09/b3bc8967_Prestige_14_Flip_AI_Vincent_van_Gogh_Edition_Scenario_Photo_4-scaled.jpg",
+   "topic": "news"
   },
   {
    "id": "9abb758f0ea6",
@@ -1574,8 +2321,11 @@
    "source": "technave",
    "kind": "news",
    "published": "2026-09-21T00:36+00:00",
-   "devices": [],
-   "image": null
+   "devices": [
+    "nothing-phone-4b"
+   ],
+   "image": null,
+   "topic": "price"
   },
   {
    "id": "66833ab5cd85",
@@ -1588,7 +2338,8 @@
     "apple-iphone-18-pro"
    ],
    "image": "https://i1.ytimg.com/vi/Pc1JzImPw_M/hqdefault.jpg",
-   "views": 7997124
+   "views": 8239658,
+   "topic": "test"
   },
   {
    "id": "0230df11df8b",
@@ -1601,7 +2352,8 @@
    "devices": [
     "oppo-a7-pro-max"
    ],
-   "image": "https://zinggadget.com/wp-content/uploads/2026/09/804878239_2692238411233140_3963038530194214058_n-1-scaled.jpeg"
+   "image": "https://zinggadget.com/wp-content/uploads/2026/09/804878239_2692238411233140_3963038530194214058_n-1-scaled.jpeg",
+   "topic": "news"
   },
   {
    "id": "20475d568976",
@@ -1614,7 +2366,8 @@
     "apple-iphone-18-pro"
    ],
    "image": "https://i4.ytimg.com/vi/WUlLIo9LI-w/hqdefault.jpg",
-   "views": 3887654
+   "views": 3922305,
+   "topic": "test"
   },
   {
    "id": "1a9364210b3e",
@@ -1627,7 +2380,19 @@
     "apple-iphone-18-pro"
    ],
    "image": "https://i1.ytimg.com/vi/PjAyUhf52D0/hqdefault.jpg",
-   "views": 4927734
+   "views": 4996126,
+   "topic": "video"
+  },
+  {
+   "id": "d652b737e6cd",
+   "title": "The latest iPhone, Apple Watch, and AirPods lineups arrive in stores worldwide",
+   "url": "https://www.apple.com/newsroom/2026/09/the-latest-iphone-apple-watch-and-airpods-lineups-arrive-in-stores-worldwide/",
+   "source": "apple-newsroom",
+   "kind": "news",
+   "published": "2026-09-18T05:02+00:00",
+   "devices": [],
+   "image": null,
+   "topic": "news"
   },
   {
    "id": "2f3a7375de17",
@@ -1639,7 +2404,8 @@
    "devices": [
     "apple-iphone-18-pro-max"
    ],
-   "image": "https://www.malaymail.com/malaymail/uploads/images/2026/09/18/363117.jpg"
+   "image": "https://www.malaymail.com/malaymail/uploads/images/2026/09/18/363117.jpg",
+   "topic": "review"
   },
   {
    "id": "a5c97106f6d0",
@@ -1652,7 +2418,8 @@
    "devices": [
     "apple-iphone-18-pro"
    ],
-   "image": "https://zinggadget.com/wp-content/uploads/2026/09/image-92.png"
+   "image": "https://zinggadget.com/wp-content/uploads/2026/09/image-92.png",
+   "topic": "news"
   },
   {
    "id": "53a5629bde5e",
@@ -1665,7 +2432,19 @@
    "devices": [
     "samsung-galaxy-z-fold8"
    ],
-   "image": "https://zinggadget.com/wp-content/uploads/2026/08/image-36.png"
+   "image": "https://zinggadget.com/wp-content/uploads/2026/08/image-36.png",
+   "topic": "news"
+  },
+  {
+   "id": "57d5db6ab60e",
+   "title": "Samsung Begins Official Rollout of One UI 9, Bringing the Latest Galaxy Experiences to More Devices",
+   "url": "https://news.samsung.com/global/samsung-begins-official-rollout-of-one-ui-9-bringing-the-latest-galaxy-experiences-to-more-devices",
+   "source": "samsung-newsroom",
+   "kind": "news",
+   "published": "2026-09-16T21:00+00:00",
+   "devices": [],
+   "image": "https://img.global.news.samsung.com/global/wp-content/uploads/2026/09/16160212/Samsung-Mobile-Official-Rollout-One-UI-9_Thumb932-728x410.jpg",
+   "topic": "software"
   },
   {
    "id": "ff99629447c4",
@@ -1678,7 +2457,21 @@
     "apple-iphone-18-pro"
    ],
    "image": "https://i4.ytimg.com/vi/3YcdmkZx7Fw/hqdefault.jpg",
-   "views": 1788407
+   "views": 1798287,
+   "topic": "video"
+  },
+  {
+   "id": "f88c473bc838",
+   "title": "Celebrating “What Holds Us” on iPhone 18 Pro",
+   "url": "https://www.apple.com/newsroom/2026/09/celebrating-what-holds-us-on-iphone-18-pro/",
+   "source": "apple-newsroom",
+   "kind": "news",
+   "published": "2026-09-16T13:59+00:00",
+   "devices": [
+    "apple-iphone-18-pro"
+   ],
+   "image": null,
+   "topic": "news"
   },
   {
    "id": "197ba23c4184",
@@ -1691,7 +2484,19 @@
     "apple-iphone-18-pro"
    ],
    "image": "https://i3.ytimg.com/vi/n6hPB3Arr_M/hqdefault.jpg",
-   "views": 9481059
+   "views": 9561788,
+   "topic": "video"
+  },
+  {
+   "id": "9044984e0663",
+   "title": "[Interview] The People Behind the Galaxy Z Series’ Camera Innovations ②: How Portrait Video Recreates the Look of Professional Camera Lenses",
+   "url": "https://news.samsung.com/global/interview-the-people-behind-the-galaxy-z-series-camera-innovations-%e2%91%a1-how-portrait-video-recreates-the-look-of-professional-camera-lenses",
+   "source": "samsung-newsroom",
+   "kind": "news",
+   "published": "2026-09-16T08:00+00:00",
+   "devices": [],
+   "image": "https://img.global.news.samsung.com/global/wp-content/uploads/2026/09/15174444/Samsung-Mobile-The-New-Galaxy-Z-series-Portrait-Video-Interview_Thumb932-728x410.jpg",
+   "topic": "news"
   },
   {
    "id": "25b766848a53",
@@ -1702,7 +2507,8 @@
    "kind": "news",
    "published": "2026-09-15T09:24+00:00",
    "devices": [],
-   "image": "https://zinggadget.com/wp-content/uploads/2026/09/75757397gy1ih4dfm5y7hj26681jku0x.jpg"
+   "image": "https://zinggadget.com/wp-content/uploads/2026/09/75757397gy1ih4dfm5y7hj26681jku0x.jpg",
+   "topic": "launch"
   },
   {
    "id": "f0f1b589cd91",
@@ -1713,7 +2519,22 @@
    "kind": "news",
    "published": "2026-09-14T04:39+00:00",
    "devices": [],
-   "image": "https://zinggadget.com/wp-content/uploads/2026/09/IMG_6631-scaled.jpg"
+   "image": "https://zinggadget.com/wp-content/uploads/2026/09/IMG_6631-scaled.jpg",
+   "topic": "news"
+  },
+  {
+   "id": "3ee6b3d370c9",
+   "title": "OPPO A7 Pro系列大马登场：最大10,000mAh电池+80W SUPERVOOC充电、支持50MP超广角AI自拍等！",
+   "url": "https://zinggadget.com/oppo-a7-pro%e7%b3%bb%e5%88%97%e5%a4%a7%e9%a9%ac%e7%99%bb%e5%9c%ba/",
+   "source": "zinggadget",
+   "lang": "zh",
+   "kind": "news",
+   "published": "2026-09-14T03:51+00:00",
+   "devices": [
+    "oppo-a7-pro"
+   ],
+   "image": "https://zinggadget.com/wp-content/uploads/2026/09/Key-Visual-A70-Pro-Series-scaled.jpg",
+   "topic": "news"
   },
   {
    "id": "c36d703acf6b",
@@ -1724,7 +2545,8 @@
    "published": "2026-09-13T14:01+00:00",
    "devices": [],
    "image": "https://i4.ytimg.com/vi/7soMd19QQo0/hqdefault.jpg",
-   "views": 1017260
+   "views": 1019618,
+   "topic": "video"
   },
   {
    "id": "c8b1ad3bcc1c",
@@ -1734,7 +2556,22 @@
    "kind": "news",
    "published": "2026-09-13T13:00+00:00",
    "devices": [],
-   "image": "https://www.malaymail.com/malaymail/uploads/images/2026/09/13/362344.jpg"
+   "image": "https://www.malaymail.com/malaymail/uploads/images/2026/09/13/362344.jpg",
+   "topic": "price"
+  },
+  {
+   "id": "b02935b93b58",
+   "title": "Get ready to experience iPhone 18 Pro, the new Apple Watch lineup, and AirPods 5",
+   "url": "https://www.apple.com/newsroom/2026/09/get-ready-to-experience-iphone-18-pro-the-new-apple-watch-lineup-and-airpods-5/",
+   "source": "apple-newsroom",
+   "kind": "news",
+   "published": "2026-09-11T16:00+00:00",
+   "devices": [
+    "apple-iphone-18-pro",
+    "apple-airpods-5"
+   ],
+   "image": null,
+   "topic": "news"
   },
   {
    "id": "3ede502ea9c4",
@@ -1747,7 +2584,8 @@
    "devices": [
     "apple-iphone-18-pro"
    ],
-   "image": "https://zinggadget.com/wp-content/uploads/2026/09/iPhone-18-PR_Pre-order-CH.jpg"
+   "image": "https://zinggadget.com/wp-content/uploads/2026/09/iPhone-18-PR_Pre-order-CH.jpg",
+   "topic": "price"
   },
   {
    "id": "027c59e12c3e",
@@ -1758,7 +2596,8 @@
    "kind": "news",
    "published": "2026-09-11T11:10+00:00",
    "devices": [],
-   "image": "https://zinggadget.com/wp-content/uploads/2026/09/IMG_3399-scaled.jpg"
+   "image": "https://zinggadget.com/wp-content/uploads/2026/09/IMG_3399-scaled.jpg",
+   "topic": "news"
   },
   {
    "id": "7610c653973c",
@@ -1769,7 +2608,8 @@
    "published": "2026-09-10T07:11+00:00",
    "devices": [],
    "image": "https://i2.ytimg.com/vi/5pV3D14y1FQ/hqdefault.jpg",
-   "views": 16496495
+   "views": 16539663,
+   "topic": "video"
   },
   {
    "id": "190347577933",
@@ -1779,7 +2619,8 @@
    "kind": "news",
    "published": "2026-09-10T01:05+00:00",
    "devices": [],
-   "image": "https://www.malaymail.com/malaymail/uploads/images/2026/09/10/361634.jpg"
+   "image": "https://www.malaymail.com/malaymail/uploads/images/2026/09/10/361634.jpg",
+   "topic": "news"
   },
   {
    "id": "2304100d6984",
@@ -1789,8 +2630,11 @@
    "lang": "zh",
    "kind": "news",
    "published": "2026-09-09T23:38+00:00",
-   "devices": [],
-   "image": "https://zinggadget.com/wp-content/uploads/2026/09/屏幕截图-2026-09-10-013900.png"
+   "devices": [
+    "apple-airpods-5"
+   ],
+   "image": "https://zinggadget.com/wp-content/uploads/2026/09/屏幕截图-2026-09-10-013900.png",
+   "topic": "software"
   },
   {
    "id": "941661c8afe8",
@@ -1801,20 +2645,8 @@
    "kind": "news",
    "published": "2026-09-09T23:02+00:00",
    "devices": [],
-   "image": "https://zinggadget.com/wp-content/uploads/2026/09/屏幕截图-2026-09-10-020008.png"
-  },
-  {
-   "id": "774fb4045ded",
-   "title": "iPhone 18 Pro系列发布：A20 Pro芯片、48MP镜头加入可变光圈等！大马售价RM5499起！",
-   "url": "https://zinggadget.com/iphone-18-pro%e7%b3%bb%e5%88%97%e5%8f%91%e5%b8%83%ef%bc%9aa20-pro%e8%8a%af%e7%89%87%e3%80%8148mp%e9%95%9c%e5%a4%b4%e5%8a%a0%e5%85%a5%e5%8f%af%e5%8f%98%e5%85%89%e5%9c%88%e7%ad%89%ef%bc%81%e5%a4%a7/",
-   "source": "zinggadget",
-   "lang": "zh",
-   "kind": "news",
-   "published": "2026-09-09T22:23+00:00",
-   "devices": [
-    "apple-iphone-18-pro"
-   ],
-   "image": "https://zinggadget.com/wp-content/uploads/2026/09/屏幕截图-2026-09-10-011447.png"
+   "image": "https://zinggadget.com/wp-content/uploads/2026/09/屏幕截图-2026-09-10-020008.png",
+   "topic": "launch"
   },
   {
    "id": "a5ee4f74436b",
@@ -1825,7 +2657,72 @@
    "published": "2026-09-09T20:20+00:00",
    "devices": [],
    "image": "https://i3.ytimg.com/vi/6AkGhTBtR4o/hqdefault.jpg",
-   "views": 15334491
+   "views": 15355431,
+   "topic": "video"
+  },
+  {
+   "id": "728bbee10ddb",
+   "title": "Apple unveils iPhone Duo",
+   "url": "https://www.apple.com/newsroom/2026/09/apple-unveils-iphone-duo/",
+   "source": "apple-newsroom",
+   "kind": "news",
+   "published": "2026-09-09T18:15+00:00",
+   "devices": [],
+   "image": null,
+   "topic": "launch"
+  },
+  {
+   "id": "0e4c54e6ac75",
+   "title": "Apple unveils Apple Watch Ultra 4",
+   "url": "https://www.apple.com/newsroom/2026/09/apple-unveils-apple-watch-ultra-4/",
+   "source": "apple-newsroom",
+   "kind": "news",
+   "published": "2026-09-09T17:51+00:00",
+   "devices": [
+    "apple-watch-ultra-4"
+   ],
+   "image": null,
+   "topic": "launch"
+  },
+  {
+   "id": "9b78cef408b4",
+   "title": "Introducing Apple Watch Series 12, with the all-new Health Sensing System",
+   "url": "https://www.apple.com/newsroom/2026/09/introducing-apple-watch-series-12-with-the-all-new-health-sensing-system/",
+   "source": "apple-newsroom",
+   "kind": "news",
+   "published": "2026-09-09T17:50+00:00",
+   "devices": [
+    "apple-watch-series-12"
+   ],
+   "image": null,
+   "topic": "news"
+  },
+  {
+   "id": "4c5cced9cba3",
+   "title": "Apple introduces AirPods 5 with best-in-class open-ear Active Noise Cancellation",
+   "url": "https://www.apple.com/newsroom/2026/09/apple-introduces-airpods-5-with-best-in-class-open-ear-active-noise-cancellation/",
+   "source": "apple-newsroom",
+   "kind": "news",
+   "published": "2026-09-09T17:34+00:00",
+   "devices": [
+    "apple-airpods-5"
+   ],
+   "image": null,
+   "topic": "news"
+  },
+  {
+   "id": "07e6d6658c80",
+   "title": "Apple debuts iPhone 18 Pro and iPhone 18 Pro Max",
+   "url": "https://www.apple.com/newsroom/2026/09/apple-debuts-iphone-18-pro-and-iphone-18-pro-max/",
+   "source": "apple-newsroom",
+   "kind": "news",
+   "published": "2026-09-09T17:30+00:00",
+   "devices": [
+    "apple-iphone-18-pro-max",
+    "apple-iphone-18-pro"
+   ],
+   "image": null,
+   "topic": "launch"
   },
   {
    "id": "a1a39d448ff2",
@@ -1837,7 +2734,8 @@
    "devices": [
     "samsung-galaxy-z-fold8"
    ],
-   "image": "https://www.malaymail.com/malaymail/uploads/images/2026/09/09/361559.jpg"
+   "image": "https://www.malaymail.com/malaymail/uploads/images/2026/09/09/361559.jpg",
+   "topic": "launch"
   },
   {
    "id": "189039a99aec",
@@ -1849,18 +2747,8 @@
    "devices": [
     "apple-iphone-18-pro"
    ],
-   "image": "https://www.malaymail.com/malaymail/uploads/images/2026/09/09/361485.jpg"
-  },
-  {
-   "id": "8a489707fccc",
-   "title": "Nothing Phone (4b)、Ear (3a) 开放预购！大马售价RM399起，现在买有限时RM100折扣！",
-   "url": "https://zinggadget.com/nothing-phone-4b%e3%80%81ear-3a-%e5%bc%80%e6%94%be%e9%a2%84%e8%b4%ad%ef%bc%81%e5%a4%a7%e9%a9%ac%e5%94%ae%e4%bb%b7rm399%e8%b5%b7%ef%bc%8c%e7%8e%b0%e5%9c%a8%e4%b9%b0%e6%9c%89%e9%99%90%e6%97%b6rm100/",
-   "source": "zinggadget",
-   "lang": "zh",
-   "kind": "news",
-   "published": "2026-09-09T04:19+00:00",
-   "devices": [],
-   "image": "https://zinggadget.com/wp-content/uploads/2026/09/BlueWhite_Talent_4x5_-scaled.jpg"
+   "image": "https://www.malaymail.com/malaymail/uploads/images/2026/09/09/361485.jpg",
+   "topic": "launch"
   },
   {
    "id": "4c9562513527",
@@ -1871,20 +2759,19 @@
    "published": "2026-09-08T18:33+00:00",
    "devices": [],
    "image": "https://i4.ytimg.com/vi/WO591I22Yew/hqdefault.jpg",
-   "views": 2137455
+   "views": 2139305,
+   "topic": "video"
   },
   {
-   "id": "43b1dda055d8",
-   "title": "vivo V80 Lite 登陆大马！10,000mAh大电池、45°C 高温续航等，大马售价RM1399起！",
-   "url": "https://zinggadget.com/vivo-v80-lite-%e7%99%bb%e9%99%86%e5%a4%a7%e9%a9%ac%ef%bc%8110000mah%e5%a4%a7%e7%94%b5%e6%b1%a0%e3%80%8145c-%e9%ab%98%e6%b8%a9%e7%bb%ad%e8%88%aa%e7%ad%89%ef%bc%8c%e5%a4%a7%e9%a9%ac%e5%94%ae/",
-   "source": "zinggadget",
-   "lang": "zh",
+   "id": "b243f839a8bf",
+   "title": "[Video] [Voices of Galaxy] Meet Lefa Makgato, Championing Africa’s Next Generation of Innovators",
+   "url": "https://news.samsung.com/global/video-voices-of-galaxy-meet-lefa-makgato-championing-africas-next-generation-of-innovators",
+   "source": "samsung-newsroom",
    "kind": "news",
-   "published": "2026-09-08T07:30+00:00",
-   "devices": [
-    "vivo-v80-lite-5g"
-   ],
-   "image": "https://zinggadget.com/wp-content/uploads/2026/09/KKC07765-scaled.jpg"
+   "published": "2026-09-02T21:00+00:00",
+   "devices": [],
+   "image": "https://img.global.news.samsung.com/global/wp-content/uploads/2026/09/28171511/Samsung-Mobile-Voices-of-Galaxy-Lefa-Makgato_Thumb932-728x410.jpg",
+   "topic": "news"
   },
   {
    "id": "3360979aa094",
@@ -1895,7 +2782,8 @@
    "published": "2026-09-02T13:08+00:00",
    "devices": [],
    "image": "https://i4.ytimg.com/vi/79X9SL172oo/hqdefault.jpg",
-   "views": 1982302
+   "views": 1990278,
+   "topic": "video"
   },
   {
    "id": "e7152d24951b",
@@ -1906,7 +2794,80 @@
    "published": "2026-09-02T11:57+00:00",
    "devices": [],
    "image": "https://i4.ytimg.com/vi/Wdkf1G2jHRg/hqdefault.jpg",
-   "views": 5440564
+   "views": 5463320,
+   "topic": "video"
+  },
+  {
+   "id": "71c9cee8bcb7",
+   "title": "[Interview] The People Behind the Galaxy Z Series’ Camera Innovations ①: How My FanCam Keeps Favorite People in Focus",
+   "url": "https://news.samsung.com/global/interview-the-people-behind-the-galaxy-z-series-camera-innovations-%e2%91%a0-how-my-fancam-keeps-favorite-people-in-focus",
+   "source": "samsung-newsroom",
+   "kind": "news",
+   "published": "2026-09-01T09:00+00:00",
+   "devices": [],
+   "image": "https://img.global.news.samsung.com/global/wp-content/uploads/2026/09/31160827/Samsung-Mobile-Galaxy-Z-Fold8-series-My-FanCam-Interview_Thumb932-728x410.jpg",
+   "topic": "news"
+  },
+  {
+   "id": "b2dfcbe97f47",
+   "title": "Samsung Expands the Galaxy Book6 Lineup, Making Galaxy Book More Accessible",
+   "url": "https://news.samsung.com/global/samsung-expands-the-galaxy-book6-lineup-making-galaxy-book-more-accessible",
+   "source": "samsung-newsroom",
+   "kind": "news",
+   "published": "2026-09-01T08:00+00:00",
+   "devices": [],
+   "image": "https://img.global.news.samsung.com/global/wp-content/uploads/2026/09/28155012/Samsung-Mobile-The-new-Galaxy-Book6-Galaxy-Book6-LIneup-Galaxy-AI_Thumb932-728x410.jpg",
+   "topic": "news"
+  },
+  {
+   "id": "091e0e9f7609",
+   "title": "Samsung Galaxy S26 FE: Delivering the Latest Flagship Experience, Focused on What Matters Most",
+   "url": "https://news.samsung.com/global/samsung-galaxy-s26-fe-delivering-the-latest-flagship-experience-focused-on-what-matters-most",
+   "source": "samsung-newsroom",
+   "kind": "news",
+   "published": "2026-08-27T21:00+00:00",
+   "devices": [
+    "samsung-galaxy-s26-fe"
+   ],
+   "image": "https://img.global.news.samsung.com/global/wp-content/uploads/2026/08/27192634/Samsung-Mobile-Galaxy-S26-FE_Thumb932-728x410.jpg",
+   "topic": "news"
+  },
+  {
+   "id": "8a9f71986971",
+   "title": "[Video] No Unfolding Needed: A Day With Galaxy Z Flip8’s FlexWindow",
+   "url": "https://news.samsung.com/global/video-no-unfolding-needed-a-day-with-galaxy-z-flip8s-flexwindow",
+   "source": "samsung-newsroom",
+   "kind": "news",
+   "published": "2026-08-27T08:00+00:00",
+   "devices": [
+    "samsung-galaxy-z-flip8"
+   ],
+   "image": "https://img.global.news.samsung.com/global/wp-content/uploads/2026/08/26134710/Samsung-Mobile-Galaxy-Z-Flip8s-FlexWindow-_Thumb932-728x410.jpg",
+   "topic": "news"
+  },
+  {
+   "id": "75a318cfb7d7",
+   "title": "The New Galaxy Z Series Earns Strong Early Reviews From European Consumers",
+   "url": "https://news.samsung.com/global/the-new-galaxy-z-series-earns-strong-early-reviews-from-european-consumers",
+   "source": "samsung-newsroom",
+   "kind": "news",
+   "published": "2026-08-26T00:00+00:00",
+   "devices": [],
+   "image": "https://news.samsung.com/global/wp-content/themes/newsroom/images/default_image.png",
+   "topic": "news"
+  },
+  {
+   "id": "c27aa6c5b3b3",
+   "title": "An Easier Way To Switch to the New Galaxy Z Fold8",
+   "url": "https://news.samsung.com/global/an-easier-way-to-switch-to-the-new-galaxy-z-fold8",
+   "source": "samsung-newsroom",
+   "kind": "news",
+   "published": "2026-08-25T08:00+00:00",
+   "devices": [
+    "samsung-galaxy-z-fold8"
+   ],
+   "image": "https://img.global.news.samsung.com/global/wp-content/uploads/2026/08/24173049/Samsung-Mobile-Smart-Switch-Galaxy-Z-Fold8-One-UI-9-Switching-to-a-New-Phone_Thumb932-728x410.jpg",
+   "topic": "news"
   },
   {
    "id": "b04f6666df60",
@@ -1919,7 +2880,54 @@
     "google-pixel-11-pro-xl"
    ],
    "image": "https://i2.ytimg.com/vi/eZ5VpPJjddA/hqdefault.jpg",
-   "views": 1003109
+   "views": 1005309,
+   "topic": "test"
+  },
+  {
+   "id": "d96c1bd7348d",
+   "title": "Samsung Galaxy Buds4 Pro Superior Hi-Fi Sound Recognized by Audio Experts",
+   "url": "https://news.samsung.com/global/samsung-galaxy-buds4-pro-superior-hi-fi-sound-recognized-by-audio-experts",
+   "source": "samsung-newsroom",
+   "kind": "news",
+   "published": "2026-08-24T07:00+00:00",
+   "devices": [
+    "samsung-galaxy-buds4-pro"
+   ],
+   "image": "https://img.global.news.samsung.com/global/wp-content/uploads/2026/08/21093103/Samsung-Mobile-Galaxy-Buds4-Pro-EISA-Recognition_Thumb932-728x410.jpg",
+   "topic": "news"
+  },
+  {
+   "id": "71be954a129d",
+   "title": "[Video] [Galaxy Unpacked July 2026] Samsung Health Envisions Simpler, More Connected Care With AI",
+   "url": "https://news.samsung.com/global/video-galaxy-unpacked-july-2026-samsung-health-envisions-simpler-more-connected-care-with-ai",
+   "source": "samsung-newsroom",
+   "kind": "news",
+   "published": "2026-08-20T16:00+00:00",
+   "devices": [],
+   "image": "https://img.global.news.samsung.com/global/wp-content/uploads/2026/08/19163557/Samsung-Mobile-Galaxy-Unpacked-July-2026-Samsung-Health-Connected-Care-With-AI_Thumb932-728x410.jpg",
+   "topic": "news"
+  },
+  {
+   "id": "c046fdb16899",
+   "title": "[Invitation] Galaxy Event August 2026",
+   "url": "https://news.samsung.com/global/invitation-galaxy-event-august-2026",
+   "source": "samsung-newsroom",
+   "kind": "news",
+   "published": "2026-08-20T08:00+00:00",
+   "devices": [],
+   "image": "https://img.global.news.samsung.com/global/wp-content/uploads/2026/08/18180207/Samsung-Mobile-Invitation-Galaxy-Event-August-2026_Thumb932-728x410.jpg",
+   "topic": "news"
+  },
+  {
+   "id": "4ff37c939c4a",
+   "title": "‘Warranty and care’ Menu Simplifies Device Care for New Foldables",
+   "url": "https://news.samsung.com/global/warranty-and-care-menu-simplifies-device-care-for-new-foldables",
+   "source": "samsung-newsroom",
+   "kind": "news",
+   "published": "2026-08-18T08:00+00:00",
+   "devices": [],
+   "image": "https://img.global.news.samsung.com/global/wp-content/uploads/2026/08/14154108/Samsung-Mobile-Warranty-and-Care-Samsung-Care_Thumb932-728x410.jpg",
+   "topic": "news"
   },
   {
    "id": "bfa8735fb0be",
@@ -1930,7 +2938,23 @@
    "published": "2026-08-14T11:15+00:00",
    "devices": [],
    "image": "https://i3.ytimg.com/vi/n3F996g8wjg/hqdefault.jpg",
-   "views": 4902460
+   "views": 4909448,
+   "topic": "video"
+  },
+  {
+   "id": "c302ef3eaacf",
+   "title": "[Galaxy Unpacked July 2026] One City, Three Perspectives: Capturing London With Galaxy Z Fold8 Ultra, Galaxy Z Fold8, and Galaxy Z Flip8",
+   "url": "https://news.samsung.com/global/galaxy-unpacked-july-2026-one-city-three-perspectives-capturing-london-with-galaxy-z-fold8-ultra-galaxy-z-fold8-and-galaxy-z-flip8",
+   "source": "samsung-newsroom",
+   "kind": "news",
+   "published": "2026-08-13T08:00+00:00",
+   "devices": [
+    "samsung-galaxy-z-fold8-ultra",
+    "samsung-galaxy-z-flip8",
+    "samsung-galaxy-z-fold8"
+   ],
+   "image": "https://img.global.news.samsung.com/global/wp-content/uploads/2026/08/12153835/Samsung-Mobile-Galaxy-Unpacked-July-2026-Galaxy-Z-Fold8-Ultra-Galaxy-Z-Fold8-Galaxy-Z-Flip8-London-with-Foldables_Thumb932-728x410.jpg",
+   "topic": "news"
   },
   {
    "id": "fb465281d82a",
@@ -1943,7 +2967,30 @@
     "google-pixel-11"
    ],
    "image": "https://i4.ytimg.com/vi/oaaOwLnuyPU/hqdefault.jpg",
-   "views": 3645031
+   "views": 3648090,
+   "topic": "video"
+  },
+  {
+   "id": "f1b28a88594d",
+   "title": "[Video] Samsung Brings Chopin’s Nocturne to Galaxy as New One UI 9 Ringtone",
+   "url": "https://news.samsung.com/global/video-samsung-brings-chopins-nocturne-to-galaxy-as-new-one-ui-9-ringtone",
+   "source": "samsung-newsroom",
+   "kind": "news",
+   "published": "2026-08-12T08:00+00:00",
+   "devices": [],
+   "image": "https://img.global.news.samsung.com/global/wp-content/uploads/2026/08/11163408/Samsung-Mobile-New-Ringtone-Chopin-Nocturne_Thumb932-728x410.jpg",
+   "topic": "software"
+  },
+  {
+   "id": "e8a75a94a88e",
+   "title": "Samsung’s Hearing Aid Feature on Galaxy Buds Cleared by FDA",
+   "url": "https://news.samsung.com/global/samsungs-hearing-aid-feature-on-galaxy-buds-cleared-by-fda",
+   "source": "samsung-newsroom",
+   "kind": "news",
+   "published": "2026-08-11T22:00+00:00",
+   "devices": [],
+   "image": "https://img.global.news.samsung.com/global/wp-content/uploads/2026/08/10105607/Samsung-Mobile-Samsung-Hearing-Aid-Feature-Galaxy-Buds-FDA_Thumb932-728x410.jpg",
+   "topic": "news"
   }
  ]
 }

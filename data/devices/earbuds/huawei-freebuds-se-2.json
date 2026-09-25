@@ -1,0 +1,88 @@
+{
+  "id": "huawei-freebuds-se-2",
+  "name": "HUAWEI FreeBuds SE 2",
+  "brand": "huawei",
+  "category": "earbuds",
+  "series": "HUAWEI FreeBuds SE",
+  "form": "buds",
+  "status": "released",
+  "announced": "2023",
+  "released": "2023",
+  "segment": "entry",
+  "aliases": [
+    "FreeBuds SE 2"
+  ],
+  "summary": "Huawei’s 2023 budget half-in-ear earbuds: 3.8 g, IP54 and up to 40 hours with the case.",
+  "highlights": [
+    "3.8 g earbuds",
+    "Up to 40 h with case",
+    "RM199"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 199,
+      "config": "Retail price",
+      "date": "2023",
+      "type": "launch",
+      "source": "technave",
+      "url": "https://technave.com/gadget/Huawei-FreeBuds-SE-2-Malaysia-pre-order-priced-at-RM199-35672.html",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "audio": {
+      "anc": "No (call noise cancellation only)",
+      "driver": "10 mm dynamic",
+      "codecs": [
+        "AAC",
+        "SBC"
+      ]
+    },
+    "battery": {
+      "life_h": 9,
+      "total_h": 40,
+      "bud_mah": 41,
+      "case_mah": 510,
+      "claim": "Up to 9 h; 40 h with the case"
+    },
+    "charging": {
+      "wireless": "No",
+      "port": "USB-C"
+    },
+    "build": {
+      "style": "Half in-ear (no ear tips)",
+      "weight_g": 3.8,
+      "dimensions": {
+        "height_mm": 33.66,
+        "width_mm": 17.83,
+        "depth_mm": 18.13
+      },
+      "case_weight_g": 33,
+      "case_dimensions": {
+        "height_mm": 50.4,
+        "width_mm": 50.31,
+        "depth_mm": 23.4
+      },
+      "ip": "IP54"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.3"
+    },
+    "software": {
+      "app": "HUAWEI AI Life (Android and iPhone)"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "huawei",
+      "url": "https://consumer.huawei.com/my/headphones/freebuds-se-2/specs/",
+      "checked": "2026-09-25",
+      "note": "Read from HUAWEI Malaysia’s specification page. Battery figures are Huawei’s lab claims."
+    }
+  },
+  "dataStatus": "checked"
+}

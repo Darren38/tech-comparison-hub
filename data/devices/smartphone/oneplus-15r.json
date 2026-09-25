@@ -1,0 +1,91 @@
+{
+  "id": "oneplus-15r",
+  "name": "OnePlus 15R",
+  "brand": "oneplus",
+  "category": "smartphone",
+  "series": "OnePlus",
+  "form": "bar",
+  "status": "released",
+  "segment": "upper-mid",
+  "aliases": [
+    "15R"
+  ],
+  "summary": "A 6.83-inch 5G upper mid-range phone with the Snapdragon 8 Gen 5, a 7,400 mAh battery, 80 W charging and a 50 MP main camera.",
+  "highlights": [
+    "Snapdragon 8 Gen 5",
+    "6.83-inch",
+    "7,400 mAh, 80 W"
+  ],
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-25",
+      "source": "oneplus",
+      "note": "Listed on the maker’s Malaysian website, but no Malaysian launch price was found in a launch report."
+    }
+  },
+  "specs": {
+    "build": {
+      "weight_g": 214.0,
+      "dimensions": {
+        "height_mm": 163.41,
+        "width_mm": 77.04,
+        "depth_mm": 8.3
+      }
+    },
+    "display": {
+      "size_in": 6.83,
+      "resolution": "2800 × 1272"
+    },
+    "software": {
+      "launch_os": "Android 16"
+    },
+    "platform": {
+      "chipset": "snapdragon-8-gen-5"
+    },
+    "memory": {
+      "ram_gb": [
+        12
+      ],
+      "storage_gb": [
+        256,
+        512
+      ]
+    },
+    "battery": {
+      "capacity_mah": 7400
+    },
+    "charging": {
+      "wired_w": 80
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "wifi": "Wi-Fi 7",
+      "nfc": true
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "focal_mm": 24
+        },
+        {
+          "role": "ultrawide",
+          "mp": 8,
+          "focal_mm": 16
+        }
+      ]
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "oneplus",
+      "url": "https://www.oneplus.com/my/15r/specs",
+      "checked": "2026-09-25",
+      "note": "Read automatically from the maker’s Malaysian specification page and reviewed; values not found on the page are left out."
+    }
+  },
+  "dataStatus": "compiled"
+}

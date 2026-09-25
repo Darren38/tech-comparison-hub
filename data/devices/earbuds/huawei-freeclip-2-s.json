@@ -1,0 +1,81 @@
+{
+  "id": "huawei-freeclip-2-s",
+  "name": "HUAWEI FreeClip 2 S",
+  "brand": "huawei",
+  "category": "earbuds",
+  "series": "HUAWEI FreeClip",
+  "form": "buds",
+  "status": "released",
+  "announced": "2026",
+  "released": "2026",
+  "segment": "upper-mid",
+  "aliases": [
+    "FreeClip 2 S"
+  ],
+  "summary": "A FreeClip 2 variant with a differently shaped case; same earbuds, battery and IP57 rating.",
+  "highlights": [
+    "Clip-on open-ear",
+    "IP57 earbuds",
+    "Wireless charging"
+  ],
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-25",
+      "source": "huawei",
+      "note": "Listed on HUAWEI Malaysia’s website, but no Malaysian launch price was found in a launch report."
+    }
+  },
+  "specs": {
+    "audio": {
+      "anc": "No (open-ear design; call noise cancellation)",
+      "driver": "10.8 mm dual-diaphragm",
+      "features": "Adaptive volume, Multi-EQ"
+    },
+    "battery": {
+      "life_h": 9,
+      "total_h": 38,
+      "bud_mah": 60,
+      "case_mah": 537,
+      "claim": "Up to 9 h; 38 h with the case"
+    },
+    "charging": {
+      "wireless": "Yes (up to 3 W)",
+      "port": "USB-C"
+    },
+    "build": {
+      "style": "Clip-on open ear",
+      "weight_g": 5.1,
+      "dimensions": {
+        "height_mm": 25.4,
+        "width_mm": 26.7,
+        "depth_mm": 18.8
+      },
+      "case_weight_g": 39.4,
+      "case_dimensions": {
+        "height_mm": 48.9,
+        "width_mm": 48.6,
+        "depth_mm": 37.4
+      },
+      "ip": "IP57",
+      "case_ip": "IP54"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 6.0",
+      "multipoint": "Yes (two devices)"
+    },
+    "software": {
+      "app": "HUAWEI AI Life (Android and iPhone)"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "huawei",
+      "url": "https://consumer.huawei.com/my/headphones/freeclip2-s/specs/",
+      "checked": "2026-09-25",
+      "note": "Read from HUAWEI Malaysia’s specification page. Battery figures are Huawei’s lab claims."
+    }
+  },
+  "dataStatus": "checked"
+}

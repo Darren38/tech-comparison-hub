@@ -1,0 +1,96 @@
+{
+  "id": "samsung-galaxy-buds3-pro",
+  "name": "Galaxy Buds3 Pro",
+  "brand": "samsung",
+  "category": "earbuds",
+  "series": "Galaxy Buds",
+  "form": "buds",
+  "status": "released",
+  "announced": "2024-07-10",
+  "released": "2024-07-24",
+  "segment": "flagship",
+  "aliases": [
+    "Buds3 Pro",
+    "Galaxy Buds 3 Pro"
+  ],
+  "summary": "Samsung’s 2024 flagship earbuds: blade design with lights, two-way speakers, adaptive noise cancelling and IP57.",
+  "highlights": [
+    "Two-way speakers",
+    "Adaptive noise cancelling",
+    "IP57"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 999,
+      "config": "Retail price",
+      "date": "2024-07-10",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://bm.soyacincau.com/2024/07/10/galaxy-buds-3-dan-buds-3-pro-harga-dan-promosi-tempahan-awal-di-malaysia/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "audio": {
+      "anc": "Yes (adaptive, with Voice Detect and Siren Detect)",
+      "driver": "Enhanced two-way",
+      "spatial": "360 Audio",
+      "hires": "Up to 24-bit / 96 kHz with Samsung phones (SSC-UHQ)",
+      "mics": "6 microphones",
+      "features": "Adaptive EQ, Adaptive ANC",
+      "codecs": [
+        "SSC UHQ",
+        "SSC",
+        "AAC",
+        "SBC"
+      ]
+    },
+    "battery": {
+      "life_h": 7,
+      "life_anc_h": 6,
+      "total_h": 30,
+      "bud_mah": 53,
+      "case_mah": 515,
+      "claim": "Up to 7 h (6 h with noise cancelling); 30 h with the case (26 h with noise cancelling)"
+    },
+    "charging": {
+      "port": "USB-C"
+    },
+    "build": {
+      "style": "In-ear (canal) with silicone tips",
+      "weight_g": 5.4,
+      "dimensions": {
+        "height_mm": 18.1,
+        "width_mm": 19.8,
+        "depth_mm": 33.2
+      },
+      "case_weight_g": 46.5,
+      "case_dimensions": {
+        "height_mm": 48.7,
+        "width_mm": 58.9,
+        "depth_mm": 24.4
+      },
+      "ip": "IP57"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.4 (LE Audio)",
+      "compatibility": "Android phones (Samsung Galaxy for all features)"
+    },
+    "software": {
+      "app": "Galaxy Wearable (Android)"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "samsung",
+      "url": "https://searchapi.samsung.com/v6/front/b2c/product/spec/detail?siteCode=my&modelList=SM-R630NZAAXME",
+      "checked": "2026-09-25",
+      "note": "Read from Samsung Malaysia’s specification data for model SM-R630NZAAXME (the data behind samsung.com/my product pages). Battery figures are Samsung’s claims."
+    }
+  },
+  "dataStatus": "checked"
+}

@@ -60,8 +60,9 @@
       },
       "variants": {
         "class": "database",
-        "source": "gsmarena",
-        "url": "https://www.gsmarena.com/samsung_galaxy_s26_ultra-review-2939.php"
+        "source": "notebookcheck",
+        "url": "https://www.notebookcheck.net/Qualcomm-Snapdragon-8-Elite-Gen-5-for-Galaxy-Processor-Benchmarks-and-Specs.1271123.0.html",
+        "checked": "2026-09-25"
       }
     }
   }

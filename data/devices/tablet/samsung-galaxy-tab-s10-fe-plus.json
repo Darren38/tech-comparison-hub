@@ -1,0 +1,93 @@
+{
+  "id": "samsung-galaxy-tab-s10-fe-plus",
+  "name": "Galaxy Tab S10 FE+",
+  "brand": "samsung",
+  "category": "tablet",
+  "series": "Galaxy Tab S FE",
+  "form": "tablet",
+  "status": "released",
+  "announced": "2025-04-02",
+  "released": "2025-05-08",
+  "segment": "mid",
+  "aliases": [
+    "Tab S10 FE+",
+    "Galaxy Tab S10 FE Plus"
+  ],
+  "summary": "The 2025 13.1-inch Fan Edition: Exynos 1580, 90 Hz LCD, IP68 and an S Pen in the box.",
+  "highlights": [
+    "Exynos 1580",
+    "13.1-inch LCD 90 Hz",
+    "IP68, S Pen included"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 2799,
+      "config": "Wi-Fi, 12 GB / 256 GB",
+      "date": "2025-04-24",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/04/24/samsung-galaxy-tab-s10-fe-series-malaysia-price-specs-promo/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 13.1,
+      "type": "LCD",
+      "refresh_hz": 90
+    },
+    "platform": {
+      "chipset": "exynos-1580"
+    },
+    "memory": {
+      "ram_gb": [
+        8,
+        12
+      ],
+      "storage_gb": [
+        128,
+        256
+      ],
+      "expandable": true
+    },
+    "battery": {
+      "capacity_mah": 10090
+    },
+    "charging": {
+      "wired_w": 45
+    },
+    "input": {
+      "stylus": "S Pen included"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 300.6,
+        "width_mm": 194.7,
+        "depth_mm": 6.0
+      },
+      "weight_g": 664,
+      "ip": "IP68"
+    },
+    "connectivity": {
+      "cellular": "5G (optional)",
+      "wifi": "Wi-Fi 6",
+      "bluetooth": "Bluetooth 5.3"
+    },
+    "software": {
+      "launch_os": "Android 15"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "samsung",
+      "url": "https://news.samsung.com/global/galaxy-tab-s10-fe-series-brings-intelligent-experiences-to-the-forefront-with-premium-versatile-design",
+      "checked": "2026-09-25",
+      "note": "Read from Samsung’s launch press release (specification table); Wi-Fi model weight."
+    }
+  },
+  "dataStatus": "checked"
+}

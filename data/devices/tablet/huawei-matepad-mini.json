@@ -1,0 +1,82 @@
+{
+  "id": "huawei-matepad-mini",
+  "name": "HUAWEI MatePad Mini",
+  "brand": "huawei",
+  "category": "tablet",
+  "series": "HUAWEI MatePad",
+  "form": "tablet",
+  "status": "released",
+  "announced": "2026-04",
+  "released": "2026-04",
+  "segment": "upper-mid",
+  "aliases": [
+    "MatePad Mini"
+  ],
+  "summary": "An 8.8-inch OLED tablet at 260 g and 5.2 mm, with a Kirin 9010B and a 50 MP camera.",
+  "highlights": [
+    "8.8-inch OLED",
+    "260 g",
+    "1,800-nit peak"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 2199,
+      "config": "12 GB / 256 GB",
+      "date": "2026-04-22",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2026/04/22/huawei-matepad-mini-tablet-malaysia-price-specs/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 8.8,
+      "type": "Flexible OLED",
+      "resolution": "2560 × 1600",
+      "ppi": 343,
+      "peak_nits": 1800
+    },
+    "platform": {
+      "chipset_note": "Kirin 9010B (hexa-core)"
+    },
+    "memory": {
+      "ram_gb": [
+        12
+      ],
+      "storage_gb": [
+        256
+      ]
+    },
+    "battery": {
+      "capacity_mah": 6400
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 198.59,
+        "width_mm": 127.27,
+        "depth_mm": 5.2
+      },
+      "weight_g": 260
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.2"
+    },
+    "software": {
+      "launch_os": "HarmonyOS 4.3"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "huawei",
+      "url": "https://consumer.huawei.com/my/tablets/matepad-mini/specs/",
+      "checked": "2026-09-25",
+      "note": "Read from HUAWEI Malaysia’s specification page; launch month from Malaysian launch reports."
+    }
+  },
+  "dataStatus": "checked"
+}

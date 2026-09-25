@@ -1,0 +1,90 @@
+{
+  "id": "huawei-watch-gt-7",
+  "name": "HUAWEI WATCH GT 7",
+  "brand": "huawei",
+  "category": "smartwatch",
+  "series": "Watch GT",
+  "form": "watch",
+  "status": "released",
+  "segment": "mid",
+  "aliases": [
+    "WATCH GT 7",
+    "Huawei Watch GT 7"
+  ],
+  "summary": "Huawei’s 2026 everyday smartwatch: stainless steel, dual-band GPS, IP69 and up to 21 days of battery (46 mm).",
+  "highlights": [
+    "Up to 21 days (46 mm)",
+    "Dual-band GPS",
+    "46 mm and 41 mm"
+  ],
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-25",
+      "source": "huawei",
+      "note": "Huawei Malaysia is taking deposits for the WATCH GT 7 series; no Malaysian launch price was found in a launch report yet."
+    }
+  },
+  "specs": {
+    "display": {
+      "size_in": 1.47,
+      "type": "AMOLED",
+      "resolution": "466 × 466",
+      "ppi": 317,
+      "peak_nits": 3000
+    },
+    "battery": {
+      "life_h": 504,
+      "claim": "Up to 21 days maximum, 12 days typical, 7 days with always-on display, 51 hours of trail-running GPS"
+    },
+    "health": {
+      "sensors": [
+        "Accelerometer",
+        "Gyroscope",
+        "Magnetometer",
+        "Optical heart rate",
+        "Barometer",
+        "Temperature",
+        "Ambient light"
+      ]
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 46,
+        "width_mm": 46,
+        "depth_mm": 10.95
+      },
+      "weight_g": 51.3,
+      "case": "Stainless steel",
+      "water": "5 ATM",
+      "water_m": 50,
+      "ip": "IP69"
+    },
+    "connectivity": {
+      "nfc": true,
+      "bluetooth": "Bluetooth 6.0",
+      "gps": "Dual-band GNSS (GPS L1+L5, BeiDou, Galileo, GLONASS, QZSS, NavIC)",
+      "compatibility": "Android 9.0 or later, iOS 13.0 or later"
+    },
+    "charging": {
+      "wireless": true
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "huawei",
+      "url": "https://consumer.huawei.com/my/wearables/watch-gt7/specs/",
+      "checked": "2026-09-25",
+      "note": "Read from Huawei Malaysia’s specification page. Figures are for the 46 mm model; the 41 mm model has a 1.32-inch 466 × 466 screen (352 PPI), measures 41.3 × 41.3 × 9.99 mm and weighs about 36.5–37.6 g without strap."
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/wearables/watch-gt7/list-46mm-blue.png",
+    "page": "https://consumer.huawei.com/my/wearables/watch-gt7/specs/",
+    "credit": "Huawei",
+    "checked": "2026-09-25"
+  }
+}

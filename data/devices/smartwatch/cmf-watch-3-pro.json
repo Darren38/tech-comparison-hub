@@ -1,0 +1,83 @@
+{
+  "id": "cmf-watch-3-pro",
+  "name": "CMF by Nothing Watch 3 Pro",
+  "brand": "nothing",
+  "category": "smartwatch",
+  "series": "CMF Watch",
+  "form": "watch",
+  "status": "released",
+  "announced": "2025-09-08",
+  "released": "2025-09-08",
+  "segment": "entry",
+  "aliases": [
+    "CMF Watch 3 Pro"
+  ],
+  "summary": "A budget smartwatch with a 1.43-inch AMOLED, dual-band GPS and up to 13 days of battery.",
+  "highlights": [
+    "Dual-band GPS",
+    "1.43-inch AMOLED",
+    "Up to 13 days"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 419,
+      "config": "Launch price",
+      "date": "2025-09-08",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/09/08/cmf-watch-3-pro-malaysia-price-specs-features/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 1.43,
+      "type": "AMOLED",
+      "resolution": "466 × 466",
+      "ppi": 326,
+      "peak_nits": 670
+    },
+    "battery": {
+      "life_h": 312,
+      "claim": "13 days typical; 10 days heavy use; 4.5 days with always-on display; 17.2 hours with GPS"
+    },
+    "health": {
+      "sensors": [
+        "Accelerometer",
+        "Gyroscope",
+        "Ambient light",
+        "Heart rate",
+        "SpO2"
+      ]
+    },
+    "build": {
+      "ip": "IP68",
+      "case": "Metal body"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.3",
+      "gps": "Dual-band GPS (L1 + L5), GLONASS, Galileo, QZSS, BeiDou",
+      "compatibility": "Android and iPhone (Nothing X app)"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "nothing",
+      "url": "https://intl.nothing.tech/products/cmf-watch-3-pro",
+      "checked": "2026-09-25",
+      "note": "Read from the specs section of Nothing’s international store page. Case size is not stored: the store lists size with the strap."
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://cdn.shopify.com/s/files/1/0585/2479/5086/files/CMFWatch3Pro-Orange_23aacc4a-7ede-4ec1-8cfa-d7ed422570d4.png",
+    "page": "https://intl.nothing.tech/products/cmf-watch-3-pro",
+    "credit": "Nothing",
+    "checked": "2026-09-25"
+  }
+}

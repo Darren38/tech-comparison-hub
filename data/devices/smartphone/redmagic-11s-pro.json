@@ -1,0 +1,103 @@
+{
+  "id": "redmagic-11s-pro",
+  "name": "REDMAGIC 11S Pro",
+  "brand": "redmagic",
+  "category": "smartphone",
+  "series": "REDMAGIC",
+  "form": "bar",
+  "status": "released",
+  "segment": "flagship",
+  "aliases": [
+    "RedMagic 11S Pro",
+    "Red Magic 11S Pro"
+  ],
+  "summary": "REDMAGIC’s liquid-cooled flagship with a higher-clocked Snapdragon 8 Elite Gen 5, a 7,500 mAh battery and 80 W wired and wireless charging.",
+  "highlights": [
+    "Liquid cooling",
+    "80 W wireless charging",
+    "7,500 mAh"
+  ],
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-25",
+      "source": "redmagic",
+      "note": "No Malaysian launch report with a price was found."
+    }
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.85,
+      "type": "AMOLED",
+      "resolution": "2688 × 1216",
+      "refresh_hz": 144,
+      "peak_nits": 1800
+    },
+    "platform": {
+      "chipset": "snapdragon-8-elite-gen-5",
+      "chipset_note": "Snapdragon 8 Elite Gen 5 “Leading Version” (higher-clocked)"
+    },
+    "memory": {
+      "ram_gb": [
+        12,
+        16
+      ],
+      "storage_gb": [
+        256,
+        512
+      ]
+    },
+    "battery": {
+      "capacity_mah": 7500
+    },
+    "charging": {
+      "wired_w": 80,
+      "wireless_w": 80
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50
+        }
+      ],
+      "front": "16 MP",
+      "rear_detail": [
+        "50 MP main (OIS)",
+        "50 MP",
+        "2 MP"
+      ]
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 163.82,
+        "width_mm": 76.54,
+        "depth_mm": 8.9
+      },
+      "weight_g": 230,
+      "ip": "IPX8"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true,
+      "wifi": "Wi-Fi 6 (tri-band incl. 6 GHz)",
+      "bluetooth": "Bluetooth 5.4"
+    },
+    "audio": {
+      "jack": true
+    },
+    "software": {
+      "launch_os": "REDMAGIC OS 11.5 (Android 16)"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "redmagic",
+      "url": "https://global.redmagic.gg/pages/redmagic-11s-pro-specs",
+      "checked": "2026-09-25",
+      "note": "Read from REDMAGIC’s global specification page."
+    }
+  },
+  "dataStatus": "compiled"
+}

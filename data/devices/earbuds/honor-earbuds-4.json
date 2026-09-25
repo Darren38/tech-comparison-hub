@@ -1,0 +1,78 @@
+{
+  "id": "honor-earbuds-4",
+  "name": "HONOR Earbuds 4",
+  "brand": "honor",
+  "category": "earbuds",
+  "series": "HONOR Earbuds",
+  "form": "buds",
+  "status": "released",
+  "segment": "mid",
+  "aliases": [],
+  "summary": "Two-driver HONOR earbuds with noise cancelling, IP54 and up to 46 hours with the case.",
+  "highlights": [
+    "Two drivers",
+    "Noise cancelling",
+    "Up to 46 h with case"
+  ],
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-25",
+      "source": "honor",
+      "note": "Listed on HONOR Malaysia’s website, but no Malaysian launch price was found in a launch report."
+    }
+  },
+  "specs": {
+    "audio": {
+      "anc": "Yes (up to 50 dB claimed)",
+      "driver": "11 mm + 6 mm dual titanium-coated drivers"
+    },
+    "battery": {
+      "life_h": 9,
+      "total_h": 46,
+      "bud_mah": 45,
+      "case_mah": 500
+    },
+    "charging": {
+      "port": "USB-C"
+    },
+    "build": {
+      "weight_g": 5.3,
+      "case_weight_g": 38.3,
+      "dimensions": {
+        "height_mm": 33.43,
+        "width_mm": 24.29,
+        "depth_mm": 20.83
+      },
+      "case_dimensions": {
+        "height_mm": 60.21,
+        "width_mm": 48.62,
+        "depth_mm": 21.59
+      },
+      "ip": "IP54"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.3"
+    },
+    "software": {
+      "app": "HONOR AI Space / HONOR Earbuds app"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "honor",
+      "url": "https://www.honor.com/my/audio/honor-earbuds-4/spec/",
+      "checked": "2026-09-25",
+      "note": "Read from HONOR Malaysia’s specification page."
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://www-file.honor.com/content/dam/honor/common/product-list/audio/honor-earbuds-4/honor-earbuds-4-white.png",
+    "page": "https://www.honor.com/my/audio/honor-earbuds-4/",
+    "credit": "HONOR",
+    "checked": "2026-09-25"
+  }
+}

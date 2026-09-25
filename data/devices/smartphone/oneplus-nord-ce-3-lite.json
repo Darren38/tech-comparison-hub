@@ -1,0 +1,77 @@
+{
+  "id": "oneplus-nord-ce-3-lite",
+  "name": "OnePlus Nord CE 3 Lite 5G",
+  "brand": "oneplus",
+  "category": "smartphone",
+  "series": "OnePlus Nord",
+  "form": "bar",
+  "status": "released",
+  "announced": "2023-04-05",
+  "released": "2023-04-05",
+  "segment": "entry",
+  "aliases": [
+    "Nord CE 3 Lite",
+    "Nord CE3 Lite"
+  ],
+  "summary": "A 4G budget phone with the Snapdragon 695, a 5,000 mAh battery and 67 W charging.",
+  "highlights": [
+    "Snapdragon 695",
+    "5,000 mAh, 67 W"
+  ],
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-25",
+      "source": "oneplus",
+      "note": "Listed on the maker’s Malaysian website, but no Malaysian launch price was found in a launch report."
+    }
+  },
+  "specs": {
+    "build": {
+      "weight_g": 195.0,
+      "dimensions": {
+        "height_mm": 165.5,
+        "width_mm": 76.0,
+        "depth_mm": 8.3
+      }
+    },
+    "display": {
+      "resolution": "2400 × 1080",
+      "refresh_hz": 120
+    },
+    "software": {
+      "launch_os": "Android 13"
+    },
+    "platform": {
+      "chipset": "snapdragon-695"
+    },
+    "memory": {
+      "ram_gb": [
+        8
+      ],
+      "storage_gb": [
+        256
+      ]
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "charging": {
+      "wired_w": 67
+    },
+    "connectivity": {
+      "nfc": true,
+      "cellular": "4G"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "oneplus",
+      "url": "https://www.oneplus.com/my/nord-ce-3-lite-5g/specs",
+      "checked": "2026-09-25",
+      "note": "Read automatically from the maker’s Malaysian specification page and reviewed; values not found on the page are left out."
+    }
+  },
+  "dataStatus": "compiled"
+}

@@ -1,0 +1,113 @@
+{
+  "id": "apple-ipad-mini-a17-pro",
+  "name": "iPad mini (A17 Pro)",
+  "brand": "apple",
+  "category": "tablet",
+  "series": "iPad mini",
+  "form": "tablet",
+  "status": "released",
+  "announced": "2024-10-15",
+  "released": "2024-10-23",
+  "segment": "upper-mid",
+  "aliases": [
+    "iPad mini 7",
+    "iPad mini 2024",
+    "iPad mini A17 Pro"
+  ],
+  "summary": "Apple’s 8.3-inch tablet with the A17 Pro chip and Apple Pencil Pro support, at 293 g.",
+  "highlights": [
+    "A17 Pro chip",
+    "8.3-inch Liquid Retina display",
+    "293 g"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 2199,
+      "config": "Wi-Fi, 128 GB",
+      "date": "2024-10-15",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2024/10/15/apple-ipad-mini-2024-launch-malaysia-price-features-specs/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 8.3,
+      "type": "Liquid Retina (LCD)",
+      "resolution": "2266 × 1488",
+      "ppi": 326,
+      "refresh_hz": 60,
+      "peak_nits": 500
+    },
+    "platform": {
+      "chipset": "apple-a17-pro",
+      "chipset_note": "6-core CPU, 5-core GPU"
+    },
+    "memory": {
+      "storage_gb": [
+        128,
+        256,
+        512
+      ]
+    },
+    "battery": {
+      "capacity_wh": 19.3,
+      "claim": "Up to 10 h web browsing on Wi-Fi or video playback"
+    },
+    "input": {
+      "stylus": "Apple Pencil Pro, Apple Pencil (USB-C)"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 195.4,
+        "width_mm": 134.8,
+        "depth_mm": 6.3
+      },
+      "weight_g": 293
+    },
+    "connectivity": {
+      "cellular": "5G (optional)",
+      "wifi": "Wi-Fi 6E",
+      "bluetooth": "Bluetooth 5.3",
+      "usb": "USB-C (USB 3, up to 10 Gb/s)"
+    },
+    "software": {
+      "launch_os": "iPadOS 18",
+      "os_updates_years": 6,
+      "security_updates_years": 7
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "apple",
+      "url": "https://support.apple.com/en-my/121456",
+      "checked": "2026-09-25",
+      "note": "Read from Apple Malaysia’s tech-specs page; Wi-Fi model weight."
+    },
+    "fields": {
+      "specs.software.os_updates_years": {
+        "class": "estimated",
+        "source": "apple",
+        "note": "Apple publishes no fixed update commitment; estimated from the support history of recent devices."
+      },
+      "specs.software.security_updates_years": {
+        "class": "estimated",
+        "source": "apple",
+        "note": "Apple publishes no fixed update commitment; estimated from the support history of recent devices."
+      }
+    }
+  },
+  "dataStatus": "checked",
+  "image": {
+    "kind": "official",
+    "src": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/121456-ipad-mini-a17-pro-portimage-1.png",
+    "page": "https://support.apple.com/en-my/121456",
+    "credit": "Apple",
+    "checked": "2026-09-25"
+  }
+}

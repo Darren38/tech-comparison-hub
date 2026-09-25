@@ -175,7 +175,9 @@ export function priceText(dp) {
 export function priceExplanation(dp) {
   if (!dp) return '';
   const b = dp.basis;
-  const where = `${b.region ?? ''} launch price${b.config ? `, ${b.config}` : ''}`.trim();
+  // Version 17: a price read from the maker's own Malaysian store when the launch price was not reported ("listed")
+  const kind = b.type === 'listed' ? `store price when checked${b.date ? ` (${fmtDate(b.date)})` : ''}` : 'launch price';
+  const where = `${b.region ?? ''} ${kind}${b.config ? `, ${b.config}` : ''}`.trim();
   if (dp.local) return `${where}${b.source ? ` · ${sourceName(b.source)}` : ''}`;
   const src = ratesSource();
   return `Estimate converted from ${fmtPrice(b.amount, b.currency)} (${where}) at ${rateText(b.currency, dp.currency)}, ${src.name} rate of ${src.asOf}. Not a local price.`;

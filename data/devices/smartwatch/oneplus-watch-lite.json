@@ -1,0 +1,69 @@
+{
+  "id": "oneplus-watch-lite",
+  "name": "OnePlus Watch Lite",
+  "brand": "oneplus",
+  "category": "smartwatch",
+  "series": "OnePlus Watch",
+  "form": "watch",
+  "status": "released",
+  "segment": "mid",
+  "aliases": [
+    "Watch Lite"
+  ],
+  "summary": "A thin (8.9 mm) OnePlus AMOLED watch with up to 10 days of battery, 5 ATM and IP68.",
+  "highlights": [
+    "8.9 mm thin",
+    "Up to 10 days",
+    "5 ATM, IP68"
+  ],
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-25",
+      "source": "oneplus",
+      "note": "Listed on OnePlus Malaysia’s website, but no Malaysian launch price was found in a launch report."
+    }
+  },
+  "specs": {
+    "display": {
+      "type": "AMOLED"
+    },
+    "battery": {
+      "capacity_mah": 339,
+      "life_h": 240,
+      "claim": "Up to 10 days maximum, 7 days typical, 4 days with always-on display"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 44.98,
+        "width_mm": 44.98,
+        "depth_mm": 8.9
+      },
+      "weight_g": 35,
+      "water": "5 ATM",
+      "water_m": 50,
+      "ip": "IP68"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.2",
+      "positioning": "Beidou, GPS, Galileo, GLONASS, QZSS"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "oneplus",
+      "url": "https://www.oneplus.com/my/oneplus-watch-lite/specs",
+      "checked": "2026-09-25",
+      "note": "Read from OnePlus Malaysia’s specification page. Weight excludes the strap."
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://www.oneplus.com/content/dam/oneplus/2025/specs/taco/Black_Steel_1080x1080.png",
+    "page": "https://www.oneplus.com/my/oneplus-watch-lite/specs",
+    "credit": "OnePlus",
+    "checked": "2026-09-25"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "id": "samsung-galaxy-tab-a11",
+  "name": "Galaxy Tab A11",
+  "brand": "samsung",
+  "category": "tablet",
+  "series": "Galaxy Tab A",
+  "form": "tablet",
+  "status": "released",
+  "announced": "2025-10-10",
+  "released": "2025-10",
+  "segment": "entry",
+  "aliases": [
+    "Tab A11"
+  ],
+  "summary": "Samsung’s 8.7-inch budget tablet for 2025: 90 Hz screen, Helio G99, 3.5 mm headphone jack and a microSD slot.",
+  "highlights": [
+    "8.7-inch LCD 90 Hz",
+    "Helio G99",
+    "From RM499"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 499,
+      "config": "Wi-Fi, 4 GB / 64 GB",
+      "date": "2025-10-10",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/10/10/samsung-galaxy-tab-a11-wifi-lte-malaysia-price-specs/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 8.7,
+      "type": "TFT LCD",
+      "resolution": "1340 × 800",
+      "refresh_hz": 90
+    },
+    "platform": {
+      "chipset": "helio-g99"
+    },
+    "memory": {
+      "ram_gb": [
+        4,
+        8
+      ],
+      "storage_gb": [
+        64,
+        128
+      ],
+      "expandable": true
+    },
+    "battery": {
+      "capacity_mah": 5100
+    },
+    "connectivity": {
+      "cellular": "4G LTE (optional)",
+      "wifi": "Wi-Fi 5",
+      "bluetooth": "Bluetooth 5.3"
+    },
+    "software": {
+      "policy_note": "Up to seven generations of software upgrades (Samsung Malaysia, January 2026)."
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "news",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/10/10/samsung-galaxy-tab-a11-wifi-lte-malaysia-price-specs/",
+      "checked": "2026-09-25",
+      "note": "From SoyaCincau’s Malaysian launch report; Samsung’s own specification page was not read."
+    },
+    "fields": {
+      "specs.software.policy_note": {
+        "class": "official",
+        "source": "samsung",
+        "checked": "2026-09-25",
+        "url": "https://news.samsung.com/my/elevate-your-world-with-powerful-entertainment-and-performance-from-the-samsung-galaxy-tab-a11-and-galaxy-tab-a11"
+      }
+    }
+  },
+  "dataStatus": "checked"
+}

@@ -1,0 +1,81 @@
+{
+  "id": "honor-magicpad-2",
+  "name": "HONOR MagicPad 2",
+  "brand": "honor",
+  "category": "tablet",
+  "series": "HONOR MagicPad",
+  "form": "tablet",
+  "status": "released",
+  "announced": "2024-09",
+  "released": "2024-09",
+  "segment": "upper-mid",
+  "aliases": [
+    "MagicPad 2"
+  ],
+  "summary": "A 12.3-inch 3K OLED tablet with the Snapdragon 8s Gen 3 and a 10,050 mAh battery.",
+  "highlights": [
+    "12.3-inch OLED 3K",
+    "Snapdragon 8s Gen 3",
+    "5.8 mm thin"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 2799,
+      "config": "12 GB / 256 GB",
+      "date": "2024-09",
+      "type": "launch",
+      "source": "technave",
+      "url": "https://technave.com/gadget/HONOR-MagicPad-2-Malaysia-release-12-3-inch-OLED-3K-Screen-AI-Features-Priced-at-RM2799-39863.html",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 12.3,
+      "type": "OLED",
+      "resolution": "3000 × 1920"
+    },
+    "platform": {
+      "chipset": "snapdragon-8s-gen-3"
+    },
+    "memory": {
+      "ram_gb": [
+        12
+      ],
+      "storage_gb": [
+        256
+      ]
+    },
+    "battery": {
+      "capacity_mah": 10050
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 274.5,
+        "width_mm": 180.5,
+        "depth_mm": 5.8
+      },
+      "weight_g": 555
+    },
+    "connectivity": {
+      "wifi": "Wi-Fi 6",
+      "bluetooth": "Bluetooth 5.3"
+    },
+    "software": {
+      "launch_os": "MagicOS 8.0.1 (Android 14)"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "honor",
+      "url": "https://www.honor.com/my/tablets/honor-magicpad-2/spec/",
+      "checked": "2026-09-25",
+      "note": "Read from HONOR Malaysia’s specification page; launch month from Malaysian launch reports."
+    }
+  },
+  "dataStatus": "checked"
+}

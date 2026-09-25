@@ -1,0 +1,85 @@
+{
+  "id": "huawei-freebuds-6i",
+  "name": "HUAWEI FreeBuds 6i",
+  "brand": "huawei",
+  "category": "earbuds",
+  "series": "HUAWEI FreeBuds",
+  "form": "buds",
+  "status": "released",
+  "announced": "2024-06",
+  "released": "2024-06",
+  "segment": "mid",
+  "aliases": [],
+  "summary": "Budget-to-mid Huawei earbuds with noise cancelling, IP54 and up to 35 hours with the case.",
+  "highlights": [
+    "Noise cancelling",
+    "IP54",
+    "RM399"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 399,
+      "config": "Retail price",
+      "date": "2024-06-19",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://bm.soyacincau.com/2024/06/19/huawei-freebuds-6i-fon-putik-anc-dengan-kalis-air-ip54-pada-harga-rm399/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "audio": {
+      "anc": "Yes",
+      "driver": "11 mm quad-magnet dynamic",
+      "features": "Dynamic EQ, Transparency mode"
+    },
+    "battery": {
+      "life_h": 8,
+      "life_anc_h": 5,
+      "total_h": 35,
+      "bud_mah": 55,
+      "case_mah": 510,
+      "claim": "Up to 8 h (5 h with noise cancelling); 35 h with the case (20 h with noise cancelling)"
+    },
+    "charging": {
+      "wireless": "No",
+      "port": "USB-C"
+    },
+    "build": {
+      "style": "In-ear with silicone tips",
+      "weight_g": 5.4,
+      "dimensions": {
+        "height_mm": 31.4,
+        "width_mm": 21.3,
+        "depth_mm": 23.7
+      },
+      "case_weight_g": 34,
+      "case_dimensions": {
+        "height_mm": 48.2,
+        "width_mm": 61.8,
+        "depth_mm": 27.0
+      },
+      "ip": "IP54"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.3",
+      "multipoint": "Yes (two devices)"
+    },
+    "software": {
+      "app": "HUAWEI AI Life (Android and iPhone)"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "huawei",
+      "url": "https://consumer.huawei.com/my/headphones/freebuds6i/specs/",
+      "checked": "2026-09-25",
+      "note": "Read from HUAWEI Malaysia’s specification page. Battery figures are Huawei’s lab claims."
+    }
+  },
+  "dataStatus": "checked"
+}

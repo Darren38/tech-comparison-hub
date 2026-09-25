@@ -1,0 +1,84 @@
+{
+  "id": "honor-pad-x8a",
+  "name": "HONOR Pad X8a",
+  "brand": "honor",
+  "category": "tablet",
+  "series": "HONOR Pad X",
+  "form": "tablet",
+  "status": "released",
+  "announced": "2024-10-21",
+  "released": "2024-10-21",
+  "segment": "entry",
+  "aliases": [
+    "Pad X8a",
+    "Pad X8a Kids Edition"
+  ],
+  "summary": "A budget 11-inch tablet with 4G LTE, four speakers and a big 8,300 mAh battery.",
+  "highlights": [
+    "4G LTE",
+    "8,300 mAh",
+    "microSD slot"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 799,
+      "config": "4G LTE, with flip cover",
+      "date": "2024-10-21",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2024/10/21/honor-pad-x8a-pad-x8a-kids-edition-malaysia/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 11,
+      "type": "LCD",
+      "resolution": "1920 × 1200"
+    },
+    "platform": {
+      "chipset": "snapdragon-680"
+    },
+    "memory": {
+      "ram_gb": [
+        4
+      ],
+      "storage_gb": [
+        128
+      ],
+      "expandable": true
+    },
+    "battery": {
+      "capacity_mah": 8300
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 256.91,
+        "width_mm": 168.46,
+        "depth_mm": 7.25
+      },
+      "weight_g": 495
+    },
+    "connectivity": {
+      "cellular": "4G LTE",
+      "wifi": "Wi-Fi 5",
+      "bluetooth": "Bluetooth 5.1"
+    },
+    "software": {
+      "launch_os": "MagicOS 8.0 (Android 14)"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "honor",
+      "url": "https://www.honor.com/my/tablets/honor-pad-x8a/spec/",
+      "checked": "2026-09-25",
+      "note": "Read from HONOR Malaysia’s specification page; launch date and price from a Malaysian launch report."
+    }
+  },
+  "dataStatus": "compiled"
+}

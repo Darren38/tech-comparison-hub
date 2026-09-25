@@ -40,9 +40,9 @@
     "connectivity": {
       "gps": "Built-in GNSS",
       "nfc": true,
-      "usb": "Wireless charging; System Requirements; Android 9.0 or later; iOS 13.0 or later; Waterproof Level; 5 ATM water-resistant",
       "bluetooth": "2.4 GHz, supports BT6.0 and BR + BLE",
-      "positioning": "GPS (L1 + L5 Dual-band)/GLONASS/BeiDou (B1I + B1C + B2a Tri-band)/GALILEO (E1 + E5a Dual-band)/QZSS (L1 + L5 Dual-band)/NavIC; Environment; Temperature; –20℃ to +45℃; Battery Life; The battery can last for up to 10 days with light usage, up to 7 days with typical usage, or up to 4 days with AOD enab"
+      "positioning": "GPS (L1 + L5 Dual-band)/GLONASS/BeiDou (B1I + B1C + B2a Tri-band)/GALILEO (E1 + E5a Dual-band)/QZSS (L1 + L5 Dual-band)/NavIC",
+      "compatibility": "Android 9.0 or later, iOS 13.0 or later"
     },
     "build": {
       "dimensions": {
@@ -54,12 +54,13 @@
       "water": "5 ATM",
       "water_m": 50
     },
-    "sensors": "Accelerometer sensor, Gyroscope sensor, Magnetometer sensor, Ambient light sensor, Optical heart rate sensor, Barometer sensor, Temperature sensor, *The temperature sensor does not actively measure temperature or display specific temperature readings., Button, Home Button (Rotating Crown) and Side Button",
+    "sensors": "Accelerometer sensor, Gyroscope sensor, Magnetometer sensor, Ambient light sensor, Optical heart rate sensor, Barometer sensor, Temperature sensor, *The temperature sensor does not actively measure temperature or display specific temperature readings.",
     "audio": {
-      "speakers": "Microphone"
+      "microphone": true
     },
     "charging": {
-      "claim": "Charger Voltage and Current Requirements; 5V-10V DC/2A"
+      "claim": "Charger: 5V-10V DC/2A",
+      "wireless": true
     },
     "misc": {
       "colors": "Silver, Purple, Green, White, Black"

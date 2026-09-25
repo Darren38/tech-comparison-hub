@@ -40,6 +40,16 @@ function labelFor(filterId, value) {
   return String(value);
 }
 
+/**
+ * Use cases that make sense for a kind of device (Version 17): at least half of the use case's weight must fall on
+ * things that kind is scored on, so earbuds are not ranked "for photography". Balanced always applies.
+ */
+function profilesFor(categoryId) {
+  const cats = new Set([...(store.categoryById.get(categoryId)?.scoreCategories ?? []), 'value']);
+  return store.core.scoring.profiles.filter((p) => p.id === 'balanced'
+    || Object.entries(p.weights).reduce((sum, [k, w]) => sum + (cats.has(k) ? w : 0), 0) >= 0.5);
+}
+
 function readState(query, filters) {
   const state = {};
   for (const f of filters) {
@@ -295,7 +305,7 @@ export default async function render({ params, query }) {
         <div class="browse__main">
           <div class="browse__tools">
             ${rankProfile
-              ? html`<div class="seg" role="group" aria-label="Use case">${store.core.scoring.profiles.map((p) => html`<a class="seg-link" href="${href(`/devices/${categoryId}`, { rank: p.id })}" aria-current="${p.id === rankProfile}">${p.label}</a>`)}</div>
+              ? html`<div class="seg" role="group" aria-label="Use case">${profilesFor(categoryId).map((p) => html`<a class="seg-link" href="${href(`/devices/${categoryId}`, { rank: p.id })}" aria-current="${p.id === rankProfile}">${p.label}</a>`)}</div>
                  <a class="btn btn--sm btn--ghost" href="${href(`/devices/${categoryId}`)}">Exit ranking</a>`
               : html`<label class="small">Sort <select data-sort>${SORTS.map(([v, l]) => html`<option value="${v}" ${v === sort ? 'selected' : ''}>${l}</option>`)}</select></label>
                  <div class="seg" role="group" aria-label="View"><button type="button" data-view="grid" aria-pressed="${view === 'grid'}">Cards</button><button type="button" data-view="table" aria-pressed="${view === 'table'}">Table</button></div>

@@ -1,0 +1,90 @@
+{
+  "id": "samsung-galaxy-buds-fe",
+  "name": "Galaxy Buds FE",
+  "brand": "samsung",
+  "category": "earbuds",
+  "series": "Galaxy Buds",
+  "form": "buds",
+  "status": "released",
+  "announced": "2023-10-04",
+  "released": "2023-10-10",
+  "segment": "mid",
+  "aliases": [
+    "Buds FE"
+  ],
+  "summary": "The 2023 Fan Edition Galaxy Buds: noise cancelling and a wing-tip fit at a mid-range price.",
+  "highlights": [
+    "Noise cancelling",
+    "Up to 30 h with case",
+    "Wing tips"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 399,
+      "config": "Retail price",
+      "date": "2023-10-04",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2023/10/04/samsung-galaxy-buds-fe-malaysia-price-specs/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "audio": {
+      "anc": "Yes",
+      "driver": "Custom one-way",
+      "mics": "6 microphones (3 per earbud)",
+      "codecs": [
+        "SSC",
+        "AAC",
+        "SBC"
+      ]
+    },
+    "battery": {
+      "life_h": 8.5,
+      "life_anc_h": 6,
+      "total_h": 30,
+      "bud_mah": 60,
+      "case_mah": 479,
+      "claim": "Up to 8.5 h (6 h with noise cancelling); 30 h with the case (21 h with noise cancelling)"
+    },
+    "charging": {
+      "port": "USB-C"
+    },
+    "build": {
+      "style": "In-ear with silicone tips and wing tips",
+      "weight_g": 5.6,
+      "dimensions": {
+        "height_mm": 19.2,
+        "width_mm": 17.1,
+        "depth_mm": 22.2
+      },
+      "case_weight_g": 40,
+      "case_dimensions": {
+        "height_mm": 50.0,
+        "width_mm": 50.0,
+        "depth_mm": 27.7
+      }
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.2",
+      "compatibility": "Android phones (Samsung Galaxy for all features)"
+    },
+    "software": {
+      "app": "Galaxy Wearable (Android)"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "samsung",
+      "url": "https://searchapi.samsung.com/v6/front/b2c/product/spec/detail?siteCode=my&modelList=SM-R400NZAAXME",
+      "checked": "2026-09-25",
+      "note": "Read from Samsung Malaysia’s specification data for model SM-R400NZAAXME (the data behind samsung.com/my product pages). Battery figures are Samsung’s claims."
+    }
+  },
+  "dataStatus": "checked"
+}

@@ -3,11 +3,16 @@
 # Runs on every push to main, every 3 hours, once a day at 00:05 UTC (08:05 Malaysia time), and on demand
 # (Actions tab > "Build and deploy" > Run workflow). Each run refreshes the live parts before building:
 #   - Bank Negara Malaysia exchange rates   (tools/update_rates.py; keeps the saved rates if unreachable)
-#   - latest headlines and YouTube view counts from registered feeds (tools/fetch_headlines.py)
+#   - latest headlines and YouTube view counts from registered feeds (tools/fetch_headlines.py), added to the year-long
+#     archive carried over from the live site (tools/seed_live.py), each headline matched to devices, chips and a topic
+#   - one readable page per device and chip plus sitemap.xml for search engines (tools/seo.py)
 # and once a day (the first run after 00:00 UTC, kept in a cache for that day's later runs):
 #   - benchmark databases: UL 3DMark, AnTuTu, DXOMARK (tools/refresh_benchmarks.py; only phones already matched,
 #     large jumps held for a person to check, a source that can't be read keeps its saved values)
 #   - every device picture still loads (tools/check_images.py; a broken one shows the outline drawing instead)
+# and about once a week:
+#   - official pictures for devices without one, from the maker's own page (tools/find_images.py)
+#   - where the product sits in each new picture, so pages can show it cropped and large (tools/image_boxes.py)
 # The research data in data/ only changes when it is edited and pushed. If data/ fails validation,
 # the build stops and the previous deployment stays online.
 name: Build and deploy
@@ -41,6 +46,10 @@ jobs:
       - name: Refresh exchange rates (Bank Negara Malaysia)
         run: python tools/update_rates.py
 
+      - name: Carry over the headline archive from the live site
+        run: python tools/seed_live.py
+        continue-on-error: true
+
       - name: Collect latest headlines
         run: python tools/fetch_headlines.py
 
@@ -63,6 +72,16 @@ jobs:
         run: python tools/check_images.py --max-age-hours 20
         continue-on-error: true
 
+      - name: Find official pictures for devices without one (about once a week)
+        run: python tools/find_images.py --max-age-hours 160
+        continue-on-error: true
+
+      - name: Measure where the product sits in new pictures (about once a week)
+        run: |
+          pip install --quiet pillow
+          python tools/image_boxes.py --max-age-hours 160
+        continue-on-error: true
+
       - name: Validate and build data
         run: python tools/build.py
 
@@ -70,7 +89,11 @@ jobs:
         run: |
           mkdir _site
           cp -r index.html sw.js assets src generated live _site/
+          cp google*.html _site/   # Google Search Console ownership file; must stay online to stay verified
           touch _site/.nojekyll
+
+      - name: Search-engine pages and sitemap
+        run: python tools/seo.py --out _site
 
       - uses: actions/upload-pages-artifact@v3
         with:

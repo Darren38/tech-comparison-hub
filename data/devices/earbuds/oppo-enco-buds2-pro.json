@@ -1,0 +1,80 @@
+{
+  "id": "oppo-enco-buds2-pro",
+  "name": "OPPO Enco Buds2 Pro",
+  "brand": "oppo",
+  "category": "earbuds",
+  "series": "OPPO Enco",
+  "form": "buds",
+  "status": "released",
+  "announced": "2024-01-12",
+  "released": "2024-01-12",
+  "segment": "entry",
+  "aliases": [
+    "Enco Buds2 Pro"
+  ],
+  "summary": "Budget OPPO earbuds with a 12.4 mm driver, IP55 and up to 38 hours with the case.",
+  "highlights": [
+    "12.4 mm driver",
+    "IP55",
+    "Up to 38 h with case"
+  ],
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-25",
+      "source": "oppo",
+      "note": "Listed on OPPO Malaysia’s website, but no Malaysian launch price was found in a launch report."
+    }
+  },
+  "specs": {
+    "audio": {
+      "anc": "No",
+      "driver": "12.4 mm dynamic",
+      "codecs": [
+        "AAC",
+        "SBC"
+      ]
+    },
+    "battery": {
+      "life_h": 8,
+      "total_h": 38,
+      "bud_mah": 36,
+      "case_mah": 480,
+      "claim": "OPPO lists 8 h per charge and 38 h with the case as “communication time” at 50% volume."
+    },
+    "charging": {
+      "port": "USB-C"
+    },
+    "build": {
+      "weight_g": 4.3,
+      "dimensions": {
+        "height_mm": 28.5,
+        "width_mm": 23,
+        "depth_mm": 20.2
+      },
+      "case_dimensions": {
+        "height_mm": 68.9,
+        "width_mm": 36.6,
+        "depth_mm": 28.2
+      },
+      "ip": "IP55",
+      "case_weight_g": 38.1
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.3"
+    },
+    "software": {
+      "app": "HeyMelody (Android and iPhone)"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "oppo",
+      "url": "https://www.oppo.com/my/accessories/enco-buds2-pro/specs/",
+      "checked": "2026-09-25",
+      "note": "Read from OPPO Malaysia’s specification page. Case weight is the listed earbuds-plus-case weight minus two earbuds."
+    }
+  },
+  "dataStatus": "compiled"
+}

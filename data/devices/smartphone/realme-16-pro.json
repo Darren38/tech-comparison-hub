@@ -1,0 +1,102 @@
+{
+  "id": "realme-16-pro",
+  "name": "realme 16 Pro 5G",
+  "brand": "realme",
+  "category": "smartphone",
+  "series": "realme number series",
+  "form": "bar",
+  "status": "released",
+  "announced": "2026-04-07",
+  "released": "2026-04-07",
+  "segment": "mid",
+  "aliases": [
+    "realme 16 Pro"
+  ],
+  "summary": "A 6.78-inch 144 Hz 5G mid-range phone with the Dimensity 7300 Max, a 7,000 mAh battery, 80 W charging and a 200 MP main camera.",
+  "highlights": [
+    "Dimensity 7300 Max",
+    "6.78-inch 144 Hz",
+    "7,000 mAh, 80 W"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1599,
+      "config": "Lowest configuration (16 Pro series)",
+      "date": "2026-04-07",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2026/04/07/realme-16-pro-series-malaysia-price-specs-promo-launch/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "build": {
+      "weight_g": 192.0,
+      "dimensions": {
+        "height_mm": 162.6,
+        "width_mm": 77.6,
+        "depth_mm": 7.75
+      }
+    },
+    "memory": {
+      "ram_gb": [
+        12
+      ],
+      "storage_gb": [
+        256,
+        512
+      ]
+    },
+    "display": {
+      "size_in": 6.78,
+      "resolution": "2772 × 1272",
+      "refresh_hz": 144,
+      "ppi": 450,
+      "peak_nits": 6500,
+      "type": "AMOLED"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 200
+        },
+        {
+          "role": "ultrawide",
+          "mp": 8
+        }
+      ],
+      "front": "50 MP"
+    },
+    "platform": {
+      "chipset_note": "Dimensity 7300 Max"
+    },
+    "battery": {
+      "capacity_mah": 7000
+    },
+    "charging": {
+      "wired_w": 80
+    },
+    "software": {
+      "launch_os": "realme UI 7.0"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "wifi": "Wi-Fi 6",
+      "nfc": true
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "realme",
+      "url": "https://www.realme.com/my/realme-16-pro-5g/specs",
+      "checked": "2026-09-25",
+      "note": "Read automatically from the maker’s Malaysian specification page and reviewed; values not found on the page are left out."
+    }
+  },
+  "dataStatus": "compiled"
+}

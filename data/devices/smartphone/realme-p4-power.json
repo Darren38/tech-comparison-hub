@@ -1,0 +1,101 @@
+{
+  "id": "realme-p4-power",
+  "name": "realme P4 Power 5G",
+  "brand": "realme",
+  "category": "smartphone",
+  "series": "realme P",
+  "form": "bar",
+  "status": "released",
+  "announced": "2026-06-03",
+  "released": "2026-06-03",
+  "segment": "mid",
+  "aliases": [
+    "realme P4 Power"
+  ],
+  "summary": "A 6.8-inch 144 Hz 5G mid-range phone with the Dimensity 7400-Ultra, a 10,001 mAh battery, 80 W charging and a 50 MP main camera.",
+  "highlights": [
+    "Dimensity 7400-Ultra",
+    "6.8-inch 144 Hz",
+    "10,001 mAh, 80 W"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1999,
+      "config": "Retail price",
+      "date": "2026-06-03",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2026/06/03/realme-p4-power-5g-10001mah-battery-malaysia-launch-price-specs/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "build": {
+      "weight_g": 219.0,
+      "dimensions": {
+        "height_mm": 162.26,
+        "width_mm": 76.15,
+        "depth_mm": 9.08
+      }
+    },
+    "memory": {
+      "ram_gb": [
+        12
+      ],
+      "storage_gb": [
+        256
+      ]
+    },
+    "display": {
+      "size_in": 6.8,
+      "resolution": "2800 × 1280",
+      "refresh_hz": 144,
+      "ppi": 453,
+      "peak_nits": 6500,
+      "type": "AMOLED"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50
+        },
+        {
+          "role": "ultrawide",
+          "mp": 8
+        }
+      ],
+      "front": "16 MP"
+    },
+    "platform": {
+      "chipset": "dimensity-7400-ultra"
+    },
+    "battery": {
+      "capacity_mah": 10001
+    },
+    "charging": {
+      "wired_w": 80
+    },
+    "software": {
+      "launch_os": "realme UI 7.0"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "wifi": "Wi-Fi 5",
+      "nfc": true
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "realme",
+      "url": "https://www.realme.com/my/realme-p4-power-5g/specs",
+      "checked": "2026-09-25",
+      "note": "Read automatically from the maker’s Malaysian specification page and reviewed; values not found on the page are left out."
+    }
+  },
+  "dataStatus": "compiled"
+}

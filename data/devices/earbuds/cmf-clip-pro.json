@@ -1,0 +1,88 @@
+{
+  "id": "cmf-clip-pro",
+  "name": "CMF by Nothing Clip Pro",
+  "brand": "nothing",
+  "category": "earbuds",
+  "series": "CMF Buds",
+  "form": "buds",
+  "status": "released",
+  "segment": "entry",
+  "aliases": [
+    "CMF by Clip Pro"
+  ],
+  "summary": "Open-ear clip-on CMF earbuds that leave your ears free, with LDAC and a rotating dial on the case.",
+  "highlights": [
+    "Open-ear clip design",
+    "LDAC",
+    "Up to 32.5 h with case"
+  ],
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-25",
+      "source": "nothing",
+      "note": "No Malaysian launch price was found in a launch report."
+    }
+  },
+  "specs": {
+    "audio": {
+      "anc": "No",
+      "driver": "10.8 mm dynamic",
+      "codecs": [
+        "LDAC",
+        "AAC",
+        "SBC"
+      ],
+      "mics": "4 in total"
+    },
+    "battery": {
+      "life_h": 10,
+      "total_h": 32.5,
+      "bud_mah": 60,
+      "case_mah": 475
+    },
+    "charging": {
+      "port": "USB-C"
+    },
+    "build": {
+      "style": "Open-ear clip",
+      "weight_g": 5.92,
+      "case_weight_g": 38.81,
+      "dimensions": {
+        "height_mm": 30.75,
+        "width_mm": 24.84,
+        "depth_mm": 18.21
+      },
+      "case_dimensions": {
+        "height_mm": 52.1,
+        "width_mm": 51.01,
+        "depth_mm": 26.69
+      },
+      "ip": "IP54 (earbuds), IPX2 (case)"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.4",
+      "multipoint": "Yes (dual connection)"
+    },
+    "software": {
+      "app": "Nothing X (Android and iPhone)"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "nothing",
+      "url": "https://intl.nothing.tech/products/cmf-clip-pro",
+      "checked": "2026-09-25",
+      "note": "Read from the specs section of Nothing’s international store page."
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://cdn.shopify.com/s/files/1/0585/2479/5086/files/product-thumbnail-orange.webp",
+    "page": "https://intl.nothing.tech/products/cmf-clip-pro",
+    "credit": "Nothing",
+    "checked": "2026-09-25"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "id": "samsung-galaxy-tab-a9-plus",
+  "name": "Galaxy Tab A9+",
+  "brand": "samsung",
+  "category": "tablet",
+  "series": "Galaxy Tab A",
+  "form": "tablet",
+  "status": "released",
+  "announced": "2023-10-23",
+  "released": "2023-10",
+  "segment": "entry",
+  "aliases": [
+    "Tab A9+",
+    "Galaxy Tab A9 Plus"
+  ],
+  "summary": "An 11-inch 90 Hz budget tablet with quad speakers, 5G option and a microSD slot.",
+  "highlights": [
+    "11-inch LCD 90 Hz",
+    "Quad speakers",
+    "7,040 mAh"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1099,
+      "config": "Wi-Fi, 4 GB / 64 GB",
+      "date": "2023-10-23",
+      "type": "launch",
+      "source": "samsung",
+      "url": "https://news.samsung.com/my/samsung-galaxy-tab-a9-and-galaxy-tab-a9-entertainment-and-productivity-engineered-for-everyone",
+      "class": "official",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 11.0,
+      "type": "LCD",
+      "refresh_hz": 90
+    },
+    "platform": {
+      "chipset_note": "Octa-core processor (not named by Samsung)"
+    },
+    "memory": {
+      "ram_gb": [
+        4,
+        8
+      ],
+      "storage_gb": [
+        64,
+        128
+      ],
+      "expandable": true
+    },
+    "battery": {
+      "capacity_mah": 7040
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 257.1,
+        "width_mm": 168.7,
+        "depth_mm": 6.9
+      },
+      "weight_g": 480
+    },
+    "connectivity": {
+      "cellular": "5G (optional)",
+      "wifi": "Wi-Fi 5",
+      "bluetooth": "Bluetooth 5.1"
+    },
+    "software": {
+      "launch_os": "Android 13"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "samsung",
+      "url": "https://news.samsung.com/global/samsung-galaxy-tab-a9-and-galaxy-tab-a9-entertainment-and-productivity-engineered-for-everyone",
+      "checked": "2026-09-25",
+      "note": "Read from Samsung’s launch press release (specification table); Wi-Fi model weight."
+    }
+  },
+  "dataStatus": "checked"
+}

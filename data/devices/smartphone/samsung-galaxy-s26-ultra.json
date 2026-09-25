@@ -75,7 +75,7 @@
       "refresh_hz": 120,
       "peak_nits": 2600,
       "protection": "Corning Gorilla Armor 2",
-      "pwm": "No high-frequency PWM dimming; 8-bit + FRC panel",
+      "pwm": "Low-frequency PWM dimming (240 Hz measured)",
       "features": "Privacy Display"
     },
     "platform": {
@@ -109,7 +109,6 @@
         {
           "role": "main",
           "mp": 200,
-          "sensor": "1/1.3\"",
           "aperture": "f/1.4",
           "focal_mm": 23,
           "ois": true,
@@ -180,32 +179,38 @@
     },
     "fields": {
       "specs.camera.rear": {
-        "class": "database",
-        "source": "gsmarena",
-        "url": "https://www.gsmarena.com/samsung_galaxy_s26_ultra-review-2939p5.php",
-        "note": "Main camera sensor (1/1.3\", ISOCELL HP2), f/1.4 aperture and 23 mm focal length as reported in GSMArena's camera review; Samsung lists megapixels only.",
-        "checked": "2026-09-15"
+        "class": "reviewer",
+        "source": "notebookcheck",
+        "url": "https://www.notebookcheck.net/Blocks-prying-eyes-Samsung-Galaxy-S26-Ultra-review.1278349.0.html",
+        "checked": "2026-09-25",
+        "note": "Samsung HP2 sensor, f/1.4, 23 mm and OIS from Notebookcheck's review; Samsung itself lists 200 MP and F1.4."
       },
       "specs.display.pwm": {
         "class": "measured",
-        "source": "gsmarena",
-        "url": "https://www.gsmarena.com/samsung_galaxy_s26_ultra-review-2939p3.php"
+        "source": "notebookcheck",
+        "url": "https://www.notebookcheck.net/Blocks-prying-eyes-Samsung-Galaxy-S26-Ultra-review.1278349.0.html",
+        "checked": "2026-09-25",
+        "note": "Notebookcheck measured PWM flicker at 240 Hz and notes Samsung made no changes to PWM dimming."
       },
       "specs.platform.chipset_note": {
         "class": "database",
-        "source": "gsmarena",
-        "url": "https://www.gsmarena.com/samsung_galaxy_s26_ultra-review-2939.php"
+        "source": "notebookcheck",
+        "url": "https://www.notebookcheck.net/Qualcomm-Snapdragon-8-Elite-Gen-5-for-Galaxy-Processor-Benchmarks-and-Specs.1271123.0.html",
+        "checked": "2026-09-25"
       },
       "specs.software.os_updates_years": {
-        "class": "database",
-        "source": "gsmarena",
-        "url": "https://www.gsmarena.com/samsung_galaxy_s26_ultra-review-2939p4.php",
-        "note": "Samsung policy as stated in GSMArena's review."
+        "class": "official",
+        "source": "samsung-newsroom",
+        "url": "https://news.samsung.com/us/samsung-unveils-galaxy-s26-series-most-intuitive-galaxy-ai-phone-yet/",
+        "checked": "2026-09-25",
+        "note": "Seven generations of OS upgrades and seven years of security updates from the global launch date (footnote 21)."
       },
       "specs.software.security_updates_years": {
-        "class": "database",
-        "source": "gsmarena",
-        "url": "https://www.gsmarena.com/samsung_galaxy_s26_ultra-review-2939p4.php"
+        "class": "official",
+        "source": "samsung-newsroom",
+        "url": "https://news.samsung.com/us/samsung-unveils-galaxy-s26-series-most-intuitive-galaxy-ai-phone-yet/",
+        "checked": "2026-09-25",
+        "note": "Seven generations of OS upgrades and seven years of security updates from the global launch date (footnote 21)."
       },
       "specs.connectivity.bluetooth": {
         "class": "official",

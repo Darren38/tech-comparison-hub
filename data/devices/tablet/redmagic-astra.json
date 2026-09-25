@@ -1,0 +1,81 @@
+{
+  "id": "redmagic-astra",
+  "name": "REDMAGIC Astra Gaming Tablet",
+  "brand": "redmagic",
+  "category": "tablet",
+  "series": "REDMAGIC tablets",
+  "form": "tablet",
+  "status": "released",
+  "segment": "flagship",
+  "aliases": [
+    "RedMagic Astra Gaming Tablet",
+    "Red Magic Astra Gaming Tablet"
+  ],
+  "summary": "A compact 9-inch OLED gaming tablet with the Snapdragon 8 Elite, a 165 Hz screen and a built-in fan.",
+  "highlights": [
+    "9.06-inch OLED 165 Hz",
+    "Snapdragon 8 Elite",
+    "370 g"
+  ],
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-25",
+      "source": "redmagic",
+      "note": "No Malaysian launch report with a price was found."
+    }
+  },
+  "specs": {
+    "display": {
+      "size_in": 9.06,
+      "type": "OLED",
+      "resolution": "2400 × 1504",
+      "ppi": 313,
+      "refresh_hz": 165,
+      "peak_nits": 1600
+    },
+    "platform": {
+      "chipset": "snapdragon-8-elite"
+    },
+    "memory": {
+      "ram_gb": [
+        12,
+        16,
+        24
+      ],
+      "storage_gb": [
+        256,
+        512,
+        1024
+      ]
+    },
+    "battery": {
+      "capacity_mah": 8200
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 207,
+        "width_mm": 134.2,
+        "depth_mm": 6.9
+      },
+      "weight_g": 370,
+      "ip": "IP54"
+    },
+    "connectivity": {
+      "wifi": "Wi-Fi 6"
+    },
+    "software": {
+      "launch_os": "REDMAGIC OS 10.5 (Android 15)"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "redmagic",
+      "url": "https://global.redmagic.gg/pages/redmagic-astra-gaming-tablet-specs",
+      "checked": "2026-09-25",
+      "note": "Read from REDMAGIC’s global specification page."
+    }
+  },
+  "dataStatus": "compiled"
+}

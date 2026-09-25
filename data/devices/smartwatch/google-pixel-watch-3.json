@@ -1,0 +1,116 @@
+{
+  "id": "google-pixel-watch-3",
+  "name": "Google Pixel Watch 3",
+  "brand": "google",
+  "category": "smartwatch",
+  "series": "Pixel Watch",
+  "form": "watch",
+  "status": "released",
+  "announced": "2024-08-14",
+  "released": "2024-08-14",
+  "segment": "flagship",
+  "aliases": [
+    "Pixel Watch 3"
+  ],
+  "summary": "Google’s 2024 watch in two sizes, with a brighter LTPO screen, ECG, skin-temperature and body-response sensors.",
+  "highlights": [
+    "Two sizes (41 / 45 mm)",
+    "2,000-nit screen",
+    "ECG + skin temperature"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1849,
+      "config": "41 mm, Wi-Fi",
+      "date": "2024-08-14",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2024/08/14/google-pixel-watch-3-malaysia-wifi-price-specs-features/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1999,
+      "config": "45 mm, Wi-Fi",
+      "date": "2024-08-14",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2024/08/14/google-pixel-watch-3-malaysia-wifi-price-specs-features/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_mm": "41 / 45 mm",
+      "type": "AMOLED LTPO",
+      "ppi": 320,
+      "peak_nits": 2000
+    },
+    "platform": {
+      "chipset_note": "Qualcomm Snapdragon W5 Gen 1 + Cortex-M33 co-processor"
+    },
+    "memory": {
+      "ram_gb": [
+        2
+      ],
+      "storage_gb": [
+        32
+      ]
+    },
+    "battery": {
+      "capacity_mah": 307,
+      "life_h": 24,
+      "claim": "Up to 24 h with always-on display; 36 h with Battery Saver"
+    },
+    "health": {
+      "sensors": [
+        "Optical heart rate (multi-path)",
+        "ECG",
+        "SpO2",
+        "Skin temperature",
+        "Skin conductance (cEDA)",
+        "Compass",
+        "Altimeter",
+        "Barometer",
+        "Gyroscope"
+      ]
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 41,
+        "width_mm": 41,
+        "depth_mm": 12.3
+      },
+      "weight_g": 31,
+      "case": "Recycled aluminium",
+      "water": "5 ATM + IP68",
+      "water_m": 50,
+      "ip": "IP68"
+    },
+    "connectivity": {
+      "cellular": "LTE (optional)",
+      "nfc": true,
+      "bluetooth": "Bluetooth 5.3",
+      "wifi": "Wi-Fi 6",
+      "compatibility": "Android only"
+    },
+    "software": {
+      "launch_os": "Wear OS 5.0"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "google",
+      "url": "https://support.google.com/googlepixelwatch/answer/12651869?hl=en-GB",
+      "checked": "2026-09-25",
+      "note": "Read from Google’s Pixel Watch specifications help page. The 45 mm model has a 420 mAh battery and weighs 37 g; both last up to 24 h with always-on display."
+    }
+  },
+  "dataStatus": "compiled"
+}

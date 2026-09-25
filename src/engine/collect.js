@@ -104,8 +104,9 @@ function keyIndex(keys) {
   return byFirst;
 }
 
-/** Device ids a headline names, in the same order tools/fetch_headlines.py finds them (longest name first). */
-export function matchDevices(titleNorm, byFirst, nextReject) {
+/** Device (or chipset) ids a headline names, in the same order tools/fetch_headlines.py finds them (longest name
+ * first). A name several devices share ("iPad Air M4") links to all of them (Version 17). */
+export function matchDevices(titleNorm, byFirst, nextReject, prevReject = new Set()) {
   const words = titleNorm ? titleNorm.split(' ') : [];
   const hits = [];
   words.forEach((w, i) => {
@@ -113,6 +114,7 @@ export function matchDevices(titleNorm, byFirst, nextReject) {
       if (k.tokens.some((t, j) => words[i + j] !== t)) continue;
       const next = words[i + k.tokens.length];
       if (next !== undefined && nextReject.has(next)) continue;
+      if (i > 0 && prevReject.has(words[i - 1])) continue;
       hits.push({ ...k, start: i, end: i + k.tokens.length });
     }
   });
@@ -120,11 +122,36 @@ export function matchDevices(titleNorm, byFirst, nextReject) {
   const taken = [];
   const found = [];
   for (const h of hits) {
-    if (taken.some(([s, e]) => h.start < e && h.end > s)) continue;
-    taken.push([h.start, h.end]);
+    if (taken.some(([s, e, key]) => h.start < e && h.end > s && key !== h.key)) continue;
+    taken.push([h.start, h.end, h.key]);
     if (!found.includes(h.id)) found.push(h.id);
   }
   return found;
+}
+
+/** Version 17: which section of a device page a headline belongs to (the rules in tools/fetch_headlines.py). */
+export function topicOf(title, kind, rules) {
+  const test = rules.find(([name]) => name === 'test');
+  if (test && test[1].test(title)) return 'test';
+  if (kind === 'review' || kind === 'video') return kind;
+  for (const [name, re] of rules) if (name !== 'test' && re.test(title)) return name;
+  return 'news';
+}
+
+/** Compiled tagging rules from live/config.json: devices, chipsets and topic, as tools/fetch_headlines.py tags them. */
+export function tagger(config) {
+  const byFirst = keyIndex(config.keys ?? []);
+  const chipsFirst = keyIndex(config.chipKeys ?? []);
+  const nextReject = new Set(config.nextReject ?? []);
+  const chipNext = new Set(config.chipNextReject ?? []);
+  const chipPrev = new Set(config.chipPrevReject ?? []);
+  const rules = (config.topicRules ?? []).map(([name, pattern]) => [name, new RegExp(pattern, 'i')]);
+  setZhBrands(config.zhBrands);
+  return (title, kind) => {
+    const norm = normalize(title);
+    const chipsets = matchDevices(norm, chipsFirst, chipNext, chipPrev);
+    return { devices: matchDevices(norm, byFirst, nextReject), ...(chipsets.length ? { chipsets } : {}), topic: topicOf(title, kind, rules) };
+  };
 }
 
 async function sha1Hex(text) {
@@ -146,14 +173,12 @@ export async function collectThroughRelay(config) {
   const now = new Date();
   const cutoff = now.getTime() - (config.maxAgeDays ?? 45) * 86400000;
   const perFeed = config.perFeed ?? 20;
-  const byFirst = keyIndex(config.keys ?? []);
-  const nextReject = new Set(config.nextReject ?? []);
+  const tag = tagger(config);
   const noImage = new Set(config.noImageSources ?? []);
   const topic = new RegExp(`(?<![a-z0-9])(?:${(config.topicPatterns ?? []).join('|')})(?![a-z0-9])`);
   const review = new RegExp(config.reviewWords, 'i');
   const topicZh = config.topicPatternsZh ? new RegExp(config.topicPatternsZh) : null;
   const reviewZh = config.reviewWordsZh ? new RegExp(config.reviewWordsZh) : null;
-  setZhBrands(config.zhBrands);
 
   const texts = new Array(config.feeds.length);
   let next = 0;
@@ -190,8 +215,9 @@ export async function collectThroughRelay(config) {
       const published = when && !Number.isNaN(when.getTime()) ? when : null;
       if (published && published.getTime() < cutoff) continue;
       const norm = normalize(title);
-      const devices = matchDevices(norm, byFirst, nextReject);
-      if (!devices.length && !topic.test(norm) && !topicZh?.test(title)) continue;
+      const kind = feed.kind === 'video' ? 'video' : review.test(title) || reviewZh?.test(title) ? 'review' : feed.kind;
+      const tags = tag(title, kind);
+      if (!tags.devices.length && !topic.test(norm) && !topicZh?.test(title)) continue;
       const id = (await sha1Hex(link)).slice(0, 12);
       if (items.has(id)) continue;
       items.set(id, {
@@ -200,9 +226,9 @@ export async function collectThroughRelay(config) {
         url: link,
         source: feed.source,
         ...(feed.lang ? { lang: feed.lang } : {}),
-        kind: feed.kind === 'video' ? 'video' : review.test(title) || reviewZh?.test(title) ? 'review' : feed.kind,
+        kind,
         published: published ? isoMinutes(published) : null,
-        devices,
+        ...tags,
         image: noImage.has(feed.source) ? null : raw.image,
         ...(raw.views != null ? { views: raw.views } : {}),
       });

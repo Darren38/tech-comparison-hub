@@ -1,0 +1,91 @@
+{
+  "id": "oneplus-11",
+  "name": "OnePlus 11 5G",
+  "brand": "oneplus",
+  "category": "smartphone",
+  "series": "OnePlus",
+  "form": "bar",
+  "status": "released",
+  "announced": "2023-02",
+  "released": "2023-02",
+  "segment": "flagship",
+  "aliases": [
+    "OnePlus 11"
+  ],
+  "summary": "A 6.7-inch 120 Hz 5G flagship phone with the Snapdragon 8 Gen 2, a 5,000 mAh battery and a 50 MP main camera.",
+  "highlights": [
+    "Snapdragon 8 Gen 2",
+    "6.7-inch 120 Hz",
+    "5,000 mAh"
+  ],
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-25",
+      "source": "oneplus",
+      "note": "Listed on the maker’s Malaysian website, but no Malaysian launch price was found in a launch report."
+    }
+  },
+  "specs": {
+    "build": {
+      "weight_g": 205.0,
+      "dimensions": {
+        "height_mm": 163.1,
+        "width_mm": 74.1,
+        "depth_mm": 8.53
+      }
+    },
+    "display": {
+      "size_in": 6.7,
+      "resolution": "3216 × 1440",
+      "refresh_hz": 120
+    },
+    "software": {
+      "launch_os": "Android 13"
+    },
+    "platform": {
+      "chipset": "snapdragon-8-gen-2"
+    },
+    "memory": {
+      "ram_gb": [
+        8,
+        16
+      ],
+      "storage_gb": [
+        128,
+        256
+      ]
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "wifi": "Wi-Fi 7",
+      "nfc": true
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "focal_mm": 24
+        },
+        {
+          "role": "ultrawide",
+          "mp": 48
+        }
+      ]
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "oneplus",
+      "url": "https://www.oneplus.com/my/11/specs",
+      "checked": "2026-09-25",
+      "note": "Read automatically from the maker’s Malaysian specification page and reviewed; values not found on the page are left out."
+    }
+  },
+  "dataStatus": "compiled"
+}

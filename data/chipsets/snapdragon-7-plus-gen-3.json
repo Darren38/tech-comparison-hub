@@ -1,0 +1,31 @@
+{
+  "id": "snapdragon-7-plus-gen-3",
+  "name": "Snapdragon 7+ Gen 3",
+  "vendor": "qualcomm",
+  "family": "Snapdragon 7",
+  "tier": "upper-mid",
+  "aliases": [
+    "SD 7+ Gen 3",
+    "Snapdragon 7 Plus Gen 3"
+  ],
+  "summary": "Qualcomm’s upper-mid-range chip used in the Xiaomi Pad 7.",
+  "process": {
+    "node": "4 nm"
+  },
+  "cpu": {
+    "cores": 8
+  },
+  "gpu": {
+    "name": "Adreno"
+  },
+  "variants": [],
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "xiaomi",
+      "url": "https://web.archive.org/web/20250906012419/https://www.mi.com/my/product/xiaomi-pad-7/specs/",
+      "checked": "2026-09-25",
+      "note": "From Xiaomi’s Pad 7 specification page: 4 nm, octa-core up to 2.8 GHz, Adreno GPU."
+    }
+  }
+}

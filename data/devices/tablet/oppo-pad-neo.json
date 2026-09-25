@@ -1,0 +1,90 @@
+{
+  "id": "oppo-pad-neo",
+  "name": "OPPO Pad Neo",
+  "brand": "oppo",
+  "category": "tablet",
+  "series": "OPPO Pad",
+  "form": "tablet",
+  "status": "released",
+  "announced": "2024-01",
+  "released": "2024-01",
+  "segment": "entry",
+  "aliases": [
+    "Pad Neo"
+  ],
+  "summary": "An 11.4-inch 90 Hz tablet with the Helio G99 and 33 W charging.",
+  "highlights": [
+    "11.4-inch 90 Hz",
+    "Helio G99",
+    "8,000 mAh"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1199,
+      "config": "Wi-Fi, 6 GB / 128 GB",
+      "date": "2024-01-11",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2024/01/11/oppo-pad-neo-specs-price-malaysia/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 11.4,
+      "type": "LCD (LTPS)",
+      "resolution": "2408 × 1720",
+      "ppi": 260,
+      "refresh_hz": 90,
+      "peak_nits": 400
+    },
+    "platform": {
+      "chipset": "helio-g99"
+    },
+    "memory": {
+      "ram_gb": [
+        6,
+        8
+      ],
+      "storage_gb": [
+        128
+      ],
+      "expandable": true
+    },
+    "battery": {
+      "capacity_mah": 8000
+    },
+    "charging": {
+      "wired_w": 33
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 255.12,
+        "width_mm": 188.04,
+        "depth_mm": 6.89
+      },
+      "weight_g": 538
+    },
+    "connectivity": {
+      "cellular": "4G LTE (LTE model)",
+      "wifi": "Wi-Fi 5",
+      "bluetooth": "Bluetooth 5.2"
+    },
+    "software": {
+      "launch_os": "ColorOS 13.2"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "oppo",
+      "url": "https://www.oppo.com/en/accessories/oppo-pad-neo/specs/",
+      "checked": "2026-09-25",
+      "note": "Read from OPPO’s specification page (global site unless noted)."
+    }
+  },
+  "dataStatus": "checked"
+}

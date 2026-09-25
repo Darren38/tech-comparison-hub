@@ -1,0 +1,95 @@
+{
+  "id": "google-pixel-8",
+  "name": "Pixel 8",
+  "brand": "google",
+  "category": "smartphone",
+  "series": "Pixel",
+  "form": "bar",
+  "status": "released",
+  "announced": "2023",
+  "released": "2023",
+  "segment": "upper-mid",
+  "aliases": [
+    "Google Pixel 8"
+  ],
+  "summary": "A compact 2023 Pixel with the Tensor G3, a bright 120 Hz screen and seven years of updates.",
+  "highlights": [
+    "Seven years of updates",
+    "Compact 6.2-inch",
+    "Tensor G3"
+  ],
+  "availability": {
+    "MY": {
+      "status": "not-launched",
+      "checked": "2026-09-25",
+      "source": "soyacincau",
+      "note": "Not sold officially in Malaysia (Google began selling Pixels here with the Pixel 9 in August 2024)."
+    }
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.2,
+      "type": "Actua OLED",
+      "resolution": "2400 × 1080",
+      "ppi": 428,
+      "refresh_hz": 120,
+      "peak_nits": 2000
+    },
+    "platform": {
+      "chipset_note": "Google Tensor G3 (not yet in the chipset database)"
+    },
+    "memory": {
+      "ram_gb": [
+        8
+      ],
+      "storage_gb": [
+        128,
+        256
+      ]
+    },
+    "battery": {
+      "capacity_mah": 4575
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50
+        },
+        {
+          "role": "ultrawide",
+          "mp": 12
+        }
+      ],
+      "front": "10.5 MP"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 150.5,
+        "width_mm": 70.8,
+        "depth_mm": 8.9
+      },
+      "weight_g": 187,
+      "ip": "IP68"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "wifi": "Wi-Fi 7",
+      "bluetooth": "Bluetooth 5.3"
+    },
+    "software": {
+      "os_updates_years": 7,
+      "security_updates_years": 7
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "google",
+      "url": "https://support.google.com/pixelphone/answer/7158570?hl=en-GB",
+      "checked": "2026-09-25",
+      "note": "Read from Google’s Pixel phone hardware tech specs page (international figures)."
+    }
+  },
+  "dataStatus": "compiled"
+}

@@ -1,0 +1,85 @@
+{
+  "id": "honor-pad-x7",
+  "name": "HONOR Pad X7",
+  "brand": "honor",
+  "category": "tablet",
+  "series": "HONOR Pad X",
+  "form": "tablet",
+  "status": "released",
+  "segment": "entry",
+  "aliases": [
+    "Pad X7",
+    "Pad X7 4G"
+  ],
+  "summary": "A small 8.7-inch 90 Hz tablet with 4G, the Snapdragon 680 and a 7,020 mAh battery.",
+  "highlights": [
+    "8.7-inch compact",
+    "90 Hz",
+    "4G LTE"
+  ],
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-25",
+      "source": "honor",
+      "note": "Listed on HONOR Malaysia’s website, but no Malaysian launch price was found in a launch report."
+    }
+  },
+  "specs": {
+    "display": {
+      "size_in": 8.7,
+      "type": "LCD",
+      "resolution": "1340 × 800",
+      "ppi": 180,
+      "refresh_hz": 90,
+      "peak_nits": 625
+    },
+    "platform": {
+      "chipset": "snapdragon-680"
+    },
+    "memory": {
+      "ram_gb": [
+        4
+      ],
+      "storage_gb": [
+        128
+      ]
+    },
+    "battery": {
+      "capacity_mah": 7020
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 211.8,
+        "width_mm": 124.8,
+        "depth_mm": 7.99
+      },
+      "weight_g": 365
+    },
+    "connectivity": {
+      "cellular": "4G LTE",
+      "wifi": "Wi-Fi 5",
+      "bluetooth": "Bluetooth 5.0"
+    },
+    "software": {
+      "launch_os": "Android 15"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "honor",
+      "url": "https://www.honor.com/my/tablets/honor-pad-x7-4g/spec/",
+      "checked": "2026-09-25",
+      "note": "Read from HONOR Malaysia’s specification page; launch date and price from a Malaysian launch report."
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://www.honor.com/content/dam/honor/common/product-list/tablets/product-series/honor-padx7-lte/honor-pad-x7-lte-list-gary.png",
+    "page": "https://www.honor.com/my/tablets/honor-pad-x7-4g/",
+    "credit": "HONOR Malaysia",
+    "checked": "2026-09-25"
+  }
+}

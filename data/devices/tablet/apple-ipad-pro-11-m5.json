@@ -1,0 +1,120 @@
+{
+  "id": "apple-ipad-pro-11-m5",
+  "name": "iPad Pro 11-inch (M5)",
+  "brand": "apple",
+  "category": "tablet",
+  "series": "iPad Pro",
+  "form": "tablet",
+  "status": "released",
+  "announced": "2025-10-15",
+  "released": "2025-10-22",
+  "segment": "flagship",
+  "aliases": [
+    "iPad Pro 11 M5",
+    "iPad Pro 11 (2025)"
+  ],
+  "summary": "The smaller iPad Pro: an 11-inch tandem OLED screen at 5.3 mm with the M5 chip.",
+  "highlights": [
+    "Tandem OLED (Ultra Retina XDR)",
+    "M5 chip",
+    "5.3 mm thin"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 4499,
+      "config": "Wi-Fi, 256 GB",
+      "date": "2025-10-16",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/10/16/apple-ipad-pro-m5-malaysia-price-spec-upgrades/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 11,
+      "type": "Ultra Retina XDR tandem OLED, ProMotion",
+      "resolution": "2420 × 1668",
+      "ppi": 264,
+      "refresh_hz": 120,
+      "peak_nits": 1600,
+      "sdr_nits": 1000
+    },
+    "platform": {
+      "chipset": "apple-m5",
+      "chipset_note": "9-core CPU and 12 GB on 256 GB / 512 GB; 10-core CPU and 16 GB on 1 TB / 2 TB"
+    },
+    "memory": {
+      "ram_gb": [
+        12,
+        16
+      ],
+      "storage_gb": [
+        256,
+        512,
+        1024,
+        2048
+      ]
+    },
+    "battery": {
+      "capacity_wh": 31.29
+    },
+    "charging": {
+      "claim": "Up to 50% in about 30 min with a 60 W or higher adapter (sold separately)"
+    },
+    "input": {
+      "stylus": "Apple Pencil Pro, Apple Pencil (USB-C)"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 249.7,
+        "width_mm": 177.5,
+        "depth_mm": 5.3
+      },
+      "weight_g": 444
+    },
+    "connectivity": {
+      "cellular": "5G (optional, Apple C1X modem)",
+      "wifi": "Wi-Fi 7",
+      "bluetooth": "Bluetooth 6",
+      "usb": "Thunderbolt / USB 4"
+    },
+    "software": {
+      "launch_os": "iPadOS 26",
+      "os_updates_years": 6,
+      "security_updates_years": 7
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "apple",
+      "url": "https://support.apple.com/en-my/125406",
+      "checked": "2026-09-25",
+      "note": "Read from Apple Malaysia’s tech-specs page; Wi-Fi model weight."
+    },
+    "fields": {
+      "specs.software.os_updates_years": {
+        "class": "estimated",
+        "source": "apple",
+        "note": "Apple publishes no fixed update commitment; estimated from the support history of recent devices."
+      },
+      "specs.software.security_updates_years": {
+        "class": "estimated",
+        "source": "apple",
+        "note": "Apple publishes no fixed update commitment; estimated from the support history of recent devices."
+      }
+    }
+  },
+  "dataStatus": "checked",
+  "image": {
+    "kind": "official",
+    "src": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/ipad-pro-11-inch-m5.png",
+    "page": "https://support.apple.com/en-my/125406",
+    "credit": "Apple",
+    "checked": "2026-09-25"
+  }
+}

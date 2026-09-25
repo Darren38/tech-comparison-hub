@@ -1,0 +1,80 @@
+{
+  "id": "samsung-galaxy-tab-s6-lite-2024",
+  "name": "Galaxy Tab S6 Lite (2024)",
+  "brand": "samsung",
+  "category": "tablet",
+  "series": "Galaxy Tab S",
+  "form": "tablet",
+  "status": "released",
+  "announced": "2024-05",
+  "released": "2024-05",
+  "segment": "mid",
+  "aliases": [
+    "Tab S6 Lite 2024"
+  ],
+  "summary": "The 2024 refresh of Samsung’s 10.4-inch S Pen tablet, now with the Exynos 1280 and Android 14.",
+  "highlights": [
+    "S Pen included",
+    "Exynos 1280",
+    "10.4-inch"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1499,
+      "config": "4 GB / 128 GB",
+      "date": "2024-05-06",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2024/05/06/samsung-galaxy-tab-s6-lite-2024-malaysia-upgraded-price-specs/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 10.4,
+      "type": "TFT LCD",
+      "resolution": "2000 × 1200"
+    },
+    "platform": {
+      "chipset": "exynos-1280"
+    },
+    "memory": {
+      "ram_gb": [
+        4
+      ],
+      "storage_gb": [
+        128
+      ],
+      "expandable": true
+    },
+    "battery": {
+      "capacity_mah": 7040
+    },
+    "input": {
+      "stylus": "S Pen included"
+    },
+    "build": {
+      "weight_g": 465
+    },
+    "connectivity": {
+      "wifi": "Wi-Fi 5",
+      "bluetooth": "Bluetooth 5.3"
+    },
+    "software": {
+      "launch_os": "Android 14"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "news",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2024/05/06/samsung-galaxy-tab-s6-lite-2024-malaysia-upgraded-price-specs/",
+      "checked": "2026-09-25",
+      "note": "From SoyaCincau’s Malaysian launch report (Samsung’s specification page was not read). Thickness: 7 mm."
+    }
+  },
+  "dataStatus": "checked"
+}

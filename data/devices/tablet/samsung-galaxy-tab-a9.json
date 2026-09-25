@@ -1,0 +1,85 @@
+{
+  "id": "samsung-galaxy-tab-a9",
+  "name": "Galaxy Tab A9",
+  "brand": "samsung",
+  "category": "tablet",
+  "series": "Galaxy Tab A",
+  "form": "tablet",
+  "status": "released",
+  "announced": "2023-10-23",
+  "released": "2023-10",
+  "segment": "entry",
+  "aliases": [
+    "Tab A9"
+  ],
+  "summary": "Samsung’s small 8.7-inch budget tablet for 2023, with LTE and a microSD slot.",
+  "highlights": [
+    "8.7-inch LCD",
+    "5,100 mAh",
+    "LTE option"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 899,
+      "config": "LTE, 4 GB / 64 GB",
+      "date": "2023-10-23",
+      "type": "launch",
+      "source": "samsung",
+      "url": "https://news.samsung.com/my/samsung-galaxy-tab-a9-and-galaxy-tab-a9-entertainment-and-productivity-engineered-for-everyone",
+      "class": "official",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 8.7,
+      "type": "LCD",
+      "refresh_hz": 60
+    },
+    "platform": {
+      "chipset_note": "Octa-core processor (not named by Samsung)"
+    },
+    "memory": {
+      "ram_gb": [
+        4,
+        8
+      ],
+      "storage_gb": [
+        64,
+        128
+      ],
+      "expandable": true
+    },
+    "battery": {
+      "capacity_mah": 5100
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 211.0,
+        "width_mm": 124.7,
+        "depth_mm": 8.0
+      },
+      "weight_g": 332
+    },
+    "connectivity": {
+      "cellular": "4G LTE (optional)",
+      "wifi": "Wi-Fi 5",
+      "bluetooth": "Bluetooth 5.3"
+    },
+    "software": {
+      "launch_os": "Android 13"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "samsung",
+      "url": "https://news.samsung.com/global/samsung-galaxy-tab-a9-and-galaxy-tab-a9-entertainment-and-productivity-engineered-for-everyone",
+      "checked": "2026-09-25",
+      "note": "Read from Samsung’s launch press release (specification table); Wi-Fi model weight."
+    }
+  },
+  "dataStatus": "checked"
+}

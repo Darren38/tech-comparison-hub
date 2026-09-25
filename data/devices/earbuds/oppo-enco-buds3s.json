@@ -1,0 +1,77 @@
+{
+  "id": "oppo-enco-buds3s",
+  "name": "OPPO Enco Buds3s",
+  "brand": "oppo",
+  "category": "earbuds",
+  "series": "OPPO Enco",
+  "form": "buds",
+  "status": "released",
+  "segment": "entry",
+  "aliases": [
+    "Enco Buds3s"
+  ],
+  "summary": "Budget OPPO earbuds with up to 12 hours per charge and 54 hours with the case.",
+  "highlights": [
+    "Up to 54 h with case",
+    "IP55",
+    "Bluetooth 5.4"
+  ],
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-25",
+      "source": "oppo",
+      "note": "Listed on OPPO Malaysia’s website, but no Malaysian launch price was found in a launch report."
+    }
+  },
+  "specs": {
+    "audio": {
+      "anc": "No",
+      "driver": "12.4 mm dynamic",
+      "codecs": [
+        "AAC",
+        "SBC"
+      ]
+    },
+    "battery": {
+      "life_h": 12,
+      "total_h": 54,
+      "bud_mah": 58,
+      "case_mah": 560
+    },
+    "charging": {
+      "port": "USB-C"
+    },
+    "build": {
+      "weight_g": 4.5,
+      "dimensions": {
+        "height_mm": 31.1,
+        "width_mm": 23.3,
+        "depth_mm": 20.3
+      },
+      "case_dimensions": {
+        "height_mm": 60.2,
+        "width_mm": 47.5,
+        "depth_mm": 24.0
+      },
+      "ip": "IP55",
+      "case_weight_g": 38.6
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.4"
+    },
+    "software": {
+      "app": "HeyMelody (Android and iPhone)"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "oppo",
+      "url": "https://www.oppo.com/my/accessories/enco-buds3s/specs/",
+      "checked": "2026-09-25",
+      "note": "Read from OPPO Malaysia’s specification page. Case weight is the listed earbuds-plus-case weight minus two earbuds."
+    }
+  },
+  "dataStatus": "compiled"
+}

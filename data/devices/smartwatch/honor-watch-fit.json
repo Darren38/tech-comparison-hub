@@ -23,9 +23,10 @@
     },
     "connectivity": {
       "gps": "Built-in GNSS",
-      "usb": "Connect USB charging port to charge through charging dock.; Compatibility; Android 9.0 or later; IOS 13.0 or later; Water Resistance Level; 5ATM, IP68",
+      "usb": "Connect USB charging port to charge through charging dock.",
       "positioning": "GPS+GLONASS+GALILEO+BDS+QZSS",
-      "bluetooth": "Bluetooth"
+      "bluetooth": "Bluetooth",
+      "compatibility": "Android 9.0 or later, IOS 13.0 or later"
     },
     "build": {
       "weight_g": 27.0,
@@ -34,9 +35,12 @@
       "ip": "IP68"
     },
     "audio": {
-      "speakers": "Microphone; Charger Voltage and Current; 5V/2A or more"
+      "microphone": true
     },
-    "sensors": "Accelerometer sensor, Gyroscope sensor, Magnetometer sensor, Optical heart rate sensor, Ambient light sensor"
+    "sensors": "Accelerometer sensor, Gyroscope sensor, Magnetometer sensor, Optical heart rate sensor, Ambient light sensor",
+    "charging": {
+      "claim": "Charger: 5V/2A or more"
+    }
   },
   "provenance": {
     "default": {

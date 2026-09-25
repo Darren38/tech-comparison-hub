@@ -1,0 +1,90 @@
+{
+  "id": "realme-c51",
+  "name": "realme C51",
+  "brand": "realme",
+  "category": "smartphone",
+  "series": "realme C",
+  "form": "bar",
+  "status": "released",
+  "announced": "2023-09-27",
+  "released": "2023-09-27",
+  "segment": "entry",
+  "aliases": [
+    "C51"
+  ],
+  "summary": "A 6.74-inch 90 Hz 4G budget phone with a 5,000 mAh battery, 33 W charging and a 50 MP main camera.",
+  "highlights": [
+    "6.74-inch 90 Hz",
+    "5,000 mAh, 33 W"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 549,
+      "config": "Launch price",
+      "date": "2023-09-27",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2023/09/27/realme-c51-this-budget-android-smartphone-comes-with-dynamic-island-priced-at-rm549/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "charging": {
+      "wired_w": 33
+    },
+    "display": {
+      "size_in": 6.74,
+      "refresh_hz": 90,
+      "peak_nits": 560
+    },
+    "memory": {
+      "ram_gb": [
+        8
+      ],
+      "storage_gb": [
+        128
+      ]
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.0",
+      "cellular": "4G"
+    },
+    "build": {
+      "weight_g": 186.0,
+      "dimensions": {
+        "height_mm": 167.2,
+        "width_mm": 76.7,
+        "depth_mm": 7.99
+      }
+    },
+    "software": {
+      "launch_os": "Android 13"
+    },
+    "camera": {
+      "front": "5 MP",
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "focal_mm": 27
+        }
+      ]
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "realme",
+      "url": "https://www.realme.com/my/realme-c51/specs",
+      "checked": "2026-09-25",
+      "note": "Read automatically from the maker’s Malaysian specification page and reviewed; values not found on the page are left out."
+    }
+  },
+  "dataStatus": "compiled"
+}

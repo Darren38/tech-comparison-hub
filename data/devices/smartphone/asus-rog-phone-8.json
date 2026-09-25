@@ -1,0 +1,126 @@
+{
+  "id": "asus-rog-phone-8",
+  "name": "ASUS ROG Phone 8",
+  "brand": "asus",
+  "category": "smartphone",
+  "series": "ROG Phone",
+  "form": "bar",
+  "status": "released",
+  "announced": "2024-01-30",
+  "released": "2024-01-30",
+  "segment": "flagship",
+  "aliases": [
+    "ROG Phone 8",
+    "Asus ROG Phone 8"
+  ],
+  "summary": "The 2024 ROG Phone with the Snapdragon 8 Gen 3, IP68, a 165 Hz screen and a gimbal-stabilised 50 MP camera.",
+  "highlights": [
+    "165 Hz LTPO screen",
+    "IP68",
+    "Snapdragon 8 Gen 3"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 3999,
+      "config": "12 GB / 256 GB",
+      "date": "2024-01-30",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2024/01/30/rog-phone-8-series-malaysia-everything-you-need-to-know/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 6.78,
+      "type": "LTPO AMOLED",
+      "resolution": "2400 × 1080",
+      "refresh_hz": 165,
+      "peak_nits": 2500
+    },
+    "platform": {
+      "chipset": "snapdragon-8-gen-3"
+    },
+    "battery": {
+      "capacity_mah": 5500
+    },
+    "charging": {
+      "wired_w": 65,
+      "wireless": true
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 163.8,
+        "width_mm": 76.8,
+        "depth_mm": 8.9
+      },
+      "weight_g": 225,
+      "ip": "IP68"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "wifi": "Wi-Fi 7",
+      "bluetooth": "Bluetooth 5.4"
+    },
+    "audio": {
+      "jack": true
+    },
+    "software": {
+      "launch_os": "Android 14"
+    },
+    "memory": {
+      "ram_gb": [
+        12
+      ],
+      "storage_gb": [
+        256
+      ]
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50
+        },
+        {
+          "role": "ultrawide",
+          "mp": 13
+        },
+        {
+          "role": "macro",
+          "mp": 5
+        }
+      ],
+      "front": "32 MP",
+      "video": "8K 24 fps"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "asus",
+      "url": "https://rog.asus.com/my/phones/rog-phone-8/spec/",
+      "checked": "2026-09-25",
+      "note": "Read from the ROG spec page."
+    },
+    "fields": {
+      "specs.charging.wired_w": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2024/01/30/rog-phone-8-series-malaysia-everything-you-need-to-know/",
+        "checked": "2026-09-25"
+      }
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://dlcdnwebimgs.asus.com/gain/6CC77851-95F8-4910-808D-E0F94C840EB7",
+    "page": "https://rog.asus.com/my/phones/rog-phone-8/",
+    "credit": "ASUS ROG",
+    "checked": "2026-09-25"
+  }
+}

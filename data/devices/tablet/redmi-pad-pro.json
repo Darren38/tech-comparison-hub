@@ -1,0 +1,92 @@
+{
+  "id": "redmi-pad-pro",
+  "name": "REDMI Pad Pro",
+  "brand": "redmi",
+  "category": "tablet",
+  "series": "REDMI Pad",
+  "form": "tablet",
+  "status": "released",
+  "announced": "2024",
+  "released": "2024",
+  "segment": "mid",
+  "aliases": [
+    "Redmi Pad Pro",
+    "Redmi Pad Pro 5G"
+  ],
+  "summary": "A 12.1-inch 2.5K 120 Hz tablet with the Snapdragon 7s Gen 2, a 10,000 mAh battery and a 5G option.",
+  "highlights": [
+    "12.1-inch 120 Hz",
+    "10,000 mAh",
+    "Snapdragon 7s Gen 2"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1799,
+      "config": "5G, 8 GB / 256 GB",
+      "date": "2024-07-26",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2024/07/26/redmi-pad-pro-5g-malaysia-price-specs/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 12.1,
+      "type": "LCD",
+      "resolution": "2560 × 1600",
+      "ppi": 249,
+      "refresh_hz": 120,
+      "peak_nits": 600
+    },
+    "platform": {
+      "chipset": "snapdragon-7s-gen-2"
+    },
+    "memory": {
+      "ram_gb": [
+        6,
+        8
+      ],
+      "storage_gb": [
+        128,
+        256
+      ],
+      "expandable": true
+    },
+    "battery": {
+      "capacity_mah": 10000
+    },
+    "charging": {
+      "wired_w": 33
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 280.0,
+        "width_mm": 181.85,
+        "depth_mm": 7.52
+      },
+      "weight_g": 571
+    },
+    "connectivity": {
+      "cellular": "5G (Redmi Pad Pro 5G)",
+      "wifi": "Wi-Fi 6",
+      "bluetooth": "Bluetooth 5.2"
+    },
+    "software": {
+      "launch_os": "Xiaomi HyperOS (Android 14)"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "redmi",
+      "url": "https://web.archive.org/web/20260611191124/https://www.mi.com/my/product/redmi-pad-pro/specs/",
+      "checked": "2026-09-25",
+      "note": "Read from Xiaomi Malaysia’s specification page (Internet Archive copy, because mi.com refuses automated reading)."
+    }
+  },
+  "dataStatus": "checked"
+}

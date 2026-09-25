@@ -741,7 +741,7 @@
 }
 
 .dcard__art {
-  width: 64px;
+  width: 80px;
   flex-shrink: 0;
   display: grid;
   place-items: center;
@@ -780,7 +780,9 @@
   right: 12px;
 }
 
-.dcard__link .dcard__body {
+/* only the brand and name lines sit beside the Compare button; the lines below use the full width */
+.dcard__link .dcard__brand,
+.dcard__link .dcard__name {
   padding-right: 84px;
 }
 
@@ -804,6 +806,20 @@
 
 .schematic__cam {
   fill: var(--surface-3);
+}
+
+/* earbuds: the charging case with its lid seam and the two buds inside */
+.schematic__lid {
+  stroke: color-mix(in srgb, var(--brand, #888) 55%, var(--ink));
+  stroke-width: 1.2;
+  opacity: 0.7;
+}
+
+.schematic--buds .schematic__screen {
+  fill: var(--surface);
+  stroke: color-mix(in srgb, var(--brand, #888) 50%, var(--ink));
+  stroke-width: 1;
+  opacity: 1;
 }
 
 .schematic.is-generic .schematic__body {
@@ -1938,6 +1954,75 @@ fieldset {
 
 .dmedia--hero:not(.is-drawing):not(.is-fallback) .dmedia__img {
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08), 0 8px 24px -12px rgba(0, 0, 0, 0.35);
+}
+
+/* Version 17: pictures cropped to the product (tools/image_boxes.py). The wrapper has the product's own shape and is
+   as large as the space allows (--fit-h is the height available); the picture inside is offset so only the product
+   shows. */
+.fitcrop {
+  --fit-h: 260px;
+  position: relative;
+  display: block;
+  overflow: hidden;
+  aspect-ratio: var(--ar);
+  width: min(100%, calc(var(--fit-h) * var(--ar)));
+  max-height: var(--fit-h);
+  margin-inline: auto;
+}
+
+.dmedia .fitcrop > .dmedia__img,
+.fitcrop > img {
+  position: absolute;
+  display: block;
+  max-width: none;
+  max-height: none;
+  object-fit: fill;
+  padding: 0;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.is-onwhite .fitcrop > img,
+.fitcrop.is-onwhite > img {
+  mix-blend-mode: var(--pic-blend);
+}
+
+/* dark theme: the white canvas becomes a small white plate around the product instead of a big white box */
+.dmedia.is-onwhite .fitcrop,
+.fitcrop.is-onwhite {
+  background: #fff;
+  box-shadow: 0 0 0 var(--pic-plate) #fff;
+  border-radius: 2px;
+}
+
+.dmedia.is-fit {
+  background: transparent;
+  padding: 0;
+}
+
+.dmedia--hero.is-fit .fitcrop {
+  --fit-h: 280px;
+  margin-block: var(--pic-plate);
+}
+
+.dmedia--card.is-fit {
+  overflow: visible;
+  width: 80px;
+  height: 116px;
+}
+
+.dmedia--card.is-fit .fitcrop {
+  --fit-h: 116px;
+}
+
+.dmedia--card.is-fit.is-onwhite .fitcrop {
+  box-shadow: 0 0 0 calc(var(--pic-plate) / 2) #fff;
+}
+
+@media (max-width: 720px) {
+  .dmedia--hero.is-fit .fitcrop {
+    --fit-h: 300px;
+  }
 }
 
 .dmedia__credit {

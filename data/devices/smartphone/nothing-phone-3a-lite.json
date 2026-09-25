@@ -1,0 +1,112 @@
+{
+  "id": "nothing-phone-3a-lite",
+  "name": "Nothing Phone (3a) Lite",
+  "brand": "nothing",
+  "category": "smartphone",
+  "series": "Nothing Phone",
+  "form": "bar",
+  "status": "released",
+  "announced": "2025-11-07",
+  "released": "2025-11-07",
+  "segment": "mid",
+  "aliases": [
+    "Phone (3a) Lite",
+    "Nothing Phone 3a Lite"
+  ],
+  "summary": "A 6.77-inch 120 Hz 5G mid-range phone with the Dimensity 7300, a 5,000 mAh battery, 33 W charging and a 50 MP main camera.",
+  "highlights": [
+    "Dimensity 7300",
+    "6.77-inch 120 Hz",
+    "5,000 mAh, 33 W"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1199,
+      "config": "Launch price",
+      "date": "2025-11-07",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/11/07/nothing-phone-3a-lite-malaysia-price-specs-availability-launch/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "build": {
+      "dimensions": {
+        "height_mm": 164.0,
+        "width_mm": 78.0,
+        "depth_mm": 8.3
+      },
+      "weight_g": 199.0
+    },
+    "camera": {
+      "front": "16 MP",
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "focal_mm": 24
+        },
+        {
+          "role": "ultrawide",
+          "mp": 8,
+          "focal_mm": 15
+        },
+        {
+          "role": "macro",
+          "mp": 2
+        }
+      ]
+    },
+    "display": {
+      "size_in": 6.77,
+      "type": "AMOLED",
+      "resolution": "2392 × 1084",
+      "ppi": 387,
+      "peak_nits": 3000,
+      "refresh_hz": 120
+    },
+    "connectivity": {
+      "wifi": "Wi-Fi 6",
+      "bluetooth": "Bluetooth 5.4",
+      "cellular": "5G"
+    },
+    "software": {
+      "launch_os": "Android 15",
+      "os_updates_years": 3,
+      "security_updates_years": 6
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "charging": {
+      "wired_w": 33
+    },
+    "memory": {
+      "ram_gb": [
+        8
+      ],
+      "storage_gb": [
+        128,
+        256
+      ]
+    },
+    "platform": {
+      "chipset": "dimensity-7300",
+      "chipset_note": "Dimensity 7300 Pro (Nothing’s name for its version)"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "nothing",
+      "url": "https://intl.nothing.tech/products/phone-3a-lite?Colour=White&Capacity=8%2B256GB",
+      "checked": "2026-09-25",
+      "note": "Read from the specifications section of Nothing’s product page (international store)."
+    }
+  },
+  "dataStatus": "compiled"
+}

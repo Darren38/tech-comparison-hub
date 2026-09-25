@@ -1,0 +1,88 @@
+{
+  "id": "oneplus-nord-buds-4-pro",
+  "name": "OnePlus Nord Buds 4 Pro",
+  "brand": "oneplus",
+  "category": "earbuds",
+  "series": "OnePlus Buds",
+  "form": "buds",
+  "status": "released",
+  "segment": "mid",
+  "aliases": [
+    "Nord Buds 4 Pro"
+  ],
+  "summary": "OnePlus earbuds with noise cancelling, LHDC 5.0, Bluetooth 6.0 and up to 54 hours with the case.",
+  "highlights": [
+    "Noise cancelling",
+    "LHDC 5.0",
+    "Up to 54 h with case"
+  ],
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-25",
+      "source": "oneplus",
+      "note": "Listed on OnePlus Malaysia’s website, but no Malaysian launch price was found in a launch report."
+    }
+  },
+  "specs": {
+    "audio": {
+      "anc": "Yes (real-time active noise cancelling)",
+      "driver": "12 mm dynamic",
+      "codecs": [
+        "LHDC 5.0",
+        "AAC",
+        "SBC"
+      ],
+      "mics": "3 per earbud"
+    },
+    "battery": {
+      "life_h": 13,
+      "total_h": 54,
+      "bud_mah": 62,
+      "case_mah": 530
+    },
+    "charging": {
+      "port": "USB-C"
+    },
+    "build": {
+      "style": "In-ear with silicone tips",
+      "weight_g": 4.4,
+      "case_weight_g": 34.2,
+      "dimensions": {
+        "height_mm": 31,
+        "width_mm": 20,
+        "depth_mm": 17.52
+      },
+      "case_dimensions": {
+        "height_mm": 60.0,
+        "width_mm": 49.64,
+        "depth_mm": 25.04
+      },
+      "ip": "IP55"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 6.0",
+      "multipoint": "Yes (dual-device connection)"
+    },
+    "software": {
+      "app": "HeyMelody (Android and iPhone)"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "oneplus",
+      "url": "https://www.oneplus.com/my/oneplus-nord-buds-4-pro/specs",
+      "checked": "2026-09-25",
+      "note": "Read from OnePlus Malaysia’s specification page."
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://www.oneplus.com/content/dam/oneplus/2026/product-station/einstein/specs/Radiant-Gray_1080x1080.png",
+    "page": "https://www.oneplus.com/my/oneplus-nord-buds-4-pro",
+    "credit": "OnePlus",
+    "checked": "2026-09-25"
+  }
+}

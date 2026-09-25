@@ -1,0 +1,114 @@
+{
+  "id": "nothing-phone-3a",
+  "name": "Nothing Phone (3a)",
+  "brand": "nothing",
+  "category": "smartphone",
+  "series": "Nothing Phone",
+  "form": "bar",
+  "status": "released",
+  "announced": "2025-03-07",
+  "released": "2025-03-07",
+  "segment": "mid",
+  "aliases": [
+    "Phone (3a)",
+    "Nothing Phone 3a"
+  ],
+  "summary": "A 6.77-inch 120 Hz 5G mid-range phone with the Snapdragon 7s Gen 3, a 5,000 mAh battery, 50 W charging and a 50 MP main camera.",
+  "highlights": [
+    "Snapdragon 7s Gen 3",
+    "6.77-inch 120 Hz",
+    "5,000 mAh, 50 W"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1699,
+      "config": "Lowest configuration",
+      "date": "2025-03-07",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/03/07/nothing-phone-3a-3a-pro-malaysia-launch-price-specs/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "build": {
+      "dimensions": {
+        "height_mm": 163.5,
+        "width_mm": 77.5,
+        "depth_mm": 8.35
+      },
+      "weight_g": 208.0,
+      "ip": "IP64"
+    },
+    "camera": {
+      "front": "32 MP",
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "focal_mm": 24
+        },
+        {
+          "role": "telephoto",
+          "mp": 50,
+          "focal_mm": 50
+        },
+        {
+          "role": "ultrawide",
+          "mp": 8,
+          "focal_mm": 15
+        }
+      ]
+    },
+    "display": {
+      "size_in": 6.77,
+      "type": "AMOLED",
+      "resolution": "2392 × 1084",
+      "ppi": 387,
+      "peak_nits": 3000,
+      "refresh_hz": 120
+    },
+    "connectivity": {
+      "wifi": "Wi-Fi 6",
+      "bluetooth": "Bluetooth 5.4",
+      "cellular": "5G"
+    },
+    "software": {
+      "launch_os": "Android 15",
+      "os_updates_years": 3,
+      "security_updates_years": 6
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "charging": {
+      "wired_w": 50
+    },
+    "memory": {
+      "ram_gb": [
+        8,
+        12
+      ],
+      "storage_gb": [
+        128,
+        256
+      ]
+    },
+    "platform": {
+      "chipset": "snapdragon-7s-gen-3"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "nothing",
+      "url": "https://intl.nothing.tech/products/phone-3a?Colour=White&Capacity=8%2B128GB",
+      "checked": "2026-09-25",
+      "note": "Read from the specifications section of Nothing’s product page (international store)."
+    }
+  },
+  "dataStatus": "compiled"
+}

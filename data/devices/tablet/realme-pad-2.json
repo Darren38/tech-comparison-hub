@@ -1,0 +1,93 @@
+{
+  "id": "realme-pad-2",
+  "name": "realme Pad 2",
+  "brand": "realme",
+  "category": "tablet",
+  "series": "realme P",
+  "form": "tablet",
+  "status": "released",
+  "announced": "2023-08-30",
+  "released": "2023-08-30",
+  "segment": "entry",
+  "aliases": [
+    "Pad 2"
+  ],
+  "summary": "A 11.5-inch 4G budget tablet with the Helio G99, a 8,360 mAh battery, 33 W charging and a 8 MP main camera.",
+  "highlights": [
+    "Helio G99",
+    "11.5-inch",
+    "8,360 mAh, 33 W"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1299,
+      "config": "Lowest configuration",
+      "date": "2023-08-30",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2023/08/30/realme-pad-2-android-tablet-with-mediatek-processor-and-4g-support-priced-from-rm1299/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "platform": {
+      "chipset": "helio-g99"
+    },
+    "display": {
+      "size_in": 11.5,
+      "resolution": "2000 × 1200"
+    },
+    "charging": {
+      "wired_w": 33
+    },
+    "memory": {
+      "ram_gb": [
+        6,
+        8
+      ],
+      "storage_gb": [
+        128,
+        256
+      ]
+    },
+    "battery": {
+      "capacity_mah": 8360
+    },
+    "connectivity": {
+      "wifi": "Wi-Fi 5",
+      "cellular": "4G"
+    },
+    "build": {
+      "weight_g": 518.0,
+      "dimensions": {
+        "height_mm": 268.2,
+        "width_mm": 168.5,
+        "depth_mm": 7.2
+      }
+    },
+    "software": {
+      "launch_os": "Android 13"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 8
+        }
+      ]
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "realme",
+      "url": "https://www.realme.com/my/realme-pad-2/specs",
+      "checked": "2026-09-25",
+      "note": "Read automatically from the maker’s Malaysian specification page and reviewed; values not found on the page are left out."
+    }
+  },
+  "dataStatus": "compiled"
+}

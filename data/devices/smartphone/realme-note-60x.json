@@ -1,0 +1,89 @@
+{
+  "id": "realme-note-60x",
+  "name": "realme Note 60x",
+  "brand": "realme",
+  "category": "smartphone",
+  "series": "realme Note",
+  "form": "bar",
+  "status": "released",
+  "announced": "2025-01-13",
+  "released": "2025-01-13",
+  "segment": "entry",
+  "aliases": [
+    "Note 60x"
+  ],
+  "summary": "A 4G budget phone with the Unisoc T612, a 5,000 mAh battery, 10 W charging and a 8 MP main camera.",
+  "highlights": [
+    "Unisoc T612",
+    "5,000 mAh, 10 W"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 369,
+      "config": "Lowest listed configuration",
+      "date": "2026-09-25",
+      "type": "listed",
+      "source": "realme",
+      "url": "https://www.realme.com/my/",
+      "class": "official",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "platform": {
+      "chipset": "unisoc-t612"
+    },
+    "memory": {
+      "storage_gb": [
+        64
+      ]
+    },
+    "display": {
+      "resolution": "1600 × 720",
+      "refresh_hz": 90
+    },
+    "charging": {
+      "wired_w": 10
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "connectivity": {
+      "wifi": "Wi-Fi 5",
+      "bluetooth": "Bluetooth 5.0",
+      "cellular": "4G"
+    },
+    "build": {
+      "weight_g": 187.0,
+      "dimensions": {
+        "height_mm": 167.26,
+        "width_mm": 76.67,
+        "depth_mm": 7.84
+      }
+    },
+    "software": {
+      "launch_os": "Android 14"
+    },
+    "camera": {
+      "front": "5 MP",
+      "rear": [
+        {
+          "role": "main",
+          "mp": 8
+        }
+      ]
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "realme",
+      "url": "https://www.realme.com/my/realme-note-60x/specs",
+      "checked": "2026-09-25",
+      "note": "Read automatically from the maker’s Malaysian specification page and reviewed; values not found on the page are left out."
+    }
+  },
+  "dataStatus": "compiled"
+}

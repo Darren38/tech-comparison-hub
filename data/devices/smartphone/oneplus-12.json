@@ -1,0 +1,102 @@
+{
+  "id": "oneplus-12",
+  "name": "OnePlus 12",
+  "brand": "oneplus",
+  "category": "smartphone",
+  "series": "OnePlus",
+  "form": "bar",
+  "status": "released",
+  "announced": "2024-01-24",
+  "released": "2024-01-24",
+  "segment": "flagship",
+  "aliases": [
+    "OnePlus 12 5G"
+  ],
+  "summary": "A 6.82-inch 120 Hz 5G flagship phone with the Snapdragon 8 Gen 3, a 5,400 mAh battery, 100 W charging and a 50 MP main camera.",
+  "highlights": [
+    "Snapdragon 8 Gen 3",
+    "6.82-inch 120 Hz",
+    "5,400 mAh, 100 W"
+  ],
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-25",
+      "source": "oneplus",
+      "note": "Listed on the maker’s Malaysian website, but no Malaysian launch price was found in a launch report."
+    }
+  },
+  "specs": {
+    "build": {
+      "weight_g": 220.0,
+      "dimensions": {
+        "height_mm": 164.3,
+        "width_mm": 75.8,
+        "depth_mm": 9.15
+      }
+    },
+    "display": {
+      "size_in": 6.82,
+      "resolution": "3168 × 1440",
+      "peak_nits": 4500,
+      "refresh_hz": 120
+    },
+    "software": {
+      "launch_os": "Android 14"
+    },
+    "platform": {
+      "chipset": "snapdragon-8-gen-3"
+    },
+    "memory": {
+      "ram_gb": [
+        12,
+        16
+      ],
+      "storage_gb": [
+        256,
+        512
+      ]
+    },
+    "battery": {
+      "capacity_mah": 5400
+    },
+    "charging": {
+      "wired_w": 100,
+      "wireless_w": 50
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "wifi": "Wi-Fi 6E",
+      "nfc": true
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "focal_mm": 23
+        },
+        {
+          "role": "ultrawide",
+          "mp": 48,
+          "focal_mm": 14
+        },
+        {
+          "role": "periscope",
+          "mp": 64,
+          "focal_mm": 70
+        }
+      ]
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "oneplus",
+      "url": "https://www.oneplus.com/my/12/specs",
+      "checked": "2026-09-25",
+      "note": "Read automatically from the maker’s Malaysian specification page and reviewed; values not found on the page are left out."
+    }
+  },
+  "dataStatus": "compiled"
+}

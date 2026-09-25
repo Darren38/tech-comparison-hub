@@ -1,0 +1,99 @@
+{
+  "id": "apple-airpods-pro-3",
+  "name": "AirPods Pro 3",
+  "brand": "apple",
+  "category": "earbuds",
+  "series": "AirPods Pro",
+  "form": "buds",
+  "status": "released",
+  "announced": "2025-09-10",
+  "released": "2025-10",
+  "segment": "flagship",
+  "aliases": [
+    "AirPods Pro (3rd generation)"
+  ],
+  "summary": "Apple’s 2025 in-ear AirPods Pro: stronger noise cancelling, a heart-rate sensor for workouts, hearing-health features and IP57.",
+  "highlights": [
+    "Heart-rate sensing",
+    "Up to 8 h with noise cancelling",
+    "IP57"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 999,
+      "config": "MagSafe Charging Case (USB-C)",
+      "date": "2025-09-10",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/09/10/apple-airpods-pro-3-arrive-with-heart-rate-tracking-stronger-anc-longer-battery-rm999-in-malaysia/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "audio": {
+      "anc": "Yes (Active Noise Cancellation, Adaptive Audio, Transparency)",
+      "driver": "Custom high-excursion Apple driver",
+      "spatial": "Personalised Spatial Audio with dynamic head tracking",
+      "mics": "Dual beamforming microphones and an inward-facing microphone",
+      "features": "Hearing Test, Hearing Aid, Hearing Protection, Live Translation, Conversation Awareness"
+    },
+    "battery": {
+      "life_h": 8,
+      "life_anc_h": 8,
+      "total_h": 24,
+      "claim": "Up to 8 h per charge and 24 h with the case, noise cancelling on; 6.5 h with heart-rate sensing"
+    },
+    "charging": {
+      "wireless": "Yes (MagSafe, Qi, Apple Watch charger)",
+      "port": "USB-C"
+    },
+    "build": {
+      "style": "In-ear with silicone tips (five sizes)",
+      "weight_g": 5.55,
+      "dimensions": {
+        "height_mm": 30.9,
+        "width_mm": 19.2,
+        "depth_mm": 27.0
+      },
+      "case_weight_g": 43.99,
+      "case_dimensions": {
+        "height_mm": 47.2,
+        "width_mm": 62.2,
+        "depth_mm": 21.8
+      },
+      "ip": "IP57",
+      "case_ip": "IP57"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.3",
+      "compatibility": "Made for iPhone, iPad and Mac; with other devices they work as Bluetooth earbuds with fewer features"
+    },
+    "platform": {
+      "chip_name": "Apple H2 headphone chip"
+    },
+    "software": {
+      "app": "Built into iOS (Settings)",
+      "features": "Heart-rate sensor for workouts; Find My with speaker and Ultra Wideband in the case"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "apple",
+      "url": "https://support.apple.com/en-my/125135",
+      "checked": "2026-09-25",
+      "note": "Read from Apple Malaysia’s tech-specs page. Battery figures are Apple’s own claims."
+    }
+  },
+  "dataStatus": "checked",
+  "image": {
+    "kind": "official",
+    "src": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/airpods-pro-3-hero.png",
+    "page": "https://support.apple.com/en-my/125135",
+    "credit": "Apple",
+    "checked": "2026-09-25"
+  }
+}

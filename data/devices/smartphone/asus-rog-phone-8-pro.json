@@ -1,0 +1,142 @@
+{
+  "id": "asus-rog-phone-8-pro",
+  "name": "ASUS ROG Phone 8 Pro",
+  "brand": "asus",
+  "category": "smartphone",
+  "series": "ROG Phone",
+  "form": "bar",
+  "status": "released",
+  "announced": "2024-01-30",
+  "released": "2024-01-30",
+  "segment": "flagship",
+  "aliases": [
+    "ROG Phone 8 Pro",
+    "Asus ROG Phone 8 Pro"
+  ],
+  "summary": "The ROG Phone 8 with a 3x telephoto camera and up to 24 GB RAM and 1 TB storage.",
+  "highlights": [
+    "3x telephoto",
+    "Up to 24 GB RAM",
+    "IP68"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 4799,
+      "config": "16 GB / 512 GB",
+      "date": "2024-01-30",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2024/01/30/rog-phone-8-series-malaysia-everything-you-need-to-know/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 5999,
+      "config": "24 GB / 1 TB with AeroActive Cooler X (Pro Edition)",
+      "date": "2024-01-30",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2024/01/30/rog-phone-8-series-malaysia-everything-you-need-to-know/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 6.78,
+      "type": "LTPO AMOLED",
+      "resolution": "2400 × 1080",
+      "refresh_hz": 165,
+      "peak_nits": 2500
+    },
+    "platform": {
+      "chipset": "snapdragon-8-gen-3"
+    },
+    "battery": {
+      "capacity_mah": 5500
+    },
+    "charging": {
+      "wired_w": 65,
+      "wireless": true
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 163.8,
+        "width_mm": 76.8,
+        "depth_mm": 8.9
+      },
+      "weight_g": 225,
+      "ip": "IP68"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "wifi": "Wi-Fi 7",
+      "bluetooth": "Bluetooth 5.4"
+    },
+    "audio": {
+      "jack": true
+    },
+    "software": {
+      "launch_os": "Android 14"
+    },
+    "memory": {
+      "ram_gb": [
+        16,
+        24
+      ],
+      "storage_gb": [
+        512,
+        1024
+      ]
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50
+        },
+        {
+          "role": "ultrawide",
+          "mp": 13
+        },
+        {
+          "role": "telephoto",
+          "mp": 32,
+          "zoom_x": 3
+        }
+      ],
+      "front": "32 MP",
+      "zoom_optical_x": 3,
+      "video": "8K 24 fps"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "asus",
+      "url": "https://rog.asus.com/my/phones/rog-phone-8-pro/spec/",
+      "checked": "2026-09-25",
+      "note": "Read from the ROG spec page."
+    },
+    "fields": {
+      "specs.charging.wired_w": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2024/01/30/rog-phone-8-series-malaysia-everything-you-need-to-know/",
+        "checked": "2026-09-25"
+      }
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://dlcdnwebimgs.asus.com/gain/1F082CCC-7F01-4057-B250-4B81B1651877",
+    "page": "https://rog.asus.com/my/phones/rog-phone-8-pro/",
+    "credit": "ASUS ROG",
+    "checked": "2026-09-25"
+  }
+}

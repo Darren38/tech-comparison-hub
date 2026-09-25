@@ -1,0 +1,63 @@
+{
+  "id": "oneplus-pad-go-2",
+  "name": "OnePlus Pad Go 2",
+  "brand": "oneplus",
+  "category": "tablet",
+  "series": "OnePlus Pad",
+  "form": "tablet",
+  "status": "released",
+  "segment": "mid",
+  "aliases": [
+    "Pad Go 2"
+  ],
+  "summary": "A 4G mid-range tablet with the Dimensity 7300 and 33 W charging.",
+  "highlights": [
+    "Dimensity 7300"
+  ],
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-25",
+      "source": "oneplus",
+      "note": "Listed on the maker’s Malaysian website, but no Malaysian launch price was found in a launch report."
+    }
+  },
+  "specs": {
+    "build": {
+      "weight_g": 597.0,
+      "dimensions": {
+        "height_mm": 266.01,
+        "width_mm": 192.77,
+        "depth_mm": 6.83
+      }
+    },
+    "charging": {
+      "wired_w": 33
+    },
+    "display": {
+      "resolution": "2800 × 1980",
+      "refresh_hz": 120,
+      "peak_nits": 900
+    },
+    "software": {
+      "launch_os": "OxygenOS 16"
+    },
+    "platform": {
+      "chipset": "dimensity-7300"
+    },
+    "connectivity": {
+      "wifi": "Wi-Fi 6",
+      "cellular": "4G"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "oneplus",
+      "url": "https://www.oneplus.com/my/oneplus-pad-go-2/specs",
+      "checked": "2026-09-25",
+      "note": "Read automatically from the maker’s Malaysian specification page and reviewed; values not found on the page are left out."
+    }
+  },
+  "dataStatus": "compiled"
+}

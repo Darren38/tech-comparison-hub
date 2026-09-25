@@ -1,5 +1,63 @@
 # Changelog
 
+## 25 September 2026
+
+More devices of every kind from 2023 to today, earbuds as a new category, real outlines to scale, news and tests linked to the right place on every page, a search that finds everything, a Simple view for newcomers and pages Google can index.
+
+**Devices: 471 → 714** (phones 386 → 486, tablets 4 → 71, watches 64 → 72, bands 17, earbuds 0 → 68)
+- New category **Earbuds** (68 models: Apple, Samsung, Google, Huawei, HONOR, OPPO, OnePlus, Nothing/CMF, Xiaomi/REDMI), with the same depth as phones: noise cancelling, drivers, codecs, battery per charge and with the case, earbud and case sizes and weights, water rating. Scored on battery and build; filters for noise cancelling, wireless-charging case and battery.
+- Every Apple and Samsung tablet from 2023 to 2026, plus HONOR, Huawei, OPPO, Xiaomi/REDMI/POCO, realme, OnePlus and REDMAGIC tablets (71 tablets).
+- Phones added: realme (53), OnePlus, Nothing and CMF, Google Pixel 7a to 10a (Pixels have been sold in Malaysia since the Pixel 9), ASUS ROG Phone 7–9 and Zenfone 10–12 Ultra, REDMAGIC 8S Pro to 11S Pro, HONOR X9e Pro and 600S, Galaxy A07s and more. Watches: Huawei WATCH GT 7 / GT 7 Pro, Pixel Watch 2 and 3, OnePlus, CMF.
+- Every value was read from the maker's own specification page (or its Internet Archive copy where the maker blocks automated reading) and Malaysian prices from launch reports; the page each value came from is linked. Models whose makers publish specifications only as pictures (realme audio and watches, vivo earbuds) are not guessed and are listed as gaps.
+
+**Size, to scale**
+- The Compare page draws each device's real outline from the maker's published height, width and thickness, all at one scale, with its picture inside, dimension lines, weight, a side view for thickness and an optional bank card (the same size as a MyKad). Outlines can be overlaid from one corner, or shown at approximately real size on screen.
+- Every device page has a "Size in real life" section with the bank card. For earbuds the outline is the charging case.
+
+**News, tests, reviews and videos, linked where they belong**
+- Headlines are kept for about 400 days and matched again on every run against every device and chip, each with a topic: test or benchmark, review, video, software update, price, problem report, launch or news.
+- Device pages show them in the matching section (tests under Test results, reviews and videos under Reviews & YouTube, the rest under News); chipset pages show headlines about the chip and its phones; the Compare page has "Latest about these devices". All are labelled as matched automatically and not checked by hand.
+- The Coverage page lists new models several sources are writing about that the hub doesn't have yet.
+
+**Search everything**
+- The search box now also finds headlines, tests, reviews and videos (the whole archive), the site's own pages, and every word in the glossary ("what is LTPO"). A query that names a device and more ("iPhone 18 Pro bug") shows the device and the matching headlines.
+
+**Ask the hub**
+- Knows about tablets and earbuds ("which earbuds have the longest battery?", "does it have noise cancelling?").
+- Answers news questions from the year-long archive, and keeps to tests, reviews, problem reports or updates when those are what you ask for ("any problems with the iPhone 18 Pro?"). The optional AI answers see the same archive.
+
+**For newcomers, and for enthusiasts**
+- A **Simple / Detailed** switch at the top of every page. Detailed (the default) is unchanged. Simple hides source badges, benchmark tables and bibliographies and adds a one-line explanation in plain words under the specifications a newcomer is likely to trip over.
+- **Tech words explained**: a glossary on the Methodology page (linked from the footer and the search).
+- **Help me choose** on the home page: what you want, your budget and what matters most, then a ranked list from the evidence. Use-case rankings only offer use cases that make sense for that kind of device.
+
+**Charts**
+- A separate **Maker claims** tab for tablets, watches, bands and earbuds (which few labs test yet), labelled as claims and never mixed with measured results. Measured charts keep updating from the daily benchmark refresh.
+
+**Found on Google**
+- `tools/seo.py` writes a readable page for every device and chip (specifications, Malaysian price, sources, a link to the interactive page), a plain list of every device, `sitemap.xml` and `robots.txt`; the workflow publishes them with the site. The home page has a proper description and sharing tags. The sitemap is registered with Google Search Console.
+
+**More automatic, same checks**
+- `tools/seed_live.py` carries the headline archive and view counts over from the live site on every scheduled build, so they grow instead of starting again from the repository copy.
+- `tools/find_images.py` (about once a week) finds an official picture for devices that have none, only from the maker's own page and image server and only where robots.txt allows; it must load as an image and pass the same picture rules as hand-picked ones, and is labelled "found automatically".
+
+**Bigger device pictures**
+- Makers' pictures often put a small device in the middle of a large white canvas. `tools/image_boxes.py` reads each picture once and records the rectangle the product fills; every page now shows the picture cropped to that rectangle (the file still loads from the maker's server, unchanged). On light pages the white canvas blends into the page; on dark pages it becomes a thin white plate. Device pages give the picture more room, and list cards a larger slot.
+- In the size view a phone picture is scaled to the outline's height, so the phone in the picture matches the drawn outline; when the picture shows several phones side by side, the front one (at the right end) is shown. Tablets whose picture is landscape are drawn on their side. New pictures are measured once a week by the scheduled build.
+- Checking every cropped picture by eye showed that 48 realme records used a shop or partner logo (Shopee, Lazada, TikTok Shop, unifi, U Mobile), a certificate or a decorative ring instead of the phone. Those pictures were removed (the outline drawing shows) and listed in data/image_rejects.json so they are never used again.
+
+**News sources**
+- Android Police's feed was removed: its owner's terms forbid any automated collection without written permission. Added 9to5Google and the official Samsung, Apple and Google newsrooms.
+- GSMArena and Sammy Fans stay: their robots.txt allows the site's own feed reader (the rule that blocks AI crawlers is for Anthropic's and others' crawlers, not this site's reader). Only titles and links are kept.
+
+**Citations**
+- Values in 11 phone records and 3 chipsets that cited GSMArena were checked against other sources and re-cited: RAM from MacRumors (Apple's Xcode), battery sizes from Anatel filings, update policies from Samsung's newsroom, 9to5Google and Tech Advisor, camera and display details from Notebookcheck, clocks from Notebookcheck and Gizmochina, vivo memory and prices from vivo's China pages. Two values no other source confirmed (main-camera sensor sizes of the iPhone 17 Pro Max and Galaxy S26 Ultra) were removed. REDMAGIC 11 Pro global prices were early-bird prices and now show the regular ones ($749 / €699). GSMArena's own lab test results stay, credited to GSMArena.
+
+**Fixes**
+- Yes/no specifications showed "true"; picture credits for maker images said Wikimedia Commons; earbuds without a picture were drawn as a phone.
+- 36 older watch and band records had the next labels' text spilled into their values; cleaned.
+- The first automatic picture search found 32 official pictures; 30 passed a check by eye and are shown, 2 were rejected.
+
 ## 24 September 2026 (third update)
 
 A bug sweep of every page at phone and desktop widths, YouTube view counts with a "Most viewed" sort, and a daily automatic refresh of the benchmark databases and device pictures.

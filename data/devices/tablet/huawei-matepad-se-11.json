@@ -1,0 +1,96 @@
+{
+  "id": "huawei-matepad-se-11",
+  "name": "HUAWEI MatePad SE 11",
+  "brand": "huawei",
+  "category": "tablet",
+  "series": "MatePad SE",
+  "form": "tablet",
+  "status": "released",
+  "announced": "2024-06-19",
+  "released": "2024-06-22",
+  "segment": "entry",
+  "aliases": [
+    "MatePad SE 11",
+    "Huawei MatePad SE 11\""
+  ],
+  "summary": "A budget 11-inch Huawei tablet with four speakers and a 7,700 mAh battery; Huawei does not name the processor.",
+  "highlights": [
+    "11-inch LCD",
+    "Four speakers",
+    "7,700 mAh"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 999,
+      "config": "6 GB / 128 GB",
+      "date": "2024-06-19",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2024/06/19/huawei-matepad-se-11-malaysia-price-specs-launch-official/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 11,
+      "type": "LCD",
+      "resolution": "1920 × 1200",
+      "ppi": 207
+    },
+    "platform": {
+      "chipset_note": "Octa-core processor (Huawei does not name it)"
+    },
+    "memory": {
+      "ram_gb": [
+        4,
+        6,
+        8
+      ],
+      "storage_gb": [
+        64,
+        128
+      ]
+    },
+    "battery": {
+      "capacity_mah": 7700
+    },
+    "charging": {
+      "wired_w": 22.5
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 252.3,
+        "width_mm": 163.8,
+        "depth_mm": 6.9
+      },
+      "weight_g": 475
+    },
+    "connectivity": {
+      "wifi": "Wi-Fi 5",
+      "bluetooth": "Bluetooth 5.1"
+    },
+    "software": {
+      "launch_os": "HarmonyOS 2.0"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "huawei",
+      "url": "https://consumer.huawei.com/my/tablets/matepad-se-11/specs/",
+      "checked": "2026-09-25",
+      "note": "Read from Huawei Malaysia’s specification page (charging 10 V / 2.25 A = 22.5 W); price and date from SoyaCincau’s launch report. Memory options are all those Huawei lists; Malaysia got 6 GB / 128 GB."
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/admin-image/tablets/matepad-se-11/specs/nebula-gray.png",
+    "page": "https://consumer.huawei.com/my/tablets/matepad-se-11/specs/",
+    "credit": "Huawei",
+    "checked": "2026-09-25"
+  }
+}

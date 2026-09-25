@@ -1,0 +1,64 @@
+{
+  "id": "asus-rog-phone-9-fe",
+  "name": "ASUS ROG Phone 9 FE",
+  "brand": "asus",
+  "category": "smartphone",
+  "series": "ROG Phone",
+  "form": "bar",
+  "status": "released",
+  "announced": "2025",
+  "released": "2025",
+  "segment": "flagship",
+  "aliases": [
+    "ROG Phone 9 FE",
+    "Asus ROG Phone 9 FE"
+  ],
+  "summary": "A cheaper ROG Phone 9 with the older Snapdragon 8 Gen 3, a 5,500 mAh battery and IP68.",
+  "highlights": [
+    "Snapdragon 8 Gen 3",
+    "Up to 185 Hz",
+    "IP68"
+  ],
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-25",
+      "source": "soyacincau",
+      "note": "Reported as coming to Malaysia (March 2025); no confirmed Malaysian price was found."
+    }
+  },
+  "specs": {
+    "display": {
+      "refresh_hz": 185
+    },
+    "platform": {
+      "chipset": "snapdragon-8-gen-3"
+    },
+    "battery": {
+      "capacity_mah": 5500
+    },
+    "charging": {
+      "wired_w": 65,
+      "wireless_w": 15
+    },
+    "build": {
+      "ip": "IP68"
+    },
+    "connectivity": {
+      "cellular": "5G"
+    },
+    "software": {
+      "launch_os": "Android 15"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "news",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/03/10/asus-rog-phone-9-fe-launch-date-specs-malaysia/",
+      "checked": "2026-09-25",
+      "note": "ROG’s spec page for the 9 FE did not render its specifications; values are from SoyaCincau’s report and should be re-read from ASUS."
+    }
+  },
+  "dataStatus": "compiled"
+}

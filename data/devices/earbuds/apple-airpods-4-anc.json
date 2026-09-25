@@ -1,0 +1,99 @@
+{
+  "id": "apple-airpods-4-anc",
+  "name": "AirPods 4 with Active Noise Cancellation",
+  "brand": "apple",
+  "category": "earbuds",
+  "series": "AirPods",
+  "form": "buds",
+  "status": "released",
+  "announced": "2024-09-10",
+  "released": "2024-10",
+  "segment": "upper-mid",
+  "aliases": [
+    "AirPods 4 ANC"
+  ],
+  "summary": "The 2024 open-fit AirPods with noise cancelling, a wireless case with a Find My speaker, and IP54.",
+  "highlights": [
+    "Noise cancelling",
+    "Open fit (no ear tips)",
+    "Wireless case"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 829,
+      "config": "Charging Case (USB-C) with speaker",
+      "date": "2024-09-10",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2024/09/10/airpods-4-airpods-max-pricing-malaysia/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "audio": {
+      "anc": "Yes (Active Noise Cancellation, Adaptive Audio, Transparency)",
+      "driver": "Custom high-excursion Apple driver",
+      "spatial": "Personalised Spatial Audio with dynamic head tracking",
+      "mics": "Dual beamforming microphones and an inward-facing microphone",
+      "features": "Adaptive EQ, Conversation Awareness, Voice Isolation"
+    },
+    "battery": {
+      "life_h": 5,
+      "life_anc_h": 4,
+      "total_h": 30,
+      "claim": "Up to 5 h per charge (4 h with noise cancelling) and 30 h with the case (20 h with noise cancelling)"
+    },
+    "charging": {
+      "wireless": "Yes (Qi, Apple Watch charger)",
+      "port": "USB-C"
+    },
+    "build": {
+      "style": "Open fit (no ear tips)",
+      "weight_g": 4.3,
+      "dimensions": {
+        "height_mm": 30.2,
+        "width_mm": 18.3,
+        "depth_mm": 18.1
+      },
+      "case_weight_g": 34.7,
+      "case_dimensions": {
+        "height_mm": 46.2,
+        "width_mm": 50.1,
+        "depth_mm": 21.2
+      },
+      "ip": "IP54",
+      "case_ip": "IP54"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.3",
+      "compatibility": "Made for iPhone, iPad and Mac; with other devices they work as Bluetooth earbuds with fewer features"
+    },
+    "platform": {
+      "chip_name": "Apple H2 headphone chip"
+    },
+    "software": {
+      "app": "Built into iOS (Settings)",
+      "features": "Find My with speaker in the case"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "apple",
+      "url": "https://support.apple.com/en-my/121204",
+      "checked": "2026-09-25",
+      "note": "Read from Apple Malaysia’s tech-specs page. Battery figures are Apple’s own claims."
+    }
+  },
+  "dataStatus": "checked",
+  "image": {
+    "kind": "official",
+    "src": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/121204-airpods-4-anc.png",
+    "page": "https://support.apple.com/en-my/121204",
+    "credit": "Apple",
+    "checked": "2026-09-25"
+  }
+}

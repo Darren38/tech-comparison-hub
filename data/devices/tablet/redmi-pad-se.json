@@ -1,0 +1,89 @@
+{
+  "id": "redmi-pad-se",
+  "name": "REDMI Pad SE",
+  "brand": "redmi",
+  "category": "tablet",
+  "series": "REDMI Pad",
+  "form": "tablet",
+  "status": "released",
+  "announced": "2023-09",
+  "released": "2023-09",
+  "segment": "entry",
+  "aliases": [
+    "Redmi Pad SE"
+  ],
+  "summary": "An 11-inch 90 Hz budget tablet with the Snapdragon 680, quad speakers and a headphone jack.",
+  "highlights": [
+    "11-inch 90 Hz",
+    "Quad speakers",
+    "3.5 mm jack"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 799,
+      "config": "Malaysian launch configuration",
+      "date": "2023-09-27",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2023/09/27/redmi-pad-se-malaysia-11-inch-90hz-display-and-snapdragon-processor-priced-at-rm799/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 11,
+      "type": "LCD",
+      "resolution": "1920 × 1200",
+      "ppi": 207,
+      "refresh_hz": 90,
+      "peak_nits": 400
+    },
+    "platform": {
+      "chipset": "snapdragon-680"
+    },
+    "memory": {
+      "ram_gb": [
+        4,
+        6,
+        8
+      ],
+      "storage_gb": [
+        128
+      ],
+      "expandable": true
+    },
+    "battery": {
+      "capacity_mah": 8000
+    },
+    "charging": {
+      "wired_w": 10
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 255.53,
+        "width_mm": 167.08,
+        "depth_mm": 7.36
+      }
+    },
+    "connectivity": {
+      "wifi": "Wi-Fi 5",
+      "bluetooth": "Bluetooth 5.0"
+    },
+    "software": {
+      "launch_os": "MIUI Pad 14 (Android 13)"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "redmi",
+      "url": "https://web.archive.org/web/20260608150735/https://www.mi.com/my/product/redmi-pad-se/specs/",
+      "checked": "2026-09-25",
+      "note": "Read from Xiaomi Malaysia’s specification page (Internet Archive copy, because mi.com refuses automated reading)."
+    }
+  },
+  "dataStatus": "checked"
+}

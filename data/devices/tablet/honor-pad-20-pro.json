@@ -1,0 +1,92 @@
+{
+  "id": "honor-pad-20-pro",
+  "name": "HONOR Pad 20 Pro",
+  "brand": "honor",
+  "category": "tablet",
+  "series": "HONOR Pad",
+  "form": "tablet",
+  "status": "released",
+  "announced": "2026-08-24",
+  "released": "2026-08-24",
+  "segment": "upper-mid",
+  "aliases": [
+    "Pad 20 Pro",
+    "Pad 20 Pro Paperlike Edition"
+  ],
+  "summary": "A 12.1-inch 165 Hz tablet with an anti-glare “Paperlike” screen, the Snapdragon 8s Gen 4 and a 10,100 mAh battery.",
+  "highlights": [
+    "Snapdragon 8s Gen 4",
+    "12.1-inch 165 Hz anti-glare",
+    "Wi-Fi 7"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 2499,
+      "config": "Wi-Fi, 8 GB / 256 GB",
+      "date": "2026-08-24",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2026/08/24/honor-pad-20-series-malaysia-local-launch-price-specs/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 12.1,
+      "type": "LCD",
+      "resolution": "3000 × 1872",
+      "ppi": 292,
+      "refresh_hz": 165,
+      "peak_nits": 700
+    },
+    "platform": {
+      "chipset": "snapdragon-8s-gen-4"
+    },
+    "memory": {
+      "ram_gb": [
+        8
+      ],
+      "storage_gb": [
+        256
+      ]
+    },
+    "battery": {
+      "capacity_mah": 10100
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 277.07,
+        "width_mm": 179.28,
+        "depth_mm": 6.29
+      },
+      "weight_g": 537
+    },
+    "connectivity": {
+      "wifi": "Wi-Fi 7",
+      "bluetooth": "Bluetooth 6.0"
+    },
+    "software": {
+      "launch_os": "MagicOS 10 (Android 16)"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "honor",
+      "url": "https://www.honor.com/my/tablets/honor-pad-20-pro-paperlike-edition/spec/",
+      "checked": "2026-09-25",
+      "note": "Read from HONOR Malaysia’s specification page; launch date and price from a Malaysian launch report."
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://www.honor.com/content/dam/honor/common/product-list/tablets/product-series/honor-pad-20-pro-paperlike-edition/honor-pad-20-pro-paperlike-edition-list.png",
+    "page": "https://www.honor.com/my/tablets/honor-pad-20-pro-paperlike-edition/",
+    "credit": "HONOR Malaysia",
+    "checked": "2026-09-25"
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "id": "honor-x9e-pro",
+  "name": "HONOR X9e Pro",
+  "brand": "honor",
+  "category": "smartphone",
+  "series": "X",
+  "form": "bar",
+  "status": "released",
+  "announced": "2026-09-24",
+  "released": "2026-09-24",
+  "segment": "mid",
+  "aliases": [
+    "X9e Pro",
+    "HONOR X9e Pro 5G"
+  ],
+  "summary": "A tough mid-range phone with a huge 11,000 mAh battery, 80 W charging, IP69K and a 6.8-inch AMOLED screen.",
+  "highlights": [
+    "11,000 mAh battery",
+    "80 W charging",
+    "IP68 / IP69K"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1899,
+      "config": "8 GB / 256 GB",
+      "date": "2026-09-24",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2026/09/24/honor-x9e-pro-5g-malaysia-launch-price-specs/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 2399,
+      "config": "8 GB / 512 GB",
+      "date": "2026-09-24",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2026/09/24/honor-x9e-pro-5g-malaysia-launch-price-specs/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 6.8,
+      "type": "AMOLED",
+      "resolution": "2788 × 1280",
+      "peak_nits": 10000,
+      "glass": "Corning Gorilla Glass Victus 2"
+    },
+    "platform": {
+      "chipset": "snapdragon-6-gen-5"
+    },
+    "memory": {
+      "ram_gb": [
+        8
+      ],
+      "storage_gb": [
+        256,
+        512
+      ]
+    },
+    "battery": {
+      "capacity_mah": 11000
+    },
+    "charging": {
+      "wired_w": 80,
+      "reverse_w": 27
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 108
+        },
+        {
+          "role": "ultrawide",
+          "mp": 5
+        }
+      ],
+      "front": "16 MP",
+      "video": "4K",
+      "rear_detail": [
+        "108MP Main Camera (F1.75)",
+        "5MP Wide (F2.2)"
+      ]
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 162.2,
+        "width_mm": 77,
+        "depth_mm": 8.08
+      },
+      "weight_g": 203,
+      "ip": "IP66 / IP68 / IP69 / IP69K"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "wifi": "Wi-Fi 6E",
+      "bluetooth": "Bluetooth 6.0"
+    },
+    "software": {
+      "launch_os": "MagicOS 10 (Android 16)"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "honor",
+      "url": "https://www.honor.com/my/phones/honor-x9e-pro/spec/",
+      "checked": "2026-09-25",
+      "note": "Read from HONOR Malaysia’s specification page (HONOR lists the 5 MP rear camera as “Wide”, i.e. ultra-wide); prices from SoyaCincau’s launch report."
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://www.honor.com/content/dam/honor/common/product-list/product-series/honor-x9e-pro/honor-x9e-pro-purple-list.png",
+    "page": "https://www.honor.com/my/phones/honor-x9e-pro/",
+    "credit": "HONOR Malaysia",
+    "checked": "2026-09-25"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "id": "honor-magicpad-3",
+  "name": "HONOR MagicPad 3",
+  "brand": "honor",
+  "category": "tablet",
+  "series": "HONOR MagicPad",
+  "form": "tablet",
+  "status": "released",
+  "announced": "2025-08",
+  "released": "2025-08",
+  "segment": "upper-mid",
+  "aliases": [
+    "MagicPad 3"
+  ],
+  "summary": "A 13.3-inch 165 Hz tablet with the Snapdragon 8 Gen 3 and a 12,450 mAh battery.",
+  "highlights": [
+    "13.3-inch 165 Hz",
+    "Snapdragon 8 Gen 3",
+    "12,450 mAh"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 2999,
+      "config": "16 GB / 512 GB",
+      "date": "2025-08-21",
+      "type": "launch",
+      "source": "technave",
+      "url": "https://technave.com/gadget/HONOR-MagicPad-3-Malaysia-release-12450mAh-battery-and-up-to-32GB-512GB-priced-at-RM2999-43842.html",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 13.3,
+      "resolution": "3200 × 2136",
+      "ppi": 291,
+      "refresh_hz": 165,
+      "peak_nits": 1000
+    },
+    "platform": {
+      "chipset": "snapdragon-8-gen-3"
+    },
+    "memory": {
+      "ram_gb": [
+        16
+      ],
+      "storage_gb": [
+        512
+      ]
+    },
+    "battery": {
+      "capacity_mah": 12450
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 293.88,
+        "width_mm": 201.38,
+        "depth_mm": 5.79
+      },
+      "weight_g": 595
+    },
+    "connectivity": {
+      "wifi": "Wi-Fi 7",
+      "bluetooth": "Bluetooth 5.4"
+    },
+    "software": {
+      "launch_os": "MagicOS 9.0.1 (Android 15)"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "honor",
+      "url": "https://www.honor.com/my/tablets/honor-magicpad-3/spec/",
+      "checked": "2026-09-25",
+      "note": "Read from HONOR Malaysia’s specification page; launch month from Malaysian launch reports."
+    }
+  },
+  "dataStatus": "checked"
+}

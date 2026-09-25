@@ -1,0 +1,114 @@
+{
+  "id": "google-pixel-10a",
+  "name": "Pixel 10a",
+  "brand": "google",
+  "category": "smartphone",
+  "series": "Pixel a-series",
+  "form": "bar",
+  "status": "released",
+  "announced": "2026-03-05",
+  "released": "2026-03-05",
+  "segment": "mid",
+  "aliases": [
+    "Google Pixel 10a"
+  ],
+  "summary": "The 2026 mid-range Pixel with a 3,000-nit screen, IP68, a 5,100 mAh battery and seven years of updates.",
+  "highlights": [
+    "3,000-nit screen",
+    "5,100 mAh",
+    "Seven years of updates"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 2299,
+      "config": "8 GB / 128 GB",
+      "date": "2026-02-19",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2026/02/19/google-pixel-10a-malaysia-price-launch-date/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 2799,
+      "config": "8 GB / 256 GB",
+      "date": "2026-02-19",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2026/02/19/google-pixel-10a-malaysia-price-launch-date/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 6.3,
+      "type": "Actua pOLED",
+      "resolution": "2424 × 1080",
+      "ppi": 422,
+      "refresh_hz": 120,
+      "peak_nits": 3000
+    },
+    "platform": {
+      "chipset_note": "Google Tensor G4 (not yet in the chipset database)"
+    },
+    "memory": {
+      "ram_gb": [
+        8
+      ],
+      "storage_gb": [
+        128,
+        256
+      ]
+    },
+    "battery": {
+      "capacity_mah": 5100
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 48
+        },
+        {
+          "role": "ultrawide",
+          "mp": 13
+        }
+      ],
+      "front": "13 MP"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 153.9,
+        "width_mm": 73.0,
+        "depth_mm": 9.0
+      },
+      "weight_g": 183,
+      "ip": "IP68"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "wifi": "Wi-Fi 6E",
+      "bluetooth": "Bluetooth 6.0"
+    },
+    "software": {
+      "launch_os": "Android 16",
+      "os_updates_years": 7,
+      "security_updates_years": 7
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "google",
+      "url": "https://support.google.com/pixelphone/answer/7158570?hl=en-GB",
+      "checked": "2026-09-25",
+      "note": "Read from Google’s Pixel phone hardware tech specs page (international figures)."
+    }
+  },
+  "dataStatus": "compiled"
+}

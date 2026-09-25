@@ -1,0 +1,73 @@
+{
+  "id": "realme-note-70",
+  "name": "realme Note 70",
+  "brand": "realme",
+  "category": "smartphone",
+  "series": "realme Note",
+  "form": "bar",
+  "status": "released",
+  "segment": "entry",
+  "aliases": [
+    "Note 70"
+  ],
+  "summary": "A 6.74-inch 90 Hz 4G budget phone with the Unisoc T7250 and a 6,300 mAh battery.",
+  "highlights": [
+    "Unisoc T7250",
+    "6.74-inch 90 Hz",
+    "6,300 mAh"
+  ],
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-25",
+      "source": "realme",
+      "note": "Listed on the maker’s Malaysian website, but no Malaysian launch price was found in a launch report."
+    }
+  },
+  "specs": {
+    "platform": {
+      "chipset": "unisoc-t7250"
+    },
+    "memory": {
+      "ram_gb": [
+        6
+      ],
+      "storage_gb": [
+        128
+      ]
+    },
+    "display": {
+      "size_in": 6.74,
+      "resolution": "1600 × 720",
+      "refresh_hz": 90
+    },
+    "battery": {
+      "capacity_mah": 6300
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.2",
+      "cellular": "4G"
+    },
+    "build": {
+      "weight_g": 201.0,
+      "dimensions": {
+        "height_mm": 167.2,
+        "width_mm": 76.6,
+        "depth_mm": 7.94
+      }
+    },
+    "software": {
+      "launch_os": "Android 15"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "realme",
+      "url": "https://www.realme.com/my/realme-note-70/specs",
+      "checked": "2026-09-25",
+      "note": "Read automatically from the maker’s Malaysian specification page and reviewed; values not found on the page are left out."
+    }
+  },
+  "dataStatus": "compiled"
+}

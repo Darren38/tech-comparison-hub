@@ -1,0 +1,91 @@
+{
+  "id": "realme-c55",
+  "name": "realme C55",
+  "brand": "realme",
+  "category": "smartphone",
+  "series": "realme C",
+  "form": "bar",
+  "status": "released",
+  "announced": "2023-03-28",
+  "released": "2023-03-28",
+  "segment": "entry",
+  "aliases": [
+    "C55"
+  ],
+  "summary": "A 4G budget phone with the Helio G88, a 5,000 mAh battery, 33 W charging and a 64 MP main camera.",
+  "highlights": [
+    "Helio G88",
+    "5,000 mAh, 33 W"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 699,
+      "config": "Launch price",
+      "date": "2023-03-28",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2023/03/28/realme-c55-malaysia-you-can-now-experience-dynamic-island-on-android-for-just-rm699/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "charging": {
+      "wired_w": 33
+    },
+    "platform": {
+      "chipset": "helio-g88"
+    },
+    "memory": {
+      "ram_gb": [
+        6,
+        8
+      ],
+      "storage_gb": [
+        128,
+        256
+      ]
+    },
+    "display": {
+      "peak_nits": 680
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.2",
+      "cellular": "4G"
+    },
+    "build": {
+      "weight_g": 189.5,
+      "dimensions": {
+        "height_mm": 165.6,
+        "width_mm": 75.9,
+        "depth_mm": 7.89
+      }
+    },
+    "software": {
+      "launch_os": "Android 13"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 64
+        }
+      ]
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "realme",
+      "url": "https://www.realme.com/my/realme-c55/specs",
+      "checked": "2026-09-25",
+      "note": "Read automatically from the maker’s Malaysian specification page and reviewed; values not found on the page are left out."
+    }
+  },
+  "dataStatus": "compiled"
+}

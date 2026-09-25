@@ -1,0 +1,89 @@
+{
+  "id": "realme-c100",
+  "name": "realme C100 5G",
+  "brand": "realme",
+  "category": "smartphone",
+  "series": "realme C",
+  "form": "bar",
+  "status": "released",
+  "segment": "entry",
+  "aliases": [
+    "realme C100"
+  ],
+  "summary": "A 6.8-inch 144 Hz 5G budget phone with the Dimensity 6300, a 7,000 mAh battery, 45 W charging and a 50 MP main camera.",
+  "highlights": [
+    "Dimensity 6300",
+    "6.8-inch 144 Hz",
+    "7,000 mAh, 45 W"
+  ],
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-25",
+      "source": "realme",
+      "note": "Listed on the maker’s Malaysian website, but no Malaysian launch price was found in a launch report."
+    }
+  },
+  "specs": {
+    "build": {
+      "weight_g": 224.0,
+      "dimensions": {
+        "height_mm": 166.47,
+        "width_mm": 78.23,
+        "depth_mm": 8.88
+      }
+    },
+    "memory": {
+      "ram_gb": [
+        4
+      ],
+      "storage_gb": [
+        256
+      ]
+    },
+    "display": {
+      "size_in": 6.8,
+      "resolution": "1570 × 720",
+      "refresh_hz": 144,
+      "ppi": 256,
+      "peak_nits": 900,
+      "type": "LCD"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50
+        }
+      ],
+      "front": "5 MP"
+    },
+    "platform": {
+      "chipset": "dimensity-6300"
+    },
+    "battery": {
+      "capacity_mah": 7000
+    },
+    "charging": {
+      "wired_w": 45
+    },
+    "software": {
+      "launch_os": "realme UI 7.0"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "wifi": "Wi-Fi 5",
+      "nfc": true
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "realme",
+      "url": "https://www.realme.com/my/realme-c100-5g/specs",
+      "checked": "2026-09-25",
+      "note": "Read automatically from the maker’s Malaysian specification page and reviewed; values not found on the page are left out."
+    }
+  },
+  "dataStatus": "compiled"
+}

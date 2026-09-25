@@ -144,7 +144,7 @@
       "source": "xiaomi",
       "url": "https://www.mi.com/global/product/xiaomi-17-ultra/",
       "checked": "2026-09-15",
-      "note": "Key specifications cross-checked against GSMArena and Engadget launch coverage; Xiaomi's own page blocks automated access."
+      "note": "Key specifications cross-checked against Engadget launch coverage; Xiaomi's own page blocks automated access."
     },
     "fields": {
       "specs.camera.zoom_optical_x": {
@@ -160,19 +160,24 @@
         "note": "Calculated from resolution and screen size."
       },
       "specs.software.os_updates_years": {
-        "class": "database",
-        "source": "gsmarena",
-        "url": "https://www.gsmarena.com/xiaomi_17_ultra_global-review-2933p4.php"
+        "class": "reviewer",
+        "source": "techadvisor",
+        "url": "https://www.techadvisor.com/article/3114073/xiaomi-17-ultra-review.html",
+        "checked": "2026-09-25",
+        "note": "Five years of OS support and six years of security updates, as stated in the review."
       },
       "specs.software.security_updates_years": {
-        "class": "database",
-        "source": "gsmarena",
-        "url": "https://www.gsmarena.com/xiaomi_17_ultra_global-review-2933p4.php"
+        "class": "reviewer",
+        "source": "techadvisor",
+        "url": "https://www.techadvisor.com/article/3114073/xiaomi-17-ultra-review.html",
+        "checked": "2026-09-25",
+        "note": "Five years of OS support and six years of security updates, as stated in the review."
       },
       "specs.battery.chemistry": {
-        "class": "database",
-        "source": "gsmarena",
-        "note": "Reported in launch coverage."
+        "class": "news",
+        "source": "engadget",
+        "url": "https://www.engadget.com/mobile/smartphones/xiaomi-17-ultra-global-launch-hands-on-leica-camera-143006810.html",
+        "checked": "2026-09-25"
       },
       "specs.display.protection": {
         "class": "official",

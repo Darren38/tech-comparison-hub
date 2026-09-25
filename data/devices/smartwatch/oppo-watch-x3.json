@@ -57,7 +57,7 @@
       "nfc": true,
       "cellular": "LTE option",
       "wifi": "WLAN 2.4G/5G",
-      "bluetooth": "Bluetooth 5.2; Call Performance; Bluetooth answering; Bluetooth dialing; Bluetooth calling; Device Requirements",
+      "bluetooth": "Bluetooth 5.2",
       "positioning": "Dual band L1+L5: Beidou, GPS, Galileo, GLONASS, QZSS; Durability; MIL-STD-810H, 5ATM, IP69, IP68; Support operating system; ColorOS Watch 8.0, WearOS 6.0",
       "usb": "USB-C"
     },

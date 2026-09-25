@@ -1,0 +1,105 @@
+{
+  "id": "asus-zenfone-12-ultra",
+  "name": "ASUS Zenfone 12 Ultra",
+  "brand": "asus",
+  "category": "smartphone",
+  "series": "Zenfone",
+  "form": "bar",
+  "status": "released",
+  "segment": "flagship",
+  "aliases": [
+    "Zenfone 12 Ultra",
+    "Asus Zenfone 12 Ultra"
+  ],
+  "summary": "ASUS’s 2025 big-screen flagship with the Snapdragon 8 Elite, a gimbal-stabilised main camera, a 3x telephoto and a headphone jack.",
+  "highlights": [
+    "Snapdragon 8 Elite",
+    "3x telephoto",
+    "Headphone jack"
+  ],
+  "availability": {
+    "MY": {
+      "status": "not-launched",
+      "checked": "2026-09-25",
+      "source": "asus",
+      "note": "Not listed on ASUS Malaysia’s website."
+    }
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.78,
+      "type": "LTPO AMOLED",
+      "resolution": "2400 × 1080",
+      "refresh_hz": 144,
+      "peak_nits": 2500
+    },
+    "platform": {
+      "chipset": "snapdragon-8-elite"
+    },
+    "memory": {
+      "ram_gb": [
+        12,
+        16
+      ],
+      "storage_gb": [
+        256,
+        512
+      ]
+    },
+    "battery": {
+      "capacity_mah": 5500
+    },
+    "charging": {
+      "wired_w": 65,
+      "wireless_w": 15
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50
+        },
+        {
+          "role": "ultrawide",
+          "mp": 13
+        },
+        {
+          "role": "telephoto",
+          "mp": 32,
+          "zoom_x": 3
+        }
+      ],
+      "zoom_optical_x": 3,
+      "video": "8K 30 fps"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 163.8,
+        "width_mm": 77.0,
+        "depth_mm": 8.9
+      },
+      "ip": "IP68"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "wifi": "Wi-Fi 7",
+      "bluetooth": "Bluetooth 5.4"
+    },
+    "audio": {
+      "jack": true
+    },
+    "software": {
+      "launch_os": "Android 15"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "asus",
+      "url": "https://www.asus.com/mobile-handhelds/phones/zenfone/zenfone-12-ultra/techspec/",
+      "checked": "2026-09-25",
+      "note": "Read from ASUS’s global tech-spec page. 144 Hz is for games only."
+    }
+  },
+  "dataStatus": "compiled"
+}

@@ -1,0 +1,101 @@
+{
+  "id": "oppo-a7-pro",
+  "name": "OPPO A7 Pro 5G",
+  "brand": "oppo",
+  "category": "smartphone",
+  "series": "OPPO A",
+  "form": "bar",
+  "status": "released",
+  "segment": "mid",
+  "aliases": [
+    "A7 Pro",
+    "OPPO A7 Pro"
+  ],
+  "summary": "A 6.57-inch 120 Hz 5G mid-range phone with the Dimensity 6360 MAX, a 8,000 mAh battery, 45 W charging and a 50 MP main camera.",
+  "highlights": [
+    "Dimensity 6360 MAX",
+    "6.57-inch 120 Hz",
+    "8,000 mAh, 45 W"
+  ],
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-25",
+      "source": "oppo",
+      "note": "Listed on the maker’s Malaysian website, but no Malaysian launch price was found in a launch report."
+    }
+  },
+  "specs": {
+    "build": {
+      "weight_g": 205.0,
+      "dimensions": {
+        "height_mm": 159.08,
+        "width_mm": 75.81,
+        "depth_mm": 8.8
+      }
+    },
+    "memory": {
+      "ram_gb": [
+        6
+      ],
+      "storage_gb": [
+        256
+      ]
+    },
+    "display": {
+      "size_in": 6.57,
+      "resolution": "2372 × 1080",
+      "refresh_hz": 120,
+      "ppi": 397,
+      "peak_nits": 1400,
+      "type": "AMOLED"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50
+        },
+        {
+          "role": "main",
+          "mp": 2
+        }
+      ],
+      "front": "50 MP"
+    },
+    "platform": {
+      "chipset_note": "Dimensity 6360 MAX"
+    },
+    "battery": {
+      "capacity_mah": 8000
+    },
+    "charging": {
+      "wired_w": 45
+    },
+    "software": {
+      "launch_os": "ColorOS 16.0"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "wifi": "Wi-Fi 5",
+      "nfc": true
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "oppo",
+      "url": "https://www.oppo.com/my/smartphones/series-a/a7-pro-5g/specs/",
+      "checked": "2026-09-25",
+      "note": "Read automatically from the maker’s Malaysian specification page and reviewed; values not found on the page are left out."
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-a7-pro-serice-en/specs/a7-pro/tai-blue.png",
+    "page": "https://www.oppo.com/my/smartphones/series-a/a7-pro-5g/specs/",
+    "credit": "OPPO",
+    "checked": "2026-09-25"
+  }
+}

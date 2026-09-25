@@ -38,19 +38,20 @@
     },
     "connectivity": {
       "nfc": true,
-      "usb": "Wireless charging; System Requirements; Android 8.0 or later; iOS 13.0 or later; Waterproof Level; IP68",
-      "bluetooth": "2.4 GHz, Bluetooth 5.2 supporting BR and BLE; Environment; Operating Temperature; 5℃ to 40℃; Storage / Transport Temperature; -20℃ to 55℃"
+      "bluetooth": "2.4 GHz, Bluetooth 5.2 supporting BR and BLE",
+      "compatibility": "Android 8.0 or later, iOS 13.0 or later"
     },
     "build": {
       "weight_g": 40.0,
       "ip": "IP68"
     },
-    "sensors": "9-axis IMU sensor (Accelerometer sensor, Gyroscope sensor, Magnetometer sensor), Optical heart rate sensor, ECG sensor, Ambient light sensor, Barometer sensor, Temperature sensor, Differential pressure sensor, Hall sensor, Button, Rotating crown, Function and ECG button",
+    "sensors": "9-axis IMU sensor (Accelerometer sensor, Gyroscope sensor, Magnetometer sensor), Optical heart rate sensor, ECG sensor, Ambient light sensor, Barometer sensor, Temperature sensor, Differential pressure sensor, Hall sensor",
     "audio": {
-      "speakers": "Microphone"
+      "microphone": true
     },
     "charging": {
-      "claim": "Charger voltage and current requirements; 5V/1A"
+      "claim": "Charger: 5V/1A",
+      "wireless": true
     },
     "misc": {
       "colors": "Blue, Black, Gold"

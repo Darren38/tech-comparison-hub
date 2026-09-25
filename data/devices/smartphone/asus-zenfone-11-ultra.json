@@ -1,0 +1,106 @@
+{
+  "id": "asus-zenfone-11-ultra",
+  "name": "ASUS Zenfone 11 Ultra",
+  "brand": "asus",
+  "category": "smartphone",
+  "series": "Zenfone",
+  "form": "bar",
+  "status": "released",
+  "segment": "flagship",
+  "aliases": [
+    "Zenfone 11 Ultra",
+    "Asus Zenfone 11 Ultra"
+  ],
+  "summary": "A big-screen Zenfone with the Snapdragon 8 Gen 3, a 3x telephoto, IP68 and a 5,500 mAh battery.",
+  "highlights": [
+    "3x telephoto",
+    "IP68",
+    "5,500 mAh"
+  ],
+  "availability": {
+    "MY": {
+      "status": "not-launched",
+      "checked": "2026-09-25",
+      "source": "asus",
+      "note": "Not listed on ASUS Malaysia’s website."
+    }
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.78,
+      "type": "LTPO AMOLED",
+      "resolution": "2400 × 1080",
+      "refresh_hz": 144,
+      "peak_nits": 2500
+    },
+    "platform": {
+      "chipset": "snapdragon-8-gen-3"
+    },
+    "memory": {
+      "ram_gb": [
+        12,
+        16
+      ],
+      "storage_gb": [
+        256,
+        512
+      ]
+    },
+    "battery": {
+      "capacity_mah": 5500
+    },
+    "charging": {
+      "wired_w": 65,
+      "wireless": true
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50
+        },
+        {
+          "role": "ultrawide",
+          "mp": 13
+        },
+        {
+          "role": "telephoto",
+          "mp": 32,
+          "zoom_x": 3
+        }
+      ],
+      "zoom_optical_x": 3,
+      "front": "32 MP",
+      "video": "8K 24 fps"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 163.8,
+        "width_mm": 76.8,
+        "depth_mm": 8.9
+      },
+      "ip": "IP68"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "wifi": "Wi-Fi 7",
+      "bluetooth": "Bluetooth 5.4"
+    },
+    "audio": {
+      "jack": true
+    },
+    "software": {
+      "launch_os": "Android 14"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "asus",
+      "url": "https://www.asus.com/mobile-handhelds/phones/zenfone/zenfone-11-ultra/techspec/",
+      "checked": "2026-09-25",
+      "note": "Read from ASUS’s global tech-spec page. 144 Hz is for games only."
+    }
+  },
+  "dataStatus": "compiled"
+}

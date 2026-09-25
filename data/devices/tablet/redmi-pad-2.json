@@ -1,0 +1,92 @@
+{
+  "id": "redmi-pad-2",
+  "name": "REDMI Pad 2",
+  "brand": "redmi",
+  "category": "tablet",
+  "series": "REDMI Pad",
+  "form": "tablet",
+  "status": "released",
+  "announced": "2025-06",
+  "released": "2025-06",
+  "segment": "entry",
+  "aliases": [
+    "Redmi Pad 2"
+  ],
+  "summary": "An 11-inch 2.5K 90 Hz budget tablet with a 9,000 mAh battery, quad speakers and a microSD slot.",
+  "highlights": [
+    "11-inch 2.5K 90 Hz",
+    "9,000 mAh",
+    "From RM599"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 599,
+      "config": "Wi-Fi, 4 GB / 128 GB (online exclusive)",
+      "date": "2025-06-19",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/06/19/redmi-pad-2-launch-malaysia-specs-price-promo/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 11,
+      "type": "LCD",
+      "resolution": "2560 × 1600",
+      "ppi": 274,
+      "refresh_hz": 90,
+      "peak_nits": 600
+    },
+    "platform": {
+      "chipset": "helio-g100",
+      "chipset_note": "MediaTek Helio G100-Ultra (Xiaomi’s name for this version)"
+    },
+    "memory": {
+      "ram_gb": [
+        4,
+        8
+      ],
+      "storage_gb": [
+        128,
+        256
+      ],
+      "expandable": true
+    },
+    "battery": {
+      "capacity_mah": 9000
+    },
+    "charging": {
+      "wired_w": 18
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 254.58,
+        "width_mm": 166.04,
+        "depth_mm": 7.36
+      },
+      "weight_g": 510
+    },
+    "connectivity": {
+      "cellular": "4G (REDMI Pad 2 4G)",
+      "wifi": "Wi-Fi 5",
+      "bluetooth": "Bluetooth 5.3"
+    },
+    "software": {
+      "launch_os": "Xiaomi HyperOS 2"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "redmi",
+      "url": "https://web.archive.org/web/20260609001706/https://www.mi.com/my/product/redmi-pad-2/specs/",
+      "checked": "2026-09-25",
+      "note": "Read from Xiaomi Malaysia’s specification page (Internet Archive copy, because mi.com refuses automated reading)."
+    }
+  },
+  "dataStatus": "checked"
+}

@@ -1,0 +1,118 @@
+{
+  "id": "apple-ipad-pro-11-m4",
+  "name": "iPad Pro 11-inch (M4)",
+  "brand": "apple",
+  "category": "tablet",
+  "series": "iPad Pro",
+  "form": "tablet",
+  "status": "released",
+  "announced": "2024-05-07",
+  "released": "2024-05-15",
+  "segment": "flagship",
+  "aliases": [
+    "iPad Pro 11 M4",
+    "iPad Pro 11 (2024)"
+  ],
+  "summary": "Apple’s 2024 iPad Pro: the first tandem OLED iPad, 5.3 mm thin, with the M4 chip.",
+  "highlights": [
+    "Tandem OLED (Ultra Retina XDR)",
+    "M4 chip",
+    "5.3 mm thin"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 5299,
+      "config": "Wi-Fi, 256 GB",
+      "date": "2024-06-04",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2024/06/04/ipad-pro-m4-air-m2-available-malaysia-price/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 11,
+      "type": "Ultra Retina XDR tandem OLED, ProMotion",
+      "resolution": "2420 × 1668",
+      "ppi": 264,
+      "refresh_hz": 120,
+      "peak_nits": 1600,
+      "sdr_nits": 1000
+    },
+    "platform": {
+      "chipset": "apple-m4",
+      "chipset_note": "9-core CPU and 8 GB on 256 GB / 512 GB; 10-core CPU and 16 GB on 1 TB / 2 TB"
+    },
+    "memory": {
+      "ram_gb": [
+        8,
+        16
+      ],
+      "storage_gb": [
+        256,
+        512,
+        1024,
+        2048
+      ]
+    },
+    "battery": {
+      "capacity_wh": 31.29,
+      "claim": "Up to 10 h web browsing on Wi-Fi or video playback"
+    },
+    "input": {
+      "stylus": "Apple Pencil Pro, Apple Pencil (USB-C)"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 249.7,
+        "width_mm": 177.5,
+        "depth_mm": 5.3
+      },
+      "weight_g": 444
+    },
+    "connectivity": {
+      "cellular": "5G (optional)",
+      "wifi": "Wi-Fi 6E",
+      "bluetooth": "Bluetooth 5.3",
+      "usb": "Thunderbolt / USB 4"
+    },
+    "software": {
+      "launch_os": "iPadOS 17",
+      "os_updates_years": 6,
+      "security_updates_years": 7
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "apple",
+      "url": "https://support.apple.com/en-my/119892",
+      "checked": "2026-09-25",
+      "note": "Read from Apple Malaysia’s tech-specs page; Wi-Fi model weight."
+    },
+    "fields": {
+      "specs.software.os_updates_years": {
+        "class": "estimated",
+        "source": "apple",
+        "note": "Apple publishes no fixed update commitment; estimated from the support history of recent devices."
+      },
+      "specs.software.security_updates_years": {
+        "class": "estimated",
+        "source": "apple",
+        "note": "Apple publishes no fixed update commitment; estimated from the support history of recent devices."
+      }
+    }
+  },
+  "dataStatus": "checked",
+  "image": {
+    "kind": "official",
+    "src": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/ipad-pro-11-inch-m4-portimage-1.png",
+    "page": "https://support.apple.com/en-my/119892",
+    "credit": "Apple",
+    "checked": "2026-09-25"
+  }
+}

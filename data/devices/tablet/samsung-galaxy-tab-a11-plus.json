@@ -1,0 +1,87 @@
+{
+  "id": "samsung-galaxy-tab-a11-plus",
+  "name": "Galaxy Tab A11+",
+  "brand": "samsung",
+  "category": "tablet",
+  "series": "Galaxy Tab A",
+  "form": "tablet",
+  "status": "released",
+  "announced": "2025-12",
+  "released": "2026-01-09",
+  "segment": "entry",
+  "aliases": [
+    "Tab A11+",
+    "Galaxy Tab A11 Plus"
+  ],
+  "summary": "An 11-inch 90 Hz budget tablet with quad speakers, a headphone jack, 25 W charging and seven OS upgrades promised.",
+  "highlights": [
+    "11-inch 90 Hz",
+    "Quad speakers",
+    "25 W charging"
+  ],
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-25",
+      "source": "samsung",
+      "note": "No Malaysian launch price was found in Samsung Malaysia’s releases or a launch report."
+    }
+  },
+  "specs": {
+    "display": {
+      "size_in": 11,
+      "type": "TFT LCD",
+      "resolution": "1920 × 1200",
+      "refresh_hz": 90,
+      "peak_nits": 480
+    },
+    "platform": {
+      "chipset_note": "MediaTek MT8775 (octa-core, up to 2.5 GHz)"
+    },
+    "memory": {
+      "ram_gb": [
+        6,
+        8
+      ],
+      "storage_gb": [
+        128,
+        256
+      ],
+      "expandable": true
+    },
+    "battery": {
+      "capacity_mah": 7040
+    },
+    "charging": {
+      "wired_w": 25
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 257.1,
+        "width_mm": 168.7,
+        "depth_mm": 6.9
+      },
+      "weight_g": 477,
+      "ip": "IP52"
+    },
+    "connectivity": {
+      "cellular": "5G (optional)",
+      "wifi": "Wi-Fi 5",
+      "bluetooth": "Bluetooth 5.3"
+    },
+    "software": {
+      "launch_os": "Android 16",
+      "policy_note": "Up to seven generations of software upgrades (Samsung Malaysia, January 2026)."
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "samsung",
+      "url": "https://news.samsung.com/us/samsung-welcomes-galaxy-a17-5g-galaxy-tab-a11-galaxy-ecosystem/",
+      "checked": "2026-09-25",
+      "note": "Read from Samsung’s launch press release (specification table); Wi-Fi model weight."
+    }
+  },
+  "dataStatus": "checked"
+}

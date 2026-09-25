@@ -1,0 +1,81 @@
+{
+  "id": "redmi-buds-4-active",
+  "name": "REDMI Buds 4 Active",
+  "brand": "redmi",
+  "category": "earbuds",
+  "series": "REDMI Buds",
+  "form": "buds",
+  "status": "released",
+  "segment": "entry",
+  "aliases": [],
+  "summary": "Basic REDMI earbuds with a 12 mm driver and up to 28 hours with the case.",
+  "highlights": [
+    "12 mm driver",
+    "Up to 28 h with case",
+    "IPX4"
+  ],
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-25",
+      "source": "xiaomi",
+      "note": "Listed on Xiaomi Malaysia’s website, but no Malaysian launch price was found in a launch report."
+    }
+  },
+  "specs": {
+    "audio": {
+      "anc": "No (call noise cancelling only)",
+      "driver": "12 mm dynamic",
+      "codecs": [
+        "SBC"
+      ]
+    },
+    "battery": {
+      "life_h": 5,
+      "total_h": 28,
+      "bud_mah": 34,
+      "case_mah": 440
+    },
+    "build": {
+      "weight_g": 3.65,
+      "case_weight_g": 34.7,
+      "dimensions": {
+        "height_mm": 31.1,
+        "width_mm": 22.5,
+        "depth_mm": 20.9
+      },
+      "case_dimensions": {
+        "height_mm": 63.2,
+        "width_mm": 53.4,
+        "depth_mm": 24
+      },
+      "ip": "IPX4"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.3"
+    },
+    "charging": {
+      "port": "USB-C"
+    },
+    "software": {
+      "app": "Xiaomi Earbuds"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "xiaomi",
+      "url": "https://web.archive.org/web/20250428225317/https://www.mi.com/my/product/redmi-buds-4-active/specs/",
+      "checked": "2026-09-25",
+      "note": "Read from Xiaomi Malaysia’s specification page (Internet Archive copy); battery and noise-cancelling claims from the overview page (https://web.archive.org/web/20260825115457/https://www.mi.com/my/product/redmi-buds-4-active/)."
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://web.archive.org/web/20250428225317im_/https://i02.appmifile.com/845_operator_sg/12/11/2023/3bfdaed7beb32c072224eff5ccd69866.png",
+    "page": "https://web.archive.org/web/20250428225317/https://www.mi.com/my/product/redmi-buds-4-active/specs/",
+    "credit": "Xiaomi Malaysia (Internet Archive copy)",
+    "checked": "2026-09-25"
+  }
+}

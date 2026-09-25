@@ -1,0 +1,95 @@
+{
+  "id": "samsung-galaxy-a07s",
+  "name": "Samsung Galaxy A07s",
+  "brand": "samsung",
+  "category": "smartphone",
+  "series": "Galaxy A",
+  "form": "bar",
+  "status": "released",
+  "segment": "entry",
+  "aliases": [
+    "Galaxy A07s",
+    "SM-A077F"
+  ],
+  "summary": "Samsung’s cheapest 4G Galaxy A: a 6.7-inch HD+ LCD, 5,000 mAh battery, microSD slot and security updates until August 2032.",
+  "highlights": [
+    "Security updates to Aug 2032",
+    "5,000 mAh",
+    "microSD slot"
+  ],
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-25",
+      "source": "samsung",
+      "note": "Listed on Samsung Malaysia’s website, but no Malaysian launch price was found in a launch report."
+    }
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.7,
+      "type": "PLS LCD",
+      "resolution": "1600 × 720"
+    },
+    "platform": {
+      "chipset_note": "Octa-core, 2.2 GHz + 2 GHz (Samsung does not name the chip)"
+    },
+    "memory": {
+      "ram_gb": [
+        4
+      ],
+      "storage_gb": [
+        64
+      ],
+      "expandable": true
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50
+        }
+      ],
+      "rear_detail": [
+        "50 MP (F1.8, AF)",
+        "2 MP (F2.4)"
+      ],
+      "front": "8 MP",
+      "video": "1080p 30 fps"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 167.4,
+        "width_mm": 77.4,
+        "depth_mm": 7.6
+      },
+      "weight_g": 188
+    },
+    "connectivity": {
+      "cellular": "4G LTE",
+      "wifi": "Wi-Fi 5",
+      "bluetooth": "Bluetooth 5.3",
+      "usb": "USB-C (USB 2.0)"
+    },
+    "audio": {
+      "jack": true
+    },
+    "software": {
+      "launch_os": "Android",
+      "policy_note": "Security updates until 31 August 2032 (Samsung Malaysia)."
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "samsung",
+      "url": "https://www.samsung.com/my/smartphones/galaxy-a/galaxy-a07s-black-64gb-sm-a077fzkdxme/",
+      "checked": "2026-09-25",
+      "note": "Read from Samsung Malaysia’s specification service for SM-A077FZKDXME. Samsung does not say what the 2 MP rear camera is for, so it is listed only as a detail."
+    }
+  },
+  "dataStatus": "compiled"
+}

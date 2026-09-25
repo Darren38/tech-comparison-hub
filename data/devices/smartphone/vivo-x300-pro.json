@@ -59,7 +59,8 @@
       ],
       "storage_gb": [
         256,
-        512
+        512,
+        1024
       ]
     },
     "battery": {
@@ -127,10 +128,10 @@
     },
     "fields": {
       "specs.display.resolution": {
-        "class": "database",
-        "source": "gsmarena",
-        "url": "https://www.gsmarena.com/vivo_x300_pro_5g-14225.php",
-        "note": "Not listed on vivo's page."
+        "class": "official",
+        "source": "vivo",
+        "url": "https://www.vivo.com.cn/vivo/param/x300pro",
+        "checked": "2026-09-25"
       },
       "specs.display.ppi": {
         "class": "platform",
@@ -138,14 +139,18 @@
         "note": "Calculated from resolution and screen size."
       },
       "specs.memory.ram_gb": {
-        "class": "database",
-        "source": "gsmarena",
-        "note": "Not listed on vivo's global page."
+        "class": "official",
+        "source": "vivo",
+        "url": "https://www.vivo.com.cn/vivo/param/x300pro",
+        "checked": "2026-09-25",
+        "note": "From the China specification page; the Malaysian model is 16 GB + 512 GB."
       },
       "specs.memory.storage_gb": {
-        "class": "database",
-        "source": "gsmarena",
-        "note": "Not listed on vivo's global page."
+        "class": "official",
+        "source": "vivo",
+        "url": "https://www.vivo.com.cn/vivo/param/x300pro",
+        "checked": "2026-09-25",
+        "note": "From the China specification page; the Malaysian model is 16 GB + 512 GB."
       },
       "specs.camera.zoom_optical_x": {
         "class": "platform",
@@ -153,10 +158,11 @@
         "note": "85 mm focal length relative to a 24 mm-equivalent main camera."
       },
       "specs.battery.variants": {
-        "class": "measured",
-        "source": "gsmarena",
-        "url": "https://www.gsmarena.com/vivo_x300_pro-review-2896p3.php",
-        "note": "GSMArena tested the EU model."
+        "class": "news",
+        "source": "gizmochina",
+        "url": "https://www.gizmochina.com/2025/10/14/vivo-x300-pro-european-model-hands-on-reveals-5440mah-battery-instead-of-6510mah/",
+        "checked": "2026-09-25",
+        "note": "EU model 5,440 mAh; also stated in FoneArena's European launch report."
       }
     }
   },

@@ -1,0 +1,82 @@
+{
+  "id": "cmf-watch-pro-2",
+  "name": "CMF by Nothing Watch Pro 2",
+  "brand": "nothing",
+  "category": "smartwatch",
+  "series": "CMF Watch",
+  "form": "watch",
+  "status": "released",
+  "announced": "2024-07-09",
+  "released": "2024-07-09",
+  "segment": "entry",
+  "aliases": [
+    "CMF Watch Pro 2"
+  ],
+  "summary": "A low-cost round smartwatch with swappable bezels, built-in GPS, Bluetooth calls and up to 11 days of battery.",
+  "highlights": [
+    "Swappable bezels",
+    "Built-in GPS",
+    "Up to 11 days"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 339,
+      "config": "Launch price",
+      "date": "2024-07-09",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2024/07/09/cmf-watch-pro-2-malaysia-smartwatch-price-spec-info/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 1.32,
+      "type": "AMOLED",
+      "resolution": "466 × 466",
+      "ppi": 353,
+      "peak_nits": 620
+    },
+    "battery": {
+      "life_h": 264,
+      "claim": "Up to 11 days (headline claim); 9 days heavy use; 25 hours with GPS"
+    },
+    "health": {
+      "sensors": [
+        "Accelerometer",
+        "Ambient light",
+        "Heart rate",
+        "SpO2"
+      ]
+    },
+    "build": {
+      "ip": "IP68",
+      "case": "Metal body"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.3",
+      "gps": "Built-in GPS (GPS, GLONASS, Galileo, QZSS, BeiDou)",
+      "compatibility": "Android and iPhone (Nothing X app)"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "nothing",
+      "url": "https://intl.nothing.tech/products/cmf-watch-pro-2",
+      "checked": "2026-09-25",
+      "note": "Read from the specs section of Nothing’s international store page. Case size is not stored: the store lists size with the strap."
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://cdn.shopify.com/s/files/1/0585/2479/5086/files/CMF-Watch-Pro-2_Orange_1.png",
+    "page": "https://intl.nothing.tech/products/cmf-watch-pro-2",
+    "credit": "Nothing",
+    "checked": "2026-09-25"
+  }
+}

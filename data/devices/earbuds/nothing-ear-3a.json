@@ -1,0 +1,95 @@
+{
+  "id": "nothing-ear-3a",
+  "name": "Nothing Ear (3a)",
+  "brand": "nothing",
+  "category": "earbuds",
+  "series": "Nothing Ear",
+  "form": "buds",
+  "status": "released",
+  "announced": "2026-09-10",
+  "released": "2026-09-10",
+  "segment": "mid",
+  "aliases": [],
+  "summary": "Affordable Nothing earbuds with adaptive noise cancelling, Bluetooth 6.0 and up to 42 hours with the case.",
+  "highlights": [
+    "Adaptive noise cancelling",
+    "Bluetooth 6.0",
+    "Up to 42 h with case"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 399,
+      "config": "Launch price",
+      "date": "2026-09-10",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2026/09/10/nothing-ear-3a-malaysia-price-specs-rm399/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "audio": {
+      "anc": "Yes (adaptive, up to 45 dB claimed)",
+      "driver": "12 mm dynamic",
+      "codecs": [
+        "LDAC",
+        "AAC",
+        "SBC"
+      ],
+      "mics": "3 per earbud"
+    },
+    "battery": {
+      "life_h": 10,
+      "life_anc_h": 6,
+      "total_h": 42,
+      "bud_mah": 55,
+      "case_mah": 500
+    },
+    "charging": {
+      "port": "USB-C"
+    },
+    "build": {
+      "style": "In-ear with silicone tips",
+      "weight_g": 4.53,
+      "case_weight_g": 40.92,
+      "dimensions": {
+        "height_mm": 31.2,
+        "width_mm": 21.7,
+        "depth_mm": 24
+      },
+      "case_dimensions": {
+        "height_mm": 64.8,
+        "width_mm": 48.95,
+        "depth_mm": 22.8
+      },
+      "ip": "IP54"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 6.0",
+      "multipoint": "Yes (dual connection)"
+    },
+    "software": {
+      "app": "Nothing X (Android and iPhone)"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "nothing",
+      "url": "https://intl.nothing.tech/products/ear-3a",
+      "checked": "2026-09-25",
+      "note": "Read from the specs section of Nothing’s international store page."
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://cdn.shopify.com/s/files/1/0585/2479/5086/files/product-thumbnail-white.png",
+    "page": "https://intl.nothing.tech/products/ear-3a",
+    "credit": "Nothing",
+    "checked": "2026-09-25"
+  }
+}

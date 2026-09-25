@@ -1,0 +1,95 @@
+{
+  "id": "oppo-pad-3-pro",
+  "name": "OPPO Pad 3 Pro",
+  "brand": "oppo",
+  "category": "tablet",
+  "series": "OPPO Pad",
+  "form": "tablet",
+  "status": "released",
+  "announced": "2024",
+  "released": "2024",
+  "segment": "upper-mid",
+  "aliases": [
+    "Pad 3 Pro"
+  ],
+  "summary": "A 12.1-inch 3K 144 Hz tablet with the Snapdragon 8 Gen 3 and 67 W charging.",
+  "highlights": [
+    "Snapdragon 8 Gen 3",
+    "12.1-inch 3K 144 Hz",
+    "67 W charging"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 3299,
+      "config": "12 GB / 256 GB",
+      "date": "2024",
+      "type": "launch",
+      "source": "technave",
+      "url": "https://technave.com/gadget/OPPO-Pad-3-Pro-Malaysia-release-SD-8-Gen-3-chipset-and-9-510mAh-battery-priced-at-RM3-299-40721.html",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 12.1,
+      "type": "LCD (LTPS)",
+      "resolution": "3000 × 2120",
+      "ppi": 303,
+      "refresh_hz": 144,
+      "peak_nits": 900
+    },
+    "platform": {
+      "chipset": "snapdragon-8-gen-3"
+    },
+    "memory": {
+      "ram_gb": [
+        12
+      ],
+      "storage_gb": [
+        256
+      ]
+    },
+    "battery": {
+      "capacity_mah": 9510
+    },
+    "charging": {
+      "wired_w": 67
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 268.66,
+        "width_mm": 195.06,
+        "depth_mm": 6.49
+      },
+      "weight_g": 586
+    },
+    "connectivity": {
+      "wifi": "Wi-Fi 7",
+      "bluetooth": "Bluetooth 5.4"
+    },
+    "software": {
+      "launch_os": "ColorOS 14.1"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "oppo",
+      "url": "https://www.oppo.com/en/accessories/oppo-pad-3-pro/specs/",
+      "checked": "2026-09-25",
+      "note": "Read from OPPO’s specification page (global site unless noted)."
+    },
+    "fields": {
+      "specs.platform.chipset": {
+        "class": "news",
+        "source": "technave",
+        "url": "https://technave.com/gadget/OPPO-Pad-3-Pro-Malaysia-release-SD-8-Gen-3-chipset-and-9-510mAh-battery-priced-at-RM3-299-40721.html",
+        "note": "OPPO’s page lists the CPU and GPU (Kryo at 3.4 GHz, Adreno 750) but not the chip name; the Malaysian launch report names the Snapdragon 8 Gen 3."
+      }
+    }
+  },
+  "dataStatus": "checked"
+}

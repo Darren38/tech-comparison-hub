@@ -1,0 +1,102 @@
+{
+  "id": "nothing-phone-2a",
+  "name": "Nothing Phone (2a)",
+  "brand": "nothing",
+  "category": "smartphone",
+  "series": "Nothing Phone",
+  "form": "bar",
+  "status": "released",
+  "announced": "2024-03",
+  "released": "2024-03",
+  "segment": "mid",
+  "aliases": [
+    "Phone (2a)",
+    "Nothing Phone 2a"
+  ],
+  "summary": "A 6.7-inch 120 Hz 5G mid-range phone with the Dimensity 7200, a 5,000 mAh battery, 45 W charging and a 50 MP main camera.",
+  "highlights": [
+    "Dimensity 7200",
+    "6.7-inch 120 Hz",
+    "5,000 mAh, 45 W"
+  ],
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-25",
+      "source": "nothing",
+      "note": "Sold in Malaysia, but no Malaysian launch price was found in a launch report."
+    }
+  },
+  "specs": {
+    "build": {
+      "dimensions": {
+        "height_mm": 161.74,
+        "width_mm": 76.32,
+        "depth_mm": 8.55
+      },
+      "weight_g": 190.0,
+      "ip": "IP54"
+    },
+    "camera": {
+      "front": "32 MP",
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "focal_mm": 24
+        },
+        {
+          "role": "ultrawide",
+          "mp": 50,
+          "focal_mm": 15
+        }
+      ]
+    },
+    "display": {
+      "size_in": 6.7,
+      "type": "AMOLED",
+      "resolution": "2412 × 1084",
+      "ppi": 394,
+      "peak_nits": 1300,
+      "refresh_hz": 120
+    },
+    "connectivity": {
+      "wifi": "Wi-Fi 6",
+      "bluetooth": "Bluetooth 5.3",
+      "cellular": "5G"
+    },
+    "software": {
+      "launch_os": "Android 15"
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "charging": {
+      "wired_w": 45
+    },
+    "memory": {
+      "ram_gb": [
+        8,
+        12
+      ],
+      "storage_gb": [
+        128,
+        256
+      ]
+    },
+    "platform": {
+      "chipset": "dimensity-7200",
+      "chipset_note": "Dimensity 7200 Pro (Nothing’s name for its version)"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "nothing",
+      "url": "https://intl.nothing.tech/products/phone-2a?Colour=Milk&Capacity=12%2B256GB",
+      "checked": "2026-09-25",
+      "note": "Read from the specifications section of Nothing’s product page (international store)."
+    }
+  },
+  "dataStatus": "compiled"
+}

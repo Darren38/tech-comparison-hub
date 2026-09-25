@@ -1,0 +1,77 @@
+{
+  "id": "honor-earbuds-x6",
+  "name": "HONOR Earbuds X6",
+  "brand": "honor",
+  "category": "earbuds",
+  "series": "HONOR Earbuds",
+  "form": "buds",
+  "status": "released",
+  "segment": "entry",
+  "aliases": [],
+  "summary": "Budget HONOR earbuds weighing 3.8 g each, with up to 40 hours of playback with the case.",
+  "highlights": [
+    "3.8 g earbuds",
+    "Up to 40 h with case",
+    "Bluetooth 5.3"
+  ],
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-25",
+      "source": "honor",
+      "note": "Listed on HONOR Malaysia’s website, but no Malaysian launch price was found in a launch report."
+    }
+  },
+  "specs": {
+    "audio": {
+      "anc": "No (call noise reduction only)",
+      "driver": "10 mm titanium-plated dynamic"
+    },
+    "battery": {
+      "life_h": 9,
+      "total_h": 40,
+      "bud_mah": 41,
+      "case_mah": 510
+    },
+    "charging": {
+      "port": "USB-C"
+    },
+    "build": {
+      "weight_g": 3.8,
+      "case_weight_g": 33,
+      "dimensions": {
+        "height_mm": 33.66,
+        "width_mm": 17.82,
+        "depth_mm": 18.14
+      },
+      "case_dimensions": {
+        "height_mm": 52.95,
+        "width_mm": 54.5,
+        "depth_mm": 24.0
+      }
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.3"
+    },
+    "software": {
+      "app": "HONOR AI Space / HONOR Earbuds app"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "honor",
+      "url": "https://www.honor.com/my/audio/honor-earbuds-x6/spec/",
+      "checked": "2026-09-25",
+      "note": "Read from HONOR Malaysia’s specification page."
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://www-file.honor.com/content/dam/honor/my/specs/audio/honor-earbuds-x6/honor-earbuds-x6-spec-white.png",
+    "page": "https://www.honor.com/my/audio/honor-earbuds-x6/",
+    "credit": "HONOR",
+    "checked": "2026-09-25"
+  }
+}

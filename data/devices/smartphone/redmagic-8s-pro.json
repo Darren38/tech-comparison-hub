@@ -1,0 +1,125 @@
+{
+  "id": "redmagic-8s-pro",
+  "name": "REDMAGIC 8S Pro",
+  "brand": "redmagic",
+  "category": "smartphone",
+  "series": "REDMAGIC",
+  "form": "bar",
+  "status": "released",
+  "announced": "2023-08-03",
+  "released": "2023-08-03",
+  "segment": "flagship",
+  "aliases": [
+    "RedMagic 8S Pro",
+    "Red Magic 8S Pro"
+  ],
+  "summary": "A 2023 gaming phone with a higher-clocked Snapdragon 8 Gen 2, a built-in cooling fan, an under-display selfie camera and a 6,000 mAh battery.",
+  "highlights": [
+    "Built-in cooling fan",
+    "Under-display selfie camera",
+    "6,000 mAh"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 3699,
+      "config": "12 GB / 256 GB",
+      "date": "2023-08-03",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2023/08/03/redmagic-8s-pro-gaming-smartphone-with-overclocked-snapdragon-8-gen-2-priced-from-rm3699/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 4499,
+      "config": "16 GB / 512 GB",
+      "date": "2023-08-03",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2023/08/03/redmagic-8s-pro-gaming-smartphone-with-overclocked-snapdragon-8-gen-2-priced-from-rm3699/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 6.8,
+      "type": "AMOLED",
+      "resolution": "2480 × 1116",
+      "refresh_hz": 120,
+      "peak_nits": 1300
+    },
+    "platform": {
+      "chipset": "snapdragon-8-gen-2",
+      "chipset_note": "Snapdragon 8 Gen 2 “Leading Version” (higher-clocked)"
+    },
+    "memory": {
+      "ram_gb": [
+        12,
+        16
+      ],
+      "storage_gb": [
+        256,
+        512
+      ]
+    },
+    "battery": {
+      "capacity_mah": 6000
+    },
+    "charging": {
+      "wired_w": 65
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50
+        },
+        {
+          "role": "ultrawide",
+          "mp": 8
+        }
+      ],
+      "front": "16 MP (under-display)",
+      "rear_detail": [
+        "50 MP (82°)",
+        "8 MP (120°)",
+        "2 MP (78°)"
+      ]
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 163.98,
+        "width_mm": 76.35,
+        "depth_mm": 9.47
+      },
+      "weight_g": 228
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true,
+      "wifi": "Wi-Fi 7",
+      "bluetooth": "Bluetooth 5.3"
+    },
+    "audio": {
+      "jack": true
+    },
+    "software": {
+      "launch_os": "REDMAGIC OS 8.0 (Android 13)"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "redmagic",
+      "url": "https://global.redmagic.gg/pages/redmagic-8s-pro-specs",
+      "checked": "2026-09-25",
+      "note": "Read from REDMAGIC’s global specification page."
+    }
+  },
+  "dataStatus": "compiled"
+}

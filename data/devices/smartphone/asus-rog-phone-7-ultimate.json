@@ -1,0 +1,121 @@
+{
+  "id": "asus-rog-phone-7-ultimate",
+  "name": "ASUS ROG Phone 7 Ultimate",
+  "brand": "asus",
+  "category": "smartphone",
+  "series": "ROG Phone",
+  "form": "bar",
+  "status": "released",
+  "announced": "2023-05-10",
+  "released": "2023-05-10",
+  "segment": "flagship",
+  "aliases": [
+    "ROG Phone 7 Ultimate",
+    "Asus ROG Phone 7 Ultimate"
+  ],
+  "summary": "The top ROG Phone 7 model with 16 GB RAM and 512 GB storage.",
+  "highlights": [
+    "16 GB / 512 GB",
+    "Snapdragon 8 Gen 2",
+    "6,000 mAh"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 4999,
+      "config": "16 GB / 512 GB",
+      "date": "2023-05-10",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2023/05/10/asus-rog-phone-7-series-malaysia-everything-you-need-to-know/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 6.78,
+      "type": "AMOLED",
+      "resolution": "2448 × 1080",
+      "protection": "Corning Gorilla Glass Victus"
+    },
+    "platform": {
+      "chipset": "snapdragon-8-gen-2"
+    },
+    "battery": {
+      "capacity_mah": 6000
+    },
+    "charging": {
+      "wired_w": 65
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50
+        },
+        {
+          "role": "ultrawide",
+          "mp": 13
+        },
+        {
+          "role": "macro",
+          "mp": 5
+        }
+      ]
+    },
+    "build": {
+      "ip": "IP54",
+      "weight_g": 246
+    },
+    "connectivity": {
+      "cellular": "5G"
+    },
+    "audio": {
+      "jack": true
+    },
+    "software": {
+      "launch_os": "Android 13"
+    },
+    "memory": {
+      "ram_gb": [
+        16
+      ],
+      "storage_gb": [
+        512
+      ]
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "asus",
+      "url": "https://rog.asus.com/phones/rog-phone-7-ultimate/spec/",
+      "checked": "2026-09-25",
+      "note": "Read from the ROG spec page."
+    },
+    "fields": {
+      "specs.battery.capacity_mah": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2023/05/10/asus-rog-phone-7-series-malaysia-everything-you-need-to-know/",
+        "checked": "2026-09-25"
+      },
+      "specs.charging.wired_w": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2023/05/10/asus-rog-phone-7-series-malaysia-everything-you-need-to-know/",
+        "checked": "2026-09-25"
+      }
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://dlcdnwebimgs.asus.com/gain/A16F8224-F8F7-44F3-A1D5-A9A1AEC9F92D",
+    "page": "https://rog.asus.com/phones/rog-phone-7-ultimate/",
+    "credit": "ASUS ROG",
+    "checked": "2026-09-25"
+  }
+}

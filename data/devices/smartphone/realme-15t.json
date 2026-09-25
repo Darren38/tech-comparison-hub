@@ -1,0 +1,102 @@
+{
+  "id": "realme-15t",
+  "name": "realme 15T 5G",
+  "brand": "realme",
+  "category": "smartphone",
+  "series": "realme number series",
+  "form": "bar",
+  "status": "released",
+  "announced": "2025-10-30",
+  "released": "2025-10-30",
+  "segment": "mid",
+  "aliases": [
+    "realme 15T"
+  ],
+  "summary": "A 6.57-inch 120 Hz 5G mid-range phone with the Dimensity 6400 Max, a 7,000 mAh battery, 60 W charging and a 50 MP main camera.",
+  "highlights": [
+    "Dimensity 6400 Max",
+    "6.57-inch 120 Hz",
+    "7,000 mAh, 60 W"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1199,
+      "config": "Lowest listed configuration",
+      "date": "2026-09-25",
+      "type": "listed",
+      "source": "realme",
+      "url": "https://www.realme.com/my/",
+      "class": "official",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "platform": {
+      "chipset_note": "Dimensity 6400 Max"
+    },
+    "memory": {
+      "ram_gb": [
+        12
+      ],
+      "storage_gb": [
+        256
+      ]
+    },
+    "software": {
+      "launch_os": "realme UI 6.0"
+    },
+    "charging": {
+      "wired_w": 60
+    },
+    "build": {
+      "ip": "IP66",
+      "weight_g": 181.0,
+      "dimensions": {
+        "height_mm": 158.36,
+        "width_mm": 75.19,
+        "depth_mm": 7.79
+      }
+    },
+    "display": {
+      "size_in": 6.57,
+      "refresh_hz": 120,
+      "resolution": "2372 × 1080"
+    },
+    "battery": {
+      "capacity_mah": 7000
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "wifi": "Wi-Fi 5",
+      "bluetooth": "Bluetooth 5.3",
+      "nfc": true
+    },
+    "camera": {
+      "front": "50 MP",
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "focal_mm": 27
+        },
+        {
+          "role": "depth",
+          "mp": 2,
+          "focal_mm": 22
+        }
+      ]
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "realme",
+      "url": "https://www.realme.com/my/realme-15t-5g/specs",
+      "checked": "2026-09-25",
+      "note": "Read automatically from the maker’s Malaysian specification page and reviewed; values not found on the page are left out."
+    }
+  },
+  "dataStatus": "compiled"
+}

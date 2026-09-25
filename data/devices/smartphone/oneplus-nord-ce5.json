@@ -1,0 +1,68 @@
+{
+  "id": "oneplus-nord-ce5",
+  "name": "OnePlus Nord CE5",
+  "brand": "oneplus",
+  "category": "smartphone",
+  "series": "OnePlus Nord",
+  "form": "bar",
+  "status": "released",
+  "segment": "mid",
+  "aliases": [
+    "Nord CE5"
+  ],
+  "summary": "A 5G mid-range phone with the Dimensity 8350 Apex, a 7,100 mAh battery and 80 W charging.",
+  "highlights": [
+    "Dimensity 8350 Apex",
+    "7,100 mAh, 80 W"
+  ],
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-25",
+      "source": "oneplus",
+      "note": "Listed on the maker’s Malaysian website, but no Malaysian launch price was found in a launch report."
+    }
+  },
+  "specs": {
+    "build": {
+      "weight_g": 199.0,
+      "dimensions": {
+        "height_mm": 163.58,
+        "width_mm": 76.02,
+        "depth_mm": 8.27
+      }
+    },
+    "display": {
+      "resolution": "2392 × 1080",
+      "refresh_hz": 120
+    },
+    "software": {
+      "launch_os": "OxygenOS 15.0 based on Android™ 15"
+    },
+    "battery": {
+      "capacity_mah": 7100
+    },
+    "platform": {
+      "chipset_note": "Dimensity 8350 Apex"
+    },
+    "charging": {
+      "wired_w": 80
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "wifi": "Wi-Fi 6",
+      "bluetooth": "Bluetooth 5.4",
+      "nfc": true
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "oneplus",
+      "url": "https://www.oneplus.com/my/nord-ce5/specs",
+      "checked": "2026-09-25",
+      "note": "Read automatically from the maker’s Malaysian specification page and reviewed; values not found on the page are left out."
+    }
+  },
+  "dataStatus": "compiled"
+}

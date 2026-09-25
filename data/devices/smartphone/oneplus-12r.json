@@ -1,0 +1,91 @@
+{
+  "id": "oneplus-12r",
+  "name": "OnePlus 12R",
+  "brand": "oneplus",
+  "category": "smartphone",
+  "series": "OnePlus",
+  "form": "bar",
+  "status": "released",
+  "announced": "2024-01-24",
+  "released": "2024-01-24",
+  "segment": "upper-mid",
+  "aliases": [
+    "OnePlus 12R 5G"
+  ],
+  "summary": "A 5G upper mid-range phone with the Snapdragon 8 Gen 2, a 5,500 mAh battery, 100 W charging and a 50 MP main camera.",
+  "highlights": [
+    "Snapdragon 8 Gen 2",
+    "5,500 mAh, 100 W"
+  ],
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-25",
+      "source": "oneplus",
+      "note": "Listed on the maker’s Malaysian website, but no Malaysian launch price was found in a launch report."
+    }
+  },
+  "specs": {
+    "build": {
+      "weight_g": 207.0,
+      "dimensions": {
+        "height_mm": 163.3,
+        "width_mm": 75.3,
+        "depth_mm": 8.8
+      }
+    },
+    "display": {
+      "resolution": "2780 × 1264",
+      "refresh_hz": 120
+    },
+    "software": {
+      "launch_os": "Android 14"
+    },
+    "platform": {
+      "chipset": "snapdragon-8-gen-2"
+    },
+    "memory": {
+      "ram_gb": [
+        16
+      ],
+      "storage_gb": [
+        256
+      ]
+    },
+    "battery": {
+      "capacity_mah": 5500
+    },
+    "charging": {
+      "wired_w": 100
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "wifi": "Wi-Fi 7",
+      "bluetooth": "Bluetooth 5.3",
+      "nfc": true
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "focal_mm": 24
+        },
+        {
+          "role": "ultrawide",
+          "mp": 8
+        }
+      ]
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "oneplus",
+      "url": "https://www.oneplus.com/my/12r/specs",
+      "checked": "2026-09-25",
+      "note": "Read automatically from the maker’s Malaysian specification page and reviewed; values not found on the page are left out."
+    }
+  },
+  "dataStatus": "compiled"
+}

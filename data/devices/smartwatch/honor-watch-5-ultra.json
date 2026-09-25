@@ -22,9 +22,9 @@
     },
     "connectivity": {
       "gps": "Built-in GNSS",
-      "usb": "Wireless charging; Compatibility; Android 9.0 or later and iOS 13.0 or later; Water Resistance Level; 5ATM, IP68",
       "positioning": "GPS+GLONASS+GALILEO+BDS+QZSS",
-      "bluetooth": "2.4 GHz, BT 5.2, supports BLE/BR/EDR"
+      "bluetooth": "2.4 GHz, BT 5.2, supports BLE/BR/EDR",
+      "compatibility": "Android 9.0 or later and iOS 13.0 or later"
     },
     "build": {
       "dimensions": {
@@ -38,9 +38,13 @@
       "ip": "IP68"
     },
     "audio": {
-      "speakers": "Microphone; Charger Voltage and Current; 5V-9V DC / 2A"
+      "microphone": true
     },
-    "sensors": "Accelerometer sensor, Gyroscope sensor, Magnetometer sensor, Optical heart rate sensor, Barometer sensor, Ambient light sensor"
+    "sensors": "Accelerometer sensor, Gyroscope sensor, Magnetometer sensor, Optical heart rate sensor, Barometer sensor, Ambient light sensor",
+    "charging": {
+      "wireless": true,
+      "claim": "Charger: 5V-9V DC / 2A"
+    }
   },
   "provenance": {
     "default": {

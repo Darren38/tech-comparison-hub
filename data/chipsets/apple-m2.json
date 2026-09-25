@@ -1,0 +1,40 @@
+{
+  "id": "apple-m2",
+  "name": "Apple M2",
+  "vendor": "apple",
+  "family": "M-series",
+  "tier": "flagship",
+  "announced": "2022-06-06",
+  "aliases": [
+    "M2"
+  ],
+  "summary": "Used in the 2024 iPad Air (8-core CPU, 9-core GPU).",
+  "cpu": {
+    "cores": 8,
+    "clusters": [
+      {
+        "count": 4,
+        "core": "Performance"
+      },
+      {
+        "count": 4,
+        "core": "Efficiency"
+      }
+    ]
+  },
+  "gpu": {
+    "name": "Apple GPU, 9-core (iPad Air)"
+  },
+  "npu": "16-core Neural Engine",
+  "variants": [],
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "apple",
+      "url": "https://support.apple.com/en-my/119894",
+      "checked": "2026-09-25",
+      "note": "Core counts from Apple’s iPad Air (M2) tech-spec page."
+    },
+    "fields": {}
+  }
+}

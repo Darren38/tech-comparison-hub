@@ -3,6 +3,8 @@
 // a bibliography of every source used, and an AI-ready evidence pack.
 
 import { html, mount } from '../lib/html.js';
+import { sizeView, bindSize } from '../ui/size.js';
+import { autoSlot, fillAuto } from '../ui/autolinks.js';
 import { fmtMetric, fmtNumber, fmtDate, plural } from '../lib/format.js';
 import { selectedCurrency } from '../engine/money.js';
 import { store, loadDevice, deviceTitle, metricDef, categoryDef, sourceName } from '../core/store.js';
@@ -22,6 +24,7 @@ const CMP_SECTIONS = [
   ['bench-h', 'Benchmarks'],
   ['spec-h', 'Specifications'],
   ['find-h', 'Findings'],
+  ['latest-h', 'Latest'],
   ['src-h', 'Sources'],
 ];
 import { scoreBars, miniMeter } from '../ui/charts.js';
@@ -225,18 +228,12 @@ function verdictCard(v, entities) {
 }
 
 function sizeComparison(entities) {
-  const withDims = entities.filter((e) => e.device.specs?.build?.dimensions?.height_mm);
-  if (withDims.length < 1) return '';
-  const maxH = Math.max(...entities.map((e) => e.device.specs?.build?.dimensions?.height_mm ?? 0), 1);
-  const pxPerMm = 170 / maxH;
+  // Version 17: real outlines at one scale with each device's picture, dimension lines, weight and an optional bank card
+  const view = sizeView(entities.map((e, i) => ({ row: store.deviceById.get(e.device.id), device: e.device, mark: seriesMark(i) })));
+  if (!view) return '';
   return html`<section class="card" aria-labelledby="size-h">
-    ${sectionHead('Size, to scale', { id: 'size-h', level: 3, right: html`<span class="tiny muted">Front outlines at the same scale</span>` })}
-    <div class="sizes">${entities.map((e, i) => {
-      const row = store.deviceById.get(e.device.id);
-      const dims = e.device.specs?.build?.dimensions;
-      return html`<figure class="sizes__item">${schematic({ ...row, specs: { 'build.dimensions': dims } }, { pxPerMm })}
-        <figcaption class="tiny">${seriesMark(i)} ${row.name}<br /><span class="muted num">${dims?.height_mm ? `${fmtNumber(dims.height_mm, 1)} × ${fmtNumber(dims.width_mm, 1)}${dims.depth_mm ? ` × ${fmtNumber(dims.depth_mm, 2)}` : ''} mm` : 'Not recorded'}${e.device.specs?.build?.weight_g ? ` · ${e.device.specs.build.weight_g} g` : ''}</span></figcaption></figure>`;
-    })}</div>
+    ${sectionHead('Size, to scale', { id: 'size-h', level: 3, right: html`<span class="tiny muted">Makers’ published sizes, drawn at one scale</span>` })}
+    ${view}
   </section>`;
 }
 
@@ -422,10 +419,12 @@ export default async function render({ params, query }) {
         ${sectionHead('Category verdicts', { id: 'cats-h', right: html`<span class="tiny muted">Like-for-like: only evidence every device shares</span>` })}
         <div class="vgrid">${cmp.verdicts.map((v) => verdictCard(v, entities))}</div>
       </section>
-      <div class="grid grid-2">${sizeComparison(entities)}${testsSection(cmp, entities)}</div>
+      ${sizeComparison(entities)}
+      ${testsSection(cmp, entities)}
       ${metricsTable(cmp, entities)}
       ${specTable(entities)}
       ${findingsCompare(entities)}
+      <section aria-labelledby="latest-h">${sectionHead('Latest about these devices', { id: 'latest-h' })}${autoSlot('all', 'News, tests, reviews and videos', { limit: 8 })}<p class="small muted" data-latest-empty>Nothing recent names these devices yet.</p></section>
       ${sourcesSection(used, entities)}
       <section class="card card--tint pack-cta">
         <div><div class="eyebrow">Built for AI-assisted research</div><h3 style="margin-top:6px">Export this comparison as a cited evidence pack</h3>
@@ -489,7 +488,10 @@ export default async function render({ params, query }) {
         a.click();
         setTimeout(() => URL.revokeObjectURL(url), 1000);
       });
-      return bindOutline(root, { stickySelector: '.cmp-sticky' });
+      fillAuto(root, { devices: ids, showDevices: true }).then(() => { if (!root.querySelector('[data-auto]')?.hidden) root.querySelector('[data-latest-empty]')?.remove(); });
+      const unSize = bindSize(root);
+      const unOutline = bindOutline(root, { stickySelector: '.cmp-sticky' });
+      return () => { unSize(); unOutline?.(); };
     },
   };
 }

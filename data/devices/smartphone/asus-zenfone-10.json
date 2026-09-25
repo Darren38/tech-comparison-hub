@@ -1,0 +1,101 @@
+{
+  "id": "asus-zenfone-10",
+  "name": "ASUS Zenfone 10",
+  "brand": "asus",
+  "category": "smartphone",
+  "series": "Zenfone",
+  "form": "bar",
+  "status": "released",
+  "segment": "flagship",
+  "aliases": [
+    "Zenfone 10",
+    "Asus Zenfone 10"
+  ],
+  "summary": "A genuinely small flagship: a 5.9-inch screen, the Snapdragon 8 Gen 2, a headphone jack and wireless charging in 172 g.",
+  "highlights": [
+    "Compact 5.9-inch",
+    "Snapdragon 8 Gen 2",
+    "Headphone jack"
+  ],
+  "availability": {
+    "MY": {
+      "status": "not-launched",
+      "checked": "2026-09-25",
+      "source": "asus",
+      "note": "Not listed on ASUS Malaysia’s website."
+    }
+  },
+  "specs": {
+    "display": {
+      "size_in": 5.9,
+      "type": "AMOLED",
+      "resolution": "2400 × 1080",
+      "refresh_hz": 144,
+      "peak_nits": 1100
+    },
+    "platform": {
+      "chipset": "snapdragon-8-gen-2"
+    },
+    "memory": {
+      "ram_gb": [
+        8,
+        16
+      ],
+      "storage_gb": [
+        128,
+        256,
+        512
+      ]
+    },
+    "battery": {
+      "capacity_mah": 4300
+    },
+    "charging": {
+      "wired_w": 30,
+      "wireless": true
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50
+        },
+        {
+          "role": "ultrawide",
+          "mp": 13
+        }
+      ],
+      "front": "32 MP",
+      "video": "8K 24 fps"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 146.5,
+        "width_mm": 68.1,
+        "depth_mm": 9.4
+      },
+      "weight_g": 172
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "wifi": "Wi-Fi 7",
+      "bluetooth": "Bluetooth 5.3"
+    },
+    "audio": {
+      "jack": true
+    },
+    "software": {
+      "launch_os": "Android 13"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "asus",
+      "url": "https://www.asus.com/mobile-handhelds/phones/zenfone/zenfone-10/techspec/",
+      "checked": "2026-09-25",
+      "note": "Read from ASUS’s global tech-spec page. 144 Hz is available only in Game Genie while gaming."
+    }
+  },
+  "dataStatus": "compiled"
+}

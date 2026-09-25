@@ -1,0 +1,86 @@
+{
+  "id": "honor-earbuds-open",
+  "name": "HONOR Earbuds Open",
+  "brand": "honor",
+  "category": "earbuds",
+  "series": "HONOR Earbuds",
+  "form": "buds",
+  "status": "released",
+  "segment": "mid",
+  "aliases": [],
+  "summary": "Open-ear HONOR earbuds that sit outside the ear canal yet still offer noise cancelling, plus AI translation.",
+  "highlights": [
+    "Open-ear design",
+    "Noise cancelling",
+    "AI translation"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 699,
+      "config": "Price at April 2025 relaunch",
+      "date": "2025-04-11",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/04/11/honor-earbuds-open-watch-5-launch-malaysia-price-specs-features/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "audio": {
+      "anc": "Yes (open-ear ANC)",
+      "driver": "16 mm multi-magnet dynamic"
+    },
+    "battery": {
+      "life_h": 7,
+      "total_h": 26,
+      "bud_mah": 58,
+      "case_mah": 480
+    },
+    "charging": {
+      "port": "USB-C"
+    },
+    "build": {
+      "style": "Open-ear hooks",
+      "weight_g": 7.9,
+      "case_weight_g": 52.5,
+      "dimensions": {
+        "height_mm": 49.22,
+        "width_mm": 39.52,
+        "depth_mm": 15.6
+      },
+      "case_dimensions": {
+        "height_mm": 80.44,
+        "width_mm": 61.02,
+        "depth_mm": 20.45
+      },
+      "ip": "IP54 (earbuds only)"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.2",
+      "multipoint": "Yes (two devices)"
+    },
+    "software": {
+      "app": "HONOR AI Space / HONOR Earbuds app"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "honor",
+      "url": "https://www.honor.com/my/audio/honor-earbuds-open/spec/",
+      "checked": "2026-09-25",
+      "note": "Read from HONOR Malaysia’s specification page."
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://www-file.honor.com/content/dam/honor/my/specs/audio/honor-earbuds-open/honor-earbuds-open-glod.png",
+    "page": "https://www.honor.com/my/audio/honor-earbuds-open/",
+    "credit": "HONOR",
+    "checked": "2026-09-25"
+  }
+}

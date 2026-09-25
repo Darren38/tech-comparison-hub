@@ -1,0 +1,89 @@
+{
+  "id": "huawei-freearc",
+  "name": "HUAWEI FreeArc",
+  "brand": "huawei",
+  "category": "earbuds",
+  "series": "HUAWEI FreeArc",
+  "form": "buds",
+  "status": "released",
+  "announced": "2025-02",
+  "released": "2025-02",
+  "segment": "mid",
+  "aliases": [
+    "FreeArc"
+  ],
+  "summary": "Huawei’s over-the-ear hook open earbuds for sport: IP57 earbuds and up to 28 hours with the case.",
+  "highlights": [
+    "Open-ear hooks",
+    "IP57 earbuds",
+    "RM599"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 599,
+      "config": "Retail price",
+      "date": "2025-02-22",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/02/22/huawei-freearc-wireless-earbuds-launched-malaysia-price-availability-specs/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "audio": {
+      "anc": "No (open-ear design; call noise cancellation)",
+      "driver": "17 × 12 mm driver",
+      "codecs": [
+        "AAC",
+        "SBC"
+      ],
+      "features": "Multi-EQ"
+    },
+    "battery": {
+      "life_h": 7,
+      "total_h": 28,
+      "bud_mah": 55,
+      "case_mah": 510,
+      "claim": "Up to 7 h; 28 h with the case"
+    },
+    "charging": {
+      "wireless": "No",
+      "port": "USB-C"
+    },
+    "build": {
+      "style": "Open ear with ear hooks",
+      "weight_g": 8.9,
+      "dimensions": {
+        "height_mm": 47.5,
+        "width_mm": 18.35,
+        "depth_mm": 45.4
+      },
+      "case_weight_g": 67,
+      "case_dimensions": {
+        "height_mm": 26.5,
+        "width_mm": 67.8,
+        "depth_mm": 67.8
+      },
+      "ip": "IP57"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.2"
+    },
+    "software": {
+      "app": "HUAWEI AI Life (Android and iPhone)"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "huawei",
+      "url": "https://consumer.huawei.com/my/headphones/freearc/specs/",
+      "checked": "2026-09-25",
+      "note": "Read from HUAWEI Malaysia’s specification page. Battery figures are Huawei’s lab claims."
+    }
+  },
+  "dataStatus": "checked"
+}

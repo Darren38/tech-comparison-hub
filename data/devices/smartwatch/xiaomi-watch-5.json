@@ -39,7 +39,7 @@
       "water_m": 50
     },
     "audio": {
-      "speakers": "Microphone: Supported"
+      "microphone": true
     },
     "sensors": "PPG sensor, Accelerometer sensor, Gyroscope sensor, Ambient light sensor, Electronic compass sensor, Barometer sensor, EMG sensor",
     "misc": {

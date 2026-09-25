@@ -90,7 +90,6 @@
         {
           "role": "main",
           "mp": 48,
-          "sensor": "1/1.28\"",
           "aperture": "f/1.78",
           "focal_mm": 24
         },
@@ -151,17 +150,12 @@
       "checked": "2026-09-15"
     },
     "fields": {
-      "specs.camera.rear": {
-        "class": "database",
-        "source": "gsmarena",
-        "url": "https://www.gsmarena.com/apple_iphone_17_pro_max-review-2884p6.php",
-        "note": "Main sensor size (1/1.28\") from GSMArena's camera review; Apple does not publish sensor sizes. Other camera values are Apple's.",
-        "checked": "2026-09-15"
-      },
       "specs.memory.ram_gb": {
         "class": "database",
-        "source": "gsmarena",
-        "note": "Apple does not list RAM; figure reported in reviews."
+        "source": "macrumors",
+        "url": "https://www.macrumors.com/2025/09/09/iphone-17-pro-iphone-air-ram-amounts/",
+        "checked": "2026-09-25",
+        "note": "Found by MacRumors in Apple's Xcode 26; Apple does not advertise RAM."
       },
       "specs.battery.capacity_mah": {
         "class": "news",

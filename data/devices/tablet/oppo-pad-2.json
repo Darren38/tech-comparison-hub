@@ -1,0 +1,84 @@
+{
+  "id": "oppo-pad-2",
+  "name": "OPPO Pad 2",
+  "brand": "oppo",
+  "category": "tablet",
+  "series": "OPPO Pad",
+  "form": "tablet",
+  "status": "released",
+  "announced": "2023-10",
+  "released": "2023-10",
+  "segment": "upper-mid",
+  "aliases": [
+    "Pad 2"
+  ],
+  "summary": "An 11.61-inch 144 Hz tablet with a 7:5 screen, a MediaTek flagship chip and a 9,510 mAh battery.",
+  "highlights": [
+    "11.61-inch 144 Hz",
+    "9,510 mAh",
+    "Quad speakers"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 2599,
+      "config": "8 GB / 256 GB",
+      "date": "2023-10-19",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://bm.soyacincau.com/2023/10/19/oppo-pad-2-malaysia-skrin-144hz-dengan-kuadspeaker-dolby-atmos-pada-rm2599/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 11.61,
+      "type": "LCD (LTPS)",
+      "resolution": "2800 × 2000",
+      "ppi": 296,
+      "refresh_hz": 144,
+      "peak_nits": 500
+    },
+    "platform": {
+      "chipset_note": "OPPO’s page lists an Arm v9 octa-core CPU with a Mali-G710 MC10 GPU but does not name the chip"
+    },
+    "memory": {
+      "ram_gb": [
+        8
+      ],
+      "storage_gb": [
+        256
+      ]
+    },
+    "battery": {
+      "capacity_mah": 9510
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 258.03,
+        "width_mm": 189.39,
+        "depth_mm": 6.54
+      },
+      "weight_g": 552
+    },
+    "connectivity": {
+      "wifi": "Wi-Fi 6",
+      "bluetooth": "Bluetooth 5.3"
+    },
+    "software": {
+      "launch_os": "ColorOS 13.1"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "oppo",
+      "url": "https://www.oppo.com/en/accessories/oppo-pad-2/specs/",
+      "checked": "2026-09-25",
+      "note": "Read from OPPO’s specification page (global site unless noted)."
+    }
+  },
+  "dataStatus": "checked"
+}

@@ -50,9 +50,9 @@
     "connectivity": {
       "gps": "Built-in GNSS",
       "nfc": true,
-      "usb": "Wireless charging; System Requirements; Android 8.0 or later; iOS 13.0 or later; Waterproof Level; 5 ATM water-resistant",
       "bluetooth": "2.4 GHz, supports BT5.2 and BR + BLE",
-      "positioning": "L1: GPS + GLONASS + GALILEO + BDS + QZSS; L5: GPS + GALILEO + BDS +QZSS; Environment; Temperature; –20°C to +45°C; Battery Life"
+      "positioning": "L1: GPS + GLONASS + GALILEO + BDS + QZSS; L5: GPS + GALILEO + BDS +QZSS",
+      "compatibility": "Android 8.0 or later, iOS 13.0 or later"
     },
     "build": {
       "dimensions": {
@@ -64,12 +64,13 @@
       "water": "5 ATM",
       "water_m": 50
     },
-    "sensors": "Accelerometer sensor, Gyroscope sensor, Magnetometer sensor, Ambient light sensor, Optical heart rate sensor, Barometer sensor, Button, Home Button (Rotating Crown) and Side Button",
+    "sensors": "Accelerometer sensor, Gyroscope sensor, Magnetometer sensor, Ambient light sensor, Optical heart rate sensor, Barometer sensor",
     "audio": {
-      "speakers": "Microphone"
+      "microphone": true
     },
     "charging": {
-      "claim": "Charger Voltage and Current Requirements; 5V-9V DC/2A"
+      "claim": "Charger: 5V-9V DC/2A",
+      "wireless": true
     },
     "misc": {
       "colors": "Purple, Grey, White, Black"

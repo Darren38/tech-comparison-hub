@@ -41,8 +41,10 @@ DATE_RE = re.compile(r"^\d{4}(-\d{2}(-\d{2})?)?$")
 OFFICIAL_IMAGE_HOSTS = {"images.samsung.com", "cdsassets.apple.com", "www.apple.com", "www.honor.com", "www-file.honor.com",
                         "consumer.huawei.com", "consumer-img.huawei.com", "i02.appmifile.com", "i01.appmifile.com", "cdn.cnbj1.fds.api.mi-img.com",
                         "www.oppo.com", "image01.oppo.com", "asia-exstatic-vivofs.vivo.com", "asia-exstatic.vivo.com", "www.iqoo.com",
-                        "dlcdnwebimgs.asus.com", "global.redmagic.gg", "static2.realme.net", "image01.realme.net",
-                        "www.oneplus.com", "cn-exstatic-vivofs.iqoo.com"}
+                        "dlcdnwebimgs.asus.com", "global.redmagic.gg", "static2.realme.net", "image01.realme.net", "static.realme.net",
+                        "www.oneplus.com", "cn-exstatic-vivofs.iqoo.com", "oasis.opstatics.com", "img.global.news.samsung.com", "static.realme.net"}
+# Makers whose store runs on a shared CDN: only that maker's own folder counts (Nothing's Shopify store).
+OFFICIAL_IMAGE_PREFIXES = ("https://cdn.shopify.com/s/files/1/0585/2479/5086/",)
 
 
 # ----------------------------------------------------------------------------- reporting
@@ -158,6 +160,25 @@ class Dataset:
 AUTO = ROOT / "live" / "auto"
 
 
+_FITS: dict | None = None
+
+
+def image_fit(src: str | None) -> dict | None:
+    """Version 17: where the product sits inside its picture (tools/image_boxes.py), so pages can show it large."""
+    global _FITS
+    if _FITS is None:
+        _FITS = {}
+        for path in (DATA / "image_boxes.json", ROOT / "live" / "auto" / "image_boxes.json"):
+            try:
+                _FITS.update(json.loads(path.read_text(encoding="utf-8")).get("boxes") or {})
+            except (OSError, ValueError):
+                pass
+    fit = _FITS.get(src or "")
+    if not fit or not fit.get("ar"):
+        return None
+    return {k: fit[k] for k in ("bg", "ar", "box", "one", "oneAr") if fit.get(k) is not None}
+
+
 def read_auto(name: str) -> dict | None:
     path = AUTO / name
     if not path.exists():
@@ -204,6 +225,19 @@ def apply_auto(ds: "Dataset") -> dict:
                 dev["image"] = None   # the page shows the outline drawing until the picture is fixed in data/
                 hidden += 1
         info["images"] = {"at": images["checkedAt"], "checked": images.get("checked", 0), "hidden": hidden}
+    # Version 17: official pictures found automatically (tools/find_images.py) for devices with none in data/.
+    # A picture the daily check lists as broken is not used; the usual picture rules are validated afterwards.
+    found = read_auto("found_images.json")
+    if found and found.get("found"):
+        broken = set((images or {}).get("broken") or {})
+        used = 0
+        for dev_id, image in found["found"].items():
+            dev = ds.devices.get(dev_id)
+            if dev and not dev.get("image") and dev_id not in broken and isinstance(image, dict) and image.get("src"):
+                dev["image"] = {k: image[k] for k in ("kind", "src", "page", "credit", "checked") if image.get(k)}
+                dev["image"]["auto"] = True
+                used += 1
+        info["foundImages"] = {"at": found.get("searchedAt"), "used": used}
     return info
 
 
@@ -319,9 +353,9 @@ def validate(ds: Dataset) -> None:
                 src = re.sub(r"^https://web\.archive\.org/web/\d{14}im_/", "", str(image.get("src", "")))
                 page = re.sub(r"^https://web\.archive\.org/web/\d{14}/", "", str(image.get("page", "")))
                 host = re.sub(r"^https?://([^/]+)/.*$", r"\1", src)
-                if host not in OFFICIAL_IMAGE_HOSTS:
+                if host not in OFFICIAL_IMAGE_HOSTS and not src.startswith(OFFICIAL_IMAGE_PREFIXES):
                     r.error(f"{label}: official images must come from a manufacturer server ({', '.join(sorted(OFFICIAL_IMAGE_HOSTS))}), not '{host}'")
-                if not re.match(r"https?://[^/]*((samsung|apple|honor|huawei|mi|oppo|vivo|iqoo|asus|realme|oneplus)\.com(\.cn)?|redmagic\.gg)/", page):
+                if not re.match(r"https?://[^/]*((samsung|apple|honor|huawei|mi|oppo|vivo|iqoo|asus|realme|oneplus)\.com(\.cn)?|redmagic\.gg|nothing\.tech)/", page):
                     r.error(f"{label}: page must link to the manufacturer page the image was taken from")
                 if not image.get("credit"):
                     r.error(f"{label}: official images need a 'credit' (the manufacturer site)")
@@ -824,6 +858,23 @@ def is_flagship(dev: dict) -> bool:
     return any(p.match(name) for p in FLAGSHIP_NAMES)
 
 
+def anc_of(value) -> bool | None:
+    """Earbuds' noise cancelling field: text such as "Yes, adaptive" / "No" (or a boolean)."""
+    if value is None:
+        return None
+    if isinstance(value, bool):
+        return value
+    return not str(value).strip().lower().startswith(("no", "none", "not"))
+
+
+def wireless_case(value) -> bool | None:
+    if value is None:
+        return None
+    if isinstance(value, bool):
+        return value
+    return not str(value).strip().lower().startswith(("no", "none", "not"))
+
+
 def filter_fields(ds: Dataset, dev: dict, has_tests: bool) -> dict:
     s = dev.get("specs", {})
     rear = get_path(s, "camera.rear") or []
@@ -857,6 +908,10 @@ def filter_fields(ds: Dataset, dev: dict, has_tests: bool) -> dict:
         "weightG": get_path(s, "build.weight_g"),
         "stylus": bool(get_path(s, "input.stylus")) if dev["category"] == "tablet" else None,
         "keyboard": bool(get_path(s, "input.keyboard")) if dev["category"] == "tablet" else None,
+        # Version 17: earbuds
+        "anc": anc_of(get_path(s, "audio.anc")) if dev["category"] == "earbuds" else None,
+        "wirelessCase": wireless_case(get_path(s, "charging.wireless")) if dev["category"] == "earbuds" else None,
+        "totalLifeH": get_path(s, "battery.total_h"),
         "soldMY": sold_in(dev, "MY"),
         "hasTests": has_tests,
         "flagship": is_flagship(dev) if dev["category"] == "smartphone" else None,
@@ -976,12 +1031,13 @@ def compile_outputs(ds: Dataset, records: list[dict]) -> dict:
             "highlights": dev.get("highlights", [])[:3],
             "chipset": chip_id,
             "chipsetName": chip["name"] if chip else None,
-            "prices": [{k: p[k] for k in ("currency", "amount", "region", "config", "source") if p.get(k) is not None} for p in dev.get("prices", [])],
+            "prices": [{k: p[k] for k in ("currency", "amount", "region", "config", "source", "type", "date") if p.get(k) is not None} for p in dev.get("prices", [])],
             "availability": {k: v.get("status") for k, v in (dev.get("availability") or {}).items()} or None,
-            "image": {k: dev["image"].get(k) for k in ("kind", "src", "page", "title", "author", "license", "licenseUrl", "credit", "focus")} if dev.get("image") else None,
+            "image": {k: dev["image"].get(k) for k in ("kind", "src", "page", "title", "author", "license", "licenseUrl", "credit", "focus", "auto")} | ({"fit": image_fit(dev["image"].get("src"))} if image_fit(dev["image"].get("src")) else {}) if dev.get("image") else None,
             "specs": {k: get_path(dev, "specs." + k) for k in ("display.size_in", "display.size_mm", "display.refresh_hz", "battery.capacity_mah",
                                                              "battery.capacity_wh", "battery.life_h", "charging.wired_w", "build.weight_g",
-                                                             "build.water", "build.dimensions")
+                                                             "build.water", "build.dimensions", "build.case_dimensions", "build.case_weight_g",
+                                                             "battery.total_h", "audio.anc", "build.ip")
                       if get_path(dev, "specs." + k) is not None},
             "f": filter_fields(ds, dev, bool(independent)),
             "m": {mid: [s["value"], s["confidence"][0], 1 if s.get("inherited") else 0] for mid, s in metrics.items()},
@@ -1131,6 +1187,7 @@ KEY_METRICS = {
     "tablet": ["gb6_single", "gb6_multi"],
     "smartwatch": [],
     "band": [],
+    "earbuds": [],
 }
 STALE_AFTER_DAYS = 365
 

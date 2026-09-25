@@ -1,0 +1,89 @@
+{
+  "id": "realme-gt3",
+  "name": "realme GT3",
+  "brand": "realme",
+  "category": "smartphone",
+  "series": "realme GT",
+  "form": "bar",
+  "status": "released",
+  "announced": "2023-12-20",
+  "released": "2023-12-20",
+  "segment": "upper-mid",
+  "aliases": [
+    "realme GT 3"
+  ],
+  "summary": "A 6.74-inch 144 Hz 5G upper mid-range phone with the Snapdragon 8+, 240 W charging and a 50 MP main camera.",
+  "highlights": [
+    "Snapdragon 8+",
+    "6.74-inch 144 Hz"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 2799,
+      "config": "16 GB / 1 TB",
+      "date": "2023-12-20",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2023/12/20/realme-gt3-is-official-in-malaysia-priced-at-rm2799-for-1tb-of-storage/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "charging": {
+      "wired_w": 240
+    },
+    "platform": {
+      "chipset_note": "Snapdragon 8+"
+    },
+    "memory": {
+      "ram_gb": [
+        16
+      ],
+      "storage_gb": [
+        1024
+      ]
+    },
+    "display": {
+      "size_in": 6.74,
+      "resolution": "2772 × 1240",
+      "refresh_hz": 144
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "bluetooth": "Bluetooth 5.3"
+    },
+    "build": {
+      "weight_g": 199.0,
+      "dimensions": {
+        "height_mm": 163.85,
+        "width_mm": 75.75,
+        "depth_mm": 8.9
+      }
+    },
+    "software": {
+      "launch_os": "Android 13"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "focal_mm": 24
+        }
+      ]
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "realme",
+      "url": "https://www.realme.com/my/realme-gt-3/specs",
+      "checked": "2026-09-25",
+      "note": "Read automatically from the maker’s Malaysian specification page and reviewed; values not found on the page are left out."
+    }
+  },
+  "dataStatus": "compiled"
+}

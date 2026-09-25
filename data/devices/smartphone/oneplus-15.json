@@ -135,18 +135,22 @@
       "source": "oneplus",
       "url": "https://www.oneplus.com/global/15/specs",
       "checked": "2026-09-15",
-      "note": "OnePlus's spec page loads dynamically; key specs cross-checked against FoneArena and GSMArena coverage."
+      "note": "OnePlus's spec page loads dynamically; key specs cross-checked against FoneArena coverage."
     },
     "fields": {
       "specs.software.os_updates_years": {
-        "class": "database",
-        "source": "gsmarena",
-        "url": "https://www.gsmarena.com/oneplus_15-review-2898p4.php"
+        "class": "reviewer",
+        "source": "9to5google",
+        "url": "https://9to5google.com/2025/11/13/oneplus-15-review/",
+        "checked": "2026-09-25",
+        "note": "Four major OS upgrades and six years of security patches, as stated in the review."
       },
       "specs.software.security_updates_years": {
-        "class": "database",
-        "source": "gsmarena",
-        "url": "https://www.gsmarena.com/oneplus_15-review-2898p4.php"
+        "class": "reviewer",
+        "source": "9to5google",
+        "url": "https://9to5google.com/2025/11/13/oneplus-15-review/",
+        "checked": "2026-09-25",
+        "note": "Four major OS upgrades and six years of security patches, as stated in the review."
       },
       "specs.display.ppi": {
         "class": "platform",

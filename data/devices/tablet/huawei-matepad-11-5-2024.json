@@ -1,0 +1,79 @@
+{
+  "id": "huawei-matepad-11-5-2024",
+  "name": "HUAWEI MatePad 11.5 (2024)",
+  "brand": "huawei",
+  "category": "tablet",
+  "series": "HUAWEI MatePad",
+  "form": "tablet",
+  "status": "released",
+  "announced": "2024",
+  "released": "2024",
+  "segment": "mid",
+  "aliases": [
+    "MatePad 11.5 2024"
+  ],
+  "summary": "An 11.5-inch 120 Hz budget-to-mid tablet with a Kirin T80 and a 7,700 mAh battery.",
+  "highlights": [
+    "11.5-inch 120 Hz",
+    "Kirin T80",
+    "499 g"
+  ],
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-25",
+      "source": "technave",
+      "note": "No Malaysian launch price was found in a launch report; retail listings are not used."
+    }
+  },
+  "specs": {
+    "display": {
+      "size_in": 11.5,
+      "type": "TFT LCD (IPS)",
+      "resolution": "2200 × 1440",
+      "ppi": 229,
+      "refresh_hz": 120
+    },
+    "platform": {
+      "chipset_note": "Kirin T80 (octa-core)"
+    },
+    "memory": {
+      "ram_gb": [
+        6,
+        8
+      ],
+      "storage_gb": [
+        128,
+        256
+      ]
+    },
+    "battery": {
+      "capacity_mah": 7700
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 260.88,
+        "width_mm": 176.82,
+        "depth_mm": 6.85
+      },
+      "weight_g": 499
+    },
+    "connectivity": {
+      "wifi": "Wi-Fi 6",
+      "bluetooth": "Bluetooth 5.2"
+    },
+    "software": {
+      "launch_os": "HarmonyOS 4.2"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "huawei",
+      "url": "https://consumer.huawei.com/my/tablets/matepad-11-5/specs/",
+      "checked": "2026-09-25",
+      "note": "Read from HUAWEI Malaysia’s specification page; launch month from Malaysian launch reports."
+    }
+  },
+  "dataStatus": "checked"
+}

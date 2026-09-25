@@ -1,0 +1,78 @@
+{
+  "id": "oppo-enco-x3i",
+  "name": "OPPO Enco X3i",
+  "brand": "oppo",
+  "category": "earbuds",
+  "series": "OPPO Enco",
+  "form": "buds",
+  "status": "released",
+  "segment": "mid",
+  "aliases": [
+    "Enco X3i"
+  ],
+  "summary": "Two-driver OPPO earbuds with noise cancelling and Hi-Res LHDC 5.0, up to 44 hours with the case.",
+  "highlights": [
+    "Two drivers",
+    "Noise cancelling",
+    "LHDC 5.0"
+  ],
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-25",
+      "source": "oppo",
+      "note": "Listed on OPPO Malaysia’s website, but no Malaysian launch price was found in a launch report."
+    }
+  },
+  "specs": {
+    "audio": {
+      "anc": "Yes (up to 49 dB claimed)",
+      "driver": "10.4 mm woofer + 6 mm tweeter",
+      "codecs": [
+        "LHDC 5.0",
+        "AAC",
+        "SBC"
+      ]
+    },
+    "battery": {
+      "life_h": 10,
+      "life_anc_h": 6.5,
+      "total_h": 44,
+      "bud_mah": 58,
+      "case_mah": 520
+    },
+    "charging": {
+      "port": "USB-C"
+    },
+    "build": {
+      "weight_g": 4.8,
+      "dimensions": {
+        "height_mm": 31.68,
+        "width_mm": 24.4,
+        "depth_mm": 20.22
+      },
+      "case_dimensions": {
+        "height_mm": 58.72,
+        "width_mm": 50.15,
+        "depth_mm": 25.81
+      },
+      "ip": "IP55"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.3"
+    },
+    "software": {
+      "app": "HeyMelody (Android and iPhone)"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "oppo",
+      "url": "https://www.oppo.com/my/accessories/enco-x3i/specs/",
+      "checked": "2026-09-25",
+      "note": "Read from OPPO Malaysia’s specification page. Case weight is the listed earbuds-plus-case weight minus two earbuds."
+    }
+  },
+  "dataStatus": "compiled"
+}

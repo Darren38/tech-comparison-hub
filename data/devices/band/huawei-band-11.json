@@ -60,13 +60,14 @@
       "water": "5 ATM",
       "water_m": 50
     },
-    "sensors": "9-axis IMU sensor (Accelerometer sensor, Gyroscope sensor, Magnetometer sensor), Optical heart rate sensor, Ambient light sensor, Button, Full-screen touch + side button",
+    "sensors": "9-axis IMU sensor (Accelerometer sensor, Gyroscope sensor, Magnetometer sensor), Optical heart rate sensor, Ambient light sensor",
     "connectivity": {
-      "usb": "Magnetic charging port; System Requirements; Android 9.0 or later; iOS 13.0 or later; Waterproof Level; 5 ATM",
-      "bluetooth": "BT 6.0"
+      "usb": "Magnetic charging port",
+      "bluetooth": "BT 6.0",
+      "compatibility": "Android 9.0 or later, iOS 13.0 or later"
     },
     "charging": {
-      "claim": "Charger voltage and current requirements; 5V/1A"
+      "claim": "Charger: 5V/1A"
     },
     "misc": {
       "colors": "Beige, Green, Purple, White, Black, Purple (Polymer), Black (Polymer)"

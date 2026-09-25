@@ -1,0 +1,96 @@
+{
+  "id": "nothing-ear-3",
+  "name": "Nothing Ear (3)",
+  "brand": "nothing",
+  "category": "earbuds",
+  "series": "Nothing Ear",
+  "form": "buds",
+  "status": "released",
+  "announced": "2025-09-19",
+  "released": "2025-09-19",
+  "segment": "upper-mid",
+  "aliases": [],
+  "summary": "Nothing’s 2025 flagship earbuds with a “Super Mic” built into the case for clearer calls, adaptive noise cancelling and wireless charging.",
+  "highlights": [
+    "Super Mic in the case",
+    "Adaptive noise cancelling",
+    "Wireless charging"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 759,
+      "config": "Launch price",
+      "date": "2025-09-19",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/09/19/nothing-ear-3-launched-rm-759-in-malaysia-features-super-mic-45db-anc-and-longer-battery-life/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "audio": {
+      "anc": "Yes (real-time adaptive, up to 45 dB claimed)",
+      "driver": "12 mm dynamic",
+      "codecs": [
+        "LDAC",
+        "AAC",
+        "SBC"
+      ],
+      "mics": "3 per earbud + voice pickup sensor"
+    },
+    "battery": {
+      "life_h": 10,
+      "life_anc_h": 5.5,
+      "total_h": 38,
+      "bud_mah": 55,
+      "case_mah": 500
+    },
+    "charging": {
+      "port": "USB-C",
+      "wireless": true
+    },
+    "build": {
+      "style": "In-ear with silicone tips",
+      "weight_g": 5.2,
+      "case_weight_g": 61.0,
+      "dimensions": {
+        "height_mm": 30.5,
+        "width_mm": 21.5,
+        "depth_mm": 20.75
+      },
+      "case_dimensions": {
+        "height_mm": 55.5,
+        "width_mm": 55.5,
+        "depth_mm": 22.25
+      },
+      "ip": "IP54"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.4",
+      "multipoint": "Yes (dual connection)"
+    },
+    "software": {
+      "app": "Nothing X (Android and iPhone)"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "nothing",
+      "url": "https://intl.nothing.tech/products/ear-3",
+      "checked": "2026-09-25",
+      "note": "Read from the specs section of Nothing’s international store page. Nothing lists 71.4 g for earbuds plus case; case weight here is that minus two 5.2 g earbuds."
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://cdn.shopify.com/s/files/1/0585/2479/5086/files/Ear3-white_9c7c5465-3f29-4bb9-a438-7883444a6bad.png",
+    "page": "https://intl.nothing.tech/products/ear-3",
+    "credit": "Nothing",
+    "checked": "2026-09-25"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "id": "xiaomi-buds-5-pro",
+  "name": "Xiaomi Buds 5 Pro",
+  "brand": "xiaomi",
+  "category": "earbuds",
+  "series": "Xiaomi Buds",
+  "form": "buds",
+  "status": "released",
+  "segment": "upper-mid",
+  "aliases": [],
+  "summary": "Xiaomi’s top earbuds, also sold as a Wi-Fi edition with bigger 64 mAh earbud batteries.",
+  "highlights": [
+    "Bluetooth 5.4",
+    "Wi-Fi edition available",
+    "570 mAh case"
+  ],
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-25",
+      "source": "xiaomi",
+      "note": "Listed on Xiaomi Malaysia’s website, but no Malaysian launch price was found in a launch report."
+    }
+  },
+  "specs": {
+    "battery": {
+      "bud_mah": 53,
+      "case_mah": 570
+    },
+    "build": {
+      "weight_g": 5.6,
+      "case_weight_g": 41.8,
+      "dimensions": {
+        "height_mm": 31.39,
+        "width_mm": 25.78,
+        "depth_mm": 21.24
+      },
+      "case_dimensions": {
+        "height_mm": 60.5,
+        "width_mm": 48.45,
+        "depth_mm": 26.79
+      }
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.4"
+    },
+    "charging": {
+      "port": "USB-C"
+    },
+    "software": {
+      "app": "Xiaomi Earbuds"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "xiaomi",
+      "url": "https://web.archive.org/web/20260317054728/https://www.mi.com/my/product/xiaomi-buds-5-pro/specs/",
+      "checked": "2026-09-25",
+      "note": "Read from Xiaomi Malaysia’s specification page (Internet Archive copy). No overview page was archived, so battery life and noise cancelling are not recorded yet. The Wi-Fi edition (M2438E1) has 64 mAh earbuds."
+    }
+  },
+  "dataStatus": "compiled"
+}

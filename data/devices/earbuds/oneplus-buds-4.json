@@ -1,0 +1,87 @@
+{
+  "id": "oneplus-buds-4",
+  "name": "OnePlus Buds 4",
+  "brand": "oneplus",
+  "category": "earbuds",
+  "series": "OnePlus Buds",
+  "form": "buds",
+  "status": "released",
+  "segment": "mid",
+  "aliases": [],
+  "summary": "Two-driver OnePlus earbuds with adaptive noise cancelling and up to 45 hours with the case.",
+  "highlights": [
+    "Two drivers",
+    "Adaptive noise cancelling",
+    "LHDC 5.0"
+  ],
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-25",
+      "source": "oneplus",
+      "note": "Listed on OnePlus Malaysia’s website, but no Malaysian launch price was found in a launch report."
+    }
+  },
+  "specs": {
+    "audio": {
+      "anc": "Yes (adaptive, up to 55 dB claimed)",
+      "driver": "11 mm woofer + 6 mm tweeter",
+      "codecs": [
+        "LHDC 5.0",
+        "AAC",
+        "SBC"
+      ],
+      "mics": "3 per earbud"
+    },
+    "battery": {
+      "life_h": 11,
+      "life_anc_h": 6,
+      "total_h": 45,
+      "bud_mah": 62,
+      "case_mah": 530
+    },
+    "charging": {
+      "port": "USB-C"
+    },
+    "build": {
+      "style": "In-ear with silicone tips",
+      "weight_g": 4.73,
+      "case_weight_g": 39.57,
+      "dimensions": {
+        "height_mm": 31,
+        "width_mm": 24.2,
+        "depth_mm": 20.6
+      },
+      "case_dimensions": {
+        "height_mm": 65.4,
+        "width_mm": 52.4,
+        "depth_mm": 25.3
+      },
+      "ip": "IP55"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.4",
+      "multipoint": "Yes (dual-device connection)"
+    },
+    "software": {
+      "app": "HeyMelody (Android and iPhone)"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "oneplus",
+      "url": "https://www.oneplus.com/my/oneplus-buds-4/specs",
+      "checked": "2026-09-25",
+      "note": "Read from OnePlus Malaysia’s specification page."
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://www.oneplus.com/content/dam/oneplus/2025/specs/buds4/images/Zen_Green_1080x1080.png",
+    "page": "https://www.oneplus.com/my/oneplus-buds-4",
+    "credit": "OnePlus",
+    "checked": "2026-09-25"
+  }
+}

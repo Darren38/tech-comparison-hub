@@ -1,0 +1,99 @@
+{
+  "id": "apple-airpods-pro-2-usb-c",
+  "name": "AirPods Pro 2 (USB-C)",
+  "brand": "apple",
+  "category": "earbuds",
+  "series": "AirPods Pro",
+  "form": "buds",
+  "status": "released",
+  "announced": "2023-09-13",
+  "released": "2023-09",
+  "segment": "flagship",
+  "aliases": [
+    "AirPods Pro 2",
+    "AirPods Pro (2nd generation) USB-C"
+  ],
+  "summary": "The 2023 update of the second-generation AirPods Pro: a USB-C MagSafe case, IP54 on the case too, and Adaptive Audio.",
+  "highlights": [
+    "Noise cancelling",
+    "USB-C MagSafe case",
+    "Up to 30 h with case"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1099,
+      "config": "MagSafe Charging Case (USB-C)",
+      "date": "2023-09-13",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2023/09/13/apple-airpods-pro-2023-edition-updated-with-usb-c-port-along-with-new-adaptive-audio/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "audio": {
+      "anc": "Yes (Active Noise Cancellation, Adaptive Audio, Transparency)",
+      "driver": "Custom high-excursion Apple driver",
+      "spatial": "Personalised Spatial Audio with dynamic head tracking",
+      "mics": "Dual beamforming microphones and an inward-facing microphone",
+      "features": "Hearing Test, Loud Sound Reduction, Conversation Awareness"
+    },
+    "battery": {
+      "life_h": 6,
+      "total_h": 30,
+      "claim": "Up to 6 h per charge (5.5 h with Spatial Audio) and 30 h with the case"
+    },
+    "charging": {
+      "wireless": "Yes (MagSafe, Qi, Apple Watch charger)",
+      "port": "USB-C"
+    },
+    "build": {
+      "style": "In-ear with silicone tips (four sizes)",
+      "weight_g": 5.3,
+      "dimensions": {
+        "height_mm": 30.9,
+        "width_mm": 21.8,
+        "depth_mm": 24.0
+      },
+      "case_weight_g": 50.8,
+      "case_dimensions": {
+        "height_mm": 45.2,
+        "width_mm": 60.6,
+        "depth_mm": 21.7
+      },
+      "ip": "IP54",
+      "case_ip": "IP54"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.3",
+      "compatibility": "Made for iPhone, iPad and Mac; with other devices they work as Bluetooth earbuds with fewer features"
+    },
+    "platform": {
+      "chip_name": "Apple H2 headphone chip"
+    },
+    "software": {
+      "app": "Built into iOS (Settings)",
+      "features": "Find My with speaker and U1 chip in the case"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "apple",
+      "url": "https://support.apple.com/en-my/111834",
+      "checked": "2026-09-25",
+      "note": "Read from Apple Malaysia’s tech-specs page. Battery figures are Apple’s own claims."
+    }
+  },
+  "dataStatus": "checked",
+  "image": {
+    "kind": "official",
+    "src": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/airpods-pro-2.png",
+    "page": "https://support.apple.com/en-my/111834",
+    "credit": "Apple",
+    "checked": "2026-09-25"
+  }
+}

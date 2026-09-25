@@ -1,0 +1,113 @@
+{
+  "id": "apple-ipad-a16",
+  "name": "iPad (A16)",
+  "brand": "apple",
+  "category": "tablet",
+  "series": "iPad",
+  "form": "tablet",
+  "status": "released",
+  "announced": "2025-03-04",
+  "released": "2025-03-12",
+  "segment": "mid",
+  "aliases": [
+    "iPad 11th generation",
+    "iPad 2025",
+    "iPad 11"
+  ],
+  "summary": "Apple’s entry iPad for 2025: 11-inch LCD, A16 chip and 128 GB to start. No Apple Intelligence.",
+  "highlights": [
+    "A16 chip",
+    "11-inch Liquid Retina display",
+    "128 GB base storage"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1599,
+      "config": "Wi-Fi, 128 GB",
+      "date": "2025-03-05",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/03/05/apple-ipad-11-a16-2025-malaysia-launch-price-specs/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 11,
+      "type": "Liquid Retina (LCD)",
+      "resolution": "2360 × 1640",
+      "ppi": 264,
+      "refresh_hz": 60,
+      "peak_nits": 500
+    },
+    "platform": {
+      "chipset": "apple-a16",
+      "chipset_note": "5-core CPU, 4-core GPU"
+    },
+    "memory": {
+      "storage_gb": [
+        128,
+        256,
+        512
+      ]
+    },
+    "battery": {
+      "capacity_wh": 28.93,
+      "claim": "Up to 10 h web browsing on Wi-Fi or video playback"
+    },
+    "input": {
+      "stylus": "Apple Pencil (USB-C), Apple Pencil (1st generation) with adapter"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 248.6,
+        "width_mm": 179.5,
+        "depth_mm": 7.0
+      },
+      "weight_g": 477
+    },
+    "connectivity": {
+      "cellular": "5G (optional)",
+      "wifi": "Wi-Fi 6",
+      "bluetooth": "Bluetooth 5.3",
+      "usb": "USB-C (USB 2)"
+    },
+    "software": {
+      "launch_os": "iPadOS 18",
+      "os_updates_years": 6,
+      "security_updates_years": 7
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "apple",
+      "url": "https://support.apple.com/en-my/122240",
+      "checked": "2026-09-25",
+      "note": "Read from Apple Malaysia’s tech-specs page; Wi-Fi model weight."
+    },
+    "fields": {
+      "specs.software.os_updates_years": {
+        "class": "estimated",
+        "source": "apple",
+        "note": "Apple publishes no fixed update commitment; estimated from the support history of recent devices."
+      },
+      "specs.software.security_updates_years": {
+        "class": "estimated",
+        "source": "apple",
+        "note": "Apple publishes no fixed update commitment; estimated from the support history of recent devices."
+      }
+    }
+  },
+  "dataStatus": "checked",
+  "image": {
+    "kind": "official",
+    "src": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/122240-ipad-a16-portimage1.png",
+    "page": "https://support.apple.com/en-my/122240",
+    "credit": "Apple",
+    "checked": "2026-09-25"
+  }
+}

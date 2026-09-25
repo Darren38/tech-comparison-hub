@@ -1,0 +1,114 @@
+{
+  "id": "google-pixel-9",
+  "name": "Pixel 9",
+  "brand": "google",
+  "category": "smartphone",
+  "series": "Pixel",
+  "form": "bar",
+  "status": "released",
+  "announced": "2024-08-14",
+  "released": "2024-08-14",
+  "segment": "upper-mid",
+  "aliases": [
+    "Google Pixel 9"
+  ],
+  "summary": "Launched in Malaysia with Google’s August 2024 return: Tensor G4, a 48 MP ultrawide and seven years of updates.",
+  "highlights": [
+    "Tensor G4",
+    "Seven years of updates",
+    "IP68"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 3999,
+      "config": "12 GB / 128 GB",
+      "date": "2024-08-14",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2024/08/14/google-pixel-9-pixel-9-pro-xl-malaysia-official-price/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 4499,
+      "config": "12 GB / 256 GB (regular price)",
+      "date": "2024-08-14",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2024/08/14/google-pixel-9-pixel-9-pro-xl-malaysia-official-price/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 6.3,
+      "type": "Actua OLED",
+      "resolution": "2424 × 1080",
+      "ppi": 422,
+      "refresh_hz": 120,
+      "peak_nits": 2700
+    },
+    "platform": {
+      "chipset_note": "Google Tensor G4 (not yet in the chipset database)"
+    },
+    "memory": {
+      "ram_gb": [
+        12
+      ],
+      "storage_gb": [
+        128,
+        256
+      ]
+    },
+    "battery": {
+      "capacity_mah": 4700
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50
+        },
+        {
+          "role": "ultrawide",
+          "mp": 48
+        }
+      ],
+      "front": "10.5 MP"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 152.8,
+        "width_mm": 72.0,
+        "depth_mm": 8.5
+      },
+      "weight_g": 198,
+      "ip": "IP68"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "wifi": "Wi-Fi 7 (Wi-Fi 6 in some models)",
+      "bluetooth": "Bluetooth 5.3"
+    },
+    "software": {
+      "launch_os": "Android 14",
+      "os_updates_years": 7,
+      "security_updates_years": 7
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "google",
+      "url": "https://support.google.com/pixelphone/answer/7158570?hl=en-GB",
+      "checked": "2026-09-25",
+      "note": "Read from Google’s Pixel phone hardware tech specs page (international figures)."
+    }
+  },
+  "dataStatus": "compiled"
+}

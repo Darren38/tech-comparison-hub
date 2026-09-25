@@ -1,0 +1,64 @@
+{
+  "id": "realme-c85-5g",
+  "name": "realme C85 5G",
+  "brand": "realme",
+  "category": "smartphone",
+  "series": "realme C",
+  "form": "bar",
+  "status": "released",
+  "announced": "2025-12-22",
+  "released": "2025-12-22",
+  "segment": "entry",
+  "aliases": [
+    "C85 5G"
+  ],
+  "summary": "A 6.8-inch 144 Hz 5G budget phone with the Dimensity 6300 and 45 W charging.",
+  "highlights": [
+    "Dimensity 6300",
+    "6.8-inch 144 Hz",
+    "IP69"
+  ],
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-25",
+      "source": "realme",
+      "note": "Listed on the maker’s Malaysian website, but no Malaysian launch price was found in a launch report."
+    }
+  },
+  "specs": {
+    "platform": {
+      "chipset": "dimensity-6300"
+    },
+    "build": {
+      "ip": "IP69"
+    },
+    "display": {
+      "size_in": 6.8,
+      "type": "LCD",
+      "resolution": "1570 × 720",
+      "refresh_hz": 144
+    },
+    "charging": {
+      "wired_w": 45
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "wifi": "Wi-Fi 5",
+      "nfc": true
+    },
+    "software": {
+      "launch_os": "Android 15"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "realme",
+      "url": "https://www.realme.com/my/realme-c85-5g/specs",
+      "checked": "2026-09-25",
+      "note": "Read automatically from the maker’s Malaysian specification page and reviewed; values not found on the page are left out."
+    }
+  },
+  "dataStatus": "compiled"
+}

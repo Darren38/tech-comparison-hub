@@ -92,6 +92,16 @@
             "id": "spec_battery_life",
             "w": 1
           }
+        ],
+        "earbuds": [
+          {
+            "id": "spec_battery_life",
+            "w": 0.5
+          },
+          {
+            "id": "spec_case_life",
+            "w": 0.5
+          }
         ]
       }
     },
@@ -236,6 +246,16 @@
       "question": "Which is tougher and easier to carry?",
       "metrics": {
         "default": [
+          {
+            "id": "spec_ip",
+            "w": 0.6
+          },
+          {
+            "id": "spec_weight",
+            "w": 0.4
+          }
+        ],
+        "earbuds": [
           {
             "id": "spec_ip",
             "w": 0.6

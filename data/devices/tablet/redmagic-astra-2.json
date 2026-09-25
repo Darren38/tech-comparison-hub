@@ -1,0 +1,102 @@
+{
+  "id": "redmagic-astra-2",
+  "name": "REDMAGIC Astra 2 Gaming Tablet",
+  "brand": "redmagic",
+  "category": "tablet",
+  "series": "REDMAGIC tablets",
+  "form": "tablet",
+  "status": "released",
+  "announced": "2026-09-03",
+  "released": "2026-09-03",
+  "segment": "flagship",
+  "aliases": [
+    "RedMagic Astra 2 Gaming Tablet",
+    "Red Magic Astra 2 Gaming Tablet"
+  ],
+  "summary": "The 2026 compact gaming tablet with the Snapdragon 8 Elite Gen 5, a 185 Hz OLED screen and liquid cooling.",
+  "highlights": [
+    "185 Hz OLED",
+    "Snapdragon 8 Elite Gen 5",
+    "363 g"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 4599,
+      "config": "12 GB / 256 GB",
+      "date": "2026-09-03",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2026/09/03/redmagic-astra-2-gaming-tablet-malaysia-launch-price-specs/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 5399,
+      "config": "16 GB / 512 GB",
+      "date": "2026-09-03",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2026/09/03/redmagic-astra-2-gaming-tablet-malaysia-launch-price-specs/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 9.06,
+      "type": "OLED",
+      "resolution": "2400 × 1504",
+      "ppi": 313,
+      "refresh_hz": 185,
+      "peak_nits": 1600
+    },
+    "platform": {
+      "chipset": "snapdragon-8-elite-gen-5"
+    },
+    "memory": {
+      "ram_gb": [
+        12,
+        16
+      ],
+      "storage_gb": [
+        256,
+        512
+      ]
+    },
+    "battery": {
+      "capacity_mah": 8300
+    },
+    "charging": {
+      "wired_w": 75
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 207.1,
+        "width_mm": 134.2,
+        "depth_mm": 6.9
+      },
+      "weight_g": 363,
+      "ip": "IP54"
+    },
+    "connectivity": {
+      "wifi": "Wi-Fi 7"
+    },
+    "software": {
+      "launch_os": "REDMAGIC OS 11.5 (Android 16)"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "redmagic",
+      "url": "https://global.redmagic.gg/pages/redmagic-astra-2-gaming-tablet-specs",
+      "checked": "2026-09-25",
+      "note": "Read from REDMAGIC’s global specification page."
+    }
+  },
+  "dataStatus": "compiled"
+}

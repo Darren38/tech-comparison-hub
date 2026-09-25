@@ -1,0 +1,155 @@
+{
+ "note": "Pictures a person rejected after checking (wrong model, a logo or certificate rather than the product). tools/find_images.py never uses these again.",
+ "rejected": {
+  "honor-600s-5g": [
+   "https://www.honor.com/content/dam/honor/common/product-list/product-series/honor-x7e-plus-5g/honor-x7e-plus-5g-gold-list.png"
+  ],
+  "redmi-buds-8-pro": [
+   "https://web.archive.org/web/20260509161802im_/https://i02.appmifile.com/i18n/share/new-logo.png"
+  ],
+  "realme-11-pro-plus": [
+   "https://image01.realme.net/general/20230803/16910476000054b5becb1b0f449a5b05d48ec06380a8a.png"
+  ],
+  "realme-11-pro": [
+   "https://image01.realme.net/general/20221229/1672279313016.png"
+  ],
+  "realme-11": [
+   "https://image01.realme.net/general/20230323/1679535083478.png"
+  ],
+  "realme-11x": [
+   "https://image01.realme.net/general/20231106/16992601688347cd3c586a103418880c9114a7a450686.png"
+  ],
+  "realme-12-plus": [
+   "https://image01.realme.net/general/20240229/1709197328984fd2592f2a55d48f39be66a2fe68eb9a2.png"
+  ],
+  "realme-12-pro-plus": [
+   "https://image01.realme.net/general/20240229/1709196793031f13c626f4def47c1bb2ad555053c2e9b.png"
+  ],
+  "realme-12x": [
+   "https://image01.realme.net/general/20240527/1716775161972348e9dc3e07043998cf99272e878cde7.png"
+  ],
+  "realme-13-plus": [
+   "https://image01.realme.net/general/20241121/17321804824903d1b3e1f620a420d9f4ba287e3fe275e.png"
+  ],
+  "realme-13-pro-plus": [
+   "https://image01.realme.net/general/20240920/1726815128052c609e6fe5e6742e1a223e8feeb26f240.png"
+  ],
+  "realme-13": [
+   "https://image01.realme.net/general/20241017/1729150380807e715a4bfd70643f99f5121ef9bc5f6c6.png"
+  ],
+  "realme-14-pro": [
+   "https://image01.realme.net/general/20250116/17370108957452e28e6b3de1b4d7a9ac627d4e057ab59.png"
+  ],
+  "realme-14": [
+   "https://image01.realme.net/general/20250415/1744710970853393b8a2572284a1ebde30a59fb57481d.png"
+  ],
+  "realme-14t": [
+   "https://image01.realme.net/general/20250516/1747383594890740458b0d59a4a88bd4e64d6075aa724.png"
+  ],
+  "realme-15-pro": [
+   "https://image01.realme.net/general/20250918/1758191180109f96d989db4684e0bbaefb7d8ab344b35.png"
+  ],
+  "realme-15": [
+   "https://image01.realme.net/general/20250918/17581911224016bb2626c40fb4fa9a82226b085a36804.png"
+  ],
+  "realme-15t": [
+   "https://image01.realme.net/general/20251022/176110342801224302582b67e42df95bf9fa7cba8517e.png"
+  ],
+  "realme-16-pro-plus": [
+   "https://image01.realme.net/general/20260417/1776418567860d2d49a58e0d5405a95aa40a0ee037e05.png"
+  ],
+  "realme-16-pro": [
+   "https://image01.realme.net/general/20260417/1776418655567fba2d9b8373a401991a5535f1b171ad2.png"
+  ],
+  "realme-16": [
+   "https://image01.realme.net/general/20260609/1780988068534a124d9df3f16416390aed2858793db49.png"
+  ],
+  "realme-16t": [
+   "https://image01.realme.net/general/20260609/1780988002264a8f3a3922e514fcc8697460ba3aaf81d.png"
+  ],
+  "realme-c100": [
+   "https://image01.realme.net/general/20260623/17821826128449922ee5258df4af2bb4b9b7b2ac7279c.png"
+  ],
+  "realme-c100i": [
+   "https://image01.realme.net/general/20260528/1779960783796fd56cad9076243f5abf3318cb9279855.png"
+  ],
+  "realme-c100x": [
+   "https://image01.realme.net/general/20260904/1788491412328fc08a26f5db24233b30c4964e9ae1e79.png"
+  ],
+  "realme-c51": [
+   "https://image01.realme.net/general/20221229/1672279313016.png"
+  ],
+  "realme-c55": [
+   "https://image01.realme.net/general/20230323/1679535093614.png"
+  ],
+  "realme-c61": [
+   "https://image01.realme.net/general/20240802/1722578542202c2aeae1a82c94ed0b44a022e4209b59b.png"
+  ],
+  "realme-c63": [
+   "https://image01.realme.net/general/20240704/1720085551575c60a55125398403daea1d5606a452c6e.png"
+  ],
+  "realme-c65": [
+   "https://image01.realme.net/general/20240704/172008561775069b48eb20a404fb295c0ac2664a5e572.png"
+  ],
+  "realme-c67": [
+   "https://static2.realme.net/images/realme-c67/icon/1.jpg"
+  ],
+  "realme-c75": [
+   "https://image01.realme.net/general/20241217/1734406386512ee36a0232c5241e2bdfb2c29e13f4627.png"
+  ],
+  "realme-c75x": [
+   "https://image01.realme.net/general/20250307/174134374214552601747043040d6bb4699391ff519c3.png"
+  ],
+  "realme-c85-5g": [
+   "https://image01.realme.net/general/20251222/1766400049352477b6dacecef433689b9b8df8a867cdf.png"
+  ],
+  "realme-gt-6": [
+   "https://image01.realme.net/general/20240619/17187834240246326134fbff0417893693a2caf3f602b.png"
+  ],
+  "realme-gt-6t": [
+   "https://image01.realme.net/general/20240620/17188760566371d4ab172d37f4896a2b4100238b31589.png"
+  ],
+  "realme-gt-7-pro": [
+   "https://image01.realme.net/general/20241115/17316434781716c3fb312f8624b46809ba347c4fd3796.png"
+  ],
+  "realme-gt-7": [
+   "https://image01.realme.net/general/20250618/17502290094084fa8d8eac91a466c9118ac645739d0d7.png"
+  ],
+  "realme-gt3": [
+   "https://image01.realme.net/general/20221229/1672279313016.png"
+  ],
+  "realme-note-50": [
+   "https://image01.realme.net/general/20240407/17124532926275fd610558988472d8e6299460adc4a74.jpg"
+  ],
+  "realme-note-60": [
+   "https://image01.realme.net/general/20241128/1732765780348b1cc1fd90c0f4ea1bf581a0bafea9399.png"
+  ],
+  "realme-note-60x": [
+   "https://image01.realme.net/general/20250107/1736218086234e5df236bc9a8469db5aa1a4c9ab59344.png"
+  ],
+  "realme-note-70": [
+   "https://image01.realme.net/general/20250821/17557718298775db808af7f9e4016a9cbd5614b5d7934.png"
+  ],
+  "realme-note-80": [
+   "https://image01.realme.net/general/20260417/1776418897665c9958bfdd32841b89d4d1efcce93864c.png"
+  ],
+  "realme-p3-ultra": [
+   "https://image01.realme.net/general/20250618/17502289067783a28776c07ce45a0b40993d3f8f56ea0.png"
+  ],
+  "realme-p4-lite": [
+   "https://image01.realme.net/general/20260608/17809072744176b2b8791c6e345c19b31f554fd205ecf.png"
+  ],
+  "realme-p4-power": [
+   "https://image01.realme.net/general/20260608/1780907801542bbf607c520f741638abfb55f40a75f83.png"
+  ],
+  "realme-p4x": [
+   "https://image01.realme.net/general/20260608/178090740215636fd511368554b58877d6d8f5e5c9597.png"
+  ],
+  "realme-pad-2": [
+   "https://image01.realme.net/general/20230323/1679535093614.png"
+  ],
+  "realme-pad-3": [
+   "https://image01.realme.net/general/20260417/177641875448702cea9f7519342e5920c3cb68a2cdbe4.png"
+  ]
+ }
+}

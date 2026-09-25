@@ -1,0 +1,89 @@
+{
+  "id": "oneplus-buds-pro-3",
+  "name": "OnePlus Buds Pro 3",
+  "brand": "oneplus",
+  "category": "earbuds",
+  "series": "OnePlus Buds",
+  "form": "buds",
+  "status": "released",
+  "segment": "upper-mid",
+  "aliases": [
+    "Buds Pro 3"
+  ],
+  "summary": "OnePlus’s premium two-driver earbuds with adaptive noise cancelling and up to 43 hours with the case.",
+  "highlights": [
+    "Two drivers",
+    "Adaptive noise cancelling",
+    "IP55"
+  ],
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-25",
+      "source": "oneplus",
+      "note": "Listed on OnePlus Malaysia’s website, but no Malaysian launch price was found in a launch report."
+    }
+  },
+  "specs": {
+    "audio": {
+      "anc": "Yes (adaptive, up to 50 dB claimed)",
+      "driver": "11 mm + 6 mm dual drivers",
+      "codecs": [
+        "LHDC 5.0",
+        "AAC",
+        "SBC"
+      ],
+      "mics": "3 mics + bone-conduction voice sensor"
+    },
+    "battery": {
+      "life_h": 10,
+      "life_anc_h": 6,
+      "total_h": 43,
+      "bud_mah": 58,
+      "case_mah": 566
+    },
+    "charging": {
+      "port": "USB-C"
+    },
+    "build": {
+      "style": "In-ear with silicone tips",
+      "weight_g": 5.28,
+      "case_weight_g": 50.57,
+      "dimensions": {
+        "height_mm": 33.6,
+        "width_mm": 25.0,
+        "depth_mm": 21.15
+      },
+      "case_dimensions": {
+        "height_mm": 64.7,
+        "width_mm": 52.45,
+        "depth_mm": 25.75
+      },
+      "ip": "IP55"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.4",
+      "multipoint": "Yes (dual-device connection)"
+    },
+    "software": {
+      "app": "HeyMelody (Android and iPhone)"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "oneplus",
+      "url": "https://www.oneplus.com/my/oneplus-buds-pro-3/specs",
+      "checked": "2026-09-25",
+      "note": "Read from OnePlus Malaysia’s specification page."
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://oasis.opstatics.com/content/dam/oasis/page/2024/global/product/oneplus-buds-pro-3/specs-black.png",
+    "page": "https://www.oneplus.com/my/oneplus-buds-pro-3",
+    "credit": "OnePlus",
+    "checked": "2026-09-25"
+  }
+}

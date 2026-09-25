@@ -31,13 +31,17 @@
       "ip": "IP68"
     },
     "connectivity": {
-      "usb": "Magnetic charging port; Compatibility; Android 9.0 or later; IOS 15.1 or later; Water Resistance Level; IP68",
-      "bluetooth": "Bluetooth"
+      "usb": "Magnetic charging port",
+      "bluetooth": "Bluetooth",
+      "compatibility": "Android 9.0 or later, IOS 15.1 or later"
     },
     "audio": {
-      "speakers": "Microphone; Charger Voltage and Current; 5V/1A or more"
+      "microphone": true
     },
-    "sensors": "Accelerometer sensor, Optical heart rate sensor"
+    "sensors": "Accelerometer sensor, Optical heart rate sensor",
+    "charging": {
+      "claim": "Charger: 5V/1A or more"
+    }
   },
   "provenance": {
     "default": {

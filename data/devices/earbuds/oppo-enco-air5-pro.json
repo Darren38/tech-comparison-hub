@@ -1,0 +1,79 @@
+{
+  "id": "oppo-enco-air5-pro",
+  "name": "OPPO Enco Air5 Pro",
+  "brand": "oppo",
+  "category": "earbuds",
+  "series": "OPPO Enco",
+  "form": "buds",
+  "status": "released",
+  "segment": "mid",
+  "aliases": [
+    "Enco Air5 Pro"
+  ],
+  "summary": "Noise-cancelling OPPO earbuds with Hi-Res LHDC 5.0 and up to 54 hours with the case.",
+  "highlights": [
+    "Noise cancelling",
+    "LHDC 5.0",
+    "Up to 54 h with case"
+  ],
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-25",
+      "source": "oppo",
+      "note": "Listed on OPPO Malaysia’s website, but no Malaysian launch price was found in a launch report."
+    }
+  },
+  "specs": {
+    "audio": {
+      "anc": "Yes",
+      "driver": "12 mm dynamic",
+      "codecs": [
+        "LHDC 5.0",
+        "AAC",
+        "SBC"
+      ]
+    },
+    "battery": {
+      "life_h": 13,
+      "life_anc_h": 7,
+      "total_h": 54,
+      "bud_mah": 62,
+      "case_mah": 530
+    },
+    "charging": {
+      "port": "USB-C"
+    },
+    "build": {
+      "weight_g": 4.4,
+      "dimensions": {
+        "height_mm": 30.91,
+        "width_mm": 19.93,
+        "depth_mm": 17.06
+      },
+      "case_dimensions": {
+        "height_mm": 63.37,
+        "width_mm": 50.03,
+        "depth_mm": 24.74
+      },
+      "ip": "IP55",
+      "case_weight_g": 34.2
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 6.0"
+    },
+    "software": {
+      "app": "HeyMelody (Android and iPhone)"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "oppo",
+      "url": "https://www.oppo.com/my/accessories/enco-air5-pro/specs/",
+      "checked": "2026-09-25",
+      "note": "Read from OPPO Malaysia’s specification page. Case weight is the listed earbuds-plus-case weight minus two earbuds."
+    }
+  },
+  "dataStatus": "compiled"
+}

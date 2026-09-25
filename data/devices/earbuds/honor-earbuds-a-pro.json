@@ -1,0 +1,78 @@
+{
+  "id": "honor-earbuds-a-pro",
+  "name": "HONOR Earbuds A Pro",
+  "brand": "honor",
+  "category": "earbuds",
+  "series": "HONOR Earbuds",
+  "form": "buds",
+  "status": "released",
+  "segment": "entry",
+  "aliases": [],
+  "summary": "Low-cost HONOR earbuds with noise cancelling, IP54 and up to 42 hours with the case.",
+  "highlights": [
+    "Noise cancelling",
+    "IP54",
+    "Up to 42 h with case"
+  ],
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-25",
+      "source": "honor",
+      "note": "Listed on HONOR Malaysia’s website, but no Malaysian launch price was found in a launch report."
+    }
+  },
+  "specs": {
+    "audio": {
+      "anc": "Yes (up to 49 dB claimed)",
+      "driver": "12.4 mm dynamic"
+    },
+    "battery": {
+      "life_h": 9,
+      "total_h": 42,
+      "bud_mah": 45,
+      "case_mah": 500
+    },
+    "charging": {
+      "port": "USB-C"
+    },
+    "build": {
+      "weight_g": 5.3,
+      "case_weight_g": 37.2,
+      "dimensions": {
+        "height_mm": 33.31,
+        "width_mm": 23.65,
+        "depth_mm": 20.73
+      },
+      "case_dimensions": {
+        "height_mm": 59.97,
+        "width_mm": 59.97,
+        "depth_mm": 24.84
+      },
+      "ip": "IP54"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.3"
+    },
+    "software": {
+      "app": "HONOR AI Space / HONOR Earbuds app"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "honor",
+      "url": "https://www.honor.com/my/audio/honor-earbuds-a-pro/spec/",
+      "checked": "2026-09-25",
+      "note": "Read from HONOR Malaysia’s specification page. The case is round: HONOR lists a 59.97 mm diameter and 24.84 mm height, stored here as 59.97 × 59.97 × 24.84 mm."
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://www-file.honor.com/content/dam/honor/common/product-list/audio/honor-earbuds-a-pro/global/honor-earbuds-a-pro-g-list.png",
+    "page": "https://www.honor.com/my/audio/honor-earbuds-a-pro/",
+    "credit": "HONOR",
+    "checked": "2026-09-25"
+  }
+}

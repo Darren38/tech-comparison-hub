@@ -1,0 +1,94 @@
+{
+  "id": "oneplus-nord-ce4-lite",
+  "name": "OnePlus Nord CE4 Lite 5G",
+  "brand": "oneplus",
+  "category": "smartphone",
+  "series": "OnePlus Nord",
+  "form": "bar",
+  "status": "released",
+  "announced": "2024-07-24",
+  "released": "2024-07-24",
+  "segment": "mid",
+  "aliases": [
+    "Nord CE4 Lite"
+  ],
+  "summary": "A 5G mid-range phone with the Snapdragon 695, a 5,500 mAh battery, 80 W charging and a 50 MP main camera.",
+  "highlights": [
+    "Snapdragon 695",
+    "5,500 mAh, 80 W"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1299,
+      "config": "Launch price",
+      "date": "2024-07-24",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2024/07/24/oneplus-nord-ce4-lite-5g-malaysia-price-specs/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "build": {
+      "weight_g": 191.0,
+      "dimensions": {
+        "height_mm": 162.9,
+        "width_mm": 75.6,
+        "depth_mm": 8.1
+      }
+    },
+    "display": {
+      "resolution": "2400 × 1080",
+      "refresh_hz": 120,
+      "peak_nits": 2100
+    },
+    "software": {
+      "launch_os": "Android 14"
+    },
+    "platform": {
+      "chipset": "snapdragon-695"
+    },
+    "memory": {
+      "ram_gb": [
+        8
+      ],
+      "storage_gb": [
+        256
+      ]
+    },
+    "battery": {
+      "capacity_mah": 5500
+    },
+    "charging": {
+      "wired_w": 80
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "wifi": "Wi-Fi 5",
+      "bluetooth": "Bluetooth 5.1",
+      "nfc": true
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "focal_mm": 25
+        }
+      ]
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "oneplus",
+      "url": "https://www.oneplus.com/my/nord-ce4-lite-5g/specs",
+      "checked": "2026-09-25",
+      "note": "Read automatically from the maker’s Malaysian specification page and reviewed; values not found on the page are left out."
+    }
+  },
+  "dataStatus": "compiled"
+}

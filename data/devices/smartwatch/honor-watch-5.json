@@ -32,9 +32,10 @@
     },
     "connectivity": {
       "gps": "Built-in GNSS",
-      "usb": "POGO PIN Charge, standard charging base; Compatibility; Android 9.0 or higher version; iOS 12.0 or higher version; Water Resistance Level; 5ATM, IP68",
+      "usb": "POGO PIN Charge, standard charging base",
       "positioning": "GPS/Glonass/Beidou/GALILEO/QZSS",
-      "bluetooth": "2.4 GHz, BT5.2, Supports BLE/BR/EDR"
+      "bluetooth": "2.4 GHz, BT5.2, Supports BLE/BR/EDR",
+      "compatibility": "Android 9.0 or higher version, iOS 12.0 or higher version"
     },
     "build": {
       "weight_g": 35.0,
@@ -43,7 +44,7 @@
       "ip": "IP68"
     },
     "audio": {
-      "speakers": "Microphone"
+      "microphone": true
     },
     "sensors": "Accelerometer sensor, Gyroscope sensor, Geomagnetic sensor, Optical heart rate sensor, Ambient light sensor",
     "misc": {

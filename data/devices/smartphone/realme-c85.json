@@ -1,0 +1,77 @@
+{
+  "id": "realme-c85",
+  "name": "realme C85",
+  "brand": "realme",
+  "category": "smartphone",
+  "series": "realme C",
+  "form": "bar",
+  "status": "released",
+  "announced": "2025-12-22",
+  "released": "2025-12-22",
+  "segment": "entry",
+  "aliases": [
+    "C85"
+  ],
+  "summary": "A 6.8-inch 144 Hz 4G budget phone with the Snapdragon 685 and 45 W charging.",
+  "highlights": [
+    "Snapdragon 685",
+    "6.8-inch 144 Hz",
+    "IP69"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 749,
+      "config": "Lowest configuration (C85 series)",
+      "date": "2025-12-22",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/12/22/realme-c85-series-malaysia-4g-5g-price-specs/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "platform": {
+      "chipset": "snapdragon-685"
+    },
+    "build": {
+      "ip": "IP69"
+    },
+    "display": {
+      "size_in": 6.8,
+      "type": "LCD",
+      "resolution": "1570 × 720",
+      "refresh_hz": 144
+    },
+    "charging": {
+      "wired_w": 45
+    },
+    "connectivity": {
+      "wifi": "Wi-Fi 5",
+      "nfc": true,
+      "cellular": "4G"
+    },
+    "software": {
+      "launch_os": "Android 15"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "realme",
+      "url": "https://www.realme.com/my/realme-c85/specs",
+      "checked": "2026-09-25",
+      "note": "Read automatically from the maker’s Malaysian specification page and reviewed; values not found on the page are left out."
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://image01.realme.net/general/20251208/17651620416564d84af546c174faeb8505288ef139ef2.jpg",
+    "page": "https://www.realme.com/my/realme-c85/specs",
+    "credit": "Realme",
+    "checked": "2026-09-25"
+  }
+}

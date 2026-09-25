@@ -1,0 +1,87 @@
+{
+  "id": "realme-note-50",
+  "name": "realme Note 50",
+  "brand": "realme",
+  "category": "smartphone",
+  "series": "realme Note",
+  "form": "bar",
+  "status": "released",
+  "announced": "2024-04-04",
+  "released": "2024-04-04",
+  "segment": "entry",
+  "aliases": [
+    "Note 50"
+  ],
+  "summary": "A 6.74-inch 90 Hz 4G budget phone with a 5,000 mAh battery and a 13 MP main camera.",
+  "highlights": [
+    "6.74-inch 90 Hz",
+    "5,000 mAh"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 299,
+      "config": "Lowest configuration",
+      "date": "2024-04-04",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2024/04/04/realme-note-50-malaysia-launch-pricing-specs-official/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 6.74,
+      "refresh_hz": 90
+    },
+    "memory": {
+      "ram_gb": [
+        4
+      ],
+      "storage_gb": [
+        64,
+        128
+      ]
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.0",
+      "cellular": "4G"
+    },
+    "build": {
+      "weight_g": 186.0,
+      "dimensions": {
+        "height_mm": 167.2,
+        "width_mm": 76.7,
+        "depth_mm": 7.99
+      }
+    },
+    "software": {
+      "launch_os": "Android 13"
+    },
+    "camera": {
+      "front": "5 MP",
+      "rear": [
+        {
+          "role": "main",
+          "mp": 13,
+          "focal_mm": 25
+        }
+      ]
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "realme",
+      "url": "https://www.realme.com/my/realme-note50/specs",
+      "checked": "2026-09-25",
+      "note": "Read automatically from the maker’s Malaysian specification page and reviewed; values not found on the page are left out."
+    }
+  },
+  "dataStatus": "compiled"
+}

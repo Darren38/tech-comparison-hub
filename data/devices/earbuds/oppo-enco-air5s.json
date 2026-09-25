@@ -1,0 +1,78 @@
+{
+  "id": "oppo-enco-air5s",
+  "name": "OPPO Enco Air5s",
+  "brand": "oppo",
+  "category": "earbuds",
+  "series": "OPPO Enco",
+  "form": "buds",
+  "status": "released",
+  "segment": "entry",
+  "aliases": [
+    "Enco Air5s"
+  ],
+  "summary": "Light OPPO earbuds (3.9 g) with noise cancelling and up to 48 hours with the case.",
+  "highlights": [
+    "3.9 g earbuds",
+    "Noise cancelling",
+    "Up to 48 h with case"
+  ],
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-25",
+      "source": "oppo",
+      "note": "Listed on OPPO Malaysia’s website, but no Malaysian launch price was found in a launch report."
+    }
+  },
+  "specs": {
+    "audio": {
+      "anc": "Yes",
+      "driver": "12 mm dynamic",
+      "codecs": [
+        "AAC",
+        "SBC"
+      ]
+    },
+    "battery": {
+      "life_h": 9,
+      "life_anc_h": 4.5,
+      "total_h": 48,
+      "bud_mah": 40.5,
+      "case_mah": 530
+    },
+    "charging": {
+      "port": "USB-C"
+    },
+    "build": {
+      "weight_g": 3.9,
+      "dimensions": {
+        "height_mm": 30.59,
+        "width_mm": 18.17,
+        "depth_mm": 18.02
+      },
+      "case_dimensions": {
+        "height_mm": 57.19,
+        "width_mm": 52.19,
+        "depth_mm": 24.66
+      },
+      "ip": "IP55",
+      "case_weight_g": 30.9
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 6.0"
+    },
+    "software": {
+      "app": "HeyMelody (Android and iPhone)"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "oppo",
+      "url": "https://www.oppo.com/my/accessories/enco-air5s/specs/",
+      "checked": "2026-09-25",
+      "note": "Read from OPPO Malaysia’s specification page. Case weight is the listed earbuds-plus-case weight minus two earbuds."
+    }
+  },
+  "dataStatus": "compiled"
+}

@@ -43,16 +43,16 @@
     },
     "connectivity": {
       "gps": "Built-in GNSS",
-      "bluetooth": "2.4 GHz, Bluetooth 5.2 supporting BR and BLE; System Requirements; Android 8.0 or later; iOS 13.0 or later; Battery Life; The 10-day maximum battery life is tested under the following conditions:",
+      "bluetooth": "2.4 GHz, Bluetooth 5.2 supporting BR and BLE",
       "usb": "Magnetic charging pin",
       "nfc": true
     },
-    "sensors": "9-axis IMU sensor (Accelerometer sensor, Gyroscope sensor, Magnetometer sensor), Optical heart rate sensor, Ambient light sensor, Button, Rotating crown, Function button, Water Resistance Level, 5 ATM water-resistant, *The device complies with 5 ATM-rated water resistance under the ISO 22810:2010 standard, which indicates that the device can withstand up to 50 metres of static water pressure for 1",
+    "sensors": "9-axis IMU sensor (Accelerometer sensor, Gyroscope sensor, Magnetometer sensor), Optical heart rate sensor, Ambient light sensor",
     "misc": {
       "colors": "Gold (White Leather), Silver (Grey, Green, White), Pink (Pink), Tarnish (Black), Material, Aluminum alloy"
     },
     "charging": {
-      "claim": "Charger voltage and current requirements; 5V/1A; Defined Support Period; 2 years (until 20/05/2026)"
+      "claim": "Charger: 5V/1A"
     }
   },
   "provenance": {

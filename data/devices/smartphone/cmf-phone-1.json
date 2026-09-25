@@ -1,0 +1,112 @@
+{
+  "id": "cmf-phone-1",
+  "name": "CMF Phone 1",
+  "brand": "nothing",
+  "category": "smartphone",
+  "series": "CMF Phone",
+  "form": "bar",
+  "status": "released",
+  "announced": "2024-07-08",
+  "released": "2024-07-08",
+  "segment": "entry",
+  "aliases": [
+    "CMF Phone 1",
+    "CMF Phone 1"
+  ],
+  "summary": "Nothing’s budget CMF phone with screw-on back covers you can swap, a 120 Hz AMOLED screen and the Dimensity 7300.",
+  "highlights": [
+    "Swappable back covers",
+    "120 Hz AMOLED",
+    "Dimensity 7300"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1099,
+      "config": "8 GB / 128 GB",
+      "date": "2024-07-08",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2024/07/08/cmf-phone-1-nothing-cheapest-phone-malaysia-price-specs/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 6.67,
+      "type": "AMOLED",
+      "resolution": "2400 × 1080",
+      "ppi": 395,
+      "peak_nits": 2000,
+      "refresh_hz": 120
+    },
+    "platform": {
+      "chipset": "dimensity-7300"
+    },
+    "memory": {
+      "ram_gb": [
+        8,
+        12
+      ],
+      "storage_gb": [
+        128,
+        256
+      ]
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "charging": {
+      "wired_w": 33
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "focal_mm": 25
+        }
+      ],
+      "front": "16 MP"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 164,
+        "width_mm": 77,
+        "depth_mm": 8
+      },
+      "weight_g": 197,
+      "ip": "IP52"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": false,
+      "wifi": "Wi-Fi 6",
+      "bluetooth": "Bluetooth 5.3"
+    },
+    "software": {
+      "launch_os": "Nothing OS 2.6 (Android 14)",
+      "os_updates_years": 2,
+      "security_updates_years": 3
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "nothing",
+      "url": "https://intl.nothing.tech/products/cmf-phone-1",
+      "checked": "2026-09-25",
+      "note": "Read from the specs section of Nothing’s international store page. Size and weight are for the standard back (vegan leather: 9 mm, 202 g)."
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://cdn.shopify.com/s/files/1/0585/2479/5086/files/2048x1352BuyPage-BlackPhone-1.png",
+    "page": "https://intl.nothing.tech/products/cmf-phone-1",
+    "credit": "Nothing",
+    "checked": "2026-09-25"
+  }
+}

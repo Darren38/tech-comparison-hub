@@ -1,0 +1,124 @@
+{
+  "id": "google-pixel-10-pro-fold",
+  "name": "Pixel 10 Pro Fold",
+  "brand": "google",
+  "category": "smartphone",
+  "series": "Pixel Fold",
+  "form": "foldable",
+  "status": "released",
+  "announced": "2025-10-09",
+  "released": "2025-10-09",
+  "segment": "flagship",
+  "aliases": [
+    "Google Pixel 10 Pro Fold"
+  ],
+  "summary": "Google’s first foldable sold in Malaysia, rated IP68 for dust and water, with Qi2 magnetic wireless charging.",
+  "highlights": [
+    "IP68 foldable",
+    "8-inch inner screen",
+    "Qi2 magnetic charging"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 7999,
+      "config": "16 GB / 256 GB",
+      "date": "2025-10-09",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/10/09/google-pixel-10-pro-fold-malaysia-release/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 8599,
+      "config": "16 GB / 512 GB",
+      "date": "2025-10-09",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/10/09/google-pixel-10-pro-fold-malaysia-release/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 8.0,
+      "type": "Super Actua Flex OLED (inner); 6.4-inch Actua OLED cover screen",
+      "resolution": "2152 × 2076",
+      "ppi": 373,
+      "refresh_hz": 120,
+      "peak_nits": 3000
+    },
+    "platform": {
+      "chipset": "google-tensor-g5"
+    },
+    "memory": {
+      "ram_gb": [
+        16
+      ],
+      "storage_gb": [
+        256,
+        512,
+        1024
+      ]
+    },
+    "battery": {
+      "capacity_mah": 5015
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 48
+        },
+        {
+          "role": "ultrawide",
+          "mp": 10.5
+        },
+        {
+          "role": "telephoto",
+          "mp": 10.8,
+          "zoom_x": 5
+        }
+      ],
+      "front": "10 MP (cover and inner)",
+      "zoom_optical_x": 5
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 155.2,
+        "width_mm": 150.4,
+        "depth_mm": 5.2
+      },
+      "weight_g": 258,
+      "ip": "IP68"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "wifi": "Wi-Fi 7",
+      "bluetooth": "Bluetooth 6.0"
+    },
+    "software": {
+      "launch_os": "Android 16",
+      "os_updates_years": 7,
+      "security_updates_years": 7
+    },
+    "charging": {
+      "wireless_w": 15
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "google",
+      "url": "https://support.google.com/pixelphone/answer/7158570?hl=en-GB",
+      "checked": "2026-09-25",
+      "note": "Read from Google’s Pixel phone hardware tech specs page (international figures). Folded it measures 155.2 × 76.3 × 10.8 mm (depth excludes the camera bump)."
+    }
+  },
+  "dataStatus": "compiled"
+}

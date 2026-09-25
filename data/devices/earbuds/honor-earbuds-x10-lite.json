@@ -1,0 +1,78 @@
+{
+  "id": "honor-earbuds-x10-lite",
+  "name": "HONOR Earbuds X10 Lite",
+  "brand": "honor",
+  "category": "earbuds",
+  "series": "HONOR Earbuds",
+  "form": "buds",
+  "status": "released",
+  "segment": "entry",
+  "aliases": [],
+  "summary": "Budget HONOR earbuds with noise cancelling, Bluetooth 5.4 and up to 45 hours with the case.",
+  "highlights": [
+    "Noise cancelling",
+    "Up to 45 h with case",
+    "IP54"
+  ],
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-25",
+      "source": "honor",
+      "note": "Listed on HONOR Malaysia’s website, but no Malaysian launch price was found in a launch report."
+    }
+  },
+  "specs": {
+    "audio": {
+      "anc": "Yes (up to 42 dB claimed)",
+      "driver": "12.4 mm dynamic"
+    },
+    "battery": {
+      "life_h": 8,
+      "total_h": 45,
+      "bud_mah": 40,
+      "case_mah": 500
+    },
+    "charging": {
+      "port": "USB-C"
+    },
+    "build": {
+      "weight_g": 4.5,
+      "case_weight_g": 30,
+      "dimensions": {
+        "height_mm": 33.01,
+        "width_mm": 24.18,
+        "depth_mm": 21.22
+      },
+      "case_dimensions": {
+        "height_mm": 61.2,
+        "width_mm": 48.7,
+        "depth_mm": 24.5
+      },
+      "ip": "IP54"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.4"
+    },
+    "software": {
+      "app": "HONOR AI Space / HONOR Earbuds app"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "honor",
+      "url": "https://www.honor.com/my/audio/honor-earbuds-x10-lite/spec/",
+      "checked": "2026-09-25",
+      "note": "Read from HONOR Malaysia’s specification page."
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://www-file.honor.com/content/dam/honor/common/product-list/audio/honor-earbuds-x10-lite/honor-earbuds-x10-lite.png",
+    "page": "https://www.honor.com/my/audio/honor-earbuds-x10-lite/",
+    "credit": "HONOR",
+    "checked": "2026-09-25"
+  }
+}

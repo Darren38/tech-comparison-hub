@@ -1,0 +1,77 @@
+{
+  "id": "redmi-buds-6-lite",
+  "name": "REDMI Buds 6 Lite",
+  "brand": "redmi",
+  "category": "earbuds",
+  "series": "REDMI Buds",
+  "form": "buds",
+  "status": "released",
+  "segment": "entry",
+  "aliases": [],
+  "summary": "Low-cost REDMI earbuds with hybrid noise cancelling and up to 38 hours with the case.",
+  "highlights": [
+    "Noise cancelling",
+    "Up to 38 h with case",
+    "12.4 mm driver"
+  ],
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-25",
+      "source": "xiaomi",
+      "note": "Listed on Xiaomi Malaysia’s website, but no Malaysian launch price was found in a launch report."
+    }
+  },
+  "specs": {
+    "audio": {
+      "anc": "Yes (hybrid, up to 40 dB claimed)",
+      "driver": "12.4 mm dynamic, titanium diaphragm"
+    },
+    "battery": {
+      "life_h": 7,
+      "total_h": 38,
+      "bud_mah": 45,
+      "case_mah": 480
+    },
+    "build": {
+      "weight_g": 4.2,
+      "case_weight_g": 38.5,
+      "dimensions": {
+        "height_mm": 31,
+        "width_mm": 23.45,
+        "depth_mm": 21.4
+      },
+      "case_dimensions": {
+        "height_mm": 57,
+        "width_mm": 55.95,
+        "depth_mm": 26.85
+      }
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.3"
+    },
+    "charging": {
+      "port": "USB-C"
+    },
+    "software": {
+      "app": "Xiaomi Earbuds"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "xiaomi",
+      "url": "https://web.archive.org/web/20250130081849/https://www.mi.com/my/product/redmi-buds-6-lite/specs/",
+      "checked": "2026-09-25",
+      "note": "Read from Xiaomi Malaysia’s specification page (Internet Archive copy); battery and noise-cancelling claims from the overview page (https://web.archive.org/web/20260825115457/https://www.mi.com/my/product/redmi-buds-6-lite/). Battery life is AAC music playback at 50% volume."
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://web.archive.org/web/20250326103615im_/https://i02.appmifile.com/595_item_my/25/02/2025/cc837e7d896770698655b2823a680ae5.png",
+    "page": "https://web.archive.org/web/20250130081849/https://www.mi.com/my/product/redmi-buds-6-lite/specs/",
+    "credit": "Xiaomi Malaysia (Internet Archive copy)",
+    "checked": "2026-09-25"
+  }
+}

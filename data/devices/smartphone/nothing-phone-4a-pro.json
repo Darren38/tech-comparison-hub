@@ -1,0 +1,93 @@
+{
+  "id": "nothing-phone-4a-pro",
+  "name": "Nothing Phone (4a) Pro",
+  "brand": "nothing",
+  "category": "smartphone",
+  "series": "Nothing Phone",
+  "form": "bar",
+  "status": "released",
+  "announced": "2026-04-03",
+  "released": "2026-04-03",
+  "segment": "upper-mid",
+  "aliases": [
+    "Phone (4a) Pro",
+    "Nothing Phone 4a Pro"
+  ],
+  "summary": "A 6.83-inch 144 Hz 5G upper mid-range phone with the Snapdragon 7 Gen 4, a 5,080 mAh battery, 50 W charging and a 50 MP main camera.",
+  "highlights": [
+    "Snapdragon 7 Gen 4",
+    "6.83-inch 144 Hz",
+    "5,080 mAh, 50 W"
+  ],
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-25",
+      "source": "nothing",
+      "note": "Sold in Malaysia, but no Malaysian launch price was found in a launch report."
+    }
+  },
+  "specs": {
+    "software": {
+      "os_updates_years": 3,
+      "launch_os": "Android 16",
+      "security_updates_years": 6
+    },
+    "build": {
+      "ip": "IP65",
+      "dimensions": {
+        "height_mm": 163.6,
+        "width_mm": 76.6,
+        "depth_mm": 7.9
+      },
+      "weight_g": 210
+    },
+    "display": {
+      "size_in": 6.83,
+      "type": "AMOLED",
+      "resolution": "2800 × 1260",
+      "ppi": 450,
+      "peak_nits": 5000,
+      "refresh_hz": 144
+    },
+    "battery": {
+      "capacity_mah": 5080
+    },
+    "charging": {
+      "wired_w": 50
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50
+        },
+        {
+          "role": "periscope",
+          "mp": 50
+        },
+        {
+          "role": "ultrawide"
+        }
+      ],
+      "front": "32 MP",
+      "zoom_optical_x": 3.5
+    },
+    "connectivity": {
+      "cellular": "5G"
+    },
+    "platform": {
+      "chipset": "snapdragon-7-gen-4"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "nothing",
+      "url": "https://intl.nothing.tech/products/phone-4a-pro?Colour=Silver&Capacity=12%2B256GB",
+      "checked": "2026-09-25",
+      "note": "Read from the specifications section of Nothing’s product page (international store)."
+    }
+  },
+  "dataStatus": "compiled"
+}

@@ -1,0 +1,117 @@
+{
+  "id": "redmagic-10-air",
+  "name": "REDMAGIC 10 Air",
+  "brand": "redmagic",
+  "category": "smartphone",
+  "series": "REDMAGIC",
+  "form": "bar",
+  "status": "released",
+  "announced": "2025-04-30",
+  "released": "2025-04-30",
+  "segment": "upper-mid",
+  "aliases": [
+    "RedMagic 10 Air",
+    "Red Magic 10 Air"
+  ],
+  "summary": "A thin, light REDMAGIC with the Snapdragon 8 Gen 3, a 6,000 mAh battery, 80 W charging and shoulder triggers.",
+  "highlights": [
+    "7.85 mm thin",
+    "Snapdragon 8 Gen 3",
+    "6,000 mAh"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 3199,
+      "config": "12 GB / 256 GB",
+      "date": "2025-04-30",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/04/30/redmagic-10-air-launch-malaysia-specs-price-promo/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 4099,
+      "config": "16 GB / 512 GB",
+      "date": "2025-04-30",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/04/30/redmagic-10-air-launch-malaysia-specs-price-promo/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 6.8,
+      "type": "AMOLED",
+      "resolution": "2480 × 1116",
+      "refresh_hz": 120,
+      "peak_nits": 1600
+    },
+    "platform": {
+      "chipset": "snapdragon-8-gen-3"
+    },
+    "memory": {
+      "ram_gb": [
+        12,
+        16
+      ],
+      "storage_gb": [
+        256,
+        512
+      ]
+    },
+    "battery": {
+      "capacity_mah": 6000
+    },
+    "charging": {
+      "wired_w": 80
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50
+        }
+      ],
+      "front": "16 MP",
+      "rear_detail": [
+        "50 MP main (OIS)",
+        "50 MP"
+      ]
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 164.3,
+        "width_mm": 76.6,
+        "depth_mm": 7.85
+      },
+      "weight_g": 205,
+      "ip": "IP54"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true,
+      "wifi": "Wi-Fi 7",
+      "bluetooth": "Bluetooth 5.4"
+    },
+    "software": {
+      "launch_os": "REDMAGIC OS 10"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "redmagic",
+      "url": "https://global.redmagic.gg/pages/redmagic-10-air-specs",
+      "checked": "2026-09-25",
+      "note": "Read from REDMAGIC’s global specification page."
+    }
+  },
+  "dataStatus": "compiled"
+}

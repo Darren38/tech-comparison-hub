@@ -1,0 +1,78 @@
+{
+  "id": "redmi-buds-5",
+  "name": "REDMI Buds 5",
+  "brand": "redmi",
+  "category": "earbuds",
+  "series": "REDMI Buds",
+  "form": "buds",
+  "status": "released",
+  "announced": "2024-01-15",
+  "released": "2024-01-15",
+  "segment": "entry",
+  "aliases": [],
+  "summary": "Budget REDMI earbuds with real noise cancelling (up to 46 dB claimed) and up to 40 hours with the case.",
+  "highlights": [
+    "Noise cancelling",
+    "Up to 40 h with case",
+    "12.4 mm driver"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 199,
+      "config": "Launch price",
+      "date": "2024-01-15",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2024/01/15/redmi-buds-5-malaysia-larger-drivers-up-to-52db-anc-from-rm199/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "audio": {
+      "anc": "Yes (up to 46 dB claimed)",
+      "driver": "12.4 mm dynamic, titanium-plated diaphragm"
+    },
+    "battery": {
+      "life_h": 10,
+      "total_h": 40,
+      "bud_mah": 54,
+      "case_mah": 480
+    },
+    "build": {
+      "weight_g": 5.3,
+      "case_weight_g": 31.4,
+      "dimensions": {
+        "height_mm": 29.5,
+        "width_mm": 23.5,
+        "depth_mm": 21.4
+      },
+      "case_dimensions": {
+        "height_mm": 61,
+        "width_mm": 50,
+        "depth_mm": 24.6
+      }
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.3"
+    },
+    "charging": {
+      "port": "USB-C"
+    },
+    "software": {
+      "app": "Xiaomi Earbuds"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "xiaomi",
+      "url": "https://web.archive.org/web/20260422235254/https://www.mi.com/my/product/redmi-buds-5/specs/",
+      "checked": "2026-09-25",
+      "note": "Read from Xiaomi Malaysia’s specification page (Internet Archive copy); battery and noise-cancelling claims from the overview page (https://web.archive.org/web/20260825115455/https://www.mi.com/my/product/redmi-buds-5/). Battery hours are with noise cancelling off."
+    }
+  },
+  "dataStatus": "compiled"
+}

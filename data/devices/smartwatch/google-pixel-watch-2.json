@@ -1,0 +1,98 @@
+{
+  "id": "google-pixel-watch-2",
+  "name": "Google Pixel Watch 2",
+  "brand": "google",
+  "category": "smartwatch",
+  "series": "Pixel Watch",
+  "form": "watch",
+  "status": "released",
+  "announced": "2023",
+  "released": "2023",
+  "segment": "flagship",
+  "aliases": [
+    "Pixel Watch 2"
+  ],
+  "summary": "Google’s 2023 round watch with ECG, skin-temperature and body-response sensors and up to 24 hours of battery.",
+  "highlights": [
+    "ECG + skin temperature",
+    "Up to 24 h",
+    "41 mm"
+  ],
+  "availability": {
+    "MY": {
+      "status": "not-launched",
+      "checked": "2026-09-25",
+      "source": "soyacincau",
+      "note": "Not sold officially in Malaysia (Google began selling Pixel devices here in August 2024)."
+    }
+  },
+  "specs": {
+    "display": {
+      "size_mm": "41 mm",
+      "type": "AMOLED",
+      "ppi": 320,
+      "peak_nits": 1000
+    },
+    "platform": {
+      "chipset_note": "Qualcomm Snapdragon W5 Gen 1 + Cortex-M33 co-processor"
+    },
+    "memory": {
+      "ram_gb": [
+        2
+      ],
+      "storage_gb": [
+        32
+      ]
+    },
+    "battery": {
+      "capacity_mah": 306,
+      "life_h": 24,
+      "claim": "Up to 24 h with always-on display"
+    },
+    "health": {
+      "sensors": [
+        "Optical heart rate (multi-path)",
+        "ECG",
+        "SpO2",
+        "Skin temperature",
+        "Skin conductance (cEDA)",
+        "Compass",
+        "Altimeter",
+        "Barometer",
+        "Gyroscope"
+      ]
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 41,
+        "width_mm": 41,
+        "depth_mm": 12.3
+      },
+      "weight_g": 31,
+      "case": "Recycled aluminium",
+      "water": "5 ATM + IP68",
+      "water_m": 50,
+      "ip": "IP68"
+    },
+    "connectivity": {
+      "cellular": "LTE (optional)",
+      "nfc": true,
+      "bluetooth": "Bluetooth 5.0",
+      "wifi": "Wi-Fi 4 (2.4 GHz)",
+      "compatibility": "Android only"
+    },
+    "software": {
+      "launch_os": "Wear OS 4.0"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "google",
+      "url": "https://support.google.com/googlepixelwatch/answer/12651869?hl=en-GB",
+      "checked": "2026-09-25",
+      "note": "Read from Google’s Pixel Watch specifications help page."
+    }
+  },
+  "dataStatus": "compiled"
+}

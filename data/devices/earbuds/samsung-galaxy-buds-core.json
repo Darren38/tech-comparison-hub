@@ -1,0 +1,97 @@
+{
+  "id": "samsung-galaxy-buds-core",
+  "name": "Galaxy Buds Core",
+  "brand": "samsung",
+  "category": "earbuds",
+  "series": "Galaxy Buds",
+  "form": "buds",
+  "status": "released",
+  "announced": "2025-09-08",
+  "released": "2025-09",
+  "segment": "entry",
+  "aliases": [
+    "Buds Core"
+  ],
+  "summary": "Samsung’s lowest-priced noise-cancelling earbuds (RM199) with wing tips for a secure fit and IP54.",
+  "highlights": [
+    "Noise cancelling",
+    "Up to 35 h with case",
+    "RM199"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 199,
+      "config": "Retail price",
+      "date": "2025-09-08",
+      "type": "launch",
+      "source": "samsung",
+      "url": "https://news.samsung.com/my/samsung-unveils-galaxy-buds-core-for-the-everyday-user",
+      "class": "official",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "audio": {
+      "anc": "Yes",
+      "driver": "One-way dynamic",
+      "spatial": "No",
+      "mics": "6 microphones",
+      "codecs": [
+        "Scalable Codec",
+        "AAC",
+        "SBC"
+      ]
+    },
+    "battery": {
+      "total_h": 35,
+      "bud_mah": 65,
+      "case_mah": 500,
+      "claim": "Up to 35 h in total with the case (20 h with noise cancelling); Samsung gives no earbud-only figure"
+    },
+    "charging": {
+      "port": "USB-C"
+    },
+    "build": {
+      "style": "In-ear with silicone tips and wing tips",
+      "weight_g": 5.3,
+      "dimensions": {
+        "height_mm": 19.2,
+        "width_mm": 17.1,
+        "depth_mm": 22.2
+      },
+      "case_weight_g": 31.2,
+      "case_dimensions": {
+        "height_mm": 50.0,
+        "width_mm": 50.0,
+        "depth_mm": 27.7
+      },
+      "ip": "IP54"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.4",
+      "compatibility": "Android phones (Samsung Galaxy for all features)"
+    },
+    "software": {
+      "app": "Galaxy Wearable (Android)"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "samsung",
+      "url": "https://www.samsung.com/my/audio-sound/galaxy-buds/galaxy-buds-core-black-sm-r410nzkaxme/",
+      "checked": "2026-09-25",
+      "note": "Read from Samsung Malaysia’s specification data for model SM-R410NZKAXME (the data behind samsung.com/my product pages). Battery figures are Samsung’s claims."
+    }
+  },
+  "dataStatus": "checked",
+  "image": {
+    "kind": "official",
+    "src": "https://images.samsung.com/is/image/samsung/p6pim/my/sm-r410nzkaxme/gallery/my-galaxy-buds-core-r410-sm-r410nzkaxme-548561475?$1164_776_PNG$",
+    "page": "https://www.samsung.com/my/audio-sound/galaxy-buds/galaxy-buds-core-black-sm-r410nzkaxme/",
+    "credit": "Samsung",
+    "checked": "2026-09-25"
+  }
+}

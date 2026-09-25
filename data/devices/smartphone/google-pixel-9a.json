@@ -1,0 +1,114 @@
+{
+  "id": "google-pixel-9a",
+  "name": "Pixel 9a",
+  "brand": "google",
+  "category": "smartphone",
+  "series": "Pixel a-series",
+  "form": "bar",
+  "status": "released",
+  "announced": "2025-04-16",
+  "released": "2025-04-16",
+  "segment": "mid",
+  "aliases": [
+    "Google Pixel 9a"
+  ],
+  "summary": "The 2025 mid-range Pixel: flagship Tensor G4, IP68, a 5,100 mAh battery and seven years of updates.",
+  "highlights": [
+    "Tensor G4",
+    "5,100 mAh",
+    "Seven years of updates"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 2699,
+      "config": "8 GB / 128 GB",
+      "date": "2025-04-16",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/04/16/google-pixel-9a-malaysia-officially-available-price-specs/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 3199,
+      "config": "8 GB / 256 GB",
+      "date": "2025-04-16",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/04/16/google-pixel-9a-malaysia-officially-available-price-specs/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 6.3,
+      "type": "Actua pOLED",
+      "resolution": "2424 × 1080",
+      "ppi": 422,
+      "refresh_hz": 120,
+      "peak_nits": 2700
+    },
+    "platform": {
+      "chipset_note": "Google Tensor G4 (not yet in the chipset database)"
+    },
+    "memory": {
+      "ram_gb": [
+        8
+      ],
+      "storage_gb": [
+        128,
+        256
+      ]
+    },
+    "battery": {
+      "capacity_mah": 5100
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 48
+        },
+        {
+          "role": "ultrawide",
+          "mp": 13
+        }
+      ],
+      "front": "13 MP"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 154.7,
+        "width_mm": 73.3,
+        "depth_mm": 8.9
+      },
+      "weight_g": 185.9,
+      "ip": "IP68"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "wifi": "Wi-Fi 6E",
+      "bluetooth": "Bluetooth 5.3"
+    },
+    "software": {
+      "launch_os": "Android 15",
+      "os_updates_years": 7,
+      "security_updates_years": 7
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "google",
+      "url": "https://support.google.com/pixelphone/answer/7158570?hl=en-GB",
+      "checked": "2026-09-25",
+      "note": "Read from Google’s Pixel phone hardware tech specs page (international figures)."
+    }
+  },
+  "dataStatus": "compiled"
+}

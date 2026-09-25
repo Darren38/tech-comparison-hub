@@ -1,0 +1,98 @@
+{
+  "id": "earbuds",
+  "name": "Earbuds",
+  "singular": "Earbuds",
+  "order": 5,
+  "schematic": "buds",
+  "scoreCategories": ["battery", "build"],
+  "scoreNote": "Earbuds are scored on the makers' own battery claims, water resistance and weight. No lab in the hub measures sound quality or noise cancelling yet, so there is no sound score: read the reviews and videos on each page for that.",
+  "cardFields": ["audio.anc", "battery.life_h", "battery.total_h", "build.ip"],
+  "specSections": [
+    {
+      "id": "launch",
+      "label": "Launch",
+      "facet": "software",
+      "fields": [
+        { "key": "@announced", "label": "Announced", "type": "date" },
+        { "key": "@released", "label": "On sale", "type": "date" }
+      ]
+    },
+    {
+      "id": "audio",
+      "label": "Sound & noise cancelling",
+      "facet": "audio",
+      "fields": [
+        { "key": "audio.anc", "label": "Active noise cancelling", "type": "text" },
+        { "key": "audio.driver", "label": "Speaker driver", "type": "text" },
+        { "key": "audio.codecs", "label": "Bluetooth codecs", "type": "list" },
+        { "key": "audio.spatial", "label": "Spatial / 3D audio", "type": "text" },
+        { "key": "audio.hires", "label": "High-resolution audio", "type": "text" },
+        { "key": "audio.mics", "label": "Microphones", "type": "text" },
+        { "key": "audio.features", "label": "Listening features", "type": "text" }
+      ]
+    },
+    {
+      "id": "battery",
+      "label": "Battery & charging",
+      "facet": "battery",
+      "fields": [
+        { "key": "battery.life_h", "label": "Earbuds alone (claimed, longest)", "type": "number", "unit": "h", "digits": 1, "better": "higher" },
+        { "key": "battery.life_anc_h", "label": "Earbuds alone, noise cancelling on", "type": "number", "unit": "h", "digits": 1, "better": "higher" },
+        { "key": "battery.total_h", "label": "With the charging case (claimed, longest)", "type": "number", "unit": "h", "digits": 1, "better": "higher" },
+        { "key": "battery.claim", "label": "Maker's battery wording", "type": "text" },
+        { "key": "battery.bud_mah", "label": "Earbud battery", "type": "number", "unit": "mAh" },
+        { "key": "battery.case_mah", "label": "Case battery", "type": "number", "unit": "mAh" },
+        { "key": "charging.wireless", "label": "Wireless charging case", "type": "text" },
+        { "key": "charging.port", "label": "Charging port", "type": "text" },
+        { "key": "charging.claim", "label": "Quick charge claim", "type": "text" }
+      ]
+    },
+    {
+      "id": "build",
+      "label": "Design & fit",
+      "facet": "build",
+      "fields": [
+        { "key": "build.style", "label": "Style", "type": "text" },
+        { "key": "build.weight_g", "label": "Weight of one earbud", "type": "number", "unit": "g", "digits": 1, "better": "lower" },
+        { "key": "build.dimensions", "label": "Earbud size", "type": "dimensions" },
+        { "key": "build.case_weight_g", "label": "Case weight", "type": "number", "unit": "g", "digits": 1, "better": "lower" },
+        { "key": "build.case_dimensions", "label": "Case size", "type": "dimensions" },
+        { "key": "build.ip", "label": "Water & dust rating (earbuds)", "type": "text" },
+        { "key": "build.case_ip", "label": "Water & dust rating (case)", "type": "text" }
+      ]
+    },
+    {
+      "id": "connectivity",
+      "label": "Connection & controls",
+      "facet": "connectivity",
+      "fields": [
+        { "key": "connectivity.bluetooth", "label": "Bluetooth", "type": "text" },
+        { "key": "connectivity.multipoint", "label": "Two devices at once (multipoint)", "type": "text" },
+        { "key": "connectivity.compatibility", "label": "Works with", "type": "text" },
+        { "key": "connectivity.controls", "label": "Controls", "type": "text" },
+        { "key": "platform.chipset", "label": "Chip", "type": "chipset" },
+        { "key": "platform.chip_name", "label": "Chip (maker's name)", "type": "text" }
+      ]
+    },
+    {
+      "id": "software",
+      "label": "App & features",
+      "facet": "software",
+      "fields": [
+        { "key": "software.app", "label": "Companion app", "type": "text" },
+        { "key": "software.features", "label": "Smart features", "type": "text" }
+      ]
+    }
+  ],
+  "filters": [
+    { "id": "brand", "label": "Brand", "type": "multi" },
+    { "id": "price", "label": "Launch price", "type": "range", "unit": "currency", "step": 20 },
+    { "id": "soldMY", "label": "Sold in Malaysia", "type": "bool" },
+    { "id": "year", "label": "Release year", "type": "multi" },
+    { "id": "anc", "label": "Active noise cancelling", "type": "bool" },
+    { "id": "wirelessCase", "label": "Wireless charging case", "type": "bool" },
+    { "id": "batteryLifeH", "label": "Earbud battery (claimed)", "type": "min", "unit": "h", "options": [6, 8, 10] },
+    { "id": "totalLifeH", "label": "With case (claimed)", "type": "min", "unit": "h", "options": [24, 30, 36] },
+    { "id": "hasTests", "label": "Independent test data", "type": "bool" }
+  ]
+}

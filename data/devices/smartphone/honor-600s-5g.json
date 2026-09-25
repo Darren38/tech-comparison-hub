@@ -1,0 +1,94 @@
+{
+  "id": "honor-600s-5g",
+  "name": "HONOR 600S 5G",
+  "brand": "honor",
+  "category": "smartphone",
+  "series": "HONOR Number",
+  "form": "bar",
+  "status": "released",
+  "segment": "entry",
+  "aliases": [
+    "HONOR 600S",
+    "600S 5G"
+  ],
+  "summary": "A budget 5G phone with a big 8,100 mAh battery, 45 W charging and IP68/IP69K protection, but a 720p LCD screen.",
+  "highlights": [
+    "8,100 mAh battery",
+    "IP68 / IP69K",
+    "45 W charging"
+  ],
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-25",
+      "source": "honor",
+      "note": "Listed on HONOR Malaysia’s website, but no Malaysian launch price was found in a launch report."
+    }
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.872,
+      "type": "LCD",
+      "resolution": "1592 × 720",
+      "peak_nits": 1020
+    },
+    "platform": {
+      "chipset": "snapdragon-4-gen-4"
+    },
+    "memory": {
+      "ram_gb": [
+        4
+      ],
+      "storage_gb": [
+        256
+      ]
+    },
+    "battery": {
+      "capacity_mah": 8100
+    },
+    "charging": {
+      "wired_w": 45
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50
+        }
+      ],
+      "front": "5 MP",
+      "rear_detail": [
+        "50MP Main Camera (f/1.8)",
+        "Auxiliary Lens (f/3.0)"
+      ]
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 168.3,
+        "width_mm": 78.54,
+        "depth_mm": 8.3
+      },
+      "weight_g": 216.5,
+      "ip": "IP68 / IP69 / IP69K"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true,
+      "wifi": "Wi-Fi 5",
+      "bluetooth": "Bluetooth 5.1"
+    },
+    "software": {
+      "launch_os": "MagicOS 10 (Android 16)"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "honor",
+      "url": "https://www.honor.com/my/phones/honor-600s-5g/spec/",
+      "checked": "2026-09-25",
+      "note": "Read from HONOR Malaysia’s specification page. RAM is the physical 4 GB (HONOR adds 8 GB “RAM Turbo” virtual memory)."
+    }
+  },
+  "dataStatus": "compiled"
+}

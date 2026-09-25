@@ -1,0 +1,88 @@
+{
+  "id": "cmf-buds-2a",
+  "name": "CMF by Nothing Buds 2a",
+  "brand": "nothing",
+  "category": "earbuds",
+  "series": "CMF Buds",
+  "form": "buds",
+  "status": "released",
+  "segment": "entry",
+  "aliases": [
+    "CMF by Buds 2a"
+  ],
+  "summary": "The cheapest CMF earbuds with noise cancelling and a big 12.4 mm driver.",
+  "highlights": [
+    "12.4 mm driver",
+    "Noise cancelling",
+    "Up to 35.5 h with case"
+  ],
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-25",
+      "source": "nothing",
+      "note": "No Malaysian launch price was found in a launch report."
+    }
+  },
+  "specs": {
+    "audio": {
+      "anc": "Yes (adaptive, up to 42 dB claimed)",
+      "driver": "12.4 mm dynamic",
+      "codecs": [
+        "AAC",
+        "SBC"
+      ],
+      "mics": "4 in total"
+    },
+    "battery": {
+      "life_h": 8,
+      "life_anc_h": 5,
+      "total_h": 35.5,
+      "bud_mah": 43,
+      "case_mah": 460
+    },
+    "charging": {
+      "port": "USB-C"
+    },
+    "build": {
+      "style": "In-ear with silicone tips",
+      "weight_g": 4.28,
+      "case_weight_g": 42.75,
+      "dimensions": {
+        "height_mm": 32.5,
+        "width_mm": 20.3,
+        "depth_mm": 24.3
+      },
+      "case_dimensions": {
+        "height_mm": 54.7,
+        "width_mm": 54.7,
+        "depth_mm": 23
+      },
+      "ip": "IP54 (earbuds), IPX2 (case)"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.4",
+      "multipoint": "Yes (dual connection)"
+    },
+    "software": {
+      "app": "Nothing X (Android and iPhone)"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "nothing",
+      "url": "https://intl.nothing.tech/products/cmf-buds-2a",
+      "checked": "2026-09-25",
+      "note": "Read from the specs section of Nothing’s international store page."
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://cdn.shopify.com/s/files/1/0585/2479/5086/files/CMFBuds2a-1352x1352-DarkGrey-2Back_af9f3462-8eff-4e8c-b952-5bc2b73b627b.png",
+    "page": "https://intl.nothing.tech/products/cmf-buds-2a",
+    "credit": "Nothing",
+    "checked": "2026-09-25"
+  }
+}

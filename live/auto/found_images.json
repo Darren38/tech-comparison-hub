@@ -1,0 +1,245 @@
+{
+ "searchedAt": "2026-09-25T02:34:02+00:00",
+ "found": {
+  "oneplus-nord-buds-3-pro": {
+   "kind": "official",
+   "src": "https://www.oneplus.com/content/dam/oasis/page/2024/global/product/franklin/share.jpg",
+   "page": "https://www.oneplus.com/my/oneplus-nord-buds-3-pro/specs",
+   "credit": "OnePlus",
+   "checked": "2026-09-24",
+   "auto": true
+  },
+  "oneplus-nord-buds-3": {
+   "kind": "official",
+   "src": "https://oasis.opstatics.com/content/dam/oasis/page/2024/global/product/mendel/share.jpg",
+   "page": "https://www.oneplus.com/my/oneplus-nord-buds-3/specs",
+   "credit": "OnePlus",
+   "checked": "2026-09-24",
+   "auto": true
+  },
+  "redmi-buds-5": {
+   "kind": "official",
+   "src": "https://web.archive.org/web/20260422235254im_/https://i02.appmifile.com/322_item_my/02/04/2024/baa1c7f673be9dda81752660978618ba.png",
+   "page": "https://web.archive.org/web/20260422235254/https://www.mi.com/my/product/redmi-buds-5/specs/",
+   "credit": "Xiaomi",
+   "checked": "2026-09-24",
+   "auto": true
+  },
+  "redmi-buds-6-pro": {
+   "kind": "official",
+   "src": "https://web.archive.org/web/20260608151500im_/https://i02.appmifile.com/938_item_my/07/01/2025/805f8efb5f451a5a61daf2ed36f9a99e.png",
+   "page": "https://web.archive.org/web/20260608151500/https://www.mi.com/my/product/redmi-buds-6-pro/specs/",
+   "credit": "Xiaomi",
+   "checked": "2026-09-24",
+   "auto": true
+  },
+  "xiaomi-buds-5-pro": {
+   "kind": "official",
+   "src": "https://web.archive.org/web/20260317054728im_/https://i02.appmifile.com/455_item_my/25/02/2025/2e013f5e02abbb4487af8fc7aa5868b3.png",
+   "page": "https://web.archive.org/web/20260317054728/https://www.mi.com/my/product/xiaomi-buds-5-pro/specs/",
+   "credit": "Xiaomi",
+   "checked": "2026-09-24",
+   "auto": true
+  },
+  "nothing-phone-2a": {
+   "kind": "official",
+   "src": "https://cdn.shopify.com/s/files/1/0585/2479/5086/products/black-1.png?v=1709369706",
+   "page": "https://intl.nothing.tech/products/phone-2a?Colour=Milk&Capacity=12%2B256GB",
+   "credit": "Nothing",
+   "checked": "2026-09-24",
+   "auto": true
+  },
+  "nothing-phone-3a-lite": {
+   "kind": "official",
+   "src": "https://cdn.shopify.com/s/files/1/0585/2479/5086/files/BulbT-White.png?v=1761642546",
+   "page": "https://intl.nothing.tech/products/phone-3a-lite?Colour=White&Capacity=8%2B256GB",
+   "credit": "Nothing",
+   "checked": "2026-09-24",
+   "auto": true
+  },
+  "nothing-phone-3a-pro": {
+   "kind": "official",
+   "src": "https://cdn.shopify.com/s/files/1/0585/2479/5086/files/ArcPro1352x1352-Black-Glyphon.png?v=1740649983",
+   "page": "https://intl.nothing.tech/products/phone-3a-pro?Colour=Grey&Capacity=12%2B256GB",
+   "credit": "Nothing",
+   "checked": "2026-09-24",
+   "auto": true
+  },
+  "nothing-phone-3a": {
+   "kind": "official",
+   "src": "https://cdn.shopify.com/s/files/1/0585/2479/5086/files/Arc1352x1352-Black-Glyphon_4677e90c-2628-407c-b286-e6b96238dedf.png?v=1740649970",
+   "page": "https://intl.nothing.tech/products/phone-3a?Colour=White&Capacity=8%2B128GB",
+   "credit": "Nothing",
+   "checked": "2026-09-24",
+   "auto": true
+  },
+  "nothing-phone-4a-pro": {
+   "kind": "official",
+   "src": "https://cdn.shopify.com/s/files/1/0585/2479/5086/files/Phone-4a-Pro-White.png?v=1772251227",
+   "page": "https://intl.nothing.tech/products/phone-4a-pro?Colour=Silver&Capacity=12%2B256GB",
+   "credit": "Nothing",
+   "checked": "2026-09-24",
+   "auto": true
+  },
+  "nothing-phone-4a": {
+   "kind": "official",
+   "src": "https://cdn.shopify.com/s/files/1/0585/2479/5086/files/Phone-4a-White.png?v=1772251224",
+   "page": "https://intl.nothing.tech/products/phone-4a?Colour=White&Capacity=12%2B256GB",
+   "credit": "Nothing",
+   "checked": "2026-09-24",
+   "auto": true
+  },
+  "oneplus-11": {
+   "kind": "official",
+   "src": "https://oasis.opstatics.com/content/dam/oasis/page/2023/global/home/salami-share.jpg",
+   "page": "https://www.oneplus.com/my/11/specs",
+   "credit": "OnePlus",
+   "checked": "2026-09-24",
+   "auto": true
+  },
+  "oneplus-12": {
+   "kind": "official",
+   "src": "https://www.oneplus.com/content/dam/oasis/page/2024/global/product/waffle/share.jpg",
+   "page": "https://www.oneplus.com/my/12/specs",
+   "credit": "OnePlus",
+   "checked": "2026-09-24",
+   "auto": true
+  },
+  "oneplus-12r": {
+   "kind": "official",
+   "src": "https://oasis.opstatics.com/content/dam/oasis/page/2024/global/product/aston/aston_share.jpg",
+   "page": "https://www.oneplus.com/my/12r/specs",
+   "credit": "OnePlus",
+   "checked": "2026-09-24",
+   "auto": true
+  },
+  "oneplus-nord-4": {
+   "kind": "official",
+   "src": "https://oasis.opstatics.com/content/dam/oasis/page/2024/global/product/avalon/avalon-share.jpg",
+   "page": "https://www.oneplus.com/my/nord-4/specs",
+   "credit": "OnePlus",
+   "checked": "2026-09-24",
+   "auto": true
+  },
+  "oneplus-nord-ce-3-lite": {
+   "kind": "official",
+   "src": "https://oasis.opstatics.com/content/dam/oasis/page/2023/larry/larry-share.jpg",
+   "page": "https://www.oneplus.com/my/nord-ce-3-lite-5g/specs",
+   "credit": "OnePlus",
+   "checked": "2026-09-24",
+   "auto": true
+  },
+  "oneplus-nord-ce4-lite": {
+   "kind": "official",
+   "src": "https://oasis.opstatics.com/content/dam/oasis/page/2024/camry/sharespecs.jpg",
+   "page": "https://www.oneplus.com/my/nord-ce4-lite-5g/specs",
+   "credit": "OnePlus",
+   "checked": "2026-09-24",
+   "auto": true
+  },
+  "honor-magicpad-2": {
+   "kind": "official",
+   "src": "https://www.honor.com/content/dam/honor/my/product-list/tablets/honor-magicpad-2/honor-magicpad-2-white-list.png",
+   "page": "https://www.honor.com/my/tablets/honor-magicpad-2/spec/",
+   "credit": "HONOR",
+   "checked": "2026-09-24",
+   "auto": true
+  },
+  "honor-magicpad-3": {
+   "kind": "official",
+   "src": "https://www.honor.com/content/dam/honor/common/product-list/tablets/product-series/honor-magicpad-3/global/honor-magicpad-3-white-list.png",
+   "page": "https://www.honor.com/my/tablets/honor-magicpad-3/spec/",
+   "credit": "HONOR",
+   "checked": "2026-09-24",
+   "auto": true
+  },
+  "honor-magicpad-4": {
+   "kind": "official",
+   "src": "https://www.honor.com/content/dam/honor/common/product-list/tablets/product-series/honor-magicpad-4/honor-magicpad-4-grey-list.png",
+   "page": "https://www.honor.com/my/tablets/honor-magicpad-4/spec/",
+   "credit": "HONOR",
+   "checked": "2026-09-24",
+   "auto": true
+  },
+  "honor-pad-10": {
+   "kind": "official",
+   "src": "https://www.honor.com/content/dam/honor/common/product-list/tablets/product-series/honor-pad-10/honor-pad-10-list.png",
+   "page": "https://www.honor.com/my/tablets/honor-pad-10/spec/",
+   "credit": "HONOR",
+   "checked": "2026-09-24",
+   "auto": true
+  },
+  "honor-pad-20": {
+   "kind": "official",
+   "src": "https://www.honor.com/content/dam/honor/common/product-list/tablets/product-series/honor-pad-20/global/honor-pad-20-list.png",
+   "page": "https://www.honor.com/my/tablets/honor-pad-20/spec/",
+   "credit": "HONOR",
+   "checked": "2026-09-24",
+   "auto": true
+  },
+  "honor-pad-9": {
+   "kind": "official",
+   "src": "https://www.honor.com/content/dam/honor/my/product-list/tablets/honor-pad-9/honor-pad-9-cyan-list.png",
+   "page": "https://www.honor.com/my/tablets/honor-pad-9/spec/",
+   "credit": "HONOR",
+   "checked": "2026-09-24",
+   "auto": true
+  },
+  "honor-pad-x8a": {
+   "kind": "official",
+   "src": "https://www.honor.com/content/dam/honor/my/products/tablets/honor-pad-x8a/assets/pad-x8a-share.png",
+   "page": "https://www.honor.com/my/tablets/honor-pad-x8a/spec/",
+   "credit": "HONOR",
+   "checked": "2026-09-24",
+   "auto": true
+  },
+  "honor-pad-x9a": {
+   "kind": "official",
+   "src": "https://www.honor.com/content/dam/honor/common/product-list/tablets/product-series/honor-pad-x9a/honor-pad-x9a-gray-list.png",
+   "page": "https://www.honor.com/my/tablets/honor-pad-x9a/spec/",
+   "credit": "HONOR",
+   "checked": "2026-09-24",
+   "auto": true
+  },
+  "oneplus-pad-2": {
+   "kind": "official",
+   "src": "https://oasis.opstatics.com/content/dam/oasis/page/2024/global/product/rainbow/rainbow-share.jpg",
+   "page": "https://www.oneplus.com/my/oneplus-pad-2/specs",
+   "credit": "OnePlus",
+   "checked": "2026-09-24",
+   "auto": true
+  },
+  "poco-pad": {
+   "kind": "official",
+   "src": "https://web.archive.org/web/20260616183805im_/https://i02.appmifile.com/571_item_my/11/11/2024/7f4eff74e6447bf6bf396c84d8795baa.png",
+   "page": "https://web.archive.org/web/20260616183805/https://www.mi.com/my/product/poco-pad/specs/",
+   "credit": "Xiaomi",
+   "checked": "2026-09-24",
+   "auto": true
+  },
+  "redmi-pad-pro": {
+   "kind": "official",
+   "src": "https://web.archive.org/web/20260611191124im_/https://i02.appmifile.com/444_item_my/12/09/2024/662432b8fa06a7702b7a0f7621079496.png",
+   "page": "https://web.archive.org/web/20260611191124/https://www.mi.com/my/product/redmi-pad-pro/specs/",
+   "credit": "Xiaomi",
+   "checked": "2026-09-24",
+   "auto": true
+  },
+  "redmi-pad-se": {
+   "kind": "official",
+   "src": "https://web.archive.org/web/20260608150735im_/https://i02.appmifile.com/999_item_my/02/04/2024/1f9ae5a9e21992c437f3783767dce6c4.png",
+   "page": "https://web.archive.org/web/20260608150735/https://www.mi.com/my/product/redmi-pad-se/specs/",
+   "credit": "Xiaomi",
+   "checked": "2026-09-24",
+   "auto": true
+  },
+  "xiaomi-pad-7": {
+   "kind": "official",
+   "src": "https://web.archive.org/web/20250906012419im_/https://i02.appmifile.com/363_item_my/25/02/2025/da7bf920047395da63d41d5f74f3e0f0.png",
+   "page": "https://web.archive.org/web/20250906012419/https://www.mi.com/my/product/xiaomi-pad-7/specs/",
+   "credit": "Xiaomi",
+   "checked": "2026-09-24",
+   "auto": true
+  }
+ }
+}

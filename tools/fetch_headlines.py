@@ -43,6 +43,31 @@ MEDIA = "{http://search.yahoo.com/mrss/}"
 CONTENT = "{http://purl.org/rss/1.0/modules/content/}encoded"
 NO_IMAGE_SOURCES = {"gsmarena"}  # headlines stay text-only for these sources
 KINDS = {"news", "review", "video"}
+# Version 17: every headline that names a device or chipset is kept in live/archive.json for a year, so device and
+# chipset pages build up their own news, reviews, videos and test reports over time. Matching is re-run over the
+# whole archive on every collection, so a device added to the database later picks up the older headlines about it.
+ARCHIVE_OUT = ROOT / "live" / "archive.json"
+ARCHIVE_DAYS = 400
+ARCHIVE_MAX = 6000
+# Model names seen in headlines that are not in the database yet (shown on the Coverage page for whoever adds devices)
+SPOTTED_OUT = ROOT / "live" / "spotted.json"
+# What a headline is about, which decides the section of a device page it appears in. First match wins; reviews and
+# videos that report a measurement go to "test" (Test results & benchmarks), other reviews and videos to Reviews & videos.
+TOPIC_RULES = [
+    ("test", r"\b(?:benchmarks?|benchmarked|geekbench|antutu|3dmark|dxomark|battery (?:life |drain )?tests?|drop tests?|durability tests?|bend tests?|"
+             r"scratch tests?|teardowns?|thermals?|throttl\w*|speed tests?|camera tests?|display tests?|charging tests?|stress tests?)\b|跑分|续航测试|拆解|实测|发热"),
+    ("software", r"\b(?:updates?|updated|one ui ?\d*|hyperos|coloros|oxygenos|originos|magicos|harmonyos|ios \d+|ipados|watchos|wear os|android \d+|"
+                 r"betas?|patch(?:es)?|firmware)\b|系统更新|升级|推送|内测"),
+    ("price", r"\b(?:price[sd]?|pricing|deals?|discount\w*|sale|cheaper|rm ?\d[\d,]*|\$\d[\d,]*)\b|售价|降价|优惠|价格|到手价"),
+    ("issue", r"\b(?:bugs?|issues?|problems?|recall\w*|complain\w*|overheat\w*|defects?|faults?|broken|glitch\w*)\b|故障|问题|翻车|召回"),
+    ("launch", r"\b(?:launch\w*|announc\w*|unveil\w*|debuts?|pre-?orders?|goes on sale|now available|release date|officially)\b|发布|上市|开售|首销|官宣"),
+]
+TOPIC_RES = [(name, re.compile(pattern, re.I)) for name, pattern in TOPIC_RULES]
+TOPICS = ["test", "review", "video", "software", "price", "issue", "launch", "news"]
+# A chip name followed by one of these is a different chip ("Snapdragon 8 Elite" in "Snapdragon 8 Elite Gen 5").
+CHIP_NEXT_REJECT = {"gen", "plus", "pro", "ultra", "extreme", "s", "e", "m", "max", "lite", "for"}
+# A chip alias preceded by one of these is a phone name ("A19 Pro" in "Galaxy A19 Pro").
+CHIP_PREV_REJECT = {"galaxy", "iphone", "redmi", "poco", "vivo", "oppo", "honor", "moto", "nokia"}
 
 REVIEW_WORDS = re.compile(r"\b(review|reviewed|hands[- ]on|tested|benchmarks?|battery (?:life )?test|camera test|teardown|durability|drop test|vs)\b", re.I)
 # Words that mean a longer model name continues ("Galaxy S26" must not match "Galaxy S26 FE").
@@ -161,7 +186,8 @@ def fetch(url: str, timeout: int = 20) -> bytes:
 
 
 def device_keys(devices: list[dict], brand_names: dict[str, str]) -> list[tuple[str, str]]:
-    keys: dict[str, str] = {}
+    # Version 17: a name shared by several devices ("iPad Air M4" = the 11-inch and the 13-inch) links to all of them
+    keys: dict[str, list[str]] = {}
     for dev in devices:
         name = dev["name"]
         brand = brand_names.get(dev["brand"], "")
@@ -174,23 +200,27 @@ def device_keys(devices: list[dict], brand_names: dict[str, str]) -> list[tuple[
             tokens = key.split()
             has_model_number = any(ch.isdigit() for ch in key)  # keeps "Galaxy" alone from matching
             has_identity = any(t not in GENERIC_TOKENS and not t.isdigit() for t in tokens)  # "17 pro" is too vague
-            if len(key) >= 4 and has_model_number and has_identity:
-                keys.setdefault(key, dev["id"])
-    return sorted(keys.items(), key=lambda kv: -len(kv[0]))
+            if len(key) >= 4 and has_model_number and has_identity and dev["id"] not in keys.setdefault(key, []):
+                keys[key].append(dev["id"])
+    return sorted(((k, i) for k, ids in keys.items() for i in ids), key=lambda kv: -len(kv[0]))
 
 
-def match_devices(title_norm: str, keys: list[tuple[str, str]]) -> list[str]:
+def match_devices(title_norm: str, keys: list[tuple[str, str]], next_reject: set[str] = NEXT_REJECT,
+                  prev_reject: set[str] = frozenset()) -> list[str]:
     taken: list[tuple[int, int]] = []
     found: list[str] = []
     for key, device_id in keys:
         for m in re.finditer(r"(?<![a-z0-9])" + re.escape(key) + r"(?![a-z0-9])", title_norm):
             start, end = m.span()
             following = title_norm[end:].split()[:1]
-            if following and following[0] in NEXT_REJECT:
+            if following and following[0] in next_reject:
                 continue
-            if any(start < t_end and end > t_start for t_start, t_end in taken):
+            preceding = title_norm[:start].split()[-1:]
+            if preceding and preceding[0] in prev_reject:
                 continue
-            taken.append((start, end))
+            if any(start < t_end and end > t_start and t_key != key for t_start, t_end, t_key in taken):
+                continue
+            taken.append((start, end, key))
             if device_id not in found:
                 found.append(device_id)
     return found
@@ -200,6 +230,118 @@ def load_keys() -> list[tuple[str, str]]:
     brands = json.loads((DATA / "brands" / "brands.json").read_text(encoding="utf-8"))
     devices = [json.loads(p.read_text(encoding="utf-8")) for p in sorted((DATA / "devices").glob("*/*.json"))]
     return device_keys(devices, {b["id"]: b["name"] for b in brands})
+
+
+def load_chip_keys() -> list[tuple[str, str]]:
+    """Chip names and aliases ("snapdragon 8 elite gen 5", "dimensity 9500", "a19 pro"), longest first."""
+    keys: dict[str, str] = {}
+    for path in sorted((DATA / "chipsets").glob("*.json")):
+        chip = json.loads(path.read_text(encoding="utf-8"))
+        for name in {chip["name"], *chip.get("aliases", [])}:
+            key = normalize(name)
+            tokens = key.split()
+            if len(key) >= 4 and any(ch.isdigit() for ch in key) and any(t not in GENERIC_TOKENS and not t.isdigit() for t in tokens):
+                keys.setdefault(key, chip["id"])
+    return sorted(keys.items(), key=lambda kv: -len(kv[0]))
+
+
+def topic_of(title: str, kind: str) -> str:
+    """Which section of a device page a headline belongs to (see TOPIC_RULES)."""
+    for name, pattern in TOPIC_RES:
+        if name == "test" and pattern.search(title):
+            return "test"
+    if kind in {"review", "video"}:
+        return kind
+    for name, pattern in TOPIC_RES[1:]:
+        if pattern.search(title):
+            return name
+    return "news"
+
+
+def tag_item(item: dict, keys, chip_keys) -> dict:
+    norm = normalize(item["title"])
+    item["devices"] = match_devices(norm, keys)
+    chips = match_devices(norm, chip_keys, CHIP_NEXT_REJECT, CHIP_PREV_REJECT)
+    if chips:
+        item["chipsets"] = chips
+    else:
+        item.pop("chipsets", None)
+    item["topic"] = topic_of(item["title"], item.get("kind", "news"))
+    return item
+
+
+def update_archive(items: list[dict], keys, chip_keys, video_views: dict[str, int], now: dt.datetime) -> dict:
+    """Merge this collection into live/archive.json (headlines that name a device or chipset, kept ARCHIVE_DAYS)."""
+    old: list[dict] = []
+    if ARCHIVE_OUT.exists():
+        try:
+            old = json.loads(ARCHIVE_OUT.read_text(encoding="utf-8")).get("items", [])
+        except ValueError:
+            old = []
+    merged: dict[str, dict] = {i["id"]: i for i in old if isinstance(i, dict) and i.get("id") and i.get("title") and i.get("url")}
+    seen = now.isoformat(timespec="minutes")
+    for item in items:
+        prev = merged.get(item["id"], {})
+        merged[item["id"]] = {**prev, **item, "seen": prev.get("seen") or seen}
+    cutoff = (now - dt.timedelta(days=ARCHIVE_DAYS)).isoformat()
+    kept = []
+    for item in merged.values():
+        tag_item(item, keys, chip_keys)
+        vid = youtube_id(item.get("url"))
+        if vid and vid in video_views:
+            item["views"] = video_views[vid]
+        if not item["devices"] and not item.get("chipsets"):
+            continue
+        if (item.get("published") or item.get("seen") or "") < cutoff:
+            continue
+        kept.append(item)
+    kept.sort(key=lambda x: x.get("published") or x.get("seen") or "", reverse=True)
+    kept = kept[:ARCHIVE_MAX]
+    data = {"updatedAt": now.isoformat(timespec="seconds"), "keepsDays": ARCHIVE_DAYS,
+            "note": "Headlines that name a device or chipset, collected automatically from the registered feeds. Titles and links only.",
+            "items": kept}
+    ARCHIVE_OUT.parent.mkdir(parents=True, exist_ok=True)
+    tmp = ARCHIVE_OUT.with_suffix(".tmp")
+    tmp.write_text(json.dumps(data, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+    tmp.replace(ARCHIVE_OUT)
+    return data
+
+
+# Model-like names: a product line followed by a model number ("Galaxy S27 Ultra", "Pixel 11a", "Xiaomi 18T Pro").
+SPOT_LINES = (r"iPhone|iPad(?: Pro| Air| mini)?|AirPods(?: Pro| Max)?|Apple Watch(?: Series| Ultra| SE)?|Galaxy(?: Z)?(?: Tab| Watch| Buds| Ring)?|Pixel(?: Watch| Buds| Tablet)?|"
+              r"Xiaomi(?: Pad| Watch| Smart Band| Buds)?|Redmi(?: Note| Pad| Watch| Buds| K| Turbo)?|POCO|vivo(?: X| V| Y| Pad)?|iQOO(?: Neo| Z)?|OPPO(?: Find| Reno| Pad| Enco| Watch)?|"
+              r"Find(?: X| N)|Reno|OnePlus(?: Nord| Pad| Buds| Watch)?|realme(?: GT| Pad| Buds)?|HONOR(?: Magic| Pad| X)?|HUAWEI(?: Mate| Pura| nova| MatePad| FreeBuds| Watch)?|"
+              r"Mate|Pura|Nothing Phone|CMF Phone|Xperia|moto(?: g| edge)?|razr|ROG Phone|RedMagic|Nubia")
+SPOT_RE = re.compile(r"\b(?:" + SPOT_LINES + r")\s+\(?[A-Za-z]{0,2}\d{1,4}[A-Za-z]{0,2}\)?(?:\s+(?:Pro\+?|Max|Ultra|Plus|\+|Lite|FE|Edge|Fold|Flip|mini|Air|Neo|Classic|Active|Kids))*",
+                     re.I)
+SPOT_SKIP = re.compile(r"\b(?:iOS|Android|One UI|HyperOS)\b", re.I)
+
+
+def spot_new_models(items: list[dict], keys, now: dt.datetime) -> None:
+    """live/spotted.json: model names in recent headlines that match no device in the database."""
+    found: dict[str, dict] = {}
+    for item in items:
+        if item.get("lang") == "zh":
+            continue
+        for m in SPOT_RE.finditer(item["title"]):
+            name = re.sub(r"\s+", " ", m.group(0)).strip(" ()")
+            norm = normalize(name)
+            if SPOT_SKIP.search(name) or match_devices(norm, keys) or len(norm) < 5:
+                continue
+            entry = found.setdefault(norm, {"name": name, "count": 0, "sources": [], "first": None, "last": None, "examples": []})
+            entry["count"] += 1
+            if item["source"] not in entry["sources"]:
+                entry["sources"].append(item["source"])
+            when = item.get("published")
+            if when:
+                entry["first"] = min(filter(None, [entry["first"], when]))
+                entry["last"] = max(filter(None, [entry["last"], when]))
+            if len(entry["examples"]) < 3:
+                entry["examples"].append({"title": item["title"], "url": item["url"], "source": item["source"]})
+    rows = sorted((e for e in found.values() if len(e["sources"]) >= 2 or e["count"] >= 3), key=lambda e: (-len(e["sources"]), -e["count"], e["name"]))
+    SPOTTED_OUT.write_text(json.dumps({"updatedAt": now.isoformat(timespec="seconds"),
+                                       "note": "Model names that appear in two or more sources' recent headlines but match no device in the hub.",
+                                       "models": rows[:60]}, ensure_ascii=False, indent=1), encoding="utf-8")
 
 
 def write_live_config(cfg: dict, keys: list[tuple[str, str]]) -> None:
@@ -220,6 +362,11 @@ def write_live_config(cfg: dict, keys: list[tuple[str, str]]) -> None:
         "reviewWordsZh": REVIEW_WORDS_ZH,
         "nextReject": sorted(NEXT_REJECT),
         "keys": keys,
+        # Version 17: chipsets and the section each headline belongs to, so a browser collection tags them the same way
+        "chipKeys": load_chip_keys(),
+        "chipNextReject": sorted(CHIP_NEXT_REJECT),
+        "chipPrevReject": sorted(CHIP_PREV_REJECT),
+        "topicRules": TOPIC_RULES,
     }
     LIVE_CONFIG.parent.mkdir(parents=True, exist_ok=True)
     tmp = LIVE_CONFIG.with_suffix(".tmp")
@@ -230,6 +377,7 @@ def write_live_config(cfg: dict, keys: list[tuple[str, str]]) -> None:
 def collect() -> dict:
     cfg = json.loads(CONFIG.read_text(encoding="utf-8"))
     keys = load_keys()
+    chip_keys = load_chip_keys()
     write_live_config(cfg, keys)
     topic = re.compile(r"(?<![a-z0-9])(?:" + "|".join(TOPIC_PATTERNS) + r")(?![a-z0-9])")
     topic_zh = re.compile(TOPIC_PATTERNS_ZH)
@@ -286,6 +434,7 @@ def collect() -> dict:
                     "image": None if feed["source"] in NO_IMAGE_SOURCES else raw_image,
                     **({"views": raw_views} if raw_views is not None else {}),
                 }
+                tag_item(items[item_id], keys, chip_keys)
                 kept += 1
                 if kept >= per_feed:
                     break
@@ -305,7 +454,8 @@ def collect() -> dict:
 def run(quiet: bool = False) -> dict:
     """Collect and save. If every feed fails (offline), keep the last saved headlines."""
     data = collect()
-    save_views(data.pop("videoViews", {}), data["fetchedAt"])
+    video_views = data.pop("videoViews", {})
+    save_views(video_views, data["fetchedAt"])
     ok = [f for f in data["feeds"] if f["ok"]]
     failed = [f["source"] for f in data["feeds"] if not f["ok"]]
     if not ok and OUT.exists():
@@ -317,8 +467,12 @@ def run(quiet: bool = False) -> dict:
     tmp = OUT.with_suffix(".tmp")
     tmp.write_text(json.dumps(data, ensure_ascii=False, indent=1), encoding="utf-8")
     tmp.replace(OUT)
+    now = dt.datetime.fromisoformat(data["fetchedAt"])
+    keys = load_keys()
+    archive = update_archive(data["items"], keys, load_chip_keys(), video_views, now)
+    spot_new_models(data["items"], keys, now)
     if not quiet or failed:
-        print(f"[headlines] {len(data['items'])} headlines from {len(ok)} of {len(data['feeds'])} feeds"
+        print(f"[headlines] {len(data['items'])} headlines from {len(ok)} of {len(data['feeds'])} feeds; archive {len(archive['items'])}"
               + (f"; unreachable: {', '.join(failed)}" if failed else "") + ".")
     return data
 

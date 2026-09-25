@@ -26,19 +26,19 @@
       "config": "12 GB / 256 GB",
       "date": "2025-04-21",
       "type": "launch",
-      "source": "gsmarena",
-      "url": "https://www.gsmarena.com/vivo_x200_ultra_x200s_official-news-67474.php",
-      "class": "news",
-      "accessed": "2026-09-16"
+      "source": "vivo",
+      "url": "https://www.vivo.com.cn/vivo/param/x200ultra",
+      "class": "official",
+      "accessed": "2026-09-25"
     }
   ],
   "availability": {
     "MY": {
       "status": "not-launched",
-      "checked": "2026-09-16",
-      "source": "gsmarena",
-      "url": "https://www.gsmarena.com/vivo_x200_ultra_x200s_official-news-67474.php",
-      "note": "Launched in China only. GSMArena did not expect a launch outside China, and no Malaysian launch was found."
+      "checked": "2026-09-25",
+      "source": "vivo",
+      "url": "https://www.vivo.com.cn/vivo/param/x200ultra",
+      "note": "Sold in China (suggested retail price on vivo's China site); no Malaysian launch was found."
     }
   },
   "specs": {

@@ -8,6 +8,7 @@ import { href } from '../core/router.js';
 import { provBadge, confMeter, tierBadge, sectionHead, tag, extLink, pageOutline, bindOutline, pageTrail } from '../ui/components.js';
 import { ratesLabel } from '../engine/money.js';
 import { t, isZh } from '../core/i18n.js';
+import { GLOSSARY } from '../ui/plain.js';
 
 /** Rates to 4 decimal places, the precision Bank Negara Malaysia publishes ("4.0975"). */
 const fmtRate = (value) => new Intl.NumberFormat('en-US', { maximumFractionDigits: 4 }).format(value);
@@ -24,6 +25,7 @@ const hostOf = (url) => {
 };
 
 const TOC = [
+  ['glossary', 'Tech words explained'],
   ['classes', 'Evidence classes'],
   ['confidence', 'Confidence'],
   ['consensus', 'Consensus'],
@@ -75,6 +77,12 @@ export default async function render() {
       <div class="with-outline">
       ${pageOutline(TOC)}
       <div class="with-outline__main stack-lg">
+        <section id="glossary">
+          ${sectionHead('Tech words explained', { eyebrow: 'Start here' })}
+          <p class="small muted" style="max-width:70ch">New to phones, watches or earbuds? These are the words you will meet on this site, in plain language. Switch the view to <strong>Simple</strong> (top of every page) to see short explanations next to the specifications too.</p>
+          <dl class="glossary">${GLOSSARY.map(([term, text]) => html`<div class="glossary__item"><dt>${term}</dt><dd class="small">${text}</dd></div>`)}</dl>
+        </section>
+
         <section id="classes">
           ${sectionHead('Evidence classes', { eyebrow: '1' })}
           <div class="grid grid-2">${taxonomy.evidenceClasses.map((c) => html`<div class="card class-card">${provBadge(c.id, { long: true })}<p class="small" style="margin-top:8px">${c.description}</p></div>`)}</div>
@@ -203,7 +211,7 @@ export default async function render() {
           ${sectionHead('Picture credits', { eyebrow: '8' })}
           <div class="card small stack" style="margin-bottom:var(--sp-4)">
             <p>${plural(withPhoto.length, 'device')} of ${store.devices.length} show a picture: ${plural(official.length, 'official product image')}, ${plural(photos, 'photo')} and ${plural(commons.length - photos, 'drawing')}.</p>
-            <p><strong>Official product images</strong> are the manufacturers' own pictures, found on their Malaysian product, specification or support pages (or, where that page is gone, another official regional page, or the Internet Archive copy of the maker's page). They are shown directly from the manufacturer's website to identify the model, credited to the page they came from, and remain © the manufacturer. They are not copied to this site. Every image was checked by eye; marketing banners, pictures of other models and images that no longer load were rejected. GSMArena's pictures are not used: its robots.txt asks automated agents like the one that compiled this data not to fetch its pages.</p>
+            <p><strong>Official product images</strong> are the manufacturers' own pictures, found on their Malaysian product, specification or support pages (or, where that page is gone, another official regional page, or the Internet Archive copy of the maker's page). They are shown directly from the manufacturer's website to identify the model, credited to the page they came from, and remain © the manufacturer. They are not copied to this site. Every image was checked by eye; marketing banners, pictures of other models and images that no longer load were rejected. GSMArena's pictures are not used: its robots.txt asks automated agents like the one that compiled this data not to fetch its pages. Makers' pictures often have wide white margins, so each picture is read once to find the rectangle the product fills, and pages show the picture cropped to it (the file itself is not changed or copied).</p>
             <p><strong>Photos and drawings</strong> are freely licensed files on Wikimedia Commons (Creative Commons or public domain), shown directly from Wikimedia with their author and licence.</p>
             <p><strong>Headline and video pictures</strong> are the thumbnails publishers put in their own RSS feeds, and YouTube's thumbnails for videos. They are shown from the publisher's or YouTube's server next to the headline they belong to, link to the article or video, and are not copied. GSMArena's are not shown (its robots.txt asks Claude's crawlers not to fetch its pages). A headline or checked news item without its own picture shows the picture of the device it is about, linking to that device here; if a picture fails to load, the publication's name is shown instead.</p>
             <p>Devices without either show a <strong>to-scale outline</strong> drawn from their recorded dimensions. A picture shows the model, but not necessarily the colour or storage version whose price is listed.</p>

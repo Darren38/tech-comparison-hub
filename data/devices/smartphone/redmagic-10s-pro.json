@@ -1,0 +1,133 @@
+{
+  "id": "redmagic-10s-pro",
+  "name": "REDMAGIC 10S Pro",
+  "brand": "redmagic",
+  "category": "smartphone",
+  "series": "REDMAGIC",
+  "form": "bar",
+  "status": "released",
+  "announced": "2025-06-19",
+  "released": "2025-06-19",
+  "segment": "flagship",
+  "aliases": [
+    "RedMagic 10S Pro",
+    "Red Magic 10S Pro"
+  ],
+  "summary": "The 2025 REDMAGIC with a higher-clocked Snapdragon 8 Elite, a 7,050 mAh battery, a 23,000 RPM fan and a headphone jack.",
+  "highlights": [
+    "Snapdragon 8 Elite (higher-clocked)",
+    "7,050 mAh",
+    "Headphone jack"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 3999,
+      "config": "12 GB / 256 GB",
+      "date": "2025-06-19",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/06/19/redmagic-10s-pro-gaming-snapdragon-8-elite-leading-malaysia-price-specs/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 4899,
+      "config": "16 GB / 512 GB",
+      "date": "2025-06-19",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/06/19/redmagic-10s-pro-gaming-snapdragon-8-elite-leading-malaysia-price-specs/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 5999,
+      "config": "24 GB / 1 TB",
+      "date": "2025-06-19",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/06/19/redmagic-10s-pro-gaming-snapdragon-8-elite-leading-malaysia-price-specs/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 6.853,
+      "type": "AMOLED",
+      "resolution": "2688 × 1216",
+      "refresh_hz": 144,
+      "peak_nits": 2000
+    },
+    "platform": {
+      "chipset": "snapdragon-8-elite",
+      "chipset_note": "Snapdragon 8 Elite “Leading Version” (higher-clocked)"
+    },
+    "memory": {
+      "ram_gb": [
+        12,
+        16,
+        24
+      ],
+      "storage_gb": [
+        256,
+        512,
+        1024
+      ]
+    },
+    "battery": {
+      "capacity_mah": 7050
+    },
+    "charging": {
+      "wired_w": 80
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50
+        }
+      ],
+      "front": "16 MP",
+      "rear_detail": [
+        "50 MP main (OIS)",
+        "50 MP",
+        "2 MP"
+      ]
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 163.42,
+        "width_mm": 76.14,
+        "depth_mm": 8.9
+      },
+      "weight_g": 229
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true
+    },
+    "audio": {
+      "jack": true
+    },
+    "software": {
+      "launch_os": "REDMAGIC OS 10.5 (Android 15)"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "redmagic",
+      "url": "https://global.redmagic.gg/pages/redmagic-10s-pro-specs",
+      "checked": "2026-09-25",
+      "note": "Read from REDMAGIC’s global specification page."
+    }
+  },
+  "dataStatus": "compiled"
+}

@@ -1,0 +1,80 @@
+{
+  "id": "oppo-enco-air3s",
+  "name": "OPPO Enco Air3s",
+  "brand": "oppo",
+  "category": "earbuds",
+  "series": "OPPO Enco",
+  "form": "buds",
+  "status": "released",
+  "announced": "2024-01-12",
+  "released": "2024-01-12",
+  "segment": "entry",
+  "aliases": [
+    "Enco Air3s"
+  ],
+  "summary": "OPPO earbuds with a 13.4 mm driver, dual-device connection and IP54.",
+  "highlights": [
+    "13.4 mm driver",
+    "Dual-device connection",
+    "IP54"
+  ],
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-25",
+      "source": "oppo",
+      "note": "Listed on OPPO Malaysia’s website, but no Malaysian launch price was found in a launch report."
+    }
+  },
+  "specs": {
+    "audio": {
+      "anc": "No (AI noise cancelling for calls only)",
+      "driver": "13.4 mm composite dynamic",
+      "codecs": [
+        "AAC",
+        "SBC"
+      ]
+    },
+    "battery": {
+      "life_h": 6,
+      "total_h": 25,
+      "bud_mah": 27,
+      "case_mah": 300,
+      "claim": "OPPO lists 6 h per charge and 25 h with the case as “communication time” at 50% volume."
+    },
+    "charging": {
+      "port": "USB-C"
+    },
+    "build": {
+      "weight_g": 3.7,
+      "dimensions": {
+        "height_mm": 33.1,
+        "width_mm": 18.45,
+        "depth_mm": 17.1
+      },
+      "case_dimensions": {
+        "height_mm": 56.55,
+        "width_mm": 51.6,
+        "depth_mm": 26
+      },
+      "ip": "IP54",
+      "case_weight_g": 29.8
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.3"
+    },
+    "software": {
+      "app": "HeyMelody (Android and iPhone)"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "oppo",
+      "url": "https://www.oppo.com/my/accessories/enco-air3s/specs/",
+      "checked": "2026-09-25",
+      "note": "Read from OPPO Malaysia’s specification page. Case weight is the listed earbuds-plus-case weight minus two earbuds."
+    }
+  },
+  "dataStatus": "compiled"
+}

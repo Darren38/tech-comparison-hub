@@ -1,0 +1,85 @@
+{
+  "id": "huawei-freebuds-se-4-anc",
+  "name": "HUAWEI FreeBuds SE 4 ANC",
+  "brand": "huawei",
+  "category": "earbuds",
+  "series": "HUAWEI FreeBuds SE",
+  "form": "buds",
+  "status": "released",
+  "announced": "2025-09-08",
+  "released": "2025-09-08",
+  "segment": "entry",
+  "aliases": [
+    "FreeBuds SE 4 ANC",
+    "FreeBuds SE 4"
+  ],
+  "summary": "The first FreeBuds SE with noise cancelling: up to 10 hours per charge and 50 hours with the case.",
+  "highlights": [
+    "Noise cancelling",
+    "Up to 50 h with case",
+    "IP54"
+  ],
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-25",
+      "source": "huawei",
+      "note": "Listed on HUAWEI Malaysia’s website, but no Malaysian launch price was found in a launch report."
+    }
+  },
+  "specs": {
+    "audio": {
+      "anc": "Yes (multi-mode)",
+      "driver": "10 mm dynamic",
+      "codecs": [
+        "AAC",
+        "SBC",
+        "mSBC"
+      ]
+    },
+    "battery": {
+      "life_h": 10,
+      "life_anc_h": 7,
+      "total_h": 50,
+      "case_mah": 510,
+      "claim": "Up to 10 h (7 h with noise cancelling); 50 h with the case (35 h with noise cancelling)"
+    },
+    "charging": {
+      "wireless": "No",
+      "port": "USB-C",
+      "claim": "10 min charge ≈ 4 h of playback"
+    },
+    "build": {
+      "style": "In-ear with silicone tips",
+      "weight_g": 4.3,
+      "dimensions": {
+        "height_mm": 32.3,
+        "width_mm": 21.3,
+        "depth_mm": 24.0
+      },
+      "case_weight_g": 36,
+      "case_dimensions": {
+        "height_mm": 46.5,
+        "width_mm": 61.8,
+        "depth_mm": 24.7
+      },
+      "ip": "IP54"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.4"
+    },
+    "software": {
+      "app": "HUAWEI AI Life (Android and iPhone)"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "huawei",
+      "url": "https://consumer.huawei.com/my/headphones/freebuds-se-4-anc/specs/",
+      "checked": "2026-09-25",
+      "note": "Read from HUAWEI Malaysia’s specification page. Battery figures are Huawei’s lab claims."
+    }
+  },
+  "dataStatus": "checked"
+}

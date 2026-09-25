@@ -70,12 +70,13 @@
     "connectivity": {
       "gps": "Built-in GNSS",
       "nfc": true,
-      "usb": "Wireless charging; System Requirements; Android 8.0 or later; iOS 13.0 or later; Water-resistant Level; 5 ATM water-resistant",
-      "bluetooth": "2.4 GHz, supports BT5.2 and BR + BLE; Environment; Ambient Operating Temperature; -20℃–+45℃; Battery Life; HUAWEI WATCH GT 4 41 mm"
+      "bluetooth": "2.4 GHz, supports BT5.2 and BR + BLE",
+      "compatibility": "Android 8.0 or later, iOS 13.0 or later"
     },
-    "sensors": "Accelerometer sensor, Gyroscope sensor, Magnetometer sensor, Optical heart rate sensor, Barometer sensor, Temperature sensor, Button, Home Button (Rotating Crown) and Side Button",
+    "sensors": "Accelerometer sensor, Gyroscope sensor, Magnetometer sensor, Optical heart rate sensor, Barometer sensor, Temperature sensor",
     "charging": {
-      "claim": "Charger Voltage and Current Requirements; 5V-9V DC/2A"
+      "claim": "Charger: 5V-9V DC/2A",
+      "wireless": true
     },
     "misc": {
       "colors": "Green"

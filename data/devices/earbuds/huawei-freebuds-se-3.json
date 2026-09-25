@@ -1,0 +1,82 @@
+{
+  "id": "huawei-freebuds-se-3",
+  "name": "HUAWEI FreeBuds SE 3",
+  "brand": "huawei",
+  "category": "earbuds",
+  "series": "HUAWEI FreeBuds SE",
+  "form": "buds",
+  "status": "released",
+  "announced": "2024-12",
+  "released": "2024-12",
+  "segment": "entry",
+  "aliases": [
+    "FreeBuds SE 3"
+  ],
+  "summary": "Huawei’s budget half-in-ear earbuds: 3.8 g, IP54 and up to 42 hours with the case. No noise cancelling.",
+  "highlights": [
+    "3.8 g earbuds",
+    "Up to 42 h with case",
+    "IP54"
+  ],
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-25",
+      "source": "huawei",
+      "note": "Listed on HUAWEI Malaysia’s website, but no Malaysian launch price was found in a launch report."
+    }
+  },
+  "specs": {
+    "audio": {
+      "anc": "No (call noise cancellation only)",
+      "driver": "10 mm dynamic",
+      "codecs": [
+        "AAC",
+        "SBC"
+      ]
+    },
+    "battery": {
+      "life_h": 9,
+      "total_h": 42,
+      "bud_mah": 41,
+      "case_mah": 510,
+      "claim": "Up to 9 h; 42 h with the case"
+    },
+    "charging": {
+      "wireless": "No",
+      "port": "USB-C"
+    },
+    "build": {
+      "style": "Half in-ear (no ear tips)",
+      "weight_g": 3.8,
+      "dimensions": {
+        "height_mm": 33.6,
+        "width_mm": 17.8,
+        "depth_mm": 18.1
+      },
+      "case_weight_g": 33,
+      "case_dimensions": {
+        "height_mm": 50.4,
+        "width_mm": 50.3,
+        "depth_mm": 23.4
+      },
+      "ip": "IP54"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.4"
+    },
+    "software": {
+      "app": "HUAWEI AI Life (Android and iPhone)"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "huawei",
+      "url": "https://consumer.huawei.com/my/headphones/freebuds-se-3/specs/",
+      "checked": "2026-09-25",
+      "note": "Read from HUAWEI Malaysia’s specification page. Battery figures are Huawei’s lab claims."
+    }
+  },
+  "dataStatus": "checked"
+}

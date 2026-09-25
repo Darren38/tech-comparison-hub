@@ -1,0 +1,83 @@
+{
+  "id": "huawei-matepad-11-5-s-2026",
+  "name": "HUAWEI MatePad 11.5 S (2026)",
+  "brand": "huawei",
+  "category": "tablet",
+  "series": "HUAWEI MatePad",
+  "form": "tablet",
+  "status": "released",
+  "announced": "2026-05",
+  "released": "2026-05",
+  "segment": "mid",
+  "aliases": [
+    "MatePad 11.5 S 2026"
+  ],
+  "summary": "An 11.5-inch 144 Hz LCD tablet with 12 GB of memory and 40 W charging.",
+  "highlights": [
+    "11.5-inch 144 Hz",
+    "12 GB / 256 GB",
+    "40 W charging"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 2199,
+      "config": "12 GB / 256 GB",
+      "date": "2026-05",
+      "type": "launch",
+      "source": "technave",
+      "url": "https://technave.com/gadget/HUAWEI-MatePad-11-5-S-2026-Malaysia-release-11-5-inch-PaperMatte-display-and-8800mAh-battery-priced-at-RM2199-46175.html",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 11.5,
+      "type": "LCD",
+      "resolution": "2800 × 1840",
+      "refresh_hz": 144,
+      "peak_nits": 500
+    },
+    "memory": {
+      "ram_gb": [
+        12
+      ],
+      "storage_gb": [
+        256
+      ]
+    },
+    "battery": {
+      "capacity_mah": 8800
+    },
+    "charging": {
+      "wired_w": 40
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 261.0,
+        "width_mm": 177.3,
+        "depth_mm": 6.1
+      },
+      "weight_g": 515
+    },
+    "connectivity": {
+      "wifi": "Wi-Fi 6",
+      "bluetooth": "Bluetooth 5.2"
+    },
+    "software": {
+      "launch_os": "HarmonyOS 4.3"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "huawei",
+      "url": "https://consumer.huawei.com/my/tablets/matepad-11-5-s-2026/specs/",
+      "checked": "2026-09-25",
+      "note": "Read from HUAWEI Malaysia’s specification page; launch month from Malaysian launch reports."
+    }
+  },
+  "dataStatus": "checked"
+}

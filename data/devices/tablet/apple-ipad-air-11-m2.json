@@ -1,0 +1,117 @@
+{
+  "id": "apple-ipad-air-11-m2",
+  "name": "iPad Air 11-inch (M2)",
+  "brand": "apple",
+  "category": "tablet",
+  "series": "iPad Air",
+  "form": "tablet",
+  "status": "released",
+  "announced": "2024-05-07",
+  "released": "2024-05-15",
+  "segment": "upper-mid",
+  "aliases": [
+    "iPad Air 11 M2",
+    "iPad Air 11 (2024)",
+    "iPad Air M2"
+  ],
+  "summary": "The 2024 iPad Air, the first to come in two sizes; this is the 11-inch model with the M2 chip.",
+  "highlights": [
+    "M2 chip",
+    "11-inch Liquid Retina display",
+    "Apple Pencil Pro support"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 2999,
+      "config": "Wi-Fi, 128 GB",
+      "date": "2024-06-04",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2024/06/04/ipad-pro-m4-air-m2-available-malaysia-price/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 11,
+      "type": "Liquid Retina (LCD)",
+      "resolution": "2360 × 1640",
+      "ppi": 264,
+      "refresh_hz": 60,
+      "peak_nits": 500
+    },
+    "platform": {
+      "chipset": "apple-m2",
+      "chipset_note": "8-core CPU (4 performance + 4 efficiency), 9-core GPU"
+    },
+    "memory": {
+      "ram_gb": [
+        8
+      ],
+      "storage_gb": [
+        128,
+        256,
+        512,
+        1024
+      ]
+    },
+    "battery": {
+      "capacity_wh": 28.93,
+      "claim": "Up to 10 h web browsing on Wi-Fi or video playback"
+    },
+    "input": {
+      "stylus": "Apple Pencil Pro, Apple Pencil (USB-C)"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 247.6,
+        "width_mm": 178.5,
+        "depth_mm": 6.1
+      },
+      "weight_g": 462
+    },
+    "connectivity": {
+      "cellular": "5G (optional)",
+      "wifi": "Wi-Fi 6E",
+      "bluetooth": "Bluetooth 5.3",
+      "usb": "USB-C (USB 3, up to 10 Gb/s)"
+    },
+    "software": {
+      "launch_os": "iPadOS 17",
+      "os_updates_years": 6,
+      "security_updates_years": 7
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "apple",
+      "url": "https://support.apple.com/en-my/119894",
+      "checked": "2026-09-25",
+      "note": "Read from Apple Malaysia’s tech-specs page; Wi-Fi model weight."
+    },
+    "fields": {
+      "specs.software.os_updates_years": {
+        "class": "estimated",
+        "source": "apple",
+        "note": "Apple publishes no fixed update commitment; estimated from the support history of recent devices."
+      },
+      "specs.software.security_updates_years": {
+        "class": "estimated",
+        "source": "apple",
+        "note": "Apple publishes no fixed update commitment; estimated from the support history of recent devices."
+      }
+    }
+  },
+  "dataStatus": "checked",
+  "image": {
+    "kind": "official",
+    "src": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/ipad-air-11-inch-m2-portimage-1.png",
+    "page": "https://support.apple.com/en-my/119894",
+    "credit": "Apple",
+    "checked": "2026-09-25"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "id": "google-pixel-fold",
+  "name": "Pixel Fold",
+  "brand": "google",
+  "category": "smartphone",
+  "series": "Pixel Fold",
+  "form": "foldable",
+  "status": "released",
+  "announced": "2023",
+  "released": "2023",
+  "segment": "flagship",
+  "aliases": [
+    "Google Pixel Fold"
+  ],
+  "summary": "Google’s first book-style foldable: a 7.6-inch inner screen, a wide 5.8-inch cover screen and a 5x telephoto.",
+  "highlights": [
+    "7.6-inch foldable screen",
+    "5x telephoto",
+    "Tensor G2"
+  ],
+  "availability": {
+    "MY": {
+      "status": "not-launched",
+      "checked": "2026-09-25",
+      "source": "soyacincau",
+      "note": "Not sold officially in Malaysia (Google began selling Pixels here with the Pixel 9 in August 2024)."
+    }
+  },
+  "specs": {
+    "display": {
+      "size_in": 7.6,
+      "type": "OLED (inner); 5.8-inch OLED cover screen",
+      "resolution": "2208 × 1840",
+      "ppi": 380,
+      "refresh_hz": 120,
+      "peak_nits": 1450
+    },
+    "platform": {
+      "chipset_note": "Google Tensor G2 (not yet in the chipset database)"
+    },
+    "memory": {
+      "ram_gb": [
+        12
+      ],
+      "storage_gb": [
+        256,
+        512
+      ]
+    },
+    "battery": {
+      "capacity_mah": 4821
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 48
+        },
+        {
+          "role": "ultrawide",
+          "mp": 10.8
+        },
+        {
+          "role": "telephoto",
+          "mp": 10.8,
+          "zoom_x": 5
+        }
+      ],
+      "front": "9.5 MP (cover), 8 MP (inner)",
+      "zoom_optical_x": 5
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 139.7,
+        "width_mm": 158.7,
+        "depth_mm": 5.8
+      }
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "wifi": "Wi-Fi 6E",
+      "bluetooth": "Bluetooth 5.2"
+    },
+    "software": {
+      "launch_os": "Android 13"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "google",
+      "url": "https://support.google.com/pixelphone/answer/7158570?hl=en-GB",
+      "checked": "2026-09-25",
+      "note": "Read from Google’s Pixel phone hardware tech specs page (international figures). Folded it measures 139.7 × 79.5 × 12.1 mm. Five years of security updates."
+    }
+  },
+  "dataStatus": "compiled"
+}

@@ -44,7 +44,7 @@
       "gps": "Built-in GNSS",
       "nfc": true,
       "cellular": "LTE option",
-      "bluetooth": "Bluetooth 5.2; classical BT, BLE, Profile; HFP v1.6, HSP v1.2, A2DP v1.2, AVRCP v1.5 SPP v1.1 and later version; Call Performance; Bluetooth answering; Bluetooth dialing",
+      "bluetooth": "Bluetooth 5.2; classical BT, BLE, Profile; HFP v1.6, HSP v1.2, A2DP v1.2, AVRCP v1.5 SPP v1.1 and later version",
       "positioning": "Dual band L1 + L5: Beidou, GPS, Galileo, GLONASS, QZSS; Durability; 5ATM, IP68; Support operating system; ColorOS Watch 7.1"
     },
     "build": {

@@ -1,0 +1,111 @@
+{
+  "id": "nothing-phone-4b",
+  "name": "Nothing Phone (4b)",
+  "brand": "nothing",
+  "category": "smartphone",
+  "series": "Nothing Phone",
+  "form": "bar",
+  "status": "released",
+  "announced": "2026-09-10",
+  "released": "2026-09-10",
+  "segment": "mid",
+  "aliases": [
+    "Phone (4b)",
+    "Nothing Phone 4b"
+  ],
+  "summary": "Nothing’s most affordable 2026 phone: Snapdragon 6 Gen 4, a 6.77-inch 120 Hz AMOLED, 50 MP OIS camera and the Glyph Bar light.",
+  "highlights": [
+    "Snapdragon 6 Gen 4",
+    "50 MP with OIS",
+    "6 years of security updates"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1599,
+      "config": "8 GB / 128 GB",
+      "date": "2026-09-10",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2026/09/10/nothing-phone-4b-malaysia-price-specs-rm1599/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 6.77,
+      "type": "AMOLED",
+      "resolution": "2344 × 1080",
+      "ppi": 381,
+      "peak_nits": 2000,
+      "refresh_hz": 120
+    },
+    "platform": {
+      "chipset": "snapdragon-6-gen-4"
+    },
+    "memory": {
+      "ram_gb": [
+        8
+      ],
+      "storage_gb": [
+        128
+      ]
+    },
+    "battery": {
+      "capacity_mah": 5200
+    },
+    "charging": {
+      "wired_w": 33,
+      "reverse_w": 7.5
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "ois": true
+        },
+        {
+          "role": "ultrawide"
+        }
+      ],
+      "front": "16 MP",
+      "video": "4K 30 fps"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 164.4,
+        "width_mm": 78.2,
+        "depth_mm": 8.6
+      },
+      "weight_g": 210,
+      "ip": "IP64"
+    },
+    "connectivity": {
+      "cellular": "5G"
+    },
+    "software": {
+      "os_updates_years": 3,
+      "security_updates_years": 6
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "nothing",
+      "url": "https://intl.nothing.tech/products/phone-4b",
+      "checked": "2026-09-25",
+      "note": "Read from the specs section of Nothing’s international store page. The 5,200 mAh battery is the non-India version (India gets 6,000 mAh); 8 GB + 256 GB is India-only."
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://cdn.shopify.com/s/files/1/0585/2479/5086/files/product-thumbnail-white.webp",
+    "page": "https://intl.nothing.tech/products/phone-4b",
+    "credit": "Nothing",
+    "checked": "2026-09-25"
+  }
+}

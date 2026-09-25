@@ -1,0 +1,75 @@
+{
+  "id": "redmi-buds-6-active",
+  "name": "REDMI Buds 6 Active",
+  "brand": "redmi",
+  "category": "earbuds",
+  "series": "REDMI Buds",
+  "form": "buds",
+  "status": "released",
+  "segment": "entry",
+  "aliases": [],
+  "summary": "Basic REDMI earbuds: light 4 g buds with up to 30 hours with the case.",
+  "highlights": [
+    "4 g earbuds",
+    "Up to 30 h with case",
+    "Bluetooth 5.4"
+  ],
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-25",
+      "source": "xiaomi",
+      "note": "Listed on Xiaomi Malaysia’s website, but no Malaysian launch price was found in a launch report."
+    }
+  },
+  "specs": {
+    "audio": {
+      "anc": "No"
+    },
+    "battery": {
+      "life_h": 6,
+      "total_h": 30,
+      "bud_mah": 37,
+      "case_mah": 475
+    },
+    "build": {
+      "weight_g": 4,
+      "dimensions": {
+        "height_mm": 32,
+        "width_mm": 18.5,
+        "depth_mm": 17.8
+      },
+      "case_dimensions": {
+        "height_mm": 49,
+        "width_mm": 48.6,
+        "depth_mm": 23
+      }
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.4"
+    },
+    "charging": {
+      "port": "USB-C"
+    },
+    "software": {
+      "app": "Xiaomi Earbuds"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "xiaomi",
+      "url": "https://web.archive.org/web/20260412125739/https://www.mi.com/my/product/redmi-buds-6-active/specs/",
+      "checked": "2026-09-25",
+      "note": "Read from Xiaomi Malaysia’s specification page (Internet Archive copy). The spec page does not mention noise cancelling."
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://web.archive.org/web/20260412125739im_/https://i02.appmifile.com/994_operator_sg/08/08/2024/4bb44ae6d6eb2dca0c7379439d87d530.png",
+    "page": "https://web.archive.org/web/20260412125739/https://www.mi.com/my/product/redmi-buds-6-active/specs/",
+    "credit": "Xiaomi Malaysia (Internet Archive copy)",
+    "checked": "2026-09-25"
+  }
+}

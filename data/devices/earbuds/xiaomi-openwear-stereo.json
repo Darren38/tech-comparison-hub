@@ -1,0 +1,79 @@
+{
+  "id": "xiaomi-openwear-stereo",
+  "name": "Xiaomi OpenWear Stereo",
+  "brand": "xiaomi",
+  "category": "earbuds",
+  "series": "Xiaomi OpenWear",
+  "form": "buds",
+  "status": "released",
+  "segment": "mid",
+  "aliases": [
+    "OpenWear Stereo"
+  ],
+  "summary": "Open-ear Xiaomi earbuds with ear hooks that leave your ears free, with up to 38.5 hours with the case.",
+  "highlights": [
+    "Open-ear hooks",
+    "Up to 38.5 h with case",
+    "Bluetooth 5.3"
+  ],
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-25",
+      "source": "xiaomi",
+      "note": "Listed on Xiaomi Malaysia’s website, but no Malaysian launch price was found in a launch report."
+    }
+  },
+  "specs": {
+    "audio": {
+      "anc": "No (open-ear)"
+    },
+    "battery": {
+      "life_h": 7.5,
+      "total_h": 38.5,
+      "bud_mah": 60,
+      "case_mah": 788
+    },
+    "build": {
+      "style": "Open-ear hooks",
+      "weight_g": 9.6,
+      "case_weight_g": 68.78,
+      "dimensions": {
+        "height_mm": 54.24,
+        "width_mm": 39.3,
+        "depth_mm": 13.79
+      },
+      "case_dimensions": {
+        "height_mm": 105.8,
+        "width_mm": 55.4,
+        "depth_mm": 26.1
+      }
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.3"
+    },
+    "charging": {
+      "port": "USB-C"
+    },
+    "software": {
+      "app": "Xiaomi Earbuds"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "xiaomi",
+      "url": "https://web.archive.org/web/20260306092448/https://www.mi.com/my/product/xiaomi-openwear-stereo/specs/",
+      "checked": "2026-09-25",
+      "note": "Read from Xiaomi Malaysia’s specification page (Internet Archive copy)."
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://web.archive.org/web/20260306092448im_/https://i02.appmifile.com/632_operator_sg/13/06/2024/9f8076e83db472953c43ea395da598f6.png",
+    "page": "https://web.archive.org/web/20260306092448/https://www.mi.com/my/product/xiaomi-openwear-stereo/specs/",
+    "credit": "Xiaomi Malaysia (Internet Archive copy)",
+    "checked": "2026-09-25"
+  }
+}

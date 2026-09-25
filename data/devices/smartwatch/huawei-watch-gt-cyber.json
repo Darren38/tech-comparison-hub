@@ -46,16 +46,19 @@
     "build": {
       "weight_g": 58
     },
-    "sensors": "Accelerometer sensor, Gyroscope sensor, Magnetometer sensor, Optical heart rate sensor, Barometer sensor, Button, Rotatable crown, support long press, short press",
+    "sensors": "Accelerometer sensor, Gyroscope sensor, Magnetometer sensor, Optical heart rate sensor, Barometer sensor",
     "connectivity": {
-      "usb": "Wireless charging; System Requirements; Android 7.0 or later, iOS 9.0 or later; Waterproof Level; 5 ATM",
-      "bluetooth": "Bluetooth Supported"
+      "bluetooth": "Bluetooth Supported",
+      "compatibility": "Android 7.0 or later, iOS 9.0 or later"
     },
     "audio": {
-      "speakers": "Microphone; Environment; Temperature; -20℃～+45℃"
+      "microphone": true
     },
     "misc": {
       "colors": "Midnight Black, Space Grey"
+    },
+    "charging": {
+      "wireless": true
     }
   },
   "provenance": {
@@ -74,21 +77,7 @@
         "checked": "2026-09-18",
         "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
       },
-      "specs.audio.speakers": {
-        "class": "official",
-        "source": "huawei",
-        "url": "https://web.archive.org/web/20240424212336/https://consumer.huawei.com/en/wearables/watch-gt-cyber/specs/",
-        "checked": "2026-09-19",
-        "note": "The maker's own specification page (https://consumer.huawei.com/en/wearables/watch-gt-cyber/specs/) is no longer online; read from the Internet Archive copy captured 2024-04-24."
-      },
       "specs.connectivity.bluetooth": {
-        "class": "official",
-        "source": "huawei",
-        "url": "https://web.archive.org/web/20240424212336/https://consumer.huawei.com/en/wearables/watch-gt-cyber/specs/",
-        "checked": "2026-09-19",
-        "note": "The maker's own specification page (https://consumer.huawei.com/en/wearables/watch-gt-cyber/specs/) is no longer online; read from the Internet Archive copy captured 2024-04-24."
-      },
-      "specs.connectivity.usb": {
         "class": "official",
         "source": "huawei",
         "url": "https://web.archive.org/web/20240424212336/https://consumer.huawei.com/en/wearables/watch-gt-cyber/specs/",

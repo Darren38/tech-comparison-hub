@@ -1,0 +1,85 @@
+{
+  "id": "google-pixel-buds-pro-2",
+  "name": "Google Pixel Buds Pro 2",
+  "brand": "google",
+  "category": "earbuds",
+  "series": "Pixel Buds",
+  "form": "buds",
+  "status": "released",
+  "announced": "2024-08-14",
+  "released": "2024-08-14",
+  "segment": "upper-mid",
+  "aliases": [
+    "Pixel Buds Pro 2"
+  ],
+  "summary": "Google’s premium earbuds with its own Tensor A1 chip, strong noise cancelling and a wireless charging case.",
+  "highlights": [
+    "Tensor A1 chip",
+    "Noise cancelling",
+    "Up to 48 h with case"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1099,
+      "config": "Launch price",
+      "date": "2024-08-14",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2024/08/14/google-pixel-buds-pro-2-malaysia-price-specs-features/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "audio": {
+      "anc": "Yes (Silent Seal 2.0)",
+      "driver": "11 mm dynamic",
+      "mics": "3 per earbud + voice accelerometer"
+    },
+    "platform": {
+      "chipset_note": "Google Tensor A1"
+    },
+    "battery": {
+      "life_h": 12,
+      "life_anc_h": 8,
+      "total_h": 48,
+      "claim": "Up to 12 h (8 h with noise cancelling); 48 h with the case"
+    },
+    "charging": {
+      "port": "USB-C",
+      "wireless": true
+    },
+    "build": {
+      "style": "In-ear with ear tips (four sizes in the box)",
+      "weight_g": 4.7,
+      "case_weight_g": 55.6,
+      "dimensions": {
+        "height_mm": 23.08,
+        "width_mm": 22.74,
+        "depth_mm": 17.03
+      },
+      "case_dimensions": {
+        "height_mm": 63.3,
+        "width_mm": 49.9,
+        "depth_mm": 25.0
+      },
+      "ip": "IP54 (earbuds), IPX4 (case)"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.4",
+      "compatibility": "Any Bluetooth 4.0+ device; full features need Android 6.0 or newer"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "google",
+      "url": "https://support.google.com/googlepixelbuds/answer/7544332?hl=en-GB",
+      "checked": "2026-09-25",
+      "note": "Read from Google’s Pixel Buds specifications help page. Case weight is Google’s case-with-earbuds weight minus two earbuds; sizes largest side first."
+    }
+  },
+  "dataStatus": "compiled"
+}

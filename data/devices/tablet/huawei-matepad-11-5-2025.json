@@ -1,0 +1,83 @@
+{
+  "id": "huawei-matepad-11-5-2025",
+  "name": "HUAWEI MatePad 11.5 (2025)",
+  "brand": "huawei",
+  "category": "tablet",
+  "series": "HUAWEI MatePad",
+  "form": "tablet",
+  "status": "released",
+  "announced": "2025-08",
+  "released": "2025-08",
+  "segment": "mid",
+  "aliases": [
+    "MatePad 11.5 2025"
+  ],
+  "summary": "An 11.5-inch 120 Hz tablet with a 10,100 mAh battery; the PaperMatte Edition has an anti-glare screen.",
+  "highlights": [
+    "11.5-inch 120 Hz",
+    "10,100 mAh",
+    "PaperMatte option"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1599,
+      "config": "PaperMatte Edition, 8 GB / 256 GB",
+      "date": "2025-08-19",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/08/19/huawei-matepad-11-5-2025-malaysia-price-specs-promo-launch/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 11.5,
+      "type": "TFT LCD (IPS)",
+      "resolution": "2456 × 1600",
+      "ppi": 256,
+      "refresh_hz": 120
+    },
+    "platform": {
+      "chipset_note": "Kirin T82B (octa-core)"
+    },
+    "memory": {
+      "ram_gb": [
+        8
+      ],
+      "storage_gb": [
+        256
+      ]
+    },
+    "battery": {
+      "capacity_mah": 10100
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 262.63,
+        "width_mm": 177.53,
+        "depth_mm": 6.1
+      },
+      "weight_g": 515
+    },
+    "connectivity": {
+      "wifi": "Wi-Fi 6",
+      "bluetooth": "Bluetooth 5.2"
+    },
+    "software": {
+      "launch_os": "HarmonyOS 4.3"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "huawei",
+      "url": "https://consumer.huawei.com/my/tablets/matepad-11-5-2025/specs/",
+      "checked": "2026-09-25",
+      "note": "Read from HUAWEI Malaysia’s specification page; launch month from Malaysian launch reports."
+    }
+  },
+  "dataStatus": "checked"
+}

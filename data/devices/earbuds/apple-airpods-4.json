@@ -1,0 +1,96 @@
+{
+  "id": "apple-airpods-4",
+  "name": "AirPods 4",
+  "brand": "apple",
+  "category": "earbuds",
+  "series": "AirPods",
+  "form": "buds",
+  "status": "released",
+  "announced": "2024-09-10",
+  "released": "2024-10",
+  "segment": "mid",
+  "aliases": [
+    "AirPods (4th generation)"
+  ],
+  "summary": "The 2024 open-fit AirPods without noise cancelling: H2 chip, USB-C case and up to 30 hours with the case.",
+  "highlights": [
+    "Open fit (no ear tips)",
+    "Up to 30 h with case",
+    "IP54"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 599,
+      "config": "Charging Case (USB-C)",
+      "date": "2024-09-10",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2024/09/10/airpods-4-airpods-max-pricing-malaysia/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "audio": {
+      "anc": "No",
+      "driver": "Custom high-excursion Apple driver",
+      "spatial": "Personalised Spatial Audio with dynamic head tracking",
+      "mics": "Dual beamforming microphones and an inward-facing microphone",
+      "features": "Adaptive EQ, Voice Isolation"
+    },
+    "battery": {
+      "life_h": 5,
+      "total_h": 30,
+      "claim": "Up to 5 h per charge and 30 h with the case; 5 min in the case ≈ 1 h"
+    },
+    "charging": {
+      "wireless": "No",
+      "port": "USB-C"
+    },
+    "build": {
+      "style": "Open fit (no ear tips)",
+      "weight_g": 4.3,
+      "dimensions": {
+        "height_mm": 30.2,
+        "width_mm": 18.3,
+        "depth_mm": 18.1
+      },
+      "case_weight_g": 32.3,
+      "case_dimensions": {
+        "height_mm": 46.2,
+        "width_mm": 50.1,
+        "depth_mm": 21.2
+      },
+      "ip": "IP54"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.3",
+      "compatibility": "Made for iPhone, iPad and Mac; with other devices they work as Bluetooth earbuds with fewer features"
+    },
+    "platform": {
+      "chip_name": "Apple H2 headphone chip"
+    },
+    "software": {
+      "app": "Built into iOS (Settings)"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "apple",
+      "url": "https://support.apple.com/en-my/121203",
+      "checked": "2026-09-25",
+      "note": "Read from Apple Malaysia’s tech-specs page. Battery figures are Apple’s own claims."
+    }
+  },
+  "dataStatus": "checked",
+  "image": {
+    "kind": "official",
+    "src": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/121203-airpods-4.png",
+    "page": "https://support.apple.com/en-my/121203",
+    "credit": "Apple",
+    "checked": "2026-09-25"
+  }
+}

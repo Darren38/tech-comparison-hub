@@ -1,0 +1,113 @@
+{
+  "id": "apple-ipad-air-11-m4",
+  "name": "iPad Air 11-inch (M4)",
+  "brand": "apple",
+  "category": "tablet",
+  "series": "iPad Air",
+  "form": "tablet",
+  "status": "released",
+  "announced": "2026-03-03",
+  "released": "2026-03-11",
+  "segment": "upper-mid",
+  "aliases": [
+    "iPad Air 11 M4",
+    "iPad Air 11 (2026)",
+    "iPad Air M4"
+  ],
+  "summary": "The 2026 iPad Air: the 11-inch 60 Hz LCD model moves to the M4 chip and Apple’s N1 wireless chip (Wi-Fi 7).",
+  "highlights": [
+    "M4 chip",
+    "11-inch Liquid Retina display",
+    "Wi-Fi 7"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 2799,
+      "config": "Wi-Fi, 128 GB",
+      "date": "2026-03-03",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2026/03/03/ipad-air-2026-m4-chip-malaysia-price-specs/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 11,
+      "type": "Liquid Retina (LCD)",
+      "resolution": "2360 × 1640",
+      "ppi": 264,
+      "refresh_hz": 60,
+      "peak_nits": 500
+    },
+    "platform": {
+      "chipset": "apple-m4",
+      "chipset_note": "8-core CPU (3 performance + 5 efficiency), 9-core GPU"
+    },
+    "memory": {
+      "storage_gb": [
+        128,
+        256,
+        512,
+        1024
+      ]
+    },
+    "battery": {
+      "capacity_wh": 28.93
+    },
+    "input": {
+      "stylus": "Apple Pencil Pro, Apple Pencil (USB-C)"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 247.6,
+        "width_mm": 178.5,
+        "depth_mm": 6.1
+      },
+      "weight_g": 464
+    },
+    "connectivity": {
+      "cellular": "5G (optional)",
+      "wifi": "Wi-Fi 7",
+      "bluetooth": "Bluetooth 6",
+      "usb": "USB-C (USB 3, up to 10 Gb/s)"
+    },
+    "software": {
+      "launch_os": "iPadOS 26",
+      "os_updates_years": 6,
+      "security_updates_years": 7
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "apple",
+      "url": "https://support.apple.com/en-my/126471",
+      "checked": "2026-09-25",
+      "note": "Read from Apple Malaysia’s tech-specs page; Wi-Fi model weight."
+    },
+    "fields": {
+      "specs.software.os_updates_years": {
+        "class": "estimated",
+        "source": "apple",
+        "note": "Apple publishes no fixed update commitment; estimated from the support history of recent devices."
+      },
+      "specs.software.security_updates_years": {
+        "class": "estimated",
+        "source": "apple",
+        "note": "Apple publishes no fixed update commitment; estimated from the support history of recent devices."
+      }
+    }
+  },
+  "dataStatus": "checked",
+  "image": {
+    "kind": "official",
+    "src": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/ipad-air-11-inch-m4.png",
+    "page": "https://support.apple.com/en-my/126471",
+    "credit": "Apple",
+    "checked": "2026-09-25"
+  }
+}

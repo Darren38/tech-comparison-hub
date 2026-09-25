@@ -1,0 +1,90 @@
+{
+  "id": "oppo-pad-se",
+  "name": "OPPO Pad SE",
+  "brand": "oppo",
+  "category": "tablet",
+  "series": "OPPO Pad",
+  "form": "tablet",
+  "status": "released",
+  "announced": "2025-05-15",
+  "released": "2025-05-15",
+  "segment": "entry",
+  "aliases": [
+    "Pad SE"
+  ],
+  "summary": "An 11-inch 90 Hz budget tablet with the Helio G100 and a 9,340 mAh battery.",
+  "highlights": [
+    "11-inch 90 Hz",
+    "9,340 mAh",
+    "RM699"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 699,
+      "config": "4 GB / 128 GB",
+      "date": "2025-05-16",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/05/16/oppo-pad-se-launch-malaysia-price-specs-promo/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 11,
+      "type": "LCD",
+      "resolution": "1920 × 1200",
+      "ppi": 207,
+      "refresh_hz": 90,
+      "peak_nits": 500
+    },
+    "platform": {
+      "chipset": "helio-g100"
+    },
+    "memory": {
+      "ram_gb": [
+        4,
+        6,
+        8
+      ],
+      "storage_gb": [
+        128
+      ]
+    },
+    "battery": {
+      "capacity_mah": 9340
+    },
+    "charging": {
+      "wired_w": 33
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 254.91,
+        "width_mm": 166.46,
+        "depth_mm": 7.39
+      },
+      "weight_g": 530
+    },
+    "connectivity": {
+      "cellular": "4G LTE (LTE model)",
+      "wifi": "Wi-Fi 5",
+      "bluetooth": "Bluetooth 5.4"
+    },
+    "software": {
+      "launch_os": "ColorOS 15.0.1"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "oppo",
+      "url": "https://www.oppo.com/en/accessories/oppo-pad-se/specs-lte/",
+      "checked": "2026-09-25",
+      "note": "Read from OPPO’s specification page (global site unless noted)."
+    }
+  },
+  "dataStatus": "checked"
+}

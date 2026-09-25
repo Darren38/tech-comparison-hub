@@ -1,0 +1,40 @@
+{
+  "id": "apple-m4",
+  "name": "Apple M4",
+  "vendor": "apple",
+  "family": "M-series",
+  "tier": "flagship",
+  "announced": "2024-05-07",
+  "aliases": [
+    "M4"
+  ],
+  "summary": "First used in the 2024 iPad Pro (9- or 10-core CPU by storage) and in the 2026 iPad Air (8-core CPU, 9-core GPU).",
+  "cpu": {
+    "cores": 10,
+    "clusters": [
+      {
+        "count": 4,
+        "core": "Performance"
+      },
+      {
+        "count": 6,
+        "core": "Efficiency"
+      }
+    ]
+  },
+  "gpu": {
+    "name": "Apple GPU, 10-core (iPad Pro) / 9-core (iPad Air)"
+  },
+  "npu": "16-core Neural Engine",
+  "variants": [],
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "apple",
+      "url": "https://support.apple.com/en-my/119891",
+      "checked": "2026-09-25",
+      "note": "Core counts from Apple’s iPad Pro (M4) and iPad Air (M4) tech-spec pages."
+    },
+    "fields": {}
+  }
+}

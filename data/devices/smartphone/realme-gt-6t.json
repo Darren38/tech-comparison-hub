@@ -1,0 +1,81 @@
+{
+  "id": "realme-gt-6t",
+  "name": "realme GT 6T",
+  "brand": "realme",
+  "category": "smartphone",
+  "series": "realme GT",
+  "form": "bar",
+  "status": "released",
+  "announced": "2024-06-21",
+  "released": "2024-06-21",
+  "segment": "mid",
+  "aliases": [
+    "GT 6T"
+  ],
+  "summary": "A 6.78-inch 120 Hz 5G mid-range phone with the Snapdragon 7+ Gen 3 Flagship, a 5,500 mAh battery and 120 W charging.",
+  "highlights": [
+    "Snapdragon 7+ Gen 3 Flagship",
+    "6.78-inch 120 Hz",
+    "5,500 mAh, 120 W"
+  ],
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-25",
+      "source": "realme",
+      "note": "Listed on the maker’s Malaysian website, but no Malaysian launch price was found in a launch report."
+    }
+  },
+  "specs": {
+    "platform": {
+      "chipset_note": "Snapdragon 7+ Gen 3 Flagship"
+    },
+    "charging": {
+      "wired_w": 120
+    },
+    "memory": {
+      "ram_gb": [
+        12
+      ],
+      "storage_gb": [
+        256
+      ]
+    },
+    "display": {
+      "size_in": 6.78,
+      "refresh_hz": 120,
+      "resolution": "2780 × 1264"
+    },
+    "battery": {
+      "capacity_mah": 5500
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "wifi": "Wi-Fi 6"
+    },
+    "build": {
+      "weight_g": 191.0,
+      "dimensions": {
+        "height_mm": 162.0,
+        "width_mm": 75.1,
+        "depth_mm": 8.65
+      }
+    },
+    "software": {
+      "launch_os": "Android 14"
+    },
+    "camera": {
+      "front": "32 MP"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "realme",
+      "url": "https://www.realme.com/my/realme-gt-6t/specs",
+      "checked": "2026-09-25",
+      "note": "Read automatically from the maker’s Malaysian specification page and reviewed; values not found on the page are left out."
+    }
+  },
+  "dataStatus": "compiled"
+}

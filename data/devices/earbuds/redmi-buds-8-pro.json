@@ -1,0 +1,73 @@
+{
+  "id": "redmi-buds-8-pro",
+  "name": "REDMI Buds 8 Pro",
+  "brand": "redmi",
+  "category": "earbuds",
+  "series": "REDMI Buds",
+  "form": "buds",
+  "status": "released",
+  "segment": "mid",
+  "aliases": [],
+  "summary": "REDMI’s three-driver earbuds with up to 55 dB noise cancelling (claimed), IP54 and up to 33 hours with the case.",
+  "highlights": [
+    "Three drivers",
+    "Up to 55 dB ANC (claimed)",
+    "IP54"
+  ],
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-25",
+      "source": "xiaomi",
+      "note": "Listed on Xiaomi Malaysia’s website, but no Malaysian launch price was found in a launch report."
+    }
+  },
+  "specs": {
+    "audio": {
+      "anc": "Yes (smart ANC, up to 55 dB claimed)",
+      "driver": "Coaxial triple drivers",
+      "hires": "Hi-Res Audio certified"
+    },
+    "battery": {
+      "life_h": 8,
+      "total_h": 33,
+      "bud_mah": 54,
+      "case_mah": 480
+    },
+    "build": {
+      "style": "In-ear (ear caps in the box)",
+      "weight_g": 5.3,
+      "case_weight_g": 36.3,
+      "dimensions": {
+        "height_mm": 30.6,
+        "width_mm": 24.5,
+        "depth_mm": 21.3
+      },
+      "case_dimensions": {
+        "height_mm": 61.01,
+        "width_mm": 48.28,
+        "depth_mm": 25.17
+      },
+      "ip": "IP54"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.4"
+    },
+    "charging": {
+      "port": "USB-C"
+    },
+    "software": {
+      "app": "Xiaomi Earbuds"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "xiaomi",
+      "url": "https://web.archive.org/web/20260509161802/https://www.mi.com/my/product/redmi-buds-8-pro/specs/",
+      "checked": "2026-09-25",
+      "note": "Read from Xiaomi Malaysia’s specification page (Internet Archive copy); battery and noise-cancelling claims from the overview page (https://web.archive.org/web/20260825115449/https://www.mi.com/my/product/redmi-buds-8-pro/)."
+    }
+  },
+  "dataStatus": "compiled"
+}

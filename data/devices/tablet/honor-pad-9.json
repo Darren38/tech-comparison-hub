@@ -1,0 +1,86 @@
+{
+  "id": "honor-pad-9",
+  "name": "HONOR Pad 9",
+  "brand": "honor",
+  "category": "tablet",
+  "series": "HONOR Pad",
+  "form": "tablet",
+  "status": "released",
+  "announced": "2024-03",
+  "released": "2024-03",
+  "segment": "mid",
+  "aliases": [
+    "Pad 9"
+  ],
+  "summary": "A 12.1-inch 2.5K LCD tablet with the Snapdragon 6 Gen 1 and eight speakers.",
+  "highlights": [
+    "12.1-inch 2.5K LCD",
+    "Eight speakers",
+    "35 W charging"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1799,
+      "config": "5G, 8 GB / 256 GB",
+      "date": "2024-04-22",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2024/04/22/honor-pad-9-5g-malaysia-launch-price-specs-official/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 12.1,
+      "type": "TFT LCD (IPS)",
+      "resolution": "2560 × 1600",
+      "ppi": 249
+    },
+    "platform": {
+      "chipset": "snapdragon-6-gen-1"
+    },
+    "memory": {
+      "ram_gb": [
+        8
+      ],
+      "storage_gb": [
+        256
+      ]
+    },
+    "battery": {
+      "capacity_mah": 8300
+    },
+    "charging": {
+      "wired_w": 35
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 278.27,
+        "width_mm": 180.11,
+        "depth_mm": 6.9
+      },
+      "weight_g": 555
+    },
+    "connectivity": {
+      "cellular": "5G (optional)",
+      "wifi": "Wi-Fi 5",
+      "bluetooth": "Bluetooth 5.1"
+    },
+    "software": {
+      "launch_os": "MagicOS 7.2 (Android 13)"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "honor",
+      "url": "https://www.honor.com/my/tablets/honor-pad-9/spec/",
+      "checked": "2026-09-25",
+      "note": "Read from HONOR Malaysia’s specification page; launch month from Malaysian launch reports."
+    }
+  },
+  "dataStatus": "checked"
+}

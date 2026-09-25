@@ -34,10 +34,11 @@
         "note": "Reported at launch; Google has not published a detailed spec sheet for the chip."
       },
       "cpu.cores": {
-        "class": "database",
-        "source": "gsmarena",
-        "url": "https://www.gsmarena.com/google_pixel_11_pro_hands_on-review-2990p3.php",
-        "note": "Reported in hands-on testing."
+        "class": "reviewer",
+        "source": "androidauthority",
+        "url": "https://www.androidauthority.com/google-tensor-g6-3695351/",
+        "checked": "2026-09-25",
+        "note": "Seven cores (1 + 4 + 2) reported from hands-on testing; Google has not published the layout."
       }
     }
   }

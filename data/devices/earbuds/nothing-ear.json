@@ -1,0 +1,96 @@
+{
+  "id": "nothing-ear",
+  "name": "Nothing Ear",
+  "brand": "nothing",
+  "category": "earbuds",
+  "series": "Nothing Ear",
+  "form": "buds",
+  "status": "released",
+  "announced": "2024-04-19",
+  "released": "2024-04-19",
+  "segment": "upper-mid",
+  "aliases": [],
+  "summary": "Nothing’s 2024 flagship earbuds with a ceramic driver, adaptive noise cancelling and hi-res LDAC/LHDC audio.",
+  "highlights": [
+    "Ceramic driver",
+    "Adaptive noise cancelling",
+    "LDAC + LHDC 5.0"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 659,
+      "config": "Launch price",
+      "date": "2024-04-19",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2024/04/19/nothing-ear-and-ear-a-launched-with-better-anc-and-ai-features-starting-at-rm479/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "audio": {
+      "anc": "Yes (adaptive, up to 45 dB claimed)",
+      "driver": "11 mm dynamic, ceramic diaphragm",
+      "codecs": [
+        "LHDC 5.0",
+        "LDAC",
+        "AAC",
+        "SBC"
+      ],
+      "mics": "3 per earbud"
+    },
+    "battery": {
+      "life_h": 8.5,
+      "life_anc_h": 5.2,
+      "total_h": 40.5,
+      "bud_mah": 46,
+      "case_mah": 500
+    },
+    "charging": {
+      "port": "USB-C"
+    },
+    "build": {
+      "style": "In-ear with silicone tips",
+      "weight_g": 4.62,
+      "case_weight_g": 51.9,
+      "dimensions": {
+        "height_mm": 29.4,
+        "width_mm": 21.7,
+        "depth_mm": 24.1
+      },
+      "case_dimensions": {
+        "height_mm": 55.5,
+        "width_mm": 55.5,
+        "depth_mm": 22
+      },
+      "ip": "IP54 (earbuds), IP55 (case)"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.3",
+      "multipoint": "Yes (dual connection)"
+    },
+    "software": {
+      "app": "Nothing X (Android and iPhone)"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "nothing",
+      "url": "https://intl.nothing.tech/products/ear",
+      "checked": "2026-09-25",
+      "note": "Read from the specs section of Nothing’s international store page. Case weight is as listed (Nothing does not say whether it includes the earbuds)."
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://cdn.shopify.com/s/files/1/0585/2479/5086/files/BA_360_ENTEI_030_blackBud_rgb_00_4fdaba7c-5568-4db0-aaa5-5129d524d8bd.png",
+    "page": "https://intl.nothing.tech/products/ear",
+    "credit": "Nothing",
+    "checked": "2026-09-25"
+  }
+}

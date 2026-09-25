@@ -1,0 +1,72 @@
+{
+  "id": "oneplus-watch-3-43mm",
+  "name": "OnePlus Watch 3 43mm",
+  "brand": "oneplus",
+  "category": "smartwatch",
+  "series": "OnePlus Watch",
+  "form": "watch",
+  "status": "released",
+  "segment": "upper-mid",
+  "aliases": [
+    "OnePlus Watch 3 43 mm",
+    "Watch 3 43mm"
+  ],
+  "summary": "The smaller OnePlus Watch 3: a 1.32-inch AMOLED Wear OS watch with 5 ATM and IP68, up to 7 days in power-saver mode.",
+  "highlights": [
+    "1.32-inch AMOLED",
+    "5 ATM, IP68",
+    "Up to 7 days (power saver)"
+  ],
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-25",
+      "source": "oneplus",
+      "note": "Listed on OnePlus Malaysia’s website, but no Malaysian launch price was found in a launch report."
+    }
+  },
+  "specs": {
+    "display": {
+      "size_in": 1.32,
+      "type": "AMOLED"
+    },
+    "battery": {
+      "capacity_mah": 354,
+      "life_low_power_h": 168,
+      "claim": "Up to 7 days in power-saver mode; 10 min charge for up to 24 h of normal use"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 43.2,
+        "width_mm": 43.2,
+        "depth_mm": 11
+      },
+      "weight_g": 37.8,
+      "water": "5 ATM",
+      "water_m": 50,
+      "ip": "IP68"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.2",
+      "wifi": "Wi-Fi 2.4/5 GHz",
+      "positioning": "Beidou, GPS, Galileo, GLONASS, QZSS"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "oneplus",
+      "url": "https://www.oneplus.com/my/oneplus-watch-3-43mm/specs",
+      "checked": "2026-09-25",
+      "note": "Read from OnePlus Malaysia’s specification page. Size excludes the heart-rate sensor bump; weight excludes the strap."
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://www.oneplus.com/content/dam/oneplus/2025/product-station/oneplus-watch-3/specs/Silver_Steel.png",
+    "page": "https://www.oneplus.com/my/oneplus-watch-3-43mm/specs",
+    "credit": "OnePlus",
+    "checked": "2026-09-25"
+  }
+}

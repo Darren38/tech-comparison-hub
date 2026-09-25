@@ -1,0 +1,89 @@
+{
+  "id": "xiaomi-pad-7",
+  "name": "Xiaomi Pad 7",
+  "brand": "xiaomi",
+  "category": "tablet",
+  "series": "Xiaomi Pad",
+  "form": "tablet",
+  "status": "released",
+  "announced": "2025-03",
+  "released": "2025-03",
+  "segment": "mid",
+  "aliases": [
+    "Pad 7"
+  ],
+  "summary": "An 11.2-inch 3.2K 144 Hz tablet with the Snapdragon 7+ Gen 3 and 45 W charging at a mid-range price.",
+  "highlights": [
+    "11.2-inch 3.2K 144 Hz",
+    "Snapdragon 7+ Gen 3",
+    "45 W charging"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1299,
+      "config": "8 GB / 128 GB",
+      "date": "2025-03-03",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/03/03/xiaomi-pad-7-pad-7-pro-malaysia-launch-price-specs/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 11.2,
+      "type": "LCD",
+      "resolution": "3200 × 2136",
+      "ppi": 345,
+      "refresh_hz": 144,
+      "peak_nits": 800
+    },
+    "platform": {
+      "chipset": "snapdragon-7-plus-gen-3"
+    },
+    "memory": {
+      "ram_gb": [
+        8,
+        12
+      ],
+      "storage_gb": [
+        128,
+        256
+      ]
+    },
+    "battery": {
+      "capacity_mah": 8850
+    },
+    "charging": {
+      "wired_w": 45
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 251.22,
+        "width_mm": 173.42,
+        "depth_mm": 6.18
+      },
+      "weight_g": 500
+    },
+    "connectivity": {
+      "wifi": "Wi-Fi 6E",
+      "bluetooth": "Bluetooth 5.4"
+    },
+    "software": {
+      "launch_os": "Xiaomi HyperOS 2"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "xiaomi",
+      "url": "https://web.archive.org/web/20250906012419/https://www.mi.com/my/product/xiaomi-pad-7/specs/",
+      "checked": "2026-09-25",
+      "note": "Read from Xiaomi Malaysia’s specification page (Internet Archive copy, because mi.com refuses automated reading)."
+    }
+  },
+  "dataStatus": "checked"
+}

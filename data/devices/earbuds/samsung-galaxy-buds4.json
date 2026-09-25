@@ -1,0 +1,104 @@
+{
+  "id": "samsung-galaxy-buds4",
+  "name": "Galaxy Buds4",
+  "brand": "samsung",
+  "category": "earbuds",
+  "series": "Galaxy Buds",
+  "form": "buds",
+  "status": "released",
+  "announced": "2026-02-26",
+  "released": "2026-03-11",
+  "segment": "upper-mid",
+  "aliases": [
+    "Buds4",
+    "Galaxy Buds 4"
+  ],
+  "summary": "The 2026 open-type Galaxy Buds with adaptive noise cancelling, Bluetooth 6.1 and up to 30 hours with the case.",
+  "highlights": [
+    "Open type (no ear tips)",
+    "Adaptive noise cancelling",
+    "Bluetooth 6.1"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 699,
+      "config": "Retail price",
+      "date": "2026-02-26",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2026/02/26/samsung-galaxy-buds-4-pro-series-malaysia-pricing-features-promo/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "audio": {
+      "anc": "Yes (adaptive)",
+      "driver": "One-way dynamic",
+      "spatial": "360 Audio",
+      "hires": "Up to 24-bit / 96 kHz with Samsung phones (SSC-UHQ)",
+      "mics": "6 microphones",
+      "features": "Adaptive EQ, Adaptive ANC, Auracast",
+      "codecs": [
+        "SSC UHQ",
+        "SSC",
+        "AAC",
+        "SBC",
+        "LC3"
+      ]
+    },
+    "battery": {
+      "life_h": 6,
+      "life_anc_h": 5,
+      "total_h": 30,
+      "bud_mah": 45,
+      "case_mah": 515,
+      "claim": "Up to 6 h (5 h with noise cancelling); 30 h with the case (24 h with noise cancelling)"
+    },
+    "charging": {
+      "port": "USB-C"
+    },
+    "build": {
+      "style": "Open type (no ear tips)",
+      "weight_g": 4.6,
+      "dimensions": {
+        "height_mm": 30.5,
+        "width_mm": 18.3,
+        "depth_mm": 19.3
+      },
+      "case_weight_g": 45.1,
+      "case_dimensions": {
+        "height_mm": 51,
+        "width_mm": 28.3,
+        "depth_mm": 51
+      },
+      "ip": "IP54"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 6.1 (LE Audio)",
+      "compatibility": "Android phones (Samsung Galaxy for all features)"
+    },
+    "software": {
+      "app": "Galaxy Wearable (Android)"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "samsung",
+      "url": "https://www.samsung.com/my/audio-sound/galaxy-buds/galaxy-buds4-white-sm-r540nzwaxme/",
+      "checked": "2026-09-25",
+      "note": "Read from Samsung Malaysia’s specification data for model SM-R540NZWAXME (the data behind samsung.com/my product pages). Battery figures are Samsung’s claims."
+    }
+  },
+  "dataStatus": "checked",
+  "image": {
+    "kind": "official",
+    "src": "https://images.samsung.com/is/image/samsung/p6pim/my/s2602/gallery/my-galaxy-buds4-r540-sm-r540nzwaxme-550981884?$1164_776_PNG$",
+    "page": "https://www.samsung.com/my/audio-sound/galaxy-buds/galaxy-buds4-white-sm-r540nzwaxme/",
+    "credit": "Samsung",
+    "checked": "2026-09-25"
+  }
+}

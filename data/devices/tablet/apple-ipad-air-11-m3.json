@@ -1,0 +1,114 @@
+{
+  "id": "apple-ipad-air-11-m3",
+  "name": "iPad Air 11-inch (M3)",
+  "brand": "apple",
+  "category": "tablet",
+  "series": "iPad Air",
+  "form": "tablet",
+  "status": "released",
+  "announced": "2025-03-04",
+  "released": "2025-03-12",
+  "segment": "upper-mid",
+  "aliases": [
+    "iPad Air 11 M3",
+    "iPad Air 11 (2025)"
+  ],
+  "summary": "The smaller 2025 iPad Air: an 11-inch 60 Hz LCD with M3 performance.",
+  "highlights": [
+    "M3 chip",
+    "11-inch Liquid Retina display",
+    "Apple Pencil Pro support"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 2799,
+      "config": "Wi-Fi, 128 GB",
+      "date": "2025-03-05",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/03/05/apple-ipad-air-2025-m3-malaysia-price-specs/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 11,
+      "type": "Liquid Retina (LCD)",
+      "resolution": "2360 × 1640",
+      "ppi": 264,
+      "refresh_hz": 60,
+      "peak_nits": 500
+    },
+    "platform": {
+      "chipset": "apple-m3"
+    },
+    "memory": {
+      "ram_gb": [
+        8
+      ],
+      "storage_gb": [
+        128,
+        256,
+        512,
+        1024
+      ]
+    },
+    "battery": {
+      "capacity_wh": 28.93
+    },
+    "input": {
+      "stylus": "Apple Pencil Pro, Apple Pencil (USB-C)"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 247.6,
+        "width_mm": 178.5,
+        "depth_mm": 6.1
+      },
+      "weight_g": 460
+    },
+    "connectivity": {
+      "cellular": "5G (optional)",
+      "wifi": "Wi-Fi 6E",
+      "bluetooth": "Bluetooth 5.3",
+      "usb": "USB-C (USB 3, up to 10 Gb/s)"
+    },
+    "software": {
+      "launch_os": "iPadOS 18",
+      "os_updates_years": 6,
+      "security_updates_years": 7
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "apple",
+      "url": "https://support.apple.com/en-my/122241",
+      "checked": "2026-09-25",
+      "note": "Read from Apple Malaysia’s tech-specs page; Wi-Fi model weight."
+    },
+    "fields": {
+      "specs.software.os_updates_years": {
+        "class": "estimated",
+        "source": "apple",
+        "note": "Apple publishes no fixed update commitment; estimated from the support history of recent devices."
+      },
+      "specs.software.security_updates_years": {
+        "class": "estimated",
+        "source": "apple",
+        "note": "Apple publishes no fixed update commitment; estimated from the support history of recent devices."
+      }
+    }
+  },
+  "dataStatus": "checked",
+  "image": {
+    "kind": "official",
+    "src": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/122241-122242-ipad-air-11inch-13inch-portimage2.png",
+    "page": "https://support.apple.com/en-my/122241",
+    "credit": "Apple",
+    "checked": "2026-09-25"
+  }
+}

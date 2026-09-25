@@ -1,0 +1,81 @@
+{
+  "id": "samsung-galaxy-tab-active5",
+  "name": "Galaxy Tab Active5",
+  "brand": "samsung",
+  "category": "tablet",
+  "series": "Galaxy Tab Active",
+  "form": "tablet",
+  "status": "released",
+  "announced": "2024-01-19",
+  "released": "2024-01",
+  "segment": "mid",
+  "aliases": [
+    "Tab Active5"
+  ],
+  "summary": "Samsung’s 8-inch rugged work tablet: IP68, MIL-STD-810H, a user-replaceable battery and an IP68 S Pen in the box.",
+  "highlights": [
+    "Rugged (IP68, MIL-STD-810H)",
+    "Replaceable battery",
+    "S Pen included"
+  ],
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-25",
+      "source": "samsung",
+      "note": "No Malaysian launch price was found in Samsung Malaysia’s releases or a launch report."
+    }
+  },
+  "specs": {
+    "display": {
+      "size_in": 8.0,
+      "type": "TFT LCD",
+      "refresh_hz": 120
+    },
+    "platform": {
+      "chipset_note": "5 nm octa-core processor (not named by Samsung)"
+    },
+    "memory": {
+      "ram_gb": [
+        6
+      ],
+      "storage_gb": [
+        128
+      ],
+      "expandable": true
+    },
+    "battery": {
+      "capacity_mah": 5050
+    },
+    "input": {
+      "stylus": "S Pen (IP68) included"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 213.8,
+        "width_mm": 126.8,
+        "depth_mm": 10.1
+      },
+      "weight_g": 433,
+      "ip": "IP68"
+    },
+    "connectivity": {
+      "cellular": "5G (optional)",
+      "wifi": "Wi-Fi 6",
+      "bluetooth": "Bluetooth 5.3"
+    },
+    "software": {
+      "launch_os": "Android 14"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "samsung",
+      "url": "https://news.samsung.com/my/introducing-the-galaxy-xcover7-galaxy-tab-active5-the-perfect-blend-of-durability-work-continuity-and-productivity-for-todays-enterprises",
+      "checked": "2026-09-25",
+      "note": "Read from Samsung’s launch press release (specification table); Wi-Fi model weight."
+    }
+  },
+  "dataStatus": "checked"
+}

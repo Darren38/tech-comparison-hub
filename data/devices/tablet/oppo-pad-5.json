@@ -1,0 +1,89 @@
+{
+  "id": "oppo-pad-5",
+  "name": "OPPO Pad 5",
+  "brand": "oppo",
+  "category": "tablet",
+  "series": "OPPO Pad",
+  "form": "tablet",
+  "status": "released",
+  "announced": "2026",
+  "released": "2026",
+  "segment": "mid",
+  "aliases": [
+    "Pad 5",
+    "OPPO Pad 5 Matte Display Edition"
+  ],
+  "summary": "A 12.1-inch 120 Hz tablet with an anti-glare Matte Display option, the Dimensity 7300-Ultra and a 10,050 mAh battery.",
+  "highlights": [
+    "12.1-inch 120 Hz, matte option",
+    "Dimensity 7300-Ultra",
+    "10,050 mAh"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1699,
+      "config": "Wi-Fi",
+      "date": "2026",
+      "type": "launch",
+      "source": "technave",
+      "url": "https://technave.com/gadget/OPPO-Pad-5-Malaysia-release-10050mAh-battery-and-AI-powered-tools-starting-price-at-RM1699-45321.html",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 12.1,
+      "type": "LCD",
+      "resolution": "2800 × 1980",
+      "ppi": 284,
+      "refresh_hz": 120,
+      "peak_nits": 900
+    },
+    "platform": {
+      "chipset": "dimensity-7300-ultra"
+    },
+    "memory": {
+      "ram_gb": [
+        8
+      ],
+      "storage_gb": [
+        256
+      ]
+    },
+    "battery": {
+      "capacity_mah": 10050
+    },
+    "charging": {
+      "wired_w": 33
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 266.01,
+        "width_mm": 192.77,
+        "depth_mm": 6.83
+      },
+      "weight_g": 599
+    },
+    "connectivity": {
+      "cellular": "5G (5G model)",
+      "wifi": "Wi-Fi 6",
+      "bluetooth": "Bluetooth 5.4"
+    },
+    "software": {
+      "launch_os": "ColorOS 16.0"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "oppo",
+      "url": "https://www.oppo.com/my/accessories/oppo-pad-5-matte-display-edition/specs-5g/",
+      "checked": "2026-09-25",
+      "note": "Read from OPPO Malaysia’s specification page (5G model)."
+    }
+  },
+  "dataStatus": "checked"
+}

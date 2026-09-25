@@ -49,13 +49,14 @@
     "software": {
       "launch_os": "EMUI 5.0"
     },
-    "sensors": "6-axis inertial sensors (accelerometer, gyroscope), Optical heart rate sensor, Button, Full-screen touch + side button",
+    "sensors": "6-axis inertial sensors (accelerometer, gyroscope), Optical heart rate sensor",
     "connectivity": {
-      "usb": "Magnetic charging port; System Requirements; EMUI 5.0 or later; Android 8.0 or later; iOS 9.0 or later; Waterproof Level",
-      "bluetooth": "BT 5.0"
+      "usb": "Magnetic charging port",
+      "bluetooth": "BT 5.0",
+      "compatibility": "EMUI 5.0 or later, Android 8.0 or later, iOS 9.0 or later"
     },
     "charging": {
-      "claim": "Charger voltage and current requirements; 5V/1A"
+      "claim": "Charger: 5V/1A"
     },
     "misc": {
       "colors": "Emerald Green, Sakura Pink, Mid-night Black, Vibrant Orange"

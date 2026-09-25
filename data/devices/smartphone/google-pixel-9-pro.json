@@ -1,0 +1,134 @@
+{
+  "id": "google-pixel-9-pro",
+  "name": "Pixel 9 Pro",
+  "brand": "google",
+  "category": "smartphone",
+  "series": "Pixel",
+  "form": "bar",
+  "status": "released",
+  "announced": "2024-10-18",
+  "released": "2024-10-18",
+  "segment": "flagship",
+  "aliases": [
+    "Google Pixel 9 Pro"
+  ],
+  "summary": "The small Pro Pixel of 2024: a 6.3-inch LTPO screen, 5x telephoto, 42 MP selfie camera and 16 GB RAM.",
+  "highlights": [
+    "5x telephoto",
+    "42 MP selfie",
+    "16 GB RAM"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 5199,
+      "config": "16 GB / 128 GB",
+      "date": "2024-10-18",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2024/10/18/google-pixel-9-pro-now-available-malaysia-price-specs/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 5699,
+      "config": "16 GB / 256 GB",
+      "date": "2024-10-18",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2024/10/18/google-pixel-9-pro-now-available-malaysia-price-specs/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 6299,
+      "config": "16 GB / 512 GB",
+      "date": "2024-10-18",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2024/10/18/google-pixel-9-pro-now-available-malaysia-price-specs/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 6.3,
+      "type": "Super Actua LTPO OLED",
+      "resolution": "2856 × 1280",
+      "ppi": 495,
+      "refresh_hz": 120,
+      "peak_nits": 3000
+    },
+    "platform": {
+      "chipset_note": "Google Tensor G4 (not yet in the chipset database)"
+    },
+    "memory": {
+      "ram_gb": [
+        16
+      ],
+      "storage_gb": [
+        128,
+        256,
+        512,
+        1024
+      ]
+    },
+    "battery": {
+      "capacity_mah": 4700
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50
+        },
+        {
+          "role": "ultrawide",
+          "mp": 48
+        },
+        {
+          "role": "telephoto",
+          "mp": 48,
+          "zoom_x": 5
+        }
+      ],
+      "front": "42 MP",
+      "zoom_optical_x": 5
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 152.8,
+        "width_mm": 72.0,
+        "depth_mm": 8.5
+      },
+      "weight_g": 199,
+      "ip": "IP68"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "wifi": "Wi-Fi 7",
+      "bluetooth": "Bluetooth 5.3"
+    },
+    "software": {
+      "launch_os": "Android 14",
+      "os_updates_years": 7,
+      "security_updates_years": 7
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "google",
+      "url": "https://support.google.com/pixelphone/answer/7158570?hl=en-GB",
+      "checked": "2026-09-25",
+      "note": "Read from Google’s Pixel phone hardware tech specs page (international figures)."
+    }
+  },
+  "dataStatus": "compiled"
+}

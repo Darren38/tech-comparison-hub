@@ -28,7 +28,7 @@ export const PLAN_SCHEMA = {
     intent: { type: 'string', enum: INTENTS },
     devices: { type: 'array', items: { type: 'string' }, maxItems: 4 },
     about_previous: { type: 'boolean' },
-    category: { type: 'string', enum: ['phone', 'watch', 'band', 'tablet', 'any'] },
+    category: { type: 'string', enum: ['phone', 'watch', 'band', 'tablet', 'earbuds', 'any'] },
     brand: { type: 'string' },
     budget_rm: { type: 'integer' },
     use_case: { type: 'string', enum: USE_CASES },
@@ -41,14 +41,14 @@ export const PLAN_SCHEMA = {
   additionalProperties: false,
 };
 
-const PLAN_SYSTEM = `You turn a visitor's question to a phone, smartwatch and fitness band comparison website (Malaysia) into a JSON plan. Do not answer the question.
+const PLAN_SYSTEM = `You turn a visitor's question to a phone, tablet, smartwatch, fitness band and earbuds comparison website (Malaysia) into a JSON plan. Do not answer the question.
 Fields:
 - question_en: the question restated as a short, clear English question (fix typos, translate if needed).
 - language: the language the visitor wrote in (en, ms = Malay, zh = Chinese, ta = Tamil, id = Indonesian, other).
 - intent: device_info (specs or details of a device), price, feature_check (does it have NFC / eSIM / a headphone jack / wireless charging …), verdict (is it good, worth buying, good for gaming, pros and cons), reviews (what reviewers or tests say, problems, complaints), news (latest news, launch, updates about a device), compare (two or more devices, which is better), differences (what is different between two or more devices), recommend (which device to buy for a need or budget), rank (the device with the most or least of a spec: biggest battery, lightest, cheapest), advice (how to choose, what to look for, is a spec enough, how much do I need), explain_term (what a spec word means: IP68, LTPO, mAh), list (devices of a brand or year), smalltalk (greetings, thanks), other.
 - devices: device model names exactly as the visitor wrote them (for example "s25 ultra", "redmi note 14"). Never invent names. Empty if none.
 - about_previous: true when the question refers to earlier devices ("it", "this one", "the cheaper one", "them") without naming them.
-- category: phone, watch, band, tablet, or any.
+- category: phone, watch, band, tablet, earbuds, or any.
 - brand: a brand name the visitor limited the question to, or "".
 - budget_rm: the maximum price in Malaysian ringgit as a whole number ("under RM2k" = 2000, "bawah RM1000" = 1000, "below 1.5k" = 1500), or 0 when none.
 - use_case: gaming, photography (camera, photos, selfies, video), battery (long battery life), student (value for money, cheap, basic use), longterm (lasting many years, updates), performance (speed), balanced (general or unspecified), or none.
@@ -74,7 +74,7 @@ function normalisePlan(p, question) {
     intent: p.intent,
     devices: arr(p.devices),
     about_previous: Boolean(p.about_previous),
-    category: ['phone', 'watch', 'band', 'tablet'].includes(p.category) ? p.category : 'any',
+    category: ['phone', 'watch', 'band', 'tablet', 'earbuds'].includes(p.category) ? p.category : 'any',
     brand: typeof p.brand === 'string' ? p.brand.trim().slice(0, 40) : '',
     budget_rm: Number.isFinite(p.budget_rm) && p.budget_rm >= 100 && p.budget_rm <= 20000 ? Math.round(p.budget_rm) : 0,
     use_case: USE_CASES.includes(p.use_case) ? p.use_case : 'none',
@@ -101,7 +101,7 @@ function namedIn(name, question) {
   return hits.some((w) => /\d/.test(w)) && hits.length * 2 >= words.length;
 }
 
-const GENERIC_WORDS = new Set(['phone', 'phones', 'smartphone', 'smartphones', 'watch', 'watches', 'smartwatch', 'band', 'bands', 'tablet', 'tablets', 'the', 'a', 'new', 'latest', 'cheap', 'best', 'telefon', 'fon']);
+const GENERIC_WORDS = new Set(['phone', 'phones', 'smartphone', 'smartphones', 'watch', 'watches', 'smartwatch', 'band', 'bands', 'tablet', 'tablets', 'earbuds', 'earbud', 'buds', 'the', 'a', 'new', 'latest', 'cheap', 'best', 'telefon', 'fon']);
 /** True for a "device" that is only brand and category words ("samsung phone", "xiaomi"). */
 function isGeneric(name) {
   const brands = new Set((store.core.brands ?? []).flatMap((b) => normalizeText(b.name).split(' ')));
@@ -140,11 +140,12 @@ const NEWS_WORDS = /\b(news|latest|rumou?rs?|leaks?|announced|launch(ed|ing)?|re
 const FOLLOW_UP = /^\s*(and|also|then|so|what about|how about|bagaimana dengan|macam mana dengan|kalau)\b|^\s*(那|还有|那么)/i;
 const SUPERLATIVE = /\b(lightest|heaviest|cheapest|priciest|biggest|largest|smallest|longest|shortest|fastest|slowest|brightest|thinnest|most|least|highest|lowest|paling|terringan|termurah|terbesar|terkecil|terlaju)\b|最轻|最輕|最便宜|最大|最小|最快|最亮|最薄/i;
 const LOWEST = /\b(lightest|cheapest|smallest|shortest|slowest|thinnest|least|lowest|terringan|termurah|terkecil)\b|最轻|最輕|最便宜|最小|最薄/i;
-const CATEGORY_PLAN = { smartphone: 'phone', smartwatch: 'watch', band: 'band', tablet: 'tablet' };
+const CATEGORY_PLAN = { smartphone: 'phone', smartwatch: 'watch', band: 'band', tablet: 'tablet', earbuds: 'earbuds' };
 const OTHER_CATEGORY_WORDS = [
   [/手环|手環|\bgelang\b/i, 'band'],
   [/手表|手錶|\bjam (tangan|pintar)\b/i, 'smartwatch'],
   [/平板/, 'tablet'],
+  [/耳机|耳機|\b(fon telinga|earfon)\b/i, 'earbuds'],
   [/手机|手機|\b(telefon|fon|handphone|ponsel)\b/i, 'smartphone'],
 ];
 
@@ -266,8 +267,8 @@ const RANK_WORD = {
   performance: ['fastest', 'slowest'], ram: ['most RAM', 'least RAM'], storage: ['most storage', 'least storage'], camera: ['highest megapixel camera', 'lowest megapixel camera'],
   weight: ['heaviest', 'lightest'], price: ['most expensive', 'cheapest'], water: ['best water resistance', 'lowest water resistance'], software: ['longest updates', 'shortest updates'],
 };
-const CATEGORY_WORD = { phone: 'phone', watch: 'smartwatch', band: 'fitness band', tablet: 'tablet', any: 'phone' };
-const CATEGORY_ID = { phone: 'smartphone', watch: 'smartwatch', band: 'band', tablet: 'tablet', any: 'smartphone' };
+const CATEGORY_WORD = { phone: 'phone', watch: 'smartwatch', band: 'fitness band', tablet: 'tablet', earbuds: 'pair of earbuds', any: 'phone' };
+const CATEGORY_ID = { phone: 'smartphone', watch: 'smartwatch', band: 'band', tablet: 'tablet', earbuds: 'earbuds', any: 'smartphone' };
 const USE_WORD = { gaming: 'gaming', photography: 'photography', battery: 'battery life', student: 'students', longterm: 'long-term use', performance: 'performance', balanced: '', none: '' };
 // the site's own explanation to add as background when a question is about a spec
 const TERM_FOR_ATTR = {
@@ -474,7 +475,7 @@ export async function lookUp(plan, question, ctx = {}) {
   }
   for (const s of extra) if (size() > budget) s.body = s.body.slice(0, Math.max(400, s.body.length - (size() - budget)));
   for (const s of extra) parts.push(`${s.title}:\n${s.body}`);
-  parts.push(`ABOUT THE SITE: ${store.devices.length} phones, watches, bands and tablets sold in Malaysia. Prices are Malaysian launch prices in RM. Scores are the site's own analysis of recorded specifications and tests, not hands-on reviews.`);
+  parts.push(`ABOUT THE SITE: ${store.devices.length} phones, tablets, watches, fitness bands and earbuds sold in Malaysia (a few not sold here are marked). Prices are Malaysian launch prices in RM. Scores are the site's own analysis of recorded specifications and tests, not hands-on reviews.`);
 
   // Which lines belong to which device, so the checks can tell when the AI gives one device another's figures:
   // its own texts above, its line in a ranking ("- POCO X8 8,340 mAh") and its column of a comparison table.
@@ -537,7 +538,7 @@ const TASK = {
 
 function writeSystem(language, intent, script = null) {
   const list = intent === 'differences';
-  return `You are the helpful assistant of Tech Comparison Hub, a website that compares phones, smartwatches and fitness bands sold in Malaysia. The visitor already sees the site's own answer (SITE ANSWER) below yours. Your job is to answer their question in plain words, using ONLY the information in FACTS, which hold everything the site records about the devices involved.
+  return `You are the helpful assistant of Tech Comparison Hub, a website that compares phones, tablets, smartwatches, fitness bands and earbuds sold in Malaysia. The visitor already sees the site's own answer (SITE ANSWER) below yours. Your job is to answer their question in plain words, using ONLY the information in FACTS, which hold everything the site records about the devices involved.
 Task: ${TASK[intent] ?? TASK.default}
 Rules:
 1. Every number, specification, price, date, rank and score you write must be copied exactly from FACTS, and only about the device FACTS give it for. Never use outside knowledge about devices and never guess.

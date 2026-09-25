@@ -1,0 +1,117 @@
+{
+  "id": "asus-rog-phone-9",
+  "name": "ASUS ROG Phone 9",
+  "brand": "asus",
+  "category": "smartphone",
+  "series": "ROG Phone",
+  "form": "bar",
+  "status": "released",
+  "announced": "2024-12-10",
+  "released": "2024-12-10",
+  "segment": "flagship",
+  "aliases": [
+    "ROG Phone 9",
+    "Asus ROG Phone 9"
+  ],
+  "summary": "ASUS’s 2024 gaming phone with the Snapdragon 8 Elite, up to 185 Hz in games, a 5,800 mAh battery and a headphone jack.",
+  "highlights": [
+    "Snapdragon 8 Elite",
+    "Up to 185 Hz (games)",
+    "5,800 mAh"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 3999,
+      "config": "12 GB / 256 GB",
+      "date": "2024-12-10",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2024/12/10/asus-rog-phone-9-malaysia-price/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 6.78,
+      "type": "LTPO AMOLED",
+      "resolution": "2400 × 1080",
+      "refresh_hz": 185,
+      "peak_nits": 2500
+    },
+    "platform": {
+      "chipset": "snapdragon-8-elite"
+    },
+    "memory": {
+      "ram_gb": [
+        12
+      ],
+      "storage_gb": [
+        256
+      ]
+    },
+    "battery": {
+      "capacity_mah": 5800
+    },
+    "charging": {
+      "wired_w": 65,
+      "wireless_w": 15
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50
+        },
+        {
+          "role": "ultrawide",
+          "mp": 13
+        },
+        {
+          "role": "macro",
+          "mp": 5
+        }
+      ],
+      "video": "8K 30 fps"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 163.8,
+        "width_mm": 77,
+        "depth_mm": 8.9
+      },
+      "weight_g": 227,
+      "ip": "IP68"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "wifi": "Wi-Fi 7",
+      "bluetooth": "Bluetooth 5.4"
+    },
+    "audio": {
+      "jack": true
+    },
+    "software": {
+      "launch_os": "Android 15"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "asus",
+      "url": "https://rog.asus.com/my/phones/rog-phone-9/spec/",
+      "checked": "2026-09-25",
+      "note": "Read from the ROG spec page. 185 Hz is available in Game Genie; 165 Hz in system settings."
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://dlcdnwebimgs.asus.com/gain/428A70F4-5A08-416A-8BDA-069DD27E28F4",
+    "page": "https://rog.asus.com/my/phones/rog-phone-9/",
+    "credit": "ASUS ROG",
+    "checked": "2026-09-25"
+  }
+}

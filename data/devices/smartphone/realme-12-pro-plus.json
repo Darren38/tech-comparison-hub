@@ -1,0 +1,108 @@
+{
+  "id": "realme-12-pro-plus",
+  "name": "realme 12 Pro+ 5G",
+  "brand": "realme",
+  "category": "smartphone",
+  "series": "realme number series",
+  "form": "bar",
+  "status": "released",
+  "announced": "2024-02-29",
+  "released": "2024-02-29",
+  "segment": "upper-mid",
+  "aliases": [
+    "realme 12 Pro+",
+    "realme 12 Pro Plus"
+  ],
+  "summary": "A 6.7-inch 120 Hz 5G upper mid-range phone with the Snapdragon 7s Gen 2, a 5,000 mAh battery, 67 W charging and a 50 MP main camera.",
+  "highlights": [
+    "Snapdragon 7s Gen 2",
+    "6.7-inch 120 Hz",
+    "5,000 mAh, 67 W"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1799,
+      "config": "Lowest configuration",
+      "date": "2024-02-29",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2024/02/29/realme-12-pro-plus-5g-malaysia-official-price-spec-launch/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "software": {
+      "launch_os": "Android 14"
+    },
+    "platform": {
+      "chipset": "snapdragon-7s-gen-2"
+    },
+    "memory": {
+      "ram_gb": [
+        8,
+        12
+      ],
+      "storage_gb": [
+        256,
+        512
+      ]
+    },
+    "display": {
+      "size_in": 6.7,
+      "resolution": "2412 × 1080",
+      "refresh_hz": 120
+    },
+    "charging": {
+      "wired_w": 67
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "wifi": "Wi-Fi 6",
+      "bluetooth": "Bluetooth 5.2"
+    },
+    "build": {
+      "weight_g": 196.0,
+      "dimensions": {
+        "height_mm": 161.47,
+        "width_mm": 74.02,
+        "depth_mm": 8.75
+      }
+    },
+    "camera": {
+      "front": "32 MP",
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "focal_mm": 24
+        },
+        {
+          "role": "ultrawide",
+          "mp": 8,
+          "focal_mm": 16
+        },
+        {
+          "role": "periscope",
+          "mp": 64,
+          "focal_mm": 71
+        }
+      ]
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "realme",
+      "url": "https://www.realme.com/my/realme-12-pro-plus/specs",
+      "checked": "2026-09-25",
+      "note": "Read automatically from the maker’s Malaysian specification page and reviewed; values not found on the page are left out."
+    }
+  },
+  "dataStatus": "compiled"
+}

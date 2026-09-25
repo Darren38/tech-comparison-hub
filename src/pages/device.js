@@ -1,14 +1,16 @@
 // Device page: summary, platform scores with context, spec sheet with per-field provenance,
 // evidence by facet, reviewer findings, videos, news, related devices and a bibliography.
 
-import { html, mount as mountHtml } from '../lib/html.js';
-import { fmtMetric, fmtDate, fmtPrice, fmtNumber, plural, timeAgo } from '../lib/format.js';
+import { html } from '../lib/html.js';
+import { sizeView, bindSize, measuresOf } from '../ui/size.js';
+import { autoSlot, fillAuto } from '../ui/autolinks.js';
+import { PLAIN_BY_LABEL } from '../ui/plain.js';
+import { fmtMetric, fmtDate, fmtPrice, fmtNumber, plural } from '../lib/format.js';
 import { store, loadDevice, deviceTitle, brandName, metricDef, sourceName, categoryDef, categoryCount } from '../core/store.js';
 import { href } from '../core/router.js';
 import {
   icon, provBadge, confMeter, sourceLink, extLink, statusBadge, tag, compareButton, schematic, evidenceBlock, deviceMedia, photoCredit,
-  fmtSpec, provenanceFor, docCard, findingItem, sectionHead, deviceCard, emptyState, pageOutline, bindOutline, pageTrail, specValue, specPath, cardThumb, thumbLink } from '../ui/components.js';
-import { loadHeadlines, isSafeUrl } from '../engine/live.js';
+  fmtSpec, provenanceFor, docCard, findingItem, sectionHead, deviceCard, emptyState, pageOutline, bindOutline, pageTrail, specValue, specPath } from '../ui/components.js';
 import { scoreBars } from '../ui/charts.js';
 import { allCategoryScores, rankOf, profileScore } from '../engine/scoring.js';
 import { displayPrice, priceText, priceExplanation, availabilityIn } from '../engine/money.js';
@@ -25,6 +27,7 @@ const EVIDENCE_GROUPS = [
 const SECTIONS = [
   ['overview', 'Overview'],
   ['scores', 'Scores'],
+  ['size', 'Size'],
   ['specs', 'Specifications'],
   ['evidence', 'Test results'],
   ['findings', 'Findings'],
@@ -187,7 +190,7 @@ function specSheet(data) {
       <table class="spec-table"><tbody>
         ${present.map(({ f, text, prov }) => html`<tr>
           <th scope="row">${f.label}</th>
-          <td>${text}</td>
+          <td>${text}${PLAIN_BY_LABEL[f.label] ? html`<span class="plain-only plain-hint">${PLAIN_BY_LABEL[f.label]}</span>` : ''}</td>
           <td class="spec-table__prov"><span title="${sourceName(prov.source)}${prov.note ? ` · ${prov.note}` : ''}">${provBadge(prov.class)}</span></td>
         </tr>`)}
       </tbody></table>
@@ -279,33 +282,11 @@ function coverageSection(data) {
     ${data.chipsetDocuments?.length ? html`<p class="small muted" style="margin-top:12px">${plural(data.chipsetDocuments.length, 'more document')} about the ${data.chipset.name} are on the <a href="${href(`/chipset/${data.chipset.id}`)}">chipset page</a>.</p>` : ''}`;
 }
 
-// Recent headlines that name this device (collected automatically), filled in after the page renders.
-const headlineStrip = () => html`<div class="dev-headlines" data-dev-headlines hidden>
-  <h3 class="subhead">In the headlines <span class="tiny muted">collected automatically · not checked by hand</span></h3>
-  <ol class="fresh__list" data-dev-headlines-list></ol>
-</div>`;
-
-async function fillHeadlines(root, id) {
-  const box = root.querySelector('[data-dev-headlines]');
-  if (!box) return;
-  try {
-    const items = (await loadHeadlines()).items.filter((i) => isSafeUrl(i.url) && (i.devices ?? []).includes(id)).slice(0, 4);
-    if (!items.length || !box.isConnected) return;
-    mountHtml(box.querySelector('[data-dev-headlines-list]'), html`${items.map((i) => html`<li class="fresh__item">
-      ${thumbLink(cardThumb({ image: isSafeUrl(i.image) ? i.image : null, url: i.url }, { allowDevice: false }), { url: i.url, title: i.title })}
-      <div class="tiny muted"><a href="${href(`/source/${i.source}`)}">${sourceName(i.source)}</a>${i.published ? ` · ${timeAgo(i.published)}` : ''}</div>
-      ${extLink(i.url, i.title, 'fresh__link')}
-    </li>`)}`);
-    box.hidden = false;
-  } catch {
-    /* no collection available: nothing to add */
-  }
-}
-
 function newsSection(data) {
   const news = data.documents.filter((d) => d.kind === 'news' || d.kind === 'official');
-  if (!news.length) return html`${headlineStrip()}${emptyState('No checked news linked to this device yet')}`;
-  return html`${headlineStrip()}<ol class="timeline">${news.map((doc) => html`<li class="timeline__item">
+  const auto = autoSlot('news', 'Latest headlines', { limit: 8 });
+  if (!news.length) return html`${auto}${emptyState('No checked news linked to this device yet')}`;
+  return html`${auto}<h3 class="subhead">Checked news</h3><ol class="timeline">${news.map((doc) => html`<li class="timeline__item">
     <div class="timeline__date tiny num">${doc.published ? `${doc.publishedApprox ? 'c. ' : ''}${fmtDate(doc.published)}` : '—'}</div>
     <div class="timeline__body">
       <div class="row tiny">${provBadge(doc.class)} ${tag(store.core.taxonomy.newsTypes.find((t) => t.id === doc.type)?.label ?? 'News')} ${doc.region ? tag(doc.region, 'muted') : ''} ${sourceLink(doc.testedBy ?? doc.source)}</div>
@@ -327,7 +308,7 @@ function sourcesSection(data) {
     <tbody>
       ${[...specSources.values()].map((p) => html`<tr><td>${provBadge(p.class ?? 'official')}</td><td>${sourceLink(p.source)}</td><td class="small">${p.url ? extLink(p.url, p.note ?? 'Specification') : p.note ?? 'Specification'}</td><td class="small">${p.checked ? `Checked ${fmtDate(p.checked)}` : '—'}</td><td class="num">—</td></tr>`)}
       ${data.documents.map((doc) => html`<tr><td>${provBadge(doc.class)}</td><td>${sourceLink(doc.testedBy ?? doc.source)}${doc.testedBy ? html`<div class="tiny muted">via ${sourceName(doc.source)}</div>` : ''}</td><td class="small">${extLink(doc.url, doc.title)}</td><td class="small nowrap">${doc.published ? `${doc.publishedApprox ? 'c. ' : ''}${fmtDate(doc.published)}` : '—'}</td><td class="num">${doc.records?.length || '—'}</td></tr>`)}
-      ${d.image ? html`<tr><td>${tag(d.image.kind === 'drawing' ? 'drawing' : 'photo', 'muted')}</td><td>${extLink('https://commons.wikimedia.org', 'Wikimedia Commons')}</td><td class="small">${extLink(d.image.page, d.image.title ?? 'Device photo')}<div class="tiny muted">${[d.image.author, d.image.license].filter(Boolean).join(' · ')}</div></td><td class="small">${d.image.checked ? `Checked ${fmtDate(d.image.checked)}` : '—'}</td><td class="num">—</td></tr>` : ''}
+      ${d.image ? html`<tr><td>${tag(d.image.kind === 'official' ? 'product image' : d.image.kind === 'drawing' ? 'drawing' : 'photo', 'muted')}</td><td>${d.image.kind === 'official' ? extLink(d.image.page, d.image.credit ?? 'Manufacturer') : extLink('https://commons.wikimedia.org', 'Wikimedia Commons')}</td><td class="small">${extLink(d.image.page, d.image.title ?? (d.image.kind === 'official' ? 'Product page the image is shown from' : 'Device photo'))}<div class="tiny muted">${[d.image.author, d.image.license].filter(Boolean).join(' · ')}</div></td><td class="small">${d.image.checked ? `Checked ${fmtDate(d.image.checked)}` : '—'}</td><td class="num">—</td></tr>` : ''}
     </tbody></table></div>`;
 }
 
@@ -340,9 +321,11 @@ function related(data) {
 /** Invitation to the built-in assistant with questions about this device (they open the "Ask the hub" panel). */
 function askCard(row) {
   const wear = row.category === 'smartwatch' || row.category === 'band';
-  const qs = wear
-    ? ['How long does its battery last?', 'Is it water resistant?', 'What does it cost in Malaysia?', 'Compare it with its rivals']
-    : ['What are its battery and charging?', 'What does it cost in Malaysia?', 'How good is its camera?', 'Compare it with its rivals'];
+  const qs = row.category === 'earbuds'
+    ? ['How long does its battery last?', 'Does it have noise cancelling?', 'What does it cost in Malaysia?', 'Compare it with its rivals']
+    : wear
+      ? ['How long does its battery last?', 'Is it water resistant?', 'What does it cost in Malaysia?', 'Compare it with its rivals']
+      : ['What are its battery and charging?', 'What does it cost in Malaysia?', 'How good is its camera?', 'Compare it with its rivals'];
   return html`<section class="askcard" aria-labelledby="askcard-h">
     <div><h2 id="askcard-h" class="askcard__title">${icon('chat', { size: 18 })} Ask about the ${deviceTitle(row)}</h2>
     <p class="small muted">Quick answers from this page's data, with sources. Not an AI chatbot: it won't guess.</p></div>
@@ -370,20 +353,23 @@ export default async function render({ params }) {
       <div class="with-outline__main stack-lg">
         ${sec('overview', 'At a glance', glance(data) || html`<p class="muted">No evidence recorded yet.</p>`, html`<a class="small" href="${href('/methodology', { section: 'confidence' })}">Reading the badges →</a>`)}
         ${sec('scores', 'How it scores', scoresSection(data))}
+        ${measuresOf(d) ? sec('size', 'Size in real life', sizeView([{ row, device: d }], { overlay: false }), html`<span class="tiny muted">${d.category === 'earbuds' ? 'Charging case, with a bank card for scale' : 'With a bank card for scale'}</span>`) : ''}
         ${sec('specs', 'Specifications', specSheet(data))}
-        ${sec('evidence', 'Test results & benchmarks', evidenceSection(data))}
+        ${sec('evidence', 'Test results & benchmarks', html`${evidenceSection(data)}${autoSlot('test', 'Recent test and benchmark reports')}`)}
         ${sec('findings', 'Reviewer findings', findingsSection(data))}
-        ${sec('coverage', 'Reviews & YouTube analysis', coverageSection(data))}
+        ${sec('coverage', 'Reviews & YouTube analysis', html`${coverageSection(data)}${autoSlot('reviews', 'Recent reviews and videos')}`)}
         ${sec('news', 'Technology news', newsSection(data))}
         ${related(data)}
         ${askCard(row)}
-        ${sec('sources', 'Sources', sourcesSection(data), html`<span class="tiny muted">${plural(data.documents.length, 'document')}</span>`)}
+        <div class="detail-only">${sec('sources', 'Sources', sourcesSection(data), html`<span class="tiny muted">${plural(data.documents.length, 'document')}</span>`)}</div>
       </div>
       </div>
     </article>`,
     mount(root) {
-      fillHeadlines(root, d.id);
-      return bindOutline(root);
+      fillAuto(root, { devices: [d.id] });
+      const unSize = bindSize(root);
+      const unOutline = bindOutline(root);
+      return () => { unSize(); unOutline?.(); };
     },
   };
 }

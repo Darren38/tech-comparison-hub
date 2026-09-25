@@ -1,0 +1,83 @@
+{
+  "id": "xiaomi-buds-5",
+  "name": "Xiaomi Buds 5",
+  "brand": "xiaomi",
+  "category": "earbuds",
+  "series": "Xiaomi Buds",
+  "form": "buds",
+  "status": "released",
+  "segment": "mid",
+  "aliases": [],
+  "summary": "Half in-ear Xiaomi earbuds with noise cancelling, aptX Lossless and a built-in recording feature.",
+  "highlights": [
+    "Half in-ear with ANC",
+    "aptX Lossless",
+    "IP54"
+  ],
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-25",
+      "source": "xiaomi",
+      "note": "Listed on Xiaomi Malaysia’s website, but no Malaysian launch price was found in a launch report."
+    }
+  },
+  "specs": {
+    "audio": {
+      "anc": "Yes (semi-in-ear ANC)",
+      "driver": "11 mm dual-magnet dynamic",
+      "codecs": [
+        "aptX Lossless"
+      ],
+      "mics": "3 per earbud"
+    },
+    "battery": {
+      "life_h": 6.5,
+      "total_h": 39,
+      "bud_mah": 35,
+      "case_mah": 480
+    },
+    "build": {
+      "style": "Half in-ear",
+      "weight_g": 4.2,
+      "case_weight_g": 36.6,
+      "dimensions": {
+        "height_mm": 30,
+        "width_mm": 20.16,
+        "depth_mm": 17.18
+      },
+      "case_dimensions": {
+        "height_mm": 53.9,
+        "width_mm": 53.2,
+        "depth_mm": 24.5
+      },
+      "ip": "IP54"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.4"
+    },
+    "charging": {
+      "port": "USB-C"
+    },
+    "software": {
+      "app": "Xiaomi Earbuds"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "xiaomi",
+      "url": "https://web.archive.org/web/20260615172033/https://www.mi.com/my/product/xiaomi-buds-5/specs/",
+      "checked": "2026-09-25",
+      "note": "Read from Xiaomi Malaysia’s specification page (Internet Archive copy); battery and noise-cancelling claims from the overview page (https://web.archive.org/web/20260825115451/https://www.mi.com/my/product/xiaomi-buds-5/)."
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://web.archive.org/web/20260615172033im_/https://i02.appmifile.com/558_operator_sg/11/09/2024/4e4531520215977057d365fcc9c859b1.png",
+    "page": "https://web.archive.org/web/20260615172033/https://www.mi.com/my/product/xiaomi-buds-5/specs/",
+    "credit": "Xiaomi Malaysia (Internet Archive copy)",
+    "checked": "2026-09-25"
+  }
+}

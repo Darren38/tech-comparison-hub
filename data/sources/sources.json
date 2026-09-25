@@ -420,6 +420,27 @@
     "methodology": "Experience-based reviews after daily use."
   },
   {
+    "id": "samsung-newsroom",
+    "name": "Samsung Newsroom",
+    "type": "manufacturer",
+    "tier": "O",
+    "url": "https://news.samsung.com/global/"
+  },
+  {
+    "id": "apple-newsroom",
+    "name": "Apple Newsroom",
+    "type": "manufacturer",
+    "tier": "O",
+    "url": "https://www.apple.com/newsroom/"
+  },
+  {
+    "id": "google-blog",
+    "name": "Google Blog",
+    "type": "manufacturer",
+    "tier": "O",
+    "url": "https://blog.google/"
+  },
+  {
     "id": "trustedreviews",
     "name": "Trusted Reviews",
     "type": "publication",

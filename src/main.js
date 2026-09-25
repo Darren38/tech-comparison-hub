@@ -5,7 +5,7 @@ import { html, mount } from './lib/html.js';
 import { loadCore, store } from './core/store.js';
 import { startRouter, matchRoute, refreshRoute } from './core/router.js';
 import { setCurrency, currencyLabel, refreshRatesLive } from './engine/money.js';
-import { compareTray, theme, MAX_COMPARE } from './core/state.js';
+import { compareTray, theme, viewMode, MAX_COMPARE } from './core/state.js';
 import { renderHeader, renderFooter, renderTray, updateNav, toggleTheme, toast } from './ui/layout.js';
 import { loadingState, errorState, compareButton } from './ui/components.js';
 import { mountAssistant } from './ui/assistant.js';
@@ -56,6 +56,7 @@ async function renderRoute(loc, { samePath }) {
     titlePage(page.title ?? 'Home');
     mount(app, html`<div class="page-enter">${page.html}</div>`);
     if (page.mount) currentCleanup = page.mount(app, loc) ?? null;
+    viewMode.apply(); // new switches on the page show the current choice
     const scroll = pendingScroll?.path === loc.path ? pendingScroll : null;
     pendingScroll = null;
     if (scroll) {
@@ -133,6 +134,12 @@ function bindGlobalEvents() {
       window.history.back();
       return;
     }
+    const modeBtn = e.target.closest('[data-mode-set]');
+    if (modeBtn) {
+      viewMode.set(modeBtn.dataset.modeSet);
+      toast(t(modeBtn.dataset.modeSet === 'simple' ? 'Simple view: plain words, fewer research details.' : 'Detailed view: every source, badge and table.'));
+      return;
+    }
     const action = e.target.closest('[data-action]');
     if (action?.dataset.action === 'reload') window.location.reload();
     if (action?.dataset.action === 'theme') toggleTheme(action);
@@ -191,6 +198,7 @@ function bindGlobalEvents() {
 
 async function boot() {
   theme.apply();
+  viewMode.apply();
   try {
     await loadCore();
   } catch (error) {

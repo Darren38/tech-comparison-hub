@@ -1,0 +1,83 @@
+{
+  "id": "honor-pad-x9",
+  "name": "HONOR Pad X9",
+  "brand": "honor",
+  "category": "tablet",
+  "series": "HONOR Pad X",
+  "form": "tablet",
+  "status": "released",
+  "segment": "entry",
+  "aliases": [
+    "Pad X9"
+  ],
+  "summary": "A budget 11.5-inch tablet with six speakers, the Snapdragon 685 and a microSD slot.",
+  "highlights": [
+    "11.5-inch 2K LCD",
+    "Six speakers",
+    "microSD slot"
+  ],
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-25",
+      "source": "honor",
+      "note": "Listed on HONOR Malaysia’s website, but no Malaysian launch price was found in a launch report."
+    }
+  },
+  "specs": {
+    "display": {
+      "size_in": 11.5,
+      "type": "LCD",
+      "resolution": "2000 × 1200"
+    },
+    "platform": {
+      "chipset": "snapdragon-685"
+    },
+    "memory": {
+      "ram_gb": [
+        4,
+        8
+      ],
+      "storage_gb": [
+        128,
+        256
+      ],
+      "expandable": true
+    },
+    "battery": {
+      "capacity_mah": 7250
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 267.3,
+        "width_mm": 167.4,
+        "depth_mm": 6.9
+      },
+      "weight_g": 499
+    },
+    "connectivity": {
+      "wifi": "Wi-Fi 5",
+      "bluetooth": "Bluetooth 5.1"
+    },
+    "software": {
+      "launch_os": "MagicOS 7.1 (Android 13)"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "honor",
+      "url": "https://www.honor.com/my/tablets/honor-pad-x9/spec/",
+      "checked": "2026-09-25",
+      "note": "Read from HONOR Malaysia’s specification page; launch date and price from a Malaysian launch report."
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://www.honor.com/content/dam/honor/my/product-list/tablets/honor-pad-x9/honor-pad-x9-fx.png",
+    "page": "https://www.honor.com/my/tablets/honor-pad-x9/",
+    "credit": "HONOR Malaysia",
+    "checked": "2026-09-25"
+  }
+}

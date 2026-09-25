@@ -1,0 +1,97 @@
+{
+  "id": "realme-15",
+  "name": "realme 15 5G",
+  "brand": "realme",
+  "category": "smartphone",
+  "series": "realme number series",
+  "form": "bar",
+  "status": "released",
+  "announced": "2025-09-27",
+  "released": "2025-09-27",
+  "segment": "mid",
+  "aliases": [
+    "realme 15"
+  ],
+  "summary": "A 6.77-inch 144 Hz 5G mid-range phone with the Dimensity 7300+, a 7,000 mAh battery and a 50 MP main camera.",
+  "highlights": [
+    "Dimensity 7300+",
+    "6.77-inch 144 Hz",
+    "7,000 mAh"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1499,
+      "config": "Launch price",
+      "date": "2025-09-27",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/09/27/realme-15-series-pro-malaysia-launch-specs-features/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "platform": {
+      "chipset_note": "Dimensity 7300+"
+    },
+    "memory": {
+      "ram_gb": [
+        12
+      ],
+      "storage_gb": [
+        256
+      ]
+    },
+    "software": {
+      "launch_os": "realme UI 6.0"
+    },
+    "display": {
+      "size_in": 6.77,
+      "refresh_hz": 144,
+      "resolution": "2392 × 1080"
+    },
+    "battery": {
+      "capacity_mah": 7000
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "wifi": "Wi-Fi 5",
+      "bluetooth": "Bluetooth 5.4"
+    },
+    "build": {
+      "weight_g": 185.0,
+      "dimensions": {
+        "height_mm": 163.34,
+        "width_mm": 75.88,
+        "depth_mm": 7.66
+      }
+    },
+    "camera": {
+      "front": "50 MP",
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "focal_mm": 26
+        },
+        {
+          "role": "ultrawide",
+          "mp": 8,
+          "focal_mm": 16
+        }
+      ]
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "realme",
+      "url": "https://www.realme.com/my/realme-15-5g/specs",
+      "checked": "2026-09-25",
+      "note": "Read automatically from the maker’s Malaysian specification page and reviewed; values not found on the page are left out."
+    }
+  },
+  "dataStatus": "compiled"
+}

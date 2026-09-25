@@ -1,0 +1,97 @@
+{
+  "id": "redmagic-11-air",
+  "name": "REDMAGIC 11 Air",
+  "brand": "redmagic",
+  "category": "smartphone",
+  "series": "REDMAGIC",
+  "form": "bar",
+  "status": "released",
+  "segment": "upper-mid",
+  "aliases": [
+    "RedMagic 11 Air",
+    "Red Magic 11 Air"
+  ],
+  "summary": "A slim transparent-look REDMAGIC with the Snapdragon 8 Elite, a 24,000 RPM turbo fan and a 7,000 mAh battery.",
+  "highlights": [
+    "Snapdragon 8 Elite",
+    "7,000 mAh",
+    "7.85 mm thin"
+  ],
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-25",
+      "source": "redmagic",
+      "note": "No Malaysian launch report with a price was found."
+    }
+  },
+  "specs": {
+    "display": {
+      "size_in": 6.85,
+      "type": "OLED",
+      "resolution": "2688 × 1216",
+      "refresh_hz": 144,
+      "peak_nits": 1800
+    },
+    "platform": {
+      "chipset": "snapdragon-8-elite"
+    },
+    "memory": {
+      "ram_gb": [
+        12,
+        16
+      ],
+      "storage_gb": [
+        256,
+        512
+      ]
+    },
+    "battery": {
+      "capacity_mah": 7000
+    },
+    "charging": {
+      "wired_w": 80
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50
+        },
+        {
+          "role": "ultrawide",
+          "mp": 8
+        }
+      ],
+      "front": "16 MP"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 163.82,
+        "width_mm": 76.54,
+        "depth_mm": 7.85
+      },
+      "weight_g": 207,
+      "ip": "IP54"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true,
+      "wifi": "Wi-Fi 6E",
+      "bluetooth": "Bluetooth 5.4"
+    },
+    "software": {
+      "launch_os": "REDMAGIC OS 11"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "redmagic",
+      "url": "https://global.redmagic.gg/pages/redmagic-11-air-specs",
+      "checked": "2026-09-25",
+      "note": "Read from REDMAGIC’s global specification page."
+    }
+  },
+  "dataStatus": "compiled"
+}

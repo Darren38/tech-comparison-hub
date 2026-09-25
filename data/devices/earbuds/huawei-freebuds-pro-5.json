@@ -1,0 +1,92 @@
+{
+  "id": "huawei-freebuds-pro-5",
+  "name": "HUAWEI FreeBuds Pro 5",
+  "brand": "huawei",
+  "category": "earbuds",
+  "series": "HUAWEI FreeBuds",
+  "form": "buds",
+  "status": "released",
+  "announced": "2026-03",
+  "released": "2026-03",
+  "segment": "flagship",
+  "aliases": [
+    "FreeBuds Pro 5"
+  ],
+  "summary": "Huawei’s 2026 flagship earbuds: dual-engine noise cancelling, Bluetooth 6.0, wireless charging and IP57 earbuds.",
+  "highlights": [
+    "Noise cancelling",
+    "IP57 earbuds",
+    "Wireless charging"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 699,
+      "config": "Retail price",
+      "date": "2026-03",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2026/386176/huawei-freebuds-pro-5-malaysia/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "audio": {
+      "anc": "Yes (intelligent dual-engine)",
+      "codecs": [
+        "L2HC",
+        "LDAC",
+        "AAC"
+      ],
+      "features": "Awareness mode, Conversation Awareness, Adaptive Volume, Dynamic EQ"
+    },
+    "battery": {
+      "life_h": 9,
+      "life_anc_h": 6,
+      "total_h": 38,
+      "bud_mah": 60,
+      "case_mah": 537,
+      "claim": "With AAC: 9 h (6 h with noise cancelling), 38 h with the case (25 h with noise cancelling); with L2HC/LDAC: 8 h / 33 h"
+    },
+    "charging": {
+      "wireless": "Yes (up to 5 W)",
+      "port": "USB-C"
+    },
+    "build": {
+      "style": "In-ear with silicone tips",
+      "weight_g": 5.5,
+      "dimensions": {
+        "height_mm": 29.1,
+        "width_mm": 21.8,
+        "depth_mm": 23.7
+      },
+      "case_weight_g": 43,
+      "case_dimensions": {
+        "height_mm": 65.5,
+        "width_mm": 46.7,
+        "depth_mm": 22.98
+      },
+      "ip": "IP57",
+      "case_ip": "IP54"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 6.0",
+      "multipoint": "Yes (two devices)"
+    },
+    "software": {
+      "app": "HUAWEI AI Life (Android and iPhone)"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "huawei",
+      "url": "https://consumer.huawei.com/my/headphones/freebuds-pro-5/specs/",
+      "checked": "2026-09-25",
+      "note": "Read from HUAWEI Malaysia’s specification page. Battery figures are Huawei’s lab claims."
+    }
+  },
+  "dataStatus": "checked"
+}

@@ -1,0 +1,88 @@
+{
+  "id": "honor-pad-v9",
+  "name": "HONOR Pad V9",
+  "brand": "honor",
+  "category": "tablet",
+  "series": "HONOR Pad",
+  "form": "tablet",
+  "status": "released",
+  "announced": "2025-04-10",
+  "released": "2025-04-10",
+  "segment": "upper-mid",
+  "aliases": [
+    "Pad V9"
+  ],
+  "summary": "An 11.5-inch 2.8K LCD tablet with the Dimensity 8350 Elite and a 10,100 mAh battery.",
+  "highlights": [
+    "Dimensity 8350",
+    "11.5-inch 2.8K",
+    "6.1 mm thin"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1999,
+      "config": "12 GB / 256 GB",
+      "date": "2025-04-10",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/04/10/honor-pad-v9-x9a-lte-launch-malaysia-price-specs-availability/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 11.5,
+      "type": "LCD",
+      "resolution": "2800 × 1840"
+    },
+    "platform": {
+      "chipset": "dimensity-8350"
+    },
+    "memory": {
+      "ram_gb": [
+        12
+      ],
+      "storage_gb": [
+        256
+      ]
+    },
+    "battery": {
+      "capacity_mah": 10100
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 259.1,
+        "width_mm": 176.1,
+        "depth_mm": 6.1
+      },
+      "weight_g": 475
+    },
+    "connectivity": {
+      "wifi": "Wi-Fi 6",
+      "bluetooth": "Bluetooth 5.2"
+    },
+    "software": {
+      "launch_os": "MagicOS 9.0 (Android 15)"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "honor",
+      "url": "https://www.honor.com/my/tablets/honor-pad-v9/spec/",
+      "checked": "2026-09-25",
+      "note": "Read from HONOR Malaysia’s specification page; launch date and price from a Malaysian launch report."
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://www.honor.com/content/dam/honor/common/product-list/tablets/product-series/honor-pad-v9/honor-pad-v9-w-list.png",
+    "page": "https://www.honor.com/my/tablets/honor-pad-v9/",
+    "credit": "HONOR Malaysia",
+    "checked": "2026-09-25"
+  }
+}

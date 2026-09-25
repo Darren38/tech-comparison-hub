@@ -36,7 +36,7 @@
     "battery": {
       "life_h": 360,
       "capacity_mah": 486,
-      "chemistry": "Lithium-ion polymer battery; Battery Life; Typical usage with Andriod system: 15 days; Typical usage with iOS system: 14.5 days; AOD usage: 5 days; Operating Temperature"
+      "chemistry": "Lithium-ion polymer battery"
     },
     "connectivity": {
       "gps": "Built-in GNSS",

@@ -1,0 +1,89 @@
+{
+  "id": "realme-12-plus",
+  "name": "realme 12+ 5G",
+  "brand": "realme",
+  "category": "smartphone",
+  "series": "realme number series",
+  "form": "bar",
+  "status": "released",
+  "announced": "2024-03-01",
+  "released": "2024-03-01",
+  "segment": "mid",
+  "aliases": [
+    "realme 12+",
+    "realme 12 Plus"
+  ],
+  "summary": "A 6.67-inch 120 Hz 5G mid-range phone with the Dimensity 7050, a 5,000 mAh battery and 67 W charging.",
+  "highlights": [
+    "Dimensity 7050",
+    "6.67-inch 120 Hz",
+    "5,000 mAh, 67 W"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1499,
+      "config": "Launch price",
+      "date": "2024-03-01",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2024/03/01/realme-12-plus-5g-malaysia-price-spec-official-launch/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "platform": {
+      "chipset": "dimensity-7050"
+    },
+    "memory": {
+      "ram_gb": [
+        12
+      ],
+      "storage_gb": [
+        256
+      ]
+    },
+    "software": {
+      "launch_os": "realme UI 5.0"
+    },
+    "charging": {
+      "wired_w": 67
+    },
+    "display": {
+      "size_in": 6.67,
+      "refresh_hz": 120,
+      "resolution": "2400 × 1080"
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "wifi": "Wi-Fi 5",
+      "bluetooth": "Bluetooth 5.2"
+    },
+    "build": {
+      "weight_g": 190.0,
+      "dimensions": {
+        "height_mm": 162.95,
+        "width_mm": 75.45,
+        "depth_mm": 7.87
+      }
+    },
+    "camera": {
+      "front": "16 MP"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "realme",
+      "url": "https://www.realme.com/my/realme-12-plus/specs",
+      "checked": "2026-09-25",
+      "note": "Read automatically from the maker’s Malaysian specification page and reviewed; values not found on the page are left out."
+    }
+  },
+  "dataStatus": "compiled"
+}

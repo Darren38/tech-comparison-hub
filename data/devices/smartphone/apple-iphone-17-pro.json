@@ -146,8 +146,10 @@
     "fields": {
       "specs.memory.ram_gb": {
         "class": "database",
-        "source": "gsmarena",
-        "note": "Apple does not list RAM; figure reported in reviews."
+        "source": "macrumors",
+        "url": "https://www.macrumors.com/2025/09/09/iphone-17-pro-iphone-air-ram-amounts/",
+        "checked": "2026-09-25",
+        "note": "Found by MacRumors in Apple's Xcode 26; Apple does not advertise RAM."
       },
       "specs.charging.wired_w": {
         "class": "estimated",

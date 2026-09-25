@@ -1,0 +1,80 @@
+{
+  "id": "oppo-enco-x3s",
+  "name": "OPPO Enco X3s",
+  "brand": "oppo",
+  "category": "earbuds",
+  "series": "OPPO Enco",
+  "form": "buds",
+  "status": "released",
+  "segment": "upper-mid",
+  "aliases": [
+    "Enco X3s"
+  ],
+  "summary": "OPPO’s Dynaudio-tuned two-driver earbuds with strong noise cancelling and up to 45 hours with the case.",
+  "highlights": [
+    "Two drivers (Dynaudio)",
+    "Noise cancelling",
+    "LHDC 5.0"
+  ],
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-25",
+      "source": "oppo",
+      "note": "Listed on OPPO Malaysia’s website, but no Malaysian launch price was found in a launch report."
+    }
+  },
+  "specs": {
+    "audio": {
+      "anc": "Yes (up to 55 dB claimed)",
+      "driver": "11 mm + 6 mm dual dynamic, tuned by Dynaudio",
+      "codecs": [
+        "LHDC 5.0",
+        "AAC",
+        "SBC"
+      ],
+      "features": "AI Translate"
+    },
+    "battery": {
+      "life_h": 11,
+      "life_anc_h": 6,
+      "total_h": 45,
+      "bud_mah": 62,
+      "case_mah": 530
+    },
+    "charging": {
+      "port": "USB-C"
+    },
+    "build": {
+      "weight_g": 4.73,
+      "dimensions": {
+        "height_mm": 31.0,
+        "width_mm": 24.2,
+        "depth_mm": 20.6
+      },
+      "case_dimensions": {
+        "height_mm": 65.4,
+        "width_mm": 52.4,
+        "depth_mm": 25.3
+      },
+      "ip": "IP55",
+      "case_weight_g": 39.6
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.4"
+    },
+    "software": {
+      "app": "HeyMelody (Android and iPhone)"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "oppo",
+      "url": "https://www.oppo.com/my/accessories/enco-x3s/specs/",
+      "checked": "2026-09-25",
+      "note": "Read from OPPO Malaysia’s specification page. Case weight is the listed earbuds-plus-case weight minus two earbuds."
+    }
+  },
+  "dataStatus": "compiled"
+}

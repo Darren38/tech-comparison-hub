@@ -1,0 +1,87 @@
+{
+  "id": "huawei-freeclip-2",
+  "name": "HUAWEI FreeClip 2",
+  "brand": "huawei",
+  "category": "earbuds",
+  "series": "HUAWEI FreeClip",
+  "form": "buds",
+  "status": "released",
+  "announced": "2026-01",
+  "released": "2026-01",
+  "segment": "upper-mid",
+  "aliases": [
+    "FreeClip 2"
+  ],
+  "summary": "Huawei’s second clip-on open-ear earbuds: 5.1 g, IP57 earbuds, wireless charging and up to 38 hours with the case.",
+  "highlights": [
+    "Clip-on open-ear",
+    "IP57 earbuds",
+    "Wireless charging"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 749,
+      "config": "Retail price",
+      "date": "2026-01-13",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://bm.soyacincau.com/2026/01/13/huawei-akan-lancar-mate-x7-freeclip-2-di-malaysia-tidak-lama-lagi/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "audio": {
+      "anc": "No (open-ear design; call noise cancellation)",
+      "driver": "10.8 mm dual-diaphragm",
+      "features": "Adaptive volume, Multi-EQ"
+    },
+    "battery": {
+      "life_h": 9,
+      "total_h": 38,
+      "bud_mah": 60,
+      "case_mah": 537,
+      "claim": "Up to 9 h; 38 h with the case; 10 min charge ≈ 3 h"
+    },
+    "charging": {
+      "wireless": "Yes (up to 3 W)",
+      "port": "USB-C"
+    },
+    "build": {
+      "style": "Clip-on open ear",
+      "weight_g": 5.1,
+      "dimensions": {
+        "height_mm": 25.4,
+        "width_mm": 26.7,
+        "depth_mm": 18.8
+      },
+      "case_weight_g": 37.8,
+      "case_dimensions": {
+        "height_mm": 50.0,
+        "width_mm": 49.6,
+        "depth_mm": 25.0
+      },
+      "ip": "IP57",
+      "case_ip": "IP54"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 6.0",
+      "multipoint": "Yes (two devices)"
+    },
+    "software": {
+      "app": "HUAWEI AI Life (Android and iPhone)"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "huawei",
+      "url": "https://consumer.huawei.com/my/headphones/freeclip2/specs/",
+      "checked": "2026-09-25",
+      "note": "Read from HUAWEI Malaysia’s specification page. Battery figures are Huawei’s lab claims."
+    }
+  },
+  "dataStatus": "checked"
+}

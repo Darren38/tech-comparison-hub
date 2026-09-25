@@ -1,0 +1,99 @@
+{
+  "id": "nothing-phone-4a",
+  "name": "Nothing Phone (4a)",
+  "brand": "nothing",
+  "category": "smartphone",
+  "series": "Nothing Phone",
+  "form": "bar",
+  "status": "released",
+  "announced": "2026-04-03",
+  "released": "2026-04-03",
+  "segment": "mid",
+  "aliases": [
+    "Phone (4a)",
+    "Nothing Phone 4a"
+  ],
+  "summary": "A 6.78-inch 120 Hz 5G mid-range phone with the Snapdragon 7s Gen 4, a 5,080 mAh battery, 50 W charging and a 50 MP main camera.",
+  "highlights": [
+    "Snapdragon 7s Gen 4",
+    "6.78-inch 120 Hz",
+    "5,080 mAh, 50 W"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1999,
+      "config": "Lowest configuration (4a series)",
+      "date": "2026-04-03",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2026/04/03/nothing-phone-4a-4a-pro-malaysia-price-specs-features/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "software": {
+      "os_updates_years": 3,
+      "launch_os": "Android 16",
+      "security_updates_years": 6
+    },
+    "build": {
+      "ip": "IP64",
+      "dimensions": {
+        "height_mm": 163.9,
+        "width_mm": 77.5,
+        "depth_mm": 8.5
+      },
+      "weight_g": 205
+    },
+    "display": {
+      "size_in": 6.78,
+      "type": "AMOLED",
+      "resolution": "2720 × 1224",
+      "ppi": 440,
+      "peak_nits": 4500,
+      "refresh_hz": 120
+    },
+    "battery": {
+      "capacity_mah": 5080
+    },
+    "charging": {
+      "wired_w": 50
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50
+        },
+        {
+          "role": "periscope",
+          "mp": 50
+        },
+        {
+          "role": "ultrawide"
+        }
+      ],
+      "front": "32 MP",
+      "zoom_optical_x": 3.5
+    },
+    "connectivity": {
+      "cellular": "5G"
+    },
+    "platform": {
+      "chipset": "snapdragon-7s-gen-4"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "nothing",
+      "url": "https://intl.nothing.tech/products/phone-4a?Colour=White&Capacity=12%2B256GB",
+      "checked": "2026-09-25",
+      "note": "Read from the specifications section of Nothing’s product page (international store)."
+    }
+  },
+  "dataStatus": "compiled"
+}

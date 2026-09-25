@@ -4,6 +4,7 @@
 const COMPARE_KEY = 'tch.compare.v1';
 const THEME_KEY = 'tch.theme.v1';
 const CURRENCY_KEY = 'tch.currency.v1';
+const MODE_KEY = 'tch.mode.v1';
 export const MAX_COMPARE = 4;
 
 function read(key, fallback) {
@@ -112,5 +113,21 @@ export const theme = {
     const value = theme.get();
     if (value === 'light' || value === 'dark') return value;
     return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+  },
+};
+
+// Version 17: Simple / Detailed view. Detailed (every source badge, benchmark table and bibliography) is the default;
+// Simple hides the research detail and adds plain-word explanations. A display preference, kept like the theme.
+export const viewMode = {
+  get() {
+    return read(MODE_KEY, 'detailed') === 'simple' ? 'simple' : 'detailed';
+  },
+  set(value) {
+    write(MODE_KEY, value === 'simple' ? 'simple' : 'detailed');
+    viewMode.apply();
+  },
+  apply() {
+    document.documentElement.dataset.mode = viewMode.get();
+    document.querySelectorAll('[data-mode-set]').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.modeSet === viewMode.get())));
   },
 };

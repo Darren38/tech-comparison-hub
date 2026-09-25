@@ -1,0 +1,84 @@
+{
+  "id": "realme-c75",
+  "name": "realme C75",
+  "brand": "realme",
+  "category": "smartphone",
+  "series": "realme C",
+  "form": "bar",
+  "status": "released",
+  "announced": "2024-12-17",
+  "released": "2024-12-17",
+  "segment": "entry",
+  "aliases": [
+    "C75"
+  ],
+  "summary": "A 6.72-inch 90 Hz 4G budget phone with the Helio G92 Max, a 6,000 mAh battery, 45 W charging and a 50 MP main camera.",
+  "highlights": [
+    "Helio G92 Max",
+    "6.72-inch 90 Hz",
+    "6,000 mAh, 45 W"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 699,
+      "config": "8 GB / 256 GB",
+      "date": "2024-12-17",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://bm.soyacincau.com/2024/12/17/realme-c75-telefon-murah-sangat-tahan-lasak-kalis-air-ip69-harga-rm699/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "build": {
+      "ip": "IP69",
+      "weight_g": 196.0
+    },
+    "charging": {
+      "wired_w": 45
+    },
+    "platform": {
+      "chipset_note": "Helio G92 Max"
+    },
+    "memory": {
+      "storage_gb": [
+        256
+      ]
+    },
+    "display": {
+      "size_in": 6.72,
+      "refresh_hz": 90,
+      "resolution": "2400 × 1080"
+    },
+    "battery": {
+      "capacity_mah": 6000
+    },
+    "connectivity": {
+      "wifi": "Wi-Fi 5",
+      "bluetooth": "Bluetooth 5.0",
+      "cellular": "4G"
+    },
+    "camera": {
+      "front": "8 MP",
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50
+        }
+      ]
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "realme",
+      "url": "https://www.realme.com/my/realme-c75/specs",
+      "checked": "2026-09-25",
+      "note": "Read automatically from the maker’s Malaysian specification page and reviewed; values not found on the page are left out."
+    }
+  },
+  "dataStatus": "compiled"
+}

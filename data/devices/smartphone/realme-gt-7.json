@@ -1,0 +1,81 @@
+{
+  "id": "realme-gt-7",
+  "name": "realme GT 7",
+  "brand": "realme",
+  "category": "smartphone",
+  "series": "realme GT",
+  "form": "bar",
+  "status": "released",
+  "announced": "2025-05-27",
+  "released": "2025-05-27",
+  "segment": "upper-mid",
+  "aliases": [
+    "GT 7"
+  ],
+  "summary": "A 6.78-inch 120 Hz 5G upper mid-range phone with the Dimensity 9400e and a 7,000 mAh battery.",
+  "highlights": [
+    "Dimensity 9400e",
+    "6.78-inch 120 Hz",
+    "7,000 mAh"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1999,
+      "config": "Lowest configuration (GT 7 series)",
+      "date": "2025-05-27",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/05/27/realme-gt-7-series-dream-edition-launch-malaysia-specs-price-promo/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "platform": {
+      "chipset_note": "Dimensity 9400e"
+    },
+    "memory": {
+      "ram_gb": [
+        12
+      ],
+      "storage_gb": [
+        512
+      ]
+    },
+    "display": {
+      "size_in": 6.78,
+      "refresh_hz": 120
+    },
+    "battery": {
+      "capacity_mah": 7000
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "bluetooth": "Bluetooth 5.4",
+      "nfc": true
+    },
+    "build": {
+      "weight_g": 206.0,
+      "dimensions": {
+        "height_mm": 162.42,
+        "width_mm": 76.13,
+        "depth_mm": 8.3
+      }
+    },
+    "software": {
+      "launch_os": "Android 15"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "realme",
+      "url": "https://www.realme.com/my/realme-gt-7-5g/specs",
+      "checked": "2026-09-25",
+      "note": "Read automatically from the maker’s Malaysian specification page and reviewed; values not found on the page are left out."
+    }
+  },
+  "dataStatus": "compiled"
+}

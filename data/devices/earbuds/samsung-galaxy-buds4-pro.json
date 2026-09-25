@@ -1,0 +1,104 @@
+{
+  "id": "samsung-galaxy-buds4-pro",
+  "name": "Galaxy Buds4 Pro",
+  "brand": "samsung",
+  "category": "earbuds",
+  "series": "Galaxy Buds",
+  "form": "buds",
+  "status": "released",
+  "announced": "2026-02-26",
+  "released": "2026-03-11",
+  "segment": "flagship",
+  "aliases": [
+    "Buds4 Pro",
+    "Galaxy Buds 4 Pro"
+  ],
+  "summary": "Samsung’s 2026 flagship earbuds: two-way speakers with a wider woofer, adaptive noise cancelling, Bluetooth 6.1 and IP57.",
+  "highlights": [
+    "Two-way speakers",
+    "Adaptive noise cancelling",
+    "IP57"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 999,
+      "config": "Retail price",
+      "date": "2026-02-26",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2026/02/26/samsung-galaxy-buds-4-pro-series-malaysia-pricing-features-promo/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "audio": {
+      "anc": "Yes (adaptive, with Voice Detect and Siren Detect)",
+      "driver": "Enhanced two-way (woofer + tweeter)",
+      "spatial": "360 Audio",
+      "hires": "Up to 24-bit / 96 kHz with Samsung phones (SSC-UHQ)",
+      "mics": "6 microphones",
+      "features": "Adaptive EQ, Adaptive ANC, Auracast",
+      "codecs": [
+        "SSC UHQ",
+        "SSC",
+        "AAC",
+        "SBC",
+        "LC3"
+      ]
+    },
+    "battery": {
+      "life_h": 7,
+      "life_anc_h": 6,
+      "total_h": 30,
+      "bud_mah": 61,
+      "case_mah": 530,
+      "claim": "Up to 7 h (6 h with noise cancelling); 30 h with the case (26 h with noise cancelling)"
+    },
+    "charging": {
+      "port": "USB-C"
+    },
+    "build": {
+      "style": "In-ear (canal) with silicone tips",
+      "weight_g": 5.1,
+      "dimensions": {
+        "height_mm": 30.9,
+        "width_mm": 18.1,
+        "depth_mm": 19.6
+      },
+      "case_weight_g": 44.3,
+      "case_dimensions": {
+        "height_mm": 51,
+        "width_mm": 28.3,
+        "depth_mm": 51
+      },
+      "ip": "IP57"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 6.1 (LE Audio)",
+      "compatibility": "Android phones (Samsung Galaxy for all features)"
+    },
+    "software": {
+      "app": "Galaxy Wearable (Android)"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "samsung",
+      "url": "https://www.samsung.com/my/audio-sound/galaxy-buds/galaxy-buds4-pro-white-sm-r640nzwaxme/",
+      "checked": "2026-09-25",
+      "note": "Read from Samsung Malaysia’s specification data for model SM-R640NZWAXME (the data behind samsung.com/my product pages). Battery figures are Samsung’s claims."
+    }
+  },
+  "dataStatus": "checked",
+  "image": {
+    "kind": "official",
+    "src": "https://images.samsung.com/is/image/samsung/p6pim/my/s2602/gallery/my-galaxy-buds4-r640-sm-r640nzwaxme-550975015?$1164_776_PNG$",
+    "page": "https://www.samsung.com/my/audio-sound/galaxy-buds/galaxy-buds4-pro-white-sm-r640nzwaxme/",
+    "credit": "Samsung",
+    "checked": "2026-09-25"
+  }
+}

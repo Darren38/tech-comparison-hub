@@ -1,11 +1,11 @@
 // Evidence coverage: what the database knows and what it does not. Gaps are shown, not hidden,
 // so readers can judge how much to trust a verdict and contributors know what to test next.
 
-import { html } from '../lib/html.js';
+import { html, mount as mountHtml } from '../lib/html.js';
 import { fmtNumber, fmtDate, plural } from '../lib/format.js';
 import { store, loadCoverage, metricDef, deviceTitle, sourceName, categoryCount } from '../core/store.js';
 import { href } from '../core/router.js';
-import { sectionHead, sourceLink, tag, provBadge, emptyState, pageOutline, bindOutline, pageTrail } from '../ui/components.js';
+import { sectionHead, sourceLink, tag, provBadge, emptyState, pageOutline, bindOutline, pageTrail, extLink } from '../ui/components.js';
 import { scoreBars } from '../ui/charts.js';
 
 function stackBar(row, total) {
@@ -59,6 +59,7 @@ export default async function render() {
         ['cov-gaps', 'Missing key phone tests'],
         ['cov-origins', 'Who the evidence comes from'],
         ['cov-pipeline', 'Pipeline status'],
+        ['cov-spotted', 'New models spotted'],
         ['cov-howto', 'How to close a gap'],
       ])}
       <div class="with-outline__main stack-lg">
@@ -113,6 +114,13 @@ export default async function render() {
         </section>
       </div>
 
+      <section class="card stack" id="cov-spotted" data-spotted hidden>
+        ${sectionHead('New models spotted in the news', { level: 3, right: html`<span class="tiny muted">Named by two or more sources · not in the hub yet</span>` })}
+        <p class="small muted">The headline collector looks for model names that several sources mention but the hub doesn't have yet. They are added once the maker publishes specifications, so this list is also a preview of what is coming.</p>
+        <ul class="spotted" data-spotted-list></ul>
+        <p class="tiny muted" data-spotted-when></p>
+      </section>
+
       <section class="card card--tint" id="cov-howto">
         <h3>How to close a gap</h3>
         <ol class="rules small">
@@ -126,7 +134,30 @@ export default async function render() {
       </div>
     </div>`,
     mount(root) {
+      fillSpotted(root);
       return bindOutline(root);
     },
   };
+}
+
+// Version 17: model names the headline collector saw in several sources that match nothing in the hub (live/spotted.json).
+async function fillSpotted(root) {
+  const box = root.querySelector('[data-spotted]');
+  if (!box) return;
+  try {
+    const res = await fetch(`live/spotted.json?t=${Math.floor(Date.now() / 600000)}`, { cache: 'no-cache' });
+    if (!res.ok) return;
+    const data = await res.json();
+    const models = (data.models ?? []).filter((m) => m.name);
+    if (!models.length || !box.isConnected) return;
+    const safe = (u) => /^https?:\/\//i.test(u ?? '');
+    mountHtml(box.querySelector('[data-spotted-list]'), html`${models.map((m) => html`<li class="spotted__item">
+      <strong>${m.name}</strong> <span class="tiny muted">${plural(m.count, 'headline')} · ${m.sources.map((id) => sourceName(id)).join(', ')}</span>
+      ${(m.examples ?? []).filter((e) => safe(e.url)).slice(0, 2).map((e) => html`<div class="small">${extLink(e.url, e.title)}</div>`)}
+    </li>`)}`);
+    if (data.updatedAt) box.querySelector('[data-spotted-when]').textContent = `Checked ${fmtDate(data.updatedAt.slice(0, 10))}.`;
+    box.hidden = false;
+  } catch {
+    /* no list published: the section stays hidden */
+  }
 }

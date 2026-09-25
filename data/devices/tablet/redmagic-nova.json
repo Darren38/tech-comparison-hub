@@ -1,0 +1,101 @@
+{
+  "id": "redmagic-nova",
+  "name": "REDMAGIC Nova Gaming Tablet",
+  "brand": "redmagic",
+  "category": "tablet",
+  "series": "REDMAGIC tablets",
+  "form": "tablet",
+  "status": "released",
+  "announced": "2024-10-26",
+  "released": "2024-10-26",
+  "segment": "upper-mid",
+  "aliases": [
+    "RedMagic Nova Gaming Tablet",
+    "Red Magic Nova Gaming Tablet"
+  ],
+  "summary": "A 10.9-inch gaming tablet with a higher-clocked Snapdragon 8 Gen 3, a cooling fan and a 10,100 mAh battery.",
+  "highlights": [
+    "Snapdragon 8 Gen 3 (higher-clocked)",
+    "144 Hz",
+    "Cooling fan"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 3199,
+      "config": "12 GB / 256 GB",
+      "date": "2024-10-26",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2024/10/26/redmagic-nova-gaming-tablet-malaysia/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 3999,
+      "config": "16 GB / 512 GB",
+      "date": "2024-10-26",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2024/10/26/redmagic-nova-gaming-tablet-malaysia/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 10.9,
+      "resolution": "2880 × 1800",
+      "refresh_hz": 144,
+      "peak_nits": 550
+    },
+    "platform": {
+      "chipset": "snapdragon-8-gen-3",
+      "chipset_note": "Snapdragon 8 Gen 3 “Leading Version” (higher-clocked)"
+    },
+    "memory": {
+      "ram_gb": [
+        12,
+        16
+      ],
+      "storage_gb": [
+        256,
+        512
+      ]
+    },
+    "battery": {
+      "capacity_mah": 10100
+    },
+    "charging": {
+      "wired_w": 80
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 253.3,
+        "width_mm": 164.5,
+        "depth_mm": 7.3
+      },
+      "weight_g": 530
+    },
+    "connectivity": {
+      "wifi": "Wi-Fi 6",
+      "bluetooth": "Bluetooth 5.4"
+    },
+    "software": {
+      "launch_os": "REDMAGIC OS 9.5"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "redmagic",
+      "url": "https://global.redmagic.gg/pages/redmagic-nova-gaming-tablet-specs",
+      "checked": "2026-09-25",
+      "note": "Read from REDMAGIC’s global specification page. Tablet size listed as length x width x thickness."
+    }
+  },
+  "dataStatus": "compiled"
+}

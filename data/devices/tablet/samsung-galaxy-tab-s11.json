@@ -1,0 +1,93 @@
+{
+  "id": "samsung-galaxy-tab-s11",
+  "name": "Galaxy Tab S11",
+  "brand": "samsung",
+  "category": "tablet",
+  "series": "Galaxy Tab S",
+  "form": "tablet",
+  "status": "released",
+  "announced": "2025-09-04",
+  "released": "2025-09",
+  "segment": "flagship",
+  "aliases": [
+    "Tab S11"
+  ],
+  "summary": "Samsung’s 2025 11-inch AMOLED tablet: Dimensity 9400+, 1,600-nit peak brightness, IP68 and an S Pen in the box.",
+  "highlights": [
+    "Dimensity 9400+",
+    "11-inch AMOLED 120 Hz",
+    "IP68, S Pen included"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 3899,
+      "config": "Wi-Fi, 12 GB / 256 GB",
+      "date": "2025-09-04",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2025/09/04/samsung-galaxy-tab-s11-s11-ultra-tablet-price-specs-malaysia/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 11.0,
+      "type": "Dynamic AMOLED 2X",
+      "resolution": "2560 × 1600",
+      "refresh_hz": 120,
+      "peak_nits": 1600
+    },
+    "platform": {
+      "chipset": "dimensity-9400-plus"
+    },
+    "memory": {
+      "ram_gb": [
+        12
+      ],
+      "storage_gb": [
+        128,
+        256,
+        512
+      ],
+      "expandable": true
+    },
+    "battery": {
+      "capacity_mah": 8400
+    },
+    "charging": {
+      "wired_w": 45
+    },
+    "input": {
+      "stylus": "S Pen included"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 253.8,
+        "width_mm": 165.3,
+        "depth_mm": 5.5
+      },
+      "weight_g": 469,
+      "ip": "IP68"
+    },
+    "connectivity": {
+      "cellular": "5G (optional)",
+      "wifi": "Wi-Fi 6E"
+    },
+    "software": {
+      "launch_os": "Android 16, One UI 8"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "samsung",
+      "url": "https://news.samsung.com/global/meet-samsung-galaxy-tab-s11-series-packing-everything-you-expect-from-a-premium-tablet",
+      "checked": "2026-09-25",
+      "note": "Read from Samsung’s launch press release (specification table); Wi-Fi model weight."
+    }
+  },
+  "dataStatus": "checked"
+}

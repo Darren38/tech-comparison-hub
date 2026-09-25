@@ -4,7 +4,7 @@
 import { html, mount as mountHtml } from '../lib/html.js';
 import { fmtMetric, fmtNumber, fmtDate, relativeDate, timeAgo } from '../lib/format.js';
 import { store, deviceTitle, brandName, metricDef, sourceName } from '../core/store.js';
-import { href } from '../core/router.js';
+import { href, navigate } from '../core/router.js';
 import { bindSearchBox } from '../ui/layout.js';
 import { icon, deviceCard, confMeter, provBadge, sectionHead, legend, seriesMark, cardThumb, thumbLink, extLink } from '../ui/components.js';
 import { loadHeadlines, isSafeUrl } from '../engine/live.js';
@@ -251,11 +251,59 @@ function method() {
   </section>`;
 }
 
+
+// Version 17: a three-question starter for people new to all this. It only builds a link to the device list with the
+// site's own filters and use-case ranking, so the answer is the same evidence-based list an enthusiast would see.
+const CHOOSE_KINDS = [
+  ['smartphone', 'A phone', ['balanced', 'photography', 'battery', 'gaming', 'student', 'longterm']],
+  ['tablet', 'A tablet', ['balanced', 'battery', 'performance', 'student']],
+  ['smartwatch', 'A smartwatch', ['balanced', 'battery']],
+  ['band', 'A fitness band', ['balanced', 'battery']],
+  ['earbuds', 'Earbuds', ['balanced', 'battery']],
+];
+const CHOOSE_BUDGETS = [[0, 'Any budget'], [800, 'Under RM800'], [1500, 'Under RM1,500'], [2500, 'Under RM2,500'], [4000, 'Under RM4,000']];
+
+function helpChoose() {
+  const [kind, , profiles] = CHOOSE_KINDS[0];
+  return html`<section class="card choose" aria-labelledby="choose-h" data-choose>
+    <div class="choose__intro">
+      <div class="eyebrow">New to this? Start here</div>
+      <h2 id="choose-h">Help me choose</h2>
+      <p class="small muted">Answer three questions and get a ranked list from the evidence. Not sure what a word means? <a href="${href('/methodology', { section: 'glossary' })}">Tech words explained</a>, or switch the view to <strong>Simple</strong> at the top of any page.</p>
+    </div>
+    <form class="choose__form" data-choose-form>
+      <label class="choose__q"><span class="small">1. What are you looking for?</span>
+        <select name="kind">${CHOOSE_KINDS.map(([id, label]) => html`<option value="${id}" ${id === kind ? 'selected' : ''}>${label}</option>`)}</select></label>
+      <label class="choose__q"><span class="small">2. Your budget</span>
+        <select name="budget">${CHOOSE_BUDGETS.map(([v, label]) => html`<option value="${v}">${label}</option>`)}</select></label>
+      <label class="choose__q"><span class="small">3. What matters most?</span>
+        <select name="profile" data-choose-profile>${profiles.map((id) => html`<option value="${id}">${store.profileById.get(id)?.label ?? id}</option>`)}</select></label>
+      <button type="submit" class="btn btn--primary">Show my best picks</button>
+    </form>
+  </section>`;
+}
+
+function bindChoose(root) {
+  const form = root.querySelector('[data-choose-form]');
+  if (!form) return;
+  const profileSelect = form.querySelector('[data-choose-profile]');
+  form.kind.addEventListener('change', () => {
+    const profiles = CHOOSE_KINDS.find(([id]) => id === form.kind.value)?.[2] ?? ['balanced'];
+    profileSelect.innerHTML = profiles.map((id) => `<option value="${id}">${store.profileById.get(id)?.label ?? id}</option>`).join('');
+  });
+  form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const budget = Number(form.budget.value);
+    navigate(`/devices/${form.kind.value}`, { rank: form.profile.value, ...(budget ? { priceMax: budget, cur: 'MYR' } : {}) });
+  });
+}
+
 export default async function render() {
   return {
     title: 'Evidence-first technology comparison',
     html: html`<div class="stack-lg home">
       <div class="home__top">${hero()}${quickCompare()}</div>
+      ${helpChoose()}
       ${featured()}
       <div class="grid grid-2 home__boards">${leaderboards()}${chipLadder()}</div>
       ${picks()}
@@ -266,6 +314,7 @@ export default async function render() {
     </div>`,
     mount(root) {
       fillFreshHeadlines(root);
+      bindChoose(root);
       const form = root.querySelector('[data-hero-search]');
       bindSearchBox(form);
       root.querySelectorAll('[data-example]').forEach((btn) =>

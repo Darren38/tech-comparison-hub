@@ -1,0 +1,146 @@
+{
+  "id": "google-pixel-9-pro-xl",
+  "name": "Pixel 9 Pro XL",
+  "brand": "google",
+  "category": "smartphone",
+  "series": "Pixel",
+  "form": "bar",
+  "status": "released",
+  "announced": "2024-08-14",
+  "released": "2024-08-14",
+  "segment": "flagship",
+  "aliases": [
+    "Google Pixel 9 Pro XL"
+  ],
+  "summary": "Google’s big 2024 flagship with a 6.8-inch LTPO screen, 5x telephoto and seven years of updates.",
+  "highlights": [
+    "6.8-inch LTPO",
+    "5x telephoto",
+    "Seven years of updates"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 5699,
+      "config": "16 GB / 128 GB",
+      "date": "2024-08-14",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2024/08/14/google-pixel-9-pixel-9-pro-xl-malaysia-official-price/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 6199,
+      "config": "16 GB / 256 GB (regular price)",
+      "date": "2024-08-14",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2024/08/14/google-pixel-9-pixel-9-pro-xl-malaysia-official-price/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 6799,
+      "config": "16 GB / 512 GB (regular price)",
+      "date": "2024-08-14",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2024/08/14/google-pixel-9-pixel-9-pro-xl-malaysia-official-price/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 7999,
+      "config": "16 GB / 1 TB (regular price)",
+      "date": "2024-08-14",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2024/08/14/google-pixel-9-pixel-9-pro-xl-malaysia-official-price/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 6.8,
+      "type": "Super Actua LTPO OLED",
+      "resolution": "2992 × 1344",
+      "ppi": 486,
+      "refresh_hz": 120,
+      "peak_nits": 3000
+    },
+    "platform": {
+      "chipset_note": "Google Tensor G4 (not yet in the chipset database)"
+    },
+    "memory": {
+      "ram_gb": [
+        16
+      ],
+      "storage_gb": [
+        128,
+        256,
+        512,
+        1024
+      ]
+    },
+    "battery": {
+      "capacity_mah": 5060
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50
+        },
+        {
+          "role": "ultrawide",
+          "mp": 48
+        },
+        {
+          "role": "telephoto",
+          "mp": 48,
+          "zoom_x": 5
+        }
+      ],
+      "front": "42 MP",
+      "zoom_optical_x": 5
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 162.8,
+        "width_mm": 76.6,
+        "depth_mm": 8.5
+      },
+      "weight_g": 221,
+      "ip": "IP68"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "wifi": "Wi-Fi 7",
+      "bluetooth": "Bluetooth 5.3"
+    },
+    "software": {
+      "launch_os": "Android 14",
+      "os_updates_years": 7,
+      "security_updates_years": 7
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "google",
+      "url": "https://support.google.com/pixelphone/answer/7158570?hl=en-GB",
+      "checked": "2026-09-25",
+      "note": "Read from Google’s Pixel phone hardware tech specs page (international figures)."
+    }
+  },
+  "dataStatus": "compiled"
+}

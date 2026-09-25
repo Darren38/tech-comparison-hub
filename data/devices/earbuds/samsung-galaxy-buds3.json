@@ -1,0 +1,103 @@
+{
+  "id": "samsung-galaxy-buds3",
+  "name": "Galaxy Buds3",
+  "brand": "samsung",
+  "category": "earbuds",
+  "series": "Galaxy Buds",
+  "form": "buds",
+  "status": "released",
+  "announced": "2024-07-10",
+  "released": "2024-07-24",
+  "segment": "upper-mid",
+  "aliases": [
+    "Buds3",
+    "Galaxy Buds 3"
+  ],
+  "summary": "The 2024 open-type Galaxy Buds with the blade design, adaptive noise cancelling and IP57.",
+  "highlights": [
+    "Open type (no ear tips)",
+    "Adaptive noise cancelling",
+    "IP57"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 599,
+      "config": "Retail price",
+      "date": "2024-07-10",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://bm.soyacincau.com/2024/07/10/galaxy-buds-3-dan-buds-3-pro-harga-dan-promosi-tempahan-awal-di-malaysia/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "audio": {
+      "anc": "Yes (adaptive)",
+      "driver": "One-way dynamic",
+      "spatial": "360 Audio",
+      "hires": "Up to 24-bit / 96 kHz with Samsung phones (SSC-UHQ)",
+      "mics": "6 microphones",
+      "features": "Adaptive EQ, Adaptive ANC",
+      "codecs": [
+        "SSC UHQ",
+        "SSC",
+        "AAC",
+        "SBC"
+      ]
+    },
+    "battery": {
+      "life_h": 6,
+      "life_anc_h": 5,
+      "total_h": 30,
+      "bud_mah": 48,
+      "case_mah": 515,
+      "claim": "Up to 6 h (5 h with noise cancelling); 30 h with the case (24 h with noise cancelling)"
+    },
+    "charging": {
+      "port": "USB-C"
+    },
+    "build": {
+      "style": "Open type (no ear tips)",
+      "weight_g": 4.7,
+      "dimensions": {
+        "height_mm": 18.1,
+        "width_mm": 20.4,
+        "depth_mm": 31.9
+      },
+      "case_weight_g": 46.5,
+      "case_dimensions": {
+        "height_mm": 48.7,
+        "width_mm": 58.9,
+        "depth_mm": 24.4
+      },
+      "ip": "IP57"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.4 (LE Audio)",
+      "compatibility": "Android phones (Samsung Galaxy for all features)"
+    },
+    "software": {
+      "app": "Galaxy Wearable (Android)"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "samsung",
+      "url": "https://www.samsung.com/my/audio-sound/galaxy-buds/galaxy-buds3-silver-sm-r530nzaaxme/",
+      "checked": "2026-09-25",
+      "note": "Read from Samsung Malaysia’s specification data for model SM-R530NZAAXME (the data behind samsung.com/my product pages). Battery figures are Samsung’s claims."
+    }
+  },
+  "dataStatus": "checked",
+  "image": {
+    "kind": "official",
+    "src": "https://images.samsung.com/is/image/samsung/p6pim/my/2407/gallery/my-galaxy-buds3-r530-sm-r530nzaaxme-542193762?$1164_776_PNG$",
+    "page": "https://www.samsung.com/my/audio-sound/galaxy-buds/galaxy-buds3-silver-sm-r530nzaaxme/",
+    "credit": "Samsung",
+    "checked": "2026-09-25"
+  }
+}

@@ -77,7 +77,7 @@
     },
     "sensors": "Heart rate sensor (with blood oxygen sensor), Accelerometer, Gyroscope, Ambient light sensor, Electronic compass, Barometer sensor, Temperature sensor, Satellite positioning systems, GPS, Galileo, Glonass, BeiDou, QZSS",
     "audio": {
-      "speakers": "Microphone: 1 mic"
+      "microphone": true
     },
     "misc": {
       "colors": "Sunset gold, Black, Mint green, White"

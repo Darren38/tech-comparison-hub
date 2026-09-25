@@ -1,0 +1,102 @@
+{
+  "id": "google-pixel-9-pro-fold",
+  "name": "Pixel 9 Pro Fold",
+  "brand": "google",
+  "category": "smartphone",
+  "series": "Pixel Fold",
+  "form": "foldable",
+  "status": "released",
+  "announced": "2024",
+  "released": "2024",
+  "segment": "flagship",
+  "aliases": [
+    "Google Pixel 9 Pro Fold"
+  ],
+  "summary": "Google’s 2024 foldable with a big 8-inch inner screen and a normal-width 6.3-inch cover screen.",
+  "highlights": [
+    "8-inch foldable screen",
+    "Normal-size cover screen",
+    "Seven years of updates"
+  ],
+  "availability": {
+    "MY": {
+      "status": "not-launched",
+      "checked": "2026-09-25",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2024/08/14/google-pixel-9-pro-fold-not-coming-to-malaysia-google-explains-why/",
+      "note": "Google said the Pixel 9 Pro Fold would not be sold in Malaysia."
+    }
+  },
+  "specs": {
+    "display": {
+      "size_in": 8.0,
+      "type": "Super Actua Flex LTPO OLED (inner); 6.3-inch Actua OLED cover screen",
+      "resolution": "2152 × 2076",
+      "ppi": 373,
+      "refresh_hz": 120,
+      "peak_nits": 2700
+    },
+    "platform": {
+      "chipset_note": "Google Tensor G4 (not yet in the chipset database)"
+    },
+    "memory": {
+      "ram_gb": [
+        16
+      ],
+      "storage_gb": [
+        256,
+        512
+      ]
+    },
+    "battery": {
+      "capacity_mah": 4650
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 48
+        },
+        {
+          "role": "ultrawide",
+          "mp": 10.5
+        },
+        {
+          "role": "telephoto",
+          "mp": 10.8,
+          "zoom_x": 5
+        }
+      ],
+      "front": "10 MP (cover and inner)",
+      "zoom_optical_x": 5
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 155.2,
+        "width_mm": 150.2,
+        "depth_mm": 5.1
+      },
+      "weight_g": 257
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "wifi": "Wi-Fi 7",
+      "bluetooth": "Bluetooth 5.3"
+    },
+    "software": {
+      "launch_os": "Android 14",
+      "os_updates_years": 7,
+      "security_updates_years": 7
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "google",
+      "url": "https://support.google.com/pixelphone/answer/7158570?hl=en-GB",
+      "checked": "2026-09-25",
+      "note": "Read from Google’s Pixel phone hardware tech specs page (international figures). Folded it measures 155.2 × 77.1 × 10.5 mm."
+    }
+  },
+  "dataStatus": "compiled"
+}

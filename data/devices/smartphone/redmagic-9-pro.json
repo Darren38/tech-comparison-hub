@@ -1,0 +1,120 @@
+{
+  "id": "redmagic-9-pro",
+  "name": "REDMAGIC 9 Pro",
+  "brand": "redmagic",
+  "category": "smartphone",
+  "series": "REDMAGIC",
+  "form": "bar",
+  "status": "released",
+  "announced": "2023-12-28",
+  "released": "2023-12-28",
+  "segment": "flagship",
+  "aliases": [
+    "RedMagic 9 Pro",
+    "Red Magic 9 Pro"
+  ],
+  "summary": "A fully flat gaming phone with the Snapdragon 8 Gen 3, a cooling fan, a 6,500 mAh battery and no screen notch.",
+  "highlights": [
+    "Snapdragon 8 Gen 3",
+    "6,500 mAh",
+    "Built-in cooling fan"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 3699,
+      "config": "12 GB / 256 GB",
+      "date": "2023-12-28",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2023/12/28/redmagic-9-pro-malaysia-fully-flat-snapdragon-8-gen-3-gaming-smartphone-priced-under-rm3000/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 4499,
+      "config": "16 GB / 512 GB",
+      "date": "2023-12-28",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2023/12/28/redmagic-9-pro-malaysia-fully-flat-snapdragon-8-gen-3-gaming-smartphone-priced-under-rm3000/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 6.8,
+      "type": "AMOLED",
+      "resolution": "2480 × 1116",
+      "refresh_hz": 120,
+      "peak_nits": 1600
+    },
+    "platform": {
+      "chipset": "snapdragon-8-gen-3"
+    },
+    "memory": {
+      "ram_gb": [
+        12,
+        16
+      ],
+      "storage_gb": [
+        256,
+        512
+      ]
+    },
+    "battery": {
+      "capacity_mah": 6500
+    },
+    "charging": {
+      "wired_w": 80
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50
+        }
+      ],
+      "front": "16 MP (under-display)",
+      "rear_detail": [
+        "50 MP main (OIS)",
+        "50 MP",
+        "2 MP"
+      ]
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 163.98,
+        "width_mm": 76.35,
+        "depth_mm": 8.9
+      },
+      "weight_g": 229
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "nfc": true,
+      "wifi": "Wi-Fi 7",
+      "bluetooth": "Bluetooth 5.3"
+    },
+    "audio": {
+      "jack": true
+    },
+    "software": {
+      "launch_os": "REDMAGIC OS 9.0 (Android 14)"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "redmagic",
+      "url": "https://global.redmagic.gg/pages/redmagic-9-pro-specs",
+      "checked": "2026-09-25",
+      "note": "Read from REDMAGIC’s global specification page."
+    }
+  },
+  "dataStatus": "compiled"
+}

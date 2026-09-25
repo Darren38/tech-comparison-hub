@@ -33,9 +33,10 @@
     "connectivity": {
       "gps": "Built-in GNSS",
       "cellular": "LTE option",
-      "usb": "Charging port with magnetic contacts; Compatibility; Android 9.0 or higher version; iOS 11.0 or higher version; Water Resistance Level; 5ATM",
+      "usb": "Charging port with magnetic contacts",
       "bluetooth": "2.4 GHz,BT5.2,Supports BLE/BR/EDR",
-      "positioning": "Supported; Bluetooth; 2.4 GHz,BT5.2,Supports BLE/BR/EDR; Speaker; Supported; Microphone"
+      "positioning": "Supported; Bluetooth; 2.4 GHz,BT5.2,Supports BLE/BR/EDR; Speaker; Supported; Microphone",
+      "compatibility": "Android 9.0 or higher version, iOS 11.0 or higher version"
     },
     "build": {
       "dimensions": {
@@ -48,7 +49,7 @@
       "water_m": 50
     },
     "audio": {
-      "speakers": "Microphone"
+      "microphone": true
     }
   },
   "provenance": {

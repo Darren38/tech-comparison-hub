@@ -28,6 +28,7 @@ const TABS = [
   { id: 'charging', label: 'Charging', hue: 'charging', tests: [['charge_30', 'Charge after 30 minutes'], ['charge_15', 'Charge after 15 minutes'], ['charge_full', 'Time to full']] },
   { id: 'display', label: 'Display', hue: 'display', tests: [['nits_peak', 'Peak brightness (measured)'], ['dxomark_display', 'DXOMARK display score']] },
   { id: 'camera', label: 'Camera', hue: 'camera', tests: [['dxomark_camera', 'DXOMARK camera (protocol v6)'], ['dxomark_camera_v5', 'DXOMARK camera (protocol v5)']] },
+  { id: 'claims', label: 'Maker claims', hue: 'battery', tests: [['claim_buds_total', 'Earbuds: hours with the case'], ['claim_buds_life', 'Earbuds: hours per charge'], ['claim_watch_life', 'Watches & bands: battery days'], ['claim_tab_weight', 'Tablets: weight'], ['claim_tab_charging', 'Tablets: charging speed'], ['claim_phone_charging', 'Phones: charging speed']] },
   { id: 'generations', label: 'Generations', hue: 'gen', tests: [['gb6_multi', 'Geekbench 6 multi-core'], ['wle', '3DMark Wild Life Extreme'], ['antutu_v11', 'AnTuTu 11'], ['tg_web', "Tom's Guide battery test"], ['charge_30', 'Charge after 30 minutes'], ['dxomark_camera_v5', 'DXOMARK camera (v5)']] },
 ];
 const YEARS = ['2023', '2024', '2025', '2026'];
@@ -73,8 +74,36 @@ function readState(query = {}) {
   return { tab: tab.id, test, all: query.all === '1', years: new Set(query.years ? query.years.split(',') : YEARS), hidden: new Set(), lines: new Set(PRIMARY) };
 }
 
+// Version 17: tablets, watches, bands and earbuds have few lab tests yet, so the "Maker claims" tab charts what the makers
+// state, clearly labelled as claims and never mixed with measured results. The values are the ones on each device page.
+const days = (h) => `${fmtNumber(h / 24, h % 24 ? 1 : 0)} days`;
+const CLAIMS = {
+  claim_buds_total: { cats: ['earbuds'], get: (r) => r.f?.totalLifeH, fmt: (v) => `${fmtNumber(v, v % 1 ? 1 : 0)} h`, name: 'Listening time including the charging case (maker’s claim)' },
+  claim_buds_life: { cats: ['earbuds'], get: (r) => r.f?.batteryLifeH, fmt: (v) => `${fmtNumber(v, v % 1 ? 1 : 0)} h`, name: 'Listening time from one charge of the earbuds (maker’s claim)' },
+  claim_watch_life: { cats: ['smartwatch', 'band'], get: (r) => r.f?.batteryLifeH, fmt: days, name: 'Longest battery life the maker claims (usually with light use)' },
+  claim_tab_weight: { cats: ['tablet'], get: (r) => r.f?.weightG, fmt: (v) => `${fmtNumber(v)} g`, lower: true, name: 'Tablet weight as the maker lists it (Wi-Fi model where they differ)' },
+  claim_tab_charging: { cats: ['tablet'], get: (r) => r.f?.wiredW, fmt: (v) => `${fmtNumber(v)} W`, name: 'Fastest wired charging the maker lists' },
+  claim_phone_charging: { cats: ['smartphone'], get: (r) => r.f?.wiredW, fmt: (v) => `${fmtNumber(v)} W`, name: 'Fastest wired charging the maker lists' },
+};
+
+function claimEntries(test, state) {
+  const c = CLAIMS[test];
+  const out = [];
+  for (const row of store.devices) {
+    if (!c.cats.includes(row.category)) continue;
+    const y = yearOf(row);
+    if (y && !state.years.has(y)) continue;
+    if (state.hidden.has(row.brand)) continue;
+    const v = c.get(row);
+    if (typeof v === 'number' && v > 0) out.push({ row, value: v, sources: [], claim: true });
+  }
+  out.sort((a, b) => (c.lower ? a.value - b.value : b.value - a.value));
+  return { def: { name: c.name, better: c.lower ? 'lower' : 'higher', fmt: c.fmt }, list: out, lower: Boolean(c.lower) };
+}
+
 /** Entries for one test: each phone's own result, plus other chip versions as separate entries. */
 function entries(test, state) {
+  if (CLAIMS[test]) return claimEntries(test, state);
   const def = metricDef(test);
   const out = [];
   for (const row of store.devices) {
@@ -103,11 +132,11 @@ function rankedBars(test, state, hue) {
       <span class="rank__n num">${i + 1}</span>
       <span class="rank__who">
         <a class="rank__name" href="${href(`/device/${e.row.id}`)}" style="--brand:${colorOf(e.row.brand)}">${deviceTitle(e.row)}${e.variant ? html` <span class="rank__variant">${e.chip} version</span>` : ''}</a>
-        <span class="rank__sub tiny">${e.variant ? 'Not the Malaysian model · ' : ''}${e.chip ?? ''}${e.chip ? ' · ' : ''}${yearOf(e.row)}</span>
+        <span class="rank__sub tiny">${e.variant ? 'Not the Malaysian model · ' : ''}${e.chip ?? ''}${e.chip ? ' · ' : ''}${yearOf(e.row) || 'year not recorded'}</span>
       </span>
       <span class="rank__track" aria-hidden="true"><span class="rank__fill" style="width:${Math.max(2, scale(e.value)).toFixed(1)}%"></span></span>
-      <span class="rank__val num">${fmtMetric(def, e.value)}</span>
-      <span class="rank__src tiny">${e.sources.map((s) => html`<a href="${href(`/source/${s}`)}" class="src-chip">${sourceName(s)}</a>`)}</span>
+      <span class="rank__val num">${def.fmt ? def.fmt(e.value) : fmtMetric(def, e.value)}</span>
+      <span class="rank__src tiny">${e.claim ? html`<span class="src-chip src-chip--claim">${brandName(e.row.brand)} claim</span>` : e.sources.map((s) => html`<a href="${href(`/source/${s}`)}" class="src-chip">${sourceName(s)}</a>`)}</span>
     </li>`)}
   </ol>`;
 }
@@ -187,7 +216,8 @@ function seriesLegend(state) {
 }
 
 function legend(state) {
-  const brands = [...new Set(store.devices.filter((d) => d.category === 'smartphone' && d.flagship).map((d) => d.brand))].sort();
+  const cats = CLAIMS[state.test]?.cats;
+  const brands = [...new Set(store.devices.filter((d) => (cats ? cats.includes(d.category) : d.category === 'smartphone' && d.flagship)).map((d) => d.brand))].sort();
   return html`<div class="chips" role="group" aria-label="Brands">
     ${brands.map((b) => html`<button type="button" class="chip ${state.hidden.has(b) ? '' : 'is-on'}" data-brand="${b}" aria-pressed="${!state.hidden.has(b)}" style="--brand:${colorOf(b)}"><span class="chip__dot"></span>${brandName(b)}</button>`)}
   </div>`;
@@ -201,10 +231,10 @@ function panel(state) {
       <div class="seg" role="tablist" aria-label="Test">${tab.tests.map(([id, label]) => html`<button type="button" role="tab" class="seg__btn ${id === state.test ? 'is-on' : ''}" aria-selected="${id === state.test}" data-test="${id}">${label}</button>`)}</div>
       <div class="chart-panel__opts">
         <div class="seg seg--sm" role="group" aria-label="Launch year">${YEARS.map((y) => html`<button type="button" class="seg__btn ${state.years.has(y) ? 'is-on' : ''}" aria-pressed="${state.years.has(y)}" data-year="${y}">${y}</button>`)}</div>
-        ${state.tab === 'generations' ? '' : html`<label class="switch small"><input type="checkbox" data-all ${state.all ? 'checked' : ''}> All phones, not only flagships</label>`}
+        ${state.tab === 'generations' || state.tab === 'claims' ? '' : html`<label class="switch small"><input type="checkbox" data-all ${state.all ? 'checked' : ''}> All phones, not only flagships</label>`}
       </div>
     </div>
-    ${def?.description ? html`<p class="tiny muted chart-panel__desc">${def.description}</p>` : ''}
+    ${CLAIMS[state.test] ? html`<p class="small chart-panel__desc chart-claim-note"><strong>Maker claims, not measurements.</strong> ${CLAIMS[state.test].name}. Makers test in their own ways, so treat small differences with care; measured results appear in the other tabs as labs publish them.</p>` : def?.description ? html`<p class="tiny muted chart-panel__desc">${def.description}</p>` : ''}
     <div class="chart-panel__body">${state.tab === 'generations' ? generationChart(state.test, state) : rankedBars(state.test, state, tab.hue)}</div>
     ${state.tab === 'generations' ? seriesLegend(state) : legend(state)}
   </section>`;
@@ -217,9 +247,9 @@ export default async function render({ query }) {
     html: html`<div class="stack-lg charts">
       ${pageTrail([{ label: 'Home', href: href('/') }, { label: 'Charts' }])}
       <header>
-        <div class="eyebrow">Measured results only</div>
-        <h1>Flagship charts</h1>
-        <p class="muted" style="margin-top:8px;max-width:78ch">Every bar is a test result for that phone, named with the labs or publications that measured it. Standard benchmarks (Geekbench, 3DMark, AnTuTu) are the same test wherever they are run, so their results share a chart; tests with a lab's own method (battery life, charging, brightness, DXOMARK scores) each get their own chart and are never put on one scale. Manufacturer claims are not charted, and a Galaxy tested in its Snapdragon version is shown as its own striped bar, separate from the Exynos model sold in Malaysia.</p>
+        <div class="eyebrow">Measured results, with maker claims kept apart</div>
+        <h1>Charts</h1>
+        <p class="muted" style="margin-top:8px;max-width:78ch">Every bar is a test result for that phone, named with the labs or publications that measured it. Standard benchmarks (Geekbench, 3DMark, AnTuTu) are the same test wherever they are run, so their results share a chart; tests with a lab's own method (battery life, charging, brightness, DXOMARK scores) each get their own chart and are never put on one scale. Manufacturer claims never share a chart with measurements: they have their own <em>Maker claims</em> tab (tablets, watches, bands and earbuds, which few labs test yet), labelled as claims. A Galaxy tested in its Snapdragon version is shown as its own striped bar, separate from the Exynos model sold in Malaysia.</p>
         ${store.core.build?.auto?.benchmarks ? html`<p class="small muted" style="margin-top:6px;max-width:78ch">${t('Test results from UL 3DMark and DXOMARK (and AnTuTu when its ranking can be read) are re-checked automatically every morning; the last check was {when}. Reviewers’ tables and new phones are still added by hand.', { when: fmtDateTime(store.core.build.auto.benchmarks.at) })}</p>` : ''}
       </header>
       <nav class="tabs" aria-label="Chart">${TABS.map((t) => html`<a href="${href('/charts', { tab: t.id })}" aria-current="${t.id === state.tab ? 'true' : 'false'}">${t.label}</a>`)}</nav>

@@ -1,0 +1,85 @@
+{
+  "id": "huawei-matepad-pro-max",
+  "name": "HUAWEI MatePad Pro Max",
+  "brand": "huawei",
+  "category": "tablet",
+  "series": "HUAWEI MatePad Pro",
+  "form": "tablet",
+  "status": "released",
+  "announced": "2026-07",
+  "released": "2026-07",
+  "segment": "flagship",
+  "aliases": [
+    "MatePad Pro Max"
+  ],
+  "summary": "Huawei’s 13.2-inch, 4.7 mm OLED tablet with an optional anti-glare PaperMatte screen.",
+  "highlights": [
+    "13.2-inch OLED",
+    "4.7 mm thin",
+    "PaperMatte option"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 5999,
+      "config": "12 GB / 512 GB",
+      "date": "2026-07-06",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2026/07/06/huawei-matepad-pro-max-malaysia-price-spec-features-launch/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 13.2,
+      "type": "Flexible OLED (PaperMatte option)",
+      "resolution": "3000 × 2000",
+      "ppi": 273,
+      "peak_nits": 1600
+    },
+    "platform": {
+      "chipset_note": "Kirin T93 Pro (9-core) or Kirin T93 (8-core), by model"
+    },
+    "memory": {
+      "ram_gb": [
+        12
+      ],
+      "storage_gb": [
+        512
+      ]
+    },
+    "battery": {
+      "capacity_mah": 10400
+    },
+    "charging": {
+      "wired_w": 66
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 289.34,
+        "width_mm": 196.34,
+        "depth_mm": 4.7
+      },
+      "weight_g": 499
+    },
+    "connectivity": {
+      "wifi": "Wi-Fi 7"
+    },
+    "software": {
+      "launch_os": "HarmonyOS 4.3"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "huawei",
+      "url": "https://consumer.huawei.com/my/tablets/matepad-pro-max/specs/",
+      "checked": "2026-09-25",
+      "note": "Read from HUAWEI Malaysia’s specification page; launch month from Malaysian launch reports."
+    }
+  },
+  "dataStatus": "checked"
+}

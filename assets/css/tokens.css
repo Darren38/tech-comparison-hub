@@ -67,6 +67,10 @@
   --gutter: clamp(16px, 3.2vw, 36px);
   --header-h: 60px;
   --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+
+  /* product pictures on a white canvas: blend the white into the page (light) or sit on a white plate (dark) */
+  --pic-blend: multiply;
+  --pic-plate: 0px;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -110,11 +114,15 @@
     --c-platform: #ff6a3d;
     --shadow: 0 1px 0 rgba(0, 0, 0, 0.3), 0 1px 3px rgba(0, 0, 0, 0.4);
     --shadow-lg: 0 18px 50px -12px rgba(0, 0, 0, 0.7);
+    --pic-blend: normal;
+    --pic-plate: 6px;
   }
 }
 
 :root[data-theme="dark"] {
   color-scheme: dark;
+  --pic-blend: normal;
+  --pic-plate: 6px;
   --bg: #0d0f12;
   --bg-grid: rgba(255, 255, 255, 0.035);
   --surface: #15181d;

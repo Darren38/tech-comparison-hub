@@ -6,29 +6,145 @@
   "maxItems": 240,
   "note": "Feeds the Latest headlines panels on the News and Reviews pages. Only title, link, source and date are stored; items are matched to devices automatically and are not part of the evidence database until reviewed and added as documents.",
   "feeds": [
-    { "source": "gsmarena", "kind": "news", "url": "https://www.gsmarena.com/rss-news-reviews.php3" },
-    { "source": "notebookcheck", "kind": "news", "url": "https://www.notebookcheck.net/News.152.100.html?tag=RSS" },
-    { "source": "soyacincau", "kind": "news", "url": "https://soyacincau.com/feed/" },
-    { "source": "malaymail", "kind": "news", "url": "https://www.malaymail.com/feed/rss/tech-gadgets" },
-    { "source": "technave", "kind": "news", "url": "https://technave.com/feed" },
-    { "source": "zinggadget", "kind": "news", "lang": "zh", "url": "https://zinggadget.com/feed/" },
-    { "source": "sammobile", "kind": "news", "url": "https://www.sammobile.com/feed/" },
-    { "source": "sammyfans", "kind": "news", "url": "https://www.sammyfans.com/feed/" },
-    { "source": "9to5mac", "kind": "news", "url": "https://9to5mac.com/feed/" },
-    { "source": "macrumors", "kind": "news", "url": "https://feeds.macrumors.com/MacRumors-All" },
-    { "source": "android-police", "kind": "news", "url": "https://www.androidpolice.com/feed/" },
-    { "source": "engadget", "kind": "news", "url": "https://www.engadget.com/rss.xml" },
-    { "source": "gizmochina", "kind": "news", "url": "https://www.gizmochina.com/feed/" },
-    { "source": "fonearena", "kind": "news", "url": "https://www.fonearena.com/blog/feed" },
-    { "source": "beebom", "kind": "news", "url": "https://beebom.com/feed/" },
-    { "source": "mydrivers", "kind": "news", "lang": "zh", "tz": "+08:00", "url": "https://rss.mydrivers.com/rss.aspx?Tid=1" },
-    { "source": "ithome", "kind": "news", "lang": "zh", "url": "https://www.ithome.com/rss/" },
-    { "source": "ifanr", "kind": "news", "lang": "zh", "url": "https://www.ifanr.com/feed" },
-    { "source": "geekerwan", "kind": "video", "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCNi3K9HUzuTmILZH0iGupkw" },
-    { "source": "mrwhosetheboss", "kind": "video", "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCMiJRAwDNSNzuYeN2uWa0pA" },
-    { "source": "mkbhd", "kind": "video", "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCG7J20LhUeLl6y_Emi7OJrA" },
-    { "source": "jerryrigeverything", "kind": "video", "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCWFKCr40YwOZQx8FHU_ZqqQ" },
-    { "source": "phonebuff", "kind": "video", "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC10jOU_-x6XGe3YQcvGkIVA" },
-    { "source": "matthew-moniz", "kind": "video", "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCKIHsw5_zcCDyHItVXm-mMA" }
+    {
+      "source": "gsmarena",
+      "kind": "news",
+      "url": "https://www.gsmarena.com/rss-news-reviews.php3"
+    },
+    {
+      "source": "notebookcheck",
+      "kind": "news",
+      "url": "https://www.notebookcheck.net/News.152.100.html?tag=RSS"
+    },
+    {
+      "source": "soyacincau",
+      "kind": "news",
+      "url": "https://soyacincau.com/feed/"
+    },
+    {
+      "source": "malaymail",
+      "kind": "news",
+      "url": "https://www.malaymail.com/feed/rss/tech-gadgets"
+    },
+    {
+      "source": "technave",
+      "kind": "news",
+      "url": "https://technave.com/feed"
+    },
+    {
+      "source": "zinggadget",
+      "kind": "news",
+      "lang": "zh",
+      "url": "https://zinggadget.com/feed/"
+    },
+    {
+      "source": "sammobile",
+      "kind": "news",
+      "url": "https://www.sammobile.com/feed/"
+    },
+    {
+      "source": "sammyfans",
+      "kind": "news",
+      "url": "https://www.sammyfans.com/feed/"
+    },
+    {
+      "source": "9to5mac",
+      "kind": "news",
+      "url": "https://9to5mac.com/feed/"
+    },
+    {
+      "source": "9to5google",
+      "kind": "news",
+      "url": "https://9to5google.com/feed/"
+    },
+    {
+      "source": "samsung-newsroom",
+      "kind": "news",
+      "url": "https://news.samsung.com/global/feed"
+    },
+    {
+      "source": "apple-newsroom",
+      "kind": "news",
+      "url": "https://www.apple.com/newsroom/rss-feed.rss"
+    },
+    {
+      "source": "google-blog",
+      "kind": "news",
+      "url": "https://blog.google/rss/"
+    },
+    {
+      "source": "macrumors",
+      "kind": "news",
+      "url": "https://feeds.macrumors.com/MacRumors-All"
+    },
+    {
+      "source": "engadget",
+      "kind": "news",
+      "url": "https://www.engadget.com/rss.xml"
+    },
+    {
+      "source": "gizmochina",
+      "kind": "news",
+      "url": "https://www.gizmochina.com/feed/"
+    },
+    {
+      "source": "fonearena",
+      "kind": "news",
+      "url": "https://www.fonearena.com/blog/feed"
+    },
+    {
+      "source": "beebom",
+      "kind": "news",
+      "url": "https://beebom.com/feed/"
+    },
+    {
+      "source": "mydrivers",
+      "kind": "news",
+      "lang": "zh",
+      "tz": "+08:00",
+      "url": "https://rss.mydrivers.com/rss.aspx?Tid=1"
+    },
+    {
+      "source": "ithome",
+      "kind": "news",
+      "lang": "zh",
+      "url": "https://www.ithome.com/rss/"
+    },
+    {
+      "source": "ifanr",
+      "kind": "news",
+      "lang": "zh",
+      "url": "https://www.ifanr.com/feed"
+    },
+    {
+      "source": "geekerwan",
+      "kind": "video",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCNi3K9HUzuTmILZH0iGupkw"
+    },
+    {
+      "source": "mrwhosetheboss",
+      "kind": "video",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCMiJRAwDNSNzuYeN2uWa0pA"
+    },
+    {
+      "source": "mkbhd",
+      "kind": "video",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCG7J20LhUeLl6y_Emi7OJrA"
+    },
+    {
+      "source": "jerryrigeverything",
+      "kind": "video",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCWFKCr40YwOZQx8FHU_ZqqQ"
+    },
+    {
+      "source": "phonebuff",
+      "kind": "video",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC10jOU_-x6XGe3YQcvGkIVA"
+    },
+    {
+      "source": "matthew-moniz",
+      "kind": "video",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCKIHsw5_zcCDyHItVXm-mMA"
+    }
   ]
 }

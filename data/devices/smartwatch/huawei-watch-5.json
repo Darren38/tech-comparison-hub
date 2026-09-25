@@ -34,22 +34,23 @@
       "gps": "Built-in GNSS",
       "nfc": true,
       "cellular": "LTE option",
-      "usb": "Wireless charging; System Requirements; Android 9.0 or later; iOS 13.0 or later; Waterproof Level",
       "positioning": "L1: GPS + GLONASS + GALILEO + BeiDou + QZSS; L5: GPS + GALILEO + BeiDou + QZSS",
-      "wifi": "2.4 GHz + 5 GHz; IEEE 802.11a/b/g/n/ac/ax 1 × 1; Environment",
-      "bluetooth": "Bluetooth"
+      "wifi": "2.4 GHz + 5 GHz; IEEE 802.11a/b/g/n/ac/ax 1 × 1",
+      "bluetooth": "Bluetooth",
+      "compatibility": "Android 9.0 or later, iOS 13.0 or later"
     },
     "build": {
       "water": "5 ATM",
       "water_m": 50,
       "ip": "IP69"
     },
-    "sensors": "HUAWEI WATCH 5 46 mm, Acceleration sensor, Gyroscope sensor, Compass sensor, Optical heart rate sensor 6.0, Barometer sensor, Ambient light sensor, Body temperature sensor, ECG sensor, Depth sensor, X-TAP sensor, HUAWEI WATCH 5 42 mm, Tactile Sensor, Button, Up button (Rotating Crown) + Down button + HUAWEI X-TAP",
+    "sensors": "Acceleration sensor, Gyroscope sensor, Compass sensor, Optical heart rate sensor 6.0, Barometer sensor, Ambient light sensor, Body temperature sensor, ECG sensor, Depth sensor, X-TAP sensor, HUAWEI WATCH 5 42 mm, Tactile Sensor",
     "audio": {
-      "speakers": "Microphone"
+      "microphone": true
     },
     "charging": {
-      "claim": "Charger Voltage and Current Requirements; 5V-10V DC/2A MAX"
+      "claim": "Charger: 5V-10V DC/2A MAX",
+      "wireless": true
     },
     "misc": {
       "colors": "Purple, Silver"

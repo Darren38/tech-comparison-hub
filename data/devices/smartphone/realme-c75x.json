@@ -1,0 +1,78 @@
+{
+  "id": "realme-c75x",
+  "name": "realme C75x",
+  "brand": "realme",
+  "category": "smartphone",
+  "series": "realme C",
+  "form": "bar",
+  "status": "released",
+  "announced": "2025-03-08",
+  "released": "2025-03-08",
+  "segment": "entry",
+  "aliases": [
+    "C75x"
+  ],
+  "summary": "A 6.67-inch 120 Hz 4G budget phone with the Helio G81 Ultra, a 5,600 mAh battery, 45 W charging and a 50 MP main camera.",
+  "highlights": [
+    "Helio G81 Ultra",
+    "6.67-inch 120 Hz",
+    "5,600 mAh, 45 W"
+  ],
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-25",
+      "source": "realme",
+      "note": "Listed on the maker’s Malaysian website, but no Malaysian launch price was found in a launch report."
+    }
+  },
+  "specs": {
+    "platform": {
+      "chipset": "helio-g81-ultra"
+    },
+    "build": {
+      "ip": "IP69",
+      "weight_g": 196.0
+    },
+    "charging": {
+      "wired_w": 45
+    },
+    "memory": {
+      "storage_gb": [
+        128
+      ]
+    },
+    "display": {
+      "size_in": 6.67,
+      "refresh_hz": 120,
+      "resolution": "1604 × 720"
+    },
+    "battery": {
+      "capacity_mah": 5600
+    },
+    "connectivity": {
+      "wifi": "Wi-Fi 5",
+      "bluetooth": "Bluetooth 5.0",
+      "cellular": "4G"
+    },
+    "camera": {
+      "front": "5 MP",
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50
+        }
+      ]
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "realme",
+      "url": "https://www.realme.com/my/realme-c75x/specs",
+      "checked": "2026-09-25",
+      "note": "Read automatically from the maker’s Malaysian specification page and reviewed; values not found on the page are left out."
+    }
+  },
+  "dataStatus": "compiled"
+}

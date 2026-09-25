@@ -1,0 +1,106 @@
+{
+  "id": "realme-gt-7-pro",
+  "name": "realme GT 7 Pro",
+  "brand": "realme",
+  "category": "smartphone",
+  "series": "realme GT",
+  "form": "bar",
+  "status": "released",
+  "announced": "2024-11-18",
+  "released": "2024-11-18",
+  "segment": "flagship",
+  "aliases": [
+    "GT 7 Pro"
+  ],
+  "summary": "A 6.78-inch 120 Hz 5G flagship phone with the Snapdragon 8 Elite, a 6,500 mAh battery, 120 W charging and a 50 MP main camera.",
+  "highlights": [
+    "Snapdragon 8 Elite",
+    "6.78-inch 120 Hz",
+    "6,500 mAh, 120 W"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 3699,
+      "config": "Lowest listed configuration",
+      "date": "2026-09-25",
+      "type": "listed",
+      "source": "realme",
+      "url": "https://www.realme.com/my/",
+      "class": "official",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "platform": {
+      "chipset": "snapdragon-8-elite"
+    },
+    "build": {
+      "ip": "IP69",
+      "weight_g": 222.8,
+      "dimensions": {
+        "height_mm": 162.45,
+        "width_mm": 76.89,
+        "depth_mm": 8.55
+      }
+    },
+    "memory": {
+      "ram_gb": [
+        12
+      ],
+      "storage_gb": [
+        512
+      ]
+    },
+    "display": {
+      "size_in": 6.78,
+      "resolution": "2780 × 1264",
+      "refresh_hz": 120
+    },
+    "charging": {
+      "wired_w": 120
+    },
+    "battery": {
+      "capacity_mah": 6500
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "bluetooth": "Bluetooth 5.4",
+      "nfc": true
+    },
+    "software": {
+      "launch_os": "Android 15"
+    },
+    "camera": {
+      "front": "16 MP",
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "focal_mm": 24
+        },
+        {
+          "role": "ultrawide",
+          "mp": 8,
+          "focal_mm": 16
+        },
+        {
+          "role": "periscope",
+          "mp": 50,
+          "focal_mm": 73
+        }
+      ]
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "realme",
+      "url": "https://www.realme.com/my/realme-gt-7-pro/specs",
+      "checked": "2026-09-25",
+      "note": "Read automatically from the maker’s Malaysian specification page and reviewed; values not found on the page are left out."
+    }
+  },
+  "dataStatus": "compiled"
+}

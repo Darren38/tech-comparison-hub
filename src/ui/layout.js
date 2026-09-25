@@ -96,6 +96,10 @@ function resultHref(r) {
       return { url: href(`/brand/${r.id}`) };
     case 'source':
       return { url: href(`/source/${r.id}`) };
+    case 'page':
+      return { url: href(r.path, r.section ? { section: r.section } : undefined) };
+    case 'headline':
+      return { url: r.url, external: true };
     default: {
       const doc = store.docById.get(r.id);
       return { url: doc?.url ?? href('/search', { q: r.title }), external: Boolean(doc?.url) };
@@ -247,13 +251,17 @@ export function renderFooter() {
         <li><a href="${href('/devices/smartphone')}">${t('Smartphones')}</a></li>
         <li><a href="${href('/devices/tablet')}">${t('Tablets')}</a></li>
         <li><a href="${href('/devices/smartwatch')}">${t('Smartwatches')}</a></li>
-        <li><a href="${href('/chipsets')}">${t('Chipsets')}</a></li></ul></div>
+        <li><a href="${href('/devices/band')}">${t('Fitness bands')}</a></li>
+        <li><a href="${href('/devices/earbuds')}">${t('Earbuds')}</a></li>
+        <li><a href="${href('/chipsets')}">${t('Chipsets')}</a></li>
+        <li><a href="d/">${t('Plain list of every device')}</a></li></ul></div>
       <div><h4>${t('Evidence')}</h4><ul>
         <li><a href="${href('/reviews')}">${t('Reviews & videos')}</a></li>
         <li><a href="${href('/news')}">${t('News')}</a></li>
         <li><a href="${href('/coverage')}">${t('Evidence coverage')}</a></li>
         <li><a href="${href('/methodology', { section: 'sources' })}">${t('Source registry')}</a></li></ul></div>
       <div><h4>${t('About')}</h4><ul>
+        <li><a href="${href('/methodology', { section: 'glossary' })}">${t('Tech words explained')}</a></li>
         <li><a href="${href('/methodology')}">${t('How scoring works')}</a></li>
         <li><a href="${href('/methodology', { section: 'confidence' })}">${t('Confidence levels')}</a></li>
         <li><a href="${href('/methodology', { section: 'ethics' })}">${t('Data ethics')}</a></li></ul></div>

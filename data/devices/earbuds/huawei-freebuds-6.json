@@ -1,0 +1,76 @@
+{
+  "id": "huawei-freebuds-6",
+  "name": "HUAWEI FreeBuds 6",
+  "brand": "huawei",
+  "category": "earbuds",
+  "series": "HUAWEI FreeBuds",
+  "form": "buds",
+  "status": "released",
+  "announced": "2025",
+  "released": "2025",
+  "segment": "upper-mid",
+  "aliases": [],
+  "summary": "Open-fit Huawei earbuds with a dual driver (11 mm dynamic + planar diaphragm), noise cancelling and wireless charging.",
+  "highlights": [
+    "Dual driver",
+    "Noise cancelling",
+    "Wireless charging"
+  ],
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-25",
+      "source": "huawei",
+      "note": "Listed on HUAWEI Malaysia’s website, but no Malaysian launch price was found in a launch report."
+    }
+  },
+  "specs": {
+    "audio": {
+      "anc": "Yes",
+      "driver": "Dual driver: 11 mm dynamic + planar diaphragm",
+      "features": "Triple Adaptive EQ"
+    },
+    "battery": {
+      "life_h": 6,
+      "life_anc_h": 4.5,
+      "total_h": 36,
+      "bud_mah": 39.5,
+      "case_mah": 510,
+      "claim": "Connection-priority mode: 6 h (4.5 h with noise cancelling), 36 h with the case (27 h with noise cancelling); sound-priority mode: 5.5 h / 32 h"
+    },
+    "charging": {
+      "wireless": "Yes (up to 2 W)",
+      "port": "USB-C"
+    },
+    "build": {
+      "style": "Open fit",
+      "dimensions": {
+        "height_mm": 30.6,
+        "width_mm": 18.5,
+        "depth_mm": 24.0
+      },
+      "case_dimensions": {
+        "height_mm": 66.2,
+        "width_mm": 49.9,
+        "depth_mm": 26.8
+      }
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.2",
+      "multipoint": "Yes (two devices)"
+    },
+    "software": {
+      "app": "HUAWEI AI Life (Android and iPhone)"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "huawei",
+      "url": "https://consumer.huawei.com/my/headphones/freebuds6/specs/",
+      "checked": "2026-09-25",
+      "note": "Read from HUAWEI Malaysia’s specification page. Battery figures are Huawei’s lab claims."
+    }
+  },
+  "dataStatus": "checked"
+}

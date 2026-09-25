@@ -115,3 +115,28 @@ export function loadViews() {
   return viewsPromise;
 }
 export const youtubeId = (url) => /(?:youtube\.com\/watch\?v=|youtu\.be\/|youtube\.com\/shorts\/)([\w-]{11})/.exec(url ?? '')?.[1] ?? null;
+
+
+// ------------------------------------------------------------------ Version 17: archive + newest headlines
+const ARCHIVE = 'live/archive.json';
+let merged = null;
+
+/**
+ * Every matched headline the site knows: the rolling archive the scheduled build keeps (live/archive.json, about 400
+ * days, re-matched on every run) plus the newest collection, one entry per article, newest first. Cached for the visit.
+ */
+export function loadMatchedItems() {
+  merged ??= Promise.all([
+    fetch(`${ARCHIVE}?t=${Math.floor(Date.now() / 600000)}`, { cache: 'no-cache' }).then((r) => (r.ok ? r.json() : { items: [] })).catch(() => ({ items: [] })),
+    loadHeadlines().catch(() => ({ items: [] })),
+  ]).then(([archive, latestItems]) => {
+    const byKey = new Map();
+    for (const item of [...(latestItems.items ?? []), ...(archive.items ?? [])]) {
+      if (!isSafeUrl(item.url)) continue;
+      const key = item.id ?? item.url;
+      if (!byKey.has(key)) byKey.set(key, item);
+    }
+    return [...byKey.values()].sort((a, b) => String(b.published ?? '').localeCompare(String(a.published ?? '')));
+  });
+  return merged;
+}

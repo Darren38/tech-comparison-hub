@@ -1,0 +1,78 @@
+{
+  "id": "honor-earbuds-x5",
+  "name": "HONOR Earbuds X5",
+  "brand": "honor",
+  "category": "earbuds",
+  "series": "HONOR Earbuds",
+  "form": "buds",
+  "status": "released",
+  "segment": "entry",
+  "aliases": [],
+  "summary": "Entry HONOR earbuds with a large 13 mm driver and dual-device connection.",
+  "highlights": [
+    "13 mm driver",
+    "Dual-device connection",
+    "Up to 27 h with case"
+  ],
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-25",
+      "source": "honor",
+      "note": "Listed on HONOR Malaysia’s website, but no Malaysian launch price was found in a launch report."
+    }
+  },
+  "specs": {
+    "audio": {
+      "anc": "No",
+      "driver": "13 mm dynamic"
+    },
+    "battery": {
+      "life_h": 5,
+      "total_h": 27,
+      "bud_mah": 30,
+      "case_mah": 410
+    },
+    "charging": {
+      "port": "USB-C"
+    },
+    "build": {
+      "weight_g": 3.8,
+      "case_weight_g": 35.4,
+      "dimensions": {
+        "height_mm": 38.82,
+        "width_mm": 18.6,
+        "depth_mm": 16.81
+      },
+      "case_dimensions": {
+        "height_mm": 58.9,
+        "width_mm": 58.9,
+        "depth_mm": 24.3
+      }
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.2",
+      "multipoint": "Yes (two devices)"
+    },
+    "software": {
+      "app": "HONOR AI Space / HONOR Earbuds app"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "honor",
+      "url": "https://www.honor.com/my/audio/honor-earbuds-x5/spec/",
+      "checked": "2026-09-25",
+      "note": "Read from HONOR Malaysia’s specification page."
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://www-file.honor.com/content/dam/honor/my/specs/audio/honor-earbuds-x5/honor-earbuds-x5-ws.png",
+    "page": "https://www.honor.com/my/audio/honor-earbuds-x5/",
+    "credit": "HONOR",
+    "checked": "2026-09-25"
+  }
+}

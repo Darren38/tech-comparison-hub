@@ -20,6 +20,7 @@ const PROFILE_WORDS = [
 ];
 
 const CATEGORY_WORDS = [
+  [/\b(earbuds?|ear ?buds?|tws|earphones?|in-ear|airpods|freebuds|galaxy buds|pixel buds|headphones?)\b/, 'earbuds'],
   [/\b(tablets?|ipads?|pads?)\b/, 'tablet'],
   [/\b(watch(es)?|smartwatch(es)?|wearables?)\b/, 'smartwatch'],
   [/\b(phones?|smartphones?|mobiles?|handsets?)\b/, 'smartphone'],

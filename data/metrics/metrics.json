@@ -420,8 +420,26 @@
     },
     "categories": [
       "smartwatch",
-      "band"
+      "band",
+      "earbuds"
     ]
+  },
+  {
+    "id": "spec_case_life",
+    "name": "Claimed listening time with the case",
+    "short": "With case",
+    "unit": "h",
+    "better": "higher",
+    "facet": "battery",
+    "level": "device",
+    "comparability": "global",
+    "derive": {
+      "path": "battery.total_h"
+    },
+    "categories": [
+      "earbuds"
+    ],
+    "description": "The maker's longest claim for the earbuds plus recharges from the charging case. Makers test with their own settings, usually noise cancelling off."
   },
   {
     "id": "spec_wired_w",
@@ -529,7 +547,8 @@
     },
     "categories": [
       "smartphone",
-      "tablet"
+      "tablet",
+      "earbuds"
     ],
     "description": "Platform scale from the IP rating: IP68 + IP69 = 100, IP68 = 90, IPX8 = 70, IP67 = 75, IP65/66 = 60, IP54 = 40, none = 0."
   },

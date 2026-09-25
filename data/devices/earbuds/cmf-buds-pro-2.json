@@ -1,0 +1,97 @@
+{
+  "id": "cmf-buds-pro-2",
+  "name": "CMF by Nothing Buds Pro 2",
+  "brand": "nothing",
+  "category": "earbuds",
+  "series": "CMF Buds",
+  "form": "buds",
+  "status": "released",
+  "announced": "2024-07-09",
+  "released": "2024-07-09",
+  "segment": "entry",
+  "aliases": [
+    "CMF by Buds Pro 2"
+  ],
+  "summary": "Budget two-driver earbuds from Nothing’s CMF brand, with strong noise cancelling and a smart dial on the case.",
+  "highlights": [
+    "Two drivers",
+    "Up to 50 dB ANC (claimed)",
+    "Up to 43 h with case"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 299,
+      "config": "Launch price",
+      "date": "2024-07-09",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2024/07/09/cmf-buds-pro-2-malaysia-wireless-anc-headphones-price-specs/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "audio": {
+      "anc": "Yes (adaptive, up to 50 dB claimed)",
+      "driver": "11 mm bass driver + 6 mm micro-planar tweeter",
+      "codecs": [
+        "LDAC",
+        "AAC",
+        "SBC"
+      ],
+      "mics": "6 in total"
+    },
+    "battery": {
+      "life_h": 11,
+      "life_anc_h": 6.5,
+      "total_h": 43,
+      "bud_mah": 60,
+      "case_mah": 460
+    },
+    "charging": {
+      "port": "USB-C"
+    },
+    "build": {
+      "style": "In-ear with silicone tips",
+      "weight_g": 4.9,
+      "case_weight_g": 46,
+      "dimensions": {
+        "height_mm": 33.1,
+        "width_mm": 20.2,
+        "depth_mm": 23.8
+      },
+      "case_dimensions": {
+        "height_mm": 53.4,
+        "width_mm": 53.4,
+        "depth_mm": 23
+      },
+      "ip": "IP55 (earbuds)"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.4",
+      "multipoint": "Yes (dual connection)"
+    },
+    "software": {
+      "app": "Nothing X (Android and iPhone)"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "nothing",
+      "url": "https://intl.nothing.tech/products/cmf-buds-pro-2",
+      "checked": "2026-09-25",
+      "note": "Read from the specs section of Nothing’s international store page."
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://cdn.shopify.com/s/files/1/0585/2479/5086/files/CMF-Buds-Pro-2_Orange_1.png",
+    "page": "https://intl.nothing.tech/products/cmf-buds-pro-2",
+    "credit": "Nothing",
+    "checked": "2026-09-25"
+  }
+}

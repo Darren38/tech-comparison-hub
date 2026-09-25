@@ -1,0 +1,86 @@
+{
+  "id": "oppo-pad-3",
+  "name": "OPPO Pad 3",
+  "brand": "oppo",
+  "category": "tablet",
+  "series": "OPPO Pad",
+  "form": "tablet",
+  "status": "released",
+  "announced": "2025",
+  "released": "2025",
+  "segment": "mid",
+  "aliases": [
+    "Pad 3",
+    "OPPO Pad 3 Matte Display Edition"
+  ],
+  "summary": "An 11.6-inch 144 Hz tablet with the Dimensity 8350, 67 W charging and a Matte Display Edition.",
+  "highlights": [
+    "11.6-inch 144 Hz",
+    "Dimensity 8350",
+    "67 W charging"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1999,
+      "config": "Matte Display Edition, 8 GB / 256 GB",
+      "date": "2025",
+      "type": "launch",
+      "source": "technave",
+      "url": "https://technave.com/gadget/OPPO-Pad-3-Malaysia-release-8GB-256GB-and-Matte-Display-Edition-priced-at-RM1-999-41151.html",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 11.61,
+      "type": "LCD (LTPS)",
+      "resolution": "2800 × 2000",
+      "ppi": 296,
+      "refresh_hz": 144,
+      "peak_nits": 700
+    },
+    "platform": {
+      "chipset": "dimensity-8350"
+    },
+    "memory": {
+      "ram_gb": [
+        8
+      ],
+      "storage_gb": [
+        128,
+        256
+      ]
+    },
+    "battery": {
+      "capacity_mah": 9520
+    },
+    "charging": {
+      "wired_w": 67
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 257.75,
+        "width_mm": 189.11,
+        "depth_mm": 6.29
+      },
+      "weight_g": 536
+    },
+    "connectivity": {
+      "wifi": "Wi-Fi 6",
+      "bluetooth": "Bluetooth 5.4"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "oppo",
+      "url": "https://www.oppo.com/en/accessories/oppo-pad-3-matte-display-edition/specs/",
+      "checked": "2026-09-25",
+      "note": "Read from OPPO’s specification page (global site unless noted)."
+    }
+  },
+  "dataStatus": "checked"
+}

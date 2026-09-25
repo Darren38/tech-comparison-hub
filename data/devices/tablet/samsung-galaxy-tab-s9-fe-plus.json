@@ -1,0 +1,101 @@
+{
+  "id": "samsung-galaxy-tab-s9-fe-plus",
+  "name": "Galaxy Tab S9 FE+",
+  "brand": "samsung",
+  "category": "tablet",
+  "series": "Galaxy Tab S FE",
+  "form": "tablet",
+  "status": "released",
+  "announced": "2023-10-04",
+  "released": "2023-10",
+  "segment": "mid",
+  "aliases": [
+    "Tab S9 FE+",
+    "Galaxy Tab S9 FE Plus"
+  ],
+  "summary": "The 2023 12.4-inch “Fan Edition” tablet: 90 Hz LCD, IP68 and an S Pen in the box at a mid-range price.",
+  "highlights": [
+    "IP68, S Pen included",
+    "12.4-inch LCD 90 Hz",
+    "45 W charging"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 2799,
+      "config": "Wi-Fi, 128 GB",
+      "date": "2023-10-04",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2023/10/04/samsung-galaxy-tab-s9-fe-malaysia-here-are-the-official-pricing-and-availability-details/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 12.4,
+      "type": "LCD",
+      "refresh_hz": 90
+    },
+    "platform": {
+      "chipset_note": "Samsung lists an octa-core processor without naming it (reported as Exynos 1380 in most markets)"
+    },
+    "memory": {
+      "ram_gb": [
+        8,
+        12
+      ],
+      "storage_gb": [
+        128,
+        256
+      ],
+      "expandable": true
+    },
+    "battery": {
+      "capacity_mah": 10090
+    },
+    "charging": {
+      "wired_w": 45
+    },
+    "input": {
+      "stylus": "S Pen included"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 285.4,
+        "width_mm": 185.4,
+        "depth_mm": 6.5
+      },
+      "weight_g": 627,
+      "ip": "IP68"
+    },
+    "connectivity": {
+      "cellular": "5G (optional)",
+      "wifi": "Wi-Fi 6",
+      "bluetooth": "Bluetooth 5.3"
+    },
+    "software": {
+      "launch_os": "Android 13"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "samsung",
+      "url": "https://news.samsung.com/global/samsung-galaxy-s23-fe-galaxy-tab-s9-fe-and-galaxy-buds-fe-bring-standout-features-to-even-more-users",
+      "checked": "2026-09-25",
+      "note": "Read from Samsung’s launch press release (specification table); Wi-Fi model weight."
+    },
+    "fields": {
+      "specs.charging.wired_w": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2023/10/04/samsung-galaxy-tab-s9-fe-malaysia-here-are-the-official-pricing-and-availability-details/",
+        "note": "SoyaCincau: 45 W fast charging, adapter not included."
+      }
+    }
+  },
+  "dataStatus": "checked"
+}

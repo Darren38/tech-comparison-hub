@@ -1,0 +1,5687 @@
+{
+"measuredAt": "2026-09-25T02:21:40+00:00",
+"boxes": {
+"https://www.honor.com/content/dam/honor/common/product-list/wearables/product-series/honor-band-10/global/honor-band-10-blue-list.png": {
+"bg": "clear",
+"ar": 0.826,
+"box": [
+0.086,
+0.0,
+0.912,
+1.0
+]
+},
+"https://www.honor.com/content/dam/honor/my/product-list/wearables/honor-band-9/honor-band-9-list.png": {
+"bg": "clear",
+"ar": 0.812,
+"box": [
+0.09,
+0.0,
+0.902,
+1.0
+]
+},
+"https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/admin-image/wearables/band10/specs/green.png": {
+"bg": "clear",
+"ar": 0.4085,
+"box": [
+0.2811,
+0.0713,
+0.7269,
+0.9307
+]
+},
+"https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/wearables/band11-pro/specs-green.png": {
+"bg": "clear",
+"ar": 0.4335,
+"box": [
+0.1888,
+0.0513,
+0.8112,
+0.9487
+]
+},
+"https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/wearables/band11/specs-beige.png": {
+"bg": "clear",
+"ar": 0.4526,
+"box": [
+0.0827,
+0.028,
+0.9373,
+0.972
+]
+},
+"https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/admin-image/wearables/band8/specs/specs-img.png": {
+"bg": "clear",
+"ar": 1.8194,
+"one": [
+0.0,
+0.0024,
+0.2203,
+1.0
+],
+"oneAr": 0.4008,
+"parts": 4
+},
+"https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/admin-image/wearables/band9/specs/specs.png": {
+"bg": "light",
+"ar": 2.3333,
+"one": [
+0.1997,
+0.0,
+0.3953,
+1.0
+],
+"oneAr": 0.4564,
+"parts": 5
+},
+"https://images.samsung.com/is/image/samsung/p6pim/my/sm-r390nzaaxme/gallery/my-galaxy-fit3-r390-sm-r390nzaaxme-thumb-540117682?$650_519_PNG$": {
+"bg": "clear",
+"ar": 0.8197,
+"box": [
+0.3263,
+0.2334,
+0.6753,
+0.7666
+]
+},
+"https://i02.appmifile.com/747_item_my/18/05/2026/5b9ad90a99c5f4770926ca65a7dd5ac3.png": {
+"bg": "clear",
+"ar": 0.8404,
+"box": [
+0.1797,
+0.118,
+0.8203,
+0.8803
+]
+},
+"https://i02.appmifile.com/315_item_my/24/06/2025/e092fdf6d5a048f2911eff5b85699865.png": {
+"bg": "clear",
+"ar": 0.3692,
+"box": [
+0.3613,
+0.1247,
+0.6403,
+0.8803
+]
+},
+"https://i02.appmifile.com/797_operatorx_operatorx_xm/13/08/2026/38137598e29647f215675b8d5e9417ea.png": {
+"bg": "clear",
+"ar": 1.2929,
+"box": [
+0.0813,
+0.1713,
+0.942,
+0.837
+],
+"one": [
+0.3647,
+0.1713,
+0.942,
+0.8353
+],
+"oneAr": 0.8694,
+"parts": 2
+},
+"https://i02.appmifile.com/145_item_my/02/04/2024/aa36d45c05b83fe0a4199b364bd72922.png": {
+"bg": "clear",
+"ar": 0.4202,
+"box": [
+0.3647,
+0.178,
+0.6353,
+0.822
+]
+},
+"https://i02.appmifile.com/695_item_my/02/04/2024/9383b736c07b27ac5dc510edc8ca734b.png": {
+"bg": "clear",
+"ar": 0.4688,
+"box": [
+0.3213,
+0.118,
+0.6787,
+0.8803
+]
+},
+"https://i02.appmifile.com/596_item_my/13/05/2024/d88411e309976844aedd16d2c2666994.png": {
+"bg": "clear",
+"ar": 0.3432,
+"box": [
+0.3563,
+0.0813,
+0.6437,
+0.9187
+]
+},
+"https://i02.appmifile.com/487_item_my/29/08/2025/dc5bef0ad15cbebba46574360f9af398.png": {
+"bg": "clear",
+"ar": 0.4525,
+"box": [
+0.3263,
+0.118,
+0.672,
+0.882
+]
+},
+"https://i02.appmifile.com/843_item_my/03/03/2025/34f3cdd3d3c60cfc367ba402c68c8519.png": {
+"bg": "clear",
+"ar": 0.4764,
+"box": [
+0.318,
+0.118,
+0.682,
+0.882
+]
+},
+"https://i02.appmifile.com/558_item_my/26/09/2024/870a7d45e9f88f382aaf757d20445ad6.png": {
+"bg": "clear",
+"ar": 0.3455,
+"box": [
+0.368,
+0.118,
+0.632,
+0.882
+]
+},
+"https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/121204-airpods-4-anc.png": {
+"bg": "clear",
+"ar": 0.69,
+"box": [
+0.1613,
+0.0097,
+0.8403,
+0.9937
+]
+},
+"https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/121203-airpods-4.png": {
+"bg": "clear",
+"ar": 0.9474,
+"box": [
+0.0347,
+0.0097,
+0.9653,
+0.992
+]
+},
+"https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/airpods-5.png": {
+"bg": "clear",
+"ar": 0.6904,
+"box": [
+0.1747,
+0.0297,
+0.8253,
+0.972
+]
+},
+"https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/airpods-pro-2.png": {
+"bg": "clear",
+"ar": 1.173,
+"box": [
+0.0097,
+0.0813,
+0.992,
+0.9187
+]
+},
+"https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/airpods-pro-3-hero.png": {
+"bg": "clear",
+"ar": 0.9262,
+"box": [
+0.0497,
+0.0147,
+0.9487,
+0.9853
+]
+},
+"https://cdn.shopify.com/s/files/1/0585/2479/5086/files/CMFBuds2Plus-1352x1352-Blue-2Back.png": {
+"bg": "clear",
+"ar": 1.2699,
+"box": [
+0.2297,
+0.298,
+0.7703,
+0.7237
+],
+"one": [
+0.2297,
+0.298,
+0.5037,
+0.7237
+],
+"oneAr": 0.6436,
+"parts": 2
+},
+"https://cdn.shopify.com/s/files/1/0585/2479/5086/files/Buds2-1352x1352-LightGreen-Back_a3ef9ef6-2da0-43b3-bf2e-76c1df0af960.png": {
+"bg": "clear",
+"ar": 1.2675,
+"box": [
+0.1863,
+0.263,
+0.8103,
+0.7553
+],
+"one": [
+0.1863,
+0.263,
+0.5003,
+0.7553
+],
+"oneAr": 0.6378,
+"parts": 2
+},
+"https://cdn.shopify.com/s/files/1/0585/2479/5086/files/CMFBuds2a-1352x1352-DarkGrey-2Back_af9f3462-8eff-4e8c-b952-5bc2b73b627b.png": {
+"bg": "clear",
+"ar": 1.2817,
+"box": [
+0.2247,
+0.2963,
+0.7703,
+0.722
+],
+"one": [
+0.2247,
+0.2963,
+0.502,
+0.722
+],
+"oneAr": 0.6514,
+"parts": 2
+},
+"https://cdn.shopify.com/s/files/1/0585/2479/5086/files/CMF-Buds-Pro-2_Orange_1.png": {
+"bg": "clear",
+"ar": 0.8295,
+"box": [
+0.2813,
+0.228,
+0.7187,
+0.7553
+]
+},
+"https://cdn.shopify.com/s/files/1/0585/2479/5086/files/product-thumbnail-orange.webp": {
+"bg": "clear",
+"ar": 0.7851,
+"box": [
+0.2547,
+0.1763,
+0.7603,
+0.8203
+]
+},
+"https://www-file.honor.com/content/dam/honor/common/product-list/audio/honor-earbuds-4/honor-earbuds-4-white.png": {
+"bg": "clear",
+"ar": 0.9812
+},
+"https://www-file.honor.com/content/dam/honor/common/product-list/audio/honor-earbuds-a-pro/global/honor-earbuds-a-pro-g-list.png": {
+"bg": "clear",
+"ar": 0.728,
+"box": [
+0.136,
+0.0,
+0.864,
+1.0
+]
+},
+"https://www-file.honor.com/content/dam/honor/my/specs/audio/honor-earbuds-open/honor-earbuds-open-glod.png": {
+"bg": "clear",
+"ar": 0.9774
+},
+"https://www-file.honor.com/content/dam/honor/common/product-list/audio/honor-earbuds-x10-lite/honor-earbuds-x10-lite.png": {
+"bg": "clear",
+"ar": 0.8459
+},
+"https://www-file.honor.com/content/dam/honor/my/specs/audio/honor-earbuds-x5/honor-earbuds-x5-ws.png": {
+"bg": "clear",
+"ar": 0.6718,
+"box": [
+0.2313,
+0.0,
+0.7687,
+1.0
+]
+},
+"https://www-file.honor.com/content/dam/honor/my/specs/audio/honor-earbuds-x6/honor-earbuds-x6-spec-white.png": {
+"bg": "clear",
+"ar": 0.6774,
+"box": [
+0.1613,
+0.0,
+0.8387,
+1.0
+]
+},
+"https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/headphones/freebuds-neo/specs-stellar-silver.png": {
+"bg": "clear",
+"ar": 1.6279,
+"box": [
+0.0463,
+0.2213,
+0.9537,
+0.7787
+]
+},
+"https://cdn.shopify.com/s/files/1/0585/2479/5086/files/Ear3-white_9c7c5465-3f29-4bb9-a438-7883444a6bad.png": {
+"bg": "clear",
+"ar": 0.8579,
+"box": [
+0.2097,
+0.1731,
+0.7937,
+0.8677
+]
+},
+"https://cdn.shopify.com/s/files/1/0585/2479/5086/files/product-thumbnail-white.png": {
+"bg": "clear",
+"ar": 1.104,
+"box": [
+0.1997,
+0.228,
+0.8003,
+0.772
+]
+},
+"https://cdn.shopify.com/s/files/1/0585/2479/5086/files/BA_360_CLEFFA_010.1001.png": {
+"bg": "clear",
+"ar": 0.6809,
+"box": [
+0.348,
+0.288,
+0.6753,
+0.7687
+]
+},
+"https://cdn.shopify.com/s/files/1/0585/2479/5086/files/BA_360_ENTEI_030_blackBud_rgb_00_4fdaba7c-5568-4db0-aaa5-5129d524d8bd.png": {
+"bg": "clear",
+"ar": 0.7075,
+"box": [
+0.3463,
+0.288,
+0.6687,
+0.7437
+]
+},
+"https://www.oneplus.com/content/dam/oneplus/2025/specs/buds4/images/Zen_Green_1080x1080.png": {
+"bg": "clear",
+"ar": 1.1067,
+"box": [
+0.0947,
+0.133,
+0.907,
+0.867
+]
+},
+"https://oasis.opstatics.com/content/dam/oasis/page/2024/global/product/oneplus-buds-pro-3/specs-black.png": {
+"bg": "clear",
+"ar": 0.6617,
+"box": [
+0.2613,
+0.133,
+0.7437,
+0.862
+]
+},
+"https://www.oneplus.com/content/dam/oneplus/2025/specs/nord-buds-3r/Aura-Blue_1080x1080.png": {
+"bg": "clear",
+"ar": 1.0481,
+"box": [
+0.1197,
+0.1413,
+0.8803,
+0.867
+]
+},
+"https://www.oneplus.com/content/dam/oneplus/2026/product-station/einstein/specs/Radiant-Gray_1080x1080.png": {
+"bg": "clear",
+"ar": 1.0571,
+"box": [
+0.1147,
+0.143,
+0.8853,
+0.872
+]
+},
+"https://web.archive.org/web/20250428225317im_/https://i02.appmifile.com/845_operator_sg/12/11/2023/3bfdaed7beb32c072224eff5ccd69866.png": {
+"bg": "clear",
+"ar": 1.9084,
+"box": [
+0.0,
+0.1893,
+1.0,
+0.8107
+],
+"one": [
+0.5247,
+0.1893,
+1.0,
+0.8107
+],
+"oneAr": 0.9071,
+"parts": 2
+},
+"https://web.archive.org/web/20260412125739im_/https://i02.appmifile.com/994_operator_sg/08/08/2024/4bb44ae6d6eb2dca0c7379439d87d530.png": {
+"bg": "clear",
+"ar": 2.7728,
+"box": [
+0.0,
+0.0492,
+1.0,
+0.9508
+],
+"one": [
+0.7497,
+0.0492,
+1.0,
+0.9508
+],
+"oneAr": 0.694,
+"parts": 4
+},
+"https://web.archive.org/web/20250326103615im_/https://i02.appmifile.com/595_item_my/25/02/2025/cc837e7d896770698655b2823a680ae5.png": {
+"bg": "clear",
+"ar": 0.852,
+"box": [
+0.1447,
+0.083,
+0.8553,
+0.917
+]
+},
+"https://web.archive.org/web/20260208014842im_/https://i02.appmifile.com/525_operator_sg/25/12/2024/7b92493ab8fe5aae4b51c02012f8fd23.jpg": {
+"bg": "light",
+"ar": 1.5252,
+"box": [
+0.0,
+0.1748,
+0.9357,
+0.9519
+]
+},
+"https://images.samsung.com/is/image/samsung/p6pim/my/sm-r410nzkaxme/gallery/my-galaxy-buds-core-r410-sm-r410nzkaxme-548561475?$1164_776_PNG$": {
+"bg": "clear",
+"ar": 2.0824,
+"box": [
+0.1097,
+0.212,
+0.892,
+0.7755
+],
+"one": [
+0.1097,
+0.212,
+0.457,
+0.7755
+],
+"oneAr": 0.9245,
+"parts": 2
+},
+"https://images.samsung.com/is/image/samsung/p6pim/my/sm-r420nzkaxme/gallery/my-galaxy-buds3-fe-sm-r420nzkaxme-548598392?$1164_776_PNG$": {
+"bg": "clear",
+"ar": 1.3693,
+"box": [
+0.113,
+0.0795,
+0.8853,
+0.9255
+],
+"one": [
+0.113,
+0.0795,
+0.4937,
+0.9255
+],
+"oneAr": 0.675,
+"parts": 2
+},
+"https://images.samsung.com/is/image/samsung/p6pim/my/2407/gallery/my-galaxy-buds3-r530-sm-r530nzaaxme-542193762?$1164_776_PNG$": {
+"bg": "clear",
+"ar": 1.2365,
+"box": [
+0.1647,
+0.112,
+0.8353,
+0.9255
+],
+"one": [
+0.1647,
+0.112,
+0.4887,
+0.9255
+],
+"oneAr": 0.5974,
+"parts": 2
+},
+"https://images.samsung.com/is/image/samsung/p6pim/my/s2602/gallery/my-galaxy-buds4-r640-sm-r640nzwaxme-550975015?$1164_776_PNG$": {
+"bg": "clear",
+"ar": 1.3469,
+"box": [
+0.1213,
+0.082,
+0.8787,
+0.9255
+],
+"one": [
+0.1213,
+0.082,
+0.4953,
+0.9255
+],
+"oneAr": 0.6651,
+"parts": 2
+},
+"https://images.samsung.com/is/image/samsung/p6pim/my/s2602/gallery/my-galaxy-buds4-r540-sm-r540nzwaxme-550981884?$1164_776_PNG$": {
+"bg": "clear",
+"ar": 1.2459,
+"box": [
+0.1497,
+0.082,
+0.8503,
+0.9255
+],
+"one": [
+0.1497,
+0.082,
+0.4837,
+0.9255
+],
+"oneAr": 0.594,
+"parts": 2
+},
+"https://web.archive.org/web/20260615172033im_/https://i02.appmifile.com/558_operator_sg/11/09/2024/4e4531520215977057d365fcc9c859b1.png": {
+"bg": "clear",
+"ar": 2.5651,
+"one": [
+0.018,
+0.0,
+0.342,
+1.0
+],
+"oneAr": 0.8606,
+"parts": 3
+},
+"https://web.archive.org/web/20260306092448im_/https://i02.appmifile.com/632_operator_sg/13/06/2024/9f8076e83db472953c43ea395da598f6.png": {
+"bg": "clear",
+"ar": 1.055,
+"box": [
+0.0,
+0.0,
+0.422,
+1.0
+]
+},
+"https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/iphone_15_plus_hero.png": {
+"bg": "clear",
+"ar": 1.3992,
+"box": [
+0.0063,
+0.148,
+0.9937,
+0.8537
+]
+},
+"https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/iphone-15-pro-max.png": {
+"bg": "clear",
+"ar": 1.0926,
+"box": [
+0.008,
+0.0497,
+0.992,
+0.9503
+]
+},
+"https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/iphone_15_pro.png": {
+"bg": "clear",
+"ar": 1.1496,
+"box": [
+0.008,
+0.0713,
+0.9937,
+0.9287
+]
+},
+"https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/iphone_15_hero.png": {
+"bg": "clear",
+"ar": 1.4508,
+"box": [
+0.0063,
+0.1597,
+0.9937,
+0.8403
+]
+},
+"https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/121030-iphone-16-plus.png": {
+"bg": "clear",
+"ar": 1.4006,
+"box": [
+0.0097,
+0.1513,
+0.9887,
+0.8503
+]
+},
+"https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/121032-iphone-16-pro-max.png": {
+"bg": "clear",
+"ar": 1.4063,
+"box": [
+0.0097,
+0.133,
+0.9903,
+0.8303
+]
+},
+"https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/121031-iphone-16-pro.png": {
+"bg": "clear",
+"ar": 1.4063,
+"box": [
+0.0097,
+0.133,
+0.9903,
+0.8303
+]
+},
+"https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/iphone-16.png": {
+"bg": "clear",
+"ar": 1.4006,
+"box": [
+0.0097,
+0.1513,
+0.9887,
+0.8503
+]
+},
+"https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/122208-iphone-16e.png": {
+"bg": "clear",
+"ar": 0.9864
+},
+"https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/iphone-17-pro-17-pro-max-hero.png": {
+"bg": "clear",
+"ar": 1.2027,
+"box": [
+0.0097,
+0.093,
+0.9887,
+0.907
+]
+},
+"https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/iphone-17-hero.png": {
+"bg": "clear",
+"ar": 1.4429,
+"box": [
+0.0113,
+0.1613,
+0.9887,
+0.8387
+]
+},
+"https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/iphone-17e.png": {
+"bg": "clear",
+"ar": 0.8255,
+"box": [
+0.098,
+0.013,
+0.902,
+0.987
+]
+},
+"https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/iphone-18-pro-max.png": {
+"bg": "clear",
+"ar": 1.2801,
+"box": [
+0.0347,
+0.138,
+0.9637,
+0.8637
+]
+},
+"https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/iphone-18-pro.png": {
+"bg": "clear",
+"ar": 1.3509,
+"box": [
+0.038,
+0.1597,
+0.962,
+0.8437
+]
+},
+"https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/iphone-air-hero.png": {
+"bg": "clear",
+"ar": 1.1751,
+"box": [
+0.008,
+0.0813,
+0.992,
+0.9187
+]
+},
+"https://www.apple.com/my/iphone-duo/images/meta/iphone-duo_specs__ec9upqmirfki_og.png": {
+"bg": "light",
+"ar": 1.5638,
+"box": [
+0.1313,
+0.0978,
+0.872,
+1.0
+]
+},
+"https://dlcdnwebimgs.asus.com/gain/A16F8224-F8F7-44F3-A1D5-A9A1AEC9F92D": {
+"bg": "clear",
+"ar": 0.8151,
+"box": [
+0.2163,
+0.0268,
+0.782,
+0.971
+]
+},
+"https://dlcdnwebimgs.asus.com/gain/4A2BCCC6-B9D8-47A5-AD7F-501E30A462A9": {
+"bg": "clear",
+"ar": 0.8151,
+"box": [
+0.2163,
+0.0268,
+0.782,
+0.971
+]
+},
+"https://dlcdnwebimgs.asus.com/gain/1F082CCC-7F01-4057-B250-4B81B1651877": {
+"bg": "clear",
+"ar": 0.8454,
+"box": [
+0.108,
+0.0363,
+0.892,
+0.9637
+]
+},
+"https://dlcdnwebimgs.asus.com/gain/6CC77851-95F8-4910-808D-E0F94C840EB7": {
+"bg": "clear",
+"ar": 0.8469,
+"box": [
+0.108,
+0.038,
+0.892,
+0.9637
+]
+},
+"https://dlcdnwebimgs.asus.com/gain/8D85BFE0-F7E5-406E-96D7-79D35CB96648": {
+"bg": "clear",
+"ar": 0.8469,
+"box": [
+0.108,
+0.038,
+0.892,
+0.9637
+]
+},
+"https://dlcdnwebimgs.asus.com/gain/428A70F4-5A08-416A-8BDA-069DD27E28F4": {
+"bg": "clear",
+"ar": 0.8485,
+"box": [
+0.108,
+0.038,
+0.892,
+0.962
+]
+},
+"https://cdn.shopify.com/s/files/1/0585/2479/5086/files/2048x1352BuyPage-BlackPhone-1.png": {
+"bg": "clear",
+"ar": 0.5005,
+"box": [
+0.3163,
+0.143,
+0.6837,
+0.877
+]
+},
+"https://cdn.shopify.com/s/files/1/0585/2479/5086/files/Phone2Pro-1352x1352-Orange-Back.png": {
+"bg": "clear",
+"ar": 0.5031,
+"box": [
+0.3347,
+0.183,
+0.6637,
+0.837
+]
+},
+"https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Pixel_10_Pro_XL_back_%28Moonstone%29.svg/500px-Pixel_10_Pro_XL_back_%28Moonstone%29.svg.png": {
+"bg": "clear",
+"ar": 0.4744
+},
+"https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Pixel_10_Pro_back_%28Obsidian%29.svg/500px-Pixel_10_Pro_back_%28Obsidian%29.svg.png": {
+"bg": "clear",
+"ar": 0.4739
+},
+"https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Pixel_10_back_%28Indigo%29.svg/500px-Pixel_10_back_%28Indigo%29.svg.png": {
+"bg": "clear",
+"ar": 0.4739
+},
+"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Pixel_11_Pro_XL_back_%28Olive%29.svg/500px-Pixel_11_Pro_XL_back_%28Olive%29.svg.png": {
+"bg": "clear",
+"ar": 0.4872
+},
+"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Pixel_11_Pro_back_%28Obsidian%29.svg/500px-Pixel_11_Pro_back_%28Obsidian%29.svg.png": {
+"bg": "clear",
+"ar": 0.4871
+},
+"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Pixel_11_back_%28Obsidian%29.svg/500px-Pixel_11_back_%28Obsidian%29.svg.png": {
+"bg": "clear",
+"ar": 0.4868
+},
+"https://www.honor.com/content/dam/honor/my/product-list/smartphone/honor-200-lite/honor-200-lite-blue.png": {
+"bg": "clear",
+"ar": 0.774,
+"box": [
+0.122,
+0.0,
+0.896,
+1.0
+]
+},
+"https://www.honor.com/content/dam/honor/my/product-list/smartphone/honor-200-pro/honor-200-pro-cyan-list.png": {
+"bg": "clear",
+"ar": 0.788,
+"box": [
+0.106,
+0.0,
+0.894,
+1.0
+]
+},
+"https://www.honor.com/content/dam/honor/my/product-list/smartphone/honor-200-smart/honor-200-smart-green-list.png": {
+"bg": "clear",
+"ar": 0.812,
+"box": [
+0.112,
+0.0,
+0.924,
+1.0
+]
+},
+"https://www.honor.com/content/dam/honor/my/product-list/smartphone/honor-200/honor-200-white-list.png": {
+"bg": "clear",
+"ar": 0.788,
+"box": [
+0.106,
+0.0,
+0.894,
+1.0
+]
+},
+"https://www.honor.com/content/dam/honor/common/product-list/product-series/honor-400-lite/list/honor-400-lite-gray-list.png": {
+"bg": "clear",
+"ar": 0.81,
+"box": [
+0.096,
+0.0,
+0.906,
+1.0
+]
+},
+"https://www.honor.com/content/dam/honor/common/product-list/product-series/honor-400-pro/honor-400-pro-gray-list.png": {
+"bg": "clear",
+"ar": 0.81,
+"box": [
+0.126,
+0.0,
+0.936,
+1.0
+]
+},
+"https://www.honor.com/content/dam/honor/common/product-list/product-series/honor-400-smart-5g/honor-400-smart-5g-gold-list.png": {
+"bg": "clear",
+"ar": 0.796,
+"box": [
+0.104,
+0.0,
+0.9,
+1.0
+]
+},
+"https://www.honor.com/content/dam/honor/common/product-list/product-series/honor-400-lite/list/honor-400-lite-black.png": {
+"bg": "clear",
+"ar": 0.81,
+"box": [
+0.096,
+0.0,
+0.906,
+1.0
+]
+},
+"https://www.honor.com/content/dam/honor/common/product-list/product-series/honor-500-smart-5g/honor-500-smart-5g-id-cyan-list.png": {
+"bg": "clear",
+"ar": 0.82,
+"box": [
+0.09,
+0.0,
+0.91,
+1.0
+]
+},
+"https://www.honor.com/content/dam/honor/common/products/honor-600-lite/imgs/gold/share.jpg": {
+"bg": "light",
+"ar": 0.6316,
+"box": [
+0.206,
+0.03,
+0.806,
+0.98
+],
+"one": [
+0.498,
+0.03,
+0.806,
+0.8
+],
+"oneAr": 0.4,
+"parts": 2
+},
+"https://www.honor.com/content/dam/honor/common/product-list/product-series/honor-600-pro/honor-600-pro-list-white.png": {
+"bg": "clear",
+"ar": 0.938
+},
+"https://www.honor.com/content/dam/honor/common/product-list/product-series/honor-600/honor-600-list-orange.png": {
+"bg": "clear",
+"ar": 0.914,
+"box": [
+0.044,
+0.0,
+0.958,
+1.0
+]
+},
+"https://www.honor.com/content/dam/honor/my/products/smartphone/honor-90-lite/honor-90lite-fb-img.jpg": {
+"bg": "light",
+"ar": 1.8053,
+"box": [
+0.0147,
+0.0216,
+0.942,
+1.0
+],
+"one": [
+0.0147,
+0.0216,
+0.632,
+1.0
+],
+"oneAr": 1.2018,
+"parts": 3
+},
+"https://www.honor.com/content/dam/honor/my/products/smartphone/honor-90/honor-90-share-facebook.jpg": {
+"bg": "light",
+"ar": 1.9269,
+"one": [
+0.0,
+0.0375,
+0.6353,
+1.0
+],
+"oneAr": 1.2572,
+"parts": 2
+},
+"https://www.honor.com/content/dam/honor/my/products/smartphone/honor-magic-v2-rsr-porsche-design/product/porschedesign-honormagicv2rsr-share-wechat.jpg": {
+"bg": "photo"
+},
+"https://www.honor.com/content/dam/honor/my/products/smartphone/honor-magic-v2/assets/honormagicv2-share-wechat.jpg": {
+"bg": "light",
+"ar": 1.2666,
+"box": [
+0.013,
+0.133,
+0.987,
+0.902
+],
+"one": [
+0.513,
+0.133,
+0.987,
+0.902
+],
+"oneAr": 0.6164,
+"parts": 2
+},
+"https://www.honor.com/content/dam/honor/my/product-list/smartphone/honor-magic-v3/honor-magic-v3-list-red.png": {
+"bg": "clear",
+"ar": 0.8,
+"box": [
+0.1,
+0.0,
+0.9,
+1.0
+]
+},
+"https://www.honor.com/content/dam/honor/common/product-list/product-series/honor-magic-v5/honor-magic-v5-id-gold.png": {
+"bg": "clear",
+"ar": 0.7726
+},
+"https://www.honor.com/content/dam/honor/common/product-list/product-series/honor-magic-v6/honor-magic-v5-list-red.png": {
+"bg": "clear",
+"ar": 0.8,
+"box": [
+0.1,
+0.0,
+0.9,
+1.0
+]
+},
+"https://www.honor.com/content/dam/honor/my/products/smartphone/honor-magic-vs/honor-magic-vs-fb.jpg": {
+"bg": "light",
+"ar": 2.2635,
+"box": [
+0.008,
+0.0883,
+0.9903,
+0.9149
+],
+"one": [
+0.3463,
+0.0883,
+0.6603,
+0.9149
+],
+"oneAr": 0.7236,
+"parts": 6
+},
+"https://www.honor.com/content/dam/honor/common/products/honor-magic5-pro/share/fb.jpg": {
+"bg": "light",
+"ar": 1.7239,
+"box": [
+0.1063,
+0.0692,
+0.9487,
+1.0
+],
+"one": [
+0.3997,
+0.0692,
+0.7403,
+0.9562
+],
+"oneAr": 0.7314,
+"parts": 3
+},
+"https://www.honor.com/content/dam/honor/common/products/honor-magic5/share/fb.jpg": {
+"bg": "light",
+"ar": 1.6897,
+"box": [
+0.1047,
+0.0787,
+0.922,
+1.0
+],
+"one": [
+0.3997,
+0.0787,
+0.7603,
+0.9498
+],
+"oneAr": 0.7885,
+"parts": 3
+},
+"https://www.honor.com/content/dam/honor/my/specs/smartphone/honor-magic6-pro/honor-magic6-pro-fx.jpg": {
+"bg": "light",
+"ar": 1.9447,
+"box": [
+0.004,
+0.494,
+0.988,
+1.0
+],
+"one": [
+0.004,
+0.494,
+0.6,
+1.0
+],
+"oneAr": 1.1779,
+"parts": 2
+},
+"https://www.honor.com/content/dam/honor/my/product-list/smartphone/honor-magic6-rsr-porsche-design/honor-magic6-rsr-porsche-design-list.png": {
+"bg": "clear",
+"ar": 0.842,
+"box": [
+0.074,
+0.0,
+0.916,
+1.0
+]
+},
+"https://www.honor.com/content/dam/honor/my/product-list/smartphone/honor-magic7-pro/honor-magic7-pro-list-gary.png": {
+"bg": "clear",
+"ar": 0.894,
+"box": [
+0.054,
+0.0,
+0.948,
+1.0
+]
+},
+"https://www.honor.com/content/dam/honor/my/product-list/smartphone/honor-magic7-rsr-porsche-design/honor-magic7-rs-populer-list.png": {
+"bg": "clear",
+"ar": 0.894,
+"box": [
+0.054,
+0.0,
+0.948,
+1.0
+]
+},
+"https://www-file.honor.com/content/dam/honor/common/product-list/product-series/honor-magic8-pro/magic8-pro-id-black-back.png": {
+"bg": "clear",
+"ar": 0.4699
+},
+"https://www.honor.com/content/dam/honor/common/product-list/product-series/honor-play10/list/honor-play10-purple-list.png": {
+"bg": "clear",
+"ar": 0.82,
+"box": [
+0.094,
+0.0,
+0.914,
+1.0
+]
+},
+"https://www.honor.com/content/dam/honor/my/products/smartphone/honor-x5-plus/img/share.png": {
+"bg": "light",
+"ar": 0.8664,
+"box": [
+0.104,
+0.042,
+0.934,
+1.0
+]
+},
+"https://www.honor.com/content/dam/honor/my/product-list/smartphone/honor-x5b-plus/honor-x5b-list.png": {
+"bg": "clear",
+"ar": 0.894,
+"box": [
+0.054,
+0.0,
+0.948,
+1.0
+]
+},
+"https://www.honor.com/content/dam/honor/common/product-list/product-series/honor-x5d-plus/honor-x5d-plus-blue-list.png": {
+"bg": "clear",
+"ar": 0.898,
+"box": [
+0.05,
+0.0,
+0.948,
+1.0
+]
+},
+"https://www.honor.com/content/dam/honor/common/product-list/product-series/honor-x5d/honor-x5d-blue-list.png": {
+"bg": "clear",
+"ar": 0.898,
+"box": [
+0.05,
+0.0,
+0.948,
+1.0
+]
+},
+"https://www.honor.com/content/dam/honor/my/product-list/smartphone/honor-x6a/honor-x6a-black-list.png": {
+"bg": "clear",
+"ar": 0.796,
+"box": [
+0.102,
+0.0,
+0.898,
+1.0
+]
+},
+"https://www.honor.com/content/dam/honor/my/product-list/smartphone/honor-x6b/honor-x6b-green.png": {
+"bg": "clear",
+"ar": 0.778,
+"box": [
+0.11,
+0.0,
+0.888,
+1.0
+]
+},
+"https://www.honor.com/content/dam/honor/common/product-list/product-series/honor-x6c/honor-x6c-g-list.png": {
+"bg": "clear",
+"ar": 0.798,
+"box": [
+0.102,
+0.0,
+0.9,
+1.0
+]
+},
+"https://www.honor.com/content/dam/honor/common/product-list/product-series/honor-x6e/honor-x6e-list-gold.png": {
+"bg": "clear",
+"ar": 0.81,
+"box": [
+0.096,
+0.0,
+0.906,
+1.0
+]
+},
+"https://www.honor.com/content/dam/honor/my/products/smartphone/honor-x7a/imgs/facebook-x7a.jpg": {
+"bg": "light",
+"ar": 1.9436,
+"one": [
+0.0163,
+0.0438,
+0.572,
+1.0
+],
+"oneAr": 1.107,
+"parts": 2
+},
+"https://www.honor.com/content/dam/honor/my/product-list/smartphone/honor-x7b-5g/honor-x7b-5g-silver-list.png": {
+"bg": "clear",
+"ar": 0.784,
+"box": [
+0.108,
+0.0,
+0.892,
+1.0
+]
+},
+"https://www.honor.com/content/dam/honor/my/product-list/smartphone/honor-x7b/honor-x7b-silvery.png": {
+"bg": "clear",
+"ar": 0.866,
+"box": [
+0.066,
+0.0,
+0.932,
+1.0
+]
+},
+"https://www.honor.com/content/dam/honor/my/product-list/smartphone/honor-x7c/honor-x7c-green-list.png": {
+"bg": "clear",
+"ar": 0.782,
+"box": [
+0.112,
+0.0,
+0.894,
+1.0
+]
+},
+"https://www.honor.com/content/dam/honor/common/product-list/product-series/honor-x7d-5g/my/x7d-5g-black-list.png": {
+"bg": "clear",
+"ar": 0.796,
+"box": [
+0.104,
+0.0,
+0.9,
+1.0
+]
+},
+"https://www.honor.com/content/dam/honor/common/product-list/product-series/honor-x7d/honor-x7d-gold-list.png": {
+"bg": "clear",
+"ar": 0.804,
+"box": [
+0.098,
+0.0,
+0.902,
+1.0
+]
+},
+"https://www.honor.com/content/dam/honor/common/product-list/product-series/honor-x7e/honor-x7e-orange-list.png": {
+"bg": "clear",
+"ar": 0.76,
+"box": [
+0.12,
+0.0,
+0.88,
+1.0
+]
+},
+"https://www.honor.com/content/dam/honor/my/products/smartphone/honor-x8a-5g/img/x8a-5g-bg-new.jpg": {
+"bg": "light",
+"ar": 1.703,
+"box": [
+0.038,
+0.0057,
+0.927,
+1.0
+],
+"one": [
+0.038,
+0.0057,
+0.5037,
+1.0
+],
+"oneAr": 0.8921,
+"parts": 2
+},
+"https://www.honor.com/content/dam/honor/my/products/smartphone/honor-x8a/imgs/x8a-facebook.jpg": {
+"bg": "light",
+"ar": 1.8958,
+"one": [
+0.0,
+0.0,
+0.527,
+1.0
+],
+"oneAr": 1.0038,
+"parts": 2
+},
+"https://www.honor.com/content/dam/honor/my/product-list/smartphone/honor-x8b/honor-x8b-silver.png": {
+"bg": "clear",
+"ar": 0.872,
+"box": [
+0.06,
+0.0,
+0.932,
+1.0
+]
+},
+"https://www.honor.com/content/dam/honor/my/product-list/smartphone/honor-x9a/honor-x9a-shou.png": {
+"bg": "light",
+"ar": 1.7219,
+"box": [
+0.0397,
+0.0,
+0.9437,
+1.0
+],
+"one": [
+0.0397,
+0.0,
+0.512,
+1.0
+],
+"oneAr": 0.8996,
+"parts": 4
+},
+"https://www.honor.com/content/dam/honor/my/products/smartphone/honor-x9b/fb.png": {
+"bg": "light",
+"ar": 1.0438
+},
+"https://www.honor.com/content/dam/honor/my/product-list/smartphone/honor-x9c-smart/honor-x9c-smart-cyan-list.png": {
+"bg": "clear",
+"ar": 0.878,
+"box": [
+0.06,
+0.0,
+0.938,
+1.0
+]
+},
+"https://www.honor.com/content/dam/honor/my/product-list/smartphone/honor-x9c/honor-x9c-purple.png": {
+"bg": "clear",
+"ar": 0.826,
+"box": [
+0.094,
+0.0,
+0.92,
+1.0
+]
+},
+"https://www.honor.com/content/dam/honor/common/product-list/product-series/honor-x9d/honor-x9d-red-list.png": {
+"bg": "clear",
+"ar": 0.882,
+"box": [
+0.064,
+0.0,
+0.946,
+1.0
+]
+},
+"https://www.honor.com/content/dam/honor/common/product-list/product-series/honor-x9e-pro/honor-x9e-pro-purple-list.png": {
+"bg": "clear",
+"ar": 0.912,
+"box": [
+0.044,
+0.0,
+0.956,
+1.0
+]
+},
+"https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/phones/mate80-pro/specs-black.png": {
+"bg": "clear",
+"ar": 0.3675
+},
+"https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/admin-image/phones/mate-x3/specs/dark-green.png": {
+"bg": "clear",
+"ar": 0.3458
+},
+"https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/admin-image/phones/mate-x6/specs/red.png": {
+"bg": "clear",
+"ar": 0.375
+},
+"https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/phones/mate-x7/specs-white.png": {
+"bg": "clear",
+"ar": 0.7625
+},
+"https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/admin-image/phones/mate-xt-ultimate-design/specs/red.png": {
+"bg": "clear",
+"ar": 0.5804,
+"box": [
+0.0,
+0.0,
+0.8513,
+1.0
+]
+},
+"https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/admin-image/phones/nova11-pro/specs/green.png": {
+"bg": "clear",
+"ar": 0.3563
+},
+"https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/admin-image/phones/nova11/specs/green.png": {
+"bg": "clear",
+"ar": 0.3563
+},
+"https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/admin-image/phones/nova-11i/list/black.png": {
+"bg": "clear",
+"ar": 0.8271,
+"box": [
+0.0192,
+0.0422,
+0.9808,
+0.9578
+]
+},
+"https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/admin-image/phones/nova12-se/specs/specs-v1.jpg": {
+"bg": "light",
+"ar": 0.7502,
+"box": [
+0.3347,
+0.0593,
+0.6653,
+0.9407
+]
+},
+"https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/admin-image/phones/nova-12i/specs/specs-img.jpg": {
+"bg": "light",
+"ar": 0.7343,
+"box": [
+0.348,
+0.086,
+0.652,
+0.914
+]
+},
+"https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/admin-image/phones/nova-12s/specs/specs-img.png": {
+"bg": "clear",
+"ar": 1.0452,
+"box": [
+0.2697,
+0.0593,
+0.7303,
+0.9407
+]
+},
+"https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/admin-image/phones/nova13-pro/specs/green.png": {
+"bg": "clear",
+"ar": 0.3625
+},
+"https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/admin-image/phones/nova13/specs/green.png": {
+"bg": "clear",
+"ar": 0.3625
+},
+"https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/phones/nova14-pro/specs-crystal-blue.png": {
+"bg": "clear",
+"ar": 0.3625
+},
+"https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/phones/nova14/specs-crystal-blue.png": {
+"bg": "clear",
+"ar": 0.3653
+},
+"https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/phones/nova-14i/specs-blue.png": {
+"bg": "clear",
+"ar": 0.3625
+},
+"https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/phones/nova15-max/specs-blush-gold.png": {
+"bg": "clear",
+"ar": 0.37
+},
+"https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/admin-image/phones/nova-y72/specs/specs-img.png": {
+"bg": "clear",
+"ar": 0.6874,
+"box": [
+0.3497,
+0.0627,
+0.6503,
+0.9373
+]
+},
+"https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/admin-image/phones/p60-pro/specs/rococo-pearl.png": {
+"bg": "clear",
+"ar": 0.3458
+},
+"https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/admin-image/phones/pura70-pro/specs-white.png": {
+"bg": "clear",
+"ar": 0.362
+},
+"https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/admin-image/phones/pura70-ultra/specs-green.png": {
+"bg": "clear",
+"ar": 0.364
+},
+"https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/admin-image/phones/pura70/specs-pink.png": {
+"bg": "clear",
+"ar": 0.376
+},
+"https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/phones/pura80-pro/specs-red.png": {
+"bg": "clear",
+"ar": 0.3625
+},
+"https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/phones/pura80-ultra/specs-black.png": {
+"bg": "clear",
+"ar": 0.3625
+},
+"https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/phones/pura80/specs-gold.png": {
+"bg": "clear",
+"ar": 0.3684
+},
+"https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/phones/pura90s-pro-max/specs-blush-gold.png": {
+"bg": "clear",
+"ar": 0.38
+},
+"https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/phones/pura90s-pro/specs-guava-soda.png": {
+"bg": "clear",
+"ar": 0.375
+},
+"https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1678951817480/92c51c585a7427f3ecd91a440b5a87d2.png": {
+"bg": "clear",
+"ar": 0.7901,
+"box": [
+0.1363,
+0.0397,
+0.8637,
+0.9603
+]
+},
+"https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1701314820059/2f8b5fb1f18eef7efed66e9810365bad.png": {
+"bg": "clear",
+"ar": 0.8968,
+"box": [
+0.0947,
+0.0397,
+0.9203,
+0.9603
+]
+},
+"https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1733211065324/c68213a8297cb7415d7043c86b0ad6dd.png": {
+"bg": "clear",
+"ar": 0.7961,
+"box": [
+0.143,
+0.0497,
+0.8587,
+0.9487
+]
+},
+"https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1764928353228/abdde4b1d3629f366437e912d8d2e073.png": {
+"bg": "clear",
+"ar": 0.8002,
+"box": [
+0.143,
+0.0497,
+0.8637,
+0.9503
+]
+},
+"https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1770795133445/0674066a7e97b7e81f2c36a40a3fa7b4.png": {
+"bg": "clear",
+"ar": 0.8016,
+"box": [
+0.1447,
+0.0497,
+0.8653,
+0.9487
+]
+},
+"https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1748609550014/2b8d1c4f35df5ccc0641b7d0f81d434a.png": {
+"bg": "clear",
+"ar": 0.7984,
+"box": [
+0.1413,
+0.0497,
+0.8603,
+0.9503
+]
+},
+"https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1751279525851/3a054cb3c5ad0cdc4a1a70654aacb935.png": {
+"bg": "clear",
+"ar": 0.7998,
+"box": [
+0.1413,
+0.0497,
+0.8603,
+0.9487
+]
+},
+"https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1777542291115/bb931eaa5d27cc90526e1a4e1b88207f.png": {
+"bg": "clear",
+"ar": 0.7998,
+"box": [
+0.1413,
+0.0497,
+0.8603,
+0.9487
+]
+},
+"https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1777285483845/49ce6eec92cd117004c8ddbba20a6ce6.png": {
+"bg": "clear",
+"ar": 0.8036,
+"box": [
+0.1413,
+0.0497,
+0.8637,
+0.9487
+]
+},
+"https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1693829091887/506fbdb2c01660622499904af91c0941.png": {
+"bg": "clear",
+"ar": 0.7804,
+"box": [
+0.138,
+0.0347,
+0.8603,
+0.9603
+]
+},
+"https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1680865800589/b4ccfe0bb06d067414c12b9b2e750f9a.png": {
+"bg": "clear",
+"ar": 0.793,
+"box": [
+0.1363,
+0.0397,
+0.8637,
+0.957
+]
+},
+"https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1714296365781/150f2d395aeb742ba0cdadd7fef40aba.png": {
+"bg": "clear",
+"ar": 0.7935,
+"box": [
+0.143,
+0.0463,
+0.8603,
+0.9503
+]
+},
+"https://i02.appmifile.com/224_item_my/14/02/2026/592f35a2aa4e3f14f22b5ab810965ba3.png": {
+"bg": "clear",
+"ar": 0.8517,
+"box": [
+0.1463,
+0.0847,
+0.8537,
+0.9153
+]
+},
+"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Motorola_Edge_60_Pro_%28cropped%29.jpg/500px-Motorola_Edge_60_Pro_%28cropped%29.jpg": {
+"bg": "photo"
+},
+"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/%E5%8D%8A%E5%A4%9C%E9%A6%96%E5%8F%91%EF%BC%81%E7%AC%AC%E4%B8%80%E6%89%8B%E6%8B%BF%E5%88%B0%E4%BA%86Nothing_Phone_%283%29_%EF%BC%81%E7%81%AF%E6%9D%A1%E6%B2%A1%E4%BA%86%E3%80%81%E8%83%8C%E5%90%8E%E5%A4%9A%E4%B8%80%E4%B8%AAscreen%EF%BC%81-00.00.10.500.png/500px-%E5%8D%8A%E5%A4%9C%E9%A6%96%E5%8F%91%EF%BC%81%E7%AC%AC%E4%B8%80%E6%89%8B%E6%8B%BF%E5%88%B0%E4%BA%86Nothing_Phone_%283%29_%EF%BC%81%E7%81%AF%E6%9D%A1%E6%B2%A1%E4%BA%86%E3%80%81%E8%83%8C%E5%90%8E%E5%A4%9A%E4%B8%80%E4%B8%AAscreen%EF%BC%81-00.00.10.500.png": {
+"bg": "photo"
+},
+"https://cdn.shopify.com/s/files/1/0585/2479/5086/files/product-thumbnail-white.webp": {
+"bg": "clear",
+"ar": 0.4985,
+"box": [
+0.2747,
+0.048,
+0.7253,
+0.952
+]
+},
+"https://www.oneplus.com/content/dam/oneplus/2025/product-station/13/images/images-kv-phones-d7111-fa2c00.png": {
+"bg": "photo"
+},
+"https://www.oneplus.com/content/dam/oneplus/2025/product-station/15/spec/OnePlus15-sand-1080x1080.png": {
+"bg": "clear",
+"ar": 0.8179,
+"box": [
+0.1697,
+0.0963,
+0.8287,
+0.902
+]
+},
+"https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/a18-en/listpage/a18-427_600-blue.png": {
+"bg": "clear",
+"ar": 0.7117
+},
+"https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/ab5-a3-5g-en/list-page-new/nebula_red_en.png": {
+"bg": "light",
+"ar": 0.7117
+},
+"https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/oppo-a3-pro-5g-en/list-page/427_600-purple.png": {
+"bg": "clear",
+"ar": 0.7117
+},
+"https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/a40-a3-a40m-a60/listpage/427-600-white.png": {
+"bg": "clear",
+"ar": 0.7117
+},
+"https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/a38-en/listpage/a38-427_600-gold.png": {
+"bg": "clear",
+"ar": 0.7117
+},
+"https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/a20-a3x/listpage/427-600-blue.png": {
+"bg": "clear",
+"ar": 0.7117
+},
+"https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/a5-series-en/v3/listpage/427-600-white.png": {
+"bg": "clear",
+"ar": 0.7417
+},
+"https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/a5-pro/list-page/pink-427-600-v1.png": {
+"bg": "clear",
+"ar": 0.7117
+},
+"https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/a5-pro/list-page/green-427-600-v1.png": {
+"bg": "clear",
+"ar": 0.7117
+},
+"https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/a5-series-en/v2/listpage/427-600-green.png": {
+"bg": "clear",
+"ar": 0.7417
+},
+"https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/a58-en/listpage/a58-427_600-green.png": {
+"bg": "clear",
+"ar": 0.7117
+},
+"https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/a5-series-en/v5/listpage/448-600-blue-v3.png": {
+"bg": "clear",
+"ar": 0.7467
+},
+"https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/oppo-a5i-en/listpage/448-600-purple.png": {
+"bg": "clear",
+"ar": 0.7467
+},
+"https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/a6-series/b4/list-page/a6/480-600-pink.png": {
+"bg": "clear",
+"ar": 0.8
+},
+"https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/a6-pro-series/list-page/448-600-pink.png": {
+"bg": "clear",
+"ar": 0.7417
+},
+"https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/oppo-a60/list-page/427-600-blue.png": {
+"bg": "clear",
+"ar": 0.7117
+},
+"https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/a6c-en/list-page/480-600-purple.png": {
+"bg": "clear",
+"ar": 0.8
+},
+"https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/a6t-series/b4/list-page/a6t/480-600-blue.png": {
+"bg": "clear",
+"ar": 0.8
+},
+"https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/a6-series/b4/list-page/a6x/480-600-violet.png": {
+"bg": "clear",
+"ar": 0.8
+},
+"https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/a6-series/b4/list-page/a6x/480-600-blue.png": {
+"bg": "clear",
+"ar": 0.8
+},
+"https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-a7-pro-serice-en/list-page/a7-pro-max/480-600-blue.png": {
+"bg": "clear",
+"ar": 0.8
+},
+"https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-a7-pro-serice-en/specs/a7-pro/tai-blue.png": {
+"bg": "clear",
+"ar": 1.1222
+},
+"https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/a78-5g-en/navigation/a78-5g-427x600_Purple.png": {
+"bg": "clear",
+"ar": 0.7117
+},
+"https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/a78-en/listpage/a78-427_600-green.png": {
+"bg": "clear",
+"ar": 0.7117
+},
+"https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/a79-5g-en/listpage/a79-5g-427_600-purple.png": {
+"bg": "clear",
+"ar": 0.7117
+},
+"https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/a98-5g-en/navigation/a98-5g-427x600-blue.png": {
+"bg": "clear",
+"ar": 0.7117
+},
+"https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/find-n2-flip-en/no-silk-screen/navigation/find-n2-flip-purple_427_600.png": {
+"bg": "clear",
+"ar": 0.7117
+},
+"https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/find-n3-flip-en/listpage/find-n3-flip-427_600-gold.png": {
+"bg": "clear",
+"ar": 0.7117
+},
+"https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/find-n3-en/listpage/find-n3-427_600-gold.png": {
+"bg": "clear",
+"ar": 0.7117
+},
+"https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/oppo-find-n5-en/listpage/427-600-white.png": {
+"bg": "clear",
+"ar": 0.709
+},
+"https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/find-n6-en/list-page/442-600-orange.png": {
+"bg": "clear",
+"ar": 0.7367
+},
+"https://www.oppo.com/content/dam/oppo_com/oppo/product-asset-library/find-x/find-x10-series-cn/find-x10-e/assets/color-neptune-glass-0-822w.png.avif": {
+"bg": "light",
+"ar": 2.5172,
+"box": [
+0.0313,
+0.2768,
+0.902,
+0.9458
+]
+},
+"https://www.oppo.com/content/dam/oppo_com/oppo/product-asset-library/find-x/find-x10-series-cn/find-x10-pro-max/assets/camera-detail-phone-1054w.png.avif?v=1790061657000": {
+"bg": "clear",
+"ar": 0.5751,
+"box": [
+0.0418,
+0.0663,
+0.7219,
+1.0
+]
+},
+"https://www.oppo.com/content/dam/oppo_com/oppo/product-asset-library/find-x/find-x10-series-cn/find-x10/assets/color-uranus-card-0-0-871w.jpg.avif": {
+"bg": "light",
+"ar": 2.6382,
+"box": [
+0.0847,
+0.3257,
+0.8903,
+0.8798
+]
+},
+"https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/find-x8-series-en/find-x8-pro/listpage/432-600-white.png": {
+"bg": "clear",
+"ar": 0.72
+},
+"https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/find-x8-series-en/find-x8/listpage/436-600-white-v2.png": {
+"bg": "clear",
+"ar": 0.7267
+},
+"https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/find-x9-series-en/listpage/find-x9-pro/480-600-white-v2.png": {
+"bg": "clear",
+"ar": 0.8
+},
+"https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/find-x9-ultra-x9s-en/find-x9-ultra/list-page/480-600-brown.png": {
+"bg": "clear",
+"ar": 0.8
+},
+"https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/find-x9-series-en/listpage/find-x9/480-600-titanium-v2.png": {
+"bg": "clear",
+"ar": 0.8
+},
+"https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/find-x9-ultra-x9s-en/find-x9s/list-page/480-600-orange.png": {
+"bg": "clear",
+"ar": 0.8
+},
+"https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/reno10-pro-plus-5g-en/listpage/reno10-pro-plus-5g-427_600-purple.png": {
+"bg": "clear",
+"ar": 0.7117
+},
+"https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/reno10-pro-5g-en/listpage/reno10-pro-5g-427_600-purple.png": {
+"bg": "clear",
+"ar": 0.7117
+},
+"https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/reno10-5g-en/listpage/reno10-5g-427_600-blue.png": {
+"bg": "clear",
+"ar": 0.7117
+},
+"https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/reno11-pro-5g-en/listpage/reno11-pro-427-600-white.png": {
+"bg": "clear",
+"ar": 0.7117
+},
+"https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/reno11-5g-en/listpage/reno11-427-600-green.png": {
+"bg": "clear",
+"ar": 0.7105
+},
+"https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/reno12-f-en/listpage/427-600-orange.png": {
+"bg": "clear",
+"ar": 0.7117
+},
+"https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/reno-12-pro-en/listpage/427-600-silver.png": {
+"bg": "clear",
+"ar": 0.7117
+},
+"https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/reno-12-en/listpage/427-600-silver.png": {
+"bg": "clear",
+"ar": 0.7117
+},
+"https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/reno13-series/list-page/reno13-f-5g/purple-v1.png": {
+"bg": "clear",
+"ar": 0.735
+},
+"https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/reno13-series/list-page/reno13-pro-5g/purple.png": {
+"bg": "clear",
+"ar": 0.735
+},
+"https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/reno13-series/list-page/reno13-5g/white.png": {
+"bg": "clear",
+"ar": 0.735
+},
+"https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/reno14-series/list-page/reno14-f/448-600-blue.png": {
+"bg": "clear",
+"ar": 0.7467
+},
+"https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/reno14-series/list-page/reno14-pro/448-600-white.png": {
+"bg": "clear",
+"ar": 0.7467
+},
+"https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/reno14-series/list-page/reno14/448-600-white-v1.png": {
+"bg": "clear",
+"ar": 0.7467
+},
+"https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/reno15-series-en/list-page/reno15-f/480-600-blue.png": {
+"bg": "clear",
+"ar": 0.8
+},
+"https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/reno15-series-en/list-page/reno15-pro/480-600-blue.png": {
+"bg": "clear",
+"ar": 0.8
+},
+"https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/reno15-series-en/list-page/reno15/480-600-blue.png": {
+"bg": "clear",
+"ar": 0.8
+},
+"https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-reno16-series-en/list-page/reno16-f/480-600-white.png": {
+"bg": "clear",
+"ar": 0.8
+},
+"https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-reno16-series-en/list-page/reno16-pro/480-600-white.png": {
+"bg": "clear",
+"ar": 0.8
+},
+"https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-reno16-series-en/list-page/reno16/480-600-white.png": {
+"bg": "clear",
+"ar": 0.8
+},
+"https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/reno8-t-5g-en/listpage/reno8-t-5g_sunrise-gold_427_600.png": {
+"bg": "clear",
+"ar": 0.7117
+},
+"https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/reno8-t-en/listpage/reno8-t_sunset-orange_427_600.png": {
+"bg": "clear",
+"ar": 0.7117
+},
+"https://i02.appmifile.com/424_item_my/02/04/2024/4ac0aceb80decec92ad7c75da18ce0a7.png": {
+"bg": "clear",
+"ar": 0.8482,
+"box": [
+0.1463,
+0.083,
+0.8537,
+0.917
+]
+},
+"https://i02.appmifile.com/181_item_my/05/11/2024/68dd845473d3bda969836de78b68d5f5.png": {
+"bg": "clear",
+"ar": 0.8482,
+"box": [
+0.1463,
+0.083,
+0.8537,
+0.917
+]
+},
+"https://i02.appmifile.com/607_operatorx_operatorx_opx/14/04/2026/0e5b4a2a089f98487fe957bfb614c0cd.png": {
+"bg": "clear",
+"ar": 0.8462,
+"box": [
+0.1463,
+0.083,
+0.852,
+0.917
+]
+},
+"https://i02.appmifile.com/872_operatorx_operatorx_opx/01/09/2025/4218764363094fcccaeb2e81a22cfea8.png": {
+"bg": "clear",
+"ar": 0.8476,
+"box": [
+0.148,
+0.0847,
+0.852,
+0.9153
+]
+},
+"https://i02.appmifile.com/722_operatorx_operatorx_opx/20/08/2024/ac8b9bf541b7f29c3a15d6e42229479a.png": {
+"bg": "clear",
+"ar": 0.8526,
+"box": [
+0.143,
+0.0813,
+0.857,
+0.9187
+]
+},
+"https://i02.appmifile.com/390_operatorx_operatorx_opx/20/08/2024/c81518450813c64feb06e2cf2bbb006d.png": {
+"bg": "clear",
+"ar": 0.8526,
+"box": [
+0.143,
+0.0813,
+0.857,
+0.9187
+]
+},
+"https://i02.appmifile.com/360_item_my/20/05/2024/4f76d380fdd22e76b29f5480609762f0.png": {
+"bg": "clear",
+"ar": 0.8462,
+"box": [
+0.1463,
+0.083,
+0.852,
+0.917
+]
+},
+"https://i02.appmifile.com/130_item_my/20/05/2024/8994f6b54edffa534bc5b9595912ea78.png": {
+"bg": "clear",
+"ar": 0.8441,
+"box": [
+0.148,
+0.083,
+0.852,
+0.917
+]
+},
+"https://i02.appmifile.com/3_item_my/25/03/2025/08a58915d4b458da451349d5d7847c57.png": {
+"bg": "clear",
+"ar": 0.8496,
+"box": [
+0.1463,
+0.0847,
+0.852,
+0.9153
+]
+},
+"https://i02.appmifile.com/423_item_my/25/03/2025/7460d1e6cef366311088c73c6531de01.png": {
+"bg": "clear",
+"ar": 0.8476,
+"box": [
+0.148,
+0.0847,
+0.852,
+0.9153
+]
+},
+"https://i02.appmifile.com/120_item_my/16/06/2025/5b0bba6475533554c0ec97a6f529be0e.png": {
+"bg": "clear",
+"ar": 0.8496,
+"box": [
+0.1463,
+0.0847,
+0.852,
+0.9153
+]
+},
+"https://i02.appmifile.com/663_item_my/21/11/2025/59016acfabb3bee0662dfc9a3de57c90.png": {
+"bg": "clear",
+"ar": 0.8462,
+"box": [
+0.1463,
+0.083,
+0.852,
+0.917
+]
+},
+"https://i02.appmifile.com/934_item_my/21/11/2025/d5298e073dca25e7185756a1c9b2e1de.png": {
+"bg": "clear",
+"ar": 0.8441,
+"box": [
+0.148,
+0.083,
+0.852,
+0.917
+]
+},
+"https://i02.appmifile.com/741_operatorx_operatorx_xm/21/08/2026/c0c0a437a67ce1c1078cfa2c6b0189d7.png": {
+"bg": "clear",
+"ar": 0.8476,
+"box": [
+0.148,
+0.0847,
+0.852,
+0.9153
+]
+},
+"https://i02.appmifile.com/231_operatorx_operatorx_xm/21/08/2026/9e6f49975a49dcaf893f7cb3543fcbb8.png": {
+"bg": "clear",
+"ar": 0.8496,
+"box": [
+0.148,
+0.0847,
+0.8537,
+0.9153
+]
+},
+"https://i02.appmifile.com/449_item_my/02/04/2024/11eeefd226e5018b72c85a6ac5831ac8.png": {
+"bg": "clear",
+"ar": 0.8462,
+"box": [
+0.148,
+0.083,
+0.8537,
+0.917
+]
+},
+"https://i02.appmifile.com/62_item_my/06/06/2024/69bb257c4121fd6f5dec971c3f625e3f.png": {
+"bg": "clear",
+"ar": 0.8503,
+"box": [
+0.1447,
+0.0813,
+0.8553,
+0.917
+]
+},
+"https://i02.appmifile.com/579_operatorx_operatorx_opx/14/08/2025/1c43fdc5f2489bad507059f3aa9e52b3.png": {
+"bg": "clear",
+"ar": 0.8467,
+"box": [
+0.1497,
+0.0863,
+0.8503,
+0.9137
+]
+},
+"https://i02.appmifile.com/802_item_my/04/01/2026/a220ae802ec0cd9d6b05122559c46ea1.png": {
+"bg": "clear",
+"ar": 0.7372,
+"box": [
+0.193,
+0.0847,
+0.8053,
+0.9153
+]
+},
+"https://i02.appmifile.com/492_operatorx_operatorx_opx/08/01/2026/3c9dc3f6540803726747516b90f093ee.png": {
+"bg": "clear",
+"ar": 0.8441,
+"box": [
+0.148,
+0.083,
+0.852,
+0.917
+]
+},
+"https://i02.appmifile.com/591_operatorx_operatorx_xm/20/04/2026/e2067834c308a9f1bc13041fc8add3aa.png": {
+"bg": "clear",
+"ar": 0.8561,
+"box": [
+0.143,
+0.083,
+0.857,
+0.917
+]
+},
+"https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1675669255.82325730.png": {
+"bg": "clear",
+"ar": 0.8366,
+"box": [
+0.1497,
+0.0813,
+0.8503,
+0.9187
+]
+},
+"https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1675683479.37079731.png": {
+"bg": "clear",
+"ar": 0.8387,
+"box": [
+0.148,
+0.0813,
+0.8503,
+0.9187
+]
+},
+"https://i02.appmifile.com/848_item_my/02/04/2024/6960ae2c166a4f8676fd24686d5d9772.png": {
+"bg": "clear",
+"ar": 0.84,
+"box": [
+0.1497,
+0.083,
+0.8503,
+0.917
+]
+},
+"https://i02.appmifile.com/14_item_my/02/04/2024/621eccb57e736e05723cc34dd543848e.png": {
+"bg": "clear",
+"ar": 0.8441,
+"box": [
+0.148,
+0.083,
+0.852,
+0.917
+]
+},
+"https://i02.appmifile.com/836_item_my/07/01/2025/65eed94ff7f14f10d7aacb0c1f4b5e89.png": {
+"bg": "clear",
+"ar": 0.8462,
+"box": [
+0.1463,
+0.083,
+0.852,
+0.917
+]
+},
+"https://i02.appmifile.com/561_item_my/07/01/2025/34381a803751484591398220e463be8f.png": {
+"bg": "clear",
+"ar": 0.8462,
+"box": [
+0.1463,
+0.083,
+0.852,
+0.917
+]
+},
+"https://i02.appmifile.com/442_item_my/09/03/2026/31f97c01ff4b2282b7d859011b92edd9.png": {
+"bg": "clear",
+"ar": 0.8458,
+"box": [
+0.148,
+0.083,
+0.852,
+0.9153
+]
+},
+"https://i02.appmifile.com/785_item_my/09/03/2026/36a4dbe74c685556aa77f4c4b9f7af0a.png": {
+"bg": "clear",
+"ar": 0.8476,
+"box": [
+0.148,
+0.0847,
+0.852,
+0.9153
+]
+},
+"https://i02.appmifile.com/mi-com-product/fly-birds/poco-x8/pc/bg-screen34.png": {
+"bg": "photo"
+},
+"https://image01.realme.net/general/20230803/16910476000054b5becb1b0f449a5b05d48ec06380a8a.png": {
+"bg": "clear",
+"ar": 2.2142,
+"box": [
+0.1413,
+0.3363,
+0.8587,
+0.6603
+],
+"one": [
+0.478,
+0.403,
+0.6487,
+0.6603
+],
+"oneAr": 0.6634,
+"parts": 6
+},
+"https://image01.realme.net/general/20221229/1672279313016.png": {
+"bg": "clear",
+"ar": 3.549,
+"box": [
+0.0247,
+0.3663,
+0.9737,
+0.6337
+],
+"one": [
+0.0247,
+0.3663,
+0.3487,
+0.6337
+],
+"oneAr": 1.2117,
+"parts": 5
+},
+"https://image01.realme.net/general/20230323/1679535083478.png": {
+"bg": "clear",
+"ar": 3.549,
+"box": [
+0.0247,
+0.3663,
+0.9737,
+0.6337
+],
+"one": [
+0.0247,
+0.3663,
+0.3487,
+0.6337
+],
+"oneAr": 1.2117,
+"parts": 5
+},
+"https://image01.realme.net/general/20231106/16992601688347cd3c586a103418880c9114a7a450686.png": {
+"bg": "clear",
+"ar": 0.7267,
+"box": [
+0.2963,
+0.2197,
+0.7037,
+0.7803
+]
+},
+"https://image01.realme.net/general/20240229/1709197328984fd2592f2a55d48f39be66a2fe68eb9a2.png": {
+"bg": "clear",
+"ar": 3.549,
+"box": [
+0.0247,
+0.3663,
+0.9737,
+0.6337
+],
+"one": [
+0.0247,
+0.3663,
+0.3487,
+0.6337
+],
+"oneAr": 1.2117,
+"parts": 5
+},
+"https://image01.realme.net/general/20240229/1709196793031f13c626f4def47c1bb2ad555053c2e9b.png": {
+"bg": "clear",
+"ar": 3.549,
+"box": [
+0.0247,
+0.3663,
+0.9737,
+0.6337
+],
+"one": [
+0.0247,
+0.3663,
+0.3487,
+0.6337
+],
+"oneAr": 1.2117,
+"parts": 5
+},
+"https://static2.realme.net/images/realme-12-5g/specs/purple-pc.png": {
+"bg": "light",
+"ar": 0.8312,
+"box": [
+0.2513,
+0.1319,
+0.4287,
+0.8149
+]
+},
+"https://image01.realme.net/general/20240527/1716775161972348e9dc3e07043998cf99272e878cde7.png": {
+"bg": "light",
+"ar": 1.0866
+},
+"https://image01.realme.net/general/20241121/17321804824903d1b3e1f620a420d9f4ba287e3fe275e.png": {
+"bg": "light",
+"ar": 1.0866
+},
+"https://image01.realme.net/general/20240920/1726815128052c609e6fe5e6742e1a223e8feeb26f240.png": {
+"bg": "light",
+"ar": 1.0866
+},
+"https://image01.realme.net/general/20241017/1729150380807e715a4bfd70643f99f5121ef9bc5f6c6.png": {
+"bg": "light",
+"ar": 1.0866
+},
+"https://image01.realme.net/general/20250116/17370108957452e28e6b3de1b4d7a9ac627d4e057ab59.png": {
+"bg": "clear",
+"ar": 1.0
+},
+"https://image01.realme.net/general/20250415/1744710970853393b8a2572284a1ebde30a59fb57481d.png": {
+"bg": "clear",
+"ar": 3.0002,
+"box": [
+0.0163,
+0.1266,
+0.987,
+0.7018
+],
+"one": [
+0.0163,
+0.1266,
+0.2953,
+0.6751
+],
+"oneAr": 0.9043,
+"parts": 7
+},
+"https://image01.realme.net/general/20250516/1747383594890740458b0d59a4a88bd4e64d6075aa724.png": {
+"bg": "clear",
+"ar": 3.0002,
+"box": [
+0.0163,
+0.1266,
+0.987,
+0.7018
+],
+"one": [
+0.0163,
+0.1266,
+0.2953,
+0.6751
+],
+"oneAr": 0.9043,
+"parts": 7
+},
+"https://image01.realme.net/general/20250124/173768242664949588af6eb7f40d695b5f6f2b3dbe402.png": {
+"bg": "light",
+"ar": 0.8505,
+"box": [
+0.253,
+0.1372,
+0.4303,
+0.8043
+]
+},
+"https://image01.realme.net/general/20250918/1758191180109f96d989db4684e0bbaefb7d8ab344b35.png": {
+"bg": "clear",
+"ar": 3.0002,
+"box": [
+0.0163,
+0.1266,
+0.987,
+0.7018
+],
+"one": [
+0.0163,
+0.1266,
+0.2953,
+0.6751
+],
+"oneAr": 0.9043,
+"parts": 7
+},
+"https://image01.realme.net/general/20250918/17581911224016bb2626c40fb4fa9a82226b085a36804.png": {
+"bg": "clear",
+"ar": 3.0002,
+"box": [
+0.0163,
+0.1266,
+0.987,
+0.7018
+],
+"one": [
+0.0163,
+0.1266,
+0.2953,
+0.6751
+],
+"oneAr": 0.9043,
+"parts": 7
+},
+"https://image01.realme.net/general/20251022/176110342801224302582b67e42df95bf9fa7cba8517e.png": {
+"bg": "clear",
+"ar": 3.0002,
+"box": [
+0.0163,
+0.1266,
+0.987,
+0.7018
+],
+"one": [
+0.0163,
+0.1266,
+0.2953,
+0.6751
+],
+"oneAr": 0.9043,
+"parts": 7
+},
+"https://image01.realme.net/general/20260417/1776418567860d2d49a58e0d5405a95aa40a0ee037e05.png": {
+"bg": "clear",
+"ar": 4.9517,
+"box": [
+0.0113,
+0.3189,
+0.987,
+0.6692
+],
+"one": [
+0.2763,
+0.387,
+0.6303,
+0.613
+],
+"oneAr": 2.7847,
+"parts": 7
+},
+"https://image01.realme.net/general/20260417/1776418655567fba2d9b8373a401991a5535f1b171ad2.png": {
+"bg": "clear",
+"ar": 4.9517,
+"box": [
+0.0113,
+0.3189,
+0.987,
+0.6692
+],
+"one": [
+0.2763,
+0.387,
+0.6303,
+0.613
+],
+"oneAr": 2.7847,
+"parts": 7
+},
+"https://image01.realme.net/general/20260609/1780988068534a124d9df3f16416390aed2858793db49.png": {
+"bg": "clear",
+"ar": 3.0002,
+"box": [
+0.0163,
+0.1266,
+0.987,
+0.7018
+],
+"one": [
+0.0163,
+0.1266,
+0.2953,
+0.6751
+],
+"oneAr": 0.9043,
+"parts": 7
+},
+"https://image01.realme.net/general/20260609/1780988002264a8f3a3922e514fcc8697460ba3aaf81d.png": {
+"bg": "clear",
+"ar": 3.0002,
+"box": [
+0.0163,
+0.1266,
+0.987,
+0.7018
+],
+"one": [
+0.0163,
+0.1266,
+0.2953,
+0.6751
+],
+"oneAr": 0.9043,
+"parts": 7
+},
+"https://image01.realme.net/general/20260623/17821826128449922ee5258df4af2bb4b9b7b2ac7279c.png": {
+"bg": "clear",
+"ar": 4.9517,
+"box": [
+0.0113,
+0.3189,
+0.987,
+0.6692
+],
+"one": [
+0.2763,
+0.387,
+0.6303,
+0.613
+],
+"oneAr": 2.7847,
+"parts": 7
+},
+"https://image01.realme.net/general/20260528/1779960783796fd56cad9076243f5abf3318cb9279855.png": {
+"bg": "clear",
+"ar": 4.9517,
+"box": [
+0.0113,
+0.3189,
+0.987,
+0.6692
+],
+"one": [
+0.2763,
+0.387,
+0.6303,
+0.613
+],
+"oneAr": 2.7847,
+"parts": 7
+},
+"https://image01.realme.net/general/20260904/1788491412328fc08a26f5db24233b30c4964e9ae1e79.png": {
+"bg": "clear",
+"ar": 3.0002,
+"box": [
+0.0163,
+0.1266,
+0.987,
+0.7018
+],
+"one": [
+0.0163,
+0.1266,
+0.2953,
+0.6751
+],
+"oneAr": 0.9043,
+"parts": 7
+},
+"https://static.realme.net/v2/realme-c53/images/specs/g-b47b9c0e71.jpg": {
+"bg": "light",
+"ar": 0.8505,
+"box": [
+0.253,
+0.1372,
+0.4303,
+0.8043
+]
+},
+"https://image01.realme.net/general/20230323/1679535093614.png": {
+"bg": "clear",
+"ar": 2.8092,
+"box": [
+0.0263,
+0.3313,
+0.9737,
+0.6687
+],
+"one": [
+0.0263,
+0.3313,
+0.327,
+0.667
+],
+"oneAr": 0.8962,
+"parts": 7
+},
+"https://image01.realme.net/general/20240802/1722578542202c2aeae1a82c94ed0b44a022e4209b59b.png": {
+"bg": "light",
+"ar": 1.0866
+},
+"https://image01.realme.net/general/20240704/1720085551575c60a55125398403daea1d5606a452c6e.png": {
+"bg": "clear",
+"ar": 3.549,
+"box": [
+0.0247,
+0.3663,
+0.9737,
+0.6337
+],
+"one": [
+0.0247,
+0.3663,
+0.3487,
+0.6337
+],
+"oneAr": 1.2117,
+"parts": 5
+},
+"https://image01.realme.net/general/20240704/172008561775069b48eb20a404fb295c0ac2664a5e572.png": {
+"bg": "clear",
+"ar": 3.549,
+"box": [
+0.0247,
+0.3663,
+0.9737,
+0.6337
+],
+"one": [
+0.0247,
+0.3663,
+0.3487,
+0.6337
+],
+"oneAr": 1.2117,
+"parts": 5
+},
+"https://static2.realme.net/images/realme-c67/icon/1.jpg": {
+"bg": "light",
+"ar": 2.7792,
+"box": [
+0.2747,
+0.0,
+0.7253,
+1.0
+]
+},
+"https://image01.realme.net/general/20250604/1749007130171fa5c4ae5ae264ff6aba8a69435038e70.jpg": {
+"bg": "light",
+"ar": 0.8438,
+"box": [
+0.253,
+0.1372,
+0.4303,
+0.8096
+]
+},
+"https://image01.realme.net/general/20241217/1734406386512ee36a0232c5241e2bdfb2c29e13f4627.png": {
+"bg": "light",
+"ar": 1.0866
+},
+"https://image01.realme.net/general/20250307/174134374214552601747043040d6bb4699391ff519c3.png": {
+"bg": "light",
+"ar": 1.0866
+},
+"https://image01.realme.net/general/20251222/1766400049352477b6dacecef433689b9b8df8a867cdf.png": {
+"bg": "clear",
+"ar": 3.0002,
+"box": [
+0.0163,
+0.1266,
+0.987,
+0.7018
+],
+"one": [
+0.0163,
+0.1266,
+0.2953,
+0.6751
+],
+"oneAr": 0.9043,
+"parts": 7
+},
+"https://image01.realme.net/general/20251208/17651620416564d84af546c174faeb8505288ef139ef2.jpg": {
+"bg": "light",
+"ar": 0.8438,
+"box": [
+0.253,
+0.1372,
+0.4303,
+0.8096
+]
+},
+"https://image01.realme.net/general/20240619/17187834240246326134fbff0417893693a2caf3f602b.png": {
+"bg": "clear",
+"ar": 3.549,
+"box": [
+0.0247,
+0.3663,
+0.9737,
+0.6337
+],
+"one": [
+0.0247,
+0.3663,
+0.3487,
+0.6337
+],
+"oneAr": 1.2117,
+"parts": 5
+},
+"https://image01.realme.net/general/20240620/17188760566371d4ab172d37f4896a2b4100238b31589.png": {
+"bg": "clear",
+"ar": 3.549,
+"box": [
+0.0247,
+0.3663,
+0.9737,
+0.6337
+],
+"one": [
+0.0247,
+0.3663,
+0.3487,
+0.6337
+],
+"oneAr": 1.2117,
+"parts": 5
+},
+"https://image01.realme.net/general/20241115/17316434781716c3fb312f8624b46809ba347c4fd3796.png": {
+"bg": "light",
+"ar": 1.0866
+},
+"https://image01.realme.net/general/20250618/17502290094084fa8d8eac91a466c9118ac645739d0d7.png": {
+"bg": "clear",
+"ar": 3.5358,
+"box": [
+0.0163,
+0.2834,
+0.9837,
+0.7698
+],
+"one": [
+0.0163,
+0.2834,
+0.347,
+0.7698
+],
+"oneAr": 1.2087,
+"parts": 5
+},
+"https://static2.realme.net/images/realme-gt-8-pro-in/pc-01-kv.jpg": {
+"bg": "photo"
+},
+"https://image01.realme.net/general/20240407/17124532926275fd610558988472d8e6299460adc4a74.jpg": {
+"bg": "light",
+"ar": 1.509,
+"box": [
+0.038,
+0.3463,
+0.947,
+0.9487
+],
+"one": [
+0.038,
+0.3463,
+0.3387,
+0.9387
+],
+"oneAr": 0.5076,
+"parts": 6
+},
+"https://image01.realme.net/general/20241128/1732765780348b1cc1fd90c0f4ea1bf581a0bafea9399.png": {
+"bg": "light",
+"ar": 1.0866
+},
+"https://image01.realme.net/general/20250107/1736218086234e5df236bc9a8469db5aa1a4c9ab59344.png": {
+"bg": "light",
+"ar": 1.0866
+},
+"https://image01.realme.net/general/20250821/17557718298775db808af7f9e4016a9cbd5614b5d7934.png": {
+"bg": "clear",
+"ar": 3.0002,
+"box": [
+0.0163,
+0.1266,
+0.987,
+0.7018
+],
+"one": [
+0.0163,
+0.1266,
+0.2953,
+0.6751
+],
+"oneAr": 0.9043,
+"parts": 7
+},
+"https://image01.realme.net/general/20260417/1776418897665c9958bfdd32841b89d4d1efcce93864c.png": {
+"bg": "clear",
+"ar": 4.9517,
+"box": [
+0.0113,
+0.3189,
+0.987,
+0.6692
+],
+"one": [
+0.2763,
+0.387,
+0.6303,
+0.613
+],
+"oneAr": 2.7847,
+"parts": 7
+},
+"https://image01.realme.net/general/20250618/17502289067783a28776c07ce45a0b40993d3f8f56ea0.png": {
+"bg": "clear",
+"ar": 3.5358,
+"box": [
+0.0163,
+0.2834,
+0.9837,
+0.7698
+],
+"one": [
+0.0163,
+0.2834,
+0.347,
+0.7698
+],
+"oneAr": 1.2087,
+"parts": 5
+},
+"https://image01.realme.net/general/20260608/17809072744176b2b8791c6e345c19b31f554fd205ecf.png": {
+"bg": "clear",
+"ar": 3.0002,
+"box": [
+0.0163,
+0.1266,
+0.987,
+0.7018
+],
+"one": [
+0.0163,
+0.1266,
+0.2953,
+0.6751
+],
+"oneAr": 0.9043,
+"parts": 7
+},
+"https://image01.realme.net/general/20260608/1780907801542bbf607c520f741638abfb55f40a75f83.png": {
+"bg": "clear",
+"ar": 3.0002,
+"box": [
+0.0163,
+0.1266,
+0.987,
+0.7018
+],
+"one": [
+0.0163,
+0.1266,
+0.2953,
+0.6751
+],
+"oneAr": 0.9043,
+"parts": 7
+},
+"https://image01.realme.net/general/20260608/178090740215636fd511368554b58877d6d8f5e5c9597.png": {
+"bg": "clear",
+"ar": 3.0002,
+"box": [
+0.0163,
+0.1266,
+0.987,
+0.7018
+],
+"one": [
+0.0163,
+0.1266,
+0.2953,
+0.6751
+],
+"oneAr": 0.9043,
+"parts": 7
+},
+"https://global.redmagic.gg/cdn/shop/files/3colors.png?v=1776831489": {
+"bg": "clear",
+"ar": 0.7951,
+"box": [
+0.1663,
+0.088,
+0.8387,
+0.9337
+]
+},
+"https://i02.appmifile.com/274_operatorx_operatorx_opx/01/09/2023/935bb43c65b07d96c13ed1a03e95ad2a.png": {
+"bg": "clear",
+"ar": 0.8467,
+"box": [
+0.1447,
+0.0813,
+0.8537,
+0.9187
+]
+},
+"https://i02.appmifile.com/865_item_my/03/04/2024/62f800413ee45f04f42f33933a29ce4a.png": {
+"bg": "clear",
+"ar": 0.8448,
+"box": [
+0.1463,
+0.0813,
+0.8537,
+0.9187
+]
+},
+"https://i02.appmifile.com/350_operatorx_operatorx_opx/21/09/2023/d9e2c589a76bd5db5f826557505dce64.png": {
+"bg": "clear",
+"ar": 0.8427,
+"box": [
+0.1463,
+0.0813,
+0.852,
+0.9187
+]
+},
+"https://i02.appmifile.com/939_item_my/06/06/2024/742c0bea2e407385b2bf34a262b9885f.png": {
+"bg": "clear",
+"ar": 0.8441,
+"box": [
+0.148,
+0.083,
+0.852,
+0.917
+]
+},
+"https://i02.appmifile.com/244_item_my/13/06/2024/b0bc3b2eddb362dcfe9189aec4b551be.png": {
+"bg": "clear",
+"ar": 0.852,
+"box": [
+0.1447,
+0.083,
+0.8553,
+0.917
+]
+},
+"https://i02.appmifile.com/111_item_my/02/04/2024/e4f392c67352e702c992776ddb899682.png": {
+"bg": "clear",
+"ar": 0.8482,
+"box": [
+0.1463,
+0.083,
+0.8537,
+0.917
+]
+},
+"https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Redmi_14C_back.jpg/500px-Redmi_14C_back.jpg": {
+"bg": "photo"
+},
+"https://i02.appmifile.com/347_item_my/05/08/2025/41eeaf247482e72c8c773aaa9f5e13a2.png": {
+"bg": "clear",
+"ar": 0.8205,
+"box": [
+0.1613,
+0.0813,
+0.847,
+0.917
+]
+},
+"https://i02.appmifile.com/95_operatorx_operatorx_opx/29/08/2025/342ec816ede0b04b02c2f6b0ed8b269b.png": {
+"bg": "clear",
+"ar": 0.84,
+"box": [
+0.1497,
+0.083,
+0.8503,
+0.917
+]
+},
+"https://i02.appmifile.com/199_operatorx_operatorx_xm/28/07/2026/8591e9e60499ddba403197dba0e09761.png": {
+"bg": "clear",
+"ar": 0.8345,
+"box": [
+0.1813,
+0.118,
+0.8203,
+0.8837
+]
+},
+"https://i02.appmifile.com/228_operatorx_operatorx_xm/28/07/2026/586d3c3533c76c05b95ec77e7cf8876b.png": {
+"bg": "clear",
+"ar": 0.8157,
+"box": [
+0.1797,
+0.1063,
+0.822,
+0.8937
+]
+},
+"https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1679650002.01092930.png": {
+"bg": "clear",
+"ar": 0.8441,
+"box": [
+0.148,
+0.083,
+0.852,
+0.917
+]
+},
+"https://i02.appmifile.com/954_item_my/02/04/2024/4d66f51dccce5274525ba5c129c90ca8.png": {
+"bg": "clear",
+"ar": 0.8441,
+"box": [
+0.148,
+0.083,
+0.852,
+0.917
+]
+},
+"https://i02.appmifile.com/444_item_my/15/04/2025/4bb52c9f070e9f08a8f22be7b020e138.png": {
+"bg": "clear",
+"ar": 0.6242,
+"box": [
+0.2397,
+0.083,
+0.7603,
+0.917
+]
+},
+"https://i02.appmifile.com/226_item_my/03/04/2026/67173f95e40855713e5d75dfebd2869b.png": {
+"bg": "clear",
+"ar": 0.8458,
+"box": [
+0.148,
+0.083,
+0.852,
+0.9153
+]
+},
+"https://i02.appmifile.com/249_item_my/27/07/2026/2f5692f45136eeeab35c278e12240284.png": {
+"bg": "clear",
+"ar": 0.8362,
+"box": [
+0.1513,
+0.083,
+0.8487,
+0.917
+]
+},
+"https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1679574085.06263133.png": {
+"bg": "clear",
+"ar": 0.8448,
+"box": [
+0.1463,
+0.0813,
+0.8537,
+0.9187
+]
+},
+"https://i02.appmifile.com/859_operatorx_operatorx_opx/06/08/2024/318bdfdf898def1dd06f83a039ce4470.png": {
+"bg": "clear",
+"ar": 0.8506,
+"box": [
+0.1447,
+0.0813,
+0.857,
+0.9187
+]
+},
+"https://i02.appmifile.com/258_operatorx_operatorx_opx/13/07/2023/5730a597d85eca8a71baf04a2ddf87de.png": {
+"bg": "clear",
+"ar": 0.8544,
+"box": [
+0.143,
+0.0813,
+0.857,
+0.917
+]
+},
+"https://i02.appmifile.com/831_operator_sg/20/03/2023/db61551d17f18cfdfa462da0ba09029c.png": {
+"bg": "clear",
+"ar": 0.9465,
+"box": [
+0.2397,
+0.0,
+0.7603,
+1.0
+]
+},
+"https://i02.appmifile.com/236_operator_sg/06/06/2023/225094d28d4a8035144ab36d8cebd99c.png": {
+"bg": "clear",
+"ar": 1.2498,
+"box": [
+0.1563,
+0.0,
+0.8437,
+1.0
+]
+},
+"https://i02.appmifile.com/373_operatorx_operatorx_opx/10/05/2023/657e399a69e188fb194c3804f33fb67d.png": {
+"bg": "clear",
+"ar": 0.8448,
+"box": [
+0.1463,
+0.0813,
+0.8537,
+0.9187
+]
+},
+"https://i02.appmifile.com/350_item_my/02/04/2024/7ddfaee569569b651836f3cdf4321d21.png": {
+"bg": "clear",
+"ar": 0.8441,
+"box": [
+0.148,
+0.083,
+0.852,
+0.917
+]
+},
+"https://i02.appmifile.com/509_item_my/24/06/2024/0dd042a6fff5cc09ee15de0ebc0fb5d7.jpg": {
+"bg": "light",
+"ar": 0.8482,
+"box": [
+0.1463,
+0.083,
+0.8537,
+0.917
+]
+},
+"https://i02.appmifile.com/534_item_my/02/04/2024/2aec06b62dcaea1026b0ea8ad4305319.png": {
+"bg": "clear",
+"ar": 0.8482,
+"box": [
+0.1463,
+0.083,
+0.8537,
+0.917
+]
+},
+"https://i02.appmifile.com/13_operatorx_operatorx_opx/11/01/2024/25da829b5997ff8aea28af388df3b8df.png": {
+"bg": "clear",
+"ar": 0.8441,
+"box": [
+0.148,
+0.083,
+0.852,
+0.917
+]
+},
+"https://i02.appmifile.com/696_item_my/02/04/2024/9b4bdd6ff845d55644d83034f898e796.png": {
+"bg": "clear",
+"ar": 0.8441,
+"box": [
+0.148,
+0.083,
+0.852,
+0.917
+]
+},
+"https://i02.appmifile.com/384_item_my/06/01/2025/b190b32e2999e88c53f065e04d421cb0.png": {
+"bg": "clear",
+"ar": 0.8462,
+"box": [
+0.1463,
+0.083,
+0.852,
+0.917
+]
+},
+"https://i02.appmifile.com/969_item_my/20/06/2025/f72e2f40589cbb0d34ddd8fde354009c.png": {
+"bg": "clear",
+"ar": 0.8418,
+"box": [
+0.1497,
+0.0847,
+0.8503,
+0.917
+]
+},
+"https://i02.appmifile.com/485_item_my/06/01/2025/c33cff8fc2c32855260f3f714faab3cd.png": {
+"bg": "clear",
+"ar": 0.8482,
+"box": [
+0.1463,
+0.083,
+0.8537,
+0.917
+]
+},
+"https://i02.appmifile.com/145_operatorx_operatorx_opx/10/01/2025/b381ab467340baace69840496f8cdfd3.png": {
+"bg": "clear",
+"ar": 0.8462,
+"box": [
+0.1463,
+0.083,
+0.852,
+0.917
+]
+},
+"https://i02.appmifile.com/403_item_my/06/01/2025/a07abd347b98641093385974abd208cb.png": {
+"bg": "clear",
+"ar": 0.8462,
+"box": [
+0.1463,
+0.083,
+0.852,
+0.917
+]
+},
+"https://i02.appmifile.com/664_item_my/04/01/2026/6d413a846e46105b9634038c91f7fce8.png": {
+"bg": "clear",
+"ar": 0.8482,
+"box": [
+0.1463,
+0.083,
+0.8537,
+0.917
+]
+},
+"https://i02.appmifile.com/38_item_my/04/01/2026/664ad3c1de94bd48c941d62610dcc0d0.png": {
+"bg": "clear",
+"ar": 0.8441,
+"box": [
+0.148,
+0.083,
+0.852,
+0.917
+]
+},
+"https://i02.appmifile.com/261_item_my/04/01/2026/cea1b9edc4ac89f6b66568816b8f2664.png": {
+"bg": "clear",
+"ar": 0.8441,
+"box": [
+0.148,
+0.083,
+0.852,
+0.917
+]
+},
+"https://i02.appmifile.com/139_operatorx_operatorx_opx/08/01/2026/a277a33b5b40a10292c428d138853406.png": {
+"bg": "clear",
+"ar": 0.8482,
+"box": [
+0.1463,
+0.083,
+0.8537,
+0.917
+]
+},
+"https://i02.appmifile.com/800_operatorx_operatorx_opx/08/01/2026/b79aa1573cae4278dd0c344f406337ce.png": {
+"bg": "clear",
+"ar": 0.8482,
+"box": [
+0.1463,
+0.083,
+0.8537,
+0.917
+]
+},
+"https://i02.appmifile.com/908_operatorx_operatorx_xm/21/08/2026/e1c03c0804173504ce4751e78dd64f77.png": {
+"bg": "clear",
+"ar": 0.8345,
+"box": [
+0.1797,
+0.118,
+0.8187,
+0.8837
+]
+},
+"https://i02.appmifile.com/839_item_my/26/08/2026/ffa0a5722c3d9c23d45d1fda1a483367.png": {
+"bg": "clear",
+"ar": 0.8407,
+"box": [
+0.1797,
+0.1197,
+0.822,
+0.8837
+]
+},
+"https://i02.appmifile.com/199_item_my/26/08/2026/c8e5feb714916dc3e71dca7f69cfb6d3.png": {
+"bg": "clear",
+"ar": 0.8407,
+"box": [
+0.1797,
+0.118,
+0.822,
+0.882
+]
+},
+"https://images.samsung.com/is/image/samsung/p6pim/my/sm-a055flghxme/gallery/my-galaxy-a05-sm-a055-sm-a055flghxme-538308744?$624_624_PNG$": {
+"bg": "clear",
+"ar": 0.7904,
+"box": [
+0.2613,
+0.198,
+0.7387,
+0.802
+]
+},
+"https://images.samsung.com/is/image/samsung/p6pim/my/sm-a057flggxme/gallery/my-galaxy-a05s-sm-a057-481569-sm-a057flggxme-541040582?$624_624_PNG$": {
+"bg": "clear",
+"ar": 0.792,
+"box": [
+0.2613,
+0.1997,
+0.737,
+0.8003
+]
+},
+"https://images.samsung.com/is/image/samsung/p6pim/my/sm-a066blghxme/gallery/my-galaxy-a06-5g-sm-a066-sm-a066blghxme-545196475?$624_624_PNG$": {
+"bg": "clear",
+"ar": 0.7622,
+"box": [
+0.2647,
+0.1913,
+0.7353,
+0.8087
+]
+},
+"https://images.samsung.com/is/image/samsung/p6pim/my/sm-a065flbgxme/gallery/my-galaxy-a06-sm-a065-sm-a065flbgxme-543102992?$624_624_PNG$": {
+"bg": "clear",
+"ar": 0.7731,
+"box": [
+0.2563,
+0.188,
+0.7387,
+0.812
+]
+},
+"https://images.samsung.com/is/image/samsung/p6pim/my/feature/166830379/my-feature-sleek-and-stylish-design-550536770?$624_624_PNG$": {
+"bg": "clear",
+"ar": 1.448,
+"box": [
+0.0,
+0.1547,
+1.0,
+0.8453
+]
+},
+"https://images.samsung.com/is/image/samsung/p6pim/my/sm-a075fzkhxme/gallery/my-galaxy-a07-sm-a075-sm-a075fzkhxme-thumb-548550115?$650_519_PNG$": {
+"bg": "clear",
+"ar": 0.8185,
+"box": [
+0.3013,
+0.1937,
+0.7003,
+0.8042
+]
+},
+"https://images.samsung.com/is/image/samsung/p6pim/my/sm-a085fdbhxme/gallery/my-galaxy-a08-sm-a085-sm-a085fdbhxme-thumb-554545284?$650_519_PNG$": {
+"bg": "clear",
+"ar": 0.8185,
+"box": [
+0.3013,
+0.1937,
+0.7003,
+0.8042
+]
+},
+"https://images.samsung.com/is/image/samsung/p6pim/my/sm-a146pdrhxme/gallery/my-galaxy-a14-5g-sm-a146-sm-a146pdrhxme-534897153?$624_624_PNG$": {
+"bg": "clear",
+"ar": 0.788,
+"box": [
+0.243,
+0.1747,
+0.757,
+0.827
+]
+},
+"https://images.samsung.com/is/image/samsung/p6pim/my/sm-a145fdrwxme/gallery/my-galaxy-a14-sm-a145-sm-a145fdrwxme-535412687?$624_624_PNG$": {
+"bg": "clear",
+"ar": 0.7874,
+"box": [
+0.2447,
+0.1747,
+0.757,
+0.8253
+]
+},
+"https://images.samsung.com/is/image/samsung/p6pim/my/sm-a156elbixme/gallery/my-galaxy-a15-5g-sm-a156-sm-a156elbixme-539357579?$624_624_PNG$": {
+"bg": "clear",
+"ar": 0.8199,
+"box": [
+0.2647,
+0.213,
+0.7353,
+0.787
+]
+},
+"https://images.samsung.com/is/image/samsung/p6pim/my/sm-a155flbdxme/gallery/my-galaxy-a15-sm-a155-489640-sm-a155flbdxme-541040742?$624_624_PNG$": {
+"bg": "clear",
+"ar": 0.8199,
+"box": [
+0.2647,
+0.213,
+0.7353,
+0.787
+]
+},
+"https://images.samsung.com/is/image/samsung/p6pim/my/sm-a166plgixme/gallery/my-galaxy-a16-5g-sm-a166-sm-a166plgixme-544050850?$624_624_PNG$": {
+"bg": "clear",
+"ar": 0.7883,
+"box": [
+0.258,
+0.193,
+0.742,
+0.807
+]
+},
+"https://images.samsung.com/is/image/samsung/p6pim/my/sm-a165fzadxme/gallery/my-galaxy-a16-sm-a165-sm-a165fzadxme-544451181?$624_624_PNG$": {
+"bg": "clear",
+"ar": 0.7883,
+"box": [
+0.258,
+0.193,
+0.742,
+0.807
+]
+},
+"https://images.samsung.com/is/image/samsung/p6pim/my/sm-a176bzkjxme/gallery/my-galaxy-a17-5g-sm-a176-560964-sm-a176bzkjxme-thumb-549078492?$650_519_PNG$": {
+"bg": "clear",
+"ar": 0.8358,
+"box": [
+0.3013,
+0.2,
+0.7003,
+0.7979
+]
+},
+"https://images.samsung.com/is/image/samsung/p6pim/my/sm-a175fzkoxme/gallery/my-galaxy-a17-sm-a175-sm-a175fzkoxme-thumb-549133568?$650_519_PNG$": {
+"bg": "clear",
+"ar": 0.8358,
+"box": [
+0.3013,
+0.2,
+0.7003,
+0.7979
+]
+},
+"https://images.samsung.com/is/image/samsung/p6pim/my/sm-a245fdrwxme/gallery/my-galaxy-a24-sm-a245-sm-a245fdrwxme-536495544?$624_624_PNG$": {
+"bg": "clear",
+"ar": 0.7819,
+"box": [
+0.243,
+0.1713,
+0.757,
+0.8287
+]
+},
+"https://images.samsung.com/is/image/samsung/p6pim/my/sm-a256ezbdxme/gallery/my-galaxy-a25-5g-sm-a256-489647-sm-a256ezbdxme-541041125?$624_624_PNG$": {
+"bg": "clear",
+"ar": 0.815,
+"box": [
+0.2647,
+0.2113,
+0.7353,
+0.7887
+]
+},
+"https://images.samsung.com/is/image/samsung/p6pim/my/sm-a266blgdxme/gallery/my-galaxy-a26-5g-sm-a266-540342-sm-a266blgdxme-545656597?$624_624_PNG$": {
+"bg": "clear",
+"ar": 0.7748,
+"box": [
+0.2647,
+0.1963,
+0.7353,
+0.8037
+]
+},
+"https://images.samsung.com/is/image/samsung/p6pim/my/sm-a276bzkgxme/gallery/my-galaxy-a27-5g-sm-a276-sm-a276bzkgxme-thumb-553560827?$650_519_PNG$": {
+"bg": "clear",
+"ar": 0.8547,
+"box": [
+0.2997,
+0.2042,
+0.702,
+0.7937
+]
+},
+"https://images.samsung.com/is/image/samsung/p6pim/my/sm-a346elgexme/gallery/my-galaxy-a34-5g-sm-a346-453789-sm-a346elgexme-535755104?$624_624_PNG$": {
+"bg": "clear",
+"ar": 0.79,
+"box": [
+0.243,
+0.1747,
+0.757,
+0.8253
+]
+},
+"https://images.samsung.com/is/image/samsung/p6pim/my/sm-a356elbbxme/gallery/my-galaxy-a35-5g-sm-a356-499012-sm-a356elbbxme-541099109?$624_624_PNG$": {
+"bg": "clear",
+"ar": 0.7939,
+"box": [
+0.243,
+0.1763,
+0.757,
+0.8237
+]
+},
+"https://images.samsung.com/is/image/samsung/p6pim/my/sm-a366blgqxme/gallery/my-galaxy-a36-5g-sm-a366-538989-sm-a366blgqxme-545254098?$624_624_PNG$": {
+"bg": "clear",
+"ar": 0.7892,
+"box": [
+0.2647,
+0.1997,
+0.7387,
+0.8003
+]
+},
+"https://images.samsung.com/is/image/samsung/p6pim/my/sm-a376bzatxme/gallery/my-galaxy-a37-5g-sm-a376-sm-a376bzatxme-thumb-551560066?$650_519_PNG$": {
+"bg": "clear",
+"ar": 0.8417,
+"box": [
+0.3013,
+0.2021,
+0.7003,
+0.7958
+]
+},
+"https://images.samsung.com/is/image/samsung/p6pim/my/sm-a546elgdxme/gallery/my-galaxy-a54-5g-sm-a546-sm-a546elgdxme-535814161?$624_624_PNG$": {
+"bg": "clear",
+"ar": 0.79,
+"box": [
+0.243,
+0.1747,
+0.757,
+0.8253
+]
+},
+"https://images.samsung.com/is/image/samsung/p6pim/my/sm-a556elbaxme/gallery/my-galaxy-a55-5g-sm-a556-499013-sm-a556elbaxme-541099724?$624_624_PNG$": {
+"bg": "clear",
+"ar": 0.7929,
+"box": [
+0.2447,
+0.178,
+0.7553,
+0.822
+]
+},
+"https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/SmsnGlxA565gBack2026040500.jpg/500px-SmsnGlxA565gBack2026040500.jpg": {
+"bg": "photo"
+},
+"https://images.samsung.com/is/image/samsung/p6pim/my/sm-a576bzasxme/gallery/my-galaxy-a57-5g-sm-a576-584204-sm-a576bzasxme-thumb-554645476?$650_519_PNG$": {
+"bg": "clear",
+"ar": 0.8431,
+"box": [
+0.3047,
+0.2063,
+0.6987,
+0.7916
+]
+},
+"https://images.samsung.com/is/image/samsung/p6pim/my/sm-m146bdbwxme/gallery/my-galaxy-m14-5g-sm-m146-sm-m146bdbwxme-536859314?$624_624_PNG$": {
+"bg": "clear",
+"ar": 0.7787,
+"box": [
+0.2447,
+0.173,
+0.7553,
+0.8287
+]
+},
+"https://images.samsung.com/is/image/samsung/p6pim/my/sm-m346bdbgxme/gallery/my-galaxy-m34-5g-sm-m346-sm-m346bdbgxme-538340438?$624_624_PNG$": {
+"bg": "clear",
+"ar": 0.7908,
+"box": [
+0.2513,
+0.1863,
+0.7487,
+0.8153
+]
+},
+"https://images.samsung.com/is/image/samsung/p6pim/my/sm-s711blgbxme/gallery/my-galaxy-s23-fe-s711-sm-s711blgbxme-538463405?$624_624_PNG$": {
+"bg": "clear",
+"ar": 0.7907,
+"box": [
+0.248,
+0.1813,
+0.752,
+0.8187
+]
+},
+"https://images.samsung.com/is/image/samsung/p6pim/my/2302/gallery/my-galaxy-s23-s916-446791-sm-s916blgbxme-534864233?$624_624_PNG$": {
+"bg": "clear",
+"ar": 0.8373,
+"box": [
+0.2563,
+0.208,
+0.7453,
+0.792
+]
+},
+"https://images.samsung.com/is/image/samsung/p6pim/my/2302/gallery/my-galaxy-s23-s918-446815-sm-s918blbcxme-534868968?$624_624_PNG$": {
+"bg": "clear",
+"ar": 0.9834,
+"box": [
+0.2013,
+0.198,
+0.7953,
+0.802
+]
+},
+"https://images.samsung.com/is/image/samsung/p6pim/my/2302/gallery/my-galaxy-s23-s911-446765-sm-s911blgbxme-534860995?$624_624_PNG$": {
+"bg": "clear",
+"ar": 0.8346,
+"box": [
+0.273,
+0.228,
+0.727,
+0.772
+]
+},
+"https://images.samsung.com/is/image/samsung/p6pim/my/sm-s721blbbxme/gallery/my-galaxy-s24-fe-s721-522720-sm-s721blbbxme-548179536?$624_624_PNG$": {
+"bg": "clear",
+"ar": 0.8198,
+"box": [
+0.2497,
+0.1947,
+0.7503,
+0.8053
+]
+},
+"https://images.samsung.com/is/image/samsung/p6pim/my/2401/gallery/my-galaxy-s24-plus-489218-sm-s926blbbxme-539320069?$624_624_PNG$": {
+"bg": "clear",
+"ar": 0.8269,
+"box": [
+0.253,
+0.2013,
+0.747,
+0.7987
+]
+},
+"https://images.samsung.com/is/image/samsung/p6pim/my/2401/gallery/my-galaxy-s24-s928-490274-sm-s928blbcxme-539390388?$624_624_PNG$": {
+"bg": "clear",
+"ar": 0.9946,
+"box": [
+0.1697,
+0.1947,
+0.7787,
+0.807
+]
+},
+"https://images.samsung.com/is/image/samsung/p6pim/my/2401/gallery/my-galaxy-s24-490083-sm-s921blbcxme-539375645?$624_624_PNG$": {
+"bg": "clear",
+"ar": 0.8324,
+"box": [
+0.268,
+0.2213,
+0.732,
+0.7787
+]
+},
+"https://images.samsung.com/is/image/samsung/p6pim/my/sm-s731blbbxme/gallery/my-galaxy-s25-fe-sm-s731-562896-sm-s731blbbxme-thumb-549199039?$650_519_PNG$": {
+"bg": "clear",
+"ar": 0.8358,
+"box": [
+0.3047,
+0.2063,
+0.6953,
+0.7916
+]
+},
+"https://images.samsung.com/is/image/samsung/p6pim/my/2501/gallery/my-galaxy-s25-s936-sm-s936bdbbxme-544671637?$624_624_PNG$": {
+"bg": "clear",
+"ar": 0.8269,
+"box": [
+0.253,
+0.2013,
+0.747,
+0.7987
+]
+},
+"https://images.samsung.com/my/smartphones/galaxy-s25-ultra/buy/product_color_silverBlue_PC.png": {
+"bg": "light",
+"ar": 1.3858,
+"box": [
+0.2063,
+0.0858,
+0.847,
+0.942
+],
+"one": [
+0.2063,
+0.1074,
+0.5703,
+0.9142
+],
+"oneAr": 0.8355,
+"parts": 2
+},
+"https://images.samsung.com/is/image/samsung/p6pim/my/2501/gallery/my-galaxy-s25-s931-sm-s931bdbcxme-544665049?$624_624_PNG$": {
+"bg": "clear",
+"ar": 0.8324,
+"box": [
+0.268,
+0.2213,
+0.732,
+0.7787
+]
+},
+"https://images.samsung.com/is/image/samsung/p6pim/my/sm-s741bzvbxme/gallery/my-galaxy-s26-fe-sm-s741-sm-s741bzvbxme-thumb-554420869?$650_519_PNG$": {
+"bg": "clear",
+"ar": 0.8335,
+"box": [
+0.303,
+0.2042,
+0.6953,
+0.7937
+]
+},
+"https://images.samsung.com/is/image/samsung/p6pim/my/s2602/gallery/my-galaxy-s26-s947-sm-s947blbbxme-550877667?$624_624_PNG$": {
+"bg": "clear",
+"ar": 0.8259,
+"box": [
+0.2547,
+0.203,
+0.7453,
+0.797
+]
+},
+"https://images.samsung.com/is/image/samsung/p6pim/my/s2602/gallery/my-galaxy-s26-ultra-s948-578304-sm-s948bzvcxme-thumb-550819724?$310_N_PNG$": {
+"bg": "clear",
+"ar": 0.9823,
+"box": [
+0.0138,
+0.0428,
+0.912,
+0.9572
+]
+},
+"https://images.samsung.com/is/image/samsung/p6pim/my/s2602/gallery/my-galaxy-s26-s942-sm-s942bzvqxme-thumb-550885164?$310_N_PNG$": {
+"bg": "clear",
+"ar": 0.8408,
+"box": [
+0.1525,
+0.0848,
+0.8507,
+0.9152
+]
+},
+"https://images.samsung.com/is/image/samsung/p6pim/my/2307/gallery/my-galaxy-z-flip5-f731-sm-f731blgaxme-537226215?$624_624_PNG$": {
+"bg": "clear",
+"ar": 0.7851,
+"box": [
+0.2413,
+0.1713,
+0.7587,
+0.8303
+]
+},
+"https://images.samsung.com/is/image/samsung/p6pim/my/sm-f741bakaxme/gallery/my-galaxy-zflip6-f741-sm-f741bakaxme-542631257?$624_624_PNG$": {
+"bg": "clear",
+"ar": 0.7876,
+"box": [
+0.2397,
+0.1713,
+0.7587,
+0.8303
+]
+},
+"https://images.samsung.com/is/image/samsung/p6pim/my/f2507/gallery/my-galaxy-z-flip7-fe-f761-sm-f761bzkaxme-547563162?$624_624_PNG$": {
+"bg": "clear",
+"ar": 0.7856,
+"box": [
+0.2397,
+0.1697,
+0.7587,
+0.8303
+]
+},
+"https://images.samsung.com/is/image/samsung/p6pim/my/f2507/gallery/my-galaxy-zflip7-f766-sm-f766bdbaxme-547584538?$624_624_PNG$": {
+"bg": "clear",
+"ar": 0.8018,
+"box": [
+0.2363,
+0.168,
+0.7687,
+0.832
+]
+},
+"https://images.samsung.com/is/image/samsung/p6pim/my/f2607/gallery/my-galaxy-zflip8-f776-599227-sm-f776blgaxme-553738010?$624_624_PNG$": {
+"bg": "clear",
+"ar": 0.8063,
+"box": [
+0.2347,
+0.1697,
+0.7687,
+0.832
+]
+},
+"https://images.samsung.com/is/image/samsung/p6pim/my/2307/gallery/my-galaxy-z-fold5-f946-sm-f946blbdxme-537226118?$624_624_PNG$": {
+"bg": "clear",
+"ar": 0.719,
+"box": [
+0.2697,
+0.1797,
+0.7303,
+0.8203
+]
+},
+"https://images.samsung.com/is/image/samsung/p6pim/my/sm-f956bakdxme/gallery/my-galaxy-z-fold6-f956-sm-f956bakdxme-542632874?$624_624_PNG$": {
+"bg": "clear",
+"ar": 0.7353,
+"box": [
+0.2647,
+0.1797,
+0.737,
+0.822
+]
+},
+"https://images.samsung.com/is/image/samsung/p6pim/my/f2507/gallery/my-galaxy-z-fold7-f966-sm-f966bdbdxme-547548272?$624_624_PNG$": {
+"bg": "clear",
+"ar": 0.7529,
+"box": [
+0.258,
+0.1797,
+0.7403,
+0.8203
+]
+},
+"https://images.samsung.com/is/image/samsung/p6pim/my/f2607/gallery/my-galaxy-z-fold8-ultra-f976-599185-sm-f976bdgdxme-553736032?$624_624_PNG$": {
+"bg": "clear",
+"ar": 0.7502,
+"box": [
+0.2597,
+0.1797,
+0.7403,
+0.8203
+]
+},
+"https://images.samsung.com/is/image/samsung/p6pim/my/f2607/gallery/my-galaxy-z-fold8-f971-sm-f971blvdxme-thumb-553725273?$310_N_PNG$": {
+"bg": "clear",
+"ar": 1.2958,
+"box": [
+0.0783,
+0.1783,
+0.912,
+0.8217
+]
+},
+"https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1677483569524/b46fae449c0d665e4235dd3a2d5aa548.png": {
+"bg": "clear",
+"ar": 0.7901,
+"box": [
+0.1363,
+0.0397,
+0.8637,
+0.9603
+]
+},
+"https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1677483682380/8598b04568d9a1d39f48ebc2887ae874.png": {
+"bg": "clear",
+"ar": 0.7901,
+"box": [
+0.1363,
+0.0397,
+0.8637,
+0.9603
+]
+},
+"https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1694501030630/70c4a3c003cb8d36110f961546fa90c1.png": {
+"bg": "clear",
+"ar": 0.7933,
+"box": [
+0.1355,
+0.0405,
+0.8645,
+0.9595
+]
+},
+"https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1710129733875/853a2f8ae0e66d8a4b86a36d08af1f04.png": {
+"bg": "clear",
+"ar": 0.7901,
+"box": [
+0.1363,
+0.0397,
+0.8637,
+0.9603
+]
+},
+"https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1709796027386/c040406a6451908ad854de582f968883.png": {
+"bg": "clear",
+"ar": 0.7901,
+"box": [
+0.1363,
+0.0397,
+0.8637,
+0.9603
+]
+},
+"https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1713756597437/453064c8a1bc924d7d17124c459548cc.png": {
+"bg": "clear",
+"ar": 0.7998,
+"box": [
+0.1413,
+0.048,
+0.8603,
+0.947
+]
+},
+"https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1729506521460/9630c654ed2089fdd5c6c6c1a1d036fb.png": {
+"bg": "clear",
+"ar": 0.8045,
+"box": [
+0.1397,
+0.053,
+0.8603,
+0.9487
+]
+},
+"https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1723118874894/0681a72f8694473dcd3953262bb5cdb0.png": {
+"bg": "clear",
+"ar": 0.7905,
+"box": [
+0.143,
+0.0497,
+0.8537,
+0.9487
+]
+},
+"https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1723118997758/508b3d6268f12ec07bbfb425f229c7aa.png": {
+"bg": "clear",
+"ar": 0.7961,
+"box": [
+0.143,
+0.0497,
+0.8587,
+0.9487
+]
+},
+"https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1745749392696/2379b5b872c9a86e8088a431d9bee26f.png": {
+"bg": "clear",
+"ar": 0.7947,
+"box": [
+0.143,
+0.0497,
+0.8587,
+0.9503
+]
+},
+"https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1741345219438/a5d3b743275e5cfa0f1638c5018db2cf.png": {
+"bg": "clear",
+"ar": 0.7946,
+"box": [
+0.1413,
+0.048,
+0.857,
+0.9487
+]
+},
+"https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1759916694734/2e322e87377c23489acfd42cc624de4a.png": {
+"bg": "clear",
+"ar": 0.7987,
+"box": [
+0.1347,
+0.0413,
+0.8687,
+0.9603
+]
+},
+"https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1756109552889/6006ffdf175e35616a66e11ce8a92720.png": {
+"bg": "clear",
+"ar": 0.7998,
+"box": [
+0.1413,
+0.0497,
+0.8603,
+0.9487
+]
+},
+"https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1775029433056/1fbb066c59cbfcce533d92e76acd8782.png": {
+"bg": "clear",
+"ar": 0.7998,
+"box": [
+0.1413,
+0.0497,
+0.8603,
+0.9487
+]
+},
+"https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1772272929685/d4627e61c23e32ab332f6fe9a58afdd8.png": {
+"bg": "clear",
+"ar": 0.8053,
+"box": [
+0.1413,
+0.0497,
+0.8653,
+0.9487
+]
+},
+"https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1788336609213/f501075a66795747c4cb416dfd045488.png": {
+"bg": "clear",
+"ar": 0.7914,
+"box": [
+0.1413,
+0.048,
+0.862,
+0.9587
+]
+},
+"https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1753772315251/edf7da0cf2f9da68eb2d036a3f850bd1.png": {
+"bg": "clear",
+"ar": 0.6737,
+"box": [
+0.198,
+0.0463,
+0.8037,
+0.9453
+]
+},
+"https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1710405824682/ef33c28436ec5411f7903c3ec28ce136.png": {
+"bg": "clear",
+"ar": 0.7901,
+"box": [
+0.1363,
+0.0397,
+0.8637,
+0.9603
+]
+},
+"https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1702980784443/ff5751737b9154604a235b7bd084bac5.png": {
+"bg": "clear",
+"ar": 0.7901,
+"box": [
+0.1363,
+0.0397,
+0.8637,
+0.9603
+]
+},
+"https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1751205597044/6df26d2d5ff95a2798afb9e5b9653c39.png": {
+"bg": "clear",
+"ar": 0.8103,
+"box": [
+0.1413,
+0.0497,
+0.867,
+0.9453
+]
+},
+"https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1731663031362/b38cc4e755f53ec881c73a6d97b4c0d1.png": {
+"bg": "clear",
+"ar": 0.8147,
+"box": [
+0.1413,
+0.0497,
+0.8737,
+0.9487
+]
+},
+"https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1731663753870/82d60af9a082916d8876b9c70c2f39eb.png": {
+"bg": "clear",
+"ar": 0.8106,
+"box": [
+0.1413,
+0.0513,
+0.8687,
+0.9487
+]
+},
+"https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1778576762665/b9bdffac48130ab92235ed8914673701.png": {
+"bg": "clear",
+"ar": 0.8091,
+"box": [
+0.1413,
+0.0497,
+0.8687,
+0.9487
+]
+},
+"https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1762851492433/30e78951c5f967ba25b81ad061361d7a.png": {
+"bg": "clear",
+"ar": 0.8023,
+"box": [
+0.1347,
+0.0447,
+0.8653,
+0.9553
+]
+},
+"https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1778576188899/e95cb12aef50a8803958b8dde0a33ac0.png": {
+"bg": "clear",
+"ar": 0.8036,
+"box": [
+0.1413,
+0.0497,
+0.8637,
+0.9487
+]
+},
+"https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1762331111835/3ce26d60eef0c46d53cb6707e814b7ab.png": {
+"bg": "clear",
+"ar": 0.8172,
+"box": [
+0.1347,
+0.053,
+0.8653,
+0.947
+]
+},
+"https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1789033078171/4a5902fdc8c2e55e7ad3e95592dc024d.png": {
+"bg": "clear",
+"ar": 0.8356,
+"box": [
+0.0847,
+0.0,
+0.9203,
+1.0
+]
+},
+"https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1789116258692/cb75d4c9d2cee7db82630d1f726108c7.png": {
+"bg": "clear",
+"ar": 0.839,
+"box": [
+0.0847,
+0.0,
+0.9237,
+1.0
+]
+},
+"https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1789119259767/fe27f7eb57e85cee047ce0a8a28cdbe8.png": {
+"bg": "clear",
+"ar": 0.8401,
+"box": [
+0.0847,
+0.0,
+0.9237,
+0.9987
+]
+},
+"https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/product/1676534744474/zip/img/vivo-x90-pro-mobi.jpg.webp": {
+"bg": "light",
+"ar": 0.9586,
+"box": [
+0.0231,
+0.1013,
+0.9414,
+0.6403
+]
+},
+"https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/product/1681294232760/zip/img/vivo-x90-series-mobi.jpg.webp": {
+"bg": "light",
+"ar": 0.8737,
+"box": [
+0.0882,
+0.103,
+0.9148,
+0.6353
+]
+},
+"https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1692607805155/9a056bd674b311c1526b1083e4487dba.png": {
+"bg": "clear",
+"ar": 0.7901,
+"box": [
+0.1363,
+0.0397,
+0.8637,
+0.9603
+]
+},
+"https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1711696101291/5f759cea9e2b66a076fc85bca5dbf8f0.png": {
+"bg": "light",
+"ar": 0.7915,
+"box": [
+0.1363,
+0.0413,
+0.8637,
+0.9603
+]
+},
+"https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1746005761328/d2e1646f60b760854014db0c7de98ca3.png": {
+"bg": "clear",
+"ar": 0.7905,
+"box": [
+0.143,
+0.0513,
+0.8537,
+0.9503
+]
+},
+"https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1716797102298/c72db53c29ab59ad5597d01b43533d1f.png": {
+"bg": "clear",
+"ar": 0.7901,
+"box": [
+0.1363,
+0.0397,
+0.8637,
+0.9603
+]
+},
+"https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1695036030504/a0b8ebbd9519976ee039a9a43e98d9bf.png": {
+"bg": "clear",
+"ar": 0.7911,
+"box": [
+0.1213,
+0.0213,
+0.8787,
+0.9787
+]
+},
+"https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1713757827904/7100f62d6f5d9be59ba4e4b18a9f25e4.png": {
+"bg": "clear",
+"ar": 0.7939,
+"box": [
+0.143,
+0.043,
+0.862,
+0.9487
+]
+},
+"https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1730778287951/f68a24f345fd68be6ec977c1f8ddda8a.png": {
+"bg": "clear",
+"ar": 0.7969,
+"box": [
+0.1397,
+0.0497,
+0.8587,
+0.952
+]
+},
+"https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1762427035880/3f9ba9a88e631f0c5793c5b3f45b17b9.png": {
+"bg": "clear",
+"ar": 0.7943,
+"box": [
+0.1347,
+0.0447,
+0.862,
+0.9603
+]
+},
+"https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1687937061374/9fbdd088dd382d764c4a1e8293151a2d.png": {
+"bg": "clear",
+"ar": 0.7895,
+"box": [
+0.1363,
+0.0397,
+0.862,
+0.9603
+]
+},
+"https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1687936300539/458ea3313e36f1497225f2c07bb3c35d.png": {
+"bg": "clear",
+"ar": 0.7901,
+"box": [
+0.1363,
+0.0397,
+0.8637,
+0.9603
+]
+},
+"https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1699522407662/74f16583252fae46be2d7853bb31cc8b.png": {
+"bg": "clear",
+"ar": 0.7901,
+"box": [
+0.1363,
+0.0397,
+0.8637,
+0.9603
+]
+},
+"https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1719306462199/874f0f0f265e0bbda9f8c90a879257cb.png": {
+"bg": "clear",
+"ar": 0.7964,
+"box": [
+0.143,
+0.048,
+0.8603,
+0.9487
+]
+},
+"https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1781077759620/0c75010c03f2769664d34eb84940dd68.png": {
+"bg": "clear",
+"ar": 0.7943,
+"box": [
+0.1347,
+0.0447,
+0.862,
+0.9603
+]
+},
+"https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1683797951684/731a5be4740a7124275bb75fdfa543ca.png": {
+"bg": "clear",
+"ar": 0.7901,
+"box": [
+0.1363,
+0.0397,
+0.8637,
+0.9603
+]
+},
+"https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1683798040450/3894d6d94061925ca0317a0fbbd9f537.png": {
+"bg": "clear",
+"ar": 0.7901,
+"box": [
+0.1363,
+0.0397,
+0.8637,
+0.9603
+]
+},
+"https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1740382057594/f35d1876f9e07b4c46535e764cb1a8d5.png": {
+"bg": "clear",
+"ar": 0.7908,
+"box": [
+0.1447,
+0.048,
+0.857,
+0.9487
+]
+},
+"https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1683862749504/c6378c55b7aa7814e169921676f70478.png": {
+"bg": "clear",
+"ar": 0.7901,
+"box": [
+0.1363,
+0.0397,
+0.8637,
+0.9603
+]
+},
+"https://i02.appmifile.com/706_operator_sg/15/02/2023/75d5a88d3d99386db8b37751a331c87f.png": {
+"bg": "clear",
+"ar": 0.9612,
+"box": [
+0.2597,
+0.0,
+0.7403,
+1.0
+]
+},
+"https://i02.appmifile.com/57_operator_sg/23/05/2023/e0f444f190acfcb56bdf2d77d8f4f9ea.png": {
+"bg": "clear",
+"ar": 1.1618,
+"box": [
+0.1813,
+0.0,
+0.8203,
+1.0
+],
+"one": [
+0.1813,
+0.0,
+0.5853,
+1.0
+],
+"oneAr": 0.7345,
+"parts": 2
+},
+"https://i02.appmifile.com/158_operator_sg/08/02/2023/3436112edf5d104a191c22576c6506bf.png": {
+"bg": "clear",
+"ar": 1.2146,
+"box": [
+0.153,
+0.0,
+0.7603,
+1.0
+]
+},
+"https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Xiaomi_13T_XIG04%28%E3%82%A2%E3%83%AB%E3%83%91%E3%82%A4%E3%83%B3%E3%83%96%E3%83%AB%E3%83%BC%29.jpg/500px-Xiaomi_13T_XIG04%28%E3%82%A2%E3%83%AB%E3%83%91%E3%82%A4%E3%83%B3%E3%83%96%E3%83%AB%E3%83%BC%29.jpg": {
+"bg": "photo"
+},
+"https://i02.appmifile.com/960_item_my/02/04/2024/8b0ac936f4ac3c38d97dd5c8919ee455.png": {
+"bg": "clear",
+"ar": 0.8441,
+"box": [
+0.148,
+0.083,
+0.852,
+0.917
+]
+},
+"https://i02.appmifile.com/93_item_my/02/04/2024/b829f701f13aa3cf30d37880d371a25b.png": {
+"bg": "clear",
+"ar": 0.8441,
+"box": [
+0.148,
+0.083,
+0.852,
+0.917
+]
+},
+"https://i02.appmifile.com/946_item_my/27/09/2024/a2ecacda81ce75e618ef3d1c74a27ed2.jpg": {
+"bg": "light",
+"ar": 0.8441,
+"box": [
+0.148,
+0.083,
+0.852,
+0.917
+]
+},
+"https://i02.appmifile.com/142_item_my/27/09/2024/5eeb8a58cd222ab3979f67b905b30c76.png": {
+"bg": "clear",
+"ar": 0.8462,
+"box": [
+0.148,
+0.083,
+0.8537,
+0.917
+]
+},
+"https://i02.appmifile.com/81_item_my/25/02/2025/6338c52462ad515fa35c16c557197ecf.png": {
+"bg": "clear",
+"ar": 0.8458,
+"box": [
+0.148,
+0.083,
+0.852,
+0.9153
+]
+},
+"https://i02.appmifile.com/238_item_my/25/02/2025/ef1cd7310d3cbb0ee5c78ec7b66cafb9.png": {
+"bg": "clear",
+"ar": 0.852,
+"box": [
+0.1447,
+0.083,
+0.8553,
+0.917
+]
+},
+"https://i02.appmifile.com/963_item_my/05/09/2025/f187d7963c116b577e945f8d4ad0fc97.png": {
+"bg": "clear",
+"ar": 0.8476,
+"box": [
+0.148,
+0.0847,
+0.852,
+0.9153
+]
+},
+"https://i02.appmifile.com/426_item_my/05/09/2025/1563b661e424c5f3b2a3603acfb986d6.png": {
+"bg": "clear",
+"ar": 0.8458,
+"box": [
+0.148,
+0.0847,
+0.852,
+0.917
+]
+},
+"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Xiaomi_17_Pro_Max_backside_%28Black%29.jpg/500px-Xiaomi_17_Pro_Max_backside_%28Black%29.jpg": {
+"bg": "photo"
+},
+"https://i02.appmifile.com/146_operatorx_operatorx_opx/20/02/2026/dbdf12655687b48d825c298dffc04954.png": {
+"bg": "clear",
+"ar": 0.8482,
+"box": [
+0.1463,
+0.083,
+0.8537,
+0.917
+]
+},
+"https://i02.appmifile.com/138_item_my/09/02/2026/6da74c3b7371a577aeb8337a8c0e5633.png": {
+"bg": "clear",
+"ar": 0.8541,
+"box": [
+0.143,
+0.083,
+0.8553,
+0.917
+]
+},
+"https://i02.appmifile.com/44_item_my/18/05/2026/bf8cf4046f4cfc5159e09879ba7cf2d2.png": {
+"bg": "clear",
+"ar": 0.8496,
+"box": [
+0.1463,
+0.0847,
+0.852,
+0.9153
+]
+},
+"https://i02.appmifile.com/442_item_my/18/05/2026/61cd0bfc00a44a047673c1e9a031fa4a.png": {
+"bg": "clear",
+"ar": 0.647,
+"box": [
+0.2313,
+0.0847,
+0.7687,
+0.9153
+]
+},
+"https://i02.appmifile.com/315_item_my/24/09/2024/d849f7e1b520ad98dc04af496d35c08b.png": {
+"bg": "clear",
+"ar": 0.852,
+"box": [
+0.1447,
+0.083,
+0.8553,
+0.917
+]
+},
+"https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/apple-watch-se-3-hero.png": {
+"bg": "clear",
+"ar": 1.3468,
+"box": [
+0.0113,
+0.138,
+0.9887,
+0.8637
+]
+},
+"https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/121202-apple-watch-series-10.png": {
+"bg": "clear",
+"ar": 2.3248,
+"box": [
+0.008,
+0.288,
+0.9937,
+0.712
+]
+},
+"https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/apple-watch-series-11-hero.png": {
+"bg": "clear",
+"ar": 1.3782,
+"box": [
+0.008,
+0.143,
+0.992,
+0.857
+]
+},
+"https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/apple-watch-series-12.png": {
+"bg": "clear",
+"ar": 1.8608,
+"box": [
+0.0,
+0.2313,
+1.0,
+0.7687
+]
+},
+"https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/apple-watch-series-9.png": {
+"bg": "clear",
+"ar": 0.8615,
+"box": [
+0.0747,
+0.0063,
+0.9253,
+0.9937
+]
+},
+"https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/111832-watch-ultra-2.png": {
+"bg": "clear",
+"ar": 1.4077,
+"box": [
+0.008,
+0.1513,
+0.992,
+0.8503
+]
+},
+"https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/apple-watch-ultra-3-hero.png": {
+"bg": "clear",
+"ar": 1.4061,
+"box": [
+0.0097,
+0.1513,
+0.9903,
+0.8487
+]
+},
+"https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/apple-watch-ultra-4.png": {
+"bg": "clear",
+"ar": 1.3687,
+"box": [
+0.0,
+0.1347,
+1.0,
+0.8653
+]
+},
+"https://cdn.shopify.com/s/files/1/0585/2479/5086/files/CMFWatch3Pro-Orange_23aacc4a-7ede-4ec1-8cfa-d7ed422570d4.png": {
+"bg": "clear",
+"ar": 0.716,
+"box": [
+0.2113,
+0.083,
+0.7953,
+0.9153
+]
+},
+"https://cdn.shopify.com/s/files/1/0585/2479/5086/files/CMF-Watch-Pro-2_Orange_1.png": {
+"bg": "clear",
+"ar": 1.0098,
+"box": [
+0.2597,
+0.238,
+0.7737,
+0.747
+]
+},
+"https://www.honor.com/content/dam/honor/my/specs/wearables/honor-watch-4/honor-watch-4-fx-new.png": {
+"bg": "photo"
+},
+"https://www.honor.com/content/dam/honor/common/product-list/wearables/product-series/honor-watch-5-ultra/honor-watch-5-ultra-brown-500.png": {
+"bg": "clear",
+"ar": 0.984
+},
+"https://www.honor.com/content/dam/honor/my/specs/wearables/honor-watch-5/honor-watch-5-list.png": {
+"bg": "clear",
+"ar": 0.608,
+"box": [
+0.21,
+0.0,
+0.818,
+1.0
+]
+},
+"https://www.honor.com/content/dam/honor/common/product-list/wearables/product-series/honor-watch-6/honor-watch-6-black-list.png": {
+"bg": "clear",
+"ar": 0.972
+},
+"https://www.honor.com/content/dam/honor/common/product-list/wearables/product-series/honor-watch-fit/global/honor-watch-fit-d-list.png": {
+"bg": "clear",
+"ar": 0.994
+},
+"https://www.honor.com/content/dam/honor/common/product-list/wearables/product-series/honor-watch-x5-play/honor-watch-x5-play-b-list.png": {
+"bg": "clear",
+"ar": 0.86,
+"box": [
+0.068,
+0.0,
+0.928,
+1.0
+]
+},
+"https://www.honor.com/content/dam/honor/common/product-list/wearables/product-series/honor-watch-x5i/honor-watch-x5i-w-list.png": {
+"bg": "clear",
+"ar": 0.856,
+"box": [
+0.072,
+0.0,
+0.928,
+1.0
+]
+},
+"https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/admin-image/wearables/watch-4-series/list/list-dark-brown.png": {
+"bg": "clear",
+"ar": 0.6835,
+"box": [
+0.1117,
+0.0526,
+0.8883,
+0.9474
+]
+},
+"https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/wearables/watch-5/img/kv/kv-xs.webp": {
+"bg": "light",
+"ar": 1.1964,
+"box": [
+0.028,
+0.1028,
+1.0,
+1.0
+]
+},
+"https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/admin-image/wearables/watch-d2/specs/specs-blue.png": {
+"bg": "light",
+"ar": 0.6115,
+"box": [
+0.1691,
+0.073,
+0.8309,
+0.9253
+]
+},
+"https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/admin-image/wearables/watch-fit3/black.png": {
+"bg": "clear",
+"ar": 0.5782,
+"box": [
+0.1329,
+0.0,
+0.8671,
+1.0
+]
+},
+"https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/wearables/watch-fit4-pro/specs-green.png": {
+"bg": "clear",
+"ar": 0.6058,
+"box": [
+0.1309,
+0.023,
+0.8648,
+0.977
+]
+},
+"https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/wearables/watch-fit4/specs-purple.png": {
+"bg": "clear",
+"ar": 0.5778,
+"box": [
+0.15,
+0.023,
+0.85,
+0.977
+]
+},
+"https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/wearables/watch-fit5-pro/specs-orange.png": {
+"bg": "clear",
+"ar": 0.6217,
+"box": [
+0.1214,
+0.0563,
+0.8809,
+0.942
+]
+},
+"https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/wearables/watch-fit5/specs-silver.png": {
+"bg": "clear",
+"ar": 0.5853,
+"box": [
+0.1674,
+0.088,
+0.8326,
+0.912
+]
+},
+"https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/wearables/watch-gt4/watch-gt4/list/46mm-green.png": {
+"bg": "clear",
+"ar": 0.6304,
+"box": [
+0.1223,
+0.0276,
+0.8803,
+0.9745
+]
+},
+"https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/admin-image/wearables/watch-gt5-pro/list/list-46mm-black.png": {
+"bg": "clear",
+"ar": 0.6739,
+"box": [
+0.0721,
+0.0,
+0.9279,
+1.0
+]
+},
+"https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/admin-image/wearables/watch-gt5/list/46mm-blue.png": {
+"bg": "clear",
+"ar": 0.6365,
+"box": [
+0.0959,
+0.0,
+0.9041,
+1.0
+]
+},
+"https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/wearables/watch-gt6-pro/specs-black.png": {
+"bg": "clear",
+"ar": 0.6364,
+"box": [
+0.0949,
+0.0,
+0.903,
+1.0
+]
+},
+"https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/wearables/watch-gt6/list46mm-green.png": {
+"bg": "clear",
+"ar": 0.6347,
+"box": [
+0.097,
+0.0,
+0.903,
+1.0
+]
+},
+"https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/wearables/watch-gt7-pro/specs-yellow.png": {
+"bg": "clear",
+"ar": 0.6324,
+"box": [
+0.0985,
+0.0,
+0.9015,
+1.0
+]
+},
+"https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/wearables/watch-gt7/list-46mm-blue.png": {
+"bg": "clear",
+"ar": 0.6365,
+"box": [
+0.0959,
+0.0,
+0.9041,
+1.0
+]
+},
+"https://consumer.huawei.com/content/dam/huawei-cbg-site/common/mkt/pdp/wearables/watch-gt-cyber/img/module1/huawei-watch-gt-cyber-2.webp": {
+"bg": "clear",
+"ar": 0.9194,
+"box": [
+0.0759,
+0.048,
+0.9436,
+0.9353
+]
+},
+"https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/wearables/watch-gt-runner-2/specs-racing-legend.png": {
+"bg": "clear",
+"ar": 0.5958,
+"box": [
+0.1866,
+0.003,
+0.8152,
+1.0
+]
+},
+"https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/wearables/watch-ultimate-2/specs-black.png": {
+"bg": "clear",
+"ar": 0.6897,
+"box": [
+0.0701,
+0.073,
+0.9299,
+0.927
+]
+},
+"https://www.oneplus.com/content/dam/oneplus/2025/product-station/oneplus-watch-3/specs/Silver_Steel.png": {
+"bg": "clear",
+"ar": 0.5601,
+"box": [
+0.2697,
+0.0947,
+0.7303,
+0.917
+]
+},
+"https://www.oneplus.com/content/dam/oneplus/2025/specs/taco/Black_Steel_1080x1080.png": {
+"bg": "clear",
+"ar": 0.5988,
+"box": [
+0.2513,
+0.088,
+0.7437,
+0.9103
+]
+},
+"https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-watch-s-en/listpage/600-600-silver.png": {
+"bg": "clear",
+"ar": 0.6074,
+"box": [
+0.1963,
+0.0,
+0.8037,
+1.0
+]
+},
+"https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/watch-x-en/listpage/427-600%20brown.png": {
+"bg": "clear",
+"ar": 0.7117
+},
+"https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/oppo-watch-x2-mini-en/listpage/445-600-gold.png": {
+"bg": "clear",
+"ar": 0.5673,
+"box": [
+0.1187,
+0.0,
+0.8836,
+1.0
+]
+},
+"https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/oppo-watch-x2/list-page/blue-427-600.png": {
+"bg": "clear",
+"ar": 0.659
+},
+"https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-watch-x3-en/listpage/600-600-grey.png": {
+"bg": "clear",
+"ar": 0.6407,
+"box": [
+0.1813,
+0.0,
+0.822,
+1.0
+]
+},
+"https://i02.appmifile.com/21_item_my/02/04/2024/0ccb160fe7914ead5a5a505c95d9d0ed.png": {
+"bg": "clear",
+"ar": 0.5834,
+"box": [
+0.278,
+0.118,
+0.7237,
+0.882
+]
+},
+"https://i02.appmifile.com/423_operator_sg/10/03/2023/735f791f42e2d7e7db17f8b0b777965e.png": {
+"bg": "clear",
+"ar": 1.2505,
+"box": [
+0.1947,
+0.0367,
+0.6603,
+0.9675
+],
+"one": [
+0.1947,
+0.0367,
+0.4153,
+0.9675
+],
+"oneAr": 0.5925,
+"parts": 2
+},
+"https://i02.appmifile.com/98_item_my/07/05/2024/b8766fb0d73223b275fa5df7cdb49f1d.png": {
+"bg": "clear",
+"ar": 0.654,
+"box": [
+0.283,
+0.1763,
+0.7053,
+0.822
+]
+},
+"https://i02.appmifile.com/124_item_my/23/09/2024/07e3c1b25d95701f6343c2998b59dfbb.png": {
+"bg": "clear",
+"ar": 0.555,
+"box": [
+0.288,
+0.118,
+0.712,
+0.882
+]
+},
+"https://i02.appmifile.com/664_item_my/25/09/2024/a0952da86c81d7f8d58fa7cc8b8a8e47.png": {
+"bg": "clear",
+"ar": 0.5463,
+"box": [
+0.2913,
+0.118,
+0.7087,
+0.882
+]
+},
+"https://i02.appmifile.com/625_item_my/06/01/2025/9ab5cb2ae06ae5caabc1b15e1fd56dcb.png": {
+"bg": "clear",
+"ar": 0.6029,
+"box": [
+0.2697,
+0.118,
+0.7303,
+0.882
+]
+},
+"https://i02.appmifile.com/914_operatorx_operatorx_xm/18/08/2026/14c869d266fc63ed9d8c745d73745ed2.png": {
+"bg": "clear",
+"ar": 1.886,
+"box": [
+0.0813,
+0.278,
+0.9187,
+0.722
+]
+},
+"https://i02.appmifile.com/345_operatorx_operatorx_opx/26/08/2026/2c0c9f9ae2a7dd46377365fd57f69314.png": {
+"bg": "clear",
+"ar": 0.5856,
+"box": [
+0.2763,
+0.118,
+0.7237,
+0.882
+]
+},
+"https://i02.appmifile.com/415_item_my/08/05/2026/9a14ee67202ee4285d96934f4f0196a3.png": {
+"bg": "clear",
+"ar": 0.6444,
+"box": [
+0.268,
+0.118,
+0.7603,
+0.882
+]
+},
+"https://images.samsung.com/is/image/samsung/p6pim/my/sm-r861nidaxme/gallery/my-galaxy-watch-fe-r861-sm-r861nidaxme-542488018?$624_624_PNG$": {
+"bg": "clear",
+"ar": 0.9033,
+"box": [
+0.2413,
+0.2163,
+0.7553,
+0.7853
+]
+},
+"https://images.samsung.com/is/image/samsung/p6pim/my/f2507/gallery/my-galaxy-watch-ultra-2025-l705-sm-l705fzb1xme-thumb-547645934?$650_519_PNG$": {
+"bg": "clear",
+"ar": 0.8743,
+"box": [
+0.3113,
+0.2021,
+0.7287,
+0.8
+]
+},
+"https://images.samsung.com/is/image/samsung/p6pim/my/f2507/gallery/my-galaxy-watch-ultra-2025-l705-sm-l705faw1xme-547645830?$624_624_PNG$": {
+"bg": "clear",
+"ar": 0.8732,
+"box": [
+0.2563,
+0.193,
+0.7953,
+0.8103
+]
+},
+"https://images.samsung.com/is/image/samsung/p6pim/my/f2607/gallery/my-galaxy-watch-ultra2-l710-sm-l715fzkaxme-thumb-553717219?$650_519_PNG$": {
+"bg": "clear",
+"ar": 0.8777,
+"box": [
+0.2997,
+0.2084,
+0.707,
+0.7896
+]
+},
+"https://images.samsung.com/is/image/samsung/p6pim/my/2307/gallery/my-galaxy-watch6-classic-r955-sm-r950nzkaxme-537410440?$624_624_PNG$": {
+"bg": "clear",
+"ar": 0.8572,
+"box": [
+0.2547,
+0.2147,
+0.7453,
+0.787
+]
+},
+"https://images.samsung.com/is/image/samsung/p6pim/my/2307/gallery/my-galaxy-watch6-r935-sm-r930nzeaxme-537410569?$624_624_PNG$": {
+"bg": "clear",
+"ar": 0.8442,
+"box": [
+0.2597,
+0.2163,
+0.7387,
+0.7837
+]
+},
+"https://images.samsung.com/is/image/samsung/p6pim/my/2407/gallery/my-galaxy-watch7-l300-sm-l300nzeaxme-542363709?$624_624_PNG$": {
+"bg": "clear",
+"ar": 0.8792,
+"box": [
+0.2747,
+0.2247,
+0.7603,
+0.777
+]
+},
+"https://images.samsung.com/is/image/samsung/p6pim/my/f2507/gallery/my-galaxy-watch8-classic-l500-sm-l500nzkaxme-547651138?$624_624_PNG$": {
+"bg": "clear",
+"ar": 0.8574,
+"box": [
+0.243,
+0.2147,
+0.7337,
+0.787
+]
+},
+"https://images.samsung.com/is/image/samsung/p6pim/my/f2507/gallery/my-galaxy-watch8-l320-sm-l320ndaaxme-thumb-547651104?$650_519_PNG$": {
+"bg": "clear",
+"ar": 0.8627,
+"box": [
+0.318,
+0.2334,
+0.6853,
+0.7666
+]
+},
+"https://images.samsung.com/is/image/samsung/p6pim/my/f2607/gallery/my-galaxy-watch9-l340-sm-l340nzeaxme-thumb-553764372?$650_519_PNG$": {
+"bg": "clear",
+"ar": 0.8664,
+"box": [
+0.3163,
+0.2334,
+0.6837,
+0.7645
+]
+},
+"https://i02.appmifile.com/341_item_my/06/06/2024/d9d80762e5f6ae8dfb3efd8e9e7e8652.png": {
+"bg": "clear",
+"ar": 0.6739,
+"box": [
+0.2963,
+0.178,
+0.7303,
+0.822
+]
+},
+"https://i02.appmifile.com/439_item_my/27/09/2024/0f962ba398bd52b8bfadf331fa6a37f9.png": {
+"bg": "clear",
+"ar": 0.6597,
+"box": [
+0.248,
+0.118,
+0.752,
+0.882
+]
+},
+"https://i02.appmifile.com/991_item_my/09/02/2026/efd100302101c1637757b14a8c935ba9.png": {
+"bg": "clear",
+"ar": 1.1756,
+"box": [
+0.0813,
+0.143,
+0.9187,
+0.8553
+]
+},
+"https://i02.appmifile.com/169_item_my/12/09/2024/841677997321dac3636da3d68a61295a.png": {
+"bg": "clear",
+"ar": 0.616,
+"box": [
+0.2647,
+0.118,
+0.7353,
+0.882
+]
+},
+"https://i02.appmifile.com/450_operatorx_operatorx_xm/16/09/2025/3dde321016a79f6316c16d8bb93e4409.png": {
+"bg": "light",
+"ar": 1.5696,
+"box": [
+0.0463,
+0.253,
+0.9237,
+0.812
+]
+},
+"https://i02.appmifile.com/15_item_my/25/02/2025/c2e7d63c48093702b15d65fcfe324af2.png": {
+"bg": "clear",
+"ar": 0.6341,
+"box": [
+0.2597,
+0.1197,
+0.742,
+0.8803
+]
+},
+"https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/122240-ipad-a16-portimage1.png": {
+"bg": "clear",
+"ar": 0.7526,
+"box": [
+0.1442,
+0.0463,
+0.9212,
+0.9153
+]
+},
+"https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/ipad-air-11-inch-m2-portimage-1.png": {
+"bg": "clear",
+"ar": 0.7522
+},
+"https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/122241-122242-ipad-air-11inch-13inch-portimage2.png": {
+"bg": "clear",
+"ar": 0.7133
+},
+"https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/ipad-air-11-inch-m4.png": {
+"bg": "clear",
+"ar": 0.8828,
+"box": [
+0.1163,
+0.0663,
+0.882,
+0.9337
+]
+},
+"https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/ipad-air-13-inch-m2-portimage-1.png": {
+"bg": "clear",
+"ar": 0.7986,
+"box": [
+0.0802,
+0.0,
+1.0,
+1.0
+]
+},
+"https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/122241-122242-ipad-air-11inch-13inch-m3.png": {
+"bg": "clear",
+"ar": 1.0746,
+"box": [
+0.008,
+0.043,
+0.992,
+0.9587
+]
+},
+"https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/ipad-air-13-inch-m4.png": {
+"bg": "clear",
+"ar": 0.9119,
+"box": [
+0.1113,
+0.0663,
+0.9037,
+0.9353
+]
+},
+"https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/121456-ipad-mini-a17-pro-portimage-1.png": {
+"bg": "clear",
+"ar": 0.6607,
+"box": [
+0.1178,
+0.0,
+0.886,
+1.0
+]
+},
+"https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/ipad-pro-11-inch-m4-portimage-1.png": {
+"bg": "clear",
+"ar": 0.7555,
+"box": [
+0.1554,
+0.0,
+0.9149,
+1.0
+]
+},
+"https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/ipad-pro-11-inch-m5.png": {
+"bg": "clear",
+"ar": 1.0392,
+"box": [
+0.0597,
+0.0763,
+0.9403,
+0.9237
+]
+},
+"https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/ipad-pro-13-inch-m4-portimage-1.png": {
+"bg": "clear",
+"ar": 0.8071,
+"box": [
+0.1057,
+0.0,
+0.9912,
+1.0
+]
+},
+"https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/ipad-pro-13-inch-m5.png": {
+"bg": "clear",
+"ar": 1.0553
+},
+"https://www.honor.com/content/dam/honor/common/product-list/tablets/product-series/honor-pad-20-pro-paperlike-edition/honor-pad-20-pro-paperlike-edition-list.png": {
+"bg": "clear",
+"ar": 1.4164,
+"box": [
+0.0,
+0.148,
+1.0,
+0.854
+]
+},
+"https://www.honor.com/content/dam/honor/common/product-list/tablets/product-series/honor-pad-v9/honor-pad-v9-w-list.png": {
+"bg": "clear",
+"ar": 1.4205,
+"box": [
+0.0,
+0.148,
+1.0,
+0.852
+]
+},
+"https://www.honor.com/content/dam/honor/common/product-list/tablets/product-series/honor-padx7-lte/honor-pad-x7-lte-list-gary.png": {
+"bg": "clear",
+"ar": 1.4124,
+"box": [
+0.0,
+0.146,
+1.0,
+0.854
+]
+},
+"https://www.honor.com/content/dam/honor/common/product-list/tablets/product-series/honor-pad-x8b/honor-pad-x8b-list.png": {
+"bg": "clear",
+"ar": 1.4749,
+"box": [
+0.0,
+0.16,
+1.0,
+0.838
+]
+},
+"https://www.honor.com/content/dam/honor/my/product-list/tablets/honor-pad-x9/honor-pad-x9-fx.png": {
+"bg": "light",
+"ar": 0.9239,
+"box": [
+0.053,
+0.053,
+0.842,
+0.907
+]
+},
+"https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/admin-image/tablets/matepad-se-11/specs/nebula-gray.png": {
+"bg": "clear",
+"ar": 1.48,
+"box": [
+0.0,
+0.1215,
+1.0,
+0.8937
+]
+},
+"https://www.oneplus.com/content/dam/oneplus/2025/specs/pad3/images/Pad3_Erhai_Blue_1080x1080.png": {
+"bg": "clear",
+"ar": 1.0587,
+"box": [
+0.1247,
+0.1463,
+0.8753,
+0.8553
+]
+},
+"https://image01.realme.net/general/20260417/177641875448702cea9f7519342e5920c3cb68a2cdbe4.png": {
+"bg": "clear",
+"ar": 4.9517,
+"box": [
+0.0113,
+0.3189,
+0.987,
+0.6692
+],
+"one": [
+0.2763,
+0.387,
+0.6303,
+0.613
+],
+"oneAr": 2.7847,
+"parts": 7
+},
+"https://images.samsung.com/is/image/samsung/p6pim/my/sm-x930nzaaxme/gallery/my-galaxy-tab-s11-ultra-sm-x930-577155-577155-sm-x930nzaaxme-554051659?$624_624_PNG$": {
+"bg": "clear",
+"ar": 1.5348,
+"box": [
+0.048,
+0.2047,
+0.952,
+0.7937
+]
+},
+"https://www.oneplus.com/content/dam/oasis/page/2024/global/product/franklin/share.jpg": {
+"bg": "light",
+"ar": 1.311,
+"box": [
+0.2347,
+0.0946,
+0.8037,
+0.9213
+]
+},
+"https://oasis.opstatics.com/content/dam/oasis/page/2024/global/product/mendel/share.jpg": {
+"bg": "photo"
+},
+"https://web.archive.org/web/20260422235254im_/https://i02.appmifile.com/322_item_my/02/04/2024/baa1c7f673be9dda81752660978618ba.png": {
+"bg": "clear",
+"ar": 0.8467,
+"box": [
+0.2097,
+0.1563,
+0.7903,
+0.842
+]
+},
+"https://web.archive.org/web/20260608151500im_/https://i02.appmifile.com/938_item_my/07/01/2025/805f8efb5f451a5a61daf2ed36f9a99e.png": {
+"bg": "clear",
+"ar": 0.88,
+"box": [
+0.1697,
+0.123,
+0.8303,
+0.8737
+]
+},
+"https://web.archive.org/web/20260317054728im_/https://i02.appmifile.com/455_item_my/25/02/2025/2e013f5e02abbb4487af8fc7aa5868b3.png": {
+"bg": "clear",
+"ar": 1.0266,
+"box": [
+0.1763,
+0.1847,
+0.8237,
+0.8153
+]
+},
+"https://cdn.shopify.com/s/files/1/0585/2479/5086/products/black-1.png?v=1709369706": {
+"bg": "clear",
+"ar": 0.504,
+"box": [
+0.3747,
+0.1359,
+0.6237,
+0.8843
+]
+},
+"https://cdn.shopify.com/s/files/1/0585/2479/5086/files/BulbT-White.png?v=1761642546": {
+"bg": "clear",
+"ar": 0.4985,
+"box": [
+0.278,
+0.0439,
+0.722,
+0.9527
+]
+},
+"https://cdn.shopify.com/s/files/1/0585/2479/5086/files/ArcPro1352x1352-Black-Glyphon.png?v=1740649983": {
+"bg": "clear",
+"ar": 0.5006,
+"box": [
+0.3213,
+0.1547,
+0.677,
+0.8653
+]
+},
+"https://cdn.shopify.com/s/files/1/0585/2479/5086/files/Arc1352x1352-Black-Glyphon_4677e90c-2628-407c-b286-e6b96238dedf.png?v=1740649970": {
+"bg": "clear",
+"ar": 0.5006,
+"box": [
+0.3213,
+0.1547,
+0.677,
+0.8653
+]
+},
+"https://cdn.shopify.com/s/files/1/0585/2479/5086/files/Phone-4a-Pro-White.png?v=1772251227": {
+"bg": "clear",
+"ar": 0.493,
+"box": [
+0.2813,
+0.0547,
+0.7187,
+0.942
+]
+},
+"https://cdn.shopify.com/s/files/1/0585/2479/5086/files/Phone-4a-White.png?v=1772251224": {
+"bg": "clear",
+"ar": 0.4956,
+"box": [
+0.2797,
+0.0547,
+0.7203,
+0.9437
+]
+},
+"https://oasis.opstatics.com/content/dam/oasis/page/2023/global/home/salami-share.jpg": {
+"bg": "photo"
+},
+"https://www.oneplus.com/content/dam/oasis/page/2024/global/product/waffle/share.jpg": {
+"bg": "photo"
+},
+"https://oasis.opstatics.com/content/dam/oasis/page/2024/global/product/aston/aston_share.jpg": {
+"bg": "light",
+"ar": 1.0426,
+"box": [
+0.2613,
+0.0327,
+0.7503,
+0.9707
+]
+},
+"https://oasis.opstatics.com/content/dam/oasis/page/2024/global/product/avalon/avalon-share.jpg": {
+"bg": "photo"
+},
+"https://oasis.opstatics.com/content/dam/oasis/page/2023/larry/larry-share.jpg": {
+"bg": "light",
+"ar": 1.3048,
+"box": [
+0.1863,
+0.0533,
+0.807,
+0.9594
+]
+},
+"https://oasis.opstatics.com/content/dam/oasis/page/2024/camry/sharespecs.jpg": {
+"bg": "photo"
+},
+"https://www.honor.com/content/dam/honor/my/product-list/tablets/honor-magicpad-2/honor-magicpad-2-white-list.png": {
+"bg": "clear",
+"ar": 1.462,
+"box": [
+0.0,
+0.158,
+1.0,
+0.842
+]
+},
+"https://www.honor.com/content/dam/honor/common/product-list/tablets/product-series/honor-magicpad-3/global/honor-magicpad-3-white-list.png": {
+"bg": "clear",
+"ar": 1.4045,
+"box": [
+0.0,
+0.144,
+1.0,
+0.856
+]
+},
+"https://www.honor.com/content/dam/honor/common/product-list/tablets/product-series/honor-magicpad-4/honor-magicpad-4-grey-list.png": {
+"bg": "clear",
+"ar": 1.4749,
+"box": [
+0.0,
+0.16,
+1.0,
+0.838
+]
+},
+"https://www.honor.com/content/dam/honor/common/product-list/tablets/product-series/honor-pad-10/honor-pad-10-list.png": {
+"bg": "clear",
+"ar": 1.4837,
+"box": [
+0.0,
+0.162,
+1.0,
+0.836
+]
+},
+"https://www.honor.com/content/dam/honor/common/product-list/tablets/product-series/honor-pad-20/global/honor-pad-20-list.png": {
+"bg": "clear",
+"ar": 1.4205,
+"box": [
+0.0,
+0.148,
+1.0,
+0.852
+]
+},
+"https://www.honor.com/content/dam/honor/my/product-list/tablets/honor-pad-9/honor-pad-9-cyan-list.png": {
+"bg": "clear",
+"ar": 1.4793,
+"box": [
+0.0,
+0.162,
+1.0,
+0.838
+]
+},
+"https://www.honor.com/content/dam/honor/my/products/tablets/honor-pad-x8a/assets/pad-x8a-share.png": {
+"bg": "clear",
+"ar": 1.5016,
+"box": [
+0.024,
+0.202,
+0.976,
+0.836
+]
+},
+"https://www.honor.com/content/dam/honor/common/product-list/tablets/product-series/honor-pad-x9a/honor-pad-x9a-gray-list.png": {
+"bg": "clear",
+"ar": 1.5291,
+"box": [
+0.0,
+0.172,
+1.0,
+0.826
+]
+},
+"https://oasis.opstatics.com/content/dam/oasis/page/2024/global/product/rainbow/rainbow-share.jpg": {
+"bg": "light",
+"ar": 2.3774,
+"box": [
+0.0,
+0.101,
+1.0,
+0.9022
+]
+},
+"https://web.archive.org/web/20260616183805im_/https://i02.appmifile.com/571_item_my/11/11/2024/7f4eff74e6447bf6bf396c84d8795baa.png": {
+"bg": "clear",
+"ar": 0.8209,
+"box": [
+0.1563,
+0.0813,
+0.8437,
+0.9187
+]
+},
+"https://web.archive.org/web/20260611191124im_/https://i02.appmifile.com/444_item_my/12/09/2024/662432b8fa06a7702b7a0f7621079496.png": {
+"bg": "clear",
+"ar": 0.8503,
+"box": [
+0.1447,
+0.083,
+0.8553,
+0.9187
+]
+},
+"https://web.archive.org/web/20260608150735im_/https://i02.appmifile.com/999_item_my/02/04/2024/1f9ae5a9e21992c437f3783767dce6c4.png": {
+"bg": "clear",
+"ar": 0.8427,
+"box": [
+0.148,
+0.0813,
+0.8537,
+0.9187
+]
+},
+"https://web.archive.org/web/20250906012419im_/https://i02.appmifile.com/363_item_my/25/02/2025/da7bf920047395da63d41d5f74f3e0f0.png": {
+"bg": "clear",
+"ar": 0.8717,
+"box": [
+0.138,
+0.0847,
+0.862,
+0.9153
+]
+}
+}
+}

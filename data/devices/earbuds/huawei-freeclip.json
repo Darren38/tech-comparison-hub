@@ -1,0 +1,85 @@
+{
+  "id": "huawei-freeclip",
+  "name": "HUAWEI FreeClip",
+  "brand": "huawei",
+  "category": "earbuds",
+  "series": "HUAWEI FreeClip",
+  "form": "buds",
+  "status": "released",
+  "announced": "2023-12",
+  "released": "2023-12",
+  "segment": "upper-mid",
+  "aliases": [
+    "FreeClip"
+  ],
+  "summary": "Huawei’s first clip-on open-ear earbuds (C-bridge design) with automatic left/right detection and IP54.",
+  "highlights": [
+    "Clip-on open-ear",
+    "Up to 36 h with case",
+    "IP54"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 899,
+      "config": "Retail price",
+      "date": "2023-12-20",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2023/12/20/you-can-now-pre-order-the-huawei-freeclip-in-malaysia-for-rm899/",
+      "class": "news",
+      "accessed": "2026-09-25"
+    }
+  ],
+  "specs": {
+    "audio": {
+      "anc": "No (open-ear design)",
+      "codecs": [
+        "L2HC",
+        "AAC",
+        "SBC"
+      ]
+    },
+    "battery": {
+      "life_h": 8,
+      "total_h": 36,
+      "bud_mah": 55,
+      "case_mah": 510,
+      "claim": "Up to 8 h; 36 h with the case"
+    },
+    "charging": {
+      "wireless": "Yes (about 2 W)",
+      "port": "USB-C"
+    },
+    "build": {
+      "style": "Clip-on open ear",
+      "weight_g": 5.6,
+      "dimensions": {
+        "height_mm": 25.3,
+        "width_mm": 22.0,
+        "depth_mm": 26.7
+      },
+      "case_weight_g": 44.5,
+      "case_dimensions": {
+        "height_mm": 27.35,
+        "width_mm": 51.95,
+        "depth_mm": 59.7
+      },
+      "ip": "IP54"
+    },
+    "software": {
+      "app": "HUAWEI AI Life (Android and iPhone)"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "huawei",
+      "url": "https://consumer.huawei.com/my/headphones/freeclip/specs/",
+      "checked": "2026-09-25",
+      "note": "Read from HUAWEI Malaysia’s specification page. Battery figures are Huawei’s lab claims."
+    }
+  },
+  "dataStatus": "checked"
+}

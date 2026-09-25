@@ -1,0 +1,60 @@
+{
+  "id": "oneplus-pad-2",
+  "name": "OnePlus Pad 2",
+  "brand": "oneplus",
+  "category": "tablet",
+  "series": "OnePlus Pad",
+  "form": "tablet",
+  "status": "released",
+  "segment": "upper-mid",
+  "aliases": [
+    "Pad 2"
+  ],
+  "summary": "A  upper mid-range tablet with the Snapdragon 8 Gen 3 platform and 67 W charging.",
+  "highlights": [
+    "Snapdragon 8 Gen 3 platform"
+  ],
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-25",
+      "source": "oneplus",
+      "note": "Listed on the maker’s Malaysian website, but no Malaysian launch price was found in a launch report."
+    }
+  },
+  "specs": {
+    "display": {
+      "resolution": "3000 × 2120",
+      "refresh_hz": 30,
+      "peak_nits": 900
+    },
+    "platform": {
+      "chipset_note": "Snapdragon 8 Gen 3 platform"
+    },
+    "build": {
+      "weight_g": 584.0,
+      "dimensions": {
+        "height_mm": 268.66,
+        "width_mm": 195.06,
+        "depth_mm": 6.49
+      }
+    },
+    "charging": {
+      "wired_w": 67
+    },
+    "connectivity": {
+      "wifi": "Wi-Fi 7",
+      "bluetooth": "Bluetooth 5.4"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "oneplus",
+      "url": "https://www.oneplus.com/my/oneplus-pad-2/specs",
+      "checked": "2026-09-25",
+      "note": "Read automatically from the maker’s Malaysian specification page and reviewed; values not found on the page are left out."
+    }
+  },
+  "dataStatus": "compiled"
+}

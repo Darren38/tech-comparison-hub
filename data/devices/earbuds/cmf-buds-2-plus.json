@@ -1,0 +1,89 @@
+{
+  "id": "cmf-buds-2-plus",
+  "name": "CMF by Nothing Buds 2 Plus",
+  "brand": "nothing",
+  "category": "earbuds",
+  "series": "CMF Buds",
+  "form": "buds",
+  "status": "released",
+  "segment": "entry",
+  "aliases": [
+    "CMF by Buds 2 Plus"
+  ],
+  "summary": "CMF earbuds with LDAC hi-res audio, strong noise cancelling and up to 61.5 hours with the case.",
+  "highlights": [
+    "Up to 61.5 h with case",
+    "LDAC",
+    "Up to 50 dB ANC (claimed)"
+  ],
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-09-25",
+      "source": "nothing",
+      "note": "No Malaysian launch price was found in a launch report."
+    }
+  },
+  "specs": {
+    "audio": {
+      "anc": "Yes (adaptive, up to 50 dB claimed)",
+      "driver": "12 mm dynamic, LCP diaphragm",
+      "codecs": [
+        "LDAC",
+        "AAC",
+        "SBC"
+      ],
+      "mics": "6 in total"
+    },
+    "battery": {
+      "life_h": 14,
+      "life_anc_h": 7.5,
+      "total_h": 61.5,
+      "bud_mah": 53,
+      "case_mah": 460
+    },
+    "charging": {
+      "port": "USB-C"
+    },
+    "build": {
+      "style": "In-ear with silicone tips",
+      "weight_g": 4.5,
+      "case_weight_g": 42.5,
+      "dimensions": {
+        "height_mm": 33.6,
+        "width_mm": 20.9,
+        "depth_mm": 22.7
+      },
+      "case_dimensions": {
+        "height_mm": 53.3,
+        "width_mm": 53.3,
+        "depth_mm": 23
+      },
+      "ip": "IP55 (earbuds), IPX2 (case)"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.4",
+      "multipoint": "Yes (dual connection)"
+    },
+    "software": {
+      "app": "Nothing X (Android and iPhone)"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "nothing",
+      "url": "https://intl.nothing.tech/products/cmf-buds-2-plus",
+      "checked": "2026-09-25",
+      "note": "Read from the specs section of Nothing’s international store page."
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://cdn.shopify.com/s/files/1/0585/2479/5086/files/CMFBuds2Plus-1352x1352-Blue-2Back.png",
+    "page": "https://intl.nothing.tech/products/cmf-buds-2-plus",
+    "credit": "Nothing",
+    "checked": "2026-09-25"
+  }
+}

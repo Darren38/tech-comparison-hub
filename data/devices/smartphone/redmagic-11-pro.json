@@ -25,24 +25,26 @@
     {
       "region": "US",
       "currency": "USD",
-      "amount": 669,
+      "amount": 749,
       "config": "12 GB / 256 GB",
-      "date": "2025-11",
+      "date": "2025-11-03",
       "type": "launch",
-      "source": "gsmarena",
-      "url": "https://www.gsmarena.com/redmagic_11_pro_brings_its_liquid_cooling_to_the_global_stage-news-70139.php",
-      "class": "news"
+      "source": "fonearena",
+      "url": "https://www.fonearena.com/blog/467770/redmagic-11-pro-price-specifications-global.html",
+      "class": "news",
+      "accessed": "2026-09-25"
     },
     {
       "region": "EU",
       "currency": "EUR",
-      "amount": 669,
+      "amount": 699,
       "config": "12 GB / 256 GB",
-      "date": "2025-11",
+      "date": "2025-11-03",
       "type": "launch",
-      "source": "gsmarena",
-      "url": "https://www.gsmarena.com/redmagic_11_pro_brings_its_liquid_cooling_to_the_global_stage-news-70139.php",
-      "class": "news"
+      "source": "fonearena",
+      "url": "https://www.fonearena.com/blog/467770/redmagic-11-pro-price-specifications-global.html",
+      "class": "news",
+      "accessed": "2026-09-25"
     },
     {
       "region": "MY",
@@ -125,7 +127,7 @@
       "source": "redmagic",
       "url": "https://global.redmagic.gg/pages/redmagic-11-pro-specs",
       "checked": "2026-09-15",
-      "note": "Cross-checked against REDMAGIC's global spec page listing and GSMArena's global launch report."
+      "note": "Cross-checked against REDMAGIC's global spec page listing and FoneArena's global launch report."
     },
     "fields": {
       "specs.display.peak_nits": {
