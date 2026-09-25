@@ -1133,6 +1133,7 @@ details[open] > summary::before {
 }
 
 .origin {
+  min-width: 0;
   padding: var(--sp-3);
   border-radius: var(--radius-sm);
   background: var(--surface-2);
@@ -1164,6 +1165,8 @@ details[open] > summary::before {
   flex-wrap: wrap;
   gap: 4px 8px;
   align-items: baseline;
+  min-width: 0;
+  overflow-wrap: anywhere; /* long source links in notes wrap instead of pushing the page wider */
 }
 
 .record__title {
@@ -2648,3 +2651,23 @@ body:has(.tray:not([hidden])) .ask {
     color: var(--ink-2);
   }
 }
+
+/* Version 19: "Auto · every 3 hours" label on sections that update by themselves */
+.autobadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  padding: 0 7px;
+  border-radius: 999px;
+  border: 1px solid color-mix(in srgb, var(--good, #1c7c4a) 35%, var(--rule));
+  background: color-mix(in srgb, var(--good, #1c7c4a) 9%, var(--surface));
+  color: color-mix(in srgb, var(--good, #1c7c4a) 80%, var(--ink));
+  font: 600 11px/1.6 var(--font-sans, inherit);
+  letter-spacing: 0;
+  text-transform: none;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: help;
+}
+.autobadge__icon { font-size: 12px; line-height: 1; }
+.chart-panel__auto { margin: 0 0 4px; }

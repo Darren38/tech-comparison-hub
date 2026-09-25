@@ -27,10 +27,12 @@ Every path the site uses is relative, so it works from that sub-folder, from a c
 | --- | --- | --- | --- |
 | Exchange rates | Every 3 hours, and in each visitor's browser if the published rates are not from today (Malaysia time) | Bank Negara Malaysia; the browser falls back to ExchangeRate-API | The last rates stay in use, labelled with their date |
 | Latest headlines, videos and YouTube view counts | Every 3 hours | Public RSS feeds; videos through the YouTube Data API (needs the `YOUTUBE_API_KEY` secret) | The previous collection stays; without the key the videos collected earlier stay |
-| iOS releases and betas, Samsung's monthly security update, Apple Malaysia service programmes | At most every 6 hours | `tools/fetch_official.py`: Apple's and Samsung's own pages | The saved part stays |
+| iOS releases and betas, Samsung's monthly security update, Apple Malaysia service programmes, Samsung Malaysia service pages | At most every 6 hours | `tools/fetch_official.py`: Apple's and Samsung's own pages (Samsung's service pages are checked for offer wording, dates and regions, and for changes) | The saved part stays |
 | Benchmark databases (UL 3DMark device pages, DXOMARK's public list, AnTuTu's ranking) | Once a day; later runs that day reuse the result from the Actions cache | `tools/refresh_benchmarks.py`: only phones already matched in `data/benchmarks/`; changes over 30% are held, not applied | That source keeps its saved values |
+| Test results for phones not matched by hand yet (3DMark, DXOMARK, AnTuTu) | Once a day, same cache | `tools/auto_benchmarks.py`: exact model name, plus the same chip where the source names one; DXOMARK must match the full name including "5G"; changes over 30% are held | That source keeps its saved matches |
+| Geekbench 6 averages (CPU chart) | About once a week | `tools/auto_benchmarks.py`: NanoReview device pages, matched by exact name and chip | The saved averages stay |
 | Device pictures | Once a day, same cache | `tools/check_images.py` | A picture that no longer loads shows the outline drawing |
-| Pictures for devices without one, and where the product sits in new pictures | About once a week | `tools/find_images.py`, `tools/image_boxes.py` | Nothing changes until the next week |
+| Pictures for devices without one, and where the product sits in new pictures | Every 3 days | `tools/find_images.py`, `tools/image_boxes.py` | Nothing changes until the next week |
 | Specs, tests, prices, findings | When `data/` changes | Checked by hand | — |
 
 On the live site, **Refresh** loads the newest collection; it cannot collect on the spot, because GitHub Pages cannot run code. Run `python serve.py` locally and Refresh collects immediately.

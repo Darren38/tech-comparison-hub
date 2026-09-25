@@ -179,6 +179,22 @@ def image_fit(src: str | None) -> dict | None:
     return {k: fit[k] for k in ("bg", "ar", "box", "one", "oneAr") if fit.get(k) is not None}
 
 
+AUTO_BENCH_DOCS = {
+    "ul": {"source": "ul-benchmarks", "class": "database", "facets": ["gaming"], "url": "https://benchmarks.ul.com/compare/best-smartphones",
+           "title": "UL 3DMark results for phones matched automatically",
+           "method": "Median of all results users have submitted, read from each phone's official UL device page. The phone was found on UL's smartphone list by its exact model name and the same chip, without a person matching it."},
+    "dxomark": {"source": "dxomark", "class": "measured", "facets": ["camera", "display", "battery", "audio"], "url": "https://www.dxomark.com/smartphones/",
+                "title": "DXOMARK scores for phones matched automatically",
+                "method": "DXOMARK's lab and field test scores from its public list, matched by the exact model name (DXOMARK names no chip, so 4G and 5G versions are never mixed). Camera protocol 5 and 6 scores are kept apart."},
+    "antutu": {"source": "antutu", "class": "database", "facets": ["performance"], "url": "https://www.antutu.com/web/ranking",
+               "title": "AnTuTu V11 scores for phones matched automatically",
+               "method": "AnTuTu's own V11 ranking (the average of all results for each model), matched by model name and the same chip."},
+    "nanoreview": {"source": "nanoreview", "class": "database", "facets": ["performance"], "url": "https://nanoreview.net",
+                   "title": "Geekbench 6 averages (NanoReview) for phones matched automatically",
+                   "method": "Geekbench 6 single- and multi-core averages as listed on each phone's NanoReview page, matched by the exact model name and the same chip. Read about once a week."},
+}
+
+
 def read_auto(name: str) -> dict | None:
     path = AUTO / name
     if not path.exists():
@@ -225,6 +241,35 @@ def apply_auto(ds: "Dataset") -> dict:
                 dev["image"] = None   # the page shows the outline drawing until the picture is fixed in data/
                 hidden += 1
         info["images"] = {"at": images["checkedAt"], "checked": images.get("checked", 0), "hidden": hidden}
+    # Version 19: benchmark results for phones nobody matched by hand yet (tools/auto_benchmarks.py): one document per
+    # source, labelled as matched automatically (exact model name and, where the source names it, the same chip).
+    auto_bench = read_auto("auto_bench.json")
+    if auto_bench and auto_bench.get("matches"):
+        added = {}
+        for source_key, matches in auto_bench["matches"].items():
+            spec = AUTO_BENCH_DOCS.get(source_key)
+            if not spec or not matches:
+                continue
+            records, devices = [], []
+            for dev_id, m in sorted(matches.items()):
+                if dev_id not in ds.devices:
+                    continue
+                listing = f'Listed as "{m.get("name")}"' + (f' ({m["chip"]}' + (f', {m["memory"]} GB' if m.get("memory") else "") + ")" if m.get("chip") else "")
+                for metric, value in (m.get("values") or {}).items():
+                    if metric in ds.metrics and isinstance(value, (int, float)):
+                        records.append({"subject": dev_id, "metric": metric, "value": value,
+                                        "note": f"{listing}. Matched automatically on {m.get('matchedAt')}; checked {m.get('checkedAt')}. {m.get('url', '')}".strip()})
+                devices.append(dev_id)
+            if not records:
+                continue
+            day = (auto_bench["sources"].get(source_key) or {}).get("at", auto_bench.get("updatedAt") or "")[:10]
+            doc = {"id": f"auto-{source_key}", "kind": "benchmark", "source": spec["source"], "title": spec["title"],
+                   "url": spec["url"], "accessed": day, "class": spec["class"], "devices": sorted(set(devices)),
+                   "facets": spec["facets"], "method": spec["method"], "records": records, "extraction": "complete",
+                   "auto": True, "_folder": "benchmarks", "_file": f"live/auto/auto_bench.json ({source_key})"}
+            ds.documents[doc["id"]] = doc
+            added[source_key] = len(set(devices))
+        info["autoBench"] = {"at": auto_bench.get("updatedAt"), "phones": added}
     # Version 17: official pictures found automatically (tools/find_images.py) for devices with none in data/.
     # A picture the daily check lists as broken is not used; the usual picture rules are validated afterwards.
     found = read_auto("found_images.json")
@@ -925,7 +970,7 @@ def filter_fields(ds: Dataset, dev: dict, has_tests: bool) -> dict:
 def doc_meta(doc: dict) -> dict:
     keep = ("id", "kind", "type", "source", "testedBy", "title", "url", "published", "publishedApprox", "accessed", "author",
             "class", "category", "platform", "devices", "chipsets", "facets", "summary", "region", "extraction",
-            "verification", "verified", "method", "related")
+            "verification", "verified", "method", "related", "auto")
     meta = {k: doc[k] for k in keep if doc.get(k) not in (None, [], "")}
     meta["folder"] = doc["_folder"]
     meta["recordCount"] = len(doc.get("records", []))

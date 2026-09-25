@@ -56,6 +56,14 @@ export function pageTrail(crumbs = []) {
 }
 
 /** Simple / Detailed view switch (Version 17). The current choice is marked by viewMode.apply(). */
+/**
+ * Version 19: a small label on every section that updates by itself, with how often ("every 3 hours", "daily",
+ * "weekly"). The tooltip says the rest. Timings match .github/workflows/pages.yml.
+ */
+export function autoBadge(every, what = '') {
+  return html`<span class="autobadge" title="${`Updates automatically ${every}${what ? ` (${what})` : ''}. No one has to update this part by hand.`}"><span class="autobadge__icon" aria-hidden="true">↻</span> Auto · ${every}</span>`;
+}
+
 export function modeSwitch() {
   return html`<div class="modeswitch" role="group" aria-label="View">
     <span class="modeswitch__label tiny muted">View</span>

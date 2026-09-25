@@ -522,29 +522,59 @@
    "regions": []
   }
  ],
- "updatedAt": "2026-09-25T05:14:50+00:00",
+ "updatedAt": "2026-09-25T07:59:36+00:00",
  "status": {
   "appleReleases": {
    "ok": true,
-   "at": "2026-09-25T05:14:50+00:00"
+   "at": "2026-09-25T07:59:36+00:00"
   },
   "appleBetas": {
    "ok": true,
-   "at": "2026-09-25T05:14:50+00:00"
+   "at": "2026-09-25T07:59:36+00:00"
   },
   "samsungSecurity": {
    "ok": true,
-   "at": "2026-09-25T05:14:50+00:00"
+   "at": "2026-09-25T07:59:36+00:00"
   },
   "appleServicePrograms": {
    "ok": true,
-   "at": "2026-09-25T05:14:50+00:00"
+   "at": "2026-09-25T07:59:36+00:00"
   },
   "offerPageRegions": {
    "ok": true,
-   "at": "2026-09-25T05:14:50+00:00"
+   "at": "2026-09-25T07:59:36+00:00"
+  },
+  "samsungServicePages": {
+   "ok": true,
+   "at": "2026-09-25T07:59:36+00:00"
   }
  },
  "note": "Facts read automatically from Apple's and Samsung's own pages; titles, versions, dates and links only.",
- "offerPageRegions": {}
+ "offerPageRegions": {},
+ "samsungServicePages": [
+  {
+   "title": "Screen Replacement for Smartphones and Tablets",
+   "url": "https://www.samsung.com/my/support/mobile-devices/screen-replacement-for-smartphones-and-tablets/",
+   "offers": [],
+   "dates": [
+    "03 January 2025"
+   ],
+   "regions": [],
+   "hash": "f1bf81ca73a58682",
+   "watchedSince": "2026-09-25",
+   "changed": null,
+   "checked": "2026-09-25"
+  },
+  {
+   "title": "Samsung Service Center Operation Update",
+   "url": "https://www.samsung.com/my/support/mobile-devices/service-center-service-status-update/",
+   "offers": [],
+   "dates": [],
+   "regions": [],
+   "hash": "dd50d72f8948d04b",
+   "watchedSince": "2026-09-25",
+   "changed": null,
+   "checked": "2026-09-25"
+  }
+ ]
 }

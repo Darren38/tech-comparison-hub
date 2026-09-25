@@ -184,7 +184,8 @@
     "type": "database",
     "tier": "B",
     "url": "https://browser.geekbench.com",
-    "methodology": "Public database of user-submitted Geekbench runs from Primate Labs. Individual listings are unverified and can come from pre-release units, so single results carry low weight."
+    "methodology": "Public database of user-submitted Geekbench runs from Primate Labs. Individual listings are unverified and can come from pre-release units, so single results carry low weight.",
+    "notes": "Its site sits behind a bot challenge, which this project never bypasses, so it is not read automatically; Geekbench averages come from NanoReview instead."
   },
   {
     "id": "geekerwan",
@@ -372,9 +373,8 @@
     "type": "database",
     "tier": "B",
     "url": "https://nanoreview.net",
-    "status": "planned",
-    "methodology": "SoC and phone comparison database (AnTuTu, Geekbench, 3DMark, and its own ratings).",
-    "notes": "Registered but holds no records yet. Automated access is blocked, so data must be entered by hand with attribution, following the site's terms."
+    "methodology": "Phone and chip comparison database. Its phone pages list Geekbench 6 single- and multi-core averages and the chip, which the site reads about once a week for phones matched by exact name and chip.",
+    "notes": "Read automatically since 25 September 2026 (robots.txt allows it; one page every 1.5 seconds, weekly). Only the numbers and the page link are kept."
   },
   {
     "id": "socpk",

@@ -5,7 +5,7 @@ import { html, mount as mountHtml } from '../lib/html.js';
 import { fmtNumber, fmtDate, plural } from '../lib/format.js';
 import { store, loadCoverage, metricDef, deviceTitle, sourceName, categoryCount } from '../core/store.js';
 import { href } from '../core/router.js';
-import { sectionHead, sourceLink, tag, provBadge, emptyState, pageOutline, bindOutline, pageTrail, extLink } from '../ui/components.js';
+import { sectionHead, sourceLink, tag, provBadge, emptyState, pageOutline, bindOutline, pageTrail, extLink, autoBadge } from '../ui/components.js';
 import { scoreBars } from '../ui/charts.js';
 
 function stackBar(row, total) {
@@ -115,7 +115,7 @@ export default async function render() {
       </div>
 
       <section class="card stack" id="cov-spotted" data-spotted hidden>
-        ${sectionHead('New models spotted in the news', { level: 3, right: html`<span class="tiny muted">Named by two or more sources · not in the hub yet</span>` })}
+        ${sectionHead('New models spotted in the news', { level: 3, right: html`<span class="tiny muted">Named by two or more sources · not in the hub yet</span> ${autoBadge('every 3 hours')}` })}
         <p class="small muted">The headline collector looks for model names that several sources mention but the hub doesn't have yet. They are added once the maker publishes specifications, so this list is also a preview of what is coming.</p>
         <ul class="spotted" data-spotted-list></ul>
         <p class="tiny muted" data-spotted-when></p>

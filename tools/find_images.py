@@ -1,4 +1,4 @@
-"""Find official pictures for devices that have none (Version 17), about once a week.
+"""Find official pictures for devices that have none (Version 17), every 3 days.
 
     python tools/find_images.py                      look now, write live/auto/found_images.json
     python tools/find_images.py --max-age-hours 160  do nothing if the saved search is newer than that

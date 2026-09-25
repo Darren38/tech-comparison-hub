@@ -5,7 +5,7 @@ import { html, mount } from '../lib/html.js';
 import { fmtDate, fmtDateTime, plural, timeAgo, fmtViews } from '../lib/format.js';
 import { store, sourceName } from '../core/store.js';
 import { href } from '../core/router.js';
-import { docCard, emptyState, provBadge, sourceLink, extLink, tag, sectionHead, icon, pageTrail, cardThumb, thumbLink } from '../ui/components.js';
+import { docCard, emptyState, provBadge, sourceLink, extLink, tag, sectionHead, icon, pageTrail, cardThumb, thumbLink, autoBadge } from '../ui/components.js';
 import { loadHeadlines, refreshHeadlines, canCollectLive, isSafeUrl, loadViews, youtubeId } from '../engine/live.js';
 import { isZh } from '../core/i18n.js';
 import { softwareSection, fillSoftware, offersSection, fillOffers, chipsSection, fillChips } from '../ui/newsdesk.js';
@@ -97,7 +97,7 @@ function livePanel(mode) {
   return html`<section class="live" aria-labelledby="live-h" data-live>
     <div class="live__head">
       <div class="live__heading">
-        <div class="eyebrow live__eyebrow"><span class="live__dot" aria-hidden="true"></span> Collected automatically · not checked by hand</div>
+        <div class="eyebrow live__eyebrow"><span class="live__dot" aria-hidden="true"></span> Collected automatically · not checked by hand ${autoBadge('every 3 hours', 'from the publishers’ feeds and YouTube')}</div>
         <h2 id="live-h">${mode.liveTitle}</h2>
         <p class="small live__status" data-live-status role="status" aria-live="polite">Loading the latest collection…</p>
       </div>
@@ -299,7 +299,7 @@ export default async function render({ params, query }) {
       },
     };
   }
-  const all = store.documents.filter((d) => mode.kinds.includes(d.kind));
+  const all = store.documents.filter((d) => mode.kinds.includes(d.kind) && !d.auto);
   let filter = query.filter ?? 'all';
   let order = query.sort === 'views' ? 'views' : 'newest';
   const viewsData = params[0] === 'reviews' ? await loadViews() : null;

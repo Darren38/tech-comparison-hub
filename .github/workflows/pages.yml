@@ -5,14 +5,16 @@
 #   - Bank Negara Malaysia exchange rates   (tools/update_rates.py; keeps the saved rates if unreachable)
 #   - latest headlines and YouTube view counts from registered feeds (tools/fetch_headlines.py), added to the year-long
 #     archive carried over from the live site (tools/seed_live.py), each headline matched to devices, chips and a topic
-#   - at most every 6 hours: Apple's iOS release table and developer releases, Samsung's security bulletin and
-#     Apple Malaysia's service programmes (tools/fetch_official.py)
+#   - at most every 6 hours: Apple's iOS release table and developer releases, Samsung's security bulletin,
+#     Apple Malaysia's service programmes and Samsung Malaysia's service pages (tools/fetch_official.py)
 #   - one readable page per device and chip plus sitemap.xml for search engines (tools/seo.py)
 # and once a day (the first run after 00:00 UTC, kept in a cache for that day's later runs):
 #   - benchmark databases: UL 3DMark, AnTuTu, DXOMARK (tools/refresh_benchmarks.py; only phones already matched,
 #     large jumps held for a person to check, a source that can't be read keeps its saved values)
+#   - phones nobody has matched by hand join the 3DMark, DXOMARK and AnTuTu charts when their exact name and chip match
+#     a listing, and Geekbench averages from NanoReview are read about once a week (tools/auto_benchmarks.py)
 #   - every device picture still loads (tools/check_images.py; a broken one shows the outline drawing instead)
-# and about once a week:
+# and every 3 days:
 #   - official pictures for devices without one, from the maker's own page (tools/find_images.py)
 #   - where the product sits in each new picture, so pages can show it cropped and large (tools/image_boxes.py)
 # The daily run also keeps the schedule switched on (GitHub would otherwise pause it after 60 days without a push).
@@ -83,18 +85,22 @@ jobs:
         run: python tools/refresh_benchmarks.py --max-age-hours 20
         continue-on-error: true
 
+      - name: Add results for phones not matched by hand yet (3DMark, DXOMARK, AnTuTu daily; Geekbench weekly)
+        run: python tools/auto_benchmarks.py
+        continue-on-error: true
+
       - name: Check device pictures (once a day)
         run: python tools/check_images.py --max-age-hours 20
         continue-on-error: true
 
-      - name: Find official pictures for devices without one (about once a week)
-        run: python tools/find_images.py --max-age-hours 160
+      - name: Find official pictures for devices without one (every 3 days)
+        run: python tools/find_images.py --max-age-hours 69
         continue-on-error: true
 
-      - name: Measure where the product sits in new pictures (about once a week)
+      - name: Measure where the product sits in new pictures (every 3 days, after the search)
         run: |
           pip install --quiet pillow
-          python tools/image_boxes.py --max-age-hours 160
+          python tools/image_boxes.py --max-age-hours 69
         continue-on-error: true
 
       - name: Validate and build data

@@ -1,5 +1,25 @@
 # Changelog
 
+## 25 September 2026 (third update)
+
+Everything that can update by itself now does, and each such section says so.
+
+**New phones join the charts automatically**
+- 3DMark, DXOMARK and AnTuTu results for phones nobody has matched by hand are added when a listing has the exact model name and, where the source names it, the same chip. The first run added 3DMark results for 13 phones (ROG Phone 7, Zenfone 10–12 Ultra, OnePlus 11/12/15R, REDMAGIC 9 Pro, 10 Air and 11 Air, realme GT 6 and GT 8 Pro) and DXOMARK scores for 18 (Pixel 7a to 10a and Fold models, ROG Phone 7, Zenfone 10 and 11 Ultra, OnePlus 11, OPPO Find X9 Ultra, vivo X300 Ultra).
+- Care taken: 4G and 5G versions of a model are kept apart (DXOMARK must match the full name including "5G"), a Galaxy sold here with Exynos is never matched to a Snapdragon listing, and a phone with no chip recorded is not matched to a chip-bearing listing. Every result is labelled "matched automatically"; a jump of more than 30% is held for a person to check.
+- **Geekbench (CPU chart)**: Geekbench 6 averages from NanoReview, read about once a week for phones matched by exact name and chip. Geekbench's own site is behind a bot check, which this project never gets around.
+- AnTuTu moved its ranking page; the daily refresh, which had been failing since, reads the new address.
+
+**Samsung service offers in Malaysia**
+- Samsung Malaysia publishes no list of programmes, so its screen-replacement and service-centre pages are now read every 6 hours and shown under Service offers in Malaysia: any free, discount, promotion or extended-warranty wording, dates, the region or state named, and when the page last changed.
+
+**Pictures**
+- Official pictures for devices that have none are now looked for every 3 days instead of weekly, and new pictures are measured straight after, so a new device gets its picture sooner.
+
+**Auto-update labels**
+- A small "Auto · every 3 hours / every 6 hours / daily / weekly" label marks every section that updates by itself: headlines and videos, the news sections, device and chip news, new models spotted, official Apple and Samsung facts, and each chart test whose results refresh automatically. Hover it for the source.
+
+
 ## 25 September 2026 (second update)
 
 The News page gets three new sections that keep themselves up to date: software updates for iOS and One UI, Apple and Samsung service offers in Malaysia, and flagship chips. More YouTube channels, read the way YouTube allows.

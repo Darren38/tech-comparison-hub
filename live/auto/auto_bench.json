@@ -1,0 +1,1561 @@
+{
+ "updatedAt": "2026-09-25T09:05:43+00:00",
+ "sources": {
+  "dxomark": {
+   "ok": true,
+   "at": "2026-09-25T07:57:40+00:00",
+   "matched": 18,
+   "phones": 601
+  },
+  "antutu": {
+   "ok": true,
+   "at": "2026-09-25T07:56:38+00:00",
+   "matched": 0,
+   "rows": 118
+  },
+  "ul": {
+   "ok": true,
+   "at": "2026-09-25T07:57:53+00:00",
+   "matched": 13,
+   "rows": 307,
+   "pagesRead": 14
+  },
+  "nanoreview": {
+   "ok": true,
+   "at": "2026-09-25T09:05:43+00:00",
+   "matched": 95,
+   "pagesRead": 220,
+   "retryLater": 0
+  }
+ },
+ "matches": {
+  "dxomark": {
+   "asus-rog-phone-7": {
+    "name": "Asus ROG Phone 7",
+    "url": "https://www.dxomark.com/smartphones/Asus/ROG-Phone-7",
+    "values": {
+     "dxomark_camera_v5": 108,
+     "dxomark_display": 132,
+     "dxomark_battery": 135,
+     "dxomark_audio": 148
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "asus-zenfone-10": {
+    "name": "Asus Zenfone 10",
+    "url": "https://www.dxomark.com/smartphones/Asus/Zenfone-10",
+    "values": {
+     "dxomark_display": 126,
+     "dxomark_audio": 131
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "asus-zenfone-11-ultra": {
+    "name": "Asus Zenfone 11 Ultra",
+    "url": "https://www.dxomark.com/smartphones/Asus/Zenfone-11-Ultra",
+    "values": {
+     "dxomark_camera_v5": 125,
+     "dxomark_display": 143
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "google-pixel-10-pro-fold": {
+    "name": "Google Pixel 10 Pro Fold",
+    "url": "https://www.dxomark.com/smartphones/Google/Pixel-10-Pro-Fold",
+    "values": {
+     "dxomark_display": 156
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "google-pixel-10a": {
+    "name": "Google Pixel 10a",
+    "url": "https://www.dxomark.com/smartphones/Google/Pixel-10a",
+    "values": {
+     "dxomark_camera": 134
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "google-pixel-7a": {
+    "name": "Google Pixel 7a",
+    "url": "https://www.dxomark.com/smartphones/Google/Pixel-7a",
+    "values": {
+     "dxomark_camera_v5": 133,
+     "dxomark_display": 135,
+     "dxomark_battery": 96,
+     "dxomark_audio": 132
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "google-pixel-8-pro": {
+    "name": "Google Pixel 8 Pro",
+    "url": "https://www.dxomark.com/smartphones/Google/Pixel-8-Pro",
+    "values": {
+     "dxomark_camera_v5": 153,
+     "dxomark_display": 154,
+     "dxomark_battery": 111,
+     "dxomark_audio": 142
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "google-pixel-8": {
+    "name": "Google Pixel 8",
+    "url": "https://www.dxomark.com/smartphones/Google/Pixel-8",
+    "values": {
+     "dxomark_camera_v5": 148,
+     "dxomark_display": 153,
+     "dxomark_battery": 103,
+     "dxomark_audio": 140
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "google-pixel-8a": {
+    "name": "Google Pixel 8a",
+    "url": "https://www.dxomark.com/smartphones/Google/Pixel-8a",
+    "values": {
+     "dxomark_camera_v5": 136,
+     "dxomark_display": 145
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "google-pixel-9-pro-fold": {
+    "name": "Google Pixel 9 Pro Fold",
+    "url": "https://www.dxomark.com/smartphones/Google/Pixel-9-Pro-Fold",
+    "values": {
+     "dxomark_camera_v5": 141,
+     "dxomark_camera": 129,
+     "dxomark_display": 152
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "google-pixel-9-pro-xl": {
+    "name": "Google Pixel 9 Pro XL",
+    "url": "https://www.dxomark.com/smartphones/Google/Pixel-9-Pro-XL",
+    "values": {
+     "dxomark_camera_v5": 158,
+     "dxomark_camera": 160,
+     "dxomark_display": 158
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "google-pixel-9-pro": {
+    "name": "Google Pixel 9 Pro",
+    "url": "https://www.dxomark.com/smartphones/Google/Pixel-9-Pro",
+    "values": {
+     "dxomark_display": 158
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "google-pixel-9": {
+    "name": "Google Pixel 9",
+    "url": "https://www.dxomark.com/smartphones/Google/Pixel-9",
+    "values": {
+     "dxomark_camera_v5": 154,
+     "dxomark_camera": 143,
+     "dxomark_display": 156
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "google-pixel-9a": {
+    "name": "Google Pixel 9a",
+    "url": "https://www.dxomark.com/smartphones/Google/Pixel-9a",
+    "values": {
+     "dxomark_camera_v5": 143,
+     "dxomark_camera": 128,
+     "dxomark_display": 155
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "google-pixel-fold": {
+    "name": "Google Pixel Fold",
+    "url": "https://www.dxomark.com/smartphones/Google/Pixel-Fold",
+    "values": {
+     "dxomark_camera_v5": 133,
+     "dxomark_display": 145,
+     "dxomark_battery": 88,
+     "dxomark_audio": 133
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "oneplus-11": {
+    "name": "OnePlus 11",
+    "url": "https://www.dxomark.com/smartphones/OnePlus/11",
+    "values": {
+     "dxomark_camera_v5": 127,
+     "dxomark_display": 124,
+     "dxomark_battery": 125,
+     "dxomark_audio": 128
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "oppo-find-x9-ultra": {
+    "name": "Oppo Find X9 Ultra",
+    "url": "https://www.dxomark.com/smartphones/Oppo/Find-X9-Ultra",
+    "values": {
+     "dxomark_camera": 170
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "vivo-x300-ultra": {
+    "name": "Vivo X300 Ultra",
+    "url": "https://www.dxomark.com/smartphones/Vivo/X300-Ultra",
+    "values": {
+     "dxomark_camera": 170
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   }
+  },
+  "antutu": {},
+  "ul": {
+   "asus-rog-phone-7-ultimate": {
+    "name": "Asus ROG Phone 7 Ultimate",
+    "chip": "Snapdragon 8 Gen 2",
+    "url": "https://benchmarks.ul.com/hardware/phone/Asus+ROG+Phone+7+Ultimate+review",
+    "values": {
+     "wle": 3717,
+     "solar_bay": 5353,
+     "steel_nomad_light": 1094
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "asus-rog-phone-7": {
+    "name": "Asus ROG Phone 7",
+    "chip": "Snapdragon 8 Gen 2",
+    "url": "https://benchmarks.ul.com/hardware/phone/Asus+ROG+Phone+7+review",
+    "values": {
+     "wle": 3686,
+     "solar_bay": 5348,
+     "steel_nomad_light": 1095
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "asus-zenfone-10": {
+    "name": "Asus ZenFone 10",
+    "chip": "Snapdragon 8 Gen 2",
+    "url": "https://benchmarks.ul.com/hardware/phone/Asus+ZenFone+10+review",
+    "values": {
+     "wle": 3703,
+     "solar_bay": 5365,
+     "steel_nomad_light": 1098
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "asus-zenfone-11-ultra": {
+    "name": "Asus ZenFone 11 Ultra",
+    "chip": "Snapdragon 8 Gen 3",
+    "url": "https://benchmarks.ul.com/hardware/phone/Asus+ZenFone+11+Ultra+review",
+    "values": {
+     "wle": 5150,
+     "solar_bay": 8684,
+     "steel_nomad_light": 1710
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "asus-zenfone-12-ultra": {
+    "name": "Asus ZenFone 12 Ultra",
+    "chip": "Snapdragon 8 Elite",
+    "url": "https://benchmarks.ul.com/hardware/phone/Asus+ZenFone+12+Ultra+review",
+    "values": {
+     "wle": 5064,
+     "solar_bay": 8559,
+     "steel_nomad_light": 1751
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "oneplus-11": {
+    "name": "OnePlus 11",
+    "chip": "Snapdragon 8 Gen 2",
+    "url": "https://benchmarks.ul.com/hardware/phone/OnePlus+11+review",
+    "values": {
+     "wle": 3662,
+     "solar_bay": 5312,
+     "steel_nomad_light": 1091
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "oneplus-12": {
+    "name": "OnePlus 12",
+    "chip": "Snapdragon 8 Gen 3",
+    "url": "https://benchmarks.ul.com/hardware/phone/OnePlus+12+review",
+    "values": {
+     "wle": 4689,
+     "solar_bay": 8359,
+     "steel_nomad_light": 1676
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "oneplus-15r": {
+    "name": "OnePlus 15R",
+    "chip": "Snapdragon 8 Gen 5",
+    "url": "https://benchmarks.ul.com/hardware/phone/OnePlus+15R+review",
+    "values": {
+     "wle": 4821,
+     "solar_bay": 8994,
+     "steel_nomad_light": 1946
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "realme-gt-6": {
+    "name": "Realme GT 6",
+    "chip": "Snapdragon 8s Gen 3",
+    "url": "https://benchmarks.ul.com/hardware/phone/Realme+GT+6+review",
+    "values": {
+     "wle": 2839,
+     "solar_bay": 4776,
+     "steel_nomad_light": 1010
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "realme-gt-8-pro": {
+    "name": "Realme GT8 Pro",
+    "chip": "Snapdragon 8 Elite Gen 5",
+    "url": "https://benchmarks.ul.com/hardware/phone/Realme+GT8+Pro+review",
+    "values": {
+     "wle": 6266,
+     "solar_bay": 12974,
+     "steel_nomad_light": 2975
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "redmagic-10-air": {
+    "name": "Redmagic 10 Air",
+    "chip": "Snapdragon 8 Gen 3",
+    "url": "https://benchmarks.ul.com/hardware/phone/Redmagic+10+Air+review",
+    "values": {
+     "wle": 4617,
+     "solar_bay": 7660,
+     "steel_nomad_light": 1515
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "redmagic-11-air": {
+    "name": "Redmagic 11 Air",
+    "chip": "Snapdragon 8 Elite",
+    "url": "https://benchmarks.ul.com/hardware/phone/Redmagic+11+Air+review",
+    "values": {
+     "wle": 6732,
+     "solar_bay": 11964,
+     "steel_nomad_light": 2536
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "redmagic-9-pro": {
+    "name": "Redmagic 9 Pro",
+    "chip": "Snapdragon 8 Gen 3",
+    "url": "https://benchmarks.ul.com/hardware/phone/Redmagic+9+Pro+review",
+    "values": {
+     "wle": 5171,
+     "solar_bay": 8666,
+     "steel_nomad_light": 1727
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   }
+  },
+  "nanoreview": {
+   "xiaomi-18-pro-max": {
+    "name": "Xiaomi 18 Pro Max",
+    "chip": "Qualcomm Snapdragon 8 Elite Extreme Gen 6",
+    "url": "https://nanoreview.net/en/phone/xiaomi-18-pro-max",
+    "values": {
+     "gb6_single": 3762,
+     "gb6_multi": 11459
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "xiaomi-18-pro": {
+    "name": "Xiaomi 18 Pro",
+    "chip": "Qualcomm Snapdragon 8 Elite Gen 6",
+    "url": "https://nanoreview.net/en/phone/xiaomi-18-pro",
+    "values": {
+     "gb6_single": 3866,
+     "gb6_multi": 11140
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "oppo-find-x10-e": {
+    "name": "Oppo Find X10 E",
+    "chip": "MediaTek Dimensity 9500s",
+    "url": "https://nanoreview.net/en/phone/oppo-find-x10-e",
+    "values": {
+     "gb6_single": 2470,
+     "gb6_multi": 7498
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "oppo-find-x10-pro-max": {
+    "name": "Oppo Find X10 Pro Max",
+    "chip": "MediaTek Dimensity 9600 Pro",
+    "url": "https://nanoreview.net/en/phone/oppo-find-x10-pro-max",
+    "values": {
+     "gb6_single": 3943,
+     "gb6_multi": 12130
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "oppo-find-x10": {
+    "name": "Oppo Find X10",
+    "chip": "MediaTek Dimensity 9600M",
+    "url": "https://nanoreview.net/en/phone/oppo-find-x10",
+    "values": {
+     "gb6_single": 3609,
+     "gb6_multi": 10750
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "vivo-x500-pro-max": {
+    "name": "Vivo X500 Pro Max",
+    "chip": "MediaTek Dimensity 9600 Pro",
+    "url": "https://nanoreview.net/en/phone/vivo-x500-pro-max",
+    "values": {
+     "gb6_single": 4172,
+     "gb6_multi": 12688
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "vivo-x500-pro": {
+    "name": "Vivo X500 Pro",
+    "chip": "MediaTek Dimensity 9600 Pro",
+    "url": "https://nanoreview.net/en/phone/vivo-x500-pro",
+    "values": {
+     "gb6_single": 4184,
+     "gb6_multi": 12603
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "vivo-x500": {
+    "name": "Vivo X500",
+    "chip": "MediaTek Dimensity 9600M",
+    "url": "https://nanoreview.net/en/phone/vivo-x500",
+    "values": {
+     "gb6_single": 3314,
+     "gb6_multi": 10400
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "oppo-a7-pro-max": {
+    "name": "Oppo A7 Pro Max",
+    "chip": "Qualcomm Snapdragon 4 Gen 5",
+    "url": "https://nanoreview.net/en/phone/oppo-a7-pro-max",
+    "values": {
+     "gb6_single": 976,
+     "gb6_multi": 2250
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "apple-iphone-duo": {
+    "name": "Apple iPhone Duo",
+    "chip": "Apple A20 Pro",
+    "url": "https://nanoreview.net/en/phone/apple-iphone-duo",
+    "values": {
+     "gb6_single": 4731,
+     "gb6_multi": 13202
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "nothing-phone-4b": {
+    "name": "Nothing Phone (4b)",
+    "chip": "Qualcomm Snapdragon 6 Gen 4",
+    "url": "https://nanoreview.net/en/phone/nothing-phone-4b",
+    "values": {
+     "gb6_single": 1087,
+     "gb6_multi": 3148
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "apple-iphone-18-pro-max": {
+    "name": "Apple iPhone 18 Pro Max",
+    "chip": "Apple A20 Pro",
+    "url": "https://nanoreview.net/en/phone/apple-iphone-18-pro-max",
+    "values": {
+     "gb6_single": 4725,
+     "gb6_multi": 12575
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "apple-iphone-18-pro": {
+    "name": "Apple iPhone 18 Pro",
+    "chip": "Apple A20 Pro",
+    "url": "https://nanoreview.net/en/phone/apple-iphone-18-pro",
+    "values": {
+     "gb6_single": 4719,
+     "gb6_multi": 12677
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "samsung-galaxy-s26-fe": {
+    "name": "Samsung Galaxy S26 FE",
+    "chip": "Samsung Exynos 2500",
+    "url": "https://nanoreview.net/en/phone/samsung-galaxy-s26-fe",
+    "values": {
+     "gb6_single": 2217,
+     "gb6_multi": 7699
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "google-pixel-11-pro-fold": {
+    "name": "Google Pixel 11 Pro Fold",
+    "chip": "Google Tensor G6",
+    "url": "https://nanoreview.net/en/phone/google-pixel-11-pro-fold",
+    "values": {
+     "gb6_single": 2587,
+     "gb6_multi": 5446
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "google-pixel-11-pro-xl": {
+    "name": "Google Pixel 11 Pro XL",
+    "chip": "Google Tensor G6",
+    "url": "https://nanoreview.net/en/phone/google-pixel-11-pro-xl",
+    "values": {
+     "gb6_single": 2888,
+     "gb6_multi": 7641
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "google-pixel-11-pro": {
+    "name": "Google Pixel 11 Pro",
+    "chip": "Google Tensor G6",
+    "url": "https://nanoreview.net/en/phone/google-pixel-11-pro",
+    "values": {
+     "gb6_single": 2688,
+     "gb6_multi": 6871
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "google-pixel-11": {
+    "name": "Google Pixel 11",
+    "chip": "Google Tensor G6",
+    "url": "https://nanoreview.net/en/phone/google-pixel-11",
+    "values": {
+     "gb6_single": 2575,
+     "gb6_multi": 6027
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "honor-pad-20": {
+    "name": "Honor Pad 20",
+    "chip": "Qualcomm Snapdragon 7 Gen 3",
+    "url": "https://nanoreview.net/en/tablet/honor-pad-20",
+    "values": {
+     "gb6_single": 1154,
+     "gb6_multi": 3110
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "huawei-pura-90s-pro-max": {
+    "name": "Huawei Pura 90s Pro Max",
+    "chip": "HiSilicon Kirin 9030S",
+    "url": "https://nanoreview.net/en/phone/huawei-pura-90s-pro-max",
+    "values": {
+     "gb6_single": 1269,
+     "gb6_multi": 4424
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "huawei-pura-90s-pro": {
+    "name": "Huawei Pura 90s Pro",
+    "chip": "HiSilicon Kirin 9030S",
+    "url": "https://nanoreview.net/en/phone/huawei-pura-90s-pro",
+    "values": {
+     "gb6_single": 1319,
+     "gb6_multi": 4470
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "samsung-galaxy-a27-5g": {
+    "name": "Samsung Galaxy A27 5G",
+    "chip": "Qualcomm Snapdragon 6 Gen 3",
+    "url": "https://nanoreview.net/en/phone/samsung-galaxy-a27-5g",
+    "values": {
+     "gb6_single": 1002,
+     "gb6_multi": 2993
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "honor-magic-v6": {
+    "name": "Honor Magic V6",
+    "chip": "Qualcomm Snapdragon 8 Elite Gen 5",
+    "url": "https://nanoreview.net/en/phone/honor-magic-v6",
+    "values": {
+     "gb6_single": 3707,
+     "gb6_multi": 10626
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "xiaomi-17t-pro": {
+    "name": "Xiaomi 17T Pro",
+    "chip": "MediaTek Dimensity 9500",
+    "url": "https://nanoreview.net/en/phone/xiaomi-17t-pro",
+    "values": {
+     "gb6_single": 3334,
+     "gb6_multi": 10348
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "xiaomi-17t": {
+    "name": "Xiaomi 17T",
+    "chip": "MediaTek Dimensity 8500 Ultra",
+    "url": "https://nanoreview.net/en/phone/xiaomi-17t",
+    "values": {
+     "gb6_single": 1704,
+     "gb6_multi": 6686
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "vivo-x300-fe": {
+    "name": "Vivo X300 FE",
+    "chip": "Qualcomm Snapdragon 8 Gen 5",
+    "url": "https://nanoreview.net/en/phone/vivo-x300-fe",
+    "values": {
+     "gb6_single": 2818,
+     "gb6_multi": 9052
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "vivo-x300-ultra": {
+    "name": "Vivo X300 Ultra",
+    "chip": "Qualcomm Snapdragon 8 Elite Gen 5",
+    "url": "https://nanoreview.net/en/phone/vivo-x300-ultra",
+    "values": {
+     "gb6_single": 3784,
+     "gb6_multi": 11394
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "sony-xperia-1-viii": {
+    "name": "Sony Xperia 1 VIII",
+    "chip": "Qualcomm Snapdragon 8 Elite Gen 5",
+    "url": "https://nanoreview.net/en/phone/sony-xperia-1-viii",
+    "values": {
+     "gb6_single": 3522,
+     "gb6_multi": 9923
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "motorola-razr-ultra-2026": {
+    "name": "Motorola Razr Ultra (2026)",
+    "chip": "Qualcomm Snapdragon 8 Elite",
+    "url": "https://nanoreview.net/en/phone/motorola-razr-ultra-2026",
+    "values": {
+     "gb6_single": 2874,
+     "gb6_multi": 8889
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "oppo-find-x9-ultra": {
+    "name": "Oppo Find X9 Ultra",
+    "chip": "Qualcomm Snapdragon 8 Elite Gen 5",
+    "url": "https://nanoreview.net/en/phone/oppo-find-x9-ultra",
+    "values": {
+     "gb6_single": 3536,
+     "gb6_multi": 10744
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "vivo-v70-fe": {
+    "name": "Vivo V70 FE",
+    "chip": "Mediatek Dimensity 7360 Turbo",
+    "url": "https://nanoreview.net/en/phone/vivo-v70-fe",
+    "values": {
+     "gb6_single": 1025,
+     "gb6_multi": 2882
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "nothing-phone-4a-pro": {
+    "name": "Nothing Phone (4a) Pro",
+    "chip": "Qualcomm Snapdragon 7 Gen 4",
+    "url": "https://nanoreview.net/en/phone/nothing-phone-4a-pro",
+    "values": {
+     "gb6_single": 1332,
+     "gb6_multi": 4146
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "nothing-phone-4a": {
+    "name": "Nothing Phone (4a)",
+    "chip": "Qualcomm Snapdragon 7s Gen 4",
+    "url": "https://nanoreview.net/en/phone/nothing-phone-4a",
+    "values": {
+     "gb6_single": 1249,
+     "gb6_multi": 3324
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "samsung-galaxy-a57-5g": {
+    "name": "Samsung Galaxy A57 5G",
+    "chip": "Samsung Exynos 1680",
+    "url": "https://nanoreview.net/en/phone/samsung-galaxy-a57-5g",
+    "values": {
+     "gb6_single": 1382,
+     "gb6_multi": 4477
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "vivo-v70": {
+    "name": "Vivo V70",
+    "chip": "Qualcomm Snapdragon 7 Gen 4",
+    "url": "https://nanoreview.net/en/phone/vivo-v70",
+    "values": {
+     "gb6_single": 1279,
+     "gb6_multi": 4114
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "apple-iphone-17e": {
+    "name": "Apple iPhone 17e",
+    "chip": "Apple A19",
+    "url": "https://nanoreview.net/en/phone/apple-iphone-17e",
+    "values": {
+     "gb6_single": 3595,
+     "gb6_multi": 9245
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "xiaomi-17-ultra": {
+    "name": "Xiaomi 17 Ultra",
+    "chip": "Qualcomm Snapdragon 8 Elite Gen 5",
+    "url": "https://nanoreview.net/en/phone/xiaomi-17-ultra",
+    "values": {
+     "gb6_single": 3711,
+     "gb6_multi": 11259
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "samsung-galaxy-s26-ultra": {
+    "name": "Samsung Galaxy S26 Ultra",
+    "chip": "Qualcomm Snapdragon 8 Elite Gen 5",
+    "url": "https://nanoreview.net/en/phone/samsung-galaxy-s26-ultra",
+    "values": {
+     "gb6_single": 3624,
+     "gb6_multi": 11049
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "samsung-galaxy-a07-5g": {
+    "name": "Samsung Galaxy A07 5G",
+    "chip": "MediaTek Dimensity 6300",
+    "url": "https://nanoreview.net/en/phone/samsung-galaxy-a07-5g",
+    "values": {
+     "gb6_single": 780,
+     "gb6_multi": 2029
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "huawei-nova-14-pro": {
+    "name": "Huawei Nova 14 Pro",
+    "chip": "HiSilicon Kirin 8020",
+    "url": "https://nanoreview.net/en/phone/huawei-nova-14-pro",
+    "values": {
+     "gb6_single": 1350,
+     "gb6_multi": 3570
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "huawei-nova-14": {
+    "name": "Huawei Nova 14",
+    "chip": "HiSilicon Kirin 8000",
+    "url": "https://nanoreview.net/en/phone/huawei-nova-14",
+    "values": {
+     "gb6_single": 892,
+     "gb6_multi": 2590
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "oppo-find-x9": {
+    "name": "Oppo Find X9",
+    "chip": "MediaTek Dimensity 9500",
+    "url": "https://nanoreview.net/en/phone/oppo-find-x9",
+    "values": {
+     "gb6_single": 3107,
+     "gb6_multi": 9557
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "oppo-find-x9-pro": {
+    "name": "Oppo Find X9 Pro",
+    "chip": "MediaTek Dimensity 9500",
+    "url": "https://nanoreview.net/en/phone/oppo-find-x9-pro",
+    "values": {
+     "gb6_single": 3422,
+     "gb6_multi": 10065
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "oneplus-15": {
+    "name": "OnePlus 15",
+    "chip": "Qualcomm Snapdragon 8 Elite Gen 5",
+    "url": "https://nanoreview.net/en/phone/oneplus-15",
+    "values": {
+     "gb6_single": 3607,
+     "gb6_multi": 10732
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "vivo-x300-pro": {
+    "name": "Vivo X300 Pro",
+    "chip": "MediaTek Dimensity 9500",
+    "url": "https://nanoreview.net/en/phone/vivo-x300-pro",
+    "values": {
+     "gb6_single": 3228,
+     "gb6_multi": 9553
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "vivo-x300": {
+    "name": "Vivo X300",
+    "chip": "MediaTek Dimensity 9500",
+    "url": "https://nanoreview.net/en/phone/vivo-x300",
+    "values": {
+     "gb6_single": 3204,
+     "gb6_multi": 9874
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "samsung-galaxy-tab-a11": {
+    "name": "Samsung Galaxy Tab A11",
+    "chip": "MediaTek Helio G99",
+    "url": "https://nanoreview.net/en/tablet/samsung-galaxy-tab-a11",
+    "values": {
+     "gb6_single": 732,
+     "gb6_multi": 2049
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "google-pixel-10-pro-fold": {
+    "name": "Google Pixel 10 Pro Fold",
+    "chip": "Google Tensor G5",
+    "url": "https://nanoreview.net/en/phone/google-pixel-10-pro-fold",
+    "values": {
+     "gb6_single": 2276,
+     "gb6_multi": 6173
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "vivo-v60-lite-5g": {
+    "name": "Vivo V60 Lite 5G",
+    "chip": "Mediatek Dimensity 7360 Turbo",
+    "url": "https://nanoreview.net/en/phone/vivo-v60-lite-5g",
+    "values": {
+     "gb6_single": 1023,
+     "gb6_multi": 2817
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "realme-15-pro": {
+    "name": "Realme 15 Pro 5G",
+    "chip": "Qualcomm Snapdragon 7 Gen 4",
+    "url": "https://nanoreview.net/en/phone/realme-15-pro-5g",
+    "values": {
+     "gb6_single": 1201,
+     "gb6_multi": 3549
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "xiaomi-15t-pro": {
+    "name": "Xiaomi 15T Pro",
+    "chip": "MediaTek Dimensity 9400 Plus",
+    "url": "https://nanoreview.net/en/phone/xiaomi-15t-pro",
+    "values": {
+     "gb6_single": 2529,
+     "gb6_multi": 7899
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "xiaomi-17-pro-max": {
+    "name": "Xiaomi 17 Pro Max",
+    "chip": "Qualcomm Snapdragon 8 Elite Gen 5",
+    "url": "https://nanoreview.net/en/phone/xiaomi-17-pro-max",
+    "values": {
+     "gb6_single": 3697,
+     "gb6_multi": 11010
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "honor-x9d": {
+    "name": "Honor X9d",
+    "chip": "Qualcomm Snapdragon 6 Gen 4",
+    "url": "https://nanoreview.net/en/phone/honor-x9d",
+    "values": {
+     "gb6_single": 1104,
+     "gb6_multi": 3159
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "xiaomi-15t": {
+    "name": "Xiaomi 15T",
+    "chip": "MediaTek Dimensity 8400 Ultra",
+    "url": "https://nanoreview.net/en/phone/xiaomi-15t",
+    "values": {
+     "gb6_single": 1632,
+     "gb6_multi": 6505
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "apple-iphone-air": {
+    "name": "Apple iPhone Air",
+    "chip": "Apple A19 Pro",
+    "url": "https://nanoreview.net/en/phone/apple-iphone-air",
+    "values": {
+     "gb6_single": 4044,
+     "gb6_multi": 11101
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "apple-iphone-17-pro-max": {
+    "name": "Apple iPhone 17 Pro Max",
+    "chip": "Apple A19 Pro",
+    "url": "https://nanoreview.net/en/phone/apple-iphone-17-pro-max",
+    "values": {
+     "gb6_single": 3940,
+     "gb6_multi": 10434
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "apple-iphone-17-pro": {
+    "name": "Apple iPhone 17 Pro",
+    "chip": "Apple A19 Pro",
+    "url": "https://nanoreview.net/en/phone/apple-iphone-17-pro",
+    "values": {
+     "gb6_single": 3992,
+     "gb6_multi": 10688
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "apple-iphone-17": {
+    "name": "Apple iPhone 17",
+    "chip": "Apple A19",
+    "url": "https://nanoreview.net/en/phone/apple-iphone-17",
+    "values": {
+     "gb6_single": 3736,
+     "gb6_multi": 9226
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "samsung-galaxy-s25-fe": {
+    "name": "Samsung Galaxy S25 FE",
+    "chip": "Samsung Exynos 2400",
+    "url": "https://nanoreview.net/en/phone/samsung-galaxy-s25-fe",
+    "values": {
+     "gb6_single": 2126,
+     "gb6_multi": 6910
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "samsung-galaxy-tab-s11-ultra": {
+    "name": "Samsung Galaxy Tab S11 Ultra",
+    "chip": "MediaTek Dimensity 9400 Plus",
+    "url": "https://nanoreview.net/en/tablet/samsung-galaxy-tab-s11-ultra",
+    "values": {
+     "gb6_single": 2799,
+     "gb6_multi": 9105
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "samsung-galaxy-tab-s11": {
+    "name": "Samsung Galaxy Tab S11",
+    "chip": "MediaTek Dimensity 9400 Plus",
+    "url": "https://nanoreview.net/en/tablet/samsung-galaxy-tab-s11",
+    "values": {
+     "gb6_single": 2742,
+     "gb6_multi": 8933
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "vivo-v60": {
+    "name": "Vivo V60",
+    "chip": "Qualcomm Snapdragon 7 Gen 4",
+    "url": "https://nanoreview.net/en/phone/vivo-v60",
+    "values": {
+     "gb6_single": 1247,
+     "gb6_multi": 3557
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "samsung-galaxy-tab-s10-lite": {
+    "name": "Samsung Galaxy Tab S10 Lite",
+    "chip": "Samsung Exynos 1380",
+    "url": "https://nanoreview.net/en/tablet/samsung-galaxy-tab-s10-lite",
+    "values": {
+     "gb6_single": 1011,
+     "gb6_multi": 2951
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "google-pixel-10-pro-xl": {
+    "name": "Google Pixel 10 Pro XL",
+    "chip": "Google Tensor G5",
+    "url": "https://nanoreview.net/en/phone/google-pixel-10-pro-xl",
+    "values": {
+     "gb6_single": 2305,
+     "gb6_multi": 6054
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "google-pixel-10-pro": {
+    "name": "Google Pixel 10 Pro",
+    "chip": "Google Tensor G5",
+    "url": "https://nanoreview.net/en/phone/google-pixel-10-pro",
+    "values": {
+     "gb6_single": 2285,
+     "gb6_multi": 6201
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "google-pixel-10": {
+    "name": "Google Pixel 10",
+    "chip": "Google Tensor G5",
+    "url": "https://nanoreview.net/en/phone/google-pixel-10",
+    "values": {
+     "gb6_single": 2311,
+     "gb6_multi": 6277
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "honor-magicpad-3": {
+    "name": "Honor MagicPad 3",
+    "chip": "Qualcomm Snapdragon 8 Gen 3",
+    "url": "https://nanoreview.net/en/tablet/honor-magicpad-3",
+    "values": {
+     "gb6_single": 2176,
+     "gb6_multi": 6707
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "huawei-pura-80-pro": {
+    "name": "Huawei Pura 80 Pro",
+    "chip": "HiSilicon Kirin 9020",
+    "url": "https://nanoreview.net/en/phone/huawei-pura-80-pro",
+    "values": {
+     "gb6_single": 1370,
+     "gb6_multi": 4446
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "honor-magic-v5": {
+    "name": "Honor Magic V5",
+    "chip": "Qualcomm Snapdragon 8 Elite",
+    "url": "https://nanoreview.net/en/phone/honor-magic-v5",
+    "values": {
+     "gb6_single": 3049,
+     "gb6_multi": 9096
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "nothing-phone-3": {
+    "name": "Nothing Phone (3)",
+    "chip": "Qualcomm Snapdragon 8s Gen 4",
+    "url": "https://nanoreview.net/en/phone/nothing-phone-3",
+    "values": {
+     "gb6_single": 2117,
+     "gb6_multi": 6798
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "honor-x6c": {
+    "name": "Honor X6c",
+    "chip": "MediaTek Helio G81 Ultra",
+    "url": "https://nanoreview.net/en/phone/honor-x6c",
+    "values": {
+     "gb6_single": 430,
+     "gb6_multi": 1394
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "realme-c71": {
+    "name": "Realme C71",
+    "chip": "Unisoc T7250",
+    "url": "https://nanoreview.net/en/phone/realme-c71",
+    "values": {
+     "gb6_single": 440,
+     "gb6_multi": 1472
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "huawei-pura-80-ultra": {
+    "name": "Huawei Pura 80 Ultra",
+    "chip": "HiSilicon Kirin 9020",
+    "url": "https://nanoreview.net/en/phone/huawei-pura-80-ultra",
+    "values": {
+     "gb6_single": 1248,
+     "gb6_multi": 4151
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "huawei-pura-80": {
+    "name": "Huawei Pura 80",
+    "chip": "HiSilicon Kirin 9010s",
+    "url": "https://nanoreview.net/en/phone/huawei-pura-80",
+    "values": {
+     "gb6_single": 1434,
+     "gb6_multi": 4183
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "oneplus-pad-3": {
+    "name": "OnePlus Pad 3",
+    "chip": "Qualcomm Snapdragon 8 Elite",
+    "url": "https://nanoreview.net/en/tablet/oneplus-pad-3",
+    "values": {
+     "gb6_single": 3003,
+     "gb6_multi": 9307
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "honor-400-pro": {
+    "name": "Honor 400 Pro",
+    "chip": "Qualcomm Snapdragon 8 Gen 3",
+    "url": "https://nanoreview.net/en/phone/honor-400-pro",
+    "values": {
+     "gb6_single": 2109,
+     "gb6_multi": 6695
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "honor-400": {
+    "name": "Honor 400",
+    "chip": "Qualcomm Snapdragon 7 Gen 3",
+    "url": "https://nanoreview.net/en/phone/honor-400",
+    "values": {
+     "gb6_single": 1136,
+     "gb6_multi": 3107
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "sony-xperia-1-vii": {
+    "name": "Sony Xperia 1 VII",
+    "chip": "Qualcomm Snapdragon 8 Elite",
+    "url": "https://nanoreview.net/en/phone/sony-xperia-1-vii",
+    "values": {
+     "gb6_single": 3094,
+     "gb6_multi": 9293
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "honor-pad-10": {
+    "name": "Honor Pad 10",
+    "chip": "Qualcomm Snapdragon 7 Gen 3",
+    "url": "https://nanoreview.net/en/tablet/honor-pad-10",
+    "values": {
+     "gb6_single": 1150,
+     "gb6_multi": 3103
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "honor-400-lite": {
+    "name": "Honor 400 Lite",
+    "chip": "MediaTek Dimensity 7025 Ultra",
+    "url": "https://nanoreview.net/en/phone/honor-400-lite",
+    "values": {
+     "gb6_single": 956,
+     "gb6_multi": 2303
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "motorola-edge-60-pro": {
+    "name": "Motorola Edge 60 Pro",
+    "chip": "MediaTek Dimensity 8350 Extreme",
+    "url": "https://nanoreview.net/en/phone/motorola-edge-60-pro",
+    "values": {
+     "gb6_single": 1412,
+     "gb6_multi": 4471
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "vivo-x200-ultra": {
+    "name": "Vivo X200 Ultra",
+    "chip": "Qualcomm Snapdragon 8 Elite",
+    "url": "https://nanoreview.net/en/phone/vivo-x200-ultra",
+    "values": {
+     "gb6_single": 2979,
+     "gb6_multi": 9353
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "realme-14": {
+    "name": "Realme 14 5G",
+    "chip": "Qualcomm Snapdragon 6 Gen 4",
+    "url": "https://nanoreview.net/en/phone/realme-14-5g",
+    "values": {
+     "gb6_single": 1107,
+     "gb6_multi": 3072
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "samsung-galaxy-tab-s10-fe-plus": {
+    "name": "Samsung Galaxy Tab S10 FE+",
+    "chip": "Samsung Exynos 1580",
+    "url": "https://nanoreview.net/en/tablet/samsung-galaxy-tab-s10-fe",
+    "values": {
+     "gb6_single": 1376,
+     "gb6_multi": 3860
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "vivo-v50": {
+    "name": "Vivo V50 5G",
+    "chip": "Qualcomm Snapdragon 7 Gen 3",
+    "url": "https://nanoreview.net/en/phone/vivo-v50",
+    "values": {
+     "gb6_single": 1137,
+     "gb6_multi": 3136
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "nothing-phone-3a-pro": {
+    "name": "Nothing Phone (3a) Pro",
+    "chip": "Qualcomm Snapdragon 7s Gen 3",
+    "url": "https://nanoreview.net/en/phone/nothing-phone-3a-pro",
+    "values": {
+     "gb6_single": 1182,
+     "gb6_multi": 3357
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "nothing-phone-3a": {
+    "name": "Nothing Phone (3a)",
+    "chip": "Qualcomm Snapdragon 7s Gen 3",
+    "url": "https://nanoreview.net/en/phone/nothing-phone-3a",
+    "values": {
+     "gb6_single": 1158,
+     "gb6_multi": 3276
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "samsung-galaxy-a06-5g": {
+    "name": "Samsung Galaxy A06 5G",
+    "chip": "Mediatek Dimensity 6300",
+    "url": "https://nanoreview.net/en/phone/samsung-galaxy-a06-5g",
+    "values": {
+     "gb6_single": 744,
+     "gb6_multi": 1886
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "xiaomi-15-ultra": {
+    "name": "Xiaomi 15 Ultra",
+    "chip": "Qualcomm Snapdragon 8 Elite",
+    "url": "https://nanoreview.net/en/phone/xiaomi-15-ultra",
+    "values": {
+     "gb6_single": 3106,
+     "gb6_multi": 9710
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "honor-pad-x9a": {
+    "name": "Honor Pad X9a",
+    "chip": "Qualcomm Snapdragon 685",
+    "url": "https://nanoreview.net/en/tablet/honor-pad-x9a",
+    "values": {
+     "gb6_single": 470,
+     "gb6_multi": 1463
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "xiaomi-pad-7": {
+    "name": "Xiaomi Pad 7",
+    "chip": "Qualcomm Snapdragon 7 Plus Gen 3",
+    "url": "https://nanoreview.net/en/tablet/xiaomi-pad-7",
+    "values": {
+     "gb6_single": 1843,
+     "gb6_multi": 4978
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "apple-iphone-16e": {
+    "name": "Apple iPhone 16e",
+    "chip": "Apple A18",
+    "url": "https://nanoreview.net/en/phone/apple-iphone-16e",
+    "values": {
+     "gb6_single": 3281,
+     "gb6_multi": 8035
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "oppo-find-n5": {
+    "name": "Oppo Find N5",
+    "chip": "Qualcomm Snapdragon 8 Elite",
+    "url": "https://nanoreview.net/en/phone/oppo-find-n5",
+    "values": {
+     "gb6_single": 3035,
+     "gb6_multi": 8256
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "samsung-galaxy-s25": {
+    "name": "Samsung Galaxy S25",
+    "chip": "Qualcomm Snapdragon 8 Elite",
+    "url": "https://nanoreview.net/en/phone/samsung-galaxy-s25",
+    "values": {
+     "gb6_single": 3012,
+     "gb6_multi": 9766
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   },
+   "samsung-galaxy-s25-ultra": {
+    "name": "Samsung Galaxy S25 Ultra",
+    "chip": "Qualcomm Snapdragon 8 Elite",
+    "url": "https://nanoreview.net/en/phone/samsung-galaxy-s25-ultra",
+    "values": {
+     "gb6_single": 3202,
+     "gb6_multi": 10347
+    },
+    "matchedAt": "2026-09-25",
+    "checkedAt": "2026-09-25"
+   }
+  }
+ },
+ "misses": {
+  "nanoreview": {
+   "honor-x9e-pro": "2026-09-25T09:05:44+00:00",
+   "vivo-v80-lite-5g": "2026-09-25T09:05:44+00:00",
+   "redmagic-astra-2": "2026-09-25T09:05:44+00:00",
+   "poco-x8": "2026-09-25T09:05:44+00:00",
+   "redmi-note-17-5g": "2026-09-25T09:05:44+00:00",
+   "redmi-note-17-pro-max-5g": "2026-09-25T09:05:44+00:00",
+   "redmi-note-17": "2026-09-25T09:05:44+00:00",
+   "poco-f9-pro": "2026-09-25T09:05:44+00:00",
+   "poco-f9-ultra": "2026-09-25T09:05:44+00:00",
+   "realme-c100x": "2026-09-25T09:05:44+00:00",
+   "samsung-galaxy-a37-5g": "2026-09-25T09:05:44+00:00",
+   "honor-pad-20-pro": "2026-09-25T09:05:44+00:00",
+   "redmi-17-5g": "2026-09-25T09:05:44+00:00",
+   "redmi-a7": "2026-09-25T09:05:44+00:00",
+   "redmi-17": "2026-09-25T09:05:44+00:00",
+   "huawei-matepad-air-2026": "2026-09-25T09:05:44+00:00",
+   "samsung-galaxy-z-flip8": "2026-09-25T09:05:44+00:00",
+   "samsung-galaxy-z-fold8-ultra": "2026-09-25T09:05:44+00:00",
+   "samsung-galaxy-z-fold8": "2026-09-25T09:05:44+00:00",
+   "oppo-reno16-f": "2026-09-25T09:05:44+00:00",
+   "oppo-reno16-pro": "2026-09-25T09:05:44+00:00",
+   "oppo-reno16": "2026-09-25T09:05:44+00:00",
+   "huawei-matepad-pro-max": "2026-09-25T09:05:44+00:00",
+   "realme-16": "2026-09-25T09:05:44+00:00",
+   "realme-16t": "2026-09-25T09:05:44+00:00",
+   "vivo-y31s-5g": "2026-09-25T09:05:44+00:00",
+   "huawei-nova-15-max": "2026-09-25T09:05:44+00:00",
+   "realme-p4-power": "2026-09-25T09:05:44+00:00",
+   "honor-magicpad-4": "2026-09-25T09:05:44+00:00",
+   "poco-c81-pro": "2026-09-25T09:05:44+00:00",
+   "iqoo-z11": "2026-09-25T09:05:44+00:00",
+   "iqoo-z11x": "2026-09-25T09:05:44+00:00",
+   "huawei-matepad-11-5-s-2026": "2026-09-25T09:05:44+00:00",
+   "oppo-find-x9s": "2026-09-25T09:05:44+00:00",
+   "redmi-a7-pro": "2026-09-25T09:05:44+00:00",
+   "iqoo-15r": "2026-09-25T09:05:44+00:00",
+   "realme-16-pro-plus": "2026-09-25T09:05:44+00:00",
+   "realme-16-pro": "2026-09-25T09:05:44+00:00",
+   "huawei-matepad-mini": "2026-09-25T09:05:44+00:00",
+   "oppo-find-n6": "2026-09-25T09:05:44+00:00",
+   "poco-x8-pro": "2026-09-25T09:05:44+00:00",
+   "huawei-mate-80-pro": "2026-09-25T09:05:44+00:00",
+   "google-pixel-10a": "2026-09-25T09:05:44+00:00",
+   "honor-600-lite": "2026-09-25T09:05:44+00:00",
+   "apple-ipad-air-11-m4": "2026-09-25T09:05:44+00:00",
+   "apple-ipad-air-13-m4": "2026-09-25T09:05:44+00:00",
+   "samsung-galaxy-s26-plus": "2026-09-25T09:05:44+00:00",
+   "samsung-galaxy-s26": "2026-09-25T09:05:44+00:00",
+   "huawei-mate-x7": "2026-09-25T09:05:44+00:00",
+   "redmi-note-15-5g": "2026-09-25T09:05:44+00:00",
+   "redmi-note-15-pro-5g": "2026-09-25T09:05:44+00:00",
+   "redmi-note-15-pro-plus-5g": "2026-09-25T09:05:44+00:00",
+   "redmi-note-15": "2026-09-25T09:05:44+00:00",
+   "poco-m8-pro": "2026-09-25T09:05:44+00:00",
+   "poco-m8": "2026-09-25T09:05:44+00:00",
+   "oppo-reno15-f": "2026-09-25T09:05:44+00:00",
+   "oppo-reno15-pro": "2026-09-25T09:05:44+00:00",
+   "oppo-reno15": "2026-09-25T09:05:44+00:00",
+   "oppo-pad-5": "2026-09-25T09:05:44+00:00",
+   "realme-c85-5g": "2026-09-25T09:05:44+00:00",
+   "realme-c85": "2026-09-25T09:05:44+00:00",
+   "samsung-galaxy-tab-a11-plus": "2026-09-25T09:05:44+00:00",
+   "poco-f8-pro": "2026-09-25T09:05:44+00:00",
+   "poco-f8-ultra": "2026-09-25T09:05:44+00:00",
+   "nothing-phone-3a-lite": "2026-09-25T09:05:44+00:00",
+   "huawei-nova-14i": "2026-09-25T09:05:44+00:00",
+   "redmagic-11-pro": "2026-09-25T09:05:44+00:00",
+   "realme-15t": "2026-09-25T09:05:44+00:00",
+   "realme-gt-8-pro": "2026-09-25T09:05:44+00:00",
+   "honor-magic8-pro": "2026-09-25T09:05:44+00:00",
+   "apple-ipad-pro-11-m5": "2026-09-25T09:05:44+00:00",
+   "apple-ipad-pro-13-m5": "2026-09-25T09:05:44+00:00",
+   "iqoo-15": "2026-09-25T09:05:44+00:00",
+   "realme-15": "2026-09-25T09:05:44+00:00",
+   "oppo-a6-pro-5g": "2026-09-25T09:05:44+00:00",
+   "samsung-galaxy-a07": "2026-09-25T09:05:44+00:00",
+   "samsung-galaxy-a17-5g": "2026-09-25T09:05:44+00:00",
+   "poco-c85": "2026-09-25T09:05:44+00:00",
+   "poco-m7": "2026-09-25T09:05:44+00:00",
+   "redmi-15-5g": "2026-09-25T09:05:44+00:00",
+   "huawei-matepad-11-5-2025": "2026-09-25T09:05:44+00:00",
+   "vivo-x-fold5": "2026-09-25T09:05:44+00:00",
+   "samsung-galaxy-z-flip7-fe": "2026-09-25T09:05:44+00:00",
+   "samsung-galaxy-z-flip7": "2026-09-25T09:05:44+00:00",
+   "samsung-galaxy-z-fold7": "2026-09-25T09:05:44+00:00",
+   "iqoo-z10": "2026-09-25T09:05:44+00:00",
+   "oppo-reno14-f-5g": "2026-09-25T09:05:44+00:00",
+   "oppo-reno14-pro": "2026-09-25T09:05:44+00:00",
+   "oppo-reno14": "2026-09-25T09:05:44+00:00",
+   "vivo-x200-fe": "2026-09-25T09:05:44+00:00",
+   "redmagic-10s-pro": "2026-09-25T09:05:44+00:00",
+   "realme-p3-ultra": "2026-09-25T09:05:44+00:00",
+   "oppo-a5i": "2026-09-25T09:05:44+00:00",
+   "iqoo-neo-10": "2026-09-25T09:05:44+00:00",
+   "redmi-pad-2": "2026-09-25T09:05:44+00:00",
+   "realme-gt-7": "2026-09-25T09:05:44+00:00",
+   "oppo-a5-5g": "2026-09-25T09:05:44+00:00",
+   "oppo-pad-se": "2026-09-25T09:05:44+00:00",
+   "redmagic-10-air": "2026-09-25T09:05:44+00:00",
+   "cmf-phone-2-pro": "2026-09-25T09:05:44+00:00",
+   "vivo-v50-lite-5g": "2026-09-25T09:05:44+00:00",
+   "vivo-y04": "2026-09-25T09:05:44+00:00",
+   "realme-14-pro": "2026-09-25T09:05:44+00:00",
+   "redmi-a5": "2026-09-25T09:05:44+00:00",
+   "google-pixel-9a": "2026-09-25T09:05:44+00:00",
+   "samsung-galaxy-tab-active5-pro": "2026-09-25T09:05:44+00:00",
+   "honor-pad-v9": "2026-09-25T09:05:44+00:00",
+   "samsung-galaxy-tab-s10-fe": "2026-09-25T09:05:44+00:00",
+   "poco-f7-pro": "2026-09-25T09:05:44+00:00",
+   "poco-f7-ultra": "2026-09-25T09:05:44+00:00",
+   "poco-f7": "2026-09-25T09:05:44+00:00",
+   "oppo-a5-pro-5g": "2026-09-25T09:05:44+00:00",
+   "oppo-a5-pro": "2026-09-25T09:05:44+00:00",
+   "realme-c75x": "2026-09-25T09:05:44+00:00",
+   "apple-ipad-a16": "2026-09-25T09:05:44+00:00",
+   "apple-ipad-air-11-m3": "2026-09-25T09:05:44+00:00",
+   "apple-ipad-air-13-m3": "2026-09-25T09:05:44+00:00",
+   "samsung-galaxy-a56": "2026-09-25T09:05:44+00:00",
+   "vivo-y29": "2026-09-25T09:05:44+00:00",
+   "vivo-y39-5g": "2026-09-25T09:05:44+00:00",
+   "realme-14x": "2026-09-25T09:05:44+00:00",
+   "samsung-galaxy-s25-plus": "2026-09-25T09:05:44+00:00",
+   "realme-note-60x": "2026-09-25T09:05:44+00:00",
+   "redmi-note-14-5g": "2026-09-25T09:05:44+00:00"
+  }
+ },
+ "held": []
+}

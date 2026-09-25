@@ -10,6 +10,10 @@
 - Apple service programmes for Malaysia (support.apple.com/en-my/service-programs): current replacement, repair and
   recall programmes, matched to the devices in the hub by name, with any part of Malaysia each programme page names
   (East / West Malaysia or a state).
+- Samsung Malaysia's own service pages (Version 19): Samsung publishes no list of service programmes, so the pages where
+  it would announce one (screen replacement, service-centre updates) are read and checked for offer wording (free,
+  discount, promotion, extended warranty…), dates and the part of Malaysia they name. The page's wording is not copied:
+  only its title, link, the kinds of offer it mentions, any dates, regions, and when it last changed.
 - Service offers the headline collector found on Samsung's and Apple's own Malaysian pages: the page is read for the
   parts of Malaysia it names, so the site can say where an offer applies.
 
@@ -46,6 +50,15 @@ MY_REGIONS = [
     ("Kuala Lumpur", r"\bkuala lumpur\b|吉隆坡"), ("Putrajaya", r"\bputrajaya\b|布城"), ("Klang Valley", r"\bklang valley\b|巴生谷"),
 ]
 MY_REGION_RES = [(name, re.compile(pattern, re.I)) for name, pattern in MY_REGIONS]
+SAMSUNG_PAGES = [
+    "https://www.samsung.com/my/support/mobile-devices/screen-replacement-for-smartphones-and-tablets/",
+    "https://www.samsung.com/my/support/mobile-devices/service-center-service-status-update/",
+]
+OFFER_WORDS = [("free", r"\bfree\b|\bpercuma\b|complimentary|no charge"), ("discount", r"\bdiscount\w*|\brebate\b|\b\d{1,2}\s?% off\b|\bpotongan\b"),
+               ("promotion", r"\bpromo\w*|\bcampaign\b|\bspecial offer\b"), ("extended warranty", r"\bextended warranty\b|\bwarranty extension\b"),
+               ("waived fee", r"\bwaive\w*\b")]
+OFFER_WORD_RES = [(label, re.compile(pattern, re.I)) for label, pattern in OFFER_WORDS]
+DATE_RE = re.compile(r"\b\d{1,2}\s+(?:jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*\.?\s+20\d\d\b|\b\d{1,2}/\d{1,2}/20\d\d\b", re.I)
 OFFICIAL_OFFER_SOURCES = {"samsung-newsroom-my", "apple-newsroom", "samsung-newsroom"}
 
 
@@ -204,6 +217,28 @@ def offer_page_regions(saved: dict) -> dict:
     return known
 
 
+def samsung_pages(saved: dict) -> list[dict]:
+    """Samsung Malaysia's service pages: title, link, offer kinds mentioned, dates, regions and when the page changed."""
+    import hashlib
+    before = {p["url"]: p for p in (saved.get("samsungServicePages") or [])}
+    today = dt.datetime.now(dt.timezone.utc).date().isoformat()
+    out = []
+    for url in SAMSUNG_PAGES:
+        page = fetch(url)
+        title = re.search(r"<title>(.*?)</title>", page, re.S)
+        title = re.sub(r"\s*\|\s*Samsung Malaysia\s*$", "", text_of(title.group(1))) if title else url
+        text = main_text(page)
+        digest = hashlib.sha1(text.encode("utf-8")).hexdigest()[:16]
+        old = before.get(url) or {}
+        out.append({"title": re.sub(r"\s+", " ", title), "url": url,
+                    "offers": [label for label, pattern in OFFER_WORD_RES if pattern.search(text)],
+                    "dates": sorted(set(DATE_RE.findall(text)))[:6], "regions": regions_in(text),
+                    "hash": digest, "watchedSince": old.get("watchedSince") or today,
+                    "changed": old.get("changed") if old.get("hash") in (None, digest) else today,  # first sight is not a change
+                    "checked": today})
+    return out
+
+
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--max-age-hours", type=float, default=0)
@@ -219,7 +254,8 @@ def main() -> None:
     data = dict(saved)
     status = {}
     for name, job in (("appleReleases", apple_releases), ("appleBetas", apple_betas), ("samsungSecurity", samsung_security),
-                      ("appleServicePrograms", lambda: apple_programs(keys)), ("offerPageRegions", lambda: offer_page_regions(saved))):
+                      ("appleServicePrograms", lambda: apple_programs(keys)), ("offerPageRegions", lambda: offer_page_regions(saved)),
+                      ("samsungServicePages", lambda: samsung_pages(saved))):
         try:
             value = job()
             if value or name == "offerPageRegions":

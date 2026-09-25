@@ -34,7 +34,7 @@ UL_TESTS = {"3DMark Wild Life Extreme": "wle", "3DMark Solar Bay": "solar_bay", 
 DXO_FIELDS = {"dxomark_camera_v5": "camerav5", "dxomark_camera": "camerav6", "dxomark_display": "displayv2",
               "dxomark_battery": "batteryv1_5", "dxomark_audio": "audiov2"}
 DXO_LIST = "https://www.dxomark.com/dakdata/webservices/public/smartphones"
-ANTUTU = "https://www.antutu.com/web/en/ranking"
+ANTUTU = "https://www.antutu.com/web/ranking"  # moved from /web/en/ranking in September 2026
 
 
 def fetch(url: str, timeout: int = 40) -> str:

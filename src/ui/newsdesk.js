@@ -10,7 +10,7 @@ import { html, mount } from '../lib/html.js';
 import { fmtDate as fmtDay, timeAgo } from '../lib/format.js';
 import { store, sourceName, deviceTitle } from '../core/store.js';
 import { href } from '../core/router.js';
-import { extLink, cardThumb, thumbLink } from './components.js';
+import { extLink, cardThumb, thumbLink, autoBadge } from './components.js';
 import { loadMatchedItems, isSafeUrl } from '../engine/live.js';
 import { t } from '../core/i18n.js';
 
@@ -97,8 +97,8 @@ function wireSeg(root, onPick) {
   }));
 }
 
-const auto = () => html`<span class="tiny muted">${t('matched automatically from headlines · not checked by hand')}</span>`;
-const officialNote = (o) => html`<span class="tiny muted">${t('Official')} · ${t('read automatically from the maker’s own page')}${o?.updatedAt ? html` · ${t('checked')} ${timeAgo(o.updatedAt)}` : ''}</span>`;
+const auto = () => html`<span class="tiny muted">${t('matched automatically from headlines · not checked by hand')}</span> ${autoBadge('every 3 hours', 'with the headlines')}`;
+const officialNote = (o) => html`<span class="tiny muted">${t('Official')} · ${t('read automatically from the maker’s own page')}${o?.updatedAt ? html` · ${t('checked')} ${timeAgo(o.updatedAt)}` : ''}</span> ${autoBadge('every 6 hours', 'from Apple’s and Samsung’s own pages')}`;
 
 // ------------------------------------------------------------------ Software updates
 
@@ -210,6 +210,7 @@ export function offersSection({ brand = null } = {}) {
   return html`<div class="desk" data-desk="offers" data-brand="${brand ?? ''}">
     <p class="small muted desk__intro">${t('Free or discounted repairs, replacement and extended-repair programmes and recalls from Apple and Samsung that apply in Malaysia. Always confirm eligibility with an authorised service centre before going.')}</p>
     <div data-offers-apple></div>
+    <div data-offers-samsung></div>
     <section class="desk__block">
       <h3 class="subhead">${t('Reported in the news')} ${auto()}</h3>
       <div data-offers-list><div class="skeleton"></div></div>
@@ -230,6 +231,19 @@ export async function fillOffers(root) {
       <ul class="desk__programs">${programs.map((p) => html`<li>${p.kind === 'recall' ? html`<span class="auto__topic auto__topic--issue">${t('Recall')}</span> ` : ''}${extLink(p.url, p.title)} ${regionTags(p.regions, { official: true })}${(p.devices ?? []).map((id) => store.deviceById.get(id)).filter(Boolean).map((d) => html` <a class="chip" href="${href(`/device/${d.id}`)}">${d.name}</a>`)}</li>`)}</ul>
       <p class="tiny muted">${t('From Apple Malaysia’s own list of current programmes, which covers every Apple product. Each page says which models and serial numbers qualify.')}</p>
     </section>` : '');
+  }
+  // Version 19: Samsung Malaysia publishes no list of programmes, so the pages where it would announce one are watched
+  const pages = official?.samsungServicePages ?? [];
+  if (brand !== 'apple' && pages.length) {
+    mount(box.querySelector('[data-offers-samsung]'), html`<section class="desk__block">
+      <h3 class="subhead">${t('Samsung Malaysia service pages')} ${officialNote(official)}</h3>
+      <ul class="desk__programs">${pages.map((pg) => html`<li>${extLink(pg.url, pg.title)}
+        ${pg.offers?.length
+          ? html`${pg.offers.map((o) => html` <span class="auto__topic auto__topic--price">${t(`Mentions: ${o}`)}</span>`)}${pg.dates?.length ? html` <span class="tiny muted">${t('Dates on the page')}: ${pg.dates.join(', ')}</span>` : ''} ${regionTags(pg.regions, { official: true })}`
+          : html` <span class="tiny muted">${t('No free or discounted offer on the page right now')}</span>`}
+        <span class="tiny muted desk__watch">${pg.changed ? html`${t('Page last changed')}: ${fmtDate(pg.changed)}` : html`${t('Watched since')} ${fmtDate(pg.watchedSince)}`}</span></li>`)}</ul>
+      <p class="tiny muted">${t('Samsung Malaysia doesn’t publish a list of service programmes, so the site reads the pages where it would announce one and flags any free, discount, promotion or extended-warranty wording, with any dates and the part of Malaysia it names.')}</p>
+    </section>`);
   }
   const brandRe = brand === 'apple' ? /\b(?:apple|iphone|ipad|airpods|apple watch)\b|苹果/i : brand === 'samsung' ? /\b(?:samsung|galaxy)\b|三星/i : null;
   const offers = all.filter((i) => has(i, 'offer') && (!brandRe || brandRe.test(i.title)));

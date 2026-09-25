@@ -2505,3 +2505,4 @@ html[data-mode="simple"] .outline__list li:has(> [data-jump="bench-h"]) { displa
 
 /* Version 18: the Simple / Detailed switch on the home page too (other pages have it in the page trail) */
 .home__mode { display: flex; justify-content: flex-end; margin-bottom: calc(var(--sp-4) * -1); }
+.desk__watch { display: block; }

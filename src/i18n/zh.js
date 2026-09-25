@@ -971,6 +971,23 @@ Object.assign(ZH, {
   "No recent headlines about these chips yet.": "暂无关于这些芯片的近期头条。",
   "Repair programmes, recalls and discounts": "维修计划、召回与折扣",
   "All offers →": "全部优惠 →",
+  // Version 19: auto-update labels, Samsung Malaysia service pages, charts
+  "Auto · every 3 hours": "自动 · 每 3 小时",
+  "Auto · every 6 hours": "自动 · 每 6 小时",
+  "Auto · daily": "自动 · 每天",
+  "Auto · weekly": "自动 · 每周",
+  "Samsung Malaysia service pages": "三星马来西亚售后页面",
+  "Mentions: free": "提到：免费",
+  "Mentions: discount": "提到：折扣",
+  "Mentions: promotion": "提到：促销",
+  "Mentions: extended warranty": "提到：延长保修",
+  "Mentions: waived fee": "提到：免收费用",
+  "Dates on the page": "页面上的日期",
+  "No free or discounted offer on the page right now": "页面目前没有免费或折扣优惠",
+  "Page last changed": "页面最后更新",
+  "Watched since": "监测开始于",
+  "Samsung Malaysia doesn’t publish a list of service programmes, so the site reads the pages where it would announce one and flags any free, discount, promotion or extended-warranty wording, with any dates and the part of Malaysia it names.": "三星马来西亚没有公布售后计划列表，因此本站会读取它可能发布计划的页面，并标出任何免费、折扣、促销或延长保修的字眼，以及日期和提到的马来西亚地区。",
+  "Results from UL 3DMark, DXOMARK and AnTuTu are re-checked automatically every morning (last check {when}), and Geekbench averages from NanoReview every week. A new phone joins these charts by itself once its exact name and chip match a listing. Reviewers’ own tests (battery life, charging, brightness) are added by hand.": "UL 3DMark、DXOMARK 和 AnTuTu 的结果每天早上自动重新检查（上次检查：{when}），NanoReview 的 Geekbench 平均分每周读取一次。新手机的名称和芯片与榜单完全一致时，会自动加入这些图表。评测机构自己的测试（续航、充电、亮度）仍由人工添加。",
 });
 
 export default ZH;
