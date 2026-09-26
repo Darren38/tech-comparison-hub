@@ -114,6 +114,11 @@ def year_of(date: str | None) -> int | None:
 
 
 # ----------------------------------------------------------------------------- loading
+# Version 20: devices added automatically (tools/auto_devices.py) that failed validation in this build are left out
+# and the build runs again without them, so an automatic record can never stop the site from publishing.
+SKIP_AUTO: set[str] = set()
+
+
 class Dataset:
     def __init__(self, report: Report) -> None:
         self.report = report
@@ -126,6 +131,7 @@ class Dataset:
         self.scoring = load_json(DATA / "metrics" / "scoring.json", report) or {}
         self.chipsets = {c["id"]: c for c in load_folder(DATA / "chipsets", report)}
         self.devices = {d["id"]: d for d in load_folder(DATA / "devices", report)}
+        self.auto_devices = add_auto_devices(self)
         self.documents: dict[str, dict] = {}
         for folder in DOC_FOLDERS:
             for doc in load_folder(DATA / folder, report):
@@ -135,6 +141,8 @@ class Dataset:
                 self.documents[doc.get("id")] = doc
         self.featured = load_json(DATA / "comparisons" / "featured.json", report) or []
         self.auto = apply_auto(self)
+        if self.auto_devices:
+            self.auto["newDevices"] = {k: (len(v) if isinstance(v, list) else v) for k, v in self.auto_devices.items()}
         self.classes = {c["id"]: c for c in self.taxonomy.get("evidenceClasses", [])}
         self.facets = {f["id"] for f in self.taxonomy.get("facets", [])}
 
@@ -205,6 +213,58 @@ def read_auto(name: str) -> dict | None:
         return None
 
 
+def add_auto_devices(ds: "Dataset") -> dict:
+    """Version 20: phones and tablets added automatically from makers' own specification pages, chips named on those
+    pages, and missing values filled from the page a device already cites (live/auto/new_devices.json). A hand-made record
+    with the same id wins; a filled value never replaces a recorded one; every automatic value cites the maker's page."""
+    auto = read_auto("new_devices.json")
+    if not auto:
+        return {}
+    for cid, chip in (auto.get("chipsets") or {}).items():
+        if cid not in ds.chipsets and isinstance(chip, dict) and chip.get("id") == cid and f"chip:{cid}" not in SKIP_AUTO:
+            ds.chipsets[cid] = {**json.loads(json.dumps(chip)), "_file": f"live/auto/new_devices.json (chip {cid})"}
+    added = []
+    for dev_id, rec in (auto.get("devices") or {}).items():
+        if dev_id in ds.devices or dev_id in SKIP_AUTO or not isinstance(rec, dict) or rec.get("id") != dev_id:
+            continue
+        dev = json.loads(json.dumps(rec))
+        dev["_file"] = f"live/auto/new_devices.json ({dev_id})"
+        ds.devices[dev_id] = dev
+        added.append(dev_id)
+    # Malaysian launch prices read from the maker's own launch announcement, for devices with none recorded
+    priced = 0
+    for dev_id, pf in (auto.get("priceFills") or {}).items():
+        dev = ds.devices.get(dev_id)
+        if not dev or f"price:{dev_id}" in SKIP_AUTO or any(p.get("region") == "MY" for p in dev.get("prices", [])) or not pf.get("prices"):
+            continue
+        dev["prices"] = [dict(p, note="Read automatically from the maker's own launch announcement; not checked by a person yet.") for p in pf["prices"]]
+        (dev.get("availability") or {}).pop("MY", None)
+        dev["autoPrice"] = True
+        priced += 1
+    filled = 0
+    for dev_id, fields in (auto.get("fills") or {}).items():
+        dev = ds.devices.get(dev_id)
+        if not dev or dev_id in added or f"fill:{dev_id}" in SKIP_AUTO:
+            continue
+        prov = dev.setdefault("provenance", {}).setdefault("fields", {})
+        default = (dev["provenance"].get("default") or {})
+        for path, f in (fields or {}).items():
+            if get_path(dev.get("specs") or {}, path) is not None or f.get("value") is None:
+                continue
+            node = dev.setdefault("specs", {})
+            parts = path.split(".")
+            for part in parts[:-1]:
+                node = node.setdefault(part, {})
+            node[parts[-1]] = f["value"]
+            prov[f"specs.{path}"] = {"class": "official", "source": default.get("source"), "url": f.get("url"), "checked": f.get("checked"),
+                                     "note": f"Filled automatically from the maker's specification page on {f.get('checked')}; "
+                                             "the record had no value for it. Not checked by a person yet."}
+            dev["autoFilled"] = sorted(set(dev.get("autoFilled", [])) | {path})
+            filled += 1
+    return {"at": auto.get("updatedAt"), "devices": added, "chipsets": [c for c in (auto.get("chipsets") or {}) if c in ds.chipsets],
+            "filled": filled, "prices": priced, "held": len(auto.get("held") or {}), "changes": sum(len(v) for v in (auto.get("changes") or {}).values())}
+
+
 def apply_auto(ds: "Dataset") -> dict:
     """Apply tools/refresh_benchmarks.py and tools/check_images.py results before validation, so refreshed values go
     through the same checks as hand-entered ones. An update is used only while the checked value it replaces is still
@@ -270,6 +330,39 @@ def apply_auto(ds: "Dataset") -> dict:
             ds.documents[doc["id"]] = doc
             added[source_key] = len(set(devices))
         info["autoBench"] = {"at": auto_bench.get("updatedAt"), "phones": added}
+    # Version 20: Trusted Reviews' own test results read automatically from each review's Test Data table
+    # (tools/auto_reviews.py), one document per review, for phones with no hand-entered Trusted Reviews result.
+    tr = read_auto("auto_reviews.json")
+    if tr and tr.get("reviews"):
+        used = 0
+        facets_of = {"gb6_single": "performance", "gb6_multi": "performance", "tr_video_drain": "battery",
+                     "charge_full": "charging", "charge_30": "charging", "charge_15": "charging"}
+        notes = {"tr_video_drain": "Share of a full battery used by one hour of Netflix HDR video", "charge_full": "Minutes from empty to full",
+                 "charge_30": "Charge level after 30 minutes, from empty", "charge_15": "Charge level after 15 minutes, from empty"}
+        hand = {d for doc in ds.documents.values() if doc.get("source") == "trustedreviews" and not doc.get("auto") for d in doc.get("devices", [])}
+        for dev_id, r in sorted(tr["reviews"].items()):
+            if dev_id not in ds.devices or dev_id in hand or f"review:{dev_id}" in SKIP_AUTO:
+                continue
+            held = set(r.get("held") or [])
+            records = [{"subject": dev_id, "metric": m, "value": v,
+                        **({"note": notes[m]} if m in notes else {})}
+                       for m, v in (r.get("values") or {}).items() if m in ds.metrics and m not in held and isinstance(v, (int, float))]
+            if not records:
+                continue
+            doc = {"id": f"auto-tr-{dev_id}", "kind": "review", "source": "trustedreviews", "title": r.get("title") or "Trusted Reviews review",
+                   "url": r.get("url"), "accessed": r.get("checked"), "class": "measured", "devices": [dev_id],
+                   "facets": sorted({facets_of[x["metric"]] for x in records if x["metric"] in facets_of}),
+                   "method": "Trusted Reviews' own tests, read automatically from the review's Test Data table on "
+                             f"{r.get('checked')}: Geekbench 6, the battery used by an hour of Netflix HDR playback and charging times "
+                             "from empty. Trusted Reviews tests UK models; results measured without the maker's charger are left out. "
+                             "The model named in the table matched this phone exactly. Not checked by a person yet.",
+                   "records": records, "extraction": "complete", "auto": True, "_folder": "reviews",
+                   "_file": f"live/auto/auto_reviews.json ({dev_id})"}
+            if r.get("published"):
+                doc["published"] = r["published"]
+            ds.documents[doc["id"]] = doc
+            used += 1
+        info["autoReviews"] = {"at": tr.get("updatedAt"), "reviews": used}
     # Version 17: official pictures found automatically (tools/find_images.py) for devices with none in data/.
     # A picture the daily check lists as broken is not used; the usual picture rules are validated afterwards.
     found = read_auto("found_images.json")
@@ -1099,6 +1192,7 @@ def compile_outputs(ds: Dataset, records: list[dict]) -> dict:
             "docCount": len(own_docs),
             "latestEvidence": latest,
             "dataStatus": dev.get("dataStatus", "compiled"),
+            **({"auto": {k: dev["auto"].get(k) for k in ("addedAt", "url", "site")}} if dev.get("auto") else {}),
         })
 
     chipsets_out, chipset_index = {}, []
@@ -1365,10 +1459,42 @@ def write_outputs(out: dict) -> None:
 
 
 # ----------------------------------------------------------------------------- entry points
+def auto_culprits(ds: "Dataset", messages: Report) -> set[str]:
+    """Automatic records named in validation errors or warnings (Version 20). Filled values are named by device."""
+    bad: set[str] = set()
+    auto_ids = set(getattr(ds, "auto_devices", {}).get("devices", []))
+    auto_chips = set(getattr(ds, "auto_devices", {}).get("chipsets", []))
+    for m in messages.errors + messages.warnings:
+        for dev_id in auto_ids:
+            if f"new_devices.json ({dev_id})" in m:
+                bad.add(dev_id)
+        mr = re.search(r"auto_reviews\.json \(([a-z0-9-]+)\)", m)
+        if mr:
+            bad.add(f"review:{mr.group(1)}")
+        for cid in auto_chips:
+            if f"new_devices.json (chip {cid})" in m or f"unknown chipset '{cid}'" in m:
+                bad.add(f"chip:{cid}")
+        mm = re.search(r"devices[\\/][a-z]+[\\/]([a-z0-9-]+)\.json", m)
+        if mm and ds.devices.get(mm.group(1), {}).get("autoFilled"):
+            bad.add(f"fill:{mm.group(1)}")
+        if mm and ds.devices.get(mm.group(1), {}).get("autoPrice"):
+            bad.add(f"price:{mm.group(1)}")
+    return bad
+
+
 def run(strict: bool = False, check_only: bool = False, quiet: bool = False, report: bool = False) -> bool:
     messages = Report()
     ds = Dataset(messages)
     validate(ds)
+    for _ in range(3):
+        bad = auto_culprits(ds, messages)
+        if not bad:
+            break
+        SKIP_AUTO.update(bad)
+        print(f"[build] left out automatic records that failed validation: {', '.join(sorted(bad))}")
+        messages = Report()
+        ds = Dataset(messages)
+        validate(ds)
     ok = not messages.errors and not (strict and messages.warnings)
     if not quiet or not ok:
         for message in messages.errors:

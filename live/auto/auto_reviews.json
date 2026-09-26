@@ -1,0 +1,572 @@
+{
+ "runs": {
+  "all": "2026-09-25T19:10:18+00:00",
+  "recent": "2026-09-25T19:10:18+00:00"
+ },
+ "reviews": {
+  "asus-rog-phone-7-ultimate": {
+   "device": "asus-rog-phone-7-ultimate",
+   "name": "Asus ROG Phone 7 Ultimate",
+   "values": {
+    "gb6_multi": 5614,
+    "charge_15": 46
+   },
+   "url": "https://www.trustedreviews.com/reviews/asus-rog-phone-7-ultimate",
+   "title": "Asus ROG Phone 7 Ultimate Review",
+   "published": "2023-04-13",
+   "checked": "2026-09-26"
+  },
+  "asus-zenfone-10": {
+   "device": "asus-zenfone-10",
+   "name": "Asus Zenfone 10",
+   "values": {
+    "gb6_single": 2020,
+    "gb6_multi": 5611,
+    "tr_video_drain": 5,
+    "charge_full": 85,
+    "charge_30": 45,
+    "charge_15": 25
+   },
+   "url": "https://www.trustedreviews.com/reviews/asus-zenfone-10",
+   "title": "Asus Zenfone 10 Review",
+   "published": "2023-06-28",
+   "checked": "2026-09-26"
+  },
+  "asus-zenfone-11-ultra": {
+   "device": "asus-zenfone-11-ultra",
+   "name": "Asus Zenfone 11 Ultra",
+   "values": {
+    "gb6_single": 2242,
+    "gb6_multi": 7035,
+    "tr_video_drain": 8,
+    "charge_full": 53
+   },
+   "url": "https://www.trustedreviews.com/reviews/asus-zenfone-11-ultra",
+   "title": "Asus Zenfone 11 Ultra review: A big-screen swing and miss",
+   "published": "2024-03-13",
+   "checked": "2026-09-26"
+  },
+  "asus-zenfone-12-ultra": {
+   "device": "asus-zenfone-12-ultra",
+   "name": "Asus Zenfone 12 Ultra",
+   "values": {
+    "gb6_single": 2385,
+    "gb6_multi": 7523,
+    "tr_video_drain": 7,
+    "charge_full": 47
+   },
+   "url": "https://www.trustedreviews.com/reviews/asus-zenfone-12-ultra",
+   "title": "Asus Zenfone 12 Ultra Review",
+   "published": "2025-02-06",
+   "checked": "2026-09-26"
+  },
+  "cmf-phone-2-pro": {
+   "device": "cmf-phone-2-pro",
+   "name": "CMF Phone 2 Pro",
+   "values": {
+    "gb6_single": 1003,
+    "gb6_multi": 2910,
+    "tr_video_drain": 7,
+    "charge_full": 65
+   },
+   "url": "https://www.trustedreviews.com/reviews/cmf-phone-2-pro",
+   "title": "CMF Phone 2 Pro Review: Unbeatable value",
+   "published": "2025-05-05",
+   "checked": "2026-09-26"
+  },
+  "honor-pad-9": {
+   "device": "honor-pad-9",
+   "name": "Honor Pad 9",
+   "values": {
+    "gb6_single": 946,
+    "gb6_multi": 2798
+   },
+   "url": "https://www.trustedreviews.com/reviews/honor-pad-9",
+   "title": "Honor Pad 9 Review",
+   "published": "2024-02-26",
+   "checked": "2026-09-26"
+  },
+  "honor-pad-v9": {
+   "device": "honor-pad-v9",
+   "name": "Honor Pad V9",
+   "values": {
+    "gb6_single": 1357,
+    "gb6_multi": 4092,
+    "charge_30": 27,
+    "charge_15": 14
+   },
+   "url": "https://www.trustedreviews.com/reviews/honor-pad-v9",
+   "title": "Honor Pad V9 Review",
+   "published": "2025-05-30",
+   "checked": "2026-09-26"
+  },
+  "honor-pad-x9": {
+   "device": "honor-pad-x9",
+   "name": "Honor Pad X9",
+   "values": {
+    "gb6_single": 478,
+    "gb6_multi": 1572,
+    "tr_video_drain": 4,
+    "charge_30": 16,
+    "charge_15": 7
+   },
+   "url": "https://www.trustedreviews.com/reviews/honor-pad-x9",
+   "title": "Honor Pad X9 Review: Smooth Sailing",
+   "published": "2023-08-16",
+   "checked": "2026-09-26"
+  },
+  "nothing-phone-2a": {
+   "device": "nothing-phone-2a",
+   "name": "Nothing Phone (2a)",
+   "values": {
+    "gb6_single": 1121,
+    "gb6_multi": 2580,
+    "tr_video_drain": 5,
+    "charge_full": 66
+   },
+   "url": "https://www.trustedreviews.com/reviews/nothing-phone-2a",
+   "title": "Nothing Phone (2a) Review: Style on a budget",
+   "published": "2024-03-05",
+   "checked": "2026-09-26"
+  },
+  "oneplus-11": {
+   "device": "oneplus-11",
+   "name": "OnePlus 11",
+   "values": {
+    "gb6_single": 1297,
+    "gb6_multi": 4603,
+    "tr_video_drain": 6,
+    "charge_full": 28,
+    "charge_30": 100,
+    "charge_15": 54
+   },
+   "url": "https://www.trustedreviews.com/reviews/oneplus-11",
+   "title": "OnePlus 11 Review: An impressive all-rounder",
+   "published": "2023-02-07",
+   "checked": "2026-09-26",
+   "held": [
+    "gb6_multi",
+    "gb6_single"
+   ]
+  },
+  "oneplus-12": {
+   "device": "oneplus-12",
+   "name": "OnePlus 12",
+   "values": {
+    "gb6_single": 1418,
+    "gb6_multi": 5054,
+    "tr_video_drain": 4,
+    "charge_full": 26,
+    "charge_30": 100,
+    "charge_15": 64
+   },
+   "url": "https://www.trustedreviews.com/reviews/oneplus-12",
+   "title": "OnePlus 12 Review",
+   "published": "2024-01-23",
+   "checked": "2026-09-26",
+   "held": [
+    "gb6_multi",
+    "gb6_single"
+   ]
+  },
+  "oneplus-12r": {
+   "device": "oneplus-12r",
+   "name": "OnePlus 12R",
+   "values": {
+    "gb6_multi": 5067,
+    "charge_30": 100,
+    "charge_15": 51
+   },
+   "url": "https://www.trustedreviews.com/reviews/oneplus-12r",
+   "title": "OnePlus 12R Review",
+   "published": "2024-01-23",
+   "checked": "2026-09-26"
+  },
+  "oneplus-nord-4": {
+   "device": "oneplus-nord-4",
+   "name": "OnePlus Nord 4",
+   "values": {
+    "gb6_single": 1735,
+    "gb6_multi": 4270,
+    "tr_video_drain": 4,
+    "charge_full": 30
+   },
+   "url": "https://www.trustedreviews.com/reviews/oneplus-nord-4",
+   "title": "OnePlus Nord 4 Review: Metal is back in town",
+   "published": "2024-07-16",
+   "checked": "2026-09-26"
+  },
+  "oneplus-nord-ce-3-lite": {
+   "device": "oneplus-nord-ce-3-lite",
+   "name": "OnePlus Nord CE 3 Lite",
+   "values": {
+    "gb6_single": 885,
+    "gb6_multi": 1982,
+    "tr_video_drain": 8,
+    "charge_full": 44,
+    "charge_30": 76,
+    "charge_15": 44
+   },
+   "url": "https://www.trustedreviews.com/reviews/oneplus-nord-ce-3-lite",
+   "title": "OnePlus Nord CE 3 Lite Review",
+   "published": "2023-04-18",
+   "checked": "2026-09-26"
+  },
+  "oneplus-pad-3": {
+   "device": "oneplus-pad-3",
+   "name": "OnePlus Pad 3",
+   "values": {
+    "gb6_single": 3129,
+    "gb6_multi": 9232,
+    "tr_video_drain": 6,
+    "charge_full": 97
+   },
+   "url": "https://www.trustedreviews.com/reviews/oneplus-pad-3",
+   "title": "OnePlus Pad 3 Review: The only Android tablet you should buy",
+   "published": "2025-06-05",
+   "checked": "2026-09-26"
+  },
+  "oppo-find-n2-flip": {
+   "device": "oppo-find-n2-flip",
+   "name": "Oppo Find N2 Flip",
+   "values": {
+    "gb6_single": 1042,
+    "charge_15": 32
+   },
+   "url": "https://www.trustedreviews.com/reviews/oppo-find-n2-flip",
+   "title": "Oppo Find N2 Flip Review: The New King of Clamshells",
+   "published": "2023-02-15",
+   "checked": "2026-09-26"
+  },
+  "oppo-find-n3": {
+   "device": "oppo-find-n3",
+   "name": "Oppo Find N3",
+   "values": {
+    "gb6_single": 1342,
+    "gb6_multi": 4777,
+    "tr_video_drain": 7,
+    "charge_full": 45,
+    "charge_30": 71,
+    "charge_15": 39
+   },
+   "url": "https://www.trustedreviews.com/reviews/oppo-find-n3",
+   "title": "Oppo Find N3 Review",
+   "published": "2024-05-13",
+   "checked": "2026-09-26",
+   "held": [
+    "gb6_multi",
+    "gb6_single"
+   ]
+  },
+  "redmagic-10-pro": {
+   "device": "redmagic-10-pro",
+   "name": "RedMagic 10 Pro",
+   "values": {
+    "gb6_single": 3105,
+    "gb6_multi": 9778,
+    "tr_video_drain": 3,
+    "charge_full": 39,
+    "charge_30": 81,
+    "charge_15": 48
+   },
+   "url": "https://www.trustedreviews.com/reviews/redmagic-10-pro",
+   "title": "RedMagic 10 Pro Review: Budget gaming powerhouse",
+   "published": "2025-02-13",
+   "checked": "2026-09-26"
+  },
+  "redmagic-8s-pro": {
+   "device": "redmagic-8s-pro",
+   "name": "RedMagic 8S Pro",
+   "values": {
+    "gb6_single": 2116,
+    "gb6_multi": 5768,
+    "tr_video_drain": 3,
+    "charge_full": 40,
+    "charge_30": 85,
+    "charge_15": 47
+   },
+   "url": "https://www.trustedreviews.com/reviews/redmagic-8s-pro",
+   "title": "RedMagic 8S Pro Review",
+   "published": "2023-11-02",
+   "checked": "2026-09-26"
+  },
+  "redmagic-9-pro": {
+   "device": "redmagic-9-pro",
+   "name": "RedMagic 9 Pro",
+   "values": {
+    "gb6_single": 2291,
+    "gb6_multi": 7133,
+    "tr_video_drain": 5,
+    "charge_full": 45,
+    "charge_30": 78,
+    "charge_15": 42
+   },
+   "url": "https://www.trustedreviews.com/reviews/redmagic-9-pro",
+   "title": "RedMagic 9 Pro Review: A Gaming Powerhouse",
+   "published": "2023-12-18",
+   "checked": "2026-09-26"
+  },
+  "samsung-galaxy-tab-s10-plus": {
+   "device": "samsung-galaxy-tab-s10-plus",
+   "name": "Samsung Galaxy Tab S10 Plus",
+   "values": {
+    "gb6_single": 2158,
+    "gb6_multi": 6660,
+    "tr_video_drain": 7,
+    "charge_full": 90,
+    "charge_30": 43,
+    "charge_15": 21
+   },
+   "url": "https://www.trustedreviews.com/reviews/samsung-galaxy-tab-s10-plus",
+   "title": "Samsung Galaxy Tab S10 Plus Review",
+   "published": "2024-10-23",
+   "checked": "2026-09-26"
+  },
+  "samsung-galaxy-tab-s10-ultra": {
+   "device": "samsung-galaxy-tab-s10-ultra",
+   "name": "Samsung Galaxy Tab S10 Ultra",
+   "values": {
+    "gb6_single": 2155,
+    "gb6_multi": 7092,
+    "tr_video_drain": 8,
+    "charge_full": 137
+   },
+   "url": "https://www.trustedreviews.com/reviews/samsung-galaxy-tab-s10-ultra",
+   "title": "Samsung Galaxy Tab S10 Ultra Review: Bigger is Better",
+   "published": "2024-09-26",
+   "checked": "2026-09-26"
+  },
+  "samsung-galaxy-tab-s9": {
+   "device": "samsung-galaxy-tab-s9",
+   "name": "Samsung Galaxy Tab S9",
+   "values": {
+    "gb6_single": 2060,
+    "gb6_multi": 5508,
+    "tr_video_drain": 7,
+    "charge_full": 87
+   },
+   "url": "https://www.trustedreviews.com/reviews/samsung-galaxy-tab-s9",
+   "title": "Samsung Galaxy Tab S9 Review",
+   "published": "2023-11-15",
+   "checked": "2026-09-26"
+  },
+  "xiaomi-14": {
+   "device": "xiaomi-14",
+   "name": "Xiaomi 14",
+   "values": {
+    "gb6_single": 2216,
+    "gb6_multi": 6723,
+    "tr_video_drain": 9,
+    "charge_full": 34,
+    "charge_30": 93,
+    "charge_15": 59
+   },
+   "url": "https://www.trustedreviews.com/reviews/xiaomi-14",
+   "title": "Xiaomi 14 Review",
+   "published": "2024-02-25",
+   "checked": "2026-09-26"
+  },
+  "xiaomi-15": {
+   "device": "xiaomi-15",
+   "name": "Xiaomi 15",
+   "values": {
+    "gb6_single": 3032,
+    "gb6_multi": 9059,
+    "tr_video_drain": 6,
+    "charge_full": 72
+   },
+   "url": "https://www.trustedreviews.com/reviews/xiaomi-15",
+   "title": "Xiaomi 15 Review",
+   "published": "2025-03-02",
+   "checked": "2026-09-26"
+  }
+ },
+ "misses": {
+  "apple-iphone-15": {
+   "url": "https://www.trustedreviews.com/reviews/apple-iphone-15",
+   "reason": "the table is for Full Specs, not iPhone 15",
+   "at": "2026-09-26"
+  },
+  "apple-iphone-15-pro-max": {
+   "url": "https://www.trustedreviews.com/reviews/apple-iphone-15-pro-max",
+   "reason": "the table is for Full Specs, not iPhone 15 Pro Max",
+   "at": "2026-09-26"
+  },
+  "google-pixel-10-pro-fold": {
+   "url": "https://www.trustedreviews.com/reviews/google-pixel-10-pro-fold",
+   "reason": "the table is for Full Specs, not Pixel 10 Pro Fold",
+   "at": "2026-09-26"
+  },
+  "google-pixel-11-pro-xl": {
+   "url": "https://www.trustedreviews.com/reviews/google-pixel-11-pro-xl",
+   "reason": "the table is for Software AI, not Pixel 11 Pro XL",
+   "at": "2026-09-26"
+  },
+  "honor-200": {
+   "url": "https://www.trustedreviews.com/reviews/honor-200",
+   "reason": "no Test Data table",
+   "at": "2026-09-26"
+  },
+  "honor-600": {
+   "url": "https://www.trustedreviews.com/reviews/honor-600",
+   "reason": "the table is for Full Specs, not HONOR 600",
+   "at": "2026-09-26"
+  },
+  "honor-600-pro": {
+   "url": "https://www.trustedreviews.com/reviews/honor-600-pro",
+   "reason": "the table is for Full Specs, not HONOR 600 Pro",
+   "at": "2026-09-26"
+  },
+  "honor-magicpad-3": {
+   "url": "https://www.trustedreviews.com/reviews/honor-magicpad-3",
+   "reason": "the table is for Full Specs, not HONOR MagicPad 3",
+   "at": "2026-09-26"
+  },
+  "huawei-pura-70": {
+   "url": "https://www.trustedreviews.com/reviews/huawei-pura-70",
+   "reason": "no Test Data table",
+   "at": "2026-09-26"
+  },
+  "huawei-pura-70-pro": {
+   "url": "https://www.trustedreviews.com/reviews/huawei-pura-70-pro",
+   "reason": "no Test Data table",
+   "at": "2026-09-26"
+  },
+  "nothing-phone-3a": {
+   "url": "https://www.trustedreviews.com/reviews/nothing-phone-3a",
+   "reason": "no usable results in the table",
+   "at": "2026-09-26"
+  },
+  "nothing-phone-3a-pro": {
+   "url": "https://www.trustedreviews.com/reviews/nothing-phone-3a-pro",
+   "reason": "no usable results in the table",
+   "at": "2026-09-26"
+  },
+  "nothing-phone-4a": {
+   "url": "https://www.trustedreviews.com/reviews/nothing-phone-4a",
+   "reason": "the table is for Battery Life, not Nothing Phone (4a)",
+   "at": "2026-09-26"
+  },
+  "nothing-phone-4a-pro": {
+   "url": "https://www.trustedreviews.com/reviews/nothing-phone-4a-pro",
+   "reason": "the table is for Battery life, not Nothing Phone (4a) Pro",
+   "at": "2026-09-26"
+  },
+  "nothing-phone-4b": {
+   "url": "https://www.trustedreviews.com/reviews/nothing-phone-4b",
+   "reason": "the table is for Software AI, not Nothing Phone (4b)",
+   "at": "2026-09-26"
+  },
+  "oneplus-15r": {
+   "url": "https://www.trustedreviews.com/reviews/oneplus-15r",
+   "reason": "the table is for Cameras, not OnePlus 15R",
+   "at": "2026-09-26"
+  },
+  "oneplus-pad-go-2": {
+   "url": "https://www.trustedreviews.com/reviews/oneplus-pad-go-2",
+   "reason": "the table is for Full Specs, not OnePlus Pad Go 2",
+   "at": "2026-09-26"
+  },
+  "oppo-pad-5": {
+   "url": "https://www.trustedreviews.com/reviews/oppo-pad-5",
+   "reason": "the table is for Full Specs, not OPPO Pad 5",
+   "at": "2026-09-26"
+  },
+  "oppo-pad-se": {
+   "url": "https://www.trustedreviews.com/reviews/oppo-pad-se",
+   "reason": "the table is for Full Specs, not OPPO Pad SE",
+   "at": "2026-09-26"
+  },
+  "poco-f9-ultra": {
+   "url": "https://www.trustedreviews.com/reviews/poco-f9-ultra",
+   "reason": "the table is for Full Specs, not POCO F9 Ultra",
+   "at": "2026-09-26"
+  },
+  "poco-x8-pro-max": {
+   "url": "https://www.trustedreviews.com/reviews/poco-x8-pro-max",
+   "reason": "the table is for Full Specs, not POCO X8 Pro Max",
+   "at": "2026-09-26"
+  },
+  "redmagic-10-air": {
+   "url": "https://www.trustedreviews.com/reviews/redmagic-10-air",
+   "reason": "the table is for Software, not REDMAGIC 10 Air",
+   "at": "2026-09-26"
+  },
+  "redmagic-10s-pro": {
+   "url": "https://www.trustedreviews.com/reviews/redmagic-10s-pro",
+   "reason": "the table is for Full Specs, not REDMAGIC 10S Pro",
+   "at": "2026-09-26"
+  },
+  "redmagic-11-air": {
+   "url": "https://www.trustedreviews.com/reviews/redmagic-11-air",
+   "reason": "the table is for Software, not REDMAGIC 11 Air",
+   "at": "2026-09-26"
+  },
+  "redmagic-11s-pro": {
+   "url": "https://www.trustedreviews.com/reviews/redmagic-11s-pro",
+   "reason": "the table is for Full Specs, not REDMAGIC 11S Pro",
+   "at": "2026-09-26"
+  },
+  "redmagic-astra": {
+   "url": "https://www.trustedreviews.com/reviews/redmagic-astra",
+   "reason": "the table is for Full Specs, not REDMAGIC Astra Gaming Tablet",
+   "at": "2026-09-26"
+  },
+  "redmagic-astra-2": {
+   "url": "https://www.trustedreviews.com/reviews/redmagic-astra-2",
+   "reason": "the table is for Full Specs, not REDMAGIC Astra 2 Gaming Tablet",
+   "at": "2026-09-26"
+  },
+  "redmagic-nova": {
+   "url": "https://www.trustedreviews.com/reviews/redmagic-nova",
+   "reason": "the table is for RedMagic Nova, not REDMAGIC Nova Gaming Tablet",
+   "at": "2026-09-26"
+  },
+  "samsung-galaxy-a34-5g": {
+   "url": "https://www.trustedreviews.com/reviews/samsung-galaxy-a34-5g",
+   "reason": "no Test Data table",
+   "at": "2026-09-26"
+  },
+  "samsung-galaxy-tab-s11": {
+   "url": "https://www.trustedreviews.com/reviews/samsung-galaxy-tab-s11",
+   "reason": "no Test Data table",
+   "at": "2026-09-26"
+  },
+  "samsung-galaxy-tab-s11-ultra": {
+   "url": "https://www.trustedreviews.com/reviews/samsung-galaxy-tab-s11-ultra",
+   "reason": "the table is for Full Specs, not Galaxy Tab S11 Ultra",
+   "at": "2026-09-26"
+  },
+  "samsung-galaxy-tab-s9-plus": {
+   "url": "https://www.trustedreviews.com/reviews/samsung-galaxy-tab-s9-plus",
+   "reason": "no Test Data table",
+   "at": "2026-09-26"
+  },
+  "samsung-galaxy-tab-s9-ultra": {
+   "url": "https://www.trustedreviews.com/reviews/samsung-galaxy-tab-s9-ultra",
+   "reason": "the table is for Samsung Galaxy Z Fold 5, not Galaxy Tab S9 Ultra",
+   "at": "2026-09-26"
+  },
+  "xiaomi-13t": {
+   "url": "https://www.trustedreviews.com/reviews/xiaomi-13t",
+   "reason": "no Test Data table",
+   "at": "2026-09-26"
+  },
+  "xiaomi-14-ultra": {
+   "url": "https://www.trustedreviews.com/reviews/xiaomi-14-ultra",
+   "reason": "no Test Data table",
+   "at": "2026-09-26"
+  },
+  "xiaomi-14t": {
+   "url": "https://www.trustedreviews.com/reviews/xiaomi-14t",
+   "reason": "no Test Data table",
+   "at": "2026-09-26"
+  },
+  "xiaomi-17": {
+   "url": "https://www.trustedreviews.com/reviews/xiaomi-17",
+   "reason": "the table is for Full Specs, not Xiaomi 17",
+   "at": "2026-09-26"
+  }
+ },
+ "updatedAt": "2026-09-25T19:10:18+00:00"
+}

@@ -5,7 +5,7 @@ import { html, mount } from '../lib/html.js';
 import { fmtNumber, fmtPrice, fmtMetric, plural } from '../lib/format.js';
 import { store, brandName, deviceTitle, metricDef, categoryDef } from '../core/store.js';
 import { href, setQuery } from '../core/router.js';
-import { deviceCard, emptyState, compareButton, provBadge, confMeter, icon, statusBadge, priceTag, pageTrail } from '../ui/components.js';
+import { deviceCard, emptyState, compareButton, provBadge, confMeter, icon, statusBadge, priceTag, pageTrail, autoAddedTag } from '../ui/components.js';
 import { displayPrice, selectedCurrency, convert } from '../engine/money.js';
 import { miniMeter } from '../ui/charts.js';
 import { allCategoryScores, profileScore, valueScores, rankingCurrency, getMetric, profilePhrase, isOnSale } from '../engine/scoring.js';
@@ -216,7 +216,7 @@ function resultsTable(items, category, ranked) {
     </tr></thead>
     <tbody>${items.map(({ row, result }) => html`<tr>
       ${ranked ? html`<td class="num">${result ? html`${fmtNumber(result.score)}<div>${miniMeter(result.score)}</div>` : html`<span class="faint">—</span>`}</td>` : ''}
-      <th scope="row"><a href="${href(`/device/${row.id}`)}">${deviceTitle(row)}</a> ${statusBadge(row.status)}<div class="tiny muted">${(row.announced ?? '').slice(0, 4)}${ranked && row.chipsetName ? ` · ${row.chipsetName}` : ''}${row.f.hasTests ? '' : ' · specs only'}</div></th>
+      <th scope="row"><a href="${href(`/device/${row.id}`)}">${deviceTitle(row)}</a> ${statusBadge(row.status)} ${autoAddedTag(row)}<div class="tiny muted">${(row.announced ?? '').slice(0, 4)}${ranked && row.chipsetName ? ` · ${row.chipsetName}` : ''}${row.f.hasTests ? '' : ' · specs only'}</div></th>
       ${ranked ? '' : html`<td class="small">${row.chipsetName ?? '—'}</td>`}
       ${metrics.map((id) => {
         const m = getMetric(row, id);

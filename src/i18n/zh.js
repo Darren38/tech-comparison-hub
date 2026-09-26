@@ -987,7 +987,18 @@ Object.assign(ZH, {
   "Page last changed": "页面最后更新",
   "Watched since": "监测开始于",
   "Samsung Malaysia doesn’t publish a list of service programmes, so the site reads the pages where it would announce one and flags any free, discount, promotion or extended-warranty wording, with any dates and the part of Malaysia it names.": "三星马来西亚没有公布售后计划列表，因此本站会读取它可能发布计划的页面，并标出任何免费、折扣、促销或延长保修的字眼，以及日期和提到的马来西亚地区。",
-  "Results from UL 3DMark, DXOMARK and AnTuTu are re-checked automatically every morning (last check {when}), and Geekbench averages from NanoReview every week. A new phone joins these charts by itself once its exact name and chip match a listing. Reviewers’ own tests (battery life, charging, brightness) are added by hand.": "UL 3DMark、DXOMARK 和 AnTuTu 的结果每天早上自动重新检查（上次检查：{when}），NanoReview 的 Geekbench 平均分每周读取一次。新手机的名称和芯片与榜单完全一致时，会自动加入这些图表。评测机构自己的测试（续航、充电、亮度）仍由人工添加。",
+  "Results from UL 3DMark, DXOMARK and AnTuTu are re-checked automatically every morning (last check {when}), Geekbench averages from NanoReview every week, and Trusted Reviews’ test results (Geekbench, video battery drain, charging times) are read from each new review. A new phone joins these charts by itself once its exact name and chip match a listing. Other reviewers’ own tests (battery life, brightness) are added by hand.": "UL 3DMark、DXOMARK 和 AnTuTu 的结果每天早上自动重新检查（上次检查：{when}），NanoReview 的 Geekbench 平均分每周读取一次，Trusted Reviews 的测试结果（Geekbench、视频耗电、充电时间）会从每篇新评测中自动读取。新手机的名称和芯片与榜单完全一致时，会自动加入这些图表。其他评测机构自己的测试（续航、亮度）仍由人工添加。",
+  // Version 20: devices added automatically, values filled automatically
+  "Added automatically": "自动添加",
+  "Auto-added": "自动添加",
+  "auto": "自动",
+  "Added automatically on {date} from the maker’s own specification page.": "于 {date} 根据厂商官方规格页面自动添加。",
+  "Every value below is read from that page; anything it doesn’t state clearly is left out. Not checked by a person yet.": "以下每项数值都读取自该页面；页面没有清楚说明的内容不会填写。尚未经过人工核对。",
+  "New phones and tablets join the hub by themselves once the maker lists them on its Malaysian website with a specification page. The page is read with the same fixed patterns as the hand-reviewed records; a value it doesn’t state clearly is left out, and a model that fails a check waits for a person instead. Each one says so on its page and links to the maker’s page.": "厂商在马来西亚官网列出新手机或平板并提供规格页面后，它们会自动加入本站。规格页面以与人工审核记录相同的固定规则读取；页面没有清楚说明的数值不会填写，未通过检查的型号会留待人工处理。每款设备都会在其页面注明，并链接到厂商页面。",
+  "No models added automatically yet. The first ones appear when makers list new phones or tablets.": "目前还没有自动添加的型号。厂商列出新手机或平板后就会出现。",
+  "1 missing value of a device already in the hub was also filled from the maker’s page it cites (marked “auto” in its specification table).": "另有 1 项本站已有设备缺少的数值，已根据其引用的厂商页面补上（在规格表中标注“自动”）。",
+  "{n} missing values of devices already in the hub were also filled from the maker’s page they cite (marked “auto” in their specification tables).": "另有 {n} 项本站已有设备缺少的数值，已根据其引用的厂商页面补上（在规格表中标注“自动”）。",
+  "New models spotted": "新闻中出现的新型号",
 });
 
 export default ZH;

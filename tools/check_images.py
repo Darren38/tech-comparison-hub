@@ -17,6 +17,9 @@ import urllib.error
 import urllib.request
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from devices_all import all_devices, auto_chipsets  # noqa: E402  (Version 20: devices added automatically count too)
+
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "live" / "auto" / "images.json"
 UA = "Mozilla/5.0 (compatible; TechComparisonHub/1.0; +https://darren38.github.io/tech-comparison-hub/)"
@@ -52,8 +55,7 @@ def main() -> int:
         except (ValueError, KeyError):
             pass
     targets = {}
-    for f in sorted((ROOT / "data" / "devices").rglob("*.json")):
-        dev = json.loads(f.read_text(encoding="utf-8"))
+    for dev in all_devices():
         src = (dev.get("image") or {}).get("src")
         if src:
             targets[dev["id"]] = src

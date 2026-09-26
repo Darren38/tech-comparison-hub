@@ -20,12 +20,15 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 LIVE = ROOT / "live"
 FILES = ["archive.json", "views.json", "spotted.json", "official.json"]  # official.json: Version 18
+# Version 20: the automatic results live in the Actions cache; if GitHub ever clears it, these copies from the live site
+# keep devices added automatically, matched test results and found pictures from disappearing.
+FILES += ["auto/new_devices.json", "auto/auto_bench.json", "auto/found_images.json", "auto/image_boxes.json", "auto/auto_reviews.json"]
 UA = "Mozilla/5.0 (compatible; TechComparisonHub/1.0; +https://darren38.github.io/tech-comparison-hub/)"
 
 
 def stamp(data) -> str:
     if isinstance(data, dict):
-        return str(data.get("updatedAt") or data.get("fetchedAt") or "")
+        return str(data.get("updatedAt") or data.get("fetchedAt") or data.get("searchedAt") or data.get("measuredAt") or "")
     return ""
 
 
@@ -41,8 +44,13 @@ def size(data) -> int:
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--base", default=os.environ.get("SITE_URL") or "https://darren38.github.io/tech-comparison-hub/")
-    base = ap.parse_args().base.rstrip("/") + "/"
+    ap.add_argument("--auto-only", action="store_true",
+                    help="only the live/auto files (run again after the Actions cache is restored: the newer copy wins)")
+    args = ap.parse_args()
+    base = args.base.rstrip("/") + "/"
     for name in FILES:
+        if args.auto_only and not name.startswith("auto/"):
+            continue
         local_path = LIVE / name
         try:
             local = json.loads(local_path.read_text(encoding="utf-8")) if local_path.exists() else None
@@ -58,6 +66,7 @@ def main() -> None:
         newer = stamp(remote) > stamp(local) if local is not None else True
         # the archive only grows, so a smaller remote copy with a newer stamp still wins (old items age out)
         if newer:
+            local_path.parent.mkdir(parents=True, exist_ok=True)
             local_path.write_text(json.dumps(remote, ensure_ascii=False, indent=1), encoding="utf-8")
             print(f"[seed] {name}: using the live copy ({size(remote)} entries, {stamp(remote) or 'no date'})")
         else:

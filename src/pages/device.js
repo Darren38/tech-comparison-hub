@@ -2,6 +2,7 @@
 // evidence by facet, reviewer findings, videos, news, related devices and a bibliography.
 
 import { html } from '../lib/html.js';
+import { t } from '../core/i18n.js';
 import { sizeView, bindSize, measuresOf } from '../ui/size.js';
 import { autoSlot, fillAuto } from '../ui/autolinks.js';
 import { PLAIN_BY_LABEL } from '../ui/plain.js';
@@ -10,7 +11,7 @@ import { store, loadDevice, deviceTitle, brandName, metricDef, sourceName, categ
 import { href } from '../core/router.js';
 import {
   icon, provBadge, confMeter, sourceLink, extLink, statusBadge, tag, compareButton, schematic, evidenceBlock, deviceMedia, photoCredit,
-  fmtSpec, provenanceFor, docCard, findingItem, sectionHead, deviceCard, emptyState, pageOutline, bindOutline, pageTrail, specValue, specPath } from '../ui/components.js';
+  fmtSpec, provenanceFor, autoAddedTag, autoBadge, docCard, findingItem, sectionHead, deviceCard, emptyState, pageOutline, bindOutline, pageTrail, specValue, specPath } from '../ui/components.js';
 import { scoreBars } from '../ui/charts.js';
 import { allCategoryScores, rankOf, profileScore } from '../engine/scoring.js';
 import { displayPrice, priceText, priceExplanation, availabilityIn } from '../engine/money.js';
@@ -59,7 +60,7 @@ function header(data, row) {
   const cat = categoryDef(d.category);
   const dp = displayPrice(d);
   const avail = availabilityIn(d);
-  const status = d.dataStatus === 'checked'
+  const status = d.auto ? autoAddedTag(d, { long: true }) : d.dataStatus === 'checked'
     ? html`<span class="tag tag--good" title="Key specifications cross-checked against the cited sources on ${d.provenance?.default?.checked ?? 'the last data review'}">Specs checked</span>`
     : html`<span class="tag tag--warn" title="Compiled from manufacturer launch material; not re-checked against a live source this cycle">Specs compiled: verification pending</span>`;
   const measured = Object.values(data.metrics).filter((m) => !m.inherited && m.origins?.some((o) => o.class === 'measured' || o.class === 'database')).length;
@@ -90,6 +91,7 @@ function header(data, row) {
             : html`<span class="small muted">Launch price not recorded</span>`}
         </div>
         ${dp && !dp.local ? html`<p class="tiny muted dhead__rate">${priceExplanation(dp)}</p>` : ''}
+        ${d.auto ? html`<p class="small dhead__auto">${t('Added automatically on {date} from the maker’s own specification page.', { date: fmtDate(d.auto.addedAt) })} ${extLink(d.auto.url, d.auto.site ?? 'Maker’s page')} ${t('Every value below is read from that page; anything it doesn’t state clearly is left out. Not checked by a person yet.')} ${autoBadge('daily', 'new models from makers’ Malaysian sites')}</p>` : ''}
         ${avail ? html`<p class="small dhead__avail"><strong>${avail.long}.</strong> ${avail.note ?? ''}${avail.source ? html` ${sourceLink(avail.source)}` : ''}${avail.url ? html` · ${extLink(avail.url, 'read the source')}` : ''} <span class="tiny muted">Checked ${fmtDate(avail.checked)}.</span></p>` : ''}
         <div class="row dhead__actions">
           ${compareButton(d.id)}
@@ -191,7 +193,7 @@ function specSheet(data) {
         ${present.map(({ f, text, prov }) => html`<tr>
           <th scope="row">${f.label}</th>
           <td>${text}${PLAIN_BY_LABEL[f.label] ? html`<span class="plain-only plain-hint">${PLAIN_BY_LABEL[f.label]}</span>` : ''}</td>
-          <td class="spec-table__prov"><span title="${sourceName(prov.source)}${prov.note ? ` · ${prov.note}` : ''}">${provBadge(prov.class)}</span></td>
+          <td class="spec-table__prov"><span title="${sourceName(prov.source)}${prov.note ? ` · ${prov.note}` : ''}">${provBadge(prov.class)}</span>${d.autoFilled?.includes(specPath(f.key).replace(/^specs\./, '')) ? html` <span class="autofill" title="${`Filled automatically from ${sourceName(prov.source)}'s specification page${prov.checked ? ` on ${prov.checked}` : ''}. Not checked by a person yet.`}">auto</span>` : ''}</td>
         </tr>`)}
       </tbody></table>
       ${missing.length ? html`<p class="spec-card__missing tiny faint">Not stated by the sources: ${missing.join(', ')}</p>` : ''}

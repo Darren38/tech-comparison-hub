@@ -35,8 +35,11 @@ const YEARS = ['2023', '2024', '2025', '2026'];
 // Version 19: tests whose results update by themselves (tools/refresh_benchmarks.py daily, tools/auto_benchmarks.py for
 // phones not matched by hand; NanoReview's Geekbench averages weekly). Other tests are reviewers' own, added by hand.
 const AUTO_TESTS = {
-  gb6_multi: ['weekly', 'Geekbench 6 averages from NanoReview; results from reviews are added by hand'],
-  gb6_single: ['weekly', 'Geekbench 6 averages from NanoReview; results from reviews are added by hand'],
+  gb6_multi: ['daily', 'Geekbench 6 averages from NanoReview weekly; Trusted Reviews results from new reviews daily'],
+  gb6_single: ['daily', 'Geekbench 6 averages from NanoReview weekly; Trusted Reviews results from new reviews daily'],
+  // Version 20: Trusted Reviews' Test Data table is read automatically from new reviews
+  tr_video_drain: ['daily', 'from new Trusted Reviews reviews'], charge_full: ['daily', 'Trusted Reviews results from new reviews; other reviewers by hand'],
+  charge_30: ['daily', 'Trusted Reviews results from new reviews; other reviewers by hand'], charge_15: ['daily', 'Trusted Reviews results from new reviews; other reviewers by hand'],
   wle: ['daily', 'from UL’s 3DMark database'], steel_nomad_light: ['daily', 'from UL’s 3DMark database'], solar_bay: ['daily', 'from UL’s 3DMark database'],
   antutu_v11: ['daily', 'from AnTuTu’s ranking'],
   dxomark_camera: ['daily', 'from DXOMARK’s public list'], dxomark_camera_v5: ['daily', 'from DXOMARK’s public list'],
@@ -261,7 +264,7 @@ export default async function render({ query }) {
         <div class="eyebrow">Measured results, with maker claims kept apart</div>
         <h1>Charts</h1>
         <p class="muted" style="margin-top:8px;max-width:78ch">Every bar is a test result for that phone, named with the labs or publications that measured it. Standard benchmarks (Geekbench, 3DMark, AnTuTu) are the same test wherever they are run, so their results share a chart; tests with a lab's own method (battery life, charging, brightness, DXOMARK scores) each get their own chart and are never put on one scale. Manufacturer claims never share a chart with measurements: they have their own <em>Maker claims</em> tab (tablets, watches, bands and earbuds, which few labs test yet), labelled as claims. A Galaxy tested in its Snapdragon version is shown as its own striped bar, separate from the Exynos model sold in Malaysia.</p>
-        ${store.core.build?.auto?.benchmarks ? html`<p class="small muted" style="margin-top:6px;max-width:78ch">${t('Results from UL 3DMark, DXOMARK and AnTuTu are re-checked automatically every morning (last check {when}), and Geekbench averages from NanoReview every week. A new phone joins these charts by itself once its exact name and chip match a listing. Reviewers’ own tests (battery life, charging, brightness) are added by hand.', { when: fmtDateTime(store.core.build.auto.benchmarks.at) })}</p>` : ''}
+        ${store.core.build?.auto?.benchmarks ? html`<p class="small muted" style="margin-top:6px;max-width:78ch">${t('Results from UL 3DMark, DXOMARK and AnTuTu are re-checked automatically every morning (last check {when}), Geekbench averages from NanoReview every week, and Trusted Reviews’ test results (Geekbench, video battery drain, charging times) are read from each new review. A new phone joins these charts by itself once its exact name and chip match a listing. Other reviewers’ own tests (battery life, brightness) are added by hand.', { when: fmtDateTime(store.core.build.auto.benchmarks.at) })}</p>` : ''}
       </header>
       <nav class="tabs" aria-label="Chart">${TABS.map((t) => html`<a href="${href('/charts', { tab: t.id })}" aria-current="${t.id === state.tab ? 'true' : 'false'}">${t.label}</a>`)}</nav>
       <div data-chart>${panel(state)}</div>

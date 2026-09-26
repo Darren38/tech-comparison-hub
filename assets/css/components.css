@@ -2671,3 +2671,41 @@ body:has(.tray:not([hidden])) .ask {
 }
 .autobadge__icon { font-size: 12px; line-height: 1; }
 .chart-panel__auto { margin: 0 0 4px; }
+
+/* Version 20: devices added automatically from makers' own specification pages, and values filled automatically */
+.tag--auto {
+  background: color-mix(in srgb, var(--good, #1c7c4a) 10%, var(--surface));
+  color: color-mix(in srgb, var(--good, #1c7c4a) 85%, var(--ink));
+  border: 1px solid color-mix(in srgb, var(--good, #1c7c4a) 35%, var(--rule));
+  cursor: help;
+}
+.dhead__auto {
+  margin: 8px 0 0;
+  padding: 8px 10px;
+  border-left: 3px solid color-mix(in srgb, var(--good, #1c7c4a) 60%, var(--rule));
+  background: color-mix(in srgb, var(--good, #1c7c4a) 6%, var(--surface));
+  border-radius: 0 6px 6px 0;
+  overflow-wrap: anywhere;
+}
+.autofill {
+  display: inline-block;
+  margin-left: 3px;
+  padding: 0 4px;
+  border-radius: 4px;
+  font: 600 10px/1.5 var(--font-sans, inherit);
+  color: color-mix(in srgb, var(--good, #1c7c4a) 85%, var(--ink));
+  background: color-mix(in srgb, var(--good, #1c7c4a) 10%, var(--surface));
+  cursor: help;
+}
+.autolist { margin: 0; padding-left: 18px; display: grid; gap: 4px; }
+.autolist li { min-width: 0; overflow-wrap: anywhere; }
+
+/* Version 20: small notes (source notes, method notes) can carry long web addresses with no spaces, such as an
+   Internet Archive copy's address; let them wrap instead of widening the page on a phone. */
+p.tiny,
+li.tiny,
+.tiny p,
+.small.muted,
+.spec-card__missing {
+  overflow-wrap: anywhere;
+}

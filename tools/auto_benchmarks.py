@@ -58,6 +58,7 @@ VENDOR_WORDS = {"qualcomm", "mediatek", "samsung", "apple", "google", "hisilicon
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from refresh_benchmarks import antutu_rows, text_lines  # noqa: E402  (same page readers as the daily refresh)
+from devices_all import all_devices, auto_chipsets  # noqa: E402  (Version 20: devices added automatically count too)
 
 _robots: dict[str, urllib.robotparser.RobotFileParser | None] = {}
 
@@ -110,13 +111,9 @@ def chip_norm(text: str) -> str:
 def load_devices() -> list[dict]:
     brands = {b["id"]: b["name"] for b in json.loads((DATA / "brands" / "brands.json").read_text(encoding="utf-8"))}
     chips = {}
-    for path in (DATA / "chipsets").glob("*.json"):
-        c = json.loads(path.read_text(encoding="utf-8"))
+    for c in [json.loads(p.read_text(encoding="utf-8")) for p in (DATA / "chipsets").glob("*.json")] + auto_chipsets():
         chips[c["id"]] = {chip_norm(n) for n in [c["name"], *c.get("aliases", [])] if n}
-    raw = []
-    for cat in ("smartphone", "tablet"):
-        for path in sorted((DATA / "devices" / cat).glob("*.json")):
-            raw.append((cat, json.loads(path.read_text(encoding="utf-8"))))
+    raw = [(d["category"], d) for d in all_devices(("smartphone", "tablet"))]
     # a model name without its brand ("Galaxy S26 Ultra", "Neo 10") is only used when no other device shares it
     brandless_count: dict[str, int] = {}
     for _, d in raw:

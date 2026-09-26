@@ -1,0 +1,1122 @@
+{
+ "updatedAt": "2026-09-25T16:51:54+00:00",
+ "runs": {
+  "new": "2026-09-25T16:51:54+00:00",
+  "fill": "2026-09-25T16:12:08+00:00"
+ },
+ "sources": {
+  "oppo": {
+   "ok": true,
+   "at": "2026-09-25T16:51:48+00:00",
+   "pages": 77,
+   "new": 0
+  },
+  "honor": {
+   "ok": true,
+   "at": "2026-09-25T16:51:49+00:00",
+   "pages": 83,
+   "new": 0
+  },
+  "huawei": {
+   "ok": true,
+   "at": "2026-09-25T16:51:50+00:00",
+   "pages": 21,
+   "new": 0
+  },
+  "vivo": {
+   "ok": true,
+   "at": "2026-09-25T16:51:50+00:00",
+   "pages": 67,
+   "new": 0
+  },
+  "oneplus": {
+   "ok": true,
+   "at": "2026-09-25T16:51:51+00:00",
+   "pages": 21,
+   "new": 0
+  },
+  "realme": {
+   "ok": true,
+   "at": "2026-09-25T16:51:50+00:00",
+   "pages": 19,
+   "new": 0
+  },
+  "apple": {
+   "ok": true,
+   "at": "2026-09-25T16:51:54+00:00",
+   "pages": 114,
+   "new": 0
+  },
+  "samsung": {
+   "ok": true,
+   "at": "2026-09-25T16:51:54+00:00",
+   "pages": 8,
+   "new": 0
+  }
+ },
+ "devices": {},
+ "chipsets": {
+  "dimensity-6360-max": {
+   "id": "dimensity-6360-max",
+   "name": "Dimensity 6360 Max",
+   "vendor": "mediatek",
+   "family": "Dimensity 6000",
+   "summary": "Name recorded automatically from a phone maker's specification page. Chip details have not been compiled yet.",
+   "provenance": {
+    "default": {
+     "class": "official",
+     "source": "oppo",
+     "url": "https://www.oppo.com/my/smartphones/series-a/a7-pro-5g/specs/",
+     "checked": "2026-09-25",
+     "note": "Chip name as given for the OPPO A7 Pro 5G."
+    }
+   },
+   "auto": true
+  },
+  "dimensity-7300-energy": {
+   "id": "dimensity-7300-energy",
+   "name": "Dimensity 7300 Energy",
+   "vendor": "mediatek",
+   "family": "Dimensity 7000",
+   "summary": "Name recorded automatically from a phone maker's specification page. Chip details have not been compiled yet.",
+   "provenance": {
+    "default": {
+     "class": "official",
+     "source": "realme",
+     "url": "https://www.realme.com/my/realme-13-plus-5g/specs",
+     "checked": "2026-09-25",
+     "note": "Chip name as given for the realme 13+ 5G."
+    }
+   },
+   "auto": true
+  },
+  "dimensity-7300-plus": {
+   "id": "dimensity-7300-plus",
+   "name": "Dimensity 7300+",
+   "vendor": "mediatek",
+   "family": "Dimensity 7000",
+   "summary": "Name recorded automatically from a phone maker's specification page. Chip details have not been compiled yet.",
+   "provenance": {
+    "default": {
+     "class": "official",
+     "source": "realme",
+     "url": "https://www.realme.com/my/realme-15-5g/specs",
+     "checked": "2026-09-25",
+     "note": "Chip name as given for the realme 15 5G."
+    }
+   },
+   "auto": true
+  },
+  "dimensity-6400-max": {
+   "id": "dimensity-6400-max",
+   "name": "Dimensity 6400 Max",
+   "vendor": "mediatek",
+   "family": "Dimensity 6000",
+   "summary": "Name recorded automatically from a phone maker's specification page. Chip details have not been compiled yet.",
+   "provenance": {
+    "default": {
+     "class": "official",
+     "source": "realme",
+     "url": "https://www.realme.com/my/realme-15t-5g/specs",
+     "checked": "2026-09-25",
+     "note": "Chip name as given for the realme 15T 5G."
+    }
+   },
+   "auto": true
+  },
+  "dimensity-6400-turbo": {
+   "id": "dimensity-6400-turbo",
+   "name": "Dimensity 6400 Turbo",
+   "vendor": "mediatek",
+   "family": "Dimensity 6000",
+   "summary": "Name recorded automatically from a phone maker's specification page. Chip details have not been compiled yet.",
+   "provenance": {
+    "default": {
+     "class": "official",
+     "source": "realme",
+     "url": "https://www.realme.com/my/realme-16-5g/specs",
+     "checked": "2026-09-25",
+     "note": "Chip name as given for the realme 16 5G."
+    }
+   },
+   "auto": true
+  },
+  "dimensity-7300-max": {
+   "id": "dimensity-7300-max",
+   "name": "Dimensity 7300 Max",
+   "vendor": "mediatek",
+   "family": "Dimensity 7000",
+   "summary": "Name recorded automatically from a phone maker's specification page. Chip details have not been compiled yet.",
+   "provenance": {
+    "default": {
+     "class": "official",
+     "source": "realme",
+     "url": "https://www.realme.com/my/realme-16-pro-5g/specs",
+     "checked": "2026-09-25",
+     "note": "Chip name as given for the realme 16 Pro 5G."
+    }
+   },
+   "auto": true
+  },
+  "dimensity-9400e": {
+   "id": "dimensity-9400e",
+   "name": "Dimensity 9400e",
+   "vendor": "mediatek",
+   "family": "Dimensity 9000",
+   "summary": "Name recorded automatically from a phone maker's specification page. Chip details have not been compiled yet.",
+   "provenance": {
+    "default": {
+     "class": "official",
+     "source": "realme",
+     "url": "https://www.realme.com/my/realme-gt-7-5g/specs",
+     "checked": "2026-09-25",
+     "note": "Chip name as given for the realme GT 7."
+    }
+   },
+   "auto": true
+  },
+  "dimensity-8350-ultra": {
+   "id": "dimensity-8350-ultra",
+   "name": "Dimensity 8350 Ultra",
+   "vendor": "mediatek",
+   "family": "Dimensity 8000",
+   "summary": "Name recorded automatically from a phone maker's specification page. Chip details have not been compiled yet.",
+   "provenance": {
+    "default": {
+     "class": "official",
+     "source": "realme",
+     "url": "https://www.realme.com/my/realme-p3-ultra/specs",
+     "checked": "2026-09-25",
+     "note": "Chip name as given for the realme P3 Ultra 5G."
+    }
+   },
+   "auto": true
+  }
+ },
+ "held": {},
+ "fills": {
+  "oppo-a7-pro": {
+   "platform.chipset": {
+    "value": "dimensity-6360-max",
+    "url": "https://www.oppo.com/my/smartphones/series-a/a7-pro-5g/specs/",
+    "checked": "2026-09-25"
+   }
+  },
+  "poco-x5-5g": {
+   "memory.ram_gb": {
+    "value": [
+     8
+    ],
+    "url": "https://www.mi.com/my/product/poco-x5-5g/specs/",
+    "checked": "2026-09-25"
+   },
+   "memory.storage_gb": {
+    "value": [
+     256
+    ],
+    "url": "https://www.mi.com/my/product/poco-x5-5g/specs/",
+    "checked": "2026-09-25"
+   }
+  },
+  "poco-x5-pro-5g": {
+   "memory.storage_gb": {
+    "value": [
+     256
+    ],
+    "url": "https://www.mi.com/my/product/poco-x5-pro-5g/specs/",
+    "checked": "2026-09-25"
+   }
+  },
+  "poco-x7": {
+   "memory.ram_gb": {
+    "value": [
+     8,
+     12
+    ],
+    "url": "https://www.mi.com/my/product/poco-x7/specs/",
+    "checked": "2026-09-25"
+   },
+   "memory.storage_gb": {
+    "value": [
+     256,
+     512
+    ],
+    "url": "https://www.mi.com/my/product/poco-x7/specs/",
+    "checked": "2026-09-25"
+   }
+  },
+  "realme-12-plus": {
+   "display.peak_nits": {
+    "value": 2000,
+    "url": "https://www.realme.com/my/realme-12-plus/specs",
+    "checked": "2026-09-25"
+   }
+  },
+  "realme-12x": {
+   "charging.wired_w": {
+    "value": 15,
+    "url": "https://www.realme.com/my/realme-12x/specs",
+    "checked": "2026-09-25"
+   }
+  },
+  "realme-13-plus": {
+   "display.peak_nits": {
+    "value": 2000,
+    "url": "https://www.realme.com/my/realme-13-plus-5g/specs",
+    "checked": "2026-09-25"
+   },
+   "charging.wired_w": {
+    "value": 80,
+    "url": "https://www.realme.com/my/realme-13-plus-5g/specs",
+    "checked": "2026-09-25"
+   },
+   "platform.chipset": {
+    "value": "dimensity-7300-energy",
+    "url": "https://www.realme.com/my/realme-13-plus-5g/specs",
+    "checked": "2026-09-25"
+   }
+  },
+  "realme-14": {
+   "display.peak_nits": {
+    "value": 2000,
+    "url": "https://www.realme.com/my/realme-14-5g/specs",
+    "checked": "2026-09-25"
+   },
+   "battery.capacity_mah": {
+    "value": 6000,
+    "url": "https://www.realme.com/my/realme-14-5g/specs",
+    "checked": "2026-09-25"
+   }
+  },
+  "realme-14-pro": {
+   "platform.chipset": {
+    "value": "dimensity-7300-energy",
+    "url": "https://www.realme.com/my/realme-14-pro-5g/specs",
+    "checked": "2026-09-25"
+   }
+  },
+  "realme-14x": {
+   "memory.ram_gb": {
+    "value": [
+     8
+    ],
+    "url": "https://www.realme.com/my/realme-14x-5g/specs",
+    "checked": "2026-09-25"
+   }
+  },
+  "realme-15": {
+   "charging.wired_w": {
+    "value": 80,
+    "url": "https://www.realme.com/my/realme-15-5g/specs",
+    "checked": "2026-09-25"
+   },
+   "platform.chipset": {
+    "value": "dimensity-7300-plus",
+    "url": "https://www.realme.com/my/realme-15-5g/specs",
+    "checked": "2026-09-25"
+   }
+  },
+  "realme-15-pro": {
+   "charging.wired_w": {
+    "value": 80,
+    "url": "https://www.realme.com/my/realme-15-pro-5g/specs",
+    "checked": "2026-09-25"
+   }
+  },
+  "realme-15t": {
+   "platform.chipset": {
+    "value": "dimensity-6400-max",
+    "url": "https://www.realme.com/my/realme-15t-5g/specs",
+    "checked": "2026-09-25"
+   }
+  },
+  "realme-16": {
+   "platform.chipset": {
+    "value": "dimensity-6400-turbo",
+    "url": "https://www.realme.com/my/realme-16-5g/specs",
+    "checked": "2026-09-25"
+   }
+  },
+  "realme-16-pro": {
+   "platform.chipset": {
+    "value": "dimensity-7300-max",
+    "url": "https://www.realme.com/my/realme-16-pro-5g/specs",
+    "checked": "2026-09-25"
+   }
+  },
+  "realme-16t": {
+   "battery.capacity_mah": {
+    "value": 8000,
+    "url": "https://www.realme.com/my/realme-16t-5g/specs",
+    "checked": "2026-09-25"
+   }
+  },
+  "realme-c61": {
+   "memory.ram_gb": {
+    "value": [
+     6
+    ],
+    "url": "https://www.realme.com/my/realme-c61/specs",
+    "checked": "2026-09-25"
+   }
+  },
+  "realme-c63": {
+   "build.ip": {
+    "value": "IP54",
+    "url": "https://www.realme.com/my/realme-c63/specs",
+    "checked": "2026-09-25"
+   }
+  },
+  "realme-c65": {
+   "display.size_in": {
+    "value": 6.67,
+    "url": "https://www.realme.com/my/realme-c65/specs",
+    "checked": "2026-09-25"
+   }
+  },
+  "realme-c67": {
+   "display.size_in": {
+    "value": 6.72,
+    "url": "https://www.realme.com/my/realme-c67/specs",
+    "checked": "2026-09-25"
+   },
+   "platform.chipset": {
+    "value": "snapdragon-685",
+    "url": "https://www.realme.com/my/realme-c67/specs",
+    "checked": "2026-09-25"
+   }
+  },
+  "realme-c75": {
+   "memory.ram_gb": {
+    "value": [
+     8
+    ],
+    "url": "https://www.realme.com/my/realme-c75/specs",
+    "checked": "2026-09-25"
+   }
+  },
+  "realme-c75x": {
+   "memory.ram_gb": {
+    "value": [
+     8
+    ],
+    "url": "https://www.realme.com/my/realme-c75x/specs",
+    "checked": "2026-09-25"
+   }
+  },
+  "realme-c85": {
+   "battery.capacity_mah": {
+    "value": 7000,
+    "url": "https://www.realme.com/my/realme-c85/specs",
+    "checked": "2026-09-25"
+   },
+   "build.weight_g": {
+    "value": 212.0,
+    "url": "https://www.realme.com/my/realme-c85/specs",
+    "checked": "2026-09-25"
+   }
+  },
+  "realme-c85-5g": {
+   "battery.capacity_mah": {
+    "value": 7000,
+    "url": "https://www.realme.com/my/realme-c85-5g/specs",
+    "checked": "2026-09-25"
+   },
+   "build.weight_g": {
+    "value": 215.0,
+    "url": "https://www.realme.com/my/realme-c85-5g/specs",
+    "checked": "2026-09-25"
+   }
+  },
+  "realme-gt-6t": {
+   "platform.chipset": {
+    "value": "snapdragon-7-plus-gen-3",
+    "url": "https://www.realme.com/my/realme-gt-6t/specs",
+    "checked": "2026-09-25"
+   }
+  },
+  "realme-gt-7": {
+   "display.resolution": {
+    "value": "2780 × 1264",
+    "url": "https://www.realme.com/my/realme-gt-7-5g/specs",
+    "checked": "2026-09-25"
+   },
+   "display.peak_nits": {
+    "value": 6000,
+    "url": "https://www.realme.com/my/realme-gt-7-5g/specs",
+    "checked": "2026-09-25"
+   },
+   "charging.wired_w": {
+    "value": 120,
+    "url": "https://www.realme.com/my/realme-gt-7-5g/specs",
+    "checked": "2026-09-25"
+   },
+   "platform.chipset": {
+    "value": "dimensity-9400e",
+    "url": "https://www.realme.com/my/realme-gt-7-5g/specs",
+    "checked": "2026-09-25"
+   }
+  },
+  "realme-gt-7-pro": {
+   "display.peak_nits": {
+    "value": 6500,
+    "url": "https://www.realme.com/my/realme-gt-7-pro/specs",
+    "checked": "2026-09-25"
+   }
+  },
+  "realme-gt-8-pro": {
+   "build.weight_g": {
+    "value": 214.0,
+    "url": "https://www.realme.com/global/realme-gt-8-pro/specs",
+    "checked": "2026-09-25"
+   }
+  },
+  "realme-gt3": {
+   "battery.capacity_mah": {
+    "value": 4600,
+    "url": "https://www.realme.com/my/realme-gt-3/specs",
+    "checked": "2026-09-25"
+   }
+  },
+  "realme-note-60x": {
+   "build.ip": {
+    "value": "IP54",
+    "url": "https://www.realme.com/my/realme-note-60x/specs",
+    "checked": "2026-09-25"
+   }
+  },
+  "realme-p3-ultra": {
+   "platform.chipset": {
+    "value": "dimensity-8350-ultra",
+    "url": "https://www.realme.com/my/realme-p3-ultra/specs",
+    "checked": "2026-09-25"
+   }
+  },
+  "redmi-a7": {
+   "memory.storage_gb": {
+    "value": [
+     64
+    ],
+    "url": "https://www.mi.com/my/product/redmi-a7/specs/",
+    "checked": "2026-09-25"
+   }
+  },
+  "redmi-a7-pro": {
+   "memory.storage_gb": {
+    "value": [
+     64,
+     128
+    ],
+    "url": "https://www.mi.com/my/product/redmi-a7-pro/specs/",
+    "checked": "2026-09-25"
+   }
+  },
+  "redmi-note-12-pro-plus-5g": {
+   "memory.ram_gb": {
+    "value": [
+     8
+    ],
+    "url": "https://www.mi.com/my/product/redmi-note-12-pro-plus-5g/specs/",
+    "checked": "2026-09-25"
+   },
+   "memory.storage_gb": {
+    "value": [
+     256
+    ],
+    "url": "https://www.mi.com/my/product/redmi-note-12-pro-plus-5g/specs/",
+    "checked": "2026-09-25"
+   }
+  },
+  "redmi-note-12s": {
+   "memory.ram_gb": {
+    "value": [
+     8
+    ],
+    "url": "https://www.mi.com/global/product/redmi-note-12s/specs/",
+    "checked": "2026-09-25"
+   },
+   "memory.storage_gb": {
+    "value": [
+     256
+    ],
+    "url": "https://www.mi.com/global/product/redmi-note-12s/specs/",
+    "checked": "2026-09-25"
+   }
+  },
+  "redmi-note-13-pro": {
+   "memory.ram_gb": {
+    "value": [
+     8,
+     12
+    ],
+    "url": "https://www.mi.com/global/product/redmi-note-13-pro/specs/",
+    "checked": "2026-09-25"
+   },
+   "memory.storage_gb": {
+    "value": [
+     256,
+     512
+    ],
+    "url": "https://www.mi.com/global/product/redmi-note-13-pro/specs/",
+    "checked": "2026-09-25"
+   }
+  },
+  "redmi-note-13-pro-5g": {
+   "memory.ram_gb": {
+    "value": [
+     8,
+     12
+    ],
+    "url": "https://www.mi.com/my/product/redmi-note-13-pro-5g/specs/",
+    "checked": "2026-09-25"
+   },
+   "memory.storage_gb": {
+    "value": [
+     256,
+     512
+    ],
+    "url": "https://www.mi.com/my/product/redmi-note-13-pro-5g/specs/",
+    "checked": "2026-09-25"
+   }
+  },
+  "redmi-note-13-pro-plus-5g": {
+   "memory.ram_gb": {
+    "value": [
+     8,
+     12
+    ],
+    "url": "https://www.mi.com/my/product/redmi-note-13-pro-plus-5g/specs/",
+    "checked": "2026-09-25"
+   },
+   "memory.storage_gb": {
+    "value": [
+     256,
+     512
+    ],
+    "url": "https://www.mi.com/my/product/redmi-note-13-pro-plus-5g/specs/",
+    "checked": "2026-09-25"
+   }
+  },
+  "redmi-note-14-pro": {
+   "memory.ram_gb": {
+    "value": [
+     8,
+     12
+    ],
+    "url": "https://www.mi.com/global/product/redmi-note-14-pro/specs/",
+    "checked": "2026-09-25"
+   },
+   "memory.storage_gb": {
+    "value": [
+     128,
+     256,
+     512
+    ],
+    "url": "https://www.mi.com/global/product/redmi-note-14-pro/specs/",
+    "checked": "2026-09-25"
+   }
+  },
+  "redmi-note-14-pro-5g": {
+   "memory.ram_gb": {
+    "value": [
+     8,
+     12
+    ],
+    "url": "https://www.mi.com/my/product/redmi-note-14-pro-5g/specs/",
+    "checked": "2026-09-25"
+   },
+   "memory.storage_gb": {
+    "value": [
+     256,
+     512
+    ],
+    "url": "https://www.mi.com/my/product/redmi-note-14-pro-5g/specs/",
+    "checked": "2026-09-25"
+   }
+  },
+  "xiaomi-15t": {
+   "memory.ram_gb": {
+    "value": [
+     12
+    ],
+    "url": "https://www.mi.com/my/product/xiaomi-15t/specs/",
+    "checked": "2026-09-25"
+   },
+   "memory.storage_gb": {
+    "value": [
+     256,
+     512
+    ],
+    "url": "https://www.mi.com/my/product/xiaomi-15t/specs/",
+    "checked": "2026-09-25"
+   }
+  }
+ },
+ "changes": {
+  "huawei-matepad-pro-max": {
+   "build.weight_g": {
+    "recorded": 499,
+    "page": 509.0,
+    "url": "https://consumer.huawei.com/my/tablets/matepad-pro-max/specs/",
+    "checked": "2026-09-25"
+   }
+  },
+  "oppo-a7-pro": {
+   "memory.ram_gb": {
+    "recorded": [
+     6
+    ],
+    "page": [
+     6,
+     8
+    ],
+    "url": "https://www.oppo.com/my/smartphones/series-a/a7-pro-5g/specs/",
+    "checked": "2026-09-25"
+   }
+  },
+  "realme-16": {
+   "battery.capacity_mah": {
+    "recorded": 6830,
+    "page": 7000,
+    "url": "https://www.realme.com/my/realme-16-5g/specs",
+    "checked": "2026-09-25"
+   }
+  },
+  "realme-p4-lite": {
+   "memory.storage_gb": {
+    "recorded": [
+     64
+    ],
+    "page": [
+     64,
+     256
+    ],
+    "url": "https://www.realme.com/my/realme-p4-lite/specs",
+    "checked": "2026-09-25"
+   }
+  }
+ },
+ "pending": {},
+ "guessed": {},
+ "fillCursor": "xiaomi-mix-flip",
+ "samsungSince": "2026-09-26",
+ "seen": {
+  "oppo": [
+   "https://www.oppo.com/my/accessories/oppo-pad-2/specs/",
+   "https://www.oppo.com/my/accessories/oppo-pad-3-matte-display-edition/specs/",
+   "https://www.oppo.com/my/accessories/oppo-pad-3-pro/specs/",
+   "https://www.oppo.com/my/accessories/oppo-pad-air/specs/",
+   "https://www.oppo.com/my/accessories/oppo-pad-neo/specs/",
+   "https://www.oppo.com/my/smartphones/series-a/a15s/specs/",
+   "https://www.oppo.com/my/smartphones/series-a/a17/specs/",
+   "https://www.oppo.com/my/smartphones/series-a/a17k/specs/",
+   "https://www.oppo.com/my/smartphones/series-a/a18/specs/",
+   "https://www.oppo.com/my/smartphones/series-a/a3-5g/specs/",
+   "https://www.oppo.com/my/smartphones/series-a/a3-pro-5g/specs/",
+   "https://www.oppo.com/my/smartphones/series-a/a3/specs/",
+   "https://www.oppo.com/my/smartphones/series-a/a38/specs/",
+   "https://www.oppo.com/my/smartphones/series-a/a3x/specs/",
+   "https://www.oppo.com/my/smartphones/series-a/a5-5g/specs/",
+   "https://www.oppo.com/my/smartphones/series-a/a5-pro-5g/specs/",
+   "https://www.oppo.com/my/smartphones/series-a/a5-pro/specs/",
+   "https://www.oppo.com/my/smartphones/series-a/a5/specs/",
+   "https://www.oppo.com/my/smartphones/series-a/a57/specs/",
+   "https://www.oppo.com/my/smartphones/series-a/a58/specs/",
+   "https://www.oppo.com/my/smartphones/series-a/a5i-pro-5g/specs/",
+   "https://www.oppo.com/my/smartphones/series-a/a5i/specs/",
+   "https://www.oppo.com/my/smartphones/series-a/a6-5g/specs/",
+   "https://www.oppo.com/my/smartphones/series-a/a6-pro-5g/specs/",
+   "https://www.oppo.com/my/smartphones/series-a/a60/specs/",
+   "https://www.oppo.com/my/smartphones/series-a/a6c/specs/",
+   "https://www.oppo.com/my/smartphones/series-a/a6t-5g/specs/",
+   "https://www.oppo.com/my/smartphones/series-a/a6x-5g/specs/",
+   "https://www.oppo.com/my/smartphones/series-a/a6x/specs/",
+   "https://www.oppo.com/my/smartphones/series-a/a7-pro-5g/specs/",
+   "https://www.oppo.com/my/smartphones/series-a/a7-pro-max-5g/specs/",
+   "https://www.oppo.com/my/smartphones/series-a/a73/specs/",
+   "https://www.oppo.com/my/smartphones/series-a/a77-5g/specs/",
+   "https://www.oppo.com/my/smartphones/series-a/a77s/specs/",
+   "https://www.oppo.com/my/smartphones/series-a/a78-5g/specs/",
+   "https://www.oppo.com/my/smartphones/series-a/a78/specs/",
+   "https://www.oppo.com/my/smartphones/series-a/a79-5g/specs/",
+   "https://www.oppo.com/my/smartphones/series-a/a96/specs/",
+   "https://www.oppo.com/my/smartphones/series-a/a98-5g/specs/",
+   "https://www.oppo.com/my/smartphones/series-find-n/find-n2-flip/specs/",
+   "https://www.oppo.com/my/smartphones/series-find-n/find-n3-flip/specs/",
+   "https://www.oppo.com/my/smartphones/series-find-n/find-n3/specs/",
+   "https://www.oppo.com/my/smartphones/series-find-n/find-n5/specs/",
+   "https://www.oppo.com/my/smartphones/series-find-n/find-n6/specs/",
+   "https://www.oppo.com/my/smartphones/series-find-x/find-x3-pro/specs/",
+   "https://www.oppo.com/my/smartphones/series-find-x/find-x8-pro/specs/",
+   "https://www.oppo.com/my/smartphones/series-find-x/find-x8/specs/",
+   "https://www.oppo.com/my/smartphones/series-find-x/find-x9-pro/specs/",
+   "https://www.oppo.com/my/smartphones/series-find-x/find-x9-ultra/specs/",
+   "https://www.oppo.com/my/smartphones/series-find-x/find-x9/specs/",
+   "https://www.oppo.com/my/smartphones/series-find-x/find-x9s/specs/",
+   "https://www.oppo.com/my/smartphones/series-reno/reno10-pro-plus/specs/",
+   "https://www.oppo.com/my/smartphones/series-reno/reno10-pro/specs/",
+   "https://www.oppo.com/my/smartphones/series-reno/reno10/specs/",
+   "https://www.oppo.com/my/smartphones/series-reno/reno11-pro/specs/",
+   "https://www.oppo.com/my/smartphones/series-reno/reno11/specs/",
+   "https://www.oppo.com/my/smartphones/series-reno/reno12-f-5g/specs/",
+   "https://www.oppo.com/my/smartphones/series-reno/reno12-pro/specs/",
+   "https://www.oppo.com/my/smartphones/series-reno/reno12/specs/",
+   "https://www.oppo.com/my/smartphones/series-reno/reno13-f-5g/specs/",
+   "https://www.oppo.com/my/smartphones/series-reno/reno13-pro/specs/",
+   "https://www.oppo.com/my/smartphones/series-reno/reno13/specs/",
+   "https://www.oppo.com/my/smartphones/series-reno/reno14-f-5g/specs/",
+   "https://www.oppo.com/my/smartphones/series-reno/reno14-pro/specs/",
+   "https://www.oppo.com/my/smartphones/series-reno/reno14/specs/",
+   "https://www.oppo.com/my/smartphones/series-reno/reno15-f/specs/",
+   "https://www.oppo.com/my/smartphones/series-reno/reno15-pro/specs/",
+   "https://www.oppo.com/my/smartphones/series-reno/reno15/specs/",
+   "https://www.oppo.com/my/smartphones/series-reno/reno16-f-eco-edition/specs/",
+   "https://www.oppo.com/my/smartphones/series-reno/reno16-f/specs/",
+   "https://www.oppo.com/my/smartphones/series-reno/reno16-pro/specs/",
+   "https://www.oppo.com/my/smartphones/series-reno/reno16/specs/",
+   "https://www.oppo.com/my/smartphones/series-reno/reno8-5g/specs/",
+   "https://www.oppo.com/my/smartphones/series-reno/reno8-pro-5g/specs/",
+   "https://www.oppo.com/my/smartphones/series-reno/reno8-t-5g/specs/",
+   "https://www.oppo.com/my/smartphones/series-reno/reno8-t/specs/",
+   "https://www.oppo.com/my/smartphones/series-reno/reno8-z-5g/specs/"
+  ],
+  "honor": [
+   "https://www.honor.com/my/phones/honor-200-lite/spec/",
+   "https://www.honor.com/my/phones/honor-200-pro/spec/",
+   "https://www.honor.com/my/phones/honor-200-smart/spec/",
+   "https://www.honor.com/my/phones/honor-200/spec/",
+   "https://www.honor.com/my/phones/honor-400-lite/spec/",
+   "https://www.honor.com/my/phones/honor-400-pro/spec/",
+   "https://www.honor.com/my/phones/honor-400-smart-5g/spec/",
+   "https://www.honor.com/my/phones/honor-400/spec/",
+   "https://www.honor.com/my/phones/honor-50-lite/spec/",
+   "https://www.honor.com/my/phones/honor-50/spec/",
+   "https://www.honor.com/my/phones/honor-500-smart-5g/spec/",
+   "https://www.honor.com/my/phones/honor-600-lite/spec/",
+   "https://www.honor.com/my/phones/honor-600-pro-molly/spec/",
+   "https://www.honor.com/my/phones/honor-600-pro/spec/",
+   "https://www.honor.com/my/phones/honor-600/spec/",
+   "https://www.honor.com/my/phones/honor-600s-5g/spec/",
+   "https://www.honor.com/my/phones/honor-70/spec/",
+   "https://www.honor.com/my/phones/honor-90-lite/spec/",
+   "https://www.honor.com/my/phones/honor-90/spec/",
+   "https://www.honor.com/my/phones/honor-magic-v/spec/",
+   "https://www.honor.com/my/phones/honor-magic-v2-rsr-porsche-design/spec/",
+   "https://www.honor.com/my/phones/honor-magic-v2/spec/",
+   "https://www.honor.com/my/phones/honor-magic-v3/spec/",
+   "https://www.honor.com/my/phones/honor-magic-v5/spec/",
+   "https://www.honor.com/my/phones/honor-magic-v6/spec/",
+   "https://www.honor.com/my/phones/honor-magic-vs/spec/",
+   "https://www.honor.com/my/phones/honor-magic4-pro/spec/",
+   "https://www.honor.com/my/phones/honor-magic5-pro/spec/",
+   "https://www.honor.com/my/phones/honor-magic5/spec/",
+   "https://www.honor.com/my/phones/honor-magic6-pro/spec/",
+   "https://www.honor.com/my/phones/honor-magic6-rsr-porsche-design/spec/",
+   "https://www.honor.com/my/phones/honor-magic7-pro/spec/",
+   "https://www.honor.com/my/phones/honor-magic7-rsr-porsche-design/spec/",
+   "https://www.honor.com/my/phones/honor-magic8-pro/spec/",
+   "https://www.honor.com/my/phones/honor-play10/spec/",
+   "https://www.honor.com/my/phones/honor-x5-plus/spec/",
+   "https://www.honor.com/my/phones/honor-x5b-plus/spec/",
+   "https://www.honor.com/my/phones/honor-x5d-plus/spec/",
+   "https://www.honor.com/my/phones/honor-x5d/spec/",
+   "https://www.honor.com/my/phones/honor-x6/spec/",
+   "https://www.honor.com/my/phones/honor-x6a/spec/",
+   "https://www.honor.com/my/phones/honor-x6b/spec/",
+   "https://www.honor.com/my/phones/honor-x6c/spec/",
+   "https://www.honor.com/my/phones/honor-x6e/spec/",
+   "https://www.honor.com/my/phones/honor-x7/spec/",
+   "https://www.honor.com/my/phones/honor-x7a/spec/",
+   "https://www.honor.com/my/phones/honor-x7b-5g/spec/",
+   "https://www.honor.com/my/phones/honor-x7b/spec/",
+   "https://www.honor.com/my/phones/honor-x7c/spec/",
+   "https://www.honor.com/my/phones/honor-x7d-5g/spec/",
+   "https://www.honor.com/my/phones/honor-x7d/spec/",
+   "https://www.honor.com/my/phones/honor-x7e/spec/",
+   "https://www.honor.com/my/phones/honor-x8-5g/spec/",
+   "https://www.honor.com/my/phones/honor-x8/spec/",
+   "https://www.honor.com/my/phones/honor-x8a-5g/spec/",
+   "https://www.honor.com/my/phones/honor-x8a/spec/",
+   "https://www.honor.com/my/phones/honor-x8b/spec/",
+   "https://www.honor.com/my/phones/honor-x9-5g/spec/",
+   "https://www.honor.com/my/phones/honor-x9/spec/",
+   "https://www.honor.com/my/phones/honor-x9a/spec/",
+   "https://www.honor.com/my/phones/honor-x9b/spec/",
+   "https://www.honor.com/my/phones/honor-x9c-smart/spec/",
+   "https://www.honor.com/my/phones/honor-x9c/spec/",
+   "https://www.honor.com/my/phones/honor-x9d/spec/",
+   "https://www.honor.com/my/phones/honor-x9e-pro/spec/",
+   "https://www.honor.com/my/tablets/honor-magicpad-2/spec/",
+   "https://www.honor.com/my/tablets/honor-magicpad-3/spec/",
+   "https://www.honor.com/my/tablets/honor-magicpad-4/spec/",
+   "https://www.honor.com/my/tablets/honor-pad-10/spec/",
+   "https://www.honor.com/my/tablets/honor-pad-20-pro-paperlike-edition/spec/",
+   "https://www.honor.com/my/tablets/honor-pad-20/spec/",
+   "https://www.honor.com/my/tablets/honor-pad-8/spec/",
+   "https://www.honor.com/my/tablets/honor-pad-9/spec/",
+   "https://www.honor.com/my/tablets/honor-pad-v9/spec/",
+   "https://www.honor.com/my/tablets/honor-pad-x7-4g/spec/",
+   "https://www.honor.com/my/tablets/honor-pad-x7/spec/",
+   "https://www.honor.com/my/tablets/honor-pad-x8-lite/spec/",
+   "https://www.honor.com/my/tablets/honor-pad-x8/spec/",
+   "https://www.honor.com/my/tablets/honor-pad-x8a-kids/spec/",
+   "https://www.honor.com/my/tablets/honor-pad-x8a/spec/",
+   "https://www.honor.com/my/tablets/honor-pad-x8b/spec/",
+   "https://www.honor.com/my/tablets/honor-pad-x9/spec/",
+   "https://www.honor.com/my/tablets/honor-pad-x9a/spec/"
+  ],
+  "huawei": [
+   "https://consumer.huawei.com/my/phones/mate-x6/specs/",
+   "https://consumer.huawei.com/my/phones/mate-x7/specs/",
+   "https://consumer.huawei.com/my/phones/mate-xs2/specs/",
+   "https://consumer.huawei.com/my/phones/mate-xt-ultimate-design/specs/",
+   "https://consumer.huawei.com/my/phones/mate50-pro/specs/",
+   "https://consumer.huawei.com/my/phones/mate50/specs/",
+   "https://consumer.huawei.com/my/phones/mate80-pro/specs/",
+   "https://consumer.huawei.com/my/phones/nova15-max/specs/",
+   "https://consumer.huawei.com/my/phones/pura80-pro/specs/",
+   "https://consumer.huawei.com/my/phones/pura80-ultra/specs/",
+   "https://consumer.huawei.com/my/phones/pura80/specs/",
+   "https://consumer.huawei.com/my/phones/pura90s-pro-max/specs/",
+   "https://consumer.huawei.com/my/phones/pura90s-pro/specs/",
+   "https://consumer.huawei.com/my/tablets/matepad-11-5-2025/specs/",
+   "https://consumer.huawei.com/my/tablets/matepad-11-5-papermatte-edition/specs/",
+   "https://consumer.huawei.com/my/tablets/matepad-11-5-s-2026/specs/",
+   "https://consumer.huawei.com/my/tablets/matepad-air/specs/",
+   "https://consumer.huawei.com/my/tablets/matepad-mini/specs/",
+   "https://consumer.huawei.com/my/tablets/matepad-pro-max/specs/",
+   "https://consumer.huawei.com/my/tablets/matepad-se-11/specs/",
+   "https://consumer.huawei.com/my/tablets/mediapad-m5-lite/specs/"
+  ],
+  "vivo": [
+   "https://www.vivo.com/my/products/param/nex3",
+   "https://www.vivo.com/my/products/param/nexdualdisplay",
+   "https://www.vivo.com/my/products/param/s1",
+   "https://www.vivo.com/my/products/param/t15g",
+   "https://www.vivo.com/my/products/param/t1x",
+   "https://www.vivo.com/my/products/param/v19",
+   "https://www.vivo.com/my/products/param/v20",
+   "https://www.vivo.com/my/products/param/v202021",
+   "https://www.vivo.com/my/products/param/v20pro",
+   "https://www.vivo.com/my/products/param/v21",
+   "https://www.vivo.com/my/products/param/v215g",
+   "https://www.vivo.com/my/products/param/v21e",
+   "https://www.vivo.com/my/products/param/v235g",
+   "https://www.vivo.com/my/products/param/v23e",
+   "https://www.vivo.com/my/products/param/v23e5g",
+   "https://www.vivo.com/my/products/param/v25-5g",
+   "https://www.vivo.com/my/products/param/v25-pro",
+   "https://www.vivo.com/my/products/param/v25e",
+   "https://www.vivo.com/my/products/param/v27",
+   "https://www.vivo.com/my/products/param/v27e",
+   "https://www.vivo.com/my/products/param/v29",
+   "https://www.vivo.com/my/products/param/v30",
+   "https://www.vivo.com/my/products/param/v30pro",
+   "https://www.vivo.com/my/products/param/x100",
+   "https://www.vivo.com/my/products/param/x100pro",
+   "https://www.vivo.com/my/products/param/x60",
+   "https://www.vivo.com/my/products/param/x60pro",
+   "https://www.vivo.com/my/products/param/x70",
+   "https://www.vivo.com/my/products/param/x70pro",
+   "https://www.vivo.com/my/products/param/x80",
+   "https://www.vivo.com/my/products/param/x80pro",
+   "https://www.vivo.com/my/products/param/x90",
+   "https://www.vivo.com/my/products/param/x90-pro",
+   "https://www.vivo.com/my/products/param/y02s",
+   "https://www.vivo.com/my/products/param/y02t",
+   "https://www.vivo.com/my/products/param/y03",
+   "https://www.vivo.com/my/products/param/y100-5g",
+   "https://www.vivo.com/my/products/param/y11",
+   "https://www.vivo.com/my/products/param/y12a",
+   "https://www.vivo.com/my/products/param/y12s",
+   "https://www.vivo.com/my/products/param/y15",
+   "https://www.vivo.com/my/products/param/y15a",
+   "https://www.vivo.com/my/products/param/y15s",
+   "https://www.vivo.com/my/products/param/y16",
+   "https://www.vivo.com/my/products/param/y17",
+   "https://www.vivo.com/my/products/param/y17s",
+   "https://www.vivo.com/my/products/param/y20",
+   "https://www.vivo.com/my/products/param/y202021",
+   "https://www.vivo.com/my/products/param/y20s",
+   "https://www.vivo.com/my/products/param/y20sg",
+   "https://www.vivo.com/my/products/param/y21t",
+   "https://www.vivo.com/my/products/param/y22s",
+   "https://www.vivo.com/my/products/param/y27",
+   "https://www.vivo.com/my/products/param/y27-5g",
+   "https://www.vivo.com/my/products/param/y27s",
+   "https://www.vivo.com/my/products/param/y30",
+   "https://www.vivo.com/my/products/param/y31",
+   "https://www.vivo.com/my/products/param/y33s",
+   "https://www.vivo.com/my/products/param/y33t",
+   "https://www.vivo.com/my/products/param/y35",
+   "https://www.vivo.com/my/products/param/y36",
+   "https://www.vivo.com/my/products/param/y36-5g",
+   "https://www.vivo.com/my/products/param/y50",
+   "https://www.vivo.com/my/products/param/y555g",
+   "https://www.vivo.com/my/products/param/y76",
+   "https://www.vivo.com/my/products/param/y77-5g",
+   "https://www.vivo.com/my/products/param/y78-5g"
+  ],
+  "oneplus": [
+   "https://www.oneplus.com/my/10-pro/specs",
+   "https://www.oneplus.com/my/10t/specs",
+   "https://www.oneplus.com/my/11-concept/specs",
+   "https://www.oneplus.com/my/11/specs",
+   "https://www.oneplus.com/my/8-pro/specs",
+   "https://www.oneplus.com/my/8/specs",
+   "https://www.oneplus.com/my/8t/specs",
+   "https://www.oneplus.com/my/9-pro/specs",
+   "https://www.oneplus.com/my/9/specs",
+   "https://www.oneplus.com/my/n10/specs",
+   "https://www.oneplus.com/my/nord-2t-5g/specs",
+   "https://www.oneplus.com/my/nord-ce-2-5g/specs",
+   "https://www.oneplus.com/my/nord-ce-2-lite-5g/specs",
+   "https://www.oneplus.com/my/nord-ce-3-lite-5g/specs",
+   "https://www.oneplus.com/my/nord-ce-5g/specs",
+   "https://www.oneplus.com/my/oneplus-10-pro/specs",
+   "https://www.oneplus.com/my/oneplus-10t/specs",
+   "https://www.oneplus.com/my/oneplus-11/specs",
+   "https://www.oneplus.com/my/oneplus-nord-2t-5g/specs",
+   "https://www.oneplus.com/my/oneplus-nord-ce-2-5g/specs",
+   "https://www.oneplus.com/my/oneplus-nord-ce-3-lite-5g/specs"
+  ],
+  "realme": [
+   "https://www.realme.com/my/realme-14t-5g/specs",
+   "https://www.realme.com/my/realme-15-5g/specs",
+   "https://www.realme.com/my/realme-15-pro-5g/specs",
+   "https://www.realme.com/my/realme-15-pro-got-5g/specs",
+   "https://www.realme.com/my/realme-15t-5g/specs",
+   "https://www.realme.com/my/realme-16-5g/specs",
+   "https://www.realme.com/my/realme-16-pro-5g/specs",
+   "https://www.realme.com/my/realme-16-pro-plus-5g/specs",
+   "https://www.realme.com/my/realme-16t-5g/specs",
+   "https://www.realme.com/my/realme-c100i/specs",
+   "https://www.realme.com/my/realme-c71/specs",
+   "https://www.realme.com/my/realme-c85-5g/specs",
+   "https://www.realme.com/my/realme-c85/specs",
+   "https://www.realme.com/my/realme-gt-7-5g/specs",
+   "https://www.realme.com/my/realme-gt-7-x-astonmartinf1-2025/specs",
+   "https://www.realme.com/my/realme-gt-7t-5g/specs",
+   "https://www.realme.com/my/realme-note80/specs",
+   "https://www.realme.com/my/realme-p4-lite/specs",
+   "https://www.realme.com/my/realme-p4-power-5g/specs"
+  ],
+  "apple": [
+   "https://support.apple.com/en-my/docs/ipad/132814",
+   "https://support.apple.com/en-my/docs/ipad/132844",
+   "https://support.apple.com/en-my/docs/ipad/133215",
+   "https://support.apple.com/en-my/docs/ipad/133216",
+   "https://support.apple.com/en-my/docs/ipad/133217",
+   "https://support.apple.com/en-my/docs/ipad/133608",
+   "https://support.apple.com/en-my/docs/ipad/133846",
+   "https://support.apple.com/en-my/docs/ipad/133851",
+   "https://support.apple.com/en-my/docs/ipad/134321",
+   "https://support.apple.com/en-my/docs/ipad/134322",
+   "https://support.apple.com/en-my/docs/ipad/134323",
+   "https://support.apple.com/en-my/docs/ipad/134324",
+   "https://support.apple.com/en-my/docs/ipad/134338",
+   "https://support.apple.com/en-my/docs/ipad/135088",
+   "https://support.apple.com/en-my/docs/ipad/300200",
+   "https://support.apple.com/en-my/docs/ipad/300202",
+   "https://support.apple.com/en-my/docs/ipad/300346",
+   "https://support.apple.com/en-my/docs/ipad/300349",
+   "https://support.apple.com/en-my/docs/ipad/300423",
+   "https://support.apple.com/en-my/docs/ipad/300425",
+   "https://support.apple.com/en-my/docs/ipad/300866",
+   "https://support.apple.com/en-my/docs/ipad/300902",
+   "https://support.apple.com/en-my/docs/ipad/301027",
+   "https://support.apple.com/en-my/docs/ipad/301029",
+   "https://support.apple.com/en-my/docs/ipad/301031",
+   "https://support.apple.com/en-my/docs/ipad/301033",
+   "https://support.apple.com/en-my/docs/ipad/301063",
+   "https://support.apple.com/en-my/docs/ipad/301079",
+   "https://support.apple.com/en-my/docs/ipad/301081",
+   "https://support.apple.com/en-my/docs/ipad/301083",
+   "https://support.apple.com/en-my/docs/ipad/301270",
+   "https://support.apple.com/en-my/docs/ipad/301272",
+   "https://support.apple.com/en-my/docs/ipad/301281",
+   "https://support.apple.com/en-my/docs/ipad/301283",
+   "https://support.apple.com/en-my/docs/ipad/500106",
+   "https://support.apple.com/en-my/docs/ipad/500278",
+   "https://support.apple.com/en-my/docs/ipad/501360",
+   "https://support.apple.com/en-my/docs/ipad/501377",
+   "https://support.apple.com/en-my/docs/ipad/503187",
+   "https://support.apple.com/en-my/docs/ipad/503605",
+   "https://support.apple.com/en-my/docs/ipad/503659",
+   "https://support.apple.com/en-my/docs/ipad/504852",
+   "https://support.apple.com/en-my/docs/ipad/506047",
+   "https://support.apple.com/en-my/docs/ipad/506083",
+   "https://support.apple.com/en-my/docs/ipad/506704",
+   "https://support.apple.com/en-my/docs/ipad/506739",
+   "https://support.apple.com/en-my/docs/ipad/507974",
+   "https://support.apple.com/en-my/docs/ipad/509181",
+   "https://support.apple.com/en-my/docs/ipad/509192",
+   "https://support.apple.com/en-my/docs/iphone/132035",
+   "https://support.apple.com/en-my/docs/iphone/132537",
+   "https://support.apple.com/en-my/docs/iphone/132740",
+   "https://support.apple.com/en-my/docs/iphone/132927",
+   "https://support.apple.com/en-my/docs/iphone/132932",
+   "https://support.apple.com/en-my/docs/iphone/133177",
+   "https://support.apple.com/en-my/docs/iphone/133466",
+   "https://support.apple.com/en-my/docs/iphone/133476",
+   "https://support.apple.com/en-my/docs/iphone/133477",
+   "https://support.apple.com/en-my/docs/iphone/133778",
+   "https://support.apple.com/en-my/docs/iphone/133779",
+   "https://support.apple.com/en-my/docs/iphone/134093",
+   "https://support.apple.com/en-my/docs/iphone/134094",
+   "https://support.apple.com/en-my/docs/iphone/134096",
+   "https://support.apple.com/en-my/docs/iphone/134505",
+   "https://support.apple.com/en-my/docs/iphone/134710",
+   "https://support.apple.com/en-my/docs/iphone/134711",
+   "https://support.apple.com/en-my/docs/iphone/300147",
+   "https://support.apple.com/en-my/docs/iphone/300148",
+   "https://support.apple.com/en-my/docs/iphone/300149",
+   "https://support.apple.com/en-my/docs/iphone/300239",
+   "https://support.apple.com/en-my/docs/iphone/300240",
+   "https://support.apple.com/en-my/docs/iphone/300241",
+   "https://support.apple.com/en-my/docs/iphone/300242",
+   "https://support.apple.com/en-my/docs/iphone/300426",
+   "https://support.apple.com/en-my/docs/iphone/300428",
+   "https://support.apple.com/en-my/docs/iphone/300429",
+   "https://support.apple.com/en-my/docs/iphone/300430",
+   "https://support.apple.com/en-my/docs/iphone/300865",
+   "https://support.apple.com/en-my/docs/iphone/300878",
+   "https://support.apple.com/en-my/docs/iphone/300879",
+   "https://support.apple.com/en-my/docs/iphone/300880",
+   "https://support.apple.com/en-my/docs/iphone/300881",
+   "https://support.apple.com/en-my/docs/iphone/300991",
+   "https://support.apple.com/en-my/docs/iphone/300993",
+   "https://support.apple.com/en-my/docs/iphone/301003",
+   "https://support.apple.com/en-my/docs/iphone/301004",
+   "https://support.apple.com/en-my/docs/iphone/301045",
+   "https://support.apple.com/en-my/docs/iphone/301046",
+   "https://support.apple.com/en-my/docs/iphone/301047",
+   "https://support.apple.com/en-my/docs/iphone/301048",
+   "https://support.apple.com/en-my/docs/iphone/301076",
+   "https://support.apple.com/en-my/docs/iphone/301244",
+   "https://support.apple.com/en-my/docs/iphone/301245",
+   "https://support.apple.com/en-my/docs/iphone/301246",
+   "https://support.apple.com/en-my/docs/iphone/301247",
+   "https://support.apple.com/en-my/docs/iphone/301248",
+   "https://support.apple.com/en-my/docs/iphone/301285",
+   "https://support.apple.com/en-my/docs/iphone/301316",
+   "https://support.apple.com/en-my/docs/iphone/301317",
+   "https://support.apple.com/en-my/docs/iphone/500016",
+   "https://support.apple.com/en-my/docs/iphone/500040",
+   "https://support.apple.com/en-my/docs/iphone/501343",
+   "https://support.apple.com/en-my/docs/iphone/502272",
+   "https://support.apple.com/en-my/docs/iphone/502287",
+   "https://support.apple.com/en-my/docs/iphone/504266",
+   "https://support.apple.com/en-my/docs/iphone/504267",
+   "https://support.apple.com/en-my/docs/iphone/504268",
+   "https://support.apple.com/en-my/docs/iphone/505602",
+   "https://support.apple.com/en-my/docs/iphone/505716",
+   "https://support.apple.com/en-my/docs/iphone/505753",
+   "https://support.apple.com/en-my/docs/iphone/507808",
+   "https://support.apple.com/en-my/docs/iphone/507845",
+   "https://support.apple.com/en-my/docs/iphone/507882",
+   "https://support.apple.com/en-my/docs/iphone/509370"
+  ],
+  "samsung-newsroom": []
+ }
+}

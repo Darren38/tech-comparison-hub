@@ -23,6 +23,9 @@ import time
 import urllib.request
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from devices_all import all_devices, auto_chipsets  # noqa: E402  (Version 20: devices added automatically count too)
+
 try:
     from PIL import Image, ImageFilter
 except ImportError:  # the scheduled build keeps working without it; pictures are then shown uncropped
@@ -138,8 +141,8 @@ def measure(img: Image.Image) -> dict | None:
 
 def device_pictures() -> list[str]:
     srcs = []
-    for path in sorted((ROOT / "data" / "devices").glob("*/*.json")):
-        src = (json.loads(path.read_text(encoding="utf-8")).get("image") or {}).get("src")
+    for dev in all_devices():
+        src = (dev.get("image") or {}).get("src")
         if src:
             srcs.append(src)
     for image in (read_json(FOUND).get("found") or {}).values():

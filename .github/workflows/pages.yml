@@ -14,6 +14,11 @@
 #   - phones nobody has matched by hand join the 3DMark, DXOMARK and AnTuTu charts when their exact name and chip match
 #     a listing, and Geekbench averages from NanoReview are read about once a week (tools/auto_benchmarks.py)
 #   - every device picture still loads (tools/check_images.py; a broken one shows the outline drawing instead)
+#   - new phones and tablets: a spec page that newly appears on a maker's Malaysian site is read and, when it passes the
+#     checks, the model is added and labelled "Added automatically"; about once a week the makers' spec pages cited by
+#     devices already in the hub are re-read to fill missing values (changed values are only listed) (tools/auto_devices.py);
+#     Apple from Apple Support's tech-specs pages, Samsung from Samsung Newsroom Malaysia's launch announcements
+#   - Trusted Reviews' test results (Geekbench, video battery drain, charging times) from each new review (tools/auto_reviews.py)
 # and every 3 days:
 #   - official pictures for devices without one, from the maker's own page (tools/find_images.py)
 #   - where the product sits in each new picture, so pages can show it cropped and large (tools/image_boxes.py)
@@ -80,6 +85,20 @@ jobs:
           path: live/auto
           key: daily-refresh-${{ steps.day.outputs.day }}
           restore-keys: daily-refresh-
+
+      # The cache is saved by the first run of each day only; the live site always has the newest automatic results, so
+      # after restoring it the newer of the two copies of each file is kept (Version 20).
+      - name: Keep the newest automatic results
+        run: python tools/seed_live.py --auto-only
+        continue-on-error: true
+
+      - name: Add new phones and tablets from makers' own spec pages (daily); re-read spec pages (weekly)
+        run: python tools/auto_devices.py
+        continue-on-error: true
+
+      - name: Add Trusted Reviews' test results from new reviews (daily; every review once a month)
+        run: python tools/auto_reviews.py
+        continue-on-error: true
 
       - name: Refresh benchmark databases (once a day)
         run: python tools/refresh_benchmarks.py --max-age-hours 20

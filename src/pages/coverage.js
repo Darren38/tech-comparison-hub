@@ -2,10 +2,11 @@
 // so readers can judge how much to trust a verdict and contributors know what to test next.
 
 import { html, mount as mountHtml } from '../lib/html.js';
+import { t } from '../core/i18n.js';
 import { fmtNumber, fmtDate, plural } from '../lib/format.js';
 import { store, loadCoverage, metricDef, deviceTitle, sourceName, categoryCount } from '../core/store.js';
 import { href } from '../core/router.js';
-import { sectionHead, sourceLink, tag, provBadge, emptyState, pageOutline, bindOutline, pageTrail, extLink, autoBadge } from '../ui/components.js';
+import { sectionHead, sourceLink, tag, provBadge, emptyState, pageOutline, bindOutline, pageTrail, extLink, autoBadge, autoAddedTag } from '../ui/components.js';
 import { scoreBars } from '../ui/charts.js';
 
 function stackBar(row, total) {
@@ -59,6 +60,7 @@ export default async function render() {
         ['cov-gaps', 'Missing key phone tests'],
         ['cov-origins', 'Who the evidence comes from'],
         ['cov-pipeline', 'Pipeline status'],
+        ['cov-auto', 'Added automatically'],
         ['cov-spotted', 'New models spotted'],
         ['cov-howto', 'How to close a gap'],
       ])}
@@ -114,6 +116,8 @@ export default async function render() {
         </section>
       </div>
 
+      ${autoAdded()}
+
       <section class="card stack" id="cov-spotted" data-spotted hidden>
         ${sectionHead('New models spotted in the news', { level: 3, right: html`<span class="tiny muted">Named by two or more sources · not in the hub yet</span> ${autoBadge('every 3 hours')}` })}
         <p class="small muted">The headline collector looks for model names that several sources mention but the hub doesn't have yet. They are added once the maker publishes specifications, so this list is also a preview of what is coming.</p>
@@ -138,6 +142,22 @@ export default async function render() {
       return bindOutline(root);
     },
   };
+}
+
+// Version 20: phones and tablets added automatically from makers' own specification pages (tools/auto_devices.py)
+function autoAdded() {
+  const rows = store.devices.filter((d) => d.auto).sort((a, b) => (b.auto.addedAt ?? '').localeCompare(a.auto.addedAt ?? ''));
+  const info = store.core.build.auto?.newDevices;
+  return html`<section class="card stack" id="cov-auto">
+    ${sectionHead('Added automatically', { level: 3, right: autoBadge('daily', 'new models from makers’ Malaysian sites') })}
+    <p class="small muted">${t('New phones and tablets join the hub by themselves once the maker lists them on its Malaysian website with a specification page. The page is read with the same fixed patterns as the hand-reviewed records; a value it doesn’t state clearly is left out, and a model that fails a check waits for a person instead. Each one says so on its page and links to the maker’s page.')}</p>
+    ${rows.length
+      ? html`<ul class="autolist">${rows.map((d) => html`<li><a href="${href(`/device/${d.id}`)}">${deviceTitle(d)}</a> ${autoAddedTag(d)} <span class="tiny muted">${fmtDate(d.auto.addedAt)} · </span>${extLink(d.auto.url, d.auto.site ?? 'Maker’s page', 'tiny')}</li>`)}</ul>`
+      : html`<p class="small">${t('No models added automatically yet. The first ones appear when makers list new phones or tablets.')}</p>`}
+    ${info?.filled ? html`<p class="tiny muted">${info.filled === 1
+      ? t('1 missing value of a device already in the hub was also filled from the maker’s page it cites (marked “auto” in its specification table).')
+      : t('{n} missing values of devices already in the hub were also filled from the maker’s page they cite (marked “auto” in their specification tables).', { n: info.filled })}</p>` : ''}
+  </section>`;
 }
 
 // Version 17: model names the headline collector saw in several sources that match nothing in the hub (live/spotted.json).

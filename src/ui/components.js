@@ -64,6 +64,13 @@ export function autoBadge(every, what = '') {
   return html`<span class="autobadge" title="${`Updates automatically ${every}${what ? ` (${what})` : ''}. No one has to update this part by hand.`}"><span class="autobadge__icon" aria-hidden="true">↻</span> Auto · ${every}</span>`;
 }
 
+/** Version 20: a device added automatically from its maker's own specification page (not checked by a person yet). */
+export function autoAddedTag(row, { long = false } = {}) {
+  if (!row?.auto) return '';
+  const site = row.auto.site ?? 'the maker';
+  return html`<span class="tag tag--auto" title="${`Added automatically from ${site}'s own specification page${row.auto.addedAt ? ` on ${row.auto.addedAt}` : ''}. Not checked by a person yet.`}">${long ? 'Added automatically' : 'Auto-added'}</span>`;
+}
+
 export function modeSwitch() {
   return html`<div class="modeswitch" role="group" aria-label="View">
     <span class="modeswitch__label tiny muted">View</span>
@@ -269,7 +276,7 @@ export function deviceCard(row, { note } = {}) {
     <a class="dcard__link" href="${href(`/device/${row.id}`)}" aria-label="${deviceTitle(row)}">
       <div class="dcard__art">${deviceMedia(row, { height: 92 })}</div>
       <div class="dcard__body">
-        <div class="dcard__brand eyebrow">${brandName(row.brand)} ${statusBadge(row.status)}</div>
+        <div class="dcard__brand eyebrow">${brandName(row.brand)} ${statusBadge(row.status)} ${autoAddedTag(row)}</div>
         <h3 class="dcard__name">${row.name}</h3>
         <p class="dcard__specs small muted">${deviceSpecLine(row)}</p>
         <div class="dcard__meta tiny">

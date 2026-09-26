@@ -1,5 +1,43 @@
 # Changelog
 
+## 26 September 2026
+
+New phones and specifications now update by themselves, from the makers' own pages.
+
+**New phones and tablets join the hub automatically**
+- Every day the Malaysian sitemaps of OPPO, HONOR, Huawei, vivo, realme and OnePlus are read (only where robots.txt allows it). A specification page that newly appears is read with the same fixed patterns as the hand-reviewed records, and the model is added when it passes the checks: the maker's own page, the model named in its title and matching its address, not a special edition of a model already in the hub, and screen size, battery and chip or cameras on the page. Values outside plausible ranges, a battery given per cell (dual-cell phones), and camera lists where a high-resolution telephoto could be read as the main camera are left out, never guessed.
+- **Apple**: new iPhones and iPads are found on Apple Support Malaysia, which lists every model with its own tech-specs page (the first read remembered 114 models). Tested on nine iPhones and iPads in the hub: every value read matched the checked record, and in two cases Apple's page lists more storage options than the hub had.
+- **Samsung**: samsung.com/my draws its spec pages in the browser and Samsung's spec service doesn't allow automated reading, so a new Galaxy phone or tablet is read from Samsung Newsroom Malaysia's own launch announcement (its specification table, or its sentences), with the Malaysian launch price when stated. Tested on the Galaxy S26 FE announcement (every value matched the checked record, plus Samsung's 45 W charging) and the Galaxy A08 one (6,000 mAh, main camera, IP64 and RM899; "Helio G99+" correctly not taken for the Helio G99). The same announcements fill in missing Malaysian launch prices for Samsung models already in the hub (11 have none).
+- Models the news is talking about are also looked up on Xiaomi's Malaysian site, which publishes no sitemap.
+- Each one is labelled "Added automatically" on its page, its card and in Evidence coverage, links to the maker's page for every value, and has its announced date as the day it first appeared on the maker's Malaysian site. A hand-made record replaces it.
+- Tested on 49 phones already in the hub: the automatic reading gave the checked value 427 times out of 429 (the two differences: one storage list missing an option, one tablet weight 10 g apart). A number is only kept where the page names what it is, so an "80W charging adapter", a touch sampling rate or a high-brightness-mode figure is never taken for the phone's charging, refresh rate or peak brightness; a chip name the page gives with a suffix the reading would cut off ("Helio G92 Max") is left out.
+- A model that fails a check is held for a person, never published; a record that would break the build is left out and the site publishes without it.
+- Not automatic: Sony (its site doesn't allow automated readers).
+
+**Charts: Trusted Reviews' test results added automatically**
+- Trusted Reviews' Test Data table (Geekbench 6, battery used by an hour of Netflix HDR video, time to a full charge and the charge after 15 and 30 minutes) is read from every new review, and from all reviews once a month, for phones with no hand-entered Trusted Reviews result. The first pass added results for 25 phones and tablets (108 evidence records, 2,190 to 2,298). Safeguards: the table must name the phone exactly (it refused a Galaxy Tab S9 Ultra review page that showed a Galaxy Z Fold 5 table), charging measured without the maker's charger is left out as by hand, Samsung models recorded with an Exynos chip are left out, and a Geekbench result more than 25% from the same chip's usual score is held for a person, together with the other Geekbench score from the same review (OnePlus 11, OnePlus 12 and OPPO Find N3 were held).
+- The Geekbench, video-drain and charging charts now carry the Auto label.
+
+**Ask the hub uses the test results**
+- Questions naming a test get the recorded result and who measured it: "OPPO Find X9 Ultra DXOMARK score", "Galaxy S26 Ultra Geekbench", "how long does it take to charge?" on a device page (measured charging times, not only watts), "iPhone 17 Pro Max vs Galaxy S26 Ultra Geekbench" (side by side, with the leader).
+- Rankings by a test: "highest AnTuTu score", "best 3DMark phone under RM2,000", "which phone lasts longest in Trusted Reviews' video test" (lowest drain first), "best battery test result". Only each phone's own results count, never a chip's result from other phones.
+- "Best tablet for students" now uses the Student / value weighting ("students", "study", "university" were not recognised before).
+- Earbuds and bands, which don't have enough independent evidence to rank, get a list of the matching models instead of "nothing to rank" ("best earbuds with ANC under RM500").
+- Device pages suggest a test question ("What is its DXOMARK camera score?") when the device has one.
+- Checked with 60 questions (specifications, prices, comparisons, rankings, budgets, features, news, Chinese, typos, follow-ups) and in the panel on desktop and phone.
+
+**Makers' spec pages re-read every week**
+- About 120 official specification pages cited by devices are re-read each week, in turn. Missing values are filled from the page and marked "auto" in the specification table: the first full pass filled 61 values, including the chip of 11 phones that had none (8 of those chips are new to the hub and get a short record naming where the chip was read). Apple Support tech-specs pages are re-read too. A value the page now gives differently is never changed automatically; it is listed for a person to check.
+
+**Phone layout fix**
+- Six Xiaomi and REDMI Buds pages were wider than a phone screen: their source note carried a long Internet Archive address with no spaces. Small notes now wrap long addresses. Found by a check of every page of the site (962 pages at desktop and phone width).
+
+**Pictures**
+- A new device gets the maker's product picture when it is added. The picture search also reads the product page that goes with each specification page and the product data inside the page, and leaves out banners: 37 more devices now have their maker's picture (67 found automatically in all), every one checked by eye on a contact sheet. realme's pages offer lifestyle photos rather than the product, so realme devices keep the outline drawing until a picture is added by hand.
+- The picture search now waits as long as each site's robots.txt asks (HONOR: 30 seconds) and reads at most 10 pages a run from such a site.
+- The automatic results (new devices, matched test results, found pictures) are also carried over from the live site, so they survive if GitHub clears its cache.
+
+
 ## 25 September 2026 (third update)
 
 Everything that can update by itself now does, and each such section says so.

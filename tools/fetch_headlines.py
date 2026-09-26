@@ -37,6 +37,9 @@ import urllib.request
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from devices_all import all_devices, auto_chipsets  # noqa: E402  (Version 20: devices added automatically count too)
+
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 CONFIG = DATA / "meta" / "live-feeds.json"
@@ -254,7 +257,7 @@ def match_devices(title_norm: str, keys: list[tuple[str, str]], next_reject: set
 
 def load_keys() -> list[tuple[str, str]]:
     brands = json.loads((DATA / "brands" / "brands.json").read_text(encoding="utf-8"))
-    devices = [json.loads(p.read_text(encoding="utf-8")) for p in sorted((DATA / "devices").glob("*/*.json"))]
+    devices = all_devices()
     return device_keys(devices, {b["id"]: b["name"] for b in brands})
 
 

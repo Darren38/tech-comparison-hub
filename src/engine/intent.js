@@ -13,7 +13,7 @@ const PROFILE_WORDS = [
   [/\b(gaming|games?|gamer|fps)\b/, 'gaming'],
   [/\b(photo(graphy|s)?|camera|cameras|pictures?|zoom)\b/, 'photography'],
   [/\b(battery|endurance|lasts? longer|battery life)\b/, 'battery'],
-  [/\b(student|value|budget|cheap|affordable|money)\b/, 'student'],
+  [/\b(students?|study(ing)?|school|university|college|value|budget|cheap|affordable|money)\b/, 'student'],
   [/\b(long ?term|longevity|updates?|years|durable)\b/, 'longterm'],
   [/\b(performance|fastest|fast|powerful|speed)\b/, 'performance'],
   [/\b(balanced|overall|all ?round(er)?)\b/, 'balanced'],

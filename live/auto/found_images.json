@@ -1,5 +1,5 @@
 {
- "searchedAt": "2026-09-25T02:34:02+00:00",
+ "searchedAt": "2026-09-25T15:44:13+00:00",
  "found": {
   "oneplus-nord-buds-3-pro": {
    "kind": "official",
@@ -239,6 +239,302 @@
    "page": "https://web.archive.org/web/20250906012419/https://www.mi.com/my/product/xiaomi-pad-7/specs/",
    "credit": "Xiaomi",
    "checked": "2026-09-24",
+   "auto": true
+  },
+  "huawei-freearc": {
+   "kind": "official",
+   "src": "https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/admin-image/headphones/freearc/list/green.png",
+   "page": "https://consumer.huawei.com/my/headphones/freearc/specs/",
+   "credit": "Huawei",
+   "checked": "2026-09-25",
+   "auto": true
+  },
+  "huawei-freebuds-6": {
+   "kind": "official",
+   "src": "https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/headphones/freebuds6/list-black.png",
+   "page": "https://consumer.huawei.com/my/headphones/freebuds6/specs/",
+   "credit": "Huawei",
+   "checked": "2026-09-25",
+   "auto": true
+  },
+  "huawei-freebuds-6i": {
+   "kind": "official",
+   "src": "https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/admin-image/headphones/freebuds6i/list-white.png",
+   "page": "https://consumer.huawei.com/my/headphones/freebuds6i/specs/",
+   "credit": "Huawei",
+   "checked": "2026-09-25",
+   "auto": true
+  },
+  "huawei-freebuds-7i": {
+   "kind": "official",
+   "src": "https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/headphones/freebuds7i/list-pink.png",
+   "page": "https://consumer.huawei.com/my/headphones/freebuds7i/specs/",
+   "credit": "Huawei",
+   "checked": "2026-09-25",
+   "auto": true
+  },
+  "huawei-freebuds-pro-5": {
+   "kind": "official",
+   "src": "https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/headphones/freebuds-pro-5/list-sand.png",
+   "page": "https://consumer.huawei.com/my/headphones/freebuds-pro-5/specs/",
+   "credit": "Huawei",
+   "checked": "2026-09-25",
+   "auto": true
+  },
+  "huawei-freebuds-se-2": {
+   "kind": "official",
+   "src": "https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/admin-image/headphones/freebuds-se-2/list/isle-blue.png",
+   "page": "https://consumer.huawei.com/my/headphones/freebuds-se-2/specs/",
+   "credit": "Huawei",
+   "checked": "2026-09-25",
+   "auto": true
+  },
+  "huawei-freebuds-se-3": {
+   "kind": "official",
+   "src": "https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/admin-image/headphones/freebuds-se-3/list/beige.png",
+   "page": "https://consumer.huawei.com/my/headphones/freebuds-se-3/specs/",
+   "credit": "Huawei",
+   "checked": "2026-09-25",
+   "auto": true
+  },
+  "huawei-freebuds-se-4-anc": {
+   "kind": "official",
+   "src": "https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/headphones/freebuds-se-4-anc/list-white.png",
+   "page": "https://consumer.huawei.com/my/headphones/freebuds-se-4-anc/specs/",
+   "credit": "Huawei",
+   "checked": "2026-09-25",
+   "auto": true
+  },
+  "huawei-freeclip-2-s": {
+   "kind": "official",
+   "src": "https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/headphones/freeclip2-s/list-deepsea-blue.png",
+   "page": "https://consumer.huawei.com/my/headphones/freeclip2-s/specs/",
+   "credit": "Huawei",
+   "checked": "2026-09-25",
+   "auto": true
+  },
+  "huawei-freeclip-2": {
+   "kind": "official",
+   "src": "https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/headphones/freeclip2/list-purple.png",
+   "page": "https://consumer.huawei.com/my/headphones/freeclip2/specs/",
+   "credit": "Huawei",
+   "checked": "2026-09-25",
+   "auto": true
+  },
+  "huawei-freeclip": {
+   "kind": "official",
+   "src": "https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/admin-image/headphones/freeclip/list/list-rose.png",
+   "page": "https://consumer.huawei.com/my/headphones/freeclip/specs/",
+   "credit": "Huawei",
+   "checked": "2026-09-25",
+   "auto": true
+  },
+  "oppo-enco-air3s": {
+   "kind": "official",
+   "src": "https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/enco-air3s-en/listpage/enco-air3s-427_600.png",
+   "page": "https://www.oppo.com/my/accessories/enco-air3s/",
+   "credit": "OPPO",
+   "checked": "2026-09-25",
+   "auto": true
+  },
+  "oppo-enco-air4-pro": {
+   "kind": "official",
+   "src": "https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/oppo-enco-air4-pro-en/listpage/Air4-600-600-white.png",
+   "page": "https://www.oppo.com/my/accessories/enco-air4-pro/",
+   "credit": "OPPO",
+   "checked": "2026-09-25",
+   "auto": true
+  },
+  "oppo-enco-air4": {
+   "kind": "official",
+   "src": "https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/oppo-enco-air4/list-page/white_4.png",
+   "page": "https://www.oppo.com/my/accessories/enco-air4/",
+   "credit": "OPPO",
+   "checked": "2026-09-25",
+   "auto": true
+  },
+  "oppo-enco-air5-pro": {
+   "kind": "official",
+   "src": "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-enco-air5-pro-en/list-page/600-600-white.png",
+   "page": "https://www.oppo.com/my/accessories/enco-air5-pro/",
+   "credit": "OPPO",
+   "checked": "2026-09-25",
+   "auto": true
+  },
+  "oppo-enco-air5": {
+   "kind": "official",
+   "src": "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-enco-air5-en/list-page/600-600-white.png",
+   "page": "https://www.oppo.com/my/accessories/enco-air5/",
+   "credit": "OPPO",
+   "checked": "2026-09-25",
+   "auto": true
+  },
+  "oppo-enco-air5s": {
+   "kind": "official",
+   "src": "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-enco-air5s-en/listpage/600-600-purple-v2.png",
+   "page": "https://www.oppo.com/my/accessories/enco-air5s/",
+   "credit": "OPPO",
+   "checked": "2026-09-25",
+   "auto": true
+  },
+  "oppo-enco-buds2-pro": {
+   "kind": "official",
+   "src": "https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/enco-buds2-pro-en/listpage/enco-buds2-pro-427_600-white.png",
+   "page": "https://www.oppo.com/my/accessories/enco-buds2-pro/",
+   "credit": "OPPO",
+   "checked": "2026-09-25",
+   "auto": true
+  },
+  "oppo-enco-buds3s": {
+   "kind": "official",
+   "src": "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-enco-buds3s/list-page/600-600-black.png",
+   "page": "https://www.oppo.com/my/accessories/enco-buds3s/",
+   "credit": "OPPO",
+   "checked": "2026-09-25",
+   "auto": true
+  },
+  "oppo-enco-x3i": {
+   "kind": "official",
+   "src": "https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/oppo-enco-x3i-en/listpage/600_600-blue.png",
+   "page": "https://www.oppo.com/my/accessories/enco-x3i/",
+   "credit": "OPPO",
+   "checked": "2026-09-25",
+   "auto": true
+  },
+  "oppo-enco-x3s": {
+   "kind": "official",
+   "src": "https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/enco-x3s/list-page/600-600-white.png",
+   "page": "https://www.oppo.com/my/accessories/enco-x3s/",
+   "credit": "OPPO",
+   "checked": "2026-09-25",
+   "auto": true
+  },
+  "asus-zenfone-10": {
+   "kind": "official",
+   "src": "https://dlcdnwebimgs.asus.com/gain/fb3d511e-8180-48e9-aa20-52e1f9dc607d/",
+   "page": "https://www.asus.com/mobile-handhelds/phones/zenfone/zenfone-10/",
+   "credit": "ASUS",
+   "checked": "2026-09-25",
+   "auto": true
+  },
+  "asus-zenfone-11-ultra": {
+   "kind": "official",
+   "src": "https://dlcdnwebimgs.asus.com/gain/00dcce3a-3795-4e8c-ba8a-08efa14bced5/",
+   "page": "https://www.asus.com/mobile-handhelds/phones/zenfone/zenfone-11-ultra/",
+   "credit": "ASUS",
+   "checked": "2026-09-25",
+   "auto": true
+  },
+  "asus-zenfone-12-ultra": {
+   "kind": "official",
+   "src": "https://dlcdnwebimgs.asus.com/gain/137e1404-fb15-48c3-9466-9d57868fe50d/",
+   "page": "https://www.asus.com/mobile-handhelds/phones/zenfone/zenfone-12-ultra/",
+   "credit": "ASUS",
+   "checked": "2026-09-25",
+   "auto": true
+  },
+  "samsung-galaxy-a07s": {
+   "kind": "official",
+   "src": "https://images.samsung.com/is/image/samsung/p6pim/my/sm-a077fzkdxme/gallery/my-galaxy-a07s-sm-a077-sm-a077fzkdxme-thumb-554348946",
+   "page": "https://www.samsung.com/my/smartphones/galaxy-a/galaxy-a07s-black-64gb-sm-a077fzkdxme/",
+   "credit": "Samsung",
+   "checked": "2026-09-25",
+   "auto": true
+  },
+  "huawei-matepad-11-5-2024": {
+   "kind": "official",
+   "src": "https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/admin-image/tablets/matepad-11-5/new/list/space-gray.png",
+   "page": "https://consumer.huawei.com/my/tablets/matepad-11-5/specs/",
+   "credit": "Huawei",
+   "checked": "2026-09-25",
+   "auto": true
+  },
+  "huawei-matepad-11-5-2025": {
+   "kind": "official",
+   "src": "https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/tablets/matepad-11-5-2025/list-violet.png",
+   "page": "https://consumer.huawei.com/my/tablets/matepad-11-5-2025/specs/",
+   "credit": "Huawei",
+   "checked": "2026-09-25",
+   "auto": true
+  },
+  "huawei-matepad-11-5-s-2026": {
+   "kind": "official",
+   "src": "https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/tablets/matepad-11-5-s-2026/list-green.png",
+   "page": "https://consumer.huawei.com/my/tablets/matepad-11-5-s-2026/specs/",
+   "credit": "Huawei",
+   "checked": "2026-09-25",
+   "auto": true
+  },
+  "huawei-matepad-12-x-2025": {
+   "kind": "official",
+   "src": "https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/tablets/matepad-12-x-2025/list-green.png",
+   "page": "https://consumer.huawei.com/my/tablets/matepad-12-x-2025/specs/",
+   "credit": "Huawei",
+   "checked": "2026-09-25",
+   "auto": true
+  },
+  "huawei-matepad-air-2026": {
+   "kind": "official",
+   "src": "https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/tablets/matepad-air-new/list-sakura-pink.png",
+   "page": "https://consumer.huawei.com/my/tablets/matepad-air/specs/",
+   "credit": "Huawei",
+   "checked": "2026-09-25",
+   "auto": true
+  },
+  "huawei-matepad-mini": {
+   "kind": "official",
+   "src": "https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/tablets/matepad-mini/list-green.png",
+   "page": "https://consumer.huawei.com/my/tablets/matepad-mini/specs/",
+   "credit": "Huawei",
+   "checked": "2026-09-25",
+   "auto": true
+  },
+  "huawei-matepad-pro-max": {
+   "kind": "official",
+   "src": "https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/tablets/matepad-pro-max/list-blue.png",
+   "page": "https://consumer.huawei.com/my/tablets/matepad-pro-max/specs/",
+   "credit": "Huawei",
+   "checked": "2026-09-25",
+   "auto": true
+  },
+  "oppo-pad-2": {
+   "kind": "official",
+   "src": "https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/pad-2-en/listpage/oppo-pad-2-600_600.png",
+   "page": "https://www.oppo.com/en/accessories/oppo-pad-2/",
+   "credit": "OPPO",
+   "checked": "2026-09-25",
+   "auto": true
+  },
+  "oppo-pad-3-pro": {
+   "kind": "official",
+   "src": "https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/oppo-pad3-pro/list-page/580_600-blue_v2.png",
+   "page": "https://www.oppo.com/en/accessories/oppo-pad-3-pro/",
+   "credit": "OPPO",
+   "checked": "2026-09-25",
+   "auto": true
+  },
+  "oppo-pad-3": {
+   "kind": "official",
+   "src": "https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/oppo-pad3-en/listpage/600-600-silver.png",
+   "page": "https://www.oppo.com/en/accessories/oppo-pad-3-matte-display-edition/",
+   "credit": "OPPO",
+   "checked": "2026-09-25",
+   "auto": true
+  },
+  "oppo-pad-neo": {
+   "kind": "official",
+   "src": "https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/pad-neo-en/listpage/pad-neo-427-600.png",
+   "page": "https://www.oppo.com/en/accessories/oppo-pad-neo/",
+   "credit": "OPPO",
+   "checked": "2026-09-25",
+   "auto": true
+  },
+  "redmi-pad-2": {
+   "kind": "official",
+   "src": "https://i02.appmifile.com/687_item_my/20/07/2026/fecc6515562eaa2ac1a2756b5f0aebb0.jpg",
+   "page": "https://www.mi.com/my/product/redmi-pad-2/",
+   "credit": "Xiaomi",
+   "checked": "2026-09-25",
    "auto": true
   }
  }

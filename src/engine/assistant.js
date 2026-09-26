@@ -56,6 +56,93 @@ const ATTRS = [
   A('network', /\b(5g|4g|lte|nfc|cellular|uwb)\b/, 'Connectivity'),
 ];
 
+// ------------------------------------------------------------------ test results (Version 20)
+// A question naming a test gets the recorded result and who measured it, a ranking by that test, or the tests side by
+// side, instead of the specification sheet. Checked in order: the most specific wording first.
+const TESTS = [
+  [/\bdxo ?mark\b.*\b(display|screen)\b|\b(display|screen)\b.*\bdxo ?mark\b/, ['dxomark_display']],
+  [/\bdxo ?mark\b.*\bbattery\b|\bbattery\b.*\bdxo ?mark\b/, ['dxomark_battery']],
+  [/\bdxo ?mark\b.*\b(audio|sound|speakers?)\b|\b(audio|sound|speakers?)\b.*\bdxo ?mark\b/, ['dxomark_audio']],
+  [/\bdxo ?mark\b/, ['dxomark_camera', 'dxomark_camera_v5']],
+  [/\bgeekbench\b.*\bsingle|\bsingle[- ]?core\b/, ['gb6_single']],
+  [/\bgeekbench\b.*\bmulti|\bmulti[- ]?core\b/, ['gb6_multi']],
+  [/\bgeekbench\b|\bgb ?6\b/, ['gb6_multi', 'gb6_single']],
+  [/\bantutu\b/, ['antutu_v11', 'antutu_v10']],
+  [/\bsteel nomad\b/, ['steel_nomad_light']],
+  [/\bsolar bay\b|\bray ?tracing\b/, ['solar_bay']],
+  [/\b3d ?mark\b|\bwild life\b|\bwle\b/, ['wle', 'steel_nomad_light', 'wle_stability']],
+  [/\b(video (test|drain|playback test|rundown)|netflix)\b/, ['tr_video_drain', 'engadget_video']],
+  [/\btoms? guide\b|\bweb (surfing|browsing) (test|battery)\b/, ['tg_web']],
+  [/\b(battery (test|tests|rundown|runtime)|screen[- ]?on time|how long does (the |its |it'?s )?battery last|battery .{0,12}tested)\b/, ['tg_web', 'tr_video_drain', 'battery_rundown', 'engadget_video', 'dxomark_battery']],
+  [/\b(fastest|quickest|slowest) (charging|to charge)\b.{0,30}\b(tests?|tested|measured)\b|\bcharging (tests?|times?)\b|\bhow long\b.{0,30}\b(to )?(fully )?charge|\bcharg(e|ing) (time|speed test)|\btime to (full|charge)|\bfull charge|\b0 ?(-|to) ?100\b/, ['charge_full', 'charge_30', 'charge_15']],
+  [/\b(measured|tested) (peak )?brightness|\bbrightness (test|measured)/, ['nits_peak', 'nits_manual', 'nits_auto']],
+];
+// the specification shown when a device has no result for the test asked about
+const TEST_FALLBACK = { charge_full: 'charging', tg_web: 'battery', tr_video_drain: 'battery', nits_peak: 'brightness', gb6_multi: 'chip',
+  gb6_single: 'chip', antutu_v11: 'chip', wle: 'chip', steel_nomad_light: 'chip', solar_bay: 'chip', dxomark_camera: 'camera' };
+
+function detectTests(norm) {
+  for (const [re, ids] of TESTS) if (re.test(norm)) return ids.filter((id) => metricDef(id));
+  return [];
+}
+
+const originNames = (m) => [...new Set((m?.origins ?? []).map((o) => o.name ?? sourceName(o.origin)))].join(', ');
+
+async function answerTests(id, mids) {
+  const data = await loadDevice(id).catch(() => null);
+  const ms = data?.metrics ?? {};
+  const got = mids.map((mid) => ({ mid, def: metricDef(mid), m: ms[mid] })).filter((x) => x.m && x.m.value != null);
+  if (!got.length) {
+    const attr = TEST_FALLBACK[mids[0]];
+    const fact = attr ? facts(await full(id), attr).find((f) => f.text) : null;
+    const others = Object.keys(ms).filter((k) => !k.startsWith('spec_') && metricDef(k) && !ms[k].inherited).slice(0, 6).map((k) => metricDef(k).name);
+    return {
+      html: html`<p>No ${metricDef(mids[0]).name} result is recorded for the ${link(id)} yet.${fact ? html` The maker's figure: ${fact.label.toLowerCase()} ${fact.text}.` : ''}</p>
+        ${others.length ? html`<p>Tests recorded for it: ${others.join(', ')}.</p>` : html`<p>No independent test of it is recorded yet.</p>`}`,
+      devices: [id],
+    };
+  }
+  return {
+    html: html`<p>${link(id)}, test results:</p>
+      <ul class="ask__list">${got.map(({ def, m }) => html`<li>${def.name}: <strong>${fmtMetric(def, m.value)}</strong> <span class="ask__val">${m.inherited
+        ? `the ${data.chipset?.name ?? 'chip'}'s result from other phones with it (no test of this phone yet)`
+        : `measured by ${originNames(m)}${(m.n ?? 1) > 1 ? ` (${m.n} results agree to within ${Math.round((m.spread ?? 0) * 100)}%)` : ''}`}</span></li>`)}</ul>
+      <p class="ask__src">${metricDef(got[0].mid).better === 'lower' ? 'Lower is better for ' + got.filter((x) => x.def.better === 'lower').map((x) => x.def.name).join(', ') + '. ' : ''}Each result is compared only with the same test. <a href="${href(`/device/${id}`, { section: 'evidence' })}">All its test results and sources</a>.</p>`,
+    devices: [id],
+  };
+}
+
+function answerTestRank(mid, norm, text, category) {
+  const def = metricDef(mid);
+  const f = filterRows(norm, text, { category });
+  const ranked = f.rows.map((r) => ({ r, v: r.m?.[mid]?.[0], inh: r.m?.[mid]?.[2] })).filter((x) => x.v != null && !x.inh)
+    .sort((a, b) => (def.better === 'lower' ? a.v - b.v : b.v - a.v)).slice(0, 5);
+  if (!ranked.length) return { html: html`<p>No ${filterWords(f, category)} have a ${def.name} result recorded yet.</p>` };
+  return {
+    html: html`<p>Top ${ranked.length} ${filterWords(f, category)} in ${def.name} (${def.better === 'lower' ? 'lower is better' : 'higher is better'}), from the phones with a result:</p>
+      <ol class="ask__rank">${ranked.map((x) => html`<li>${link(x.r.id)} <span class="ask__val">${fmtMetric(def, x.v)}${x.r.ms?.[mid]?.length ? ` · ${x.r.ms[mid].map((o) => sourceName(o)).join(', ')}` : ''}</span></li>`)}</ol>
+      <p class="ask__src">Only this phone's own results count here; a chip's result from other phones is left out. <a href="${href('/charts')}">All charts</a>.</p>`,
+    devices: ranked.map((x) => x.r.id),
+  };
+}
+
+function answerTestCompare(ids, mids) {
+  const lines = mids.map((mid) => {
+    const def = metricDef(mid);
+    const vals = ids.map((id) => ({ id, v: row(id)?.m?.[mid]?.[0], inh: row(id)?.m?.[mid]?.[2] }));
+    const own = vals.filter((x) => x.v != null && !x.inh);
+    if (!own.length) return null;
+    const best = [...own].sort((a, b) => (def.better === 'lower' ? a.v - b.v : b.v - a.v))[0];
+    return html`<li>${def.name}: ${vals.map((x, i) => html`${i ? ' · ' : ''}${deviceTitle(row(x.id))} <strong>${x.v != null && !x.inh ? fmtMetric(def, x.v) : 'not tested'}</strong>`)}${own.length > 1 ? html` <span class="ask__val">(${deviceTitle(row(best.id))} leads)</span>` : ''}</li>`;
+  }).filter(Boolean);
+  if (!lines.length) return { html: html`<p>None of these has a ${metricDef(mids[0]).name} result recorded yet.</p>`, devices: ids };
+  return {
+    html: html`<p>Test results side by side:</p><ul class="ask__list">${lines}</ul>
+      <p class="ask__src">Each device's own results only, from the sources on its page. <a href="${href(`/compare/${ids.join(',')}`)}">Open the full comparison</a>.</p>`,
+    devices: ids,
+  };
+}
+
 const SUPER_HIGH = /\b(biggest|largest|most|longest|highest|best|fastest|brightest|max(imum)?|top|greatest|more|bigger|larger|longer|higher|better|faster)\b/;
 const SUPER_LOW = /\b(smallest|lightest|cheapest|lowest|thinnest|least|lighter|cheaper|lower|thinner|smaller)\b/;
 
@@ -565,7 +652,19 @@ function answerBest(norm, text, category) {
   const list = profileLeaderboard(category, profile, { maxPrice, limit: keep ? 1000 : 5 }).filter((x) => !keep || keep.has(x.id)).slice(0, 5);
   const cat = keep ? filterWords({ ...f, maxPrice: null }, category) : store.categoryById.get(category)?.name.toLowerCase() ?? 'devices';
   const prof = store.profileById.get(profile);
-  if (!list.length) return { html: html`<p>No ${cat}${maxPrice ? ` under ${fmtPrice(maxPrice.amount, maxPrice.currency)}` : ''} have enough evidence to rank${profile !== 'balanced' ? ` for ${prof?.label.toLowerCase()}` : ''} yet.</p>` };
+  if (!list.length) {
+    // nothing has enough evidence to score (earbuds, bands): list what matches the filters instead, newest first
+    const anc = /\b(anc|noise[- ]?cancel\w*)\b/.test(norm);
+    const rows = f.rows.filter((r) => (!maxPrice || (displayPrice(r, maxPrice.currency)?.amount ?? Infinity) <= maxPrice.amount) && (!anc || r.f?.anc))
+      .sort((a, b) => String(b.announced ?? '').localeCompare(String(a.announced ?? ''))).slice(0, 8);
+    if (!rows.length) return { html: html`<p>No ${cat}${maxPrice ? ` under ${fmtPrice(maxPrice.amount, maxPrice.currency)}` : ''}${anc ? ' with noise cancelling' : ''} are recorded yet.</p>` };
+    return {
+      html: html`<p>There isn't enough independent evidence to rank ${cat} yet, so here are the ${anc ? 'ones with noise cancelling' : 'matching ones'}${maxPrice ? ` under ${fmtPrice(maxPrice.amount, maxPrice.currency)}` : ''}, newest first:</p>
+        <ul class="ask__list">${rows.map((r) => html`<li>${link(r.id)} <span class="ask__val">${displayPrice(r, 'MYR') ? priceText(displayPrice(r, 'MYR')) : 'price not recorded'}</span></li>`)}</ul>
+        <p class="ask__src">From the makers' specifications and Malaysian launch prices. Compare them to see the details side by side.</p>`,
+      devices: rows.map((r) => r.id),
+    };
+  }
   return {
     html: html`<p>Top ${cat}${profile !== 'balanced' ? ` for ${prof.label.toLowerCase()}` : ''}${maxPrice ? ` under ${fmtPrice(maxPrice.amount, maxPrice.currency)}` : ''}, by this site's scores:</p>
       <ol class="ask__rank">${list.map((x) => html`<li>${link(x.id)} <span class="ask__val">${Math.round(x.result.score)}/100</span></li>`)}</ol>
@@ -1021,6 +1120,15 @@ export async function ask(question, context = {}) {
     if (other) ids = [other, ids[0]];
   }
 
+  // a named test ("DXOMARK score", "Geekbench", "how long to charge", "video test"): the recorded results (Version 20)
+  const tests = detectTests(norm);
+  if (tests.length) {
+    const ranking = SUPER_HIGH.test(norm) || SUPER_LOW.test(norm) || /\b(which|rank|ranking|top|order)\b/.test(norm);
+    const tIds = ids.length ? ids : (!ranking && previous.length) ? previous : [];
+    if (tIds.length === 1) return answerTests(tIds[0], tests);
+    if (tIds.length >= 2) return answerTestCompare(tIds.slice(0, 4), tests);
+    return answerTestRank(tests[0], norm, text, category ?? 'smartphone');
+  }
   // where prices come from (asked with the word "price", so checked before attribute questions)
   if (!ids.length && PRICE_HELP.test(norm)) return { html: priceHelp() };
   // explanations about the site itself
@@ -1434,14 +1542,20 @@ export function useCaseInfo(profileId) {
 export function suggestions(context = {}) {
   const id = context.deviceIds?.[0];
   const r = id && store.deviceById.get(id);
+  // Version 20: a test question when the device has its own test results (DXOMARK, Geekbench, charging times…)
+  const tested = (row) => Object.entries(row?.m ?? {}).some(([k, v]) => !k.startsWith('spec_') && !v[2]);
   if (context.deviceIds?.length >= 2) {
-    return ['Which is better overall?', 'Which has the bigger battery?', 'Which is cheaper in Malaysia?', 'Which charges faster?'];
+    const both = context.deviceIds.every((d) => tested(store.deviceById.get(d)));
+    return ['Which is better overall?', 'Which has the bigger battery?', 'Which is cheaper in Malaysia?', both ? 'Compare their Geekbench scores' : 'Which charges faster?'];
   }
   if (r) {
     const wear = r.category === 'smartwatch' || r.category === 'band';
+    const test = r.m?.dxomark_camera && !r.m.dxomark_camera[2] ? 'What is its DXOMARK camera score?'
+      : r.m?.charge_full && !r.m.charge_full[2] ? 'How long does it take to charge?'
+        : r.m?.gb6_multi && !r.m.gb6_multi[2] ? 'What are its Geekbench scores?' : null;
     return wear
       ? ['Is it any good?', 'How long does its battery last?', 'Is it water resistant?', 'Does it have GPS?', 'Compare it with its rivals']
-      : ['Is it worth buying?', 'Is it good for gaming?', `What's the battery and charging?`, 'Does it have NFC and eSIM?', 'Compare it with its rivals'];
+      : ['Is it worth buying?', 'Is it good for gaming?', `What's the battery and charging?`, ...(test ? [test] : []), 'Does it have NFC and eSIM?', 'Compare it with its rivals'];
   }
-  return ['Best phone under RM2,000', 'Is the Galaxy S26 worth it?', 'Galaxy S26 vs iPhone 17', 'Longest battery smartwatch', 'What is IP68?', 'How are scores calculated?'];
+  return ['Best phone under RM2,000', 'Is the Galaxy S26 worth it?', 'Galaxy S26 vs iPhone 17', 'Highest DXOMARK camera score', 'Best earbuds with ANC under RM500', 'What is IP68?'];
 }

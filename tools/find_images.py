@@ -28,10 +28,11 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "live" / "auto" / "found_images.json"
 REJECTS = ROOT / "data" / "image_rejects.json"   # pictures a person rejected after checking the found ones
-NOT_PRODUCT = re.compile(r"(?<![a-z])(logo|favicon|icon|share-?default|home-share\w*|placeholder|sprite)(?![a-z])", re.I)
+NOT_PRODUCT = re.compile(r"(?<![a-z])(logo|favicon|icon|share-?default|home-share\w*|placeholder|sprite|kv|banner|bg|background|lifestyle|scene)(?![a-z])", re.I)
 UA = "Mozilla/5.0 (compatible; TechComparisonHub/1.0; +https://darren38.github.io/tech-comparison-hub/)"
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from build import OFFICIAL_IMAGE_HOSTS, OFFICIAL_IMAGE_PREFIXES  # noqa: E402  (same allow-list as the validator)
+from devices_all import all_devices  # noqa: E402  (Version 20: devices added automatically count too)
 
 MAKER_PAGE = re.compile(r"^https?://[^/]*((samsung|apple|honor|huawei|mi|oppo|vivo|iqoo|asus|realme|oneplus)\.com(\.cn)?|redmagic\.gg|nothing\.tech)/")
 ARCHIVE = re.compile(r"^https://web\.archive\.org/web/(\d{14})/(.+)$")
@@ -60,7 +61,31 @@ def allowed(url: str) -> bool:
     return bool(rp and rp.can_fetch(UA, url))
 
 
+_last_hit: dict[str, float] = {}
+_slow_pages: dict[str, int] = {}
+SLOW_SITE_PAGES = 10   # pages per run from a site that asks for a long delay between requests
+
+
+def polite_wait(url: str) -> bool:
+    """Wait as long as the site's robots.txt asks (at least 1.5 s). False when a slow site's quota for this run is used."""
+    parts = urllib.parse.urlsplit(url)
+    key = f"{parts.scheme}://{parts.netloc}"
+    rp = _robots.get(key)
+    delay = max(1.5, float((rp.crawl_delay(UA) if rp else None) or 0))
+    if delay >= 10:
+        if _slow_pages.get(key, 0) >= SLOW_SITE_PAGES:
+            return False
+        _slow_pages[key] = _slow_pages.get(key, 0) + 1
+    wait = delay - (time.time() - _last_hit.get(key, 0))
+    if wait > 0:
+        time.sleep(wait)
+    _last_hit[key] = time.time()
+    return True
+
+
 def fetch(url: str, limit: int = 600_000) -> str | None:
+    if not polite_wait(url):
+        return None
     try:
         req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "text/html"})
         with urllib.request.urlopen(req, timeout=30) as r:
@@ -95,6 +120,34 @@ def og_image(page_html: str) -> str | None:
     return None
 
 
+def ld_image(page_html: str) -> str | None:
+    """Version 20: the picture in the page's own product data (JSON-LD "image"), e.g. Huawei's product list picture."""
+    for block in re.findall(r'<script[^>]+application/ld\+json[^>]*>(.*?)</script>', page_html, re.I | re.S):
+        m = re.search(r'"image"\s*:\s*\[?\s*"([^"]+)"', block)
+        if m:
+            return html.unescape(m.group(1).strip())
+    return None
+
+
+def page_pictures(page_html: str) -> list[str]:
+    """Pictures a maker's page declares for itself: the sharing picture first, then its product data picture."""
+    return [x for x in (og_image(page_html), ld_image(page_html)) if x]
+
+
+def overview_pages(url: str) -> list[str]:
+    """Version 20: the product page that goes with a specification page (OPPO and Xiaomi put their product picture there).
+    '.../reno14/specs/' -> '.../reno14/'; vivo '.../products/param/x300' -> '.../products/x300'."""
+    plain = ARCHIVE.sub(r"\2", url)
+    out = []
+    m = re.match(r"^(https://[^?#]+?)/(?:specs?|tech-?specs?|techspec|param)/?(?:[?#].*)?$", plain)
+    if m:
+        out.append(m.group(1) + "/")
+    m = re.match(r"^(https://www\.(?:vivo|iqoo)\.com/[a-z]{2}/products)/param/([a-z0-9-]+)", plain)
+    if m:
+        out.append(f"{m.group(1)}/{m.group(2)}")
+    return [u for u in out if u.rstrip("/") != plain.rstrip("/")]
+
+
 def model_matches(dev_id: str, src: str) -> bool:
     """Makers file product pictures by model ("product-series/honor-x7e-plus-5g/..."). When the picture sits in such a
     folder, the model's number must be in it too, so a page that shares another model's picture is not used."""
@@ -103,6 +156,34 @@ def model_matches(dev_id: str, src: str) -> bool:
         return True
     numbered = [t for t in dev_id.split("-")[1:] if re.search(r"\d", t) and t not in ("5g", "4g")]
     return not numbered or any(t in folder.group(1).lower() for t in numbered)
+
+
+# Version 20: makers whose pages declare marketing photos (people, animals, banners) rather than the product. Checked on a
+# contact sheet of every picture found: all twelve from realme were lifestyle shots or banners. Their devices keep the
+# outline drawing until a picture is added by hand.
+NO_AUTO_PICTURE = re.compile(r"(^|\.)realme\.(com|net)$|^news\.samsung\.com$", re.I)   # newsroom: key visuals, not product shots
+
+
+def pick_picture(page: str, text: str, dev_id: str, rejected: list[str], today: str) -> dict | None:
+    """The first picture the page declares that passes every rule: maker's own image server, not a logo or banner,
+    filed under this model when filed by model, not rejected by a person, and it loads as an image."""
+    m = ARCHIVE.match(page)
+    live_page = m.group(2) if m else page
+    if NO_AUTO_PICTURE.search(urllib.parse.urlsplit(live_page).netloc):
+        return None
+    for src in page_pictures(text):
+        src = urllib.parse.urljoin(live_page, src).split("#")[0]
+        if src.startswith("//"):
+            src = "https:" + src
+        if m and not src.startswith("https://web.archive.org/"):
+            src = f"https://web.archive.org/web/{m.group(1)}im_/{src}"
+        if not src.startswith("https://") or not official(src) or NOT_PRODUCT.search(src.rsplit("/", 1)[-1] + src):
+            continue
+        if src in rejected or not model_matches(dev_id, src) or not loads_as_image(src):
+            continue
+        maker = next((v for k, v in CREDIT.items() if re.search(rf"(^|\.){k}\.(com|gg|tech)", urllib.parse.urlsplit(live_page).netloc)), "Manufacturer")
+        return {"kind": "official", "src": src, "page": page, "credit": maker, "checked": today, "auto": True}
+    return None
 
 
 def candidate_pages(dev: dict) -> list[str]:
@@ -115,6 +196,11 @@ def candidate_pages(dev: dict) -> list[str]:
         plain = ARCHIVE.sub(r"\2", u)
         if MAKER_PAGE.match(plain):
             out.append(u)
+    # Version 20: then the product page that goes with each specification page
+    for u in list(out):
+        for extra in overview_pages(u):
+            if extra not in out and MAKER_PAGE.match(extra):
+                out.append(extra)
     return out
 
 
@@ -136,8 +222,7 @@ def main() -> None:
         if dev_id in found and found[dev_id].get("src") in srcs:
             found.pop(dev_id)
     tried = 0
-    for path in sorted((ROOT / "data" / "devices").glob("*/*.json")):
-        dev = json.loads(path.read_text(encoding="utf-8"))
+    for dev in all_devices():
         if (dev.get("image") or {}).get("src"):
             found.pop(dev["id"], None)  # a hand-picked picture now exists
             continue
@@ -153,22 +238,11 @@ def main() -> None:
             if not m and not allowed(live_page):
                 continue
             text = fetch(fetch_url)
-            time.sleep(1.5)  # be gentle: one request at a time
-            src = og_image(text or "")
-            if not src:
+            picture = pick_picture(page, text or "", dev["id"], rejected.get(dev["id"], []), now.date().isoformat())
+            if not picture:
                 continue
-            src = urllib.parse.urljoin(live_page, src).split("#")[0]
-            if src.startswith("//"):
-                src = "https:" + src
-            if m and not src.startswith("https://web.archive.org/"):
-                src = f"https://web.archive.org/web/{m.group(1)}im_/{src}"
-            if not src.startswith("https://") or not official(src) or NOT_PRODUCT.search(src.rsplit("/", 1)[-1] + src):
-                continue
-            if src in rejected.get(dev["id"], []) or not model_matches(dev["id"], src) or not loads_as_image(src):
-                continue
-            maker = next((v for k, v in CREDIT.items() if re.search(rf"(^|\.){k}\.(com|gg|tech)", urllib.parse.urlsplit(ARCHIVE.sub(r'\2', page)).netloc)), "Manufacturer")
-            found[dev["id"]] = {"kind": "official", "src": src, "page": page, "credit": maker, "checked": now.date().isoformat(), "auto": True}
-            print(f"[images] {dev['id']}: {src[:100]}")
+            found[dev["id"]] = picture
+            print(f"[images] {dev['id']}: {picture['src'][:100]}")
             break
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps({"searchedAt": now.isoformat(timespec="seconds"), "found": found}, ensure_ascii=False, indent=1), encoding="utf-8")

@@ -1,0 +1,333 @@
+{
+"measuredAt": "2026-09-25T16:23:38+00:00",
+"boxes": {
+"https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/admin-image/headphones/freearc/list/green.png": {
+"bg": "clear",
+"ar": 0.9646,
+"box": [
+0.0801,
+0.1547,
+0.9199,
+0.8403
+]
+},
+"https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/headphones/freebuds6/list-black.png": {
+"bg": "clear",
+"ar": 0.7627,
+"box": [
+0.1356,
+0.1234,
+0.8671,
+0.8787
+]
+},
+"https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/admin-image/headphones/freebuds6i/list-white.png": {
+"bg": "clear",
+"ar": 1.153,
+"box": [
+0.0615,
+0.2005,
+0.9385,
+0.7995
+]
+},
+"https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/headphones/freebuds7i/list-pink.png": {
+"bg": "clear",
+"ar": 0.9899,
+"box": [
+0.1065,
+0.1838,
+0.8935,
+0.8099
+]
+},
+"https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/headphones/freebuds-pro-5/list-sand.png": {
+"bg": "clear",
+"ar": 1.2768,
+"box": [
+0.0059,
+0.2067,
+0.9941,
+0.8162
+]
+},
+"https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/admin-image/headphones/freebuds-se-2/list/isle-blue.png": {
+"bg": "clear",
+"ar": 0.9502,
+"box": [
+0.1197,
+0.188,
+0.8777,
+0.8162
+]
+},
+"https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/admin-image/headphones/freebuds-se-3/list/beige.png": {
+"bg": "clear",
+"ar": 1.0033,
+"box": [
+0.0906,
+0.1797,
+0.9094,
+0.8224
+]
+},
+"https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/headphones/freebuds-se-4-anc/list-white.png": {
+"bg": "clear",
+"ar": 1.1374,
+"box": [
+0.0853,
+0.213,
+0.9174,
+0.7891
+]
+},
+"https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/headphones/freeclip2-s/list-deepsea-blue.png": {
+"bg": "clear",
+"ar": 0.622,
+"box": [
+0.117,
+0.0151,
+0.883,
+0.9849
+]
+},
+"https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/headphones/freeclip2/list-purple.png": {
+"bg": "clear",
+"ar": 0.8506,
+"box": [
+0.1461,
+0.1713,
+0.8539,
+0.8266
+]
+},
+"https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/admin-image/headphones/freeclip/list/list-rose.png": {
+"bg": "clear",
+"ar": 0.9514,
+"box": [
+0.0853,
+0.1547,
+0.9147,
+0.8412
+]
+},
+"https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/enco-air3s-en/listpage/enco-air3s-427_600.png": {
+"bg": "clear",
+"ar": 0.8852,
+"box": [
+0.0,
+0.098,
+1.0,
+0.902
+]
+},
+"https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/oppo-enco-air4-pro-en/listpage/Air4-600-600-white.png": {
+"bg": "clear",
+"ar": 1.1896,
+"box": [
+0.0,
+0.0797,
+1.0,
+0.9203
+]
+},
+"https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/oppo-enco-air4/list-page/white_4.png": {
+"bg": "clear",
+"ar": 0.7923,
+"box": [
+0.113,
+0.0,
+0.9053,
+1.0
+]
+},
+"https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-enco-air5-pro-en/list-page/600-600-white.png": {
+"bg": "clear",
+"ar": 1.1618,
+"box": [
+0.0,
+0.0863,
+1.0,
+0.947
+]
+},
+"https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-enco-air5-en/list-page/600-600-white.png": {
+"bg": "clear",
+"ar": 1.2136,
+"box": [
+0.0,
+0.088,
+1.0,
+0.912
+]
+},
+"https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-enco-air5s-en/listpage/600-600-purple-v2.png": {
+"bg": "clear",
+"ar": 0.9653
+},
+"https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/enco-buds2-pro-en/listpage/enco-buds2-pro-427_600-white.png": {
+"bg": "clear",
+"ar": 0.8183,
+"box": [
+0.0159,
+0.0947,
+0.9817,
+0.9353
+]
+},
+"https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-enco-buds3s/list-page/600-600-black.png": {
+"bg": "clear",
+"ar": 1.0231
+},
+"https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/oppo-enco-x3i-en/listpage/600_600-blue.png": {
+"bg": "clear",
+"ar": 0.991,
+"box": [
+0.0463,
+0.0497,
+0.9537,
+0.9653
+]
+},
+"https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/enco-x3s/list-page/600-600-white.png": {
+"bg": "clear",
+"ar": 1.0823
+},
+"https://dlcdnwebimgs.asus.com/gain/fb3d511e-8180-48e9-aa20-52e1f9dc607d/": {
+"bg": "clear",
+"ar": 0.903,
+"box": [
+0.2813,
+0.0375,
+0.7153,
+0.953
+]
+},
+"https://dlcdnwebimgs.asus.com/gain/00dcce3a-3795-4e8c-ba8a-08efa14bced5/": {
+"bg": "clear",
+"ar": 0.9181,
+"box": [
+0.1363,
+0.103,
+0.8653,
+0.897
+]
+},
+"https://dlcdnwebimgs.asus.com/gain/137e1404-fb15-48c3-9466-9d57868fe50d/": {
+"bg": "clear",
+"ar": 0.9154,
+"box": [
+0.0763,
+0.038,
+0.9237,
+0.9637
+]
+},
+"https://images.samsung.com/is/image/samsung/p6pim/my/sm-a077fzkdxme/gallery/my-galaxy-a07s-sm-a077-sm-a077fzkdxme-thumb-554348946": {
+"bg": "clear",
+"ar": 0.815,
+"box": [
+0.1213,
+0.0335,
+0.8817,
+0.9665
+]
+},
+"https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/admin-image/tablets/matepad-11-5/new/list/space-gray.png": {
+"bg": "clear",
+"ar": 1.4479,
+"box": [
+0.0297,
+0.2442,
+0.9703,
+0.7558
+]
+},
+"https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/tablets/matepad-11-5-2025/list-violet.png": {
+"bg": "clear",
+"ar": 1.4373,
+"box": [
+0.0826,
+0.2713,
+0.9174,
+0.7287
+]
+},
+"https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/tablets/matepad-11-5-s-2026/list-green.png": {
+"bg": "clear",
+"ar": 1.4506,
+"box": [
+0.0826,
+0.2734,
+0.9174,
+0.7266
+]
+},
+"https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/tablets/matepad-12-x-2025/list-green.png": {
+"bg": "clear",
+"ar": 1.4373,
+"box": [
+0.0826,
+0.2713,
+0.9174,
+0.7287
+]
+},
+"https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/tablets/matepad-air-new/list-sakura-pink.png": {
+"bg": "clear",
+"ar": 1.4456,
+"box": [
+0.0879,
+0.2755,
+0.9121,
+0.7245
+]
+},
+"https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/tablets/matepad-mini/list-green.png": {
+"bg": "clear",
+"ar": 1.5203,
+"box": [
+0.0747,
+0.2797,
+0.9253,
+0.7203
+]
+},
+"https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/tablets/matepad-pro-max/list-blue.png": {
+"bg": "clear",
+"ar": 1.4468,
+"box": [
+0.0462,
+0.253,
+0.9538,
+0.747
+]
+},
+"https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/pad-2-en/listpage/oppo-pad-2-600_600.png": {
+"bg": "clear",
+"ar": 1.0
+},
+"https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/oppo-pad3-pro/list-page/580_600-blue_v2.png": {
+"bg": "clear",
+"ar": 0.9667
+},
+"https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/oppo-pad3-en/listpage/600-600-silver.png": {
+"bg": "clear",
+"ar": 1.0
+},
+"https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/pad-neo-en/listpage/pad-neo-427-600.png": {
+"bg": "clear",
+"ar": 0.9317
+},
+"https://i02.appmifile.com/687_item_my/20/07/2026/fecc6515562eaa2ac1a2756b5f0aebb0.jpg": {
+"bg": "light",
+"ar": 0.7561,
+"box": [
+0.1847,
+0.083,
+0.8153,
+0.917
+]
+}
+}
+}
