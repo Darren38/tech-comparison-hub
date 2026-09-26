@@ -9,6 +9,7 @@ import { html } from '../lib/html.js';
 import { fmtDate, fmtNumber, fmtPrice, fmtMetric, plural, timeAgo } from '../lib/format.js';
 import { displayPrice, priceText, availabilityIn, selectedCurrency, ratesLabel } from './money.js';
 import { normalizeText, search } from './search.js';
+import { typedForms } from './names.js';
 import { detectProfile } from './intent.js';
 import { profileLeaderboard, allCategoryScores, getMetric, applicableScoreCategories, rankOf, profileScore } from './scoring.js';
 import { provenanceFor, specValue, fmtSpec, extLink } from '../ui/components.js';
@@ -193,13 +194,6 @@ function detectMaxPrice(text) {
 // ------------------------------------------------------------------ device recognition
 const compact = (s) => normalizeText(s).replace(/\s+/g, '');
 
-// short forms visitors type instead of the full word
-const ABBREVIATIONS = [
-  [/\s*Ultra$/i, 'U'],
-  [/\s*Pro Max$/i, 'PM'],
-  [/\s*Pro Plus$/i, 'P+'],
-];
-
 let shortCache = null;
 /** Brand-less names ("Galaxy S24" -> "S24", "OPPO Reno14 5G" -> "Reno14 5G", "Reno14"), kept only when unique and letter+digit. */
 function shortNames() {
@@ -213,10 +207,7 @@ function shortNames() {
       if (s === n && !/^Galaxy\s/i.test(n)) continue;
       forms.add(s); forms.add(s.replace(/\s*5G$/i, ''));
     }
-    // how people actually type them: "S24U" and "24U" for the S24 Ultra, "16PM" for the iPhone 16 Pro Max
-    for (const f of [...forms]) {
-      for (const [re, short] of ABBREVIATIONS) if (re.test(f)) forms.add(f.replace(re, short));
-    }
+    for (const f of [...forms]) if (/\s*Ultra$/i.test(f)) forms.add(f.replace(/\s*Ultra$/i, 'U'));
     for (const f of [...forms]) {
       const rest = /^[A-Za-z](\d.*)$/.exec(f)?.[1];
       if (rest && /[A-Za-z]/.test(rest)) forms.add(rest); // "S24U" -> "24U" (never a bare number)
@@ -242,6 +233,14 @@ function shortNames() {
     }
     shortCache.set(id, [...(shortCache.get(id) ?? []), f]);
   }
+  // …plus every way of typing a name that the site search knows (names.js, shared so both always agree):
+  // "ip16pm", "RN14 P+", "ZFold7", "Tab S11U", "Find X9U", "P80 Ultra", "ROG 9", with or without the brand.
+  // In a sentence a short form needs a number in it ("ip air" is left to the search box).
+  const taken = new Set([...shortCache.values()].flat().map(compact));
+  for (const [c, id] of typedForms()) {
+    if (taken.has(c) || !/[a-z]/.test(c) || !/\d/.test(c)) continue;
+    shortCache.set(id, [...(shortCache.get(id) ?? []), c]);
+  }
   return shortCache;
 }
 
@@ -253,7 +252,7 @@ async function devicesIn(text, { fuzzy = true } = {}) {
   const wordOf = [];
   normalizeText(text).split(' ').forEach((w, i) => { for (let k = 0; k < w.length; k += 1) wordOf.push(i); });
   const cands = [];
-  const known = new Set(store.devices.map((r) => compact(r.name)));
+  const known = new Set(store.devices.flatMap((r) => [r.name, deviceTitle(r), ...(r.aliases ?? [])].map(compact)));
   const shorts = shortNames();
   for (const row of store.devices) {
     const base = [row.name, deviceTitle(row), ...(row.aliases ?? [])];
@@ -277,6 +276,9 @@ async function devicesIn(text, { fuzzy = true } = {}) {
         for (let k = i + c.length; k < qc.length && wordOf[k] === wordOf[i + c.length - 1]; k += 1) rest += qc[k];
         // "s24" must not match inside "s24u" or "s24pm": those are the Ultra and the Pro Max
         if ((/^\d/.test(after) && !netSuffix) || /^(ultra|plus|pro|max|mini|lite|fe|edge|classic|active|s(?![a-z])|e(?![a-z]))/.test(after) || /^(pm|u|pplus)$/.test(rest)) continue;
+        // nor end part-way through a later word: "android 16 update" is not the "16U"
+        const endWord = wordOf[i + c.length - 1];
+        if (i + c.length < qc.length && wordOf[i + c.length] === endWord && endWord !== wordOf[i]) continue;
         hit = { id: row.id, start: i, end: i + c.length, len: c.length - penalty };
       }
       if (hit) { cands.push(hit); break; }

@@ -14,6 +14,7 @@
 import * as eng from './assistant.js';
 import { store } from '../core/store.js';
 import { normalizeText } from './search.js';
+import { formsById, squash } from './names.js';
 
 // ------------------------------------------------------------------ 1. understanding the question
 const INTENTS = ['device_info', 'price', 'feature_check', 'verdict', 'reviews', 'news', 'compare', 'differences', 'recommend', 'rank', 'advice', 'explain_term', 'list', 'smalltalk', 'other'];
@@ -97,7 +98,8 @@ function namedIn(name, question) {
   // a model word the visitor didn't write makes it another device: "redmi note 14" is not the "Redmi Note 14 Pro 5G"
   // (in testing, after an answer about the 14 Pro, the model planned "is the redmi note 14 worth it" as the 14 Pro)
   if (words.some((w) => VARIANT_WORDS.has(w) && !new RegExp(`(^|[^a-z])${w}([^a-z]|$)`).test(q))) return false;
-  const hits = words.filter((w) => q.includes(` ${w} `) || (/\d/.test(w) && q.replace(/\s+/g, '').includes(w)));
+  const squashed = q.replace(/\s+/g, '');
+  const hits = words.filter((w) => q.includes(` ${w} `) || ((/\d/.test(w) || w.length >= 3) && squashed.includes(w)));
   return hits.some((w) => /\d/.test(w)) && hits.length * 2 >= words.length;
 }
 
@@ -121,7 +123,7 @@ function languageOf(question) {
   return null;
 }
 
-const COMPARE_WORDS = /\b(vs|versus|compare[ds]?|comparison|or|which (one )?(is )?better|better between|bandingkan|atau|mana lebih)\b|还是|哪个|比较|對比|对比/i;
+const COMPARE_WORDS = /\b(vs|versus|compare[ds]?|comparison|or|which (one )?(is )?better|better between|bandingkan|atau|mana lebih|upgrad\w*|switch\w*|replace|from .{2,40} to)\b|还是|哪个|比较|對比|对比|升级|换/i;
 const PRONOUN = /\b(it|its|this one|that one|them|they|both|the (first|second|cheaper|other|former|latter)( one)?)\b|它|这个|這個|\b(ia|itu|ini)\b/i;
 // words that make the model's use case plausible when the rules found none
 const USE_HINTS = {
@@ -244,7 +246,17 @@ export async function understand(backend, question, ctx = {}) {
   const context = planContext(ctx);
   const raw = await backend.plan(PLAN_SYSTEM, `${context ? `${context}\n` : ''}Visitor's question: ${question}`, PLAN_SCHEMA);
   const plan = normalisePlan(raw, question);
-  return plan ? reconcile(plan, question) : null;
+  if (!plan) return null;
+  const p = reconcile(plan, question);
+  // Version 20: the devices the site's own rules find in the visitor's words always count, however they were typed
+  // ("is s26ultra worth upgrade from s24ultra": the model wrote "Samsung Galaxy S26 Ultra", which the name check
+  // above couldn't line up with "s26ultra", and the question became "best phone")
+  const found = await eng.devicesInText(question);
+  if (found.length > p.devices.length) p.devices = found.map(eng.officialName);
+  if (p.devices.length >= 2 && ['recommend', 'rank', 'list', 'advice', 'other', 'verdict', 'device_info'].includes(p.intent)
+      && COMPARE_WORDS.test(`${question} ${plan.question_en}`)) p.intent = 'compare';
+  if (p.devices.length === 1 && ['recommend', 'rank', 'list'].includes(p.intent) && /\b(good|worth|bagus|berbaloi|should i)\b|好|值得/i.test(question)) p.intent = 'verdict';
+  return p;
 }
 
 // ------------------------------------------------------------------ 2. looking it up (no model involved)
@@ -352,6 +364,15 @@ export async function lookUp(plan, question, ctx = {}) {
   const exact = await eng.devicesInText(question);
   ids = [...new Set([...ids, ...exact])].slice(0, 4);
   if (exact.length) unknown = unknown.filter((n) => !exact.some((id) => eng.officialName(id).toLowerCase().includes(n.toLowerCase())));
+  // …and a name the model made up from a model the rules already found is not "missing from the database":
+  // in "rn14pro+ battery good?" the model also wrote "iPhone 14 Pro+". With the found models' own words taken out
+  // of the question, a missing model's number must still be there ("compare s26u and s30": "30" is, so S30 stays).
+  if (exact.length && unknown.length) {
+    const forms = exact.flatMap((id) => formsById().get(id) ?? []).sort((a, b) => b.length - a.length);
+    let rest = squash(question);
+    for (const f of forms) rest = rest.split(f).join(' ');
+    unknown = unknown.filter((n) => (n.match(/\d+/g) ?? []).some((d) => new RegExp(`(^|\\D)${d}(\\D|$)`).test(rest)) || !/\d/.test(n));
+  }
   const deviceIntent = ['device_info', 'price', 'feature_check', 'verdict', 'reviews', 'news', 'compare', 'differences', 'explain_term', 'advice'].includes(plan?.intent);
   // a spec term is explained in general ("what is LTPO and do I need it": the "it" is LTPO, not the last phone)
   if (plan && !ids.length && !unknown.length && deviceIntent && plan.intent !== 'explain_term' && (plan.about_previous || plan.intent !== 'advice')) ids = [...previous];

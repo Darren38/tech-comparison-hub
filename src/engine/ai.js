@@ -717,6 +717,9 @@ function sentenceProblem(sentence, facts, { question = '', echo = false, known =
   const wan = /(\d+(?:\.\d+)?)\s*万\s*像素/.exec(sentence);
   if (wan && new RegExp(`(?<![\\d.])${wan[1].replace('.', '\\.')} MP\\b`).test(facts)) return 'attached a figure to the wrong spec';
   if (/too close to call/i.test(verified(facts)) && WINNER_WORDS.test(sentence) && !TIE_WORDS.test(sentence)) return 'picked a winner where the site calls it too close to call';
+  // …and the other way round: "The verdict is too close to call" when the site shows one ahead (78 vs 70)
+  if (/too close to call|no clear winner|hard to (call|pick)|toss-?up|难分|難分|sukar (dipilih|ditentukan)/i.test(sentence)
+      && /comes out ahead overall/i.test(verified(facts))) return 'called it too close to call where the site’s data shows one ahead';
   const aboutTop = ranked?.[0]?.some((n) => sentence.toLowerCase().includes(n.toLowerCase()));
   // "heavier at 224 g than the HONOR X9d at 193 g": a comparison with both (already checked) figures in view
   // …or with one of them in the sentence before: "It weighs 201 g. This is slightly heavier than the median of 196 g."

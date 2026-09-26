@@ -30,10 +30,11 @@
   },
   "specs": {
     "display": {
-      "size_in": 6.49,
+      "size_in": 8,
       "type": "OLED",
       "resolution": "2416 × 2210",
-      "ppi": 505
+      "ppi": 412,
+      "refresh_hz": 120
     },
     "memory": {
       "ram_gb": [
@@ -136,11 +137,6 @@
         "url": "https://soyacincau.com/2026/01/20/huaiwei-mate-x7-malaysia-price-specs-availability/",
         "checked": "2026-09-18",
         "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
-      },
-      "specs.display.ppi": {
-        "class": "platform",
-        "source": "platform",
-        "note": "Calculated from resolution and screen size."
       }
     }
   },

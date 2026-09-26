@@ -1,9 +1,11 @@
 // Client-side search over the generated search index (devices, chipsets, brands,
-// documents and sources). Handles aliases ("S26U"), "+" / "plus", prefixes and one-letter typos.
+// documents and sources). Handles aliases ("S26U"), "+" / "plus", prefixes and one-letter typos, and names typed
+// squashed, spaced out or in short form ("s26ultra", "ip17pm", "rn14pro+", "zfold7"; see names.js).
 
 import { loadSearchIndex, store, deviceTitle, sourceName } from '../core/store.js';
 import { loadMatchedItems } from './live.js';
 import { GLOSSARY } from '../ui/plain.js';
+import { typedForms, sharedForms, formsById, squash } from './names.js';
 
 export const TYPE_ORDER = ['device', 'chipset', 'brand', 'page', 'review', 'video', 'news', 'headline', 'source'];
 export const TYPE_LABELS = {
@@ -120,13 +122,45 @@ export async function ensureSearchIndex() {
   return prepared;
 }
 
+// "2" typed is not the start of "2025"
+const isYearOf = (qt, t) => qt !== t && /^\d{1,3}$/.test(qt) && /^(19|20)\d\d$/.test(t);
+
+let typedById = null;
+let typedFor = null;
+function typedOf(id) {
+  if (typedFor !== store.devices) { typedById = formsById(); typedFor = store.devices; }
+  return typedById.get(id) ?? [];
+}
+
 function scoreEntry(entry, q, qTokens, qCompact) {
   if (!qTokens.length) return 0;
-  if (entry.normTitle === q) return 100;
-  if (entry.compactKeys.includes(qCompact) || entry.compactTitle === qCompact) return 95;
+  const boost = TYPE_BOOST[entry.type] ?? 0;
+  if (entry.normTitle === q) return 100 + boost;
+  // the device's own name beats another device that lists it as an alias ("Nothing Ear" vs "Nothing Ear (3a)")
+  if (entry.compactTitle === qCompact) return 96 + boost;
+  if (entry.type === 'device') {
+    // however the name was typed: "s26ultra", "galaxys26u", "ip17pm", "redminote14pro+", "zfold7". A form that
+    // names one model beats a series name several share ("Pixel Fold": the Pixel Fold, not the Pixel 10 Pro Fold)
+    const sq = squash(qCompact);
+    if (typedForms().get(sq) === entry.id) return 95.5 + boost;
+  }
+  if (entry.compactKeys.includes(qCompact)) return 95 + boost;
+  if (entry.type === 'device') {
+    const sq = squash(qCompact);
+    // a form that fits several models lists them all ("17pm": the iPhone and the Xiaomi)
+    if (sharedForms().get(sq)?.includes(entry.id)) return 88 + boost;
+    // …or still being typed ("s26ul", "findx9u"): the closer to a whole name, the higher
+    if (sq.length >= 3 && /\d/.test(sq) && /[a-z]/.test(sq)) {
+      const intoYear = (x) => /^(19|20)\d\d$/.test(`${/\d*$/.exec(sq)[0]}${/^\d*/.exec(x.slice(sq.length))[0]}`) && /\d$/.test(sq) && /^\d/.test(x.slice(sq.length));
+      const f = typedOf(entry.id).filter((x) => x.startsWith(sq) && !intoYear(x)).sort((a, b) => a.length - b.length)[0];
+      if (f) return 60 + 20 * (sq.length / f.length) + boost;
+    }
+  }
   let score = 0;
-  if (entry.normTitle.startsWith(q)) score = 82;
-  else if (entry.normTitle.includes(` ${q}`)) score = 70;
+  // a number typed must not be the start of a year: "watch ultra 2" is not the "Watch Ultra (2025)"
+  const cutsYear = (at) => /\d$/.test(q) && /^\d/.test(entry.normTitle.slice(at + q.length));
+  if (entry.normTitle.startsWith(q) && !cutsYear(0)) score = 82;
+  else if (entry.normTitle.includes(` ${q}`) && !cutsYear(entry.normTitle.indexOf(` ${q}`) + 1)) score = 70;
 
   // Every query token must match some entry token (prefix, or one typo for longer words).
   let matched = 0;
@@ -139,7 +173,7 @@ function scoreEntry(entry, q, qTokens, qCompact) {
         exact += 1;
         break;
       }
-      if (t.startsWith(qt) && (qt.length >= 2 || /\d/.test(qt))) {
+      if (t.startsWith(qt) && (qt.length >= 2 || /\d/.test(qt)) && !isYearOf(qt, t)) {
         hit = true;
         break;
       }
@@ -154,8 +188,8 @@ function scoreEntry(entry, q, qTokens, qCompact) {
   }
   // Numbers are decisive: "s26" must not match "s25".
   const qNums = qTokens.filter((t) => /\d/.test(t));
-  if (qNums.length && !qNums.every((n) => entry.tokens.some((t) => t.startsWith(n)))) return 0;
-  return score + (TYPE_BOOST[entry.type] ?? 0);
+  if (qNums.length && !qNums.every((n) => entry.tokens.some((t) => t.startsWith(n) && !isYearOf(n, t)))) return 0;
+  return score + boost;
 }
 
 /** Ranked flat list of matches. */
@@ -189,6 +223,23 @@ export async function search(query, { limit = 40, types } = {}) {
         break;
       }
     }
+  }
+  // "should i buy s26u or 17pm": model names anywhere in a sentence, however they were typed, in the order written
+  if (!types && !results.some((r) => r.type === 'device') && qTokens.length > 1) {
+    const byId = new Map(entries.filter((e) => e.type === 'device').map((e) => [e.id, e]));
+    const found = [];
+    for (let i = 0; i < qTokens.length; i += 1) {
+      for (let n = Math.min(5, qTokens.length - i); n >= 1; n -= 1) {
+        const sq = squash(qTokens.slice(i, i + n).join(''));
+        if (sq.length < 3 || !/\d/.test(sq)) continue;
+        const ids = typedForms().has(sq) ? [typedForms().get(sq)] : sharedForms().get(sq) ?? [];
+        if (!ids.length) continue;
+        for (const id of ids) if (byId.has(id) && !found.some((f) => f.id === id)) found.push({ ...byId.get(id), score: 75 - found.length * 0.1 });
+        i += n - 1;
+        break;
+      }
+    }
+    results.unshift(...found.slice(0, 4));
   }
   return results.slice(0, limit);
 }
