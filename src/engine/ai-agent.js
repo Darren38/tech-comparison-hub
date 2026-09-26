@@ -365,6 +365,9 @@ export async function lookUp(plan, question, ctx = {}) {
     results.push({ query, res });
     return res;
   };
+  // a named test ("how long does it take to charge fully", "DXOMARK score"): the recorded results first (Version 20),
+  // so the model has the measured figure in front of it rather than finding a different test's hours in the record
+  if (plan?.question_en && eng.namesTest(`${question} ${plan.question_en}`)) await run(plan.question_en);
   if (plan && plan.intent !== 'smalltalk') for (const q of queriesFor(plan, names).slice(0, 2)) await run(q);
   // nothing planned, or the plan's question didn't match: the visitor's own words, then the English restatement
   if (!results.length || results.every((r) => couldntMatch(r.res))) {
@@ -456,7 +459,9 @@ export async function lookUp(plan, question, ctx = {}) {
     } else if (intent === 'reviews') {
       extra.push({ title: 'REVIEWS AND TESTS', body: 'No reviews or tests of this device are recorded on the site yet.', keep: 3 });
     }
-    if (['news', 'reviews', 'device_info', 'verdict'].includes(intent)) {
+    // headlines only when the question is about news or reviews (Version 20: in testing a verdict answer wandered into
+    // unrelated headlines, and they lengthen what the model has to read)
+    if (['news', 'reviews'].includes(intent)) {
       const heads = (await Promise.all(focus.map((id) => eng.headlinesText(id, { limit: 3 })))).flat();
       if (heads.length) {
         extra.push({ title: 'LATEST HEADLINES (titles collected from news feeds; not checked by the site)', body: heads.join('\n'), keep: intent === 'news' ? 3 : 0 });

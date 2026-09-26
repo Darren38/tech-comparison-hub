@@ -26,6 +26,13 @@ New phones and specifications now update by themselves, from the makers' own pag
 - Device pages suggest a test question ("What is its DXOMARK camera score?") when the device has one.
 - Checked with 60 questions (specifications, prices, comparisons, rankings, budgets, features, news, Chinese, typos, follow-ups) and in the panel on desktop and phone.
 
+**AI answers (Qwen 3.5 on your device) work again, and answer better**
+- Fixed: since the 25 September security update the AI stayed at "0% · starting". The page's security policy allowed background workers only from the site itself, and the AI library starts its worker from jsDelivr. The policy now also allows exactly that one library path (`cdn.jsdelivr.net/npm/@mlc-ai/web-llm@0.2.85/`), nothing wider.
+- A download that stops moving for 90 seconds restarts once by itself and carries on from the parts already saved.
+- The AI now gets the measured test results when a question names a test ("how long does it take to charge fully?" → 48 minutes, not the 16 h 40 min of a battery test), and news headlines only for news questions (answers came back about 30% faster in testing and stopped wandering into unrelated headlines).
+- New checks remove sentences that call two devices level when the site's comparison shows one ahead, compare two scores the wrong way round ("higher … 85 compared to 89"), put a figure the wrong side of "above/below", give a battery-life time as a charging time, quote a ranking that isn't in the data ("66th out of 155"), or say there are no tests when there are. Internal section names ("SITE ANSWER") never show in an answer.
+- Tested in Microsoft Edge with Qwen3.5 4B (2.4 GB, downloaded in about a minute, 15 s to start once saved) and in the app's built-in browser with Qwen3.5 2B: 13 questions in English, Chinese and Malay. Factual answers (test scores, charging times, battery comparisons) were right; answers the checks couldn't confirm were withheld and the verified answer shown instead.
+
 **Makers' spec pages re-read every week**
 - About 120 official specification pages cited by devices are re-read each week, in turn. Missing values are filled from the page and marked "auto" in the specification table: the first full pass filled 61 values, including the chip of 11 phones that had none (8 of those chips are new to the hub and get a short record naming where the chip was read). Apple Support tech-specs pages are re-read too. A value the page now gives differently is never changed automatically; it is listed for a person to check.
 

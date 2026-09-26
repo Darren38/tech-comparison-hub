@@ -74,7 +74,7 @@ const TESTS = [
   [/\b(video (test|drain|playback test|rundown)|netflix)\b/, ['tr_video_drain', 'engadget_video']],
   [/\btoms? guide\b|\bweb (surfing|browsing) (test|battery)\b/, ['tg_web']],
   [/\b(battery (test|tests|rundown|runtime)|screen[- ]?on time|how long does (the |its |it'?s )?battery last|battery .{0,12}tested)\b/, ['tg_web', 'tr_video_drain', 'battery_rundown', 'engadget_video', 'dxomark_battery']],
-  [/\b(fastest|quickest|slowest) (charging|to charge)\b.{0,30}\b(tests?|tested|measured)\b|\bcharging (tests?|times?)\b|\bhow long\b.{0,30}\b(to )?(fully )?charge|\bcharg(e|ing) (time|speed test)|\btime to (full|charge)|\bfull charge|\b0 ?(-|to) ?100\b/, ['charge_full', 'charge_30', 'charge_15']],
+  [/\b(fastest|quickest|slowest) (charging|to charge)\b.{0,30}\b(tests?|tested|measured)\b|\bcharging (tests?|times?)\b|\bhow (long|many minutes)\b.{0,60}\b(to )?(fully )?(re)?charge|\bcharg(e|es|ing) (fully|to full|from empty)\b|\bcharg(e|ing) (time|speed test)|\btime to (full|charge)|\bfull charge|\b0 ?(-|to) ?100\b/, ['charge_full', 'charge_30', 'charge_15']],
   [/\b(measured|tested) (peak )?brightness|\bbrightness (test|measured)/, ['nits_peak', 'nits_manual', 'nits_auto']],
 ];
 // the specification shown when a device has no result for the test asked about
@@ -1274,6 +1274,8 @@ export async function aiFacts(res) {
 // ------------------------------------------------------------------ tools for the AI agent (engine/ai-agent.js, Version 9)
 /** The attribute and feature ids the AI may put in its plan (the same ids the rules understand). */
 export const ATTR_IDS = ATTRS.map((a) => a.id);
+/** Version 20: the question names a test ("DXOMARK score", "how long to charge", "Geekbench"), for the AI's look-ups. */
+export const namesTest = (text) => detectTests(normalizeText(String(text ?? '')).replace(/\s+/g, ' ')).length > 0;
 export const FEATURE_IDS = FEATURES.map((f) => f.id);
 export const answerText = (markup) => answerLines(markup);
 

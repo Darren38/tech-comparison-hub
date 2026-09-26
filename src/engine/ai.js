@@ -69,6 +69,10 @@ export function clean(text) {
     .replace(/^#+\s*/gm, '')
     // section names copied from the notes it was given ("Background", "Strengths", "KEY FACTS")
     .replace(/^\s*(site answer|key facts|across the database|background|about the site|not in this database|strengths|weaker points|specifications|other specifications|differences|the same on both|worded differently|recorded for only one|scores|malaysian launch prices|reviews and tests|latest headlines)\s*[:.]?\s*$/gim, '')
+    // …or inside a sentence (Version 20: "根据 SITE ANSWER 的数据" in a Chinese answer)
+    .replace(/根据\s*(?:the\s*)?SITE ANSWER\s*(?:\(verified\)\s*)?的?数据/g, '根据本站的数据')
+    .replace(/(?:the\s+)?\bSITE ANSWER\b(?:\s*\(verified\))?/g, "the site's data")
+    .replace(/\b(KEY FACTS|ACROSS THE DATABASE|REVIEWS AND TESTS|MALAYSIAN LAUNCH PRICES|LATEST HEADLINES)\b/g, (m) => m.toLowerCase())
     // it sometimes refers to its instructions despite being told not to
     .replace(/\b(in|from|according to|based on) the (provided |given )?(facts|information provided|notes)\b/gi, 'on this site')
     .trim();
@@ -92,6 +96,8 @@ const STORES = ['cache', 'indexeddb'];
 const REFUSED = /on 'Cache'|Unexpected internal error/i;
 const appConfig = async (store) => ({ ...(await lib()).prebuiltAppConfig, cacheBackend: store });
 const CONTEXT_TOKENS = 8192;
+// no download progress for this long restarts the download once (Version 20)
+const STALL_MS = 90000;
 // characters of facts that fit beside the instructions, the question and the answer (about 3.5 characters a token)
 const FACTS_BUDGET = 15000;
 
@@ -134,6 +140,9 @@ export class WebLLMBackend {
     const saved = await this.savedIn();
     const progress = (r) => onProgress?.({ progress: r.progress ?? 0, text: /fetch|download/i.test(r.text ?? '') ? 'downloading (only the first time)' : /cache/i.test(r.text ?? '') ? 'loading from this browser' : 'preparing the model on your graphics chip' });
     for (const store of saved ? [saved] : STORES) {
+     // Version 20: a download that stops moving for STALL_MS is restarted once by itself; the parts already saved are
+     // kept, so it carries on from there (seen in testing: a download sitting at the same percentage for minutes)
+     for (let attempt = 0; attempt < 2; attempt += 1) {
       const worker = new Worker(new URL('./ai-worker.js', import.meta.url), { type: 'module' });
       // the visitor can stop a long or stalled download; stopping ends the worker and the wait
       const stopped = new Promise((_, reject) => {
@@ -142,14 +151,33 @@ export class WebLLMBackend {
           reject(Object.assign(new Error('Stopped.'), { name: 'AbortError' }));
         };
       });
+      let moved = { at: Date.now(), p: -1, downloading: true };
+      let watch = null;
+      const stalled = new Promise((_, reject) => {
+        watch = setInterval(() => {
+          if (moved.downloading && Date.now() - moved.at > STALL_MS) reject(Object.assign(new Error('Stalled.'), { name: 'StallError' }));
+        }, 5000);
+      });
+      const watched = (r) => {
+        const downloading = /fetch|download/i.test(r.text ?? '');
+        if ((r.progress ?? 0) !== moved.p || downloading !== moved.downloading) moved = { at: Date.now(), p: r.progress ?? 0, downloading };
+        progress(r);
+      };
       try {
         // an 8K context window (the prebuilt setting is 4K) so the model can read a device's whole record
-        this.engine = await Promise.race([CreateWebWorkerMLCEngine(worker, this.model, { appConfig: await appConfig(store), initProgressCallback: progress }, { context_window_size: CONTEXT_TOKENS }), stopped]);
+        this.engine = await Promise.race([CreateWebWorkerMLCEngine(worker, this.model, { appConfig: await appConfig(store), initProgressCallback: watched }, { context_window_size: CONTEXT_TOKENS }), stopped, stalled]);
+        clearInterval(watch);
         this.cancel = null;
         return;
       } catch (error) {
+        clearInterval(watch);
         worker.terminate();
         this.cancel = null;
+        if (error?.name === 'StallError' && attempt === 0) {
+          onProgress?.({ progress: Math.max(0, moved.p), text: 'the download paused, so starting it again (the parts already saved are kept)' });
+          continue;
+        }
+        if (error?.name === 'StallError') throw Object.assign(new Error('The download stopped moving. Please try again later, or choose the smaller model.'), { name: 'StallError' });
         // only a refused file moves the download to the other store; anything else is a real failure
         if (error?.name === 'AbortError' || saved || store === STORES[STORES.length - 1] || !REFUSED.test(String(error?.message ?? error))) throw error;
         try {
@@ -158,7 +186,9 @@ export class WebLLMBackend {
           /* nothing to clear */
         }
         onProgress?.({ progress: 0, text: 'this browser refused one large file, so saving the model to its database instead' });
+        break; // on to the next store
       }
+     }
     }
   }
 
@@ -584,6 +614,20 @@ const VERSUS = /\b(than|compared (?:to|with)|versus|vs\.?|berbanding(?: dengan)?
 const FIGURE = /\b(rm)\s?(\d[\d,]*(?:\.\d+)?)|(\d[\d,]*(?:\.\d+)?)\s?(mah|g|w|mp|gb|tb|hz|nits|mm|inch(?:es)?|-inch|hours?|h|%)(?![a-z])/gi;
 
 /** True when a sentence says "heavier" (or "cheaper", "lebih ringan"…) with the two figures the wrong way round. */
+export function abovesBackwards(text) {
+  const word = /\b(above|over|higher than|more than|below|under|lower than|less than)\b/i.exec(text);
+  if (!word) return false;
+  const figures = [...text.matchAll(FIGURE)].map((m) => ({
+    index: m.index,
+    unit: (m[1] ?? m[4]).toLowerCase().replace(/^-/, '').replace(/^inches$/, 'inch').replace(/^hours?$/, 'h'),
+    value: Number((m[2] ?? m[3]).replace(/,/g, '')),
+  }));
+  const before = figures.filter((f) => f.index < word.index && f.index > word.index - 70).pop();
+  const after = figures.find((f) => f.index > word.index && f.index < word.index + 70);
+  if (!before || !after || before.unit !== after.unit || before.value === after.value) return false;
+  return /above|over|higher|more/i.test(word[1]) ? before.value < after.value : before.value > after.value;
+}
+
 export function comparesBackwards(text) {
   const up = UP_WORDS.exec(text);
   const down = DOWN_WORDS.exec(text);
@@ -604,6 +648,54 @@ export function comparesBackwards(text) {
 }
 
 /** Why one sentence can't be shown, or null. `known` is the part of the facts this sentence may draw on. */
+// Version 20: "both are level on battery" when the site's comparison names one of them ahead ("… has the bigger
+// battery: 5,391 mAh vs 5,000 mAh"). Seen in testing with Qwen3.5 2B on a gaming comparison.
+const LEVEL_WORDS = /\b(level|tied?|the same|equal(ly)?|identical|similar|on par|evenly matched|no difference|neck and neck)\b|持平|相同|一样|差不多|sama|setara/i;
+const LEVEL_AREAS = [
+  [/\bbatter(y|ies)\b|\bmah\b|电池|電池|bateri/i, /has the bigger battery/, /level on (battery|capacity)/i],
+  [/\bcharg(e|es|ing)\b|充电|充電|mengecas|pengecasan/i, /charges faster/, /level on (charging|wired charging|wireless charging)/i],
+  [/\b(screens?|displays?)\b|屏幕|螢幕|skrin|paparan/i, /has the bigger screen/, /level on (display|screen)/i],
+  [/\bperform(ance|s|ing)?\b|\bfaster\b|性能|prestasi/i, /has the higher performance score/, /level on performance/i],
+  [/\bcameras?\b|相机|相機|摄像|kamera/i, /has the higher-resolution main camera/, /level on camera/i],
+  [/\bweigh(t|s)?\b|重量|berat/i, /\bis lighter\b/, /level on weight/i],
+];
+// Version 20: "the Galaxy has the higher performance score at 85 compared to the iPhone's 89": plain scores (no unit)
+// compared the wrong way round. Seen in testing with Qwen3.5 4B.
+const SCORE_UP = /\b(higher|better|stronger|bigger|greater|leads?|ahead|wins?|outperforms?)\b[^.!?\d]{0,45}?(?<![\d,.])(\d{1,3}(?:\.\d)?)(?![\d,]|\.\d|\s*(?:%|mah|w\b|mp|hz|nits|g\b|mm|gb|tb|h\b|hours?|min))[^.!?\d]{0,45}?\b(compared (?:to|with)|vs\.?|versus|than|against|over)\b[^.!?\d]{0,35}?(?<![\d,.])(\d{1,3}(?:\.\d)?)(?![\d,]|\.\d)/i;
+const SCORE_DOWN = /\b(lower|worse|weaker|behind|trails?)\b[^.!?\d]{0,45}?(?<![\d,.])(\d{1,3}(?:\.\d)?)(?![\d,]|\.\d|\s*(?:%|mah|w\b|mp|hz|nits|g\b|mm|gb|tb|h\b|hours?|min))[^.!?\d]{0,45}?\b(compared (?:to|with)|vs\.?|versus|than|against)\b[^.!?\d]{0,35}?(?<![\d,.])(\d{1,3}(?:\.\d)?)(?![\d,]|\.\d)/i;
+export function scoresBackwards(sentence) {
+  const up = SCORE_UP.exec(sentence);
+  if (up && Number(up[2]) < Number(up[4])) return true;
+  const down = SCORE_DOWN.exec(sentence);
+  return Boolean(down && Number(down[2]) > Number(down[4]));
+}
+
+// Version 20: "the site does not provide hands-on reviews or test results for this phone" when it does
+const DENIES_TESTS = /\b(no|not any|without|lacks?|doesn'?t (?:have|provide|include|list)|does not (?:have|provide|include|list)|has(?:n'?t| not) (?:got|recorded))\b[^.!?]{0,50}\b(reviews?|tests?|test results|measurements?|benchmarks?|lab results)\b/i;
+export function deniesTests(sentence, facts) {
+  return DENIES_TESTS.test(sentence) && /REVIEWS AND TESTS \(findings|test results:|measured by|Test results side by side/i.test(facts);
+}
+
+// Version 20: a ranking must be quoted as the site gives it. In testing Qwen3.5 4B mixed ranks and totals from
+// different lists ("66th out of 155", "performance at 85/172"); every "Nth of M" / "N out of M" / "N/M" pair in a
+// sentence has to appear as that pair in the facts (scores out of 100 are left to the figure checks).
+const RANK_PAIR = /(?<![\d,.])(\d{1,4})(?:st|nd|rd|th)?\s*(?:out of|of|\/|dari|daripada)\s*(\d{1,4})(?![\d,])/gi;
+const RANK_PAIR_ZH = /(?:第\s*(\d{1,4})\s*名?[^。，]{0,6}?(?:共|在)\s*(\d{1,4}))|(?:(\d{1,4})\s*款[^。，]{0,8}?第\s*(\d{1,4}))/g;
+export function mixedRanks(sentence, facts) {
+  const pairs = [...sentence.matchAll(RANK_PAIR)].map((m) => [m[1], m[2]]);
+  for (const m of sentence.matchAll(RANK_PAIR_ZH)) pairs.push(m[1] ? [m[1], m[2]] : [m[4], m[3]]);
+  return pairs.some(([n, total]) => {
+    if (total === '100' || Number(n) > Number(total)) return total !== '100'; // "81/100" is a score; "200 of 50" is not a rank
+    const esc = (x) => x.replace(/\D/g, '');
+    return !new RegExp(`(?<![\\d,.])${esc(n)}(?:st|nd|rd|th)?\\s*(?:out of|of|/)\\s*${esc(total)}(?![\\d,])`, 'i').test(facts);
+  });
+}
+
+export function claimsLevel(sentence, facts) {
+  if (!LEVEL_WORDS.test(sentence)) return false;
+  return LEVEL_AREAS.some(([area, leader, level]) => area.test(sentence) && leader.test(facts) && !level.test(facts));
+}
+
 function sentenceProblem(sentence, facts, { question = '', echo = false, known = facts, ranked = null, devices = [], standings = null, previous = '' } = {}) {
   if (deniesKnownDevice(sentence, devices)) return 'said the site has no data on a device it does have';
   if (OWN_TESTS.test(sentence)) return 'presented another publisher’s tests as the site’s own';
@@ -613,6 +705,14 @@ function sentenceProblem(sentence, facts, { question = '', echo = false, known =
   if (affirmsUnknowns(sentence, facts)) return 'said a device has something the site hasn’t recorded';
   if (contradictsStandings(sentence, facts) || (standings && contradictsStandings(sentence, facts, standings))) return 'described a strength or weak point differently from the site’s scores';
   if (mislabelsUnits(sentence)) return 'attached a figure to the wrong spec';
+  if (claimsLevel(sentence, facts)) return 'called two devices level where the site’s data shows one ahead';
+  if (scoresBackwards(sentence)) return 'compared two scores the wrong way round';
+  if (mixedRanks(sentence, facts)) return 'quoted a ranking that isn’t in the site’s data';
+  if (deniesTests(sentence, facts)) return 'said there are no tests or reviews where the site has some';
+  // "takes 16 hours and 40 minutes to charge fully": a battery-life figure given as a charging time (Version 20)
+  const chargeHours = /\b(charg\w*|recharg\w*)\b|充电|充電|mengecas|dicas/i.test(sentence) && /\b(full(y)?|0 ?(-|to) ?100|from empty|completely)\b|充满|充滿|penuh/i.test(sentence)
+    && [...sentence.matchAll(/(\d+(?:\.\d+)?)\s*(hours?|hrs?|h\b|小时|小時|jam)/gi)].some((m) => parseFloat(m[1]) >= 4);
+  if (chargeHours) return 'attached a figure to the wrong spec';
   // Chinese counts pixels in 万 (10,000): "200 万像素" is 2 MP, so a 200 MP camera written that way is wrong
   const wan = /(\d+(?:\.\d+)?)\s*万\s*像素/.exec(sentence);
   if (wan && new RegExp(`(?<![\\d.])${wan[1].replace('.', '\\.')} MP\\b`).test(facts)) return 'attached a figure to the wrong spec';
@@ -621,7 +721,7 @@ function sentenceProblem(sentence, facts, { question = '', echo = false, known =
   // "heavier at 224 g than the HONOR X9d at 193 g": a comparison with both (already checked) figures in view
   // …or with one of them in the sentence before: "It weighs 201 g. This is slightly heavier than the median of 196 g."
   const pointsBack = Boolean(previous) && /^(this|that|it|which|ini|itu|ia)\b/i.test(sentence.trim()) && /\d/.test(sentence);
-  if (comparesBackwards(sentence) || (pointsBack && comparesBackwards(`${previous} ${sentence}`))) return 'compared two figures the wrong way round';
+  if (comparesBackwards(sentence) || (pointsBack && comparesBackwards(`${previous} ${sentence}`)) || abovesBackwards(sentence)) return 'compared two figures the wrong way round';
   const compared = figuresCompared(sentence) || (pointsBack && figuresCompared(`${previous} ${sentence}`));
   const unbacked = unsupportedClaims(sentence, facts, question).filter((w) => !(aboutTop && BEST_WORDS.includes(w)) && !(compared && SHOWN_COMPARATIVES.includes(w)));
   const backedByScores = claimsBackedByStandings(sentence, unbacked, standings);
