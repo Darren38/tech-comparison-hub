@@ -73,7 +73,7 @@ TOPIC_RULES = [
     ("issue", r"\b(?:bugs?|issues?|problems?|recall\w*|complain\w*|overheat\w*|defects?|faults?|broken|glitch\w*)\b|故障|问题|翻车|召回"),
     ("launch", r"\b(?:launch\w*|announc\w*|unveil\w*|debuts?|pre-?orders?|goes on sale|now available|release date|officially)\b|发布|上市|开售|首销|官宣"),
 ]
-TOPIC_RES = [(name, re.compile(pattern, re.I)) for name, pattern in TOPIC_RULES]
+TOPIC_RES = [(name, re.compile(pattern, re.I | re.A)) for name, pattern in TOPIC_RULES]  # re.A: word boundaries as in the browser (Chinese is not a word letter)
 # Version 18: flags for the News page sections. Unlike the topic, a headline can carry several.
 FLAG_RULES = [
     ("ios", r"\b(?:i(?:pad)?os|watchos) ?\d+(?:\.\d+)*\b|\bios (?:update|beta|release)|\bapple intelligence\b|苹果.{0,6}(?:系统|更新)|iOS ?\d"),
@@ -81,15 +81,15 @@ FLAG_RULES = [
     ("problem", r"\b(?:bugs?|issues?|problems?|glitch\w*|broken|breaks?|drain\w*|overheat\w*|crash\w*|lag\w*|complain\w*|fix(?:es|ed)?|pulled|halted|paused)\b|故障|问题|翻车|发热|耗电|卡顿"),
     ("chip", r"\bsnapdragon 8\b|\bdimensity 9\d{3}|\bexynos 2\d{3}|\bapple [am]\d{2}\b|\b[am]\d{2} (?:pro|bionic|max|ultra)\b|\btensor g\d|\bkirin 9\d{3}|\bxring\b|骁龙 ?8|骁龙.{0,6}旗舰|天玑 ?9\d{3}|麒麟 ?9\d{3}|玄戒"),
 ]
-FLAG_RES = [(name, re.compile(pattern, re.I)) for name, pattern in FLAG_RULES]
+FLAG_RES = [(name, re.compile(pattern, re.I | re.A)) for name, pattern in FLAG_RULES]
 # Service offers: Apple or Samsung, a service word and an offer word, and Malaysia (a Malaysian source or named in the title).
 OFFER_BRAND = r"\b(?:apple|iphone|ipad|airpods|apple watch|samsung|galaxy)\b|苹果|三星"
 OFFER_SERVICE = r"\b(?:replace\w*|repairs?|battery|batteries|screens?|display|green lines?|pink lines?|warranty|service|recall\w*|programmes?|programs?|trade-?in)\b|换屏|换电池|保修|维修|绿线"
 OFFER_DEAL = r"\b(?:free|complimentary|discount\w*|rebates?|waive\w*|extend\w*|extension|recall\w*|programmes?|programs?|cashback|trade-?in|off)\b|免费|优惠|折扣|延长"
 OFFER_MY = r"\bmalaysia\w*\b|\brm ?\d|大马|马来西亚"
-MY_SOURCES = {"soyacincau", "technave", "zinggadget", "malaymail", "samsung-newsroom-my"}
-OFFER_RES = [re.compile(x, re.I) for x in (OFFER_BRAND, OFFER_SERVICE, OFFER_DEAL)]
-OFFER_MY_RE = re.compile(OFFER_MY, re.I)
+MY_SOURCES = {"soyacincau", "technave", "technave-zh", "zinggadget", "malaymail", "samsung-newsroom-my"}
+OFFER_RES = [re.compile(x, re.I | re.A) for x in (OFFER_BRAND, OFFER_SERVICE, OFFER_DEAL)]
+OFFER_MY_RE = re.compile(OFFER_MY, re.I | re.A)
 # Headlines the archive keeps even when they name no device or chip in the database
 ARCHIVE_FLAGS = {"ios", "oneui", "offer", "chip"}
 TOPICS = ["test", "review", "video", "software", "price", "issue", "launch", "news"]
@@ -98,7 +98,7 @@ CHIP_NEXT_REJECT = {"gen", "plus", "pro", "ultra", "extreme", "s", "e", "m", "ma
 # A chip alias preceded by one of these is a phone name ("A19 Pro" in "Galaxy A19 Pro").
 CHIP_PREV_REJECT = {"galaxy", "iphone", "redmi", "poco", "vivo", "oppo", "honor", "moto", "nokia"}
 
-REVIEW_WORDS = re.compile(r"\b(review|reviewed|hands[- ]on|tested|benchmarks?|battery (?:life )?test|camera test|teardown|durability|drop test|vs)\b", re.I)
+REVIEW_WORDS = re.compile(r"\b(review|reviewed|hands[- ]on|tested|benchmarks?|battery (?:life )?test|camera test|teardown|durability|drop test|vs)\b", re.I | re.A)
 # Words that mean a longer model name continues ("Galaxy S26" must not match "Galaxy S26 FE").
 NEXT_REJECT = {"fe", "plus", "edge", "ultra", "pro", "max", "mini", "lite", "xl", "fold", "flip", "air", "classic", "neo", "se", "s", "e", "r", "t", "a"}
 # A headline is kept when it names a device in the database or one of these phone, tablet, watch or
@@ -214,48 +214,130 @@ def fetch(url: str, timeout: int = 20) -> bytes:
         return response.read(4_000_000)
 
 
-def device_keys(devices: list[dict], brand_names: dict[str, str]) -> list[tuple[str, str]]:
-    # Version 17: a name shared by several devices ("iPad Air M4" = the 11-inch and the 13-inch) links to all of them
-    keys: dict[str, list[str]] = {}
+# Version 21: the words of a brand, so "Xiaomi Pad 9" is not the HONOR Pad 9 (a device's own brand family is fine:
+# Redmi and POCO are Xiaomi's, OnePlus sits with OPPO, iQOO with vivo, CMF with Nothing).
+BRAND_WORDS = {"samsung": "samsung", "apple": "apple", "google": "google", "xiaomi": "xiaomi", "redmi": "xiaomi", "poco": "xiaomi",
+               "vivo": "vivo", "iqoo": "vivo", "oppo": "oppo", "oneplus": "oppo", "realme": "realme", "honor": "honor",
+               "huawei": "huawei", "asus": "asus", "sony": "sony", "motorola": "motorola", "moto": "motorola", "nothing": "nothing",
+               "cmf": "nothing", "redmagic": "nubia", "nubia": "nubia", "zte": "nubia", "infinix": "infinix", "tecno": "tecno",
+               "lenovo": "motorola", "nokia": "nokia", "meizu": "meizu", "tcl": "tcl", "fairphone": "fairphone"}
+# words before a name that mean it is not that device ("…but it's not the Galaxy S26 Ultra") or not a device at all ("iOS 27")
+NEG_BEFORE = [("not",), ("not", "the"), ("not", "a"), ("isn", "t"), ("isn", "t", "the"), ("instead", "of"), ("instead", "of", "the"),
+              ("rather", "than"), ("rather", "than", "the")]
+SOFTWARE_BEFORE = {"ios", "ipados", "android", "hyperos", "coloros", "originos", "magicos", "watchos", "macos", "oxygenos", "funtouch", "harmonyos"}
+# "Xiaomi 18 Pro and 18 Pro Max": a name written without its brand counts right after one of these, in a headline that names the brand
+LIST_BEFORE = {"and", "or", "vs", "versus", "plus", "with", "nor"}
+# series words a name can drop when the headline has already said them ("Galaxy Z Fold8 and Z Flip8", "Galaxy A36 and A56")
+SERIES_DROP = {"samsung": ["samsung galaxy ", "galaxy "], "apple": ["apple iphone ", "iphone ", "apple "], "google": ["google pixel ", "pixel ", "google "], "xiaomi": ["xiaomi "],
+               "oppo": ["oppo "], "vivo": ["vivo "], "honor": ["honor "], "huawei": ["huawei "], "realme": ["realme "], "nothing": ["nothing "]}
+
+
+def _identity(tokens: list[str]) -> bool:
+    return any(t not in GENERIC_TOKENS and not t.isdigit() for t in tokens)
+
+
+def device_keys(devices: list[dict], brand_names: dict[str, str]) -> list[tuple]:
+    """(key, device id, brand family, context words, weak), longest first.
+
+    Version 17: a name shared by several devices ("iPad Air M4" = the 11-inch and the 13-inch) links to all of them.
+    Version 21: a name without a number ("iPhone Air", "Pixel Fold") counts when it has two words and names the model;
+    a name without its brand or series word ("Z Flip8", "A56", "18 Pro Max") counts only when the headline names the
+    brand before it (context), and a weak one ("18 Pro Max", no word of its own) only straight after "and", "vs", "or"."""
+    keys: dict[tuple[str, str], dict] = {}  # (key, device id) -> its rules; each device keeps its own
+
+    def add(key, dev_id, family, ctx=None, weak=False):
+        entry = keys.setdefault((key, dev_id), {"family": family, "ctx": ctx, "weak": weak})
+        if entry["ctx"] and not ctx:  # a full name beats the same words as a context name
+            entry.update(ctx=None, weak=False)
+
     for dev in devices:
         name = dev["name"]
         brand = brand_names.get(dev["brand"], "")
+        family = BRAND_WORDS.get(normalize(brand).split(" ")[0] if brand else "", dev["brand"])
         variants = {name, *dev.get("aliases", [])}
         if brand and not name.lower().startswith(brand.lower()):
             variants.add(f"{brand} {name}")
+        if family == "samsung":  # "Samsung S26 Ultra", written without "Galaxy"
+            variants |= {f"Samsung {v[7:]}" for v in list(variants) if v.lower().startswith("galaxy ")}
         variants |= {re.sub(r"\s+5G$", "", v, flags=re.I) for v in variants}
         for v in variants:
             key = normalize(v)
             tokens = key.split()
             has_model_number = any(ch.isdigit() for ch in key)  # keeps "Galaxy" alone from matching
-            has_identity = any(t not in GENERIC_TOKENS and not t.isdigit() for t in tokens)  # "17 pro" is too vague
-            if len(key) >= 4 and has_model_number and has_identity and dev["id"] not in keys.setdefault(key, []):
-                keys[key].append(dev["id"])
-    return sorted(((k, i) for k, ids in keys.items() for i in ids), key=lambda kv: -len(kv[0]))
+            no_number_name = not has_model_number and len(tokens) >= 2 and len(key) >= 8 and (_identity(tokens[1:]) or tokens[0] not in BRAND_WORDS)
+            if len(key) >= 4 and (has_model_number or no_number_name) and _identity(tokens):
+                add(key, dev["id"], family)
+        # the same name without its brand or series word, for lists and comparisons
+        for v in variants:
+            key = normalize(v)
+            for drop in SERIES_DROP.get(family, []):
+                if not key.startswith(drop):
+                    continue
+                short = key[len(drop):]
+                tokens = short.split()
+                if not tokens or not any(ch.isdigit() for ch in short) or len(short) < 2:
+                    continue
+                ctx = sorted({w for w in drop.split()} | {w for w, f in BRAND_WORDS.items() if f == family})
+                add(short, dev["id"], family, ctx=ctx, weak=not _identity(tokens) or len(short) < 3)
+    out = [(k, i, e["family"], e["ctx"], e["weak"]) for (k, i), e in keys.items()]
+    return sorted(out, key=lambda kv: (-len(kv[0]), kv[0]))
 
 
-def match_devices(title_norm: str, keys: list[tuple[str, str]], next_reject: set[str] = NEXT_REJECT,
+def _before(words: list[str], i: int, n: int) -> tuple:
+    return tuple(words[max(0, i - n):i])
+
+
+def match_devices(title_norm: str, keys: list[tuple], next_reject: set[str] = NEXT_REJECT,
                   prev_reject: set[str] = frozenset()) -> list[str]:
-    taken: list[tuple[int, int]] = []
-    found: list[str] = []
-    for key, device_id in keys:
-        for m in re.finditer(r"(?<![a-z0-9])" + re.escape(key) + r"(?![a-z0-9])", title_norm):
-            start, end = m.span()
-            following = title_norm[end:].split()[:1]
-            if following and following[0] in next_reject:
+    return [h[0] for h in match_spans(title_norm, keys, next_reject, prev_reject)]
+
+
+def match_spans(title_norm: str, keys: list[tuple], next_reject: set[str] = NEXT_REJECT,
+                prev_reject: set[str] = frozenset()) -> list[tuple[str, int, int, str]]:
+    """[(device id, first word, last word + 1, matched words)] in the order found (longest names first).
+    Version 21 rules (also in src/engine/collect.js matchDevices): brand clash, "not the …", software versions,
+    names needing context, and no-number names that a number follows ("iPhone Air 2" is not the iPhone Air)."""
+    words = title_norm.split() if title_norm else []
+    taken: list[tuple[int, int, str]] = []
+    blocked: list[tuple[int, int]] = []  # words of a name turned down, so a shorter name inside can't take them
+    found: list[tuple[str, int, int, str]] = []
+    for entry in keys:
+        key, device_id = entry[0], entry[1]
+        family, ctx, weak = (entry[2], entry[3], entry[4]) if len(entry) >= 5 else (None, None, False)
+        tokens = key.split()
+        n = len(tokens)
+        for i in range(len(words) - n + 1):
+            if words[i:i + n] != tokens:
                 continue
-            preceding = title_norm[:start].split()[-1:]
-            if preceding and preceding[0] in prev_reject:
+            nxt = words[i + n] if i + n < len(words) else None
+            if nxt is not None and nxt in next_reject:
                 continue
-            if any(start < t_end and end > t_start and t_key != key for t_start, t_end, t_key in taken):
+            if i > 0 and words[i - 1] in prev_reject:
                 continue
-            taken.append((start, end, key))
-            if device_id not in found:
-                found.append(device_id)
+            if family is not None:
+                if any(i < b_end and i + n > b_start for b_start, b_end in blocked):
+                    continue
+                if not any(ch.isdigit() for ch in key) and nxt is not None and any(ch.isdigit() for ch in nxt):
+                    continue
+                prev = words[i - 1] if i > 0 else None
+                if ((prev in BRAND_WORDS and BRAND_WORDS[prev] != family and tokens[0] not in BRAND_WORDS)
+                        or prev in SOFTWARE_BEFORE or _before(words, i, 2) == ("one", "ui")
+                        or any(_before(words, i, len(neg)) == neg for neg in NEG_BEFORE)):
+                    blocked.append((i, i + n))
+                    continue
+                if ctx and (not any(w in ctx for w in words[:i]) or prev in ctx):
+                    continue  # no brand before it, or it is the tail of a full name that was turned down ("not the Galaxy S26 Ultra")
+                if weak and prev not in LIST_BEFORE:
+                    continue
+            if any(i < t_end and i + n > t_start and t_key != key for t_start, t_end, t_key in taken):
+                continue
+            taken.append((i, i + n, key))
+            if device_id not in [f[0] for f in found]:
+                found.append((device_id, i, i + n, key))
     return found
 
 
-def load_keys() -> list[tuple[str, str]]:
+def load_keys() -> list[tuple]:
     brands = json.loads((DATA / "brands" / "brands.json").read_text(encoding="utf-8"))
     devices = all_devices()
     return device_keys(devices, {b["id"]: b["name"] for b in brands})
@@ -388,7 +470,7 @@ def spot_new_models(items: list[dict], keys, now: dt.datetime) -> None:
                                        "models": rows[:60]}, ensure_ascii=False, indent=1), encoding="utf-8")
 
 
-def write_live_config(cfg: dict, keys: list[tuple[str, str]]) -> None:
+def write_live_config(cfg: dict, keys: list[tuple]) -> None:
     """The feed list and matching rules, for collecting in the browser through the relay (relay/worker.js).
     The relay only fetches addresses listed here, so it cannot be used to reach any other site."""
     out = {
@@ -405,7 +487,12 @@ def write_live_config(cfg: dict, keys: list[tuple[str, str]]) -> None:
         "topicPatternsZh": TOPIC_PATTERNS_ZH,
         "reviewWordsZh": REVIEW_WORDS_ZH,
         "nextReject": sorted(NEXT_REJECT),
-        "keys": keys,
+        # Version 21: [key, id, brand family, context words, weak] and the rules that use them (see match_spans)
+        "keys": [list(k) for k in keys],
+        "brandWords": BRAND_WORDS,
+        "negBefore": [list(n) for n in NEG_BEFORE],
+        "softwareBefore": sorted(SOFTWARE_BEFORE),
+        "listBefore": sorted(LIST_BEFORE),
         # Version 17: chipsets and the section each headline belongs to, so a browser collection tags them the same way
         "chipKeys": load_chip_keys(),
         "chipNextReject": sorted(CHIP_NEXT_REJECT),
@@ -426,9 +513,29 @@ def write_live_config(cfg: dict, keys: list[tuple[str, str]]) -> None:
 YT_API = "https://www.googleapis.com/youtube/v3/"
 
 
-def youtube_videos(channel: str, key: str, per_feed: int) -> list[tuple]:
+_CHANNELS: dict[str, str] = {}
+
+
+def youtube_channel(feed: dict, key: str) -> str:
+    """Version 21: a channel given by its id, or by the old-style username a publisher links to ("youtube.com/zinggadget"),
+    turned into the id through the YouTube Data API (1 quota unit)."""
+    if feed.get("channel"):
+        return feed["channel"]
+    name = feed.get("username", "")
+    if name not in _CHANNELS:
+        q = urllib.parse.urlencode({"part": "id", "forUsername": name, "key": key})
+        items = json.loads(fetch(YT_API + "channels?" + q)).get("items", [])
+        if not items:
+            raise ValueError(f"no YouTube channel for {name}")
+        _CHANNELS[name] = items[0]["id"]
+    return _CHANNELS[name]
+
+
+def youtube_videos(channel: str, key: str, per_feed: int, feed: dict | None = None) -> list[tuple]:
     """The newest uploads of a channel through the YouTube Data API, as (title, link, date, image, views) like parse_feed.
     Costs 2 quota units per channel (the free daily quota is 10,000)."""
+    if feed is not None:
+        channel = youtube_channel(feed, key)
     playlist = "UU" + channel[2:]  # every channel's uploads playlist
     q = urllib.parse.urlencode({"part": "snippet", "playlistId": playlist, "maxResults": min(per_feed, 50), "key": key})
     listing = json.loads(fetch(YT_API + "playlistItems?" + q))
@@ -469,9 +576,9 @@ def collect() -> dict:
         yt_key = os.environ.get("YOUTUBE_API_KEY", "").strip()
         futures = {}
         for feed in cfg["feeds"]:
-            if feed.get("channel"):
+            if feed.get("channel") or feed.get("username"):
                 if yt_key:
-                    futures[pool.submit(youtube_videos, feed["channel"], yt_key, per_feed)] = feed
+                    futures[pool.submit(youtube_videos, feed.get("channel", ""), yt_key, per_feed, feed)] = feed
                 else:
                     feeds_out.append({"source": feed["source"], "kind": feed["kind"], "ok": False, "kept": 0,
                                       "error": "needs a YouTube Data API key; videos collected earlier are kept"})
@@ -482,7 +589,7 @@ def collect() -> dict:
             status = {"source": feed["source"], "kind": feed["kind"]}
             try:
                 result = future.result()
-                parsed = result if feed.get("channel") else parse_feed(result)
+                parsed = result if (feed.get("channel") or feed.get("username")) else parse_feed(result)
             except Exception as exc:
                 error = f"{exc.__class__.__name__}: {str(exc)[:120]}"
                 status.update(ok=False, kept=0, error=error.replace(yt_key, "…") if yt_key else error)  # never publish the key

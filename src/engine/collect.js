@@ -93,20 +93,27 @@ export function parseFeed(xml) {
   return out;
 }
 
-/** The device names from live/config.json, indexed by their first word, longest first. */
+/** The device names from live/config.json, indexed by their first word, longest first.
+ * Version 21: a device key is [key, id, brand family, context words, weak] (a chipset key is [key, id]). */
 function keyIndex(keys) {
   const byFirst = new Map();
-  for (const [key, id] of keys) {
+  keys.forEach(([key, id, family = null, ctx = null, weak = false], order) => {
     const tokens = key.split(' ');
     if (!byFirst.has(tokens[0])) byFirst.set(tokens[0], []);
-    byFirst.get(tokens[0]).push({ key, tokens, id });
-  }
+    byFirst.get(tokens[0]).push({ key, tokens, id, family, ctx: ctx ? new Set(ctx) : null, weak, order });
+  });
   return byFirst;
 }
 
+const hasDigit = (w) => /\d/.test(w ?? '');
+
 /** Device (or chipset) ids a headline names, in the same order tools/fetch_headlines.py finds them (longest name
- * first). A name several devices share ("iPad Air M4") links to all of them (Version 17). */
-export function matchDevices(titleNorm, byFirst, nextReject, prevReject = new Set()) {
+ * first). A name several devices share ("iPad Air M4") links to all of them (Version 17).
+ * Version 21 (as match_spans() in tools/fetch_headlines.py): "Xiaomi Pad 9" is not the HONOR Pad 9, "not the Galaxy
+ * S26 Ultra" and "iOS 27" name no device, a name without its brand needs the brand earlier in the headline ("Galaxy Z
+ * Fold8 and Z Flip8"), a weak one only straight after "and", "vs" or "or" ("Xiaomi 18 Pro and 18 Pro Max"), and a name
+ * without a number is not followed by one ("iPhone Air 2" is not the iPhone Air). A turned-down name blocks its words. */
+export function matchDevices(titleNorm, byFirst, nextReject, prevReject = new Set(), rules = null) {
   const words = titleNorm ? titleNorm.split(' ') : [];
   const hits = [];
   words.forEach((w, i) => {
@@ -118,10 +125,26 @@ export function matchDevices(titleNorm, byFirst, nextReject, prevReject = new Se
       hits.push({ ...k, start: i, end: i + k.tokens.length });
     }
   });
-  hits.sort((a, b) => b.key.length - a.key.length || (a.key < b.key ? -1 : a.key > b.key ? 1 : 0) || a.start - b.start);
+  // the same order as Python: longest key first, then the key, then the list order, then the position
+  hits.sort((a, b) => b.key.length - a.key.length || (a.key < b.key ? -1 : a.key > b.key ? 1 : 0) || a.order - b.order || a.start - b.start);
   const taken = [];
+  const blocked = [];
   const found = [];
   for (const h of hits) {
+    if (h.family !== null && rules) {
+      if (blocked.some(([s, e]) => h.start < e && h.end > s)) continue;
+      const next = words[h.end];
+      if (!hasDigit(h.key) && next !== undefined && hasDigit(next)) continue;
+      const prev = h.start > 0 ? words[h.start - 1] : undefined;
+      const before = (n) => words.slice(Math.max(0, h.start - n), h.start).join(' ');
+      const clash = prev !== undefined && rules.brandWords[prev] !== undefined && rules.brandWords[prev] !== h.family && rules.brandWords[h.tokens[0]] === undefined;
+      if (clash || rules.softwareBefore.has(prev) || before(2) === 'one ui' || rules.negBefore.some((neg) => before(neg.length) === neg.join(' '))) {
+        blocked.push([h.start, h.end]);
+        continue;
+      }
+      if (h.ctx && (!words.slice(0, h.start).some((x) => h.ctx.has(x)) || h.ctx.has(prev))) continue;
+      if (h.weak && !rules.listBefore.has(prev)) continue;
+    }
     if (taken.some(([s, e, key]) => h.start < e && h.end > s && key !== h.key)) continue;
     taken.push([h.start, h.end, h.key]);
     if (!found.includes(h.id)) found.push(h.id);
@@ -141,6 +164,12 @@ export function topicOf(title, kind, rules) {
 /** Compiled tagging rules from live/config.json: devices, chipsets and topic, as tools/fetch_headlines.py tags them. */
 export function tagger(config) {
   const byFirst = keyIndex(config.keys ?? []);
+  const matchRules = {
+    brandWords: config.brandWords ?? {},
+    negBefore: config.negBefore ?? [],
+    softwareBefore: new Set(config.softwareBefore ?? []),
+    listBefore: new Set(config.listBefore ?? []),
+  };
   const chipsFirst = keyIndex(config.chipKeys ?? []);
   const nextReject = new Set(config.nextReject ?? []);
   const chipNext = new Set(config.chipNextReject ?? []);
@@ -163,7 +192,7 @@ export function tagger(config) {
     const norm = normalize(title);
     const chipsets = matchDevices(norm, chipsFirst, chipNext, chipPrev);
     const flags = flagsOf(title, source);
-    return { devices: matchDevices(norm, byFirst, nextReject), ...(chipsets.length ? { chipsets } : {}), topic: topicOf(title, kind, rules), ...(flags.length ? { flags } : {}) };
+    return { devices: matchDevices(norm, byFirst, nextReject, new Set(), matchRules), ...(chipsets.length ? { chipsets } : {}), topic: topicOf(title, kind, rules), ...(flags.length ? { flags } : {}) };
   };
 }
 

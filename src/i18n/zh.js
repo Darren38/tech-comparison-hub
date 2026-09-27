@@ -61,6 +61,7 @@ const ZH = {
   'Data as of {date}, not live.': '数据截至 {date}，非实时。',
   'Devices announced {from} to {to}': '收录 {from} 至 {to} 发布的设备',
   '{n} devices': '{n} 台设备',
+  'Show {n} more': '再显示 {n} 条',
   '{n} evidence records': '{n} 条证据记录',
   '{n} source documents': '{n} 份来源文件',
 

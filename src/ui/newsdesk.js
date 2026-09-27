@@ -77,7 +77,7 @@ function drawList(box, items, { page = 10, empty = 'Nothing recent.', rowOpts = 
   let shown = page;
   const draw = () => {
     mount(box, items.length
-      ? html`<ol class="fresh__list desk__list">${items.slice(0, shown).map((i) => row(i, rowOpts(i)))}</ol>
+      ? html`<ol class="fresh__list desk__list">${items.slice(0, shown).map((i) => { try { return row(i, rowOpts(i)); } catch { return ''; } })}</ol>
         ${items.length > shown ? html`<button type="button" class="btn btn--ghost btn--sm auto__more" data-desk-more>${t('Show more')} (${items.length - shown})</button>` : ''}`
       : html`<p class="small muted desk__empty">${t(empty)}</p>`);
     box.querySelector('[data-desk-more]')?.addEventListener('click', () => { shown += page; draw(); });

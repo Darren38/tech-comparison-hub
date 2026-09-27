@@ -362,17 +362,22 @@ export async function lookUp(plan, question, ctx = {}) {
   let { ids, unknown } = await eng.resolveDevices(plan?.devices ?? []);
   // devices the rules find by exact name in the visitor's own words count too (the model may have left one out)
   const exact = await eng.devicesInText(question);
+  // what is left of the question once the models the rules found are taken out ("rn14pro+ battery good?" -> "battery good")
+  let rest = squash(question);
+  if (exact.length) {
+    const forms = exact.flatMap((id) => formsById().get(id) ?? []).sort((a, b) => b.length - a.length);
+    for (const f of forms) rest = rest.split(f).join(' ');
+  }
+  const numberLeft = (name) => (name.match(/\d+/g) ?? []).some((d) => new RegExp(`(^|\\D)${d}(\\D|$)`).test(rest));
+  // Version 21: when the rules find the models in the visitor's own words, a model the AI added whose number isn't in
+  // the question is left out (in testing "rn14pro+ battery good?" became an answer about the Xiaomi 14T Pro)
+  if (exact.length) ids = ids.filter((id) => exact.includes(id) || numberLeft(eng.officialName(id)) || (!/\d/.test(eng.officialName(id)) && rest.includes(squash(eng.officialName(id)))));
   ids = [...new Set([...ids, ...exact])].slice(0, 4);
   if (exact.length) unknown = unknown.filter((n) => !exact.some((id) => eng.officialName(id).toLowerCase().includes(n.toLowerCase())));
   // …and a name the model made up from a model the rules already found is not "missing from the database":
   // in "rn14pro+ battery good?" the model also wrote "iPhone 14 Pro+". With the found models' own words taken out
   // of the question, a missing model's number must still be there ("compare s26u and s30": "30" is, so S30 stays).
-  if (exact.length && unknown.length) {
-    const forms = exact.flatMap((id) => formsById().get(id) ?? []).sort((a, b) => b.length - a.length);
-    let rest = squash(question);
-    for (const f of forms) rest = rest.split(f).join(' ');
-    unknown = unknown.filter((n) => (n.match(/\d+/g) ?? []).some((d) => new RegExp(`(^|\\D)${d}(\\D|$)`).test(rest)) || !/\d/.test(n));
-  }
+  if (exact.length && unknown.length) unknown = unknown.filter((n) => numberLeft(n) || !/\d/.test(n));
   const deviceIntent = ['device_info', 'price', 'feature_check', 'verdict', 'reviews', 'news', 'compare', 'differences', 'explain_term', 'advice'].includes(plan?.intent);
   // a spec term is explained in general ("what is LTPO and do I need it": the "it" is LTPO, not the last phone)
   if (plan && !ids.length && !unknown.length && deviceIntent && plan.intent !== 'explain_term' && (plan.about_previous || plan.intent !== 'advice')) ids = [...previous];
@@ -480,14 +485,15 @@ export async function lookUp(plan, question, ctx = {}) {
     } else if (intent === 'reviews') {
       extra.push({ title: 'REVIEWS AND TESTS', body: 'No reviews or tests of this device are recorded on the site yet.', keep: 3 });
     }
-    // headlines only when the question is about news or reviews (Version 20: in testing a verdict answer wandered into
-    // unrelated headlines, and they lengthen what the model has to read)
-    if (['news', 'reviews'].includes(intent)) {
-      const heads = (await Promise.all(focus.map((id) => eng.headlinesText(id, { limit: 3 })))).flat();
-      if (heads.length) {
-        extra.push({ title: 'LATEST HEADLINES (titles collected from news feeds; not checked by the site)', body: heads.join('\n'), keep: intent === 'news' ? 3 : 0 });
-        used1.push('the latest headlines');
-      }
+    // Version 21: every device question sees the device's recent headlines too, so the AI can use all the site's
+    // sources. For news and review questions, the newest three of any kind; otherwise two test, review or video
+    // headlines, the first thing left out when the answer runs long (in Version 20 testing, many unrelated headlines
+    // made a verdict wander and slowed the answer).
+    const newsy = ['news', 'reviews'].includes(intent);
+    const heads = (await Promise.all(focus.map((id) => eng.headlinesText(id, newsy ? { limit: 3 } : { limit: 2, topics: ['test', 'review', 'video'] })))).flat();
+    if (heads.length) {
+      extra.push({ title: 'LATEST HEADLINES (titles collected from news sites and YouTube; not checked by the site)', body: heads.join('\n'), keep: intent === 'news' ? 3 : newsy ? 1 : 0 });
+      used1.push(newsy ? 'the latest headlines' : 'recent test and review headlines');
     }
   }
   if (spread.length) extra.push({ title: 'ACROSS THE DATABASE', body: spread.join('\n'), keep: 2 });

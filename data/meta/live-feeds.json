@@ -38,6 +38,12 @@
       "url": "https://zinggadget.com/feed/"
     },
     {
+      "source": "technave-zh",
+      "kind": "news",
+      "lang": "zh",
+      "url": "https://cn.technave.com/feed/"
+    },
+    {
       "source": "sammobile",
       "kind": "news",
       "url": "https://www.sammobile.com/feed/"
@@ -194,6 +200,18 @@
       "source": "htx-studio-zh",
       "kind": "video",
       "channel": "UCP5Kd0smdWe9H_bDH-73c6Q",
+      "lang": "zh"
+    },
+    {
+      "source": "technave-zh-video",
+      "kind": "video",
+      "channel": "UCVDIVx1U9vXEtYMeEzJLr3w",
+      "lang": "zh"
+    },
+    {
+      "source": "zinggadget-video",
+      "kind": "video",
+      "username": "zinggadget",
       "lang": "zh"
     }
   ]

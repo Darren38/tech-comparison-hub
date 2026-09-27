@@ -23,6 +23,8 @@ FILES = ["archive.json", "views.json", "spotted.json", "official.json"]  # offic
 # Version 20: the automatic results live in the Actions cache; if GitHub ever clears it, these copies from the live site
 # keep devices added automatically, matched test results and found pictures from disappearing.
 FILES += ["auto/new_devices.json", "auto/auto_bench.json", "auto/found_images.json", "auto/image_boxes.json", "auto/auto_reviews.json"]
+# Version 21: the AI check of headlines and where the backfill of older headlines has got to
+FILES += ["auto/news_ai.json", "auto/backfill_state.json"]
 UA = "Mozilla/5.0 (compatible; TechComparisonHub/1.0; +https://darren38.github.io/tech-comparison-hub/)"
 
 
@@ -64,7 +66,17 @@ def main() -> None:
             print(f"[seed] {name}: live copy not available ({exc}); using the repository copy")
             continue
         newer = stamp(remote) > stamp(local) if local is not None else True
-        # the archive only grows, so a smaller remote copy with a newer stamp still wins (old items age out)
+        # Version 21: the two archives are merged, not swapped: the repository copy can hold older headlines the live
+        # site doesn't have yet (read back from publishers' sitemaps), and the live copy holds the newest ones.
+        # Each headline keeps the newer file's version; old items still age out when the headlines are re-matched.
+        if name == "archive.json" and isinstance(local, dict) and isinstance(remote, dict):
+            first, second = (remote, local) if newer else (local, remote)
+            items = {i["id"]: i for i in second.get("items", []) if isinstance(i, dict) and i.get("id")}
+            items.update({i["id"]: i for i in first.get("items", []) if isinstance(i, dict) and i.get("id")})
+            merged = {**first, "items": sorted(items.values(), key=lambda x: x.get("published") or x.get("seen") or "", reverse=True)}
+            local_path.write_text(json.dumps(merged, ensure_ascii=False, indent=1), encoding="utf-8")
+            print(f"[seed] {name}: merged the live and repository copies ({len(items)} entries)")
+            continue
         if newer:
             local_path.parent.mkdir(parents=True, exist_ok=True)
             local_path.write_text(json.dumps(remote, ensure_ascii=False, indent=1), encoding="utf-8")

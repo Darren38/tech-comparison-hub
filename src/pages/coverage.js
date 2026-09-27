@@ -8,6 +8,17 @@ import { store, loadCoverage, metricDef, deviceTitle, sourceName, categoryCount 
 import { href } from '../core/router.js';
 import { sectionHead, sourceLink, tag, provBadge, emptyState, pageOutline, bindOutline, pageTrail, extLink, autoBadge, autoAddedTag } from '../ui/components.js';
 import { scoreBars } from '../ui/charts.js';
+import { loadNewsAi } from '../engine/live.js';
+import { normalize as normalizeHeadline } from '../engine/collect.js';
+
+// Version 21: what an open-source AI model read in the headlines about each spotted name (tools/ai_news_check.py)
+const SPOT_STATUS = {
+  launched: ['Launched', 'on sale or released somewhere'],
+  announced: ['Announced', 'officially unveiled, not on sale yet'],
+  teased: ['Teased', 'the maker has shown or confirmed parts of it'],
+  rumoured: ['Rumoured', 'only leaks and reports so far'],
+  'not a product': ['Not a device', 'the words are not a product name'],
+};
 
 function stackBar(row, total) {
   const pct = (n) => `${((n / total) * 100).toFixed(1)}%`;
@@ -168,14 +179,16 @@ async function fillSpotted(root) {
     const res = await fetch(`live/spotted.json?t=${Math.floor(Date.now() / 600000)}`, { cache: 'no-cache' });
     if (!res.ok) return;
     const data = await res.json();
+    const ai = (await loadNewsAi())?.spotted ?? {};
     const models = (data.models ?? []).filter((m) => m.name);
     if (!models.length || !box.isConnected) return;
     const safe = (u) => /^https?:\/\//i.test(u ?? '');
+    const status = (m) => SPOT_STATUS[ai[normalizeHeadline(m.name)]?.status];
     mountHtml(box.querySelector('[data-spotted-list]'), html`${models.map((m) => html`<li class="spotted__item">
-      <strong>${m.name}</strong> <span class="tiny muted">${plural(m.count, 'headline')} · ${m.sources.map((id) => sourceName(id)).join(', ')}</span>
+      <strong>${m.name}</strong> ${status(m) ? html`<span class="spotted__status spotted__status--${ai[normalizeHeadline(m.name)].status.replace(/ /g, '-')}" title="${status(m)[1]}">${status(m)[0]}</span>` : ''} <span class="tiny muted">${plural(m.count, 'headline')} · ${m.sources.map((id) => sourceName(id)).join(', ')}</span>
       ${(m.examples ?? []).filter((e) => safe(e.url)).slice(0, 2).map((e) => html`<div class="small">${extLink(e.url, e.title)}</div>`)}
     </li>`)}`);
-    if (data.updatedAt) box.querySelector('[data-spotted-when]').textContent = `Checked ${fmtDate(data.updatedAt.slice(0, 10))}.`;
+    if (data.updatedAt) box.querySelector('[data-spotted-when]').textContent = `Checked ${fmtDate(data.updatedAt.slice(0, 10))}.${models.some(status) ? ' Launched, announced, teased or rumoured: an open-source AI model’s reading of these headlines (Qwen3.5 2B, run by the site’s build), not checked by hand.' : ''}`;
     box.hidden = false;
   } catch {
     /* no list published: the section stays hidden */

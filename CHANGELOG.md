@@ -1,5 +1,36 @@
 # Changelog
 
+## 27 September 2026
+
+Device pages now show older reviews, tests, videos and news too, headline matching is sharper, an open-source AI model checks doubtful matches on the build server, and the on-device AI no longer sits at "0%".
+
+**Older headlines on every device page, flagships first**
+- The news feeds only list each site's newest items, and the archive began in mid-September, so a phone launched earlier had almost nothing linked (the Galaxy S26 Ultra had 3 items, the iPhone 17 Pro Max 1). Once a day the publishers' own sitemaps are now read further back (9to5Mac, 9to5Google, MacRumors, Apple Newsroom, Gizmochina, Engadget, Malay Mail, Trusted Reviews): an article is read only when its address names a device, and kept only when its real headline names it too. Only where robots.txt allows the site's collector, with at least 3 seconds between requests to a site (longer where the site asks). Flagships and Apple and Samsung models first, then the devices with the fewest items; up to 24 per device. Once a week the registered YouTube channels' upload history is read too (official YouTube Data API).
+- Items land in the same sections as before: test and benchmark reports, reviews and videos, and news. In local testing two runs added 341 older headlines (Galaxy S26 Ultra 3 → 13, Galaxy S26 4 → 14, iPhone Air 1 → 12); about 3,000 more matching articles wait for the next daily runs.
+
+**New sources: TechNave 中文版 and the Zing Gadget and TechNave 中文版 YouTube channels**
+- The TechNave 中文版 Facebook page's news comes from cn.technave.com, whose feed is now read every 3 hours like the others (Malaysian launch prices in Chinese, such as "HONOR X9e Pro大马发布…售RM1899起", matched to the HONOR X9e Pro page). Both pages' YouTube channels (linked from their own websites) are read through the YouTube Data API. Facebook itself isn't read: it offers no feed and Meta's terms don't allow automated collection; Zing Gadget's own site was already a source.
+
+**Sharper headline matching (the same rules in the build and in the browser's live refresh)**
+- Lists and comparisons: "Galaxy Z Fold8 and Z Flip8", "Galaxy A36 and A56", "Xiaomi 18 Pro and 18 Pro Max", "Pixel 11 and 11 Pro", "iPhone 17 Pro and 17 Pro Max" now link every model named. Names without a number count ("iPhone Air", "iPhone Duo", "Pixel Fold"), but not when a number follows ("iPhone Air 2").
+- Wrong links removed: "Xiaomi Pad 9" is no longer the HONOR Pad 9 (another maker's name right before a model name), "…but it's not the Galaxy S26 Ultra" no longer links the S26 Ultra, "iOS 27" no longer reads as a phone. Checked on 747 headlines: the browser and the build tag every one identically (devices, chips and sections).
+
+**An open-source AI model checks doubtful matches (on the build server, automatically)**
+- When a headline names another maker just before a model's name ("OnePlus Nord Buds 4 review" matching Samsung's Galaxy Buds4), Qwen3.5 2B, run by llama.cpp on GitHub's server, reads the headline and says whose product it means; the match is removed only when it agrees with that maker. It never adds a device. The model and llama.cpp are pinned by checksum and kept in the build cache.
+- Tested first on every headline naming several models: asked about every device, the small model gave the first maker of a comparison for both sides ("Xiaomi 17T Pro vs iPhone 17": the iPhone "Xiaomi's") and all 33 of its removals were wrong. That version was withdrawn before release; the rules now decide what is doubtful and the model decides only those.
+- The AI also reads the headlines about each new model name spotted in the news and labels it launched, announced, teased or rumoured on the Coverage page ("OnePlus 16": rumoured; "iQOO 16": announced), labelled as the AI's reading.
+
+**On-device AI (Qwen 3.5): no more "0% · starting" that never moves**
+- Before the download starts, the AI program comes from jsDelivr and the browser checks what it has saved; neither step had a time limit, so a slow moment or another open tab of the site holding the browser's storage left the panel at 0% for good. Each step now has a time limit and a second try, the card says which step it is on ("getting the AI program", "checking what this browser has saved", "connecting to Hugging Face"), and a stuck or failed start ends with a clear message and a Try again button (anything downloaded is kept).
+- One tab at a time: a second tab of the site gets "The AI is already open in another tab" instead of two copies fighting over the graphics chip. Offline with nothing saved says so at once.
+- Every device question now also sees the device's two latest test, review or video headlines (news and review questions the newest three), so the AI can use every source the site has; they are the first thing left out when an answer runs long. A new check removes "too close to call" in an answer about a single device.
+
+**"Show more" lists**
+- Every "Show more" button was clicked on desktop and phone, in English and Chinese, locally and on the live site, and each one showed more items. One way it could do nothing was found and fixed: the older items in a list are only drawn when the button is pressed, and a single malformed headline among them stopped the whole list; such an item is now skipped. The button also says how many it adds ("Show 9 more").
+
+**Refreshing the page**
+- Refreshing keeps you on the page you were on (the address holds the page, the compared devices and the search), which is what browsers and shared links expect, so this is unchanged.
+
 ## 26 September 2026
 
 New phones and specifications now update by themselves, from the makers' own pages.

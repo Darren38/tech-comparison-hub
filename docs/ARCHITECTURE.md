@@ -45,6 +45,8 @@
 ├── tools/build.py           validate → aggregate → compile (+ --report for evidence coverage)
 ├── tools/update_rates.py    Bank Negara Malaysia rates → data/meta/currencies.json
 ├── tools/fetch_headlines.py registered RSS/YouTube feeds → live/headlines.json
+├── tools/backfill_news.py   older headlines from publishers' sitemaps and YouTube upload history → live/archive.json (Version 21)
+├── tools/ai_news_check.py   Qwen3.5 2B via llama.cpp on the build server: doubtful matches, spotted-model status (Version 21)
 ├── tools/add_photo.py       attach a freely licensed Wikimedia Commons picture to a device
 ├── tools/new_device.py      scaffold a correctly structured device file
 ├── generated/               build output (never edited by hand; not committed)

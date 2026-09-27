@@ -352,6 +352,28 @@
     "notes": "Malaysian technology news written in Chinese (马来西亚中文科技媒体): Malaysian launch prices, dates and local availability. Headlines only; not evidence until an article is read and added."
   },
   {
+    "id": "technave-zh",
+    "name": "TechNave 中文版",
+    "type": "publication",
+    "tier": "B",
+    "url": "https://cn.technave.com",
+    "notes": "TechNave's Chinese-language edition (马来西亚中文科技媒体): Malaysian launch prices and local availability, the same news its TechNave 中文版 Facebook page posts. Headlines only; not evidence until an article is read and added."
+  },
+  {
+    "id": "technave-zh-video",
+    "name": "TechNave 中文版 (YouTube)",
+    "type": "youtube",
+    "tier": "B",
+    "url": "https://www.youtube.com/channel/UCVDIVx1U9vXEtYMeEzJLr3w"
+  },
+  {
+    "id": "zinggadget-video",
+    "name": "Zing Gadget (YouTube)",
+    "type": "youtube",
+    "tier": "B",
+    "url": "https://www.youtube.com/zinggadget"
+  },
+  {
     "id": "malaymail",
     "name": "Malay Mail",
     "type": "publication",

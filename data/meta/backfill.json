@@ -1,0 +1,58 @@
+{
+  "note": "Version 21: where tools/backfill_news.py reads older headlines for the device pages. Only registered sources, only where robots.txt allows this collector, and only article pages whose address already names a device. 'children' picks the sitemap files that hold articles; 'urlFilter' keeps a section of a general news site. Sites that ask for long gaps between requests (FoneArena, Crawl-delay 30) or that have no sitemap (SoyaCincau, Samsung Newsroom) get new items through their feeds only, as does Beebom (its addresses carry no date and its sitemap dates are edit dates, so most pages read turned out older than the archive keeps). Sites are read side by side, each at its own slow pace.",
+  "maxAgeDays": 400,
+  "pagesPerRun": 320,
+  "minutesPerRun": 15,
+  "youtube": true,
+  "youtubeEveryDays": 7,
+  "sources": [
+    {
+      "source": "9to5mac",
+      "sitemap": "https://9to5mac.com/sitemap_index.xml",
+      "children": "post-sitemap",
+      "pagesPerRun": 50
+    },
+    {
+      "source": "9to5google",
+      "sitemap": "https://9to5google.com/sitemap_index.xml",
+      "children": "post-sitemap",
+      "pagesPerRun": 50
+    },
+    {
+      "source": "macrumors",
+      "sitemap": "https://www.macrumors.com/sitemap/sitemap.xml.gz",
+      "children": "sitemap-(post|review|guide)",
+      "pagesPerRun": 40
+    },
+    {
+      "source": "apple-newsroom",
+      "sitemap": "https://www.apple.com/newsroom/sitemap.xml",
+      "urlFilter": "/newsroom/20\\d\\d/",
+      "pagesPerRun": 15
+    },
+    {
+      "source": "gizmochina",
+      "sitemap": "https://www.gizmochina.com/sitemap.xml",
+      "children": "^https://www\\.gizmochina\\.com/post-sitemap\\d*\\.xml$",
+      "pagesPerRun": 45
+    },
+    {
+      "source": "engadget",
+      "sitemap": "https://www.engadget.com/sitemap_index.xml",
+      "children": "post-sitemap",
+      "pagesPerRun": 25
+    },
+    {
+      "source": "malaymail",
+      "sitemap": "https://www.malaymail.com/sitemap.xml",
+      "urlFilter": "/news/tech-gadgets/",
+      "pagesPerRun": 10
+    },
+    {
+      "source": "trustedreviews",
+      "sitemap": "https://www.trustedreviews.com/sitemap_index.xml",
+      "children": "post-sitemap",
+      "pagesPerRun": 45
+    }
+  ]
+}

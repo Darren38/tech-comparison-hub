@@ -133,18 +133,49 @@ let merged = null;
  * Every matched headline the site knows: the rolling archive the scheduled build keeps (live/archive.json, about 400
  * days, re-matched on every run) plus the newest collection, one entry per article, newest first. Cached for the visit.
  */
+// Version 21: an open-source AI model's check of headlines that name several models (tools/ai_news_check.py). It can
+// only take a device off a headline, and only when the maker it names is in the headline; a check made for a different
+// set of matches (the signature) is not applied.
+const NEWS_AI = 'live/auto/news_ai.json';
+let newsAi = null;
+export function loadNewsAi() {
+  newsAi ??= fetch(`${NEWS_AI}?t=${Math.floor(Date.now() / 600000)}`, { cache: 'no-cache' }).then((r) => (r.ok ? r.json() : {})).catch(() => ({}));
+  return newsAi;
+}
+
+async function sha1Hex(text) {
+  const bytes = new Uint8Array(await crypto.subtle.digest('SHA-1', new TextEncoder().encode(text)));
+  return [...bytes].map((b) => b.toString(16).padStart(2, '0')).join('');
+}
+
+async function applyNewsAi(items, ai) {
+  const checks = ai?.items ?? {};
+  if (!Object.keys(checks).length || !globalThis.crypto?.subtle) return items;
+  return Promise.all(items.map(async (item) => {
+    const entry = checks[item.id];
+    if (!entry?.drop?.length) return item;
+    const ids = [...new Set([...(item.devices ?? []), ...(item.aiRemoved ?? [])])].sort();
+    const sig = (await sha1Hex(`${item.title}|${ids.join(',')}`)).slice(0, 10);
+    if (sig !== entry.sig) return item;
+    const gone = (item.devices ?? []).filter((d) => entry.drop.includes(d));
+    return gone.length ? { ...item, devices: item.devices.filter((d) => !gone.includes(d)), aiRemoved: [...new Set([...(item.aiRemoved ?? []), ...gone])].sort() } : item;
+  }));
+}
+
 export function loadMatchedItems() {
   merged ??= Promise.all([
     fetch(`${ARCHIVE}?t=${Math.floor(Date.now() / 600000)}`, { cache: 'no-cache' }).then((r) => (r.ok ? r.json() : { items: [] })).catch(() => ({ items: [] })),
     loadHeadlines().catch(() => ({ items: [] })),
-  ]).then(([archive, latestItems]) => {
+    loadNewsAi(),
+  ]).then(async ([archive, latestItems, ai]) => {
     const byKey = new Map();
     for (const item of [...(latestItems.items ?? []), ...(archive.items ?? [])]) {
       if (!isSafeUrl(item.url)) continue;
       const key = item.id ?? item.url;
       if (!byKey.has(key)) byKey.set(key, item);
     }
-    return [...byKey.values()].sort((a, b) => String(b.published ?? '').localeCompare(String(a.published ?? '')));
+    const items = await applyNewsAi([...byKey.values()], ai).catch(() => [...byKey.values()]);
+    return items.sort((a, b) => String(b.published ?? '').localeCompare(String(a.published ?? '')));
   });
   return merged;
 }

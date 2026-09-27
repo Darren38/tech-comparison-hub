@@ -158,7 +158,22 @@ export function mountAssistant() {
       : html`<p class="tiny muted">Your browser manages this model and answers in English. Ask in English for the best results.</p>`}
   </div>`;
 
+  // Version 21: say at once that it is checking, and never fail silently. In testing, with cdn.jsdelivr.net blocked or
+  // the device offline, pressing the AI switch showed nothing at all: checking which models are saved needs the AI program.
   async function offerAi() {
+    const entry = push('sys', html`<div class="ask__card" data-ai-offer><p class="small muted">Checking what this device can run…</p></div>`);
+    if (open) renderLog(log);
+    try {
+      await offerChoices(entry);
+    } catch (error) {
+      console.error(error);
+      entry.html = html`<div class="ask__card ask__card--warn" data-ai-offer><p><strong>The AI couldn't be prepared.</strong> ${navigator.onLine === false ? 'This device is offline.' : 'Part of it didn’t load: the connection may be slow, or a blocker may stop cdn.jsdelivr.net.'}</p>
+        <p><button type="button" class="btn btn--primary btn--sm" data-ai-retry>Try again</button> <span class="tiny muted">Answers keep coming from the site's data.</span></p></div>`;
+    }
+    if (open) renderLog(log);
+  }
+
+  async function offerChoices(entry) {
     const lib = await loadAi();
     const support = await lib.deviceSupport();
     const gb = (key) => (lib.MODELS[key].mb / 1000).toFixed(1);
@@ -169,7 +184,7 @@ export function mountAssistant() {
     if (support.webgpu.ok) {
       // Version 10: on a computer that can run it, Qwen3.5 4B is the recommended choice (in testing on 24 questions
       // no 4B answer was withheld and 9% of its sentences were removed, against 21% for 2B and 9B); 2B stays for smaller devices
-      const [cached2, cached4] = await Promise.all(['qwen35-2b', 'qwen35-4b'].map((m) => new lib.WebLLMBackend(m, { f16: support.webgpu.f16 }).isDownloaded()));
+      const [cached2, cached4] = await Promise.all(['qwen35-2b', 'qwen35-4b'].map((m) => new lib.WebLLMBackend(m, { f16: support.webgpu.f16 }).isDownloaded().catch(() => false)));
       const four = support.webgpu.strong && { id: 'qwen35-4b', label: cached4 ? 'Use Qwen3.5 4B (already saved here)' : `Download Qwen3.5 4B${options.length ? '' : ', recommended'} (${gb('qwen35-4b')} GB)`, note: 'The most accurate model tested for this site: understands and answers in any language, including Malay and Chinese. Best with a separate graphics card; on built-in laptop graphics an answer can take up to a minute.' };
       const two = { id: 'qwen35-2b', label: cached2 ? 'Use Qwen3.5 2B (already saved here)' : `Download the smaller Qwen3.5 2B (${gb('qwen35-2b')} GB)`, note: four ? 'Quicker to download and to answer, but more of its sentences fail the checks and are left out.' : 'An open model (Apache 2.0) that understands and answers in any language, including Malay and Chinese.' };
       // a model already saved here comes first, so a returning visitor isn't asked to download another
@@ -177,29 +192,32 @@ export function mountAssistant() {
       for (const o of order) options.push({ ...o, primary: !options.length });
     }
     if (!options.length) {
-      push('sys', html`<div class="ask__card ask__card--warn"><p><strong>AI answers aren't available on this device.</strong> ${support.webgpu.reason}</p><p class="tiny muted">Answers keep coming from the site's data, exactly as before.</p></div>`);
+      entry.html = html`<div class="ask__card ask__card--warn"><p><strong>AI answers aren't available on this device.</strong> ${support.webgpu.reason}</p><p class="tiny muted">Answers keep coming from the site's data, exactly as before.</p></div>`;
       return;
     }
-    push('sys', html`<div class="ask__card" data-ai-offer>
+    entry.html = html`<div class="ask__card" data-ai-offer>
       <p><strong>Turn on AI answers?</strong> A free AI model runs on this device. It works out what you mean, looks it up in the site's data and explains the result. Your questions are not sent to any AI service.</p>
       <div class="ask__choices">${options.map((o) => html`<div class="ask__choice"><button type="button" class="btn ${o.primary ? 'btn--primary' : 'btn--ghost'} btn--sm" data-ai-start="${o.id}">${o.label}</button><span class="tiny muted">${o.note}</span></div>`)}</div>
       <p class="tiny muted">The model can still word things loosely, so each answer is checked against the site's data first, and what was looked up and the verified answers with sources are always shown underneath.</p>
       <p class="tiny"><button type="button" class="linkish" data-ai-cancel>Not now</button></p>
-    </div>`);
+    </div>`;
   }
 
   async function startAi(choice) {
+    // Version 21: the card shows from the first moment, with the step it is on
+    const entry = push('sys', progressCard(0, 'checking this device'));
+    if (open) renderLog(log);
     const lib = await loadAi();
     const support = await lib.deviceSupport();
     const next = choice === 'builtin' ? new lib.BuiltinBackend() : new lib.WebLLMBackend(choice, { f16: support.webgpu.f16 });
     aiState = 'loading';
     loading = next;
     showAiState();
-    const entry = push('sys', progressCard(0, 'starting'));
+    entry.html = progressCard(0, 'starting');
     // no progress for two minutes: say so, and offer the smaller model or cancelling
     let last = { pct: -1, text: '', at: Date.now() };
     const draw = () => {
-      entry.html = progressCard(last.pct < 0 ? 0 : last.pct, last.text || 'starting', { slow: Date.now() - last.at > 120000, choice });
+      entry.html = progressCard(last.pct < 0 ? 0 : last.pct, last.text || 'starting', { slow: Date.now() - last.at > 60000, choice });
       if (open) renderLog(log);
     };
     const watch = setInterval(draw, 15000);
@@ -222,6 +240,7 @@ export function mountAssistant() {
       entry.html = error?.name === 'AbortError'
         ? html`<div class="ask__card"><p>Stopped getting ${next.label} ready. Answers come from the site's data${backend ? `, with ${backend.label} as before` : ''}.</p></div>`
         : html`<div class="ask__card ask__card--warn"><p><strong>The AI couldn't start.</strong> ${error?.message ?? String(error)}</p>
+        ${['TimeoutError', 'StallError', 'BusyError', 'TypeError'].includes(error?.name) || /fetch|network|connection/i.test(String(error?.message)) ? html`<p><button type="button" class="btn btn--primary btn--sm" data-ai-start="${choice}">Try again</button> <span class="tiny muted">Anything already downloaded is kept.</span></p>` : ''}
         ${alternatives.length ? html`<p>${choice === 'qwen35-4b' ? 'The 4B model may be too big for this device or browser. ' : ''}${alternatives.map((m, i) => html`<button type="button" class="btn ${i ? 'btn--ghost' : 'btn--primary'} btn--sm" data-ai-start="${m}">Use ${lib.MODELS[m].label} instead (${(lib.MODELS[m].mb / 1000).toFixed(1)} GB)</button> `)}</p>` : html`<p class="tiny muted">Answers keep coming from the site's data.</p>`}</div>`;
     } finally {
       clearInterval(watch);
@@ -384,6 +403,11 @@ export function mountAssistant() {
           offerAi();
         }
       }
+    }
+    if (e.target.closest('[data-ai-retry]')) {
+      const i = history.findIndex((m) => m.who === 'sys' && String(m.html).includes('data-ai-retry'));
+      if (i >= 0) history.splice(i, 1);
+      offerAi();
     }
     const start = e.target.closest('[data-ai-start]');
     if (start && aiState === 'loading') {

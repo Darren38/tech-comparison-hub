@@ -1496,11 +1496,11 @@ export async function reviewsText(id, { limit = 8 } = {}) {
 }
 
 /** Latest collected headlines that name the device (titles only; not checked by hand). */
-export async function headlinesText(id, { limit = 4 } = {}) {
+export async function headlinesText(id, { limit = 4, topics = null } = {}) {
   try {
     // newest collection plus the year-long archive, so the AI can see tests, reviews and problem reports too
     const { loadMatchedItems } = await import('./live.js');
-    const items = (await loadMatchedItems()).filter((h) => (h.devices ?? []).includes(id)).slice(0, limit);
+    const items = (await loadMatchedItems()).filter((h) => (h.devices ?? []).includes(id) && (!topics || topics.includes(h.topic ?? 'news'))).slice(0, limit);
     return items.map((h) => `- ${sourceName(h.source) ?? h.source}, ${String(h.published).slice(0, 10)}${h.topic && h.topic !== 'news' ? ` (${h.topic})` : ''}: "${h.title}"`);
   } catch {
     return [];

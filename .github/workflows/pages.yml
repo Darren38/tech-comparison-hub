@@ -19,6 +19,13 @@
 #     devices already in the hub are re-read to fill missing values (changed values are only listed) (tools/auto_devices.py);
 #     Apple from Apple Support's tech-specs pages, Samsung from Samsung Newsroom Malaysia's launch announcements
 #   - Trusted Reviews' test results (Geekbench, video battery drain, charging times) from each new review (tools/auto_reviews.py)
+#   - older headlines for the device pages, so a phone launched months ago still shows its reviews, tests, videos and
+#     news: publishers' sitemaps (only where robots.txt allows, pages read slowly) and, once a week, the registered
+#     YouTube channels' upload history (tools/backfill_news.py; Version 21)
+# and whenever headlines are waiting for it (Version 21):
+#   - an open-source AI model (Qwen3.5 2B, run by llama.cpp on this server's own CPU, both pinned by checksum) checks
+#     headlines that name several models and says what new model names in the news are (launched, announced, teased,
+#     rumoured); it can only take a device off a headline when the maker it names is in the headline (tools/ai_news_check.py)
 # and every 3 days:
 #   - official pictures for devices without one, from the maker's own page (tools/find_images.py)
 #   - where the product sits in each new picture, so pages can show it cropped and large (tools/image_boxes.py)
@@ -45,7 +52,7 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 60
     steps:
       # Security (Version 18): every action is pinned to an exact commit, and the checkout keeps no GitHub token
       # (this job never pushes), so the build steps and the feeds they read can't use the repository's credentials.
@@ -120,6 +127,49 @@ jobs:
         run: |
           pip install --quiet pillow
           python tools/image_boxes.py --max-age-hours 69
+        continue-on-error: true
+
+      - name: Read older headlines for the device pages (once a day; YouTube upload history once a week)
+        run: python tools/backfill_news.py --max-age-hours 20
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        continue-on-error: true
+
+      - name: Headlines and model names waiting for the AI check
+        id: aiwait
+        run: echo "count=$(python tools/ai_news_check.py --pending | python -c 'import json,sys; d=json.load(sys.stdin); print(d["headlines"] + d["spotted"])')" >> "$GITHUB_OUTPUT"
+        continue-on-error: true
+
+      # The model (1.3 GB) and llama.cpp are downloaded once and kept in the Actions cache; both are checked against
+      # the checksums published by Hugging Face and GitHub before anything runs.
+      - name: Open-source AI model files (kept between runs)
+        if: steps.aiwait.outputs.count != '' && steps.aiwait.outputs.count != '0'
+        uses: actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830 # v4
+        with:
+          path: ~/llm
+          key: llm-qwen35-2b-q4km-llamacpp-b11208
+
+      - name: AI check of headlines that name several models, and of new model names (Qwen3.5 2B on this server's CPU)
+        if: steps.aiwait.outputs.count != '' && steps.aiwait.outputs.count != '0'
+        run: |
+          mkdir -p ~/llm && cd ~/llm
+          [ -f Qwen3.5-2B-Q4_K_M.gguf ] || curl -sSfL --retry 3 -o Qwen3.5-2B-Q4_K_M.gguf             "https://huggingface.co/unsloth/Qwen3.5-2B-GGUF/resolve/f6d5376be1edb4d416d56da11e5397a961aca8ae/Qwen3.5-2B-Q4_K_M.gguf"
+          [ -f llama.tar.gz ] || curl -sSfL --retry 3 -o llama.tar.gz             "https://github.com/ggml-org/llama.cpp/releases/download/b11208/llama-b11208-bin-ubuntu-x64.tar.gz"
+          echo "aaf42c8b7c3cab2bf3d69c355048d4a0ee9973d48f16c731c0520ee914699223  Qwen3.5-2B-Q4_K_M.gguf" | sha256sum -c -
+          echo "090a86baaf81e114031c5111ccc2287696dbd85ae448b9529fd3b398209f7770  llama.tar.gz" | sha256sum -c -
+          rm -rf bin && mkdir bin && tar -xzf llama.tar.gz -C bin
+          SERVER=$(find bin -name llama-server -type f | head -1)
+          export LD_LIBRARY_PATH="$(dirname "$SERVER"):${LD_LIBRARY_PATH:-}"
+          "$SERVER" -m Qwen3.5-2B-Q4_K_M.gguf --host 127.0.0.1 --port 8765 -c 4096 -t 4 --jinja > llama.log 2>&1 &
+          for i in $(seq 1 90); do curl -sf http://127.0.0.1:8765/health > /dev/null && break; sleep 2; done
+          cd "$GITHUB_WORKSPACE"
+          python tools/ai_news_check.py --limit 80 --minutes 10 || true
+          kill %1 || true
+        continue-on-error: true
+
+      # Always: the AI's saved results are applied again after this run's re-matching (no model needed for that).
+      - name: Apply the AI check to the headlines
+        run: python tools/ai_news_check.py
         continue-on-error: true
 
       - name: Validate and build data

@@ -67,16 +67,33 @@ export async function fillAuto(root, { devices = [], chipsets = [], showDevices 
   for (const slot of slots) {
     if (!slot.isConnected) continue;
     const topics = new Set(SLOT_TOPICS[slot.dataset.auto] ?? SLOT_TOPICS.all);
-    const list = items.filter((i) => topics.has(i.topic ?? 'news'));
-    if (!list.length) continue;
+    // Version 21: an item that can't be drawn is left out instead of stopping the whole list. Before, one bad headline
+    // among the older ones made "Show more" do nothing, because the older ones are only drawn when it is pressed.
+    const rows = [];
+    for (const i of items) {
+      if (!topics.has(i.topic ?? 'news') || typeof i.title !== 'string' || !i.title.trim() || !isSafeUrl(i.url)) continue;
+      try {
+        rows.push(itemHtml(i, { showDevices }));
+      } catch {
+        /* skip it */
+      }
+    }
+    if (!rows.length) continue;
     const limit = Number(slot.dataset.limit) || 6;
     const target = slot.querySelector('[data-auto-list]');
-    const draw = (n) => mount(target, html`${list.slice(0, n).map((i) => itemHtml(i, { showDevices }))}`);
+    const draw = (n) => mount(target, html`${rows.slice(0, n)}`);
     draw(limit);
     const more = slot.querySelector('[data-auto-more]');
-    if (list.length > limit) {
+    if (rows.length > limit) {
       more.hidden = false;
-      more.addEventListener('click', () => { draw(list.length); more.hidden = true; }, { once: true });
+      more.textContent = t('Show {n} more', { n: rows.length - limit });
+      more.onclick = () => {
+        draw(rows.length);
+        more.hidden = true;
+        target.children[limit]?.querySelector('a[href]')?.focus({ preventScroll: true });
+      };
+    } else {
+      more.hidden = true;
     }
     slot.hidden = false;
     // a section that only said "nothing linked yet" now has something: soften that message

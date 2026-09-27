@@ -413,6 +413,9 @@ def validate(ds: Dataset) -> None:
         if feed.get("channel"):  # Version 18: YouTube channels are read through the YouTube Data API by channel id
             if feed.get("kind") != "video" or not re.fullmatch(r"UC[\w-]{22}", str(feed["channel"])):
                 r.error(f"{label}: channel must be a YouTube channel id (UC…) on a video feed")
+        elif feed.get("username"):  # Version 21: an old-style YouTube username a publisher links to, turned into its id
+            if feed.get("kind") != "video" or not re.fullmatch(r"[A-Za-z0-9_.-]{2,60}", str(feed["username"])):
+                r.error(f"{label}: username must be a YouTube username on a video feed")
         elif not str(feed.get("url", "")).startswith("https://"):
             r.error(f"{label}: url must use https")
     shared = set(ds.devices) & set(ds.chipsets)

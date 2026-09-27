@@ -2472,6 +2472,11 @@ html[data-mode="simple"] .outline__list li:has(> [data-jump="src-h"]),
 html[data-mode="simple"] .outline__list li:has(> [data-jump="bench-h"]) { display: none; }
 .spotted { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--sp-3); grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr)); }
 .spotted__item { padding: var(--sp-3); border: 1px dashed var(--rule-strong); border-radius: var(--radius); display: grid; gap: 4px; }
+/* Version 21: the AI's reading of a spotted name's headlines */
+.spotted__status { display: inline-block; font-size: 0.72rem; font-weight: 600; letter-spacing: 0.02em; padding: 1px 7px; border-radius: 999px; border: 1px solid var(--rule-strong); color: var(--ink-2, inherit); vertical-align: 1px; white-space: nowrap; }
+.spotted__status--launched, .spotted__status--announced { border-color: currentColor; color: var(--good); }
+.spotted__status--teased { color: var(--accent, inherit); border-color: currentColor; }
+.spotted__status--rumoured, .spotted__status--not-a-product { color: var(--muted); }
 .src-chip--claim { background: color-mix(in srgb, var(--accent) 30%, transparent); color: inherit; border-color: transparent; }
 .chart-claim-note { padding: 8px 12px; border-left: 3px solid var(--accent); background: rgba(255, 255, 255, 0.07); color: inherit; border-radius: 6px; opacity: 0.95; }
 /* "Help me choose" (Version 17) */

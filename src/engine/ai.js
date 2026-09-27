@@ -18,8 +18,32 @@ export const MODELS = {
   'qwen35-4b': { label: 'Qwen3.5 4B', mb: 2390, gpuMB: 3868, ids: { f16: 'Qwen3.5-4B-q4f16_1-MLC', f32: 'Qwen3.5-4B-q4f32_1-MLC' }, page: 'https://huggingface.co/Qwen/Qwen3.5-4B' },
 };
 
+// Version 21: every step before the download has a time limit. Seen as "0% · starting" that never moved: the AI
+// program from jsDelivr loading slowly, or the browser's storage waiting on another tab of this site that holds it.
+const within = (promise, ms, message) => {
+  let timer;
+  return Promise.race([promise, new Promise((_, reject) => { timer = setTimeout(() => reject(Object.assign(new Error(message), { name: 'TimeoutError' })), ms); })])
+    .finally(() => clearTimeout(timer));
+};
+
 let webllm = null;
-const lib = async () => (webllm ??= await import(WEBLLM));
+const LIB_MS = 45000;
+/** The WebLLM library (about 6 MB from jsDelivr, kept by the browser after the first time); tried twice. */
+async function lib() {
+  if (webllm) return webllm;
+  for (let attempt = 0; ; attempt += 1) {
+    try {
+      // a second try asks again under a new address: the browser would otherwise wait on the same stalled request
+      webllm = await within(import(attempt ? `${WEBLLM}?try=${Date.now()}` : WEBLLM), LIB_MS, 'The AI program didn’t arrive from jsDelivr (cdn.jsdelivr.net). Check the connection, or whether an ad or script blocker stops it, and try again.');
+      return webllm;
+    } catch (error) {
+      if (attempt >= 1) {
+        // one message whether the request timed out or was refused (a blocker, no connection)
+        throw Object.assign(new Error('The AI program didn’t arrive from jsDelivr (cdn.jsdelivr.net). Check the connection, or whether an ad or script blocker stops it, and try again.'), { name: 'TimeoutError', cause: error });
+      }
+    }
+  }
+}
 
 // ------------------------------------------------------------------ what this device can run
 /**
@@ -31,7 +55,7 @@ export async function deviceSupport() {
   const out = { webgpu: { ok: false, f16: false, strong: false, reason: '' }, builtin: 'unavailable' };
   if ('gpu' in navigator) {
     try {
-      const adapter = await navigator.gpu.requestAdapter({ powerPreference: 'high-performance' });
+      const adapter = await within(navigator.gpu.requestAdapter({ powerPreference: 'high-performance' }), 10000, 'no answer from the graphics chip');
       if (adapter) {
         const mobile = /Android|iPhone|iPad|Mobile/i.test(navigator.userAgent);
         out.webgpu = {
@@ -117,14 +141,16 @@ export class WebLLMBackend {
     return this.info.label;
   }
 
-  /** Which store holds a complete copy: 'cache', 'indexeddb' or null. */
+  /** Which store holds a complete copy: 'cache', 'indexeddb' or null. A store that doesn't answer in time counts as
+   * empty (Version 21: IndexedDB can wait indefinitely while another tab of the site holds it open). */
   async savedIn() {
     const wl = await lib();
+    this.slowStores = [];
     for (const store of STORES) {
       try {
-        if (await wl.hasModelInCache(this.model, await appConfig(store))) return store;
-      } catch {
-        /* that store isn't usable here */
+        if (await within(wl.hasModelInCache(this.model, await appConfig(store)), 10000, 'slow')) return store;
+      } catch (error) {
+        if (error?.name === 'TimeoutError') this.slowStores.push(store);
       }
     }
     return null;
@@ -136,8 +162,37 @@ export class WebLLMBackend {
 
   async load(onProgress) {
     if (this.engine) return;
+    // Version 21: one tab at a time. Two tabs of the site each putting a model on the graphics chip can run out of
+    // memory or wait on each other's storage; the lock is held while the model is loaded and freed with the tab.
+    if (typeof navigator !== 'undefined' && navigator.locks && !this.releaseLock) {
+      const held = await new Promise((resolve) => {
+        navigator.locks.request('tech-hub-on-device-ai', { ifAvailable: true }, (lock) => {
+          if (!lock) return resolve(false);
+          resolve(true);
+          return new Promise((release) => { this.releaseLock = release; });
+        }).catch(() => resolve(true));
+      });
+      if (!held) throw Object.assign(new Error('The AI is already open in another tab of this site. Use it there, or close that tab and try again here.'), { name: 'BusyError' });
+    }
+    try {
+      await this.loadModel(onProgress);
+    } catch (error) {
+      this.releaseLock?.();
+      this.releaseLock = null;
+      throw error;
+    }
+  }
+
+  async loadModel(onProgress) {
+    // Version 21: say which step it is on, so a slow step is never a silent "0%"
+    onProgress?.({ progress: 0, text: 'getting the AI program (about 6 MB, only the first time)' });
     const { CreateWebWorkerMLCEngine, deleteModelAllInfoInCache } = await lib();
+    onProgress?.({ progress: 0, text: 'checking what this browser has saved' });
     const saved = await this.savedIn();
+    if (!saved && typeof navigator !== 'undefined' && navigator.onLine === false) {
+      throw new Error('This device is offline, and the model isn’t saved in this browser yet. Connect to the internet and try again.');
+    }
+    onProgress?.({ progress: 0, text: saved ? 'loading from this browser' : 'connecting to Hugging Face for the download' });
     const progress = (r) => onProgress?.({ progress: r.progress ?? 0, text: /fetch|download/i.test(r.text ?? '') ? 'downloading (only the first time)' : /cache/i.test(r.text ?? '') ? 'loading from this browser' : 'preparing the model on your graphics chip' });
     for (const store of saved ? [saved] : STORES) {
      // Version 20: a download that stops moving for STALL_MS is restarted once by itself; the parts already saved are
@@ -232,6 +287,8 @@ export class WebLLMBackend {
       /* already gone */
     }
     this.engine = null;
+    this.releaseLock?.();
+    this.releaseLock = null;
     const { deleteModelAllInfoInCache } = await lib();
     for (const store of STORES) await deleteModelAllInfoInCache(this.model, await appConfig(store)).catch(() => {});
   }
@@ -691,6 +748,26 @@ export function mixedRanks(sentence, facts) {
   });
 }
 
+// Version 21: a middling or low rank described as strong ("Performance is rated highly at #53 out of 71")
+const STRONG_WORDS = /\b(highly|high|strong(ly)?|top|excellent|impressive|leading|standout|among the best|very good|great)\b|很高|优秀|领先|名列前茅|出色|顶尖|terbaik|tinggi/i;
+export function strongLowRank(sentence) {
+  return sentence.split(/[;,，；]|\bbut\b|\bwhile\b|\bthough\b|但/i).some((clause) => STRONG_WORDS.test(clause)
+    && [...clause.matchAll(RANK_PAIR)].some((m) => Number(m[2]) >= 10 && Number(m[2]) !== 100 && Number(m[1]) / Number(m[2]) > 0.5));
+}
+
+// Version 21: "neither has / both lack / 均不支持 …" claims an absence for both devices. The site never turns "not
+// recorded" into "not supported", so such a sentence stays only when the facts say No / Not supported for it
+// (seen: "均不支持SIM卡槽" while the S26 Ultra's SIM is recorded).
+const BOTH_LACK = /\b(neither\b[^.]*\b(has|have|support|supports|offers?|comes?)|both (lack|don['’]t|do not|miss)|none of them)\b|(均|都|两者都|两款都)(不支持|没有|不带|无|缺少)|kedua-duanya tidak/i;
+export function deniesOnBoth(sentence, facts) {
+  if (!BOTH_LACK.test(sentence)) return false;
+  const term = (/(?:不支持|没有|不带|缺少|无)\s*([A-Za-z0-9\u4e00-\u9fff+-]{2,12})/.exec(sentence)?.[1]
+    ?? /\b(?:support|have|has|offer|lack|with)\s+(?:a |an |the )?([a-z0-9+-]+(?: [a-z0-9+-]+)?)/i.exec(sentence)?.[1] ?? '').replace(/卡槽|接口|功能/g, '');
+  if (!term) return true;
+  const key = term.toLowerCase().split(' ')[0];
+  return !facts.split('\n').some((line) => line.toLowerCase().includes(key) && /\b(no|not supported|none)\b|不支持|没有/i.test(line));
+}
+
 export function claimsLevel(sentence, facts) {
   if (!LEVEL_WORDS.test(sentence)) return false;
   return LEVEL_AREAS.some(([area, leader, level]) => area.test(sentence) && leader.test(facts) && !level.test(facts));
@@ -708,6 +785,8 @@ function sentenceProblem(sentence, facts, { question = '', echo = false, known =
   if (claimsLevel(sentence, facts)) return 'called two devices level where the site’s data shows one ahead';
   if (scoresBackwards(sentence)) return 'compared two scores the wrong way round';
   if (mixedRanks(sentence, facts)) return 'quoted a ranking that isn’t in the site’s data';
+  if (strongLowRank(sentence)) return 'called a middling or low rank strong';
+  if (deniesOnBoth(sentence, facts)) return 'said both devices lack something the site hasn’t recorded as missing';
   if (deniesTests(sentence, facts)) return 'said there are no tests or reviews where the site has some';
   // "takes 16 hours and 40 minutes to charge fully": a battery-life figure given as a charging time (Version 20)
   const chargeHours = /\b(charg\w*|recharg\w*)\b|充电|充電|mengecas|dicas/i.test(sentence) && /\b(full(y)?|0 ?(-|to) ?100|from empty|completely)\b|充满|充滿|penuh/i.test(sentence)
@@ -717,6 +796,9 @@ function sentenceProblem(sentence, facts, { question = '', echo = false, known =
   const wan = /(\d+(?:\.\d+)?)\s*万\s*像素/.exec(sentence);
   if (wan && new RegExp(`(?<![\\d.])${wan[1].replace('.', '\\.')} MP\\b`).test(facts)) return 'attached a figure to the wrong spec';
   if (/too close to call/i.test(verified(facts)) && WINNER_WORDS.test(sentence) && !TIE_WORDS.test(sentence)) return 'picked a winner where the site calls it too close to call';
+  // Version 21: a question about one device has no winner to call ("Ultimately, it is too close to call which device
+  // wins given the trade-offs…", seen in an answer about the Galaxy S26 Ultra alone)
+  if (devices.length === 1 && /too close to call|which (device|one|phone|model) wins|no clear winner|neck and neck|难分|難分/i.test(sentence)) return 'talked about a winner in a question about one device';
   // …and the other way round: "The verdict is too close to call" when the site shows one ahead (78 vs 70)
   if (/too close to call|no clear winner|hard to (call|pick)|toss-?up|难分|難分|sukar (dipilih|ditentukan)/i.test(sentence)
       && /comes out ahead overall/i.test(verified(facts))) return 'called it too close to call where the site’s data shows one ahead';
