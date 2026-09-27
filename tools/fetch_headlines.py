@@ -523,8 +523,18 @@ def youtube_channel(feed: dict, key: str) -> str:
         return feed["channel"]
     name = feed.get("username", "")
     if name not in _CHANNELS:
-        q = urllib.parse.urlencode({"part": "id", "forUsername": name, "key": key})
-        items = json.loads(fetch(YT_API + "channels?" + q)).get("items", [])
+        items = []
+        # an old account username, else the same word as an @handle ("youtube.com/zinggadget" is neither for sure); a
+        # handle is only accepted when the channel's own title is the one expected, so a stranger's channel is never read
+        for field, value in (("forUsername", name), ("forHandle", "@" + name)):
+            q = urllib.parse.urlencode({"part": "id,snippet", field: value, "key": key})
+            found = json.loads(fetch(YT_API + "channels?" + q)).get("items", [])
+            if field == "forHandle":
+                want = normalize(feed.get("title", ""))
+                found = [c for c in found if want and normalize(c.get("snippet", {}).get("title", "")).startswith(want)]
+            if found:
+                items = found
+                break
         if not items:
             raise ValueError(f"no YouTube channel for {name}")
         _CHANNELS[name] = items[0]["id"]
