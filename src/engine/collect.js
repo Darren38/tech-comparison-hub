@@ -32,7 +32,7 @@ export function normalize(text) {
   return t
     .toLowerCase()
     .replace(/['’]s\b/g, '')
-    .replace(/\+/g, ' plus ')
+    .replace(/([a-z0-9])\+/g, '$1 plus ') // Version 21: only right after a letter or number ("S24+", "Pro+")
     .replace(/[^a-z0-9]+/g, ' ')
     .replace(/(\d)([a-z]{2,})\b/g, '$1 $2') // "17Pro", "X200Ultra" (Chinese headlines leave no space)
     .replace(/\b([a-z]{3,})(\d+)\b/g, '$1 $2') // "Fold8" reads the same as "Fold 8"

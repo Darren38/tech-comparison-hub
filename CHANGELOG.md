@@ -13,6 +13,7 @@ Device pages now show older reviews, tests, videos and news too, headline matchi
 
 **Sharper headline matching (the same rules in the build and in the browser's live refresh)**
 - Lists and comparisons: "Galaxy Z Fold8 and Z Flip8", "Galaxy A36 and A56", "Xiaomi 18 Pro and 18 Pro Max", "Pixel 11 and 11 Pro", "iPhone 17 Pro and 17 Pro Max" now link every model named. Names without a number count ("iPhone Air", "iPhone Duo", "Pixel Fold"), but not when a number follows ("iPhone Air 2").
+- A "+" counts as "Plus" only right after a letter or number ("S26+", "Pro+"): "Galaxy S26 Ultra + Buds 4 Pro" and a Chinese title with "橙色+" after "Xiaomi 18 Pro Max" had lost their links to a "Plus" model that doesn't exist.
 - Wrong links removed: "Xiaomi Pad 9" is no longer the HONOR Pad 9 (another maker's name right before a model name), "…but it's not the Galaxy S26 Ultra" no longer links the S26 Ultra, "iOS 27" no longer reads as a phone. Checked on 747 headlines: the browser and the build tag every one identically (devices, chips and sections).
 
 **An open-source AI model checks doubtful matches (on the build server, automatically)**

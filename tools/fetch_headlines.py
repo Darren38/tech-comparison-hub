@@ -127,7 +127,8 @@ def normalize(text: str) -> str:
     for zh, en in ZH_BRANDS:
         text = text.replace(zh, f" {en} ")
     text = re.sub(r"['’]s\b", "", text.lower())
-    text = text.replace("+", " plus ")
+    # Version 21: "+" is "Plus" only right after a letter or number ("S24+", "Pro+"); in "…Pro Max 透明…橙色+" it isn't
+    text = re.sub(r"(?<=[a-z0-9])\+", " plus ", text)
     text = re.sub(r"[^a-z0-9]+", " ", text)
     text = re.sub(r"(\d)([a-z]{2,})\b", r"\1 \2", text)  # "17Pro", "X200Ultra" (Chinese headlines leave no space)
     text = re.sub(r"\b([a-z]{3,})(\d+)\b", r"\1 \2", text)  # "Fold8", "Magic8", "Watch8" read the same as "Fold 8"
