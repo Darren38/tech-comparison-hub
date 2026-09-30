@@ -331,6 +331,9 @@ class Hub:
         """("old", why) when the model is numbered below the oldest of its series in the hub and that one is from the
         hub's first year (so this one is older still); ("hold", why) when it is numbered below a newer oldest one (it may
         be a 2023+ model the hub doesn't have: a person decides). None when the name gives no such sign."""
+        named_year = re.search(r"\((20\d\d)\)", name)       # "Galaxy Tab S6 Lite (2024)": the name gives the year
+        if named_year:
+            return ("old", f"its name gives the year {named_year.group(1)}; the hub covers {START_YEAR} on") if int(named_year.group(1)) < START_YEAR else None
         s = series_of(name, brand, self.brands)
         known = self.series.get((brand, cat, s[0])) if s else None
         if not known:
@@ -1077,11 +1080,12 @@ def find_new(state: dict, hub: Hub, limit: int, log) -> None:
         if rec["id"] in hub.ids:
             held[url] = {"brand": brand, "name": got["name"], "reason": f"its id ({rec['id']}) is already used", "at": TODAY}
             continue
+        new_chip = None
         if got.get("newChip") and got["newChip"]["id"] not in hub.chips.values():
             ch = got["newChip"]
-            chipsets[ch["id"]] = {**ch, "summary": "Name recorded automatically from a phone maker's specification page. Chip details have not been compiled yet.",
-                                  "provenance": {"default": {"class": "official", "source": source, "url": got["final"], "checked": TODAY,
-                                                             "note": f"Chip name as given for the {rec['name']}."}}, "auto": True}
+            new_chip = {**ch, "summary": "Name recorded automatically from a phone maker's specification page. Chip details have not been compiled yet.",
+                        "provenance": {"default": {"class": "official", "source": source, "url": got["final"], "checked": TODAY,
+                                                   "note": f"Chip name as given for the {rec['name']}."}}, "auto": True}
             hub.chips[hub.chip_key(ch["name"])] = ch["id"]
         try:
             image = picture_for(rec["id"], got)
@@ -1089,11 +1093,12 @@ def find_new(state: dict, hub: Hub, limit: int, log) -> None:
             image = None
         if image:
             rec["image"] = image
-        devices[rec["id"]] = rec
+        # Version 23: nothing joins the site before the open-source AI check (tools/ai_device_check.py) has looked at it
+        state.setdefault("awaitingAi", {})[rec["id"]] = {"record": rec, "url": url, "since": TODAY, **({"chip": new_chip} if new_chip else {})}
         hub.ids.add(rec["id"])
         hub.names[key(rec["name"])] = rec["id"]
         held.pop(url, None)
-        log(f"[devices] ADDED {rec['id']} ({rec['name']}) from {got['final']}; left out: {', '.join(got['left']) or 'nothing'}")
+        log(f"[devices] PASSED THE RULES {rec['id']} ({rec['name']}) from {got['final']}; waiting for the AI check; left out: {', '.join(got['left']) or 'nothing'}")
 
 
 def drop_too_old(state: dict, hub: Hub, log) -> None:
@@ -1237,7 +1242,7 @@ def main() -> int:
         return 0
     AUTO_DEVICES.parent.mkdir(parents=True, exist_ok=True)
     ordered = {k: state[k] for k in ("updatedAt", "runs", "sources", "devices", "chipsets", "held", "fills", "changes",
-                                     "pending", "guessed", "fillCursor", "samsungSince", "priceFills", "tooOld", "seen") if k in state}
+                                     "pending", "awaitingAi", "guessed", "fillCursor", "samsungSince", "priceFills", "tooOld", "seen") if k in state}
     AUTO_DEVICES.write_text(json.dumps(ordered, indent=1, ensure_ascii=False), encoding="utf-8")
     print(f"[devices] {len(state.get('devices') or {})} devices added automatically in total; "
           f"{len(state.get('held') or {})} held for a person; {len(state.get('pending') or {})} waiting")

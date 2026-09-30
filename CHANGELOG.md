@@ -1,6 +1,16 @@
 # Changelog
 
-## 30 September 2026
+## 30 September 2026 (second update)
+
+An open-source AI model now checks every automatically found phone and tablet before it joins the site.
+
+**AI check before a device is added**
+- A model found on its maker's own page, and passing the fixed rules, no longer joins the site straight away: Qwen3.5 9B (run by llama.cpp on the site's build server, both pinned by checksum) is asked which year that exact model first came out, from its own knowledge and the collected headlines that name it. When it is sure the model is older than 2023, the model waits for a person instead of being added. The AI can only stop a model, never add one; nothing is added without its check, and if the check can't run for three days the model waits for a person. A device that passed shows it on its page.
+- Chosen by testing, and kept only because it made additions more accurate: 540 cases, 488 real 2023–2026 phones and tablets from the hub and 52 well-known older models, run with the same code on four processor threads like the build server. With the rules alone 25 of the older models would have been added; with the AI check 17. One more real model waited for a person (the Galaxy Tab A11, which the AI placed in 2022): 6 instead of 5 of 488. Correct decisions went from 510 to 517 of 540.
+- Google's Gemma 4 12B, the newest model that fits the free build server, was tested the same way and stopped no older model the rules missed, so it isn't used. The newest large models (Qwen 3.8 Flash, 111 GB; GLM-5.3 Flash, 200 GB) don't fit the free build server. The wording of the question matters: asked "before 2023, 2023 or later, or not sure?", the same model answered "before 2023" for 30 real 2025–2026 phones it had never heard of; asked for the year, with "unknown" allowed, it says "unknown" for them, and those are added.
+- A name that gives its own year ("Galaxy Tab S6 Lite (2024)") is dated by that year: the series check had wrongly counted it as older than 2023.
+
+## 30 September 2026 (first update)
 
 A check of the live site: the search button opens a small search box over the page you're on, automatically added devices must be from 2023 on, and the AI's launch labels follow the headlines' own words.
 

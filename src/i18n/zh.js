@@ -20,6 +20,8 @@ const ZH = {
   'Search': '搜索',
   'Search devices, chips, news…': '搜索设备、芯片、新闻…',
   'first listed in Malaysia': '马来西亚官网首次上架',
+  'Before it was added, an open-source AI model ({model}) checked that it isn’t an older model listed again.': '加入前，开源 AI 模型（{model}）已检查它不是重新上架的旧机型。',
+  'The AI can only stop a device, never add one. It stops a model it is sure came out before 2023.': 'AI 只能阻止设备加入，不能自行添加；它确定是 2023 年以前推出的机型才会被阻止。',
   'No launch report was found yet, so this is the day the model first appeared on the maker’s Malaysian website.': '尚未找到发布报道，因此这是该机型首次出现在厂商马来西亚官网的日期。',
   'Toggle colour theme': '切换深色/浅色主题',
   'Open menu': '打开菜单',
