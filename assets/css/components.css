@@ -11,6 +11,7 @@
 }
 
 .site-header__inner {
+  position: relative;
   height: var(--header-h);
   display: flex;
   align-items: center;
@@ -126,6 +127,29 @@
 
 .menu-btn,
 .search-btn {
+  display: none;
+}
+
+.search-btn[aria-expanded="true"] {
+  color: var(--ink);
+  border-color: var(--ink-2);
+}
+
+/* Version 22: the search button's small box, under the header on the right, over the current page */
+.search-pop {
+  position: absolute;
+  top: calc(100% + 6px);
+  right: var(--gutter);
+  z-index: 45;
+  width: min(420px, calc(100vw - 2 * var(--gutter)));
+  padding: 8px;
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-lg);
+}
+
+.search-pop[hidden] {
   display: none;
 }
 

@@ -19,6 +19,8 @@ const ZH = {
   'Display currency': '显示货币',
   'Search': '搜索',
   'Search devices, chips, news…': '搜索设备、芯片、新闻…',
+  'first listed in Malaysia': '马来西亚官网首次上架',
+  'No launch report was found yet, so this is the day the model first appeared on the maker’s Malaysian website.': '尚未找到发布报道，因此这是该机型首次出现在厂商马来西亚官网的日期。',
   'Toggle colour theme': '切换深色/浅色主题',
   'Open menu': '打开菜单',
   'Main': '主导航',

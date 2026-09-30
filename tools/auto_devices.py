@@ -20,7 +20,12 @@ pages in the browser and Samsung's spec service doesn't allow automated reading,
 from Samsung Newsroom Malaysia's own launch announcement (collected with the headlines), including the Malaysian price
 when the announcement states one. Models the news is talking about (live/spotted.json) are also looked up on Xiaomi's
 Malaysian site (no sitemap) by its address pattern. Anything that fails a check is listed as held, with the reason,
-for a person to look at. Added devices are labelled "Added automatically" and cite the maker's page for every value; the
+for a person to look at. Version 22: only models from 2023 on join. Apple's own identify-your-model pages give each iPhone's
+and iPad's year; for other makers a model numbered below the oldest of its series in the hub (e.g. "Reno 8" when the hub's
+oldest Reno is a 2023 model) is left out (listed under tooOld), or held for a person when that oldest one is newer than 2023.
+A model added earlier that fails this check is taken off again on the next run. The announced date comes from the
+collected launch news (launch_date: the maker's newsroom, else the earliest launch report a second publication confirms
+within a week; "now available" gives the release date); without one it is the day the maker's site first listed the model. Added devices are labelled "Added automatically" and cite the maker's page for every value; the
 announced date is the day the model first appeared on the maker's Malaysian site (labelled as such). A hand-made record
 with the same id always replaces the automatic one.
 
@@ -98,6 +103,11 @@ GUESS = {
     "xiaomi": {"site": "Xiaomi Malaysia", "source": "xiaomi", "url": "https://www.mi.com/my/product/{slug}/specs/", "brands": {"xiaomi", "redmi", "poco"}},
 }
 APPLE_INDEX = {"smartphone": "https://support.apple.com/en-my/docs/iphone", "tablet": "https://support.apple.com/en-my/docs/ipad"}
+# Version 22: the hub covers models from 2023 on. Apple's own "Identify your iPhone / iPad model" pages give the year each
+# model was introduced ("Year introduced: 2022" / "Year: 2022"); Apple's lists of tech-specs pages don't, and an old
+# model that reappears there must not join as new (seen 28 Sep 2026: the 2022 iPad Pro models).
+START_YEAR = 2023
+APPLE_YEARS = ["https://support.apple.com/en-my/108044", "https://support.apple.com/en-my/108043"]
 SAMSUNG_MY = re.compile(r"^https://news\.samsung\.com/my/")
 GALAXY = re.compile(r"\bGalaxy\s+((?:Z\s+(?:Fold|Flip)\s?\d+(?:\s+(?:Ultra|FE|Special Edition))?)|(?:S\d{2}(?:\s*(?:Ultra|Edge|FE|Plus|\+))?)|"
                     r"(?:Tab\s+[AS]\d{1,2}(?:\s*(?:Ultra|FE|Lite|Plus|\+))?)|(?:[AM]\d{2,3}(?:\s*5G)?))(?![\w+])")
@@ -254,6 +264,36 @@ def slug_matches(slug: str, name: str, brand: str) -> bool:
     return bool(s) and (s == n or s5 == n5 or s5 == n or s == n5)
 
 
+def series_of(name: str, brand: str, brands: dict) -> tuple[str, int] | None:
+    """("reno", 8) for "OPPO Reno8 T", ("galaxy a", 5) for "Galaxy A05", ("", 13) for "Xiaomi 13T Pro". A number with a
+    decimal part is a screen size ("MatePad 11.5"), not a generation: None."""
+    n = name.lower()
+    for w in (str(brands.get(brand, "")).lower(), brand):
+        if w and n.startswith(w + " "):
+            n = n[len(w) + 1:]
+    m = re.match(r"^([a-z]+(?: [a-z]+)*?)?\s*(\d{1,3})(?![\d.])(?:\b|[a-z])", n)
+    return ((m.group(1) or "").strip(), int(m.group(2))) if m else None
+
+
+def apple_years(log) -> dict[str, int] | None:
+    """Model name key -> year introduced, from Apple's own identify-your-model pages. None when they can't be read."""
+    years: dict[str, int] = {}
+    for url in APPLE_YEARS:
+        if not allowed(url):
+            log(f"[devices] apple: robots.txt does not allow {url}")
+            return None
+        status, _, page = fetch(url)
+        if status != 200:
+            log(f"[devices] apple: {url} not read (HTTP {status or 'error'})")
+            return None
+        lines = [x.strip() for x in html.unescape(re.sub(r"<[^>]+>", "\n", page)).split("\n") if x.strip()]
+        for prev, line in zip(lines, lines[1:]):
+            m = re.match(r"Year(?: introduced)?:\s*(\d{4})", line)
+            if m and re.match(r"^(iPhone|iPad)\b", prev):
+                years.setdefault(key(prev.replace("‑", "-")), int(m.group(1)))
+    return years or None
+
+
 class Hub:
     """Names, pages and chips already in the hub."""
 
@@ -280,6 +320,27 @@ class Hub:
                 self.chips[self.chip_key(n)] = c["id"]
         for c in (auto.get("chipsets") or {}).values():
             self.chips.setdefault(self.chip_key(c["name"]), c["id"])
+        # Version 22: numbered series among the hand-checked records ("OPPO Reno" 8, 10, 11 …), for the too-old check
+        self.series: dict[tuple, list[tuple[int, str, str]]] = {}
+        for d in self.devices:
+            s = series_of(d["name"], d.get("brand", ""), self.brands)
+            if s and d.get("category") in PHONE_TABLET:
+                self.series.setdefault((d["brand"], d["category"], s[0]), []).append((s[1], str(d.get("announced") or "")[:4], d["name"]))
+
+    def too_old(self, name: str, brand: str, cat: str) -> tuple[str, str] | None:
+        """("old", why) when the model is numbered below the oldest of its series in the hub and that one is from the
+        hub's first year (so this one is older still); ("hold", why) when it is numbered below a newer oldest one (it may
+        be a 2023+ model the hub doesn't have: a person decides). None when the name gives no such sign."""
+        s = series_of(name, brand, self.brands)
+        known = self.series.get((brand, cat, s[0])) if s else None
+        if not known:
+            return None
+        num, year, oldest = min(known)
+        if s[1] >= num:
+            return None
+        if year and year <= str(START_YEAR):
+            return "old", f"numbered below the {oldest} ({year}), the oldest of its series in the hub, which covers {START_YEAR} on"
+        return "hold", f"numbered below the {oldest}, the oldest of its series in the hub; it may be older than {START_YEAR}"
 
     @staticmethod
     def chip_key(name: str) -> str:
@@ -644,6 +705,104 @@ def new_record(brand: str, source: str, site: str, cat: str, got: dict, first_se
     }
 
 
+# ------------------------------------------------------------------------------------------------ launch date (Version 22)
+OFFICIAL_NEWS = {"apple-newsroom", "samsung-newsroom", "samsung-newsroom-my", "google-blog"}
+_HEADLINES: list[dict] | None = None
+
+
+def _headlines() -> list[dict]:
+    """Every collected headline (latest + archive of about a year), read once."""
+    global _HEADLINES
+    if _HEADLINES is None:
+        seen: dict[str, dict] = {}
+        for f in (ROOT / "live" / "archive.json", ROOT / "live" / "headlines.json"):
+            try:
+                for i in json.loads(f.read_text(encoding="utf-8")).get("items", []):
+                    if i.get("id") and i.get("title") and i.get("published"):
+                        seen.setdefault(i["id"], i)
+            except (OSError, ValueError):
+                pass
+        _HEADLINES = list(seen.values())
+    return _HEADLINES
+
+
+# Announcement wording (past or present tense, the model itself) and sale wording; future, leak or event-coverage wording
+# never gives a date.
+SAID_UNVEILED = re.compile(r"\b(introduces|introduced|unveils|unveiled|announces|announced|launches|launched|debuts|debuted|"
+                           r"goes official|is official|officially launch(?:es|ed))\b|正式发布|(?<!将)(?<!即将)发布[：:，,]|亮相|官宣", re.I)
+SAID_ON_SALE = re.compile(r"\b(now available|available (?:now|today)|goes on sale|on sale (?:now|today)|arrives in stores|hits stores)\b|开售|首销|正式上市", re.I)
+NOT_YET = re.compile(r"\b(will|to launch|set to|expected|launch date|ahead of|teas(?:e|er|es|ed)|leak(?:s|ed)?|rumou?r(?:s|ed)?|"
+                     r"reportedly|tipped|could|may|might|coming|upcoming|soon|when|before|vs\.?|versus|review|hands-on)\b|将|即将|曝光|爆料|预热|定档|对比|评测|上手", re.I)
+
+
+def launch_date(name: str) -> dict | None:
+    """The model's announcement date (and sale date) from the collected news: the maker's own newsroom when it reported
+    it, otherwise the earliest report that a second publication confirms within 7 days (a lone report is not enough).
+    News articles only (no videos or reviews); the name must stand alone ("iQOO 16", not "iQOO 16 Pro"); a headline
+    about what will happen, a leak or an event is never used. None when nothing qualifies."""
+    import fetch_headlines as fh  # noqa: PLC0415
+    words = fh.normalize(re.sub(r"^(Apple|Samsung) ", "", name))
+    if len(words) < 4 or not re.search(r"\d|air|duo|fold|flip", words):
+        return None
+    pat = re.compile(r"(?<![a-z0-9])" + re.escape(words) + r"(?! (?:pro|max|ultra|plus|lite|fe|mini|neo|turbo|edge|s|e|a|x|t|r|\d))(?![a-z0-9])")
+    unveiled, on_sale = [], []
+    for i in _headlines():
+        title = i["title"]
+        if i.get("kind", "news") != "news" or NOT_YET.search(title) or not pat.search(fh.normalize(title)):
+            continue
+        hit = (i["published"][:10], i.get("source", ""), i.get("url", ""), title)
+        if SAID_ON_SALE.search(title):
+            on_sale.append(hit)
+        elif SAID_UNVEILED.search(title):
+            unveiled.append(hit)
+
+    def pick(hits):
+        hits.sort()
+        official = [h for h in hits if h[1] in OFFICIAL_NEWS]
+        if official:
+            day, src, url, title = official[0]
+            return {"date": day, "class": "official", "source": src, "url": url, "note": f"From the maker's own newsroom: “{title[:120]}”."}
+        for n, (day, src, url, title) in enumerate(hits):
+            later = dt.date.fromisoformat(day) + dt.timedelta(days=7)
+            others = {h[1] for h in hits[n + 1:] if h[1] != src and dt.date.fromisoformat(h[0]) <= later}
+            if others:
+                return {"date": day, "class": "news", "source": src, "url": url,
+                        "note": f"The earliest report, “{title[:120]}”, confirmed by {len(others)} other publication(s) within a week."}
+        return None
+
+    got, sale = pick(unveiled), pick(on_sale)
+    if not got and not sale:
+        return None
+    if got and sale and sale["date"] < got["date"]:
+        sale = None                                       # a sale date before the announcement can't be right: left out
+    return {**(got or {}), **({"released": sale} if sale else {})} if got else {"released": sale}
+
+
+def date_record(rec: dict, first_seen: str) -> None:
+    """Version 22: the announced date comes from a launch report when one is found (labelled with its source); otherwise
+    it stays the day the model first appeared on the maker's Malaysian site, and the page says so."""
+    rec.setdefault("auto", {}).setdefault("firstSeen", first_seen)
+    fields = rec.setdefault("provenance", {}).setdefault("fields", {})
+    if (fields.get("announced") or {}).get("source") in OFFICIAL_NEWS | {"samsung-newsroom-my"} and fields["announced"].get("class") == "official" \
+            and rec.get("auto", {}).get("dateFrom") != "first-seen":
+        return                                            # already the maker's own announcement (Samsung's path, or found earlier)
+    found = launch_date(rec["name"]) or {}
+    sale = found.get("released")
+    if sale and not rec.get("released"):
+        rec["released"] = sale["date"]
+        fields["released"] = {"class": sale["class"], "source": sale["source"], "url": sale["url"], "checked": TODAY, "note": sale["note"]}
+    if found.get("date"):
+        rec["announced"] = found["date"]
+        fields["announced"] = {"class": found["class"], "source": found["source"], "url": found["url"], "checked": TODAY, "note": found["note"]}
+        rec["auto"]["dateFrom"] = "launch-report"
+    elif rec["auto"].get("dateFrom") != "launch-report":
+        rec["announced"] = rec["auto"]["firstSeen"]
+        rec["auto"]["dateFrom"] = "first-seen"
+        if rec.get("released") and rec["released"] < rec["announced"]:
+            rec["announced"] = rec["released"]            # on sale before it reached the maker's site: announced by then
+            fields["announced"] = {**fields["released"], "note": "Announcement date not found; the model was on sale by this date."}
+
+
 _F = None
 
 
@@ -691,6 +850,9 @@ def find_new(state: dict, hub: Hub, limit: int, log) -> None:
     devices = state.setdefault("devices", {})
     chipsets = state.setdefault("chipsets", {})
     sources = state.setdefault("sources", {})
+    too_old = state.setdefault("tooOld", {})          # Version 22: models from before 2023, with the reason
+    if "_appleYears" not in state:
+        state["_appleYears"] = apple_years(log)
     for brand, mk in MAKERS.items():
         try:
             urls = []
@@ -740,16 +902,34 @@ def find_new(state: dict, hub: Hub, limit: int, log) -> None:
                 raise OSError(f"HTTP {status}")
             for href, label in re.findall(r'<a[^>]+href="(https://support\.apple\.com/en-my/docs/(?:iphone|ipad)/\d+)"[^>]*>(.*?)</a>', page, re.S):
                 name = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", html.unescape(label))).strip()
-                name = re.sub(r"\s+Wi-Fi(\s*\+\s*Cellular)?$", "", name)
+                # "… Wi-Fi", "… Wi-Fi + Cellular", "… Cellular sub6": one model, whatever the connection
+                name = re.sub(r"\s+(?:Wi-?Fi(?:\s*\+\s*Cellular)?|Cellular)(?:\s+(?:sub6|mmWave))?$", "", name, flags=re.I)
                 if name and re.search(r"^(iPhone|iPad)\b", name) and name not in {e["name"] for e in entries.values()}:
                     entries[href] = {"name": name, "cat": cat}
         if not entries:
             raise OSError("no models listed")
         known = set(seen.get("apple", []))
         sources["apple"] = {"ok": True, "at": now_iso(), "pages": len(entries), "new": 0 if "apple" not in seen else len(set(entries) - known)}
+        years = state.get("_appleYears") or {}
+        for href, e in entries.items():                   # an old model listed again is not new (Version 22)
+            y = years.get(key(e["name"]))
+            if y and y < START_YEAR:
+                if href not in known or href in held or href in pending:
+                    too_old[href] = {"brand": "apple", "name": e["name"], "reason": f"introduced in {y} (Apple's identify-your-model page); the hub covers {START_YEAR} on", "at": TODAY}
+                held.pop(href, None)
+                pending.pop(href, None)
+        for href in [u for u, h in held.items() if h.get("brand") == "apple" and "/docs/" in u and u not in entries and not h.get("name")]:
+            held.pop(href)                                # no longer on Apple's list and never named: nothing left to check
+        for href, h in held.items():                      # an Apple page held earlier: its year is known now
+            name = h.get("name") or (entries.get(href) or {}).get("name", "")
+            y = years.get(key(name)) if h.get("brand") == "apple" else None
+            if y and y < START_YEAR:
+                too_old[href] = {**h, "name": name, "reason": f"introduced in {y} (Apple's identify-your-model page); the hub covers {START_YEAR} on"}
+        for href in too_old:
+            held.pop(href, None)
         if "apple" in seen:
             for href, e in entries.items():
-                if href not in known and not hub.existing(e["name"]):
+                if href not in known and href not in too_old and not hub.existing(e["name"]):
                     pending.setdefault(href, {"brand": "apple", "cat": e["cat"], "slug": None, "name": e["name"], "firstSeen": TODAY,
                                               "tries": 0, "apple": True})
         else:
@@ -835,6 +1015,9 @@ def find_new(state: dict, hub: Hub, limit: int, log) -> None:
             honor += 1
         done += 1
         brand = p["brand"]
+        if p.get("apple") and not state.get("_appleYears"):
+            done -= 1                                     # no year to check against: the model waits for a later run
+            continue
         if p.get("apple"):
             mk = {"site": "Apple Malaysia", "source": "apple-support"}
             got, why = read_apple(url, p, hub)
@@ -851,7 +1034,7 @@ def find_new(state: dict, hub: Hub, limit: int, log) -> None:
         pending.pop(url, None)
         if got is None:
             if not p.get("guess"):                        # a wrong address guess is not worth listing
-                held[url] = {"brand": brand, "reason": why, "at": TODAY}
+                held[url] = {"brand": brand, "reason": why, "at": TODAY, **({"name": p["name"]} if p.get("name") else {})}
             log(f"[devices] {url}: not added ({why})")
             continue
         existing = hub.existing(got["name"])
@@ -860,6 +1043,14 @@ def find_new(state: dict, hub: Hub, limit: int, log) -> None:
             continue
         if EDITION.search(got["name"]):
             held[url] = {"brand": brand, "name": got["name"], "reason": "a special edition; left for a person to decide", "at": TODAY}
+            continue
+        # Version 22: only models from 2023 on (Apple: the year Apple gives; others: the model's number in its series)
+        year = (state.get("_appleYears") or {}).get(key(re.sub(r"^Apple ", "", got["name"]))) if brand == "apple" else None
+        age = (("old", f"introduced in {year} (Apple's identify-your-model page); the hub covers {START_YEAR} on")
+               if year and year < START_YEAR else None) or hub.too_old(re.sub(r"^(Apple|Samsung) ", "", got["name"]), brand, p["cat"])
+        if age:
+            (too_old if age[0] == "old" else held)[url] = {"brand": brand, "name": got["name"], "reason": age[1], "at": TODAY}
+            log(f"[devices] {url}: {got['name']} not added ({age[1]})")
             continue
         why = core_ok(got["specs"], p["cat"], "samsung-news" if p.get("samsung") else brand)
         if why:
@@ -878,6 +1069,11 @@ def find_new(state: dict, hub: Hub, limit: int, log) -> None:
                 rec.pop("availability", None)
             else:
                 rec["availability"]["MY"]["note"] = "Announced by Samsung Malaysia. No Malaysian launch price has been recorded yet."
+        date_record(rec, p["firstSeen"])                  # Version 22: launch date from a launch report when there is one
+        if rec["announced"][:4] < str(START_YEAR):
+            too_old[url] = {"brand": brand, "name": got["name"], "reason": f"launched in {rec['announced'][:4]} (launch report); the hub covers {START_YEAR} on", "at": TODAY}
+            log(f"[devices] {url}: {got['name']} not added (launched {rec['announced']})")
+            continue
         if rec["id"] in hub.ids:
             held[url] = {"brand": brand, "name": got["name"], "reason": f"its id ({rec['id']}) is already used", "at": TODAY}
             continue
@@ -898,6 +1094,32 @@ def find_new(state: dict, hub: Hub, limit: int, log) -> None:
         hub.names[key(rec["name"])] = rec["id"]
         held.pop(url, None)
         log(f"[devices] ADDED {rec['id']} ({rec['name']}) from {got['final']}; left out: {', '.join(got['left']) or 'nothing'}")
+
+
+def drop_too_old(state: dict, hub: Hub, log) -> None:
+    """Version 22: a model added automatically that turns out to be from before 2023 is taken off again (every run)."""
+    devices = state.get("devices") or {}
+    if not devices:
+        return
+    if any(d.get("brand") == "apple" for d in devices.values()) and "_appleYears" not in state:
+        state["_appleYears"] = apple_years(log)
+    years = state.get("_appleYears") or {}
+    for dev_id, rec in list(devices.items()):
+        name, brand = rec.get("name", ""), rec.get("brand", "")
+        before = rec.get("announced")
+        date_record(rec, (rec.get("auto") or {}).get("firstSeen") or before or TODAY)
+        if rec.get("announced") != before:
+            log(f"[devices] {dev_id}: announced date {before} -> {rec['announced']} ({rec['provenance']['fields']['announced'].get('source')})")
+        y = years.get(key(name)) if brand == "apple" else None
+        if not y and (rec.get("auto") or {}).get("dateFrom") == "launch-report":
+            y = int(rec["announced"][:4])
+        age = (("old", f"introduced in {y} ({'Apple' + chr(39) + 's identify-your-model page' if brand == 'apple' and years.get(key(name)) else 'launch report'}); the hub covers {START_YEAR} on") if y and y < START_YEAR
+               else None) or hub.too_old(name, brand, rec.get("category", ""))
+        if age and age[0] == "old":
+            devices.pop(dev_id)
+            url = (rec.get("auto") or {}).get("url") or dev_id
+            state.setdefault("tooOld", {})[url] = {"brand": brand, "name": name, "reason": age[1], "at": TODAY, "removed": dev_id}
+            log(f"[devices] REMOVED {dev_id} ({name}): {age[1]}")
 
 
 def fill_existing(state: dict, hub: Hub, limit: int, log) -> None:
@@ -993,6 +1215,7 @@ def main() -> int:
     runs = state.setdefault("runs", {})
     lines: list[str] = []
     log = lambda s: (print(s, flush=True), lines.append(s))
+    drop_too_old(state, hub, log)
     for job, fn, lim in (("new", find_new, args.limit), ("fill", fill_existing, args.fill_limit)):
         if args.only and args.only != job:
             continue
@@ -1008,12 +1231,13 @@ def main() -> int:
     # held entries older than 60 days are forgotten (the page is then treated as seen)
     cutoff = (dt.date.today() - dt.timedelta(days=60)).isoformat()
     state["held"] = {u: h for u, h in (state.get("held") or {}).items() if h.get("at", TODAY) >= cutoff}
+    state.pop("_appleYears", None)
     if args.dry:
-        print(json.dumps({k: state.get(k) for k in ("devices", "held", "fills", "changes", "sources")}, indent=1, ensure_ascii=False)[:6000])
+        print(json.dumps({k: state.get(k) for k in ("devices", "held", "tooOld", "fills", "changes", "sources")}, indent=1, ensure_ascii=False)[:6000])
         return 0
     AUTO_DEVICES.parent.mkdir(parents=True, exist_ok=True)
     ordered = {k: state[k] for k in ("updatedAt", "runs", "sources", "devices", "chipsets", "held", "fills", "changes",
-                                     "pending", "guessed", "fillCursor", "samsungSince", "priceFills", "seen") if k in state}
+                                     "pending", "guessed", "fillCursor", "samsungSince", "priceFills", "tooOld", "seen") if k in state}
     AUTO_DEVICES.write_text(json.dumps(ordered, indent=1, ensure_ascii=False), encoding="utf-8")
     print(f"[devices] {len(state.get('devices') or {})} devices added automatically in total; "
           f"{len(state.get('held') or {})} held for a person; {len(state.get('pending') or {})} waiting")

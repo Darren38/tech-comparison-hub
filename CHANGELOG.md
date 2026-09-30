@@ -1,5 +1,27 @@
 # Changelog
 
+## 30 September 2026
+
+A check of the live site: the search button opens a small search box over the page you're on, automatically added devices must be from 2023 on, and the AI's launch labels follow the headlines' own words.
+
+**Search from any page without leaving it**
+- On screens where the header has no room for the search box (most laptops, tablets and phones), the search button used to open the Search page, so the page being read was gone. It now opens a small search box under the header on the right, over the current page, with the same suggestions as you type (devices, chips, headlines, reviews, comparisons). Choosing a suggestion or pressing Enter goes there; Escape, the button again or a click elsewhere closes the box and leaves the page as it was. "See all results" still opens the full Search page.
+
+**Automatically added devices: 2023 on only**
+- Apple Support Malaysia's list of iPad pages briefly showed two 2022 models again, and on 28 September the automatic reader added the iPad Pro 11-inch (4th generation) and 12.9-inch (6th generation) as if they were new. Apple's own "Identify your iPhone model" and "Identify your iPad model" pages give the year each model was introduced; an iPhone or iPad from before 2023 is no longer added, and the two iPads are taken off on the next run.
+- For the other makers, a model numbered below the oldest of its series in the hub when that one is from 2023 ("Reno8" next to the Reno10, "Xiaomi 12T" next to the Xiaomi 13) is left out as older; where the hub's oldest of the series is newer than 2023 the model waits for a person instead. A model already added that turns out to be older is taken off again. Every phone and tablet already in the hub passes the check, with or without its maker's name.
+
+**Launch dates of automatically added devices**
+- An automatically added model used to be dated by the day it first appeared on the maker's Malaysian site. Its announced date now comes from the collected launch news: the maker's own newsroom when it reported the launch (Apple Newsroom, Samsung Newsroom, Google's blog), otherwise the earliest launch report that a second publication confirms within a week. A "now available" or "goes on sale" report gives the release date instead. Headlines about what will happen, leaks, event coverage, reviews and videos never give a date, and the model's name must stand alone ("iQOO 16", not "iQOO 16 Pro"). The device page links the report used, marked as news where it isn't the maker's own; when none is found yet it says "first listed in Malaysia". Dates are looked at again on every run, so a launch report that arrives later still corrects the date, and a model whose launch report is from before 2023 is taken off.
+- Tested on the hub's hand-checked phones and tablets: every date found this way agreed with the checked date within a week. A first version that also used "now available" and event-coverage headlines gave two wrong dates (iPhone 17e's sale date as its announcement; a video about going to Apple's event as the iPhone 18 Pro's launch) and was tightened before release.
+
+**New-model labels on the Coverage page follow the headlines' words**
+- The open-source AI model labelled "OnePlus 16" as launched from the headline "OnePlus 16 gets an official launch date". Its label can now be no stronger than the headlines' own words support: "launches with …", "goes on sale", "发布" for launched; "launch date", "unveiled", "pre-order", "官宣" for announced; "teaser", "confirms" for teased; otherwise rumoured. The AI may still choose a weaker label; labels given earlier are corrected the same way.
+
+**Smaller fixes from the live check**
+- SoyaCincau now tells browsers not to show its pictures on other websites, so its headline thumbnails could never load (the page fell back to a name tile, with an error behind the scenes). Its headlines are now text-only, like GSMArena's.
+- On the narrowest phones (320 px wide) the "Auto · every 3 hours" label beside a device page's headline list stuck out past the screen edge and the page could be pushed sideways; the label now moves under the title when there's no room.
+
 ## 27 September 2026
 
 Device pages now show older reviews, tests, videos and news too, headline matching is sharper, an open-source AI model checks doubtful matches on the build server, and the on-device AI no longer sits at "0%".

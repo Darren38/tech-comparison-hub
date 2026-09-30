@@ -55,6 +55,17 @@ function testedBy(data) {
   return html`<p class="dhead__tested small"><span class="muted">Tested by</span> ${list.map(([id, n]) => html`<a class="src-pill" href="${href(`/source/${id}`)}" title="${plural(n, 'result')} from ${sourceName(id)}">${sourceName(id)} <span class="num">${n}</span></a>`)}</p>`;
 }
 
+// Version 22: an automatically added device says where its dates come from: a launch report (linked, with the reason in
+// the tooltip) or, when none was found, the day the maker's Malaysian site first listed it.
+function autoDateSource(d, field) {
+  if (!d.auto) return '';
+  const p = d.provenance?.fields?.[field];
+  if (p?.url && (field === 'released' || d.auto.dateFrom !== 'first-seen')) {
+    return html` <span class="tiny muted" title="${p.note ?? ''}">(${extLink(p.url, sourceName(p.source) ?? t('Source'))}${p.class === 'news' ? html` ${provBadge('news')}` : ''})</span>`;
+  }
+  return field === 'announced' ? html` <span class="tiny muted" title="${t('No launch report was found yet, so this is the day the model first appeared on the maker’s Malaysian website.')}">(${t('first listed in Malaysia')})</span>` : '';
+}
+
 function header(data, row) {
   const d = data.device;
   const cat = categoryDef(d.category);
@@ -76,8 +87,8 @@ function header(data, row) {
         ${d.highlights?.length ? html`<ul class="dhead__highlights">${d.highlights.map((h) => html`<li>${h}</li>`)}</ul>` : ''}
         ${testedBy(data)}
         <div class="dhead__facts small">
-          <span><span class="muted">Announced</span> ${fmtDate(d.announced)}</span>
-          ${d.released ? html`<span><span class="muted">Released</span> ${fmtDate(d.released)}</span>` : ''}
+          <span><span class="muted">Announced</span> ${fmtDate(d.announced)}${autoDateSource(d, 'announced')}</span>
+          ${d.released ? html`<span><span class="muted">Released</span> ${fmtDate(d.released)}${autoDateSource(d, 'released')}</span>` : ''}
           ${data.chipset ? html`<span><span class="muted">Chipset</span> <a href="${href(`/chipset/${data.chipset.id}`)}">${data.chipset.name}</a></span>` : ''}
           ${status}
           ${evidence}

@@ -52,7 +52,9 @@ UA = "Mozilla/5.0 (compatible; TechComparisonHub/5.0; headline collector)"
 ATOM = "{http://www.w3.org/2005/Atom}"
 MEDIA = "{http://search.yahoo.com/mrss/}"
 CONTENT = "{http://purl.org/rss/1.0/modules/content/}encoded"
-NO_IMAGE_SOURCES = {"gsmarena"}  # headlines stay text-only for these sources
+NO_IMAGE_SOURCES = {"gsmarena", "soyacincau"}  # headlines stay text-only for these sources
+# Version 22: SoyaCincau's pictures now carry Cross-Origin-Resource-Policy: same-origin, so browsers refuse to show
+# them on any other site (every thumbnail failed on the live site); its headlines are text-only too.
 KINDS = {"news", "review", "video"}
 # Version 17: every headline that names a device or chipset is kept in live/archive.json for a year, so device and
 # chipset pages build up their own news, reviews, videos and test reports over time. Matching is re-run over the
@@ -413,6 +415,8 @@ def update_archive(items: list[dict], keys, chip_keys, video_views: dict[str, in
     cutoff = (now - dt.timedelta(days=ARCHIVE_DAYS)).isoformat()
     kept = []
     for item in merged.values():
+        if item.get("source") in NO_IMAGE_SOURCES:
+            item["image"] = None                          # a picture saved before its source became text-only
         tag_item(item, keys, chip_keys)
         vid = youtube_id(item.get("url"))
         if vid and vid in video_views:

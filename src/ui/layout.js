@@ -45,11 +45,17 @@ export function renderHeader() {
           ${icon('search', { size: 16 })}
           <input type="search" name="q" placeholder="${t('Search devices, chips, news…')}" autocomplete="off" aria-label="${t('Search')}" />
         </form>
-        <a class="icon-btn search-btn" href="${href('/search')}" aria-label="Search">${icon('search')}</a>
+        <button type="button" class="icon-btn search-btn" data-action="search" aria-label="${t('Search')}" aria-expanded="false" aria-controls="search-pop">${icon('search')}</button>
         ${currencySelect('header')}
         <button type="button" class="lang-btn" data-action="lang" aria-label="${lang() === 'zh' ? 'Switch to English' : '切换到中文'}" title="${lang() === 'zh' ? 'English' : '中文'}"><span class="${lang() === 'en' ? 'is-on' : ''}">EN</span><span class="${lang() === 'zh' ? 'is-on' : ''}">中文</span></button>
         <button type="button" class="icon-btn" data-action="theme" aria-label="${t('Toggle colour theme')}">${icon(theme.effective() === 'dark' ? 'sun' : 'moon')}</button>
         <button type="button" class="icon-btn menu-btn" data-action="menu" aria-label="${t('Open menu')}" aria-expanded="false" aria-controls="mobile-nav">${icon('menu')}</button>
+      </div>
+      <div class="search-pop" id="search-pop" hidden>
+        <form class="searchbox" role="search" data-searchbox-pop>
+          ${icon('search', { size: 16 })}
+          <input type="search" name="q" placeholder="${t('Search devices, chips, news…')}" autocomplete="off" aria-label="${t('Search')}" />
+        </form>
       </div>
     </div>
     <nav class="mobile-nav" id="mobile-nav" aria-label="Main (mobile)">${NAV.map((n) => html`<a href="${href(n.path)}" data-nav="${n.match.join(' ')}">${t(n.label)}</a>`)}${currencySelect('mobile')}</nav>`);
@@ -64,6 +70,46 @@ export function renderHeader() {
     });
     window.addEventListener('pageshow', () => { headerInput.value = ''; });
   }
+  bindSearchPop(root);
+}
+
+// Version 22: where the header has no room for the search box (narrower screens), the search button opens a small
+// search box under the header on the right, over the page the visitor is reading, instead of leaving for the Search page.
+function bindSearchPop(root) {
+  const pop = root.querySelector('#search-pop');
+  const button = root.querySelector('[data-action="search"]');
+  const form = pop?.querySelector('[data-searchbox-pop]');
+  if (!pop || !button || !form) return;
+  bindSearchBox(form);
+  const input = form.querySelector('input');
+  const setOpen = (open, { focusButton = false } = {}) => {
+    if (open === !pop.hidden) return;
+    pop.hidden = !open;
+    button.setAttribute('aria-expanded', String(open));
+    if (open) {
+      const nav = document.getElementById('mobile-nav');
+      if (nav) nav.dataset.open = 'false';
+      root.querySelector('[data-action="menu"]')?.setAttribute('aria-expanded', 'false');
+      input.value = '';
+      input.focus();
+    } else {
+      input.value = '';
+      form.querySelector('.suggest')?.setAttribute('hidden', '');
+      if (focusButton) button.focus();
+    }
+  };
+  button.addEventListener('click', () => setOpen(pop.hidden));
+  // Escape closes the suggestions first (bindSearchBox), then the box itself. Capture phase: this runs before the
+  // input's own handler, so it sees whether the suggestions were open when the key was pressed.
+  form.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && form.querySelector('.suggest')?.hidden !== false) setOpen(false, { focusButton: true });
+  }, true);
+  document.addEventListener('click', (e) => {
+    if (!pop.hidden && !pop.contains(e.target) && !button.contains(e.target)) setOpen(false);
+  });
+  // a suggestion or Enter took the visitor somewhere: the box has done its job
+  window.addEventListener('hashchange', () => setOpen(false));
+  root.querySelector('[data-action="menu"]')?.addEventListener('click', () => setOpen(false));
 }
 
 export function updateNav(segments) {

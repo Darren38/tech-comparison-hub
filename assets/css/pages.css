@@ -94,6 +94,7 @@
   font-size: 17px;
   margin: var(--sp-5) 0 var(--sp-3);
   display: flex;
+  flex-wrap: wrap; /* Version 22: on 320px phones the "Auto · every 3 hours" badge moves under the title */
   align-items: baseline;
   gap: 8px;
 }

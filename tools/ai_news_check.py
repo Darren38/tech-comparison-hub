@@ -63,6 +63,27 @@ SPOT_SYSTEM = (
     "Judge only from the headlines. Answer only with JSON."
 )
 SPOT_SCHEMA = {"type": "object", "properties": {"status": {"type": "string", "enum": STATUSES}}, "required": ["status"]}
+# Version 22: the model's status is capped by what the headlines' own words support (seen: "OnePlus 16 gets an official
+# launch date" read as "launched"). The model may pick a lower status than the words allow, never a higher one.
+LEVEL = {"rumoured": 0, "teased": 1, "announced": 2, "launched": 3}
+SAID_LAUNCHED = re.compile(r"\b(launched\b(?!\s+(?:date|event))|launches\b(?!\s+(?:date|event|timeline|soon|on\b))(?![^|]{0,30}?\bon\s+(?:[a-z]+\s+)?\d)|goes on sale|on sale now|now (?:on sale|available)|"
+                           r"available now|released\b|debuts?\b|arrives?\b|hits (?:stores|shelves)|goes official)|(?<!将)(?<!即将)(?:手机)?发布(?![会前])|上市|开售|首销", re.I)
+SAID_ANNOUNCED = re.compile(r"\b(announc(?:es|ed|ement)|unveil(?:s|ed)?|official(?:ly)?|launch (?:date|event)|launch(?:es)?\b[^|]{0,30}?\bon\s+(?:[a-z]+\s+)?\d|pre-?orders?|priced?\b|prices?\b)|"
+                            r"官宣|定档|发布会|将发布|预售|预约|起售|元起", re.I)
+SAID_TEASED = re.compile(r"\b(teas(?:es|ed|er)|confirm(?:s|ed)?|shows? off|previews?)|预热|官方确认", re.I)
+
+
+def supported(titles: list[str]) -> int:
+    """The highest status the headlines' words support (0 rumoured … 3 launched)."""
+    text = " | ".join(titles)
+    return 3 if SAID_LAUNCHED.search(text) else 2 if SAID_ANNOUNCED.search(text) else 1 if SAID_TEASED.search(text) else 0
+
+
+def capped(status: str | None, titles: list[str]) -> str | None:
+    if status not in LEVEL:
+        return status
+    top = supported(titles)
+    return status if LEVEL[status] <= top else next(k for k, v in LEVEL.items() if v == top)
 
 
 def chat(system: str, user: str, schema: dict, max_tokens: int = 40) -> dict:
@@ -172,8 +193,10 @@ def check_item(item: dict, keys, fam: dict, words: dict) -> dict:
 
 def check_spotted(model: dict) -> dict:
     lines = "\n".join(f"- {e['title']}" for e in model.get("examples", [])[:4])
-    status = chat(SPOT_SYSTEM, f"Product name: {model['name']}\nHeadlines:\n{lines}", SPOT_SCHEMA).get("status")
-    return {"name": model["name"], "status": status if status in STATUSES else None, "checked": now_iso(),
+    said = chat(SPOT_SYSTEM, f"Product name: {model['name']}\nHeadlines:\n{lines}", SPOT_SCHEMA).get("status")
+    said = said if said in STATUSES else None
+    status = capped(said, [e["title"] for e in model.get("examples", [])[:4]])
+    return {"name": model["name"], "status": status, **({"aiSaid": said} if said != status else {}), "checked": now_iso(),
             "sig": hashlib.sha1((model["name"] + "|" + lines).encode("utf-8")).hexdigest()[:10]}
 
 
@@ -230,6 +253,18 @@ def main() -> int:
     keys = fh.load_keys()
     fam, words = families()
     items, spotted = pending(ai, keys, fam, words)
+    # statuses given before the word check existed are capped the same way (no model needed)
+    recapped = 0
+    for m in load(fh.SPOTTED_OUT, {}).get("models", []):
+        entry = ai["spotted"].get(fh.normalize(m["name"]))
+        if entry and entry.get("status") in LEVEL:
+            new = capped(entry["status"], [e["title"] for e in m.get("examples", [])[:4]])
+            if new != entry["status"]:
+                entry["aiSaid"], entry["status"] = entry["status"], new
+                recapped += 1
+    if recapped and not a.pending:
+        save(OUT, ai)
+        print(f"{recapped} spotted status(es) capped to what the headlines' words support")
     if a.pending:
         print(json.dumps({"headlines": len(items), "spotted": len(spotted)}))
         return 0
