@@ -1,5 +1,31 @@
 # Changelog
 
+## 2 October 2026
+
+Samsung's own release date for the newest One UI, for each Galaxy model, and faster first visits.
+
+**One UI: Samsung's official release date, for every Galaxy model**
+- The Software updates tab now leads with Samsung's own announcement: "Official release: 16 Sep 2026, starting with Galaxy S26, Galaxy S26+ and Galaxy S26 Ultra", that it came first on the Galaxy Z Fold8 Ultra, Z Fold8 and Z Flip8, and that Samsung Malaysia announced it on 18 Sep 2026. Every 6 hours the newest "official rollout of One UI N" press release is found among Samsung Newsroom's headlines (global and Malaysia) and the release itself is read for the start date and the first models it names (where Samsung's site can't be reached, the Internet Archive's copy of the same page is read). Only the facts are kept: version, dates, models, link.
+- "When each Galaxy got One UI 9" (it was "Which Galaxy phones got One UI 9 first") marks Samsung's own dates as Official, the models that came with it, and for every other model the first publication to report the stable update reaching it (any country). Before, the Galaxy S26 showed 23 Sep, the first press report, a week after Samsung's own date.
+- Each Galaxy phone and tablet page says the same in its header: "One UI 9 16 Sep 2026 (official release · Samsung Newsroom)", "came with it", "28 Sep 2026 (first reported · Sammy Fans)", or, for a model still within its update promise, "no stable update reported for this model yet".
+- Two errors found on the way and fixed: "Galaxy S24 series gets ready for One UI 9 with September 2026 patch" had been counted as the S24 getting One UI 9 (headlines about what is coming, a delay, a schedule, a leak or development no longer count; "rolling out … following delay" still does), and a headline about a whole series ("the Galaxy S25 series … getting stable One UI 9") now covers the S25+ and S25 Ultra as well, not only the S25. Only the big update counts: a later "One UI 9.5" is a different update.
+
+**Faster first visits**
+- Measured on the live site before the change: the home page showed nothing for 2.8 s on a desktop computer, because the site's code arrives as separate files and the browser only learned of each file after downloading the one before it (about eight downloads in a row, then the data). The page now names every code file it needs in advance, the data starts downloading straight away, and the code for the page being opened is fetched at the same time. The list is generated from the code itself (tools/preload.py, also run by the build), so it can't fall out of date.
+- Measured with the same network delay before and after the change (first visit): home 2.05 s → 1.53 s, device page 1.73 s → 1.47 s, news 1.69 s → 1.34 s; on a simulated mid-range phone over 4G, home 5.2 s → 4.3 s, device page 5.0 s → 4.3 s, and repeat visits to the home page 1.7 s → 1.2 s. The live site should gain more, because GitHub sends many files at once over one connection.
+- The browser also connects early to the two outside services every visit uses (live exchange rates and the headline relay).
+- Ask the hub answers in 0.03–0.25 s and search suggestions appear in 0.2–0.6 s; these were already quick and are unchanged.
+
+**AI answers (the free model that runs in your browser)**
+- Measured with Qwen3.5 2B on a laptop with an RTX 4060: the first time, about 2¼ minutes to download (1.1 GB, depends on the connection) and start; afterwards it starts in about 3–4 s. An answer takes 12–19 s: about 5 s to understand the question, under a second to look it up (a few seconds for news, which fetches the newest headlines), and 7–10 s to write.
+- Every AI answer is checked against the site's data before it is shown, so it can't appear word by word. Until now the panel showed only "Understanding… Looking it up… Writing…" for those 12–19 s. The site's own verified answer to the question now appears underneath straight away (in about 0.05 s), so there is something to read at once; the checked AI explanation replaces it when it is ready.
+- An AI answer that reached the length limit used to end mid-sentence ("…it has weak points in", or a half-received Chinese character); the unfinished last sentence is now left out.
+- Tried and withdrawn: skipping the layout of device-page sections below the screen made the page ready 24% sooner on a phone, but the outline's jump to "News" or "Sources" could land in the wrong place and Back could return to the wrong spot, so it was taken out before release.
+- Going Back to a long page now keeps trying to return to your place for up to 5 seconds while the page finishes drawing (it was 1 second), and stops as soon as you scroll yourself.
+
+**Automatic devices**
+- When a maker's robots.txt can't be loaded at all (a timeout), the page is tried again on a later run instead of being listed as "not allowed".
+
 ## 30 September 2026 (second update)
 
 An open-source AI model now checks every automatically found phone and tablet before it joins the site.

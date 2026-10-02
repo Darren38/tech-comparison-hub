@@ -31,6 +31,8 @@ const OFFICIAL_SOURCES = new Set(['apple-newsroom', 'apple-developer', 'samsung-
 const ONEUI_VERSION = /\bone ?ui ?(\d+(?:\.\d+)?)/i;
 const ROLLOUT = /\b(?:rolling out|rolls? out|rollout|stable|now available|arriv\w*|gets?|getting|receiv\w*|begins?|starts?|update brings|lands?)\b|推送|正式版/i;
 const BETA = /\bbeta\b|内测|公测/i;
+// Version 24: not (yet) the update itself: "gets ready for One UI 9 with September patch", "could arrive", "delayed", "when …"
+const NOT_YET = /\b(?:ready for|prepar\w*|ahead of|will|could|may|might|expected|expect|soon|coming|upcoming|(?<!following |after (?:a )?)delay\w*|development|schedule|timeline|when|roadmap|eligible|which (?:galaxy )?(?:phones|devices)|leak\w*|rumou?r\w*|tipped|hints?|spotted|test(?:ing|s)?)\b|即将|预计|曝光/i;
 const OTHER_OS = /\b(?:android \d+|hyperos|coloros|oxygenos|originos|magicos|harmonyos|funtouch|realme ui|wear os|pixel drop)\b|澎湃OS|鸿蒙|ColorOS|OriginOS|MagicOS/i;
 const PHONE_WORDS = /\b(?:pixel|galaxy|xiaomi|redmi|poco|oppo|vivo|iqoo|honor|huawei|oneplus|realme|motorola|nothing|phones?|smartphones?|tablets?|watch)\b|手机|平板/i;
 
@@ -102,23 +104,101 @@ const officialNote = (o) => html`<span class="tiny muted">${t('Official')} · ${
 
 // ------------------------------------------------------------------ Software updates
 
-/** One UI rollout, worked out from headlines: the newest stable version, which phones were reported first and Malaysia. */
-export function oneUiRollout(items) {
+/** One UI rollout: the newest stable version and when each Galaxy model got it. Version 24: Samsung's own word comes first:
+ *  the release announcement (live/official.json samsungOneUi: start date, first models, models it debuted on) and any later
+ *  Samsung Newsroom headline naming a model are "official"; otherwise the first publication to report it ("reported"). */
+export function oneUiRollout(items, official) {
   const reports = [];
   for (const i of items) {
-    if (!has(i, 'oneui') || BETA.test(i.title) || !ROLLOUT.test(i.title)) continue;
+    if (!has(i, 'oneui') || BETA.test(i.title) || NOT_YET.test(i.title) || !ROLLOUT.test(i.title)) continue;
     const m = ONEUI_VERSION.exec(i.title);
-    if (!m || !i.published) continue;
+    // the big update only: "One UI 9" or "9.0" (a later "9.5" is a different, smaller update)
+    if (!m || !i.published || !/^\d+(?:\.0)?$/.test(m[1])) continue;
     reports.push({ item: i, version: m[1].replace(/\.0$/, ''), major: parseFloat(m[1]) });
   }
-  if (!reports.length) return null;
-  const top = Math.max(...reports.map((r) => Math.floor(r.major)));
+  const sam = official?.samsungOneUi;
+  if (!reports.length && !sam) return null;
+  const top = Math.max(...reports.map((r) => Math.floor(r.major)), sam ? Number(sam.version) : 0);
   const mine = reports.filter((r) => Math.floor(r.major) === top).sort((a, b) => a.item.published.localeCompare(b.item.published));
-  const firstBy = new Map();
-  for (const r of mine) for (const id of r.item.devices ?? []) if (!firstBy.has(id) && store.deviceById.get(id)) firstBy.set(id, r.item);
-  const official = mine.find((r) => r.item.source.startsWith('samsung-newsroom'));
+  const forTop = sam && Number(sam.version) === top ? sam : null;
+  const byDevice = new Map();
+  const put = (id, entry) => {
+    if (!store.deviceById.get(id)) return;
+    const old = byDevice.get(id);
+    // came with it beats everything; official beats reported; otherwise the earlier date wins
+    if (old?.kind === 'debut') return;
+    if (!old || entry.kind === 'debut' || (entry.kind === 'official' && old.kind !== 'official') || (entry.kind === old.kind && entry.date < old.date)) byDevice.set(id, entry);
+  };
+  if (forTop) {
+    for (const id of forTop.debutIds ?? []) put(id, { kind: 'debut', date: String(store.deviceById.get(id)?.announced ?? forTop.announced).slice(0, 10), url: forTop.url, source: forTop.source });
+    for (const id of forTop.firstIds ?? []) put(id, { kind: 'official', date: forTop.rolloutStart ?? forTop.announced, url: forTop.url, source: forTop.source });
+  }
+  for (const r of mine) {
+    const kind = r.item.source.startsWith('samsung-newsroom') ? 'official' : 'reported';
+    for (const id of seriesOf(r.item)) put(id, { kind, date: r.item.published.slice(0, 10), url: r.item.url, source: r.item.source, malaysia: isMalaysian(r.item) });
+  }
+  const order = { debut: 0, official: 1, reported: 2 };
+  const devices = [...byDevice.entries()].sort(([, a], [, b]) => (a.kind === 'debut') - (b.kind === 'debut') || a.date.localeCompare(b.date) || order[a.kind] - order[b.kind]);
+  const officialItem = mine.find((r) => r.item.source.startsWith('samsung-newsroom'))?.item;
   const malaysia = mine.find((r) => isMalaysian(r.item));
-  return { version: String(top), first: mine[0].item, official: official?.item, malaysia: malaysia?.item, devices: [...firstBy.entries()] };
+  return {
+    version: String(top), first: mine[0]?.item ?? null, malaysia: malaysia?.item, devices,
+    official: forTop ?? (officialItem ? { announced: officialItem.published.slice(0, 10), url: officialItem.url, source: officialItem.source } : null),
+  };
+}
+
+/** The models a headline is about; "Galaxy S24 series" also means the S24+ and S24 Ultra (Samsung's series naming). */
+function seriesOf(item) {
+  const ids = [...(item.devices ?? [])];
+  if (/\bseries\b|系列/i.test(item.title)) {
+    for (const id of item.devices ?? []) for (const sib of [`${id}-plus`, `${id}-ultra`]) if (store.deviceById.get(sib) && !ids.includes(sib)) ids.push(sib);
+  }
+  return ids;
+}
+
+const ONEUI_OF = /one ?ui\s*(\d+)/i;
+/** What a Galaxy model's page says about the newest One UI: came with it, Samsung's release date for it, the first report
+ *  of it reaching that model, or (a model still within its update promise) no report yet. Null when it doesn't apply. */
+export function oneUiForDevice(d, rollout) {
+  if (!rollout || d?.brand !== 'samsung' || !['smartphone', 'tablet'].includes(d.category)) return null;
+  const v = Number(rollout.version);
+  const launch = Number(ONEUI_OF.exec(d.specs?.software?.launch_os ?? '')?.[1] ?? NaN);
+  const entry = rollout.devices.find(([id]) => id === d.id)?.[1];
+  if (entry) return { version: rollout.version, ...entry };
+  if (launch >= v) return { version: rollout.version, kind: 'debut', date: String(d.announced ?? '').slice(0, 10) };
+  const years = d.specs?.software?.os_updates_years;
+  const year = Number(String(d.announced ?? '').slice(0, 4));
+  const now = Number(String(rollout.official?.announced ?? rollout.first?.published ?? '').slice(0, 4)) || new Date().getFullYear();
+  if (years && year && year + years >= now && launch < v) return { version: rollout.version, kind: 'none' };
+  return null;
+}
+
+/** The line a Galaxy device page shows about the newest One UI (filled in after the page draws). */
+export function oneUiLine(st, rollout) {
+  if (!st) return '';
+  const label = html`<span class="muted">One UI ${st.version}</span>`;
+  if (st.kind === 'debut') return html`${label} ${t('came with it')}${st.date ? html` (${fmtDate(st.date)})` : ''}`;
+  if (st.kind === 'official') return html`${label} <strong>${fmtDate(st.date)}</strong> <span class="tiny muted">(${t('official release')} · ${extLink(st.url, sourceName(st.source))})</span>`;
+  if (st.kind === 'reported') return html`${label} ${fmtDate(st.date)} <span class="tiny muted" title="${t('Samsung has not announced a date for this model; this is the first publication to report the stable update reaching it (any country).')}">(${t('first reported')} · ${extLink(st.url, sourceName(st.source))})</span>`;
+  const rel = rollout?.official;
+  return html`${label} <span class="tiny muted">${t('no stable update reported for this model yet')}${rel ? html` · ${t('Samsung released it on {date}', { date: fmtDate(rel.rolloutStart ?? rel.announced) })}` : ''}</span>`;
+}
+
+/** Device page: fill the One UI line for a Galaxy model (Version 24). */
+export async function fillOneUi(root, d) {
+  const slot = root.querySelector('[data-oneui]');
+  if (!slot) return;
+  try {
+    const [official, all] = await Promise.all([loadOfficial(), loadMatchedItems().catch(() => [])]);
+    const rollout = oneUiRollout(all, official);
+    const st = oneUiForDevice(d, rollout);
+    if (!slot.isConnected) return;
+    if (!st) { slot.remove(); return; }
+    mount(slot, oneUiLine(st, rollout));
+    slot.hidden = false;
+  } catch {
+    slot.remove();
+  }
 }
 
 function iosCard(o) {
@@ -146,26 +226,33 @@ function oneUiCard(o, rollout) {
   return html`<article class="card desk__card">
     <div class="eyebrow">${t('Samsung · Galaxy')}</div>
     ${rollout ? html`<h3 class="desk__big">One UI ${rollout.version}</h3>
-      <p class="small">${t('Stable rollout first reported')}: <strong>${fmtDate(rollout.first.published)}</strong> · ${extLink(rollout.first.url, sourceName(rollout.first.source))}</p>
-      ${rollout.official ? html`<p class="small muted">${t('Samsung announced the rollout')}: ${extLink(rollout.official.url, fmtDate(rollout.official.published))}</p>` : ''}
-      <p class="small desk__my"><strong>${t('Malaysia')}:</strong> ${rollout.malaysia
-        ? html`${t('reported')} ${fmtDate(rollout.malaysia.published)} · ${extLink(rollout.malaysia.url, sourceName(rollout.malaysia.source))}`
-        : t('no Malaysian rollout report yet. It usually follows within days to weeks of the first countries; check Settings › Software update on the phone.')}</p>`
+      ${rollout.official ? html`<p class="small">${t('Official release')}: <strong>${fmtDate(rollout.official.rolloutStart ?? rollout.official.announced)}</strong>${rollout.official.firstModels?.length ? html` · ${t('starting with')} ${listOf(rollout.official.firstModels)}` : ''} · ${extLink(rollout.official.url, sourceName(rollout.official.source))}</p>` : ''}
+      ${rollout.official?.debutModels?.length ? html`<p class="small muted">${t('It came first on the')} ${listOf(rollout.official.debutModels)}</p>` : ''}
+      ${rollout.first && !rollout.first.source.startsWith('samsung-newsroom') ? html`<p class="small muted">${t('Stable rollout first reported')}: ${fmtDate(rollout.first.published)} · ${extLink(rollout.first.url, sourceName(rollout.first.source))}</p>` : ''}
+      <p class="small desk__my"><strong>${t('Malaysia')}:</strong> ${rollout.official?.malaysia
+        ? html`${t('Samsung Malaysia announced it on')} ${fmtDate(rollout.official.malaysia.announced)} · ${extLink(rollout.official.malaysia.url, sourceName('samsung-newsroom-my'))}`
+        : rollout.malaysia
+          ? html`${t('reported')} ${fmtDate(rollout.malaysia.published)} · ${extLink(rollout.malaysia.url, sourceName(rollout.malaysia.source))}`
+          : t('no Malaysian rollout report yet. It usually follows within days to weeks of the first countries; check Settings › Software update on the phone.')}</p>`
       : ''}
     ${smr ? html`<p class="small muted">${t('Latest monthly security update')}: <strong>${smr.release}</strong>${smr.samsungFixes ? ` · ${smr.samsungFixes} ${t('Samsung fixes')}` : ''} · ${extLink(smr.url, t('Samsung’s bulletin'))}</p>` : ''}
-    ${rollout ? auto() : officialNote(o)}
+    ${rollout?.official?.read ? officialNote(o) : ''}${rollout ? auto() : officialNote(o)}
   </article>`;
 }
+
+const listOf = (names) => (names.length > 1 ? `${names.slice(0, -1).join(', ')} ${t('and')} ${names[names.length - 1]}` : names[0]);
 
 function rolloutTable(rollout) {
   if (!rollout?.devices.length) return '';
   return html`<section class="desk__block">
-    <h3 class="subhead">${t('Which Galaxy phones got One UI {v} first', { v: rollout.version })} ${auto()}</h3>
-    <ol class="desk__rollout">${rollout.devices.slice(0, 16).map(([id, item], n) => {
+    <h3 class="subhead">${t('When each Galaxy got One UI {v}', { v: rollout.version })} ${auto()}</h3>
+    <ol class="desk__rollout">${rollout.devices.slice(0, 24).map(([id, e], n) => {
       const d = store.deviceById.get(id);
-      return html`<li><span class="num tiny muted">${n + 1}</span> <a href="${href(`/device/${id}`)}">${deviceTitle(d)}</a> <span class="tiny muted">${fmtDate(item.published)} · ${extLink(item.url, sourceName(item.source))}${isMalaysian(item) ? html` · <strong>${t('Malaysia')}</strong>` : ''}</span></li>`;
+      return html`<li><span class="num tiny muted">${n + 1}</span> <a href="${href(`/device/${id}`)}">${deviceTitle(d)}</a> <span class="tiny muted">${e.kind === 'debut'
+        ? html`${t('came with it')} (${fmtDate(e.date)})`
+        : html`${fmtDate(e.date)} · ${e.kind === 'official' ? html`<strong class="desk__official">${t('Official')}</strong> · ` : ''}${extLink(e.url, sourceName(e.source))}`}${e.malaysia ? html` · <strong>${t('Malaysia')}</strong>` : ''}</span></li>`;
     })}</ol>
-    <p class="tiny muted">${t('The date a publication first reported the stable update for that phone (any country). Your phone may get it later: Samsung rolls out by country and carrier.')}</p>
+    <p class="tiny muted">${t('Official: the date Samsung’s own announcement gives for that model. Otherwise, the date a publication first reported the stable update reaching it (any country). Your phone may get it later: Samsung rolls out by country and carrier.')}</p>
   </section>`;
 }
 
@@ -191,7 +278,7 @@ export async function fillSoftware(root) {
   if (!box.isConnected) return;
   // iOS and One UI by their flags; other systems only when a phone OS is named and the headline is about phones
   const software = all.filter((i) => has(i, 'ios') || has(i, 'oneui') || (i.topic === 'software' && OTHER_OS.test(i.title) && ((i.devices ?? []).length || PHONE_WORDS.test(i.title))));
-  const rollout = oneUiRollout(all);
+  const rollout = oneUiRollout(all, official);
   mount(box.querySelector('[data-sw-cards]'), html`${iosCard(official)}${oneUiCard(official, rollout)}`);
   mount(box.querySelector('[data-sw-rollout]'), rolloutTable(rollout));
   let platform = 'all';

@@ -63,11 +63,19 @@ async function renderRoute(loc, { samePath }) {
       const { restoreScroll, section } = scroll;
       if (restoreScroll !== null) {
         // back to a page you were on: return to the same place. Long pages keep growing for a moment after
-        // they render (tables, images), so keep trying for up to a second until the position is reachable.
+        // they render (tables, images, Compare's panels filled in afterwards), so keep trying until the position is
+        // reachable: up to 5 seconds (Version 24; it was 1 second, too short for Compare), and never against the reader
+        // (any scroll, key or touch of theirs ends it).
+        let stopped = false;
+        const stop = () => { stopped = true; };
+        const opts = { once: true, passive: true };
+        ['wheel', 'touchstart', 'keydown', 'mousedown'].forEach((type) => window.addEventListener(type, stop, opts));
+        const done = () => ['wheel', 'touchstart', 'keydown', 'mousedown'].forEach((type) => window.removeEventListener(type, stop, opts));
         const restore = (tries) => {
-          if (seq !== renderSeq) return; // the reader has moved on
+          if (seq !== renderSeq || stopped) return done(); // the reader has moved on
           window.scrollTo({ top: restoreScroll });
-          if (Math.abs(window.scrollY - restoreScroll) > 2 && tries < 20) setTimeout(() => restore(tries + 1), 50);
+          if (Math.abs(window.scrollY - restoreScroll) > 2 && tries < 100) setTimeout(() => restore(tries + 1), 50);
+          else done();
         };
         requestAnimationFrame(() => restore(0));
       } else {

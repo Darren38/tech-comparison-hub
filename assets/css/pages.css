@@ -2512,3 +2512,5 @@ html[data-mode="simple"] .outline__list li:has(> [data-jump="bench-h"]) { displa
 /* Version 18: the Simple / Detailed switch on the home page too (other pages have it in the page trail) */
 .home__mode { display: flex; justify-content: flex-end; margin-bottom: calc(var(--sp-4) * -1); }
 .desk__watch { display: block; }
+/* Version 24: Samsung's own release date for a model */
+.desk__official { color: color-mix(in srgb, var(--good, #1c7c4a) 85%, var(--ink)); font-weight: 650; }

@@ -320,8 +320,12 @@ export function mountAssistant() {
     }
   }
 
+  // Version 24: while the AI works (12–19 s with Qwen3.5 2B on a laptop graphics chip), the site's own answer to the
+  // question is shown underneath straight away, so there is something verified to read from the first moment.
+  let quick = null;
   const steps = (done, current, detail = '') => html`${aiLabel()}<ol class="ask__steps">${['Understanding your question', 'Looking it up in the site’s data', 'Writing the answer'].map((s, i) => html`<li class="${i < done ? 'is-done' : i === done ? 'is-now' : ''}">${s}${i === done && detail ? html` <span class="muted">${detail}</span>` : ''}</li>`)}</ol>
-    ${current === 'write' ? html`<p class="tiny"><button type="button" class="linkish" data-ai-stop>Stop</button></p>` : ''}`;
+    ${current === 'write' ? html`<p class="tiny"><button type="button" class="linkish" data-ai-stop>Stop</button></p>` : ''}
+    ${quick ? html`<div class="ask__quick"><p class="tiny muted"><strong>Meanwhile, from the site's data:</strong></p>${quick}</div>` : ''}`;
 
   async function aiAnswer(question, entry) {
     const eng = await loadEngine();
@@ -331,8 +335,17 @@ export function mountAssistant() {
       entry.html = (await eng.ask(question, ctx)).html;
       return;
     }
+    quick = null;
+    let phase = [0];
     entry.html = steps(0);
     renderLog(log);
+    eng.ask(question, ctx).then((res) => {
+      if (!res?.html || /I couldn't match that|I'm not sure what you're asking/.test(String(res.html))) return;
+      if (!String(entry.html).includes('ask__steps')) return;            // the AI already finished
+      quick = res.html;
+      entry.html = steps(...phase);
+      renderLog(log);
+    }).catch(() => {});
     // 1. understand
     let plan = null;
     try {
@@ -341,7 +354,8 @@ export function mountAssistant() {
       console.error(error);
     }
     // 2. look up (plain code; still works if the plan failed)
-    entry.html = steps(1, 'look', plan ? plan.question_en : '');
+    phase = [1, 'look', plan ? plan.question_en : ''];
+    entry.html = steps(...phase);
     renderLog(log);
     let found;
     try {
@@ -362,14 +376,16 @@ export function mountAssistant() {
     const next = agent.followUps(plan, found);
     const nextChips = next.length ? html`<div class="ask__next">${next.map((s) => html`<button type="button" class="ask__chip" data-ask-chip>${s}</button>`)}</div>` : '';
     // 3. explain
-    entry.html = steps(2, 'write');
+    phase = [2, 'write'];
+    entry.html = steps(...phase);
     renderLog(log);
-    const live = log.querySelector('.ask__steps .is-now');
+    const live = () => log.querySelector('.ask__steps .is-now');
     let text = '';
     try {
       text = await agent.explain(backend, question, plan, found, (partial) => {
         const words = partial.split(/\s+/).filter(Boolean).length;
-        if (live?.isConnected) live.textContent = `Writing the answer (${words} word${words === 1 ? '' : 's'})`;
+        const now = live();
+        if (now?.isConnected) now.textContent = `Writing the answer (${words} word${words === 1 ? '' : 's'})`;
       });
     } catch (error) {
       console.error(error);

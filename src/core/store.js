@@ -17,7 +17,10 @@ export class DataError extends Error {
 export function getJSON(path) {
   if (!cache.has(path)) {
     // 'no-cache': the browser checks with the server every page load, so data is never out of date
-    const request = fetch(BASE + path, { cache: 'no-cache' })
+    // Version 24: the core files were already requested by assets/js/prepaint.js before this code arrived; use that request
+    const early = globalThis.__tchData?.[path];
+    if (early) delete globalThis.__tchData[path];
+    const request = (early ?? fetch(BASE + path, { cache: 'no-cache' }))
       .then((res) => {
         if (!res.ok) throw new DataError(`Could not load ${path} (HTTP ${res.status})`, { path, status: res.status });
         return res.json();

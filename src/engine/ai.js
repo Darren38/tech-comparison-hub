@@ -85,6 +85,16 @@ export async function deviceSupport() {
 
 const LANG = { expectedInputs: [{ type: 'text', languages: ['en'] }], expectedOutputs: [{ type: 'text', languages: ['en'] }] };
 
+/** Version 24: the text up to its last complete sentence (or list line), for an answer cut off at the length limit. A
+ *  half-received character (U+FFFD) is dropped too. Text with no complete sentence is kept as it is. */
+export function wholeSentences(text) {
+  const t = String(text ?? '').replace(/�/g, '').trimEnd();
+  const ends = [...t.matchAll(/[。！？]["'”’)）\]]*|(?<!\b[A-Z])[.!?](?=["'”’)）\]]*(?:\s|$))|\n(?=\s*(?:[-*•]|\d+[.)])\s)/g)];
+  if (!ends.length) return t;
+  const last = ends[ends.length - 1];
+  return t.slice(0, last.index + (last[0] === '\n' ? 0 : last[0].length)).trimEnd();
+}
+
 /** Drop any reasoning block and markdown emphasis the model may still produce. */
 export function clean(text) {
   return String(text ?? '')
@@ -269,11 +279,15 @@ export class WebLLMBackend {
       extra_body: { enable_thinking: false },
     });
     let text = '';
+    let reason = null;
     for await (const chunk of stream) {
       text += chunk.choices?.[0]?.delta?.content ?? '';
+      reason = chunk.choices?.[0]?.finish_reason ?? reason;
       onText?.(clean(text));
     }
-    return clean(text);
+    // Version 24: an answer cut off at the length limit ended mid-sentence ("…weak points in", "…使用场景�"): the
+    // unfinished last sentence is left out
+    return reason === 'stop' ? clean(text) : wholeSentences(clean(text));
   }
 
   stop() {

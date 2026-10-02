@@ -138,7 +138,16 @@ FILL_HOSTS = re.compile(r"^https://(www\.(oppo|honor|vivo|realme|mi)\.com|consum
 
 # ------------------------------------------------------------------------------------------------ fetching
 _robots: dict[str, urllib.robotparser.RobotFileParser | None] = {}
+_robots_unread: set[str] = set()   # Version 24: robots.txt could not be read (timeout, server error): try again later
 _last: dict[str, float] = {}
+
+
+def refusal(url: str) -> str:
+    """Why a page may not be read: robots.txt says no, or robots.txt could not be read (then a later run tries again)."""
+    parts = urllib.parse.urlsplit(url)
+    if f"{parts.scheme}://{parts.netloc}" in _robots_unread:
+        return "page not available (HTTP error: robots.txt could not be read; trying again on a later run)"
+    return "robots.txt does not allow this page"
 
 
 def allowed(url: str) -> bool:
@@ -152,10 +161,12 @@ def allowed(url: str) -> bool:
         except urllib.error.HTTPError as e:
             if e.code >= 500:
                 rp = None          # a server error on robots.txt means: don't fetch
+                _robots_unread.add(key)
             else:
                 rp.parse([])       # a missing robots.txt allows everything
         except Exception:
             rp = None
+            _robots_unread.add(key)
         _robots[key] = rp
     rp = _robots[key]
     if rp and (rp.crawl_delay(UA) or 0) > DELAY.get(parts.netloc, DEFAULT_DELAY):
@@ -558,7 +569,7 @@ def read_apple(docs_url: str, p: dict, hub: Hub) -> tuple[dict | None, str]:
     """Apple Support: the model's page links to its Tech Specs page, which is read like any other spec page."""
     try:
         if not allowed(docs_url):
-            return None, "robots.txt does not allow this page"
+            return None, refusal(url)
         status, final, page = fetch(docs_url)
         if status != 200:
             return None, f"page not available (HTTP {status or 'error'})"
@@ -596,7 +607,7 @@ def read_samsung(url: str, p: dict, hub: Hub) -> tuple[dict | None, str]:
     """A Samsung Newsroom Malaysia launch announcement: its specification table if it has one, otherwise its sentences."""
     try:
         if not allowed(url):
-            return None, "robots.txt does not allow this page"
+            return None, refusal(url)
         status, final, page = fetch(url)
         if status != 200:
             return None, f"page not available (HTTP {status or 'error'})"

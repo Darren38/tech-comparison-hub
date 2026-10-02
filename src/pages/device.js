@@ -5,6 +5,7 @@ import { html } from '../lib/html.js';
 import { t } from '../core/i18n.js';
 import { sizeView, bindSize, measuresOf } from '../ui/size.js';
 import { autoSlot, fillAuto } from '../ui/autolinks.js';
+import { fillOneUi } from '../ui/newsdesk.js';
 import { PLAIN_BY_LABEL } from '../ui/plain.js';
 import { fmtMetric, fmtDate, fmtPrice, fmtNumber, plural } from '../lib/format.js';
 import { store, loadDevice, deviceTitle, brandName, metricDef, sourceName, categoryDef, categoryCount } from '../core/store.js';
@@ -89,6 +90,7 @@ function header(data, row) {
         <div class="dhead__facts small">
           <span><span class="muted">Announced</span> ${fmtDate(d.announced)}${autoDateSource(d, 'announced')}</span>
           ${d.released ? html`<span><span class="muted">Released</span> ${fmtDate(d.released)}${autoDateSource(d, 'released')}</span>` : ''}
+          ${d.brand === 'samsung' && ['smartphone', 'tablet'].includes(d.category) ? html`<span data-oneui hidden></span>` : ''}
           ${data.chipset ? html`<span><span class="muted">Chipset</span> <a href="${href(`/chipset/${data.chipset.id}`)}">${data.chipset.name}</a></span>` : ''}
           ${status}
           ${evidence}
@@ -380,6 +382,7 @@ export default async function render({ params }) {
     </article>`,
     mount(root) {
       fillAuto(root, { devices: [d.id] });
+      fillOneUi(root, d);
       const unSize = bindSize(root);
       const unOutline = bindOutline(root);
       return () => { unSize(); unOutline?.(); };

@@ -14,6 +14,9 @@
   it would announce one (screen replacement, service-centre updates) are read and checked for offer wording (free,
   discount, promotion, extended warranty…), dates and the part of Malaysia they name. The page's wording is not copied:
   only its title, link, the kinds of offer it mentions, any dates, regions, and when it last changed.
+- Samsung's own One UI release announcement (Version 24): the newest "official rollout of One UI N" press release on
+  Samsung Newsroom (global and Malaysia), found among the collected headlines, with the start date and the first models the
+  release itself states (read once; the Internet Archive's copy of the same page when it can't be reached).
 - Service offers the headline collector found on Samsung's and Apple's own Malaysian pages: the page is read for the
   parts of Malaysia it names, so the site can say where an offer applies.
 
@@ -98,6 +101,14 @@ def allowed(url: str) -> bool:
         _robots[key] = rp
     rp = _robots[key]
     return bool(rp and rp.can_fetch(UA, url))
+
+
+def refused(url: str) -> bool:
+    """True only when the site's robots.txt was read and says no (not when it couldn't be read at all)."""
+    allowed(url)
+    parts = urllib.parse.urlsplit(url)
+    rp = _robots.get(f"{parts.scheme}://{parts.netloc}")
+    return bool(rp) and not rp.can_fetch(UA, url)
 
 
 def fetch(url: str) -> str:
@@ -239,6 +250,130 @@ def samsung_pages(saved: dict) -> list[dict]:
     return out
 
 
+# ------------------------------------------------------------------ Samsung's own One UI release announcement (Version 24)
+ONEUI_TITLE = re.compile(r"\bOne UI (\d{1,2})(?:\.0)?\b(?!\.\d)", re.I)
+ONEUI_RELEASE = re.compile(r"official(?:ly)?\s+(?:rollout|roll(?:s|ing)?\s+out|release)|begins?\s+(?:the\s+)?(?:official\s+)?roll|"
+                           r"rolls?\s+out|rolling\s+out|now\s+available|available\s+now|starts?\s+rolling", re.I)
+ONEUI_NOT = re.compile(r"\bbeta\b|\bpreview\b|\bprogram\b|how to|tips", re.I)
+MONTHS = {m: i + 1 for i, m in enumerate(["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"])}
+
+
+def _archived(url: str) -> str:
+    """The Internet Archive's copy of an official page, for when the page itself can't be reached from here. Never used
+    when the page's own robots.txt says no; the Internet Archive's robots.txt is respected too."""
+    if refused(url):
+        raise PermissionError("the page's robots.txt does not allow it")
+    if not allowed("https://web.archive.org/web/") or not allowed("https://archive.org/wayback/available"):
+        raise PermissionError("the Internet Archive's robots.txt does not allow it")
+    with urllib.request.urlopen(urllib.request.Request("https://archive.org/wayback/available?url=" + urllib.parse.quote(url, safe=""),
+                                                       headers={"User-Agent": UA}), timeout=40) as r:
+        snap = (json.load(r).get("archived_snapshots") or {}).get("closest") or {}
+    if not snap.get("available") or not re.fullmatch(r"\d{14}", snap.get("timestamp", "")):
+        raise LookupError("no archived copy")
+    copy = f"https://web.archive.org/web/{snap['timestamp']}id_/{url}"
+    with urllib.request.urlopen(urllib.request.Request(copy, headers={"User-Agent": UA}), timeout=60) as r:
+        body = r.read(3_000_000)
+    if body[:2] == b"\x1f\x8b":
+        import gzip  # noqa: PLC0415
+        body = gzip.decompress(body)
+    return body.decode("utf-8", "replace")
+
+
+def oneui_facts(text: str, published: str) -> dict:
+    """From the announcement's own words: the day the rollout starts and the first models it names; the models One UI
+    made its debut on. Only what the text states clearly; anything else is left out."""
+    out: dict = {}
+    year = int(published[:4])
+    m = re.search(r"\broll-?out\s+(?:starts|begins|beginning|starting)\s+(today)?,?\s*(?:on\s+)?((?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\.?\s+\d{1,2})?", text, re.I)
+    if m and m.group(2):
+        mon, day = re.match(r"([A-Za-z]{3})[a-z]*\.?\s+(\d{1,2})", m.group(2)).groups()
+        out["rolloutStart"] = dt.date(year, MONTHS[mon.lower()], int(day)).isoformat()
+    elif m and m.group(1):
+        out["rolloutStart"] = published[:10]            # "rollout beginning today": the announcement's own date
+    m = re.search(r"\bstarting with (?:the )?(" + MODEL_LIST + ")", text)
+    if m:
+        out["firstModels"] = split_models(m.group(1))
+    m = re.search(r"\b(?:debut|debuted|introduced|premiered|launched)\s+on\s+(?:the\s+)?(" + MODEL_LIST + ")", text)
+    if m:
+        out["debutModels"] = split_models(m.group(1))
+    return out
+
+
+# One model name ("Galaxy S26 Ultra", "Z Fold8", "Tab S11", "S26+") and a list of them joined by commas / "and". Strict, so
+# a list ends at its last model even where the page's text runs straight on into the next sentence.
+MODEL = r"(?:Galaxy\s+)?(?:Z\s+|Tab\s+)?(?:[A-Z]{1,2}|Fold|Flip|TriFold)\d{1,3}[a-z]?\+?(?:\s+(?:Ultra|FE|Edge|Plus|Lite|Pro|Slim)\b)*"
+MODEL_LIST = MODEL + r"(?:(?:,\s*(?:and\s+)?|\s+and\s+)" + MODEL + r")*"
+
+
+def split_models(text: str) -> list[str]:
+    """"Galaxy S26, S26+, and S26 Ultra" -> ["Galaxy S26", "Galaxy S26+", "Galaxy S26 Ultra"]; "Z Fold8 Ultra, Fold8, and
+    Flip8" -> ["Galaxy Z Fold8 Ultra", "Galaxy Z Fold8", "Galaxy Z Flip8"]."""
+    out = []
+    for p in re.findall(MODEL, text):
+        p = re.sub(r"^Galaxy\s+", "", p.strip())
+        if re.match(r"(Fold|Flip|TriFold)\d", p):
+            p = "Z " + p                                  # Samsung drops the "Z" after the first foldable it names
+        out.append("Galaxy " + p)
+    return out
+
+
+def samsung_oneui(saved: dict) -> dict | None:
+    """Samsung Newsroom's newest official One UI release announcement (global and Malaysia), found among the collected
+    headlines, with the start date and first models the announcement itself states. The page is read once (its facts are
+    kept); where it can't be reached from here, the Internet Archive's copy is read instead."""
+    items = []
+    for name in ("headlines.json", "archive.json"):
+        path = ROOT / "live" / name
+        if path.exists():
+            try:
+                items += json.loads(path.read_text(encoding="utf-8")).get("items", [])
+            except ValueError:
+                pass
+    found = []
+    for i in items:
+        title = i.get("title") or ""
+        m = ONEUI_TITLE.search(title)
+        if (i.get("source") in ("samsung-newsroom", "samsung-newsroom-my") and m and ONEUI_RELEASE.search(title)
+                and not ONEUI_NOT.search(title) and i.get("published") and i.get("url", "").startswith("https://news.samsung.com/")):
+            found.append((int(m.group(1)), i["published"], i))
+    if not found:
+        return None
+    top = max(v for v, _, _ in found)
+    mine = sorted((p, i) for v, p, i in found if v == top)
+    glob = next((i for _, i in mine if i["source"] == "samsung-newsroom"), None)
+    my = next((i for _, i in mine if i["source"] == "samsung-newsroom-my"), None)
+    main_item = glob or my
+    prev = saved.get("samsungOneUi") or {}
+    out = {"version": str(top), "announced": main_item["published"][:10], "url": main_item["url"], "title": main_item["title"],
+           "source": main_item["source"]}
+    if my:
+        out["malaysia"] = {"announced": my["published"][:10], "url": my["url"], "title": my["title"]}
+    if prev.get("url") == out["url"] and prev.get("read"):
+        for k in ("rolloutStart", "firstModels", "firstIds", "debutModels", "debutIds", "read", "readFrom"):
+            if k in prev:
+                out[k] = prev[k]
+        return out
+    page, read_from = None, None
+    try:
+        page, read_from = fetch(out["url"]), "page"
+    except Exception:  # noqa: BLE001  (unreachable or not allowed: the archived copy of the same official page)
+        try:
+            page, read_from = _archived(out["url"]), "archive"
+        except Exception:  # noqa: BLE001
+            page = None
+    if page:
+        facts = oneui_facts(main_text(page), out["announced"])
+        keys = load_keys()
+        for k_names, k_ids in (("firstModels", "firstIds"), ("debutModels", "debutIds")):
+            if facts.get(k_names):
+                ids = []
+                for name in facts[k_names]:
+                    ids += [d for d in match_devices(normalize(name), keys) if d not in ids][:1]
+                facts[k_ids] = ids
+        out.update(facts, read=dt.date.today().isoformat(), readFrom=read_from)
+    return out
+
+
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--max-age-hours", type=float, default=0)
@@ -255,7 +390,7 @@ def main() -> None:
     status = {}
     for name, job in (("appleReleases", apple_releases), ("appleBetas", apple_betas), ("samsungSecurity", samsung_security),
                       ("appleServicePrograms", lambda: apple_programs(keys)), ("offerPageRegions", lambda: offer_page_regions(saved)),
-                      ("samsungServicePages", lambda: samsung_pages(saved))):
+                      ("samsungServicePages", lambda: samsung_pages(saved)), ("samsungOneUi", lambda: samsung_oneui(saved))):
         try:
             value = job()
             if value or name == "offerPageRegions":

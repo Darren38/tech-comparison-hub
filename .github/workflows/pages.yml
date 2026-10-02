@@ -217,6 +217,10 @@ jobs:
       - name: Validate and build data
         run: python tools/build.py
 
+      # Version 24: the lists of code files each page needs, so the browser fetches them all at once
+      - name: Preload lists
+        run: python tools/preload.py
+
       - name: Assemble the site
         run: |
           mkdir _site
