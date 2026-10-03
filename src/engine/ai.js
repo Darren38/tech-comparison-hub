@@ -742,9 +742,64 @@ export function scoresBackwards(sentence) {
 }
 
 // Version 20: "the site does not provide hands-on reviews or test results for this phone" when it does
-const DENIES_TESTS = /\b(no|not any|without|lacks?|doesn'?t (?:have|provide|include|list)|does not (?:have|provide|include|list)|has(?:n'?t| not) (?:got|recorded))\b[^.!?]{0,50}\b(reviews?|tests?|test results|measurements?|benchmarks?|lab results)\b/i;
+// Version 25: wider reach ("has no recorded data regarding its performance scores or independent test results"), and
+// Chinese / Malay ("目前暂无独立实验室的实测数据", "tiada ujian")
+const DENIES_TESTS = /\b(no|not any|without|lacks?|doesn'?t (?:have|provide|include|list)|does not (?:have|provide|include|list)|has(?:n'?t| not) (?:got|recorded))\b[^.!?]{0,90}\b(reviews?|tests?|test results|measurements?|benchmarks?|lab results|lab data)\b|(暂无|没有|尚无|未有|並無|沒有)[^。！？]{0,20}(测试|測試|实测|實測|评测|評測|测评|跑分|实验室|實驗室)|\b(tiada|belum ada)\b[^.!?]{0,40}\b(ujian|ulasan)\b/i;
 export function deniesTests(sentence, facts) {
   return DENIES_TESTS.test(sentence) && /REVIEWS AND TESTS \(findings|test results:|measured by|Test results side by side/i.test(facts);
+}
+
+// Version 25: "there are no new headlines about it" while the site gave it headlines (seen with Qwen3.5 2B)
+const DENIES_NEWS = /\b(no|not any|isn'?t (?:in|listed in) any|is not (?:in|listed in) any)\b[^.!?]{0,40}\b(news|headlines?)\b|(暂无|没有|沒有|尚无)[^。！？]{0,12}(新闻|新聞|消息|报道|報道)|\btiada\b[^.!?]{0,30}\bberita\b/i;
+export function deniesNews(sentence, facts) {
+  const heads = /LATEST HEADLINES[^\n]*:\n((?:- .*\n?)+)/.exec(facts)?.[1] ?? '';
+  if (!DENIES_NEWS.test(sentence) || !/^- (?!No Malaysian headline)/m.test(heads)) return false;
+  // "no Malaysian news" / "no Chinese-language news" is a narrower claim: wrong only when such a headline is there
+  if (SAYS_MALAYSIA.test(sentence)) return heads.includes('[Malaysian site]');
+  if (/\bchinese\b|中文|华文|華文/i.test(sentence)) return heads.includes('[Chinese]');
+  return true;
+}
+
+// Version 25: a headline from 9to5Google or Gizmochina passed off as Malaysian news (seen with Qwen3.5 2B). A sentence
+// that says Malaysia and names a headline source FACTS don't mark [Malaysian site], and no source they do mark, is wrong.
+const SAYS_MALAYSIA = /\b(malaysia|malaysian|tempatan)\b|大马|大馬|马来西亚|馬來西亞|本地/i;
+export function claimsMalaysian(sentence, facts) {
+  if (!SAYS_MALAYSIA.test(sentence)) return false;
+  const heads = /LATEST HEADLINES[^\n]*:\n((?:- .*\n?)+)/.exec(facts)?.[1] ?? '';
+  const sourceOf = (line) => /^- ([^,[]+?)(?: \[|,)/.exec(line)?.[1]?.trim();
+  const lines = heads.split('\n').filter((l) => l.startsWith('- '));
+  const lower = sentence.toLowerCase();
+  const named = (l) => { const s = sourceOf(l); return s && s.length > 2 && lower.includes(s.toLowerCase()); };
+  if (lines.some((l) => l.includes('[Malaysian site]') && named(l))) return false;
+  return lines.some((l) => !l.includes('[Malaysian site]') && named(l));
+}
+
+// Version 25: "prices increased by over RM15,000 in India" where FACTS say "INR 15,000" (seen with Qwen3.5 2B). An amount
+// in ringgit must be an amount in ringgit in FACTS: wrong when FACTS give that number only in another currency.
+const OTHER_CURRENCY = /(?:INR|Rs\.?|₹|US\$|\$|USD|€|EUR|£|GBP|¥|CNY|RMB|SGD|S\$|IDR|Rp|THB|฿|PHP|₱|VND|₫)\s?(?:\d[\d.]*\s?(?:to|-|–|~)\s?)?$/i;
+export function wrongCurrency(sentence, facts) {
+  const plain = (t) => String(t).replace(/(\d),(?=\d{3}(?!\d))/g, '$1');
+  const text = plain(sentence);
+  const amounts = [...text.matchAll(/\bRM\s?(\d+(?:\.\d+)?)|(\d+(?:\.\d+)?)\s?(?:令吉|马币|馬幣|ringgit)/gi)].map((m) => m[1] ?? m[2]);
+  if (!amounts.length) return false;
+  const f = plain(facts);
+  return amounts.some((n) => {
+    let inRm = false;
+    let inOther = false;
+    for (const m of f.matchAll(new RegExp(`(?<![\\d.])${n.replace('.', '\\.')}(?![\\d])`, 'g'))) {
+      const before = f.slice(Math.max(0, m.index - 24), m.index);
+      if (/RM\s?(?:\d[\d.]*\s?(?:to|-|–|~)\s?)?$/.test(before)) inRm = true;
+      else if (OTHER_CURRENCY.test(before)) inOther = true;
+    }
+    return inOther && !inRm;
+  });
+}
+
+// Version 25: "目前该机型尚未发布" (not released yet) about a phone FACTS give an announcement date and a launch price
+// for (seen with Qwen3.5 2B)
+const NOT_RELEASED = /\b(not (?:yet )?(?:been )?(?:released|launched)|yet to (?:be )?(?:released|launched)|has(?:n'?t| not) (?:yet )?(?:been )?(?:released|launched)|unreleased|belum (?:dilancarkan|dikeluarkan|dilepaskan))\b|尚未发布|尚未發布|尚未發佈|还没发布|還沒發布|还未发布|未正式发布|尚未推出|还未推出|還未推出|尚未上市|还没上市|還沒上市/i;
+export function deniesRelease(sentence, known) {
+  return NOT_RELEASED.test(sentence) && /\b(?:Announced|On sale|on sale):? \d{1,2} [A-Z][a-z]{2} \d{4}|^Announced: |Malaysian launch price: RM/m.test(known);
 }
 
 // Version 20: a ranking must be quoted as the site gives it. In testing Qwen3.5 4B mixed ranks and totals from
@@ -802,6 +857,10 @@ function sentenceProblem(sentence, facts, { question = '', echo = false, known =
   if (strongLowRank(sentence)) return 'called a middling or low rank strong';
   if (deniesOnBoth(sentence, facts)) return 'said both devices lack something the site hasn’t recorded as missing';
   if (deniesTests(sentence, facts)) return 'said there are no tests or reviews where the site has some';
+  if (deniesNews(sentence, facts)) return 'said there is no news where the site has headlines';
+  if (claimsMalaysian(sentence, facts)) return 'called a headline from outside Malaysia Malaysian';
+  if (wrongCurrency(sentence, facts)) return 'gave a price in another currency as ringgit';
+  if (deniesRelease(sentence, known)) return 'said a device isn’t released yet where the site has its launch';
   // "takes 16 hours and 40 minutes to charge fully": a battery-life figure given as a charging time (Version 20)
   const chargeHours = /\b(charg\w*|recharg\w*)\b|充电|充電|mengecas|dicas/i.test(sentence) && /\b(full(y)?|0 ?(-|to) ?100|from empty|completely)\b|充满|充滿|penuh/i.test(sentence)
     && [...sentence.matchAll(/(\d+(?:\.\d+)?)\s*(hours?|hrs?|h\b|小时|小時|jam)/gi)].some((m) => parseFloat(m[1]) >= 4);
@@ -836,6 +895,23 @@ function sentenceProblem(sentence, facts, { question = '', echo = false, known =
  * Returns { text, removed, reason }: reason is null when `text` may be shown.
  * `echo` allows figures from the visitor's own question (for advice such as "is 5000 mAh enough?").
  */
+// Version 25: characters written differently in simplified and traditional Chinese. An answer in the other script from
+// the question's is not shown (in testing Qwen3.5 2B answered a simplified-Chinese question in traditional characters).
+export const SIMPLIFIED = /[们这个说买预为无时间会来对发车门长东边钱请让没见还价机选择续电摄显]/g;
+export const TRADITIONAL = /[們這個說買預為無時間會來對發車門長東邊錢請讓沒見還價機選擇續電攝顯]/g;
+export function chineseScriptOf(text) {
+  const simp = (String(text).match(SIMPLIFIED) ?? []).length;
+  const trad = (String(text).match(TRADITIONAL) ?? []).length;
+  return simp > trad ? 'simplified' : trad > simp ? 'traditional' : null;
+}
+export function wrongScript(answer, question) {
+  const asked = chineseScriptOf(question);
+  if (!asked) return false;
+  const simp = (String(answer).match(SIMPLIFIED) ?? []).length;
+  const trad = (String(answer).match(TRADITIONAL) ?? []).length;
+  return asked === 'simplified' ? trad > simp + 2 : simp > trad + 2;
+}
+
 export function checkAnswer(answer, facts, { question = '', ranked = null, echo = false, devices = [] } = {}) {
   // Facts that belong to no particular device (verdict text, comparison tables, database spread, explanations).
   // A sentence about one device may use those plus that device's own facts, not another device's figures
@@ -874,6 +950,7 @@ export function checkAnswer(answer, facts, { question = '', ranked = null, echo 
   const isBreak = (x) => /^\n+$/.test(x) || !x.trim();
   const sentences = pieces.filter((x) => !isBreak(x));
   if (!sentences.length) return { text: '', removed: 0, reason: 'returned nothing' };
+  if (wrongScript(answer, question)) return { text: '', removed: 0, reason: chineseScriptOf(question) === 'simplified' ? 'was written in traditional Chinese characters for a question in simplified ones' : 'was written in simplified Chinese characters for a question in traditional ones' };
   let firstReason = null;
   let removed = 0;
   const seen = new Set();

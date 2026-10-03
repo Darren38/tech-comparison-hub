@@ -36,7 +36,7 @@ ROOT = Path(__file__).resolve().parent.parent
 DATA_OUT = ROOT / "data" / "image_boxes.json"
 AUTO_OUT = ROOT / "live" / "auto" / "image_boxes.json"
 FOUND = ROOT / "live" / "auto" / "found_images.json"
-UA = "Mozilla/5.0 (compatible; TechComparisonHub/1.0; +https://darren38.github.io/tech-comparison-hub/)"
+UA = "Mozilla/5.0 (compatible; TechComparisonHub/1.0)"  # Version 25: no author name or address in requests (user)
 MAX_BYTES = 12_000_000
 
 

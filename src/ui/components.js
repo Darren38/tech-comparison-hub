@@ -29,6 +29,9 @@ const ICONS = {
   copy: '<path d="M8 3h11v13h-2V5H8zM4 7h11v14H4zm2 2v10h7V9z"/>',
   download: '<path d="M11 3h2v9.2l3.3-3.3 1.4 1.4L12 16l-5.7-5.7 1.4-1.4 3.3 3.3zM4 19h16v2H4z"/>',
   refresh: '<path d="M17.65 6.35A7.96 7.96 0 0 0 12 4a8 8 0 1 0 7.75 10h-2.08A6 6 0 1 1 12 6c1.66 0 3.14.69 4.22 1.78L13 11h7V4z"/>',
+  // Version 25: the Ask panel's maximise / restore button
+  maximize: '<path d="M4 4h7v2H7.4l4.3 4.3-1.4 1.4L6 7.4V11H4zm16 16h-7v-2h3.6l-4.3-4.3 1.4-1.4 4.3 4.3V13h2z"/>',
+  minimize: '<path d="M11 11H4V9h3.6L3.3 4.7l1.4-1.4L9 7.6V4h2zm2 2h7v2h-3.6l4.3 4.3-1.4 1.4-4.3-4.3V20h-2z"/>',
   chat: '<path d="M4 4h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H9l-5 4v-4H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2zm0 2v10h2v2l2.5-2H20V6zm3 3h10v2H7zm0 3h7v2H7z"/>',
 };
 

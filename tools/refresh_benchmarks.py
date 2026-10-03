@@ -25,7 +25,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 BENCH = ROOT / "data" / "benchmarks"
 OUT = ROOT / "live" / "auto" / "benchmarks.json"
-UA = "Mozilla/5.0 (compatible; TechComparisonHub/1.0; +https://darren38.github.io/tech-comparison-hub/)"
+UA = "Mozilla/5.0 (compatible; TechComparisonHub/1.0)"  # Version 25: no author name or address in requests (user)
 MAX_CHANGE = 0.30   # a larger jump is held for a person to check (a misread page, a renamed model, a new test version)
 UL_DELAY = 1.2      # seconds between UL page requests: one visit per phone, once a day
 

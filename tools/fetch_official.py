@@ -38,7 +38,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "live" / "official.json"
-UA = "Mozilla/5.0 (compatible; TechComparisonHub/1.0; +https://darren38.github.io/tech-comparison-hub/)"
+UA = "Mozilla/5.0 (compatible; TechComparisonHub/1.0)"  # Version 25: no author name or address in requests (user)
 APPLE_SECURITY = "https://support.apple.com/en-us/100100"
 APPLE_DEV_FEED = "https://developer.apple.com/news/releases/rss/releases.rss"
 SAMSUNG_SECURITY = "https://security.samsungmobile.com/securityUpdate.smsb"

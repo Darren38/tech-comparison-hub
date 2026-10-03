@@ -148,5 +148,329 @@
     ],
     "extraction": "partial",
     "related": ["gsma-iphone-17-durability"]
+  },
+  {
+    "id": "yt-htx-studio-biqvbpvcz7y",
+    "kind": "video",
+    "platform": "YouTube",
+    "source": "htx-studio",
+    "title": "iPhone 18 Pro Review: I Have Mixed Feelings.",
+    "url": "https://www.youtube.com/watch?v=BIqvBPVcz7Y",
+    "published": "2026-09-17",
+    "accessed": "2026-10-03",
+    "class": "reviewer",
+    "category": "full-review",
+    "devices": [
+      "apple-iphone-18-pro"
+    ],
+    "facets": [
+      "camera",
+      "battery",
+      "performance",
+      "display"
+    ],
+    "verified": {
+      "metadata": "Channel, title and date from YouTube's Data API; the device it is about checked by hand from the title."
+    },
+    "findings": [],
+    "extraction": "metadata-only"
+  },
+  {
+    "id": "yt-jerryrigeverything-vcqx0zkopmu",
+    "kind": "video",
+    "platform": "YouTube",
+    "source": "jerryrigeverything",
+    "title": "OnePlus 15 Durability Test -- The Claim is Insane",
+    "url": "https://www.youtube.com/watch?v=vCqX0ZkoPMU",
+    "published": "2025-11-21",
+    "accessed": "2026-10-03",
+    "class": "reviewer",
+    "category": "durability",
+    "devices": [
+      "oneplus-15"
+    ],
+    "facets": [
+      "durability"
+    ],
+    "verified": {
+      "metadata": "Channel, title and date from YouTube's Data API; the device it is about checked by hand from the title."
+    },
+    "findings": [],
+    "extraction": "metadata-only"
+  },
+  {
+    "id": "yt-jerryrigeverything-sq56ve39l2i",
+    "kind": "video",
+    "platform": "YouTube",
+    "source": "jerryrigeverything",
+    "title": "iPhone Air Durability test -- I AM SHOCKED",
+    "url": "https://www.youtube.com/watch?v=sQ56ve39l2I",
+    "published": "2025-09-20",
+    "accessed": "2026-10-03",
+    "class": "reviewer",
+    "category": "durability",
+    "devices": [
+      "apple-iphone-air"
+    ],
+    "facets": [
+      "durability"
+    ],
+    "verified": {
+      "metadata": "Channel, title and date from YouTube's Data API; the device it is about checked by hand from the title."
+    },
+    "findings": [],
+    "extraction": "metadata-only"
+  },
+  {
+    "id": "yt-jerryrigeverything-lniqcgweqp4",
+    "kind": "video",
+    "platform": "YouTube",
+    "source": "jerryrigeverything",
+    "title": "Google Pixel 10 Pro Durability Test - Transparency would be nice...",
+    "url": "https://www.youtube.com/watch?v=lniqCGWeqP4",
+    "published": "2025-08-30",
+    "accessed": "2026-10-03",
+    "class": "reviewer",
+    "category": "durability",
+    "devices": [
+      "google-pixel-10-pro"
+    ],
+    "facets": [
+      "durability"
+    ],
+    "verified": {
+      "metadata": "Channel, title and date from YouTube's Data API; the device it is about checked by hand from the title."
+    },
+    "findings": [],
+    "extraction": "metadata-only"
+  },
+  {
+    "id": "yt-isbonny-qbc4dnhqum",
+    "kind": "video",
+    "platform": "YouTube",
+    "source": "isbonny",
+    "title": "「邦尼評測」必看！7大優缺點實測！iPhone 18 Pro Max / 18 Pro 系列開箱重點評測（18 Pro 螢幕亮度 色準 效能 充電速度 對比 蘋果i18選購建議 值不值得買？",
+    "url": "https://www.youtube.com/watch?v=-QBC4dnhQUM",
+    "published": "2026-09-19",
+    "accessed": "2026-10-03",
+    "class": "reviewer",
+    "category": "full-review",
+    "devices": [
+      "apple-iphone-18-pro",
+      "apple-iphone-18-pro-max"
+    ],
+    "facets": [
+      "camera",
+      "battery",
+      "performance",
+      "display"
+    ],
+    "lang": "zh",
+    "verified": {
+      "metadata": "Channel, title and date from YouTube's Data API; the device it is about checked by hand from the title."
+    },
+    "findings": [],
+    "extraction": "metadata-only"
+  },
+  {
+    "id": "yt-wekihome-blkegh19kgi",
+    "kind": "video",
+    "platform": "YouTube",
+    "source": "wekihome",
+    "title": "iPhone 18 Pro 系列拆解：这才叫“系统级”散热设计！【享拆】- 微机分WekiHome",
+    "url": "https://www.youtube.com/watch?v=BLKegH19KGI",
+    "published": "2026-09-20",
+    "accessed": "2026-10-03",
+    "class": "reviewer",
+    "category": "teardown",
+    "devices": [
+      "apple-iphone-18-pro"
+    ],
+    "facets": [
+      "build",
+      "thermals"
+    ],
+    "lang": "zh",
+    "verified": {
+      "metadata": "Channel, title and date from YouTube's Data API; the device it is about checked by hand from the title."
+    },
+    "findings": [],
+    "extraction": "metadata-only"
+  },
+  {
+    "id": "yt-wekihome-y4-hxnifkrg",
+    "kind": "video",
+    "platform": "YouTube",
+    "source": "wekihome",
+    "title": "小米 18 Pro Max 拆解：Deco 平了，體驗更上一層樓！ 【享拆】- 微機分WekiHome",
+    "url": "https://www.youtube.com/watch?v=y4-HxnIfkRg",
+    "published": "2026-09-23",
+    "accessed": "2026-10-03",
+    "class": "reviewer",
+    "category": "teardown",
+    "devices": [
+      "xiaomi-18-pro-max"
+    ],
+    "facets": [
+      "build",
+      "thermals"
+    ],
+    "lang": "zh",
+    "verified": {
+      "metadata": "Channel, title and date from YouTube's Data API; the device it is about checked by hand from the title."
+    },
+    "findings": [],
+    "extraction": "metadata-only"
+  },
+  {
+    "id": "yt-geekerwan-zh-a6h6srej-xi",
+    "kind": "video",
+    "platform": "YouTube",
+    "source": "geekerwan-zh",
+    "title": "小米18 Pro系列上手体验：骁龙8E6有惊喜？！",
+    "url": "https://www.youtube.com/watch?v=A6h6sreJ-XI",
+    "published": "2026-09-23",
+    "accessed": "2026-10-03",
+    "class": "reviewer",
+    "category": "first-look",
+    "devices": [
+      "xiaomi-18-pro",
+      "xiaomi-18-pro-max"
+    ],
+    "facets": [
+      "camera",
+      "build"
+    ],
+    "lang": "zh",
+    "verified": {
+      "metadata": "Channel, title and date from YouTube's Data API; the device it is about checked by hand from the title."
+    },
+    "findings": [],
+    "extraction": "metadata-only"
+  },
+  {
+    "id": "yt-mediastorm-yef5yv_pocy",
+    "kind": "video",
+    "platform": "YouTube",
+    "source": "mediastorm",
+    "title": "三个两亿像素？OPPO Find X10 Pro Max上手",
+    "url": "https://www.youtube.com/watch?v=YeF5yV_pOCY",
+    "published": "2026-09-28",
+    "accessed": "2026-10-03",
+    "class": "reviewer",
+    "category": "first-look",
+    "devices": [
+      "oppo-find-x10-pro-max"
+    ],
+    "facets": [
+      "camera",
+      "build"
+    ],
+    "lang": "zh",
+    "verified": {
+      "metadata": "Channel, title and date from YouTube's Data API; the device it is about checked by hand from the title."
+    },
+    "findings": [],
+    "extraction": "metadata-only"
+  },
+  {
+    "id": "yt-mediastorm-wd-ubmnoiji",
+    "kind": "video",
+    "platform": "YouTube",
+    "source": "mediastorm",
+    "title": "延续外观，影像升级？vivo X500 Pro Max 上手",
+    "url": "https://www.youtube.com/watch?v=wD-UBMNoIJI",
+    "published": "2026-09-27",
+    "accessed": "2026-10-03",
+    "class": "reviewer",
+    "category": "first-look",
+    "devices": [
+      "vivo-x500-pro-max"
+    ],
+    "facets": [
+      "camera",
+      "build"
+    ],
+    "lang": "zh",
+    "verified": {
+      "metadata": "Channel, title and date from YouTube's Data API; the device it is about checked by hand from the title."
+    },
+    "findings": [],
+    "extraction": "metadata-only"
+  },
+  {
+    "id": "yt-cherry-official-3ze0omj0z3w",
+    "kind": "video",
+    "platform": "YouTube",
+    "source": "cherry-official",
+    "title": "這次的iPhone，還能無腦沖嗎？iPhone 18 Pro系列上手體驗｜大狸子切切裡",
+    "url": "https://www.youtube.com/watch?v=3ze0OMj0z3w",
+    "published": "2026-09-23",
+    "accessed": "2026-10-03",
+    "class": "reviewer",
+    "category": "first-look",
+    "devices": [
+      "apple-iphone-18-pro"
+    ],
+    "facets": [
+      "camera",
+      "build"
+    ],
+    "lang": "zh",
+    "verified": {
+      "metadata": "Channel, title and date from YouTube's Data API; the device it is about checked by hand from the title."
+    },
+    "findings": [],
+    "extraction": "metadata-only"
+  },
+  {
+    "id": "yt-isbonny-ddkducnzj0e",
+    "kind": "video",
+    "platform": "YouTube",
+    "source": "isbonny",
+    "title": "「邦尼」周杰倫同款！vivo X500 Pro Max 重點實測！2 億長焦 + 增距鏡 Ultra！藍圖光御900、LOFIC、天璣9600 Pro #Shorts #vivoX500ProMax",
+    "url": "https://www.youtube.com/watch?v=DDKduCnZj0E",
+    "published": "2026-09-22",
+    "accessed": "2026-10-03",
+    "class": "reviewer",
+    "category": "first-look",
+    "devices": [
+      "vivo-x500-pro-max"
+    ],
+    "facets": [
+      "camera",
+      "build"
+    ],
+    "lang": "zh",
+    "verified": {
+      "metadata": "Channel, title and date from YouTube's Data API; the device it is about checked by hand from the title."
+    },
+    "findings": [],
+    "extraction": "metadata-only"
+  },
+  {
+    "id": "yt-htx-studio-zh-wuyjwgzh0uw",
+    "kind": "video",
+    "platform": "YouTube",
+    "source": "htx-studio-zh",
+    "title": "一鏡到底。iPhone 18 Pro首發體驗",
+    "url": "https://www.youtube.com/watch?v=WuYJWGzh0uw",
+    "published": "2026-09-17",
+    "accessed": "2026-10-03",
+    "class": "reviewer",
+    "category": "first-look",
+    "devices": [
+      "apple-iphone-18-pro"
+    ],
+    "facets": [
+      "camera",
+      "build"
+    ],
+    "lang": "zh",
+    "verified": {
+      "metadata": "Channel, title and date from YouTube's Data API; the device it is about checked by hand from the title."
+    },
+    "findings": [],
+    "extraction": "metadata-only"
   }
 ]

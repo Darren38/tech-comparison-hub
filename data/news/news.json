@@ -306,5 +306,83 @@
       "software"
     ],
     "summary": "Motorola's new flagship pairs the Snapdragon 8 Elite Extreme Gen 6 with a 50 MP main camera, a telephoto upgraded to 200 MP, Bang & Olufsen speakers and seven years of Android upgrades. Price, display details and a release date were not announced."
+  },
+  {
+    "id": "9to5mac-iphone-18-pro-max-att-service",
+    "kind": "news",
+    "type": "issue",
+    "source": "9to5mac",
+    "class": "news",
+    "title": "Apple confirms iPhone 18 Pro Max AT&T cellular issues, affected devices require hardware replacement",
+    "url": "https://9to5mac.com/2026/10/02/apple-confirms-iphone-18-pro-max-att-cellular-issues-affected-devices-require-hardware-replacement/",
+    "author": "Chance Miller",
+    "published": "2026-10-02",
+    "accessed": "2026-10-03",
+    "devices": [
+      "apple-iphone-18-pro-max"
+    ],
+    "facets": [
+      "connectivity"
+    ],
+    "summary": "Apple confirmed that some iPhone 18 Pro Max units on AT&T in the US lose cellular service and show SOS. iOS 27.0.1 and a carrier settings update prevent it on phones not yet affected; a phone that has already lost service needs a hardware replacement through Apple or AT&T. The iPhone 18 Pro, which uses Apple's own modem, is not affected."
+  },
+  {
+    "id": "macrumors-iphone-18-pro-max-att-carrier-update",
+    "kind": "news",
+    "type": "software-update",
+    "source": "macrumors",
+    "class": "news",
+    "title": "AT&T and Apple Just Took Steps Toward Fixing iPhone 18 Pro Max Issue",
+    "url": "https://www.macrumors.com/2026/10/02/att-and-apple-move-to-fix-iphone-18-pro-max-issues/",
+    "author": "Joe Rossignol",
+    "published": "2026-10-02",
+    "accessed": "2026-10-03",
+    "devices": [
+      "apple-iphone-18-pro-max"
+    ],
+    "facets": [
+      "connectivity",
+      "software"
+    ],
+    "summary": "Apple released AT&T carrier settings 72.1 and now requires iOS 27.0.1 when setting up the phone; AT&T said it is working with Apple. The update was described as a mitigation rather than a complete fix, and some users reported it turns off 5G Standalone."
+  },
+  {
+    "id": "macrumors-iphone-18-pro-speaker-crackling",
+    "kind": "news",
+    "type": "issue",
+    "source": "macrumors",
+    "class": "news",
+    "title": "iPhone 18 Pro Owners Complain of Speaker Crackling or Popping",
+    "url": "https://www.macrumors.com/2026/09/29/iphone-18-pro-speaker-crackling/",
+    "author": "Juli Clover",
+    "published": "2026-09-29",
+    "accessed": "2026-10-03",
+    "devices": [
+      "apple-iphone-18-pro",
+      "apple-iphone-18-pro-max"
+    ],
+    "facets": [
+      "audio"
+    ],
+    "summary": "Some owners on the MacRumors forums and Reddit hear crackling, popping or clicking from the earpiece speaker, constantly or during actions such as scrolling, notifications or calls. Apple had not commented; iOS 27.0.1 did not address it, and some replacement units showed it too. The cause, software or hardware, is not known."
+  },
+  {
+    "id": "9to5mac-airpods-5-ifixit-teardown",
+    "kind": "news",
+    "type": "analysis",
+    "source": "9to5mac",
+    "class": "news",
+    "title": "iFixit teardown of the new AirPods 5 reveals first real repairability improvement",
+    "url": "https://9to5mac.com/2026/09/29/ifixit-teardown-of-the-new-airpods-5-reveals-first-real-repairability-improvement/",
+    "author": "Marcus Mendes",
+    "published": "2026-09-29",
+    "accessed": "2026-10-03",
+    "devices": [
+      "apple-airpods-5"
+    ],
+    "facets": [
+      "durability"
+    ],
+    "summary": "iFixit gave the AirPods 5 a repairability score of 2 out of 10, the first AirPods above zero: the earbud batteries can be replaced by a skilled repairer without destroying the earbud (left and right are not interchangeable). The rest of each earbud is still glued, and the charging case still can't be repaired."
   }
 ]

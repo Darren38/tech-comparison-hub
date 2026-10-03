@@ -60,7 +60,7 @@ from devices_all import AUTO_DEVICES, data_devices, read_auto  # noqa: E402
 from extract import extract, text_of  # noqa: E402
 from chips import clean_name, chip_id as chip_slug, vendor_of, family_of  # noqa: E402
 
-UA = "Mozilla/5.0 (compatible; TechComparisonHub/1.0; +https://darren38.github.io/tech-comparison-hub/)"
+UA = "Mozilla/5.0 (compatible; TechComparisonHub/1.0)"  # Version 25: no author name or address in requests (user)
 DELAY = {"www.honor.com": 30}     # HONOR's robots.txt asks for 30 seconds between requests
 DEFAULT_DELAY = 2.0
 SCHEDULE_HOURS = {"new": 20, "fill": 160}
@@ -603,19 +603,52 @@ def samsung_prices(text: str, day: str, url: str) -> list[dict]:
             for o in out if 100 <= o["amount"] <= 20000]
 
 
+def robots_refuses(url: str) -> bool:
+    """True only when the site's robots.txt was read and says no (not when it couldn't be read at all)."""
+    allowed(url)
+    parts = urllib.parse.urlsplit(url)
+    rp = _robots.get(f"{parts.scheme}://{parts.netloc}")
+    return bool(rp) and not rp.can_fetch(UA, url)
+
+
+def archived_copy(url: str) -> str | None:
+    """Version 25: the Internet Archive's copy of a page that can't be reached from the build server (Samsung Newsroom's
+    server stalls automated requests, although its robots.txt allows every page). Never used when the page's own
+    robots.txt says no; the Internet Archive's robots.txt is respected too. None when there is no copy."""
+    if robots_refuses(url) or not allowed("https://web.archive.org/web/") or not allowed("https://archive.org/wayback/available"):
+        return None
+    status, _, body = fetch("https://archive.org/wayback/available?url=" + urllib.parse.quote(url, safe=""))
+    try:
+        snap = (json.loads(body).get("archived_snapshots") or {}).get("closest") or {} if status == 200 else {}
+    except ValueError:
+        snap = {}
+    if not snap.get("available") or not re.fullmatch(r"\d{14}", snap.get("timestamp", "")):
+        return None
+    status, _, page = fetch(f"https://web.archive.org/web/{snap['timestamp']}id_/{url}")
+    return page if status == 200 and page else None
+
+
 def read_samsung(url: str, p: dict, hub: Hub) -> tuple[dict | None, str]:
     """A Samsung Newsroom Malaysia launch announcement: its specification table if it has one, otherwise its sentences."""
     try:
-        if not allowed(url):
-            return None, refusal(url)
-        status, final, page = fetch(url)
+        if robots_refuses(url):
+            return None, "robots.txt does not allow this page"
+        status, final, page = fetch(url) if allowed(url) else (0, url, "")
         if status != 200:
-            return None, f"page not available (HTTP {status or 'error'})"
+            page = archived_copy(url)                    # Version 25: the same announcement, as the Internet Archive keeps it
+            if not page:
+                return None, (refusal(url) if not allowed(url) else f"page not available (HTTP {status or 'error'})")
+            final = url
         if not same_page(url, final):
             return None, "the page redirects elsewhere"
         title = page_title(page)
         if key(p["name"]) not in key(title):
             return None, f"the announcement title does not name {p['name']}"
+        if re.search(r"\bseries\b", title, re.I):          # Version 25: a series announcement covers several models
+            named = sorted(i for k, i in hub.names.items() if k.startswith(key(p["name"])))
+            if named:                                     # a person has added them already
+                return None, f"already in the hub ({', '.join(named)})"
+            return None, "the announcement names several models; left for a person"
         lines = text_of(page)
         text = " | ".join(lines)
         from extract import extract_lines, extract_article  # noqa: PLC0415
@@ -992,7 +1025,9 @@ def find_new(state: dict, hub: Hub, limit: int, log) -> None:
         if NOT_LAUNCH.search(title) or not models:
             continue
         done_articles.add(url)
-        if len(models) != 1:
+        # Version 25: "Galaxy Tab S12 Series" names one series but announced two models (Tab S12 Ultra and Tab S12+), and
+        # there is no plain "Galaxy Tab S12"
+        if len(models) != 1 or re.search(r"\bseries\b", title, re.I):
             held[url] = {"brand": "samsung", "name": title[:80], "reason": "the announcement names several models; left for a person", "at": TODAY}
             continue
         model = "Galaxy " + next(iter(models))
@@ -1019,6 +1054,25 @@ def find_new(state: dict, hub: Hub, limit: int, log) -> None:
             tried[url] = TODAY
             pending.setdefault(url, {"brand": brand, "cat": "tablet" if "ipad" in slug or "pad" in slug.split("-") else "smartphone",
                                      "slug": slug, "firstSeen": TODAY, "tries": 0, "guess": gk})
+    # Version 25: a page held because robots.txt seemed to refuse it is looked at again while robots.txt allows it. Before
+    # Version 24 a robots.txt that couldn't be loaded counted as a refusal, so Samsung Newsroom Malaysia's Galaxy Tab S12
+    # announcement was held on 30 Sep 2026 although Samsung's robots.txt allows every page; held pages were never read again.
+    for url, h in list(held.items()):
+        if h.get("reason") != "robots.txt does not allow this page" or url in pending or robots_refuses(url):
+            continue
+        again = h.get("retry")
+        if not again and SAMSUNG_MY.match(url) and h.get("name", "").startswith("Galaxy "):
+            headline = next((i for i in news if i.get("url") == url), {})
+            if re.search(r"\bseries\b", headline.get("title", ""), re.I):
+                h["reason"] = "the announcement names several models; left for a person"
+                continue
+            published = (headline.get("published") or "")[:10] or h.get("at", TODAY)
+            again = {"brand": "samsung", "cat": "tablet" if h["name"].startswith("Galaxy Tab") else "smartphone", "slug": None,
+                     "name": h["name"], "firstSeen": published, "samsung": True}
+        if again:
+            pending[url] = {**again, "tries": 0}
+            held.pop(url)
+            log(f"[devices] {url}: held as refused by robots.txt, which doesn't refuse it; read again")
     done = honor = 0
     for url, p in sorted(pending.items(), key=lambda kv: kv[1]["firstSeen"]):
         if done >= limit:
@@ -1047,8 +1101,9 @@ def find_new(state: dict, hub: Hub, limit: int, log) -> None:
             continue
         pending.pop(url, None)
         if got is None:
-            if not p.get("guess"):                        # a wrong address guess is not worth listing
-                held[url] = {"brand": brand, "reason": why, "at": TODAY, **({"name": p["name"]} if p.get("name") else {})}
+            if not p.get("guess") and not why.startswith("already in the hub"):   # a wrong address guess is not worth listing
+                held[url] = {"brand": brand, "reason": why, "at": TODAY, **({"name": p["name"]} if p.get("name") else {}),
+                             **({"retry": {k: v for k, v in p.items() if k != "tries"}} if why == "robots.txt does not allow this page" else {})}
             log(f"[devices] {url}: not added ({why})")
             continue
         existing = hub.existing(got["name"])

@@ -23,13 +23,37 @@ let lastIds = [];
 let open = false;
 let busy = false;
 const history = []; // { who: 'you' | 'hub' | 'sys', text | html }
+// Version 25: what this chat has been about, kept in this page only (never stored or sent anywhere) until the page is
+// refreshed or the visitor starts a new chat. It lets follow-up questions lean on earlier ones.
+const memory = { asked: [], ids: [], budget: 0, use: '', brand: '', category: '', malaysia: false };
+function remember(question, { ids = [], plan = null, own = null } = {}) {
+  memory.asked = [...memory.asked, question].slice(-6);
+  memory.ids = [...new Set([...ids, ...memory.ids])].slice(0, 6);
+  const budget = plan?.budget_rm || (own?.maxPrice?.currency === 'MYR' ? Math.round(own.maxPrice.amount) : 0);
+  if (budget) memory.budget = budget;
+  const use = plan?.use_case && !['none', 'balanced'].includes(plan.use_case) ? plan.use_case : own?.profile;
+  if (use) memory.use = use;
+  if (plan?.brand) memory.brand = plan.brand;
+  if (plan?.category && plan.category !== 'any') memory.category = plan.category;
+  if (/\b(malaysia|malaysian|msia)\b|大马|马来西亚/i.test(question)) memory.malaysia = true;
+}
+function forget() {
+  Object.assign(memory, { asked: [], ids: [], budget: 0, use: '', brand: '', category: '', malaysia: false });
+}
 
 function pageContext() {
-  const { path } = parseLocation();
+  const { path, query } = parseLocation();
   const dev = /^\/device\/([\w-]+)$/.exec(path);
   if (dev && store.deviceById.has(dev[1])) return { deviceIds: [dev[1]] };
   const cmp = /^\/compare\/([\w,-]+)$/.exec(path);
   if (cmp) return { deviceIds: cmp[1].split(',').filter((id) => store.deviceById.has(id)) };
+  // Version 25: other pages the chat can be opened on
+  if (path === '/charts') return { deviceIds: [], page: 'charts', metric: query?.test || null };
+  if (path === '/news' || path === '/reviews') return { deviceIds: [], page: path.slice(1) };
+  const chip = /^\/chipset\/([\w-]+)$/.exec(path);
+  if (chip && store.chipsetById?.has(chip[1])) return { deviceIds: [], page: 'chipset', chipName: store.chipsetById.get(chip[1]).name };
+  const brand = /^\/brand\/([\w-]+)$/.exec(path);
+  if (brand && store.brandById?.has(brand[1])) return { deviceIds: [], page: 'brand', brandName: store.brandById.get(brand[1]).name };
   return { deviceIds: [] };
 }
 
@@ -60,7 +84,8 @@ function renderLog(log) {
       <p><strong>Ask the hub.</strong> I answer from this site's data (specifications, launch prices, tests and their sources), and say so when something isn't recorded.</p>
       <p>Try "Is it worth buying?", "Does it have NFC?", "Which is better, the Galaxy S26 or the iPhone 17?" or "What is IP68?".</p>
       <p class="ask__src">Switch on <strong>AI answers</strong> above to ask in your own words or language ("phone for my mum, long battery, below 1.5k"): a free AI model on your own device works out what you mean, looks it up in the site's data and explains it.</p>
-    </div>`}${history.map((m) => html`<div class="ask__msg ask__msg--${m.who}">${m.who === 'you' ? html`<p>${m.text}</p>` : m.html}</div>`)}`);
+      <p class="ask__src">The chat remembers what you asked until you refresh the page, so you can follow on ("and with a better camera?"). Nothing is stored or sent anywhere.</p>
+    </div>`}${history.length ? html`<p class="ask__new tiny"><button type="button" class="linkish" data-ask-new>New chat</button></p>` : ''}${history.map((m) => html`<div class="ask__msg ask__msg--${m.who}">${m.who === 'you' ? html`<p>${m.text}</p>` : m.html}</div>`)}`);
   log.scrollTop = log.scrollHeight;
 }
 
@@ -96,6 +121,7 @@ export function mountAssistant() {
           <button type="button" class="ask__ai-switch" data-ai-switch aria-pressed="false" title="AI answers from a free model that runs on your device">
             <span class="ask__ai-knob" aria-hidden="true"></span><span>AI answers</span><span class="ask__ai-state" data-ai-state>Off</span>
           </button>
+          <button type="button" class="icon-btn ask__max" data-ask-max aria-pressed="false" aria-label="Make the chat bigger" title="Make the chat bigger">${icon('maximize', { size: 16 })}</button>
           <button type="button" class="icon-btn" data-ask-toggle aria-label="Close">${icon('close', { size: 16 })}</button>
         </div>
       </header>
@@ -275,19 +301,32 @@ export function mountAssistant() {
     launch.setAttribute('aria-expanded', String(open));
     root.classList.toggle('is-open', open);
     if (open) {
-      // Every opening starts a fresh conversation: nothing from an earlier chat (or an earlier visitor) carries over.
-      history.length = 0;
-      lastIds = [];
+      // Version 25: the conversation stays until the page is refreshed (or "New chat"), so closing and opening the
+      // panel carries on where it was
       input.value = '';
       await loadEngine();
       refreshContext();
-      if (aiState === 'on') history.push({ who: 'sys', html: onCard() });
+      if (aiState === 'on' && !history.length) history.push({ who: 'sys', html: onCard() });
       renderLog(log);
       showAiState();
       input.focus();
     } else {
+      // the next opening is the usual side panel again, whatever size it was closed at
+      setMax(false);
       launch.focus();
     }
+  }
+
+  function setMax(big) {
+    const max = panel.querySelector('[data-ask-max]');
+    panel.classList.toggle('is-max', big);
+    if (!max) return;
+    max.setAttribute('aria-pressed', String(big));
+    const label = big ? 'Make the chat smaller' : 'Make the chat bigger';
+    max.setAttribute('aria-label', label);
+    max.title = label;
+    max.innerHTML = String(icon(big ? 'minimize' : 'maximize', { size: 16 }));
+    log.scrollTop = log.scrollHeight;
   }
 
   // ---------------------------------------------------------------- asking
@@ -310,6 +349,7 @@ export function mountAssistant() {
           res = { html: html`<p>Sorry, something went wrong reading the data (${error.message}). Try again, or open the device page directly.</p>` };
         }
         if (res.devices?.length) lastIds = res.devices.slice(0, 4);
+        remember(question, { ids: res.devices ?? [], own: eng.analyse(question) });
         entry.html = aiState === 'loading' ? html`${res.html}<p class="ask__src">The AI is still getting ready, so this answer comes straight from the site's data.</p>` : res.html;
       }
     } finally {
@@ -329,7 +369,9 @@ export function mountAssistant() {
 
   async function aiAnswer(question, entry) {
     const eng = await loadEngine();
-    const ctx = { ...pageContext(), lastIds };
+    const ctx = { ...pageContext(), lastIds: lastIds.length ? lastIds : memory.ids.slice(0, 4), memory };
+    if (!agent) agent = await import('../engine/ai-agent.js');
+    ctx.followUp = await agent.isFollowUp(question, memory);
     // greetings and thanks need no AI
     if (eng.isSmallTalk(question)) {
       entry.html = (await eng.ask(question, ctx)).html;
@@ -349,7 +391,8 @@ export function mountAssistant() {
     // 1. understand
     let plan = null;
     try {
-      plan = await agent.understand(backend, question, ctx);
+      // Version 25: an English question the site's own rules understand needs no model for this step (5–8 s saved)
+      plan = (await agent.planFromRules(question, ctx)) ?? (await agent.understand(backend, question, ctx));
     } catch (error) {
       console.error(error);
     }
@@ -368,6 +411,8 @@ export function mountAssistant() {
       return;
     }
     if (found.ids.length) lastIds = found.ids.slice(0, 4);
+    if (plan && ctx.followUp) plan.memoryNote = agent.memoryNote(memory);
+    remember(question, { ids: found.ids, plan, own: eng.analyse(question) });
     const lookedUp = html`<div class="ask__looked"><p class="tiny muted"><strong>What I looked up:</strong> ${found.used.length ? found.used.map((r, i) => html`${i ? ' · ' : ''}“${r.query}”`) : 'how this spec is spread across the database, and the site’s explanations'}${found.extras?.length ? html` · plus ${found.extras.join(', ')}` : ''}${found.unknown.length ? html` · not in this database: ${found.unknown.join(', ')}` : ''}</p></div>`;
     // no direct answer: the figures and explanations the AI was given, so the visitor can check it
     const siteData = found.used.length ? found.used.map((r) => r.res.html) : html`<ul class="ask__facts">${found.context.map((c) => html`<li>${c}</li>`)}</ul>`;
@@ -375,6 +420,13 @@ export function mountAssistant() {
       <details class="ask__given"><summary>Show all the data the AI was given</summary><pre class="ask__facts-raw">${found.facts}</pre></details>`;
     const next = agent.followUps(plan, found);
     const nextChips = next.length ? html`<div class="ask__next">${next.map((s) => html`<button type="button" class="ask__chip" data-ask-chip>${s}</button>`)}</div>` : '';
+    // Version 25: "news from Malaysia" with no Malaysian headline: nothing for the AI to summarise, so the site's own
+    // answer (which says so, then shows the latest from elsewhere) is the whole answer. In testing Qwen3.5 2B labelled the
+    // other headlines "(Malaysia)".
+    if (plan?.malaysia && plan.intent === 'news' && /No Malaysian headline/.test(found.facts)) {
+      entry.html = html`<p class="ask__ai-withheld">${icon('spark', { size: 13 })} No Malaysian headline about it has been collected yet, so there is nothing for the AI to summarise. Here is what the site’s data says:</p>${lookedUp}${siteData}${nextChips}`;
+      return;
+    }
     // 3. explain
     phase = [2, 'write'];
     entry.html = steps(...phase);
@@ -405,6 +457,17 @@ export function mountAssistant() {
 
   root.addEventListener('click', (e) => {
     if (e.target.closest('[data-ask-toggle]')) setOpen(!open);
+    if (e.target.closest('[data-ask-new]')) {
+      history.length = 0;
+      lastIds = [];
+      forget();
+      if (aiState === 'on') history.push({ who: 'sys', html: onCard() });
+      renderLog(log);
+      renderChips(chips, pageContext());
+      input.focus();
+    }
+    // Version 25: a bigger chat on request (it always opens at the side, as before)
+    if (e.target.closest('[data-ask-max]')) setMax(!panel.classList.contains('is-max'));
     if (e.target.closest('[data-ai-switch]')) {
       if (aiState === 'on') {
         aiState = 'off';

@@ -1,0 +1,313 @@
+[
+  {
+    "id": "engadget-apple-watch-series-12-review",
+    "kind": "review",
+    "source": "engadget",
+    "title": "Apple Watch Series 12 review: Catching up and catching heat",
+    "url": "https://www.engadget.com/2260989/apple-watch-series-12-review-hrv-new-health-sensing-gesture/",
+    "author": "Cherlynn Low",
+    "published": "2026-09-17",
+    "accessed": "2026-10-03",
+    "class": "reviewer",
+    "devices": [
+      "apple-watch-series-12"
+    ],
+    "facets": [
+      "health",
+      "battery",
+      "charging",
+      "software",
+      "performance"
+    ],
+    "method": "Experience review; score 91 out of 100.",
+    "findings": [
+      {
+        "subject": "apple-watch-series-12",
+        "facet": "health",
+        "stance": "positive",
+        "text": "The new sensors measure background heart rate every 5 seconds (it was every 5 minutes) and heart rate variability every 5 minutes; readings stayed within two beats per minute of a Fitbit worn for comparison."
+      },
+      {
+        "subject": "apple-watch-series-12",
+        "facet": "battery",
+        "stance": "positive",
+        "text": "Battery life matched the Series 11, with about half the charge left after quieter days; a 12-minute charge took it from 51% to 79%."
+      },
+      {
+        "subject": "apple-watch-series-12",
+        "facet": "software",
+        "stance": "neutral",
+        "text": "New wrist gestures help hands-free use, but the new app grid sometimes put unexpected apps first, and the Readiness score needs a week of baseline data."
+      },
+      {
+        "subject": "apple-watch-series-12",
+        "facet": "performance",
+        "stance": "positive",
+        "text": "Responsive throughout testing, with no stutters or lag."
+      }
+    ],
+    "extraction": "partial"
+  },
+  {
+    "id": "9to5mac-apple-watch-series-12-ultra-4-review",
+    "kind": "review",
+    "source": "9to5mac",
+    "title": "Apple Watch Series 12 and Ultra 4 review: More personal than ever before",
+    "url": "https://9to5mac.com/2026/09/17/apple-watch-series-12-and-ultra-4-review/",
+    "author": "Chance Miller",
+    "published": "2026-09-17",
+    "accessed": "2026-10-03",
+    "class": "reviewer",
+    "devices": [
+      "apple-watch-series-12",
+      "apple-watch-ultra-4"
+    ],
+    "facets": [
+      "health",
+      "battery",
+      "performance",
+      "display"
+    ],
+    "method": "Experience review of both watches.",
+    "findings": [
+      {
+        "subject": "apple-watch-series-12",
+        "facet": "performance",
+        "stance": "positive",
+        "text": "The S11 chip with twice the memory (4 GB) made apps open and menus scroll faster."
+      },
+      {
+        "subject": "apple-watch-series-12",
+        "facet": "display",
+        "stance": "neutral",
+        "text": "The display area is 2% smaller than before, which the reviewer could not notice in use."
+      },
+      {
+        "subject": "apple-watch-series-12",
+        "facet": "health",
+        "stance": "positive",
+        "text": "Heart rate every 5 seconds, better heart rate variability tracking, a daytime Vitals view and a new Readiness score."
+      },
+      {
+        "subject": "apple-watch-ultra-4",
+        "facet": "battery",
+        "stance": "positive",
+        "text": "Apple rates it at 50 hours of normal use (42 before); the reviewer got about 48 hours on one charge including 90 minutes of workouts."
+      },
+      {
+        "subject": "apple-watch-ultra-4",
+        "facet": "health",
+        "stance": "positive",
+        "text": "Gets the same new health sensors and Readiness score as the Series 12."
+      }
+    ],
+    "extraction": "partial"
+  },
+  {
+    "id": "engadget-galaxy-s26-fe-review",
+    "kind": "review",
+    "source": "engadget",
+    "title": "Samsung Galaxy S26 FE review: An incremental price hike for incremental updates",
+    "url": "https://www.engadget.com/2260026/samsung-galaxy-s26-fe-review/",
+    "author": "Mat Smith",
+    "published": "2026-09-18",
+    "accessed": "2026-10-03",
+    "class": "reviewer",
+    "devices": [
+      "samsung-galaxy-s26-fe"
+    ],
+    "facets": [
+      "display",
+      "battery",
+      "performance",
+      "camera",
+      "value"
+    ],
+    "method": "Experience review with a video playback battery test; score 67 out of 100.",
+    "findings": [
+      {
+        "subject": "samsung-galaxy-s26-fe",
+        "facet": "display",
+        "stance": "positive",
+        "text": "The 6.7-inch 120 Hz OLED is crisp and vivid, though dimmer at its peak than the other S26 models."
+      },
+      {
+        "subject": "samsung-galaxy-s26-fe",
+        "facet": "battery",
+        "stance": "negative",
+        "text": "Just over 21 hours in Engadget's video playback test, noticeably less than the S26+ with a battery of the same capacity; it needed charging every day."
+      },
+      {
+        "subject": "samsung-galaxy-s26-fe",
+        "facet": "performance",
+        "stance": "neutral",
+        "text": "The Exynos 2500 handled most tasks but struggled with demanding games, and the camera app sometimes felt slow."
+      },
+      {
+        "subject": "samsung-galaxy-s26-fe",
+        "facet": "camera",
+        "stance": "neutral",
+        "text": "The 50 MP main camera does well in good light; the 8 MP telephoto gave blurry or overexposed shots."
+      },
+      {
+        "subject": "samsung-galaxy-s26-fe",
+        "facet": "value",
+        "stance": "negative",
+        "text": "Costs US$50 more than the previous FE for small changes, which makes discounted older models hard to ignore."
+      }
+    ],
+    "extraction": "partial"
+  },
+  {
+    "id": "engadget-airpods-5-review",
+    "kind": "review",
+    "source": "engadget",
+    "title": "Apple AirPods 5 review: The choice is clear",
+    "url": "https://www.engadget.com/2261751/apple-airpods-5-review/",
+    "author": "Billy Steele",
+    "published": "2026-09-18",
+    "accessed": "2026-10-03",
+    "class": "reviewer",
+    "devices": [
+      "apple-airpods-5"
+    ],
+    "facets": [
+      "audio",
+      "battery",
+      "value"
+    ],
+    "method": "Experience review; score 88 out of 100.",
+    "findings": [
+      {
+        "subject": "apple-airpods-5",
+        "facet": "audio",
+        "stance": "positive",
+        "text": "Fuller bass and more instrument detail than before; noise cancelling handled steady background hum well, though voices still got through."
+      },
+      {
+        "subject": "apple-airpods-5",
+        "facet": "battery",
+        "stance": "positive",
+        "text": "About 5 to 7 hours with noise cancelling on the higher model and 4 to 6 on the base model; five minutes of charging gives about an hour."
+      },
+      {
+        "subject": "apple-airpods-5",
+        "facet": "value",
+        "stance": "neutral",
+        "text": "The US$149 model with the wireless charging case and volume gestures was judged the better buy than the US$129 one."
+      }
+    ],
+    "extraction": "partial"
+  },
+  {
+    "id": "fonearena-pixel-11-review",
+    "kind": "review",
+    "source": "fonearena",
+    "title": "Google Pixel 11 Review: The smarter flagship evolves",
+    "url": "https://www.fonearena.com/blog/493900/google-pixel-11-review.html",
+    "author": "Srivatsan Sridhar",
+    "published": "2026-10-01",
+    "accessed": "2026-10-03",
+    "class": "reviewer",
+    "devices": [
+      "google-pixel-11"
+    ],
+    "facets": [
+      "display",
+      "thermals",
+      "camera",
+      "battery",
+      "charging"
+    ],
+    "method": "Experience review with stress testing (reviewed in India).",
+    "findings": [
+      {
+        "subject": "google-pixel-11",
+        "facet": "display",
+        "stance": "neutral",
+        "text": "A bright 6.3-inch 120 Hz OLED that is easy to read outdoors, but without an LTPO panel."
+      },
+      {
+        "subject": "google-pixel-11",
+        "facet": "thermals",
+        "stance": "negative",
+        "text": "The Tensor G6 felt smooth in daily use but throttled in long gaming sessions; the phone reached 45 °C in a stress test, and it has no vapour chamber."
+      },
+      {
+        "subject": "google-pixel-11",
+        "facet": "camera",
+        "stance": "positive",
+        "text": "Strong daylight and low-light photos from the new 48 MP main camera and the 5x telephoto."
+      },
+      {
+        "subject": "google-pixel-11",
+        "facet": "battery",
+        "stance": "positive",
+        "text": "More than a day of typical use from the 4,985 mAh battery."
+      },
+      {
+        "subject": "google-pixel-11",
+        "facet": "charging",
+        "stance": "neutral",
+        "text": "30 W wired charging reached 50% in about 25 minutes."
+      }
+    ],
+    "extraction": "partial"
+  },
+  {
+    "id": "ifanr-xiaomi-18-pro-max-review",
+    "kind": "review",
+    "source": "ifanr",
+    "title": "小米 18 Pro Max 首发评测：最好的小米手机，也是最好玩的小米手机",
+    "url": "https://www.ifanr.com/1681778",
+    "author": "肖钦鹏",
+    "published": "2026-09-23",
+    "accessed": "2026-10-03",
+    "lang": "zh",
+    "class": "reviewer",
+    "devices": [
+      "xiaomi-18-pro-max"
+    ],
+    "facets": [
+      "thermals",
+      "camera",
+      "battery",
+      "display",
+      "build"
+    ],
+    "method": "Launch review (in Chinese).",
+    "findings": [
+      {
+        "subject": "xiaomi-18-pro-max",
+        "facet": "thermals",
+        "stance": "positive",
+        "text": "Heat was spread more evenly than on the 17 Pro Max, no longer gathering under the cameras, and sustained performance was steadier."
+      },
+      {
+        "subject": "xiaomi-18-pro-max",
+        "facet": "camera",
+        "stance": "positive",
+        "text": "Two 200 MP cameras (main and telephoto) cover 17–200 mm; the new Leica colour profile recovers more shadow detail, and black-and-white shots were the strongest point."
+      },
+      {
+        "subject": "xiaomi-18-pro-max",
+        "facet": "battery",
+        "stance": "positive",
+        "text": "The 8,500 mAh battery gave over 9 hours of screen-on time on average per day."
+      },
+      {
+        "subject": "xiaomi-18-pro-max",
+        "facet": "display",
+        "stance": "positive",
+        "text": "The rear screen now sits flush with the camera lenses and matches the main screen's quality; the main screen has very narrow bezels and a hardware privacy mode."
+      },
+      {
+        "subject": "xiaomi-18-pro-max",
+        "facet": "build",
+        "stance": "positive",
+        "text": "Called the high point of Xiaomi's design in five years, with a more rounded frame that sits better in the hand."
+      }
+    ],
+    "extraction": "partial"
+  }
+]

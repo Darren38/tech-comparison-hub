@@ -1,5 +1,46 @@
 # Changelog
 
+## 3 October 2026
+
+Ask the hub leans towards Malaysia, remembers the conversation, can be made bigger, reads everything on the site, uses Chinese sources for Chinese questions, and its AI answers come sooner. Also: the Galaxy Tab S12 Ultra and Tab S12+, fixes to the automatic device reader, and new checked reviews, videos and news.
+
+**Malaysia first**
+- Malaysian prices, availability and headlines (SoyaCincau, TechNave, Zing Gadget, Malay Mail, Samsung Malaysia) come first in answers about news and prices, from the rules and from the AI; another country's price or news follows, naming the country. Prices in other currencies stay in their own currency ("$335 off" is no longer turned into "RM335").
+- "News from Malaysia" (also "berita Malaysia", "大马") keeps to Malaysian sources. When none has been collected about that device yet, the answer says so plainly and then shows the latest from elsewhere, labelled as such. In testing, the small AI model had labelled 9to5Google and Gizmochina headlines "(Malaysia)"; the AI now sees which headlines come from a Malaysian site, and a sentence that calls any other headline Malaysian is removed.
+
+**Chinese questions get Chinese sources**
+- A question in Chinese now gets Chinese-language headlines and videos first (Malaysian Chinese ones, such as Zing Gadget and TechNave 中文版, before others), from the rules and from the AI, and the AI is given one more of them.
+- The AI answers in the question's own script. In testing, the small model once answered a simplified-Chinese question in traditional characters; the reminder is now also written in that script, and an answer in the other script isn't shown (the site's own answer is shown instead).
+
+**The chat remembers, and can be made bigger**
+- The conversation is kept until the page is refreshed: closing and opening the panel carries on where you were. "New chat" starts again. A short follow-up ("and with a better camera?", "which is lighter?") is read with what you asked before, the devices discussed and any budget you gave; a question that stands on its own is answered on its own (in testing, giving the AI earlier unrelated questions made answers slower and pulled them off course). Nothing is stored or sent anywhere.
+- A new button beside the AI switch makes the chat fill most of the window (the whole screen on a phone); the same button makes it small again. It always opens at the side of the page as before, including after being closed while big.
+
+**The AI reads everything the site has**
+- For a question about tests, scores, benchmarks or reviews, or asked on the Charts page, the AI is now also given every test result of the device with its place in that test's chart ("Peak brightness: 2,303 nits, measured by GSMArena, Tom's Guide; 11th of 45 smartphones with this test"), alongside the specifications, scores, Malaysian prices, review findings and headlines it already reads for every question. Given for every question, the chart places led the 4B model into judgements of its own ("strong battery" for a phone the scores call weak on battery): in testing, 77 of 88 AI answers could be shown, against 85 of 88 without them.
+- It knows the page you are on: the chart and test you're looking at, a chip's or a brand's page, News, or Reviews & videos; the suggestions under the question box follow that page ("Which phone lasts longest in battery tests?" on the Charts page, "Latest news from Malaysia" on News, "Latest video reviews" on Reviews & videos).
+- Asking for the latest videos without naming a device now lists videos; before, such a question left videos out and showed written articles.
+- "Galaxy S26 Ultra video reviews", "iPhone 18 Pro YouTube review" or "unboxing" now answer with videos (in English, Malay or Chinese). Before, "video" was read as a camera question and the answer was the camera specification. When none of the collected YouTube videos is about the device, the answer says so and points to the reviews and videos the site has checked on its page.
+
+**New: Galaxy Tab S12 Ultra and Tab S12+**
+- Both added from Samsung Malaysia's launch announcement of 30 September 2026: specifications, the Malaysian prices (RM5,999 and RM4,999 with Wi-Fi; RM6,649 and RM5,649 with 5G) and the sale date, 7 October 2026. Marked as compiled from launch material until they are cross-checked.
+- Why they hadn't appeared by themselves: on 30 September Samsung's server didn't answer the automatic reader's request for its robots.txt, which was then taken as a refusal, and a page held that way was never looked at again. Samsung's robots.txt allows every page. A page held as "refused by robots.txt" is now read again while its robots.txt allows it; when Samsung's server doesn't answer, the Internet Archive's copy of the same announcement is read instead (as for the One UI release dates). And an announcement of a "series" is now left for a person: the reader had looked for a "Galaxy Tab S12", a model Samsung didn't announce.
+
+**Privacy of the automatic readers**
+- The site's automatic readers now introduce themselves to other websites only as "TechComparisonHub/1.0", with no link to the site's address, so no author name is sent with any request. They still say they are an automated reader and still follow every site's robots.txt in the same way.
+
+**Checked reviews, videos and news brought up to date**
+- Read by hand and added with their sources: reviews of the Apple Watch Series 12 and Ultra 4 (Engadget, 9to5Mac), Galaxy S26 FE and AirPods 5 (Engadget), Pixel 11 (FoneArena) and Xiaomi 18 Pro Max (ifanr, in Chinese); the iPhone 18 Pro Max's AT&T connection fault and Apple's fix, iPhone 18 Pro speaker crackling, and iFixit's AirPods 5 teardown; and 13 video reviews, teardowns and durability tests (HTX Studio, JerryRigEverything, WekiHome, Geekerwan, MediaStorm, 邦尼 and others).
+- Notebookcheck and Gizmochina refuse automated readers, so their recent reviews stay in the automatic headline lists only.
+
+**Faster AI answers, without lowering accuracy**
+- When the site's own rules already understand a plain English question (the devices, a budget, a ranking, news, reviews, a price), the AI's "understanding" step is skipped, which took 5–8 seconds. Questions in other languages, follow-ups and anything the rules can't read fully still go through the AI first.
+- Measured on a laptop with an RTX 4060, the same 22 questions (English, Chinese, Malay), each asked several times, against the version before: Qwen3.5 4B answers in 16.8 s instead of 21.3 s, with 105 of 110 AI answers shown (95%, the same as before); Qwen3.5 2B in 9.7 s instead of 13.5 s, with 79% of AI answers shown instead of 64%. Answers are about as long as before or slightly longer.
+- Tried and left out, because they cost detail or gained nothing: asking for shorter answers (4 sentences) saved only 0.6 s and made answers 19% shorter; a shorter "understanding" plan saved no time.
+
+**More checks before an AI answer is shown**
+- A sentence is removed when it says there are no tests, reviews or headlines where the site has some ("目前暂无独立实验室的实测数据" for a phone with 12 test results), now also in Chinese and Malay; when it gives another currency's amount as ringgit (the 2B model once wrote "RM15,000" for a headline's INR 15,000); and when it says a device isn't released yet where the site has its launch date.
+
 ## 2 October 2026
 
 Samsung's own release date for the newest One UI, for each Galaxy model, and faster first visits.

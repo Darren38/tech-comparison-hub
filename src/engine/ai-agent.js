@@ -12,6 +12,7 @@
 //      answer is withheld), next to what was looked up and the sources.
 
 import * as eng from './assistant.js';
+import * as ai from './ai.js';
 import { store } from '../core/store.js';
 import { normalizeText } from './search.js';
 import { formsById, squash } from './names.js';
@@ -63,7 +64,36 @@ function planContext(ctx) {
   const name = (id) => store.deviceById.get(id)?.name;
   const page = (ctx.deviceIds ?? []).map(name).filter(Boolean);
   const prev = (ctx.lastIds ?? []).map(name).filter(Boolean);
-  return [page.length ? `The page the visitor is on shows: ${page.join(', ')}.` : '', prev.length ? `The previous answer was about: ${prev.join(', ')}.` : ''].filter(Boolean).join(' ');
+  const where = ctx.page === 'charts' && ctx.metric ? `The visitor is looking at the ${store.metricById?.get(ctx.metric)?.name ?? ctx.metric} chart.`
+    : ctx.page === 'chipset' && ctx.chipName ? `The visitor is on the page of the ${ctx.chipName} chip.`
+      : ctx.page === 'brand' && ctx.brandName ? `The visitor is on the ${ctx.brandName} brand page.`
+        : ctx.page === 'news' ? 'The visitor is on the News page.' : ctx.page === 'reviews' ? 'The visitor is on the Reviews & videos page.' : '';
+  return [page.length ? `The page the visitor is on shows: ${page.join(', ')}.` : '', where, prev.length ? `The previous answer was about: ${prev.join(', ')}.` : '',
+    ctx.followUp ? memoryNote(ctx.memory) : ''].filter(Boolean).join(' ');
+}
+
+/** Version 25: does this question lean on the chat so far? A pronoun or a follow-up opening ("what about…"), or a short
+ *  question that names no device and no budget of its own ("which has the best camera?"). A question that stands on its
+ *  own is answered on its own: in testing, earlier unrelated questions given as context slowed answers and pulled them
+ *  off course. */
+export async function isFollowUp(question, memory) {
+  if (!memory?.asked?.length) return false;
+  if (PRONOUN.test(question) || FOLLOW_UP.test(question)) return true;
+  const own = eng.analyse(question);
+  const names = await eng.devicesInText(question);
+  const words = normalizeText(question).split(' ').filter(Boolean).length;
+  return !names.length && !own.maxPrice && words <= 9 && Boolean(memory.budget || memory.ids?.length);
+}
+
+/** Version 25: what this chat has been about so far (kept until the page is refreshed), in one or two sentences. */
+export function memoryNote(memory) {
+  if (!memory?.asked?.length) return '';
+  const name = (id) => store.deviceById.get(id)?.name;
+  const said = [memory.budget ? `a budget of RM${memory.budget}` : '', memory.use && memory.use !== 'none' && memory.use !== 'balanced' ? `use: ${memory.use}` : '',
+    memory.brand ? `brand: ${memory.brand}` : '', memory.category && memory.category !== 'any' ? `kind: ${memory.category}` : ''].filter(Boolean);
+  const devices = (memory.ids ?? []).map(name).filter(Boolean).slice(0, 4);
+  return [`Earlier in this chat the visitor asked: ${memory.asked.slice(-3).map((q) => `"${q}"`).join('; ')}.`,
+    devices.length ? `Devices discussed: ${devices.join(', ')}.` : '', said.length ? `They mentioned ${said.join(', ')}.` : ''].filter(Boolean).join(' ');
 }
 
 function normalisePlan(p, question) {
@@ -140,6 +170,8 @@ const DIFFERENCE_WORDS = /\b(differ\w*|beza\w*|perbezaan)\b|区别|區別|不同
 const REVIEW_WORDS = /\b(reviews?|reviewers?|reviewed|problems?|issues?|complain\w*|flaws?|downsides?|drawbacks?|test results?|ulasan|masalah|kelemahan)\b|评测|評測|评价|評價|缺点|缺點|问题|問題/i;
 const NEWS_WORDS = /\b(news|latest|rumou?rs?|leaks?|announced|launch(ed|ing)?|release date|coming|berita|terkini)\b|新闻|新聞|消息|发布|發布/i;
 const FOLLOW_UP = /^\s*(and|also|then|so|what about|how about|bagaimana dengan|macam mana dengan|kalau)\b|^\s*(那|还有|那么)/i;
+// Version 25: a question about measured results, for the TEST RESULTS section
+const TEST_WORDS = /\b(tests?|tested|testing|results?|benchmarks?|scores?|measured|measurements?|labs?|charts?|ranks?|ranking|dxomark|geekbench|antutu|3dmark|ujian|keputusan|markah)\b|测试|測試|实测|實測|跑分|评测|評測|排名|成绩|成績/i;
 const SUPERLATIVE = /\b(lightest|heaviest|cheapest|priciest|biggest|largest|smallest|longest|shortest|fastest|slowest|brightest|thinnest|most|least|highest|lowest|paling|terringan|termurah|terbesar|terkecil|terlaju)\b|最轻|最輕|最便宜|最大|最小|最快|最亮|最薄/i;
 const LOWEST = /\b(lightest|cheapest|smallest|shortest|slowest|thinnest|least|lowest|terringan|termurah|terkecil)\b|最轻|最輕|最便宜|最小|最薄/i;
 const CATEGORY_PLAN = { smartphone: 'phone', smartwatch: 'watch', band: 'band', tablet: 'tablet', earbuds: 'earbuds' };
@@ -162,6 +194,8 @@ function reconcile(plan, question) {
   // about 5G unless the visitor wrote it
   const en = eng.analyse(/\b5g\b/i.test(question) ? plan.question_en : plan.question_en.replace(/\b5G\b/gi, ''));
   const p = { ...plan };
+  // Version 25: "news from Malaysia", "berita Malaysia", "大马": the answer keeps to Malaysian sources
+  p.malaysia = eng.MY_WORDS.test(question) || eng.MY_WORDS.test(plan.question_en ?? '');
 
   // devices: only names the visitor actually wrote (in testing the model added three phones to "a phone for my mum"),
   // and not just a brand or a kind of device ("samsung phone")
@@ -242,6 +276,44 @@ function reconcile(plan, question) {
   return p;
 }
 
+/** Version 25: the plan the site's own rules can make for an English question, so the model's slowest-but-one step (about
+ *  5 s with Qwen3.5 2B, 8 s with 4B) isn't needed. The rules already decide most of the plan after the model has written
+ *  it (reconcile above); what the model added was the kind of question. Null when the rules aren't sure (another
+ *  language, a follow-up, no device and no budget or ranking): then the model plans as before. */
+export async function planFromRules(question, ctx = {}) {
+  // English, or no sign of another language ("Galaxy S26 Ultra battery test results" has no English small words)
+  const lang = languageOf(question);
+  if ((lang && lang !== 'en') || /[^\x00-\x7F’‘“”–—…]/.test(question) || PRONOUN.test(question) || FOLLOW_UP.test(question) || ctx.followUp) return null;
+  const own = eng.analyse(question);
+  const names = (await eng.devicesInText(question)).map(eng.officialName);
+
+  const judging = /\b(good|worth|recommend(ed)?|should i|pros|cons)\b/i.test(question);
+  let intent = null;
+  if (names.length >= 2) intent = own.features.length ? 'feature_check' : 'compare';
+  else if (names.length === 1) {
+    if (NEWS_WORDS.test(question)) intent = 'news';
+    else if (REVIEW_WORDS.test(question)) intent = 'reviews';
+    else if (own.features.length) intent = 'feature_check';
+    else if (judging) intent = 'verdict';
+    else if (/\b(price|cost|how much)\b/i.test(question)) intent = 'price';
+    else if (/\bspecs?\b|\bspecifications?\b/i.test(question) || own.attrs.length) intent = 'device_info';
+  } else if (own.features.length) return null;          // "cheapest phone with wireless charging": a filter the rules don't plan
+  else if (own.attrs.length && SUPERLATIVE.test(question)) intent = 'rank';
+  else if (own.maxPrice || own.profile || /\b(best|recommend\w*|which (phone|tablet|watch|earbuds))\b/i.test(question)) intent = 'recommend';
+  if (!intent) return null;
+  const plan = {
+    question_en: question, language: 'en', intent, devices: names, about_previous: false, category: 'any', brand: '', budget_rm: 0,
+    use_case: 'none', attributes: [], features: [], order: 'none', terms: [],
+  };
+  const p = reconcile(plan, question);
+  // as understand() does after reconcile(): the devices found in the visitor's words, however they were typed
+  if (names.length > p.devices.length) p.devices = names;
+  if (p.devices.length >= 2 && ['recommend', 'rank', 'list', 'advice', 'other', 'verdict', 'device_info'].includes(p.intent)
+      && COMPARE_WORDS.test(question)) p.intent = 'compare';
+  p.fromRules = true;
+  return p;
+}
+
 export async function understand(backend, question, ctx = {}) {
   const context = planContext(ctx);
   const raw = await backend.plan(PLAN_SYSTEM, `${context ? `${context}\n` : ''}Visitor's question: ${question}`, PLAN_SCHEMA);
@@ -316,6 +388,7 @@ function queriesFor(plan, names) {
     // news: the latest headlines, collected live where the site can (Version 12); a device the site doesn't
     // list yet is found by name in the headline titles
     case 'news':
+      if (plan.malaysia) return names.length ? [`news from Malaysia about ${names[0]}`] : ['latest news from Malaysia'];
       return names.length ? [`latest news about ${names[0]}`] : [`news ${plan.question_en || ''}`.trim()];
     case 'differences':
       // the comparison table without "which is better"; every difference comes with the facts
@@ -476,6 +549,19 @@ export async function lookUp(plan, question, ctx = {}) {
     const prices = await Promise.all(focus.map(eng.pricesText));
     prices.forEach((t, i) => own(focus[i], t));
     extra.push({ title: 'MALAYSIAN LAUNCH PRICES', body: prices.join('\n'), keep: 2 });
+    // Version 25: every test result with its place in that test's chart (Charts page), not only the few that fit among
+    // the review findings, when the question is about tests or reviews or the visitor is on the Charts page. Given for
+    // every question, the chart places led Qwen3.5 4B into judgements of its own ("strong battery" for a phone the
+    // scores call weak on battery): 77 of 88 AI answers shown in testing, against 85 of 88 without them.
+    const wantsTests = intent === 'reviews' || ctx.page === 'charts' || eng.namesTest(`${question} ${plan?.question_en ?? ''}`)
+      || TEST_WORDS.test(`${question} ${plan?.question_en ?? ''}`);
+    const tests = wantsTests ? await Promise.all(focus.map((id) => eng.testsText(id, { limit: focus.length > 1 ? 8 : 12 }))) : [];
+    const testLines = tests.flatMap((t, i) => (t.length ? [`${eng.officialName(focus[i])}:`, ...t] : []));
+    tests.forEach((t, i) => own(focus[i], t.join('\n')));
+    if (testLines.length) {
+      extra.push({ title: 'TEST RESULTS (independent labs and benchmarks, with each device\'s place in that test\'s chart)', body: testLines.join('\n'), keep: ['reviews', 'verdict', 'compare'].includes(intent) ? 2 : 1 });
+      used1.push(`${tests.reduce((n, t) => n + t.length, 0)} test results with their chart positions`);
+    }
     const reviews = await Promise.all(focus.map((id) => eng.reviewsText(id, { limit: focus.length > 1 ? 4 : 8 })));
     const reviewLines = reviews.flatMap((r, i) => (r.lines.length ? [`${eng.officialName(focus[i])}:`, ...r.lines] : []));
     reviews.forEach((r, i) => own(focus[i], r.lines.join('\n')));
@@ -490,7 +576,10 @@ export async function lookUp(plan, question, ctx = {}) {
     // headlines, the first thing left out when the answer runs long (in Version 20 testing, many unrelated headlines
     // made a verdict wander and slowed the answer).
     const newsy = ['news', 'reviews'].includes(intent);
-    const heads = (await Promise.all(focus.map((id) => eng.headlinesText(id, newsy ? { limit: 3 } : { limit: 2, topics: ['test', 'review', 'video'] })))).flat();
+    // Version 25: a question in Chinese sees Chinese-language headlines and videos first, and one more of them
+    const zh = plan?.language === 'zh' || eng.CJK.test(question);
+    const onlyMy = Boolean(plan?.malaysia) && intent === 'news';
+    const heads = (await Promise.all(focus.map((id) => eng.headlinesText(id, newsy ? { limit: zh ? 4 : 3, zh, onlyMy } : { limit: zh ? 3 : 2, topics: ['test', 'review', 'video'], zh })))).flat();
     if (heads.length) {
       extra.push({ title: 'LATEST HEADLINES (titles collected from news sites and YouTube; not checked by the site)', body: heads.join('\n'), keep: intent === 'news' ? 3 : newsy ? 1 : 0 });
       used1.push(newsy ? 'the latest headlines' : 'recent test and review headlines');
@@ -579,18 +668,18 @@ Rules:
 4. Explain trade-offs, but do not tell the visitor to buy or avoid a device. Review findings and test results are the publisher's: say who said or measured it. The site tests nothing itself, so never write "our tests" or "we tested".
 5. If FACTS list something as NOT IN THIS DATABASE, say the site has no data on it. If FACTS don't answer the question, say what the site can tell them instead.
 6. When FACTS say a comparison is too close to call, say it is too close to call and do not pick a winner. When FACTS say a verdict is partial or based on specifications only, mention it.
-7. Write ${script ?? LANGUAGES[language] ?? 'the same language as the question'}, friendly and clear, ${list ? 'as one short sentence followed by a list of up to six points' : 'in at most 6 short sentences'}. Use RM for prices. Name devices exactly as FACTS do.
-8. Do not mention FACTS, section names, these rules, or that you were given notes.`;
+7. Write ${script ?? LANGUAGES[language] ?? 'the same language as the question'}, friendly and clear, ${list ? 'as one short sentence followed by a list of up to six points' : 'in at most 6 short sentences'}. Write Malaysian prices in RM; keep any other price in the currency FACTS give it (never turn $ or INR into RM). Name devices exactly as FACTS do.
+8. Do not mention FACTS, section names, these rules, or that you were given notes.
+9. The visitor is in Malaysia. When you mention a price, availability, a launch or news, give Malaysia's first if FACTS have it, then another country's, naming the country. Only call a headline Malaysian when FACTS mark it [Malaysian site]; never add that label yourself.`;
 }
 
 // Characters written differently in simplified and traditional Chinese, for answering in the visitor's own script
-// (in testing the 4B model answered "预算2000令吉" in traditional characters)
-const SIMPLIFIED = /[们这个说买预为无时间会来对发车门长东边钱请让没见还价机选择续电摄显]/g;
-const TRADITIONAL = /[們這個說買預為無時間會來對發車門長東邊錢請讓沒見還價機選擇續電攝顯]/g;
+// (in testing the 4B model answered "预算2000令吉" in traditional characters). Version 25: the closing reminder is also
+// written in that script itself, which Qwen3.5 2B follows better.
 function chineseScript(text) {
-  const simp = (text.match(SIMPLIFIED) ?? []).length;
-  const trad = (text.match(TRADITIONAL) ?? []).length;
-  return simp > trad ? 'Chinese in simplified characters (简体中文), as the question is' : trad > simp ? 'Chinese in traditional characters (繁體中文), as the question is' : null;
+  const s = ai.chineseScriptOf(text);
+  return s === 'simplified' ? 'Chinese in simplified characters (简体中文), as the question is. 请用简体中文回答'
+    : s === 'traditional' ? 'Chinese in traditional characters (繁體中文), as the question is. 請用繁體中文回答' : null;
 }
 
 export async function explain(backend, question, plan, found, onText) {
@@ -599,7 +688,9 @@ export async function explain(backend, question, plan, found, onText) {
   // the language is repeated last, where a small model follows it best (4B answered a simplified-Chinese question
   // in traditional characters when it was only in the instructions)
   const inLanguage = script ?? LANGUAGES[language];
-  return backend.write(writeSystem(language, plan?.intent, script), `FACTS:\n${found.facts}\n\nVISITOR'S QUESTION: ${question}${inLanguage && language !== 'en' ? `\n\n(Answer in ${inLanguage}.)` : ''}`, onText);
+  // Version 25: the chat so far, so an answer can follow on from earlier questions ("i want the news from malaysia")
+  const earlier = plan?.memoryNote ? `EARLIER IN THIS CHAT: ${plan.memoryNote}\n\n` : '';
+  return backend.write(writeSystem(language, plan?.intent, script), `FACTS:\n${found.facts}\n\n${earlier}VISITOR'S QUESTION: ${question}${inLanguage && language !== 'en' ? `\n\n(Answer in ${inLanguage}.)` : ''}`, onText);
 }
 
 // ------------------------------------------------------------------ follow-up questions to offer

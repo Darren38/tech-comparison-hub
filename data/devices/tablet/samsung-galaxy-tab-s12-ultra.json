@@ -1,0 +1,132 @@
+{
+  "id": "samsung-galaxy-tab-s12-ultra",
+  "name": "Galaxy Tab S12 Ultra",
+  "brand": "samsung",
+  "category": "tablet",
+  "series": "Galaxy Tab S",
+  "form": "tablet",
+  "status": "announced",
+  "announced": "2026-09-30",
+  "segment": "flagship",
+  "aliases": [
+    "Tab S12 Ultra"
+  ],
+  "summary": "Samsung's 5.1 mm, 14.6-inch AMOLED tablet with the Dimensity 9500, an S Pen in the box, IP68 and Wi-Fi 7; on sale in Malaysia from 7 October 2026.",
+  "highlights": [
+    "14.6-inch AMOLED",
+    "5.1 mm thin",
+    "S Pen included",
+    "IP68"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 5999,
+      "config": "Wi-Fi, 12 GB / 256 GB",
+      "date": "2026-09-30",
+      "type": "launch",
+      "source": "samsung-newsroom-my",
+      "url": "https://news.samsung.com/my/samsung-introduces-galaxy-tab-s12-series-the-ultimate-productivity-powerhouse-built-for-growth",
+      "class": "official",
+      "accessed": "2026-10-03",
+      "note": "Recommended retail price; on sale in Malaysia from 7 October 2026."
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 6649,
+      "config": "5G, 12 GB / 256 GB",
+      "date": "2026-09-30",
+      "type": "launch",
+      "source": "samsung-newsroom-my",
+      "url": "https://news.samsung.com/my/samsung-introduces-galaxy-tab-s12-series-the-ultimate-productivity-powerhouse-built-for-growth",
+      "class": "official",
+      "accessed": "2026-10-03",
+      "note": "Recommended retail price; on sale in Malaysia from 7 October 2026."
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 14.6,
+      "type": "Dynamic AMOLED 2X",
+      "resolution": "2960 × 1848",
+      "refresh_hz": 120,
+      "peak_nits": 1600
+    },
+    "platform": {
+      "chipset": "dimensity-9500"
+    },
+    "memory": {
+      "ram_gb": [
+        12
+      ],
+      "storage_gb": [
+        256
+      ],
+      "expandable": true
+    },
+    "battery": {
+      "capacity_mah": 11600,
+      "claim": "Up to 23 hours of video playback (Samsung's lab test); typical capacity, rated 11,374 mAh"
+    },
+    "charging": {
+      "wired_w": 45,
+      "claim": "0 to 100% in about 95 minutes with the 45 W adapter (sold separately)"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 13
+        },
+        {
+          "role": "ultrawide",
+          "mp": 8
+        }
+      ],
+      "front": "12 MP ultra-wide"
+    },
+    "input": {
+      "stylus": "S Pen (included; Bluetooth not supported)",
+      "keyboard": "Book Cover Keyboard Slim"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 326.3,
+        "width_mm": 208.5,
+        "depth_mm": 5.1
+      },
+      "weight_g": 692,
+      "ip": "IP68"
+    },
+    "connectivity": {
+      "cellular": "5G (optional)",
+      "wifi": "Wi-Fi 7",
+      "bluetooth": "Bluetooth 6.0",
+      "sim": "Nano-SIM + eSIM (5G model)"
+    },
+    "biometrics": {
+      "fingerprint": "Under display"
+    },
+    "audio": {
+      "speakers": "Quad speakers (4-channel spatial audio)"
+    },
+    "software": {
+      "launch_os": "Android 17, One UI 9",
+      "os_updates_years": 7,
+      "security_updates_years": 7,
+      "policy_note": "\"Up to seven times of OS upgrades and security updates\" (Samsung Newsroom Malaysia, 30 September 2026)"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "samsung-newsroom-my",
+      "url": "https://news.samsung.com/my/samsung-introduces-galaxy-tab-s12-series-the-ultimate-productivity-powerhouse-built-for-growth",
+      "checked": "2026-10-03",
+      "note": "From the specification table and text of Samsung Malaysia's launch announcement. Weight is the Wi-Fi model's (the 5G model: 695 g). Added by hand: the automatic reader had held this announcement."
+    }
+  },
+  "dataStatus": "compiled"
+}

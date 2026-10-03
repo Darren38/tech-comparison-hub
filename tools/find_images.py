@@ -29,7 +29,7 @@ ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "live" / "auto" / "found_images.json"
 REJECTS = ROOT / "data" / "image_rejects.json"   # pictures a person rejected after checking the found ones
 NOT_PRODUCT = re.compile(r"(?<![a-z])(logo|favicon|icon|share-?default|home-share\w*|placeholder|sprite|kv|banner|bg|background|lifestyle|scene)(?![a-z])", re.I)
-UA = "Mozilla/5.0 (compatible; TechComparisonHub/1.0; +https://darren38.github.io/tech-comparison-hub/)"
+UA = "Mozilla/5.0 (compatible; TechComparisonHub/1.0)"  # Version 25: no author name or address in requests (user)
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from build import OFFICIAL_IMAGE_HOSTS, OFFICIAL_IMAGE_PREFIXES  # noqa: E402  (same allow-list as the validator)
 from devices_all import all_devices  # noqa: E402  (Version 20: devices added automatically count too)

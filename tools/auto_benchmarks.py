@@ -41,7 +41,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 OUT = ROOT / "live" / "auto" / "auto_bench.json"
-UA = "Mozilla/5.0 (compatible; TechComparisonHub/1.0; +https://darren38.github.io/tech-comparison-hub/)"
+UA = "Mozilla/5.0 (compatible; TechComparisonHub/1.0)"  # Version 25: no author name or address in requests (user)
 MAX_CHANGE = 0.30
 UL_LIST = "https://benchmarks.ul.com/compare/best-smartphones?amount=0&test=SOLAR_BAY_PERFORMANCE"
 UL_TESTS = {"3DMark Wild Life Extreme": "wle", "3DMark Solar Bay": "solar_bay", "3DMark Steel Nomad Light": "steel_nomad_light"}

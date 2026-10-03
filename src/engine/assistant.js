@@ -976,7 +976,9 @@ const SMALL_TALK = [
 // "Any news about the Galaxy S26?", "Red Magic 12 Pro+ rumours", "when will the Galaxy S27 launch?": the latest
 // collected headlines, collected live when this copy of the site can (local server or relay). Devices the site
 // doesn't list yet are found by the words of the question in the headline titles.
-const NEWS_Q = /\b(news|headlines?|rumou?rs?|leaks?|leaked|berita|terkini)\b|\b(latest|recent|any)\b.{0,30}\b(reviews?|tests?|videos?|updates?|problems?|bugs?|issues?)\b|\b(bugs?|problems?|issues?|recall)\b.{0,20}\b(with|on|in|of)\b|\b(launch|release)(ing)? date\b|\bwhen\b.{0,50}\b(launch\w*|release\w*|come out|coming|announc\w*|available)\b|\bwhat s new\b/;
+// Version 25: "Galaxy S26 Ultra video reviews" was answered with the camera specification ("video" is also a camera
+// word); reviews on video are headlines, like the other questions here
+const NEWS_Q = /\b(news|headlines?|rumou?rs?|leaks?|leaked|berita|terkini)\b|\b(latest|recent|any)\b.{0,30}\b(reviews?|tests?|videos?|updates?|problems?|bugs?|issues?)\b|\b(bugs?|problems?|issues?|recall)\b.{0,20}\b(with|on|in|of)\b|\b(launch|release)(ing)? date\b|\bwhen\b.{0,50}\b(launch\w*|release\w*|come out|coming|announc\w*|available)\b|\bwhat s new\b|\bvideo reviews?\b|\b(youtube|unboxing|unboxings)\b|\bhands on videos?\b|\bulasan video\b|\bvideo ulasan\b|视频评测|評測影片|开箱视频|開箱影片/;
 const GENERIC_NAME_WORDS = new Set(['5g', 'phone', 'edition']);
 const NEWS_STOP = new Set(('news headline headlines rumour rumours rumor rumors leak leaks leaked berita terkini latest recent newest new today this week any anything there is are was were what whats s when will would does do did it its the a an about on for of in to and or with from me tell show give get got hear heard please update updates launch launching launched release releasing released date come out coming announce announced announcement available availability malaysia my i you going happening lately tech technology gadget gadgets mobile phone phones smartphone smartphones world industry').split(' '));
 
@@ -990,7 +992,31 @@ async function namedForNews(ids, text) {
   });
 }
 
-async function answerNews(ids, text) {
+// Version 25: Malaysian sources and headlines that name Malaysia come first, and "news from Malaysia" means only those
+export const MY_NEWS_SOURCES = new Set(['soyacincau', 'technave', 'technave-zh', 'technave-zh-video', 'zinggadget', 'zinggadget-video',
+  'malaymail', 'samsung-newsroom-my', 'lowyat']);
+export const MY_WORDS = /\b(malaysia|malaysian|msia|tempatan)\b|大马|大馬|马来西亚|馬來西亞/i;
+export const isMalaysianItem = (i) => MY_NEWS_SOURCES.has(i.source) || MY_WORDS.test(i.title ?? '') || /\bRM\s?\d/.test(i.title ?? '');
+// Version 25: a question in Chinese gets Chinese-language headlines and videos first (Malaysian ones before the rest)
+export const isChineseItem = (i) => i.lang === 'zh' || /[\u3400-\u9fff]/.test(i.title ?? '');
+export const CJK = /[\u3400-\u9fff]/;
+/** Chinese-language items first: Malaysian Chinese (Zing Gadget, TechNave 中文版), then other Chinese, then the rest
+ *  Malaysia first as usual. Used when the visitor asks in Chinese. */
+export function chineseFirst(items) {
+  const zh = items.filter(isChineseItem);
+  const ordered = [...zh.filter(isMalaysianItem), ...zh.filter((i) => !isMalaysianItem(i))];
+  return [...ordered, ...malaysiaFirst(items.filter((i) => !isChineseItem(i)))];
+}
+
+/** Malaysian items from the last 30 days first (newest first), then everything else in its own order. */
+export function malaysiaFirst(items) {
+  const cutoff = new Date(Date.now() - 30 * 864e5).toISOString();
+  const recentMy = items.filter((i) => isMalaysianItem(i) && String(i.published ?? '') >= cutoff);
+  const rest = items.filter((i) => !recentMy.includes(i));
+  return [...recentMy, ...rest];
+}
+
+async function answerNews(ids, text, { zh = false } = {}) {
   const [{ latestHeadlines, isSafeUrl }, { normalize }] = await Promise.all([import('./live.js'), import('./collect.js')]);
   let got;
   try {
@@ -1027,15 +1053,32 @@ async function answerNews(ids, text) {
     // "Red Magic" and "RedMagic" are the same name
     return terms.every((t) => pool.has(t)) || normalize(item.title).replace(/ /g, '').includes(terms.join(''));
   };
-  const all = pool0.filter((i) => i.title && isSafeUrl(i.url) && (!wantTopics.length || wantTopics.includes(i.topic)));
+  // Version 25: "latest video reviews" (a suggestion on the Reviews page) means videos; a question with no device used to
+  // leave videos out altogether
+  const wantVideo = /\b(videos?|youtube|unboxing|unboxings)\b/.test(norm0) || /视频|視頻|影片/.test(text);
+  const all = pool0.filter((i) => i.title && isSafeUrl(i.url) && (!wantTopics.length || wantTopics.includes(i.topic)) && (!wantVideo || i.kind === 'video'));
   const about = ids.length || terms.length;
-  const found = about ? all.filter(matches) : all.filter((i) => i.kind !== 'video');
+  const base = about ? all.filter(matches) : wantVideo ? all : all.filter((i) => i.kind !== 'video');
+  const any = zh || CJK.test(text) ? chineseFirst(base) : malaysiaFirst(base);
+  // "news from Malaysia", "berita Malaysia", "大马新闻": only Malaysian sources and headlines that name Malaysia
+  const wantMy = MY_WORDS.test(text);
+  const found = wantMy ? any.filter(isMalaysianItem) : any;
   const subject = ids.length ? html`the ${ids.map(link).reduce((acc, l, i) => (i ? html`${acc} and the ${l}` : l), '')}` : terms.length ? html`“${own || terms.join(' ')}”` : '';
   const when = live ? 'collected from the publishers’ feeds just now' : data.fetchedAt ? `collected ${timeAgo(data.fetchedAt)} by the site’s scheduled update` : 'collected by the site’s scheduled update';
   const note = html`<p class="ask__src">Headlines ${when}, plus the site’s archive of the past year. Titles only, matched automatically and not checked by this site; open a link for the full story. More on the <a href="${href('/news')}">News page</a>.</p>`;
+  if (!found.length && wantMy && any.length) {
+    const others = any.slice(0, 5);
+    return {
+      html: html`<p>No Malaysian headline about ${subject || 'that'} yet (from SoyaCincau, TechNave, Zing Gadget, Malay Mail or Samsung Malaysia, or one that names Malaysia). The latest from elsewhere:</p>
+        <ul class="ask__list">${others.map((i) => html`<li>${extLink(i.url, i.title)} <span class="muted">${sourceName(i.source) ?? i.source}${i.published ? `, ${timeAgo(i.published)}` : ''}</span></li>`)}</ul>${note}`,
+      devices: ids,
+    };
+  }
   if (!found.length) {
     return {
-      html: html`<p>None of the ${plural(all.length, wantTopics.length ? 'matching headline' : 'headline')} the site has collected mentions ${subject || 'that'}.</p>${note}`,
+      html: wantVideo
+        ? html`<p>None of the ${plural(all.length, 'recent video')} the site has collected from YouTube reviewers is about ${subject || 'that'}.${ids.length === 1 ? html` The reviews and videos the site has checked for it are on <a href="${href(`/device/${ids[0]}`)}">its page</a>.` : ''} More on the <a href="${href('/reviews')}">Reviews &amp; videos page</a>.</p>${note}`
+        : html`<p>None of the ${plural(all.length, wantTopics.length ? 'matching headline' : 'headline')} the site has collected mentions ${subject || 'that'}.</p>${note}`,
       devices: ids,
     };
   }
@@ -1090,7 +1133,7 @@ export async function ask(question, context = {}) {
   // named exactly count here, so a model the site doesn't list yet isn't mistaken for a similar one it does.
   if (NEWS_Q.test(norm)) {
     const exact = await namedForNews(await devicesIn(text, { fuzzy: false }), text);
-    return answerNews(exact.length ? exact : pronoun ? previous.slice(0, 2) : [], text);
+    return answerNews(exact.length ? exact : pronoun ? previous.slice(0, 2) : [], text, { zh: CJK.test(String(question ?? '')) });
   }
 
   // "what is IP68?", "what does LTPO mean?": a general explanation (plus the current device's own value, if any)
@@ -1472,6 +1515,29 @@ export async function scoresText(id) {
 }
 
 /** Reviewer findings, test results and news summaries recorded for the device (and its chipset), with publishers. */
+/** Version 25: every independent test result recorded for a device, with its place in that test's chart (the same
+ *  ranking the Charts page draws: devices of the same kind with their own result, best first). */
+export async function testsText(id, { limit = 12 } = {}) {
+  const data = await loadDevice(id).catch(() => null);
+  const r = store.deviceById.get(id);
+  if (!data || !r) return [];
+  const lines = [];
+  for (const [mid, m] of Object.entries(data.metrics ?? {})) {
+    const def = metricDef(mid);
+    if (!def || mid.startsWith('spec_') || m?.value == null) continue;
+    if (m.inherited) {
+      lines.push(`- ${def.name}: ${fmtMetric(def, m.value)} (the ${data.chipset?.name ?? 'chip'}'s result from other phones with it; this device itself not tested)`);
+      continue;
+    }
+    const field = store.devices.filter((x) => x.category === r.category && x.m?.[mid]?.[0] != null && !x.m[mid][2])
+      .sort((a, b) => (def.better === 'lower' ? a.m[mid][0] - b.m[mid][0] : b.m[mid][0] - a.m[mid][0]));
+    const pos = field.findIndex((x) => x.id === id);
+    const place = pos >= 0 && field.length > 1 ? `; ${ordinal(pos + 1)} of ${field.length} ${store.categoryById.get(r.category)?.name.toLowerCase() ?? 'devices'} with this test (${def.better === 'lower' ? 'lower is better' : 'higher is better'})` : '';
+    lines.push(`- ${def.name}: ${fmtMetric(def, m.value)}, measured by ${originNames(m)}${place}`);
+  }
+  return lines.slice(0, limit);
+}
+
 export async function reviewsText(id, { limit = 8 } = {}) {
   const data = await loadDevice(id).catch(() => null);
   if (!data) return { lines: [], count: 0 };
@@ -1496,12 +1562,15 @@ export async function reviewsText(id, { limit = 8 } = {}) {
 }
 
 /** Latest collected headlines that name the device (titles only; not checked by hand). */
-export async function headlinesText(id, { limit = 4, topics = null } = {}) {
+export async function headlinesText(id, { limit = 4, topics = null, zh = false, onlyMy = false } = {}) {
   try {
     // newest collection plus the year-long archive, so the AI can see tests, reviews and problem reports too
     const { loadMatchedItems } = await import('./live.js');
-    const items = (await loadMatchedItems()).filter((h) => (h.devices ?? []).includes(id) && (!topics || topics.includes(h.topic ?? 'news'))).slice(0, limit);
-    return items.map((h) => `- ${sourceName(h.source) ?? h.source}, ${String(h.published).slice(0, 10)}${h.topic && h.topic !== 'news' ? ` (${h.topic})` : ''}: "${h.title}"`);
+    const mine = (await loadMatchedItems()).filter((h) => (h.devices ?? []).includes(id) && (!topics || topics.includes(h.topic ?? 'news')) && (!onlyMy || isMalaysianItem(h)));
+    // Version 25: "news from Malaysia" with none collected says so, so the answer can't pass other news off as Malaysian
+    if (onlyMy && !mine.length) return [`- No Malaysian headline about the ${officialName(id)} has been collected yet (sources checked: SoyaCincau, TechNave, Zing Gadget, Malay Mail, Samsung Malaysia).`];
+    const items = (zh ? chineseFirst(mine) : malaysiaFirst(mine)).slice(0, limit);
+    return items.map((h) => `- ${sourceName(h.source) ?? h.source}${isMalaysianItem(h) ? ' [Malaysian site]' : ''}${isChineseItem(h) ? ' [Chinese]' : ''}, ${String(h.published).slice(0, 10)}${h.topic && h.topic !== 'news' ? ` (${h.topic})` : ''}: "${h.title}"`);
   } catch {
     return [];
   }
@@ -1561,5 +1630,15 @@ export function suggestions(context = {}) {
       ? ['Is it any good?', 'How long does its battery last?', 'Is it water resistant?', 'Does it have GPS?', 'Compare it with its rivals']
       : ['Is it worth buying?', 'Is it good for gaming?', `What's the battery and charging?`, ...(test ? [test] : []), 'Does it have NFC and eSIM?', 'Compare it with its rivals'];
   }
+  // Version 25: the page the chat is opened on
+  if (context.page === 'charts' && context.metric && metricDef(context.metric)) {
+    const name = metricDef(context.metric).name;
+    return [`Which phone leads ${name}?`, `Best ${name} under RM2,000`, `Galaxy S26 Ultra vs iPhone 18 Pro Max ${name}`, 'What do these tests measure?'];
+  }
+  if (context.page === 'charts') return ['Highest Geekbench 6 multi-core score', 'Highest DXOMARK camera score', 'Which phone lasts longest in battery tests?', 'Fastest charging phone in tests'];
+  if (context.page === 'news') return ['Latest news from Malaysia', 'Any news about the Galaxy S26 Ultra?', 'Latest One UI update', 'Latest iOS update'];
+  if (context.page === 'reviews') return ['Reviews of the Galaxy S26 Ultra', 'Latest video reviews', 'Which phone lasts longest in battery tests?', 'Is the iPhone 18 Pro Max worth buying?'];
+  if (context.page === 'chipset' && context.chipName) return [`Fastest phone with the ${context.chipName}`, `Cheapest phone with the ${context.chipName}`, `${context.chipName} Geekbench score`];
+  if (context.page === 'brand' && context.brandName) return [`Best ${context.brandName} phone under RM2,000`, `Latest ${context.brandName} news`, `Lightest ${context.brandName} phone`];
   return ['Best phone under RM2,000', 'Is the Galaxy S26 worth it?', 'Galaxy S26 vs iPhone 17', 'Highest DXOMARK camera score', 'Best earbuds with ANC under RM500', 'What is IP68?'];
 }

@@ -25,7 +25,7 @@ FILES = ["archive.json", "views.json", "spotted.json", "official.json"]  # offic
 FILES += ["auto/new_devices.json", "auto/auto_bench.json", "auto/found_images.json", "auto/image_boxes.json", "auto/auto_reviews.json"]
 # Version 21: the AI check of headlines and where the backfill of older headlines has got to
 FILES += ["auto/news_ai.json", "auto/backfill_state.json"]
-UA = "Mozilla/5.0 (compatible; TechComparisonHub/1.0; +https://darren38.github.io/tech-comparison-hub/)"
+UA = "Mozilla/5.0 (compatible; TechComparisonHub/1.0)"  # Version 25: no author name or address in requests (user)
 
 
 def stamp(data) -> str:
