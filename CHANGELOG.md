@@ -1,5 +1,16 @@
 # Changelog
 
+## 7 October 2026
+
+A check-up of the live site after every update.
+
+**Site check-up after every deployment**
+- After each update of the site (every 3 hours and after every change), GitHub now reads the live site like a visitor: the home page, sitemap.xml, robots.txt, the Search Console ownership file and the data files load; sitemap.xml is valid and lists the site's pages under its own address; five pages (home, a device, a comparison, News, Charts) are drawn in a real browser and must show their content with no script error and nothing blocked by the security policy; the security policy is still in place; the automatic updates are recent (headlines, Apple's and Samsung's official pages, new devices, benchmarks); and no automatic reader sends the author's name. If anything breaks, the run is marked as failed. Smaller things, such as one news source that couldn't be read, are listed as notes.
+- Tested both ways before release: the live site passes, and pages with a script error, a script blocked by the security policy, or no content are each caught.
+
+**Smaller fixes**
+- An announcement of a Samsung series that waits for a person is taken off the waiting list once a person has added its models (the Galaxy Tab S12 announcement had stayed there after the Tab S12 Ultra and S12+ were added).
+
 ## 3 October 2026
 
 Ask the hub leans towards Malaysia, remembers the conversation, can be made bigger, reads everything on the site, uses Chinese sources for Chinese questions, and its AI answers come sooner. Also: the Galaxy Tab S12 Ultra and Tab S12+, fixes to the automatic device reader, and new checked reviews, videos and news.

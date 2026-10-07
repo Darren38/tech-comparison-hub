@@ -1057,6 +1057,14 @@ def find_new(state: dict, hub: Hub, limit: int, log) -> None:
     # Version 25: a page held because robots.txt seemed to refuse it is looked at again while robots.txt allows it. Before
     # Version 24 a robots.txt that couldn't be loaded counted as a refusal, so Samsung Newsroom Malaysia's Galaxy Tab S12
     # announcement was held on 30 Sep 2026 although Samsung's robots.txt allows every page; held pages were never read again.
+    # Version 26: a Samsung series announcement left for a person is cleared once a person has added its models (the
+    # Galaxy Tab S12 announcement stayed on the waiting list after the Tab S12 Ultra and S12+ were added by hand)
+    for url, h in list(held.items()):
+        if SAMSUNG_MY.match(url) and h.get("reason", "").startswith("the announcement names several models"):
+            series = [key("Galaxy " + re.sub(r"\s+", " ", m).replace("Plus", "+")) for m in GALAXY.findall(h.get("name", ""))]
+            if series and all(any(k.startswith(s) for k in hub.names) for s in series):
+                held.pop(url)
+                log(f"[devices] {url}: its models are in the hub now; no longer waiting for a person")
     for url, h in list(held.items()):
         if h.get("reason") != "robots.txt does not allow this page" or url in pending or robots_refuses(url):
             continue
