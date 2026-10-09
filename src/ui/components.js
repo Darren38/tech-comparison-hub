@@ -6,6 +6,7 @@ import { store, brandName, sourceName, deviceTitle, metricDef } from '../core/st
 import { href } from '../core/router.js';
 import { compareTray } from '../core/state.js';
 import { previousPage } from '../core/trail.js';
+import { isZh } from '../core/i18n.js';
 import { dotPlot } from './charts.js';
 import { displayPrice, priceText, priceExplanation, availabilityIn } from '../engine/money.js';
 
@@ -63,8 +64,30 @@ export function pageTrail(crumbs = []) {
  * Version 19: a small label on every section that updates by itself, with how often ("every 3 hours", "daily",
  * "weekly"). The tooltip says the rest. Timings match .github/workflows/pages.yml.
  */
-export function autoBadge(every, what = '') {
-  return html`<span class="autobadge" title="${`Updates automatically ${every}${what ? ` (${what})` : ''}. No one has to update this part by hand.`}"><span class="autobadge__icon" aria-hidden="true">↻</span> Auto · ${every}</span>`;
+export function autoBadge(every, what = '', at = null) {
+  const when = updatedAt(at);
+  return html`<span class="autobadge" title="${`Updates automatically ${every}${what ? ` (${what})` : ''}. No one has to update this part by hand.`}"><span class="autobadge__icon" aria-hidden="true">↻</span> Auto · ${every}</span>${when ? html` <span class="autobadge__at">${when}</span>` : ''}`;
+}
+
+/**
+ * Version 27: when an automatic update last ran, in the reader's own time zone and language ("updated Fri 9 Oct, 08:20",
+ * "更新于 10月9日周五 08:20"). `at` is an ISO time, or the name of an automatic job whose last run the build recorded
+ * (generated/core.json "freshness": headlines, spotted, official, devices, ul, dxomark, antutu, nanoreview,
+ * trustedreviews); for several names the latest counts.
+ */
+export function updatedAt(at) {
+  const names = Array.isArray(at) ? at : [at];
+  const iso = names.map((a) => (a && !/^\d{4}-/.test(a) ? store.core?.freshness?.[a] : a)).filter(Boolean).sort().pop();
+  const d = iso ? new Date(iso) : null;
+  if (!d || Number.isNaN(d.getTime())) return '';
+  if (isZh()) {
+    const weekday = new Intl.DateTimeFormat('zh-CN', { weekday: 'short' }).format(d);
+    const time = new Intl.DateTimeFormat('en-GB', { hour: '2-digit', minute: '2-digit' }).format(d);
+    return `更新于 ${d.getMonth() + 1}月${d.getDate()}日${weekday} ${time}`;
+  }
+  const day = new Intl.DateTimeFormat('en-GB', { weekday: 'short', day: 'numeric', month: 'short' }).format(d);
+  const time = new Intl.DateTimeFormat('en-GB', { hour: '2-digit', minute: '2-digit' }).format(d);
+  return `updated ${day}, ${time}`;
 }
 
 /** Version 20: a device added automatically from its maker's own specification page (not checked by a person yet). */

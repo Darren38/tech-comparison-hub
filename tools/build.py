@@ -1295,8 +1295,32 @@ def compile_outputs(ds: Dataset, records: list[dict]) -> dict:
         "announcedTo": announced[-1] if announced else None,
         "ratesAsOf": (ds.currencies or {}).get("asOf"),
     }
+    # Version 27: when each automatic update last ran, so the pages can say "updated Fri 9 Oct, 08:20" next to their
+    # "Auto" labels. Read from the files the automatic jobs write just before this build.
+    def stamp(rel, *path):
+        try:
+            v = json.loads((ROOT / rel).read_text(encoding="utf-8"))
+        except (OSError, ValueError):
+            return None
+        for k in path:
+            v = v.get(k) if isinstance(v, dict) else None
+        return v if isinstance(v, str) else None
+    latest = lambda *xs: max((x for x in xs if x), default=None)  # noqa: E731  (ISO times in UTC sort as text)
+    bench = stamp("live/auto/benchmarks.json", "refreshedAt")
+    freshness = {
+        "headlines": stamp("live/headlines.json", "fetchedAt"),
+        "spotted": stamp("live/spotted.json", "updatedAt"),
+        "official": stamp("live/official.json", "updatedAt"),
+        "devices": stamp("live/auto/new_devices.json", "runs", "new"),
+        "ul": latest(bench, stamp("live/auto/auto_bench.json", "sources", "ul", "at")),
+        "dxomark": latest(bench, stamp("live/auto/auto_bench.json", "sources", "dxomark", "at")),
+        "antutu": latest(bench, stamp("live/auto/auto_bench.json", "sources", "antutu", "at")),
+        "nanoreview": stamp("live/auto/auto_bench.json", "sources", "nanoreview", "at"),
+        "trustedreviews": stamp("live/auto/auto_reviews.json", "runs", "recent"),
+    }
     core = {
         "schemaVersion": SCHEMA_VERSION,
+        "freshness": {k: v for k, v in freshness.items() if v},
         "build": {"time": dt.datetime.now().isoformat(timespec="seconds"), "counts": counts, "warnings": len(ds.report.warnings),
                   "data": data_window, "auto": ds.auto},
         "taxonomy": ds.taxonomy,

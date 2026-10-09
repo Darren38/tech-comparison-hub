@@ -130,7 +130,7 @@ export default async function render() {
       ${autoAdded()}
 
       <section class="card stack" id="cov-spotted" data-spotted hidden>
-        ${sectionHead('New models spotted in the news', { level: 3, right: html`<span class="tiny muted">Named by two or more sources · not in the hub yet</span> ${autoBadge('every 3 hours')}` })}
+        ${sectionHead('New models spotted in the news', { level: 3, right: html`<span class="tiny muted">Named by two or more sources · not in the hub yet</span> ${autoBadge('every 3 hours', '', 'spotted')}` })}
         <p class="small muted">The headline collector looks for model names that several sources mention but the hub doesn't have yet. They are added once the maker publishes specifications, so this list is also a preview of what is coming.</p>
         <ul class="spotted" data-spotted-list></ul>
         <p class="tiny muted" data-spotted-when></p>
@@ -160,7 +160,7 @@ function autoAdded() {
   const rows = store.devices.filter((d) => d.auto).sort((a, b) => (b.auto.addedAt ?? '').localeCompare(a.auto.addedAt ?? ''));
   const info = store.core.build.auto?.newDevices;
   return html`<section class="card stack" id="cov-auto">
-    ${sectionHead('Added automatically', { level: 3, right: autoBadge('daily', 'new models from makers’ Malaysian sites') })}
+    ${sectionHead('Added automatically', { level: 3, right: autoBadge('daily', 'new models from makers’ Malaysian sites', 'devices') })}
     <p class="small muted">${t('New phones and tablets join the hub by themselves once the maker lists them on its Malaysian website with a specification page. The page is read with the same fixed patterns as the hand-reviewed records; a value it doesn’t state clearly is left out, and a model that fails a check waits for a person instead. Each one says so on its page and links to the maker’s page.')}</p>
     ${rows.length
       ? html`<ul class="autolist">${rows.map((d) => html`<li><a href="${href(`/device/${d.id}`)}">${deviceTitle(d)}</a> ${autoAddedTag(d)} <span class="tiny muted">${fmtDate(d.auto.addedAt)} · </span>${extLink(d.auto.url, d.auto.site ?? 'Maker’s page', 'tiny')}</li>`)}</ul>`

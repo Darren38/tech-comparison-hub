@@ -38,7 +38,7 @@ export async function matchedItems({ devices = [], chipsets = [] } = {}) {
 /** A hidden slot a page fills after it renders: data-auto names the SLOT_TOPICS group. */
 export function autoSlot(slot, title, { limit = 6 } = {}) {
   return html`<div class="auto" data-auto="${slot}" data-limit="${limit}" hidden>
-    <h3 class="subhead">${t(title)} <span class="tiny muted">${t('matched automatically from recent headlines · not checked by hand')}</span> ${autoBadge('every 3 hours', 'with the headlines')}</h3>
+    <h3 class="subhead">${t(title)} <span class="tiny muted">${t('matched automatically from recent headlines · not checked by hand')}</span> ${autoBadge('every 3 hours', 'with the headlines', 'headlines')}</h3>
     <ol class="fresh__list auto__list" data-auto-list></ol>
     <button type="button" class="btn btn--ghost btn--sm auto__more" data-auto-more hidden>${t('Show more')}</button>
   </div>`;

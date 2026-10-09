@@ -2715,6 +2715,16 @@ body:has(.tray:not([hidden])) .ask.is-max {
   cursor: help;
 }
 .autobadge__icon { font-size: 12px; line-height: 1; }
+/* Version 27: when the automatic update last ran, next to the label */
+.autobadge__at {
+  font: 500 11px/1.6 var(--font-sans, inherit);
+  letter-spacing: 0;
+  text-transform: none;
+  color: inherit;
+  opacity: 0.75;
+  white-space: nowrap;
+  vertical-align: middle;
+}
 .chart-panel__auto { margin: 0 0 4px; }
 
 /* Version 20: devices added automatically from makers' own specification pages, and values filled automatically */

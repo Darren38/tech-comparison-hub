@@ -1,5 +1,12 @@
 # Changelog
 
+## 9 October 2026
+
+Every part of the site that updates by itself now says when it was last updated.
+
+**"Updated" time next to every "Auto" label**
+- The "↻ Auto · daily" and "Auto · every 3 hours" labels now carry the day and time of the last update, in your own time zone: "updated Fri 9 Oct, 18:43" (in Chinese, "更新于 10月9日周五 18:43"). Each label shows its own source's last run: the charts per test (3DMark, AnTuTu, DXOMARK, Geekbench from NanoReview and Trusted Reviews, Trusted Reviews battery and charging tests), the headlines on News, Reviews & videos and each device page, new models spotted and devices added automatically on Coverage, and Apple's and Samsung's official pages (where this replaces the earlier "checked … ago").
+
 ## 7 October 2026
 
 A check-up of the live site after every update.

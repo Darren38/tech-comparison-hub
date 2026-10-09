@@ -35,15 +35,16 @@ const YEARS = ['2023', '2024', '2025', '2026'];
 // Version 19: tests whose results update by themselves (tools/refresh_benchmarks.py daily, tools/auto_benchmarks.py for
 // phones not matched by hand; NanoReview's Geekbench averages weekly). Other tests are reviewers' own, added by hand.
 const AUTO_TESTS = {
-  gb6_multi: ['daily', 'Geekbench 6 averages from NanoReview weekly; Trusted Reviews results from new reviews daily'],
-  gb6_single: ['daily', 'Geekbench 6 averages from NanoReview weekly; Trusted Reviews results from new reviews daily'],
+  // Version 27: the third item names the automatic job(s) whose last run is shown as "updated …" (generated/core.json)
+  gb6_multi: ['daily', 'Geekbench 6 averages from NanoReview weekly; Trusted Reviews results from new reviews daily', ['nanoreview', 'trustedreviews']],
+  gb6_single: ['daily', 'Geekbench 6 averages from NanoReview weekly; Trusted Reviews results from new reviews daily', ['nanoreview', 'trustedreviews']],
   // Version 20: Trusted Reviews' Test Data table is read automatically from new reviews
-  tr_video_drain: ['daily', 'from new Trusted Reviews reviews'], charge_full: ['daily', 'Trusted Reviews results from new reviews; other reviewers by hand'],
-  charge_30: ['daily', 'Trusted Reviews results from new reviews; other reviewers by hand'], charge_15: ['daily', 'Trusted Reviews results from new reviews; other reviewers by hand'],
-  wle: ['daily', 'from UL’s 3DMark database'], steel_nomad_light: ['daily', 'from UL’s 3DMark database'], solar_bay: ['daily', 'from UL’s 3DMark database'],
-  antutu_v11: ['daily', 'from AnTuTu’s ranking'],
-  dxomark_camera: ['daily', 'from DXOMARK’s public list'], dxomark_camera_v5: ['daily', 'from DXOMARK’s public list'],
-  dxomark_display: ['daily', 'from DXOMARK’s public list'], dxomark_battery: ['daily', 'from DXOMARK’s public list'],
+  tr_video_drain: ['daily', 'from new Trusted Reviews reviews', 'trustedreviews'], charge_full: ['daily', 'Trusted Reviews results from new reviews; other reviewers by hand', 'trustedreviews'],
+  charge_30: ['daily', 'Trusted Reviews results from new reviews; other reviewers by hand', 'trustedreviews'], charge_15: ['daily', 'Trusted Reviews results from new reviews; other reviewers by hand', 'trustedreviews'],
+  wle: ['daily', 'from UL’s 3DMark database', 'ul'], steel_nomad_light: ['daily', 'from UL’s 3DMark database', 'ul'], solar_bay: ['daily', 'from UL’s 3DMark database', 'ul'],
+  antutu_v11: ['daily', 'from AnTuTu’s ranking', 'antutu'],
+  dxomark_camera: ['daily', 'from DXOMARK’s public list', 'dxomark'], dxomark_camera_v5: ['daily', 'from DXOMARK’s public list', 'dxomark'],
+  dxomark_display: ['daily', 'from DXOMARK’s public list', 'dxomark'], dxomark_battery: ['daily', 'from DXOMARK’s public list', 'dxomark'],
 };
 // Drawn at first: each brand's top series. Every other series can be switched on under the chart.
 const PRIMARY = ['Galaxy S Ultra', 'Galaxy Z Fold', 'iPhone Pro Max', 'Pixel Pro XL', 'Xiaomi Ultra', 'OPPO Find X Pro',

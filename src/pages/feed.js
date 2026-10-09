@@ -97,7 +97,7 @@ function livePanel(mode) {
   return html`<section class="live" aria-labelledby="live-h" data-live>
     <div class="live__head">
       <div class="live__heading">
-        <div class="eyebrow live__eyebrow"><span class="live__dot" aria-hidden="true"></span> Collected automatically · not checked by hand ${autoBadge('every 3 hours', 'from the publishers’ feeds and YouTube')}</div>
+        <div class="eyebrow live__eyebrow"><span class="live__dot" aria-hidden="true"></span> Collected automatically · not checked by hand ${autoBadge('every 3 hours', 'from the publishers’ feeds and YouTube', 'headlines')}</div>
         <h2 id="live-h">${mode.liveTitle}</h2>
         <p class="small live__status" data-live-status role="status" aria-live="polite">Loading the latest collection…</p>
       </div>

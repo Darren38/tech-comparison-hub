@@ -99,8 +99,8 @@ function wireSeg(root, onPick) {
   }));
 }
 
-const auto = () => html`<span class="tiny muted">${t('matched automatically from headlines · not checked by hand')}</span> ${autoBadge('every 3 hours', 'with the headlines')}`;
-const officialNote = (o) => html`<span class="tiny muted">${t('Official')} · ${t('read automatically from the maker’s own page')}${o?.updatedAt ? html` · ${t('checked')} ${timeAgo(o.updatedAt)}` : ''}</span> ${autoBadge('every 6 hours', 'from Apple’s and Samsung’s own pages')}`;
+const auto = () => html`<span class="tiny muted">${t('matched automatically from headlines · not checked by hand')}</span> ${autoBadge('every 3 hours', 'with the headlines', 'headlines')}`;
+const officialNote = (o) => html`<span class="tiny muted">${t('Official')} · ${t('read automatically from the maker’s own page')}</span> ${autoBadge('every 6 hours', 'from Apple’s and Samsung’s own pages', o?.updatedAt ?? 'official')}`;
 
 // ------------------------------------------------------------------ Software updates
 
