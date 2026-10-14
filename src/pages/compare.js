@@ -134,7 +134,7 @@ function deviceHeads(entities, ids) {
       return html`<div class="cmp-head">
         <div class="cmp-head__top">${seriesMark(i)}<button type="button" class="icon-btn" data-remove="${e.device.id}" aria-label="Remove ${deviceTitle(row)}">${icon('close', { size: 14 })}</button></div>
         <a class="cmp-head__name" href="${href(`/device/${row.id}`)}">${deviceTitle(row)}</a>
-        <div class="tiny muted">${row.chipsetName ?? ''} ${statusBadge(row.status)}</div>
+        <div class="tiny muted">${row.chipset && store.chipsetById.has(row.chipset) ? html`<a href="${href(`/chipset/${row.chipset}`)}">${row.chipsetName}</a>` : row.chipsetName ?? ''} ${statusBadge(row.status)}</div>
         <div class="tiny">${priceTag(row)}</div>
       </div>`;
     })}

@@ -2764,3 +2764,13 @@ li.tiny,
 .spec-card__missing {
   overflow-wrap: anywhere;
 }
+/* Version 28: label + time as one piece */
+.autobadge-group {
+  display: inline-flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2px 6px;
+  vertical-align: middle;
+}
+/* Version 28: a very long search never widens the suggestion list */
+.suggest a { overflow-wrap: anywhere; }

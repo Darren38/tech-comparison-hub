@@ -7,7 +7,7 @@ import { store, sourceName } from '../core/store.js';
 import { href } from '../core/router.js';
 import { docCard, emptyState, provBadge, sourceLink, extLink, tag, sectionHead, icon, pageTrail, cardThumb, thumbLink, autoBadge } from '../ui/components.js';
 import { loadHeadlines, refreshHeadlines, canCollectLive, isSafeUrl, loadViews, youtubeId } from '../engine/live.js';
-import { isZh } from '../core/i18n.js';
+import { isZh, t } from '../core/i18n.js';
 import { softwareSection, fillSoftware, offersSection, fillOffers, chipsSection, fillChips } from '../ui/newsdesk.js';
 
 // Version 18: the News page has four tabs. Each is its own address (#/news?tab=software), so it can be linked to.
@@ -120,11 +120,13 @@ function livePanel(mode) {
 
 function liveItem(item, isNew) {
   const devices = (item.devices ?? []).map((id) => store.deviceById.get(id)).filter(Boolean);
+  const chips = (item.chipsets ?? []).map((id) => store.chipsetById.get(id)).filter(Boolean).slice(0, 2); // Version 28: chips named in the headline link too
   const thumb = cardThumb({ image: isSafeUrl(item.image) ? item.image : null, url: item.url, devices: item.devices ?? [] });
   return html`<li class="live__item has-thumb ${isNew ? 'is-new' : ''}">
     ${thumbLink(thumb, { url: item.url, title: item.title, size: 'row', placeholder: sourceName(item.source) })}
     <div class="live__meta tiny">
       <a class="live__source" href="${href(`/source/${item.source}`)}">${sourceName(item.source)}</a>
+      ${item.also?.length ? html`<span class="muted">${t('also')} ${item.also.map((src, n) => html`${n ? ', ' : ''}<a href="${href(`/source/${src}`)}">${sourceName(src)}</a>`)}</span>` : ''}
       ${item.kind === 'video' ? tag('Video', 'muted') : item.kind === 'review' ? tag('Review', 'muted') : ''}
       ${item.views != null ? html`<span class="live__views">${fmtViews(item.views)}</span>` : ''}
       ${item.lang === 'zh' ? tag('In Chinese', 'muted') : ''}
@@ -132,11 +134,35 @@ function liveItem(item, isNew) {
       ${isNew ? html`<span class="live__new">New</span>` : ''}
     </div>
     ${extLink(item.url, item.title, 'live__link')}
-    ${devices.length ? html`<div class="live__devices">${devices.map((d) => html`<a class="chip" href="${href(`/device/${d.id}`)}">${d.name}</a>`)}</div>` : ''}
+    ${devices.length || chips.length ? html`<div class="live__devices">${devices.map((d) => html`<a class="chip" href="${href(`/device/${d.id}`)}">${d.name}</a>`)}${chips.map((c) => html`<a class="chip" href="${href(`/chipset/${c.id}`)}">${c.name}</a>`)}</div>` : ''}
   </li>`;
 }
 
 const AUTO_COLLECT_AFTER_MS = 20 * 60 * 1000;
+
+// checked reviews shown so far, per filter and order (kept while the page is open, so Back lands where you were)
+const docsShown = new Map();
+const docsPage = () => (window.matchMedia('(max-width: 640px)').matches ? 12 : 30);
+
+// Version 28: one headline published word for word by two feeds (Samsung Newsroom and Samsung Newsroom Malaysia)
+// is shown once, from the Malaysian site when it is one of them, naming the other source.
+const MY_FEEDS = new Set(['soyacincau', 'technave', 'technave-zh', 'zinggadget', 'malaymail', 'samsung-newsroom-my']);
+const storyKey = (i) => i.title.toLowerCase().replace(/[^\p{L}\p{N}]+/gu, ' ').trim();
+function sameStory(items) {
+  const byKey = new Map();
+  for (const i of items) {
+    const key = storyKey(i);
+    const seen = byKey.get(key);
+    if (!seen) {
+      byKey.set(key, i);
+      continue;
+    }
+    const keep = !MY_FEEDS.has(seen.source) && MY_FEEDS.has(i.source) ? i : seen;
+    const other = keep === i ? seen : i;
+    byKey.set(key, { ...keep, also: [...new Set([...(keep.also ?? []), other.source, ...(other.also ?? [])])].filter((src) => src !== keep.source) });
+  }
+  return [...byKey.values()];
+}
 
 function bindLive(root, mode) {
   const panel = root.querySelector('[data-live]');
@@ -156,7 +182,7 @@ function bindLive(root, mode) {
   let busy = false;
   let alive = true;
 
-  const relevant = (d) => (d?.items ?? []).filter((i) => mode.liveKinds.includes(i.kind) && i.title && isSafeUrl(i.url));
+  const relevant = (d) => sameStory((d?.items ?? []).filter((i) => mode.liveKinds.includes(i.kind) && i.title && isSafeUrl(i.url)));
   const filtered = () => relevant(data).filter((i) => (!matchedBox.checked || i.devices?.length) && (zhBox.checked || i.lang !== 'zh'));
   // "Most viewed": items with a view count first, highest first; the rest keep their newest-first order after them
   const visible = () => {
@@ -197,7 +223,7 @@ function bindLive(root, mode) {
     busy = on;
     refreshBtn.disabled = on;
     refreshBtn.classList.toggle('is-busy', on);
-    refreshBtn.querySelector('span').textContent = on ? 'Refreshing…' : 'Refresh';
+    refreshBtn.querySelector('span').textContent = on ? t('Refreshing…') : t('Refresh');
     listEl.setAttribute('aria-busy', String(on));
   }
 
@@ -314,9 +340,13 @@ export default async function render({ params, query }) {
       const counted = docs.filter((d) => viewsOf(d)).sort((a, b) => viewsOf(b)[0] - viewsOf(a)[0]);
       docs = [...counted, ...docs.filter((d) => !viewsOf(d))];
     }
-    return params[0] === 'reviews'
-      ? html`<div class="grid grid-3">${docs.map((d) => docCard(d, { views: viewsOf(d) }))}</div>`
-      : newsTimeline(docs);
+    if (params[0] !== 'reviews') return newsTimeline(docs);
+    // Version 28: 646 cards at once made the page ~235,000 px tall on a phone; a page at a time, remembered for Back
+    const key = `${filter}|${order}`;
+    const shown = docsShown.get(key) ?? docsPage();
+    const rest = docs.length - shown;
+    return html`<div class="grid grid-3">${docs.slice(0, shown).map((d) => docCard(d, { views: viewsOf(d) }))}</div>
+      ${rest > 0 ? html`<p class="docs-more"><button type="button" class="btn btn--ghost btn--sm" data-docs-more="${key}">Show ${Math.min(rest, docsPage())} more (${rest} left)</button></p>` : ''}`;
   };
 
   return {
@@ -355,6 +385,13 @@ export default async function render({ params, query }) {
           mount(root.querySelector('[data-list]'), list());
         }),
       );
+      root.querySelector('[data-list]').addEventListener('click', (e) => {
+        const more = e.target.closest('[data-docs-more]');
+        if (!more) return;
+        const key = more.dataset.docsMore;
+        docsShown.set(key, (docsShown.get(key) ?? docsPage()) + docsPage());
+        mount(root.querySelector('[data-list]'), list());
+      });
       return bindLive(root, mode);
     },
   };

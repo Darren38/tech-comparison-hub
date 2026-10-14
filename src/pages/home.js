@@ -49,11 +49,13 @@ function hero() {
       </div>
     </div>
     <dl class="hero__stats">
-      <div><dt>Devices</dt><dd class="num">${c.devices}</dd></div>
-      <div><dt>Chipsets</dt><dd class="num">${c.chipsets}</dd></div>
-      <div><dt>Evidence records</dt><dd class="num">${fmtNumber(c.records)}</dd></div>
-      <div><dt>Source documents</dt><dd class="num">${c.documents}</dd></div>
-      <div><dt>Sources tracked</dt><dd class="num">${c.sources}</dd></div>
+      ${[ // Version 28: each count opens the page that lists it
+        ['Devices', c.devices, '/devices'],
+        ['Chipsets', c.chipsets, '/chipsets'],
+        ['Evidence records', fmtNumber(c.records), '/coverage'],
+        ['Source documents', c.documents, '/reviews'],
+        ['Sources tracked', c.sources, '/methodology', { section: 'sources' }],
+      ].map(([label, n, path, q]) => html`<div><dt>${label}</dt><dd class="num"><a class="hero__stat" href="${href(path, q)}">${n}</a></dd></div>`)}
     </dl>
   </section>`;
 }
@@ -169,17 +171,24 @@ function latest() {
 }
 
 function feeds() {
-  const news = store.documents.filter((d) => d.kind === 'news' || d.kind === 'official').slice(0, 5);
-  const videos = store.documents.filter((d) => d.kind === 'video' || d.kind === 'review' || d.kind === 'analysis').slice(0, 5);
-  const list = (docs) => html`<ul class="feed-list">${docs.map((d) => html`<li class="${cardThumb({ url: d.url, devices: d.devices ?? [] }) ? 'has-thumb' : ''}">
-      ${thumbLink(cardThumb({ url: d.url, devices: d.devices ?? [] }), { url: d.url, title: d.title, size: 'mini' })}
-      <div class="tiny muted">${provBadge(d.class)} ${sourceName(d.testedBy ?? d.source)} · ${d.published ? relativeDate(d.published) : 'undated'}</div>
+  const newestFirst = (a, b) => String(b.published ?? '').localeCompare(String(a.published ?? ''));
+  const news = store.documents.filter((d) => d.kind === 'news' || d.kind === 'official').sort(newestFirst).slice(0, 5);
+  const videos = store.documents.filter((d) => d.kind === 'video' || d.kind === 'review' || d.kind === 'analysis').sort(newestFirst).slice(0, 5);
+  // Version 28: every row keeps the picture column (the publication's name when there is no picture), the source
+  // opens its page, and the dates say these are checked items, not today's headlines (those are just above).
+  const list = (docs) => html`<ul class="feed-list">${docs.map((d) => {
+    const src = d.testedBy ?? d.source;
+    return html`<li class="has-thumb">
+      ${thumbLink(cardThumb({ url: d.url, devices: d.devices ?? [] }), { url: d.url, title: d.title, size: 'mini', placeholder: sourceName(src) })}
+      <div class="tiny muted">${provBadge(d.class)} <a href="${href(`/source/${src}`)}">${sourceName(src)}</a> · ${d.published ? html`<time datetime="${d.published}" title="${fmtDate(d.published)}">${relativeDate(d.published)}</time>` : 'undated'}</div>
       <a class="feed-list__title" href="${d.url}" target="_blank" rel="noopener noreferrer">${d.title}</a>
-      <div class="feed-list__devices">${(d.devices ?? []).slice(0, 3).map((id) => html`<a class="chip" href="${href(`/device/${id}`)}">${store.deviceById.get(id)?.name}</a>`)}</div>
-    </li>`)}</ul>`;
+      <div class="feed-list__devices">${(d.devices ?? []).map((id) => store.deviceById.get(id)).filter(Boolean).slice(0, 3).map((r) => html`<a class="chip" href="${href(`/device/${r.id}`)}">${r.name}</a>`)}</div>
+    </li>`;
+  })}</ul>`;
+  const newest = (docs) => (docs[0]?.published ? html`<p class="tiny muted feed-checked">${t('Checked by hand · newest')} ${fmtDate(docs[0].published)}</p>` : '');
   return html`<section class="grid grid-2">
-    <div class="card">${sectionHead('Latest technology news', { level: 3, right: html`<a class="small" href="${href('/news')}">All news →</a>` })}${list(news)}</div>
-    <div class="card">${sectionHead('Latest reviews, tests & videos', { level: 3, right: html`<a class="small" href="${href('/reviews')}">All reviews →</a>` })}${list(videos)}</div>
+    <div class="card">${sectionHead('Checked news', { level: 3, right: html`<a class="small" href="${href('/news')}">All news →</a>` })}${newest(news)}${list(news)}</div>
+    <div class="card">${sectionHead('Checked reviews, tests & videos', { level: 3, right: html`<a class="small" href="${href('/reviews')}">All reviews →</a>` })}${newest(videos)}${list(videos)}</div>
   </section>`;
 }
 
@@ -189,6 +198,15 @@ function freshHeadlines() {
     ${sectionHead('Fresh from the feeds', { eyebrow: 'Collected automatically · not checked by hand', id: 'fresh-title', right: html`<a class="small" href="${href('/news')}">All headlines →</a>` })}
     <ol class="fresh__list" data-fresh-list></ol>
   </section>`;
+}
+
+// Version 28: every device and chipset a headline names, as a wrapping row of links (they were stretched to the
+// card's width, and only the first two devices were shown: "S23, S23 Plus, S23 Ultra and A37" linked two of four)
+function tagRow(i) {
+  const devs = (i.devices ?? []).map((id) => store.deviceById.get(id)).filter(Boolean).slice(0, 4);
+  const chips = (i.chipsets ?? []).map((id) => store.chipsetById.get(id)).filter(Boolean).slice(0, 2);
+  if (!devs.length && !chips.length) return '';
+  return html`<div class="feed-list__devices">${devs.map((d) => html`<a class="chip" href="${href(`/device/${d.id}`)}">${d.name}</a>`)}${chips.map((c) => html`<a class="chip" href="${href(`/chipset/${c.id}`)}">${c.name}</a>`)}</div>`;
 }
 
 async function fillFreshHeadlines(root) {
@@ -208,7 +226,7 @@ async function fillFreshHeadlines(root) {
       ${thumbLink(thumb, { url: i.url, title: i.title })}
       <div class="tiny muted"><a href="${href(`/source/${i.source}`)}">${sourceName(i.source)}</a>${i.published ? ` · ${timeAgo(i.published)}` : ''}</div>
       ${extLink(i.url, i.title, 'fresh__link')}
-      ${(i.devices ?? []).slice(0, 2).map((id) => store.deviceById.get(id)).filter(Boolean).map((d) => html`<a class="chip" href="${href(`/device/${d.id}`)}">${d.name}</a>`)}
+      ${tagRow(i)}
     </li>`)}`);
     box.hidden = false;
   } catch {

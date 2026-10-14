@@ -66,7 +66,8 @@ export function pageTrail(crumbs = []) {
  */
 export function autoBadge(every, what = '', at = null) {
   const when = updatedAt(at);
-  return html`<span class="autobadge" title="${`Updates automatically ${every}${what ? ` (${what})` : ''}. No one has to update this part by hand.`}"><span class="autobadge__icon" aria-hidden="true">↻</span> Auto · ${every}</span>${when ? html` <span class="autobadge__at">${when}</span>` : ''}`;
+  // Version 28: the label and its time stay together when a narrow heading wraps
+  return html`<span class="autobadge-group"><span class="autobadge" title="${`Updates automatically ${every}${what ? ` (${what})` : ''}. No one has to update this part by hand.`}"><span class="autobadge__icon" aria-hidden="true">↻</span> Auto · ${every}</span>${when ? html` <span class="autobadge__at">${when}</span>` : ''}</span>`;
 }
 
 /**
@@ -544,7 +545,7 @@ export function errorState(error, { retry = true } = {}) {
   return html`<div class="state state--error" role="alert">
     <div class="state__mark" aria-hidden="true">!</div>
     <h3>${error?.status === 404 ? 'Not found' : 'Something went wrong loading this page'}</h3>
-    <p class="muted">${error?.message ?? 'Unknown error'}${offline ? ' If you opened index.html directly from disk, start the site with serve.py (see README).' : ''}</p>
+    <p class="muted">${error?.message ?? 'Unknown error'}${offline ? (location.protocol === 'file:' ? ' If you opened index.html directly from disk, start the site with serve.py (see README).' : ' Check your internet connection, then try again.') : ''}</p>
     ${retry ? html`<button type="button" class="btn" data-action="reload">Try again</button>` : ''}
   </div>`;
 }

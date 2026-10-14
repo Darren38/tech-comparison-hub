@@ -46,11 +46,12 @@ export function autoSlot(slot, title, { limit = 6 } = {}) {
 
 function itemHtml(i, { showDevices }) {
   const devs = showDevices ? (i.devices ?? []).map((id) => store.deviceById.get(id)).filter(Boolean).slice(0, 3) : [];
+  const chips = showDevices ? (i.chipsets ?? []).map((id) => store.chipsetById.get(id)).filter(Boolean).slice(0, 2) : []; // Version 28
   return html`<li class="fresh__item">
     ${thumbLink(cardThumb({ image: isSafeUrl(i.image) ? i.image : null, url: i.url }, { allowDevice: false }), { url: i.url, title: i.title })}
     <div class="tiny muted"><span class="auto__topic auto__topic--${i.topic ?? 'news'}">${t(TOPIC_LABEL[i.topic] ?? 'News')}</span> · <a href="${href(`/source/${i.source}`)}">${sourceName(i.source)}</a>${i.published ? ` · ${timeAgo(i.published)}` : ''}</div>
     ${extLink(i.url, i.title, 'fresh__link')}
-    ${devs.length ? html`<div class="tiny auto__devs">${devs.map((r) => html`<a href="${href(`/device/${r.id}`)}">${deviceTitle(r)}</a>`)}</div>` : ''}
+    ${devs.length || chips.length ? html`<div class="tiny auto__devs">${devs.map((r) => html`<a href="${href(`/device/${r.id}`)}">${deviceTitle(r)}</a>`)}${chips.map((c) => html`<a href="${href(`/chipset/${c.id}`)}">${c.name}</a>`)}</div>` : ''}
   </li>`;
 }
 

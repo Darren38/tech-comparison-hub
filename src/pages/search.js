@@ -35,10 +35,11 @@ export default async function render({ query }) {
   const [results, intent] = q ? await Promise.all([search(q, { limit: 80 }), parseIntent(q)]) : [[], { type: 'search' }];
   const groups = groupResults(results);
   const link = intent.type !== 'search' ? intentHref(intent, q) : null;
+  const shown = q.length > 80 ? `${q.slice(0, 80)}…` : q; // Version 28: a very long query no longer widens the page
   return {
-    title: q ? `Search: ${q}` : 'Search',
+    title: q ? `Search: ${shown}` : 'Search',
     html: html`<div class="stack-lg">
-      ${pageTrail([{ label: 'Home', href: href('/') }, { label: q ? `Search: ${q}` : 'Search' }])}
+      ${pageTrail([{ label: 'Home', href: href('/') }, { label: q ? `Search: ${shown}` : 'Search' }])}
       <header class="stack">
         <h1 class="sr-only">${q ? `Search results for “${q}”` : 'Search'}</h1>
         <div class="eyebrow" aria-hidden="true">Search</div>
@@ -48,7 +49,7 @@ export default async function render({ query }) {
           <button class="btn btn--primary" type="submit">Search</button>
         </form>
         ${link ? html`<a class="intent-banner" href="${link}">${icon('arrow', { size: 18 })}<span><span class="tiny muted">Looks like you want</span><br /><strong>${describeIntent(intent)}</strong></span></a>` : ''}
-        ${q ? html`<p class="small muted">${plural(results.length, 'result')} for “${q}”${groups.length ? ` in ${groups.map((g) => g.label.toLowerCase()).join(', ')}` : ''}</p>` : ''}
+        ${q ? html`<p class="small muted">${plural(results.length, 'result')} for “${shown}”${groups.length ? ` in ${groups.map((g) => g.label.toLowerCase()).join(', ')}` : ''}</p>` : ''}
       </header>
       ${!q
         ? emptyState('Search the hub', 'Type a device (“S26 Ultra”), a chip (“Dimensity 9500”), a brand, a reviewer, a headline topic (“iPhone 18 battery test”), a tech word (“LDAC”), or a comparison such as “OnePlus 15 vs Galaxy S26 Ultra for battery”.')
@@ -56,7 +57,7 @@ export default async function render({ query }) {
           ? groups.map((g) => html`<section><h2 class="subhead">${g.label} <span class="tiny muted">${g.items.length}</span></h2>${group(g)}</section>`)
           : link
             ? ''
-            : emptyState(`Nothing found for “${q}”`, 'Check the spelling, or try a shorter query such as the model number. Newer devices may not be in the database yet.', html`<a class="btn" href="${href('/devices')}">Browse all devices</a>`)}
+            : emptyState(`Nothing found for “${shown}”`, 'Check the spelling, or try a shorter query such as the model number. Newer devices may not be in the database yet.', html`<a class="btn" href="${href('/devices')}">Browse all devices</a>`)}
       <p class="tiny faint">Sources in the registry: ${store.core.sources.filter((s) => s.type !== 'manufacturer').map((s) => html`${s.name} ${tierBadge(s.tier)} `)}</p>
     </div>`,
     mount(root) {

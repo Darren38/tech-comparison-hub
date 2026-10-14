@@ -2514,3 +2514,44 @@ html[data-mode="simple"] .outline__list li:has(> [data-jump="bench-h"]) { displa
 .desk__watch { display: block; }
 /* Version 24: Samsung's own release date for a model */
 .desk__official { color: color-mix(in srgb, var(--good, #1c7c4a) 85%, var(--ink)); font-weight: 650; }
+
+/* ---------------- Version 28: home and news fixes ---------------- */
+/* the hero counts open the page that lists them */
+.hero__stat {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+}
+.hero__stat:hover,
+.hero__stat:focus-visible {
+  border-bottom-color: var(--accent);
+}
+/* "Fresh from the feeds": headlines fill the row; device tags keep their own width and wrap */
+.fresh > .fresh__list {
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr));
+}
+.fresh__item > .feed-list__devices {
+  margin-top: 2px;
+}
+/* the news header: the label moves under the heading text instead of squeezing it onto two lines */
+.live__eyebrow {
+  flex-wrap: wrap;
+  row-gap: 4px;
+}
+/* checked lists: the date of the newest item */
+.feed-checked {
+  margin: -6px 0 var(--sp-3);
+}
+/* Version 28: chip names in the charts open their chipset page */
+.rank__chip {
+  color: inherit;
+  text-decoration: underline dotted;
+  text-underline-offset: 2px;
+}
+.rank__chip:hover { color: #c9d1e3; }
+/* Version 28: "Show more" under the checked reviews */
+.docs-more {
+  display: flex;
+  justify-content: center;
+  margin-top: var(--sp-4);
+}

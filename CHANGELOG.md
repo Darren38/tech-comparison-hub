@@ -1,5 +1,35 @@
 # Changelog
 
+## 15 October 2026
+
+Fixes found on the home and News pages, more links between related parts of the site, and a broad test of the site as different kinds of visitors.
+
+**Home page**
+- The device and chip tags under "Fresh from the feeds" are the size of their name again (they had stretched across the card), and every device and chip a headline names is linked: "Galaxy S23, S23 Plus, S23 Ultra and A37" now links all four, not the first two.
+- "Fresh from the feeds" fills the whole row.
+- The two lists further down are now called "Checked news" and "Checked reviews, tests & videos" and give the date of their newest item ("Checked by hand · newest 2 Oct 2026"), so they are no longer mistaken for today's headlines (those are in "Fresh from the feeds" just above). Rows without a picture show the publication's name in its place, so the rows line up, and the publication's name opens its page.
+- The counts at the top (devices, chipsets, evidence records, source documents, sources) open the page that lists them.
+
+**Device pictures no longer disappear for a day**
+- The daily check that every device picture still loads treated Wikimedia's "too many requests" answer as a broken picture, so nine phones (the Pixel 10 and 11 series among them) showed only an outline drawing on the live site. A busy server is now asked again, more slowly, and a picture is only hidden when it is really gone.
+
+**News**
+- The "Auto · every 3 hours" label and its "updated" time stay together, and the heading beside them no longer breaks onto two lines.
+- One headline published word for word by two feeds (Samsung Newsroom and Samsung Newsroom Malaysia) is shown once, from the Malaysian site, naming the other source.
+- Chips named in a headline ("Snapdragon 8 Elite") link to the chip's page on the home page, News and Reviews & videos, as devices already did.
+
+**Reviews & videos loads faster**
+- The checked reviews, tests and videos are shown 30 at a time (12 on a phone) with "Show more"; all 646 at once made the page very long and slow on phones. Going back to the list after opening one returns to the same place, with as many shown as before.
+
+**More links between related parts**
+- On Charts, the chip under each phone opens that chip's page; on a comparison, so does the chip under each phone's name.
+
+**Fixes found by testing as different visitors**
+- "Skip to content" (for keyboard and screen-reader users) opened "Page not found"; it now moves to the page's content.
+- A very long search (hundreds of letters) made the search page scroll sideways; the query is now shortened where it is shown.
+- On Chinese pages, dates are written the Chinese way (2026年10月2日 instead of 2 Oct 2026).
+- When the site's data can't be loaded (a weak connection), the message now says to check the connection and try again; it used to give instructions meant for running the site on your own computer. The message is also in Chinese on Chinese pages.
+
 ## 9 October 2026
 
 Every part of the site that updates by itself now says when it was last updated.

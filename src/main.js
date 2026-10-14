@@ -219,6 +219,12 @@ async function boot() {
   renderHeader();
   renderFooter();
   bindGlobalEvents();
+  // Version 28: "Skip to content" moves the focus to the page; following its "#app" address opened "Page not found"
+  document.querySelector('.skip-link')?.addEventListener('click', (e) => {
+    e.preventDefault();
+    app.focus();
+    app.scrollIntoView();
+  });
   startRouter(renderRoute);
   mountAssistant();
   // The published rates are Bank Negara Malaysia's latest session when the site was built. If a newer

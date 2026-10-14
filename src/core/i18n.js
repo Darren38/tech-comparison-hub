@@ -57,9 +57,17 @@ function lookup(text) {
   return null;
 }
 
+// Version 28: dates written "23 Sep 2026" / "Sep 2026" read as 2026年9月23日 / 2026年9月 on Chinese pages (only the
+// shown text changes; the data and what the AI checks keep the English form)
+const MON = { Jan: 1, Feb: 2, Mar: 3, Apr: 4, May: 5, Jun: 6, Jul: 7, Aug: 8, Sep: 9, Oct: 10, Nov: 11, Dec: 12 };
+const DAY_RE = /\b(\d{1,2}) (Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec) (\d{4})\b/g;
+const MONTH_RE = /\b(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec) (\d{4})\b/g;
+const zhDates = (s) => s.replace(DAY_RE, (m, d, mo, y) => `${y}年${MON[mo]}月${Number(d)}日`).replace(MONTH_RE, (m, mo, y) => `${y}年${MON[mo]}月`);
+
 function translateText(node) {
   const zh = lookup(node.nodeValue);
-  if (zh) node.nodeValue = node.nodeValue.replace(/\S[\s\S]*\S|\S/, zh);
+  const next = zhDates(zh ? node.nodeValue.replace(/\S[\s\S]*\S|\S/, zh) : node.nodeValue);
+  if (next !== node.nodeValue) node.nodeValue = next;
 }
 
 export function translateDom(root) {
@@ -77,8 +85,9 @@ export function translateDom(root) {
   for (const el of els) {
     for (const a of ATTRS) {
       const v = el.getAttribute?.(a);
-      const zh = v && lookup(v);
-      if (zh) el.setAttribute(a, zh);
+      if (!v) continue;
+      const zh = zhDates(lookup(v) ?? v);
+      if (zh !== v) el.setAttribute(a, zh);
     }
   }
 }

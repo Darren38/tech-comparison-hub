@@ -13,6 +13,7 @@ import concurrent.futures as cf
 import datetime as dt
 import json
 import sys
+import time
 import urllib.error
 import urllib.request
 from pathlib import Path
@@ -25,20 +26,38 @@ OUT = ROOT / "live" / "auto" / "images.json"
 UA = "Mozilla/5.0 (compatible; TechComparisonHub/1.0)"  # Version 25: no author name or address in requests (user)
 
 
+BUSY = {429, 502, 503, 504}  # Version 28: "too many requests" / server busy is not a broken picture
+
+
 def check(url: str) -> str | None:
-    """None when the picture loads; otherwise a short reason. Only the first bytes are read."""
+    """None when the picture loads (or the server is only busy); otherwise a short reason. Only the first bytes are read."""
     req = urllib.request.Request(url, headers={"User-Agent": UA, "Range": "bytes=0-2047", "Accept": "image/*"})
-    try:
-        with urllib.request.urlopen(req, timeout=25) as r:
-            kind = r.headers.get("Content-Type", "")
-            head = r.read(2048)
-            if not kind.startswith("image/") and not head[:4] in (b"\x89PNG", b"RIFF", b"GIF8") and not head[:2] == b"\xff\xd8":
-                return f"not an image ({kind or 'no type'})"
-            return None
-    except urllib.error.HTTPError as e:
-        return f"HTTP {e.code}"
-    except Exception as e:  # timeouts, DNS, TLS
-        return type(e).__name__
+    for attempt in range(3):
+        try:
+            with urllib.request.urlopen(req, timeout=25) as r:
+                kind = r.headers.get("Content-Type", "")
+                head = r.read(2048)
+                if not kind.startswith("image/") and not head[:4] in (b"\x89PNG", b"RIFF", b"GIF8") and not head[:2] == b"\xff\xd8":
+                    return f"not an image ({kind or 'no type'})"
+                return None
+        except urllib.error.HTTPError as e:
+            if e.code not in BUSY:
+                return f"HTTP {e.code}"
+            if attempt == 2:
+                # Version 28: on 14 Oct Wikimedia answered 429 for 9 pictures and the site hid them for a day.
+                # A busy server says nothing about the picture, so it stays.
+                print(f"[images] {url} still busy (HTTP {e.code}); kept.")
+                return None
+            try:
+                wait = int(e.headers.get("Retry-After") or 0)
+            except ValueError:
+                wait = 0
+            time.sleep(min(max(wait, 5 * (attempt + 1)), 30))
+        except Exception as e:  # timeouts, DNS, TLS
+            if attempt == 2:
+                return type(e).__name__
+            time.sleep(3)
+    return None
 
 
 def main() -> int:
@@ -60,12 +79,20 @@ def main() -> int:
         if src:
             targets[dev["id"]] = src
     broken = {}
+    # Version 28: Wikimedia limits how fast one visitor may ask, so its pictures are checked one at a time
+    commons = {d: u for d, u in targets.items() if "wikimedia.org" in u}
+    others = {d: u for d, u in targets.items() if d not in commons}
     with cf.ThreadPoolExecutor(max_workers=6) as pool:
-        futures = {pool.submit(check, url): dev_id for dev_id, url in targets.items()}
+        futures = {pool.submit(check, url): dev_id for dev_id, url in others.items()}
         for fut in cf.as_completed(futures):
             reason = fut.result()
             if reason:
                 broken[futures[fut]] = reason
+    for dev_id, url in commons.items():
+        reason = check(url)
+        if reason:
+            broken[dev_id] = reason
+        time.sleep(0.5)
     # a network outage on the checking machine would mark everything broken: then keep the previous check
     if targets and len(broken) > len(targets) * 0.5:
         print(f"[images] {len(broken)} of {len(targets)} failed; looks like a connection problem, keeping the previous check.")

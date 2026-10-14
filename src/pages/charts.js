@@ -126,15 +126,18 @@ function entries(test, state) {
     if (!state.years.has(yearOf(row))) continue;
     if (state.hidden.has(row.brand)) continue;
     const m = row.m?.[test];
-    if (m && !m[2]) out.push({ row, value: m[0], sources: row.ms?.[test] ?? [], chip: row.chipsetName });
+    if (m && !m[2]) out.push({ row, value: m[0], sources: row.ms?.[test] ?? [], chip: row.chipsetName, chipId: row.chipset });
     for (const [chip, value, sources] of row.mv?.[test] ?? []) {
-      out.push({ row, value, sources, chip: store.chipsetById.get(chip)?.name ?? chip, variant: true });
+      out.push({ row, value, sources, chip: store.chipsetById.get(chip)?.name ?? chip, chipId: chip, variant: true });
     }
   }
   const lower = def?.better === 'lower';
   out.sort((a, b) => (lower ? a.value - b.value : b.value - a.value));
   return { def, list: out, lower };
 }
+
+// Version 28: the chip under each phone opens its chipset page
+const chipLink = (e) => (e.chipId && store.chipsetById.has(e.chipId) ? html`<a class="rank__chip" href="${href(`/chipset/${e.chipId}`)}">${e.chip}</a>` : e.chip ?? '');
 
 function rankedBars(test, state, hue) {
   const { def, list, lower } = entries(test, state);
@@ -146,7 +149,7 @@ function rankedBars(test, state, hue) {
       <span class="rank__n num">${i + 1}</span>
       <span class="rank__who">
         <a class="rank__name" href="${href(`/device/${e.row.id}`)}" style="--brand:${colorOf(e.row.brand)}">${deviceTitle(e.row)}${e.variant ? html` <span class="rank__variant">${e.chip} version</span>` : ''}</a>
-        <span class="rank__sub tiny">${e.variant ? 'Not the Malaysian model · ' : ''}${e.chip ?? ''}${e.chip ? ' · ' : ''}${yearOf(e.row) || 'year not recorded'}</span>
+        <span class="rank__sub tiny">${e.variant ? 'Not the Malaysian model · ' : ''}${chipLink(e)}${e.chip ? ' · ' : ''}${yearOf(e.row) || 'year not recorded'}</span>
       </span>
       <span class="rank__track" aria-hidden="true"><span class="rank__fill" style="width:${Math.max(2, scale(e.value)).toFixed(1)}%"></span></span>
       <span class="rank__val num">${def.fmt ? def.fmt(e.value) : fmtMetric(def, e.value)}</span>
