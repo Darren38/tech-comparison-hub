@@ -91,6 +91,13 @@
       "note": "China launch on 23 September 2026. Xiaomi Malaysia has confirmed the Xiaomi 18 Pro series will launch in Malaysia this year; no date or price yet."
     }
   },
+  "image": {
+    "kind": "official",
+    "src": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/beb39352ceec412437ebc26ce4211526.png",
+    "page": "https://www.mi.com/prod/xiaomi-18-pro",
+    "credit": "Xiaomi",
+    "checked": "2026-10-15"
+  },
   "specs": {
     "display": {
       "size_in": 6.4,

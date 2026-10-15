@@ -18,6 +18,14 @@
     "200 MP periscope telephoto",
     "Seven years of software updates"
   ],
+  "image": {
+    "kind": "official",
+    "src": "https://assets.motorola.com/global/zeus/moto_signature_27_zeus_pdp_page_design_desktop_1.png",
+    "page": "https://www.motorola.com/gb/en/motorola-signature/motorola-signature-2027",
+    "credit": "Motorola",
+    "focus": "40% 55%",
+    "checked": "2026-10-15"
+  },
   "specs": {
     "platform": {
       "chipset": "snapdragon-8-elite-extreme-gen-6"

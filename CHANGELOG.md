@@ -1,6 +1,14 @@
 # Changelog
 
-## 15 October 2026
+## 15 October 2026 (second update)
+
+Pictures for the three newest flagships that had none.
+
+- **Xiaomi 18 Pro and 18 Pro Max** now show Xiaomi's own product picture of the Xiaomi 18 Pro series (front and back, blue), from Xiaomi's store (mi.com), credited to Xiaomi. Xiaomi's store shows the same series picture for both phones.
+- **Motorola Signature 27** now shows Motorola's own photo of the phone (the back, with its camera module), from Motorola's product page, credited to Motorola and cropped to the phone.
+- Motorola's picture server is now accepted for official pictures, and the automatic picture finder also reads Motorola's product pages, so future Motorola phones can get pictures without a person adding them.
+
+## 15 October 2026 (first update)
 
 Fixes found on the home and News pages, more links between related parts of the site, and a broad test of the site as different kinds of visitors.
 

@@ -34,10 +34,10 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from build import OFFICIAL_IMAGE_HOSTS, OFFICIAL_IMAGE_PREFIXES  # noqa: E402  (same allow-list as the validator)
 from devices_all import all_devices  # noqa: E402  (Version 20: devices added automatically count too)
 
-MAKER_PAGE = re.compile(r"^https?://[^/]*((samsung|apple|honor|huawei|mi|oppo|vivo|iqoo|asus|realme|oneplus)\.com(\.cn)?|redmagic\.gg|nothing\.tech)/")
+MAKER_PAGE = re.compile(r"^https?://[^/]*((samsung|apple|honor|huawei|mi|oppo|vivo|iqoo|asus|realme|oneplus|motorola)\.com(\.cn)?|redmagic\.gg|nothing\.tech)/")
 ARCHIVE = re.compile(r"^https://web\.archive\.org/web/(\d{14})/(.+)$")
 CREDIT = {"samsung": "Samsung", "apple": "Apple", "honor": "HONOR", "huawei": "Huawei", "mi": "Xiaomi", "oppo": "OPPO", "vivo": "vivo",
-          "iqoo": "iQOO", "asus": "ASUS", "realme": "realme", "oneplus": "OnePlus", "redmagic": "REDMAGIC", "nothing": "Nothing"}
+          "iqoo": "iQOO", "asus": "ASUS", "realme": "realme", "oneplus": "OnePlus", "motorola": "Motorola", "redmagic": "REDMAGIC", "nothing": "Nothing"}
 _robots: dict[str, urllib.robotparser.RobotFileParser | None] = {}
 
 
