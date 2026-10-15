@@ -6,7 +6,7 @@ import { fmtDate, fmtDateTime, plural, timeAgo, fmtViews } from '../lib/format.j
 import { store, sourceName } from '../core/store.js';
 import { href } from '../core/router.js';
 import { docCard, emptyState, provBadge, sourceLink, extLink, tag, sectionHead, icon, pageTrail, cardThumb, thumbLink, autoBadge } from '../ui/components.js';
-import { loadHeadlines, refreshHeadlines, canCollectLive, isSafeUrl, loadViews, youtubeId } from '../engine/live.js';
+import { loadHeadlines, refreshHeadlines, canCollectLive, isSafeUrl, isChineseLive, loadViews, youtubeId } from '../engine/live.js';
 import { isZh, t } from '../core/i18n.js';
 import { softwareSection, fillSoftware, offersSection, fillOffers, chipsSection, fillChips } from '../ui/newsdesk.js';
 
@@ -129,7 +129,7 @@ function liveItem(item, isNew) {
       ${item.also?.length ? html`<span class="muted">${t('also')} ${item.also.map((src, n) => html`${n ? ', ' : ''}<a href="${href(`/source/${src}`)}">${sourceName(src)}</a>`)}</span>` : ''}
       ${item.kind === 'video' ? tag('Video', 'muted') : item.kind === 'review' ? tag('Review', 'muted') : ''}
       ${item.views != null ? html`<span class="live__views">${fmtViews(item.views)}</span>` : ''}
-      ${item.lang === 'zh' ? tag('In Chinese', 'muted') : ''}
+      ${isChineseLive(item) ? tag('In Chinese', 'muted') : ''}
       ${item.published ? html`<time datetime="${item.published}" title="${fmtDateTime(item.published)}">${timeAgo(item.published)}</time>` : html`<span class="faint">Date not given</span>`}
       ${isNew ? html`<span class="live__new">New</span>` : ''}
     </div>
@@ -183,7 +183,7 @@ function bindLive(root, mode) {
   let alive = true;
 
   const relevant = (d) => sameStory((d?.items ?? []).filter((i) => mode.liveKinds.includes(i.kind) && i.title && isSafeUrl(i.url)));
-  const filtered = () => relevant(data).filter((i) => (!matchedBox.checked || i.devices?.length) && (zhBox.checked || i.lang !== 'zh'));
+  const filtered = () => relevant(data).filter((i) => (!matchedBox.checked || i.devices?.length) && (zhBox.checked || !isChineseLive(i)));
   // "Most viewed": items with a view count first, highest first; the rest keep their newest-first order after them
   const visible = () => {
     const items = filtered();

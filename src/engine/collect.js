@@ -113,14 +113,15 @@ const hasDigit = (w) => /\d/.test(w ?? '');
  * S26 Ultra" and "iOS 27" name no device, a name without its brand needs the brand earlier in the headline ("Galaxy Z
  * Fold8 and Z Flip8"), a weak one only straight after "and", "vs" or "or" ("Xiaomi 18 Pro and 18 Pro Max"), and a name
  * without a number is not followed by one ("iPhone Air 2" is not the iPhone Air). A turned-down name blocks its words. */
-export function matchDevices(titleNorm, byFirst, nextReject, prevReject = new Set(), rules = null) {
+export function matchDevices(titleNorm, byFirst, nextReject, prevReject = new Set(), rules = null, rejectExcept = {}) {
   const words = titleNorm ? titleNorm.split(' ') : [];
   const hits = [];
   words.forEach((w, i) => {
     for (const k of byFirst.get(w) ?? []) {
       if (k.tokens.some((t, j) => words[i + j] !== t)) continue;
       const next = words[i + k.tokens.length];
-      if (next !== undefined && nextReject.has(next)) continue;
+      // Version 30: "S26 Ultra power button" still counts; "POCO X8 Power" is not the POCO X8 (config.nextRejectExcept)
+      if (next !== undefined && nextReject.has(next) && !rejectExcept[next]?.has(words[i + k.tokens.length + 1])) continue;
       if (i > 0 && prevReject.has(words[i - 1])) continue;
       hits.push({ ...k, start: i, end: i + k.tokens.length });
     }
@@ -172,6 +173,7 @@ export function tagger(config) {
   };
   const chipsFirst = keyIndex(config.chipKeys ?? []);
   const nextReject = new Set(config.nextReject ?? []);
+  const rejectExcept = Object.fromEntries(Object.entries(config.nextRejectExcept ?? {}).map(([w, list]) => [w, new Set(list)]));
   const chipNext = new Set(config.chipNextReject ?? []);
   const chipPrev = new Set(config.chipPrevReject ?? []);
   const rules = (config.topicRules ?? []).map(([name, pattern]) => [name, new RegExp(pattern, 'i')]);
@@ -192,7 +194,7 @@ export function tagger(config) {
     const norm = normalize(title);
     const chipsets = matchDevices(norm, chipsFirst, chipNext, chipPrev);
     const flags = flagsOf(title, source);
-    return { devices: matchDevices(norm, byFirst, nextReject, new Set(), matchRules), ...(chipsets.length ? { chipsets } : {}), topic: topicOf(title, kind, rules), ...(flags.length ? { flags } : {}) };
+    return { devices: matchDevices(norm, byFirst, nextReject, new Set(), matchRules, rejectExcept), ...(chipsets.length ? { chipsets } : {}), topic: topicOf(title, kind, rules), ...(flags.length ? { flags } : {}) };
   };
 }
 

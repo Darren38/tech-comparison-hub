@@ -116,6 +116,14 @@ export async function latestHeadlines() {
 /** Only http(s) links are ever rendered. */
 export const isSafeUrl = (url) => /^https?:\/\//i.test(url ?? '');
 
+// Version 30: an item counts as Chinese-language when its feed says so or its title is mainly Chinese (the Cherry
+// channel's videos were not marked and ignored the "Include Chinese-language sources" switch)
+export const isChineseTitle = (title) => {
+  const han = (String(title ?? '').match(/[一-鿿]/g) ?? []).length;
+  return han >= 4 && han >= (String(title ?? '').match(/[A-Za-z]/g) ?? []).length;
+};
+export const isChineseLive = (i) => i.lang === 'zh' || isChineseTitle(i.title);
+
 // YouTube view counts by video id (live/views.json, Version 16), read once per visit.
 let viewsPromise = null;
 export function loadViews() {

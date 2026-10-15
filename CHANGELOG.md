@@ -1,5 +1,19 @@
 # Changelog
 
+## 16 October 2026
+
+A new weekly batch of checked news, reviews and videos, and two fixes to the automatic headlines.
+
+**New checked items (read by hand on 16 October)**
+- 13 news items, Malaysia first: the Honor 600S 5G on sale at RM1,299, the Oppo Find X10 series' Malaysian launch on 22 October and its pre-order terms, and HONOR's own durability demonstrations for the X9e Pro; also the iPhone 18 Pro Max AT&T fix for the iOS 27.2 beta, the Galaxy S26 October security update, iFixit's repair scores for the Apple Watch Series 12 and Ultra 4, the Pixel 11 series still waiting for Android 17 QPR1, Nothing OS 5.0 on the Phone (3), the iPhone Duo's day-one update, a One UI 9.0 start-up problem on the Galaxy A57, a report of iPhone 18 Pro order cuts, LTT Labs' iPhone 18 Pro charging test (via IT Home) and owners' reports on Galaxy Z Fold 8 Ultra battery life. Reports and owner claims are labelled as such.
+- 3 reviews and analyses: the HONOR 600's display after a week of use, ColorOS 17 on the OnePlus 15, and what One UI 9 brings to the Galaxy S25 compared with the S26.
+- 3 video reviews: HONOR Magic V6 and iPhone 18 Pro Max full reviews (邦尼幫你) and an OPPO Find X10 Pro Max camera test (TechNave 中文版).
+- From now on a new batch is added every week.
+
+**Automatic headlines**
+- Videos and headlines written in Chinese are now treated as Chinese even when their channel isn't marked, so "Include Chinese-language sources" hides them when it is off (the Cherry channel's videos showed regardless).
+- A model with "Power" after its name is no longer taken for the plain model: "POCO X8 Power" headlines were linked to the POCO X8, a different phone. "Galaxy S26 Ultra power button" still links to the S26 Ultra.
+
 ## 15 October 2026 (second update)
 
 Pictures for the three newest flagships that had none.

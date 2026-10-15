@@ -309,5 +309,115 @@
       }
     ],
     "extraction": "partial"
+  },
+  {
+    "id": "fonearena-honor-600-display-review",
+    "kind": "review",
+    "source": "fonearena",
+    "class": "reviewer",
+    "title": "HONOR 600 Display: Impressive hardware, MagicOS needs finesse",
+    "url": "https://www.fonearena.com/blog/494582/honor-600-display-review.html",
+    "author": "Tamil G",
+    "published": "2026-10-12",
+    "accessed": "2026-10-16",
+    "devices": [
+      "honor-600"
+    ],
+    "facets": [
+      "display"
+    ],
+    "method": "A week of everyday use of the display outdoors and in the dark; no lab instruments (the 8,000-nit figure is HONOR's lab claim).",
+    "findings": [
+      {
+        "subject": "honor-600",
+        "facet": "display",
+        "stance": "positive",
+        "text": "Easy to read in direct midday sun even without Sunlight Mode, which raises contrast rather than just brightness."
+      },
+      {
+        "subject": "honor-600",
+        "facet": "display",
+        "stance": "positive",
+        "text": "Dims to 1 nit, comfortable for reading in a dark room; automatic brightness changed smoothly rather than in steps."
+      },
+      {
+        "subject": "honor-600",
+        "facet": "display",
+        "stance": "neutral",
+        "text": "Some eye-comfort modes, such as Defocus Eyecare, made no difference the reviewer could see."
+      }
+    ],
+    "extraction": "partial"
+  },
+  {
+    "id": "fonearena-coloros-17-oneplus-15",
+    "kind": "analysis",
+    "source": "fonearena",
+    "class": "reviewer",
+    "title": "A look at ColorOS 17 based on Android 17 on OnePlus 15",
+    "url": "https://www.fonearena.com/blog/494824/coloros-17-features-oneplus-15.html",
+    "author": "Srivatsan Sridhar",
+    "published": "2026-10-13",
+    "accessed": "2026-10-16",
+    "devices": [
+      "oneplus-15"
+    ],
+    "facets": [
+      "software",
+      "performance"
+    ],
+    "method": "Hands-on with ColorOS 17, which replaces OxygenOS on OnePlus phones worldwide; the speed figures quoted are OnePlus's own.",
+    "findings": [
+      {
+        "subject": "oneplus-15",
+        "facet": "software",
+        "stance": "neutral",
+        "text": "ColorOS 17 brings a new translucent, light-reactive design and AI tools that save on-screen content and suggest flights, trains and music."
+      },
+      {
+        "subject": "oneplus-15",
+        "facet": "performance",
+        "stance": "positive",
+        "text": "Frame pacing stayed steady during heavy app switching and fast scrolling through large galleries."
+      }
+    ],
+    "extraction": "partial"
+  },
+  {
+    "id": "sammobile-one-ui-9-galaxy-s25-vs-s26",
+    "kind": "analysis",
+    "source": "sammobile",
+    "class": "reviewer",
+    "title": "One UI 9 on the Galaxy S25 vs S26 series: What's different?",
+    "url": "https://www.sammobile.com/news/samsung-one-ui-9-galaxy-s25-vs-s26-series/",
+    "published": "2026-10-14",
+    "accessed": "2026-10-16",
+    "devices": [
+      "samsung-galaxy-s25",
+      "samsung-galaxy-s25-ultra",
+      "samsung-galaxy-s26",
+      "samsung-galaxy-s26-plus",
+      "samsung-galaxy-s26-ultra"
+    ],
+    "facets": [
+      "software",
+      "camera"
+    ],
+    "method": "Side-by-side look at One UI 9 on both series.",
+    "findings": [
+      {
+        "subject": "samsung-galaxy-s25",
+        "facet": "software",
+        "stance": "positive",
+        "text": "The S25 series gets the same new Galaxy AI tools (My FanCam, Call Brief, custom Now Brief cards) and home-screen changes as the S26 series, plus Horizontal Lock video stabilisation."
+      },
+      {
+        "subject": "samsung-galaxy-s26",
+        "facet": "camera",
+        "stance": "positive",
+        "text": "Only the S26 series offers 100, 50, 48 and 25 fps in Pro video mode at Full HD and UHD, 25 fps at 8K, and 24 MP in the standard Photo mode; the S25 series needs the separate Expert RAW app for 24 MP."
+      }
+    ],
+    "extraction": "partial"
   }
 ]

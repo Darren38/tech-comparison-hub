@@ -472,5 +472,84 @@
     },
     "findings": [],
     "extraction": "metadata-only"
+  },
+  {
+    "id": "yt-isbonny-o9t4v-fzh3s",
+    "kind": "video",
+    "platform": "YouTube",
+    "source": "isbonny",
+    "title": "「邦尼評測」扯！頂級規格 + 史上最薄？HONOR Magic V6 超完整評測（人損也保固？6660mAh大電量、AI 長焦、效能續航快充、色域色準PWM螢幕實測 優缺點 榮耀摺疊機 值不值得買？",
+    "url": "https://www.youtube.com/watch?v=o9t4v-FZh3s",
+    "published": "2026-10-14",
+    "accessed": "2026-10-16",
+    "class": "reviewer",
+    "category": "full-review",
+    "devices": [
+      "honor-magic-v6"
+    ],
+    "facets": [
+      "battery",
+      "display",
+      "camera",
+      "performance",
+      "charging"
+    ],
+    "lang": "zh",
+    "verified": {
+      "metadata": "Channel, title and date from the site's YouTube collection (YouTube Data API); the device it is about checked by hand from the title."
+    },
+    "findings": [],
+    "extraction": "metadata-only"
+  },
+  {
+    "id": "yt-isbonny-80vjx0kdycq",
+    "kind": "video",
+    "platform": "YouTube",
+    "source": "isbonny",
+    "title": "「邦尼評測」必看！四年來最好的一代！iPhone 18 Pro Max最終評測！7 大關鍵優缺點實測！18 Pro vs 17 Pro Max（色域色準亮度 效能充電 蘋果i18 選購建議 值不值得",
+    "url": "https://www.youtube.com/watch?v=80vJX0KDYCQ",
+    "published": "2026-10-04",
+    "accessed": "2026-10-16",
+    "class": "reviewer",
+    "category": "full-review",
+    "devices": [
+      "apple-iphone-18-pro-max",
+      "apple-iphone-17-pro-max"
+    ],
+    "facets": [
+      "display",
+      "performance",
+      "charging"
+    ],
+    "lang": "zh",
+    "verified": {
+      "metadata": "Channel, title and date from the site's YouTube collection (YouTube Data API); the devices it is about checked by hand from the title."
+    },
+    "findings": [],
+    "extraction": "metadata-only"
+  },
+  {
+    "id": "yt-technave-zh-video-zav7rpdquqi",
+    "kind": "video",
+    "platform": "YouTube",
+    "source": "technave-zh-video",
+    "title": "胡志明市的街头，美奈的海风和日落。这次去越南，顺便实测 OPPO Find X10 Pro Max 的相机：街拍、远景、逆光日落，全都拍了一遍。哈苏画质到底怎么样？看完视频你就知道了。",
+    "url": "https://www.youtube.com/watch?v=zaV7rPdquqI",
+    "published": "2026-10-15",
+    "accessed": "2026-10-16",
+    "class": "reviewer",
+    "category": "first-look",
+    "devices": [
+      "oppo-find-x10-pro-max"
+    ],
+    "facets": [
+      "camera"
+    ],
+    "lang": "zh",
+    "verified": {
+      "metadata": "Channel, title and date from the site's YouTube collection (YouTube Data API); the device it is about checked by hand from the title."
+    },
+    "findings": [],
+    "extraction": "metadata-only"
   }
 ]

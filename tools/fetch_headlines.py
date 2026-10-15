@@ -102,7 +102,11 @@ CHIP_PREV_REJECT = {"galaxy", "iphone", "redmi", "poco", "vivo", "oppo", "honor"
 
 REVIEW_WORDS = re.compile(r"\b(review|reviewed|hands[- ]on|tested|benchmarks?|battery (?:life )?test|camera test|teardown|durability|drop test|vs)\b", re.I | re.A)
 # Words that mean a longer model name continues ("Galaxy S26" must not match "Galaxy S26 FE").
-NEXT_REJECT = {"fe", "plus", "edge", "ultra", "pro", "max", "mini", "lite", "xl", "fold", "flip", "air", "classic", "neo", "se", "s", "e", "r", "t", "a"}
+NEXT_REJECT = {"fe", "plus", "edge", "ultra", "pro", "max", "mini", "lite", "xl", "fold", "flip", "air", "classic", "neo", "se", "s", "e", "r", "t", "a",
+               "power"}  # Version 30: "POCO X8 Power" is not the POCO X8
+# ...but "S26 Ultra power button" still names the S26 Ultra: a rejected word followed by one of these is ordinary text
+NEXT_REJECT_EXCEPT = {"power": {"button", "buttons", "key", "bank", "banks", "menu", "saving", "saver", "mode", "off", "on",
+                                "delivery", "adapter", "supply", "consumption", "efficiency", "management", "usage", "draw"}}
 # A headline is kept when it names a device in the database or one of these phone, tablet, watch or
 # chip topics. Brand names alone are not enough: Xiaomi or Huawei headlines are often about appliances or cars.
 TOPIC_PATTERNS = [
@@ -135,6 +139,14 @@ def normalize(text: str) -> str:
     text = re.sub(r"(\d)([a-z]{2,})\b", r"\1 \2", text)  # "17Pro", "X200Ultra" (Chinese headlines leave no space)
     text = re.sub(r"\b([a-z]{3,})(\d+)\b", r"\1 \2", text)  # "Fold8", "Magic8", "Watch8" read the same as "Fold 8"
     return re.sub(r"\s+", " ", text).strip()
+
+
+def mostly_chinese(title: str) -> bool:
+    """Version 30: a title written mainly in Chinese counts as a Chinese-language item even when its feed isn't marked
+    (the Cherry channel's videos ignored the "Include Chinese-language sources" switch)."""
+    han = len(re.findall(r"[一-鿿]", title))
+    latin = len(re.findall(r"[A-Za-z]", title))
+    return han >= 4 and han >= latin
 
 
 def clean_title(text: str | None) -> str:
@@ -314,7 +326,9 @@ def match_spans(title_norm: str, keys: list[tuple], next_reject: set[str] = NEXT
                 continue
             nxt = words[i + n] if i + n < len(words) else None
             if nxt is not None and nxt in next_reject:
-                continue
+                after = words[i + n + 1] if i + n + 1 < len(words) else None
+                if after not in NEXT_REJECT_EXCEPT.get(nxt, ()):
+                    continue
             if i > 0 and words[i - 1] in prev_reject:
                 continue
             if family is not None:
@@ -492,6 +506,7 @@ def write_live_config(cfg: dict, keys: list[tuple]) -> None:
         "topicPatternsZh": TOPIC_PATTERNS_ZH,
         "reviewWordsZh": REVIEW_WORDS_ZH,
         "nextReject": sorted(NEXT_REJECT),
+        "nextRejectExcept": {k: sorted(v) for k, v in NEXT_REJECT_EXCEPT.items()},
         # Version 21: [key, id, brand family, context words, weak] and the rules that use them (see match_spans)
         "keys": [list(k) for k in keys],
         "brandWords": BRAND_WORDS,
@@ -637,7 +652,7 @@ def collect() -> dict:
                     "title": title,
                     "url": link,
                     "source": feed["source"],
-                    **({"lang": feed["lang"]} if feed.get("lang") else {}),
+                    **({"lang": feed["lang"]} if feed.get("lang") else {"lang": "zh"} if mostly_chinese(title) else {}),
                     "kind": kind,
                     "published": published.isoformat(timespec="minutes") if published else None,
                     "devices": matched,

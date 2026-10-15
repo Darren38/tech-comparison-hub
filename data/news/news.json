@@ -384,5 +384,264 @@
       "durability"
     ],
     "summary": "iFixit gave the AirPods 5 a repairability score of 2 out of 10, the first AirPods above zero: the earbud batteries can be replaced by a skilled repairer without destroying the earbud (left and right are not interchangeable). The rest of each earbud is still glued, and the charging case still can't be repaired."
+  },
+  {
+    "id": "soyacincau-honor-600s-5g-malaysia",
+    "kind": "news",
+    "type": "availability",
+    "region": "MY",
+    "source": "soyacincau",
+    "class": "news",
+    "title": "Honor 600S 5G Malaysia: Snapdragon 4 Gen 4, 50MP camera and 8,100mAh battery, priced at RM1,299",
+    "url": "https://soyacincau.com/2026/10/14/honor-600s-5g-malaysia-snapdragon-4-gen-4-50mp-camera-and-8100mah-battery-priced-at-rm1299/",
+    "published": "2026-10-14",
+    "accessed": "2026-10-16",
+    "devices": [
+      "honor-600s-5g"
+    ],
+    "facets": [
+      "value",
+      "battery",
+      "durability"
+    ],
+    "summary": "On sale in Malaysia from 14 October at RM1,299 (256 GB), with a launch bundle of an RM100 rebate and a second year of warranty. It uses the entry-level Snapdragon 4 Gen 4 with 4 GB of RAM (the advertised 12 GB counts 8 GB of virtual RAM), a 6.87-inch HD+ screen, an 8,100 mAh battery with 45 W charging, IP68/IP69/IP69K ratings and a 2.5 m drop claim."
+  },
+  {
+    "id": "soyacincau-oppo-find-x10-malaysia-preorder",
+    "kind": "news",
+    "type": "availability",
+    "region": "MY",
+    "source": "soyacincau",
+    "class": "news",
+    "title": "Oppo Find X10 Series launching in Malaysia on 22 October, pre-order promo now live",
+    "url": "https://soyacincau.com/2026/10/09/oppo-find-x10-x10-pro-max-malaysia-preorder-launch-22-october/",
+    "published": "2026-10-09",
+    "accessed": "2026-10-16",
+    "devices": [
+      "oppo-find-x10",
+      "oppo-find-x10-pro-max"
+    ],
+    "facets": [
+      "value"
+    ],
+    "summary": "The Find X10 and Find X10 Pro Max launch in Malaysia on 22 October; Malaysian prices were not yet announced. An RM200 Deal Pack (8 to 22 October) is credited back when the phone is paid for between 22 and 29 October, but does not guarantee stock. Malaysian versions: Find X10 with 12 GB RAM and 256 or 512 GB; Find X10 Pro Max with 16 GB RAM and 512 GB."
+  },
+  {
+    "id": "technave-honor-x9e-pro-durability-demo",
+    "kind": "news",
+    "type": "availability",
+    "region": "MY",
+    "source": "technave",
+    "class": "news",
+    "title": "HONOR X9e Pro goes through Military Bootcamp and survives ahead of Malaysia release",
+    "url": "https://technave.com/gadget/HONOR-X9e-Pro-goes-through-Military-Bootcamp-and-survives-ahead-of-Malaysia-release-47610.html",
+    "published": "2026-10-08",
+    "accessed": "2026-10-16",
+    "devices": [
+      "honor-x9e-pro"
+    ],
+    "facets": [
+      "durability",
+      "value"
+    ],
+    "summary": "HONOR Malaysia staged its own durability demonstrations (drops, mud, paint impacts, five minutes underwater) before the 9 October Malaysian release from RM1,899. These are the maker's demonstrations, not independent tests; HONOR claims drop resistance up to 3 m and IP68, IP69 and IP69K ratings."
+  },
+  {
+    "id": "9to5mac-iphone-18-pro-max-att-ios-27-2-beta",
+    "kind": "news",
+    "type": "software-update",
+    "source": "9to5mac",
+    "class": "news",
+    "title": "Apple rolls out AT&T carrier update for iPhone 18 Pro Max on iOS 27.2 beta",
+    "url": "https://9to5mac.com/2026/10/08/apple-rolls-out-att-carrier-update-for-iphone-18-pro-max-on-ios-27-2-beta/",
+    "author": "Marcus Mendes",
+    "published": "2026-10-09",
+    "accessed": "2026-10-16",
+    "devices": [
+      "apple-iphone-18-pro-max"
+    ],
+    "facets": [
+      "connectivity",
+      "software"
+    ],
+    "summary": "After last week's fix for iOS 27.0 (carrier settings 72.1), Apple released carrier settings 72.0.3 for iPhone 18 Pro Max owners on AT&T who run the iOS 27.2 beta. Only the 18 Pro Max, which uses a Qualcomm modem in the US, is affected; phones that already lost service still need a hardware replacement."
+  },
+  {
+    "id": "sammobile-galaxy-s26-october-2026-security-update",
+    "kind": "news",
+    "type": "security",
+    "source": "sammobile",
+    "class": "news",
+    "title": "Galaxy S26 series gets October 2026 security update",
+    "url": "https://www.sammobile.com/news/galaxy-s26-series-gets-october-2026-security-update/",
+    "author": "Abid Iqbal Shaik",
+    "published": "2026-10-09",
+    "accessed": "2026-10-16",
+    "devices": [
+      "samsung-galaxy-s26",
+      "samsung-galaxy-s26-plus",
+      "samsung-galaxy-s26-ultra"
+    ],
+    "facets": [
+      "software"
+    ],
+    "summary": "The first update after One UI 9.0 brings the October 2026 security patch (62 fixes) to the Galaxy S26, S26+ and S26 Ultra, starting in Canada and the US with more countries to follow. No date has been given for One UI 9.5."
+  },
+  {
+    "id": "macrumors-apple-watch-series-12-ultra-4-ifixit",
+    "kind": "news",
+    "type": "analysis",
+    "source": "macrumors",
+    "class": "news",
+    "title": "Apple Watch Series 12 and Ultra 4 Score 4/10 for Repairability",
+    "url": "https://www.macrumors.com/2026/10/07/apple-watch-series-12-teardown/",
+    "published": "2026-10-07",
+    "accessed": "2026-10-16",
+    "devices": [
+      "apple-watch-series-12",
+      "apple-watch-ultra-4"
+    ],
+    "facets": [
+      "durability",
+      "battery"
+    ],
+    "summary": "iFixit scored both watches 4 out of 10 for repairability. The Series 12 gains a pull tab for its battery adhesive and drops a fiddly connector, but the battery still sits behind the display; the Ultra 4 is unchanged. Battery capacities rose to 2.444 Wh (Ultra 4) and 1.461 Wh (46 mm Series 12). iFixit gave the Pixel Watch 5 a 9 out of 10."
+  },
+  {
+    "id": "9to5google-pixel-11-no-android-17-qpr1",
+    "kind": "news",
+    "type": "software-update",
+    "source": "9to5google",
+    "class": "news",
+    "title": "Pixel 11 series still not on Android 17 QPR1 with October update",
+    "url": "https://9to5google.com/2026/10/07/pixel-11-no-android-17-qpr1/",
+    "author": "Abner Li",
+    "published": "2026-10-07",
+    "accessed": "2026-10-16",
+    "devices": [
+      "google-pixel-11",
+      "google-pixel-11-pro",
+      "google-pixel-11-pro-xl",
+      "google-pixel-11-pro-fold"
+    ],
+    "facets": [
+      "software"
+    ],
+    "summary": "Older Pixels received Android 17 QPR1 in September, but the Pixel 11 series' October update keeps it on the base Android 17 release. The update does fix an on-screen keyboard that sometimes failed to appear and photos or videos saved in the wrong orientation."
+  },
+  {
+    "id": "fonearena-nothing-os-5-phone-3",
+    "kind": "news",
+    "type": "software-update",
+    "source": "fonearena",
+    "class": "news",
+    "title": "Nothing OS 5.0 update rolls out starting with Nothing Phone (3)",
+    "url": "https://www.fonearena.com/blog/494665/nothing-os-5-roll-out-nothing-phone-3.html",
+    "author": "Srivatsan Sridhar",
+    "published": "2026-10-12",
+    "accessed": "2026-10-16",
+    "devices": [
+      "nothing-phone-3"
+    ],
+    "facets": [
+      "software"
+    ],
+    "summary": "The stable Nothing OS 5.0 (Android 17) update is rolling out in phases, starting with the Phone (3), with other Nothing and CMF phones to follow over the coming months. Nothing lists more than 80 changes, including a redesigned home screen and lock-screen clock and new on-device AI tools."
+  },
+  {
+    "id": "macrumors-iphone-duo-day-one-ios-27-1",
+    "kind": "news",
+    "type": "software-update",
+    "source": "macrumors",
+    "class": "news",
+    "title": "iPhone Duo Will Have Day-One iOS 27.1 Update",
+    "url": "https://www.macrumors.com/2026/10/13/iphone-duo-day-one-update/",
+    "published": "2026-10-13",
+    "accessed": "2026-10-16",
+    "devices": [
+      "apple-iphone-duo"
+    ],
+    "facets": [
+      "software"
+    ],
+    "summary": "The iPhone Duo runs iOS 27.1, a version only for the foldable, and Apple has already released a newer build, so buyers will install an update during setup. Pre-orders open on 16 October and the phone goes on sale on 23 October."
+  },
+  {
+    "id": "sammobile-galaxy-a57-one-ui-9-boot-issue",
+    "kind": "news",
+    "type": "issue",
+    "source": "sammobile",
+    "class": "news",
+    "title": "Galaxy A57 owners may want to avoid upgrading to One UI 9.0 right now",
+    "url": "https://www.sammobile.com/news/galaxy-a57-owners-may-want-to-avoid-one-ui-9-0-right-now/",
+    "author": "Mihai Matei",
+    "published": "2026-10-12",
+    "accessed": "2026-10-16",
+    "devices": [
+      "samsung-galaxy-a57-5g"
+    ],
+    "facets": [
+      "software"
+    ],
+    "summary": "Some Galaxy A57 owners reported that the phone failed to start normally after installing One UI 9.0. Owners found that starting once in Safe Mode and then restarting normally gets past the error; Samsung had not commented."
+  },
+  {
+    "id": "9to5mac-iphone-18-pro-orders-cut-report",
+    "kind": "news",
+    "type": "analysis",
+    "source": "9to5mac",
+    "class": "news",
+    "title": "Report: Apple cuts iPhone 18 Pro production due to 'soft demand'",
+    "url": "https://9to5mac.com/2026/10/09/report-apple-cuts-iphone-18-pro-production-due-to-soft-demand/",
+    "author": "Chance Miller",
+    "published": "2026-10-09",
+    "accessed": "2026-10-16",
+    "devices": [
+      "apple-iphone-18-pro",
+      "apple-iphone-18-pro-max"
+    ],
+    "facets": [
+      "value"
+    ],
+    "summary": "A Nikkei Asia report, citing unnamed supply-chain sources, says Apple cut October component orders for the iPhone 18 Pro and Pro Max by 15 to 20% after the US$100 price rise softened demand. Apple has not confirmed it; its next quarterly results are due on 2 November."
+  },
+  {
+    "id": "ithome-iphone-18-pro-charging-ltt-labs",
+    "kind": "news",
+    "type": "benchmark",
+    "source": "ithome",
+    "class": "news",
+    "lang": "zh",
+    "title": "苹果 iPhone 18 Pro/Max 测试：无可变电压供电充电器也能接近满速快充",
+    "url": "https://www.ithome.com/1/012/294.htm",
+    "published": "2026-10-13",
+    "accessed": "2026-10-16",
+    "devices": [
+      "apple-iphone-18-pro",
+      "apple-iphone-18-pro-max"
+    ],
+    "facets": [
+      "charging"
+    ],
+    "summary": "IT Home reports LTT Labs' charging test: a USB PD charger without AVS (UGREEN Nexode 140W) charged the iPhone 18 Pro as fast as Apple's 40W Dynamic adapter. On the 18 Pro Max, Apple's adapter peaked near 50 W and filled it in 82 minutes, against 84 minutes with the UGREEN charger, which stayed below 50 W."
+  },
+  {
+    "id": "sammobile-galaxy-z-fold8-ultra-battery-owners",
+    "kind": "news",
+    "type": "analysis",
+    "source": "sammobile",
+    "class": "news",
+    "title": "What Samsung fans are saying about Galaxy Z Fold 8 Ultra battery life",
+    "url": "https://www.sammobile.com/news/what-samsung-fans-saying-galaxy-z-fold-8-ultra-battery-life/",
+    "published": "2026-10-12",
+    "accessed": "2026-10-16",
+    "devices": [
+      "samsung-galaxy-z-fold8-ultra",
+      "samsung-galaxy-z-fold8"
+    ],
+    "facets": [
+      "battery"
+    ],
+    "summary": "Owner reports on Reddit (not tests): upgraders from older Folds describe 8 to 9 hours of screen-on time from the Fold 8 Ultra's 5,000 mAh battery, the first capacity rise since the Fold 3, and similar results from the Fold 8's 4,800 mAh. One owner coming from an iPhone 17 Pro Max was less impressed, and SamMobile found it does not last as long as the Galaxy S26 Ultra."
   }
 ]

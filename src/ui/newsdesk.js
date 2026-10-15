@@ -11,7 +11,7 @@ import { fmtDate as fmtDay, timeAgo } from '../lib/format.js';
 import { store, sourceName, deviceTitle } from '../core/store.js';
 import { href } from '../core/router.js';
 import { extLink, cardThumb, thumbLink, autoBadge } from './components.js';
-import { loadMatchedItems, isSafeUrl } from '../engine/live.js';
+import { loadMatchedItems, isSafeUrl, isChineseLive } from '../engine/live.js';
 import { t } from '../core/i18n.js';
 
 let officialPromise = null;
@@ -67,7 +67,7 @@ function row(i, { showDevices = true, regions = null } = {}) {
   ].filter(Boolean);
   return html`<li class="fresh__item">
     ${thumbLink(cardThumb({ image: isSafeUrl(i.image) ? i.image : null, url: i.url }, { allowDevice: false }), { url: i.url, title: i.title })}
-    <div class="tiny muted">${tags.length ? html`${tags} · ` : ''}<a href="${href(`/source/${i.source}`)}">${sourceName(i.source)}</a>${i.lang === 'zh' ? ` · ${t('In Chinese')}` : ''}${i.published ? html` · <time datetime="${i.published}">${timeAgo(i.published)}</time>` : ''}</div>
+    <div class="tiny muted">${tags.length ? html`${tags} · ` : ''}<a href="${href(`/source/${i.source}`)}">${sourceName(i.source)}</a>${isChineseLive(i) ? ` · ${t('In Chinese')}` : ''}${i.published ? html` · <time datetime="${i.published}">${timeAgo(i.published)}</time>` : ''}</div>
     ${extLink(i.url, i.title, 'fresh__link')}
     ${regions ? html`<div class="tiny">${regions}</div>` : ''}
     ${devs.length || chips.length ? html`<div class="tiny auto__devs">${devs.map((r) => html`<a href="${href(`/device/${r.id}`)}">${deviceTitle(r)}</a>`)}${chips.map((c) => html`<a href="${href(`/chipset/${c.id}`)}">${c.name}</a>`)}</div>` : ''}
