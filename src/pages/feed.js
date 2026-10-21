@@ -5,7 +5,7 @@ import { html, mount } from '../lib/html.js';
 import { fmtDate, fmtDateTime, plural, timeAgo, fmtViews } from '../lib/format.js';
 import { store, sourceName } from '../core/store.js';
 import { href } from '../core/router.js';
-import { docCard, emptyState, provBadge, sourceLink, extLink, tag, sectionHead, icon, pageTrail, cardThumb, thumbLink, autoBadge } from '../ui/components.js';
+import { docCard, emptyState, provBadge, sourceLink, extLink, tag, sectionHead, icon, pageTrail, cardThumb, thumbLink, autoBadge, subjectChips } from '../ui/components.js';
 import { loadHeadlines, refreshHeadlines, canCollectLive, isSafeUrl, isChineseLive, loadViews, youtubeId } from '../engine/live.js';
 import { isZh, t } from '../core/i18n.js';
 import { softwareSection, fillSoftware, offersSection, fillOffers, chipsSection, fillChips } from '../ui/newsdesk.js';
@@ -78,11 +78,7 @@ function newsTimeline(docs) {
         <div class="row tiny">${provBadge(doc.class)} ${tag(store.core.taxonomy.newsTypes.find((t) => t.id === doc.type)?.label ?? 'News')} ${doc.region ? tag(doc.region, 'muted') : ''} ${sourceLink(doc.testedBy ?? doc.source)}</div>
         <h3 class="timeline__title">${extLink(doc.url, doc.title)}</h3>
         ${doc.summary ? html`<p class="small muted">${doc.summary}</p>` : ''}
-        <div class="row tiny">${[...(doc.devices ?? []), ...(doc.chipsets ?? [])].slice(0, 4).map((id) => {
-          const dev = store.deviceById.get(id);
-          const chip = store.chipsetById.get(id);
-          return dev ? html`<a class="chip" href="${href(`/device/${id}`)}">${dev.name}</a>` : chip ? html`<a class="chip" href="${href(`/chipset/${id}`)}">${chip.name}</a>` : '';
-        })}</div>
+        <div class="row tiny">${subjectChips([...(doc.devices ?? []), ...(doc.chipsets ?? [])])}</div>
       </div>
       ${thumbLink(cardThumb({ url: doc.url, devices: doc.devices ?? [] }), { url: doc.url, title: doc.title, size: 'side' })}
     </li>`)}</ol>

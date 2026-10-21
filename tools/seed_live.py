@@ -22,9 +22,11 @@ LIVE = ROOT / "live"
 FILES = ["archive.json", "views.json", "spotted.json", "official.json"]  # official.json: Version 18
 # Version 20: the automatic results live in the Actions cache; if GitHub ever clears it, these copies from the live site
 # keep devices added automatically, matched test results and found pictures from disappearing.
-FILES += ["auto/new_devices.json", "auto/auto_bench.json", "auto/found_images.json", "auto/image_boxes.json", "auto/auto_reviews.json"]
+FILES += ["auto/new_devices.json", "auto/auto_bench.json", "auto/found_images.json", "auto/image_boxes.json", "auto/auto_reviews.json",
+          "auto/auto_labs.json"]  # Version 33: Tom's Guide and Engadget
 # Version 21: the AI check of headlines and where the backfill of older headlines has got to
 FILES += ["auto/news_ai.json", "auto/backfill_state.json"]
+FILES += ["auto/feeds_down.json"]  # Version 33: since when a news or video source has been unreachable
 UA = "Mozilla/5.0 (compatible; TechComparisonHub/1.0)"  # Version 25: no author name or address in requests (user)
 
 

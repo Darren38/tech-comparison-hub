@@ -237,10 +237,14 @@ def check_fresh(data: dict) -> None:
     if isinstance(heads, dict):
         feeds = heads.get("feeds") or []
         down = [f.get("source") for f in feeds if not f.get("ok")]
+        # Version 33: a publisher's own short outage is normal; only a source that stays down for a day needs a look
+        lasting = [f.get("source") for f in feeds if not f.get("ok") and (age_hours(f.get("downSince")) or 0) >= 24]
         if feeds and len(down) > len(feeds) / 2:
             fail(f"{len(down)} of {len(feeds)} news and video sources couldn't be read")
+        elif lasting:
+            warn(f"{len(lasting)} of {len(feeds)} news and video sources have been unreachable for a day or more: {', '.join(map(str, lasting[:8]))}")
         elif down:
-            warn(f"{len(down)} of {len(feeds)} news and video sources couldn't be read this run: {', '.join(map(str, down[:8]))}")
+            ok(f"{len(feeds) - len(down)} of {len(feeds)} news and video sources were read; briefly unreachable (tried again next run): {', '.join(map(str, down[:8]))}")
         else:
             ok(f"all {len(feeds)} news and video sources were read")
     dev = data.get("live/auto/new_devices.json", (None, None))[1]

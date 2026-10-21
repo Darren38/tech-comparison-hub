@@ -36,11 +36,16 @@ const YEARS = ['2023', '2024', '2025', '2026'];
 // phones not matched by hand; NanoReview's Geekbench averages weekly). Other tests are reviewers' own, added by hand.
 const AUTO_TESTS = {
   // Version 27: the third item names the automatic job(s) whose last run is shown as "updated …" (generated/core.json)
-  gb6_multi: ['daily', 'Geekbench 6 averages from NanoReview weekly; Trusted Reviews results from new reviews daily', ['nanoreview', 'trustedreviews']],
-  gb6_single: ['daily', 'Geekbench 6 averages from NanoReview weekly; Trusted Reviews results from new reviews daily', ['nanoreview', 'trustedreviews']],
+  // Version 33: Tom's Guide's results tables and Engadget's video rundown are read automatically from new reviews too
+  gb6_multi: ['daily', 'Geekbench 6 averages from NanoReview weekly; Trusted Reviews and Tom’s Guide results from new reviews daily', ['nanoreview', 'trustedreviews', 'labs']],
+  gb6_single: ['daily', 'Geekbench 6 averages from NanoReview weekly; Trusted Reviews and Tom’s Guide results from new reviews daily', ['nanoreview', 'trustedreviews', 'labs']],
   // Version 20: Trusted Reviews' Test Data table is read automatically from new reviews
   tr_video_drain: ['daily', 'from new Trusted Reviews reviews', 'trustedreviews'], charge_full: ['daily', 'Trusted Reviews results from new reviews; other reviewers by hand', 'trustedreviews'],
-  charge_30: ['daily', 'Trusted Reviews results from new reviews; other reviewers by hand', 'trustedreviews'], charge_15: ['daily', 'Trusted Reviews results from new reviews; other reviewers by hand', 'trustedreviews'],
+  charge_30: ['daily', 'Trusted Reviews and Tom’s Guide results from new reviews; other reviewers by hand', ['trustedreviews', 'labs']],
+  charge_15: ['daily', 'Trusted Reviews and Tom’s Guide results from new reviews; other reviewers by hand', ['trustedreviews', 'labs']],
+  tg_web: ['daily', 'from new Tom’s Guide reviews', 'labs'], engadget_video: ['daily', 'from new Engadget reviews', 'labs'],
+  nits_peak: ['daily', 'Tom’s Guide results from new reviews; other reviewers by hand', 'labs'],
+  wle_stability: ['daily', 'Tom’s Guide results from new reviews; other reviewers by hand', 'labs'],
   wle: ['daily', 'from UL’s 3DMark database', 'ul'], steel_nomad_light: ['daily', 'from UL’s 3DMark database', 'ul'], solar_bay: ['daily', 'from UL’s 3DMark database', 'ul'],
   antutu_v11: ['daily', 'from AnTuTu’s ranking', 'antutu'],
   dxomark_camera: ['daily', 'from DXOMARK’s public list', 'dxomark'], dxomark_camera_v5: ['daily', 'from DXOMARK’s public list', 'dxomark'],
@@ -268,7 +273,7 @@ export default async function render({ query }) {
         <div class="eyebrow">Measured results, with maker claims kept apart</div>
         <h1>Charts</h1>
         <p class="muted" style="margin-top:8px;max-width:78ch">Every bar is a test result for that phone, named with the labs or publications that measured it. Standard benchmarks (Geekbench, 3DMark, AnTuTu) are the same test wherever they are run, so their results share a chart; tests with a lab's own method (battery life, charging, brightness, DXOMARK scores) each get their own chart and are never put on one scale. Manufacturer claims never share a chart with measurements: they have their own <em>Maker claims</em> tab (tablets, watches, bands and earbuds, which few labs test yet), labelled as claims. A Galaxy tested in its Snapdragon version is shown as its own striped bar, separate from the Exynos model sold in Malaysia.</p>
-        ${store.core.build?.auto?.benchmarks ? html`<p class="small muted" style="margin-top:6px;max-width:78ch">${t('Results from UL 3DMark, DXOMARK and AnTuTu are re-checked automatically every morning (last check {when}), Geekbench averages from NanoReview every week, and Trusted Reviews’ test results (Geekbench, video battery drain, charging times) are read from each new review. A new phone joins these charts by itself once its exact name and chip match a listing. Other reviewers’ own tests (battery life, brightness) are added by hand.', { when: fmtDateTime(store.core.build.auto.benchmarks.at) })}</p>` : ''}
+        ${store.core.build?.auto?.benchmarks ? html`<p class="small muted" style="margin-top:6px;max-width:78ch">${t('Results from UL 3DMark, DXOMARK and AnTuTu are re-checked automatically every morning (last check {when}), Geekbench averages from NanoReview every week, and test results are read from each new review at Trusted Reviews (Geekbench, video battery drain, charging times), Tom’s Guide (Geekbench, battery life, peak brightness, charging, stress-test stability) and Engadget (video rundown). A new phone joins these charts by itself once its exact name and chip match a listing. Other reviewers’ own tests are added by hand.', { when: fmtDateTime(store.core.build.auto.benchmarks.at) })}</p>` : ''}
       </header>
       <nav class="tabs" aria-label="Chart">${TABS.map((t) => html`<a href="${href('/charts', { tab: t.id })}" aria-current="${t.id === state.tab ? 'true' : 'false'}">${t.label}</a>`)}</nav>
       <div data-chart>${panel(state)}</div>

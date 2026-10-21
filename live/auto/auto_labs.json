@@ -1,0 +1,954 @@
+{
+ "runs": {
+  "all": "2026-10-21T16:12:29+00:00",
+  "recent": "2026-10-21T16:12:29+00:00"
+ },
+ "results": {
+  "tomsguide": {
+   "samsung-galaxy-s25-ultra": {
+    "values": {
+     "tg_web": 17.233
+    },
+    "from": {
+     "tg_web": {
+      "url": "https://www.tomsguide.com/phones/samsung-phones/samsung-galaxy-s25-ultra-review",
+      "published": "2025-01-31"
+     }
+    },
+    "url": "https://www.tomsguide.com/phones/samsung-phones/samsung-galaxy-s25-ultra-review",
+    "title": "Samsung Galaxy S25 Ultra review: My pros and cons",
+    "published": "2025-01-31",
+    "checked": "2026-10-22"
+   },
+   "samsung-galaxy-s25": {
+    "values": {
+     "tg_web": 15.717,
+     "gb6_single": 2916,
+     "gb6_multi": 9886
+    },
+    "from": {
+     "tg_web": {
+      "url": "https://www.tomsguide.com/phones/samsung-phones/galaxy-s25-review",
+      "published": "2025-01-22"
+     },
+     "gb6_single": {
+      "url": "https://www.tomsguide.com/phones/samsung-phones/galaxy-s25-review",
+      "published": "2025-01-22"
+     },
+     "gb6_multi": {
+      "url": "https://www.tomsguide.com/phones/samsung-phones/galaxy-s25-review",
+      "published": "2025-01-22"
+     }
+    },
+    "url": "https://www.tomsguide.com/phones/samsung-phones/galaxy-s25-review",
+    "title": "Samsung Galaxy S25 review: This all-in AI bet pays off",
+    "published": "2025-01-22",
+    "checked": "2026-10-22"
+   },
+   "honor-magic7-pro": {
+    "values": {
+     "gb6_single": 3038,
+     "gb6_multi": 8880
+    },
+    "from": {
+     "gb6_single": {
+      "url": "https://www.tomsguide.com/phones/android-phones/honor-magic7-pro-review-on-the-edge-of-excellence",
+      "published": "2025-01-17"
+     },
+     "gb6_multi": {
+      "url": "https://www.tomsguide.com/phones/android-phones/honor-magic7-pro-review-on-the-edge-of-excellence",
+      "published": "2025-01-17"
+     }
+    },
+    "url": "https://www.tomsguide.com/phones/android-phones/honor-magic7-pro-review-on-the-edge-of-excellence",
+    "title": "Honor Magic7 Pro review: On the edge of excellence",
+    "published": "2025-01-17",
+    "checked": "2026-10-22"
+   },
+   "oneplus-13": {
+    "values": {
+     "nits_peak": 1104,
+     "gb6_single": 2893,
+     "gb6_multi": 9058
+    },
+    "from": {
+     "nits_peak": {
+      "url": "https://www.tomsguide.com/phones/oneplus-phones/oneplus-13-review",
+      "published": "2025-01-07"
+     },
+     "gb6_single": {
+      "url": "https://www.tomsguide.com/phones/oneplus-phones/oneplus-13-review",
+      "published": "2025-01-07"
+     },
+     "gb6_multi": {
+      "url": "https://www.tomsguide.com/phones/oneplus-phones/oneplus-13-review",
+      "published": "2025-01-07"
+     }
+    },
+    "url": "https://www.tomsguide.com/phones/oneplus-phones/oneplus-13-review",
+    "title": "OnePlus 13 review: The best Android flagship for the money",
+    "published": "2025-01-07",
+    "checked": "2026-10-22"
+   },
+   "apple-iphone-16e": {
+    "values": {
+     "nits_peak": 1028,
+     "gb6_single": 3328,
+     "gb6_multi": 8132,
+     "tg_web": 12.683,
+     "charge_15": 32,
+     "charge_30": 57
+    },
+    "from": {
+     "nits_peak": {
+      "url": "https://www.tomsguide.com/phones/iphones/apple-iphone-16e-review",
+      "published": "2025-02-27"
+     },
+     "gb6_single": {
+      "url": "https://www.tomsguide.com/phones/live/pixel-9a-review-live-blog-performance-cameras-battery-price",
+      "published": "2025-04-10"
+     },
+     "gb6_multi": {
+      "url": "https://www.tomsguide.com/phones/live/pixel-9a-review-live-blog-performance-cameras-battery-price",
+      "published": "2025-04-10"
+     },
+     "tg_web": {
+      "url": "https://www.tomsguide.com/phones/live/pixel-9a-review-live-blog-performance-cameras-battery-price",
+      "published": "2025-04-10"
+     },
+     "charge_15": {
+      "url": "https://www.tomsguide.com/phones/live/pixel-9a-review-live-blog-performance-cameras-battery-price",
+      "published": "2025-04-10"
+     },
+     "charge_30": {
+      "url": "https://www.tomsguide.com/phones/live/pixel-9a-review-live-blog-performance-cameras-battery-price",
+      "published": "2025-04-10"
+     }
+    },
+    "url": "https://www.tomsguide.com/phones/live/pixel-9a-review-live-blog-performance-cameras-battery-price",
+    "title": "Google Pixel 9a review live — test results, camera samples and iPhone 16e comparisons",
+    "published": "2025-04-10",
+    "checked": "2026-10-22"
+   },
+   "oppo-find-n5": {
+    "values": {
+     "gb6_single": 2985,
+     "gb6_multi": 8528
+    },
+    "from": {
+     "gb6_single": {
+      "url": "https://www.tomsguide.com/phones/android-phones/oppo-find-n5-review-simply-superior",
+      "published": "2025-02-22"
+     },
+     "gb6_multi": {
+      "url": "https://www.tomsguide.com/phones/android-phones/oppo-find-n5-review-simply-superior",
+      "published": "2025-02-22"
+     }
+    },
+    "url": "https://www.tomsguide.com/phones/android-phones/oppo-find-n5-review-simply-superior",
+    "title": "Oppo Find N5 review: A simply superior foldable",
+    "published": "2025-02-22",
+    "checked": "2026-10-22"
+   },
+   "samsung-galaxy-s25-plus": {
+    "values": {
+     "tg_web": 17.233,
+     "gb6_single": 3141,
+     "gb6_multi": 10153
+    },
+    "from": {
+     "tg_web": {
+      "url": "https://www.tomsguide.com/phones/samsung-phones/samsung-galaxy-s25-plus-review-no-mans-land",
+      "published": "2025-02-12"
+     },
+     "gb6_single": {
+      "url": "https://www.tomsguide.com/phones/samsung-phones/samsung-galaxy-s25-plus-review-no-mans-land",
+      "published": "2025-02-12"
+     },
+     "gb6_multi": {
+      "url": "https://www.tomsguide.com/phones/samsung-phones/samsung-galaxy-s25-plus-review-no-mans-land",
+      "published": "2025-02-12"
+     }
+    },
+    "url": "https://www.tomsguide.com/phones/samsung-phones/samsung-galaxy-s25-plus-review-no-mans-land",
+    "title": "Samsung Galaxy S25 Plus review",
+    "published": "2025-02-12",
+    "checked": "2026-10-22"
+   },
+   "xiaomi-15": {
+    "values": {
+     "gb6_single": 2972,
+     "gb6_multi": 9330
+    },
+    "from": {
+     "gb6_single": {
+      "url": "https://www.tomsguide.com/phones/android-phones/xiaomi-15-review",
+      "published": "2025-03-27"
+     },
+     "gb6_multi": {
+      "url": "https://www.tomsguide.com/phones/android-phones/xiaomi-15-review",
+      "published": "2025-03-27"
+     }
+    },
+    "url": "https://www.tomsguide.com/phones/android-phones/xiaomi-15-review",
+    "title": "Xiaomi 15 review: A solid Android phone that struggles to stand out",
+    "published": "2025-03-27",
+    "checked": "2026-10-22"
+   },
+   "nothing-phone-3a-pro": {
+    "values": {
+     "nits_peak": 1259,
+     "gb6_single": 1166,
+     "gb6_multi": 3275,
+     "tg_web": 14.55,
+     "charge_15": 39,
+     "charge_30": 70
+    },
+    "from": {
+     "nits_peak": {
+      "url": "https://www.tomsguide.com/phones/nothing-phone-3a-pro-review",
+      "published": "2025-03-04"
+     },
+     "gb6_single": {
+      "url": "https://www.tomsguide.com/phones/nothing-phone-3a-pro-review",
+      "published": "2025-03-04"
+     },
+     "gb6_multi": {
+      "url": "https://www.tomsguide.com/phones/nothing-phone-3a-pro-review",
+      "published": "2025-03-04"
+     },
+     "tg_web": {
+      "url": "https://www.tomsguide.com/phones/nothing-phone-3a-pro-review",
+      "published": "2025-03-04"
+     },
+     "charge_15": {
+      "url": "https://www.tomsguide.com/phones/nothing-phone-3a-pro-review",
+      "published": "2025-03-04"
+     },
+     "charge_30": {
+      "url": "https://www.tomsguide.com/phones/nothing-phone-3a-pro-review",
+      "published": "2025-03-04"
+     }
+    },
+    "url": "https://www.tomsguide.com/phones/nothing-phone-3a-pro-review",
+    "title": "Nothing Phone 3a Pro review: Apple and Google should be worried",
+    "published": "2025-03-04",
+    "checked": "2026-10-22"
+   },
+   "xiaomi-15-ultra": {
+    "values": {
+     "gb6_single": 2986,
+     "gb6_multi": 9064
+    },
+    "from": {
+     "gb6_single": {
+      "url": "https://www.tomsguide.com/phones/android-phones/xiaomi-15-ultra-review-an-excellent-phone-you-probably-cant-buy",
+      "published": "2025-03-02"
+     },
+     "gb6_multi": {
+      "url": "https://www.tomsguide.com/phones/android-phones/xiaomi-15-ultra-review-an-excellent-phone-you-probably-cant-buy",
+      "published": "2025-03-02"
+     }
+    },
+    "url": "https://www.tomsguide.com/phones/android-phones/xiaomi-15-ultra-review-an-excellent-phone-you-probably-cant-buy",
+    "title": "Xiaomi 15 Ultra review: One of the best designed phones I’ve ever seen",
+    "published": "2025-03-02",
+    "checked": "2026-10-22"
+   },
+   "asus-zenfone-12-ultra": {
+    "values": {
+     "gb6_single": 2865,
+     "gb6_multi": 9052
+    },
+    "from": {
+     "gb6_single": {
+      "url": "https://www.tomsguide.com/phones/android-phones/asus-zenfone-12-ultra-review-good-but-definitely-not-ultra",
+      "published": "2025-03-02"
+     },
+     "gb6_multi": {
+      "url": "https://www.tomsguide.com/phones/android-phones/asus-zenfone-12-ultra-review-good-but-definitely-not-ultra",
+      "published": "2025-03-02"
+     }
+    },
+    "url": "https://www.tomsguide.com/phones/android-phones/asus-zenfone-12-ultra-review-good-but-definitely-not-ultra",
+    "title": "Asus Zenfone 12 Ultra review: Good, but definitely not Ultra",
+    "published": "2025-03-02",
+    "checked": "2026-10-22"
+   },
+   "samsung-galaxy-a56": {
+    "values": {
+     "gb6_single": 1358,
+     "gb6_multi": 3867
+    },
+    "from": {
+     "gb6_single": {
+      "url": "https://www.tomsguide.com/phones/samsung-phones/samsung-galaxy-a56-review",
+      "published": "2025-03-01"
+     },
+     "gb6_multi": {
+      "url": "https://www.tomsguide.com/phones/samsung-phones/samsung-galaxy-a56-review",
+      "published": "2025-03-01"
+     }
+    },
+    "url": "https://www.tomsguide.com/phones/samsung-phones/samsung-galaxy-a56-review",
+    "title": "Samsung Galaxy A56 review: Great value but low-powered",
+    "published": "2025-03-01",
+    "checked": "2026-10-22"
+   },
+   "google-pixel-9a": {
+    "values": {
+     "gb6_single": 1707,
+     "gb6_multi": 4512,
+     "tg_web": 13.133,
+     "charge_15": 25,
+     "charge_30": 47,
+     "nits_peak": 2076
+    },
+    "from": {
+     "gb6_single": {
+      "url": "https://www.tomsguide.com/phones/google-pixel-phones/google-pixel-9a-review",
+      "published": "2025-04-10"
+     },
+     "gb6_multi": {
+      "url": "https://www.tomsguide.com/phones/google-pixel-phones/google-pixel-9a-review",
+      "published": "2025-04-10"
+     },
+     "tg_web": {
+      "url": "https://www.tomsguide.com/phones/live/pixel-9a-review-live-blog-performance-cameras-battery-price",
+      "published": "2025-04-10"
+     },
+     "charge_15": {
+      "url": "https://www.tomsguide.com/phones/google-pixel-phones/google-pixel-9a-review",
+      "published": "2025-04-10"
+     },
+     "charge_30": {
+      "url": "https://www.tomsguide.com/phones/google-pixel-phones/google-pixel-9a-review",
+      "published": "2025-04-10"
+     },
+     "nits_peak": {
+      "url": "https://www.tomsguide.com/phones/google-pixel-phones/google-pixel-9a-review",
+      "published": "2025-04-10"
+     }
+    },
+    "url": "https://www.tomsguide.com/phones/google-pixel-phones/google-pixel-9a-review",
+    "title": "Google Pixel 9a review: The phone to beat under $500",
+    "published": "2025-04-10",
+    "checked": "2026-10-22"
+   },
+   "samsung-galaxy-tab-s10-fe-plus": {
+    "values": {
+     "gb6_single": 1362,
+     "gb6_multi": 3923
+    },
+    "from": {
+     "gb6_single": {
+      "url": "https://www.tomsguide.com/computing/android-tablets/samsung-galaxy-tab-s10-fe-plus-review",
+      "published": "2025-05-27"
+     },
+     "gb6_multi": {
+      "url": "https://www.tomsguide.com/computing/android-tablets/samsung-galaxy-tab-s10-fe-plus-review",
+      "published": "2025-05-27"
+     }
+    },
+    "url": "https://www.tomsguide.com/computing/android-tablets/samsung-galaxy-tab-s10-fe-plus-review",
+    "title": "I tested the Galaxy Tab S10 FE Plus — great value, premium feel",
+    "published": "2025-05-27",
+    "checked": "2026-10-22"
+   },
+   "cmf-phone-2-pro": {
+    "values": {
+     "nits_peak": 1179,
+     "tg_web": 15.4,
+     "charge_15": 28,
+     "charge_30": 55
+    },
+    "from": {
+     "nits_peak": {
+      "url": "https://www.tomsguide.com/phones/cmf-phone-2-pro-review",
+      "published": "2025-06-14"
+     },
+     "tg_web": {
+      "url": "https://www.tomsguide.com/phones/cmf-phone-2-pro-review",
+      "published": "2025-06-14"
+     },
+     "charge_15": {
+      "url": "https://www.tomsguide.com/phones/cmf-phone-2-pro-review",
+      "published": "2025-06-14"
+     },
+     "charge_30": {
+      "url": "https://www.tomsguide.com/phones/cmf-phone-2-pro-review",
+      "published": "2025-06-14"
+     }
+    },
+    "url": "https://www.tomsguide.com/phones/cmf-phone-2-pro-review",
+    "title": "CMF Phone 2 Pro Review: The bar for cheap phones just got higher",
+    "published": "2025-06-14",
+    "checked": "2026-10-22"
+   },
+   "samsung-galaxy-z-fold7": {
+    "values": {
+     "tg_web": 10.917
+    },
+    "from": {
+     "tg_web": {
+      "url": "https://www.tomsguide.com/phones/samsung-galaxy-z-fold-7-review",
+      "published": "2025-07-18"
+     }
+    },
+    "url": "https://www.tomsguide.com/phones/samsung-galaxy-z-fold-7-review",
+    "title": "Samsung Galaxy Z Fold 7 Review: The First Foldable I'd Buy",
+    "published": "2025-07-18",
+    "checked": "2026-10-22"
+   },
+   "samsung-galaxy-z-flip7": {
+    "values": {
+     "gb6_single": 2286,
+     "gb6_multi": 8079,
+     "tg_web": 12.4,
+     "charge_15": 29,
+     "charge_30": 55
+    },
+    "from": {
+     "gb6_single": {
+      "url": "https://www.tomsguide.com/phones/samsung-phones/samsung-galaxy-z-flip-7-hands-on-review-feels-like-flip-phone-perfection",
+      "published": "2025-07-09"
+     },
+     "gb6_multi": {
+      "url": "https://www.tomsguide.com/phones/samsung-phones/samsung-galaxy-z-flip-7-hands-on-review-feels-like-flip-phone-perfection",
+      "published": "2025-07-09"
+     },
+     "tg_web": {
+      "url": "https://www.tomsguide.com/phones/samsung-phones/samsung-galaxy-z-flip-7-hands-on-review-feels-like-flip-phone-perfection",
+      "published": "2025-07-09"
+     },
+     "charge_15": {
+      "url": "https://www.tomsguide.com/phones/samsung-phones/samsung-galaxy-z-flip-7-hands-on-review-feels-like-flip-phone-perfection",
+      "published": "2025-07-09"
+     },
+     "charge_30": {
+      "url": "https://www.tomsguide.com/phones/samsung-phones/samsung-galaxy-z-flip-7-hands-on-review-feels-like-flip-phone-perfection",
+      "published": "2025-07-09"
+     }
+    },
+    "url": "https://www.tomsguide.com/phones/samsung-phones/samsung-galaxy-z-flip-7-hands-on-review-feels-like-flip-phone-perfection",
+    "title": "Samsung Galaxy Z Flip 7 Review: The new king of flip foldables",
+    "published": "2025-07-09",
+    "checked": "2026-10-22"
+   },
+   "nothing-phone-3": {
+    "values": {
+     "gb6_single": 2159,
+     "gb6_multi": 6800
+    },
+    "from": {
+     "gb6_single": {
+      "url": "https://www.tomsguide.com/phones/android-phones/nothing-phone-3-review",
+      "published": "2025-07-08"
+     },
+     "gb6_multi": {
+      "url": "https://www.tomsguide.com/phones/android-phones/nothing-phone-3-review",
+      "published": "2025-07-08"
+     }
+    },
+    "url": "https://www.tomsguide.com/phones/android-phones/nothing-phone-3-review",
+    "title": "Nothing Phone 3 Review: A first flagship that mostly sticks the landing",
+    "published": "2025-07-08",
+    "checked": "2026-10-22"
+   },
+   "google-pixel-10-pro-xl": {
+    "values": {
+     "gb6_single": 2322,
+     "gb6_multi": 6286
+    },
+    "from": {
+     "gb6_single": {
+      "url": "https://www.tomsguide.com/phones/google-pixel-phones/google-pixel-10-pro-xl-review",
+      "published": "2025-08-27"
+     },
+     "gb6_multi": {
+      "url": "https://www.tomsguide.com/phones/google-pixel-phones/google-pixel-10-pro-xl-review",
+      "published": "2025-08-27"
+     }
+    },
+    "url": "https://www.tomsguide.com/phones/google-pixel-phones/google-pixel-10-pro-xl-review",
+    "title": "Google Pixel 10 Pro XL Review: Minimal Upgrades, Maximum Impact",
+    "published": "2025-08-27",
+    "checked": "2026-10-22"
+   },
+   "google-pixel-10-pro": {
+    "values": {
+     "tg_web": 13.717,
+     "charge_30": 55
+    },
+    "from": {
+     "tg_web": {
+      "url": "https://www.tomsguide.com/phones/google-pixel-phones/google-pixel-10-pro-review-a-great-phone-but-it-doesnt-feel-like-much-of-an-upgrade",
+      "published": "2025-08-27"
+     },
+     "charge_30": {
+      "url": "https://www.tomsguide.com/phones/google-pixel-phones/google-pixel-10-pro-review-a-great-phone-but-it-doesnt-feel-like-much-of-an-upgrade",
+      "published": "2025-08-27"
+     }
+    },
+    "url": "https://www.tomsguide.com/phones/google-pixel-phones/google-pixel-10-pro-review-a-great-phone-but-it-doesnt-feel-like-much-of-an-upgrade",
+    "title": "Google Pixel 10 Pro Review — A Great Phone, But it Doesn't Feel Like Much of an Upgrade",
+    "published": "2025-08-27",
+    "checked": "2026-10-22"
+   },
+   "google-pixel-10": {
+    "values": {
+     "tg_web": 13.217,
+     "charge_30": 52
+    },
+    "from": {
+     "tg_web": {
+      "url": "https://www.tomsguide.com/phones/google-pixel-phones/google-pixel-10-review",
+      "published": "2025-08-20"
+     },
+     "charge_30": {
+      "url": "https://www.tomsguide.com/phones/google-pixel-phones/google-pixel-10-review",
+      "published": "2025-08-20"
+     }
+    },
+    "url": "https://www.tomsguide.com/phones/google-pixel-phones/google-pixel-10-review",
+    "title": "Google Pixel 10 Review: The Biggest Upgrade In Years",
+    "published": "2025-08-20",
+    "checked": "2026-10-22"
+   },
+   "samsung-galaxy-z-flip7-fe": {
+    "values": {
+     "gb6_single": 2044,
+     "gb6_multi": 6761,
+     "nits_peak": 2105
+    },
+    "from": {
+     "gb6_single": {
+      "url": "https://www.tomsguide.com/phones/samsung-phones/samsung-galaxy-z-flip-7-fe-review",
+      "published": "2025-08-12"
+     },
+     "gb6_multi": {
+      "url": "https://www.tomsguide.com/phones/samsung-phones/samsung-galaxy-z-flip-7-fe-review",
+      "published": "2025-08-12"
+     },
+     "nits_peak": {
+      "url": "https://www.tomsguide.com/phones/samsung-phones/samsung-galaxy-z-flip-7-fe-review",
+      "published": "2025-08-12"
+     }
+    },
+    "url": "https://www.tomsguide.com/phones/samsung-phones/samsung-galaxy-z-flip-7-fe-review",
+    "title": "Samsung Galaxy Z Flip 7 FE review: Not like this",
+    "published": "2025-08-12",
+    "checked": "2026-10-22"
+   },
+   "apple-iphone-17-pro": {
+    "values": {
+     "tg_web": 15.533,
+     "charge_15": 40,
+     "charge_30": 72
+    },
+    "from": {
+     "tg_web": {
+      "url": "https://www.tomsguide.com/phones/iphones/apple-iphone-17-pro-review",
+      "published": "2025-09-17"
+     },
+     "charge_15": {
+      "url": "https://www.tomsguide.com/phones/iphones/apple-iphone-17-pro-review",
+      "published": "2025-09-17"
+     },
+     "charge_30": {
+      "url": "https://www.tomsguide.com/phones/iphones/apple-iphone-17-pro-review",
+      "published": "2025-09-17"
+     }
+    },
+    "url": "https://www.tomsguide.com/phones/iphones/apple-iphone-17-pro-review",
+    "title": "Apple iPhone 17 Pro review: Biggest upgrades in years",
+    "published": "2025-09-17",
+    "checked": "2026-10-22"
+   },
+   "apple-iphone-17": {
+    "values": {
+     "nits_peak": 1505,
+     "tg_web": 12.783,
+     "charge_15": 39,
+     "charge_30": 71
+    },
+    "from": {
+     "nits_peak": {
+      "url": "https://www.tomsguide.com/phones/iphones/apple-iphone-17-review",
+      "published": "2025-09-10"
+     },
+     "tg_web": {
+      "url": "https://www.tomsguide.com/phones/iphones/apple-iphone-17-review",
+      "published": "2025-09-10"
+     },
+     "charge_15": {
+      "url": "https://www.tomsguide.com/phones/iphones/apple-iphone-17-review",
+      "published": "2025-09-10"
+     },
+     "charge_30": {
+      "url": "https://www.tomsguide.com/phones/iphones/apple-iphone-17-review",
+      "published": "2025-09-10"
+     }
+    },
+    "url": "https://www.tomsguide.com/phones/iphones/apple-iphone-17-review",
+    "title": "Apple iPhone 17 review: Better upgrades than the Pros",
+    "published": "2025-09-10",
+    "checked": "2026-10-22"
+   },
+   "oppo-find-x9-pro": {
+    "values": {
+     "gb6_single": 3143,
+     "gb6_multi": 9166
+    },
+    "from": {
+     "gb6_single": {
+      "url": "https://www.tomsguide.com/phones/android-phones/ive-tested-the-oppo-find-x9-pro-review-and-its-proof-that-samsung-and-google-are-slacking",
+      "published": "2025-10-29"
+     },
+     "gb6_multi": {
+      "url": "https://www.tomsguide.com/phones/android-phones/ive-tested-the-oppo-find-x9-pro-review-and-its-proof-that-samsung-and-google-are-slacking",
+      "published": "2025-10-29"
+     }
+    },
+    "url": "https://www.tomsguide.com/phones/android-phones/ive-tested-the-oppo-find-x9-pro-review-and-its-proof-that-samsung-and-google-are-slacking",
+    "title": "Oppo Find X9 Pro review",
+    "published": "2025-10-29",
+    "checked": "2026-10-22"
+   },
+   "samsung-galaxy-s25-fe": {
+    "values": {
+     "nits_peak": 1133,
+     "tg_web": 9.767,
+     "charge_15": 40,
+     "charge_30": 71
+    },
+    "from": {
+     "nits_peak": {
+      "url": "https://www.tomsguide.com/phones/samsung-phones/samsung-galaxy-s25-fe-review",
+      "published": "2025-10-16"
+     },
+     "tg_web": {
+      "url": "https://www.tomsguide.com/phones/samsung-phones/samsung-galaxy-s25-fe-review",
+      "published": "2025-10-16"
+     },
+     "charge_15": {
+      "url": "https://www.tomsguide.com/phones/samsung-phones/samsung-galaxy-s25-fe-review",
+      "published": "2025-10-16"
+     },
+     "charge_30": {
+      "url": "https://www.tomsguide.com/phones/samsung-phones/samsung-galaxy-s25-fe-review",
+      "published": "2025-10-16"
+     }
+    },
+    "url": "https://www.tomsguide.com/phones/samsung-phones/samsung-galaxy-s25-fe-review",
+    "title": "Samsung Galaxy S25 FE review: A mid-range phone that falls flat",
+    "published": "2025-10-16",
+    "checked": "2026-10-22"
+   },
+   "google-pixel-10-pro-fold": {
+    "values": {
+     "tg_web": 12.267,
+     "charge_30": 58
+    },
+    "from": {
+     "tg_web": {
+      "url": "https://www.tomsguide.com/phones/google-pixel-phones/pixel-10-pro-fold-review",
+      "published": "2025-10-08"
+     },
+     "charge_30": {
+      "url": "https://www.tomsguide.com/phones/google-pixel-phones/pixel-10-pro-fold-review",
+      "published": "2025-10-08"
+     }
+    },
+    "url": "https://www.tomsguide.com/phones/google-pixel-phones/pixel-10-pro-fold-review",
+    "title": "Google Pixel 10 Pro Fold review: Buy or skip?",
+    "published": "2025-10-08",
+    "checked": "2026-10-22"
+   },
+   "oneplus-15": {
+    "values": {
+     "nits_peak": 1222,
+     "tg_web": 25.217,
+     "charge_15": 45,
+     "charge_30": 81
+    },
+    "from": {
+     "nits_peak": {
+      "url": "https://www.tomsguide.com/phones/oneplus-phones/oneplus-15-review",
+      "published": "2025-11-13"
+     },
+     "tg_web": {
+      "url": "https://www.tomsguide.com/phones/oneplus-phones/oneplus-15-review",
+      "published": "2025-11-13"
+     },
+     "charge_15": {
+      "url": "https://www.tomsguide.com/phones/oneplus-phones/oneplus-15-review",
+      "published": "2025-11-13"
+     },
+     "charge_30": {
+      "url": "https://www.tomsguide.com/phones/oneplus-phones/oneplus-15-review",
+      "published": "2025-11-13"
+     }
+    },
+    "url": "https://www.tomsguide.com/phones/oneplus-phones/oneplus-15-review",
+    "title": "OnePlus 15 review: The flagship with 2-day battery life changes everything",
+    "published": "2025-11-13",
+    "checked": "2026-10-22"
+   },
+   "samsung-galaxy-tab-s11-ultra": {
+    "values": {
+     "gb6_single": 2811,
+     "gb6_multi": 9126
+    },
+    "from": {
+     "gb6_single": {
+      "url": "https://www.tomsguide.com/computing/android-tablets/samsung-galaxy-tab-s11-ultra-review",
+      "published": "2025-11-01"
+     },
+     "gb6_multi": {
+      "url": "https://www.tomsguide.com/computing/android-tablets/samsung-galaxy-tab-s11-ultra-review",
+      "published": "2025-11-01"
+     }
+    },
+    "url": "https://www.tomsguide.com/computing/android-tablets/samsung-galaxy-tab-s11-ultra-review",
+    "title": "I tested the Samsung Galaxy Tab S11 Ultra for a week — here’s what I like and what I don’t",
+    "published": "2025-11-01",
+    "checked": "2026-10-22"
+   }
+  },
+  "engadget": {
+   "samsung-galaxy-s26-fe": {
+    "values": {
+     "engadget_video": 21.0
+    },
+    "from": {
+     "engadget_video": {
+      "url": "https://www.engadget.com/2260026/samsung-galaxy-s26-fe-review/",
+      "published": "2026-09-18"
+     }
+    },
+    "url": "https://www.engadget.com/2260026/samsung-galaxy-s26-fe-review/",
+    "title": "Samsung Galaxy S26 FE Review: An Incremental Price Hike For Incremental Updates",
+    "published": "2026-09-18",
+    "checked": "2026-10-22",
+    "sentence": "In our video rundown test, we eked out just over 21 hours of playback in day-to-day use."
+   }
+  }
+ },
+ "seen": {
+  "https://www.tomsguide.com/phones/samsung-phones/samsung-galaxy-s25-ultra-review": "2026-10-22",
+  "https://www.tomsguide.com/phones/motorola-phones/moto-g-2025-review": "2026-10-22",
+  "https://www.tomsguide.com/phones/samsung-phones/galaxy-s25-review": "2026-10-22",
+  "https://www.tomsguide.com/phones/android-phones/honor-magic7-pro-review-on-the-edge-of-excellence": "2026-10-22",
+  "https://www.tomsguide.com/phones/oneplus-phones/oneplus-13r-review": "2026-10-22",
+  "https://www.tomsguide.com/phones/oneplus-phones/oneplus-13-review": "2026-10-22",
+  "https://www.tomsguide.com/phones/motorola-phones/i-review-phones-for-a-living-and-this-is-the-budget-phone-i-recommend-to-friends-and-family": "2026-10-22",
+  "https://www.tomsguide.com/phones/iphones/apple-iphone-16e-review": "2026-10-22",
+  "https://www.tomsguide.com/phones/motorola-phones/moto-g-power-2025-review": "2026-10-22",
+  "https://www.tomsguide.com/phones/android-phones/oppo-find-n5-review-simply-superior": "2026-10-22",
+  "https://www.tomsguide.com/phones/samsung-phones/samsung-galaxy-s25-plus-review-no-mans-land": "2026-10-22",
+  "https://www.tomsguide.com/phones/android-phones/xiaomi-15-review": "2026-10-22",
+  "https://www.tomsguide.com/phones/nothing-phone-3a-pro-review": "2026-10-22",
+  "https://www.tomsguide.com/phones/android-phones/nothing-phone-3a-review": "2026-10-22",
+  "https://www.tomsguide.com/phones/android-phones/xiaomi-15-ultra-review-an-excellent-phone-you-probably-cant-buy": "2026-10-22",
+  "https://www.tomsguide.com/phones/android-phones/asus-zenfone-12-ultra-review-good-but-definitely-not-ultra": "2026-10-22",
+  "https://www.tomsguide.com/phones/samsung-phones/samsung-galaxy-a56-review": "2026-10-22",
+  "https://www.tomsguide.com/phones/motorola-phones/motorola-razr-ultra-2025-review": "2026-10-22",
+  "https://www.tomsguide.com/phones/live/pixel-9a-review-live-blog-performance-cameras-battery-price": "2026-10-22",
+  "https://www.tomsguide.com/phones/google-pixel-phones/google-pixel-9a-review": "2026-10-22",
+  "https://www.tomsguide.com/computing/android-tablets/samsung-galaxy-tab-s10-fe-plus-review": "2026-10-22",
+  "https://www.tomsguide.com/phones/samsung-phones/i-review-samsung-phones-for-a-living-and-the-companys-galaxy-lineup-is-starting-to-look-a-little-crowded": "2026-10-22",
+  "https://www.tomsguide.com/phones/samsung-phones/samsung-galaxy-s25-edge-review": "2026-10-22",
+  "https://www.tomsguide.com/phones/samsung-phones/samsung-galaxy-a36-review-this-budget-phone-still-has-room-for-improvement": "2026-10-22",
+  "https://www.tomsguide.com/phones/cmf-phone-2-pro-review": "2026-10-22",
+  "https://www.tomsguide.com/computing/ipads/ipados-26-review": "2026-10-22",
+  "https://www.tomsguide.com/phones/samsung-galaxy-z-fold-7-review": "2026-10-22",
+  "https://www.tomsguide.com/phones/samsung-phones/samsung-galaxy-z-flip-7-hands-on-review-feels-like-flip-phone-perfection": "2026-10-22",
+  "https://www.tomsguide.com/phones/android-phones/nothing-phone-3-review": "2026-10-22",
+  "https://www.tomsguide.com/phones/oneplus-phones/oneplus-nord-5-review": "2026-10-22",
+  "https://www.tomsguide.com/phones/google-pixel-phones/google-pixel-10-pro-xl-review": "2026-10-22",
+  "https://www.tomsguide.com/phones/google-pixel-phones/google-pixel-10-pro-review-a-great-phone-but-it-doesnt-feel-like-much-of-an-upgrade": "2026-10-22",
+  "https://www.tomsguide.com/phones/google-pixel-phones/google-pixel-10-review": "2026-10-22",
+  "https://www.tomsguide.com/computing/ipads/i-review-ipads-for-a-living-heres-15-ipad-shortcuts-i-cant-live-without": "2026-10-22",
+  "https://www.tomsguide.com/phones/samsung-phones/samsung-galaxy-z-flip-7-fe-review": "2026-10-22",
+  "https://www.tomsguide.com/phones/network-carriers/twigby-mobile-review": "2026-10-22",
+  "https://www.tomsguide.com/phones/motorola-phones/motorola-razr-2025-review": "2026-10-22",
+  "https://www.tomsguide.com/phones/motorola-phones/motorola-razr-plus-2025-review": "2026-10-22",
+  "https://www.tomsguide.com/phones/im-a-parent-who-reviews-phones-heres-the-5-phones-i-recommend-for-back-to-school": "2026-10-22",
+  "https://www.tomsguide.com/phones/iphones/apple-iphone-17-pro-review": "2026-10-22",
+  "https://www.tomsguide.com/phones/iphones/iphone-air-review": "2026-10-22",
+  "https://www.tomsguide.com/phones/iphones/iphone-17-pro-max-review": "2026-10-22",
+  "https://www.tomsguide.com/computing/ipads/apple-ipados-26-review": "2026-10-22",
+  "https://www.tomsguide.com/phones/iphones/ios-26-review-new-features-liquid-glass": "2026-10-22",
+  "https://www.tomsguide.com/phones/iphones/apple-iphone-17-review": "2026-10-22",
+  "https://www.tomsguide.com/phones/iphones/i-reviewed-the-iphone-16-5-last-minute-rumored-iphone-17-upgrades-im-excited-for": "2026-10-22",
+  "https://www.tomsguide.com/computing/android-tablets/samsung-galaxy-tab-s11-review": "2026-10-22",
+  "https://www.tomsguide.com/computing/tablets/remarkable-paper-pro-move-review-e-paper-in-your-pocket": "2026-10-22",
+  "https://www.tomsguide.com/phones/android-phones/ive-tested-the-oppo-find-x9-pro-review-and-its-proof-that-samsung-and-google-are-slacking": "2026-10-22",
+  "https://www.tomsguide.com/computing/ipads/ipad-pro-m5-review": "2026-10-22",
+  "https://www.tomsguide.com/phones/samsung-phones/samsung-galaxy-s25-fe-review": "2026-10-22",
+  "https://www.tomsguide.com/computing/ipads/ipad-11-2025-review": "2026-10-22",
+  "https://www.tomsguide.com/phones/google-pixel-phones/pixel-10-pro-fold-review": "2026-10-22",
+  "https://www.tomsguide.com/computing/ipads/i-review-ipads-and-these-are-the-last-minute-prime-day-deals-id-shop-right-now": "2026-10-22",
+  "https://www.tomsguide.com/phones/surecall-fusion2go-xr-review": "2026-10-22",
+  "https://www.tomsguide.com/phones/oneplus-phones/oneplus-15-review": "2026-10-22",
+  "https://www.tomsguide.com/computing/android-tablets/samsung-galaxy-tab-s11-ultra-review": "2026-10-22",
+  "https://www.tomsguide.com/phones/motorola-phones/ive-been-reviewing-phones-for-15-years-and-this-new-model-is-my-absolute-favorite-under-usd200": "2026-10-22",
+  "https://www.tomsguide.com/phones/motorola-phones/moto-g-2026-review-the-best-phone-for-less-than-usd200": "2026-10-22",
+  "https://www.tomsguide.com/phones/travlfi-journeygo-4g-hotspot-review": "2026-10-22",
+  "https://www.engadget.com/2164208/samsung-galaxy-a37-5g-review/": "2026-10-22",
+  "https://www.engadget.com/2228942/samsung-galaxy-z-fold-8-ultra-review/": "2026-10-22",
+  "https://www.engadget.com/2237224/engadget-review-recap-samsung-galaxy-z-fold-8-ultra-dell-xps-13-and-more/": "2026-10-22",
+  "https://www.engadget.com/2240020/google-pixel-11-pro-fold-review-more-but-not-enough/": "2026-10-22",
+  "https://www.engadget.com/2240038/google-pixel-11-pro-review-gemini-ai-camera-samples/": "2026-10-22",
+  "https://www.engadget.com/2241496/google-pixel-watch-5-review/": "2026-10-22",
+  "https://www.engadget.com/2260026/samsung-galaxy-s26-fe-review/": "2026-10-22"
+ },
+ "misses": {
+  "https://www.tomsguide.com/phones/motorola-phones/moto-g-2025-review": {
+   "reason": "no results for the reviewed phone",
+   "at": "2026-10-22"
+  },
+  "https://www.tomsguide.com/phones/oneplus-phones/oneplus-13r-review": {
+   "reason": "no results for the reviewed phone",
+   "at": "2026-10-22"
+  },
+  "https://www.tomsguide.com/phones/motorola-phones/i-review-phones-for-a-living-and-this-is-the-budget-phone-i-recommend-to-friends-and-family": {
+   "reason": "no results for the reviewed phone",
+   "at": "2026-10-22"
+  },
+  "https://www.tomsguide.com/phones/motorola-phones/moto-g-power-2025-review": {
+   "reason": "no results for the reviewed phone",
+   "at": "2026-10-22"
+  },
+  "https://www.tomsguide.com/phones/android-phones/nothing-phone-3a-review": {
+   "reason": "no results for the reviewed phone",
+   "at": "2026-10-22"
+  },
+  "https://www.tomsguide.com/phones/motorola-phones/motorola-razr-ultra-2025-review": {
+   "reason": "no results for the reviewed phone",
+   "at": "2026-10-22"
+  },
+  "https://www.tomsguide.com/phones/samsung-phones/i-review-samsung-phones-for-a-living-and-the-companys-galaxy-lineup-is-starting-to-look-a-little-crowded": {
+   "reason": "no results for the reviewed phone",
+   "at": "2026-10-22"
+  },
+  "https://www.tomsguide.com/phones/samsung-phones/samsung-galaxy-s25-edge-review": {
+   "reason": "no results for the reviewed phone",
+   "at": "2026-10-22"
+  },
+  "https://www.tomsguide.com/phones/samsung-phones/samsung-galaxy-a36-review-this-budget-phone-still-has-room-for-improvement": {
+   "reason": "no results for the reviewed phone",
+   "at": "2026-10-22"
+  },
+  "https://www.tomsguide.com/computing/ipads/ipados-26-review": {
+   "reason": "no results for the reviewed phone",
+   "at": "2026-10-22"
+  },
+  "https://www.tomsguide.com/phones/oneplus-phones/oneplus-nord-5-review": {
+   "reason": "no results for the reviewed phone",
+   "at": "2026-10-22"
+  },
+  "https://www.tomsguide.com/computing/ipads/i-review-ipads-for-a-living-heres-15-ipad-shortcuts-i-cant-live-without": {
+   "reason": "no results for the reviewed phone",
+   "at": "2026-10-22"
+  },
+  "https://www.tomsguide.com/phones/network-carriers/twigby-mobile-review": {
+   "reason": "no results for the reviewed phone",
+   "at": "2026-10-22"
+  },
+  "https://www.tomsguide.com/phones/motorola-phones/motorola-razr-2025-review": {
+   "reason": "no results for the reviewed phone",
+   "at": "2026-10-22"
+  },
+  "https://www.tomsguide.com/phones/motorola-phones/motorola-razr-plus-2025-review": {
+   "reason": "no results for the reviewed phone",
+   "at": "2026-10-22"
+  },
+  "https://www.tomsguide.com/phones/im-a-parent-who-reviews-phones-heres-the-5-phones-i-recommend-for-back-to-school": {
+   "reason": "no results for the reviewed phone",
+   "at": "2026-10-22"
+  },
+  "https://www.tomsguide.com/phones/iphones/iphone-air-review": {
+   "reason": "no results for the reviewed phone",
+   "at": "2026-10-22"
+  },
+  "https://www.tomsguide.com/phones/iphones/iphone-17-pro-max-review": {
+   "reason": "no results for the reviewed phone",
+   "at": "2026-10-22"
+  },
+  "https://www.tomsguide.com/computing/ipads/apple-ipados-26-review": {
+   "reason": "no results for the reviewed phone",
+   "at": "2026-10-22"
+  },
+  "https://www.tomsguide.com/phones/iphones/ios-26-review-new-features-liquid-glass": {
+   "reason": "no results for the reviewed phone",
+   "at": "2026-10-22"
+  },
+  "https://www.tomsguide.com/phones/iphones/i-reviewed-the-iphone-16-5-last-minute-rumored-iphone-17-upgrades-im-excited-for": {
+   "reason": "no results for the reviewed phone",
+   "at": "2026-10-22"
+  },
+  "https://www.tomsguide.com/computing/android-tablets/samsung-galaxy-tab-s11-review": {
+   "reason": "no results for the reviewed phone",
+   "at": "2026-10-22"
+  },
+  "https://www.tomsguide.com/computing/tablets/remarkable-paper-pro-move-review-e-paper-in-your-pocket": {
+   "reason": "no results for the reviewed phone",
+   "at": "2026-10-22"
+  },
+  "https://www.tomsguide.com/computing/ipads/ipad-pro-m5-review": {
+   "reason": "no results for the reviewed phone",
+   "at": "2026-10-22"
+  },
+  "https://www.tomsguide.com/computing/ipads/ipad-11-2025-review": {
+   "reason": "no results for the reviewed phone",
+   "at": "2026-10-22"
+  },
+  "https://www.tomsguide.com/computing/ipads/i-review-ipads-and-these-are-the-last-minute-prime-day-deals-id-shop-right-now": {
+   "reason": "no results for the reviewed phone",
+   "at": "2026-10-22"
+  },
+  "https://www.tomsguide.com/phones/surecall-fusion2go-xr-review": {
+   "reason": "no results for the reviewed phone",
+   "at": "2026-10-22"
+  },
+  "https://www.tomsguide.com/phones/motorola-phones/ive-been-reviewing-phones-for-15-years-and-this-new-model-is-my-absolute-favorite-under-usd200": {
+   "reason": "no results for the reviewed phone",
+   "at": "2026-10-22"
+  },
+  "https://www.tomsguide.com/phones/motorola-phones/moto-g-2026-review-the-best-phone-for-less-than-usd200": {
+   "reason": "no results for the reviewed phone",
+   "at": "2026-10-22"
+  },
+  "https://www.tomsguide.com/phones/travlfi-journeygo-4g-hotspot-review": {
+   "reason": "no results for the reviewed phone",
+   "at": "2026-10-22"
+  },
+  "https://www.engadget.com/2164208/samsung-galaxy-a37-5g-review/": {
+   "reason": "the title names no single phone in the hub",
+   "at": "2026-10-22"
+  },
+  "https://www.engadget.com/2228942/samsung-galaxy-z-fold-8-ultra-review/": {
+   "reason": "no video rundown result in the text",
+   "at": "2026-10-22"
+  },
+  "https://www.engadget.com/2237224/engadget-review-recap-samsung-galaxy-z-fold-8-ultra-dell-xps-13-and-more/": {
+   "reason": "no video rundown result in the text",
+   "at": "2026-10-22"
+  },
+  "https://www.engadget.com/2240020/google-pixel-11-pro-fold-review-more-but-not-enough/": {
+   "reason": "no video rundown result in the text",
+   "at": "2026-10-22"
+  },
+  "https://www.engadget.com/2240038/google-pixel-11-pro-review-gemini-ai-camera-samples/": {
+   "reason": "no video rundown result in the text",
+   "at": "2026-10-22"
+  },
+  "https://www.engadget.com/2241496/google-pixel-watch-5-review/": {
+   "reason": "the title names no single phone in the hub",
+   "at": "2026-10-22"
+  }
+ },
+ "updatedAt": "2026-10-21T16:12:29+00:00"
+}

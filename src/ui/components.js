@@ -663,10 +663,22 @@ export function bindOutline(root, { stickySelector = null } = {}) {
   };
 }
 
+// Version 33: every device (and chip) a document covers gets a link; past six, the rest open with "+N more".
+const CHIP_SHOWN = 6;
+export function subjectChips(ids) {
+  const chips = (ids ?? []).map((id) => {
+    const dev = store.deviceById.get(id);
+    const chip = dev ? null : store.chipsetById.get(id);
+    return dev ? html`<a class="chip" href="${href(`/device/${id}`)}">${dev.name}</a>` : chip ? html`<a class="chip" href="${href(`/chipset/${id}`)}">${chip.name}</a>` : null;
+  }).filter(Boolean);
+  if (chips.length <= CHIP_SHOWN) return chips;
+  const rest = chips.slice(CHIP_SHOWN - 1);
+  return [...chips.slice(0, CHIP_SHOWN - 1), html`<details class="chips-more"><summary class="chip">+${rest.length} more</summary><span class="chips-more__rest">${rest}</span></details>`];
+}
+
 export function docCard(doc, { showSubjects = true, views = null } = {}) {
   const origin = doc.testedBy ?? doc.source;
   const isVideo = doc.kind === 'video';
-  const subjects = showSubjects ? (doc.devices ?? []).map((id) => store.deviceById.get(id)).filter(Boolean).slice(0, 3) : [];
   const category = isVideo ? store.core.taxonomy.videoCategories.find((c) => c.id === doc.category)?.label : null;
   const newsType = store.core.taxonomy.newsTypes.find((t) => t.id === doc.type)?.label;
   // on a device's own page its picture would repeat the header, so only video thumbnails are shown there
@@ -684,7 +696,7 @@ export function docCard(doc, { showSubjects = true, views = null } = {}) {
     <div class="doc__source small">${sourceLink(origin)}${doc.testedBy ? html` <span class="faint">via</span> ${sourceLink(doc.source, { tier: false })}` : ''}</div>
     ${doc.summary ? html`<p class="small muted clamp-2">${doc.summary}</p>` : ''}
     <div class="doc__foot tiny">
-      ${subjects.map((d) => html`<a class="chip" href="${href(`/device/${d.id}`)}">${d.name}</a>`)}
+      ${showSubjects ? subjectChips(doc.devices) : ''}
       ${extractionTag(doc)}
     </div>
   </article>`;

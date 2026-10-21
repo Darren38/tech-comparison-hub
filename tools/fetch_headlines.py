@@ -52,7 +52,8 @@ UA = "Mozilla/5.0 (compatible; TechComparisonHub/5.0; headline collector)"
 ATOM = "{http://www.w3.org/2005/Atom}"
 MEDIA = "{http://search.yahoo.com/mrss/}"
 CONTENT = "{http://purl.org/rss/1.0/modules/content/}encoded"
-NO_IMAGE_SOURCES = {"gsmarena", "soyacincau"}  # headlines stay text-only for these sources
+NO_IMAGE_SOURCES = {"gsmarena", "soyacincau", "sammyfans"}  # headlines stay text-only for these sources
+# (Version 33: Sammy Fans now sends Cross-Origin-Resource-Policy, so browsers refuse its pictures on other sites)
 # Version 22: SoyaCincau's pictures now carry Cross-Origin-Resource-Policy: same-origin, so browsers refuse to show
 # them on any other site (every thumbnail failed on the live site); its headlines are text-only too.
 KINDS = {"news", "review", "video"}
@@ -694,6 +695,7 @@ def run(quiet: bool = False) -> dict:
     save_views(video_views, data["fetchedAt"])
     ok = [f for f in data["feeds"] if f["ok"]]
     failed = [f["source"] for f in data["feeds"] if not f["ok"]]
+    note_down_feeds(data)
     if not ok and OUT.exists():
         print("[headlines] No feed could be reached; keeping the headlines collected earlier.")
         previous = json.loads(OUT.read_text(encoding="utf-8"))
@@ -711,6 +713,29 @@ def run(quiet: bool = False) -> dict:
         print(f"[headlines] {len(data['items'])} headlines from {len(ok)} of {len(data['feeds'])} feeds; archive {len(archive['items'])}"
               + (f"; unreachable: {', '.join(failed)}" if failed else "") + ".")
     return data
+
+
+def note_down_feeds(data: dict) -> None:
+    """Version 33: each feed that could not be read gets "downSince", the first run of its current failing streak, kept in
+    live/auto/feeds_down.json (carried between runs). The site check-up warns only when a source stays down for a day, so a
+    publisher's short outage is not reported as a problem with this site."""
+    path = OUT.parent / "auto" / "feeds_down.json"
+    try:
+        before = json.loads(path.read_text(encoding="utf-8")).get("down", {})
+    except (OSError, ValueError, AttributeError):
+        before = {}
+    down = {}
+    for f in data["feeds"]:
+        if not f.get("ok") and not f.get("error", "").startswith("needs a YouTube"):
+            down[f["source"]] = before.get(f["source"]) or data["fetchedAt"]
+            f["downSince"] = down[f["source"]]
+    try:
+        path.parent.mkdir(parents=True, exist_ok=True)
+        tmp = path.with_suffix(".tmp")
+        tmp.write_text(json.dumps({"updatedAt": data["fetchedAt"], "down": down}, separators=(",", ":")), encoding="utf-8")
+        tmp.replace(path)
+    except OSError as exc:
+        print(f"[headlines] could not save the list of unreachable feeds ({exc.__class__.__name__})")
 
 
 def save_views(found: dict[str, int], at: str) -> None:

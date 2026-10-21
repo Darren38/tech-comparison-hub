@@ -22,6 +22,7 @@ import datetime as dt
 import hashlib
 import json
 import sys
+import time
 import urllib.error
 import urllib.request
 from pathlib import Path
@@ -105,17 +106,28 @@ def submit() -> int:
         print("::warning::IndexNow: the key file on the live site does not match the key; nothing sent.")
         return 0
     body = json.dumps({"host": "darren38.github.io", "key": k, "keyLocation": BASE + KEY_FILE, "urlList": urls}).encode("utf-8")
-    req = urllib.request.Request(ENDPOINT, data=body, method="POST",
-                                 headers={"Content-Type": "application/json; charset=utf-8", "User-Agent": UA})
-    try:
-        with urllib.request.urlopen(req, timeout=30) as r:
-            print(f"[indexnow] sent {len(urls)} address(es): HTTP {r.status}")
-    except urllib.error.HTTPError as e:
-        meaning = {400: "bad request", 403: "key not accepted", 422: "addresses do not belong to the key's location",
-                   429: "too many requests; the next run tries again with its own changes"}.get(e.code, "")
-        print(f"::warning::IndexNow answered HTTP {e.code} {meaning} ({len(urls)} address(es)).")
-    except (urllib.error.URLError, TimeoutError, OSError) as e:
-        print(f"::warning::IndexNow could not be reached ({type(e).__name__}); nothing sent this time.")
+    meaning = {400: "bad request", 403: "key not accepted", 422: "addresses do not belong to the key's location",
+               429: "too many requests"}
+    # Version 33: a passing refusal is tried again. IndexNow can answer 403 while it is still checking a key it has not
+    # seen before, and 429 or a server error clears by itself; 400 and 422 would not change, so they are not repeated.
+    waits = [120, 300]
+    for attempt in range(len(waits) + 1):
+        req = urllib.request.Request(ENDPOINT, data=body, method="POST",
+                                     headers={"Content-Type": "application/json; charset=utf-8", "User-Agent": UA})
+        try:
+            with urllib.request.urlopen(req, timeout=30) as r:
+                print(f"[indexnow] sent {len(urls)} address(es): HTTP {r.status}" + (f" (attempt {attempt + 1})" if attempt else ""))
+            return 0
+        except urllib.error.HTTPError as e:
+            problem, again = f"HTTP {e.code} {meaning.get(e.code, '')}".strip(), e.code in (403, 429) or e.code >= 500
+        except (urllib.error.URLError, TimeoutError, OSError) as e:
+            problem, again = f"could not be reached ({type(e).__name__})", True
+        if not again or attempt == len(waits):
+            break
+        print(f"[indexnow] {problem}; trying again in {waits[attempt] // 60} minutes")
+        time.sleep(waits[attempt])
+    print(f"::warning::IndexNow: {problem} after {attempt + 1} attempt(s) ({len(urls)} address(es)); "
+          "the search engines still find these pages through the sitemap.")
     return 0  # telling search engines is a courtesy: it never fails the site's check-up
 
 

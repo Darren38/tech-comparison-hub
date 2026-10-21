@@ -1,5 +1,15 @@
 # Changelog
 
+## 22 October 2026
+
+More charts update themselves.
+
+- Tom's Guide's own test results are now read automatically from each new phone and tablet review: battery life on its web-surfing test, peak brightness, charge after 15 and 30 minutes, Geekbench 6 and 3DMark stress-test stability. Engadget's video battery rundown is read from its reviews too. They join the Battery, Charging, Display, CPU and GPU charts by themselves, each labelled as read automatically, and the charts' "Auto" labels say when they were last read.
+- Only the result for the phone a review is about is used (rival phones in the same table are left out, and "Galaxy S25" is never read from a "Galaxy S25 Ultra" review); results must be in a plausible range; Tom's Guide battery results only from 2025 on (when its test changed); a result that jumps by more than 30% waits for a person; and a result entered by hand always wins.
+- First run: 34 new test results for 29 phones and tablets, among them Tom's Guide battery results for the iPhone 18 Pro and 18 Pro Max. Of the results also entered by hand, 49 of 50 matched exactly; the one that differed (Galaxy S25 Ultra battery) was re-tested by Tom's Guide later, and the hand-entered newer result stays.
+- News and review lists now link every phone a story covers. Before, a card showed links to at most four phones, so a comparison of five or more left some out; now up to six show and the rest open with "+N more". Sammy Fans headlines are now shown without a picture, because its site has started refusing to let other sites show its pictures.
+- The site's own check-up after each update is quieter and sturdier: the automatic jobs use GitHub's current Node 24 tools and a fixed Ubuntu release (ready before GitHub's old tools are switched off); IndexNow is asked again after 2 and 5 minutes when it turns a list away for a passing reason (as it did once while checking the site's new key); and a news site that is down for a few hours is noted rather than warned about, with a warning only once it has been unreachable for a day.
+
 ## 21 October 2026 (second update)
 
 Search engines are told which pages changed.

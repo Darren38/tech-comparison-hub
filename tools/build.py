@@ -364,6 +364,49 @@ def apply_auto(ds: "Dataset") -> dict:
             ds.documents[doc["id"]] = doc
             used += 1
         info["autoReviews"] = {"at": tr.get("updatedAt"), "reviews": used}
+    # Version 33: Tom's Guide's results tables and Engadget's video rundown, read automatically from each review
+    # (tools/auto_labs.py). A test that already has a hand-entered result from the same publication for that phone is
+    # left out (a person's record always wins); results held for a person are left out too.
+    labs = read_auto("auto_labs.json")
+    if labs and labs.get("results"):
+        facets_lab = {"gb6_single": "performance", "gb6_multi": "performance", "tg_web": "battery", "nits_peak": "display",
+                      "charge_15": "charging", "charge_30": "charging", "wle_stability": "thermals", "engadget_video": "battery"}
+        notes_lab = {"tg_web": "Tom's Guide web-surfing battery test (hours)", "nits_peak": "Tom's Guide light-meter reading, peak (HDR) brightness",
+                     "charge_15": "Charge level after 15 minutes, from empty", "charge_30": "Charge level after 30 minutes, from empty",
+                     "wle_stability": "3DMark Wild Life Extreme stress test stability", "engadget_video": "Engadget video rundown"}
+        methods = {
+            "tomsguide": "Tom's Guide's own tests, read automatically from the review's results tables on {checked}: Geekbench 6, its "
+                         "web-surfing battery test over cellular at 150 nits, peak brightness, charge after 15 and 30 minutes and 3DMark "
+                         "stress-test stability. Only the reviewed phone's own row is used, matched to this phone by its exact name; Tom's "
+                         "Guide tests US models. Not checked by a person yet.",
+            "engadget": "Engadget's video rundown (a local video looped until the battery runs out), read automatically from the "
+                        "review text on {checked}; the title names this phone. Not checked by a person yet.",
+        }
+        hand_lab = {(doc.get("testedBy") or doc.get("source"), r.get("subject"), r.get("metric"))
+                    for doc in ds.documents.values() if not doc.get("auto") for r in doc.get("records", [])}
+        used = {}
+        for source, store in sorted(labs["results"].items()):
+            if source not in methods:
+                continue
+            for dev_id, r in sorted(store.items()):
+                if dev_id not in ds.devices or f"review:{dev_id}" in SKIP_AUTO:
+                    continue
+                held = set(r.get("held") or [])
+                records = [{"subject": dev_id, "metric": m, "value": v, **({"note": notes_lab[m]} if m in notes_lab else {})}
+                           for m, v in (r.get("values") or {}).items()
+                           if m in ds.metrics and m not in held and isinstance(v, (int, float)) and (source, dev_id, m) not in hand_lab]
+                if not records:
+                    continue
+                doc = {"id": f"auto-{source}-{dev_id}", "kind": "review", "source": source, "title": r.get("title") or f"{source} review",
+                       "url": r.get("url"), "accessed": r.get("checked"), "class": "measured", "devices": [dev_id],
+                       "facets": sorted({facets_lab[x["metric"]] for x in records if x["metric"] in facets_lab}),
+                       "method": methods[source].format(checked=r.get("checked")), "records": records, "extraction": "complete",
+                       "auto": True, "_folder": "reviews", "_file": f"live/auto/auto_labs.json ({source} {dev_id})"}
+                if r.get("published"):
+                    doc["published"] = r["published"]
+                ds.documents[doc["id"]] = doc
+                used[source] = used.get(source, 0) + 1
+        info["autoLabs"] = {"at": labs.get("updatedAt"), "reviews": used}
     # Version 17: official pictures found automatically (tools/find_images.py) for devices with none in data/.
     # A picture the daily check lists as broken is not used; the usual picture rules are validated afterwards.
     found = read_auto("found_images.json")
@@ -1318,6 +1361,7 @@ def compile_outputs(ds: Dataset, records: list[dict]) -> dict:
         "antutu": latest(bench, stamp("live/auto/auto_bench.json", "sources", "antutu", "at")),
         "nanoreview": stamp("live/auto/auto_bench.json", "sources", "nanoreview", "at"),
         "trustedreviews": stamp("live/auto/auto_reviews.json", "runs", "recent"),
+        "labs": stamp("live/auto/auto_labs.json", "runs", "recent"),  # Version 33: Tom's Guide and Engadget
     }
     core = {
         "schemaVersion": SCHEMA_VERSION,

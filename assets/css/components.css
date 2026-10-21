@@ -2774,3 +2774,10 @@ li.tiny,
 }
 /* Version 28: a very long search never widens the suggestion list */
 .suggest a { overflow-wrap: anywhere; }
+
+/* Version 33: "+N more" device chips on news and review cards */
+.chips-more > summary { cursor: pointer; list-style: none; }
+.chips-more > summary::-webkit-details-marker { display: none; }
+.chips-more[open] > summary { display: none; }
+.chips-more { display: inline; }
+.chips-more__rest { display: inline-flex; flex-wrap: wrap; gap: inherit; }
