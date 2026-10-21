@@ -643,5 +643,205 @@
       "battery"
     ],
     "summary": "Owner reports on Reddit (not tests): upgraders from older Folds describe 8 to 9 hours of screen-on time from the Fold 8 Ultra's 5,000 mAh battery, the first capacity rise since the Fold 3, and similar results from the Fold 8's 4,800 mAh. One owner coming from an iPhone 17 Pro Max was less impressed, and SamMobile found it does not last as long as the Galaxy S26 Ultra."
+  },
+  {
+    "id": "soyacincau-iphone-duo-malaysia-sold-out",
+    "kind": "news",
+    "type": "availability",
+    "region": "MY",
+    "source": "soyacincau",
+    "class": "news",
+    "title": "iPhone Duo pre-orders mostly sold out in Malaysia, Apple Store delivery slips to January 2027",
+    "url": "https://soyacincau.com/2026/10/16/iphone-duo-mostly-sold-out-in-malaysia-apple-store-delivery-slips-to-january-2027/",
+    "published": "2026-10-16",
+    "accessed": "2026-10-21",
+    "devices": [
+      "apple-iphone-duo"
+    ],
+    "facets": [
+      "value"
+    ],
+    "summary": "Malaysian pre-orders opened at 8 pm on 16 October and most of the first stock at Apple Authorised Retailers, LazMall and Shopee Mall stores was gone within an hour; telcos had mainly the 256 GB model left. New orders on Apple's Malaysian online store showed delivery from 22 January 2027. The phone goes on sale in Malaysia on 23 October."
+  },
+  {
+    "id": "soyacincau-iphone-duo-malaysia-repair-prices",
+    "kind": "news",
+    "type": "price",
+    "region": "MY",
+    "source": "soyacincau",
+    "class": "news",
+    "title": "iPhone Duo's inner screen costs RM4,749 to repair: Here's why you need Apple Care+",
+    "url": "https://soyacincau.com/2026/10/20/iphone-duos-inner-screen-costs-rm4749-to-repair-heres-why-you-need-apple-care/",
+    "published": "2026-10-20",
+    "accessed": "2026-10-21",
+    "devices": [
+      "apple-iphone-duo"
+    ],
+    "facets": [
+      "durability",
+      "value"
+    ],
+    "summary": "Apple's Malaysian out-of-warranty prices: inner folding screen RM4,749, outer screen RM1,799, back glass RM909, battery RM1,049, rear camera RM1,009, cover layer RM199, other damage up to RM7,119. AppleCare+ costs RM1,499 for two years and cuts an inner-screen repair to RM469 (outer screen or back glass RM139); battery service is free below 80% health."
+  },
+  {
+    "id": "soyacincau-iphone-duo-malaysia-online-only",
+    "kind": "news",
+    "type": "availability",
+    "region": "MY",
+    "source": "soyacincau",
+    "class": "news",
+    "title": "Didn't pre-order iPhone Duo? Don't queue at Apple Store TRX this Friday",
+    "url": "https://soyacincau.com/2026/10/20/iphone-duo-malaysia-do-not-queue-apple-store-trx/",
+    "published": "2026-10-20",
+    "accessed": "2026-10-21",
+    "devices": [
+      "apple-iphone-duo"
+    ],
+    "facets": [
+      "value"
+    ],
+    "summary": "Apple's Malaysian iPhone Duo page says the phone is \"currently available to buy online only\", with delivery or pick-up at an Apple Store, so Apple The Exchange TRX is not expected to sell walk-in units on 23 October. Malaysia is in the first wave of more than 70 countries; another 28 follow from 30 October."
+  },
+  {
+    "id": "macrumors-iphone-duo-battery-capacity",
+    "kind": "news",
+    "type": "analysis",
+    "source": "macrumors",
+    "class": "news",
+    "title": "Apple Reveals iPhone Duo's Battery Capacity",
+    "url": "https://www.macrumors.com/2026/10/18/iphone-duo-battery-capacity/",
+    "published": "2026-10-18",
+    "accessed": "2026-10-21",
+    "devices": [
+      "apple-iphone-duo",
+      "apple-iphone-18-pro",
+      "apple-iphone-18-pro-max"
+    ],
+    "facets": [
+      "battery"
+    ],
+    "summary": "Apple's EU energy label gives the iPhone Duo a total battery capacity of 4,883 mAh, matching an earlier leak of two cells (2,962 and 1,921 mAh). The Duo is eSIM-only everywhere, so the figure should apply worldwide. For comparison, iFixit measured 4,288 mAh in the eSIM-only iPhone 18 Pro and 5,567 mAh in the eSIM-only 18 Pro Max."
+  },
+  {
+    "id": "macrumors-iphone-18-pro-self-service-repair-parts",
+    "kind": "news",
+    "type": "availability",
+    "source": "macrumors",
+    "class": "news",
+    "title": "Apple Now Sells DIY Repair Parts for iPhone 18 Pro and Two New Macs",
+    "url": "https://www.macrumors.com/2026/10/20/apple-iphone-18-pro-m6-mac-mini-repair-parts/",
+    "author": "Joe Rossignol",
+    "published": "2026-10-20",
+    "accessed": "2026-10-21",
+    "devices": [
+      "apple-iphone-18-pro",
+      "apple-iphone-18-pro-max"
+    ],
+    "facets": [
+      "durability"
+    ],
+    "summary": "Apple's Self Service Repair store now sells parts, tools and repair manuals for the iPhone 18 Pro and 18 Pro Max, in the US, Canada and Europe; Malaysia was not among the regions listed."
+  },
+  {
+    "id": "sammobile-galaxy-s25-october-2026-security-update",
+    "kind": "news",
+    "type": "security",
+    "source": "sammobile",
+    "class": "news",
+    "title": "New Galaxy S25 update brings October 2026 security patch",
+    "url": "https://www.sammobile.com/news/new-galaxy-s25-update-brings-october-2026-security-patch/",
+    "author": "Abid Iqbal Shaik",
+    "published": "2026-10-19",
+    "accessed": "2026-10-21",
+    "devices": [
+      "samsung-galaxy-s25",
+      "samsung-galaxy-s25-plus",
+      "samsung-galaxy-s25-ultra"
+    ],
+    "facets": [
+      "software"
+    ],
+    "summary": "The first update for the Galaxy S25, S25+ and S25 Ultra after One UI 9.0 adds the October 2026 security patch (62 fixes), starting in South Korea with other countries to follow. The S25 series is promised seven years of major OS and security updates."
+  },
+  {
+    "id": "sammobile-galaxy-s23-one-ui-9-global",
+    "kind": "news",
+    "type": "software-update",
+    "source": "sammobile",
+    "class": "news",
+    "title": "Galaxy S23 stable One UI 9.0 (Android 17) update goes global",
+    "url": "https://www.sammobile.com/news/galaxy-s23-stable-one-ui-9-0-android-17-update-goes-global/",
+    "author": "Abid Iqbal Shaik",
+    "published": "2026-10-19",
+    "accessed": "2026-10-21",
+    "devices": [
+      "samsung-galaxy-s23",
+      "samsung-galaxy-s23-plus",
+      "samsung-galaxy-s23-ultra"
+    ],
+    "facets": [
+      "software"
+    ],
+    "summary": "Stable One UI 9.0 (Android 17) is reaching the Galaxy S23 series outside South Korea, starting in Europe with phones in the beta programme and then other users and countries. It adds more Quick Panel customisation, DeX and Notes improvements, accessibility upgrades, a location privacy indicator and new AI features."
+  },
+  {
+    "id": "sammobile-galaxy-a56-one-ui-9-airdrop",
+    "kind": "news",
+    "type": "software-update",
+    "source": "sammobile",
+    "class": "news",
+    "title": "One UI 9 brings AirDrop file sharing to the Galaxy A56",
+    "url": "https://www.sammobile.com/news/galaxy-a56-one-ui-9-brings-airdrop/",
+    "author": "Asif Iqbal Shaik",
+    "published": "2026-10-21",
+    "accessed": "2026-10-21",
+    "devices": [
+      "samsung-galaxy-a56"
+    ],
+    "facets": [
+      "software",
+      "connectivity"
+    ],
+    "summary": "With One UI 9.0, Quick Share on the Galaxy A56 can send and receive files with iPhones, iPads and Macs: update Quick Share from the Galaxy Store, then turn on \"Share with Apple devices\" (Settings > Connected devices > Quick Share). The Apple device must have AirDrop set to Everyone."
+  },
+  {
+    "id": "9to5google-xiaomi-18-pro-global-price-battery-report",
+    "kind": "news",
+    "type": "price",
+    "source": "9to5google",
+    "class": "news",
+    "title": "Xiaomi 18 Pro gears up for global debut with rumored battery cuts and €1,449 starting price",
+    "url": "https://9to5google.com/2026/10/20/xiaomi-18-pro-global-debut-price-battery-rumors/",
+    "author": "Ben Schoon",
+    "published": "2026-10-20",
+    "accessed": "2026-10-21",
+    "devices": [
+      "xiaomi-18-pro",
+      "xiaomi-18-pro-max"
+    ],
+    "facets": [
+      "value",
+      "battery"
+    ],
+    "summary": "A leak reported by YTechB (not confirmed by Xiaomi) puts European prices at €1,449 for the 18 Pro (256 GB) and €1,849 for the 18 Pro Max (512 GB). The EU's energy labels list smaller batteries than the Chinese models: 6,000 mAh instead of 7,000 for the Pro and 7,050 instead of 8,500 for the Pro Max, with the Pro limited to 90 W charging in the EU. Malaysian versions have not been detailed."
+  },
+  {
+    "id": "9to5google-galaxy-s26-ultra-time-best-inventions",
+    "kind": "news",
+    "type": "analysis",
+    "source": "9to5google",
+    "class": "news",
+    "title": "Galaxy S26 Ultra is one of the 'best inventions of 2026' thanks to its Privacy Display",
+    "url": "https://9to5google.com/2026/10/16/galaxy-s26-ultra-privacy-display-gets-it-on-best-inventions-list/",
+    "author": "Andrew Romero",
+    "published": "2026-10-16",
+    "accessed": "2026-10-21",
+    "devices": [
+      "samsung-galaxy-s26-ultra"
+    ],
+    "facets": [
+      "display"
+    ],
+    "summary": "TIME's \"best inventions of 2026\" list includes the Galaxy S26 Ultra for its Privacy Display, which can hide the whole screen or parts of it (such as PIN entry or notifications) from people beside you. 9to5Google notes it can look inconsistent in some lighting."
   }
 ]

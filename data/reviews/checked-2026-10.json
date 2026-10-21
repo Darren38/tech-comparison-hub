@@ -419,5 +419,172 @@
       }
     ],
     "extraction": "partial"
+  },
+  {
+    "id": "9to5mac-iphone-duo-review",
+    "kind": "review",
+    "source": "9to5mac",
+    "class": "reviewer",
+    "title": "iPhone Duo review: The future is foldable",
+    "url": "https://9to5mac.com/2026/10/21/iphone-duo-review/",
+    "author": "Chance Miller",
+    "published": "2026-10-21",
+    "accessed": "2026-10-21",
+    "devices": [
+      "apple-iphone-duo"
+    ],
+    "facets": [
+      "build",
+      "display",
+      "software"
+    ],
+    "method": "Experience review after a week of use.",
+    "findings": [
+      {
+        "subject": "apple-iphone-duo",
+        "facet": "build",
+        "stance": "positive",
+        "text": "At 254 g it weighs 5 g more than the iPhone 18 Pro Max but felt more comfortable to hold and carry thanks to its shorter, wider shape; 11.3 mm thick closed and 5.2 mm open."
+      },
+      {
+        "subject": "apple-iphone-duo",
+        "facet": "build",
+        "stance": "positive",
+        "text": "The hinge holds the phone at many angles for hands-free video calls and StandBy, though opening it is a two-handed job; the reviewer quickly stopped worrying about it."
+      },
+      {
+        "subject": "apple-iphone-duo",
+        "facet": "display",
+        "stance": "positive",
+        "text": "The 5.4-inch outer screen worked well for messages, notes, reading and social media rather than feeling like a last resort."
+      },
+      {
+        "subject": "apple-iphone-duo",
+        "facet": "software",
+        "stance": "negative",
+        "text": "Many websites are awkward on the outer screen: Safari's side controls take space and pop-ups can fill the view."
+      }
+    ],
+    "extraction": "partial"
+  },
+  {
+    "id": "engadget-iphone-duo-review",
+    "kind": "review",
+    "source": "engadget",
+    "class": "measured",
+    "title": "Apple iPhone Duo review: A first-class foldable",
+    "url": "https://www.engadget.com/2292333/apple-iphone-duo-review/",
+    "author": "Sam Rutherford",
+    "published": "2026-10-21",
+    "accessed": "2026-10-21",
+    "devices": [
+      "apple-iphone-duo"
+    ],
+    "facets": [
+      "battery",
+      "build",
+      "display",
+      "software",
+      "camera",
+      "performance"
+    ],
+    "method": "Experience review; score 8.8 out of 10. Battery: Engadget's local video rundown.",
+    "records": [
+      {
+        "subject": "apple-iphone-duo",
+        "metric": "engadget_video",
+        "value": 28.8,
+        "note": "28 h 48 min; the screen used is not stated"
+      }
+    ],
+    "findings": [
+      {
+        "subject": "apple-iphone-duo",
+        "facet": "battery",
+        "stance": "positive",
+        "text": "Lasted 28 h 48 min in Engadget's video rundown, about half an hour longer than the Galaxy Z Fold 8 (28:14) but short of the Moto Razr Fold (31:00)."
+      },
+      {
+        "subject": "apple-iphone-duo",
+        "facet": "build",
+        "stance": "negative",
+        "text": "254 g, more than 25% heavier than the Galaxy Z Fold 8; one of the smoothest hinges the reviewer has used."
+      },
+      {
+        "subject": "apple-iphone-duo",
+        "facet": "display",
+        "stance": "positive",
+        "text": "The matte inner screen cuts reflections and hides the crease well, though a small dip down the middle can be seen when looked for."
+      },
+      {
+        "subject": "apple-iphone-duo",
+        "facet": "software",
+        "stance": "negative",
+        "text": "Apple's own apps use the big screen well, but many others (Telegram, Gmail) are not yet adapted and leave empty space at the sides."
+      }
+    ],
+    "extraction": "partial"
+  },
+  {
+    "id": "sammobile-galaxy-z-fold8-screen-experience",
+    "kind": "analysis",
+    "source": "sammobile",
+    "class": "reviewer",
+    "title": "Expectations vs reality: What does the Galaxy Z Fold 8's foldable screen actually feel like?",
+    "url": "https://www.sammobile.com/opinion/expectations-vs-reality-what-does-galaxy-z-fold-8-screen-actually-feel-like/",
+    "author": "Mihai Matei",
+    "published": "2026-10-20",
+    "accessed": "2026-10-21",
+    "devices": [
+      "samsung-galaxy-z-fold8"
+    ],
+    "facets": [
+      "display",
+      "durability"
+    ],
+    "method": "Three months of everyday use as the writer's only phone.",
+    "findings": [
+      {
+        "subject": "samsung-galaxy-z-fold8",
+        "facet": "display",
+        "stance": "positive",
+        "text": "The inner screen feels and sounds almost like glass to the touch; the crease is slightly visible and can be felt but did not bother the writer."
+      },
+      {
+        "subject": "samsung-galaxy-z-fold8",
+        "facet": "durability",
+        "stance": "neutral",
+        "text": "Tapping it with a fingernail is harmless, but dragging a nail across it leaves a permanent mark, and the surface picks up micro-scratches more easily than glass; no marks appeared in three months of normal use."
+      }
+    ],
+    "extraction": "partial"
+  },
+  {
+    "id": "9to5mac-iphone-18-pro-variable-aperture-night",
+    "kind": "analysis",
+    "source": "9to5mac",
+    "class": "reviewer",
+    "title": "Here's the difference the variable aperture of the iPhone 18 Pro makes at night",
+    "url": "https://9to5mac.com/2026/10/16/heres-the-difference-the-variable-aperture-of-the-iphone-18-pro-makes-at-night/",
+    "author": "Ben Lovejoy",
+    "published": "2026-10-16",
+    "accessed": "2026-10-21",
+    "devices": [
+      "apple-iphone-18-pro",
+      "apple-iphone-18-pro-max"
+    ],
+    "facets": [
+      "camera"
+    ],
+    "method": "Night-mode photos in London at f/1.48, f/1.8 and f/4.",
+    "findings": [
+      {
+        "subject": "apple-iphone-18-pro",
+        "facet": "camera",
+        "stance": "neutral",
+        "text": "Opening up from f/1.8 to f/1.48 shortened a Night mode shot only slightly (2.1 s to 1.7 s); closing down to f/4 allowed 4-second exposures that smoothed water and gave lights a starburst."
+      }
+    ],
+    "extraction": "partial"
   }
 ]

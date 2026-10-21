@@ -1,5 +1,18 @@
 # Changelog
 
+## 21 October 2026
+
+This week's checked news and reviews, and the iPhone Duo's record brought up to date before its launch.
+
+**New checked items (read by hand on 21 October)**
+- 10 news items, Malaysia first: iPhone Duo pre-orders in Malaysia mostly sold out within an hour (Apple's online store now delivers from 22 January 2027), Apple's Malaysian iPhone Duo repair prices and what AppleCare+ (RM1,499) changes, and Apple TRX not selling walk-in units on launch day; also the iPhone Duo's battery capacity from Apple's EU label, Apple's self-repair parts for the iPhone 18 Pro, the Galaxy S25 October security update, One UI 9.0 reaching the Galaxy S23 worldwide, AirDrop file sharing on the Galaxy A56, a leak of European prices and smaller batteries for the Xiaomi 18 Pro series (labelled as a report), and the Galaxy S26 Ultra in TIME's best inventions of 2026.
+- 4 reviews and analyses: the first iPhone Duo reviews from 9to5Mac and Engadget, three months with the Galaxy Z Fold 8's folding screen, and what the iPhone 18 Pro's variable aperture does at night.
+- Engadget's iPhone Duo battery result (28 h 48 min in its video rundown) is recorded as a measurement, next to the Galaxy Z Fold 8's 28 h 14 min.
+
+**iPhone Duo**
+- Battery capacity added: 4,883 mAh (Apple's EU energy label, as reported by MacRumors).
+- Status changed to pre-order (Malaysian pre-orders opened on 16 October; on sale from 23 October).
+
 ## 16 October 2026
 
 A new weekly batch of checked news, reviews and videos, and two fixes to the automatic headlines.
