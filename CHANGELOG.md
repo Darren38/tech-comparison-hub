@@ -1,6 +1,13 @@
 # Changelog
 
-## 21 October 2026
+## 21 October 2026 (second update)
+
+Search engines are told which pages changed.
+
+- After every update of the site, the pages whose content changed (each device and chip page and the device index) are sent to IndexNow, an open protocol used by Bing, Yandex, Seznam, Naver and others, so those search engines can pick up new prices, specifications and devices soon after they appear. The first run sends every page once; after that only pages whose content really changed are sent. Google does not take part in IndexNow and still reads the site on its own.
+- It runs only after the site's check-up has passed, and a refused or failed submission never fails the update.
+
+## 21 October 2026 (first update)
 
 This week's checked news and reviews, and the iPhone Duo's record brought up to date before its launch.
 

@@ -8,6 +8,7 @@
 #   - at most every 6 hours: Apple's iOS release table and developer releases, Samsung's security bulletin,
 #     Apple Malaysia's service programmes and Samsung Malaysia's service pages (tools/fetch_official.py)
 #   - one readable page per device and chip plus sitemap.xml for search engines (tools/seo.py)
+#   - after deployment, the pages that changed are sent to IndexNow (Bing, Yandex and others; tools/indexnow.py)
 # and once a day (the first run after 00:00 UTC, kept in a cache for that day's later runs):
 #   - benchmark databases: UL 3DMark, AnTuTu, DXOMARK (tools/refresh_benchmarks.py; only phones already matched,
 #     large jumps held for a person to check, a source that can't be read keeps its saved values)
@@ -233,6 +234,9 @@ jobs:
       - name: Search-engine pages and sitemap
         run: python tools/seo.py --out _site
 
+      - name: Pages that changed since the last run, for IndexNow (Bing and others)
+        run: python tools/indexnow.py prepare --site _site
+
       - uses: actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa # v3
         with:
           path: _site
@@ -290,3 +294,6 @@ jobs:
 
       - name: Check-up of the live site
         run: python tools/health_check.py
+
+      - name: Tell search engines which pages changed (IndexNow; only after a passed check-up, never fails the run)
+        run: python tools/indexnow.py submit
