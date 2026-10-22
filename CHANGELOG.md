@@ -1,6 +1,10 @@
 # Changelog
 
-## 22 October 2026
+## 22 October 2026 (second update)
+
+- Fix: the record of since when a news site has been unreachable was rolled back by the day's saved results later in each update, so a site that stayed down would never have been flagged after a day. The record now lives where nothing overwrites it.
+
+## 22 October 2026 (first update)
 
 More charts update themselves.
 

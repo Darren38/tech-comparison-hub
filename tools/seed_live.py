@@ -26,7 +26,7 @@ FILES += ["auto/new_devices.json", "auto/auto_bench.json", "auto/found_images.js
           "auto/auto_labs.json"]  # Version 33: Tom's Guide and Engadget
 # Version 21: the AI check of headlines and where the backfill of older headlines has got to
 FILES += ["auto/news_ai.json", "auto/backfill_state.json"]
-FILES += ["auto/feeds_down.json"]  # Version 33: since when a news or video source has been unreachable
+FILES += ["feeds_down.json"]  # Version 33/34: since when a news or video source has been unreachable (outside live/auto)
 UA = "Mozilla/5.0 (compatible; TechComparisonHub/1.0)"  # Version 25: no author name or address in requests (user)
 
 

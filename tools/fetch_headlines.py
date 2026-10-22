@@ -717,9 +717,10 @@ def run(quiet: bool = False) -> dict:
 
 def note_down_feeds(data: dict) -> None:
     """Version 33: each feed that could not be read gets "downSince", the first run of its current failing streak, kept in
-    live/auto/feeds_down.json (carried between runs). The site check-up warns only when a source stays down for a day, so a
+    live/feeds_down.json (carried between runs). The site check-up warns only when a source stays down for a day, so a
     publisher's short outage is not reported as a problem with this site."""
-    path = OUT.parent / "auto" / "feeds_down.json"
+    # Version 34: kept outside live/auto, which the day's Actions cache restores after this step and would roll back
+    path = OUT.parent / "feeds_down.json"
     try:
         before = json.loads(path.read_text(encoding="utf-8")).get("down", {})
     except (OSError, ValueError, AttributeError):
