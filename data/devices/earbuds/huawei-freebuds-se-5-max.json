@@ -1,0 +1,58 @@
+{
+  "id": "huawei-freebuds-se-5-max",
+  "name": "HUAWEI FreeBuds SE 5 Max",
+  "brand": "huawei",
+  "category": "earbuds",
+  "series": "FreeBuds",
+  "form": "buds",
+  "status": "pre-order",
+  "segment": "entry",
+  "summary": "Huawei's budget noise-cancelling earbuds with LDAC and up to 80 hours with the case. In Malaysia from 3 November 2026 at RM249 (RM159 with the early-bird rebate).",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 249,
+      "config": "Recommended retail price",
+      "date": "2026-10-27",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2026/10/27/huawei-watch-6-series-and-freebuds-se-5-max-malaysia-pre-orders-now-open-with-free-gifts-worth-up-to-rm993/",
+      "class": "news",
+      "accessed": "2026-11-01",
+      "note": "RM159 with Huawei's early-bird rebate of RM90."
+    }
+  ],
+  "specs": {
+    "audio": {
+      "anc": "Yes (hybrid adaptive, up to 52 dB claimed)",
+      "driver": "10 mm dynamic",
+      "codecs": [
+        "LDAC"
+      ],
+      "mics": "6 in total",
+      "note": "Hi-Res Audio Wireless"
+    },
+    "battery": {
+      "life_h": 10,
+      "total_h": 80
+    },
+    "build": {
+      "ip": "IP55"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.4",
+      "multipoint": "Yes (dual device)"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "news",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2026/10/27/huawei-watch-6-series-and-freebuds-se-5-max-malaysia-pre-orders-now-open-with-free-gifts-worth-up-to-rm993/",
+      "checked": "2026-11-01",
+      "note": "From SoyaCincau's report of Huawei Malaysia's launch (27 October 2026)."
+    }
+  },
+  "dataStatus": "compiled"
+}

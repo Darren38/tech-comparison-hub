@@ -1,0 +1,81 @@
+{
+  "id": "oppo-pad-mini",
+  "name": "OPPO Pad Mini",
+  "brand": "oppo",
+  "category": "tablet",
+  "series": "OPPO Pad",
+  "form": "tablet",
+  "status": "released",
+  "announced": "2026-04-22",
+  "segment": "flagship",
+  "aliases": [
+    "OPPO Pad Mini Matte Display Edition"
+  ],
+  "summary": "OPPO's thinnest and lightest tablet: an 8.8-inch 144 Hz OLED screen, the Snapdragon 8 Gen 5 and an 8,000 mAh battery in a 5.46 mm, 282 g body. Announced in China in April 2026; Malaysia gets the Matte Display Edition (anti-glare screen) from 22 October 2026.",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 3699,
+      "config": "8 GB / 256 GB (Matte Display Edition)",
+      "date": "2026-10-22",
+      "type": "launch",
+      "source": "technave",
+      "url": "https://cn.technave.com/2026/10/26/oppo-pad-mini-%e6%9f%94%e5%85%89%e7%89%88%e5%a4%a7%e9%a9%ac%e5%8f%91%e5%b8%83%e5%94%ae%e4%bb%b7-rm3699%ef%bc%9a%e6%90%ad-snapdragon-8-gen-5-%e8%8a%af%e7%89%87%e4%b8%8e-144hz-%e6%8a%a4%e7%9c%bc/",
+      "class": "news",
+      "accessed": "2026-11-01",
+      "note": "Lowyat reports the same price."
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 8.8,
+      "type": "AMOLED, matte (anti-glare)",
+      "resolution": "2.5K",
+      "refresh_hz": 144,
+      "peak_nits": 1600
+    },
+    "platform": {
+      "chipset": "snapdragon-8-gen-5"
+    },
+    "memory": {
+      "ram_gb": [
+        8
+      ],
+      "storage_gb": [
+        256
+      ]
+    },
+    "battery": {
+      "capacity_mah": 8000
+    },
+    "charging": {
+      "wired_w": 67
+    },
+    "build": {
+      "weight_g": 282,
+      "dimensions": {
+        "depth_mm": 5.46
+      }
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "news",
+      "source": "technave",
+      "url": "https://cn.technave.com/2026/10/26/oppo-pad-mini-%e6%9f%94%e5%85%89%e7%89%88%e5%a4%a7%e9%a9%ac%e5%8f%91%e5%b8%83%e5%94%ae%e4%bb%b7-rm3699%ef%bc%9a%e6%90%ad-snapdragon-8-gen-5-%e8%8a%af%e7%89%87%e4%b8%8e-144hz-%e6%8a%a4%e7%9c%bc/",
+      "checked": "2026-11-01",
+      "note": "Specifications and price of the Malaysian Matte Display Edition from TechNave's Chinese site (26 October 2026)."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "fonearena",
+        "url": "https://www.fonearena.com/blog/480736/oppo-pad-mini-price-features.html",
+        "checked": "2026-11-01",
+        "note": "Announced in China (FoneArena, 22 April 2026)."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

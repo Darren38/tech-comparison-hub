@@ -1,0 +1,63 @@
+{
+  "id": "huawei-watch-6",
+  "name": "HUAWEI WATCH 6",
+  "brand": "huawei",
+  "category": "smartwatch",
+  "series": "Watch",
+  "form": "watch",
+  "status": "pre-order",
+  "announced": "2026-09",
+  "segment": "upper-mid",
+  "summary": "Huawei's 2026 flagship smartwatch in 42 mm and 46 mm, with eSIM calls, sapphire glass and up to 11 days of battery (46 mm). Malaysian pre-orders until 2 November 2026; on sale and priced from 3 November.",
+  "specs": {
+    "display": {
+      "size_in": 1.5,
+      "type": "AMOLED",
+      "resolution": "466 × 466",
+      "ppi": 310,
+      "peak_nits": 3000,
+      "note": "46 mm; the 42 mm model has a 1.38-inch screen (338 PPI)"
+    },
+    "battery": {
+      "life_h": 264,
+      "claim": "46 mm: up to 4.5 days typical (3 days always-on); battery saver up to 11 days light, 7 days typical. 42 mm: 3 days typical, up to 7 days in battery saver"
+    },
+    "build": {
+      "note": "42 mm: aluminium case; spherical sapphire glass"
+    },
+    "connectivity": {
+      "cellular": "eSIM calling"
+    },
+    "charging": {
+      "wireless": true
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "news",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2026/10/27/huawei-watch-6-series-and-freebuds-se-5-max-malaysia-pre-orders-now-open-with-free-gifts-worth-up-to-rm993/",
+      "checked": "2026-11-01",
+      "note": "From SoyaCincau's report of Huawei Malaysia's pre-order (27 October 2026)."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "lowyat",
+        "url": "https://www.lowyat.net/2026/403376/huawei-watch-6-series-now-official/",
+        "checked": "2026-11-01",
+        "note": "Officially introduced (Lowyat, 4 September 2026)."
+      }
+    }
+  },
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-11-01",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2026/10/27/huawei-watch-6-series-and-freebuds-se-5-max-malaysia-pre-orders-now-open-with-free-gifts-worth-up-to-rm993/",
+      "note": "Pre-orders open; Huawei Malaysia announces the price at the 3 November 2026 launch."
+    }
+  },
+  "dataStatus": "compiled"
+}

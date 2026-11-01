@@ -1,0 +1,97 @@
+{
+  "id": "vivo-x-fold6",
+  "name": "vivo X Fold6",
+  "brand": "vivo",
+  "category": "smartphone",
+  "series": "X Fold",
+  "form": "foldable",
+  "status": "released",
+  "announced": "2026-06",
+  "segment": "flagship",
+  "summary": "vivo's 2026 book-style foldable: 8.02-inch inner and 6.51-inch cover AMOLED screens, the Dimensity 9500 Super Edition, a 200 MP main camera and a 6,900 mAh battery. Launched in China in June 2026 and in Malaysia at the end of October (12 GB / 512 GB only).",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 8699,
+      "config": "12 GB / 512 GB",
+      "date": "2026-10-28",
+      "type": "launch",
+      "source": "zinggadget",
+      "url": "https://zinggadget.com/vivo-x-fold6%e5%a4%a7%e9%a9%ac%e5%8f%91%e5%b8%83/",
+      "class": "news",
+      "accessed": "2026-11-01",
+      "note": "Listed price on vivo Malaysia's online store; RM8,299 there during the launch offer (also the price Lowyat reports)."
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 8.02,
+      "type": "AMOLED",
+      "resolution": "2504 × 2312",
+      "peak_nits": 5000,
+      "note": "Inner screen; 6.51-inch AMOLED cover screen"
+    },
+    "platform": {
+      "chipset": "dimensity-9500-super-edition"
+    },
+    "memory": {
+      "ram_gb": [
+        12
+      ],
+      "storage_gb": [
+        512
+      ]
+    },
+    "battery": {
+      "capacity_mah": 6900
+    },
+    "charging": {
+      "wired_w": 80,
+      "wireless_w": 40
+    },
+    "camera": {
+      "rear_text": "Rear: 200 MP main + 50 MP wide-angle + 50 MP periscope telephoto",
+      "front": "Two 20 MP cameras"
+    },
+    "build": {
+      "weight_g": 228,
+      "dimensions": {
+        "height_mm": 157.16,
+        "width_mm": 74.26,
+        "depth_mm": 9.4
+      },
+      "note": "Black: 4.40 mm unfolded, 228 g; blue: 4.80 mm unfolded / 9.90 mm folded, 235 g"
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "sim": "Dual nano-SIM",
+      "wifi": "Wi-Fi 7",
+      "bluetooth": "Bluetooth 6.0",
+      "nfc": true,
+      "usb": "USB 3.2"
+    },
+    "software": {
+      "launch_os": "OriginOS 7 Fold"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "news",
+      "source": "zinggadget",
+      "url": "https://zinggadget.com/vivo-x-fold6%e5%a4%a7%e9%a9%ac%e5%8f%91%e5%b8%83/",
+      "checked": "2026-11-01",
+      "note": "Specifications and price from Zing Gadget's report of vivo Malaysia's own store listing (29 October 2026)."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "lowyat",
+        "url": "https://www.lowyat.net/2026/397165/vivo-x-fold6-china/",
+        "checked": "2026-11-01",
+        "note": "Launched in China (Lowyat, 29 June 2026)."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

@@ -17,14 +17,6 @@
     "ECG + dive to 40 m",
     "Up to 21 days"
   ],
-  "availability": {
-    "MY": {
-      "status": "price-not-found",
-      "checked": "2026-09-25",
-      "source": "huawei",
-      "note": "Huawei Malaysia is taking deposits for the WATCH GT 7 series; no Malaysian launch price was found in a launch report yet."
-    }
-  },
   "specs": {
     "display": {
       "size_in": 1.47,
@@ -88,5 +80,20 @@
     "page": "https://consumer.huawei.com/my/wearables/watch-gt7-pro/specs/",
     "credit": "Huawei",
     "checked": "2026-09-25"
-  }
+  },
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1499,
+      "config": "Retail price",
+      "date": "2026-09-29",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2026/405723/huawei-watch-gt-7-series-malaysia/",
+      "class": "news",
+      "accessed": "2026-11-01",
+      "note": "RM1,399 with Huawei's RM100 launch rebate until 31 October 2026."
+    }
+  ]
 }

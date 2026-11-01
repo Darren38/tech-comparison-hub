@@ -1,0 +1,158 @@
+{
+  "id": "apple-ipad-mini-a20-pro",
+  "name": "iPad mini (A20 Pro)",
+  "brand": "apple",
+  "category": "tablet",
+  "series": "iPad mini",
+  "form": "tablet",
+  "status": "pre-order",
+  "announced": "2026-10-26",
+  "segment": "upper-mid",
+  "aliases": [
+    "iPad mini 2026",
+    "iPad mini 8"
+  ],
+  "summary": "The 2026 iPad mini: a larger 8.5-inch OLED screen, the A20 Pro chip and the first IP67 rating on an iPad, in a thinner, lighter body. Malaysian pre-orders from 29 October 2026, on sale from 6 November.",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 2999,
+      "config": "Wi-Fi, 128 GB",
+      "date": "2026-10-26",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2026/10/26/ipad-mini-2026-malaysia-a20-pro-official-price-specs/",
+      "class": "news",
+      "accessed": "2026-11-01"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 3399,
+      "config": "Wi-Fi, 256 GB",
+      "date": "2026-10-26",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2026/10/26/ipad-mini-2026-malaysia-a20-pro-official-price-specs/",
+      "class": "news",
+      "accessed": "2026-11-01"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 4299,
+      "config": "Wi-Fi, 512 GB",
+      "date": "2026-10-26",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2026/10/26/ipad-mini-2026-malaysia-a20-pro-official-price-specs/",
+      "class": "news",
+      "accessed": "2026-11-01"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 3699,
+      "config": "Wi-Fi + 5G, 128 GB",
+      "date": "2026-10-26",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2026/10/26/ipad-mini-2026-malaysia-a20-pro-official-price-specs/",
+      "class": "news",
+      "accessed": "2026-11-01"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 4099,
+      "config": "Wi-Fi + 5G, 256 GB",
+      "date": "2026-10-26",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2026/10/26/ipad-mini-2026-malaysia-a20-pro-official-price-specs/",
+      "class": "news",
+      "accessed": "2026-11-01"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 4999,
+      "config": "Wi-Fi + 5G, 512 GB",
+      "date": "2026-10-26",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2026/10/26/ipad-mini-2026-malaysia-a20-pro-official-price-specs/",
+      "class": "news",
+      "accessed": "2026-11-01"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 8.5,
+      "type": "Super Retina XDR OLED",
+      "refresh_hz": 60,
+      "peak_nits": 1200,
+      "note": "600 nits full-screen, 1,200 nits HDR peak; nano-texture glass optional (+RM400)"
+    },
+    "platform": {
+      "chipset": "apple-a20-pro",
+      "chipset_note": "128/256 GB: 5-core CPU; 512 GB: 6-core CPU; 7-core GPU"
+    },
+    "memory": {
+      "storage_gb": [
+        128,
+        256,
+        512
+      ]
+    },
+    "battery": {
+      "claim": "Up to 10 h web browsing or video playback; 50% in 30 min with a 35 W or larger adapter"
+    },
+    "camera": {
+      "rear_text": "Rear: 12 MP, 4K up to 60 fps",
+      "front": "12 MP Center Stage (landscape edge)"
+    },
+    "input": {
+      "stylus": "Apple Pencil Pro, Apple Pencil (USB-C)"
+    },
+    "build": {
+      "ip": "IP67",
+      "weight_g": 255,
+      "dimensions": {
+        "height_mm": 195.3,
+        "width_mm": 132.6,
+        "depth_mm": 5.4
+      },
+      "note": "Wi-Fi + 5G model 263 g"
+    },
+    "connectivity": {
+      "cellular": "5G (optional)",
+      "wifi": "Wi-Fi 7",
+      "bluetooth": "Bluetooth 6",
+      "usb": "USB-C"
+    },
+    "software": {
+      "launch_os": "iPadOS 27"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "news",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2026/10/26/ipad-mini-2026-malaysia-a20-pro-official-price-specs/",
+      "checked": "2026-11-01",
+      "note": "Specifications and Malaysian prices from SoyaCincau's report of Apple Malaysia's launch (26 October 2026)."
+    },
+    "fields": {
+      "announced": {
+        "class": "official",
+        "source": "apple",
+        "url": "https://www.apple.com/newsroom/2026/10/apple-gives-ipad-mini-its-biggest-update-ever/",
+        "checked": "2026-11-01",
+        "note": "Apple Newsroom, October 2026."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

@@ -1205,5 +1205,188 @@
       "value"
     ],
     "summary": "Motorola confirmed that the Signature 27, its Snapdragon 8 Elite Extreme Gen 6 flagship, will officially launch on 5 November 2026, including in the US. Full specifications and pricing are expected then; it is not yet clear whether it goes on sale the same day. No Malaysian launch has been announced."
+  },
+  {
+    "id": "soyacincau-ipad-mini-a20-pro-malaysia",
+    "kind": "news",
+    "type": "launch",
+    "region": "MY",
+    "source": "soyacincau",
+    "class": "news",
+    "title": "iPad Mini 2026 Malaysia: Larger 8.5\" OLED, A20 Pro and first iPad with water resistance, priced from RM2,999",
+    "url": "https://soyacincau.com/2026/10/26/ipad-mini-2026-malaysia-a20-pro-official-price-specs/",
+    "published": "2026-10-26",
+    "accessed": "2026-11-01",
+    "devices": [
+      "apple-ipad-mini-a20-pro",
+      "apple-ipad-mini-a17-pro"
+    ],
+    "facets": [
+      "value",
+      "display",
+      "durability"
+    ],
+    "summary": "Malaysian pre-orders from 29 October 2026 and sales from 6 November: Wi-Fi RM2,999 (128 GB), RM3,399 (256 GB), RM4,299 (512 GB); Wi-Fi + 5G RM3,699, RM4,099 and RM4,999. RM800 more than the A17 Pro model's starting price. 8.5-inch OLED (still 60 Hz), A20 Pro, IP67, 5.4 mm and 255 g."
+  },
+  {
+    "id": "lowyat-vivo-x-fold6-malaysia",
+    "kind": "news",
+    "type": "launch",
+    "region": "MY",
+    "source": "lowyat",
+    "class": "news",
+    "title": "Vivo X Fold6 Quietly Launches In Malaysia",
+    "url": "https://www.lowyat.net/2026/408574/vivo-x-fold6-malaysia-launch/",
+    "published": "2026-10-28",
+    "accessed": "2026-11-01",
+    "devices": [
+      "vivo-x-fold6"
+    ],
+    "facets": [
+      "value"
+    ],
+    "summary": "The X Fold6 went on sale on vivo Malaysia's online store without a launch event, in one 12 GB / 512 GB version at RM8,299 (Zing Gadget gives RM8,699 as the listed price before the offer)."
+  },
+  {
+    "id": "lowyat-oppo-pad-mini-malaysia",
+    "kind": "news",
+    "type": "launch",
+    "region": "MY",
+    "source": "lowyat",
+    "class": "news",
+    "title": "OPPO Pad Mini Arrives In Malaysia With 8,000mAh Battery",
+    "url": "https://www.lowyat.net/2026/408184/oppo-pad-mini-arrives-in-malaysia/",
+    "published": "2026-10-22",
+    "accessed": "2026-11-01",
+    "devices": [
+      "oppo-pad-mini"
+    ],
+    "facets": [
+      "value"
+    ],
+    "summary": "Launched alongside the Find X10 series, the OPPO Pad Mini (Matte Display Edition in Malaysia) costs RM3,699 for 8 GB / 256 GB, with an RM200 pre-order rebate."
+  },
+  {
+    "id": "soyacincau-huawei-watch-6-freebuds-se-5-max-malaysia",
+    "kind": "news",
+    "type": "launch",
+    "region": "MY",
+    "source": "soyacincau",
+    "class": "news",
+    "title": "Huawei Watch 6 series and FreeBuds SE 5 Max Malaysia pre-orders now open",
+    "url": "https://soyacincau.com/2026/10/27/huawei-watch-6-series-and-freebuds-se-5-max-malaysia-pre-orders-now-open-with-free-gifts-worth-up-to-rm993/",
+    "published": "2026-10-27",
+    "accessed": "2026-11-01",
+    "devices": [
+      "huawei-watch-6",
+      "huawei-watch-6-pro",
+      "huawei-freebuds-se-5-max"
+    ],
+    "facets": [
+      "value",
+      "health"
+    ],
+    "summary": "Pre-orders for the Watch 6 and Watch 6 Pro run until 2 November 2026 with gifts worth up to RM993; prices are announced at the 3 November launch. The FreeBuds SE 5 Max cost RM249 (RM159 with an early-bird rebate)."
+  },
+  {
+    "id": "soyacincau-cmf-buds-neo-clip-pro-malaysia",
+    "kind": "news",
+    "type": "launch",
+    "region": "MY",
+    "source": "soyacincau",
+    "class": "news",
+    "title": "CMF Buds Neo and Clip Pro Malaysia: up to 52 hours battery life and hybrid ANC from RM129",
+    "url": "https://soyacincau.com/2026/10/19/cmf-buds-neo-and-clips-pro-malaysia-up-to-52-hours-battery-life-and-hybrid-anc-from-rm129/",
+    "published": "2026-10-19",
+    "accessed": "2026-11-01",
+    "devices": [
+      "cmf-buds-neo",
+      "cmf-clip-pro"
+    ],
+    "facets": [
+      "value",
+      "battery"
+    ],
+    "summary": "Both on sale in Malaysia from 19 October 2026: Buds Neo RM129 (35 dB hybrid ANC, 52 h with the case) and the open-ear Clip Pro RM359 (LDAC, 32.5 h with the case)."
+  },
+  {
+    "id": "soyacincau-iqoo-16-malaysia-november",
+    "kind": "news",
+    "type": "launch",
+    "region": "MY",
+    "source": "soyacincau",
+    "class": "news",
+    "title": "iQoo 16 launch this November: Will this be Malaysia's first Snapdragon 8 Elite Gen 6 smartphone?",
+    "url": "https://soyacincau.com/2026/10/05/iqoo-16-launch-this-november-will-this-be-malaysias-first-snapdragon-8-elite-gen-6-smartphone/",
+    "published": "2026-10-05",
+    "accessed": "2026-11-01",
+    "devices": [
+      "iqoo-16"
+    ],
+    "facets": [
+      "value",
+      "display"
+    ],
+    "summary": "iQOO confirmed the iQOO 16 for Malaysia in November 2026 in four configurations (12/256 GB to 16 GB/1 TB); no price yet. 6.85-inch 2K 165 Hz Samsung display, 8,400 mAh battery with 100 W wired and 40 W wireless charging, IP68/IP69."
+  },
+  {
+    "id": "lowyat-huawei-watch-gt-7-malaysia",
+    "kind": "news",
+    "type": "launch",
+    "region": "MY",
+    "source": "lowyat",
+    "class": "news",
+    "title": "Huawei Watch GT 7 Series Goes Official In Malaysia",
+    "url": "https://www.lowyat.net/2026/405723/huawei-watch-gt-7-series-malaysia/",
+    "published": "2026-09-29",
+    "accessed": "2026-11-01",
+    "devices": [
+      "huawei-watch-gt-7",
+      "huawei-watch-gt-7-pro"
+    ],
+    "facets": [
+      "value"
+    ],
+    "summary": "The Watch GT 7 costs RM1,199 and the GT 7 Pro RM1,499 in Malaysia, each RM100 less with a launch rebate that ran until 31 October 2026."
+  },
+  {
+    "id": "technave-redmagic-astra-2-malaysia",
+    "kind": "news",
+    "type": "launch",
+    "region": "MY",
+    "source": "technave",
+    "class": "news",
+    "title": "REDMAGIC Astra 2 Malaysia Launch - Liquid-Cooled Gaming Tablet, starting at RM3,399",
+    "url": "https://technave.com/gadget/REDMAGIC-Astra-2-Malaysia-Launch-Liquid-Cooled-Gaming-Tablet-starting-at-RM3-399-47720.html",
+    "published": "2026-10-28",
+    "accessed": "2026-11-01",
+    "devices": [
+      "redmagic-astra-2"
+    ],
+    "facets": [
+      "value",
+      "thermals"
+    ],
+    "summary": "The official SIRIM-certified Astra 2 is sold through ZTE and nubia stores at RM3,399 (12 GB / 256 GB) and RM3,999 (16 GB / 512 GB)."
+  },
+  {
+    "id": "soyacincau-galaxy-tab-s12-malaysia-on-sale",
+    "kind": "news",
+    "type": "availability",
+    "region": "MY",
+    "source": "soyacincau",
+    "class": "news",
+    "title": "Samsung Galaxy Tab S12 series now in Malaysia, student pricing starts from RM3999.20",
+    "url": "https://soyacincau.com/2026/10/07/samsung-galaxy-tab-s12-series-android-tablets-malaysia-launch-specs-student-price/",
+    "published": "2026-10-07",
+    "accessed": "2026-11-01",
+    "devices": [
+      "samsung-galaxy-tab-s12-plus",
+      "samsung-galaxy-tab-s12-ultra"
+    ],
+    "facets": [
+      "value"
+    ],
+    "summary": "On sale in Malaysia from 7 October 2026 in one 12 GB / 256 GB configuration. Students get 20% off; until 8 November everyone gets RM400 (Tab S12+) or RM500 (Ultra) off with SPayLater or selected bank cards."
   }
 ]

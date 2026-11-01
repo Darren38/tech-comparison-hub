@@ -1,5 +1,15 @@
 # Changelog
 
+## 1 November 2026 (third update)
+
+New devices on sale in Malaysia, and Malaysian prices filled in.
+
+- Added: iQOO 16 (coming to Malaysia in November), vivo X Fold6 (RM8,699; RM8,299 launch offer), iPad mini with A20 Pro (from RM2,999; on sale 6 November), OPPO Pad Mini (RM3,699, Matte Display Edition), Huawei Watch 6 and Watch 6 Pro (pre-order; priced at the 3 November launch), Huawei FreeBuds SE 5 Max (RM249) and CMF Buds Neo (RM129). Each record cites the Malaysian launch report and the announcement it was read from.
+- Malaysian prices added: HONOR 600S 5G (RM1,299), Huawei Watch GT 7 (RM1,199) and GT 7 Pro (RM1,499), CMF Clip Pro (RM359), and the official SIRIM-certified REDMAGIC Astra 2 (RM3,399 and RM3,999; the earlier, higher prices stay on record with a note).
+- Galaxy Tab S12+ and Tab S12 Ultra are marked as released in Malaysia (on sale since 7 October).
+- 10 of the Malaysian launch reports are added to the checked news.
+- The HONOR Pad X7b is listed on HONOR's Malaysian site, but its specification page shows no values yet, so it is not added.
+
 ## 1 November 2026 (second update)
 
 The chipset check fixed, the held chips checked by hand, and the newest flagships brought up to date.

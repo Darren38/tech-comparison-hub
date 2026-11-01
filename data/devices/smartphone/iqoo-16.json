@@ -1,0 +1,100 @@
+{
+  "id": "iqoo-16",
+  "name": "iQOO 16",
+  "brand": "iqoo",
+  "category": "smartphone",
+  "series": "iQOO",
+  "form": "bar",
+  "status": "announced",
+  "announced": "2026-09-30",
+  "segment": "flagship",
+  "summary": "iQOO's 2026 flagship on the Snapdragon 8 Elite Extreme Gen 6, with a 2K 165 Hz Samsung display and an 8,400 mAh battery. Launched in China on 30 September 2026; iQOO has confirmed a Malaysian launch in November, price not announced yet.",
+  "specs": {
+    "display": {
+      "size_in": 6.85,
+      "type": "AMOLED (Samsung)",
+      "resolution": "3168 × 1440",
+      "refresh_hz": 165,
+      "peak_nits": 2800
+    },
+    "platform": {
+      "chipset": "snapdragon-8-elite-extreme-gen-6"
+    },
+    "memory": {
+      "ram_gb": [
+        12,
+        16
+      ],
+      "storage_gb": [
+        256,
+        512,
+        1024
+      ],
+      "ram_type": "LPDDR5X Ultra Pro",
+      "storage_type": "UFS 4.1"
+    },
+    "battery": {
+      "capacity_mah": 8400
+    },
+    "charging": {
+      "wired_w": 100,
+      "wireless_w": 40
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "sensor": "1/1.3\"",
+          "ois": true
+        },
+        {
+          "role": "ultrawide",
+          "mp": 50,
+          "sensor": "1/2.75\""
+        },
+        {
+          "role": "periscope",
+          "mp": 50,
+          "sensor": "1/1.95\"",
+          "ois": true
+        }
+      ],
+      "front": "32 MP, f/2.2"
+    },
+    "build": {
+      "ip": "IP68, IP69"
+    },
+    "software": {
+      "launch_os": "Android 17"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "news",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2026/10/05/iqoo-16-launch-this-november-will-this-be-malaysias-first-snapdragon-8-elite-gen-6-smartphone/",
+      "checked": "2026-11-01",
+      "note": "Specifications from SoyaCincau's report of iQOO's Malaysian launch announcement (5 October 2026)."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "lowyat",
+        "url": "https://www.lowyat.net/2026/405886/iqoo-16-china-launch/",
+        "checked": "2026-11-01",
+        "note": "Launched in China (Lowyat, 30 September 2026)."
+      }
+    }
+  },
+  "availability": {
+    "MY": {
+      "status": "not-launched",
+      "checked": "2026-11-01",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2026/10/05/iqoo-16-launch-this-november-will-this-be-malaysias-first-snapdragon-8-elite-gen-6-smartphone/",
+      "note": "iQOO confirmed a Malaysian launch in November 2026; no price yet."
+    }
+  },
+  "dataStatus": "compiled"
+}

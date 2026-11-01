@@ -1,0 +1,72 @@
+{
+  "id": "cmf-buds-neo",
+  "name": "CMF by Nothing Buds Neo",
+  "brand": "nothing",
+  "category": "earbuds",
+  "series": "CMF Buds",
+  "form": "buds",
+  "status": "released",
+  "announced": "2026-08-20",
+  "segment": "entry",
+  "summary": "CMF's lowest-priced noise-cancelling earbuds: 35 dB hybrid ANC, 12.4 mm drivers and up to 52 hours with the case. RM129 in Malaysia since 19 October 2026.",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 129,
+      "config": "Retail price",
+      "date": "2026-10-19",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2026/10/19/cmf-buds-neo-and-clips-pro-malaysia-up-to-52-hours-battery-life-and-hybrid-anc-from-rm129/",
+      "class": "news",
+      "accessed": "2026-11-01"
+    }
+  ],
+  "specs": {
+    "audio": {
+      "anc": "Yes (hybrid, up to 35 dB claimed; adaptive mode)",
+      "driver": "12.4 mm dynamic",
+      "mics": "4 in total"
+    },
+    "battery": {
+      "life_h": 11,
+      "life_anc_h": 8,
+      "total_h": 52,
+      "claim": "52 h total without ANC, 30 h with ANC; 10 min charge for 5.5 h"
+    },
+    "charging": {
+      "port": "USB-C"
+    },
+    "build": {
+      "style": "In-ear",
+      "ip": "IP54"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.4",
+      "multipoint": "Yes (dual device)"
+    },
+    "software": {
+      "app": "Nothing X"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "news",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2026/10/19/cmf-buds-neo-and-clips-pro-malaysia-up-to-52-hours-battery-life-and-hybrid-anc-from-rm129/",
+      "checked": "2026-11-01",
+      "note": "From SoyaCincau's report of the Malaysian launch (19 October 2026)."
+    },
+    "fields": {
+      "announced": {
+        "class": "news",
+        "source": "lowyat",
+        "url": "https://www.lowyat.net/2026/402124/cmf-buds-neo-launches-india/",
+        "checked": "2026-11-01",
+        "note": "Launched in India (Lowyat, 20 August 2026)."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

@@ -30,7 +30,8 @@
       "source": "soyacincau",
       "url": "https://soyacincau.com/2026/09/03/redmagic-astra-2-gaming-tablet-malaysia-launch-price-specs/",
       "class": "news",
-      "accessed": "2026-09-25"
+      "accessed": "2026-09-25",
+      "note": "SoyaCincau's report of 3 September 2026. TechNave reports lower prices for the official SIRIM-certified Malaysian models sold through ZTE and nubia stores from 28 October 2026."
     },
     {
       "region": "MY",
@@ -42,7 +43,34 @@
       "source": "soyacincau",
       "url": "https://soyacincau.com/2026/09/03/redmagic-astra-2-gaming-tablet-malaysia-launch-price-specs/",
       "class": "news",
-      "accessed": "2026-09-25"
+      "accessed": "2026-09-25",
+      "note": "SoyaCincau's report of 3 September 2026. TechNave reports lower prices for the official SIRIM-certified Malaysian models sold through ZTE and nubia stores from 28 October 2026."
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 3399,
+      "config": "12 GB / 256 GB",
+      "date": "2026-10-28",
+      "type": "launch",
+      "source": "technave",
+      "url": "https://technave.com/gadget/REDMAGIC-Astra-2-Malaysia-Launch-Liquid-Cooled-Gaming-Tablet-starting-at-RM3-399-47720.html",
+      "class": "news",
+      "accessed": "2026-11-01",
+      "note": "Official SIRIM-certified Malaysian model (TechNave, 28 October 2026)."
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 3999,
+      "config": "16 GB / 512 GB",
+      "date": "2026-10-28",
+      "type": "launch",
+      "source": "technave",
+      "url": "https://technave.com/gadget/REDMAGIC-Astra-2-Malaysia-Launch-Liquid-Cooled-Gaming-Tablet-starting-at-RM3-399-47720.html",
+      "class": "news",
+      "accessed": "2026-11-01",
+      "note": "Official SIRIM-certified Malaysian model (TechNave, 28 October 2026)."
     }
   ],
   "specs": {

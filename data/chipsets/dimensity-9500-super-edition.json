@@ -1,0 +1,16 @@
+{
+  "id": "dimensity-9500-super-edition",
+  "name": "Dimensity 9500 Super Edition",
+  "vendor": "mediatek",
+  "family": "Dimensity 9000",
+  "summary": "The chip vivo names for the X Fold6 (\"MediaTek Dimensity 9500 Super Edition\"). MediaTek has no product page for it; details are not compiled yet.",
+  "provenance": {
+    "default": {
+      "class": "news",
+      "source": "zinggadget",
+      "url": "https://zinggadget.com/vivo-x-fold6%e5%a4%a7%e9%a9%ac%e5%8f%91%e5%b8%83/",
+      "checked": "2026-11-01",
+      "note": "Chip name as given in Zing Gadget's report of vivo Malaysia's X Fold6 listing."
+    }
+  }
+}

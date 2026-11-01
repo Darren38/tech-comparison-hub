@@ -16,14 +16,6 @@
     "LDAC",
     "Up to 32.5 h with case"
   ],
-  "availability": {
-    "MY": {
-      "status": "price-not-found",
-      "checked": "2026-09-25",
-      "source": "nothing",
-      "note": "No Malaysian launch price was found in a launch report."
-    }
-  },
   "specs": {
     "audio": {
       "anc": "No",
@@ -84,5 +76,19 @@
     "page": "https://intl.nothing.tech/products/cmf-clip-pro",
     "credit": "Nothing",
     "checked": "2026-09-25"
-  }
+  },
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 359,
+      "config": "Retail price",
+      "date": "2026-10-19",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2026/10/19/cmf-buds-neo-and-clips-pro-malaysia-up-to-52-hours-battery-life-and-hybrid-anc-from-rm129/",
+      "class": "news",
+      "accessed": "2026-11-01"
+    }
+  ]
 }

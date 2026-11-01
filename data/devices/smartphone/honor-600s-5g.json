@@ -17,14 +17,6 @@
     "IP68 / IP69K",
     "45 W charging"
   ],
-  "availability": {
-    "MY": {
-      "status": "price-not-found",
-      "checked": "2026-09-25",
-      "source": "honor",
-      "note": "Listed on HONOR Malaysia’s website, but no Malaysian launch price was found in a launch report."
-    }
-  },
   "specs": {
     "display": {
       "size_in": 6.872,
@@ -90,5 +82,21 @@
       "note": "Read from HONOR Malaysia’s specification page. RAM is the physical 4 GB (HONOR adds 8 GB “RAM Turbo” virtual memory)."
     }
   },
-  "dataStatus": "compiled"
+  "dataStatus": "compiled",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1299,
+      "config": "256 GB",
+      "date": "2026-10-14",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2026/10/14/honor-600s-5g-malaysia-snapdragon-4-gen-4-50mp-camera-and-8100mah-battery-priced-at-rm1299/",
+      "class": "news",
+      "accessed": "2026-11-01",
+      "note": "Launch bundle with an RM100 rebate (RM1,199) for outright purchases."
+    }
+  ],
+  "released": "2026-10-14"
 }
