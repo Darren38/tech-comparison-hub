@@ -44,8 +44,17 @@ SYSTEM = (
     "is not \"Snapdragon 7 Gen 3\", \"Dimensity 7300X\" is not \"Dimensity 7300\". If you do not know this exact chip, "
     "answer \"unknown\" and sure=false; never guess from a similar name. Answer only with JSON."
 )
-SCHEMA = {"type": "object", "properties": {"first_year": {"type": "string"}, "sure": {"type": "boolean"}},
+# Version 36: the first run (1 Nov 2026) answered "none" for nearly every chip. The question ended with "Headlines naming it:
+# (none)" and the model most likely copied that word. The answer is now held to a year or "unknown" (the server enforces the
+# JSON schema while the model writes), the empty headline list is left out of the question, and each raw answer is kept.
+YEARS = [str(y) for y in range(2015, dt.date.today().year + 1)]
+SCHEMA = {"type": "object", "properties": {"first_year": {"type": "string", "enum": YEARS + ["unknown"]}, "sure": {"type": "boolean"}},
           "required": ["first_year", "sure"]}
+# Before deciding anything, the model must date three well-known chips correctly (at least two of three, each with "sure");
+# otherwise nothing is decided this run and the chips keep waiting.
+SELF_TEST = [({"vendor": "qualcomm", "name": "Snapdragon 8 Gen 1"}, "2021"),
+             ({"vendor": "mediatek", "name": "Dimensity 9300"}, "2023"),
+             ({"vendor": "qualcomm", "name": "Snapdragon 8 Elite"}, "2024")]
 MAKERS = {"qualcomm": "Qualcomm", "mediatek": "MediaTek", "samsung": "Samsung"}
 
 
@@ -57,7 +66,9 @@ def chat(user: str) -> dict:
                                  headers={"Content-Type": "application/json"})
     with urllib.request.urlopen(req, timeout=600) as r:
         text = json.load(r)["choices"][0]["message"]["content"]
-    return json.loads(text[text.find("{"): text.rfind("}") + 1])
+    answer = json.loads(text[text.find("{"): text.rfind("}") + 1])
+    answer["_raw"] = text[:200]  # kept with the decision, so a strange answer can be seen on the dashboard
+    return answer
 
 
 def server_up() -> bool:
@@ -85,10 +96,27 @@ def headlines_for(name: str) -> list[str]:
     return [i["title"] for i in sorted(items.values(), key=lambda i: i.get("published") or "", reverse=True)[:4]]
 
 
-def question(rec: dict) -> str:
-    lines = headlines_for(rec["name"])
-    return (f"Maker: {MAKERS.get(rec.get('vendor'), rec.get('vendor', ''))}\nChip: {rec['name']}\n"
-            "Headlines naming it:\n" + ("\n".join(f"- {t}" for t in lines) if lines else "(none)"))
+def question(rec: dict, with_headlines: bool = True) -> str:
+    lines = headlines_for(rec["name"]) if with_headlines else []
+    q = f"Maker: {MAKERS.get(rec.get('vendor'), rec.get('vendor', ''))}\nChip: {rec['name']}"
+    if lines:  # no "(none)" line: the first run's answers suggest the model copied it
+        q += "\nRecent headlines naming it:\n" + "\n".join(f"- {t}" for t in lines)
+    return q + "\nIn which year was this exact chip first announced?"
+
+
+def self_test() -> dict:
+    """Ask about three well-known chips; the model passes when it dates at least two correctly and says it is sure."""
+    results, right = [], 0
+    for rec, want in SELF_TEST:
+        try:
+            a = chat(question(rec, with_headlines=False))
+        except Exception as e:  # noqa: BLE001
+            a = {"first_year": "", "sure": False, "_raw": f"no answer ({type(e).__name__})"}
+        ok = str(a.get("first_year")) == want and a.get("sure") is True
+        right += ok
+        results.append({"chip": rec["name"], "expected": want, "answer": str(a.get("first_year", "")), "sure": bool(a.get("sure")),
+                        "raw": str(a.get("_raw", ""))[:120], "ok": ok})
+    return {"passed": right >= 2, "right": right, "of": len(SELF_TEST), "results": results, "at": TODAY, "model": MODEL_NAME}
 
 
 def decide(answer: dict) -> str:
@@ -104,38 +132,80 @@ def decide(answer: dict) -> str:
     return "add"
 
 
+def settle_reviewed(state: dict) -> None:
+    """Version 36: chips a person has checked (data/meta/chip_reviewed.json), or that now have a hand-made record, leave
+    the waiting and held lists; the ones found too old are listed as such."""
+    try:
+        reviewed = json.loads((ROOT / "data" / "meta" / "chip_reviewed.json").read_text(encoding="utf-8")).get("chips") or {}
+    except (OSError, ValueError):
+        reviewed = {}
+    for cid in list(state.get("held") or {}) + list(state.get("awaitingAi") or {}):
+        r = reviewed.get(cid)
+        if (ROOT / "data" / "chipsets" / f"{cid}.json").exists() or (r and r.get("decision") == "added"):
+            state["held"].pop(cid, None)
+            state["awaitingAi"].pop(cid, None)
+        elif r and r.get("decision") == "too old":
+            state["held"].pop(cid, None)
+            state["awaitingAi"].pop(cid, None)
+            state.setdefault("tooOld", {})[cid] = {"name": r.get("name", cid), "url": r.get("url"), "at": r.get("checked"),
+                                                   "reason": f"checked by hand: first announced {r.get('firstSeen')} (before 2023)"}
+
+
+def save(state: dict) -> None:
+    state["updatedAt"] = dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
+    tmp = STATE.with_suffix(".tmp")
+    tmp.write_text(json.dumps(state, ensure_ascii=False, indent=1), encoding="utf-8")
+    tmp.replace(STATE)
+
+
 def main() -> int:
-    ap = argparse.ArgumentParser(description=__doc__.split("\n")[0])
+    ap = argparse.ArgumentParser(description=__doc__.split(chr(10))[0])
     ap.add_argument("--pending", action="store_true")
     a = ap.parse_args()
     try:
         state = json.loads(STATE.read_text(encoding="utf-8"))
     except (OSError, ValueError):
         state = {}
-    waiting = state.get("awaitingAi") or {}
+    state.setdefault("held", {}); state.setdefault("awaitingAi", {})
+    before = len(state["held"]) + len(state["awaitingAi"])
+    settle_reviewed(state)
+    settled = before - len(state["held"]) - len(state["awaitingAi"])
+    waiting = state["awaitingAi"]
     if a.pending:
         print(len(waiting))
+        if settled:
+            save(state)
         return 0
     if not waiting:
-        print("[ai-chips] nothing waiting")
+        print("[ai-chips] nothing waiting" + (f"; {settled} chip(s) settled by a person's check" if settled else ""))
+        if settled:
+            save(state)
         return 0
     up = server_up()
-    added, held, old = state.setdefault("added", {}), state.setdefault("held", {}), state.setdefault("tooOld", {})
+    added, held, old = state.setdefault("added", {}), state["held"], state.setdefault("tooOld", {})
+    if up:
+        test = self_test()
+        state["selfTest"] = test
+        print(f"[ai-chips] self-test: {test['right']} of {test['of']} well-known chips dated correctly"
+              + ("" if test["passed"] else " - not trusted this run; nothing decided"))
+        if not test["passed"]:
+            up = False  # treated like a model that could not run: the chips keep waiting (held after 3 days)
     for cid, w in list(waiting.items()):
         rec = w["record"]
         if not up:
             if (dt.date.today() - dt.date.fromisoformat(w["since"])).days >= WAIT_DAYS:
                 held[cid] = {"name": rec["name"], "vendor": rec.get("vendor"), "url": w["url"], "at": TODAY, "record": rec,
-                             "reason": f"the AI check could not run for {WAIT_DAYS} days; not added unchecked"}
+                             "reason": f"the AI check could not run or did not pass its self-test for {WAIT_DAYS} days; not added unchecked"}
                 waiting.pop(cid)
-                print(f"[ai-chips] {cid}: held (no AI check for {WAIT_DAYS} days)")
+                print(f"[ai-chips] {cid}: held (no trusted AI check for {WAIT_DAYS} days)")
             continue
         try:
             answer = chat(question(rec))
         except Exception as e:  # noqa: BLE001  (a failed answer: try again next run)
             print(f"[ai-chips] {cid}: no answer ({type(e).__name__}); still waiting")
             continue
-        check = {"model": MODEL_NAME, "firstYear": str(answer.get("first_year", ""))[:20], "sure": bool(answer.get("sure")), "checked": TODAY}
+        check = {"model": MODEL_NAME, "firstYear": str(answer.get("first_year", ""))[:20], "sure": bool(answer.get("sure")),
+                 "raw": str(answer.get("_raw", ""))[:200], "checked": TODAY}
         verdict = decide(answer)
         waiting.pop(cid)
         if verdict == "add":
@@ -150,11 +220,7 @@ def main() -> int:
             held[cid] = {"name": rec["name"], "vendor": rec.get("vendor"), "url": w["url"], "at": TODAY, "aiCheck": check, "record": rec,
                          "reason": "the AI check was not sure (answer: " + (check["firstYear"] or "none") + "); waiting for a person"}
             print(f"[ai-chips] {cid} ({rec['name']}) HELD for a person: AI answer {check['firstYear']!r}, sure={check['sure']}")
-    state["awaitingAi"] = waiting
-    state["updatedAt"] = dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
-    tmp = STATE.with_suffix(".tmp")
-    tmp.write_text(json.dumps(state, ensure_ascii=False, indent=1), encoding="utf-8")
-    tmp.replace(STATE)
+    save(state)
     return 0
 
 

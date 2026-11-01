@@ -1166,5 +1166,44 @@
       "software"
     ],
     "summary": "iOS 27.1 is only for the iPhone Duo: it ships preinstalled and a newer 27.1 build (bug fixes, no security fixes) installs during setup. Other iPhones skip to iOS 27.2, which the Duo can also install, expected about a week later."
+  },
+  {
+    "id": "mydrivers-xiaomi-18-pro-series-on-sale-china",
+    "kind": "news",
+    "type": "availability",
+    "region": "CN",
+    "source": "mydrivers",
+    "class": "news",
+    "title": "5999元起 小米18 Pro系列上市后门店客流火爆：部分版本供不应求",
+    "url": "https://news.mydrivers.com/1/1153/1153815.htm",
+    "published": "2026-09-24",
+    "accessed": "2026-11-01",
+    "devices": [
+      "xiaomi-18-pro",
+      "xiaomi-18-pro-max"
+    ],
+    "facets": [
+      "value"
+    ],
+    "summary": "Xiaomi's president Lu Weibing said on 24 September that the Xiaomi 18 Pro series (18 Pro, 18 Pro Max and a transparent edition) had gone on sale in China from CNY 5,999, with busy Xiaomi stores and some versions short of stock. Xiaomi has said a global version will follow this year; no Malaysian price or date yet."
+  },
+  {
+    "id": "9to5google-motorola-signature-27-launch-date",
+    "kind": "news",
+    "type": "launch",
+    "source": "9to5google",
+    "class": "news",
+    "title": "Motorola is officially launching its Signature 27 flagship next week",
+    "url": "https://9to5google.com/2026/10/30/motorola-signature-27-launch-date-confirmed/",
+    "author": "Ben Schoon",
+    "published": "2026-10-30",
+    "accessed": "2026-11-01",
+    "devices": [
+      "motorola-signature-27"
+    ],
+    "facets": [
+      "value"
+    ],
+    "summary": "Motorola confirmed that the Signature 27, its Snapdragon 8 Elite Extreme Gen 6 flagship, will officially launch on 5 November 2026, including in the US. Full specifications and pricing are expected then; it is not yet clear whether it goes on sale the same day. No Malaysian launch has been announced."
   }
 ]

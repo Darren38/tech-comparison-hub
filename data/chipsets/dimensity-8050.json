@@ -1,0 +1,24 @@
+{
+  "id": "dimensity-8050",
+  "name": "Dimensity 8050",
+  "vendor": "mediatek",
+  "summary": "Added after a check by hand: Announced by MediaTek in May 2023 (TechNave, 9 May 2023).",
+  "cpu": {
+    "cores": 8
+  },
+  "gpu": {
+    "name": "Arm Mali-G77 MC9"
+  },
+  "memory": "LPDDR4x",
+  "storage": "UFS 3.1",
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "mediatek",
+      "url": "https://www.mediatek.com/products/smartphones/mediatek-dimensity-8050",
+      "checked": "2026-11-01",
+      "note": "Specifications from MediaTek's own product page."
+    }
+  },
+  "family": "Dimensity 8000"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "dimensity-6500",
+  "name": "Dimensity 6500",
+  "vendor": "mediatek",
+  "summary": "Added after a check by hand: Introduced in MediaTek's own blog of 15 May 2026.",
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "mediatek",
+      "url": "https://www.mediatek.com/products/smartphones/mediatek-dimensity-6500",
+      "checked": "2026-11-01",
+      "note": "Specifications from MediaTek's own product page."
+    },
+    "fields": {
+      "announced": {
+        "class": "official",
+        "source": "mediatek",
+        "url": "https://www.mediatek.com/tek-talk-blogs/mainstream-to-premium-smartphones-get-a-fresh-set-of-mediatek-dimensity-chipsets",
+        "checked": "2026-11-01",
+        "note": "Introduced in MediaTek's own blog of 15 May 2026."
+      }
+    }
+  },
+  "family": "Dimensity 6000",
+  "announced": "2026-05-15"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "dimensity-8250",
+  "name": "Dimensity 8250",
+  "vendor": "mediatek",
+  "summary": "Added after a check by hand: First reported in the OPPO Reno12 (FoneArena, 23 May 2024).",
+  "cpu": {
+    "cores": 8,
+    "clusters": [
+      {
+        "count": 1,
+        "core": "Arm Cortex-A78:",
+        "ghz": 3.1
+      },
+      {
+        "count": 3,
+        "core": "Arm Cortex-A78:",
+        "ghz": 3.0
+      },
+      {
+        "count": 4,
+        "core": "Arm Cortex-A55:",
+        "ghz": 2.0
+      }
+    ]
+  },
+  "gpu": {
+    "name": "Arm Mali-G610 MC6"
+  },
+  "memory": "Quad-channel LPDDR5",
+  "storage": "UFS 3.1",
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "mediatek",
+      "url": "https://www.mediatek.com/products/smartphones/mediatek-dimensity-8250",
+      "checked": "2026-11-01",
+      "note": "Specifications from MediaTek's own product page."
+    }
+  },
+  "family": "Dimensity 8000"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "dimensity-7100",
+  "name": "Dimensity 7100",
+  "vendor": "mediatek",
+  "summary": "Added after a check by hand: Announced by MediaTek (FoneArena, 2 January 2026).",
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "mediatek",
+      "url": "https://www.mediatek.com/products/smartphones/mediatek-dimensity-7100",
+      "checked": "2026-11-01",
+      "note": "Specifications from MediaTek's own product page."
+    }
+  },
+  "family": "Dimensity 7000"
+}

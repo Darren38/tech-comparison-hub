@@ -385,6 +385,33 @@ def list_pages(weekly: bool) -> dict[str, str]:
     return pages
 
 
+# --------------------------------------------------------------------------------------------- checked by a person
+REVIEWED = DATA / "meta" / "chip_reviewed.json"
+
+
+def reviewed_chips() -> dict:
+    """Version 36: chips a person has checked after the automatic check held them (data/meta/chip_reviewed.json)."""
+    try:
+        return json.loads(REVIEWED.read_text(encoding="utf-8")).get("chips") or {}
+    except (OSError, ValueError):
+        return {}
+
+
+def settle_reviewed(state: dict, known: "Known") -> None:
+    """A chip that now has a hand-made record, or that a person found too old, leaves the waiting and held lists."""
+    reviewed = reviewed_chips()
+    for cid in list(state["held"]) + list(state["awaitingAi"]):
+        r = reviewed.get(cid)
+        if cid in known.hand or (r and r.get("decision") == "added"):
+            state["held"].pop(cid, None)
+            state["awaitingAi"].pop(cid, None)
+        elif r and r.get("decision") == "too old":
+            state["held"].pop(cid, None)
+            state["awaitingAi"].pop(cid, None)
+            state["tooOld"][cid] = {"name": r.get("name", cid), "url": r.get("url"), "at": r.get("checked"),
+                                    "reason": f"checked by hand: first announced {r.get('firstSeen')} (before 2023)"}
+
+
 # --------------------------------------------------------------------------------------------- the run
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
@@ -406,6 +433,7 @@ def main() -> int:
     for k in ("pages", "fill", "added", "awaitingAi", "held", "tooOld"):
         state.setdefault(k, {})
     known = Known(state)
+    settle_reviewed(state, known)
 
     pages = list_pages(weekly)
     if not pages:
@@ -449,7 +477,7 @@ def main() -> int:
             entry["chip"] = cid
             continue
         new_id = chip_id(name)
-        if new_id in state["tooOld"] or new_id in state["held"]:
+        if new_id in state["tooOld"] or new_id in state["held"] or new_id in reviewed_chips():
             continue
         old = too_old_by_rule(name)
         if old:

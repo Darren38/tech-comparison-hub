@@ -1,0 +1,265 @@
+{
+ "note": "Chipsets checked by hand after the automatic check held them (tools/auto_chips.py and tools/ai_chip_check.py read this list: a chip here is never asked about again). Decision 'too old' = first announced before 2023.",
+ "chips": {
+  "snapdragon-8-gen-1": {
+   "name": "Snapdragon 8 Gen 1",
+   "decision": "too old",
+   "firstSeen": "2021-11",
+   "source": "qualcomm",
+   "url": "https://www.qualcomm.com/news/releases/2021/11/qualcomm-announces-worlds-most-advanced-mobile-platform-snapdragon-8-gen-1",
+   "note": "Qualcomm's own announcement, November 2021.",
+   "checked": "2026-11-01",
+   "by": "checked by hand"
+  },
+  "snapdragon-7-gen-1": {
+   "name": "Snapdragon 7 Gen 1",
+   "decision": "too old",
+   "firstSeen": "2022-05-20",
+   "source": "9to5google",
+   "url": "https://9to5google.com/2022/05/20/snapdragon-8-7-gen-1/",
+   "note": "Unveiled by Qualcomm on 20 May 2022 (9to5Google's report; Qualcomm's release is dated May 2022).",
+   "checked": "2026-11-01",
+   "by": "checked by hand"
+  },
+  "dimensity-9000": {
+   "name": "Dimensity 9000",
+   "decision": "too old",
+   "firstSeen": "2021-12-16",
+   "source": "mediatek",
+   "url": "https://www.mediatek.com/press-room/mediatek-officially-launches-dimensity-9000-flagship-chip-and-announces-adoption-by-global-device-makers",
+   "note": "MediaTek's own release, 16 December 2021.",
+   "checked": "2026-11-01",
+   "by": "checked by hand"
+  },
+  "dimensity-8000": {
+   "name": "Dimensity 8000",
+   "decision": "too old",
+   "firstSeen": "2022-03-01",
+   "source": "mediatek",
+   "url": "https://www.mediatek.com/press-room/mediatek-launches-dimensity-8000-5g-chip-series-for-premium-5g-smartphones",
+   "note": "MediaTek's own release, 1 March 2022.",
+   "checked": "2026-11-01",
+   "by": "checked by hand"
+  },
+  "dimensity-8100": {
+   "name": "Dimensity 8100",
+   "decision": "too old",
+   "firstSeen": "2022-03-01",
+   "source": "mediatek",
+   "url": "https://www.mediatek.com/press-room/mediatek-launches-dimensity-8000-5g-chip-series-for-premium-5g-smartphones",
+   "note": "MediaTek's own release, 1 March 2022.",
+   "checked": "2026-11-01",
+   "by": "checked by hand"
+  },
+  "dimensity-8300": {
+   "name": "Dimensity 8300",
+   "decision": "added",
+   "firstSeen": "2023-11-21",
+   "source": "mediatek",
+   "url": "https://www.mediatek.com/press-room/mediateks-new-dimensity-8300-chipset-redefines-premium-experiences-in-5g-smartphones",
+   "note": "MediaTek's own release, 21 November 2023.",
+   "checked": "2026-11-01",
+   "by": "checked by hand"
+  },
+  "dimensity-8400": {
+   "name": "Dimensity 8400",
+   "decision": "added",
+   "firstSeen": "2024-12-23",
+   "source": "mediatek",
+   "url": "https://www.mediatek.com/press-room/mediatek-unveils-the-dimensity-8400-the-first-all-big-core-chip-for-premium-smartphones",
+   "note": "MediaTek's own release, 23 December 2024.",
+   "checked": "2026-11-01",
+   "by": "checked by hand"
+  },
+  "dimensity-8500": {
+   "name": "Dimensity 8500",
+   "decision": "added",
+   "firstSeen": "2026-01-15",
+   "source": "mediatek",
+   "url": "https://www.mediatek.com/press-room/mediatek-unveils-dimensity-9500s-and-dimensity-8500-to-propel-performance-gaming-and-efficiency-in-flagship-and-premium-smartphones",
+   "note": "MediaTek's own release, 15 January 2026.",
+   "checked": "2026-11-01",
+   "by": "checked by hand"
+  },
+  "dimensity-7300x": {
+   "name": "Dimensity 7300X",
+   "decision": "added",
+   "firstSeen": "2024-05-30",
+   "source": "mediatek",
+   "url": "https://www.mediatek.com/press-room/mediatek-dimensity-7300-chips-level-up-ai-and-mobile-gaming-for-high-tech-smartphones-and-foldables",
+   "note": "MediaTek's own release, 30 May 2024.",
+   "checked": "2026-11-01",
+   "by": "checked by hand"
+  },
+  "dimensity-7400": {
+   "name": "Dimensity 7400",
+   "decision": "added",
+   "firstSeen": "2025-02-25",
+   "source": "mediatek",
+   "url": "https://www.mediatek.com/press-room/mediatek-dimensity-7400-and-dimensity-6400-makes-improved-gaming-connectivity-and-ai-performance-more-accessible",
+   "note": "MediaTek's own release, 25 February 2025.",
+   "checked": "2026-11-01",
+   "by": "checked by hand"
+  },
+  "dimensity-7400x": {
+   "name": "Dimensity 7400X",
+   "decision": "added",
+   "firstSeen": "2025-02-25",
+   "source": "mediatek",
+   "url": "https://www.mediatek.com/press-room/mediatek-dimensity-7400-and-dimensity-6400-makes-improved-gaming-connectivity-and-ai-performance-more-accessible",
+   "note": "MediaTek's own release, 25 February 2025.",
+   "checked": "2026-11-01",
+   "by": "checked by hand"
+  },
+  "dimensity-6400": {
+   "name": "Dimensity 6400",
+   "decision": "added",
+   "firstSeen": "2025-02-25",
+   "source": "mediatek",
+   "url": "https://www.mediatek.com/press-room/mediatek-dimensity-7400-and-dimensity-6400-makes-improved-gaming-connectivity-and-ai-performance-more-accessible",
+   "note": "MediaTek's own release, 25 February 2025.",
+   "checked": "2026-11-01",
+   "by": "checked by hand"
+  },
+  "dimensity-6360": {
+   "name": "Dimensity 6360",
+   "decision": "added",
+   "firstSeen": "2026-05-15",
+   "source": "mediatek",
+   "url": "https://www.mediatek.com/tek-talk-blogs/mainstream-to-premium-smartphones-get-a-fresh-set-of-mediatek-dimensity-chipsets",
+   "note": "Named in MediaTek's own blog of 15 May 2026 (phones using it were reported earlier).",
+   "checked": "2026-11-01",
+   "by": "checked by hand"
+  },
+  "dimensity-6500": {
+   "name": "Dimensity 6500",
+   "decision": "added",
+   "firstSeen": "2026-05-15",
+   "source": "mediatek",
+   "url": "https://www.mediatek.com/tek-talk-blogs/mainstream-to-premium-smartphones-get-a-fresh-set-of-mediatek-dimensity-chipsets",
+   "note": "Introduced in MediaTek's own blog of 15 May 2026.",
+   "checked": "2026-11-01",
+   "by": "checked by hand"
+  },
+  "dimensity-8050": {
+   "name": "Dimensity 8050",
+   "decision": "added",
+   "firstSeen": "2023-05-09",
+   "source": "technave",
+   "url": "https://technave.com/gadget/6nm-MediaTek-Dimensity-8050-chipset-announced-for-midrangers-34350.html",
+   "note": "Announced by MediaTek in May 2023 (TechNave, 9 May 2023).",
+   "checked": "2026-11-01",
+   "by": "checked by hand"
+  },
+  "dimensity-8020": {
+   "name": "Dimensity 8020",
+   "decision": "added",
+   "firstSeen": "2023-09-04",
+   "source": "lowyat",
+   "url": "https://www.lowyat.net/2023/306565/infinix-zero-30/",
+   "note": "First reported in the Infinix Zero 30 (Lowyat, 4 September 2023).",
+   "checked": "2026-11-01",
+   "by": "checked by hand"
+  },
+  "dimensity-8250": {
+   "name": "Dimensity 8250",
+   "decision": "added",
+   "firstSeen": "2024-05-23",
+   "source": "fonearena",
+   "url": "https://www.fonearena.com/blog/424639/oppo-reno-12-pro-price-specifications-oppo-reno-12.html",
+   "note": "First reported in the OPPO Reno12 (FoneArena, 23 May 2024).",
+   "checked": "2026-11-01",
+   "by": "checked by hand"
+  },
+  "dimensity-7020": {
+   "name": "Dimensity 7020",
+   "decision": "added",
+   "firstSeen": "2023-05-10",
+   "source": "fonearena",
+   "url": "https://www.fonearena.com/blog/392965/vivo-y78-price-specifications.html",
+   "note": "First reported in the vivo Y78 (FoneArena, 10 May 2023).",
+   "checked": "2026-11-01",
+   "by": "checked by hand"
+  },
+  "dimensity-7025": {
+   "name": "Dimensity 7025",
+   "decision": "added",
+   "firstSeen": "2024-04-10",
+   "source": "fonearena",
+   "url": "https://www.fonearena.com/blog/421329/moto-g64-5g-india-launch-date.html",
+   "note": "First reported in the moto g64 5G (FoneArena, 10 April 2024).",
+   "checked": "2026-11-01",
+   "by": "checked by hand"
+  },
+  "dimensity-7030": {
+   "name": "Dimensity 7030",
+   "decision": "added",
+   "firstSeen": "2023-09-14",
+   "source": "fonearena",
+   "url": "https://www.fonearena.com/blog/405362/motorola-edge-40-neo-india-launch-date.html",
+   "note": "First reported in the motorola edge 40 neo (FoneArena, 14 September 2023).",
+   "checked": "2026-11-01",
+   "by": "checked by hand"
+  },
+  "dimensity-7100": {
+   "name": "Dimensity 7100",
+   "decision": "added",
+   "firstSeen": "2026-01-02",
+   "source": "fonearena",
+   "url": "https://www.fonearena.com/blog/472287/mediatek-dimensity-7100-features.html",
+   "note": "Announced by MediaTek (FoneArena, 2 January 2026).",
+   "checked": "2026-11-01",
+   "by": "checked by hand"
+  },
+  "dimensity-7350": {
+   "name": "Dimensity 7350",
+   "decision": "added",
+   "firstSeen": "2024-07-30",
+   "source": "fonearena",
+   "url": "https://www.fonearena.com/blog/430270/nothing-phone-2a-plus-dimensity-7350-12gb-ram.html",
+   "note": "First reported in the Nothing Phone (2a) Plus (FoneArena, 30 July 2024).",
+   "checked": "2026-11-01",
+   "by": "checked by hand"
+  },
+  "dimensity-7360": {
+   "name": "Dimensity 7360",
+   "decision": "added",
+   "firstSeen": "2025-10-01",
+   "source": "lowyat",
+   "url": "https://www.lowyat.net/2025/368155/vivo-v60-lite-5g/",
+   "note": "First reported in the vivo V60 Lite 5G (Lowyat, 1 October 2025).",
+   "checked": "2026-11-01",
+   "by": "checked by hand"
+  },
+  "dimensity-7450": {
+   "name": "Dimensity 7450",
+   "decision": "added",
+   "firstSeen": "2026-04-27",
+   "source": "technave",
+   "url": "https://technave.com/gadget/MediaTek-released-the-Dimensity-7450-and-Dimensity-7450X-SoC-More-focus-on-gaming-for-mid-range-phones-46401.html",
+   "note": "Announced by MediaTek (TechNave, 27 April 2026).",
+   "checked": "2026-11-01",
+   "by": "checked by hand"
+  },
+  "dimensity-7450x": {
+   "name": "Dimensity 7450X",
+   "decision": "added",
+   "firstSeen": "2026-04-27",
+   "source": "technave",
+   "url": "https://technave.com/gadget/MediaTek-released-the-Dimensity-7450-and-Dimensity-7450X-SoC-More-focus-on-gaming-for-mid-range-phones-46401.html",
+   "note": "Announced by MediaTek (TechNave, 27 April 2026).",
+   "checked": "2026-11-01",
+   "by": "checked by hand"
+  },
+  "dimensity-7500": {
+   "name": "Dimensity 7500",
+   "decision": "added",
+   "firstSeen": "2026-05-29",
+   "source": "fonearena",
+   "url": "https://www.fonearena.com/blog/483899/mediatek-dimensity-7500-features.html",
+   "note": "Announced by MediaTek (FoneArena, 29 May 2026).",
+   "checked": "2026-11-01",
+   "by": "checked by hand"
+  }
+ }
+}

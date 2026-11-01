@@ -1,0 +1,16 @@
+{
+  "id": "dimensity-8020",
+  "name": "Dimensity 8020",
+  "vendor": "mediatek",
+  "summary": "Added after a check by hand: First reported in the Infinix Zero 30 (Lowyat, 4 September 2023).",
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "mediatek",
+      "url": "https://www.mediatek.com/products/smartphones/mediatek-dimensity-8020",
+      "checked": "2026-11-01",
+      "note": "Specifications from MediaTek's own product page."
+    }
+  },
+  "family": "Dimensity 8000"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "dimensity-8300",
+  "name": "Dimensity 8300",
+  "vendor": "mediatek",
+  "summary": "Added after a check by hand: MediaTek's own release, 21 November 2023.",
+  "cpu": {
+    "cores": 8,
+    "clusters": [
+      {
+        "count": 4,
+        "core": "Arm Cortex-A715"
+      },
+      {
+        "count": 4,
+        "core": "Arm Cortex-A510"
+      }
+    ]
+  },
+  "gpu": {
+    "name": "Arm Mali-G615 MC6"
+  },
+  "memory": "Quad-channel LPDDR5X",
+  "storage": "UFS 4.0 + MCQ",
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "mediatek",
+      "url": "https://www.mediatek.com/products/smartphones/mediatek-dimensity-8300",
+      "checked": "2026-11-01",
+      "note": "Specifications from MediaTek's own product page."
+    },
+    "fields": {
+      "announced": {
+        "class": "official",
+        "source": "mediatek",
+        "url": "https://www.mediatek.com/press-room/mediateks-new-dimensity-8300-chipset-redefines-premium-experiences-in-5g-smartphones",
+        "checked": "2026-11-01",
+        "note": "MediaTek's own release, 21 November 2023."
+      }
+    }
+  },
+  "family": "Dimensity 8000",
+  "announced": "2023-11-21"
+}

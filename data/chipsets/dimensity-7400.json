@@ -1,0 +1,26 @@
+{
+  "id": "dimensity-7400",
+  "name": "Dimensity 7400",
+  "vendor": "mediatek",
+  "summary": "Added after a check by hand: MediaTek's own release, 25 February 2025.",
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "mediatek",
+      "url": "https://www.mediatek.com/products/smartphones/mediatek-dimensity-7400",
+      "checked": "2026-11-01",
+      "note": "Specifications from MediaTek's own product page."
+    },
+    "fields": {
+      "announced": {
+        "class": "official",
+        "source": "mediatek",
+        "url": "https://www.mediatek.com/press-room/mediatek-dimensity-7400-and-dimensity-6400-makes-improved-gaming-connectivity-and-ai-performance-more-accessible",
+        "checked": "2026-11-01",
+        "note": "MediaTek's own release, 25 February 2025."
+      }
+    }
+  },
+  "family": "Dimensity 7000",
+  "announced": "2025-02-25"
+}

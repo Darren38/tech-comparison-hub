@@ -1,0 +1,16 @@
+{
+  "id": "dimensity-7450",
+  "name": "Dimensity 7450",
+  "vendor": "mediatek",
+  "summary": "Added after a check by hand: Announced by MediaTek (TechNave, 27 April 2026).",
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "mediatek",
+      "url": "https://www.mediatek.com/products/smartphones/mediatek-dimensity-7450",
+      "checked": "2026-11-01",
+      "note": "Specifications from MediaTek's own product page."
+    }
+  },
+  "family": "Dimensity 7000"
+}

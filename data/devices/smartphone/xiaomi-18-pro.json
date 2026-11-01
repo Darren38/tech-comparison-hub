@@ -5,7 +5,7 @@
   "category": "smartphone",
   "series": "Xiaomi",
   "form": "bar",
-  "status": "pre-order",
+  "status": "released",
   "announced": "2026-09-23",
   "segment": "flagship",
   "aliases": [
@@ -187,7 +187,24 @@
       "url": "https://technave.com/gadget/Xiaomi-18-Pro-Series-China-release-Snapdragon-8-Elite-Gen-6-series-200MP-Leica-dual-cameras-and-more-from-RM3-652-47520.html",
       "checked": "2026-09-24",
       "note": "Specifications from launch reports by TechNave, Gizmochina, Zing Gadget and SoyaCincau; only values at least two of them agree on are recorded (FoneArena's report gave the 18 Pro the Extreme chip, which the others contradict). Weight from Gizmochina. No independent tests yet: its scores come from specifications only."
+    },
+    "fields": {
+      "status": {
+        "class": "news",
+        "source": "mydrivers",
+        "url": "https://news.mydrivers.com/1/1153/1153815.htm",
+        "checked": "2026-11-01",
+        "note": "On sale in China from 24 September 2026: Xiaomi's president said the Xiaomi 18 Pro series had gone on sale (MyDrivers, 24 September). Not sold in Malaysia yet."
+      },
+      "released": {
+        "class": "news",
+        "source": "mydrivers",
+        "url": "https://news.mydrivers.com/1/1153/1153815.htm",
+        "checked": "2026-11-01",
+        "note": "On sale in China from 24 September 2026: Xiaomi's president said the Xiaomi 18 Pro series had gone on sale (MyDrivers, 24 September). Not sold in Malaysia yet."
+      }
     }
   },
-  "dataStatus": "checked"
+  "dataStatus": "checked",
+  "released": "2026-09-24"
 }

@@ -1,0 +1,49 @@
+{
+  "id": "dimensity-8400",
+  "name": "Dimensity 8400",
+  "vendor": "mediatek",
+  "summary": "Added after a check by hand: MediaTek's own release, 23 December 2024.",
+  "cpu": {
+    "cores": 8,
+    "clusters": [
+      {
+        "count": 1,
+        "core": "Arm Cortex-A725"
+      },
+      {
+        "count": 3,
+        "core": "Arm Cortex-A725"
+      },
+      {
+        "count": 4,
+        "core": "Arm Cortex-A725"
+      }
+    ]
+  },
+  "gpu": {
+    "name": "Arm Mali-G720 MC7"
+  },
+  "npu": "MediaTek NPU 880",
+  "memory": "LPDDR5X",
+  "storage": "UFS 4 + MCQ",
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "mediatek",
+      "url": "https://www.mediatek.com/products/smartphones/mediatek-dimensity-8400",
+      "checked": "2026-11-01",
+      "note": "Specifications from MediaTek's own product page."
+    },
+    "fields": {
+      "announced": {
+        "class": "official",
+        "source": "mediatek",
+        "url": "https://www.mediatek.com/press-room/mediatek-unveils-the-dimensity-8400-the-first-all-big-core-chip-for-premium-smartphones",
+        "checked": "2026-11-01",
+        "note": "MediaTek's own release, 23 December 2024."
+      }
+    }
+  },
+  "family": "Dimensity 8000",
+  "announced": "2024-12-23"
+}

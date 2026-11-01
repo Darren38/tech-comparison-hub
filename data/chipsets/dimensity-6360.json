@@ -1,0 +1,16 @@
+{
+  "id": "dimensity-6360",
+  "name": "Dimensity 6360",
+  "vendor": "mediatek",
+  "summary": "Added after a check by hand: Named in MediaTek's own blog of 15 May 2026 (phones using it were reported earlier).",
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "mediatek",
+      "url": "https://www.mediatek.com/products/smartphones/mediatek-dimensity-6360",
+      "checked": "2026-11-01",
+      "note": "Specifications from MediaTek's own product page."
+    }
+  },
+  "family": "Dimensity 6000"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "dimensity-7300x",
+  "name": "Dimensity 7300X",
+  "vendor": "mediatek",
+  "summary": "Added after a check by hand: MediaTek's own release, 30 May 2024.",
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "mediatek",
+      "url": "https://www.mediatek.com/products/smartphones/mediatek-dimensity-7300x",
+      "checked": "2026-11-01",
+      "note": "Specifications from MediaTek's own product page."
+    },
+    "fields": {
+      "announced": {
+        "class": "official",
+        "source": "mediatek",
+        "url": "https://www.mediatek.com/press-room/mediatek-dimensity-7300-chips-level-up-ai-and-mobile-gaming-for-high-tech-smartphones-and-foldables",
+        "checked": "2026-11-01",
+        "note": "MediaTek's own release, 30 May 2024."
+      }
+    }
+  },
+  "family": "Dimensity 7000",
+  "announced": "2024-05-30"
+}

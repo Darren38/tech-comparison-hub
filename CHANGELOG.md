@@ -1,6 +1,14 @@
 # Changelog
 
-## 1 November 2026
+## 1 November 2026 (second update)
+
+The chipset check fixed, the held chips checked by hand, and the newest flagships brought up to date.
+
+- The open-source AI check of new chipsets answered "none" for every chip on its first run, so all 26 waited for a person. It now may only answer with a year or "unknown", the question no longer ends with an empty "(none)" list (which the model most likely copied), each answer is kept so it can be seen, and before each check the model must date three well-known chips correctly; if it doesn't, nothing is decided that day.
+- The 26 held chips were checked by hand: 21 added (Dimensity 8300, 8400 and 8500, 8020, 8050 and 8250, 7020, 7025, 7030, 7100, 7300X, 7350, 7360, 7400 and 7400X, 7450 and 7450X, 7500, 6360, 6400 and 6500), each with MediaTek's own specifications and the date of MediaTek's announcement or the earliest dated launch report; 5 left out as older than 2023 (Snapdragon 8 Gen 1 and 7 Gen 1, Dimensity 9000, 8000 and 8100). The hub now has 163 chipsets.
+- Latest flagships: the Xiaomi 18 Pro and 18 Pro Max are marked as released (on sale in China since 24 September; not sold in Malaysia yet), and Motorola's confirmed 5 November launch of the Signature 27 is added to the news. These cards are now checked every week.
+
+## 1 November 2026 (first update)
 
 Chipsets now join the hub by themselves, flagships first, plus this week's checked news.
 
