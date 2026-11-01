@@ -9,6 +9,7 @@ a check that found the wrong content - is a real failure.
 """
 from __future__ import annotations
 
+import os
 import re
 import sys
 from pathlib import Path
@@ -74,6 +75,11 @@ def main() -> int:
             print("   FAIL", r)
         for o in outside:
             print("   warn", o)
+        if os.environ.get("GITHUB_ACTIONS"):  # notes on the run that GitHub shows without signing in
+            for r in real[:20]:
+                print(f"::error title=Test failed::{r[:900]}")
+            for o in outside[:10]:
+                print(f"::warning title=Outside the site's control::{o[:400]}")
     print("RESULT:", "FAILED" if total_real else "PASSED")
     return 1 if total_real else 0
 
