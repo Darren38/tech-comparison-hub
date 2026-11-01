@@ -20,6 +20,9 @@ EXTERNAL = [
     re.compile(r"Failed to load resource: the server responded with a status of (?:5\d\d|429|403|404|410) \(\)\s+https?://(?!(?:" + "|".join(map(re.escape, SITE_HOSTS)) + r"))\S+"),
     re.compile(r"Failed to load resource: net::ERR_(?:BLOCKED_BY_RESPONSE|NAME_NOT_RESOLVED|CONNECTION_\w+|TIMED_OUT)\S*\s+https?://(?!(?:" + "|".join(map(re.escape, SITE_HOSTS)) + r"))\S+"),
     re.compile(r"status of 5\d\d \(\)\s+https://tech-hub-relay\.[^/]+/feed\?url="),
+    # the relay only answers the real site's address; a copy under test on 127.0.0.2 is refused (CORS), visitors never are
+    re.compile(r"Access to fetch at 'https://tech-hub-relay\.[^']+' from origin 'http://127\.0\.0\.2:\d+' has been blocked by CORS policy"),
+    re.compile(r"Failed to load resource: net::ERR_FAILED\s+https://tech-hub-relay\.[^/]+/feed\?url="),
     # a copy served from this computer asks its own serve.py to collect headlines; a plain file server answers 501
     re.compile(r"status of 501 \(Unsupported method \('POST'\)\)\s+http://(?:127\.0\.0\.1|localhost):\d+/api/live/headlines"),
 ]

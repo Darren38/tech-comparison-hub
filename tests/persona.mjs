@@ -136,6 +136,8 @@ const srcIds = new Set(data.core.sources); const brandIds = new Set(data.core.br
   const pick = await ev(`(() => { const li = document.querySelector('.live__item .live__devices a[href^="#/device/"]')?.closest('.live__item'); return li ? { title: li.querySelector('.live__link')?.childNodes[0]?.textContent?.trim(), dev: li.querySelector('.live__devices a').getAttribute('href') } : null; })()`);
   if (pick) {
     await hashGo(pick.dev, 5000);
+    // Version 38: open "Show more" first, as a reader would; older headlines sit behind it
+    await ev(`(async () => { for (let k = 0; k < 10; k++) { const b = [...document.querySelectorAll('main button')].find((b) => /^Show \\d+ more|^Show more|^Show all/i.test(b.innerText.trim()) && b.offsetParent); if (!b) break; b.click(); await new Promise((r) => setTimeout(r, 300)); } return 1; })()`);
     const shown = await ev(`document.body.innerText.includes(${J(pick.title.slice(0, 40))})`);
     check(P, 'the tagged device page shows that headline too', shown, `${pick.dev} / ${pick.title}`);
   }
