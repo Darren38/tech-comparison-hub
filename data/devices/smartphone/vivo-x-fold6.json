@@ -90,6 +90,13 @@
         "url": "https://www.lowyat.net/2026/397165/vivo-x-fold6-china/",
         "checked": "2026-11-01",
         "note": "Launched in China (Lowyat, 29 June 2026)."
+      },
+      "official_page": {
+        "class": "official",
+        "source": "vivo",
+        "url": "https://www.vivo.com.cn/vivo/xfold6/",
+        "checked": "2026-11-01",
+        "note": "X Fold6 product page on vivo's China site."
       }
     }
   },

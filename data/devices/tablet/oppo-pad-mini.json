@@ -74,8 +74,22 @@
         "url": "https://www.fonearena.com/blog/480736/oppo-pad-mini-price-features.html",
         "checked": "2026-11-01",
         "note": "Announced in China (FoneArena, 22 April 2026)."
+      },
+      "official_page": {
+        "class": "official",
+        "source": "oppo",
+        "url": "https://www.oppo.com/my/accessories/oppo-pad-mini-matte-display-edition/",
+        "checked": "2026-11-01",
+        "note": "OPPO Malaysia's OPPO Pad Mini Matte Display Edition page."
       }
     }
   },
-  "dataStatus": "compiled"
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-pad-mini-en/list-page/600-600-purple.png",
+    "page": "https://www.oppo.com/my/accessories/oppo-pad-mini-matte-display-edition/",
+    "credit": "OPPO",
+    "checked": "2026-11-01"
+  }
 }

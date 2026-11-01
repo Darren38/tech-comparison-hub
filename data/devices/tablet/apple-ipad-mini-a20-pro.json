@@ -151,8 +151,22 @@
         "url": "https://www.apple.com/newsroom/2026/10/apple-gives-ipad-mini-its-biggest-update-ever/",
         "checked": "2026-11-01",
         "note": "Apple Newsroom, October 2026."
+      },
+      "official_page": {
+        "class": "official",
+        "source": "apple",
+        "url": "https://www.apple.com/my/ipad-mini/",
+        "checked": "2026-11-01",
+        "note": "Apple Malaysia's iPad mini page."
       }
     }
   },
-  "dataStatus": "compiled"
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://www.apple.com/newsroom/images/2026/10/apple-gives-ipad-mini-its-biggest-update-ever/tile/Apple-iPad-mini-hero-261026-lp.jpg.og.jpg?202610302143",
+    "page": "https://www.apple.com/newsroom/2026/10/apple-gives-ipad-mini-its-biggest-update-ever/",
+    "credit": "Apple",
+    "checked": "2026-11-01"
+  }
 }

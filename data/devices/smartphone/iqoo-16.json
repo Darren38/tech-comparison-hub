@@ -84,6 +84,13 @@
         "url": "https://www.lowyat.net/2026/405886/iqoo-16-china-launch/",
         "checked": "2026-11-01",
         "note": "Launched in China (Lowyat, 30 September 2026)."
+      },
+      "official_page": {
+        "class": "official",
+        "source": "vivo",
+        "url": "https://www.vivo.com.cn/vivo/iqoo16/",
+        "checked": "2026-11-01",
+        "note": "iQOO 16 product page on vivo's China site."
       }
     }
   },
@@ -96,5 +103,20 @@
       "note": "iQOO confirmed a Malaysian launch in November 2026; no price yet."
     }
   },
-  "dataStatus": "compiled"
+  "dataStatus": "compiled",
+  "prices": [
+    {
+      "region": "CN",
+      "currency": "CNY",
+      "amount": 5999,
+      "config": "12 GB / 256 GB",
+      "date": "2026-09-30",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2026/405886/iqoo-16-china-launch/",
+      "class": "news",
+      "accessed": "2026-11-01",
+      "note": "TechNave reports the same price."
+    }
+  ]
 }

@@ -47,6 +47,13 @@
         "url": "https://www.lowyat.net/2026/403376/huawei-watch-6-series-now-official/",
         "checked": "2026-11-01",
         "note": "Officially introduced (Lowyat, 4 September 2026)."
+      },
+      "official_page": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://consumer.huawei.com/my/wearables/watch-6/",
+        "checked": "2026-11-01",
+        "note": "Huawei Malaysia's Watch 6 page."
       }
     }
   },
@@ -59,5 +66,12 @@
       "note": "Pre-orders open; Huawei Malaysia announces the price at the 3 November 2026 launch."
     }
   },
-  "dataStatus": "compiled"
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/wearables/watch-6/list-42mm-gold.png",
+    "page": "https://consumer.huawei.com/my/wearables/watch-6/",
+    "credit": "Huawei",
+    "checked": "2026-11-01"
+  }
 }
