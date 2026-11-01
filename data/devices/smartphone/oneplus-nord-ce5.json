@@ -43,7 +43,7 @@
       "capacity_mah": 7100
     },
     "platform": {
-      "chipset_note": "Dimensity 8350 Apex"
+      "chipset": "dimensity-8350-apex"
     },
     "charging": {
       "wired_w": 80
@@ -62,6 +62,15 @@
       "url": "https://www.oneplus.com/my/nord-ce5/specs",
       "checked": "2026-09-25",
       "note": "Read automatically from the maker’s Malaysian specification page and reviewed; values not found on the page are left out."
+    },
+    "fields": {
+      "specs.platform.chipset": {
+        "class": "official",
+        "source": "oneplus",
+        "url": "https://www.oneplus.com/my/nord-ce5/specs",
+        "checked": "2026-10-26",
+        "note": "OnePlus Malaysia's specification page: \"MediaTek Dimensity 8350 Apex\"."
+      }
     }
   },
   "dataStatus": "compiled"

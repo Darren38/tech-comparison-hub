@@ -1,0 +1,16 @@
+{
+  "id": "kirin-9010b",
+  "name": "Kirin 9010B",
+  "vendor": "hisilicon",
+  "family": "Kirin",
+  "summary": "Name recorded from the maker's own specification page. Further details are added automatically when the chip maker publishes them.",
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "huawei",
+      "url": "https://consumer.huawei.com/my/tablets/matepad-mini/specs/",
+      "checked": "2026-10-26",
+      "note": "Named on Huawei Malaysia's specification page for the MatePad Mini (\"Kirin 9010B\")."
+    }
+  }
+}

@@ -196,28 +196,43 @@ def check_pages(base: str, browser: str | None) -> None:
         warn("no headless browser found; pages were not drawn")
         return
     for label, route, words in PAGES:
-        with tempfile.TemporaryDirectory() as profile:
-            # GitHub's Ubuntu servers don't allow Chrome's own sandbox; only this site is opened there
-            sandbox = ["--no-sandbox"] if sys.platform.startswith("linux") else []
-            cmd = [browser, *sandbox, "--headless=new", "--no-first-run", "--disable-gpu", "--disable-extensions", "--disable-sync",
-                   f"--user-data-dir={profile}", "--window-size=1366,900", "--virtual-time-budget=20000",
-                   "--enable-logging=stderr", "--v=0", "--dump-dom", base + route]
-            try:
-                run = subprocess.run(cmd, capture_output=True, timeout=120, text=True, encoding="utf-8", errors="replace")
-            except subprocess.TimeoutExpired:
-                fail(f"{label}: the browser didn't finish drawing the page within 2 minutes")
-                continue
-        dom, log = run.stdout, run.stderr
-        text = re.sub(r"<[^>]+>", " ", re.sub(r"(?s)<(script|style)[^>]*>.*?</\1>", " ", dom))
-        console = [l for l in log.splitlines() if "CONSOLE" in l or "Content Security Policy" in l or "Refused to" in l]
-        broken = [l for l in console if re.search(r"Uncaught|Refused to|Content Security Policy", l)]
-        missing = [w for w in words if w not in text]
-        if broken:
-            fail(f"{label}: {re.sub(r'^.*?CONSOLE', 'CONSOLE', broken[0])[:220]}")
-        elif missing or len(text.split()) < 80:
-            fail(f"{label}: the page didn't draw its content (missing {missing or 'text'})")
-        else:
-            ok(f"{label} draws its content ({len(text.split())} words), no script errors")
+        # Version 35: pictures are off here (check_images.py checks them every day). Chrome's --dump-dom waits for every
+        # request, so one publisher's stalled picture server could hold a page past the limit although visitors already
+        # saw it drawn (23 Oct 2026, Home and News). A page that runs out of time, or is caught before its content is
+        # drawn (27 Oct 2026, Home without its menu), is tried once more. A script error or a blocked file fails at once.
+        problem = None
+        for attempt in (1, 2):
+            with tempfile.TemporaryDirectory() as profile:
+                # GitHub's Ubuntu servers don't allow Chrome's own sandbox; only this site is opened there
+                sandbox = ["--no-sandbox"] if sys.platform.startswith("linux") else []
+                cmd = [browser, *sandbox, "--headless=new", "--no-first-run", "--disable-gpu", "--disable-extensions", "--disable-sync",
+                       f"--user-data-dir={profile}", "--window-size=1366,900", "--virtual-time-budget=20000",
+                       "--blink-settings=imagesEnabled=false",
+                       "--enable-logging=stderr", "--v=0", "--dump-dom", base + route]
+                try:
+                    run = subprocess.run(cmd, capture_output=True, timeout=120, text=True, encoding="utf-8", errors="replace")
+                except subprocess.TimeoutExpired:
+                    problem = ("again", "the browser didn't finish drawing the page within 2 minutes")
+                else:
+                    dom, log = run.stdout, run.stderr
+                    text = re.sub(r"<[^>]+>", " ", re.sub(r"(?s)<(script|style)[^>]*>.*?</\1>", " ", dom))
+                    console = [l for l in log.splitlines() if "CONSOLE" in l or "Content Security Policy" in l or "Refused to" in l]
+                    broken = [l for l in console if re.search(r"Uncaught|Refused to|Content Security Policy", l)]
+                    missing = [w for w in words if w not in text]
+                    if broken:
+                        problem = ("now", re.sub(r"^.*?CONSOLE", "CONSOLE", broken[0])[:220])
+                    elif missing or len(text.split()) < 80:
+                        problem = ("again", f"the page didn't draw its content (missing {missing or 'text'})")
+                    else:
+                        problem = None
+                        ok(f"{label} draws its content ({len(text.split())} words), no script errors"
+                           + (" (second try)" if attempt == 2 else ""))
+            if problem is None or problem[0] == "now":
+                break
+            if attempt == 1:
+                print(f"note  {label}: {problem[1]}; trying once more", flush=True)
+        if problem:
+            fail(f"{label}: {problem[1]}" + (", twice" if problem[0] == "again" else ""))
 
 
 def check_fresh(data: dict) -> None:

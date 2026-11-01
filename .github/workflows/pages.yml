@@ -119,6 +119,12 @@ jobs:
         run: python tools/auto_labs.py
         continue-on-error: true
 
+      # Version 35: chipsets from Qualcomm's, MediaTek's and Samsung Semiconductor's own product pages. Details missing
+      # from chips already on the site are added (a hand-entered value always wins); a new chip waits for the AI check.
+      - name: Add chipsets and chip details from the chip makers' own pages (daily; full lists weekly)
+        run: python tools/auto_chips.py
+        continue-on-error: true
+
       - name: Refresh benchmark databases (once a day)
         run: python tools/refresh_benchmarks.py --max-age-hours 20
         continue-on-error: true
@@ -190,17 +196,23 @@ jobs:
         run: echo "count=$(python tools/ai_device_check.py --pending)" >> "$GITHUB_OUTPUT"
         continue-on-error: true
 
+      # Version 35: new chipsets wait for the same model; a chip is added only when it is sure (otherwise held for a person)
+      - name: New chipsets waiting for the AI check
+        id: chipwait
+        run: echo "count=$(python tools/ai_chip_check.py --pending)" >> "$GITHUB_OUTPUT"
+        continue-on-error: true
+
       # Qwen3.5 9B (5.7 GB) and llama.cpp are downloaded once and kept in the Actions cache; both are checked against the
       # checksums published by Hugging Face and GitHub before anything runs.
-      - name: Open-source AI model files for new devices (kept between runs)
-        if: steps.devwait.outputs.count != '' && steps.devwait.outputs.count != '0'
+      - name: Open-source AI model files for new devices and chipsets (kept between runs)
+        if: (steps.devwait.outputs.count != '' && steps.devwait.outputs.count != '0') || (steps.chipwait.outputs.count != '' && steps.chipwait.outputs.count != '0')
         uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
         with:
           path: ~/llm9
           key: llm-qwen35-9b-q4km-llamacpp-b11208
 
-      - name: AI check of new devices before they join the site (Qwen3.5 9B on this server's CPU)
-        if: steps.devwait.outputs.count != '' && steps.devwait.outputs.count != '0'
+      - name: AI check of new devices and chipsets before they join the site (Qwen3.5 9B on this server's CPU)
+        if: (steps.devwait.outputs.count != '' && steps.devwait.outputs.count != '0') || (steps.chipwait.outputs.count != '' && steps.chipwait.outputs.count != '0')
         run: |
           mkdir -p ~/llm9 && cd ~/llm9
           [ -f Qwen3.5-9B-Q4_K_M.gguf ] || curl -sSfL --retry 3 -o Qwen3.5-9B-Q4_K_M.gguf             "https://huggingface.co/unsloth/Qwen3.5-9B-GGUF/resolve/3885219b6810b007914f3a7950a8d1b469d598a5/Qwen3.5-9B-Q4_K_M.gguf"
@@ -214,12 +226,17 @@ jobs:
           for i in $(seq 1 150); do curl -sf http://127.0.0.1:8766/health > /dev/null && break; sleep 2; done
           cd "$GITHUB_WORKSPACE"
           timeout 1200 python tools/ai_device_check.py || true
+          timeout 900 python tools/ai_chip_check.py || true
           kill %1 || true
         continue-on-error: true
 
       # Always: a device that has waited 3 days without an AI check is held for a person (no model needed for that).
       - name: Devices still waiting for the AI check
         run: python tools/ai_device_check.py
+        continue-on-error: true
+
+      - name: Chipsets still waiting for the AI check
+        run: python tools/ai_chip_check.py
         continue-on-error: true
 
       - name: Validate and build data
@@ -282,7 +299,7 @@ jobs:
   check:
     needs: deploy
     runs-on: ubuntu-24.04
-    timeout-minutes: 25
+    timeout-minutes: 35
     permissions:
       contents: read
     steps:

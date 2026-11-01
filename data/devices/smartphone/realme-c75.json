@@ -41,7 +41,7 @@
       "wired_w": 45
     },
     "platform": {
-      "chipset_note": "Helio G92 Max"
+      "chipset": "helio-g92-max"
     },
     "memory": {
       "storage_gb": [
@@ -78,6 +78,15 @@
       "url": "https://www.realme.com/my/realme-c75/specs",
       "checked": "2026-09-25",
       "note": "Read automatically from the maker’s Malaysian specification page and reviewed; values not found on the page are left out."
+    },
+    "fields": {
+      "specs.platform.chipset": {
+        "class": "official",
+        "source": "realme",
+        "url": "https://www.realme.com/my/realme-c75/specs",
+        "checked": "2026-10-26",
+        "note": "realme Malaysia's specification page: \"MediaTek Helio G92 Max Chipset\"."
+      }
     }
   },
   "dataStatus": "compiled"

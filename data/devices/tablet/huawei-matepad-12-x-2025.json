@@ -35,7 +35,7 @@
       "peak_nits": 1000
     },
     "platform": {
-      "chipset_note": "Kirin T92B (octa-core)"
+      "chipset": "kirin-t92b"
     },
     "memory": {
       "ram_gb": [
@@ -73,6 +73,15 @@
       "url": "https://consumer.huawei.com/my/tablets/matepad-12-x-2025/specs/",
       "checked": "2026-09-25",
       "note": "Read from HUAWEI Malaysia’s specification page; launch month from Malaysian launch reports."
+    },
+    "fields": {
+      "specs.platform.chipset": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://consumer.huawei.com/my/tablets/matepad-12-x-2025/specs/",
+        "checked": "2026-10-26",
+        "note": "Huawei Malaysia's specification page: \"Kirin T92B, Octa-core\"."
+      }
     }
   },
   "dataStatus": "checked"

@@ -1,0 +1,16 @@
+{
+  "id": "helio-g92-max",
+  "name": "Helio G92 Max",
+  "vendor": "mediatek",
+  "family": "Helio",
+  "summary": "Name recorded from the maker's own specification page. Further details are added automatically when the chip maker publishes them.",
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "realme",
+      "url": "https://www.realme.com/my/realme-c75/specs",
+      "checked": "2026-10-26",
+      "note": "Named on realme Malaysia's specification page for the realme C75 (\"MediaTek Helio G92 Max\")."
+    }
+  }
+}

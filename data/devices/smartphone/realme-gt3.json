@@ -36,7 +36,7 @@
       "wired_w": 240
     },
     "platform": {
-      "chipset_note": "Snapdragon 8+"
+      "chipset": "snapdragon-8-plus-gen-1"
     },
     "memory": {
       "ram_gb": [
@@ -83,6 +83,15 @@
       "url": "https://www.realme.com/my/realme-gt-3/specs",
       "checked": "2026-09-25",
       "note": "Read automatically from the maker’s Malaysian specification page and reviewed; values not found on the page are left out."
+    },
+    "fields": {
+      "specs.platform.chipset": {
+        "class": "official",
+        "source": "realme",
+        "url": "https://www.realme.com/my/realme-gt-3/specs",
+        "checked": "2026-10-26",
+        "note": "realme's page names it \"Snapdragon 8+ 5G Chipset\" with a TSMC 4 nm CPU up to 3.0 GHz and an Adreno 730 GPU, which is Qualcomm's Snapdragon 8+ Gen 1."
+      }
     }
   },
   "dataStatus": "compiled"

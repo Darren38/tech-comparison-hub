@@ -41,7 +41,7 @@
       "peak_nits": 1800
     },
     "platform": {
-      "chipset_note": "Kirin 9010B (hexa-core)"
+      "chipset": "kirin-9010b"
     },
     "memory": {
       "ram_gb": [
@@ -76,6 +76,15 @@
       "url": "https://consumer.huawei.com/my/tablets/matepad-mini/specs/",
       "checked": "2026-09-25",
       "note": "Read from HUAWEI Malaysia’s specification page; launch month from Malaysian launch reports."
+    },
+    "fields": {
+      "specs.platform.chipset": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://consumer.huawei.com/my/tablets/matepad-mini/specs/",
+        "checked": "2026-10-26",
+        "note": "Huawei Malaysia's specification page: \"Kirin 9010B, Hexa-core\"."
+      }
     }
   },
   "dataStatus": "checked"

@@ -37,7 +37,7 @@
       "peak_nits": 2700
     },
     "platform": {
-      "chipset_note": "Google Tensor G4 (not yet in the chipset database)"
+      "chipset": "google-tensor-g4"
     },
     "memory": {
       "ram_gb": [
@@ -96,6 +96,15 @@
       "url": "https://support.google.com/pixelphone/answer/7158570?hl=en-GB",
       "checked": "2026-09-25",
       "note": "Read from Google’s Pixel phone hardware tech specs page (international figures). Folded it measures 155.2 × 77.1 × 10.5 mm."
+    },
+    "fields": {
+      "specs.platform.chipset": {
+        "class": "official",
+        "source": "google",
+        "url": "https://support.google.com/pixelphone/answer/7158570?hl=en-GB",
+        "checked": "2026-10-26",
+        "note": "Google's Pixel hardware tech specs: Processor - Google Tensor G4."
+      }
     }
   },
   "dataStatus": "compiled"

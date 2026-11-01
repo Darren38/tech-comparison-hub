@@ -1,0 +1,16 @@
+{
+  "id": "dimensity-8350-apex",
+  "name": "Dimensity 8350 Apex",
+  "vendor": "mediatek",
+  "family": "Dimensity 8000",
+  "summary": "Name recorded from the maker's own specification page. Further details are added automatically when the chip maker publishes them.",
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "oneplus",
+      "url": "https://www.oneplus.com/my/nord-ce5/specs",
+      "checked": "2026-10-26",
+      "note": "Named on OnePlus Malaysia's specification page for the Nord CE5 (\"MediaTek Dimensity 8350 Apex\")."
+    }
+  }
+}

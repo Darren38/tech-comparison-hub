@@ -1,0 +1,16 @@
+{
+  "id": "exynos-1330",
+  "name": "Exynos 1330",
+  "vendor": "samsung",
+  "family": "Exynos",
+  "summary": "Name recorded from the maker's own specification page. Further details are added automatically when the chip maker publishes them.",
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "samsung",
+      "url": "https://semiconductor.samsung.com/processor/mobile-processor/exynos-1330/",
+      "checked": "2026-10-26",
+      "note": "Samsung Semiconductor's product page; Samsung's newsroom spec table names it for the Galaxy A17 5G."
+    }
+  }
+}

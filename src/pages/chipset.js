@@ -9,6 +9,7 @@ import { provBadge, sourceLink, evidenceBlock, deviceCard, docCard, findingItem,
 import { scoreBars } from '../ui/charts.js';
 import { headToHeadTable } from './device.js';
 import { autoSlot, fillAuto } from '../ui/autolinks.js';
+import { t } from '../core/i18n.js';
 
 const ORDER = ['gb6_single', 'gb6_multi', 'antutu_v11', 'antutu_v10', 'wle', 'wle_stability', 'solar_bay', 'steel_nomad_light'];
 
@@ -24,6 +25,10 @@ function clusterDiagram(cpu) {
     ${cpu.note ? html`<p class="tiny muted" style="flex-basis:100%">${cpu.note}</p>` : ''}
   </div>`;
 }
+
+// Version 35: which details were read automatically from the chip maker's page (each label is a known phrase, so the
+// Chinese page translates it too)
+const AUTO_LABELS = { cpu: 'CPU layout', gpu: 'GPU', npu: 'NPU', modem: 'Modem', memory: 'Memory', storage: 'Storage', process: 'Process' };
 
 function specCard(chip) {
   const rows = [
@@ -45,6 +50,7 @@ function specCard(chip) {
     </tbody></table>
     ${chip.variants?.length ? html`<div style="margin-top:12px">${chip.variants.map((v) => html`<p class="small"><strong>${v.name}:</strong> ${v.note}</p>`)}</div>` : ''}
     ${chip.provenance?.default?.note ? html`<p class="tiny muted" style="margin-top:8px">${chip.provenance.default.note}</p>` : ''}
+    ${chip.autoFilled?.length && /^https:\/\//.test(chip.autoFilledFrom ?? '') ? html`<p class="tiny muted" style="margin-top:8px"><span>${t('Read automatically from the chip maker’s product page, not checked by a person yet:')}</span> ${chip.autoFilled.map((k, n) => html`${n ? ' · ' : ''}<span>${t(AUTO_LABELS[k] ?? k)}</span>`)} · <a href="${chip.autoFilledFrom}" target="_blank" rel="noopener noreferrer">${t('Source')}</a></p>` : ''}
   </section>`;
 }
 

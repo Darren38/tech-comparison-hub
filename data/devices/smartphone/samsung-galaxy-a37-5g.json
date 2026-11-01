@@ -95,7 +95,8 @@
       "weight_g": 196.0
     },
     "platform": {
-      "cpu": "Octa-Core; 2.75GHz, 2GHz"
+      "cpu": "Octa-Core; 2.75GHz, 2GHz",
+      "chipset": "exynos-1480"
     },
     "audio": {
       "speakers": "Stereo speakers",
@@ -130,6 +131,13 @@
         "class": "platform",
         "source": "platform",
         "note": "Calculated from resolution and screen size."
+      },
+      "specs.platform.chipset": {
+        "class": "official",
+        "source": "samsung",
+        "url": "https://www.samsung.com/my/smartphones/galaxy-a/galaxy-a37-5g-awesome-charcoal-256gb-sm-a376bzatxme/",
+        "checked": "2026-10-26",
+        "note": "Samsung Malaysia's product page title: \"Galaxy A37 5G Charcoal 256GB Exynos 1480\"."
       }
     }
   },

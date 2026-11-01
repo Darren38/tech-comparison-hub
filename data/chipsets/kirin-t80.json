@@ -1,0 +1,16 @@
+{
+  "id": "kirin-t80",
+  "name": "Kirin T80",
+  "vendor": "hisilicon",
+  "family": "Kirin",
+  "summary": "Name recorded from the maker's own specification page. Further details are added automatically when the chip maker publishes them.",
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "huawei",
+      "url": "https://consumer.huawei.com/my/tablets/matepad-11-5/specs/",
+      "checked": "2026-10-26",
+      "note": "Named on Huawei Malaysia's specification page for the MatePad 11.5 (2024) (\"Kirin T80\")."
+    }
+  }
+}

@@ -666,6 +666,8 @@ const ZH = {
   '“src” is the number of independent sources behind the consensus. AnTuTu v11 is shown because v10 and v11 totals cannot be compared.': '“src”为共识值背后的独立来源数量。显示 AnTuTu v11，因为 v10 与 v11 总分不可比较。',
   'Tier': '档位',
   'Architecture': '架构',
+  'CPU layout': 'CPU 架构',
+  'Read automatically from the chip maker’s product page, not checked by a person yet:': '以下内容自动读取自芯片厂商的产品页面，尚未经过人工核对：',
   'NPU': 'NPU',
   'Benchmark consensus': '跑分共识',
   'Median of independent sources': '独立来源中位数',

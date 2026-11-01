@@ -843,5 +843,328 @@
       "display"
     ],
     "summary": "TIME's \"best inventions of 2026\" list includes the Galaxy S26 Ultra for its Privacy Display, which can hide the whole screen or parts of it (such as PIN entry or notifications) from people beside you. 9to5Google notes it can look inconsistent in some lighting."
+  },
+  {
+    "id": "soyacincau-oppo-find-x10-series-malaysia-launch",
+    "kind": "news",
+    "type": "launch",
+    "region": "MY",
+    "source": "soyacincau",
+    "class": "news",
+    "title": "Oppo Find X10 series Malaysia: Up to triple 200MP Hasselblad cameras and 8,000mAh battery, priced from RM4,599",
+    "url": "https://soyacincau.com/2026/10/22/oppo-find-x10-series-malaysia-launch-price-specs-preorder-promo/",
+    "author": "Alexander Wong",
+    "published": "2026-10-22",
+    "accessed": "2026-11-01",
+    "devices": [
+      "oppo-find-x10",
+      "oppo-find-x10-pro-max"
+    ],
+    "facets": [
+      "value",
+      "camera",
+      "battery"
+    ],
+    "summary": "Both models launched in Malaysia on 22 October with an 8,000 mAh silicon-carbon battery, 80 W wired and 50 W wireless charging and IP66/68/69. SoyaCincau lists RM4,599 for the Find X10 12 GB/256 GB, RM4,999 for 12 GB/512 GB and RM6,999 for the Pro Max 16 GB/512 GB; TechNave and Zing Gadget give RM4,999 as the Find X10's starting price, so the 256 GB price is not settled. Pre-orders ran until 29 October with a free 3D printer for the Pro Max and a free 512 GB upgrade for the Find X10."
+  },
+  {
+    "id": "technave-oppo-find-x10-series-malaysia",
+    "kind": "news",
+    "type": "price",
+    "region": "MY",
+    "source": "technave",
+    "class": "news",
+    "title": "OPPO Find X10 Series now in Malaysia with a triple 200MP camera system and an 8,000mAh battery, starting price at RM4,999",
+    "url": "https://technave.com/gadget/OPPO-Find-X10-Series-now-in-Malaysia-with-a-triple-200MP-camera-system-and-an-8-000mAh-battery-starting-price-at-RM4-999-47685.html",
+    "author": "Abel Wong",
+    "published": "2026-10-22",
+    "accessed": "2026-11-01",
+    "devices": [
+      "oppo-find-x10",
+      "oppo-find-x10-pro-max"
+    ],
+    "facets": [
+      "value"
+    ],
+    "summary": "TechNave gives RM4,999 for the Find X10 with 12 GB RAM and 256 GB storage as the series' Malaysian starting price, which differs from SoyaCincau's table (RM4,599 for that model)."
+  },
+  {
+    "id": "soyacincau-vivo-x500-series-malaysia-launch",
+    "kind": "news",
+    "type": "launch",
+    "region": "MY",
+    "source": "soyacincau",
+    "class": "news",
+    "title": "Vivo X500 series Malaysia: Up to 200MP ZEISS Camera, 7,800mAh battery, priced from RM4,699",
+    "url": "https://soyacincau.com/2026/10/27/vivo-x500-series-malaysia-official-launch-specs-pricing/",
+    "author": "Alexander Wong",
+    "published": "2026-10-27",
+    "accessed": "2026-11-01",
+    "devices": [
+      "vivo-x500",
+      "vivo-x500-pro",
+      "vivo-x500-pro-max"
+    ],
+    "facets": [
+      "value",
+      "camera",
+      "battery"
+    ],
+    "summary": "All three models are on sale in Malaysia through vivo's own store, Lazada and Shopee. Recommended prices: X500 RM4,699 (12/256 GB) and RM5,299 (12/512 GB), X500 Pro RM5,999 (12/256 GB), X500 Pro Max RM6,399 (12/256 GB) and RM6,999 (12/512 GB), and a 1 TB Photographer Kit at RM9,699. Early-bird prices until 2 November were RM300 lower for the Pro and Pro Max. Batteries: 7,500 mAh (X500), 6,510 mAh (Pro), 7,800 mAh (Pro Max), all with 90 W wired and 40 W wireless charging. TechNave reports the same starting and Pro Max prices."
+  },
+  {
+    "id": "soyacincau-iphone-duo-malaysia-launch-day",
+    "kind": "news",
+    "type": "availability",
+    "region": "MY",
+    "source": "soyacincau",
+    "class": "news",
+    "title": "iPhone Duo now officially in Malaysia: Queue still present at Apple Store TRX despite no walk-in stock",
+    "url": "https://soyacincau.com/2026/10/23/iphone-duo-now-in-malaysia-apple-store-trx-launch-day-queue/",
+    "published": "2026-10-23",
+    "accessed": "2026-11-01",
+    "devices": [
+      "apple-iphone-duo"
+    ],
+    "facets": [
+      "value"
+    ],
+    "summary": "The iPhone Duo went on sale in Malaysia on 23 October. Apple Store The Exchange TRX had display units but no walk-in stock; a new order on Apple's online store that day showed delivery in late January 2027. AppleCare+ costs RM1,499 and cuts an inner-screen repair from RM4,749 to RM469."
+  },
+  {
+    "id": "soyacincau-iphone-duo-online-scam-warning",
+    "kind": "news",
+    "type": "issue",
+    "region": "MY",
+    "source": "soyacincau",
+    "class": "news",
+    "title": "Before you buy an iPhone Duo online, watch out for this scam",
+    "url": "https://soyacincau.com/2026/10/27/before-you-buy-an-iphone-duo-online-watch-out-for-this-scam/",
+    "published": "2026-10-27",
+    "accessed": "2026-11-01",
+    "devices": [
+      "apple-iphone-duo"
+    ],
+    "facets": [
+      "value"
+    ],
+    "summary": "Kaspersky found fake stores imitating Apple that offer the iPhone Duo at a \"25% launch discount\" or ready stock and ask for name, phone and address (or a WhatsApp chat) before taking money. No Malay-language fake site was seen yet. With Malaysian stock scarce (from RM9,499 for 256 GB), SoyaCincau advises buying only from Apple, authorised resellers and telcos."
+  },
+  {
+    "id": "soyacincau-swap-protect-360-iphone-18-pro",
+    "kind": "news",
+    "type": "price",
+    "region": "MY",
+    "source": "soyacincau",
+    "class": "news",
+    "title": "Bought an iPhone 18 Pro? This protection plan promises up to 55% buyback value next year",
+    "url": "https://soyacincau.com/2026/10/26/bought-an-iphone-18-pro-this-protection-plan-promises-up-to-55-buyback-value-next-year/",
+    "published": "2026-10-26",
+    "accessed": "2026-11-01",
+    "devices": [
+      "apple-iphone-18-pro",
+      "apple-iphone-18-pro-max"
+    ],
+    "facets": [
+      "value",
+      "durability"
+    ],
+    "summary": "Swap Protect 360 (RM1,099 for two years, underwritten by The Pacific Insurance) covers accidental damage, liquid damage, attended theft and an extended warranty for the iPhone 18 Pro and 18 Pro Max in Malaysia, and guarantees a cash buyback of up to 55% of the recommended price without having to buy another phone. Enrolment must be within 30 days of purchase; it is open until 1 April 2027."
+  },
+  {
+    "id": "samsung-my-galaxy-a08-reliability",
+    "kind": "news",
+    "type": "analysis",
+    "region": "MY",
+    "source": "samsung",
+    "class": "official",
+    "title": "Built to Go the Distance: How the Samsung Galaxy A08 Redefines Long-Term Reliability for Malaysians",
+    "url": "https://news.samsung.com/my/built-to-go-the-distance-how-the-samsung-galaxy-a08-redefines-long-term-reliability-for-malaysians",
+    "published": "2026-10-28",
+    "accessed": "2026-11-01",
+    "devices": [
+      "samsung-galaxy-a08"
+    ],
+    "facets": [
+      "durability",
+      "software"
+    ],
+    "summary": "Samsung Malaysia: the Galaxy A08 is rated IP64 (dust and splashes, not for submersion), uses LPDDR5 RAM with up to 6 GB of extra virtual RAM, and gets up to six generations of OS upgrades and six years of security updates from its first global launch."
+  },
+  {
+    "id": "macrumors-ifixit-iphone-duo-teardown",
+    "kind": "news",
+    "type": "analysis",
+    "source": "macrumors",
+    "class": "news",
+    "title": "iFixit iPhone Duo Teardown Points to Possible Cause of Screen Cracks",
+    "url": "https://www.macrumors.com/2026/10/25/ifixit-iphone-duo-teardown/",
+    "published": "2026-10-25",
+    "accessed": "2026-11-01",
+    "devices": [
+      "apple-iphone-duo",
+      "samsung-galaxy-z-fold8",
+      "google-pixel-11-pro-fold"
+    ],
+    "facets": [
+      "durability"
+    ],
+    "summary": "iFixit gave the iPhone Duo a provisional repairability score of 5 out of 10 (the Galaxy Z Fold8 and Pixel 11 Pro Fold got 4): the outer screen comes off intact and the batteries release with a small electrical charge, but the inner display and hinge are hard to replace. Dust reached the hinge in its test, though less than on the Fold8 or Pixel 11 Pro Fold. The reported inner-screen cracks cluster where the hinge's cable gap meets its central support; iFixit names a hinge part that may not retract as one possible cause, without a firm answer."
+  },
+  {
+    "id": "9to5mac-apple-responds-iphone-duo-display-cracking",
+    "kind": "news",
+    "type": "issue",
+    "source": "9to5mac",
+    "class": "news",
+    "title": "Apple responds to reports of iPhone Duo's inner display cracking",
+    "url": "https://9to5mac.com/2026/10/26/apple-responds-to-reports-of-iphone-duos-inner-display-cracking/",
+    "author": "Chance Miller",
+    "published": "2026-10-26",
+    "accessed": "2026-11-01",
+    "devices": [
+      "apple-iphone-duo"
+    ],
+    "facets": [
+      "durability"
+    ],
+    "summary": "Apple says it is aware of an issue affecting the inner display of a small number of iPhone Duo units, which shows up soon after purchase. Affected owners should contact AppleCare for a replacement; AppleCare+ is not needed, and phones bought from a carrier also go to AppleCare. Some reports online were AI-generated fakes."
+  },
+  {
+    "id": "macrumors-apple-memo-iphone-duo-display-cracking",
+    "kind": "news",
+    "type": "issue",
+    "source": "macrumors",
+    "class": "news",
+    "title": "Apple Alerts Stores to iPhone Duo's Display Cracking Issue",
+    "url": "https://www.macrumors.com/2026/10/30/apple-alerts-stores-to-iphone-duo-display-cracking/",
+    "published": "2026-10-30",
+    "accessed": "2026-11-01",
+    "devices": [
+      "apple-iphone-duo"
+    ],
+    "facets": [
+      "durability"
+    ],
+    "summary": "An internal memo seen by MacRumors tells Apple Stores and authorised service providers to inspect a Duo with the inner-screen problem and repair or replace it under standard procedures. Apple says there is no recall and has no public repair programme for it yet."
+  },
+  {
+    "id": "9to5google-galaxy-s26-ultra-setup-bug",
+    "kind": "news",
+    "type": "issue",
+    "source": "9to5google",
+    "class": "news",
+    "title": "Some Galaxy S26 phones are basically paperweights while Samsung fixes a setup bug",
+    "url": "https://9to5google.com/2026/10/22/samsung-galaxy-s26-setup-bug/",
+    "author": "Ben Schoon",
+    "published": "2026-10-22",
+    "accessed": "2026-11-01",
+    "devices": [
+      "samsung-galaxy-s26-ultra"
+    ],
+    "facets": [
+      "software"
+    ],
+    "summary": "Some Galaxy S26 Ultra owners report being stuck at setup after a reset on One UI 9.0, with a \"webpage is unavailable\" error on a Samsung account page. A Samsung forum representative blamed an unstable system WebView on certain networks; switching from Wi-Fi to mobile data may get past it. A fix had not been released when reported."
+  },
+  {
+    "id": "9to5google-galaxy-s24-s25-one-ui-9-battery-reports",
+    "kind": "news",
+    "type": "issue",
+    "source": "9to5google",
+    "class": "news",
+    "title": "Some Galaxy S24, S25 owners say Samsung's latest update is wrecking battery life",
+    "url": "https://9to5google.com/2026/10/22/samsung-galaxy-s24-battery-life-one-ui-9/",
+    "author": "Ben Schoon",
+    "published": "2026-10-22",
+    "accessed": "2026-11-01",
+    "devices": [
+      "samsung-galaxy-s24",
+      "samsung-galaxy-s24-plus",
+      "samsung-galaxy-s24-ultra",
+      "samsung-galaxy-s25",
+      "samsung-galaxy-s25-plus",
+      "samsung-galaxy-s25-ultra"
+    ],
+    "facets": [
+      "battery",
+      "software"
+    ],
+    "summary": "Owners' reports (not widespread so far) of worse battery life, including higher idle drain, on Galaxy S24 and S25 phones after the One UI 9.0 (Android 17) update. Suggested steps: restart, force-stop misbehaving apps, or as a last resort a factory reset."
+  },
+  {
+    "id": "sammobile-galaxy-a35-one-ui-9-global",
+    "kind": "news",
+    "type": "software-update",
+    "source": "sammobile",
+    "class": "news",
+    "title": "Galaxy A35 stable One UI 9.0 (Android 17) update goes global",
+    "url": "https://www.sammobile.com/news/galaxy-a35-stable-one-ui-9-0-android-17-update-goes-global/",
+    "author": "Abid Iqbal Shaik",
+    "published": "2026-10-27",
+    "accessed": "2026-11-01",
+    "devices": [
+      "samsung-galaxy-a35-5g"
+    ],
+    "facets": [
+      "software"
+    ],
+    "summary": "After South Korea, stable One UI 9.0 is rolling out to the Galaxy A35 worldwide, with India among the first countries (firmware A356EXXUBEZJ2, for beta and non-beta users). It adds Quick panel customisation, a Warranty and care section, privacy indicators and redesigned Health, Accessibility and lock-screen clock."
+  },
+  {
+    "id": "sammobile-galaxy-a55-one-ui-9-wider",
+    "kind": "news",
+    "type": "software-update",
+    "source": "sammobile",
+    "class": "news",
+    "title": "Stable One UI 9 update rolling out to the Galaxy A55 more widely",
+    "url": "https://www.sammobile.com/news/galaxy-a55-stable-one-ui-9-update-released-more-widely/",
+    "author": "Asif Iqbal Shaik",
+    "published": "2026-10-26",
+    "accessed": "2026-11-01",
+    "devices": [
+      "samsung-galaxy-a55-5g"
+    ],
+    "facets": [
+      "software"
+    ],
+    "summary": "Stable One UI 9.0 (Android 17) for the Galaxy A55 is spreading beyond South Korea, first to beta users in India (firmware A556EXXUIEZJ1, over 300 MB), with Europe and the US expected next."
+  },
+  {
+    "id": "sammobile-galaxy-a57-october-2026-patch",
+    "kind": "news",
+    "type": "security",
+    "source": "sammobile",
+    "class": "news",
+    "title": "Samsung updates Galaxy A57 with October 2026 security patch",
+    "url": "https://www.sammobile.com/news/samsung-updates-galaxy-a57-with-october-2026-security-patch/",
+    "author": "Abid Iqbal Shaik",
+    "published": "2026-10-29",
+    "accessed": "2026-11-01",
+    "devices": [
+      "samsung-galaxy-a57-5g"
+    ],
+    "facets": [
+      "software"
+    ],
+    "summary": "A 370 MB update (firmware A5763XXS63ZJ2) brings the October 2026 security patch (62 fixes) to the Galaxy A57, starting in Europe and the Middle East; the earlier One UI 9.0 update had shipped with September's patch. The report does not mention the start-up problem some A57 owners reported after One UI 9.0."
+  },
+  {
+    "id": "macrumors-ios-27-1-iphone-duo-only",
+    "kind": "news",
+    "type": "software-update",
+    "source": "macrumors",
+    "class": "news",
+    "title": "Apple Released iOS 27.1 for iPhone Duo Only",
+    "url": "https://www.macrumors.com/2026/10/23/apple-releases-ios-27-1/",
+    "published": "2026-10-23",
+    "accessed": "2026-11-01",
+    "devices": [
+      "apple-iphone-duo"
+    ],
+    "facets": [
+      "software"
+    ],
+    "summary": "iOS 27.1 is only for the iPhone Duo: it ships preinstalled and a newer 27.1 build (bug fixes, no security fixes) installs during setup. Other iPhones skip to iOS 27.2, which the Duo can also install, expected about a week later."
   }
 ]

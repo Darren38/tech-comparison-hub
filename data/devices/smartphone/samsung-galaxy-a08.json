@@ -70,10 +70,14 @@
         "width_mm": 77.4,
         "depth_mm": 8.0
       },
-      "weight_g": 197.0
+      "weight_g": 197.0,
+      "ip": "IP64"
     },
     "software": {
-      "launch_os": "Android 17"
+      "launch_os": "Android 17",
+      "os_updates_years": 6,
+      "security_updates_years": 6,
+      "policy_note": "Samsung: up to six generations of OS upgrades and up to six years of security updates from the first global launch date."
     },
     "platform": {
       "cpu": "Octa-Core; 2.2GHz, 2GHz"
@@ -100,6 +104,20 @@
         "class": "platform",
         "source": "platform",
         "note": "Calculated from resolution and screen size."
+      },
+      "specs.build.ip": {
+        "class": "official",
+        "source": "samsung",
+        "url": "https://news.samsung.com/my/built-to-go-the-distance-how-the-samsung-galaxy-a08-redefines-long-term-reliability-for-malaysians",
+        "checked": "2026-11-01",
+        "note": "Samsung Newsroom Malaysia: IP64, protection against dust and water splashes, not for submersion."
+      },
+      "specs.software": {
+        "class": "official",
+        "source": "samsung",
+        "url": "https://news.samsung.com/my/built-to-go-the-distance-how-the-samsung-galaxy-a08-redefines-long-term-reliability-for-malaysians",
+        "checked": "2026-11-01",
+        "note": "Samsung Newsroom Malaysia, 28 October 2026."
       }
     }
   },

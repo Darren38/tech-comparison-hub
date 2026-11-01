@@ -133,6 +133,7 @@ class Dataset:
         self.chipsets = {c["id"]: c for c in load_folder(DATA / "chipsets", report)}
         self.devices = {d["id"]: d for d in load_folder(DATA / "devices", report)}
         self.auto_devices = add_auto_devices(self)
+        self.auto_chips = add_auto_chips(self)  # Version 35
         self.documents: dict[str, dict] = {}
         for folder in DOC_FOLDERS:
             for doc in load_folder(DATA / folder, report):
@@ -144,6 +145,8 @@ class Dataset:
         self.auto = apply_auto(self)
         if self.auto_devices:
             self.auto["newDevices"] = {k: (len(v) if isinstance(v, list) else v) for k, v in self.auto_devices.items()}
+        if self.auto_chips:
+            self.auto["chipMakers"] = {k: (len(v) if isinstance(v, list) else v) for k, v in self.auto_chips.items()}
         self.classes = {c["id"]: c for c in self.taxonomy.get("evidenceClasses", [])}
         self.facets = {f["id"] for f in self.taxonomy.get("facets", [])}
 
@@ -264,6 +267,41 @@ def add_auto_devices(ds: "Dataset") -> dict:
             filled += 1
     return {"at": auto.get("updatedAt"), "devices": added, "chipsets": [c for c in (auto.get("chipsets") or {}) if c in ds.chipsets],
             "filled": filled, "prices": priced, "held": len(auto.get("held") or {}), "changes": sum(len(v) for v in (auto.get("changes") or {}).values())}
+
+
+def add_auto_chips(ds: "Dataset") -> dict:
+    """Version 35: chipsets from the chip makers' own product pages (tools/auto_chips.py, live/auto/auto_chips.json).
+    New chips join only after the AI check was sure they are from 2023 on (tools/ai_chip_check.py); details are added to
+    a chip only where its record has none, so anything entered by hand wins; every value cites the maker's page."""
+    auto = read_auto("auto_chips.json")
+    if not auto:
+        return {}
+    added = []
+    for cid, rec in (auto.get("added") or {}).items():
+        if cid in ds.chipsets or f"chip:{cid}" in SKIP_AUTO or not isinstance(rec, dict) or rec.get("id") != cid:
+            continue
+        chip = json.loads(json.dumps(rec))
+        chip["_file"] = f"live/auto/auto_chips.json (chip {cid})"
+        ds.chipsets[cid] = chip
+        added.append(cid)
+    filled = 0
+    for cid, f in (auto.get("fill") or {}).items():
+        chip = ds.chipsets.get(cid)
+        if not chip or cid in added or f"chipfill:{cid}" in SKIP_AUTO or not isinstance(f, dict):
+            continue
+        prov = chip.setdefault("provenance", {}).setdefault("fields", {})
+        for key, value in (f.get("fields") or {}).items():
+            if key in chip or value in (None, "", {}, []):
+                continue
+            chip[key] = json.loads(json.dumps(value))
+            prov[key] = {"class": "official", "source": f.get("source"), "url": f.get("url"), "checked": f.get("checked"),
+                         "note": "Read automatically from the chip maker's product page; the record had no value for it. "
+                                 "Not checked by a person yet."}
+            chip["autoFilled"] = sorted(set(chip.get("autoFilled", [])) | {key})
+            chip["autoFilledFrom"] = f.get("url")
+            filled += 1
+    return {"at": auto.get("updatedAt"), "chipsets": added, "filled": filled, "waiting": len(auto.get("awaitingAi") or {}),
+            "held": len(auto.get("held") or {})}
 
 
 def apply_auto(ds: "Dataset") -> dict:
@@ -1266,6 +1304,7 @@ def compile_outputs(ds: Dataset, records: list[dict]) -> dict:
             "cores": (chip.get("cpu") or {}).get("cores"),
             "gpu": (chip.get("gpu") or {}).get("name"),
             "summary": chip.get("summary"),
+            **({"auto": True} if chip.get("auto") else {}),  # Version 35: added automatically (phone page or chip maker's page)
             "deviceCount": len(users),
             "m": {mid: [s["value"], s["confidence"][0], s["n"]] for mid, s in chipset_metrics.get(chip_id, {}).items()},
         })
@@ -1546,6 +1585,13 @@ def auto_culprits(ds: "Dataset", messages: Report) -> set[str]:
         for cid in auto_chips:
             if f"new_devices.json (chip {cid})" in m or f"unknown chipset '{cid}'" in m:
                 bad.add(f"chip:{cid}")
+        # Version 35: chips from the chip makers' pages, and details filled into known chips
+        mc = re.search(r"auto_chips\.json \(chip ([a-z0-9-]+)\)", m)
+        if mc:
+            bad.add(f"chip:{mc.group(1)}")
+        mf = re.search(r"chipsets[\\/]([a-z0-9-]+)\.json", m)
+        if mf and ds.chipsets.get(mf.group(1), {}).get("autoFilled"):
+            bad.add(f"chipfill:{mf.group(1)}")
         mm = re.search(r"devices[\\/][a-z]+[\\/]([a-z0-9-]+)\.json", m)
         if mm and ds.devices.get(mm.group(1), {}).get("autoFilled"):
             bad.add(f"fill:{mm.group(1)}")

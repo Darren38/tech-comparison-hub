@@ -1,0 +1,20 @@
+{
+  "id": "google-tensor-g3",
+  "name": "Google Tensor G3",
+  "vendor": "google",
+  "family": "Tensor",
+  "tier": "flagship",
+  "aliases": [
+    "Tensor G3"
+  ],
+  "summary": "Name recorded from the maker's own specification page. Further details are added automatically when the chip maker publishes them.",
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "google",
+      "url": "https://support.google.com/pixelphone/answer/7158570?hl=en-GB",
+      "checked": "2026-10-26",
+      "note": "Google's Pixel hardware tech specs list Google Tensor G3 for the Pixel 8, 8 Pro and 8a."
+    }
+  }
+}

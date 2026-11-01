@@ -1,0 +1,2044 @@
+{
+ "pages": {
+  "https://www.qualcomm.com/smartphones/products/7-series/snapdragon-7-gen-1-mobile-platform": {
+   "vendor": "qualcomm",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Snapdragon 7 Gen 1"
+  },
+  "https://www.qualcomm.com/smartphones/products/7-series/snapdragon-7-gen-3-mobile-platform": {
+   "vendor": "qualcomm",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Snapdragon 7 Gen 3",
+   "chip": "snapdragon-7-gen-3"
+  },
+  "https://www.qualcomm.com/smartphones/products/7-series/snapdragon-7-gen-4-mobile-platform": {
+   "vendor": "qualcomm",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Snapdragon 7s Gen 4",
+   "chip": "snapdragon-7s-gen-4"
+  },
+  "https://www.qualcomm.com/smartphones/products/7-series/snapdragon-7-plus-gen-2-mobile-platform": {
+   "vendor": "qualcomm",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Snapdragon 7+ Gen 2",
+   "chip": "snapdragon-7-plus-gen-2"
+  },
+  "https://www.qualcomm.com/smartphones/products/7-series/snapdragon-7-plus-gen-3-mobile-platform": {
+   "vendor": "qualcomm",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Snapdragon 7+ Gen 3",
+   "chip": "snapdragon-7-plus-gen-3"
+  },
+  "https://www.qualcomm.com/smartphones/products/7-series/snapdragon-710-mobile-platform": {
+   "vendor": "qualcomm",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Snapdragon 710"
+  },
+  "https://www.qualcomm.com/smartphones/products/7-series/snapdragon-712-mobile-platform": {
+   "vendor": "qualcomm",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Snapdragon 712"
+  },
+  "https://www.qualcomm.com/smartphones/products/7-series/snapdragon-720g-mobile-platform": {
+   "vendor": "qualcomm",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Snapdragon 720G"
+  },
+  "https://www.qualcomm.com/smartphones/products/7-series/snapdragon-730-mobile-platform": {
+   "vendor": "qualcomm",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Snapdragon 730"
+  },
+  "https://www.qualcomm.com/smartphones/products/7-series/snapdragon-730g-mobile-platform": {
+   "vendor": "qualcomm",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Snapdragon 730G"
+  },
+  "https://www.qualcomm.com/smartphones/products/7-series/snapdragon-732g-mobile-platform": {
+   "vendor": "qualcomm",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Snapdragon 732G"
+  },
+  "https://www.qualcomm.com/smartphones/products/7-series/snapdragon-750g-5g-mobile-platform": {
+   "vendor": "qualcomm",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Snapdragon 750G"
+  },
+  "https://www.qualcomm.com/smartphones/products/7-series/snapdragon-765-5g-mobile-platform": {
+   "vendor": "qualcomm",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Snapdragon 765"
+  },
+  "https://www.qualcomm.com/smartphones/products/7-series/snapdragon-765g-5g-mobile-platform": {
+   "vendor": "qualcomm",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Snapdragon 765G"
+  },
+  "https://www.qualcomm.com/smartphones/products/7-series/snapdragon-768g-5g-mobile-platform": {
+   "vendor": "qualcomm",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Snapdragon 768G"
+  },
+  "https://www.qualcomm.com/smartphones/products/7-series/snapdragon-778g-5g-mobile-platform": {
+   "vendor": "qualcomm",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Snapdragon 778G"
+  },
+  "https://www.qualcomm.com/smartphones/products/7-series/snapdragon-778g-plus-5g-mobile-platform": {
+   "vendor": "qualcomm",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Snapdragon 778G Plus"
+  },
+  "https://www.qualcomm.com/smartphones/products/7-series/snapdragon-780g-5g-mobile-platform": {
+   "vendor": "qualcomm",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Snapdragon 780G"
+  },
+  "https://www.qualcomm.com/smartphones/products/7-series/snapdragon-782g-mobile-platform": {
+   "vendor": "qualcomm",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Snapdragon 782G"
+  },
+  "https://www.qualcomm.com/smartphones/products/7-series/snapdragon-7s-gen-2-mobile-platform": {
+   "vendor": "qualcomm",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Snapdragon 7s Gen 2",
+   "chip": "snapdragon-7s-gen-2"
+  },
+  "https://www.qualcomm.com/smartphones/products/7-series/snapdragon-7s-gen-3-mobile-platform": {
+   "vendor": "qualcomm",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Snapdragon 7s Gen 3",
+   "chip": "snapdragon-7s-gen-3"
+  },
+  "https://www.qualcomm.com/smartphones/products/7-series/snapdragon-7s-gen-4-mobile-platform": {
+   "vendor": "qualcomm",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Snapdragon 7s Gen 4",
+   "chip": "snapdragon-7s-gen-4"
+  },
+  "https://www.qualcomm.com/smartphones/products/8-series/snapdragon-8-elite-extreme-gen-6-mobile-platform": {
+   "vendor": "qualcomm",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Snapdragon 8 Elite Extreme Gen 6",
+   "chip": "snapdragon-8-elite-extreme-gen-6"
+  },
+  "https://www.qualcomm.com/smartphones/products/8-series/snapdragon-8-elite-gen-5": {
+   "vendor": "qualcomm",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Snapdragon 8 Elite Gen 5",
+   "chip": "snapdragon-8-elite-gen-5"
+  },
+  "https://www.qualcomm.com/smartphones/products/8-series/snapdragon-8-elite-gen-6-mobile-platform": {
+   "vendor": "qualcomm",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Snapdragon 8 Elite Gen 6",
+   "chip": "snapdragon-8-elite-gen-6"
+  },
+  "https://www.qualcomm.com/smartphones/products/8-series/snapdragon-8-elite-mobile-platform": {
+   "vendor": "qualcomm",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Snapdragon 8 Elite",
+   "chip": "snapdragon-8-elite"
+  },
+  "https://www.qualcomm.com/smartphones/products/8-series/snapdragon-8-gen-1-mobile-platform": {
+   "vendor": "qualcomm",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Snapdragon 8 Gen 1"
+  },
+  "https://www.qualcomm.com/smartphones/products/8-series/snapdragon-8-gen-2-mobile-platform": {
+   "vendor": "qualcomm",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Snapdragon 8 Gen 2",
+   "chip": "snapdragon-8-gen-2"
+  },
+  "https://www.qualcomm.com/smartphones/products/8-series/snapdragon-8-gen-3-mobile-platform": {
+   "vendor": "qualcomm",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Snapdragon 8 Gen 3",
+   "chip": "snapdragon-8-gen-3"
+  },
+  "https://www.qualcomm.com/smartphones/products/8-series/snapdragon-8-gen-5-mobile-platform": {
+   "vendor": "qualcomm",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Snapdragon 8 Gen 5",
+   "chip": "snapdragon-8-gen-5"
+  },
+  "https://www.qualcomm.com/smartphones/products/8-series/snapdragon-8-plus-gen-1-mobile-platform": {
+   "vendor": "qualcomm",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Snapdragon 8+ Gen 1",
+   "chip": "snapdragon-8-plus-gen-1"
+  },
+  "https://www.qualcomm.com/smartphones/products/8-series/snapdragon-820-mobile-platform": {
+   "vendor": "qualcomm",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Snapdragon 820"
+  },
+  "https://www.qualcomm.com/smartphones/products/8-series/snapdragon-821-mobile-platform": {
+   "vendor": "qualcomm",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Snapdragon 821"
+  },
+  "https://www.qualcomm.com/smartphones/products/8-series/snapdragon-835-mobile-platform": {
+   "vendor": "qualcomm",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Snapdragon 835"
+  },
+  "https://www.qualcomm.com/smartphones/products/8-series/snapdragon-845-mobile-platform": {
+   "vendor": "qualcomm",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Snapdragon 845"
+  },
+  "https://www.qualcomm.com/smartphones/products/8-series/snapdragon-855-mobile-platform": {
+   "vendor": "qualcomm",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Snapdragon 855"
+  },
+  "https://www.qualcomm.com/smartphones/products/8-series/snapdragon-855-plus-and-860-mobile-platform": {
+   "vendor": "qualcomm",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Snapdragon 855 Plus and 860"
+  },
+  "https://www.qualcomm.com/smartphones/products/8-series/snapdragon-865-5g-mobile-platform": {
+   "vendor": "qualcomm",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Snapdragon 865"
+  },
+  "https://www.qualcomm.com/smartphones/products/8-series/snapdragon-865-plus-5g-mobile-platform": {
+   "vendor": "qualcomm",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Snapdragon 865 Plus"
+  },
+  "https://www.qualcomm.com/smartphones/products/8-series/snapdragon-870-5g-mobile-platform": {
+   "vendor": "qualcomm",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Snapdragon 870"
+  },
+  "https://www.qualcomm.com/smartphones/products/8-series/snapdragon-888-5g-mobile-platform": {
+   "vendor": "qualcomm",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Snapdragon 888"
+  },
+  "https://www.qualcomm.com/smartphones/products/8-series/snapdragon-888-plus-5g-mobile-platform": {
+   "vendor": "qualcomm",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Snapdragon 888 Plus"
+  },
+  "https://www.qualcomm.com/smartphones/products/8-series/snapdragon-8s-gen-3-mobile-platform": {
+   "vendor": "qualcomm",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Snapdragon 8s Gen 3",
+   "chip": "snapdragon-8s-gen-3"
+  },
+  "https://www.qualcomm.com/smartphones/products/8-series/snapdragon-8s-gen-4-mobile-platform": {
+   "vendor": "qualcomm",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Snapdragon 8s Gen 4",
+   "chip": "snapdragon-8s-gen-4"
+  },
+  "https://www.qualcomm.com/smartphones/products/8-series/snapdragon-processors-800": {
+   "vendor": "qualcomm",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Snapdragon 800"
+  },
+  "https://www.qualcomm.com/smartphones/products/8-series/snapdragon-processors-801": {
+   "vendor": "qualcomm",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Snapdragon 801"
+  },
+  "https://www.qualcomm.com/smartphones/products/8-series/snapdragon-processors-805": {
+   "vendor": "qualcomm",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Snapdragon 805"
+  },
+  "https://www.qualcomm.com/smartphones/products/8-series/snapdragon-processors-808": {
+   "vendor": "qualcomm",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Snapdragon 808"
+  },
+  "https://www.qualcomm.com/smartphones/products/8-series/snapdragon-processors-810": {
+   "vendor": "qualcomm",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Snapdragon 810"
+  },
+  "https://semiconductor.samsung.com/processor/mobile-processor/exynos-1280/": {
+   "vendor": "samsung",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Exynos 1280",
+   "chip": "exynos-1280"
+  },
+  "https://semiconductor.samsung.com/processor/mobile-processor/exynos-1330/": {
+   "vendor": "samsung",
+   "found": "2026-10-26",
+   "name": "Exynos 1330",
+   "read": "2026-10-26",
+   "chip": "exynos-1330"
+  },
+  "https://semiconductor.samsung.com/processor/mobile-processor/exynos-1380/": {
+   "vendor": "samsung",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Exynos 1380",
+   "chip": "exynos-1380"
+  },
+  "https://semiconductor.samsung.com/processor/mobile-processor/exynos-1480/": {
+   "vendor": "samsung",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Exynos 1480",
+   "chip": "exynos-1480"
+  },
+  "https://semiconductor.samsung.com/processor/mobile-processor/exynos-1580/": {
+   "vendor": "samsung",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Exynos 1580",
+   "chip": "exynos-1580"
+  },
+  "https://semiconductor.samsung.com/processor/mobile-processor/exynos-1680/": {
+   "vendor": "samsung",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Exynos 1680",
+   "chip": "exynos-1680"
+  },
+  "https://semiconductor.samsung.com/processor/mobile-processor/exynos-2400/": {
+   "vendor": "samsung",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Exynos 2400",
+   "chip": "exynos-2400"
+  },
+  "https://semiconductor.samsung.com/processor/mobile-processor/exynos-2500/": {
+   "vendor": "samsung",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Exynos 2500",
+   "chip": "exynos-2500"
+  },
+  "https://semiconductor.samsung.com/processor/mobile-processor/exynos-2600/": {
+   "vendor": "samsung",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Exynos 2600",
+   "chip": "exynos-2600"
+  },
+  "https://www.mediatek.com/products/smartphones/dimensity-5g": {
+   "vendor": "mediatek",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "skip": "no chip name in the page title"
+  },
+  "https://www.mediatek.com/products/smartphones/mediatek-dimensity-9600-pro": {
+   "vendor": "mediatek",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Dimensity 9600 Pro",
+   "chip": "dimensity-9600-pro"
+  },
+  "https://www.mediatek.com/products/smartphones/dimensity-9600m": {
+   "vendor": "mediatek",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Dimensity 9600M",
+   "chip": "dimensity-9600m"
+  },
+  "https://www.mediatek.com/products/smartphones/mediatek-dimensity-9500s": {
+   "vendor": "mediatek",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Dimensity 9500s",
+   "chip": "dimensity-9500s"
+  },
+  "https://www.mediatek.com/products/smartphones/mediatek-dimensity-9400-plus": {
+   "vendor": "mediatek",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Dimensity 9400+",
+   "chip": "dimensity-9400-plus"
+  },
+  "https://www.mediatek.com/products/smartphones/mediatek-dimensity-9400e": {
+   "vendor": "mediatek",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Dimensity 9400e",
+   "chip": "dimensity-9400e"
+  },
+  "https://www.mediatek.com/products/smartphones/mediatek-dimensity-9300-plus": {
+   "vendor": "mediatek",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Dimensity 9300+",
+   "chip": "dimensity-9300-plus"
+  },
+  "https://www.mediatek.com/products/smartphones/mediatek-dimensity-9000": {
+   "vendor": "mediatek",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Dimensity 9000"
+  },
+  "https://www.mediatek.com/products/smartphones/mediatek-dimensity-8550": {
+   "vendor": "mediatek",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Dimensity 8550",
+   "chip": "dimensity-8550"
+  },
+  "https://www.mediatek.com/products/smartphones/mediatek-dimensity-8500": {
+   "vendor": "mediatek",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Dimensity 8500"
+  },
+  "https://www.mediatek.com/products/smartphones/mediatek-dimensity-8450": {
+   "vendor": "mediatek",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Dimensity 8450",
+   "chip": "dimensity-8450"
+  },
+  "https://www.mediatek.com/products/smartphones/mediatek-dimensity-8400": {
+   "vendor": "mediatek",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Dimensity 8400"
+  },
+  "https://www.mediatek.com/products/smartphones/mediatek-dimensity-8350": {
+   "vendor": "mediatek",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Dimensity 8350",
+   "chip": "dimensity-8350"
+  },
+  "https://www.mediatek.com/products/smartphones/mediatek-dimensity-8300": {
+   "vendor": "mediatek",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Dimensity 8300"
+  },
+  "https://www.mediatek.com/products/smartphones/mediatek-dimensity-8250": {
+   "vendor": "mediatek",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Dimensity 8250"
+  },
+  "https://www.mediatek.com/products/smartphones/mediatek-dimensity-8200": {
+   "vendor": "mediatek",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Dimensity 8200",
+   "chip": "dimensity-8200"
+  },
+  "https://www.mediatek.com/products/smartphones/mediatek-dimensity-8100": {
+   "vendor": "mediatek",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Dimensity 8100"
+  },
+  "https://www.mediatek.com/products/smartphones/mediatek-dimensity-8050": {
+   "vendor": "mediatek",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Dimensity 8050"
+  },
+  "https://www.mediatek.com/products/smartphones/mediatek-dimensity-8020": {
+   "vendor": "mediatek",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Dimensity 8020"
+  },
+  "https://www.mediatek.com/products/smartphones/mediatek-dimensity-8000": {
+   "vendor": "mediatek",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Dimensity 8000"
+  },
+  "https://www.mediatek.com/products/smartphones/mediatek-dimensity-7500": {
+   "vendor": "mediatek",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Dimensity 7500"
+  },
+  "https://www.mediatek.com/products/smartphones/mediatek-dimensity-7450x": {
+   "vendor": "mediatek",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Dimensity 7450X"
+  },
+  "https://www.mediatek.com/products/smartphones/mediatek-dimensity-7450": {
+   "vendor": "mediatek",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Dimensity 7450"
+  },
+  "https://www.mediatek.com/products/smartphones/mediatek-dimensity-7400x": {
+   "vendor": "mediatek",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Dimensity 7400X"
+  },
+  "https://www.mediatek.com/products/smartphones/mediatek-dimensity-7400": {
+   "vendor": "mediatek",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Dimensity 7400"
+  },
+  "https://www.mediatek.com/products/smartphones/mediatek-dimensity-7360": {
+   "vendor": "mediatek",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Dimensity 7360"
+  },
+  "https://www.mediatek.com/products/smartphones/mediatek-dimensity-7350": {
+   "vendor": "mediatek",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Dimensity 7350"
+  },
+  "https://www.mediatek.com/products/smartphones/mediatek-dimensity-7300e": {
+   "vendor": "mediatek",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Dimensity 7300e",
+   "chip": "dimensity-7300e"
+  },
+  "https://www.mediatek.com/products/smartphones/mediatek-dimensity-7200": {
+   "vendor": "mediatek",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Dimensity 7200",
+   "chip": "dimensity-7200"
+  },
+  "https://www.mediatek.com/products/smartphones/mediatek-dimensity-7100": {
+   "vendor": "mediatek",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Dimensity 7100"
+  },
+  "https://www.mediatek.com/products/smartphones/mediatek-dimensity-7050": {
+   "vendor": "mediatek",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Dimensity 7050",
+   "chip": "dimensity-7050"
+  },
+  "https://www.mediatek.com/products/smartphones/mediatek-dimensity-7030": {
+   "vendor": "mediatek",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Dimensity 7030"
+  },
+  "https://www.mediatek.com/products/smartphones/mediatek-dimensity-7025": {
+   "vendor": "mediatek",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Dimensity 7025"
+  },
+  "https://www.mediatek.com/products/smartphones/mediatek-dimensity-7020": {
+   "vendor": "mediatek",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Dimensity 7020"
+  },
+  "https://www.mediatek.com/products/smartphones/mediatek-dimensity-6500": {
+   "vendor": "mediatek",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Dimensity 6500"
+  },
+  "https://www.mediatek.com/products/smartphones/mediatek-dimensity-6400": {
+   "vendor": "mediatek",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Dimensity 6400"
+  },
+  "https://www.mediatek.com/products/smartphones/mediatek-dimensity-6360": {
+   "vendor": "mediatek",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Dimensity 6360"
+  },
+  "https://www.mediatek.com/products/smartphones/mediatek-dimensity-6300": {
+   "vendor": "mediatek",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Dimensity 6300",
+   "chip": "dimensity-6300"
+  },
+  "https://www.mediatek.com/products/smartphones/mediatek-dimensity-6100plus": {
+   "vendor": "mediatek",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Dimensity 6100+",
+   "chip": "dimensity-6100-plus"
+  },
+  "https://www.mediatek.com/products/smartphones/mediatek-dimensity-6080": {
+   "vendor": "mediatek",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Dimensity 6080",
+   "chip": "dimensity-6080"
+  },
+  "https://www.mediatek.com/products/smartphones/mediatek-dimensity-6020": {
+   "vendor": "mediatek",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Dimensity 6020",
+   "chip": "dimensity-6020"
+  },
+  "https://www.mediatek.com/products/smartphones/mediatek-dimensity-7300": {
+   "vendor": "mediatek",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Dimensity 7300",
+   "chip": "dimensity-7300"
+  },
+  "https://www.mediatek.com/products/smartphones/mediatek-dimensity-7300x": {
+   "vendor": "mediatek",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Dimensity 7300X"
+  },
+  "https://www.mediatek.com/products/smartphones/mediatek-dimensity-9000plus": {
+   "vendor": "mediatek",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Dimensity 9000+",
+   "chip": "dimensity-9000-plus"
+  },
+  "https://www.mediatek.com/products/smartphones/mediatek-dimensity-9200": {
+   "vendor": "mediatek",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Dimensity 9200",
+   "chip": "dimensity-9200"
+  },
+  "https://www.mediatek.com/products/smartphones/mediatek-dimensity-9200plus": {
+   "vendor": "mediatek",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Dimensity 9200+",
+   "chip": "dimensity-9200-plus"
+  },
+  "https://www.mediatek.com/products/smartphones/mediatek-dimensity-9300": {
+   "vendor": "mediatek",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Dimensity 9300",
+   "chip": "dimensity-9300"
+  },
+  "https://www.mediatek.com/products/smartphones/mediatek-dimensity-9400": {
+   "vendor": "mediatek",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Dimensity 9400",
+   "chip": "dimensity-9400"
+  },
+  "https://www.mediatek.com/products/smartphones/mediatek-dimensity-9500": {
+   "vendor": "mediatek",
+   "found": "2026-10-26",
+   "read": "2026-10-26",
+   "name": "Dimensity 9500",
+   "chip": "dimensity-9500"
+  }
+ },
+ "fill": {
+  "exynos-1280": {
+   "fields": {
+    "cpu": {
+     "cores": 8,
+     "clusters": [
+      {
+       "count": 2,
+       "core": "Arm Cortex-A78",
+       "ghz": 2.4
+      },
+      {
+       "count": 6,
+       "core": "Arm Cortex-A55",
+       "ghz": 2.0
+      }
+     ]
+    },
+    "gpu": {
+     "name": "Mali-G68"
+    },
+    "memory": "LPDDR4X",
+    "storage": "UFS 2.2",
+    "process": {
+     "node": "5 nm"
+    }
+   },
+   "url": "https://semiconductor.samsung.com/processor/mobile-processor/exynos-1280/",
+   "source": "samsung",
+   "checked": "2026-10-26"
+  },
+  "exynos-1380": {
+   "fields": {
+    "cpu": {
+     "cores": 8,
+     "clusters": [
+      {
+       "count": 4,
+       "core": "Arm Cortex-A78",
+       "ghz": 2.4
+      },
+      {
+       "count": 4,
+       "core": "Arm Cortex-A55",
+       "ghz": 2.0
+      }
+     ]
+    },
+    "gpu": {
+     "name": "Mali-G68 MP5"
+    },
+    "memory": "LPDDR4X/5",
+    "storage": "UFS 3.1",
+    "process": {
+     "node": "5 nm"
+    }
+   },
+   "url": "https://semiconductor.samsung.com/processor/mobile-processor/exynos-1380/",
+   "source": "samsung",
+   "checked": "2026-10-26"
+  },
+  "exynos-1480": {
+   "fields": {
+    "cpu": {
+     "cores": 8,
+     "clusters": [
+      {
+       "count": 4,
+       "core": "Arm Cortex-A78",
+       "ghz": 2.75
+      },
+      {
+       "count": 4,
+       "core": "Arm Cortex-A55",
+       "ghz": 2.0
+      }
+     ]
+    },
+    "gpu": {
+     "name": "Xclipse 530"
+    },
+    "npu": "AI engine with 6K MAC NPU",
+    "memory": "LPDDR4X/5",
+    "storage": "UFS 3.1",
+    "process": {
+     "node": "4 nm"
+    }
+   },
+   "url": "https://semiconductor.samsung.com/processor/mobile-processor/exynos-1480/",
+   "source": "samsung",
+   "checked": "2026-10-26"
+  },
+  "exynos-1580": {
+   "fields": {
+    "npu": "AI engine with 6K MAC NPU",
+    "memory": "LPDDR5",
+    "storage": "UFS 3.1"
+   },
+   "url": "https://semiconductor.samsung.com/processor/mobile-processor/exynos-1580/",
+   "source": "samsung",
+   "checked": "2026-10-26"
+  },
+  "exynos-1680": {
+   "fields": {
+    "cpu": {
+     "cores": 8,
+     "clusters": [
+      {
+       "count": 1,
+       "core": "Arm Cortex-A720",
+       "ghz": 2.9
+      },
+      {
+       "count": 4,
+       "core": "Arm Cortex-A720",
+       "ghz": 2.6
+      },
+      {
+       "count": 3,
+       "core": "Arm Cortex-A520",
+       "ghz": 1.95
+      }
+     ]
+    },
+    "gpu": {
+     "name": "Xclipse 550"
+    },
+    "npu": "AI engine with 8K MAC NPU",
+    "memory": "LPDDR5X",
+    "storage": "UFS 4.1",
+    "process": {
+     "node": "4 nm"
+    }
+   },
+   "url": "https://semiconductor.samsung.com/processor/mobile-processor/exynos-1680/",
+   "source": "samsung",
+   "checked": "2026-10-26"
+  },
+  "exynos-2400": {
+   "fields": {
+    "cpu": {
+     "cores": 10,
+     "clusters": [
+      {
+       "count": 1,
+       "core": "Arm Cortex-X4",
+       "ghz": 3.2
+      },
+      {
+       "count": 5,
+       "core": "Arm Cortex-A720",
+       "ghz": 2.9
+      },
+      {
+       "count": 4,
+       "core": "Arm Cortex-A520",
+       "ghz": 1.95
+      }
+     ]
+    },
+    "gpu": {
+     "name": "Xclipse 940"
+    },
+    "npu": "AI engine with 17K MAC NPU(2-GNPU+2-SNPU) and DSP",
+    "memory": "LPDDR5X",
+    "storage": "UFS 4.0",
+    "process": {
+     "node": "4 nm"
+    }
+   },
+   "url": "https://semiconductor.samsung.com/processor/mobile-processor/exynos-2400/",
+   "source": "samsung",
+   "checked": "2026-10-26"
+  },
+  "exynos-2500": {
+   "fields": {
+    "cpu": {
+     "cores": 10,
+     "clusters": [
+      {
+       "count": 1,
+       "core": "Arm Cortex-X925",
+       "ghz": 3.3
+      },
+      {
+       "count": 2,
+       "core": "Arm Cortex-A725",
+       "ghz": 2.74
+      },
+      {
+       "count": 5,
+       "core": "Arm Cortex-A725",
+       "ghz": 2.36
+      },
+      {
+       "count": 2,
+       "core": "Arm Cortex-A520",
+       "ghz": 1.8
+      }
+     ]
+    },
+    "gpu": {
+     "name": "Xclipse 950"
+    },
+    "npu": "AI engine with 24K MAC NPU(2-GNPU+2-SNPU) and DSP",
+    "memory": "LPDDR5X",
+    "storage": "UFS 4.0",
+    "process": {
+     "node": "3 nm"
+    }
+   },
+   "url": "https://semiconductor.samsung.com/processor/mobile-processor/exynos-2500/",
+   "source": "samsung",
+   "checked": "2026-10-26"
+  },
+  "exynos-2600": {
+   "fields": {
+    "npu": "AI engine with 32K MAC NPU",
+    "memory": "LPDDR5X",
+    "storage": "UFS 4.1"
+   },
+   "url": "https://semiconductor.samsung.com/processor/mobile-processor/exynos-2600/",
+   "source": "samsung",
+   "checked": "2026-10-26"
+  },
+  "dimensity-9600-pro": {
+   "fields": {
+    "gpu": {
+     "name": "Arm Mali-G2 Ultra NX"
+    },
+    "npu": "MediaTek NPU 1090",
+    "memory": "LPDDR6 10667, LPDDR5X 10667",
+    "storage": "UFS 5.0"
+   },
+   "url": "https://www.mediatek.com/products/smartphones/mediatek-dimensity-9600-pro",
+   "source": "mediatek",
+   "checked": "2026-10-26"
+  },
+  "dimensity-9600m": {
+   "fields": {
+    "cpu": {
+     "cores": 8,
+     "clusters": [
+      {
+       "count": 1,
+       "core": "Arm C1-Ultra"
+      },
+      {
+       "count": 3,
+       "core": "Arm C1-Premium"
+      },
+      {
+       "count": 4,
+       "core": "Arm C1-Pro"
+      }
+     ]
+    },
+    "gpu": {
+     "name": "Arm Mali-G1 Ultra MC12"
+    },
+    "npu": "MediaTek NPU 990",
+    "memory": "LPDDR5X 10667",
+    "storage": "UFS 4.1 (4-lane)"
+   },
+   "url": "https://www.mediatek.com/products/smartphones/dimensity-9600m",
+   "source": "mediatek",
+   "checked": "2026-10-26"
+  },
+  "dimensity-9500s": {
+   "fields": {
+    "cpu": {
+     "cores": 8,
+     "clusters": [
+      {
+       "count": 1,
+       "core": "Arm Cortex-X925",
+       "ghz": 3.73
+      },
+      {
+       "count": 3,
+       "core": "Arm Cortex-X4"
+      },
+      {
+       "count": 4,
+       "core": "Arm Cortex-A720"
+      }
+     ]
+    },
+    "gpu": {
+     "name": "Arm Immortalis-G925"
+    },
+    "memory": "LPDDR5X",
+    "storage": "UFS 4 + MCQ"
+   },
+   "url": "https://www.mediatek.com/products/smartphones/mediatek-dimensity-9500s",
+   "source": "mediatek",
+   "checked": "2026-10-26"
+  },
+  "dimensity-9400-plus": {
+   "fields": {
+    "npu": "MediaTek NPU 890",
+    "memory": "LPDDR5X",
+    "storage": "UFS 4 + MCQ"
+   },
+   "url": "https://www.mediatek.com/products/smartphones/mediatek-dimensity-9400-plus",
+   "source": "mediatek",
+   "checked": "2026-10-26"
+  },
+  "dimensity-9400e": {
+   "fields": {
+    "cpu": {
+     "cores": 8,
+     "clusters": [
+      {
+       "count": 1,
+       "core": "Arm Cortex-X4",
+       "ghz": 3.4
+      },
+      {
+       "count": 3,
+       "core": "Arm Cortex-X4",
+       "ghz": 2.85
+      },
+      {
+       "count": 4,
+       "core": "Arm Cortex-A720",
+       "ghz": 2.0
+      }
+     ]
+    },
+    "gpu": {
+     "name": "Arm Immortalis-G720 MC12"
+    },
+    "npu": "MediaTek NPU 790",
+    "memory": "LPDDR5X, LPDDR5T",
+    "storage": "UFS 4 + MCQ"
+   },
+   "url": "https://www.mediatek.com/products/smartphones/mediatek-dimensity-9400e",
+   "source": "mediatek",
+   "checked": "2026-10-26"
+  },
+  "dimensity-9300-plus": {
+   "fields": {
+    "cpu": {
+     "cores": 8,
+     "clusters": [
+      {
+       "count": 1,
+       "core": "Arm Cortex-X4",
+       "ghz": 3.4
+      },
+      {
+       "count": 3,
+       "core": "Arm Cortex-X4",
+       "ghz": 2.85
+      },
+      {
+       "count": 4,
+       "core": "Arm Cortex-A720",
+       "ghz": 2.0
+      }
+     ]
+    },
+    "gpu": {
+     "name": "Arm Immortalis-G720 MC12"
+    },
+    "npu": "MediaTek NPU 790",
+    "memory": "LPDDR5X, LPDDR5T",
+    "storage": "UFS 4 + MCQ"
+   },
+   "url": "https://www.mediatek.com/products/smartphones/mediatek-dimensity-9300-plus",
+   "source": "mediatek",
+   "checked": "2026-10-26"
+  },
+  "dimensity-8550": {
+   "fields": {
+    "cpu": {
+     "cores": 8,
+     "clusters": [
+      {
+       "count": 1,
+       "core": "Arm Cortex-A725",
+       "ghz": 3.4
+      },
+      {
+       "count": 3,
+       "core": "Arm Cortex-A725",
+       "ghz": 3.2
+      },
+      {
+       "count": 4,
+       "core": "Arm Cortex-A725",
+       "ghz": 2.2
+      }
+     ]
+    },
+    "gpu": {
+     "name": "Arm Mali-G720 MC8"
+    },
+    "npu": "MediaTek NPU 880 with LLM Booster + Gemini Nano V3 support",
+    "memory": "LPDDR5X 4ch",
+    "storage": "UFS 4 + MCQ"
+   },
+   "url": "https://www.mediatek.com/products/smartphones/mediatek-dimensity-8550",
+   "source": "mediatek",
+   "checked": "2026-10-26"
+  },
+  "dimensity-8450": {
+   "fields": {
+    "cpu": {
+     "cores": 8,
+     "clusters": [
+      {
+       "count": 1,
+       "core": "Arm Cortex-A725"
+      },
+      {
+       "count": 3,
+       "core": "Arm Cortex-A725"
+      },
+      {
+       "count": 4,
+       "core": "Arm Cortex-A725"
+      }
+     ]
+    },
+    "gpu": {
+     "name": "Arm Mali-G720 MC7"
+    },
+    "npu": "MediaTek NPU 880",
+    "memory": "LPDDR5X",
+    "storage": "UFS 4 + MCQ"
+   },
+   "url": "https://www.mediatek.com/products/smartphones/mediatek-dimensity-8450",
+   "source": "mediatek",
+   "checked": "2026-10-26"
+  },
+  "dimensity-8350": {
+   "fields": {
+    "memory": "Quad-channel LPDDR5X",
+    "storage": "UFS 4.0 + MCQ"
+   },
+   "url": "https://www.mediatek.com/products/smartphones/mediatek-dimensity-8350",
+   "source": "mediatek",
+   "checked": "2026-10-26"
+  },
+  "dimensity-9200-plus": {
+   "fields": {
+    "cpu": {
+     "cores": 8,
+     "clusters": [
+      {
+       "count": 1,
+       "core": "Arm Cortex-X3",
+       "ghz": 3.35
+      },
+      {
+       "count": 3,
+       "core": "Arm Cortex-A715",
+       "ghz": 3.0
+      },
+      {
+       "count": 4,
+       "core": "Arm Cortex-A510",
+       "ghz": 2.0
+      }
+     ]
+    },
+    "gpu": {
+     "name": "Arm Immortalis-G715"
+    },
+    "npu": "MediaTek APU 690",
+    "memory": "LPDDR5x",
+    "storage": "UFS 4 + MCQ"
+   },
+   "url": "https://www.mediatek.com/products/smartphones/mediatek-dimensity-9200plus",
+   "source": "mediatek",
+   "checked": "2026-10-26"
+  },
+  "dimensity-9300": {
+   "fields": {
+    "cpu": {
+     "cores": 8,
+     "clusters": [
+      {
+       "count": 4,
+       "core": "Arm Cortex-X4",
+       "ghz": 3.25
+      },
+      {
+       "count": 4,
+       "core": "Arm Cortex-A720",
+       "ghz": 2.0
+      }
+     ]
+    },
+    "gpu": {
+     "name": "Arm Immortalis-G720 MC12"
+    },
+    "npu": "MediaTek APU 790",
+    "memory": "LPDDR5T",
+    "storage": "UFS 4 + MCQ"
+   },
+   "url": "https://www.mediatek.com/products/smartphones/mediatek-dimensity-9300",
+   "source": "mediatek",
+   "checked": "2026-10-26"
+  },
+  "exynos-1330": {
+   "fields": {
+    "cpu": {
+     "cores": 8,
+     "clusters": [
+      {
+       "count": 2,
+       "core": "Arm Cortex-A78",
+       "ghz": 2.4
+      },
+      {
+       "count": 6,
+       "core": "Arm Cortex-A55",
+       "ghz": 2.0
+      }
+     ]
+    },
+    "gpu": {
+     "name": "Mali-G68 MP2"
+    },
+    "memory": "LPDDR4X/5",
+    "storage": "UFS 3.1, UFS 2.2",
+    "process": {
+     "node": "5 nm"
+    }
+   },
+   "url": "https://semiconductor.samsung.com/processor/mobile-processor/exynos-1330/",
+   "source": "samsung",
+   "checked": "2026-10-26"
+  }
+ },
+ "added": {},
+ "awaitingAi": {
+  "snapdragon-7-gen-1": {
+   "record": {
+    "id": "snapdragon-7-gen-1",
+    "name": "Snapdragon 7 Gen 1",
+    "vendor": "qualcomm",
+    "summary": "Added automatically from Qualcomm's own product page.",
+    "provenance": {
+     "default": {
+      "class": "official",
+      "source": "qualcomm",
+      "url": "https://www.qualcomm.com/smartphones/products/7-series/snapdragon-7-gen-1-mobile-platform",
+      "checked": "2026-10-26",
+      "note": "Read automatically from the chip maker's product page."
+     }
+    },
+    "auto": true
+   },
+   "url": "https://www.qualcomm.com/smartphones/products/7-series/snapdragon-7-gen-1-mobile-platform",
+   "since": "2026-10-26"
+  },
+  "snapdragon-8-gen-1": {
+   "record": {
+    "id": "snapdragon-8-gen-1",
+    "name": "Snapdragon 8 Gen 1",
+    "vendor": "qualcomm",
+    "summary": "Added automatically from Qualcomm's own product page.",
+    "provenance": {
+     "default": {
+      "class": "official",
+      "source": "qualcomm",
+      "url": "https://www.qualcomm.com/smartphones/products/8-series/snapdragon-8-gen-1-mobile-platform",
+      "checked": "2026-10-26",
+      "note": "Read automatically from the chip maker's product page."
+     }
+    },
+    "auto": true
+   },
+   "url": "https://www.qualcomm.com/smartphones/products/8-series/snapdragon-8-gen-1-mobile-platform",
+   "since": "2026-10-26"
+  },
+  "dimensity-9000": {
+   "record": {
+    "id": "dimensity-9000",
+    "name": "Dimensity 9000",
+    "vendor": "mediatek",
+    "summary": "Added automatically from MediaTek's own product page.",
+    "provenance": {
+     "default": {
+      "class": "official",
+      "source": "mediatek",
+      "url": "https://www.mediatek.com/products/smartphones/mediatek-dimensity-9000",
+      "checked": "2026-10-26",
+      "note": "Read automatically from the chip maker's product page."
+     }
+    },
+    "auto": true
+   },
+   "url": "https://www.mediatek.com/products/smartphones/mediatek-dimensity-9000",
+   "since": "2026-10-26"
+  },
+  "dimensity-8500": {
+   "record": {
+    "id": "dimensity-8500",
+    "name": "Dimensity 8500",
+    "vendor": "mediatek",
+    "summary": "Added automatically from MediaTek's own product page.",
+    "cpu": {
+     "cores": 8,
+     "clusters": [
+      {
+       "count": 1,
+       "core": "Arm Cortex-A725",
+       "ghz": 3.4
+      },
+      {
+       "count": 3,
+       "core": "Arm Cortex-A725",
+       "ghz": 3.2
+      },
+      {
+       "count": 4,
+       "core": "Arm Cortex-A725",
+       "ghz": 2.2
+      }
+     ]
+    },
+    "gpu": {
+     "name": "Arm Mali-G720 MC8"
+    },
+    "npu": "MediaTek NPU 880",
+    "memory": "LPDDR5X 4ch",
+    "storage": "UFS 4 + MCQ",
+    "provenance": {
+     "default": {
+      "class": "official",
+      "source": "mediatek",
+      "url": "https://www.mediatek.com/products/smartphones/mediatek-dimensity-8500",
+      "checked": "2026-10-26",
+      "note": "Read automatically from the chip maker's product page."
+     }
+    },
+    "auto": true
+   },
+   "url": "https://www.mediatek.com/products/smartphones/mediatek-dimensity-8500",
+   "since": "2026-10-26"
+  },
+  "dimensity-8400": {
+   "record": {
+    "id": "dimensity-8400",
+    "name": "Dimensity 8400",
+    "vendor": "mediatek",
+    "summary": "Added automatically from MediaTek's own product page.",
+    "cpu": {
+     "cores": 8,
+     "clusters": [
+      {
+       "count": 1,
+       "core": "Arm Cortex-A725"
+      },
+      {
+       "count": 3,
+       "core": "Arm Cortex-A725"
+      },
+      {
+       "count": 4,
+       "core": "Arm Cortex-A725"
+      }
+     ]
+    },
+    "gpu": {
+     "name": "Arm Mali-G720 MC7"
+    },
+    "npu": "MediaTek NPU 880",
+    "memory": "LPDDR5X",
+    "storage": "UFS 4 + MCQ",
+    "provenance": {
+     "default": {
+      "class": "official",
+      "source": "mediatek",
+      "url": "https://www.mediatek.com/products/smartphones/mediatek-dimensity-8400",
+      "checked": "2026-10-26",
+      "note": "Read automatically from the chip maker's product page."
+     }
+    },
+    "auto": true
+   },
+   "url": "https://www.mediatek.com/products/smartphones/mediatek-dimensity-8400",
+   "since": "2026-10-26"
+  },
+  "dimensity-8300": {
+   "record": {
+    "id": "dimensity-8300",
+    "name": "Dimensity 8300",
+    "vendor": "mediatek",
+    "summary": "Added automatically from MediaTek's own product page.",
+    "cpu": {
+     "cores": 8,
+     "clusters": [
+      {
+       "count": 4,
+       "core": "Arm Cortex-A715"
+      },
+      {
+       "count": 4,
+       "core": "Arm Cortex-A510"
+      }
+     ]
+    },
+    "gpu": {
+     "name": "Arm Mali-G615 MC6"
+    },
+    "memory": "Quad-channel LPDDR5X",
+    "storage": "UFS 4.0 + MCQ",
+    "provenance": {
+     "default": {
+      "class": "official",
+      "source": "mediatek",
+      "url": "https://www.mediatek.com/products/smartphones/mediatek-dimensity-8300",
+      "checked": "2026-10-26",
+      "note": "Read automatically from the chip maker's product page."
+     }
+    },
+    "auto": true
+   },
+   "url": "https://www.mediatek.com/products/smartphones/mediatek-dimensity-8300",
+   "since": "2026-10-26"
+  },
+  "dimensity-8250": {
+   "record": {
+    "id": "dimensity-8250",
+    "name": "Dimensity 8250",
+    "vendor": "mediatek",
+    "summary": "Added automatically from MediaTek's own product page.",
+    "cpu": {
+     "cores": 8,
+     "clusters": [
+      {
+       "count": 1,
+       "core": "Arm Cortex-A78:",
+       "ghz": 3.1
+      },
+      {
+       "count": 3,
+       "core": "Arm Cortex-A78:",
+       "ghz": 3.0
+      },
+      {
+       "count": 4,
+       "core": "Arm Cortex-A55:",
+       "ghz": 2.0
+      }
+     ]
+    },
+    "gpu": {
+     "name": "Arm Mali-G610 MC6"
+    },
+    "memory": "Quad-channel LPDDR5",
+    "storage": "UFS 3.1",
+    "provenance": {
+     "default": {
+      "class": "official",
+      "source": "mediatek",
+      "url": "https://www.mediatek.com/products/smartphones/mediatek-dimensity-8250",
+      "checked": "2026-10-26",
+      "note": "Read automatically from the chip maker's product page."
+     }
+    },
+    "auto": true
+   },
+   "url": "https://www.mediatek.com/products/smartphones/mediatek-dimensity-8250",
+   "since": "2026-10-26"
+  },
+  "dimensity-8100": {
+   "record": {
+    "id": "dimensity-8100",
+    "name": "Dimensity 8100",
+    "vendor": "mediatek",
+    "summary": "Added automatically from MediaTek's own product page.",
+    "provenance": {
+     "default": {
+      "class": "official",
+      "source": "mediatek",
+      "url": "https://www.mediatek.com/products/smartphones/mediatek-dimensity-8100",
+      "checked": "2026-10-26",
+      "note": "Read automatically from the chip maker's product page."
+     }
+    },
+    "auto": true
+   },
+   "url": "https://www.mediatek.com/products/smartphones/mediatek-dimensity-8100",
+   "since": "2026-10-26"
+  },
+  "dimensity-8050": {
+   "record": {
+    "id": "dimensity-8050",
+    "name": "Dimensity 8050",
+    "vendor": "mediatek",
+    "summary": "Added automatically from MediaTek's own product page.",
+    "cpu": {
+     "cores": 8
+    },
+    "gpu": {
+     "name": "Arm Mali-G77 MC9"
+    },
+    "memory": "LPDDR4x",
+    "storage": "UFS 3.1",
+    "provenance": {
+     "default": {
+      "class": "official",
+      "source": "mediatek",
+      "url": "https://www.mediatek.com/products/smartphones/mediatek-dimensity-8050",
+      "checked": "2026-10-26",
+      "note": "Read automatically from the chip maker's product page."
+     }
+    },
+    "auto": true
+   },
+   "url": "https://www.mediatek.com/products/smartphones/mediatek-dimensity-8050",
+   "since": "2026-10-26"
+  },
+  "dimensity-8020": {
+   "record": {
+    "id": "dimensity-8020",
+    "name": "Dimensity 8020",
+    "vendor": "mediatek",
+    "summary": "Added automatically from MediaTek's own product page.",
+    "provenance": {
+     "default": {
+      "class": "official",
+      "source": "mediatek",
+      "url": "https://www.mediatek.com/products/smartphones/mediatek-dimensity-8020",
+      "checked": "2026-10-26",
+      "note": "Read automatically from the chip maker's product page."
+     }
+    },
+    "auto": true
+   },
+   "url": "https://www.mediatek.com/products/smartphones/mediatek-dimensity-8020",
+   "since": "2026-10-26"
+  },
+  "dimensity-8000": {
+   "record": {
+    "id": "dimensity-8000",
+    "name": "Dimensity 8000",
+    "vendor": "mediatek",
+    "summary": "Added automatically from MediaTek's own product page.",
+    "provenance": {
+     "default": {
+      "class": "official",
+      "source": "mediatek",
+      "url": "https://www.mediatek.com/products/smartphones/mediatek-dimensity-8000",
+      "checked": "2026-10-26",
+      "note": "Read automatically from the chip maker's product page."
+     }
+    },
+    "auto": true
+   },
+   "url": "https://www.mediatek.com/products/smartphones/mediatek-dimensity-8000",
+   "since": "2026-10-26"
+  },
+  "dimensity-7500": {
+   "record": {
+    "id": "dimensity-7500",
+    "name": "Dimensity 7500",
+    "vendor": "mediatek",
+    "summary": "Added automatically from MediaTek's own product page.",
+    "provenance": {
+     "default": {
+      "class": "official",
+      "source": "mediatek",
+      "url": "https://www.mediatek.com/products/smartphones/mediatek-dimensity-7500",
+      "checked": "2026-10-26",
+      "note": "Read automatically from the chip maker's product page."
+     }
+    },
+    "auto": true
+   },
+   "url": "https://www.mediatek.com/products/smartphones/mediatek-dimensity-7500",
+   "since": "2026-10-26"
+  },
+  "dimensity-7450x": {
+   "record": {
+    "id": "dimensity-7450x",
+    "name": "Dimensity 7450X",
+    "vendor": "mediatek",
+    "summary": "Added automatically from MediaTek's own product page.",
+    "provenance": {
+     "default": {
+      "class": "official",
+      "source": "mediatek",
+      "url": "https://www.mediatek.com/products/smartphones/mediatek-dimensity-7450x",
+      "checked": "2026-10-26",
+      "note": "Read automatically from the chip maker's product page."
+     }
+    },
+    "auto": true
+   },
+   "url": "https://www.mediatek.com/products/smartphones/mediatek-dimensity-7450x",
+   "since": "2026-10-26"
+  },
+  "dimensity-7450": {
+   "record": {
+    "id": "dimensity-7450",
+    "name": "Dimensity 7450",
+    "vendor": "mediatek",
+    "summary": "Added automatically from MediaTek's own product page.",
+    "provenance": {
+     "default": {
+      "class": "official",
+      "source": "mediatek",
+      "url": "https://www.mediatek.com/products/smartphones/mediatek-dimensity-7450",
+      "checked": "2026-10-26",
+      "note": "Read automatically from the chip maker's product page."
+     }
+    },
+    "auto": true
+   },
+   "url": "https://www.mediatek.com/products/smartphones/mediatek-dimensity-7450",
+   "since": "2026-10-26"
+  },
+  "dimensity-7400x": {
+   "record": {
+    "id": "dimensity-7400x",
+    "name": "Dimensity 7400X",
+    "vendor": "mediatek",
+    "summary": "Added automatically from MediaTek's own product page.",
+    "provenance": {
+     "default": {
+      "class": "official",
+      "source": "mediatek",
+      "url": "https://www.mediatek.com/products/smartphones/mediatek-dimensity-7400x",
+      "checked": "2026-10-26",
+      "note": "Read automatically from the chip maker's product page."
+     }
+    },
+    "auto": true
+   },
+   "url": "https://www.mediatek.com/products/smartphones/mediatek-dimensity-7400x",
+   "since": "2026-10-26"
+  },
+  "dimensity-7400": {
+   "record": {
+    "id": "dimensity-7400",
+    "name": "Dimensity 7400",
+    "vendor": "mediatek",
+    "summary": "Added automatically from MediaTek's own product page.",
+    "provenance": {
+     "default": {
+      "class": "official",
+      "source": "mediatek",
+      "url": "https://www.mediatek.com/products/smartphones/mediatek-dimensity-7400",
+      "checked": "2026-10-26",
+      "note": "Read automatically from the chip maker's product page."
+     }
+    },
+    "auto": true
+   },
+   "url": "https://www.mediatek.com/products/smartphones/mediatek-dimensity-7400",
+   "since": "2026-10-26"
+  },
+  "dimensity-7360": {
+   "record": {
+    "id": "dimensity-7360",
+    "name": "Dimensity 7360",
+    "vendor": "mediatek",
+    "summary": "Added automatically from MediaTek's own product page.",
+    "provenance": {
+     "default": {
+      "class": "official",
+      "source": "mediatek",
+      "url": "https://www.mediatek.com/products/smartphones/mediatek-dimensity-7360",
+      "checked": "2026-10-26",
+      "note": "Read automatically from the chip maker's product page."
+     }
+    },
+    "auto": true
+   },
+   "url": "https://www.mediatek.com/products/smartphones/mediatek-dimensity-7360",
+   "since": "2026-10-26"
+  },
+  "dimensity-7350": {
+   "record": {
+    "id": "dimensity-7350",
+    "name": "Dimensity 7350",
+    "vendor": "mediatek",
+    "summary": "Added automatically from MediaTek's own product page.",
+    "provenance": {
+     "default": {
+      "class": "official",
+      "source": "mediatek",
+      "url": "https://www.mediatek.com/products/smartphones/mediatek-dimensity-7350",
+      "checked": "2026-10-26",
+      "note": "Read automatically from the chip maker's product page."
+     }
+    },
+    "auto": true
+   },
+   "url": "https://www.mediatek.com/products/smartphones/mediatek-dimensity-7350",
+   "since": "2026-10-26"
+  },
+  "dimensity-7100": {
+   "record": {
+    "id": "dimensity-7100",
+    "name": "Dimensity 7100",
+    "vendor": "mediatek",
+    "summary": "Added automatically from MediaTek's own product page.",
+    "provenance": {
+     "default": {
+      "class": "official",
+      "source": "mediatek",
+      "url": "https://www.mediatek.com/products/smartphones/mediatek-dimensity-7100",
+      "checked": "2026-10-26",
+      "note": "Read automatically from the chip maker's product page."
+     }
+    },
+    "auto": true
+   },
+   "url": "https://www.mediatek.com/products/smartphones/mediatek-dimensity-7100",
+   "since": "2026-10-26"
+  },
+  "dimensity-7030": {
+   "record": {
+    "id": "dimensity-7030",
+    "name": "Dimensity 7030",
+    "vendor": "mediatek",
+    "summary": "Added automatically from MediaTek's own product page.",
+    "provenance": {
+     "default": {
+      "class": "official",
+      "source": "mediatek",
+      "url": "https://www.mediatek.com/products/smartphones/mediatek-dimensity-7030",
+      "checked": "2026-10-26",
+      "note": "Read automatically from the chip maker's product page."
+     }
+    },
+    "auto": true
+   },
+   "url": "https://www.mediatek.com/products/smartphones/mediatek-dimensity-7030",
+   "since": "2026-10-26"
+  },
+  "dimensity-7025": {
+   "record": {
+    "id": "dimensity-7025",
+    "name": "Dimensity 7025",
+    "vendor": "mediatek",
+    "summary": "Added automatically from MediaTek's own product page.",
+    "provenance": {
+     "default": {
+      "class": "official",
+      "source": "mediatek",
+      "url": "https://www.mediatek.com/products/smartphones/mediatek-dimensity-7025",
+      "checked": "2026-10-26",
+      "note": "Read automatically from the chip maker's product page."
+     }
+    },
+    "auto": true
+   },
+   "url": "https://www.mediatek.com/products/smartphones/mediatek-dimensity-7025",
+   "since": "2026-10-26"
+  },
+  "dimensity-7020": {
+   "record": {
+    "id": "dimensity-7020",
+    "name": "Dimensity 7020",
+    "vendor": "mediatek",
+    "summary": "Added automatically from MediaTek's own product page.",
+    "provenance": {
+     "default": {
+      "class": "official",
+      "source": "mediatek",
+      "url": "https://www.mediatek.com/products/smartphones/mediatek-dimensity-7020",
+      "checked": "2026-10-26",
+      "note": "Read automatically from the chip maker's product page."
+     }
+    },
+    "auto": true
+   },
+   "url": "https://www.mediatek.com/products/smartphones/mediatek-dimensity-7020",
+   "since": "2026-10-26"
+  },
+  "dimensity-6500": {
+   "record": {
+    "id": "dimensity-6500",
+    "name": "Dimensity 6500",
+    "vendor": "mediatek",
+    "summary": "Added automatically from MediaTek's own product page.",
+    "provenance": {
+     "default": {
+      "class": "official",
+      "source": "mediatek",
+      "url": "https://www.mediatek.com/products/smartphones/mediatek-dimensity-6500",
+      "checked": "2026-10-26",
+      "note": "Read automatically from the chip maker's product page."
+     }
+    },
+    "auto": true
+   },
+   "url": "https://www.mediatek.com/products/smartphones/mediatek-dimensity-6500",
+   "since": "2026-10-26"
+  },
+  "dimensity-6400": {
+   "record": {
+    "id": "dimensity-6400",
+    "name": "Dimensity 6400",
+    "vendor": "mediatek",
+    "summary": "Added automatically from MediaTek's own product page.",
+    "provenance": {
+     "default": {
+      "class": "official",
+      "source": "mediatek",
+      "url": "https://www.mediatek.com/products/smartphones/mediatek-dimensity-6400",
+      "checked": "2026-10-26",
+      "note": "Read automatically from the chip maker's product page."
+     }
+    },
+    "auto": true
+   },
+   "url": "https://www.mediatek.com/products/smartphones/mediatek-dimensity-6400",
+   "since": "2026-10-26"
+  },
+  "dimensity-6360": {
+   "record": {
+    "id": "dimensity-6360",
+    "name": "Dimensity 6360",
+    "vendor": "mediatek",
+    "summary": "Added automatically from MediaTek's own product page.",
+    "provenance": {
+     "default": {
+      "class": "official",
+      "source": "mediatek",
+      "url": "https://www.mediatek.com/products/smartphones/mediatek-dimensity-6360",
+      "checked": "2026-10-26",
+      "note": "Read automatically from the chip maker's product page."
+     }
+    },
+    "auto": true
+   },
+   "url": "https://www.mediatek.com/products/smartphones/mediatek-dimensity-6360",
+   "since": "2026-10-26"
+  },
+  "dimensity-7300x": {
+   "record": {
+    "id": "dimensity-7300x",
+    "name": "Dimensity 7300X",
+    "vendor": "mediatek",
+    "summary": "Added automatically from MediaTek's own product page.",
+    "provenance": {
+     "default": {
+      "class": "official",
+      "source": "mediatek",
+      "url": "https://www.mediatek.com/products/smartphones/mediatek-dimensity-7300x",
+      "checked": "2026-10-26",
+      "note": "Read automatically from the chip maker's product page."
+     }
+    },
+    "auto": true
+   },
+   "url": "https://www.mediatek.com/products/smartphones/mediatek-dimensity-7300x",
+   "since": "2026-10-26"
+  }
+ },
+ "held": {},
+ "tooOld": {
+  "snapdragon-710": {
+   "name": "Snapdragon 710",
+   "url": "https://www.qualcomm.com/smartphones/products/7-series/snapdragon-710-mobile-platform",
+   "reason": "three-digit Snapdragon names were last used in 2022",
+   "at": "2026-10-26"
+  },
+  "snapdragon-712": {
+   "name": "Snapdragon 712",
+   "url": "https://www.qualcomm.com/smartphones/products/7-series/snapdragon-712-mobile-platform",
+   "reason": "three-digit Snapdragon names were last used in 2022",
+   "at": "2026-10-26"
+  },
+  "snapdragon-720g": {
+   "name": "Snapdragon 720G",
+   "url": "https://www.qualcomm.com/smartphones/products/7-series/snapdragon-720g-mobile-platform",
+   "reason": "three-digit Snapdragon names were last used in 2022",
+   "at": "2026-10-26"
+  },
+  "snapdragon-730": {
+   "name": "Snapdragon 730",
+   "url": "https://www.qualcomm.com/smartphones/products/7-series/snapdragon-730-mobile-platform",
+   "reason": "three-digit Snapdragon names were last used in 2022",
+   "at": "2026-10-26"
+  },
+  "snapdragon-730g": {
+   "name": "Snapdragon 730G",
+   "url": "https://www.qualcomm.com/smartphones/products/7-series/snapdragon-730g-mobile-platform",
+   "reason": "three-digit Snapdragon names were last used in 2022",
+   "at": "2026-10-26"
+  },
+  "snapdragon-732g": {
+   "name": "Snapdragon 732G",
+   "url": "https://www.qualcomm.com/smartphones/products/7-series/snapdragon-732g-mobile-platform",
+   "reason": "three-digit Snapdragon names were last used in 2022",
+   "at": "2026-10-26"
+  },
+  "snapdragon-750g": {
+   "name": "Snapdragon 750G",
+   "url": "https://www.qualcomm.com/smartphones/products/7-series/snapdragon-750g-5g-mobile-platform",
+   "reason": "three-digit Snapdragon names were last used in 2022",
+   "at": "2026-10-26"
+  },
+  "snapdragon-765": {
+   "name": "Snapdragon 765",
+   "url": "https://www.qualcomm.com/smartphones/products/7-series/snapdragon-765-5g-mobile-platform",
+   "reason": "three-digit Snapdragon names were last used in 2022",
+   "at": "2026-10-26"
+  },
+  "snapdragon-765g": {
+   "name": "Snapdragon 765G",
+   "url": "https://www.qualcomm.com/smartphones/products/7-series/snapdragon-765g-5g-mobile-platform",
+   "reason": "three-digit Snapdragon names were last used in 2022",
+   "at": "2026-10-26"
+  },
+  "snapdragon-768g": {
+   "name": "Snapdragon 768G",
+   "url": "https://www.qualcomm.com/smartphones/products/7-series/snapdragon-768g-5g-mobile-platform",
+   "reason": "three-digit Snapdragon names were last used in 2022",
+   "at": "2026-10-26"
+  },
+  "snapdragon-778g": {
+   "name": "Snapdragon 778G",
+   "url": "https://www.qualcomm.com/smartphones/products/7-series/snapdragon-778g-5g-mobile-platform",
+   "reason": "three-digit Snapdragon names were last used in 2022",
+   "at": "2026-10-26"
+  },
+  "snapdragon-778g-plus": {
+   "name": "Snapdragon 778G Plus",
+   "url": "https://www.qualcomm.com/smartphones/products/7-series/snapdragon-778g-plus-5g-mobile-platform",
+   "reason": "three-digit Snapdragon names were last used in 2022",
+   "at": "2026-10-26"
+  },
+  "snapdragon-780g": {
+   "name": "Snapdragon 780G",
+   "url": "https://www.qualcomm.com/smartphones/products/7-series/snapdragon-780g-5g-mobile-platform",
+   "reason": "three-digit Snapdragon names were last used in 2022",
+   "at": "2026-10-26"
+  },
+  "snapdragon-782g": {
+   "name": "Snapdragon 782G",
+   "url": "https://www.qualcomm.com/smartphones/products/7-series/snapdragon-782g-mobile-platform",
+   "reason": "three-digit Snapdragon names were last used in 2022",
+   "at": "2026-10-26"
+  },
+  "snapdragon-820": {
+   "name": "Snapdragon 820",
+   "url": "https://www.qualcomm.com/smartphones/products/8-series/snapdragon-820-mobile-platform",
+   "reason": "three-digit Snapdragon names were last used in 2022",
+   "at": "2026-10-26"
+  },
+  "snapdragon-821": {
+   "name": "Snapdragon 821",
+   "url": "https://www.qualcomm.com/smartphones/products/8-series/snapdragon-821-mobile-platform",
+   "reason": "three-digit Snapdragon names were last used in 2022",
+   "at": "2026-10-26"
+  },
+  "snapdragon-835": {
+   "name": "Snapdragon 835",
+   "url": "https://www.qualcomm.com/smartphones/products/8-series/snapdragon-835-mobile-platform",
+   "reason": "three-digit Snapdragon names were last used in 2022",
+   "at": "2026-10-26"
+  },
+  "snapdragon-845": {
+   "name": "Snapdragon 845",
+   "url": "https://www.qualcomm.com/smartphones/products/8-series/snapdragon-845-mobile-platform",
+   "reason": "three-digit Snapdragon names were last used in 2022",
+   "at": "2026-10-26"
+  },
+  "snapdragon-855": {
+   "name": "Snapdragon 855",
+   "url": "https://www.qualcomm.com/smartphones/products/8-series/snapdragon-855-mobile-platform",
+   "reason": "three-digit Snapdragon names were last used in 2022",
+   "at": "2026-10-26"
+  },
+  "snapdragon-855-plus-and-860": {
+   "name": "Snapdragon 855 Plus and 860",
+   "url": "https://www.qualcomm.com/smartphones/products/8-series/snapdragon-855-plus-and-860-mobile-platform",
+   "reason": "three-digit Snapdragon names were last used in 2022",
+   "at": "2026-10-26"
+  },
+  "snapdragon-865": {
+   "name": "Snapdragon 865",
+   "url": "https://www.qualcomm.com/smartphones/products/8-series/snapdragon-865-5g-mobile-platform",
+   "reason": "three-digit Snapdragon names were last used in 2022",
+   "at": "2026-10-26"
+  },
+  "snapdragon-865-plus": {
+   "name": "Snapdragon 865 Plus",
+   "url": "https://www.qualcomm.com/smartphones/products/8-series/snapdragon-865-plus-5g-mobile-platform",
+   "reason": "three-digit Snapdragon names were last used in 2022",
+   "at": "2026-10-26"
+  },
+  "snapdragon-870": {
+   "name": "Snapdragon 870",
+   "url": "https://www.qualcomm.com/smartphones/products/8-series/snapdragon-870-5g-mobile-platform",
+   "reason": "three-digit Snapdragon names were last used in 2022",
+   "at": "2026-10-26"
+  },
+  "snapdragon-888": {
+   "name": "Snapdragon 888",
+   "url": "https://www.qualcomm.com/smartphones/products/8-series/snapdragon-888-5g-mobile-platform",
+   "reason": "three-digit Snapdragon names were last used in 2022",
+   "at": "2026-10-26"
+  },
+  "snapdragon-888-plus": {
+   "name": "Snapdragon 888 Plus",
+   "url": "https://www.qualcomm.com/smartphones/products/8-series/snapdragon-888-plus-5g-mobile-platform",
+   "reason": "three-digit Snapdragon names were last used in 2022",
+   "at": "2026-10-26"
+  },
+  "snapdragon-800": {
+   "name": "Snapdragon 800",
+   "url": "https://www.qualcomm.com/smartphones/products/8-series/snapdragon-processors-800",
+   "reason": "three-digit Snapdragon names were last used in 2022",
+   "at": "2026-10-26"
+  },
+  "snapdragon-801": {
+   "name": "Snapdragon 801",
+   "url": "https://www.qualcomm.com/smartphones/products/8-series/snapdragon-processors-801",
+   "reason": "three-digit Snapdragon names were last used in 2022",
+   "at": "2026-10-26"
+  },
+  "snapdragon-805": {
+   "name": "Snapdragon 805",
+   "url": "https://www.qualcomm.com/smartphones/products/8-series/snapdragon-processors-805",
+   "reason": "three-digit Snapdragon names were last used in 2022",
+   "at": "2026-10-26"
+  },
+  "snapdragon-808": {
+   "name": "Snapdragon 808",
+   "url": "https://www.qualcomm.com/smartphones/products/8-series/snapdragon-processors-808",
+   "reason": "three-digit Snapdragon names were last used in 2022",
+   "at": "2026-10-26"
+  },
+  "snapdragon-810": {
+   "name": "Snapdragon 810",
+   "url": "https://www.qualcomm.com/smartphones/products/8-series/snapdragon-processors-810",
+   "reason": "three-digit Snapdragon names were last used in 2022",
+   "at": "2026-10-26"
+  }
+ },
+ "updatedAt": "2026-10-26T15:44:52+00:00",
+ "runs": {
+  "recent": "2026-10-26T15:44:52+00:00"
+ }
+}

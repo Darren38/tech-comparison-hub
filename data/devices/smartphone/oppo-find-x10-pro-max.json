@@ -67,17 +67,21 @@
       "url": "https://zinggadget.com/oppo-find-x10-%e7%b3%bb%e5%88%97%e4%b8%ad%e5%9b%bd%e5%8f%91%e5%b8%83%e5%94%ae%e7%ba%a6-rm3036-%e8%b5%b7/",
       "class": "news",
       "accessed": "2026-09-24"
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 6999,
+      "config": "16 GB / 512 GB",
+      "date": "2026-10-22",
+      "type": "launch",
+      "source": "soyacincau",
+      "url": "https://soyacincau.com/2026/10/22/oppo-find-x10-series-malaysia-launch-price-specs-preorder-promo/",
+      "class": "news",
+      "accessed": "2026-11-01",
+      "note": "Zing Gadget reports the same price."
     }
   ],
-  "availability": {
-    "MY": {
-      "status": "not-launched",
-      "checked": "2026-09-24",
-      "source": "technave",
-      "url": "https://technave.com/gadget/OPPO-Find-X10-and-Find-X10-E-China-release-MediaTek-Dimensity-9600M-Dual-200MP-Hasselblad-8000mAh-and-more-from-RM3049-47522.html",
-      "note": "China launch on 22 September 2026, on sale in China from 24 September. No Malaysian release date or price yet."
-    }
-  },
   "specs": {
     "display": {
       "size_in": 6.78,

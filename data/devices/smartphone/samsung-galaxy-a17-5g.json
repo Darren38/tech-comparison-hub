@@ -112,7 +112,8 @@
       "security_until": "2031-08-31"
     },
     "platform": {
-      "cpu": "Octa-Core; 2.4GHz, 2GHz"
+      "cpu": "Octa-Core; 2.4GHz, 2GHz",
+      "chipset": "exynos-1330"
     },
     "audio": {
       "speakers": "Mono speaker",
@@ -143,6 +144,13 @@
         "class": "platform",
         "source": "platform",
         "note": "Calculated from resolution and screen size."
+      },
+      "specs.platform.chipset": {
+        "class": "official",
+        "source": "samsung",
+        "url": "https://news.samsung.com/us/samsung-welcomes-galaxy-a17-5g-galaxy-tab-a11-galaxy-ecosystem/",
+        "checked": "2026-10-26",
+        "note": "Samsung's newsroom spec table for the Galaxy A17 5G: AP - Exynos 1330 (Lowyat's Malaysian launch report agrees)."
       }
     }
   },

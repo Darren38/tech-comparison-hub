@@ -35,7 +35,7 @@
       "refresh_hz": 90
     },
     "platform": {
-      "chipset_note": "Google Tensor G2 (not yet in the chipset database)"
+      "chipset": "google-tensor-g2"
     },
     "memory": {
       "ram_gb": [
@@ -86,6 +86,15 @@
       "url": "https://support.google.com/pixelphone/answer/7158570?hl=en-GB",
       "checked": "2026-09-25",
       "note": "Read from Google’s Pixel phone hardware tech specs page (international figures). Google lists five years of security updates."
+    },
+    "fields": {
+      "specs.platform.chipset": {
+        "class": "official",
+        "source": "google",
+        "url": "https://support.google.com/pixelphone/answer/7158570?hl=en-GB",
+        "checked": "2026-10-26",
+        "note": "Google's Pixel hardware tech specs: Processor - Google Tensor G2."
+      }
     }
   },
   "dataStatus": "compiled"

@@ -1,5 +1,23 @@
 # Changelog
 
+## 1 November 2026
+
+Chipsets now join the hub by themselves, flagships first, plus this week's checked news.
+
+- The chip makers' own product pages are read every day: Qualcomm's Snapdragon 7 and 8 series, MediaTek's Dimensity and Samsung's Exynos. A chip already in the hub gets the details it was missing (CPU cores and speeds, GPU, NPU, memory, storage, process), each linked to the maker's page; anything entered by hand stays as it is. The first run filled 93 details for 20 chips, for example the CPU and GPU of the Dimensity 9600M in the vivo X500 and OPPO Find X10. Where a chip page and a hand-entered record both had a value, they agreed every time.
+- A new chip joins only after the open-source AI model that already checks new phones is sure it was announced in 2023 or later. If it isn't sure, the chip is held until it has been checked by a person. 26 chips are waiting for their first check.
+- 10 chips were added after checking each maker's page by hand: Google Tensor G2, G3 and G4, Exynos 1330, Helio G92 Max, Dimensity 8350 Apex and four Kirin tablet chips. 21 phones and tablets are now linked to their chip (the Pixel 7a to 10a, Pixel Fold, Galaxy A17 5G and A37 5G, OnePlus Pad 2 and Nord CE5, realme C75 and GT3, and four Huawei MatePads), so their chip's results and pages connect. Where the maker's page doesn't name the chip, it is left blank rather than guessed.
+- The site's check-up after each update no longer fails because a news site's picture server is slow. On 23 October two check-ups reported that the Home and News pages didn't finish drawing in time, while the site itself worked; the check-up's browser was waiting for publishers' pictures. It now draws the pages without pictures (they are checked by their own daily job) and tries a slow page once more before reporting it.
+
+**New checked items (read by hand on 1 November)**
+- 16 news items, Malaysia first: the OPPO Find X10 and vivo X500 series' Malaysian launches and prices, the iPhone Duo going on sale in Malaysia (online orders only, delivery from late January for new orders), a warning about fake iPhone Duo stores, a buyback-and-protection plan for the iPhone 18 Pro, and Samsung Malaysia on the Galaxy A08. Also iFixit's iPhone Duo teardown, Apple's response to inner-screen cracks on a small number of Duos and its note to repair staff (no recall), a setup bug on some Galaxy S26 Ultra phones, owners' reports of worse battery life on the S24 and S25 after One UI 9, One UI 9 for the Galaxy A35 and A55, the A57's October patch (which doesn't mention its start-up problem), and iOS 27.1 for the Duo only. Reports and owner claims are labelled as such.
+- 2 reviews: 9to5Google on the OPPO Find X10 Pro Max (European model) and MacRumors on the iPhone Duo after one week.
+
+**Records brought up to date**
+- Malaysian prices for the OPPO Find X10 (RM4,999 starting price; the sources disagree about a cheaper 256 GB price, which the record says) and Find X10 Pro Max (RM6,999), and for the vivo X500 (RM4,699 and RM5,299), X500 Pro (RM5,999) and X500 Pro Max (RM6,399 and RM6,999), with the early-bird prices noted.
+- iPhone Duo: on sale in Malaysia since 23 October. vivo X500 series: on sale in Malaysia.
+- Galaxy A08: IP64 and Samsung's update promise (six OS upgrades, six years of security updates), from Samsung Malaysia.
+
 ## 22 October 2026 (second update)
 
 - Fix: the record of since when a news site has been unreachable was rolled back by the day's saved results later in each update, so a site that stayed down would never have been flagged after a day. The record now lives where nothing overwrites it.

@@ -586,5 +586,111 @@
       }
     ],
     "extraction": "partial"
+  },
+  {
+    "id": "9to5google-oppo-find-x10-pro-max-review",
+    "kind": "review",
+    "source": "9to5google",
+    "class": "reviewer",
+    "title": "Review: The Oppo Find X10 Pro Max is a gut punch in a post-OnePlus world",
+    "url": "https://9to5google.com/2026/10/21/oppo-find-x10-pro-max-review/",
+    "author": "Ben Schoon",
+    "published": "2026-10-21",
+    "accessed": "2026-11-01",
+    "devices": [
+      "oppo-find-x10-pro-max"
+    ],
+    "facets": [
+      "camera",
+      "battery",
+      "thermals",
+      "software",
+      "value"
+    ],
+    "method": "Experience review of the European model (12 GB/512 GB, 7,150 mAh battery) over about a month.",
+    "findings": [
+      {
+        "subject": "oppo-find-x10-pro-max",
+        "facet": "camera",
+        "stance": "positive",
+        "text": "Three 200 MP cameras give crisp, clean stills and strong video (4K 120 fps and 8K 30 fps from every rear camera), though not quite at the level of the Find X9 Ultra; the optional teleconverter adds natural background blur."
+      },
+      {
+        "subject": "oppo-find-x10-pro-max",
+        "facet": "battery",
+        "stance": "positive",
+        "text": "Even heavy days with hotspot use, video editing and games never ended low; not quite two days. The European model has a smaller battery (7,150 mAh) than the 8,000 mAh Malaysian one."
+      },
+      {
+        "subject": "oppo-find-x10-pro-max",
+        "facet": "thermals",
+        "stance": "positive",
+        "text": "The Dimensity 9600 Pro kept the phone smooth and never warm, even with GPS, hot days and video exports."
+      },
+      {
+        "subject": "oppo-find-x10-pro-max",
+        "facet": "software",
+        "stance": "neutral",
+        "text": "ColorOS 17 is easy to use once learned, but copies Apple's look; its transparency can be toned down."
+      },
+      {
+        "subject": "oppo-find-x10-pro-max",
+        "facet": "build",
+        "stance": "negative",
+        "text": "No built-in Qi2 magnets, and a heavy phone with a large camera bump."
+      },
+      {
+        "subject": "oppo-find-x10-pro-max",
+        "facet": "value",
+        "stance": "negative",
+        "text": "€1,799 in Europe is a lot for a phone that doesn't fold."
+      }
+    ]
+  },
+  {
+    "id": "macrumors-iphone-duo-review-one-week-later",
+    "kind": "review",
+    "source": "macrumors",
+    "class": "reviewer",
+    "title": "iPhone Duo Review: One Week Later",
+    "url": "https://www.macrumors.com/2026/10/30/iphone-duo-one-week-later/",
+    "published": "2026-10-30",
+    "accessed": "2026-11-01",
+    "devices": [
+      "apple-iphone-duo"
+    ],
+    "facets": [
+      "battery",
+      "camera",
+      "software",
+      "durability"
+    ],
+    "method": "Video review after one week of daily use.",
+    "findings": [
+      {
+        "subject": "apple-iphone-duo",
+        "facet": "battery",
+        "stance": "positive",
+        "text": "Battery life sits between the iPhone 18 Pro and 18 Pro Max and should last most people a full day."
+      },
+      {
+        "subject": "apple-iphone-duo",
+        "facet": "camera",
+        "stance": "neutral",
+        "text": "The cameras are just okay; people who zoom a lot will miss a telephoto lens."
+      },
+      {
+        "subject": "apple-iphone-duo",
+        "facet": "software",
+        "stance": "neutral",
+        "text": "The small outer screen is useful for quick tasks, and portrait-unfolded multitasking works well, but not all apps are updated for the Duo yet."
+      },
+      {
+        "subject": "apple-iphone-duo",
+        "facet": "durability",
+        "stance": "neutral",
+        "text": "None of MacRumors' units cracked; the inner-screen defect Apple acknowledged appears soon after purchase, so a Duo that is fine after a week is unlikely to have it."
+      }
+    ]
   }
 ]

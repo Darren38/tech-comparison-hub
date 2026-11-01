@@ -5,7 +5,7 @@
   "category": "smartphone",
   "series": "iPhone",
   "form": "foldable",
-  "status": "pre-order",
+  "status": "released",
   "announced": "2026-09-10",
   "prices": [
     {
@@ -199,9 +199,16 @@
       "status": {
         "class": "news",
         "source": "soyacincau",
-        "url": "https://soyacincau.com/2026/10/16/iphone-duo-mostly-sold-out-in-malaysia-apple-store-delivery-slips-to-january-2027/",
-        "checked": "2026-10-21",
-        "note": "Malaysian pre-orders opened on 16 October 2026; on sale from 23 October 2026."
+        "url": "https://soyacincau.com/2026/10/23/iphone-duo-now-in-malaysia-apple-store-trx-launch-day-queue/",
+        "checked": "2026-11-01",
+        "note": "On sale in Malaysia from 23 October 2026 (online orders only at Apple; delivery from late January 2027 for new orders that day)."
+      },
+      "released": {
+        "class": "news",
+        "source": "soyacincau",
+        "url": "https://soyacincau.com/2026/10/23/iphone-duo-now-in-malaysia-apple-store-trx-launch-day-queue/",
+        "checked": "2026-11-01",
+        "note": "On sale in Malaysia from 23 October 2026 (online orders only at Apple; delivery from late January 2027 for new orders that day)."
       }
     }
   },
@@ -212,5 +219,6 @@
     "page": "https://www.apple.com/my/iphone-duo/specs/",
     "credit": "Apple",
     "checked": "2026-09-19"
-  }
+  },
+  "released": "2026-10-23"
 }

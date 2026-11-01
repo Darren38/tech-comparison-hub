@@ -1,0 +1,20 @@
+{
+  "id": "google-tensor-g2",
+  "name": "Google Tensor G2",
+  "vendor": "google",
+  "family": "Tensor",
+  "tier": "flagship",
+  "aliases": [
+    "Tensor G2"
+  ],
+  "summary": "Name recorded from the maker's own specification page. Further details are added automatically when the chip maker publishes them.",
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "google",
+      "url": "https://support.google.com/pixelphone/answer/7158570?hl=en-GB",
+      "checked": "2026-10-26",
+      "note": "Google's Pixel hardware tech specs list Google Tensor G2 for the Pixel 7, 7 Pro, 7a and Pixel Fold."
+    }
+  }
+}
