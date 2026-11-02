@@ -6,14 +6,18 @@
 # run red; another site's picture or feed being down is listed as a warning. Only after a green run is the release pushed
 # to main, which publishes it (.github/workflows/pages.yml). Nothing here can change the live site.
 #
-# The link check opens only the device pages the release changes (tests/changed_devices.py); run the workflow by hand
-# with "full" ticked for the weekly check of every device page.
+# The link check opens only the device pages the release changes (tests/changed_devices.py); every Wednesday a scheduled
+# run checks every device page (or run it by hand with "full" ticked).
 
 name: Test a release before it goes live
 
 on:
   push:
     branches: [test]
+  # every Wednesday 09:30 Malaysia time: the whole set on the live code, with every device page's links (the weekly
+  # full check); a failure turns the run red and GitHub emails the owner
+  schedule:
+    - cron: "30 1 * * 3"
   workflow_dispatch:
     inputs:
       full:
@@ -85,7 +89,7 @@ jobs:
       # behaves there in ways GitHub Pages doesn't
       - name: Run the test in headless Chrome
         env:
-          FULL: ${{ inputs.full }}
+          FULL: ${{ inputs.full || github.event_name == 'schedule' }}
           CHANGED: ${{ needs.changed.outputs.devices }}
         run: |
           if [ "$FULL" != "true" ] && [ -n "$CHANGED" ]; then export LINKCHECK_DEVICES="$CHANGED"; fi

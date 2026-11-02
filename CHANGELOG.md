@@ -6,7 +6,7 @@ Faster, sturdier testing before each update.
 
 - The browser tests that check every update (interactions, three sets of visitor journeys, every key page at desktop and phone width, and the links between devices and documents) are now part of the project (tests/), and wait for each page to finish drawing instead of a fixed few seconds.
 - They now run on GitHub's machines, all at once, on a separate test branch before an update goes live; nothing is published until they pass. A small judge (tests/judge.py) tells real failures from other sites' outages, such as a publisher's picture server being down.
-- The link check covers the device pages an update changes; every device page is still checked once a week.
+- The link check covers the device pages an update changes; every Wednesday a scheduled run on GitHub checks every device page.
 - Latest flagships: the iQOO 16 shows its Chinese launch price (CNY 5,999); pictures from the makers for the iPad mini, OPPO Pad Mini, Huawei Watch 6 and Watch 6 Pro; and the new devices now cite their makers' own product pages, so pictures are found automatically once a maker offers one.
 
 ## 1 November 2026 (third update)
