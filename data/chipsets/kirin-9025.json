@@ -1,0 +1,16 @@
+{
+  "id": "kirin-9025",
+  "name": "Kirin 9025",
+  "vendor": "hisilicon",
+  "family": "Kirin",
+  "summary": "Name recorded from phone makers' specification pages and launch reports. Chip details have not been compiled yet.",
+  "provenance": {
+    "default": {
+      "class": "news",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2026/408739/huawei-pura-90-plus-china/",
+      "checked": "2026-11-03",
+      "note": "Chip name as given for the Huawei Pura 90 Plus (Lowyat): about 20% faster than the Kirin 9020 by Huawei's figure."
+    }
+  }
+}

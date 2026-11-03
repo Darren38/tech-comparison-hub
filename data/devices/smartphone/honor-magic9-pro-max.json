@@ -1,0 +1,185 @@
+{
+  "id": "honor-magic9-pro-max",
+  "name": "HONOR Magic9 Pro Max",
+  "brand": "honor",
+  "category": "smartphone",
+  "series": "Magic",
+  "form": "bar",
+  "status": "released",
+  "announced": "2026-09-28",
+  "released": "2026-09-28",
+  "segment": "flagship",
+  "summary": "HONOR's 2026 camera flagship, co-engineered with ARRI: a 200 MP 1/1.28-inch main camera and a 200 MP telephoto, the Snapdragon 8 Elite Extreme Gen 6 and an 8,800 mAh battery. On sale in China from 28 September 2026; HONOR says Southeast Asian launches will be announced. No independent tests yet: its scores come from specifications only.",
+  "highlights": [
+    "Snapdragon 8 Elite Extreme Gen 6",
+    "200 MP 1/1.28\" main + 200 MP telephoto (ARRI)",
+    "8,800 mAh battery",
+    "100 W wired, 80 W wireless"
+  ],
+  "prices": [
+    {
+      "region": "CN",
+      "currency": "CNY",
+      "amount": 6499,
+      "config": "12 GB / 256 GB",
+      "date": "2026-09-28",
+      "type": "launch",
+      "source": "fonearena",
+      "url": "https://www.fonearena.com/blog/493508/honor-magic-9-pro-max-price-specifications-magic-9-magic-9-super-edition.html",
+      "class": "news",
+      "accessed": "2026-11-03",
+      "note": "HONOR's launch release states the RMB 6,499 starting price."
+    },
+    {
+      "region": "CN",
+      "currency": "CNY",
+      "amount": 6999,
+      "config": "12 GB / 512 GB",
+      "date": "2026-09-28",
+      "type": "launch",
+      "source": "fonearena",
+      "url": "https://www.fonearena.com/blog/493508/honor-magic-9-pro-max-price-specifications-magic-9-magic-9-super-edition.html",
+      "class": "news",
+      "accessed": "2026-11-03",
+      "note": "HONOR's launch release states the RMB 6,499 starting price."
+    },
+    {
+      "region": "CN",
+      "currency": "CNY",
+      "amount": 7499,
+      "config": "16 GB / 512 GB",
+      "date": "2026-09-28",
+      "type": "launch",
+      "source": "fonearena",
+      "url": "https://www.fonearena.com/blog/493508/honor-magic-9-pro-max-price-specifications-magic-9-magic-9-super-edition.html",
+      "class": "news",
+      "accessed": "2026-11-03",
+      "note": "HONOR's launch release states the RMB 6,499 starting price."
+    },
+    {
+      "region": "CN",
+      "currency": "CNY",
+      "amount": 8499,
+      "config": "16 GB / 1 TB",
+      "date": "2026-09-28",
+      "type": "launch",
+      "source": "fonearena",
+      "url": "https://www.fonearena.com/blog/493508/honor-magic-9-pro-max-price-specifications-magic-9-magic-9-super-edition.html",
+      "class": "news",
+      "accessed": "2026-11-03",
+      "note": "HONOR's launch release states the RMB 6,499 starting price."
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 6.8,
+      "type": "LTPO OLED",
+      "resolution": "2868 × 1320",
+      "ppi": 464,
+      "refresh_hz": 120,
+      "peak_nits": 10000
+    },
+    "platform": {
+      "chipset": "snapdragon-8-elite-extreme-gen-6"
+    },
+    "memory": {
+      "ram_gb": [
+        12,
+        16
+      ],
+      "storage_gb": [
+        256,
+        512,
+        1024
+      ]
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 200,
+          "aperture": "f/1.57",
+          "sensor": "1/1.28\"",
+          "ois": true
+        },
+        {
+          "role": "periscope",
+          "mp": 200,
+          "aperture": "f/2.6",
+          "sensor": "1/1.4\"",
+          "focal_mm": 85
+        },
+        {
+          "role": "ultrawide",
+          "mp": 50,
+          "aperture": "f/2.0"
+        }
+      ],
+      "front": "55 MP, f/2.0, plus 3D depth camera",
+      "video": "ARRI CINEMA mode up to 4K 60 fps, ARRI LogC3"
+    },
+    "build": {
+      "ip": "IP68, IP69, IP69K"
+    },
+    "battery": {
+      "capacity_mah": 8800,
+      "chemistry": "Silicon-carbon"
+    },
+    "charging": {
+      "wired_w": 100,
+      "wireless_w": 80
+    },
+    "connectivity": {
+      "cellular": "5G"
+    },
+    "biometrics": {
+      "fingerprint": "Under display (3D ultrasonic)",
+      "face": "3D face recognition"
+    },
+    "software": {
+      "launch_os": "MagicOS 11 (Android 17)"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "news",
+      "source": "fonearena",
+      "url": "https://www.fonearena.com/blog/493508/honor-magic-9-pro-max-price-specifications-magic-9-magic-9-super-edition.html",
+      "checked": "2026-11-03",
+      "note": "Specifications from FoneArena's launch report (28 September 2026), cross-checked with HONOR's own launch release and HONOR China's product page (8,800 mAh typical, 8,600 mAh rated). Telephoto aperture f/2.6 as HONOR states (TechNave lists f/1.4). No independent tests yet: its scores come from specifications only."
+    },
+    "fields": {
+      "official_page": {
+        "class": "official",
+        "source": "honor",
+        "url": "https://www.honor.com/cn/phones/honor-magic9-pro-max/",
+        "checked": "2026-11-03",
+        "note": "HONOR Magic9 Pro Max product page on HONOR China's site."
+      },
+      "released": {
+        "class": "official",
+        "source": "honor",
+        "url": "https://www.honor.com/global/news/honor-magic9-launch/",
+        "checked": "2026-11-03",
+        "note": "HONOR: official sales in China begin on 28 September, from RMB 6,499."
+      }
+    }
+  },
+  "availability": {
+    "MY": {
+      "status": "not-launched",
+      "checked": "2026-11-03",
+      "source": "honor",
+      "url": "https://www.honor.com/global/news/honor-magic9-launch/",
+      "note": "HONOR: regional launches in Europe, MEA and Southeast Asia will be announced; no Malaysian date or price yet."
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://www-file.honor.com/content/dam/honor/common/product-list/product-series/honor-magic9-pro-max/honor-magic9-pro-max-id-green-back.png",
+    "page": "https://www.honor.com/cn/phones/honor-magic9-pro-max/",
+    "credit": "HONOR China",
+    "checked": "2026-11-03"
+  }
+}

@@ -1067,7 +1067,8 @@ FLAGSHIP_NAMES = [re.compile(p) for p in (
     r'^iPhone \d+( Plus| Pro| Pro Max)?$', r'^iPhone (Air|Duo)$',
     r'^(Xiaomi )?\d+( Ultra| Pro| Pro Max)?$', r'^(Xiaomi )?\d+T Pro$', r'^Leica Leitzphone',
     r'^(OPPO )?Find (X\d+( Pro| Ultra|s)?|N\d+)$', r'^(vivo )?X\d+( Pro| Ultra)?$', r'^(vivo )?X Fold\d*',
-    r'^(HONOR )?Magic\d+( Pro| Ultra| RSR Porsche Design)?$', r'^(HONOR )?Magic V\d+', r'^(HONOR )?Magic\d+ RSR',
+    r'^(HONOR )?Magic\d+( Pro| Pro Max| Ultra| RSR Porsche Design)?$', r'^(HONOR )?Magic V\d+', r'^(HONOR )?Magic\d+ RSR',
+    r'^(HONOR )?WIN \d+$',  # Version 39: HONOR's top-chip gaming phone (not the WIN RT / WIN Turbo models)
     r'^(Huawei )?Mate \d+( Pro| Pro\+| RS)?', r'^(Huawei )?Mate X', r'^(Huawei )?Pura \d+s?( Pro| Ultra| Pro Max)?$',
     r'^(OnePlus )?\d+( Pro)?$', r'^(Google )?Pixel \d+( Pro| Pro XL| Pro Fold)?$',
     r'^iQOO \d+( Pro)?$', r'^REDMAGIC \d+ Pro', r'^(realme )?GT \d+ Pro$', r'^POCO F\d+ (Pro|Ultra)$',

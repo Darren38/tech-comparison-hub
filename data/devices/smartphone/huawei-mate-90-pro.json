@@ -1,0 +1,172 @@
+{
+  "id": "huawei-mate-90-pro",
+  "name": "Huawei Mate 90 Pro",
+  "brand": "huawei",
+  "category": "smartphone",
+  "series": "Mate",
+  "form": "bar",
+  "status": "released",
+  "announced": "2026-10-01",
+  "released": "2026-10-01",
+  "segment": "flagship",
+  "summary": "Huawei's 2026 Mate Pro: the new Kirin 9035, a 6.75-inch dual-layer OLED rated at 12,000 nits (1% of the screen), a 50 MP 4x telephoto and a 6,600 mAh battery with 100 W charging. On sale in China since 1 October 2026. No independent tests yet: its scores come from specifications only.",
+  "prices": [
+    {
+      "region": "CN",
+      "currency": "CNY",
+      "amount": 6999,
+      "config": "12 GB / 256 GB",
+      "date": "2026-10-01",
+      "type": "launch",
+      "source": "fonearena",
+      "url": "https://www.fonearena.com/blog/493904/huawei-mate-90-mate-90-pro-mate-90-pro-max-mate-90-rs-ultimate-design-price-features.html",
+      "class": "news",
+      "accessed": "2026-11-03"
+    },
+    {
+      "region": "CN",
+      "currency": "CNY",
+      "amount": 7999,
+      "config": "12 GB / 512 GB",
+      "date": "2026-10-01",
+      "type": "launch",
+      "source": "fonearena",
+      "url": "https://www.fonearena.com/blog/493904/huawei-mate-90-mate-90-pro-mate-90-pro-max-mate-90-rs-ultimate-design-price-features.html",
+      "class": "news",
+      "accessed": "2026-11-03"
+    },
+    {
+      "region": "CN",
+      "currency": "CNY",
+      "amount": 8499,
+      "config": "16 GB / 512 GB",
+      "date": "2026-10-01",
+      "type": "launch",
+      "source": "fonearena",
+      "url": "https://www.fonearena.com/blog/493904/huawei-mate-90-mate-90-pro-mate-90-pro-max-mate-90-rs-ultimate-design-price-features.html",
+      "class": "news",
+      "accessed": "2026-11-03"
+    },
+    {
+      "region": "CN",
+      "currency": "CNY",
+      "amount": 9999,
+      "config": "16 GB / 1 TB",
+      "date": "2026-10-01",
+      "type": "launch",
+      "source": "fonearena",
+      "url": "https://www.fonearena.com/blog/493904/huawei-mate-90-mate-90-pro-mate-90-pro-max-mate-90-rs-ultimate-design-price-features.html",
+      "class": "news",
+      "accessed": "2026-11-03"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 6.75,
+      "type": "Dual-layer LTPO OLED",
+      "resolution": "2832 × 1280",
+      "refresh_hz": 120
+    },
+    "platform": {
+      "chipset": "kirin-9035"
+    },
+    "memory": {
+      "ram_gb": [
+        12,
+        16
+      ],
+      "storage_gb": [
+        256,
+        512,
+        1024
+      ]
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "aperture": "f/1.4–f/4.0",
+          "ois": true,
+          "note": "RYYB, variable aperture"
+        },
+        {
+          "role": "ultrawide",
+          "mp": 40,
+          "aperture": "f/2.2"
+        },
+        {
+          "role": "periscope",
+          "mp": 50,
+          "aperture": "f/2.1",
+          "ois": true,
+          "zoom_x": 4,
+          "note": "Telephoto macro"
+        }
+      ],
+      "zoom_optical_x": 4,
+      "front": "13 MP, f/2.0, autofocus, plus 3D depth camera",
+      "video": "4K"
+    },
+    "build": {
+      "ip": "IP68, IP69"
+    },
+    "battery": {
+      "capacity_mah": 6600
+    },
+    "charging": {
+      "wired_w": 100,
+      "wireless_w": 50
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "bluetooth": "Bluetooth 6.0",
+      "nfc": true
+    },
+    "software": {
+      "launch_os": "HarmonyOS 7"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "news",
+      "source": "fonearena",
+      "url": "https://www.fonearena.com/blog/493904/huawei-mate-90-mate-90-pro-mate-90-pro-max-mate-90-rs-ultimate-design-price-features.html",
+      "checked": "2026-11-03",
+      "note": "Specifications from FoneArena's launch report (1 October 2026), cross-checked with Huawei China's product page and Lowyat (6.75-inch 2832 × 1280 screen, Bluetooth 6.0, IP68 and IP69). On sale in China since the launch day (快科技, Zing Gadget). No independent tests yet: its scores come from specifications only."
+    },
+    "fields": {
+      "official_page": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://consumer.huawei.com/cn/phones/mate90-pro/",
+        "checked": "2026-11-03",
+        "note": "Huawei Mate 90 Pro product page on Huawei China's site."
+      },
+      "released": {
+        "class": "news",
+        "source": "mydrivers",
+        "url": "https://news.mydrivers.com/1/1154/1154996.htm",
+        "checked": "2026-11-03",
+        "note": "快科技 (1 October 2026): the Mate 90 series was launched at 10:00 and went on sale at 12:08 the same day."
+      }
+    }
+  },
+  "availability": {
+    "MY": {
+      "status": "not-launched",
+      "checked": "2026-11-03",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2026/406066/huawei-mate-90-series-china/",
+      "note": "China launch only; Huawei has not given global or Malaysian details."
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://consumer.huawei.com/content/dam/huawei-cbg-site/cn/mkt/pdp/phones/mate90-pro/list/green.png",
+    "page": "https://consumer.huawei.com/cn/phones/mate90-pro/specs/",
+    "credit": "Huawei China",
+    "checked": "2026-11-03"
+  }
+}

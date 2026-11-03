@@ -1,0 +1,155 @@
+{
+  "id": "huawei-pura-90-plus",
+  "name": "Huawei Pura 90 Plus",
+  "brand": "huawei",
+  "category": "smartphone",
+  "series": "Pura",
+  "form": "bar",
+  "status": "released",
+  "announced": "2026-10-28",
+  "released": "2026-10-31",
+  "summary": "A Pura model with a 1-inch, variable-aperture 50 MP main camera, the new Kirin 9025, a 6.8-inch screen and a 5,700 mAh battery with 100 W wired and 80 W wireless charging. Launched in China on 28 October 2026 and on sale there from 31 October; no global launch confirmed.",
+  "prices": [
+    {
+      "region": "CN",
+      "currency": "CNY",
+      "amount": 5499,
+      "config": "12 GB / 256 GB",
+      "date": "2026-10-28",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2026/408739/huawei-pura-90-plus-china/",
+      "class": "news",
+      "accessed": "2026-11-03",
+      "note": "IT之家 lists the same prices (CNY 300 off until 30 November)."
+    },
+    {
+      "region": "CN",
+      "currency": "CNY",
+      "amount": 5999,
+      "config": "12 GB / 512 GB",
+      "date": "2026-10-28",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2026/408739/huawei-pura-90-plus-china/",
+      "class": "news",
+      "accessed": "2026-11-03",
+      "note": "IT之家 lists the same prices (CNY 300 off until 30 November)."
+    },
+    {
+      "region": "CN",
+      "currency": "CNY",
+      "amount": 6999,
+      "config": "12 GB / 1 TB",
+      "date": "2026-10-28",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2026/408739/huawei-pura-90-plus-china/",
+      "class": "news",
+      "accessed": "2026-11-03",
+      "note": "IT之家 lists the same prices (CNY 300 off until 30 November)."
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 6.8,
+      "type": "OLED (quad-curved)"
+    },
+    "platform": {
+      "chipset": "kirin-9025"
+    },
+    "memory": {
+      "ram_gb": [
+        12
+      ],
+      "storage_gb": [
+        256,
+        512,
+        1024
+      ]
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "aperture": "f/1.4–f/4.0",
+          "sensor": "1\"",
+          "note": "Variable aperture"
+        },
+        {
+          "role": "periscope",
+          "mp": 48,
+          "aperture": "f/2.1",
+          "zoom_x": 4,
+          "note": "Telephoto macro"
+        },
+        {
+          "role": "ultrawide",
+          "mp": 40,
+          "focal_mm": 13
+        }
+      ],
+      "zoom_optical_x": 4,
+      "front": "13 MP"
+    },
+    "battery": {
+      "capacity_mah": 5700
+    },
+    "charging": {
+      "wired_w": 100,
+      "wireless_w": 80
+    },
+    "connectivity": {
+      "cellular": "5G"
+    },
+    "biometrics": {
+      "fingerprint": "Side-mounted"
+    },
+    "software": {
+      "launch_os": "HarmonyOS 7"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "news",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2026/408739/huawei-pura-90-plus-china/",
+      "checked": "2026-11-03",
+      "note": "Specifications from Lowyat's launch report (29 October 2026), cross-checked with Huawei China's product page (1-inch variable-aperture main camera, 5,700 mAh, 100 W). Reports differ on the main camera's widest aperture (f/1.4 or f/1.6); Lowyat's is recorded."
+    },
+    "fields": {
+      "official_page": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://consumer.huawei.com/cn/phones/pura90-plus/",
+        "checked": "2026-11-03",
+        "note": "Huawei Pura 90 Plus product page on Huawei China's site."
+      },
+      "released": {
+        "class": "news",
+        "source": "ithome",
+        "url": "https://www.ithome.com/1/020/423.htm",
+        "checked": "2026-11-03",
+        "note": "IT之家: on sale in China from 10:08 on 31 October 2026."
+      }
+    }
+  },
+  "availability": {
+    "MY": {
+      "status": "not-launched",
+      "checked": "2026-11-03",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2026/408739/huawei-pura-90-plus-china/",
+      "note": "Huawei has not confirmed a launch outside China."
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://consumer.huawei.com/content/dam/huawei-cbg-site/cn/mkt/pdp/phones/pura90-plus/list/purple.png",
+    "page": "https://consumer.huawei.com/cn/phones/pura90-plus/specs/",
+    "credit": "Huawei China",
+    "checked": "2026-11-03"
+  }
+}

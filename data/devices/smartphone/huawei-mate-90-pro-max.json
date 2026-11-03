@@ -1,0 +1,155 @@
+{
+  "id": "huawei-mate-90-pro-max",
+  "name": "Huawei Mate 90 Pro Max",
+  "brand": "huawei",
+  "category": "smartphone",
+  "series": "Mate",
+  "form": "bar",
+  "status": "released",
+  "announced": "2026-10-01",
+  "released": "2026-10-01",
+  "segment": "flagship",
+  "summary": "Huawei's top 2026 Mate: Kirin 9050 Pro, a 6.9-inch full-colour (BT.2020) dual-layer OLED, a 200 MP 4x telephoto and a 6,800 mAh battery. On sale in China since 1 October 2026. No independent tests yet: its scores come from specifications only.",
+  "prices": [
+    {
+      "region": "CN",
+      "currency": "CNY",
+      "amount": 9499,
+      "config": "12 GB / 512 GB",
+      "date": "2026-10-01",
+      "type": "launch",
+      "source": "fonearena",
+      "url": "https://www.fonearena.com/blog/493904/huawei-mate-90-mate-90-pro-mate-90-pro-max-mate-90-rs-ultimate-design-price-features.html",
+      "class": "news",
+      "accessed": "2026-11-03"
+    },
+    {
+      "region": "CN",
+      "currency": "CNY",
+      "amount": 9999,
+      "config": "16 GB / 512 GB",
+      "date": "2026-10-01",
+      "type": "launch",
+      "source": "fonearena",
+      "url": "https://www.fonearena.com/blog/493904/huawei-mate-90-mate-90-pro-mate-90-pro-max-mate-90-rs-ultimate-design-price-features.html",
+      "class": "news",
+      "accessed": "2026-11-03"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 6.9,
+      "type": "Dual-layer LTPO OLED (BT.2020)",
+      "resolution": "2848 × 1320",
+      "refresh_hz": 120
+    },
+    "platform": {
+      "chipset": "kirin-9050-pro",
+      "chipset_note": "12 GB versions: Kirin 9050 (IT之家, TechNave)"
+    },
+    "memory": {
+      "ram_gb": [
+        12,
+        16
+      ],
+      "storage_gb": [
+        512,
+        1024
+      ]
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "aperture": "f/1.4–f/4.0",
+          "ois": true,
+          "note": "RYYB, variable aperture"
+        },
+        {
+          "role": "ultrawide",
+          "mp": 40,
+          "aperture": "f/2.2"
+        },
+        {
+          "role": "periscope",
+          "mp": 200,
+          "aperture": "f/2.6",
+          "ois": true,
+          "zoom_x": 4,
+          "note": "Large sensor, telephoto macro"
+        }
+      ],
+      "zoom_optical_x": 4,
+      "front": "13 MP, f/2.0, autofocus, plus 3D depth camera",
+      "video": "4K"
+    },
+    "build": {
+      "ip": "IP68, IP69"
+    },
+    "battery": {
+      "capacity_mah": 6800
+    },
+    "charging": {
+      "wired_w": 100,
+      "wireless_w": 50
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "bluetooth": "Bluetooth 6.0",
+      "nfc": true
+    },
+    "software": {
+      "launch_os": "HarmonyOS 7"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "news",
+      "source": "fonearena",
+      "url": "https://www.fonearena.com/blog/493904/huawei-mate-90-mate-90-pro-mate-90-pro-max-mate-90-rs-ultimate-design-price-features.html",
+      "checked": "2026-11-03",
+      "note": "Specifications from FoneArena's launch report (1 October 2026), cross-checked with Huawei China's product page and Lowyat (6.9-inch 2848 × 1320 screen, Bluetooth 6.0, IP68 and IP69). No independent tests yet: its scores come from specifications only. On sale in China since the launch day (快科技); TechNave's report of shipments from 11 November is contradicted by IT之家's first-sale figures, which include this model. Chip: the 16 GB versions use the Kirin 9050 Pro and the 12 GB versions the Kirin 9050 (IT之家, TechNave); Huawei's page says 'Kirin 9050 series'."
+    },
+    "fields": {
+      "official_page": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://consumer.huawei.com/cn/phones/mate90-pro-max/",
+        "checked": "2026-11-03",
+        "note": "Huawei Mate 90 Pro Max product page on Huawei China's site."
+      },
+      "released": {
+        "class": "news",
+        "source": "mydrivers",
+        "url": "https://news.mydrivers.com/1/1154/1154996.htm",
+        "checked": "2026-11-03",
+        "note": "快科技 (1 October 2026): the Mate 90 series was launched at 10:00 and went on sale at 12:08 the same day."
+      },
+      "specs.platform.chipset": {
+        "class": "news",
+        "source": "ithome",
+        "url": "https://www.ithome.com/1/010/244.htm",
+        "checked": "2026-11-03",
+        "note": "IT之家: Kirin 9050 Pro in the Mate 90 Pro Max (16 GB) and RS; Kirin 9050 in the 12 GB Mate 90 Pro Max."
+      }
+    }
+  },
+  "availability": {
+    "MY": {
+      "status": "not-launched",
+      "checked": "2026-11-03",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2026/406066/huawei-mate-90-series-china/",
+      "note": "China launch only; Huawei has not given global or Malaysian details."
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://consumer.huawei.com/content/dam/huawei-cbg-site/cn/mkt/pdp/phones/mate90-pro-max/list/green.png",
+    "page": "https://consumer.huawei.com/cn/phones/mate90-pro-max/specs/",
+    "credit": "Huawei China",
+    "checked": "2026-11-03"
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "id": "oneplus-16",
+  "name": "OnePlus 16",
+  "brand": "oneplus",
+  "category": "smartphone",
+  "series": "OnePlus",
+  "form": "bar",
+  "status": "released",
+  "announced": "2026-10-12",
+  "released": "2026-10-13",
+  "segment": "flagship",
+  "summary": "OnePlus's 2026 flagship on the Snapdragon 8 Elite Extreme Gen 6, with a 185 Hz gaming display, a 200 MP main camera and a 9,000 mAh battery. On sale in China from 13 October 2026; no Malaysian launch announced yet. No independent tests yet: its scores come from specifications only.",
+  "highlights": [
+    "Snapdragon 8 Elite Extreme Gen 6",
+    "185 Hz in supported games",
+    "9,000 mAh battery",
+    "200 MP main camera"
+  ],
+  "prices": [
+    {
+      "region": "CN",
+      "currency": "CNY",
+      "amount": 5999,
+      "config": "12 GB / 256 GB",
+      "date": "2026-10-12",
+      "type": "launch",
+      "source": "fonearena",
+      "url": "https://www.fonearena.com/blog/494711/oneplus-16-price-specifications.html",
+      "class": "news",
+      "accessed": "2026-11-03"
+    },
+    {
+      "region": "CN",
+      "currency": "CNY",
+      "amount": 6799,
+      "config": "12 GB / 512 GB",
+      "date": "2026-10-12",
+      "type": "launch",
+      "source": "fonearena",
+      "url": "https://www.fonearena.com/blog/494711/oneplus-16-price-specifications.html",
+      "class": "news",
+      "accessed": "2026-11-03"
+    },
+    {
+      "region": "CN",
+      "currency": "CNY",
+      "amount": 7499,
+      "config": "16 GB / 512 GB",
+      "date": "2026-10-12",
+      "type": "launch",
+      "source": "fonearena",
+      "url": "https://www.fonearena.com/blog/494711/oneplus-16-price-specifications.html",
+      "class": "news",
+      "accessed": "2026-11-03"
+    },
+    {
+      "region": "CN",
+      "currency": "CNY",
+      "amount": 8499,
+      "config": "16 GB / 1 TB",
+      "date": "2026-10-12",
+      "type": "launch",
+      "source": "fonearena",
+      "url": "https://www.fonearena.com/blog/494711/oneplus-16-price-specifications.html",
+      "class": "news",
+      "accessed": "2026-11-03"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 6.78,
+      "type": "LTPO AMOLED",
+      "resolution": "2772 × 1272",
+      "refresh_hz": 165,
+      "peak_nits": 2000,
+      "note": "Up to 185 Hz in supported games"
+    },
+    "platform": {
+      "chipset": "snapdragon-8-elite-extreme-gen-6"
+    },
+    "memory": {
+      "ram_gb": [
+        12,
+        16
+      ],
+      "storage_gb": [
+        256,
+        512,
+        1024
+      ],
+      "ram_type": "LPDDR5X Ultra",
+      "storage_type": "UFS 4.1"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 200,
+          "aperture": "f/1.6",
+          "sensor": "1/1.4\"",
+          "ois": true
+        },
+        {
+          "role": "ultrawide",
+          "mp": 50,
+          "aperture": "f/2.0",
+          "note": "116°"
+        },
+        {
+          "role": "periscope",
+          "mp": 50,
+          "aperture": "f/2.6",
+          "sensor": "1/1.95\"",
+          "ois": true,
+          "zoom_x": 3
+        }
+      ],
+      "zoom_optical_x": 3,
+      "front": "50 MP, f/2.0, autofocus",
+      "video": "Up to 8K; 4K 120 fps Dolby Vision"
+    },
+    "build": {
+      "weight_g": 220,
+      "dimensions": {
+        "height_mm": 161.42,
+        "width_mm": 76.67,
+        "depth_mm": 8.45
+      },
+      "ip": "IP66, IP68, IP69, IP69K"
+    },
+    "battery": {
+      "capacity_mah": 9000
+    },
+    "charging": {
+      "wired_w": 100,
+      "wireless_w": 50
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "wifi": "Wi-Fi 7",
+      "bluetooth": "Bluetooth 6.0",
+      "nfc": true
+    },
+    "biometrics": {
+      "fingerprint": "Under display (ultrasonic)"
+    },
+    "software": {
+      "launch_os": "ColorOS 17"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "news",
+      "source": "fonearena",
+      "url": "https://www.fonearena.com/blog/494711/oneplus-16-price-specifications.html",
+      "checked": "2026-11-03",
+      "note": "Specifications from FoneArena's launch report (12 October 2026), cross-checked with OnePlus China's product page (6.78-inch screen, 9,000 mAh, 100 W wired and 50 W wireless charging, ultrasonic fingerprint, IP66/68/69/69K). Weight 220 g (217 g in the Martian finish); thickness 8.45-8.55 mm by finish. No independent tests yet: its scores come from specifications only."
+    },
+    "fields": {
+      "official_page": {
+        "class": "official",
+        "source": "oneplus",
+        "url": "https://www.oneplus.com/cn/16",
+        "checked": "2026-11-03",
+        "note": "OnePlus 16 product page on OnePlus China's site."
+      }
+    }
+  },
+  "availability": {
+    "MY": {
+      "status": "not-launched",
+      "checked": "2026-11-03",
+      "source": "fonearena",
+      "url": "https://www.fonearena.com/blog/494711/oneplus-16-price-specifications.html",
+      "note": "Launched in China only; no Malaysian launch announced as of 3 November 2026."
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://www.oneplus.com/content/dam/oneplus/2026/cn/launch/oneplus-16/assets/images-camera-part-1-phone-1-ce6bda.png",
+    "page": "https://www.oneplus.com/cn/16",
+    "credit": "OnePlus China",
+    "checked": "2026-11-03"
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "id": "honor-win-2",
+  "name": "HONOR WIN 2",
+  "brand": "honor",
+  "category": "smartphone",
+  "series": "WIN",
+  "form": "bar",
+  "status": "released",
+  "announced": "2026-10-21",
+  "released": "2026-10-21",
+  "segment": "gaming",
+  "aliases": [
+    "HONOR WIN2"
+  ],
+  "summary": "HONOR's 2026 gaming phone: the Snapdragon 8 Elite Extreme Gen 6 with twin cooling fans, a 6.89-inch 2K 185 Hz screen, a 200 MP main camera and a 10,100 mAh battery. On sale in China since 21 October 2026; not announced for Malaysia. No independent tests yet: its scores come from specifications only.",
+  "highlights": [
+    "Snapdragon 8 Elite Extreme Gen 6",
+    "2K 185 Hz screen",
+    "10,100 mAh battery",
+    "Twin cooling fans"
+  ],
+  "prices": [
+    {
+      "region": "CN",
+      "currency": "CNY",
+      "amount": 5499,
+      "config": "12 GB / 256 GB",
+      "date": "2026-10-21",
+      "type": "launch",
+      "source": "ithome",
+      "url": "https://www.ithome.com/1/015/878.htm",
+      "class": "news",
+      "accessed": "2026-11-03",
+      "note": "快科技 lists the same price. The 12 GB / 512 GB and higher versions are listed differently by IT之家 and 快科技, so they are left out."
+    },
+    {
+      "region": "CN",
+      "currency": "CNY",
+      "amount": 5799,
+      "config": "16 GB / 256 GB",
+      "date": "2026-10-21",
+      "type": "launch",
+      "source": "ithome",
+      "url": "https://www.ithome.com/1/015/878.htm",
+      "class": "news",
+      "accessed": "2026-11-03",
+      "note": "快科技 lists the same price. The 12 GB / 512 GB and higher versions are listed differently by IT之家 and 快科技, so they are left out."
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 6.89,
+      "type": "OLED",
+      "resolution": "3104 × 1440",
+      "refresh_hz": 185
+    },
+    "platform": {
+      "chipset": "snapdragon-8-elite-extreme-gen-6"
+    },
+    "memory": {
+      "ram_gb": [
+        12,
+        16
+      ],
+      "storage_gb": [
+        256,
+        512,
+        1024
+      ],
+      "ram_type": "LPDDR5X Ultra",
+      "storage_type": "UFS 4.1"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 200,
+          "sensor": "1/1.4\"",
+          "ois": true
+        },
+        {
+          "role": "ultrawide",
+          "mp": 12
+        }
+      ],
+      "zoom_optical_x": 1,
+      "front": "50 MP"
+    },
+    "build": {
+      "ip": "IP68, IP69, IP69K",
+      "cooling": "Twin fans (HONOR Dongfeng)"
+    },
+    "battery": {
+      "capacity_mah": 10100
+    },
+    "charging": {
+      "wired_w": 100,
+      "wireless_w": 80
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "usb": "USB 3.2"
+    },
+    "biometrics": {
+      "fingerprint": "Under display (3D ultrasonic)"
+    },
+    "software": {
+      "launch_os": "MagicOS 11"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "news",
+      "source": "mydrivers",
+      "url": "https://news.mydrivers.com/1/1159/1159328.htm",
+      "checked": "2026-11-03",
+      "note": "Specifications from 快科技's launch report (21 October 2026), cross-checked with IT之家 and HONOR China's product page (6.89-inch 2K 185 Hz screen, 10,100 mAh typical / 9,850 mAh rated, 12 MP ultra-wide, IP68/IP69/IP69K). No independent tests yet: its scores come from specifications only."
+    },
+    "fields": {
+      "official_page": {
+        "class": "official",
+        "source": "honor",
+        "url": "https://www.honor.com/cn/phones/honor-win2/",
+        "checked": "2026-11-03",
+        "note": "HONOR WIN 2 product page on HONOR China's site."
+      },
+      "released": {
+        "class": "official",
+        "source": "honor",
+        "url": "https://www.honor.com/cn/news/honor-win2-series/",
+        "checked": "2026-11-03",
+        "note": "HONOR: the first-sale period runs from 21 October to 22 November 2026."
+      }
+    }
+  },
+  "availability": {
+    "MY": {
+      "status": "not-launched",
+      "checked": "2026-11-03",
+      "source": "honor",
+      "url": "https://www.honor.com/cn/news/honor-win2-series/",
+      "note": "China launch only so far."
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://www-file.honor.com/content/dam/honor/common/product-list/product-series/honor-win2/honor-win2-yingxiao-back.png",
+    "page": "https://www.honor.com/cn/phones/honor-win2/",
+    "credit": "HONOR China",
+    "checked": "2026-11-03"
+  }
+}

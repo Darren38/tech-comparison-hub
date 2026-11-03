@@ -1,0 +1,174 @@
+{
+  "id": "honor-magic9",
+  "name": "HONOR Magic9",
+  "brand": "honor",
+  "category": "smartphone",
+  "series": "Magic",
+  "form": "bar",
+  "status": "pre-order",
+  "announced": "2026-09-28",
+  "segment": "flagship",
+  "summary": "HONOR's compact 2026 flagship: a 6.37-inch screen, two 200 MP ARRI co-branded cameras (main and telephoto), the Snapdragon 8 Elite Gen 5 and an 8,000 mAh battery. Launched in China on 28 September 2026; not announced for Malaysia. No independent tests yet: its scores come from specifications only.",
+  "highlights": [
+    "6.37-inch compact flagship",
+    "Two 200 MP ARRI cameras",
+    "8,000 mAh battery",
+    "IP68/IP69/IP69K"
+  ],
+  "prices": [
+    {
+      "region": "CN",
+      "currency": "CNY",
+      "amount": 4999,
+      "config": "12 GB / 256 GB",
+      "date": "2026-09-28",
+      "type": "launch",
+      "source": "fonearena",
+      "url": "https://www.fonearena.com/blog/493508/honor-magic-9-pro-max-price-specifications-magic-9-magic-9-super-edition.html",
+      "class": "news",
+      "accessed": "2026-11-03"
+    },
+    {
+      "region": "CN",
+      "currency": "CNY",
+      "amount": 5499,
+      "config": "12 GB / 512 GB",
+      "date": "2026-09-28",
+      "type": "launch",
+      "source": "fonearena",
+      "url": "https://www.fonearena.com/blog/493508/honor-magic-9-pro-max-price-specifications-magic-9-magic-9-super-edition.html",
+      "class": "news",
+      "accessed": "2026-11-03"
+    },
+    {
+      "region": "CN",
+      "currency": "CNY",
+      "amount": 5999,
+      "config": "16 GB / 512 GB",
+      "date": "2026-09-28",
+      "type": "launch",
+      "source": "fonearena",
+      "url": "https://www.fonearena.com/blog/493508/honor-magic-9-pro-max-price-specifications-magic-9-magic-9-super-edition.html",
+      "class": "news",
+      "accessed": "2026-11-03"
+    },
+    {
+      "region": "CN",
+      "currency": "CNY",
+      "amount": 6999,
+      "config": "16 GB / 1 TB",
+      "date": "2026-09-28",
+      "type": "launch",
+      "source": "fonearena",
+      "url": "https://www.fonearena.com/blog/493508/honor-magic-9-pro-max-price-specifications-magic-9-magic-9-super-edition.html",
+      "class": "news",
+      "accessed": "2026-11-03"
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 6.37,
+      "type": "OLED",
+      "resolution": "2664 × 1236",
+      "ppi": 460,
+      "refresh_hz": 120,
+      "peak_nits": 10000
+    },
+    "platform": {
+      "chipset": "snapdragon-8-elite-gen-5"
+    },
+    "memory": {
+      "ram_gb": [
+        12,
+        16
+      ],
+      "storage_gb": [
+        256,
+        512,
+        1024
+      ]
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 200,
+          "aperture": "f/1.9",
+          "sensor": "1/1.4\""
+        },
+        {
+          "role": "periscope",
+          "mp": 200,
+          "aperture": "f/2.6",
+          "sensor": "1/1.56\""
+        },
+        {
+          "role": "ultrawide",
+          "mp": 50,
+          "aperture": "f/2.0"
+        }
+      ],
+      "front": "55 MP, f/2.0",
+      "video": "ARRI LogC3; 4K"
+    },
+    "build": {
+      "ip": "IP68, IP69, IP69K"
+    },
+    "battery": {
+      "capacity_mah": 8000,
+      "chemistry": "Silicon-carbon"
+    },
+    "charging": {
+      "wired_w": 80,
+      "wireless_w": 50
+    },
+    "connectivity": {
+      "cellular": "5G"
+    },
+    "software": {
+      "launch_os": "MagicOS 11 (Android 17)"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "news",
+      "source": "fonearena",
+      "url": "https://www.fonearena.com/blog/493508/honor-magic-9-pro-max-price-specifications-magic-9-magic-9-super-edition.html",
+      "checked": "2026-11-03",
+      "note": "Specifications from FoneArena's launch report (28 September 2026), cross-checked with HONOR China's product page (6.37-inch screen, 8,000 mAh, IP68/IP69/IP69K) and Lowyat. Lowyat reported the series on pre-order in China at launch; the first sale date for this model was not found. No independent tests yet: its scores come from specifications only."
+    },
+    "fields": {
+      "official_page": {
+        "class": "official",
+        "source": "honor",
+        "url": "https://www.honor.com/cn/phones/honor-magic9/",
+        "checked": "2026-11-03",
+        "note": "HONOR Magic9 product page on HONOR China's site."
+      },
+      "status": {
+        "class": "news",
+        "source": "lowyat",
+        "url": "https://www.lowyat.net/2026/405697/honor-magic9-series-china-launch/",
+        "checked": "2026-11-03",
+        "note": "On pre-order in China at launch (Lowyat, 28 September 2026)."
+      }
+    }
+  },
+  "availability": {
+    "MY": {
+      "status": "not-launched",
+      "checked": "2026-11-03",
+      "source": "fonearena",
+      "url": "https://www.fonearena.com/blog/493508/honor-magic-9-pro-max-price-specifications-magic-9-magic-9-super-edition.html",
+      "note": "HONOR announced international plans only for the Magic9 Pro Max."
+    }
+  },
+  "dataStatus": "compiled",
+  "image": {
+    "kind": "official",
+    "src": "https://www-file.honor.com/content/dam/honor/common/product-list/product-series/honor-magic9/honor-magic9-id-yellow-back.png",
+    "page": "https://www.honor.com/cn/phones/honor-magic9/",
+    "credit": "HONOR China",
+    "checked": "2026-11-03"
+  }
+}

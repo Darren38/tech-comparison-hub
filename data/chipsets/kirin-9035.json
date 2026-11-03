@@ -1,0 +1,16 @@
+{
+  "id": "kirin-9035",
+  "name": "Kirin 9035",
+  "vendor": "hisilicon",
+  "family": "Kirin",
+  "summary": "Name recorded from phone makers' specification pages and launch reports. Chip details have not been compiled yet.",
+  "provenance": {
+    "default": {
+      "class": "news",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2026/406066/huawei-mate-90-series-china/",
+      "checked": "2026-11-03",
+      "note": "Chip name as given for the Huawei Mate 90 Pro (Lowyat; Huawei China's product page also names it)."
+    }
+  }
+}

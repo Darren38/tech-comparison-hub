@@ -1,5 +1,13 @@
 # Changelog
 
+## 3 November 2026
+
+The newest flagships that were missing, added, and a weekly check so it doesn't happen again.
+
+- Added nine phones launched between 28 September and 28 October that the hub didn't have yet: OnePlus 16, HONOR Magic9 and Magic9 Pro Max, HONOR WIN 2, Huawei Mate 90, Mate 90 Pro and Mate 90 Pro Max, REDMAGIC 12 Pro+ and Huawei Pura 90 Plus, each with its Chinese launch prices, a picture from the maker where one could be read, and the launch reports and makers' pages it was checked against. None is sold in Malaysia yet. Three new Huawei chips are listed with them (Kirin 9025, 9035 and 9050 Pro).
+- Latest flagships now shows these phones first. The iQOO 16 is marked as on sale in China, and its launch date is corrected to 29 September.
+- The weekly flagship check now also lists flagships that are named in the news but missing from the hub, using only headlines that say a phone launched, went on sale or was announced. On the news collected so far it finds exactly the phones above, and none on the updated hub.
+
 ## 2 November 2026
 
 Faster, sturdier testing before each update.
