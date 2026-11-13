@@ -56,7 +56,11 @@ if (only.size) console.log(`only the ${devicesToOpen.length} changed device page
 for (const dev of devicesToOpen) {
   if (!devIds.has(dev)) { unknownDev.push(dev); continue; }
   await go('#/device/' + dev, 3200);
-  const links = new Set(await ev(allLinks));
+  let links = new Set(await ev(allLinks));
+  // Version 40: the headline lists fill in after the page is drawn, once live/archive.json (about 2.4 MB) arrives; on a
+  // slow machine that can be after settle(). Before a link counts as missing, look again for up to 8 s.
+  const expected = [...(byDevice.get(dev) ?? []).map((d) => d.url), ...(headSample.get(dev) ?? [])];
+  for (let t = 0; t < 16 && expected.some((u) => !links.has(u)); t++) { await sleep(500); links = new Set(await ev(allLinks)); }
   for (const d of byDevice.get(dev) ?? []) { checked++; if (!links.has(d.url)) missing.push(`device ${dev} lacks ${d.auto ? 'automatic ' : 'checked '}${d.kind} ${d.id}`); }
   for (const u of headSample.get(dev) ?? []) { headChecked++; if (!links.has(u)) missing.push(`device ${dev} lacks headline ${u}`); }
 }
