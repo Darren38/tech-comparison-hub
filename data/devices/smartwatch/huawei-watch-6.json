@@ -5,8 +5,9 @@
   "category": "smartwatch",
   "series": "Watch",
   "form": "watch",
-  "status": "pre-order",
+  "status": "released",
   "announced": "2026-09",
+  "released": "2026-11-03",
   "segment": "upper-mid",
   "summary": "Huawei's 2026 flagship smartwatch in 42 mm and 46 mm, with eSIM calls, sapphire glass and up to 11 days of battery (46 mm). Malaysian pre-orders until 2 November 2026; on sale and priced from 3 November.",
   "specs": {
@@ -54,16 +55,14 @@
         "url": "https://consumer.huawei.com/my/wearables/watch-6/",
         "checked": "2026-11-01",
         "note": "Huawei Malaysia's Watch 6 page."
+      },
+      "released": {
+        "class": "news",
+        "source": "lowyat",
+        "url": "https://www.lowyat.net/2026/409083/huawei-watch-6-series-launch-malaysia/",
+        "checked": "2026-11-13",
+        "note": "Lowyat: launched in Malaysia on 3 November 2026; on sale at Huawei Experience Stores and Huawei's online stores."
       }
-    }
-  },
-  "availability": {
-    "MY": {
-      "status": "price-not-found",
-      "checked": "2026-11-01",
-      "source": "soyacincau",
-      "url": "https://soyacincau.com/2026/10/27/huawei-watch-6-series-and-freebuds-se-5-max-malaysia-pre-orders-now-open-with-free-gifts-worth-up-to-rm993/",
-      "note": "Pre-orders open; Huawei Malaysia announces the price at the 3 November 2026 launch."
     }
   },
   "dataStatus": "compiled",
@@ -73,5 +72,20 @@
     "page": "https://consumer.huawei.com/my/wearables/watch-6/",
     "credit": "Huawei",
     "checked": "2026-11-01"
-  }
+  },
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1799,
+      "config": "From",
+      "date": "2026-11-03",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2026/409083/huawei-watch-6-series-launch-malaysia/",
+      "class": "news",
+      "accessed": "2026-11-13",
+      "note": "42 mm and 46 mm sizes."
+    }
+  ]
 }

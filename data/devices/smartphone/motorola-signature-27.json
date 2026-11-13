@@ -5,18 +5,19 @@
   "category": "smartphone",
   "series": "Signature",
   "form": "bar",
-  "status": "announced",
+  "status": "pre-order",
   "announced": "2026-09-22",
   "segment": "flagship",
   "aliases": [
     "Signature 27",
     "moto Signature 27"
   ],
-  "summary": "Motorola's first phone on the Snapdragon 8 Elite Extreme Gen 6, with a 50 MP main camera and a 200 MP periscope. Announced; price and release date not yet given.",
+  "summary": "Motorola's flagship on the Snapdragon 8 Elite Extreme Gen 6: a 6.78-inch dual-layer AMOLED, a 50 MP main camera with a 200 MP 3x periscope, a 7,000 mAh battery and seven years of updates. US pre-orders from 5 November 2026 at $1,599, on sale 19 November; other markets over the coming months. No independent tests yet: its scores come from specifications only.",
   "highlights": [
     "Snapdragon 8 Elite Extreme Gen 6",
-    "200 MP periscope telephoto",
-    "Seven years of software updates"
+    "200 MP 3x periscope telephoto",
+    "6.78-inch dual-layer AMOLED",
+    "Seven years of updates"
   ],
   "image": {
     "kind": "official",
@@ -27,35 +28,93 @@
     "checked": "2026-10-15"
   },
   "specs": {
+    "display": {
+      "size_in": 6.78,
+      "type": "Dual-layer AMOLED (Extreme AMOLED Duo)",
+      "resolution": "2772 × 1272",
+      "refresh_hz": 120,
+      "peak_nits": 12000
+    },
     "platform": {
       "chipset": "snapdragon-8-elite-extreme-gen-6"
+    },
+    "memory": {
+      "ram_gb": [
+        12
+      ],
+      "storage_gb": [
+        512
+      ],
+      "ram_type": "LPDDR5X",
+      "storage_type": "UFS 4.1"
     },
     "camera": {
       "rear": [
         {
           "role": "main",
           "mp": 50,
+          "aperture": "f/1.6",
+          "sensor": "1/1.28\"",
+          "ois": true,
           "note": "Sony LYTIA 910"
         },
         {
+          "role": "ultrawide",
+          "mp": 50,
+          "aperture": "f/2.0",
+          "note": "122.1°"
+        },
+        {
           "role": "periscope",
-          "mp": 200
+          "mp": 200,
+          "aperture": "f/2.6",
+          "sensor": "1/1.56\"",
+          "ois": true,
+          "zoom_x": 3
         }
-      ]
+      ],
+      "zoom_optical_x": 3,
+      "front": "50 MP, f/1.9",
+      "video": "Up to 8K; 4K 120 fps Dolby Vision"
+    },
+    "build": {
+      "weight_g": 227,
+      "dimensions": {
+        "height_mm": 162.01,
+        "width_mm": 77.04,
+        "depth_mm": 7.99
+      },
+      "ip": "IP68, IP69"
+    },
+    "battery": {
+      "capacity_mah": 7000
+    },
+    "charging": {
+      "wired_w": 90,
+      "wireless_w": 50
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "wifi": "Wi-Fi 7",
+      "nfc": true
+    },
+    "biometrics": {
+      "fingerprint": "Under display (ultrasonic)"
     },
     "software": {
       "security_updates_years": 7,
       "policy_note": "Motorola promises seven years of software updates, as reported at the announcement.",
-      "os_updates_years": 7
+      "os_updates_years": 7,
+      "launch_os": "Android 17"
     }
   },
   "provenance": {
     "default": {
       "class": "news",
-      "source": "techadvisor",
-      "url": "https://www.techadvisor.com/article/3240884/motorola-signature-27-official-specs-design-but-no-price-or-release-date.html",
-      "checked": "2026-09-23",
-      "note": "From Tech Advisor's report of the announcement; only what was confirmed is recorded. Motorola's own pages refuse automated reading."
+      "source": "fonearena",
+      "url": "https://www.fonearena.com/blog/496499/motorola-signature-27-price-specifications.html",
+      "checked": "2026-11-13",
+      "note": "Specifications from FoneArena's report of the full announcement (5 November 2026). Motorola's own pages refuse automated reading."
     },
     "fields": {
       "specs.software.os_updates_years": {
@@ -64,8 +123,37 @@
         "url": "https://www.engadget.com/2265564/motorolas-new-signature-27-is-among-the-first-smartphone-to-use-the-snapdragon-8-elite-extreme-gen-6-processor/",
         "checked": "2026-09-24",
         "note": "Engadget's launch report: \"a promise of seven years of OS upgrades\"."
+      },
+      "status": {
+        "class": "news",
+        "source": "9to5google",
+        "url": "https://9to5google.com/2026/11/05/motorola-signature-27-specs-price-release-date/",
+        "checked": "2026-11-13",
+        "note": "9to5Google: US pre-orders from 5 November 2026, on sale 19 November."
+      },
+      "announced": {
+        "class": "news",
+        "source": "techadvisor",
+        "url": "https://www.techadvisor.com/article/3240884/motorola-signature-27-official-specs-design-but-no-price-or-release-date.html",
+        "checked": "2026-11-13",
+        "note": "First announced on 22 September 2026 without price or date; price, full specifications and dates followed on 5 November."
       }
     }
   },
-  "dataStatus": "checked"
+  "dataStatus": "compiled",
+  "prices": [
+    {
+      "region": "US",
+      "currency": "USD",
+      "amount": 1599,
+      "config": "12 GB / 512 GB",
+      "date": "2026-11-05",
+      "type": "launch",
+      "source": "9to5google",
+      "url": "https://9to5google.com/2026/11/05/motorola-signature-27-specs-price-release-date/",
+      "class": "news",
+      "accessed": "2026-11-13",
+      "note": "FoneArena: GBP 1,300 or EUR 1,899 depending on the market."
+    }
+  ]
 }

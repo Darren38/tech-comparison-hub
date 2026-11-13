@@ -5,7 +5,7 @@
   "category": "earbuds",
   "series": "FreeBuds",
   "form": "buds",
-  "status": "pre-order",
+  "status": "released",
   "segment": "entry",
   "summary": "Huawei's budget noise-cancelling earbuds with LDAC and up to 80 hours with the case. In Malaysia from 3 November 2026 at RM249 (RM159 with the early-bird rebate).",
   "prices": [
@@ -20,7 +20,7 @@
       "url": "https://soyacincau.com/2026/10/27/huawei-watch-6-series-and-freebuds-se-5-max-malaysia-pre-orders-now-open-with-free-gifts-worth-up-to-rm993/",
       "class": "news",
       "accessed": "2026-11-01",
-      "note": "RM159 with Huawei's early-bird rebate of RM90."
+      "note": "RM159 with Huawei's early-bird rebate of RM90; Lowyat's launch report gives RM159 as the price."
     }
   ],
   "specs": {
@@ -52,7 +52,17 @@
       "url": "https://soyacincau.com/2026/10/27/huawei-watch-6-series-and-freebuds-se-5-max-malaysia-pre-orders-now-open-with-free-gifts-worth-up-to-rm993/",
       "checked": "2026-11-01",
       "note": "From SoyaCincau's report of Huawei Malaysia's launch (27 October 2026)."
+    },
+    "fields": {
+      "released": {
+        "class": "news",
+        "source": "lowyat",
+        "url": "https://www.lowyat.net/2026/409083/huawei-watch-6-series-launch-malaysia/",
+        "checked": "2026-11-13",
+        "note": "Lowyat: on sale in Malaysia since the 3 November 2026 launch."
+      }
     }
   },
-  "dataStatus": "compiled"
+  "dataStatus": "compiled",
+  "released": "2026-11-03"
 }

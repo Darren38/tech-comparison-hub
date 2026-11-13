@@ -89,8 +89,10 @@ jobs:
       # behaves there in ways GitHub Pages doesn't
       - name: Run the test in headless Chrome
         env:
-          FULL: ${{ inputs.full || github.event_name == 'schedule' }}
+          # Version 40: a release whose commit message says "[full tests]" also checks every device page's links
+          FULL: ${{ inputs.full || github.event_name == 'schedule' || contains(github.event.head_commit.message, '[full tests]') }}
           CHANGED: ${{ needs.changed.outputs.devices }}
+          JUDGE_TITLE: ${{ matrix.name }}  # the heading of this test's table on the run page
         run: |
           if [ "$FULL" != "true" ] && [ -n "$CHANGED" ]; then export LINKCHECK_DEVICES="$CHANGED"; fi
           python -m http.server 8080 --bind 127.0.0.2 > /tmp/server.log 2>&1 &

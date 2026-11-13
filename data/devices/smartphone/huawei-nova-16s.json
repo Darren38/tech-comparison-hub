@@ -1,0 +1,119 @@
+{
+  "id": "huawei-nova-16s",
+  "name": "Huawei nova 16s",
+  "brand": "huawei",
+  "category": "smartphone",
+  "series": "nova",
+  "form": "bar",
+  "status": "pre-order",
+  "announced": "2026-09-03",
+  "summary": "The international version of Huawei's nova 16: a 50 MP camera pair with a 3.3x periscope, a 6.68-inch OLED screen, the Kirin 8020 and a 7,000 mAh battery with 100 W charging. Launching in Malaysia on 19 November 2026 (reservations open).",
+  "specs": {
+    "display": {
+      "size_in": 6.68,
+      "type": "OLED",
+      "resolution": "2800 × 1280",
+      "refresh_hz": 120
+    },
+    "platform": {
+      "chipset": "kirin-8020"
+    },
+    "memory": {
+      "storage_gb": [
+        256
+      ]
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "aperture": "f/1.9"
+        },
+        {
+          "role": "periscope",
+          "mp": 50,
+          "aperture": "f/2.6",
+          "ois": true,
+          "zoom_x": 3.3,
+          "note": "RYYB"
+        }
+      ],
+      "zoom_optical_x": 3.3,
+      "front": "50 MP, f/2.4",
+      "video": "4K"
+    },
+    "build": {
+      "weight_g": 199,
+      "dimensions": {
+        "height_mm": 159.6,
+        "width_mm": 75.5,
+        "depth_mm": 7.3
+      }
+    },
+    "battery": {
+      "capacity_mah": 7000
+    },
+    "charging": {
+      "wired_w": 100
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "wifi": "Wi-Fi 7",
+      "bluetooth": "Bluetooth 6.0",
+      "nfc": true
+    },
+    "software": {
+      "launch_os": "EMUI 16.0"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "huawei",
+      "url": "https://consumer.huawei.com/my/phones/nova16s/specs/",
+      "checked": "2026-11-13",
+      "note": "Specifications from Huawei Malaysia's specification page. Huawei Malaysia opened reservations (RM100 deposit) for the 19 November 2026 launch (Lowyat); the price is announced at the launch."
+    },
+    "fields": {
+      "official_page": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://consumer.huawei.com/my/phones/nova16s/specs/",
+        "checked": "2026-11-13",
+        "note": "Huawei nova 16s specification page on Huawei Malaysia's site."
+      },
+      "announced": {
+        "class": "news",
+        "source": "lowyat",
+        "url": "https://www.lowyat.net/2026/403083/huawei-nova-16s-16s-pro-outside-china/",
+        "checked": "2026-11-13",
+        "note": "Huawei announced the nova 16s and 16s Pro for markets outside China (Lowyat, 3 September 2026)."
+      },
+      "status": {
+        "class": "news",
+        "source": "lowyat",
+        "url": "https://www.lowyat.net/2026/409635/huawei-nova-16s-launch-malaysia/",
+        "checked": "2026-11-13",
+        "note": "Lowyat: reservations open in Malaysia with a RM100 deposit; launch on 19 November 2026."
+      }
+    }
+  },
+  "availability": {
+    "MY": {
+      "status": "price-not-found",
+      "checked": "2026-11-13",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2026/409635/huawei-nova-16s-launch-malaysia/",
+      "note": "Reservations open (RM100 deposit); Huawei Malaysia announces the price at the 19 November 2026 launch."
+    }
+  },
+  "image": {
+    "kind": "official",
+    "src": "https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/phones/nova16s/list-breathing-crystal.png",
+    "page": "https://consumer.huawei.com/my/phones/nova16s/specs/",
+    "credit": "Huawei Malaysia",
+    "checked": "2026-11-13"
+  },
+  "dataStatus": "compiled"
+}

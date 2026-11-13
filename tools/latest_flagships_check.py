@@ -37,7 +37,8 @@ LAUNCH_WORDS = re.compile(r"(?i)on sale|goes on sale|now available|available now
 # a headline saying a model now exists (for the missing-flagship list)
 NEW_WORDS = re.compile(r"(?i)\blaunch(?:es|ed)?\b|\bofficial(?:ly)?\b|\bdebuts?\b|\bunveil(?:s|ed)?\b|\bannounced\b|\bgoes? on sale\b|\bon sale\b|发布|开售|首销|上市|发售")
 # ...but not one that only expects it ("Mate X8 tipped to launch next month")
-RUMOUR_WORDS = re.compile(r"(?i)\b(tipped|rumou?r\w*|leak\w*|expected|could|may|will|set to|to launch|launch date|teas\w*|coming|upcoming|ahead of|reportedly)\b|曝光|爆料|预计|将于|即将|官宣")
+RUMOUR_WORDS = re.compile(r"(?i)\b(tipped|rumou?r\w*|leak\w*|expected|could|may|will|set to|to launch|launch date|teas\w*|coming|upcoming|ahead of|reportedly"
+                          r"|should|wait for)\b|\?|曝光|爆料|预计|将于|即将|官宣")  # Version 40: questions ("...or wait for the iPhone 18 launch?") too
 LOOKS_FLAGSHIP = re.compile(r"(?i)\b(pro max|pro\+|pro plus|ultra)\b")
 MISSING_DAYS = 45
 
@@ -59,7 +60,9 @@ def name_in_title(name: str):
     "Xiaomi 18" doesn't match a "Xiaomi 18 Pro" headline."""
     tokens = re.findall(r"[A-Za-z]+|\d+|\+", name)
     body = r"\s*".join(re.escape(t) for t in tokens)
-    return re.compile(r"(?i)(?<![A-Za-z0-9])" + body + r"(?![A-Za-z0-9])(?!\s*\+)(?!\s*(?:pro|max|ultra|plus|mini|lite|fold|flip|super|se|s|e|r)\b)")
+    # Version 40: (?![a-z0-9]) instead of \b after the model word, because in a Chinese title ("iPhone 18 Pro面容ID")
+    # Python counts the Chinese character as part of the word and \b never matched
+    return re.compile(r"(?i)(?<![A-Za-z0-9])" + body + r"(?![A-Za-z0-9])(?!\s*\+)(?!\s*(?:pro|max|ultra|plus|mini|lite|fold|flip|super|se|s|e|r)(?![a-z0-9]))")
 
 
 def read_json(path: Path, default):
@@ -123,12 +126,16 @@ def main() -> int:
                 flags.append(f"announced, but a headline says: {sale[0]['title'][:90]} ({(sale[0].get('published') or '')[:10]})")
         if not my_price:
             # a Malaysian site's report of a China launch is not a Malaysian launch: only headlines naming Malaysia or ringgit
+            # (Version 40: and not a "China release ... from ~RM5785" title, which only converts the Chinese price)
             my_news = [i for i in heads if i.get("source") in MY_SOURCES and (i.get("published") or "") >= announced
-                       and re.search(r"(?i)malaysia|大马|马来西亚|\bRM\s?\d", i.get("title") or "")]
+                       and re.search(r"(?i)malaysia|大马|马来西亚|\bRM\s?\d", i.get("title") or "")
+                       and not re.search(r"(?i)\bchina\b|中国|~\s?RM", i.get("title") or "")]
             if my_news:
                 flags.append(f"no Malaysian price, but {my_news[0]['source']} wrote: {my_news[0]['title'][:80]} ({(my_news[0].get('published') or '')[:10]})")
         if not heads or (heads[0].get("published") or "")[:10] < (today - dt.timedelta(days=30)).isoformat():
             flags.append("no collected headline for 30 days")
+        if not d.get("image"):  # Version 40: every card should show the phone (owner, 3 Nov 2026)
+            flags.append("no picture - look for one on the maker's own pages")
         flags_total += len(flags)
         where = "card" if n < SHOWN else "next"
         avail = (d.get("availability") or {}).get("MY")

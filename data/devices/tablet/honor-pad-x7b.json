@@ -1,0 +1,111 @@
+{
+  "id": "honor-pad-x7b",
+  "name": "HONOR Pad X7b",
+  "brand": "honor",
+  "category": "tablet",
+  "series": "HONOR Pad X",
+  "form": "tablet",
+  "status": "released",
+  "announced": "2026-10-30",
+  "released": "2026-10-30",
+  "summary": "A family tablet with HONOR Kids and parental controls: a 9.7-inch 2K 90 Hz LCD, the Snapdragon 685, 4 GB of RAM, 128 GB of storage (microSD to 2 TB) and an 8,000 mAh battery. On sale in Malaysia from 30 October 2026 at RM699 (Wi-Fi) and RM799 (Wi-Fi + LTE).",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 699,
+      "config": "Wi-Fi, 4 GB / 128 GB",
+      "date": "2026-10-30",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2026/408832/honor-pad-x7b-affordable-earbuds/",
+      "class": "news",
+      "accessed": "2026-11-13",
+      "note": "Comes with a flip cover worth RM159 (Lowyat)."
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 799,
+      "config": "Wi-Fi + LTE, 4 GB / 128 GB",
+      "date": "2026-10-30",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2026/408832/honor-pad-x7b-affordable-earbuds/",
+      "class": "news",
+      "accessed": "2026-11-13",
+      "note": "Comes with a flip cover worth RM159 (Lowyat)."
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 9.7,
+      "type": "LCD",
+      "resolution": "2052 × 1152",
+      "refresh_hz": 90,
+      "peak_nits": 500
+    },
+    "platform": {
+      "chipset": "snapdragon-685"
+    },
+    "memory": {
+      "ram_gb": [
+        4
+      ],
+      "storage_gb": [
+        128
+      ],
+      "expandable": "microSD up to 2 TB"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 5
+        }
+      ],
+      "front": "5 MP"
+    },
+    "build": {
+      "weight_g": 447,
+      "dimensions": {
+        "depth_mm": 8.48
+      }
+    },
+    "battery": {
+      "capacity_mah": 8000
+    },
+    "connectivity": {
+      "cellular": "4G LTE (LTE version)"
+    },
+    "software": {
+      "launch_os": "MagicOS 10 (Android 16)"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "news",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2026/408832/honor-pad-x7b-affordable-earbuds/",
+      "checked": "2026-11-13",
+      "note": "Specifications from Lowyat's Malaysian launch report (30 October 2026), cross-checked with HONOR Malaysia's product page (9.7-inch 2K 90 Hz screen, Snapdragon 685, 8,000 mAh, 8.48 mm, 447 g). HONOR's specification page shows no values yet, which is why the automatic device check held it."
+    },
+    "fields": {
+      "official_page": {
+        "class": "official",
+        "source": "honor",
+        "url": "https://www.honor.com/my/tablets/honor-pad-x7b/",
+        "checked": "2026-11-13",
+        "note": "HONOR Pad X7b product page on HONOR Malaysia's site."
+      }
+    }
+  },
+  "image": {
+    "kind": "official",
+    "src": "https://www.honor.com/content/dam/honor/common/product-list/tablets/product-series/honor-pad-x7b/honor-pad-x7b-list.png",
+    "page": "https://www.honor.com/my/tablets/honor-pad-x7b/",
+    "credit": "HONOR Malaysia",
+    "checked": "2026-11-13"
+  },
+  "dataStatus": "compiled"
+}

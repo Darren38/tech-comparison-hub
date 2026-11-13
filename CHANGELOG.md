@@ -1,5 +1,17 @@
 # Changelog
 
+## 13 November 2026
+
+
+Weekly update: new launches in Malaysia, the latest flagships brought up to date, a news batch, and clearer test reports.
+
+- Added: REDMAGIC 12 Pro (in Malaysia from RM4,499, on sale since 10 November; specifications from REDMAGIC Malaysia's own page), POCO X8s (RM1,899), Huawei nova 16s and nova 16s Pro (launching in Malaysia on 19 November; specifications from Huawei Malaysia), and the HONOR Pad X7b family tablet (RM699, or RM799 with LTE). The nova 16s pair had already been added automatically from Huawei's site; the checked records replace them.
+- Malaysian prices: Huawei Watch 6 (from RM1,799) and Watch 6 Pro (from RM2,699), now on sale; FreeBuds SE 5 Max on sale.
+- Latest flagships: the Motorola Signature 27 has its full specifications and US price ($1,599, on sale 19 November); the HONOR Magic9 is marked as on sale since its launch day; the Magic9 Pro Max (24 November) and Xiaomi 18 Pro series (17 November) show their Malaysian launch dates.
+- 14 news reports and one review (Engadget's iPad mini) added to the checked documents.
+- Tests: each test now writes a short table of what it checked on GitHub's run page, missing links found by the link check now fail the run (before, they were listed but not counted), and an update can ask for every device page's links to be checked before it goes live.
+- The weekly flagship check also flags a card without a picture, and no longer mistakes a China launch report quoting a converted ringgit price, or a question headline, for a launch.
+
 ## 3 November 2026
 
 The newest flagships that were missing, added, and a weekly check so it doesn't happen again.

@@ -1,0 +1,136 @@
+{
+  "id": "poco-x8s",
+  "name": "POCO X8s",
+  "brand": "poco",
+  "category": "smartphone",
+  "series": "X",
+  "form": "bar",
+  "status": "released",
+  "announced": "2026-11-06",
+  "released": "2026-11-10",
+  "summary": "A compact POCO with a 6.35-inch 1.5K AMOLED screen, the Snapdragon 7 Gen 4, a 50 MP main camera with a 2.5x telephoto, a 6,330 mAh battery with 100 W charging, and IP68. Launched in Malaysia on 6 November 2026 from RM1,899 (RM1,399 at launch).",
+  "highlights": [
+    "6.35-inch compact AMOLED",
+    "Snapdragon 7 Gen 4",
+    "50 MP 2.5x telephoto",
+    "6,330 mAh, 100 W"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1899,
+      "config": "8 GB / 256 GB",
+      "date": "2026-11-06",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2026/409362/poco-x8s-malaysia-snapdragon-7-gen-4/",
+      "class": "news",
+      "accessed": "2026-11-13",
+      "note": "RM1,399 and RM1,699 from 10 to 12 November 2026 (Lowyat); TechNave gives an early-bird period to 25 November."
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 2099,
+      "config": "12 GB / 512 GB",
+      "date": "2026-11-06",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2026/409362/poco-x8s-malaysia-snapdragon-7-gen-4/",
+      "class": "news",
+      "accessed": "2026-11-13",
+      "note": "RM1,399 and RM1,699 from 10 to 12 November 2026 (Lowyat); TechNave gives an early-bird period to 25 November."
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 6.35,
+      "type": "AMOLED (1.5K)",
+      "refresh_hz": 120,
+      "peak_nits": 3500
+    },
+    "platform": {
+      "chipset": "snapdragon-7-gen-4"
+    },
+    "memory": {
+      "ram_gb": [
+        8,
+        12
+      ],
+      "storage_gb": [
+        256,
+        512
+      ]
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "ois": true,
+          "note": "Light Fusion 800"
+        },
+        {
+          "role": "telephoto",
+          "mp": 50,
+          "zoom_x": 2.5
+        },
+        {
+          "role": "ultrawide",
+          "mp": 8
+        }
+      ],
+      "zoom_optical_x": 2.5,
+      "front": "20 MP"
+    },
+    "build": {
+      "weight_g": 187,
+      "dimensions": {
+        "depth_mm": 8.06
+      },
+      "ip": "IP68"
+    },
+    "battery": {
+      "capacity_mah": 6330
+    },
+    "charging": {
+      "wired_w": 100
+    },
+    "connectivity": {
+      "cellular": "5G"
+    },
+    "biometrics": {
+      "fingerprint": "Under display (ultrasonic)"
+    },
+    "software": {
+      "launch_os": "Xiaomi HyperOS 3"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "news",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2026/409362/poco-x8s-malaysia-snapdragon-7-gen-4/",
+      "checked": "2026-11-13",
+      "note": "Specifications from Lowyat's Malaysian launch report (6 November 2026); the operating system and the ultrasonic fingerprint sensor are also on Xiaomi Malaysia's product page."
+    },
+    "fields": {
+      "official_page": {
+        "class": "official",
+        "source": "xiaomi",
+        "url": "https://www.mi.com/my/product/poco-x8s/",
+        "checked": "2026-11-13",
+        "note": "POCO X8s product page on Xiaomi Malaysia's site."
+      }
+    }
+  },
+  "image": {
+    "kind": "official",
+    "src": "https://i02.appmifile.com/656_item_my/27/10/2026/61a40a198e1c2329f34c81033cea6a7c.png",
+    "page": "https://www.mi.com/my/product/poco-x8s/",
+    "credit": "Xiaomi Malaysia",
+    "checked": "2026-11-13"
+  },
+  "dataStatus": "compiled"
+}

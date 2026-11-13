@@ -64,6 +64,49 @@ def judge(text: str) -> tuple[list[str], list[str]]:
 
 # every test script ends with one of these; without it the test crashed or stopped early, which is never a pass
 FINISHED = re.compile(r"^\d+ failed check\(s\)\s*$|^done: \d+ problem page\(s\)|^documents naming devices not in the hub: \d+", re.M)
+# Version 40: the link check lists what is missing under count lines instead of FAIL lines; before this every one of
+# them was ignored, so a missing link could never turn the run red
+LINK_LISTS = re.compile(r"^(missing on device pages|missing in the News/Reviews lists): (\d+)\s*$", re.M)
+UNKNOWN_DEVICES = re.compile(r"^documents naming devices not in the hub: (\d+)(.*)$", re.M)
+
+
+def link_failures(text: str) -> list[str]:
+    real = []
+    lines = text.splitlines()
+    for n, line in enumerate(lines):
+        m = LINK_LISTS.match(line)
+        if m and int(m.group(2)):
+            items = [l.strip() for l in lines[n + 1:n + 1 + int(m.group(2))] if l.startswith("  ")]
+            real += [f"{m.group(1)}: {it}" for it in items] or [f"{m.group(1)}: {m.group(2)}"]
+    for m in UNKNOWN_DEVICES.finditer(text):
+        if int(m.group(1)):
+            real.append(f"documents naming devices not in the hub: {m.group(1)}{m.group(2)}")
+    return real
+
+
+def stats(text: str) -> list[tuple[str, str]]:
+    """What a test covered, for the summary on the run page."""
+    out = []
+    passed = len(re.findall(r"^PASS\b", text, re.M))
+    if passed:
+        out.append(("Checks passed", str(passed)))
+    m = re.search(r"^pages checked: (\d+)", text, re.M)
+    if m:
+        out.append(("Pages checked", m.group(1)))
+    m = re.search(r"^device pages opened: (\d+); document links checked: (\d+); headline links checked: (\d+)", text, re.M)
+    if m:
+        out += [("Device pages opened", m.group(1)), ("Links checked", str(int(m.group(2)) + int(m.group(3))))]
+    return out
+
+
+def step_summary(title: str, real: list[str], outside: list[str], covered: list[tuple[str, str]]) -> str:
+    """Markdown for GitHub's run page (GITHUB_STEP_SUMMARY): one small table per test, real failures listed."""
+    icon = "❌ failed" if real else "✅ passed"
+    rows = covered + [("Real failures", str(len(real))), ("Outside the site's control (warnings)", str(len(outside)))]
+    md = [f"### {title} — {icon}", "", "| | |", "|---|---|"] + [f"| {k} | {v} |" for k, v in rows]
+    if real:
+        md += ["", "Real failures:", ""] + [f"- {r[:300].replace('|', '/')}" for r in real[:15]]
+    return "\n".join(md) + "\n\n"
 
 
 def main() -> int:
@@ -71,9 +114,14 @@ def main() -> int:
     for f in sys.argv[1:]:
         text = Path(f).read_text(encoding="utf-8", errors="replace")
         real, outside = judge(text)
+        real += link_failures(text)
         if not FINISHED.search(text):
             real.insert(0, "the test did not finish (no summary line) - it crashed, timed out or never started")
         total_real += len(real)
+        summary_file = os.environ.get("GITHUB_STEP_SUMMARY")
+        if summary_file:
+            with open(summary_file, "a", encoding="utf-8") as s:
+                s.write(step_summary(os.environ.get("JUDGE_TITLE") or Path(f).stem, real, outside, stats(text)))
         print(f"== {Path(f).name}: {len(real)} real failure(s), {len(outside)} outside the site's control")
         for r in real:
             print("   FAIL", r)

@@ -71,5 +71,6 @@ for (const w of widths) {
 }
 await send('Emulation.clearDeviceMetricsOverride');
 await send('Runtime.evaluate', { expression: `localStorage.setItem('tch.mode.v1', JSON.stringify('detailed')); 1` });
+console.log(`pages checked: ${(global.__n ?? 0) + problems}`);  // Version 40: for the summary on GitHub’s run page (__n counts the pages that passed)
 console.log(`done: ${problems} problem page(s)`);
 process.exit(0);

@@ -1,0 +1,169 @@
+{
+  "id": "redmagic-12-pro",
+  "name": "REDMAGIC 12 Pro",
+  "brand": "redmagic",
+  "category": "smartphone",
+  "series": "REDMAGIC",
+  "form": "bar",
+  "status": "released",
+  "announced": "2026-11-03",
+  "released": "2026-11-10",
+  "segment": "gaming",
+  "summary": "The international version of the REDMAGIC 12 Pro+: Snapdragon 8 Elite Extreme Gen 6 with the RedCore R5 chip, a 6.85-inch 185 Hz screen with an under-display selfie camera, a fan with liquid cooling, an 8,400 mAh battery and IP68/IP69. On sale in Malaysia from 10 November 2026, from RM4,499. No independent tests yet: its scores come from specifications only.",
+  "highlights": [
+    "Snapdragon 8 Elite Extreme Gen 6 + RedCore R5",
+    "185 Hz, no notch (under-display camera)",
+    "8,400 mAh battery",
+    "IP68 and IP69 (fan: IPX8)"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 4499,
+      "config": "12 GB / 256 GB",
+      "date": "2026-11-06",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2026/409366/redmagic-12-pro-malaysia-10-november/",
+      "class": "news",
+      "accessed": "2026-11-13",
+      "note": "RM500 off each version during the 11.11 sale (Lowyat; TechNave lists the same sale prices)."
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 4999,
+      "config": "16 GB / 512 GB",
+      "date": "2026-11-06",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2026/409366/redmagic-12-pro-malaysia-10-november/",
+      "class": "news",
+      "accessed": "2026-11-13",
+      "note": "RM500 off each version during the 11.11 sale (Lowyat; TechNave lists the same sale prices)."
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 5899,
+      "config": "16 GB / 1 TB",
+      "date": "2026-11-06",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2026/409366/redmagic-12-pro-malaysia-10-november/",
+      "class": "news",
+      "accessed": "2026-11-13",
+      "note": "RM500 off each version during the 11.11 sale (Lowyat; TechNave lists the same sale prices)."
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 6.85,
+      "type": "AMOLED (full screen, under-display camera)",
+      "resolution": "2688 × 1216",
+      "refresh_hz": 185,
+      "peak_nits": 5000,
+      "note": "1,900 nits across the whole screen"
+    },
+    "platform": {
+      "chipset": "snapdragon-8-elite-extreme-gen-6",
+      "chipset_note": "Plus REDMAGIC RedCore R5 gaming chip and G1 display chip"
+    },
+    "memory": {
+      "ram_gb": [
+        12,
+        16
+      ],
+      "storage_gb": [
+        256,
+        512,
+        1024
+      ],
+      "ram_type": "LPDDR5X Ultra Pro",
+      "storage_type": "UFS 4.1 Pro"
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "aperture": "f/1.89",
+          "sensor": "1/1.56\"",
+          "ois": true
+        },
+        {
+          "role": "ultrawide",
+          "mp": 50,
+          "aperture": "f/2.2",
+          "sensor": "1/2.87\""
+        }
+      ],
+      "zoom_optical_x": 1,
+      "front": "16 MP under-display, f/2.0"
+    },
+    "build": {
+      "weight_g": 223,
+      "dimensions": {
+        "height_mm": 163.03,
+        "width_mm": 75.96,
+        "depth_mm": 8.55
+      },
+      "ip": "IP68, IP69 (fan: IPX8)",
+      "cooling": "AquaCore 3.0: dual-loop liquid cooling and a 25,500 RPM fan"
+    },
+    "battery": {
+      "capacity_mah": 8400
+    },
+    "charging": {
+      "wired_w": 80,
+      "wireless_w": 80
+    },
+    "connectivity": {
+      "cellular": "5G",
+      "wifi": "Wi-Fi 7",
+      "bluetooth": "Bluetooth 6.0",
+      "nfc": true,
+      "usb": "USB 3.2 Gen 2"
+    },
+    "biometrics": {
+      "fingerprint": "Under display (3D ultrasonic)"
+    },
+    "software": {
+      "launch_os": "REDMAGIC OS 12 (Android 17)"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "redmagic",
+      "url": "https://my.redmagic.gg/pages/redmagic-12-pro-specification",
+      "checked": "2026-11-13",
+      "note": "Specifications from REDMAGIC Malaysia's specification page. Lowyat's launch report gives 120 W wired charging and Bluetooth 5.3 (the Chinese 12 Pro+'s figures); REDMAGIC's own page for this model says 80 W wired and Bluetooth 6.0, which are recorded. No independent tests yet: its scores come from specifications only."
+    },
+    "fields": {
+      "official_page": {
+        "class": "official",
+        "source": "redmagic",
+        "url": "https://my.redmagic.gg/pages/redmagic-12-pro-specification",
+        "checked": "2026-11-13",
+        "note": "REDMAGIC 12 Pro specification page on REDMAGIC's Malaysian store."
+      },
+      "released": {
+        "class": "news",
+        "source": "lowyat",
+        "url": "https://www.lowyat.net/2026/409366/redmagic-12-pro-malaysia-10-november/",
+        "checked": "2026-11-13",
+        "note": "Lowyat: on sale from 8 pm on 10 November 2026 on REDMAGIC's online store and Shopee."
+      },
+      "announced": {
+        "class": "news",
+        "source": "fonearena",
+        "url": "https://www.fonearena.com/blog/495130/redmagic-12-pro-plus-price-specifications.html",
+        "checked": "2026-11-13",
+        "note": "REDMAGIC set the global 12 Pro's announcement for 3 November 2026 (FoneArena)."
+      }
+    }
+  },
+  "dataStatus": "compiled"
+}

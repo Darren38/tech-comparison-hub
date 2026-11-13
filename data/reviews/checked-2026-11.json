@@ -1,0 +1,48 @@
+[
+  {
+    "id": "engadget-ipad-mini-a20-pro-review",
+    "kind": "review",
+    "source": "engadget",
+    "class": "reviewer",
+    "title": "iPad mini (A20 Pro) review: Apple's tiny tablet gets a big update",
+    "url": "https://www.engadget.com/2304616/apple-ipad-mini-a20-pro-review/",
+    "published": "2026-11-03",
+    "accessed": "2026-11-13",
+    "devices": [
+      "apple-ipad-mini-a20-pro"
+    ],
+    "facets": [
+      "display",
+      "audio",
+      "performance",
+      "value"
+    ],
+    "method": "Hands-on review of a 256 GB model with nano-texture glass.",
+    "findings": [
+      {
+        "subject": "apple-ipad-mini-a20-pro",
+        "facet": "display",
+        "stance": "positive",
+        "text": "The first OLED screen in an iPad mini gives deep blacks and much better HDR; nano-texture glass makes it easy to use near bright lights. It stays at 60 Hz, a let-down at this price."
+      },
+      {
+        "subject": "apple-ipad-mini-a20-pro",
+        "facet": "audio",
+        "stance": "positive",
+        "text": "The new speakers have much stronger bass; the previous iPad mini sounds tinny next to it."
+      },
+      {
+        "subject": "apple-ipad-mini-a20-pro",
+        "facet": "performance",
+        "stance": "positive",
+        "text": "The A20 Pro handled everything, including console ports such as Control and No Man's Sky."
+      },
+      {
+        "subject": "apple-ipad-mini-a20-pro",
+        "facet": "value",
+        "stance": "negative",
+        "text": "From $699, $200 more than the last model at launch; nano-texture glass needs the $899 256 GB model, so the reviewer doubts it is worth it for most people."
+      }
+    ]
+  }
+]
