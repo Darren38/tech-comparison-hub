@@ -12,6 +12,7 @@ Weekly update: Malaysian prices for the newest launches, a monthly Malaysian sta
 - Pictures from the makers for the iQOO 16 and vivo V80.
 - 10 news reports and 3 reviews added to the checked documents.
 - Fixed: a hand-checked Trusted Reviews article about a phone no longer hides that phone's automatically read Trusted Reviews test results (the OnePlus 12's are back).
+- Fixed: when the headline relay can't reach any news feed, the News page now keeps showing the saved headlines and says the collection failed, instead of emptying the list (saved video feeds were counted as reached).
 - Tests: the copy of the site the tests use now has the newest headlines, as visitors get them; an old stored copy had hidden one headline from a device page and failed the link check.
 
 ## 13 November 2026

@@ -84,12 +84,15 @@ async function collectNow() {
       try {
         const { collectThroughRelay } = await import('./collect.js');
         const data = await collectThroughRelay(config);
+        // Version 41: decided before the saved video feeds are added below. They always count as reached, so when the
+        // relay reached no feed at all the page replaced the saved headlines with an empty list.
+        const reached = data.feeds.some((f) => f.ok);
         // Version 18: YouTube videos come from the scheduled build (YouTube Data API), not through the relay: keep the saved ones
         const saved = await savedHeadlines().catch(() => null);
         const videos = (saved?.items ?? []).filter((i) => i.kind === 'video' && !data.items.some((x) => x.id === i.id));
         if (videos.length) data.items = [...data.items, ...videos].sort((a, b) => String(b.published ?? '').localeCompare(String(a.published ?? '')));
         data.feeds = [...data.feeds, ...(saved?.feeds ?? []).filter((f) => f.kind === 'video')];
-        if (data.feeds.some((f) => f.ok)) {
+        if (reached) {
           latest = { data, at: Date.now() };
           return { data, collectedNow: true, server, live: true, error };
         }
