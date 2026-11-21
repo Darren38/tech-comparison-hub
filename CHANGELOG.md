@@ -1,5 +1,19 @@
 # Changelog
 
+## 21 November 2026
+
+
+Weekly update: Malaysian prices for the newest launches, a monthly Malaysian status check, corrected specifications, and two fixes found by the tests.
+
+- Added: vivo V80 (in Malaysia from RM2,399, pre-order since 19 November; specifications from vivo Malaysia's own page).
+- Malaysian prices: Huawei nova 16s (RM2,599) and nova 16s Pro (RM3,299), both on sale since 19 November; Xiaomi 18 Pro (from RM4,799) and 18 Pro Max (from RM5,999), on pre-order until 26 November; realme 16 Pro+ (RM2,299). The iPad mini (A20 Pro) is marked as on sale.
+- A new monthly check lists every recent device still marked as not yet in Malaysia, without a Malaysian price or on pre-order, with the Malaysian news since it was last checked. Its first run found the six updates above.
+- Specifications corrected from the makers' own pages: 1 TB (and 2 TB) storage options for the iPhone 15 Pro, 15 Pro Max, 16 Pro, 18 Pro and iPhone Air, an 8 GB OPPO A7 Pro, a 256 GB realme P4 Lite, the realme 16's 7,000 mAh typical battery and the realme Note 80's 197 g. The automatic page reader no longer mistakes a touch rate for a screen refresh rate.
+- Pictures from the makers for the iQOO 16 and vivo V80.
+- 10 news reports and 3 reviews added to the checked documents.
+- Fixed: a hand-checked Trusted Reviews article about a phone no longer hides that phone's automatically read Trusted Reviews test results (the OnePlus 12's are back).
+- Tests: the copy of the site the tests use now has the newest headlines, as visitors get them; an old stored copy had hidden one headline from a device page and failed the link check.
+
 ## 13 November 2026
 
 

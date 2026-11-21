@@ -83,7 +83,8 @@
       "storage_gb": [
         128,
         256,
-        512
+        512,
+        1024
       ],
       "ram_gb": [
         8
@@ -271,6 +272,13 @@
         "url": "https://support.apple.com/en-my/121031",
         "checked": "2026-09-23",
         "note": "Apple gives a time-based claim and an adapter rating, not the phone's maximum input. The adapter rating is used as an estimate."
+      },
+      "specs.memory.storage_gb": {
+        "class": "official",
+        "source": "apple",
+        "url": "https://support.apple.com/en-my/121031",
+        "checked": "2026-11-21",
+        "note": "Every capacity on Apple's technical specifications page."
       }
     }
   },

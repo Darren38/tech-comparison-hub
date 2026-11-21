@@ -81,6 +81,11 @@ jobs:
       - name: Build the site with today's live data
         run: |
           python tools/seed_live.py
+          # Version 41: also the newest headlines, as visitors get them. The repository's copy is weeks old, and the
+          # page keeps the first copy of an article it meets: an old untagged copy hid the article from a device page
+          # (iPhone 17e, Malay Mail price headline) and turned the link check red on 13 and 18 November.
+          curl -sf -A "Mozilla/5.0 (compatible; TechComparisonHub/1.0)" -o live/headlines.json.new \
+            https://darren38.github.io/tech-comparison-hub/live/headlines.json && mv live/headlines.json.new live/headlines.json || true
           python tools/build.py
           python tools/seo.py
           python tools/preload.py

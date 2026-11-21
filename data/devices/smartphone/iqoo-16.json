@@ -125,5 +125,12 @@
       "accessed": "2026-11-01",
       "note": "TechNave reports the same price."
     }
-  ]
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/product/1790676780818/images/iqoo16-kv-img1-lg.png",
+    "page": "https://www.vivo.com.cn/vivo/iqoo16/",
+    "credit": "iQOO China",
+    "checked": "2026-11-21"
+  }
 }

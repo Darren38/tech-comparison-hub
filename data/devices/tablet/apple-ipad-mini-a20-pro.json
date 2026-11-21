@@ -5,8 +5,9 @@
   "category": "tablet",
   "series": "iPad mini",
   "form": "tablet",
-  "status": "pre-order",
+  "status": "released",
   "announced": "2026-10-26",
+  "released": "2026-11-06",
   "segment": "upper-mid",
   "aliases": [
     "iPad mini 2026",
@@ -158,6 +159,13 @@
         "url": "https://www.apple.com/my/ipad-mini/",
         "checked": "2026-11-01",
         "note": "Apple Malaysia's iPad mini page."
+      },
+      "released": {
+        "class": "news",
+        "source": "ithome",
+        "url": "https://www.ithome.com/1/023/021.htm",
+        "checked": "2026-11-21",
+        "note": "IT之家: on sale from 6 November 2026 (China); the Malaysian launch report gave the same date."
       }
     }
   },

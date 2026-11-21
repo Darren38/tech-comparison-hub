@@ -431,6 +431,10 @@ def said_as(text: str, path: str, value) -> bool:
         near = clause[max(0, hit.start() - 22):hit.end() + 25]   # "45 W wired charging … with 45 W Adapter": each number on its own
         if re.search(bad, near, re.I):
             continue
+        # Version 41: a refresh rate under a touch label further back ("Touch Reporting Rate: Up to 180Hz", "Touch Sampling
+        # Rate: 360Hz, Default 120Hz") is a touch rate: realme pages gave 180 Hz for 90 Hz and 120 Hz screens
+        if path == "display.refresh_hz" and re.search(r"touch|sampling|reporting", seg[:seg.find(clause)] + clause[:hit.start()], re.I):
+            continue
         window = " ".join([seg, segs[i - 1] if i and len(segs[i - 1]) < 40 else "",
                            segs[i + 1] if i + 1 < len(segs) and len(segs[i + 1]) < 40 else ""])
         if re.search(good, window, re.I):
@@ -1252,6 +1256,7 @@ def fill_existing(state: dict, hub: Hub, limit: int, log) -> None:
                 log(f"[specs] {d['id']}: {path} filled from the maker's page: {new}")
             elif old is not None and old != new and not (isinstance(old, list) and isinstance(new, list) and set(new) <= set(old)):
                 if f"specs.{path}" in fprov and fprov[f"specs.{path}"].get("url") != u:
+                    changes.get(d["id"], {}).pop(path, None)  # Version 41: and a note listed before that is now answered goes
                     continue                              # the recorded value is cited from another source on purpose
                 changes.setdefault(d["id"], {})[path] = {"recorded": old, "page": new, "url": got["final"], "checked": TODAY}
             else:

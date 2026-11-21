@@ -79,6 +79,15 @@
       "url": "https://consumer.huawei.com/my/tablets/matepad-pro-max/specs/",
       "checked": "2026-09-25",
       "note": "Read from HUAWEI Malaysia’s specification page; launch month from Malaysian launch reports."
+    },
+    "fields": {
+      "specs.build.weight_g": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://consumer.huawei.com/my/tablets/matepad-pro-max/specs/#weight",
+        "checked": "2026-11-21",
+        "note": "About 499 g; the 509 g on the same page is the PaperMatte Edition."
+      }
     }
   },
   "dataStatus": "checked"

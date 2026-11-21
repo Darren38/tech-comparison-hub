@@ -137,6 +137,13 @@
         "url": "https://soyacincau.com/2026/01/20/huaiwei-mate-x7-malaysia-price-specs-availability/",
         "checked": "2026-09-18",
         "note": "Date of the first Malaysian launch report found (SoyaCincau). The global announcement can be earlier."
+      },
+      "specs.display.size_in": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://consumer.huawei.com/my/phones/mate-x7/specs/#main-screen",
+        "checked": "2026-11-21",
+        "note": "Main screen 8 inches; the 6.49-inch figure on the same page is the cover screen."
       }
     }
   },

@@ -67,6 +67,15 @@
       "url": "https://www.realme.com/my/realme-note-70/specs",
       "checked": "2026-09-25",
       "note": "Read automatically from the maker’s Malaysian specification page and reviewed; values not found on the page are left out."
+    },
+    "fields": {
+      "specs.display.refresh_hz": {
+        "class": "official",
+        "source": "realme",
+        "url": "https://www.realme.com/my/realme-note-70/specs#refresh-rate",
+        "checked": "2026-11-21",
+        "note": "Screen refresh rate 90 Hz; the other figure on the page is the touch rate."
+      }
     }
   },
   "dataStatus": "compiled"

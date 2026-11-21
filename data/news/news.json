@@ -1992,5 +1992,206 @@
     ],
     "summary": "On sale in China from 6 November at CNY 5,499 for 128 GB (about CNY 4,999 with the national subsidy). The 128 GB and 256 GB models have a 5-core CPU; the 512 GB model has 6 CPU cores and a second 16-core Neural Engine.",
     "lang": "zh"
+  },
+  {
+    "id": "lowyat-xiaomi-18-pro-malaysia-preorder",
+    "kind": "news",
+    "type": "launch",
+    "region": "MY",
+    "source": "lowyat",
+    "class": "news",
+    "title": "Xiaomi 18 Pro Series Now Available For Preorder In Malaysia; Starts From RM4,799",
+    "url": "https://www.lowyat.net/2026/409951/xiaomi-18-pro-series-malaysia-preorder/",
+    "published": "2026-11-18",
+    "accessed": "2026-11-21",
+    "devices": [
+      "xiaomi-18-pro",
+      "xiaomi-18-pro-max"
+    ],
+    "facets": [
+      "value"
+    ],
+    "summary": "Pre-orders run until 26 November: the 18 Pro is RM4,799 (12/256 GB) or RM5,299 (12/512 GB), the 18 Pro Max RM5,999 or RM6,499, with a rebate and a free Xiaomi Watch S5 for early buyers."
+  },
+  {
+    "id": "lowyat-huawei-nova-16s-malaysia-on-sale",
+    "kind": "news",
+    "type": "launch",
+    "region": "MY",
+    "source": "lowyat",
+    "class": "news",
+    "title": "Huawei Nova 16s Series Officially Lands In Malaysia",
+    "url": "https://www.lowyat.net/2026/410031/huawei-nova-16s-series-malaysia/",
+    "published": "2026-11-19",
+    "accessed": "2026-11-21",
+    "devices": [
+      "huawei-nova-16s",
+      "huawei-nova-16s-pro"
+    ],
+    "facets": [
+      "value",
+      "camera"
+    ],
+    "summary": "On sale in Malaysia: the nova 16s at RM2,599 and the 16s Pro at RM3,299, RM1,999 and RM2,899 with the launch rebate of up to RM600, plus free gifts."
+  },
+  {
+    "id": "lowyat-vivo-v80-malaysia-launch",
+    "kind": "news",
+    "type": "launch",
+    "region": "MY",
+    "source": "lowyat",
+    "class": "news",
+    "title": "Vivo V80 Officially Launches In Malaysia",
+    "url": "https://www.lowyat.net/2026/410029/vivo-v80-malaysia-launch/",
+    "published": "2026-11-19",
+    "accessed": "2026-11-21",
+    "devices": [
+      "vivo-v80"
+    ],
+    "facets": [
+      "value",
+      "camera",
+      "battery"
+    ],
+    "summary": "The V80 is on pre-order in Malaysia from RM2,399, with ZEISS cameras including a 50 MP 3x periscope, a 7,200 mAh battery with 90 W charging, a 144 Hz screen and IP68/IP69."
+  },
+  {
+    "id": "ithome-xiaomi-18-pro-international-launch",
+    "kind": "news",
+    "type": "launch",
+    "region": "EU",
+    "source": "ithome",
+    "class": "news",
+    "title": "小米 18 Pro 系列手机国际版正式发布：把背屏带向海外，1399 欧元起",
+    "url": "https://www.ithome.com/1/028/564.htm",
+    "published": "2026-11-18",
+    "accessed": "2026-11-21",
+    "devices": [
+      "xiaomi-18-pro",
+      "xiaomi-18-pro-max"
+    ],
+    "facets": [
+      "value",
+      "battery"
+    ],
+    "summary": "Launched internationally in Paris on 17 November from EUR 1,399 (12/256 GB) and EUR 1,599 (12/512 GB) for the 18 Pro; the international 18 Pro Max has a 7,050 mAh battery.",
+    "lang": "zh"
+  },
+  {
+    "id": "macrumors-iphone-duo-face-unlock-ios-27-3",
+    "kind": "news",
+    "type": "software-update",
+    "source": "macrumors",
+    "class": "news",
+    "title": "Apple Adds Facial Unlock Option on iPhone Duo in iOS 27.3",
+    "url": "https://www.macrumors.com/2026/11/16/iphone-duo-face-unlock/",
+    "published": "2026-11-16",
+    "accessed": "2026-11-21",
+    "devices": [
+      "apple-iphone-duo"
+    ],
+    "facets": [
+      "software"
+    ],
+    "summary": "The second iOS 27.3 beta lets the Duo unlock with its front camera on the Lock Screen. Touch ID is still needed for Apple Pay, passwords and after about 45 minutes without use."
+  },
+  {
+    "id": "macrumors-iphone-duo-crackgate-supplier",
+    "kind": "news",
+    "type": "issue",
+    "source": "macrumors",
+    "class": "news",
+    "title": "Apple Accused of Silencing iPhone Duo Supplier Over 'Crackgate' Issue",
+    "url": "https://www.macrumors.com/2026/11/17/apple-silencing-iphone-duo-supplier-crackgate/",
+    "published": "2026-11-17",
+    "accessed": "2026-11-21",
+    "devices": [
+      "apple-iphone-duo"
+    ],
+    "facets": [
+      "durability"
+    ],
+    "summary": "Citing The Elec, MacRumors reports that Apple allegedly pressed Fine M-Tec, which reportedly makes the metal plates behind the Duo's folding screen, to withdraw a statement denying its parts caused the cracked displays."
+  },
+  {
+    "id": "9to5google-one-ui-9-5-beta-galaxy-s26",
+    "kind": "news",
+    "type": "software-update",
+    "source": "9to5google",
+    "class": "news",
+    "title": "Samsung releases its next major update, One UI 9.5, in beta for Galaxy S26 – what's new",
+    "url": "https://9to5google.com/2026/11/18/samsung-one-ui-9-5-beta-release/",
+    "published": "2026-11-18",
+    "accessed": "2026-11-21",
+    "devices": [
+      "samsung-galaxy-s26",
+      "samsung-galaxy-s26-plus",
+      "samsung-galaxy-s26-ultra"
+    ],
+    "facets": [
+      "software"
+    ],
+    "summary": "The One UI 9.5 beta opened on 18 November for the Galaxy S26 series in the US, UK, Germany, India, Korea and Poland, bringing App Lock among other features; the stable release is expected early next year, likely starting with the Galaxy S27."
+  },
+  {
+    "id": "trustedreviews-oneplus-12-android-17",
+    "kind": "news",
+    "type": "software-update",
+    "region": "IN",
+    "source": "trustedreviews",
+    "class": "news",
+    "title": "OnePlus 12 gets Android 17 update ahead of schedule in India",
+    "url": "https://www.trustedreviews.com/news/oneplus-12-gets-android-17-update-ahead-of-schedule-in-india",
+    "published": "2026-11-13",
+    "accessed": "2026-11-21",
+    "devices": [
+      "oneplus-12"
+    ],
+    "facets": [
+      "software"
+    ],
+    "summary": "ColorOS 17 based on Android 17 is rolling out to the OnePlus 12 in India ahead of its 17 November date, with a redesigned interface, better memory management and more AI features; other regions follow later."
+  },
+  {
+    "id": "ithome-mate-90-harmonyos-7-0-0-115",
+    "kind": "news",
+    "type": "software-update",
+    "region": "CN",
+    "source": "ithome",
+    "class": "news",
+    "title": "华为 Mate 90 系列手机推 HarmonyOS 7.0.0.115 升级，“悄悄”上线完全体 3D 空间壁纸功能",
+    "url": "https://www.ithome.com/1/029/125.htm",
+    "published": "2026-11-19",
+    "accessed": "2026-11-21",
+    "devices": [
+      "huawei-mate-90",
+      "huawei-mate-90-pro",
+      "huawei-mate-90-pro-max"
+    ],
+    "facets": [
+      "software"
+    ],
+    "summary": "HarmonyOS 7.0.0.115 (about 10.3 GB) reaches the Mate 90 series in China with the AI shortcut bar and full 3D spatial wallpapers that move with the phone.",
+    "lang": "zh"
+  },
+  {
+    "id": "ithome-redmagic-12-pro-plus-ice-blue",
+    "kind": "news",
+    "type": "availability",
+    "region": "CN",
+    "source": "ithome",
+    "class": "news",
+    "title": "红魔 12 Pro+ 氘锋透明冰蓝配色 11 月 24 日开售，16GB+512GB 版 7499 元",
+    "url": "https://www.ithome.com/1/029/210.htm",
+    "published": "2026-11-19",
+    "accessed": "2026-11-21",
+    "devices": [
+      "redmagic-12-pro-plus"
+    ],
+    "facets": [
+      "value"
+    ],
+    "summary": "The transparent ice-blue 12 Pro+ goes on sale in China on 24 November in one 16 GB / 512 GB version at CNY 7,999 (CNY 7,499 where the CNY 500 subsidy applies).",
+    "lang": "zh"
   }
 ]

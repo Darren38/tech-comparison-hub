@@ -1,0 +1,138 @@
+{
+  "id": "vivo-v80",
+  "name": "vivo V80",
+  "brand": "vivo",
+  "category": "smartphone",
+  "series": "V",
+  "form": "bar",
+  "status": "pre-order",
+  "announced": "2026-11-19",
+  "summary": "vivo's 2026 mid-range camera phone: a 50 MP ZEISS main camera with a 50 MP 3x periscope, a 6.59-inch 144 Hz AMOLED screen, the Snapdragon 7 Gen 4, a 7,200 mAh battery with 90 W charging, and IP68/IP69. Launched in Malaysia on 19 November 2026 at RM2,399 and up (pre-order).",
+  "highlights": [
+    "50 MP ZEISS 3x periscope",
+    "7,200 mAh, 90 W",
+    "6.59-inch 144 Hz AMOLED",
+    "IP68 and IP69"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 2399,
+      "config": "8 GB / 128 GB",
+      "date": "2026-11-19",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2026/410029/vivo-v80-malaysia-launch/",
+      "class": "news",
+      "accessed": "2026-11-21",
+      "note": "Pre-order price; Lowyat gives 'from RM2,399'. vivo Malaysia sells 128, 256 and 512 GB versions."
+    }
+  ],
+  "specs": {
+    "display": {
+      "size_in": 6.59,
+      "type": "AMOLED",
+      "resolution": "2750 × 1260",
+      "refresh_hz": 144,
+      "peak_nits": 5000
+    },
+    "platform": {
+      "chipset": "snapdragon-7-gen-4"
+    },
+    "memory": {
+      "ram_gb": [
+        8
+      ],
+      "storage_gb": [
+        128,
+        256,
+        512
+      ]
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "aperture": "f/1.88",
+          "ois": true,
+          "note": "ZEISS, Sony LYTIA 700V"
+        },
+        {
+          "role": "periscope",
+          "mp": 50,
+          "aperture": "f/2.65",
+          "ois": true,
+          "zoom_x": 3,
+          "note": "ZEISS, Sony IMX882"
+        },
+        {
+          "role": "ultrawide",
+          "mp": 8,
+          "aperture": "f/2.2",
+          "note": "115°"
+        }
+      ],
+      "zoom_optical_x": 3,
+      "front": "50 MP, f/2.0, autofocus",
+      "video": "4K 60 fps (front and rear)"
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 157.52,
+        "width_mm": 74.33,
+        "depth_mm": 7.69
+      },
+      "ip": "IP68, IP69"
+    },
+    "battery": {
+      "capacity_mah": 7200
+    },
+    "charging": {
+      "wired_w": 90
+    },
+    "connectivity": {
+      "cellular": "5G"
+    },
+    "biometrics": {
+      "fingerprint": "Under display (ultrasonic)"
+    },
+    "software": {
+      "launch_os": "OriginOS 7 (Android 17)"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "vivo",
+      "url": "https://www.vivo.com/my/products/param/v80",
+      "checked": "2026-11-21",
+      "note": "Specifications from vivo Malaysia's specification page (7.89 mm thick in Starwish Purple, 7.69 mm in the other colours); screen brightness, charging and the fingerprint sensor from Lowyat's Malaysian launch report (19 November 2026). Launched earlier in India; the date recorded is the Malaysian launch."
+    },
+    "fields": {
+      "official_page": {
+        "class": "official",
+        "source": "vivo",
+        "url": "https://www.vivo.com/my/products/v80",
+        "checked": "2026-11-21",
+        "note": "vivo V80 product page on vivo Malaysia's site."
+      },
+      "status": {
+        "class": "news",
+        "source": "lowyat",
+        "url": "https://www.lowyat.net/2026/410029/vivo-v80-malaysia-launch/",
+        "checked": "2026-11-21",
+        "note": "Lowyat: on pre-order in Malaysia from 19 November 2026."
+      }
+    }
+  },
+  "image": {
+    "kind": "official",
+    "src": "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1794295439123/20800f32437a3c955852dfc1197d316e.png",
+    "page": "https://www.vivo.com/my/products/param/v80",
+    "credit": "vivo Malaysia",
+    "checked": "2026-11-21"
+  },
+  "dataStatus": "compiled"
+}

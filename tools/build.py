@@ -378,14 +378,19 @@ def apply_auto(ds: "Dataset") -> dict:
                      "charge_full": "charging", "charge_30": "charging", "charge_15": "charging"}
         notes = {"tr_video_drain": "Share of a full battery used by one hour of Netflix HDR video", "charge_full": "Minutes from empty to full",
                  "charge_30": "Charge level after 30 minutes, from empty", "charge_15": "Charge level after 15 minutes, from empty"}
-        hand = {d for doc in ds.documents.values() if doc.get("source") == "trustedreviews" and not doc.get("auto") for d in doc.get("devices", [])}
+        # Version 41: a hand-entered Trusted Reviews *result* for that test wins, as for Tom's Guide below. Before, any
+        # hand-checked Trusted Reviews article about the phone (a news item, a review summary) dropped all its automatic
+        # test results: the OnePlus 12 news and the Honor Pad 20 review would have removed 4 measured results.
+        hand = {(r.get("subject"), r.get("metric")) for doc in ds.documents.values()
+                if doc.get("source") == "trustedreviews" and not doc.get("auto") for r in doc.get("records", [])}
         for dev_id, r in sorted(tr["reviews"].items()):
-            if dev_id not in ds.devices or dev_id in hand or f"review:{dev_id}" in SKIP_AUTO:
+            if dev_id not in ds.devices or f"review:{dev_id}" in SKIP_AUTO:
                 continue
             held = set(r.get("held") or [])
             records = [{"subject": dev_id, "metric": m, "value": v,
                         **({"note": notes[m]} if m in notes else {})}
-                       for m, v in (r.get("values") or {}).items() if m in ds.metrics and m not in held and isinstance(v, (int, float))]
+                       for m, v in (r.get("values") or {}).items()
+                       if m in ds.metrics and m not in held and (dev_id, m) not in hand and isinstance(v, (int, float))]
             if not records:
                 continue
             doc = {"id": f"auto-tr-{dev_id}", "kind": "review", "source": "trustedreviews", "title": r.get("title") or "Trusted Reviews review",

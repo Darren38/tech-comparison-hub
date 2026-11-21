@@ -77,7 +77,7 @@
       "chipset_note": "Dimensity 6400 Turbo"
     },
     "battery": {
-      "capacity_mah": 6830
+      "capacity_mah": 7000
     },
     "charging": {
       "wired_w": 60
@@ -98,6 +98,15 @@
       "url": "https://www.realme.com/my/realme-16-5g/specs",
       "checked": "2026-09-25",
       "note": "Read automatically from the maker’s Malaysian specification page and reviewed; values not found on the page are left out."
+    },
+    "fields": {
+      "specs.battery.capacity_mah": {
+        "class": "official",
+        "source": "realme",
+        "url": "https://www.realme.com/my/realme-16-5g/specs",
+        "checked": "2026-11-21",
+        "note": "realme: 7,000 mAh typical (6,830 mAh rated); the hub records typical capacities."
+      }
     }
   },
   "dataStatus": "compiled"

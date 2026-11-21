@@ -37,7 +37,8 @@
         4
       ],
       "storage_gb": [
-        64
+        64,
+        256
       ]
     },
     "display": {
@@ -79,6 +80,15 @@
       "url": "https://www.realme.com/my/realme-p4-lite/specs",
       "checked": "2026-09-25",
       "note": "Read automatically from the maker’s Malaysian specification page and reviewed; values not found on the page are left out."
+    },
+    "fields": {
+      "specs.memory.storage_gb": {
+        "class": "official",
+        "source": "realme",
+        "url": "https://www.realme.com/my/realme-p4-lite/specs",
+        "checked": "2026-11-21",
+        "note": "realme Malaysia lists 4 GB + 64 GB and 4 GB + 256 GB."
+      }
     }
   },
   "dataStatus": "compiled"

@@ -80,17 +80,34 @@
       "class": "news",
       "accessed": "2026-09-24",
       "note": "Transparent (red) special edition; price from Zing Gadget and TechNave."
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 4799,
+      "config": "12 GB / 256 GB",
+      "date": "2026-11-18",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2026/409951/xiaomi-18-pro-series-malaysia-preorder/",
+      "class": "news",
+      "accessed": "2026-11-21",
+      "note": "Malaysian pre-orders until 26 November 2026, with a rebate and a free Xiaomi Watch S5 (Lowyat). TechNave's launch report gives a lower starting figure; Lowyat lists every version."
+    },
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 5299,
+      "config": "12 GB / 512 GB",
+      "date": "2026-11-18",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2026/409951/xiaomi-18-pro-series-malaysia-preorder/",
+      "class": "news",
+      "accessed": "2026-11-21",
+      "note": "Malaysian pre-orders until 26 November 2026, with a rebate and a free Xiaomi Watch S5 (Lowyat). TechNave's launch report gives a lower starting figure; Lowyat lists every version."
     }
   ],
-  "availability": {
-    "MY": {
-      "status": "not-launched",
-      "checked": "2026-11-13",
-      "source": "soyacincau",
-      "url": "https://soyacincau.com/2026/11/10/xiaomi-18-pro-series-malaysia-launch-17-november/",
-      "note": "Xiaomi Malaysia launches the 18 Pro series on 17 November 2026 (SoyaCincau's headline); no Malaysian price yet."
-    }
-  },
   "image": {
     "kind": "official",
     "src": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/beb39352ceec412437ebc26ce4211526.png",

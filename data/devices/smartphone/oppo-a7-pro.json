@@ -36,7 +36,8 @@
     },
     "memory": {
       "ram_gb": [
-        6
+        6,
+        8
       ],
       "storage_gb": [
         256
@@ -88,6 +89,15 @@
       "url": "https://www.oppo.com/my/smartphones/series-a/a7-pro-5g/specs/",
       "checked": "2026-09-25",
       "note": "Read automatically from the maker’s Malaysian specification page and reviewed; values not found on the page are left out."
+    },
+    "fields": {
+      "specs.memory.ram_gb": {
+        "class": "official",
+        "source": "oppo",
+        "url": "https://www.oppo.com/my/smartphones/series-a/a7-pro-5g/specs/",
+        "checked": "2026-11-21",
+        "note": "OPPO Malaysia lists 6 GB + 256 GB and 8 GB + 256 GB."
+      }
     }
   },
   "dataStatus": "compiled",

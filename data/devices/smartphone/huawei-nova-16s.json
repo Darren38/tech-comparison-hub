@@ -5,9 +5,10 @@
   "category": "smartphone",
   "series": "nova",
   "form": "bar",
-  "status": "pre-order",
+  "status": "released",
   "announced": "2026-09-03",
-  "summary": "The international version of Huawei's nova 16: a 50 MP camera pair with a 3.3x periscope, a 6.68-inch OLED screen, the Kirin 8020 and a 7,000 mAh battery with 100 W charging. Launching in Malaysia on 19 November 2026 (reservations open).",
+  "released": "2026-11-19",
+  "summary": "The international version of Huawei's nova 16: a 50 MP camera pair with a 3.3x periscope, a 6.68-inch OLED screen, the Kirin 8020 and a 7,000 mAh battery with 100 W charging. On sale in Malaysia since 19 November 2026.",
   "specs": {
     "display": {
       "size_in": 6.68,
@@ -90,22 +91,13 @@
         "checked": "2026-11-13",
         "note": "Huawei announced the nova 16s and 16s Pro for markets outside China (Lowyat, 3 September 2026)."
       },
-      "status": {
+      "released": {
         "class": "news",
         "source": "lowyat",
-        "url": "https://www.lowyat.net/2026/409635/huawei-nova-16s-launch-malaysia/",
-        "checked": "2026-11-13",
-        "note": "Lowyat: reservations open in Malaysia with a RM100 deposit; launch on 19 November 2026."
+        "url": "https://www.lowyat.net/2026/410031/huawei-nova-16s-series-malaysia/",
+        "checked": "2026-11-21",
+        "note": "Lowyat: on sale in Malaysia from the 19 November 2026 launch at Huawei's stores and online shops."
       }
-    }
-  },
-  "availability": {
-    "MY": {
-      "status": "price-not-found",
-      "checked": "2026-11-13",
-      "source": "lowyat",
-      "url": "https://www.lowyat.net/2026/409635/huawei-nova-16s-launch-malaysia/",
-      "note": "Reservations open (RM100 deposit); Huawei Malaysia announces the price at the 19 November 2026 launch."
     }
   },
   "image": {
@@ -115,5 +107,20 @@
     "credit": "Huawei Malaysia",
     "checked": "2026-11-13"
   },
-  "dataStatus": "compiled"
+  "dataStatus": "compiled",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 2599,
+      "config": "256 GB",
+      "date": "2026-11-19",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2026/410031/huawei-nova-16s-series-malaysia/",
+      "class": "news",
+      "accessed": "2026-11-21",
+      "note": "RM1,999 with the launch rebate of up to RM600 (Lowyat)."
+    }
+  ]
 }

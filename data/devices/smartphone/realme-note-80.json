@@ -25,7 +25,7 @@
   },
   "specs": {
     "build": {
-      "weight_g": 219.0,
+      "weight_g": 197,
       "dimensions": {
         "height_mm": 167.2,
         "width_mm": 76.6,
@@ -79,6 +79,15 @@
       "url": "https://www.realme.com/my/realme-note80/specs",
       "checked": "2026-09-25",
       "note": "Read automatically from the maker’s Malaysian specification page and reviewed; values not found on the page are left out."
+    },
+    "fields": {
+      "specs.build.weight_g": {
+        "class": "official",
+        "source": "realme",
+        "url": "https://www.realme.com/my/realme-note80/specs",
+        "checked": "2026-11-21",
+        "note": "realme Malaysia: about 197 g (219 g was recorded before)."
+      }
     }
   },
   "dataStatus": "compiled"

@@ -44,5 +44,116 @@
         "text": "From $699, $200 more than the last model at launch; nano-texture glass needs the $899 256 GB model, so the reviewer doubts it is worth it for most people."
       }
     ]
+  },
+  {
+    "id": "trustedreviews-honor-pad-20-review",
+    "kind": "review",
+    "source": "trustedreviews",
+    "class": "reviewer",
+    "title": "Honor Pad 20 Review: An iPad Air rival for £250 less",
+    "url": "https://www.trustedreviews.com/reviews/honor-pad-20",
+    "published": "2026-11-20",
+    "accessed": "2026-11-21",
+    "devices": [
+      "honor-pad-20"
+    ],
+    "facets": [
+      "display",
+      "audio",
+      "battery",
+      "value"
+    ],
+    "method": "Full review with daily use as a media and work tablet.",
+    "findings": [
+      {
+        "subject": "honor-pad-20",
+        "facet": "display",
+        "stance": "positive",
+        "text": "The 12.1-inch 3K LCD is well calibrated and bright enough indoors, though rated at only 700 nits."
+      },
+      {
+        "subject": "honor-pad-20",
+        "facet": "audio",
+        "stance": "positive",
+        "text": "Six speakers sound good for a tablet this thin (6.39 mm, 548 g)."
+      },
+      {
+        "subject": "honor-pad-20",
+        "facet": "battery",
+        "stance": "positive",
+        "text": "Long battery life from a large battery."
+      },
+      {
+        "subject": "honor-pad-20",
+        "facet": "value",
+        "stance": "neutral",
+        "text": "At £499 it undercuts the iPad Air by £250, but the keyboard and stylus cost about £95 more and the software is cluttered."
+      }
+    ]
+  },
+  {
+    "id": "trustedreviews-pixel-buds-2a-review",
+    "kind": "review",
+    "source": "trustedreviews",
+    "class": "reviewer",
+    "title": "Google Pixel Buds 2a Review",
+    "url": "https://www.trustedreviews.com/reviews/google-pixel-buds-2a",
+    "published": "2026-11-18",
+    "accessed": "2026-11-21",
+    "devices": [
+      "google-pixel-buds-2a"
+    ],
+    "facets": [
+      "audio",
+      "value"
+    ],
+    "method": "Long-term review since October 2025, compared with budget rivals.",
+    "findings": [
+      {
+        "subject": "google-pixel-buds-2a",
+        "facet": "audio",
+        "stance": "positive",
+        "text": "Noise cancelling matches the first Pixel Buds Pro once the ear tips seal well; the tips run small, and ANC strength can't be adjusted."
+      },
+      {
+        "subject": "google-pixel-buds-2a",
+        "facet": "value",
+        "stance": "positive",
+        "text": "At about £100 they are fantastic value; at £129 still a strong choice."
+      }
+    ]
+  },
+  {
+    "id": "9to5google-vivo-x500-pro-camera-review",
+    "kind": "review",
+    "source": "9to5google",
+    "class": "reviewer",
+    "title": "Vivo X500 Pro camera review: Battle of the small(er) phones vs Pixel 11 Pro",
+    "url": "https://9to5google.com/2026/11/18/vivo-x500-and-vivo-x500-pro-camera-review/",
+    "published": "2026-11-18",
+    "accessed": "2026-11-21",
+    "devices": [
+      "vivo-x500-pro",
+      "vivo-x500",
+      "google-pixel-11-pro"
+    ],
+    "facets": [
+      "camera"
+    ],
+    "method": "Camera comparison of the X500, X500 Pro and Pixel 11 Pro on a day of shooting.",
+    "findings": [
+      {
+        "subject": "vivo-x500-pro",
+        "facet": "camera",
+        "stance": "positive",
+        "text": "Zoom shots at 5x and 10x are nearly noise-free and detailed; its telephoto sensor pulls out more detail than the X500's."
+      },
+      {
+        "subject": "google-pixel-11-pro",
+        "facet": "camera",
+        "stance": "neutral",
+        "text": "Pixel photos look softer and more natural, which some will prefer, and the Pixel takes the photo noticeably faster."
+      }
+    ]
   }
 ]

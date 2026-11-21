@@ -118,6 +118,13 @@
         "class": "official",
         "source": "realme",
         "note": "Manufacturer's peak claim; measured values are usually far lower."
+      },
+      "specs.display.refresh_hz": {
+        "class": "official",
+        "source": "realme",
+        "url": "https://www.realme.com/global/realme-gt-8-pro/specs#refresh-rate",
+        "checked": "2026-11-21",
+        "note": "Screen refresh rate 144 Hz; the other figure on the page is the touch rate."
       }
     }
   },
