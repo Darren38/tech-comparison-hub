@@ -20,6 +20,9 @@
       "chipset": "kirin-9010s"
     },
     "memory": {
+      "ram_gb": [
+        12
+      ],
       "storage_gb": [
         512
       ]
@@ -105,6 +108,13 @@
         "url": "https://www.lowyat.net/2026/410031/huawei-nova-16s-series-malaysia/",
         "checked": "2026-11-21",
         "note": "Lowyat: on sale in Malaysia from the 19 November 2026 launch at Huawei's stores and online shops."
+      },
+      "specs.memory.ram_gb": {
+        "class": "news",
+        "source": "lowyat",
+        "url": "https://www.lowyat.net/2026/410031/huawei-nova-16s-series-malaysia/",
+        "checked": "2026-11-22",
+        "note": "12 GB in Malaysia (Lowyat's launch report; Huawei's page gives only the storage)."
       }
     }
   },

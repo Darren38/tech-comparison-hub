@@ -1,5 +1,18 @@
 # Changelog
 
+## 22 November 2026
+
+
+Corrections to yesterday's update, and a weekly check so they don't happen again.
+
+- Corrected, the Malaysian Xiaomi 18 Pro and 18 Pro Max: 6,000 and 7,050 mAh (the Chinese models have 7,000 and 8,500), 90 W wired charging on the 18 Pro, IP68, 12 GB with 256 or 512 GB, and the Pro Max's 234 g, all from Xiaomi Malaysia's own pages. They no longer say "not yet sold in Malaysia".
+- Corrected, the Malaysian vivo X500 Pro Max: 7,800 mAh and 12 GB (China has 8,000 mAh and up to 16 GB). The X500 series and OPPO Find X10 phones now say they are launched in Malaysia, and the Find X10 phones list the Malaysian memory options.
+- Corrected, older wording and gaps: the realme 16's battery in its summary, the Watch 6 pre-order wording, 12 GB on both nova 16s models, and the full Xiaomi international price list in its news summary.
+- Phone summaries no longer say "No independent tests yet": nine of them already had benchmark results. Each page's own label keeps count automatically.
+- Six source links pointed at page sections that don't exist. They now link to the makers' real pages, with a list of the differences a person reviewed, which still flags any new value.
+- A weekly check now lists devices with a Malaysian price whose specifications come from a Chinese launch, or whose text still says they aren't sold here.
+- Answered maker-page notes, and held models that were since added by hand, are cleared on the next automatic run.
+
 ## 21 November 2026
 
 

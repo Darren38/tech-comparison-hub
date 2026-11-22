@@ -9,7 +9,7 @@
   "announced": "2026-11-03",
   "released": "2026-11-10",
   "segment": "gaming",
-  "summary": "The international version of the REDMAGIC 12 Pro+: Snapdragon 8 Elite Extreme Gen 6 with the RedCore R5 chip, a 6.85-inch 185 Hz screen with an under-display selfie camera, a fan with liquid cooling, an 8,400 mAh battery and IP68/IP69. On sale in Malaysia from 10 November 2026, from RM4,499. No independent tests yet: its scores come from specifications only.",
+  "summary": "The international version of the REDMAGIC 12 Pro+: Snapdragon 8 Elite Extreme Gen 6 with the RedCore R5 chip, a 6.85-inch 185 Hz screen with an under-display selfie camera, a fan with liquid cooling, an 8,400 mAh battery and IP68/IP69. On sale in Malaysia from 10 November 2026, from RM4,499.",
   "highlights": [
     "Snapdragon 8 Elite Extreme Gen 6 + RedCore R5",
     "185 Hz, no notch (under-display camera)",
@@ -139,7 +139,7 @@
       "source": "redmagic",
       "url": "https://my.redmagic.gg/pages/redmagic-12-pro-specification",
       "checked": "2026-11-13",
-      "note": "Specifications from REDMAGIC Malaysia's specification page. Lowyat's launch report gives 120 W wired charging and Bluetooth 5.3 (the Chinese 12 Pro+'s figures); REDMAGIC's own page for this model says 80 W wired and Bluetooth 6.0, which are recorded. No independent tests yet: its scores come from specifications only."
+      "note": "Specifications from REDMAGIC Malaysia's specification page. Lowyat's launch report gives 120 W wired charging and Bluetooth 5.3 (the Chinese 12 Pro+'s figures); REDMAGIC's own page for this model says 80 W wired and Bluetooth 6.0, which are recorded."
     },
     "fields": {
       "official_page": {

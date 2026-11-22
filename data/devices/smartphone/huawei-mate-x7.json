@@ -141,9 +141,9 @@
       "specs.display.size_in": {
         "class": "official",
         "source": "huawei",
-        "url": "https://consumer.huawei.com/my/phones/mate-x7/specs/#main-screen",
+        "url": "https://consumer.huawei.com/my/phones/mate-x7/specs/",
         "checked": "2026-11-21",
-        "note": "Main screen 8 inches; the 6.49-inch figure on the same page is the cover screen."
+        "note": "Main screen 8 inches; 6.49 inches on the same page is the cover screen."
       }
     }
   },

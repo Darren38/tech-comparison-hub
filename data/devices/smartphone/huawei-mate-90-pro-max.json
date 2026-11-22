@@ -9,7 +9,7 @@
   "announced": "2026-10-01",
   "released": "2026-10-01",
   "segment": "flagship",
-  "summary": "Huawei's top 2026 Mate: Kirin 9050 Pro, a 6.9-inch full-colour (BT.2020) dual-layer OLED, a 200 MP 4x telephoto and a 6,800 mAh battery. On sale in China since 1 October 2026. No independent tests yet: its scores come from specifications only.",
+  "summary": "Huawei's top 2026 Mate: Kirin 9050 Pro, a 6.9-inch full-colour (BT.2020) dual-layer OLED, a 200 MP 4x telephoto and a 6,800 mAh battery. On sale in China since 1 October 2026.",
   "prices": [
     {
       "region": "CN",
@@ -109,7 +109,7 @@
       "source": "fonearena",
       "url": "https://www.fonearena.com/blog/493904/huawei-mate-90-mate-90-pro-mate-90-pro-max-mate-90-rs-ultimate-design-price-features.html",
       "checked": "2026-11-03",
-      "note": "Specifications from FoneArena's launch report (1 October 2026), cross-checked with Huawei China's product page and Lowyat (6.9-inch 2848 × 1320 screen, Bluetooth 6.0, IP68 and IP69). No independent tests yet: its scores come from specifications only. On sale in China since the launch day (快科技); TechNave's report of shipments from 11 November is contradicted by IT之家's first-sale figures, which include this model. Chip: the 16 GB versions use the Kirin 9050 Pro and the 12 GB versions the Kirin 9050 (IT之家, TechNave); Huawei's page says 'Kirin 9050 series'."
+      "note": "Specifications from FoneArena's launch report (1 October 2026), cross-checked with Huawei China's product page and Lowyat (6.9-inch 2848 × 1320 screen, Bluetooth 6.0, IP68 and IP69). On sale in China since the launch day (快科技); TechNave's report of shipments from 11 November is contradicted by IT之家's first-sale figures, which include this model. Chip: the 16 GB versions use the Kirin 9050 Pro and the 12 GB versions the Kirin 9050 (IT之家, TechNave); Huawei's page says 'Kirin 9050 series'."
     },
     "fields": {
       "official_page": {

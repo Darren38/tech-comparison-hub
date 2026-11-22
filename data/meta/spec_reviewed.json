@@ -1,0 +1,59 @@
+{
+  "note": "Differences between a record and the maker's page that a person read and decided (tools/auto_devices.py). An entry covers only that recorded value and that page value: if either changes, the difference is listed again.",
+  "items": [
+    {
+      "device": "huawei-mate-x7",
+      "field": "display.size_in",
+      "recorded": 8,
+      "page": 6.49,
+      "url": "https://consumer.huawei.com/my/phones/mate-x7/specs/",
+      "checked": "2026-11-21",
+      "note": "Main screen 8 inches; 6.49 inches on the same page is the cover screen."
+    },
+    {
+      "device": "huawei-matepad-pro-max",
+      "field": "build.weight_g",
+      "recorded": 499,
+      "page": 509.0,
+      "url": "https://consumer.huawei.com/my/tablets/matepad-pro-max/specs/",
+      "checked": "2026-11-21",
+      "note": "About 499 g; 509 g on the same page is the PaperMatte Edition."
+    },
+    {
+      "device": "apple-iphone-16-pro-max",
+      "field": "build.ip",
+      "recorded": "IP68 (6 m, 30 min)",
+      "page": "IP68",
+      "url": "https://support.apple.com/en-my/121032",
+      "checked": "2026-11-22",
+      "note": "Apple's page: IP68, up to 6 metres for up to 30 minutes."
+    },
+    {
+      "device": "realme-14x",
+      "field": "display.refresh_hz",
+      "recorded": 120,
+      "page": 180,
+      "url": "https://www.realme.com/my/realme-14x-5g/specs",
+      "checked": "2026-11-21",
+      "note": "Screen refresh rate 120 Hz; 180 Hz on the page is the touch rate."
+    },
+    {
+      "device": "realme-gt-8-pro",
+      "field": "display.refresh_hz",
+      "recorded": 144,
+      "page": 120,
+      "url": "https://www.realme.com/global/realme-gt-8-pro/specs",
+      "checked": "2026-11-21",
+      "note": "Screen refresh rate 144 Hz; 120 Hz on the page is the default touch rate."
+    },
+    {
+      "device": "realme-note-70",
+      "field": "display.refresh_hz",
+      "recorded": 90,
+      "page": 180,
+      "url": "https://www.realme.com/my/realme-note-70/specs",
+      "checked": "2026-11-21",
+      "note": "Screen refresh rate 90 Hz; 180 Hz on the page is the touch rate."
+    }
+  ]
+}

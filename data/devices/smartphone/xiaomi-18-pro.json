@@ -12,11 +12,11 @@
     "18 Pro",
     "Xiaomi 18Pro"
   ],
-  "summary": "Compact flagship with the Snapdragon 8 Elite Gen 6, two 200 MP Leica cameras, a rear display and a hardware privacy screen. Launched in China on 23 September 2026 and not yet sold in Malaysia. No independent tests yet: its scores come from specifications only.",
+  "summary": "Compact flagship with the Snapdragon 8 Elite Gen 6, two 200 MP Leica cameras, a rear display and a hardware privacy screen. Launched in China on 23 September 2026; Malaysian pre-orders run from 18 to 26 November 2026, and the specifications here are the Malaysian model's.",
   "highlights": [
     "Snapdragon 8 Elite Gen 6",
     "200 MP main + 200 MP periscope (Leica)",
-    "7,000 mAh battery",
+    "6,000 mAh battery",
     "Privacy display + rear screen"
   ],
   "prices": [
@@ -129,8 +129,9 @@
       "chipset": "snapdragon-8-elite-gen-6"
     },
     "battery": {
-      "capacity_mah": 7000,
-      "chemistry": "Silicon-carbon"
+      "capacity_mah": 6000,
+      "chemistry": "Silicon-carbon",
+      "variants": "Malaysia: 6,000 mAh; China: 7,000 mAh with 100 W charging"
     },
     "camera": {
       "rear": [
@@ -166,22 +167,22 @@
     },
     "memory": {
       "ram_gb": [
-        12,
-        16
+        12
       ],
       "storage_gb": [
         256,
-        512,
-        1024
-      ]
+        512
+      ],
+      "ram_type": "LPDDR5X",
+      "storage_type": "UFS 4.1"
     },
     "charging": {
-      "wired_w": 100,
+      "wired_w": 90,
       "wireless_w": 50,
       "reverse_w": 27
     },
     "build": {
-      "ip": "IP66, IP68, IP69",
+      "ip": "IP68",
       "weight_g": 203
     },
     "connectivity": {
@@ -203,7 +204,7 @@
       "source": "technave",
       "url": "https://technave.com/gadget/Xiaomi-18-Pro-Series-China-release-Snapdragon-8-Elite-Gen-6-series-200MP-Leica-dual-cameras-and-more-from-RM3-652-47520.html",
       "checked": "2026-09-24",
-      "note": "Specifications from launch reports by TechNave, Gizmochina, Zing Gadget and SoyaCincau; only values at least two of them agree on are recorded (FoneArena's report gave the 18 Pro the Extreme chip, which the others contradict). Weight from Gizmochina. No independent tests yet: its scores come from specifications only."
+      "note": "Specifications from launch reports by TechNave, Gizmochina, Zing Gadget and SoyaCincau; only values at least two of them agree on are recorded (FoneArena's report gave the 18 Pro the Extreme chip, which the others contradict). Weight from Gizmochina."
     },
     "fields": {
       "status": {
@@ -211,14 +212,70 @@
         "source": "mydrivers",
         "url": "https://news.mydrivers.com/1/1153/1153815.htm",
         "checked": "2026-11-01",
-        "note": "On sale in China from 24 September 2026: Xiaomi's president said the Xiaomi 18 Pro series had gone on sale (MyDrivers, 24 September). Not sold in Malaysia yet."
+        "note": "On sale in China from 24 September 2026: Xiaomi's president said the Xiaomi 18 Pro series had gone on sale (MyDrivers, 24 September). Malaysian pre-orders run from 18 to 26 November 2026 (Lowyat)."
       },
       "released": {
         "class": "news",
         "source": "mydrivers",
         "url": "https://news.mydrivers.com/1/1153/1153815.htm",
         "checked": "2026-11-01",
-        "note": "On sale in China from 24 September 2026: Xiaomi's president said the Xiaomi 18 Pro series had gone on sale (MyDrivers, 24 September). Not sold in Malaysia yet."
+        "note": "On sale in China from 24 September 2026: Xiaomi's president said the Xiaomi 18 Pro series had gone on sale (MyDrivers, 24 September). Malaysian pre-orders run from 18 to 26 November 2026 (Lowyat)."
+      },
+      "specs.battery.capacity_mah": {
+        "class": "official",
+        "source": "xiaomi",
+        "url": "https://www.mi.com/my/product/xiaomi-18-pro/specs/",
+        "checked": "2026-11-22",
+        "note": "6,000 mAh typical in Malaysia (Xiaomi Malaysia); the Chinese model has 7,000 mAh."
+      },
+      "specs.charging.wired_w": {
+        "class": "official",
+        "source": "xiaomi",
+        "url": "https://www.mi.com/my/product/xiaomi-18-pro/specs/",
+        "checked": "2026-11-22",
+        "note": "90 W wired in Malaysia (Xiaomi Malaysia). Lowyat's launch report says 100 W, which is the Chinese model's figure."
+      },
+      "specs.build.ip": {
+        "class": "official",
+        "source": "xiaomi",
+        "url": "https://www.mi.com/my/product/xiaomi-18-pro/specs/",
+        "checked": "2026-11-22",
+        "note": "IP68 on Xiaomi Malaysia's page; launch reports gave IP66, IP68 and IP69 for the Chinese model."
+      },
+      "specs.build.weight_g": {
+        "class": "official",
+        "source": "xiaomi",
+        "url": "https://www.mi.com/my/product/xiaomi-18-pro/specs/",
+        "checked": "2026-11-22",
+        "note": "Malaysian model: 203 g in Cosmic Blue, 198 g in the other colours."
+      },
+      "specs.memory.ram_gb": {
+        "class": "official",
+        "source": "xiaomi",
+        "url": "https://www.mi.com/my/product/xiaomi-18-pro/specs/",
+        "checked": "2026-11-22",
+        "note": "Malaysia gets 12 GB; China also has 16 GB."
+      },
+      "specs.memory.storage_gb": {
+        "class": "official",
+        "source": "xiaomi",
+        "url": "https://www.mi.com/my/product/xiaomi-18-pro/specs/",
+        "checked": "2026-11-22",
+        "note": "Malaysia gets 256 GB and 512 GB; China also has 1 TB."
+      },
+      "specs.battery.variants": {
+        "class": "news",
+        "source": "technave",
+        "url": "https://technave.com/gadget/Xiaomi-18-Pro-Series-China-release-Snapdragon-8-Elite-Gen-6-series-200MP-Leica-dual-cameras-and-more-from-RM3-652-47520.html",
+        "checked": "2026-11-22",
+        "note": "Chinese capacity from the China launch reports; Malaysian capacity from Xiaomi Malaysia's specification page."
+      },
+      "official_page": {
+        "class": "official",
+        "source": "xiaomi",
+        "url": "https://www.mi.com/my/product/xiaomi-18-pro/specs/",
+        "checked": "2026-11-22",
+        "note": "Xiaomi 18 Pro specification page on Xiaomi Malaysia's site."
       }
     }
   },

@@ -84,9 +84,9 @@
       "specs.build.weight_g": {
         "class": "official",
         "source": "huawei",
-        "url": "https://consumer.huawei.com/my/tablets/matepad-pro-max/specs/#weight",
+        "url": "https://consumer.huawei.com/my/tablets/matepad-pro-max/specs/",
         "checked": "2026-11-21",
-        "note": "About 499 g; the 509 g on the same page is the PaperMatte Edition."
+        "note": "About 499 g; 509 g on the same page is the PaperMatte Edition."
       }
     }
   },

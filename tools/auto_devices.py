@@ -1205,10 +1205,52 @@ def drop_too_old(state: dict, hub: Hub, log) -> None:
             log(f"[devices] REMOVED {dev_id} ({name}): {age[1]}")
 
 
+def reviewed_differences() -> list[dict]:
+    """Version 42: differences a person read and decided (data/meta/spec_reviewed.json)."""
+    try:
+        return json.loads((DATA / "meta" / "spec_reviewed.json").read_text(encoding="utf-8")).get("items", [])
+    except (OSError, ValueError):
+        return []
+
+
+def is_reviewed(items: list[dict], dev_id: str, path: str, recorded, page) -> bool:
+    """Only the exact pair that was read: another value on the page, or in the record, is listed again."""
+    return any(r.get("device") == dev_id and r.get("field") == path and r.get("recorded") == recorded and r.get("page") == page
+               for r in items)
+
+
+def settle_notes(state: dict, hub: Hub, log) -> None:
+    """Version 42, on every run: take down notes that are answered, without waiting for the weekly page re-read. That is a
+    difference the record now agrees with or a person reviewed, and a held model that a person has added by hand."""
+    reviewed = reviewed_differences()
+    by_id = {d["id"]: d for d in hub.devices}
+    changes = state.setdefault("changes", {})
+    for dev_id, fields in list(changes.items()):
+        dev = by_id.get(dev_id)
+        for path, c in list(fields.items()):
+            old, new = get((dev or {}).get("specs") or {}, path), c.get("page")
+            same = old == new or (isinstance(old, list) and isinstance(new, list) and set(new) <= set(old))
+            if dev is None or same or is_reviewed(reviewed, dev_id, path, old, new):
+                fields.pop(path)
+                log(f"[specs] {dev_id}: {path} difference answered; note taken down")
+        if not fields:
+            changes.pop(dev_id)
+    by_hand = set()
+    for d in hub.devices:
+        for n in [d["name"], f"{hub.brands.get(d.get('brand'), '')} {d['name']}", *d.get("aliases", [])]:
+            by_hand.add((d.get("brand"), key(n)))
+    held = state.setdefault("held", {})
+    for url, h in list(held.items()):
+        if h.get("name") and "already used" not in h.get("reason", "") and (h.get("brand"), key(h["name"])) in by_hand:
+            held.pop(url)
+            log(f"[devices] {url}: {h['name']} was added by hand; no longer waiting for a person")
+
+
 def fill_existing(state: dict, hub: Hub, limit: int, log) -> None:
     """Re-read official spec pages cited by devices in data/: fill missing values, list changed ones for a person."""
     fills = state.setdefault("fills", {})
     changes = state.setdefault("changes", {})
+    reviewed = reviewed_differences()
     targets = []
     for d in sorted(hub.devices, key=lambda d: d["id"]):
         u = ((d.get("provenance") or {}).get("default") or {}).get("url", "")
@@ -1258,6 +1300,9 @@ def fill_existing(state: dict, hub: Hub, limit: int, log) -> None:
                 if f"specs.{path}" in fprov and fprov[f"specs.{path}"].get("url") != u:
                     changes.get(d["id"], {}).pop(path, None)  # Version 41: and a note listed before that is now answered goes
                     continue                              # the recorded value is cited from another source on purpose
+                if is_reviewed(reviewed, d["id"], path, old, new):
+                    changes.get(d["id"], {}).pop(path, None)
+                    continue
                 changes.setdefault(d["id"], {})[path] = {"recorded": old, "page": new, "url": got["final"], "checked": TODAY}
             else:
                 changes.get(d["id"], {}).pop(path, None)
@@ -1300,6 +1345,7 @@ def main() -> int:
     lines: list[str] = []
     log = lambda s: (print(s, flush=True), lines.append(s))
     drop_too_old(state, hub, log)
+    settle_notes(state, hub, log)
     for job, fn, lim in (("new", find_new, args.limit), ("fill", fill_existing, args.fill_limit)):
         if args.only and args.only != job:
             continue

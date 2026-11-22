@@ -122,9 +122,9 @@
       "specs.display.refresh_hz": {
         "class": "official",
         "source": "realme",
-        "url": "https://www.realme.com/global/realme-gt-8-pro/specs#refresh-rate",
+        "url": "https://www.realme.com/global/realme-gt-8-pro/specs",
         "checked": "2026-11-21",
-        "note": "Screen refresh rate 144 Hz; the other figure on the page is the touch rate."
+        "note": "Screen refresh rate 144 Hz; 120 Hz on the page is the default touch rate."
       }
     }
   },

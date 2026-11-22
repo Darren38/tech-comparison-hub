@@ -206,8 +206,8 @@
       "specs.build.ip": {
         "class": "official",
         "source": "apple",
-        "url": "https://support.apple.com/en-my/121032#ip-rating",
-        "checked": "2026-11-21",
+        "url": "https://support.apple.com/en-my/121032",
+        "checked": "2026-11-22",
         "note": "Apple's page: IP68, up to 6 metres for up to 30 minutes."
       }
     }
