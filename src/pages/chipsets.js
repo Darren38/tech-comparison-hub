@@ -52,7 +52,7 @@ export default async function render({ query }) {
       <section>
         ${sectionHead('Benchmark ladder', { right: html`<div class="seg" role="group" aria-label="Tier">${tiers.map((t) => html`<button type="button" data-tier="${t}" aria-pressed="${t === tier}">${t === 'all' ? 'All' : t}</button>`)}</div>` })}
         <div data-table>${table()}</div>
-        <p class="tiny muted" style="margin-top:8px">“src” is the number of independent sources behind the consensus. AnTuTu v11 is shown because v10 and v11 totals cannot be compared.</p>
+        <p class="tiny muted" style="margin-top:8px">“src” is the number of independent sources behind the consensus. AnTuTu v11 is shown because v10, v11 and v12 totals cannot be compared, and v11 has the most results.</p>
       </section>
     </div>`,
     mount(root) {

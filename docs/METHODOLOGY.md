@@ -28,7 +28,7 @@ Examples in the Version 1 data:
 - **B**: reputable, but with a limited or undocumented method, or mainly reporting others' results (Gizmochina, Beebom, Mrwhosetheboss battery rundowns, Geekbench Browser listings).
 - **C**: unverified or community.
 
-YouTube channels are verified against YouTube's oEmbed record before a video is added. Candidate videos whose channels could not be verified, or that looked like AI-generated review farms, were excluded.
+YouTube channels are verified against YouTube's oEmbed record before a video is added. Candidate videos whose channels could not be verified, or that looked like AI-generated review farms, were excluded (see QA-LOG).
 
 ## 3. Consensus
 
@@ -42,7 +42,7 @@ A chipset's consensus combines chip-level records with results measured on phone
 
 A device with no result of its own for a chip-level metric (Geekbench, AnTuTu, peak 3DMark) **inherits** the chipset consensus. The value is labelled “chipset”, drawn with a hatched bar, and capped at medium confidence. Device-level metrics (stress-test stability, battery, charging, brightness) are never inherited.
 
-**Versions never mix.** AnTuTu v10 and v11 are separate metrics. **Single-run tests** (one reviewer's battery rundown, one lab's power draw) are only compared within that test, in head-to-head tables.
+**Versions never mix.** AnTuTu v10, v11 and v12 are separate metrics. **Single-run tests** (one reviewer's battery rundown, one lab's power draw) are only compared within that test, in head-to-head tables.
 
 ## 4. Confidence
 
@@ -81,7 +81,7 @@ Then early-software results are capped at **Medium**, and inherited chipset valu
 ## 6. Comparison verdicts
 
 For each score category:
-1. Use only metrics **every compared device** has evidence for. For `alt` groups, pick the first alternative all devices share (for example AnTuTu v11, otherwise v10).
+1. Use only metrics **every compared device** has evidence for. For `alt` groups, pick the first alternative all devices share (for example AnTuTu v11, otherwise v10, otherwise v12; v12 stays last until enough phones have it, so existing scores don't move).
 2. Score each device on those shared metrics.
 3. If shared coverage is below 34% → “Insufficient shared evidence”.
 4. If the leader is less than 3 points ahead → “Too close to call”.
@@ -184,7 +184,7 @@ For each score category:
   1. **Understanding.** It reads the question into a plan whose shape is fixed by a JSON schema (what is being asked, device names as the visitor wrote them, budget, use case, which specs, which language). The site's own parser then re-reads the question and overrules the plan wherever it is sure: a device name the visitor never wrote is dropped, a budget must appear in the question, "X vs Y" is a comparison, "the lightest …" is a ranking, and an invented brand, use case or kind of device is removed.
   2. **Explaining.** The rule-based engine (section 11) answers the planned question. The model then writes the answer in the visitor's language from those facts only. Since Version 10 that is the device's whole record, not a handful of key facts: the full specification sheet (or the sections asked about first), for two or more devices every field that differs and what is the same (a field recorded for only one of them is marked as a gap, not a difference), the site's category scores with ranks and strong and weak areas, every Malaysian launch price, reviewer findings and test results with their publishers, and the latest headlines naming the device (labelled as unchecked). The model reads up to 8,000 tokens at once; if the facts are longer, the least important parts are left out first.
   3. **New question types (Version 10):** "what is the difference between X and Y" (a list of the main differences), "what do reviewers say / any problems" (review findings, credited) and "any news about X" (headlines, labelled as not checked).
-- **Model choice (Version 10).** Qwen3.5 2B, 4B and 9B were run on the same 24 questions and every answer went through the same checks: 4B had none withheld, 2B one and 9B three, with 9%, 21% and 21% of sentences removed. 9B, although the largest, added more descriptions of its own and twice contradicted the site's ranking, and needs a 5 GB download. 4B is therefore recommended and 9B not offered.
+- **Model choice (Version 10).** Qwen3.5 2B, 4B and 9B were run on the same 24 questions and every answer went through the same checks: 4B had none withheld, 2B one and 9B three, with 9%, 21% and 21% of sentences removed. 9B, although the largest, added more descriptions of its own and twice contradicted the site's ranking, and needs a 5 GB download. 4B is therefore recommended and 9B not offered (details in `docs/QA-LOG.md`).
 - **Questions the rules cannot answer alone** ("is 5,000 mAh enough for a day?") are explained from the database spread and the site's explanations, and the panel says that is what it used.
 - **Checks before display.** Each sentence is checked against the facts it was given; those that fail are removed and the rest is shown with a note. The answer is withheld altogether, and the verified answer shown with the reason, when more than half the sentences fail or a whole-answer check does. A sentence fails when it: states a figure not in the facts, or one belonging to a different device; claims a device has something recorded as "not recorded", or turns "not recorded" into "it doesn't have it"; says the site has no data on a device it does have; praises a listed weak point or criticises a listed strength; picks a winner where the site says "too close to call"; puts a unit on the wrong spec (including "200 万像素" for 200 MP); compares two figures the wrong way round ("lighter at 249 g than 211 g", also "lebih ringan … berbanding"); presents a publisher's test as the site's own ("our tests"); or uses a judgement word (faster, premium, recommended, affordable…) the facts don't. Repeated, cut-off and dangling sentences are dropped too.
 - **Labelling.** A shown answer is marked "AI answer · <model> on your device", with "What I looked up", the verified answer and its sources open beneath it, and a note when sentences were removed. Since Version 10 a closed "Show all the data the AI was given" section holds the exact text the model read, so any answer can be checked line by line. The checks cannot catch every loose wording, which is why the verified answer is never hidden.

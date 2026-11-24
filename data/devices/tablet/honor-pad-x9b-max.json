@@ -1,0 +1,144 @@
+{
+  "id": "honor-pad-x9b-max",
+  "name": "HONOR Pad X9b Max",
+  "brand": "honor",
+  "category": "tablet",
+  "series": "HONOR Pad X",
+  "form": "tablet",
+  "status": "released",
+  "announced": "2026-11-24",
+  "released": "2026-11-24",
+  "segment": "entry",
+  "aliases": [
+    "Pad X9b Max"
+  ],
+  "summary": "A 13-inch 120 Hz budget tablet with the Snapdragon 6s 4G Gen 2, a 10,100 mAh battery and 45 W charging, 6.72 mm thin. Launched in Malaysia on 24 November 2026 at RM1,499 (Wi-Fi, 8 GB / 256 GB).",
+  "highlights": [
+    "13-inch 2.5K 120 Hz LCD",
+    "10,100 mAh, 45 W",
+    "RM1,499"
+  ],
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1499,
+      "config": "Wi-Fi, 8 GB / 256 GB",
+      "date": "2026-11-24",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2026/410338/honor-pad-x9b-max-malaysia/",
+      "class": "news",
+      "accessed": "2026-11-24",
+      "note": "Launch price, with a keyboard and Magic-Pencil 4s included (Lowyat)."
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://www-file.honor.com/content/dam/honor/common/product-list/tablets/product-series/honor-pad-x9b-max/honor-pad-x9b-max-list.png",
+    "page": "https://www.honor.com/my/tablets/honor-pad-x9b-max/spec/",
+    "credit": "HONOR Malaysia",
+    "checked": "2026-11-24"
+  },
+  "specs": {
+    "display": {
+      "size_in": 13,
+      "type": "LCD",
+      "resolution": "2500 × 1560",
+      "ppi": 228,
+      "refresh_hz": 120,
+      "peak_nits": 700
+    },
+    "platform": {
+      "chipset": "snapdragon-6s-4g-gen-2"
+    },
+    "memory": {
+      "ram_gb": [
+        8
+      ],
+      "storage_gb": [
+        256
+      ]
+    },
+    "battery": {
+      "capacity_mah": 10100,
+      "rated_mah": 10000
+    },
+    "charging": {
+      "wired_w": 45
+    },
+    "build": {
+      "dimensions": {
+        "height_mm": 297.62,
+        "width_mm": 192.72,
+        "depth_mm": 6.72
+      },
+      "weight_g": 618
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 5
+        }
+      ],
+      "front": "5 MP"
+    },
+    "connectivity": {
+      "cellular": "No (Wi-Fi only)",
+      "wifi": "Wi-Fi 5",
+      "bluetooth": "Bluetooth 5.1"
+    },
+    "software": {
+      "launch_os": "MagicOS 10 (Android 16)"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "honor",
+      "url": "https://www.honor.com/my/tablets/honor-pad-x9b-max/spec/",
+      "checked": "2026-11-24",
+      "note": "Read from HONOR Malaysia's specification page. Its '24GB RAM' includes 16 GB of virtual memory (HONOR RAM Turbo), so the tablet has 8 GB, as Lowyat's launch report says."
+    },
+    "fields": {
+      "official_page": {
+        "class": "official",
+        "source": "honor",
+        "url": "https://www.honor.com/my/tablets/honor-pad-x9b-max/spec/",
+        "checked": "2026-11-24",
+        "note": "HONOR Pad X9b Max specification page on HONOR Malaysia's site."
+      },
+      "specs.charging.wired_w": {
+        "class": "news",
+        "source": "lowyat",
+        "url": "https://www.lowyat.net/2026/410338/honor-pad-x9b-max-malaysia/",
+        "checked": "2026-11-24",
+        "note": "45 W charging (Lowyat's Malaysian launch report); HONOR's page doesn't give it."
+      },
+      "specs.connectivity.cellular": {
+        "class": "news",
+        "source": "lowyat",
+        "url": "https://www.lowyat.net/2026/410338/honor-pad-x9b-max-malaysia/",
+        "checked": "2026-11-24",
+        "note": "Wi-Fi only in Malaysia; HONOR's page lists only Wi-Fi."
+      },
+      "announced": {
+        "class": "news",
+        "source": "lowyat",
+        "url": "https://www.lowyat.net/2026/410338/honor-pad-x9b-max-malaysia/",
+        "checked": "2026-11-24",
+        "note": "Date of the Malaysian launch report; it may have been announced elsewhere earlier."
+      },
+      "released": {
+        "class": "news",
+        "source": "lowyat",
+        "url": "https://www.lowyat.net/2026/410338/honor-pad-x9b-max-malaysia/",
+        "checked": "2026-11-24",
+        "note": "On sale from HONOR's stores and partners at launch (Lowyat)."
+      }
+    }
+  },
+  "dataStatus": "checked",
+  "checked": "2026-11-24"
+}

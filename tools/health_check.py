@@ -10,7 +10,8 @@ Smaller things (a news feed that couldn't be read, devices waiting for a person)
   3. Real pages work in a headless browser (home, a device, a comparison, News, Charts): the page draws its content, and
      the browser reports no script error and nothing blocked by the security policy.
   4. The security policy (Content-Security-Policy) is still in the page.
-  5. The automatic updates are recent: headlines, Apple's and Samsung's official pages, new devices, benchmarks.
+  5. The automatic updates are recent: headlines, Apple's and Samsung's official pages, new devices, benchmarks; and
+     (Version 43) no single source inside them has been failing for 7 days or more (a fresh file can hide one).
   6. The automatic readers don't send the author's name or address (user rule, Version 25).
 
 The results go to the run's summary page on GitHub and to the log. Only this site is read; nothing is changed.
@@ -32,6 +33,8 @@ import urllib.request
 import xml.etree.ElementTree as ET
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT / "tools"))
+from source_status import FAILING_DAYS  # noqa: E402  (Version 43)
 UA = "Mozilla/5.0 (compatible; TechComparisonHub/1.0; health check)"
 DEFAULT_BASE = "https://darren38.github.io/tech-comparison-hub/"
 NOW = dt.datetime.now(dt.timezone.utc)
@@ -273,6 +276,39 @@ def check_fresh(data: dict) -> None:
             warn(f"{len(old)} new device(s) have waited over 3 days for the AI check")
 
 
+def check_sources(base: str, data: dict) -> None:
+    """Version 43: each automatic source records when it started failing (tools/source_status.py). AnTuTu's reader failed
+    for eight weeks while benchmarks.json stayed fresh, because the other sources in it kept working."""
+    files = {"Benchmark refresh": data.get("live/auto/benchmarks.json", (None, None))[1],
+             "New devices": data.get("live/auto/new_devices.json", (None, None))[1],
+             "Official pages": data.get("live/official.json", (None, None))[1]}
+    status, _, body = get(base + "live/auto/auto_bench.json", tries=1)
+    if status == 200:
+        try:
+            files["New phones in the charts"] = json.loads(body)
+        except ValueError:
+            pass
+    long, short, total = [], [], 0
+    for label, doc in files.items():
+        if not isinstance(doc, dict):
+            continue
+        for name, s in (doc.get("sources") or doc.get("status") or {}).items():
+            if not isinstance(s, dict) or "ok" not in s:
+                continue
+            total += 1
+            if s["ok"]:
+                continue
+            days = (age_hours(s.get("failingSince")) or 0) / 24
+            text = f"{label} / {name}: failing for {days:.0f} days ({s.get('error', 'no reason given')})"
+            (long if days >= FAILING_DAYS else short).append(text)
+    for text in long:
+        warn(text)
+    if short:
+        ok(f"{len(short)} automatic source(s) failed on their last run, under {FAILING_DAYS} days (tried again next run): " + "; ".join(short)[:300])
+    elif not long and total:
+        ok(f"all {total} automatic sources worked on their last run")
+
+
 def check_privacy() -> None:
     names = [p.name for p in (ROOT / "tools").glob("*.py") if re.search(r'^UA = .*darren38', p.read_text(encoding="utf-8"), re.M | re.I)]
     if names:
@@ -293,6 +329,7 @@ def main() -> int:
     check_csp(data)
     check_pages(base, find_browser(args.browser))
     check_fresh(data)
+    check_sources(base, data)
     check_privacy()
     verdict = "FAILED" if failures else "passed"
     summary = [f"## Site check-up {verdict}", f"{len(passed)} passed, {len(warnings)} warning(s), {len(failures)} failure(s) - {NOW:%Y-%m-%d %H:%M} UTC", ""]

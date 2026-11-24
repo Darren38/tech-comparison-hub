@@ -19,14 +19,6 @@
     "Quad speakers",
     "25 W charging"
   ],
-  "availability": {
-    "MY": {
-      "status": "price-not-found",
-      "checked": "2026-09-25",
-      "source": "samsung",
-      "note": "No Malaysian launch price was found in Samsung Malaysia’s releases or a launch report."
-    }
-  },
   "specs": {
     "display": {
       "size_in": 11,
@@ -83,5 +75,19 @@
       "note": "Read from Samsung’s launch press release (specification table); Wi-Fi model weight."
     }
   },
-  "dataStatus": "checked"
+  "dataStatus": "checked",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1099,
+      "config": "Wi-Fi, 6 GB / 128 GB",
+      "date": "2026-01-09",
+      "type": "launch",
+      "source": "nasilemaktech",
+      "url": "https://nasilemaktech.com/samsung-galaxy-tab-a11-series-malaysia-price/",
+      "class": "news",
+      "accessed": "2026-11-24"
+    }
+  ]
 }

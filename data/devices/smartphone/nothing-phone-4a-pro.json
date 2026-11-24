@@ -19,14 +19,6 @@
     "6.83-inch 144 Hz",
     "5,080 mAh, 50 W"
   ],
-  "availability": {
-    "MY": {
-      "status": "price-not-found",
-      "checked": "2026-09-25",
-      "source": "nothing",
-      "note": "Sold in Malaysia, but no Malaysian launch price was found in a launch report."
-    }
-  },
   "specs": {
     "software": {
       "os_updates_years": 3,
@@ -89,5 +81,20 @@
       "note": "Read from the specifications section of Nothing’s product page (international store)."
     }
   },
-  "dataStatus": "compiled"
+  "dataStatus": "compiled",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 2299,
+      "config": "12 GB / 256 GB",
+      "date": "2026-04-03",
+      "type": "launch",
+      "source": "technave",
+      "url": "https://technave.com/gadget/Nothing-Phone-4a-Pro-Price-in-Malaysia-Spec-45919.html",
+      "class": "news",
+      "accessed": "2026-11-24",
+      "note": "TechNave's Malaysian price page (RRP); the only Malaysian version."
+    }
+  ]
 }

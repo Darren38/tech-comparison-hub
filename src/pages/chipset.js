@@ -11,7 +11,7 @@ import { headToHeadTable } from './device.js';
 import { autoSlot, fillAuto } from '../ui/autolinks.js';
 import { t } from '../core/i18n.js';
 
-const ORDER = ['gb6_single', 'gb6_multi', 'antutu_v11', 'antutu_v10', 'wle', 'wle_stability', 'solar_bay', 'steel_nomad_light'];
+const ORDER = ['gb6_single', 'gb6_multi', 'antutu_v12', 'antutu_v11', 'antutu_v10', 'wle', 'wle_stability', 'solar_bay', 'steel_nomad_light'];
 
 function clusterDiagram(cpu) {
   if (!cpu?.clusters?.length) return html`<p class="small muted">${cpu?.cores ? `${cpu.cores} cores. ` : ''}${cpu?.note ?? 'Core layout not published.'}</p>`;

@@ -388,6 +388,8 @@ def main() -> None:
     keys = load_keys()
     data = dict(saved)
     status = {}
+    stamp = now.isoformat(timespec="seconds")
+    was = lambda name: (saved.get("status") or {}).get(name)  # noqa: E731  (Version 43: failingSince / lastOk carried over)
     for name, job in (("appleReleases", apple_releases), ("appleBetas", apple_betas), ("samsungSecurity", samsung_security),
                       ("appleServicePrograms", lambda: apple_programs(keys)), ("offerPageRegions", lambda: offer_page_regions(saved)),
                       ("samsungServicePages", lambda: samsung_pages(saved)), ("samsungOneUi", lambda: samsung_oneui(saved))):
@@ -395,11 +397,11 @@ def main() -> None:
             value = job()
             if value or name == "offerPageRegions":
                 data[name] = value
-                status[name] = {"ok": True, "at": now.isoformat(timespec="seconds")}
+                status[name] = carry(was(name), {"ok": True, "at": now.isoformat(timespec="seconds")}, stamp)
             else:
-                status[name] = {"ok": False, "error": "nothing found on the page", "kept": name in saved}
+                status[name] = carry(was(name), {"ok": False, "error": "nothing found on the page", "kept": name in saved}, stamp)
         except Exception as exc:  # noqa: BLE001 - keep the saved part
-            status[name] = {"ok": False, "error": f"{exc.__class__.__name__}: {str(exc)[:100]}", "kept": name in saved}
+            status[name] = carry(was(name), {"ok": False, "error": f"{exc.__class__.__name__}: {str(exc)[:100]}", "kept": name in saved}, stamp)
     data["updatedAt"] = now.isoformat(timespec="seconds")
     data["status"] = status
     data["note"] = "Facts read automatically from Apple's and Samsung's own pages; titles, versions, dates and links only."

@@ -17,14 +17,6 @@
     "Dimensity 6300",
     "6.8-inch 144 Hz"
   ],
-  "availability": {
-    "MY": {
-      "status": "price-not-found",
-      "checked": "2026-09-25",
-      "source": "realme",
-      "note": "Listed on the maker’s Malaysian website, but no Malaysian launch price was found in a launch report."
-    }
-  },
   "specs": {
     "build": {
       "weight_g": 224.0,
@@ -83,5 +75,20 @@
       "note": "Read automatically from the maker’s Malaysian specification page and reviewed; values not found on the page are left out."
     }
   },
-  "dataStatus": "compiled"
+  "dataStatus": "compiled",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1399,
+      "config": "8 GB / 256 GB",
+      "date": "2026-06-13",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2026/395731/realme-16-realme-16t-malaysia/",
+      "class": "news",
+      "accessed": "2026-11-24",
+      "note": "RM1,299 with the RM100 first-sale discount (Lowyat)."
+    }
+  ]
 }

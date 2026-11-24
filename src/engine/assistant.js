@@ -68,7 +68,7 @@ const TESTS = [
   [/\bgeekbench\b.*\bsingle|\bsingle[- ]?core\b/, ['gb6_single']],
   [/\bgeekbench\b.*\bmulti|\bmulti[- ]?core\b/, ['gb6_multi']],
   [/\bgeekbench\b|\bgb ?6\b/, ['gb6_multi', 'gb6_single']],
-  [/\bantutu\b/, ['antutu_v11', 'antutu_v10']],
+  [/\bantutu\b/, ['antutu_v12', 'antutu_v11', 'antutu_v10']],
   [/\bsteel nomad\b/, ['steel_nomad_light']],
   [/\bsolar bay\b|\bray ?tracing\b/, ['solar_bay']],
   [/\b3d ?mark\b|\bwild life\b|\bwle\b/, ['wle', 'steel_nomad_light', 'wle_stability']],
@@ -80,7 +80,7 @@ const TESTS = [
 ];
 // the specification shown when a device has no result for the test asked about
 const TEST_FALLBACK = { charge_full: 'charging', tg_web: 'battery', tr_video_drain: 'battery', nits_peak: 'brightness', gb6_multi: 'chip',
-  gb6_single: 'chip', antutu_v11: 'chip', wle: 'chip', steel_nomad_light: 'chip', solar_bay: 'chip', dxomark_camera: 'camera' };
+  gb6_single: 'chip', antutu_v11: 'chip', antutu_v12: 'chip', wle: 'chip', steel_nomad_light: 'chip', solar_bay: 'chip', dxomark_camera: 'camera' };
 
 function detectTests(norm) {
   for (const [re, ids] of TESTS) if (re.test(norm)) return ids.filter((id) => metricDef(id));

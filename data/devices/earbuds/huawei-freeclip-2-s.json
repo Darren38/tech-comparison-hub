@@ -18,14 +18,6 @@
     "IP57 earbuds",
     "Wireless charging"
   ],
-  "availability": {
-    "MY": {
-      "status": "price-not-found",
-      "checked": "2026-09-25",
-      "source": "huawei",
-      "note": "Listed on HUAWEI Malaysia’s website, but no Malaysian launch price was found in a launch report."
-    }
-  },
   "specs": {
     "audio": {
       "anc": "No (open-ear design; call noise cancellation)",
@@ -77,5 +69,19 @@
       "note": "Read from HUAWEI Malaysia’s specification page. Battery figures are Huawei’s lab claims."
     }
   },
-  "dataStatus": "checked"
+  "dataStatus": "checked",
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 899,
+      "config": "Launch price",
+      "date": "2026-07",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2026/398557/huawei-freeclip-2-s-debut-malaysia/",
+      "class": "news",
+      "accessed": "2026-11-24"
+    }
+  ]
 }

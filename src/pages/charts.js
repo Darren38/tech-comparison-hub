@@ -23,7 +23,7 @@ const colorOf = (brand) => BRAND_COLOR[brand] ?? '#9aa0a6';
 const TABS = [
   { id: 'cpu', label: 'CPU', hue: 'cpu', tests: [['gb6_multi', 'Geekbench 6 multi-core'], ['gb6_single', 'Geekbench 6 single-core']] },
   { id: 'gpu', label: 'GPU', hue: 'gpu', tests: [['wle', '3DMark Wild Life Extreme'], ['steel_nomad_light', '3DMark Steel Nomad Light'], ['solar_bay', '3DMark Solar Bay']] },
-  { id: 'antutu', label: 'AnTuTu', hue: 'cpu', tests: [['antutu_v11', 'AnTuTu 11 total']] },
+  { id: 'antutu', label: 'AnTuTu', hue: 'cpu', tests: [['antutu_v12', 'AnTuTu 12 total'], ['antutu_v11', 'AnTuTu 11 total']] },
   { id: 'battery', label: 'Battery', hue: 'battery', tests: [['tg_web', "Tom's Guide web test"], ['gsma_active_use', 'GSMArena Active Use'], ['dxomark_battery', 'DXOMARK battery score'], ['tr_video_drain', 'Trusted Reviews video drain']] },
   { id: 'charging', label: 'Charging', hue: 'charging', tests: [['charge_30', 'Charge after 30 minutes'], ['charge_15', 'Charge after 15 minutes'], ['charge_full', 'Time to full']] },
   { id: 'display', label: 'Display', hue: 'display', tests: [['nits_peak', 'Peak brightness (measured)'], ['dxomark_display', 'DXOMARK display score']] },
@@ -47,7 +47,8 @@ const AUTO_TESTS = {
   nits_peak: ['daily', 'Tom’s Guide results from new reviews; other reviewers by hand', 'labs'],
   wle_stability: ['daily', 'Tom’s Guide results from new reviews; other reviewers by hand', 'labs'],
   wle: ['daily', 'from UL’s 3DMark database', 'ul'], steel_nomad_light: ['daily', 'from UL’s 3DMark database', 'ul'], solar_bay: ['daily', 'from UL’s 3DMark database', 'ul'],
-  antutu_v11: ['daily', 'from AnTuTu’s ranking', 'antutu'],
+  // Version 43: the ranking moved to version 12; the v11 scores are kept as recorded and no longer refreshed
+  antutu_v12: ['daily', 'from AnTuTu’s ranking', 'antutu'],
   dxomark_camera: ['daily', 'from DXOMARK’s public list', 'dxomark'], dxomark_camera_v5: ['daily', 'from DXOMARK’s public list', 'dxomark'],
   dxomark_display: ['daily', 'from DXOMARK’s public list', 'dxomark'], dxomark_battery: ['daily', 'from DXOMARK’s public list', 'dxomark'],
 };

@@ -13,7 +13,8 @@ themselves, with the same care as a person would take:
 - UL 3DMark: the full smartphone list is read to find the phone, then its own UL device page is read, exactly like the
   hand-matched phones (the list and device pages differ for Wild Life Extreme, so only the device page is used).
 - DXOMARK: its public score list. Samsung listings marked "(Exynos)" / "(Snapdragon)" are matched to that chip only.
-- AnTuTu: its V11 ranking, which gives each phone's chip.
+- AnTuTu: its ranking, which gives each phone's chip. Each AnTuTu version is its own test (antutu_v11, antutu_v12);
+  a version the reader doesn't know is not read (Version 43).
 - NanoReview: each phone's page gives Geekbench 6 single- and multi-core averages and the chip. Read about once a week,
   one page every 1.5 s; a phone NanoReview doesn't list is tried again after 30 days. (Geekbench's own site is behind a
   bot challenge, which this project never bypasses.)
@@ -57,7 +58,8 @@ PAGE_DELAY = {"ul": 1.2, "nanoreview": 1.5}
 VENDOR_WORDS = {"qualcomm", "mediatek", "samsung", "apple", "google", "hisilicon", "huawei", "unisoc", "xiaomi"}
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from refresh_benchmarks import antutu_rows, text_lines  # noqa: E402  (same page readers as the daily refresh)
+from refresh_benchmarks import ANTUTU_VERSIONS, antutu_page, text_lines  # noqa: E402  (same page readers as the daily refresh)
+from source_status import carry  # noqa: E402
 from devices_all import all_devices, auto_chipsets  # noqa: E402  (Version 20: devices added automatically count too)
 
 _robots: dict[str, urllib.robotparser.RobotFileParser | None] = {}
@@ -142,14 +144,16 @@ def chip_ok(dev: dict, source_chip: str | None) -> bool:
     return bool(dev["chipNames"]) and chip_norm(source_chip) in dev["chipNames"]
 
 
-def hand_matched(source: str) -> set[str]:
-    """Phones a person already matched for this source (their documents live in data/benchmarks)."""
+def hand_matched(source: str, metric: str | None = None) -> set[str]:
+    """Phones a person already matched for this source (their documents live in data/benchmarks). With a metric, only
+    phones matched for that test: a phone matched for AnTuTu V11 by hand can still get its V12 score automatically."""
     files = {"ul": "ul-3dmark.json", "dxomark": "dxomark-scores.json", "antutu": "antutu-ranking.json"}
     done: set[str] = set()
     if source in files and (DATA / "benchmarks" / files[source]).exists():
         for doc in json.loads((DATA / "benchmarks" / files[source]).read_text(encoding="utf-8")):
-            done.update(doc.get("devices", []))
-            done.update(r.get("subject") for r in doc.get("records", []))
+            if metric is None:
+                done.update(doc.get("devices", []))
+            done.update(r.get("subject") for r in doc.get("records", []) if metric is None or r.get("metric") == metric)
     return done
 
 
@@ -226,14 +230,17 @@ def dxomark(devices, prev) -> tuple[dict, dict]:
 
 
 def antutu(devices, prev) -> tuple[dict, dict]:
-    rows = antutu_rows(fetch(ANTUTU))
+    version, rows = antutu_page(fetch(ANTUTU))
+    if version not in ANTUTU_VERSIONS:
+        raise RuntimeError(f"the ranking is version {version or 'unknown'}, which this reader doesn't know")
     if len(rows) < 20:
         raise RuntimeError(f"only {len(rows)} rows read")
+    metric = f"antutu_v{version}"
     expand = {"s": "snapdragon", "m": "dimensity", "d": "dimensity", "e": "exynos", "k": "kirin", "t": "tensor"}
     by_name: dict[str, list[dict]] = {}
     for r in rows:
         by_name.setdefault(norm(r["name"], loose=True), []).append(r)
-    done = hand_matched("antutu")
+    done = hand_matched("antutu", metric)
     matches = {}
     for dev in devices:
         if dev["id"] in done:
@@ -244,9 +251,9 @@ def antutu(devices, prev) -> tuple[dict, dict]:
             if re.match(r"dimensity g\d", chip_norm(chip)):  # M-G99 is a Helio chip
                 chip = "helio " + chip.split()[-1]
             if chip_ok(dev, chip):
-                matches[dev["id"]] = {"name": r["name"], "chip": r["chip"], "memory": r["mem"], "url": ANTUTU, "values": {"antutu_v11": r["total"]}}
+                matches[dev["id"]] = {"name": r["name"], "chip": r["chip"], "memory": r["mem"], "url": ANTUTU, "values": {metric: r["total"]}}
                 break
-    return matches, {"rows": len(rows)}
+    return matches, {"rows": len(rows), "version": version}
 
 
 def nano_page(url: str) -> dict | None:
@@ -326,8 +333,9 @@ def main() -> int:
         try:
             found, info = job(devices, prev)
         except Exception as exc:  # noqa: BLE001 - keep the previous matches for this source
-            data["sources"][name] = {**(data["sources"].get(name) or {}), "ok": False, "error": f"{exc.__class__.__name__}: {str(exc)[:120]}",
-                                     "tried": now.isoformat(timespec="seconds")}
+            was = data["sources"].get(name) or {}
+            data["sources"][name] = carry(was, {**was, "ok": False, "error": f"{exc.__class__.__name__}: {str(exc)[:120]}",
+                                                "tried": now.isoformat(timespec="seconds")}, now.isoformat(timespec="seconds"))
             print(f"[auto-bench] {name}: failed ({exc})")
             continue
         if "misses" in info:
@@ -347,7 +355,8 @@ def main() -> int:
             kept[dev_id] = {**m, "values": values, "matchedAt": (old.get(dev_id) or {}).get("matchedAt") or now.date().isoformat(),
                             "checkedAt": now.date().isoformat()}
         data["matches"][name] = kept
-        data["sources"][name] = {"ok": True, "at": now.isoformat(timespec="seconds"), "matched": len(kept), **info}
+        data["sources"][name] = carry(data["sources"].get(name), {"ok": True, "at": now.isoformat(timespec="seconds"), "matched": len(kept), **info},
+                                      now.isoformat(timespec="seconds"))
         print(f"[auto-bench] {name}: {len(kept)} phones matched automatically {info}")
     if ran:
         data["updatedAt"] = now.isoformat(timespec="seconds")

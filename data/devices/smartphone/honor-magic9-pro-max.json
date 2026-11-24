@@ -9,14 +9,27 @@
   "announced": "2026-09-28",
   "released": "2026-09-28",
   "segment": "flagship",
-  "summary": "HONOR's 2026 camera flagship, co-engineered with ARRI: a 200 MP 1/1.28-inch main camera and a 200 MP telephoto, the Snapdragon 8 Elite Extreme Gen 6 and an 8,800 mAh battery. On sale in China from 28 September 2026; HONOR says Southeast Asian launches will be announced.",
+  "summary": "HONOR's 2026 camera flagship, co-engineered with ARRI: a 200 MP 1/1.28-inch main camera and a 200 MP telephoto, the Snapdragon 8 Elite Extreme Gen 6 and an 8,000 mAh battery in Malaysia (8,800 mAh in China). On sale in China from 28 September 2026; Malaysian pre-orders at RM5,999 run until 3 December 2026, and the specifications here are the Malaysian model's.",
   "highlights": [
     "Snapdragon 8 Elite Extreme Gen 6",
     "200 MP 1/1.28\" main + 200 MP telephoto (ARRI)",
-    "8,800 mAh battery",
+    "8,000 mAh battery",
     "100 W wired, 80 W wireless"
   ],
   "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 5999,
+      "config": "12 GB / 512 GB",
+      "date": "2026-11-24",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2026/410280/honor-magic9-pro-max-launch-malaysia/",
+      "class": "news",
+      "accessed": "2026-11-24",
+      "note": "Malaysian pre-orders until 3 December 2026, with free gifts (Lowyat); the only Malaysian version."
+    },
     {
       "region": "CN",
       "currency": "CNY",
@@ -84,13 +97,10 @@
     },
     "memory": {
       "ram_gb": [
-        12,
-        16
+        12
       ],
       "storage_gb": [
-        256,
-        512,
-        1024
+        512
       ]
     },
     "camera": {
@@ -119,11 +129,19 @@
       "video": "ARRI CINEMA mode up to 4K 60 fps, ARRI LogC3"
     },
     "build": {
-      "ip": "IP68, IP69, IP69K"
+      "ip": "IP68, IP69, IP69K",
+      "weight_g": 233,
+      "dimensions": {
+        "height_mm": 161.64,
+        "width_mm": 76.98,
+        "depth_mm": 8.59
+      }
     },
     "battery": {
-      "capacity_mah": 8800,
-      "chemistry": "Silicon-carbon"
+      "capacity_mah": 8000,
+      "chemistry": "Silicon-carbon",
+      "rated_mah": 7745,
+      "variants": "Malaysia: 8,000 mAh; China: 8,800 mAh"
     },
     "charging": {
       "wired_w": 100,
@@ -152,9 +170,9 @@
       "official_page": {
         "class": "official",
         "source": "honor",
-        "url": "https://www.honor.com/cn/phones/honor-magic9-pro-max/",
-        "checked": "2026-11-03",
-        "note": "HONOR Magic9 Pro Max product page on HONOR China's site."
+        "url": "https://www.honor.com/my/phones/honor-magic9-pro-max/spec/",
+        "checked": "2026-11-24",
+        "note": "HONOR Magic9 Pro Max specification page on HONOR Malaysia's site."
       },
       "released": {
         "class": "official",
@@ -162,16 +180,70 @@
         "url": "https://www.honor.com/global/news/honor-magic9-launch/",
         "checked": "2026-11-03",
         "note": "HONOR: official sales in China begin on 28 September, from RMB 6,499."
+      },
+      "specs.battery.capacity_mah": {
+        "class": "official",
+        "source": "honor",
+        "url": "https://www.honor.com/my/phones/honor-magic9-pro-max/spec/",
+        "checked": "2026-11-24",
+        "note": "8,000 mAh typical (7,745 mAh rated) on HONOR Malaysia's page; the Chinese model has 8,800 mAh."
+      },
+      "specs.battery.rated_mah": {
+        "class": "official",
+        "source": "honor",
+        "url": "https://www.honor.com/my/phones/honor-magic9-pro-max/spec/",
+        "checked": "2026-11-24",
+        "note": "7,745 mAh rated, HONOR Malaysia."
+      },
+      "specs.memory.ram_gb": {
+        "class": "official",
+        "source": "honor",
+        "url": "https://www.honor.com/my/phones/honor-magic9-pro-max/spec/",
+        "checked": "2026-11-24",
+        "note": "Malaysia gets 12 GB; China also has 16 GB."
+      },
+      "specs.memory.storage_gb": {
+        "class": "official",
+        "source": "honor",
+        "url": "https://www.honor.com/my/phones/honor-magic9-pro-max/spec/",
+        "checked": "2026-11-24",
+        "note": "Malaysia gets 512 GB only; China also has 256 GB and 1 TB."
+      },
+      "specs.build.weight_g": {
+        "class": "official",
+        "source": "honor",
+        "url": "https://www.honor.com/my/phones/honor-magic9-pro-max/spec/",
+        "checked": "2026-11-24",
+        "note": "Approx. 233 g with the battery, HONOR Malaysia."
+      },
+      "specs.build.dimensions": {
+        "class": "official",
+        "source": "honor",
+        "url": "https://www.honor.com/my/phones/honor-magic9-pro-max/spec/",
+        "checked": "2026-11-24",
+        "note": "161.64 × 76.98 × 8.59 mm, HONOR Malaysia."
+      },
+      "specs.build.ip": {
+        "class": "official",
+        "source": "honor",
+        "url": "https://www.honor.com/my/phones/honor-magic9-pro-max/spec/",
+        "checked": "2026-11-24",
+        "note": "IP68, IP69 and IP69K on HONOR Malaysia's page."
+      },
+      "specs.charging.wired_w": {
+        "class": "official",
+        "source": "honor",
+        "url": "https://www.honor.com/my/phones/honor-magic9-pro-max/spec/",
+        "checked": "2026-11-24",
+        "note": "100 W wired, 80 W wireless on HONOR Malaysia's page (same as China)."
+      },
+      "specs.battery.variants": {
+        "class": "news",
+        "source": "fonearena",
+        "url": "https://www.fonearena.com/blog/493508/honor-magic-9-pro-max-price-specifications-magic-9-magic-9-super-edition.html",
+        "checked": "2026-11-24",
+        "note": "Chinese capacity from the China launch reports; Malaysian capacity from HONOR Malaysia's specification page."
       }
-    }
-  },
-  "availability": {
-    "MY": {
-      "status": "not-launched",
-      "checked": "2026-11-13",
-      "source": "soyacincau",
-      "url": "https://soyacincau.com/2026/11/12/honor-magic-9-pro-max-malaysia-launch-24-november/",
-      "note": "HONOR Malaysia launches it on 24 November 2026 (SoyaCincau's headline); no Malaysian price yet."
     }
   },
   "dataStatus": "compiled",

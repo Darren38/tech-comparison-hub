@@ -910,7 +910,7 @@ def find_new(state: dict, hub: Hub, limit: int, log) -> None:
             for sm in mk["sitemaps"]:
                 urls += sitemap_urls(sm)
         except Exception as e:  # noqa: BLE001
-            sources[brand] = {"ok": False, "at": now_iso(), "error": str(e)[:160]}
+            sources[brand] = carry(sources.get(brand), {"ok": False, "at": now_iso(), "error": str(e)[:160]}, now_iso())
             log(f"[devices] {brand}: sitemap not read ({e})")
             continue
         specs = {}
@@ -925,13 +925,13 @@ def find_new(state: dict, hub: Hub, limit: int, log) -> None:
                 if cat in PHONE_TABLET:
                     specs[u] = (cat, m.group(2))
         if not specs:                                     # a sitemap with no spec pages is a failed read, never "nothing listed"
-            sources[brand] = {"ok": False, "at": now_iso(), "error": "no specification pages found in the sitemap"}
+            sources[brand] = carry(sources.get(brand), {"ok": False, "at": now_iso(), "error": "no specification pages found in the sitemap"}, now_iso())
             log(f"[devices] {brand}: no spec pages in the sitemap; nothing changed")
             continue
         first_time = brand not in seen
         known = set(seen.get(brand, []))
         new = [u for u in specs if u not in known]
-        sources[brand] = {"ok": True, "at": now_iso(), "pages": len(specs), "new": 0 if first_time else len(new)}
+        sources[brand] = carry(sources.get(brand), {"ok": True, "at": now_iso(), "pages": len(specs), "new": 0 if first_time else len(new)}, now_iso())
         if first_time:
             seen[brand] = sorted(specs)
             log(f"[devices] {brand}: first read, {len(specs)} spec pages remembered (none added)")
@@ -960,7 +960,7 @@ def find_new(state: dict, hub: Hub, limit: int, log) -> None:
         if not entries:
             raise OSError("no models listed")
         known = set(seen.get("apple", []))
-        sources["apple"] = {"ok": True, "at": now_iso(), "pages": len(entries), "new": 0 if "apple" not in seen else len(set(entries) - known)}
+        sources["apple"] = carry(sources.get("apple"), {"ok": True, "at": now_iso(), "pages": len(entries), "new": 0 if "apple" not in seen else len(set(entries) - known)}, now_iso())
         years = state.get("_appleYears") or {}
         for href, e in entries.items():                   # an old model listed again is not new (Version 22)
             y = years.get(key(e["name"]))
@@ -987,7 +987,7 @@ def find_new(state: dict, hub: Hub, limit: int, log) -> None:
             log(f"[devices] apple: first read, {len(entries)} models remembered (none added)")
         seen["apple"] = sorted(known | set(entries))
     except Exception as e:  # noqa: BLE001
-        sources["apple"] = {"ok": False, "at": now_iso(), "error": str(e)[:160]}
+        sources["apple"] = carry(sources.get("apple"), {"ok": False, "at": now_iso(), "error": str(e)[:160]}, now_iso())
     # Samsung: launch announcements on Samsung Newsroom Malaysia (collected with the headlines), from the first run on
     since = state.setdefault("samsungSince", TODAY)
     news = []
@@ -1041,7 +1041,7 @@ def find_new(state: dict, hub: Hub, limit: int, log) -> None:
                                  "slug": None, "name": model, "firstSeen": (item.get("published") or TODAY)[:10], "tries": 0, "samsung": True})
         count += 1
     seen["samsung-newsroom"] = sorted(done_articles)
-    sources["samsung"] = {"ok": True, "at": now_iso(), "pages": len([n for n in news if SAMSUNG_MY.match(n.get("url", ""))]), "new": count}
+    sources["samsung"] = carry(sources.get("samsung"), {"ok": True, "at": now_iso(), "pages": len([n for n in news if SAMSUNG_MY.match(n.get("url", ""))]), "new": count}, now_iso())
     # models the news is talking about, on makers' sites without a sitemap
     tried = state.setdefault("guessed", {})
     for name in spotted_names():

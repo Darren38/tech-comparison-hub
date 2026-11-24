@@ -4,7 +4,7 @@
     "kind": "benchmark",
     "source": "antutu",
     "title": "AnTuTu Benchmark Rankings — V11, Android smartphones (updated August 2026)",
-    "url": "https://www.antutu.com/web/en/ranking",
+    "url": "https://web.archive.org/web/20260921235317/https://www.antutu.com/web/ranking",
     "published": "2026-08",
     "accessed": "2026-09-24",
     "class": "database",
@@ -78,7 +78,7 @@
     "facets": [
       "performance"
     ],
-    "method": "AnTuTu's own monthly ranking of popular Android phones. Each score is the average of all results for that model (global data, not including China), not the highest. Only rows whose model name and chipset both match a phone on this site were used; iPhones are on a separate tab that was not read.",
+    "method": "AnTuTu's own monthly ranking of popular Android phones. Each score is the average of all results for that model (global data, not including China), not the highest. Only rows whose model name and chipset both match a phone on this site were used; iPhones are on a separate tab that was not read. AnTuTu's ranking has since moved to version 12, whose totals are a different test; the link is the Internet Archive's copy of the ranking page on 21 September 2026, which shows these V11 values. These scores are no longer refreshed.",
     "records": [
       {
         "subject": "honor-magic8-pro",

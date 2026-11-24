@@ -17,14 +17,6 @@
     "6.57-inch 120 Hz",
     "8,000 mAh, 45 W"
   ],
-  "availability": {
-    "MY": {
-      "status": "price-not-found",
-      "checked": "2026-09-25",
-      "source": "oppo",
-      "note": "Listed on the maker’s Malaysian website, but no Malaysian launch price was found in a launch report."
-    }
-  },
   "specs": {
     "build": {
       "weight_g": 205.0,
@@ -107,5 +99,20 @@
     "page": "https://www.oppo.com/my/smartphones/series-a/a7-pro-5g/specs/",
     "credit": "OPPO",
     "checked": "2026-09-25"
-  }
+  },
+  "prices": [
+    {
+      "region": "MY",
+      "currency": "MYR",
+      "amount": 1699,
+      "config": "6 GB / 256 GB",
+      "date": "2026-09",
+      "type": "launch",
+      "source": "lowyat",
+      "url": "https://www.lowyat.net/2026/404699/oppo-a7-pro-series-launch-malaysia/",
+      "class": "news",
+      "accessed": "2026-11-24",
+      "note": "Starting price; an 8 GB / 256 GB version is also sold (Lowyat gives no separate figure)."
+    }
+  ]
 }

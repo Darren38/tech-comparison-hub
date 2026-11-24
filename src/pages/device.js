@@ -18,7 +18,7 @@ import { allCategoryScores, rankOf, profileScore } from '../engine/scoring.js';
 import { displayPrice, priceText, priceExplanation, availabilityIn } from '../engine/money.js';
 
 const EVIDENCE_GROUPS = [
-  { id: 'performance', label: 'Performance', metrics: ['gb6_single', 'gb6_multi', 'antutu_v11', 'antutu_v10'] },
+  { id: 'performance', label: 'Performance', metrics: ['gb6_single', 'gb6_multi', 'antutu_v12', 'antutu_v11', 'antutu_v10'] },
   { id: 'gaming', label: 'Gaming & thermals', metrics: ['wle', 'wle_stability', 'solar_bay', 'steel_nomad_light'] },
   { id: 'battery', label: 'Battery', metrics: ['gsma_active_use', 'gsma_web', 'gsma_video', 'gsma_gaming', 'gsma_calls', 'engadget_video', 'tg_web'] },
   { id: 'charging', label: 'Charging', metrics: ['charge_full', 'charge_30', 'charge_15', 'wireless_charge_full'] },

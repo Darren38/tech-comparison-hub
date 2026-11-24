@@ -1,0 +1,156 @@
+{
+  "id": "huawei-mate-90-air",
+  "name": "Huawei Mate 90 Air",
+  "brand": "huawei",
+  "category": "smartphone",
+  "series": "Mate",
+  "form": "bar",
+  "status": "pre-order",
+  "announced": "2026-11-24",
+  "segment": "flagship",
+  "summary": "Huawei's thin large-screen Mate: a 7-inch OLED screen in a 6.58 mm, 208 g body, the Kirin 9020 and a 6,500 mAh battery. Launched in China on 24 November 2026, on sale there from 4 December; no Malaysian launch announced.",
+  "highlights": [
+    "Kirin 9020",
+    "7-inch OLED, 6.58 mm, 208 g",
+    "6,500 mAh, 66 W",
+    "From CN¥4,999"
+  ],
+  "prices": [
+    {
+      "region": "CN",
+      "currency": "CNY",
+      "amount": 4999,
+      "config": "12 GB / 256 GB",
+      "date": "2026-11-24",
+      "type": "launch",
+      "source": "ithome",
+      "url": "https://www.ithome.com/1/031/527.htm",
+      "class": "news",
+      "accessed": "2026-11-24"
+    },
+    {
+      "region": "CN",
+      "currency": "CNY",
+      "amount": 5999,
+      "config": "12 GB / 512 GB",
+      "date": "2026-11-24",
+      "type": "launch",
+      "source": "ithome",
+      "url": "https://www.ithome.com/1/031/527.htm",
+      "class": "news",
+      "accessed": "2026-11-24"
+    }
+  ],
+  "image": {
+    "kind": "official",
+    "src": "https://consumer.huawei.com/content/dam/huawei-cbg-site/cn/mkt/pdp/phones/mate90-air/list/gold.png",
+    "page": "https://consumer.huawei.com/cn/phones/mate90-air/specs/",
+    "credit": "Huawei China",
+    "checked": "2026-11-24"
+  },
+  "specs": {
+    "display": {
+      "size_in": 7,
+      "type": "OLED",
+      "resolution": "2760 × 1320"
+    },
+    "platform": {
+      "chipset": "kirin-9020"
+    },
+    "memory": {
+      "ram_gb": [
+        12
+      ],
+      "storage_gb": [
+        256,
+        512
+      ]
+    },
+    "battery": {
+      "capacity_mah": 6500
+    },
+    "charging": {
+      "wired_w": 66,
+      "wireless_w": 0
+    },
+    "camera": {
+      "rear": [
+        {
+          "role": "main",
+          "mp": 50,
+          "aperture": "f/1.8",
+          "ois": true,
+          "note": "1/1.3-inch"
+        },
+        {
+          "role": "telephoto",
+          "mp": 12,
+          "aperture": "f/2.4",
+          "ois": true,
+          "note": "RYYB"
+        },
+        {
+          "role": "ultrawide",
+          "mp": 8,
+          "aperture": "f/2.2",
+          "note": "with macro"
+        }
+      ],
+      "front": "10.7 MP ultrawide, f/2.2"
+    },
+    "build": {
+      "weight_g": 208,
+      "ip": "IP68, IP69",
+      "dimensions": {
+        "width_mm": 81.4,
+        "depth_mm": 6.58
+      }
+    },
+    "software": {
+      "launch_os": "HarmonyOS 7"
+    }
+  },
+  "provenance": {
+    "default": {
+      "class": "official",
+      "source": "huawei",
+      "url": "https://consumer.huawei.com/cn/phones/mate90-air/specs/",
+      "checked": "2026-11-24",
+      "note": "Read from Huawei China's specification page (no wireless charging, as the page states)."
+    },
+    "fields": {
+      "official_page": {
+        "class": "official",
+        "source": "huawei",
+        "url": "https://consumer.huawei.com/cn/phones/mate90-air/",
+        "checked": "2026-11-24",
+        "note": "Huawei Mate 90 Air product page on Huawei China's site."
+      },
+      "announced": {
+        "class": "news",
+        "source": "ithome",
+        "url": "https://www.ithome.com/1/031/527.htm",
+        "checked": "2026-11-24",
+        "note": "IT之家: launched on 24 November 2026; pre-orders from launch, on sale from 4 December 2026 at 10:08."
+      },
+      "status": {
+        "class": "news",
+        "source": "ithome",
+        "url": "https://www.ithome.com/1/031/527.htm",
+        "checked": "2026-11-24",
+        "note": "IT之家: pre-orders from 24 November, on sale from 4 December 2026."
+      }
+    }
+  },
+  "availability": {
+    "MY": {
+      "status": "not-launched",
+      "checked": "2026-11-24",
+      "source": "ithome",
+      "url": "https://www.ithome.com/1/031/527.htm",
+      "note": "China launch only; Huawei has not given global or Malaysian details."
+    }
+  },
+  "dataStatus": "checked",
+  "checked": "2026-11-24"
+}

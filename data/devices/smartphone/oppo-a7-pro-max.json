@@ -5,7 +5,7 @@
   "category": "smartphone",
   "series": "A",
   "form": "bar",
-  "status": "pre-order",
+  "status": "released",
   "announced": "2026-09-14",
   "prices": [
     {
@@ -91,6 +91,13 @@
         "class": "platform",
         "source": "platform",
         "note": "Calculated from resolution and screen size."
+      },
+      "released": {
+        "class": "news",
+        "source": "lowyat",
+        "url": "https://www.lowyat.net/2026/404699/oppo-a7-pro-series-launch-malaysia/",
+        "checked": "2026-11-24",
+        "note": "Lowyat (September 2026): both models are available now through OPPO Malaysia's official and authorised channels."
       }
     }
   },
@@ -101,5 +108,6 @@
     "page": "https://www.oppo.com/my/smartphones/series-a/a7-pro-max-5g/",
     "credit": "OPPO Malaysia",
     "checked": "2026-09-19"
-  }
+  },
+  "released": "2026-09"
 }

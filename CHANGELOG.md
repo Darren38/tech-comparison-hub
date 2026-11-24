@@ -1,5 +1,17 @@
 # Changelog
 
+## 24 November 2026
+
+
+Weekly update: AnTuTu's new ranking, a warning for automatic sources that keep failing, and today's launches.
+
+- AnTuTu's ranking moved to version 12 in autumn 2026 with a new layout, and its daily refresh had read nothing since 27 September. It now reads both layouts, and each version is its own test: version 12 totals (from today, 43 phones matched automatically, such as the HONOR Magic9 Pro Max at 4,532,191) are never compared with version 11 ones. A ranking in a version the reader doesn't know is not read at all.
+- The 65 AnTuTu version 11 scores from August 2026 stay, and now link to the Internet Archive's copy of the ranking page that shows them. Performance scores still use version 11 first, so the 154 devices that have a version 11 or 10 result keep their AnTuTu score; version 12 counts only for the 19 that had no AnTuTu result before (3 with their own result, 16 through their chip).
+- Every automatic source now records when it started failing. The site check-up after each update warns when one has been failing for 7 days or more, even when the files it writes still look fresh.
+- HONOR Magic9 Pro Max in Malaysia: RM5,999 (12 GB / 512 GB), on pre-order until 3 December, with the Malaysian model's 8,000 mAh battery (8,800 mAh in China) and 233 g, from HONOR Malaysia's own page.
+- Added: HONOR Pad X9b Max (RM1,499 in Malaysia), Huawei Mate X8 and Huawei Mate 90 Air (both launched in China today), with the makers' pictures.
+- Malaysian prices found for the realme C85 5G, realme 16T, OPPO A7 Pro, Nothing Phone (4a) Pro, Galaxy Tab A11+ and Huawei FreeClip 2 S; the OPPO A7 Pro Max is marked as on sale.
+
 ## 22 November 2026
 
 

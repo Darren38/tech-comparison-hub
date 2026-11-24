@@ -1,5 +1,5 @@
 """Refresh the benchmark databases automatically (Version 16): UL 3DMark device pages, AnTuTu's ranking and DXOMARK's
-public score list.
+public score list. AnTuTu scores are refreshed only in the version the ranking shows now (Version 43).
 
     python tools/refresh_benchmarks.py                     refresh now, write live/auto/benchmarks.json
     python tools/refresh_benchmarks.py --max-age-hours 20  do nothing if the saved refresh is newer than that
@@ -22,6 +22,9 @@ import time
 import urllib.request
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from source_status import carry  # noqa: E402
+
 ROOT = Path(__file__).resolve().parent.parent
 BENCH = ROOT / "data" / "benchmarks"
 OUT = ROOT / "live" / "auto" / "benchmarks.json"
@@ -35,6 +38,9 @@ DXO_FIELDS = {"dxomark_camera_v5": "camerav5", "dxomark_camera": "camerav6", "dx
               "dxomark_battery": "batteryv1_5", "dxomark_audio": "audiov2"}
 DXO_LIST = "https://www.dxomark.com/dakdata/webservices/public/smartphones"
 ANTUTU = "https://www.antutu.com/web/ranking"  # moved from /web/en/ranking in September 2026
+# Version 43: each AnTuTu version is its own test (metric antutu_v<N>); a ranking in a version not listed here is not read,
+# so a new version can never be stored as an older one
+ANTUTU_VERSIONS = {11, 12}
 
 
 def fetch(url: str, timeout: int = 40) -> str:
@@ -96,30 +102,49 @@ def refresh_ul(out: dict) -> dict:
 
 # ------------------------------------------------------------------ AnTuTu ranking (one page)
 def antutu_rows(page: str) -> list[dict]:
+    """Rank, name, then the chip and memory (one line, "S-8 Elite Gen 5 | 16+512", since autumn 2026; two lines before),
+    then CPU, GPU, MEM, UX and the total."""
     L = [re.sub(r"^\|\s*", "", l) for l in text_lines(page)]
     rows = []
-    for i in range(len(L) - 8):
+    for i in range(len(L) - 7):
         if not re.fullmatch(r"\d{1,3}", L[i]):
             continue
-        k = next((k for k in (i + 3, i + 4) if re.fullmatch(r"\d+\+\d+", L[k])), None)
-        if k:
-            vals = L[k + 1:k + 6]
-            if all(re.fullmatch(r"[\d,]+", v) for v in vals):
-                rows.append({"name": L[i + 1], "chip": L[i + 2], "mem": L[k], "total": int(vals[4].replace(",", ""))})
+        one = re.fullmatch(r"(.+?)\s*\|\s*(\d+\+\d+)", L[i + 2])
+        if one:
+            chip, mem, vals = one.group(1).strip(), one.group(2), L[i + 3:i + 8]
+        else:
+            k = next((k for k in (i + 3, i + 4) if k < len(L) and re.fullmatch(r"\d+\+\d+", L[k])), None)
+            if not k:
+                continue
+            chip, mem, vals = L[i + 2], L[k], L[k + 1:k + 6]
+        if len(vals) == 5 and all(re.fullmatch(r"[\d,]+", v) for v in vals):
+            rows.append({"name": L[i + 1], "chip": chip, "mem": mem, "total": int(vals[4].replace(",", ""))})
     return rows
+
+
+def antutu_page(page: str) -> tuple[int | None, list[dict]]:
+    """(the ranking's version from its heading "Rankings V12", its rows)."""
+    m = re.search(r"Rankings\s+V(\d+)\b", " ".join(text_lines(page)[:400]))
+    return (int(m.group(1)) if m else None), antutu_rows(page)
 
 
 def refresh_antutu(out: dict) -> dict:
     try:
-        rows = antutu_rows(fetch(ANTUTU))
+        version, rows = antutu_page(fetch(ANTUTU))
     except Exception as exc:
         return {"ok": False, "error": str(exc)[:120]}
+    if version not in ANTUTU_VERSIONS:
+        return {"ok": False, "error": f"the ranking is version {version or 'unknown'}, which this reader doesn't know; nothing read"}
     if len(rows) < 20:
         return {"ok": False, "error": f"only {len(rows)} rows read"}
+    metric = f"antutu_v{version}"
     by_key = {(r["name"], r["chip"], r["mem"]): r for r in rows}
-    matched = 0
+    matched = other = 0
     for doc in load("antutu-ranking.json"):
         for rec in doc["records"]:
+            if rec["metric"] != metric:     # a score of another version stays as recorded, with its own date
+                other += 1
+                continue
             # the note records exactly what was matched: Listed as "NAME" (CHIP, MEM GB): ...
             m = re.match(r'Listed as "([^"]+)" \(([^,]+), ([\d+]+) GB\)', rec.get("note", ""))
             row = by_key.get((m.group(1), m.group(2), m.group(3))) if m else None
@@ -128,7 +153,7 @@ def refresh_antutu(out: dict) -> dict:
                 consider(out, doc, rec, row["total"], "antutu")
         if matched:
             out["confirmed"].append(doc["id"])
-    return {"ok": True, "rows": len(rows), "matched": matched}
+    return {"ok": True, "version": version, "rows": len(rows), "matched": matched, **({"keptAsRecorded": other} if other else {})}
 
 
 # ------------------------------------------------------------------ DXOMARK public list (one request)
@@ -170,10 +195,15 @@ def main() -> int:
     out = {"refreshedAt": now.isoformat(timespec="seconds"), "maxChangePct": MAX_CHANGE * 100, "sources": {},
            "updates": [], "held": [], "unchanged": 0, "confirmed": []}
     runners = {"dxomark": refresh_dxomark, "antutu": refresh_antutu, "ul": refresh_ul}
+    try:
+        before = json.loads(OUT.read_text(encoding="utf-8")).get("sources") or {} if OUT.exists() else {}
+    except ValueError:
+        before = {}
+    stamp = now.isoformat(timespec="seconds")
     for name, fn in runners.items():
         if args.only and args.only != name:
             continue
-        out["sources"][name] = fn(out)
+        out["sources"][name] = carry(before.get(name), fn(out), stamp)   # Version 43: failingSince / lastOk
         print(f"[benchmarks] {name}: {out['sources'][name]}", flush=True)
     if not any(s.get("ok") for s in out["sources"].values()):
         print("[benchmarks] No source could be read; keeping the previous refresh.")

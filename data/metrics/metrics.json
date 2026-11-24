@@ -47,7 +47,8 @@
       4500000
     ],
     "notComparableWith": [
-      "antutu_v11"
+      "antutu_v11",
+      "antutu_v12"
     ],
     "description": "Composite CPU, GPU, memory and UX score. AnTuTu v10 and v11 use different workloads and scales, so their totals are never compared with each other."
   },
@@ -67,9 +68,31 @@
       5500000
     ],
     "notComparableWith": [
-      "antutu_v10"
+      "antutu_v10",
+      "antutu_v12"
     ],
-    "description": "Composite CPU, GPU, memory and UX score (version 11, released 2025). Not comparable with v10 totals."
+    "description": "Composite CPU, GPU, memory and UX score (version 11, released 2025). Not comparable with v10 or v12 totals."
+  },
+  {
+    "id": "antutu_v12",
+    "name": "AnTuTu v12 total",
+    "short": "AnTuTu 12",
+    "unit": "pts",
+    "better": "higher",
+    "facet": "performance",
+    "level": "chipset",
+    "comparability": "global",
+    "family": "antutu",
+    "version": "12",
+    "plausible": [
+      300000,
+      7000000
+    ],
+    "notComparableWith": [
+      "antutu_v10",
+      "antutu_v11"
+    ],
+    "description": "Composite CPU, GPU, memory and UX score (version 12, the version of AnTuTu's ranking since autumn 2026). Not comparable with v10 or v11 totals."
   },
   {
     "id": "wle",
